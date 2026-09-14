@@ -1,0 +1,84 @@
+baseURL = 'https://kingsworksub-jpg.github.io/'
+locale = 'ja'
+defaultContentLanguage = 'ja'
+title = 'Studio Notes'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+
+[params]
+  env = 'production'
+  description = '音響機材・DTM・音楽制作ソフトの使用レビューと制作環境紹介'
+  author = 'kingsworksub-jpg'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = 'Studio Notes へようこそ'
+    Content = '音響機材・DTM・音楽制作ソフトを実際に使ったレビューと、制作環境の紹介をしています。'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/kingsworksub-jpg'
+
+[menu]
+  [[menu.main]]
+    identifier = 'gear'
+    name = '機材レビュー'
+    url = '/categories/gear/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'software'
+    name = 'DTMソフト・Tips'
+    url = '/categories/software/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'setup'
+    name = '制作環境公開'
+    url = '/categories/setup/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'learning'
+    name = 'スクール・学習'
+    url = '/categories/learning/'
+    weight = 40
+  [[menu.main]]
+    identifier = 'search'
+    name = '検索'
+    url = '/search/'
+    weight = 50
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
