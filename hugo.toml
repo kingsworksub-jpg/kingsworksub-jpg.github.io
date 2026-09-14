@@ -1,6 +1,7 @@
 baseURL = 'https://kingsworksub-jpg.github.io/'
 locale = 'ja'
 defaultContentLanguage = 'ja'
+timeZone = 'Asia/Tokyo'
 title = 'Studio Notes'
 theme = 'PaperMod'
 
