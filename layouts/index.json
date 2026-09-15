@@ -1,0 +1,16 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range site.RegularPages -}}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `search`) }}
+    {{- $.Scratch.Add "index" (dict
+        "title" .Title
+        "content" .Plain
+        "permalink" .Permalink
+        "relpermalink" .RelPermalink
+        "summary" .Summary
+        "date" (.Date.Format "2006-01-02")
+        "categories" .Params.categories
+        "key" (printf "kingsworksub-jpg-studionotes-%s" .File.ContentBaseName)
+    ) -}}
+    {{- end }}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

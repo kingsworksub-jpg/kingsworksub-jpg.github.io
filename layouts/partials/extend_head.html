@@ -1,0 +1,18 @@
+{{- if and .IsPage (eq .Type "posts") }}
+<script defer>
+(function () {
+  var key = "kingsworksub-jpg-studionotes-{{ .File.ContentBaseName }}";
+  fetch("https://countapi.mileshilliard.com/api/v1/hit/" + encodeURIComponent(key))
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data || typeof data.value === "undefined") return;
+      var meta = document.querySelector(".post-single .post-meta");
+      if (!meta) return;
+      var span = document.createElement("span");
+      span.textContent = " · 👁 " + data.value + " views";
+      meta.appendChild(span);
+    })
+    .catch(function () { /* counter service unavailable, fail silently */ });
+})();
+</script>
+{{- end }}
