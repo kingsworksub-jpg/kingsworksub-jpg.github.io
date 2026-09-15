@@ -1,5 +1,5 @@
 ---
-title: "アナログターンテーブル五番勝負 — 針を落とす、という儀式について"
+title: "アナログターンテーブル — 針を落とす、という儀式について"
 date: 2026-09-15
 categories: ["gear"]
 tags: ["ターンテーブル", "レコードプレーヤー", "機材", "比較", "Technics", "Audio-Technica", "Rega", "Pro-Ject", "Sony"]

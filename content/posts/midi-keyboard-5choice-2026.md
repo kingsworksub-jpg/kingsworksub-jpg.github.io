@@ -1,5 +1,5 @@
 ---
-title: "MIDIキーボード五番勝負 — 指先が最初に触れる相手"
+title: "MIDIキーボード — 指先が最初に触れる相手"
 date: 2026-09-15
 categories: ["gear"]
 tags: ["MIDIキーボード", "機材", "比較", "Komplete Kontrol", "MPK Mini", "KeyLab Essential", "Launchkey", "A-88MKII"]

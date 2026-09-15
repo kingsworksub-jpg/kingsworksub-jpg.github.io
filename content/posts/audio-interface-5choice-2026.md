@@ -1,5 +1,5 @@
 ---
-title: "オーディオI/O五番勝負 — 声とパソコンのあいだに立つ人"
+title: "オーディオI/O — 声とパソコンのあいだに立つ人"
 date: 2026-09-15
 categories: ["gear"]
 tags: ["オーディオインターフェース", "機材", "比較", "Scarlett", "Volt", "RME", "AG03MK2", "UR22C"]
