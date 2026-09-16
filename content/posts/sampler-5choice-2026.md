@@ -1,5 +1,5 @@
 ---
-title: "サンプラー — 音の欠片を、誰の手に委ねるか"
+title: "サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか"
 date: 2026-09-15
 categories: ["software"]
 tags: ["サンプラー", "DTM", "比較", "Kontakt", "Battery", "TAL-Sampler", "UVI Falcon", "Serato Sample"]

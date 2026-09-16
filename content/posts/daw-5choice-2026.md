@@ -1,5 +1,5 @@
 ---
-title: "DAW — 2026年、机の上のオーケストラを誰に任せるか"
+title: "DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか"
 date: 2026-09-14
 categories: ["software"]
 tags: ["DAW", "DTM", "比較", "Logic Pro", "FL Studio", "Ableton Live", "Cubase", "Fender Studio Pro"]

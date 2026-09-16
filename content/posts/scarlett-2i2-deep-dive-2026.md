@@ -1,5 +1,5 @@
 ---
-title: "Focusrite Scarlett 2i2(4th Gen) — 一台だけを、とことん検分する"
+title: "Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する"
 date: 2026-09-16
 categories: ["gear"]
 tags: ["Focusrite", "Scarlett 2i2", "オーディオインターフェース", "機材", "レビュー"]
