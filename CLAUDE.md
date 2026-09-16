@@ -57,6 +57,16 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - `scripts/post-to-hatena.sh "タイトル" 本文HTMLファイル [draft|publish]` — AtomPub APIへWSSE認証でPOST。`draft` を渡すと下書き、省略(または`publish`)で即時公開。**投稿後にHatenaのレスポンスXMLから実際の`app:draft`値を読み直して、意図通りかを検証してから成功と表示する**(初回テストで`true`/`false`ではなく`yes`/`no`でないと無視される仕様に気づかず誤って即時公開してしまった教訓を反映)。
 - 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
 - 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
+- **2026-09-16、既存6記事を一括で本公開済み**(ユーザー指示「一気に公開しちゃって」)。以後、新しい記事を公開する際は都度この2スクリプトで はてなブログにも転載すること(ロードマップの「拡散投稿」欄も更新する)。
+
+| 記事 | はてなブログURL |
+|---|---|
+| DAW | https://kinbro.hatenablog.com/entry/2026/09/16/175524 |
+| サンプラー | https://kinbro.hatenablog.com/entry/2026/09/16/175527 |
+| MIDIキーボード | https://kinbro.hatenablog.com/entry/2026/09/16/175531 |
+| オーディオI/O | https://kinbro.hatenablog.com/entry/2026/09/16/175534 |
+| アナログターンテーブル | https://kinbro.hatenablog.com/entry/2026/09/16/175537 |
+| スコッチウイスキー | https://kinbro.hatenablog.com/entry/2026/09/16/175540 |
 
 ## デプロイの仕組み
 
