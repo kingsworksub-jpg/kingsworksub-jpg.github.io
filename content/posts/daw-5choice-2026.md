@@ -8,14 +8,6 @@ draft: false
 
 各メーカーは判で押したように「これさえあれば、あなたの創作は変わる」と謳う。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を実際に使い込んで、その謳い文句がどこまで本当か確かめてみた。
 
-<div class="product-links">
-<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"><span class="product-link-name">Logic Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"><span class="product-link-name">FL Studio</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"><span class="product-link-name">Ableton Live</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"><span class="product-link-name">Cubase</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
-<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"><span class="product-link-name">Fender Studio Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
-</div>
-
 比べる軸は、次の5つに決めた。
 
 1. **学習コスト** — 初めて触った日に、どれだけ絶望せずに済むか
@@ -30,6 +22,12 @@ draft: false
 
 ## Logic Pro — 頑固で寡黙、惚れた私が悪い
 
+<div class="product-links">
+<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"><span class="product-link-name">Logic Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+</div>
+
+(Mac App Store専売のためAmazonでの取り扱いなし)
+
 ![Logic Proの使いやすさレーダーチャート](/images/radar/logic-pro.svg)
 
 - 学習コスト 4 / 打ち込み・編集 4 / 制作速度 4 / 拡張性 3 / 安定性 4
@@ -38,11 +36,13 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 
 ピアノロールも直感的で、GarageBandから移ってきた人が「[圧倒的に安い](https://dtmdriver.com/logic-review-15)」「[土台ががっしり固まり尽くしている](https://dtmdriver.com/logic-review-15)」と評するのも頷ける。弱点は拡張性で、対応形式がAudio Units限定、つまりVSTプラグインをそのままでは受け入れてくれない不器用さがある。2026年からは月額1,780円の「Apple Creator Studio」というサブスクの器にも収まったが、買い切り版と機能差はないというから、これは単なる選択肢の増加、と好意的に受け取っておく。惚れた弱みというやつだ。
 
-🛒 [公式サイトで見る(Apple)](https://www.apple.com/jp/logic-pro/) — Mac App Store専売のためAmazonでの取り扱いなし
-
 ---
 
 ## FL Studio — やんちゃと落第は紙一重
+
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"><span class="product-link-name">FL Studio</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 ![FL Studioの使いやすさレーダーチャート](/images/radar/fl-studio.svg)
 
@@ -52,11 +52,13 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 
 それでも憎めないのは、買い切ったら一生アップデートが無料というふところの広さだ。2026年夏に出た最新版ではAIアシスタント「Gopher」がテキスト指示でミキサーの配線まで整理してくれるというから、こちらより気が利く。一方で「[FL Studioはクラッシュとバグさえ無くなれば神](https://touya-blog-life.com/fl-studio-drawbacks/)」という、褒めているのか呆れているのか判然としない評も多く、天才肌にありがちな危うさは健在らしい。似た者同士、嫌いになれない。
 
-🛒 [Amazonで見る(FL Studio 21 Producer Edition)](https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22)
-
 ---
 
 ## Ableton Live — 峠を越えられなかった者の言い訳
+
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"><span class="product-link-name">Ableton Live</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 ![Ableton Liveの使いやすさレーダーチャート](/images/radar/ableton-live.svg)
 
@@ -66,11 +68,13 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 
 拡張性の高さは五本の中でも頭ひとつ抜けていて、「Max for Live」という自作の作業台を使えば、シンセもエフェクトも一から編める。しかも「[世界で最も実用的なDAWと評されるほど安定性に優れる](https://dtm-hakase.biz/185/)」という評判どおり、動作の軽さにも定評がある。使いこなせなかったのは、道具ではなく私の側の問題だったらしい。
 
-🛒 [Amazonで見る(Ableton Live 12 Suite)](https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22)
-
 ---
 
 ## Cubase — 生真面目すぎて、こちらが恥ずかしくなる
+
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"><span class="product-link-name">Cubase</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 ![Cubaseの使いやすさレーダーチャート](/images/radar/cubase.svg)
 
@@ -80,11 +84,15 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 
 ただし機能が多い分、最初の一歩は険しい。「[専門用語がすっと頭に入ってこなくて、何度も同じ所を見返しました](https://ameblo.jp/labonacafe/entry-12825306683.html)」というつぶやきに、私も深く頷いた。2025年秋に出たCubase 15では、VOCALOIDチーム製の歌声合成まで内蔵されたというから、生真面目なりに新しいことにも手を出し始めている。真面目な人間の努力は、いつだって多少の嫉妬を誘う。
 
-🛒 [Amazonで見る(Cubase Pro 15)](https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22)
-
 ---
 
 ## Fender Studio Pro(旧Studio One) — 名前は変えても、律儀さは変わらないらしい
+
+<div class="product-links">
+<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"><span class="product-link-name">Fender Studio Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+</div>
+
+(Amazonに単体販売の取り扱いなし)
 
 ![Fender Studio Proの使いやすさレーダーチャート](/images/radar/fender-studio-pro.svg)
 
@@ -93,8 +101,6 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。ギターメーカーの名を背負うことになった本人(ソフト)の心中は察するに余りあるが、中身と開発チームは変わっていないというのが、せめてもの救いだろう。あるレビューは「[開発チームはそのまま。Studio One のコアエンジン・ワークフロー・哲学はそのまま](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」とつづっていて、こちらとしても、他人事ながら胸をなで下ろした。
 
 ドラッグ&ドロップ主体の操作感は突出していて、「[修正の手間を考えても、ゼロから打ち込むより圧倒的に速い](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」という制作速度の速さは、伊達ではない。弱点は付属音源の少なさで、他社が70GB超えの音源ライブラリを積んでくる中、こちらは36GB程度と控えめ。名前を変えるくらいの度胸があるなら、音源ももう少し盛ってもよかったのではないか、というのは部外者の勝手な感想である。
-
-🛒 [公式サイトで見る(Fender Studio Pro)](https://jp.fender.com/en/products/fender-studio-pro) — Amazonに単体販売の取り扱いなし
 
 ---
 
