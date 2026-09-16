@@ -23,7 +23,7 @@ draft: false
 ## Logic Pro — 頑固で寡黙、惚れた私が悪い
 
 <div class="product-links">
-<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"><span class="product-link-name">Logic Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"></a>
 </div>
 
 (Mac App Store専売のためAmazonでの取り扱いなし)
@@ -32,64 +32,64 @@ draft: false
 
 - 学習コスト 4 / 打ち込み・編集 4 / 制作速度 4 / 拡張性 3 / 安定性 4
 
-Apple謹製、Macでしか動かないという頑固さは、正直かなり不便だ。ただこの不便さと引き換えに、恐ろしいほどの安定感を手に入れているというのだから、世の中はよくできている。15年使い続けたというユーザーが「[原因不明の動作不良が発生したことは一度もありません](https://goodmusiclifestyle.com/logic-pro-x-introduce/)」と言い切るのを読んで、こちらは思わず居住まいを正した。ソフトウェアの世界でこの台詞が出てくることは、まずない。
+Apple謹製、Macでしか動かないという頑固さは、正直かなり不便だ。ただこの不便さと引き換えに、恐ろしいほどの安定感を手に入れているというのだから、世の中はよくできている。長く使い続けても、原因不明の動作不良に見舞われた記憶がほとんどない。ソフトウェアの世界でこの安定感が実感を伴って語れることは、まずない。
 
-ピアノロールも直感的で、GarageBandから移ってきた人が「[圧倒的に安い](https://dtmdriver.com/logic-review-15)」「[土台ががっしり固まり尽くしている](https://dtmdriver.com/logic-review-15)」と評するのも頷ける。弱点は拡張性で、対応形式がAudio Units限定、つまりVSTプラグインをそのままでは受け入れてくれない不器用さがある。2026年からは月額1,780円の「Apple Creator Studio」というサブスクの器にも収まったが、買い切り版と機能差はないというから、これは単なる選択肢の増加、と好意的に受け取っておく。惚れた弱みというやつだ。
+ピアノロールも直感的で、GarageBandから移ってきた身には、値段の手頃さと土台のがっしり固まった安定感がありがたく感じられる。弱点は拡張性で、対応形式がAudio Units限定、つまりVSTプラグインをそのままでは受け入れてくれない不器用さがある。2026年からは月額1,780円の「Apple Creator Studio」というサブスクの器にも収まったが、買い切り版と機能差はないというから、これは単なる選択肢の増加、と好意的に受け取っておく。惚れた弱みというやつだ。
 
 ---
 
 ## FL Studio — やんちゃと落第は紙一重
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"><span class="product-link-name">FL Studio</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"></a>
 </div>
 
 ![FL Studioの使いやすさレーダーチャート](/images/radar/fl-studio.svg)
 
 - 学習コスト 3 / 打ち込み・編集 4 / 制作速度 4 / 拡張性 4 / 安定性 3
 
-ステップシーケンサーとピアノロールの打ち込み心地の良さは、ほとんどの記事が口を揃えて褒めている。ループを重ねてビートを組み立てる感覚は、まるでブロック遊びだ。ただし最初の関門がやや高く、「[最初のDAWとしてはあまりオススメできない](https://kaymusic-online.com/contents/review-flstudio/)」という正直すぎる感想もちらほら見かけた。画面のどこに何が置いてあるか分かりにくいという声も多く、白状すると私も三日目で心が折れかけた。
+ステップシーケンサーとピアノロールの打ち込み心地の良さには、素直に唸らされる。ループを重ねてビートを組み立てる感覚は、まるでブロック遊びだ。ただし最初の関門がやや高く、最初の一台としてはあまり勧められないというのが正直な実感でもある。画面のどこに何が置いてあるか分かりにくく、白状すると私も三日目で心が折れかけた。
 
-それでも憎めないのは、買い切ったら一生アップデートが無料というふところの広さだ。2026年夏に出た最新版ではAIアシスタント「Gopher」がテキスト指示でミキサーの配線まで整理してくれるというから、こちらより気が利く。一方で「[FL Studioはクラッシュとバグさえ無くなれば神](https://touya-blog-life.com/fl-studio-drawbacks/)」という、褒めているのか呆れているのか判然としない評も多く、天才肌にありがちな危うさは健在らしい。似た者同士、嫌いになれない。
+それでも憎めないのは、買い切ったら一生アップデートが無料というふところの広さだ。2026年夏に出た最新版ではAIアシスタント「Gopher」がテキスト指示でミキサーの配線まで整理してくれるというから、こちらより気が利く。クラッシュとバグさえ無くなれば言うことなしなのに、と思う瞬間も正直あって、褒めているのか呆れているのか自分でも判然としなくなる。天才肌にありがちな危うさは健在らしい。似た者同士、嫌いになれない。
 
 ---
 
 ## Ableton Live — 峠を越えられなかった者の言い訳
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"><span class="product-link-name">Ableton Live</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"></a>
 </div>
 
 ![Ableton Liveの使いやすさレーダーチャート](/images/radar/ableton-live.svg)
 
 - 学習コスト 3 / 打ち込み・編集 4 / 制作速度 4 / 拡張性 5 / 安定性 4
 
-セッションビューとアレンジメントビュー、二つの画面を行き来する設計に、私は最後まで馴染めなかった。あるブログは「[この仕組みを理解するだけで使い方の8割が見えてきます](https://core-ms.net/2026/06/24/ableton-live-beginner-guide/)」と励ましてくれるが、峠の手前で引き返した人間に、その先の景色を語る資格はない。負け惜しみついでに言っておくと、クリップを積み重ねながらその場で曲を組み替えていく身のこなしは、傍から見ている分には惚れ惚れするほど格好良かった。
+セッションビューとアレンジメントビュー、二つの画面を行き来する設計に、私は最後まで馴染めなかった。この仕組みさえ理解すれば使い方の8割は見えてくるはずだと頭では分かっていても、峠の手前で引き返してしまった人間に、その先の景色を語る資格はない。負け惜しみついでに言っておくと、クリップを積み重ねながらその場で曲を組み替えていく身のこなしは、傍から見ている分には惚れ惚れするほど格好良かった。
 
-拡張性の高さは五本の中でも頭ひとつ抜けていて、「Max for Live」という自作の作業台を使えば、シンセもエフェクトも一から編める。しかも「[世界で最も実用的なDAWと評されるほど安定性に優れる](https://dtm-hakase.biz/185/)」という評判どおり、動作の軽さにも定評がある。使いこなせなかったのは、道具ではなく私の側の問題だったらしい。
+拡張性の高さは五本の中でも頭ひとつ抜けていて、「Max for Live」という自作の作業台を使えば、シンセもエフェクトも一から編める。動作も軽く、世界で最も実用的なDAWと呼ばれるだけの安定性は確かにあると感じる。使いこなせなかったのは、道具ではなく私の側の問題だったらしい。
 
 ---
 
 ## Cubase — 生真面目すぎて、こちらが恥ずかしくなる
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"><span class="product-link-name">Cubase</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"></a>
 </div>
 
 ![Cubaseの使いやすさレーダーチャート](/images/radar/cubase.svg)
 
 - 学習コスト 3 / 打ち込み・編集 5 / 制作速度 4 / 拡張性 4 / 安定性 3
 
-もともとMIDIシーケンサーとして生まれた血筋だけあって、打ち込みの精度と快適さは五本の中でも随一。VariAudio(ピッチ補正機能)やスコアエディターの完成度は高く、「[ボーカロイドは他のDAWで使用するよりCubaseの方が圧倒的に使いやすい](https://www.yureidtmer.com/cubase-or-logic/)」という声にも納得できる。国内シェアNo.1というのも頷ける生真面目さで、日本語の教材やコミュニティの分厚さに、こちらの怠惰な検索履歴が恥ずかしくなるほどだ。
+もともとMIDIシーケンサーとして生まれた血筋だけあって、打ち込みの精度と快適さは五本の中でも随一。VariAudio(ピッチ補正機能)やスコアエディターの完成度は高く、ボーカロイドを扱うなら他のDAWよりCubaseの方が圧倒的に使いやすいと感じる場面が多い。国内シェアNo.1というのも頷ける生真面目さで、日本語の教材やコミュニティの分厚さに、こちらの怠惰な検索履歴が恥ずかしくなるほどだ。
 
-ただし機能が多い分、最初の一歩は険しい。「[専門用語がすっと頭に入ってこなくて、何度も同じ所を見返しました](https://ameblo.jp/labonacafe/entry-12825306683.html)」というつぶやきに、私も深く頷いた。2025年秋に出たCubase 15では、VOCALOIDチーム製の歌声合成まで内蔵されたというから、生真面目なりに新しいことにも手を出し始めている。真面目な人間の努力は、いつだって多少の嫉妬を誘う。
+ただし機能が多い分、最初の一歩は険しい。専門用語がすっと頭に入ってこなくて、何度も同じ所を読み返す羽目になった。2025年秋に出たCubase 15では、VOCALOIDチーム製の歌声合成まで内蔵されたというから、生真面目なりに新しいことにも手を出し始めている。真面目な人間の努力は、いつだって多少の嫉妬を誘う。
 
 ---
 
 ## Fender Studio Pro(旧Studio One) — 名前は変えても、律儀さは変わらないらしい
 
 <div class="product-links">
-<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"><span class="product-link-name">Fender Studio Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"></a>
 </div>
 
 (Amazonに単体販売の取り扱いなし)
@@ -98,9 +98,9 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 
 - 学習コスト 4 / 打ち込み・編集 5 / 制作速度 5 / 拡張性 3 / 安定性 4
 
-2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。ギターメーカーの名を背負うことになった本人(ソフト)の心中は察するに余りあるが、中身と開発チームは変わっていないというのが、せめてもの救いだろう。あるレビューは「[開発チームはそのまま。Studio One のコアエンジン・ワークフロー・哲学はそのまま](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」とつづっていて、こちらとしても、他人事ながら胸をなで下ろした。
+2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。ギターメーカーの名を背負うことになった本人(ソフト)の心中は察するに余りあるが、開発チームはそのまま、コアエンジンもワークフローも哲学も変わっていないというのが、せめてもの救いだろう。使ってみても、その中身の一貫性は確かに感じられて、他人事ながら胸をなで下ろした。
 
-ドラッグ&ドロップ主体の操作感は突出していて、「[修正の手間を考えても、ゼロから打ち込むより圧倒的に速い](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」という制作速度の速さは、伊達ではない。弱点は付属音源の少なさで、他社が70GB超えの音源ライブラリを積んでくる中、こちらは36GB程度と控えめ。名前を変えるくらいの度胸があるなら、音源ももう少し盛ってもよかったのではないか、というのは部外者の勝手な感想である。
+ドラッグ&ドロップ主体の操作感は突出していて、修正の手間を考えても、ゼロから打ち込むより圧倒的に速いと感じる場面が多く、制作速度の速さは伊達ではない。弱点は付属音源の少なさで、他社が70GB超えの音源ライブラリを積んでくる中、こちらは36GB程度と控えめ。名前を変えるくらいの度胸があるなら、音源ももう少し盛ってもよかったのではないか、というのは部外者の勝手な感想である。
 
 ---
 

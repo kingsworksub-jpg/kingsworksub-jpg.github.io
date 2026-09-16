@@ -28,15 +28,47 @@ fi
 
 SITE_ORIGIN="https://kingsworksub-jpg.github.io"
 
-# Extract everything between the post-content div and its matching </div>.
-# Safe because our posts are plain Markdown with no nested raw <div> tags.
+# Extract everything between the post-content div and its matching </div>,
+# tracking nesting depth so nested raw <div> blocks (e.g. the per-product
+# affiliate-link divs) don't trip a premature stop at their own closing tag.
 # Also rewrite root-relative src/href (e.g. the radar chart images) to
 # absolute URLs, since on Hatena's domain a relative "/images/..." would
 # 404 instead of pointing back at this site.
-awk '
-  /<div class="post-content md-content">/ { grabbing=1; next }
-  grabbing && /<\/div>/ { grabbing=0; next }
-  grabbing { print }
+awk -v start_marker='<div class="post-content md-content">' '
+  BEGIN { depth = 0; started = 0 }
+  {
+    line = $0
+    if (!started) {
+      idx = index(line, start_marker)
+      if (idx == 0) next
+      line = substr(line, idx + length(start_marker))
+      started = 1
+      depth = 1
+    }
+    out = ""
+    while (length(line) > 0) {
+      open_idx = index(line, "<div")
+      close_idx = index(line, "</div>")
+      if (open_idx == 0 && close_idx == 0) {
+        out = out line
+        line = ""
+        break
+      }
+      if (close_idx > 0 && (open_idx == 0 || close_idx < open_idx)) {
+        out = out substr(line, 1, close_idx - 1)
+        depth--
+        line = substr(line, close_idx + 6)
+        if (depth == 0) { line = ""; break }
+        out = out "</div>"
+      } else {
+        out = out substr(line, 1, open_idx + 3)
+        depth++
+        line = substr(line, open_idx + 4)
+      }
+    }
+    print out
+    if (depth == 0) exit
+  }
 ' "$POST_HTML" \
   | sed -E "s@(src|href)=\"/([^\"#])@\1=\"${SITE_ORIGIN}/\2@g" \
   > "$OUT"

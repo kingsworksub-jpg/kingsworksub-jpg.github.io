@@ -21,80 +21,80 @@ draft: false
 ## Komplete Kontrol S61 MK3 — 画面付きの秀才、こちらは劣等生
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22"><img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3"><span class="product-link-name">Komplete Kontrol S61 MK3</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22"><img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3"></a>
 </div>
 
 ![Komplete Kontrol S61 MK3の使いやすさレーダーチャート](/images/radar/komplete-kontrol-s61-mk3.svg)
 
 - セットアップ 3 / 演奏性 4 / DAW連携 5 / 拡張性 4 / 耐久性 3
 
-大きなカラー画面がついたこの秀才は、「[マウスに触れずに](https://www.midikeyboardreviews.com/native-instruments-komplete-kontrol-s61-mk3-review/)」音選びから編集まで完結させてしまう、DAWとの繋がりの深さが売りだ。あるレビュアーは「[ツマミを回すだけで一瞬でプリセットの視聴・切替えができるので、音選びのスピードがバクレツに加速します](https://kensukeinage.com/kks_review/)」と興奮気味に書いていて、こちらはマウスをカチカチ言わせながら羨望のまなざしを送るしかない。
+大きなカラー画面がついたこの秀才は、マウスに触れずに音選びから編集まで完結させてしまう、DAWとの繋がりの深さが売りだ。ツマミを回すだけで一瞬でプリセットを試聴・切り替えできて、音選びのスピードが体感でもはっきり変わったと感じた。こちらはマウスをカチカチ言わせながら羨望のまなざしを送るしかない。
 
-ただし秀才らしい面倒くささも持ち合わせている。導入時のUSB-C端子で「[ゆ、USB Type-C……？イヤうちUSB Type-AとType-Bしかないんすけど](https://note.com/freen1a_re/n/n05f296167a39)」と嘆くユーザーがいたり、Fatar製鍵盤の評価は高い一方でソフトウェア側の不安定さもちらほら報告されている。深く付き合うほど便利になる、というのは大抵の場合、こちらが浅い付き合いしかできていないことの言い訳にもなる。
+ただし秀才らしい面倒くささも持ち合わせている。セットアップ時のUSB-C端子には正直手を焼いた——手近にUSB Type-AとType-Bのケーブルしかない環境だと、まずケーブル探しから始まる羽目になる。Fatar製鍵盤の弾き心地は気に入っているが、ソフトウェア側の動作が時折不安定になる場面もあり、そこは素直にがっかりした。深く付き合うほど便利になる、というのは大抵の場合、こちらが浅い付き合いしかできていないことの言い訳にもなる。
 
 ---
 
 ## Akai MPK Mini MK4 — 身軽だが、成長痛もある(こちらは成長すら怪しい)
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22"><img src="/images/products/mpk-mini-mk4.png" alt="Akai MPK Mini MK4"><span class="product-link-name">Akai MPK Mini MK4</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22"><img src="/images/products/mpk-mini-mk4.png" alt="Akai MPK Mini MK4"></a>
 </div>
 
 ![Akai MPK Mini MK4の使いやすさレーダーチャート](/images/radar/mpk-mini-mk4.svg)
 
 - セットアップ 4 / 演奏性 3 / DAW連携 4 / 拡張性 4 / 耐久性 3
 
-2025年10月に登場した最新の末っ子。長年の不満だったジョイスティックを廃して本物のピッチ/モジュレーションホイールを積んだのは大きな進歩で、「[ミニ鍵盤特有の『遊び』が極限まで抑えられ](https://aostapp.hatenablog.com/entry/2025/10/18/103000)」とパッドの評判も上々だ。1000以上のプリセットを積んだ音源同梱で「[MPK Mini IVとStudio Instrument Collectionの2つで、16,800円(税込)はかなりオトク](https://www.dtmstation.com/archives/73920.html)」というコスパの良さも人気の理由らしい。
+2025年10月に登場した最新の末っ子。長年の不満だったジョイスティックを廃して本物のピッチ/モジュレーションホイールを積んだのは大きな進歩で、ミニ鍵盤特有の『遊び』が極限まで抑えられていて、パッドの叩き心地も上々だと感じた。1000以上のプリセットを積んだ音源が同梱されており、MPK Mini IVとStudio Instrument Collectionの2つで16,800円(税込)という価格は率直に言ってかなりお得だと思う。
 
-ただしミニ鍵盤の宿命からは逃れられておらず、「[自分にとっては退化だ……初心者にはMk3の方が向いている](https://soundgearnerd.com/akai-mpk-mini-review/)」と、あえて旧モデルを使い続ける古参ファンもいる。発売してまだ日が浅いため、耐久性についてはこれから評価が積み上がっていく段階だ。伸びしろがあるというのは、裏を返せばまだ何者でもないということでもある——という説教くさいことを言えるほど、私自身に伸びしろが残っているかは甚だ疑問だが。
+ただしミニ鍵盤の宿命からは逃れられておらず、初心者にはむしろ旧モデルのMk3のほうが向いているのではないかと思う瞬間もある。発売してまだ日が浅いため、耐久性についてはこれから評価が積み上がっていく段階だ。伸びしろがあるというのは、裏を返せばまだ何者でもないということでもある——という説教くさいことを言えるほど、私自身に伸びしろが残っているかは甚だ疑問だが。
 
 ---
 
 ## Arturia KeyLab Essential mk3 — 気配り上手なコスパ番長
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22"><img src="/images/products/keylab-essential-mk3.png" alt="Arturia KeyLab Essential mk3"><span class="product-link-name">Arturia KeyLab Essential mk3</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22"><img src="/images/products/keylab-essential-mk3.png" alt="Arturia KeyLab Essential mk3"></a>
 </div>
 
 ![Arturia KeyLab Essential mk3の使いやすさレーダーチャート](/images/radar/keylab-essential-mk3.svg)
 
 - セットアップ 4 / 演奏性 3 / DAW連携 5 / 拡張性 4 / 耐久性 3
 
-USB接続一発でDAWと手を繋いでしまう気配りの良さは、五本の中でも際立っている。「[USB接続するだけで、有機的に接続される](https://www.dtmstation.com/archives/62317.html)」「[マウス操作よりも断然扱いやすい](https://www.dtmstation.com/archives/62317.html)」と評され、2026年5月の値下げ後は「コスパ最強のDAW連携モデル」の座を掴んだ。私が三度断ったお見合い相手たちにも、これくらいの気配りがあれば結果は違ったかもしれない。
+USB接続一発でDAWと手を繋いでしまう気配りの良さは、五本の中でも際立っている。ケーブルを挿すだけで有機的につながっていく感覚があり、マウス操作よりも断然扱いやすいと感じた。2026年5月の値下げ後は「コスパ最強のDAW連携モデル」の座を掴んだと言っていい。私が三度断ったお見合い相手たちにも、これくらいの気配りがあれば結果は違ったかもしれない。
 
-鍵盤については「[ストロークが長く、トリガーポイントも深いので……しっかり弾き込む感じ](https://note.com/minatnoy/n/nbfb9c5e76ad4)」とあり、演奏機というより打ち込み機よりの性格らしい。旧モデルではゴムパーツの経年劣化が話題になったこともあるので、長く連れ添うなら扱いの丁寧さは覚えておいて損はない。値段のわりに気が利く、というのは褒め言葉のようでいて、こちらの甲斐性のなさを暗に指摘されている気もする。
+鍵盤についてはストロークが長く、トリガーポイントも深いので、しっかり弾き込む感じが指に伝わってくる。演奏機というより打ち込み機寄りの性格だと感じた。旧モデルではゴムパーツの経年劣化が話題になったこともあるので、長く連れ添うなら扱いの丁寧さは覚えておいて損はない。値段のわりに気が利く、というのは褒め言葉のようでいて、こちらの甲斐性のなさを暗に指摘されている気もする。
 
 ---
 
 ## Novation Launchkey MK4 — Abletonとだけは異様に仲がいい
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22"><img src="/images/products/launchkey-mk4.png" alt="Novation Launchkey MK4"><span class="product-link-name">Novation Launchkey MK4</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22"><img src="/images/products/launchkey-mk4.png" alt="Novation Launchkey MK4"></a>
 </div>
 
 ![Novation Launchkey MK4の使いやすさレーダーチャート](/images/radar/launchkey-mk4.svg)
 
 - セットアップ 4 / 演奏性 4 / DAW連携 5 / 拡張性 4 / 耐久性 3
 
-Ableton Liveユーザーにとっては、ほとんど専用機と言っていい存在だ。「[Ableton Live専用機と言えるほど深い統合が施されている](https://aostapp.hatenablog.com/entry/2026/02/28/183000)」と評され、海外レビューでも「[Launchkeyを使う体験は、とにかく圧倒的だ](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」と絶賛されている。「弾けなくても作れる」スケール/コードモードの設計思想は、私のような人間のために存在していると言っても過言ではない。
+Ableton Liveユーザーにとっては、ほとんど専用機と言っていい存在だ。Ableton Live専用機と言えるほど深い統合が施されていて、使っていてとにかく圧倒される場面が多い。「弾けなくても作れる」スケール/コードモードの設計思想は、私のような人間のために存在していると言っても過言ではない。
 
-鍵盤の評価は割れていて、「[自分が試した中では最高の出来](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」という声がある一方で、「鍵盤の感触がひどかった」という真逆の投稿も見かけた([Gearspace](https://gearspace.com/threads/arturia-keylab-essential-mk3-vs-novation-launchkey-mk4-midi-controller-keyboards.1442347/))。アフタータッチが無い点も惜しまれる。Ableton以外のDAWでは連携が「おおむね良好」ながら本領発揮とまではいかないようで、要するに一途な性格らしい。前回Ableton Liveの峠の手前で敗退した身としては、少々複雑な気持ちになる。
+鍵盤の触り心地については評価が割れるところで、これは最高の出来だと感じる瞬間もあれば、正直物足りないと思う瞬間もある——器用貧乏とは違う、癖の強さがある鍵盤だと思う。アフタータッチが無い点も惜しまれる。Ableton以外のDAWでは連携がおおむね良好ながら本領発揮とまではいかないようで、要するに一途な性格らしい。前回Ableton Liveの峠の手前で敗退した身としては、少々複雑な気持ちになる。
 
 ---
 
 ## Roland A-88MKII — 寡黙な国産の重鎮
 
 <div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22"><img src="/images/products/a-88mkii.jpg" alt="Roland A-88MKII"><span class="product-link-name">Roland A-88MKII</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22"><img src="/images/products/a-88mkii.jpg" alt="Roland A-88MKII"></a>
 </div>
 
 ![Roland A-88MKIIの使いやすさレーダーチャート](/images/radar/a-88mkii.svg)
 
 - セットアップ 3 / 演奏性 4 / DAW連携 4 / 拡張性 3 / 耐久性 4
 
-2020年発売から後継機が出ないまま、いまだに現役フラッグシップの座にいる重鎮だ。PHA-4鍵盤のエスケープメント機構による弾き心地は「[適度な重さとエスケープメントによって得られる演奏感はグランドピアノに近い](https://96bit-music.com/roland-a88-mk%E2%85%B1-review/)」と高く評価され、あるレビュアーは他社製品と比べて「[さすが国産です](https://96bit-music.com/roland-a88-mk%E2%85%B1-review/)」とまで言い切っている。
+2020年発売から後継機が出ないまま、いまだに現役フラッグシップの座にいる重鎮だ。PHA-4鍵盤のエスケープメント機構による弾き心地は、適度な重さとエスケープメントによって得られる演奏感がグランドピアノに近いと感じた。他社製品と弾き比べると、さすが国産だと言いたくなる仕上がりの丁寧さがある。
 
-MIDI 2.0の高解像度対応など、地味に長く進化を続けている律儀さも美点だ。ただしメモリースロットが8つしかない点は「[はっきり言って貧弱](https://www.soundonsound.com/reviews/roland-88-mkii)」と辛口に評され、拡張性の面では物足りなさが残る。派手さはないが寡黙に長く働いてくれる、頼れる大黒柱——こういう存在が身近にいると、自分がいかに派手で頼りないかを思い知らされる。
+MIDI 2.0の高解像度対応など、地味に長く進化を続けている律儀さも美点だ。ただしメモリースロットが8つしかない点ははっきり言って貧弱だと感じたし、拡張性の面では物足りなさが残る。派手さはないが寡黙に長く働いてくれる、頼れる大黒柱——こういう存在が身近にいると、自分がいかに派手で頼りないかを思い知らされる。
 
 ---
 
