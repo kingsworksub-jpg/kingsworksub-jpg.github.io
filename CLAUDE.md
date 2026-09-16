@@ -33,6 +33,23 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - DAW / サンプラー / MIDIキーボード / オーディオI/O / アナログターンテーブル(音響機材・DTM系)
 - スコッチウイスキー(音楽と無関係の初のジャンル拡張)
 
+## 拡散投稿(SNS/ブログサイトへの転載)
+
+記事を公開するたびに、この表の「有効」な投稿先へ自動投稿する運用にする(2026-09-17〜検討開始)。SNSは記事へのリンク+一言、ブログサイトは記事本文そのものを転載する。
+
+| 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
+|---|---|---|---|---|
+| X (Twitter) | リンク+一言 | API v2で可能。2026年2月からPay-per-use課金制($0.01/投稿=1.5円ほど、従量課金なので低コスト) | Developer Portalでアプリ作成 → API Key/Secret・Access Token取得(ユーザー本人が登録・支払い方法登録) | 未着手 |
+| Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
+| はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | 未着手 |
+| Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
+| note.com | 記事本文 | **公式APIなし**(2026年時点でも非公開、時期未定)。非公式API/Selenium自動化は技術的に可能だが規約リスクありコミュニティでも非推奨 | — | **自動化非推奨**。やるなら手動投稿 |
+| Instagram | リンク+一言 | フィード投稿の本文にリンクを貼れない仕様のため、記事拡散用途にはそもそも不向き | — | **対象外** |
+
+**セキュリティ上の注意**: このリポジトリ(`kingsworksub-jpg/kingsworksub-jpg.github.io`)は公開リポジトリ。APIキー・アクセストークンの類は**絶対にコード/コミットに直書きしない**。ローカル実行時は環境変数、GitHub Actionsで動かす場合はリポジトリの Encrypted Secrets を使うこと。
+
+**進め方**: ユーザーが各媒体のアカウント作成・アプリ登録・トークン発行を行い、そのトークンをClaude Codeに渡す→Claude Code側で投稿スクリプト(`scripts/post-to-*.sh` 想定、curlでAPI叩く)を作成・実行する分担。アカウント登録そのものは代行できない(本人確認・支払い情報・規約同意が必要なため)。
+
 ## デプロイの仕組み
 
 `main` に push すると `.github/workflows/hugo.yml` が Hugo でビルドして GitHub Pages に自動デプロイする。
