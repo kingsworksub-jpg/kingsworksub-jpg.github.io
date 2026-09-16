@@ -41,7 +41,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 |---|---|---|---|---|
 | X (Twitter) | リンク+一言 | API v2で可能。2026年2月からPay-per-use課金制($0.01/投稿=1.5円ほど、従量課金なので低コスト) | Developer Portalでアプリ作成 → API Key/Secret・Access Token取得(ユーザー本人が登録・支払い方法登録) | 未着手 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
-| はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | 未着手 |
+| はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
 | note.com | 記事本文 | **公式APIなし**(2026年時点でも非公開、時期未定)。非公式API/Selenium自動化は技術的に可能だが規約リスクありコミュニティでも非推奨 | — | **自動化非推奨**。やるなら手動投稿 |
 | Instagram | リンク+一言 | フィード投稿の本文にリンクを貼れない仕様のため、記事拡散用途にはそもそも不向き | — | **対象外** |
@@ -49,6 +49,14 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 **セキュリティ上の注意**: このリポジトリ(`kingsworksub-jpg/kingsworksub-jpg.github.io`)は公開リポジトリ。APIキー・アクセストークンの類は**絶対にコード/コミットに直書きしない**。ローカル実行時は環境変数、GitHub Actionsで動かす場合はリポジトリの Encrypted Secrets を使うこと。
 
 **進め方**: ユーザーが各媒体のアカウント作成・アプリ登録・トークン発行を行い、そのトークンをClaude Codeに渡す→Claude Code側で投稿スクリプト(`scripts/post-to-*.sh` 想定、curlでAPI叩く)を作成・実行する分担。アカウント登録そのものは代行できない(本人確認・支払い情報・規約同意が必要なため)。
+
+### はてなブログ連携(構築済み)
+
+- 認証情報: `.secrets/hatena.env`(gitに含まれない。`HATENA_ID` `HATENA_BLOG_DOMAIN` `HATENA_API_KEY` を定義)。新しいセッションでは `source .secrets/hatena.env` してから使う。ファイルが無い場合はユーザーにはてなブログの詳細設定→AtomPubのAPIキーを再度聞くこと。
+- `scripts/extract-post-html.sh <slug> [出力ファイル]` — `content/posts/<slug>.md` を非minifyビルドしてレンダリング済みHTML本文を取り出し、画像等の相対パス(`/images/...`)を `https://kingsworksub-jpg.github.io/...` の絶対URLに変換し、冒頭に元記事への転載元リンクを付けて出力する。
+- `scripts/post-to-hatena.sh "タイトル" 本文HTMLファイル [draft|publish]` — AtomPub APIへWSSE認証でPOST。`draft` を渡すと下書き、省略(または`publish`)で即時公開。**投稿後にHatenaのレスポンスXMLから実際の`app:draft`値を読み直して、意図通りかを検証してから成功と表示する**(初回テストで`true`/`false`ではなく`yes`/`no`でないと無視される仕様に気づかず誤って即時公開してしまった教訓を反映)。
+- 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
+- 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
 
 ## デプロイの仕組み
 
