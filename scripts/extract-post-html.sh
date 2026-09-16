@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Extract a single post's rendered body HTML (for cross-posting to Hatena etc.)
-# from a non-minified Hugo build, and prepend a canonical-link-back notice.
+# from a non-minified Hugo build. No attribution/canonical-link notice is
+# prepended (removed 2026-09-17 per user instruction — do not re-add it).
 #
 # Usage:
 #   scripts/extract-post-html.sh <slug> [output-file]
@@ -38,17 +39,8 @@ awk '
   grabbing { print }
 ' "$POST_HTML" \
   | sed -E "s@(src|href)=\"/([^\"#])@\1=\"${SITE_ORIGIN}/\2@g" \
-  > "$OUT.body"
+  > "$OUT"
 
-CANONICAL_URL="${SITE_ORIGIN}/posts/${SLUG}/"
-
-{
-  echo "<p>※この記事は <a href=\"${CANONICAL_URL}\">Studio Notes</a> からの転載です。オリジナル版はレーダーチャート付きでこちらから読めます: <a href=\"${CANONICAL_URL}\">${CANONICAL_URL}</a></p>"
-  echo "<hr>"
-  cat "$OUT.body"
-} > "$OUT"
-
-rm -f "$OUT.body"
 rm -rf "$BUILD_DIR"
 
 echo "Extracted to: $OUT"

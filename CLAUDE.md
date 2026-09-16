@@ -53,7 +53,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 ### はてなブログ連携(構築済み)
 
 - 認証情報: `.secrets/hatena.env`(gitに含まれない。`HATENA_ID` `HATENA_BLOG_DOMAIN` `HATENA_API_KEY` を定義)。新しいセッションでは `source .secrets/hatena.env` してから使う。ファイルが無い場合はユーザーにはてなブログの詳細設定→AtomPubのAPIキーを再度聞くこと。
-- `scripts/extract-post-html.sh <slug> [出力ファイル]` — `content/posts/<slug>.md` を非minifyビルドしてレンダリング済みHTML本文を取り出し、画像等の相対パス(`/images/...`)を `https://kingsworksub-jpg.github.io/...` の絶対URLに変換し、冒頭に元記事への転載元リンクを付けて出力する。
+- `scripts/extract-post-html.sh <slug> [出力ファイル]` — `content/posts/<slug>.md` を非minifyビルドしてレンダリング済みHTML本文を取り出し、画像等の相対パス(`/images/...`)を `https://kingsworksub-jpg.github.io/...` の絶対URLに変換して出力する。**「※この記事はStudio Notesからの転載です」のような転載元注釈は付けない(2026-09-17、ユーザー指示で削除・今後も禁止)**。2026-09-17に既存7記事すべてをこの注釈なしの内容で再抽出し、`update-hatena-post.sh`で同期済み。
 - `scripts/post-to-hatena.sh "タイトル" 本文HTMLファイル [draft|publish]` — AtomPub APIへWSSE認証でPOST。`draft` を渡すと下書き、省略(または`publish`)で即時公開。**投稿後にHatenaのレスポンスXMLから実際の`app:draft`値を読み直して、意図通りかを検証してから成功と表示する**(初回テストで`true`/`false`ではなく`yes`/`no`でないと無視される仕様に気づかず誤って即時公開してしまった教訓を反映)。
 - 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
 - 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
