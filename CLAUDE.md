@@ -67,6 +67,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | オーディオI/O | https://kinbro.hatenablog.com/entry/2026/09/16/175534 |
 | アナログターンテーブル | https://kinbro.hatenablog.com/entry/2026/09/16/175537 |
 | スコッチウイスキー | https://kinbro.hatenablog.com/entry/2026/09/16/175540 |
+| Focusrite Scarlett 2i2 深掘り(単発テーマ記事の初回) | https://kinbro.hatenablog.com/entry/2026/09/16/201704 |
 
 ## デプロイの仕組み
 
