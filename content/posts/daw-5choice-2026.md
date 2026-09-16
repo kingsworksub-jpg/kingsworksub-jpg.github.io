@@ -6,13 +6,17 @@ tags: ["DAW", "DTM", "比較", "Logic Pro", "FL Studio", "Ableton Live", "Cubase
 draft: false
 ---
 
-結婚を決められたためしがない。三度お見合いをして、三度とも「少し考えさせてください」と言ったきり、電話を折り返さなかった。そんな人間が、DAWを一本選ぶくらいのことでいちいち一週間も悩むのは、まあ当然の帰結だと思っていただきたい。
+各メーカーは判で押したように「これさえあれば、あなたの創作は変わる」と謳う。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を実際に使い込んで、その謳い文句がどこまで本当か確かめてみた。
 
-毎晩机に向かい、何時間も、下手をすれば何年もつきあうことになる相手を、見た目と評判だけで決めてしまうのはさすがに乱暴だろう——そう嘯いて手当たり次第に契約し、気づけば5本すべてのライセンスを抱え込んでいた。一つに絞る決断力がないくせに、財布の紐だけは緩い。というのが、この記事を書くに至った恥ずかしい経緯である。
+<div class="product-links">
+<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"><span class="product-link-name">Logic Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"><span class="product-link-name">FL Studio</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"><span class="product-link-name">Ableton Live</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"><span class="product-link-name">Cubase</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"><span class="product-link-name">Fender Studio Pro</span><span class="product-link-cta">公式サイトで見る</span></a>
+</div>
 
-さすがに埒が明かないので、今回は腹をくくって向き合うことにした。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を、実際に手を動かしながら比べてみた。決断力のなさを試用期間の長さでごまかそうという魂胆が見え透いているが、そこは大目に見てほしい。
-
-比べる軸は、次の5つに決めた。柄にもなく、几帳面に。
+比べる軸は、次の5つに決めた。
 
 1. **学習コスト** — 初めて触った日に、どれだけ絶望せずに済むか
 2. **打ち込み・編集のしやすさ** — 音符や波形を、思った通りの場所に置けるか
@@ -116,5 +120,5 @@ Apple謹製、Macでしか動かないという頑固さは、正直かなり不
 - **打ち込みの精度と日本語情報の厚さを重視する人** → Cubase
 - **とにかく手を止めずにアイデアを形にしたい人** → Fender Studio Pro
 
-どれも一長一短で、優劣というより「性格の違い」でしかない——と締めくくれば体裁は良いのだが、正直なところ、この記事を書いている今も、結局どれか一本に絞れないまま、5本ぶんのライセンス料だけが虚しく財布から消えていった。決断力のなさは、金で解決できる問題ではないらしい。
+どれも一長一短で、優劣というより「性格の違い」でしかない——と締めくくれば体裁は良いのだが、正直なところ、この記事を書いている今も、結局どれか一本に絞れずにいる。決断力のなさだけは、何年経っても治らないらしい。
 

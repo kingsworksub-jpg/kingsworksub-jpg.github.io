@@ -6,9 +6,15 @@ tags: ["MIDIキーボード", "機材", "比較", "Komplete Kontrol", "MPK Mini"
 draft: false
 ---
 
-DAWとサンプラーを比べてきて、今回はとうとう「指先が最初に触れる相手」の話になった。MIDIキーボードである。前回白状した通り、私の鍵盤の腕前は「猫踏んじゃった」で頭打ちなので、この記事はいわば下手の横好きが機材だけは一丁前に語る、という体裁の悪い代物になる。あらかじめ謝っておく。
+各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を実際に弾き込んで、その謳い文句の真偽を確かめてみた。
 
-画面の中の話ばかりしてきたけれど、これだけは液晶越しではなく、本当に手で触れる道具だ。鍵盤の重さ、パッドの跳ね返り、ノブの軽さ——こういうものは触ってみるまで分からないし、逆に言えば触った瞬間に「あ、これは向いていない」と分かってしまう、かなり正直な機材でもある。2026年現在のトレンド機5本——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を、実際に指を動かしながら比べてみた。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22"><img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3"><span class="product-link-name">Komplete Kontrol S61 MK3</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22"><img src="/images/products/mpk-mini-mk4.png" alt="Akai MPK Mini MK4"><span class="product-link-name">Akai MPK Mini MK4</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22"><img src="/images/products/keylab-essential-mk3.png" alt="Arturia KeyLab Essential mk3"><span class="product-link-name">Arturia KeyLab Essential mk3</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22"><img src="/images/products/launchkey-mk4.png" alt="Novation Launchkey MK4"><span class="product-link-name">Novation Launchkey MK4</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22"><img src="/images/products/a-88mkii.jpg" alt="Roland A-88MKII"><span class="product-link-name">Roland A-88MKII</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 軸は今回もおなじみの5つを、鍵盤という「触れる道具」向けに言い換えている。
 
@@ -110,5 +116,5 @@ MIDI 2.0の高解像度対応など、地味に長く進化を続けている律
 - **Ableton Liveでの制作が中心の人** → Novation Launchkey MK4
 - **本格的なピアノタッチで長く使いたい人** → Roland A-88MKII
 
-指先の好みだけは、他人のレビューだけでは分からない。できれば楽器店で一度触ってから選んでほしい——と偉そうに締めくくっておいて、私自身は結局五本とも買い揃え、部屋の鍵盤密度だけが異常に高くなった。道具箱の中身をあれこれ語る資格が、そもそも自分にあったのかどうか、いまだに自信がない。
+指先の好みだけは、他人のレビューだけでは分からない。できれば楽器店で一度触ってから選んでほしい——と偉そうに締めくくっておいて、道具箱の中身をあれこれ語る資格が、そもそも自分にあったのかどうか、いまだに自信がない。
 

@@ -6,9 +6,15 @@ tags: ["ウイスキー", "スコッチ", "比較", "グレンフィディック
 draft: false
 ---
 
-機材やソフトの話ばかりしてきたが、制作の合間、あるいは一日の終わりに何を飲むかというのも、案外どうでもよくない話だと思う。今回はいつもの筆を置いて、スコッチウイスキーの話をしたい。もっとも、これまでウイスキーと呼べるものは「氷を入れれば全部同じ味」だと思って生きてきた人間なので、この記事の説得力については読者諸賢の判断に委ねるほかない。
+各蒸溜所は判で押したように「伝統と匠の技」を謳う。いまよく名前が挙がる定番5本——**グレンフィディック12年**、**ザ・マッカラン12年 ダブルカスク**、**ラフロイグ10年**、**ジョニーウォーカー ブラックラベル**、**ハイランドパーク12年**——を実際に飲み比べて、その謳い文句を確かめてみた。
 
-正直に言うと、DAWやシンセの話とウイスキーの話は、似ているようで全然違う。ソフトは「使いこなす」ものだが、ウイスキーは「付き合ってみて、好きになるかどうか」を決めるものだ。いまよく名前が挙がる定番5本——**グレンフィディック12年**、**ザ・マッカラン12年 ダブルカスク**、**ラフロイグ10年**、**ジョニーウォーカー ブラックラベル**、**ハイランドパーク12年**——を、実際にグラスを傾けながら比べてみた。素人が偉そうに語る、というのは今に始まったことではないので、いつも通りやらせていただく。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22"><img src="/images/products/glenfiddich-12.jpg" alt="グレンフィディック12年"><span class="product-link-name">グレンフィディック12年</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0D8PCRQHG?tag=nakimoto1-22"><img src="/images/products/macallan-12-doublecask.jpg" alt="マッカラン12年 ダブルカスク"><span class="product-link-name">マッカラン12年 ダブルカスク</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22"><img src="/images/products/laphroaig-10.png" alt="ラフロイグ10年"><span class="product-link-name">ラフロイグ10年</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0B6F398ZJ?tag=nakimoto1-22"><img src="/images/products/johnnie-walker-black.webp" alt="ジョニーウォーカー ブラックラベル"><span class="product-link-name">ジョニーウォーカー ブラックラベル</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B096TPP9YR?tag=nakimoto1-22"><img src="/images/products/highland-park-12.jpg" alt="ハイランドパーク12年"><span class="product-link-name">ハイランドパーク12年</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 軸は今回、グラスの中身向けに言い換えている。
 

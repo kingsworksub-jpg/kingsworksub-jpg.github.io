@@ -6,15 +6,19 @@ tags: ["ターンテーブル", "レコードプレーヤー", "機材", "比較
 draft: false
 ---
 
-DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでずっと「音をパソコンに取り込む」道具の話をしてきたが、今回だけは逆方向、「パソコンを介さずに音を鳴らす」道具の話をしたい。アナログターンテーブルである。
+各メーカーは「アナログの温かみを、あなたの部屋に」と謳う。2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を実際に回して、その謳い文句を確かめてみた。
 
-正直に告白すると、レコードを聴き始めたきっかけは音楽への深い愛でも何でもなく、単に「レコードを聴いている自分」に酔いたかっただけである。針を落とすという行為には、ボタンをタップするのとは違う独特の緊張感がある——などと分かった風に書いているが、実際のところ最初の三か月は針の落とし方すら分からず、盤面に傷をつけて一人で落ち込んだ。この文化がいまも生き延びているのは、私のような見栄っ張りが定期的に補充されているからかもしれない。
-
-2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を、実際に針を落としながら比べてみた。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22"><img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7"><span class="product-link-name">Technics SL-1200MK7</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22"><img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB"><span class="product-link-name">AT-LP120XUSB</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22"><img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3"><span class="product-link-name">Rega Planar 3</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22"><img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO"><span class="product-link-name">Pro-Ject Debut Carbon EVO</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22"><img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT"><span class="product-link-name">Sony PS-LX3BT(後継機)</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 (補足: Pro-Ject Debut Carbon EVOは後継機「Debut EVO 2」に、Sony PS-LX310BTは後継機「PS-LX3BT/LX5BT」にそれぞれ世代交代が進んでいる。ただし設計思想を色濃く受け継いだ直系モデルであり、中古・並行流通も含めて依然よく語られているため、今回はこの2機種を対象にした。)
 
-軸は前回までソフトウェアやハードウェア機器に使ってきたものをそのまま流用せず、ターンテーブルという機械式の道具に合わせて組み直した。「学習コスト」という言葉はやはりキーボードを叩くものに対して使うべきで、レコードプレーヤーに要るのは「習熟」よりも「据え付け」の手間だと思い直したからだ——と書くと殊勝に聞こえるが、要するに前回どこかから「軸がおかしい」と指摘されて慌てて考え直しただけである。
+軸は今回、ターンテーブルという機械式の道具に合わせて組み直した。
 
 1. **セットアップ** — 箱を開けてから、針を落とせるようになるまでの距離
 2. **操作性** — 回転数の切り替えやトーンアーム操作を、体が覚えてくれるか

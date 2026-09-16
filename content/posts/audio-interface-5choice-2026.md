@@ -6,11 +6,17 @@ tags: ["オーディオインターフェース", "機材", "比較", "Scarlett"
 draft: false
 ---
 
-鍵盤の次は、声や楽器の音をパソコンに橋渡しする係——オーディオインターフェースの話をしよう。この機材は地味だ。派手な機能もなければ、SNS映えする見た目でもない。実を言うと、この記事を書いている私自身もかなり地味な人間で、二年前に始めた弾き語り配信は視聴者3人で終了した。うち一人は母だったので、実質2人である。
+各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——**Focusrite Scarlett 2i2(4th Gen)**、**Universal Audio Volt 276**、**RME Babyface Pro FS**、**Yamaha AG03MK2**、**YAMAHA URX22C(旧Steinberg UR22C)**——を実際に配線して、その言葉を検証してみた。
 
-けれど、これが働かなければそもそも何も録れないし配信もできない。いわば裏方に徹する現場監督のような存在で、しかし現場監督の腕次第で作業のしやすさがまるで変わる、というのも本当のところだ。2026年現在の定番5機種——**Focusrite Scarlett 2i2(4th Gen)**、**Universal Audio Volt 276**、**RME Babyface Pro FS**、**Yamaha AG03MK2**、**YAMAHA URX22C(旧Steinberg UR22C)**——を、実際に配線しながら比べてみた。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Scarlett 2i2 4th Gen"><span class="product-link-name">Scarlett 2i2(4th Gen)</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22"><img src="/images/products/volt-276.png" alt="Universal Audio Volt 276"><span class="product-link-name">Universal Audio Volt 276</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22"><img src="/images/products/babyface-pro-fs.png" alt="RME Babyface Pro FS"><span class="product-link-name">RME Babyface Pro FS</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22"><img src="/images/products/ag03mk2.png" alt="Yamaha AG03MK2"><span class="product-link-name">Yamaha AG03MK2</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22"><img src="/images/products/urx22c.png" alt="YAMAHA URX22C"><span class="product-link-name">YAMAHA URX22C</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
-軸はこれまでと同じ発想で、現場監督向けに言い換えている。
+軸はこれまでと同じ発想で、オーディオインターフェース向けに言い換えている。
 
 1. **セットアップ** — 箱を開けてから、迷わず音が出るまでの距離
 2. **操作性** — つまみや入出力を、体が覚えてくれるか

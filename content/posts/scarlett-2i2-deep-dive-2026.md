@@ -6,9 +6,11 @@ tags: ["Focusrite", "Scarlett 2i2", "オーディオインターフェース", "
 draft: false
 ---
 
-前回まで5本ずつ並べて品定めをしてきたが、今回は趣向を変えて、一本だけをとことん解剖してみようと思う。Focusrite Scarlett 2i2(4th Gen)である。比較記事では「五本のうちの一つ」として駆け足で紹介するしかなかった機材だが、実のところこの一台、細部まで見ていくと存外に語ることが多い。多すぎて、正直途中で少し飽きた。それでも最後までお付き合いいただきたい。
+Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで検分してみた。
 
-この一台の機能を隅から隅まで検分してみた。すでに机の上にある一台について、今さらここまで調べ直す必要があったのか、多少の空しさを覚えなくもないが、それはそれとして。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen"><span class="product-link-name">Scarlett 2i2(4th Gen)</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
 ---
 

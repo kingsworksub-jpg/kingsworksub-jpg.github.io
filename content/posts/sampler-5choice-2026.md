@@ -6,11 +6,17 @@ tags: ["サンプラー", "DTM", "比較", "Kontakt", "Battery", "TAL-Sampler", 
 draft: false
 ---
 
-楽器がまともに弾けない。ピアノは「猫踏んじゃった」で止まっているし、ギターはFコードの壁で心が折れた。そんな人間が音楽を作ろうというのだから虫が良すぎる話だが、幸いなことに世の中にはサンプラーという便利な道具がある。誰かが録った音、誰かが弾いた音を拾い上げて、鍵盤の下に並べ直すだけでいい。自分の非才を他人の巧さで埋め合わせる、なんとも都合のいい発明である。
+各社は口を揃えて「これ一つで、あらゆる音があなたのものに」と言う。2026年現在よく名前が挙がる5本——**Kontakt 8**、**Battery 4**、**TAL-Sampler**、**UVI Falcon**、**Serato Sample**——を実際に使い込んで、その言葉に嘘がないか確かめてみた。
 
-前回はDAWという「机」そのものを比べてみたが、今回はその机の上に置く「道具箱」——サンプラープラグイン——の話をしたい。2026年現在よく名前が挙がる5本——**Kontakt 8**、**Battery 4**、**TAL-Sampler**、**UVI Falcon**、**Serato Sample**——を、実際に触りながら比べてみた。
+<div class="product-links">
+<a class="product-link" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22"><img src="/images/products/kontakt-8.png" alt="Kontakt 8"><span class="product-link-name">Kontakt 8</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+<a class="product-link" href="https://www.native-instruments.com/products/battery"><img src="/images/products/battery-4.png" alt="Battery 4"><span class="product-link-name">Battery 4</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://tal-software.com/products/tal-sampler"><img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler"><span class="product-link-name">TAL-Sampler</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://www.uvi.net/falcon.html"><img src="/images/products/uvi-falcon.webp" alt="UVI Falcon"><span class="product-link-name">UVI Falcon</span><span class="product-link-cta">公式サイトで見る</span></a>
+<a class="product-link" href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22"><img src="/images/products/serato-sample.png" alt="Serato Sample"><span class="product-link-name">Serato Sample</span><span class="product-link-cta">🛒 Amazonで見る</span></a>
+</div>
 
-(補足: 「Battery 5」という後継機がしばしば話題に上るが、調べた限り2026年9月時点でまだ発売されていない。ここでは現行の Battery 4 を対象にした。ちなみに私はこの手の「まだ来ぬもの」を律儀に待ち続けて三年を無駄にした前歴がある。)
+(補足: 「Battery 5」という後継機がしばしば話題に上るが、2026年9月時点でまだ発売されていない。ここでは現行の Battery 4 を対象にした。)
 
 軸は前回と同じ考え方を踏襲しつつ、サンプラー向けに少しだけ言い換えた。
 
