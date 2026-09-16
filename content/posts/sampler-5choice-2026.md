@@ -26,6 +26,8 @@ draft: false
 
 ## Kontakt 8 — 業界標準という名の、重い荷物
 
+![Kontakt 8](/images/products/kontakt-8.png)
+
 ![Kontakt 8の使いやすさレーダーチャート](/images/radar/kontakt-8.svg)
 
 - 学習コスト 2 / 編集 3 / 制作速度 3 / 拡張性 5 / 安定性 2
@@ -39,6 +41,8 @@ draft: false
 ---
 
 ## Battery 4 — 寡黙な働き者、待たされているのは私だけではないらしい
+
+![Battery 4](/images/products/battery-4.png)
 
 ![Battery 4の使いやすさレーダーチャート](/images/radar/battery-4.svg)
 
@@ -54,6 +58,8 @@ draft: false
 
 ## TAL-Sampler — 小柄だが、こちらより仕事が早い
 
+![TAL-Sampler](/images/products/tal-sampler.jpg)
+
 ![TAL-Samplerの使いやすさレーダーチャート](/images/radar/tal-sampler.svg)
 
 - 学習コスト 5 / 編集 3 / 制作速度 5 / 拡張性 4 / 安定性 4
@@ -68,6 +74,8 @@ draft: false
 
 ## UVI Falcon — 一生かけても仲良くなれるか怪しいタイプ
 
+![UVI Falcon](/images/products/uvi-falcon.webp)
+
 ![UVI Falconの使いやすさレーダーチャート](/images/radar/uvi-falcon.svg)
 
 - 学習コスト 2 / 編集 4 / 制作速度 4 / 拡張性 5 / 安定性 4
@@ -81,6 +89,8 @@ draft: false
 ---
 
 ## Serato Sample — 出会って30秒、こちらの決断力より速い
+
+![Serato Sample](/images/products/serato-sample.png)
 
 ![Serato Sampleの使いやすさレーダーチャート](/images/radar/serato-sample.svg)
 
