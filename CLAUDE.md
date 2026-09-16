@@ -72,15 +72,18 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## マネタイズ状況(進行中)
 
-- **Amazon アソシエイト**: ユーザーが登録手続き済み(2026-09-16時点)。アソシエイトID(トラッキングタグ)発行待ち。IDが分かり次第、以下の商品リンクを各記事に埋め込む予定 — 6記事・約30商品ぶんのAmazon.co.jp商品URL(ASIN)は調査済み(会話ログ参照、または次回リサーチし直し)。リンク形式: `https://www.amazon.co.jp/dp/{ASIN}?tag={アソシエイトID}`。
-  - DAW/サンプラーの一部(Logic Pro、Fender Studio Pro、Battery 4、TAL-Sampler)はAmazon.co.jpに直販ページが無いため、公式サイトへのリンクになる(アフィリエイト対象外)。
+- **Amazon アソシエイト**: 登録・承認済み。トラッキングID(アソシエイトID)は **`nakimoto1-22`**。リンク形式: `https://www.amazon.co.jp/dp/{ASIN}?tag=nakimoto1-22`。
+  - 2026-09-16時点で、全6記事・30商品に商品リンクを挿入済み(各商品セクション末尾、`---` 区切りの直前に `🛒 [Amazonで見る(製品名)](...)` の形式で設置)。
+  - うち25本はAmazon.co.jpの実商品ページへのアフィリエイトリンク。残り5本(Logic Pro、Fender Studio Pro、Battery 4、TAL-Sampler、UVI Falcon)はAmazon.co.jpに一致する商品ページが無い/バージョンが古いため、`🛒 [公式サイトで見る(製品名)](...)` として公式サイトへのリンクにしてある(タグなし、アフィリエイト対象外)。
   - ターンテーブルのSony PS-LX310BTは生産終了のため後継機 PS-LX3BT のAmazonリンクに差し替え済み。
+  - まだ本承認(180日以内に3件の適格販売)は達成していない可能性がある。ステータスはaffiliate.amazon.co.jpの管理画面で確認。
 - **Google AdSense**: 未申請。今後の予定。
-- **プライバシーポリシー/運営者情報ページ**: `content/privacy-policy.md` / `content/operator.md` を作成済み、フッターからリンク。Amazon審査対策として個人情報を含まない形(ブログ名義・GitHub Issue連絡先)で作成。
+- **プライバシーポリシー/運営者情報ページ**: `content/privacy-policy.md` / `content/operator.md` を作成済み、フッターからリンク。Amazonアソシエイト参加者である旨を明記済み(承認後に「予定」→「参加者です」に文言更新済み)。
 
 ## 次にやること候補
 
-- Amazon アソシエイトIDが判明したら、調査済みリンクを全記事に一括挿入
+- Amazon アソシエイトの本承認状況(3件の適格販売)を確認
 - Google AdSense申請
-- 記事数を増やす(Amazonアソシエイトの本承認条件: 180日以内に3件の適格販売。記事数は多いほど有利)
+- 記事数を増やす(記事数が多いほどAmazon審査・AdSense審査に有利)
+- 新しい記事を書いたら、その記事にも同じ形式(`🛒 [Amazonで見る(製品名)](https://www.amazon.co.jp/dp/{ASIN}?tag=nakimoto1-22)`)でリンクを追加すること
 - 新ジャンルの記事を作る場合も、このドキュメントの「評価軸」セクションの考え方(カテゴリごとに軸を作り直す)を踏襲すること
