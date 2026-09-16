@@ -58,16 +58,17 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
 - 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
 - **2026-09-16、既存6記事を一括で本公開済み**(ユーザー指示「一気に公開しちゃって」)。以後、新しい記事を公開する際は都度この2スクリプトで はてなブログにも転載すること(ロードマップの「拡散投稿」欄も更新する)。
+- **重要な教訓**: `post-to-hatena.sh` は常に**新規エントリを作成する**(POST)。すでに投稿済みの記事の内容やタイトルを直しただけのつもりで再度 `post-to-hatena.sh` を叩くと、**同じ記事がもう1本増えて重複投稿になる**(実際に2026-09-16、DAW記事をこれで重複させてしまい、後から気づいてエントリ一覧をAtomPubで取得し直し、古い方を`DELETE`で削除した)。既存記事の内容・タイトルを直したときは、必ず `scripts/update-hatena-post.sh <entry_id> "新タイトル" 新本文.html` で**その記事のentry IDを指定してPUT更新**すること。entry IDが分からない場合は、コレクションのAtomPubフィード(`GET .../atom/entry`)を取得し、`<link rel="edit">` と `<title>` をペアで見て該当記事のIDを特定する。
 
-| 記事 | はてなブログURL |
-|---|---|
-| DAW | https://kinbro.hatenablog.com/entry/2026/09/16/175524 |
-| サンプラー | https://kinbro.hatenablog.com/entry/2026/09/16/175527 |
-| MIDIキーボード | https://kinbro.hatenablog.com/entry/2026/09/16/175531 |
-| オーディオI/O | https://kinbro.hatenablog.com/entry/2026/09/16/175534 |
-| アナログターンテーブル | https://kinbro.hatenablog.com/entry/2026/09/16/175537 |
-| スコッチウイスキー | https://kinbro.hatenablog.com/entry/2026/09/16/175540 |
-| Focusrite Scarlett 2i2 深掘り(単発テーマ記事の初回) | https://kinbro.hatenablog.com/entry/2026/09/16/201704 |
+| 記事 | はてなブログURL | Entry ID(更新に必要) |
+|---|---|---|
+| DAW | https://kinbro.hatenablog.com/entry/2026/09/16/200310 | 14945776032078440540 |
+| サンプラー | https://kinbro.hatenablog.com/entry/2026/09/16/175527 | 14945776032078470402 |
+| MIDIキーボード | https://kinbro.hatenablog.com/entry/2026/09/16/175531 | 14945776032078470419 |
+| オーディオI/O | https://kinbro.hatenablog.com/entry/2026/09/16/175534 | 14945776032078470431 |
+| アナログターンテーブル | https://kinbro.hatenablog.com/entry/2026/09/16/175537 | 14945776032078470439 |
+| スコッチウイスキー | https://kinbro.hatenablog.com/entry/2026/09/16/175540 | 14945776032078470450 |
+| Focusrite Scarlett 2i2 深掘り(単発テーマ記事の初回) | https://kinbro.hatenablog.com/entry/2026/09/16/201704 | 14945776032078510345 |
 
 ## デプロイの仕組み
 
