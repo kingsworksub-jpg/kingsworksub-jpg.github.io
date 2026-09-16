@@ -34,6 +34,8 @@ DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでず�
 
 鳴りについては「[The MK7 was pretty much spot on, all the low frequencies coming over tight and unexaggerated, with crisp high frequencies](https://www.stereonet.com/reviews/technics-sl-1200mk7-direct-drive-turntable-review)」と評され、低域の締まりと高域の抜けの良さに定評がある。色付けの少ない、ニュートラルな「土台」としての完成度は高い。ただし箱から出してすぐ聴きたい人には向かない。カートリッジ選び、ヘッドシェル取り付け、フォノイコの配線——すべて自分の手でやることになる。裏を返せば「[壊れにくいのです！](https://www.otaiweb.com/otareco/2025/08/08/14302/)」という信頼感と、トーンアームの高さまで調整できる拡張性の高さは、その手間に見合う対価だと思う。玄人が黙って選ぶ理由が、よく分かる一台だ。
 
+🛒 [Amazonで見る(Technics SL-1200MK7)](https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22)
+
 ---
 
 ## Audio-Technica AT-LP120XUSB — 良くも悪くも「普通」に強い
@@ -45,6 +47,8 @@ DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでず�
 累計100万台という数字が物語る通り、この一台は「特別すごい」というより「どこも欠点が致命的ではない」という強さを持っている。「[この価格でダイレクトドライブは希少](https://kumagumablog.com/at-lp120xbt-usb-review/)」という評価どおり、駆動方式の面ではこの価格帯を超えた実力がある。鳴りっぷりも「[clean, punchy, and easy to live with, without trying to flatter records with extra warmth or romance](https://www.loudersound.com/reviews/audio-technica-at-lp120xusb-review)」と評され、変な色気で誤魔化さない、素直な音という評価が目立つ。
 
 ただし正直な弱点もある。オートリターンが無いため「[レコードが終わっても、針が上がりアームが自動で戻らない](https://note.com/magic_ixora1929/n/n38b17598cc9b)」ので、「[音楽を聴きながら寝落ちできない](https://note.com/magic_ixora1929/n/n38b17598cc9b)」というユーザーの嘆きにはつい笑ってしまった。その代わりヘッドシェルの脱着が容易で、「[カートリッジ交換で音質の変化が楽しめる](https://xn--dcknb0b6f4f7ftc.pw/archives/7438)」拡張性の高さは五本の中でも屈指だ。
+
+🛒 [Amazonで見る(AT-LP120XUSB)](https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22)
 
 ---
 
@@ -58,6 +62,8 @@ DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでず�
 
 鳴りの評判もよく、「[It doesn't try to impress by sounding big and glossy; instead, it gets out of the way and lets records keep their shape](https://darksidevinyl.com/review/rega-planar-3/)」と評されるように、音を盛らずに素材の形をそのまま届けるタイプらしい。一方でストレートアームゆえ「[カートリッジを頻繁に交換したい場合には不便](https://www.sara-mac.com/audio/rega-planar3.html)」という声もあり、33/45回転の切り替えもベルトを手で掛け替える方式のため、「[Not a quick job](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」とやや面倒くさがられている。それでも「[It's robust and well built, but still looks the business](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」という評判どおり、静かな完成度の高さが英国紳士らしい一台だ。
 
+🛒 [Amazonで見る(Rega Planar 3)](https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22)
+
 ---
 
 ## Pro-Ject Debut Carbon EVO — 気配りの効いた優等生
@@ -70,6 +76,8 @@ DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでず�
 
 音の傾向は「[lush midband is warm without being woolly](https://www.stereonet.com/reviews/pro-ject-debut-carbon-evo-turntable-review)」(中域は温かみがありつつもたつかない)と評され、TechRadarも「neutral rather than exciting」と表現している。派手さより誠実さで勝負するタイプらしい。拡張性の面では、「[交換するのは針だけ、再調整も新カートリッジ本体も不要](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」という上位カートリッジへの乗り換えやすさが光る。ただしフォノプリアンプは内蔵しておらず、「[フォノプリアンプはオプションではなく必須の構成要素](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」と念を押されている。
 
+🛒 [Amazonで見る(Pro-Ject Debut Carbon EVO)](https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22)
+
 ---
 
 ## Sony PS-LX310BT — とにかく気軽に鳴らしたい人へ
@@ -81,6 +89,8 @@ DAW、サンプラー、鍵盤、そしてオーディオI/O。ここまでず�
 五本の中でいちばん「何も考えなくていい」のがこの一台だ。「[アームの水平だしや針圧調整などは必要なし](https://soudesu365.com/ps-lx310bt/)」、組み立ても「[ターンテーブルをセットしてベルトを引っ掛けて、ダストカバーを取り付けて終わり](https://soudesu365.com/ps-lx310bt/)」という潔さで、Bluetoothスピーカーに繋げばそれだけで音楽が流れ出す。「レコードを聴く」というより「レコードで音楽を再生する」ことに全振りした設計だ。
 
 音質については正直に書いておきたい。「[ぼやけた音で、聞いてるうちに疲れる](https://geo-arekore.jp/ownd/sony-ps-lx310bt_review/)」という辛口な声もあり、上位機と比べると解像感では見劣りする。引き換えにヘッドシェルの脱着に対応しておらず、カートリッジ本体の交換もできない。「[スタートストップのスイッチの操作感やアームが動く時の音は価格なりにチープです](https://soudesu365.com/ps-lx310bt/)」という指摘も正直なところだろう。凝り性には物足りないが、「レコードという体験」の入り口としては、これほど間口の広い一台もない。
+
+🛒 [Amazonで見る(後継機 Sony PS-LX3BT)](https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22) — PS-LX310BTは生産終了のため、直系の後継機を案内
 
 ---
 

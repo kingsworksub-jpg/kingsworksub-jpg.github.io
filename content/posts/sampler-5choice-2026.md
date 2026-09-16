@@ -32,6 +32,8 @@ draft: false
 
 それでも手放せない人が絶えないのは、拡張性の桁が違うからだ。KSPというスクリプト言語と、世界中のライブラリメーカーが築いてきたエコシステムのおかげで、「[サードパーティ製ライブラリを持たないと、利用可能な音源の大部分を逃す](https://www.kvraudio.com/product/kontakt-by-native-instruments/reviews/7580)」とまで言われる。裏を返せば、これは「重い荷物を背負う覚悟がある人向け」の一本だ。
 
+🛒 [Amazonで見る(Kontakt 8)](https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22)
+
 ---
 
 ## Battery 4 — 寡黙な働き者、待望の後継機はまだ来ない
@@ -43,6 +45,8 @@ draft: false
 セルにドラムの音を並べていくだけ、という潔さがこの人の美点だ。あるユーザーは「[Battery is so uncomplicated it allows you to move fast and remain creative](https://www.kvraudio.com/forum/viewtopic.php?t=503453&start=60)」と評し、日本語のレビューでも「[打ち込みドラムで曲を作る場合、結局「Battery 4」を使ってしまいます](https://note.com/masatsumu/n/n8e4c390fac0f)」というつぶやきが見つかる。迷ったらこれ、という信頼のされ方だ。
 
 ただし正直に書いておくと、後継機「Battery 5」は2026年になっても影も形もない。NIの公式フォーラムでは2018年からずっと「Battery 5はまだ?」という声が上がり続けていて、待たされているファンの気持ちを思うと少し切なくなる。寡黙なのは美徳だが、たまには近況報告してほしいものだ。
+
+🛒 [公式サイトで見る(Battery 4)](https://www.native-instruments.com/products/battery) — Amazonに単体販売の取り扱いなし
 
 ---
 
@@ -56,6 +60,8 @@ draft: false
 
 4レイヤーというシンプルな構造ゆえに、Kontaktのような複雑な多重マッピングには向かない。日本語のレビューでも「[大容量のピアノ・サンプル・ライブラリなどを期待しないでください](https://sawayakatrip.com/tal-sampler)」と釘を刺されている。その代わり、ヴィンテージ機材の質感を再現するDACモデル切り替えなど、小柄な体に似合わぬ奥行きも持っている。器用な末っ子、という感じだろうか。
 
+🛒 [公式サイトで見る(TAL-Sampler)](https://tal-software.com/products/tal-sampler) — Amazonに単体販売の取り扱いなし
+
 ---
 
 ## UVI Falcon — 一生かけて仲良くなるタイプ
@@ -68,6 +74,8 @@ draft: false
 
 24種のオシレーターと100以上のエフェクト、Luaベースのスクリプトまで揃った拡張性は五本の中でも随一。慣れたユーザーは「[open Falcon, browse to a folder, draw a MIDI note, and flick through sounds](https://vi-control.net/community/threads/falcon-2-8-the-best-vst-for-sound-design.131055/)」というくらい自在に使いこなしている。最初の関門さえ越えれば、一番遠くまで連れて行ってくれるタイプだ。
 
+🛒 [公式サイトで見る(UVI Falcon)](https://www.uvi.net/falcon.html) — Amazon上の出品は旧バージョンのため公式サイトを案内
+
 ---
 
 ## Serato Sample — 出会って30秒で分かる、身軽さの権化
@@ -79,6 +87,8 @@ draft: false
 「[Even beginners can get started in as little as 30 seconds](https://samplehunt.com/serato-sample/)」という謳い文句は、大抵のソフトでは眉唾だが、これに関してはどうやら本当らしい。日本語のレビューでも「[使い方自体は非常に簡単です](https://dawlesson.net/review/serato-sample/)」「[操作のシンプルさやスピードで言えば、断然SAMPLEの方が上です](https://dawlesson.net/review/serato-sample/)」と、身軽さを褒める声が揃う。ループを放り込んでボタンひとつでチョップする様は、まさに即断即決タイプ。
 
 ただし身軽さと引き換えに、込み入ったことは苦手だ。ベロシティ感度やトランジェント検出でのチョップには対応しておらず、Gearspaceでは「[GUIリサイズ不可](https://gearspace.com/threads/lets-talk-serato-sample.1164495/)」といった細かい不満も見かけた。複数インスタンスを開くと重くなるため、公式サポートも「[チョップ後はオーディオ化(フラット化)推奨](https://support.serato.com/hc/en-us/articles/115000475714-Optimization-for-Serato-Sample-users)」と案内している。走るのは速いが、長距離走には向かない、そんな印象だ。
+
+🛒 [Amazonで見る(Serato Sample)](https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22)
 
 ---
 

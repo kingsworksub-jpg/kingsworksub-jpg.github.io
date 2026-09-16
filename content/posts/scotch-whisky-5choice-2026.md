@@ -32,6 +32,8 @@ draft: false
 
 ただし裏を返せば、「[個性的な特徴が感じられない](https://whisky-shiru.com/glenfiddich12)」という物足りなさは、玄人が語るときによく出てくる評価でもある。それでも「[a good entry point to whisky-nerdness](https://roadtodram.com/glenfiddich-12-world-most-popular-single-malt/)」という言葉どおり、ウイスキーという沼に足を踏み入れる最初の一本としては、これ以上ないくらい優秀だ。
 
+🛒 [Amazonで見る(グレンフィディック12年)](https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22)
+
 ---
 
 ## ザ・マッカラン12年 ダブルカスク — 名声に見合う値段、という現実
@@ -43,6 +45,8 @@ draft: false
 「[ウイスキー嫌いを克服できたのはネガティブな特徴があまりなく、まろやかで飲みやすかったから](https://sake.nukabukuro.jp/entry/macallan12doublecask)」という体験談があるほど、飲み口の丸さには定評がある。バニラのような甘みと、ほんのりした塩気のバランスも心地よい。
 
 ただし2025年4月の値上げで税込10,890円になったこともあり、「[現時点での入手のしやすさ・価格を考えると、一番手に取りやすい一本](https://alcoholiclounge.com/macallan-double-cask-12-review/)」という評価は、裏を返せば「マッカランの中では」という但し書き付きだ。ブランド全体の品薄・価格高騰が続くなか、「[現在、マッカラン12年を定価で購入するのは非常に困難](https://joylab.jp/cat-blog/macallan-12-year-old-price-increase/)」という声も見過ごせない。名声を味わうための、それなりの授業料が必要な一本だと思っておいた方がいい。
+
+🛒 [Amazonで見る(ザ・マッカラン12年 ダブルカスク)](https://www.amazon.co.jp/dp/B0D8PCRQHG?tag=nakimoto1-22)
 
 ---
 
@@ -56,6 +60,8 @@ draft: false
 
 しかしその強烈な第一印象の奥には、バニラや蜂蜜の甘さが潜んでいて、「[強烈な第一印象と、その奥にある甘みの落差](http://enokishouten.co.jp/blog/laphroaig)」こそがこの銘柄の醍醐味だという声も多い。好きになれば一生付き合うことになる、そんな沼の入り口としての魅力がある。
 
+🛒 [Amazonで見る(ラフロイグ10年)](https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22)
+
 ---
 
 ## ジョニーウォーカー ブラックラベル — 隙のない、みんなの相棋
@@ -68,6 +74,8 @@ draft: false
 
 コンビニでも買える入手性の高さと、ストレートからハイボールまで何にでも応える汎用性は、五本の中でも図抜けている。「[初心者には飲めないと思う](https://note.com/2chtaiga/n/nd739f311178a)」という辛口の声もあるにはあるが、大多数の評価は好意的だ。特別な日ではなく、日常に寄り添う一本、というのがこの銘柄の立ち位置だと思う。
 
+🛒 [Amazonで見る(ジョニーウォーカー ブラックラベル)](https://www.amazon.co.jp/dp/B0B6F398ZJ?tag=nakimoto1-22)
+
 ---
 
 ## ハイランドパーク12年 — 弱点を探す方が難しい、隠れた優等生
@@ -79,6 +87,8 @@ draft: false
 五本を比べてみて、いちばん「隙がない」と感じたのがこの一本だった。あるブログは「[長所ばかりが見つかり、弱点という弱点が見つからない](https://asgsn.hatenablog.com/entry/2026/04/25/193000)」「[完全無欠のアイランズモルト](https://asgsn.hatenablog.com/entry/2026/04/25/193000)」とまで言い切っている。ヘザーハニーの甘さと控えめなピートスモークのバランスは、往年の評論家Michael Jacksonをして「[シングルモルトウイスキーの中で最もオールラウンダーなウイスキー](https://hisa-blog.net/highlandpark-12years/)」と言わしめたほどだ。
 
 「[5,000円台という価格でこれほどの複雑さとバランスを兼ね備えたウイスキーは稀有です](https://sister-ley.com/183/)」というコストパフォーマンスの高さも申し分ない。強いて弱点を挙げるなら、ピートの強い個性を求める人には「[クセが少なくて物足りない](https://whisky-shiru.com/highlandpark12)」と映るかもしれない、というくらいだ。
+
+🛒 [Amazonで見る(ハイランドパーク12年)](https://www.amazon.co.jp/dp/B096TPP9YR?tag=nakimoto1-22)
 
 ---
 

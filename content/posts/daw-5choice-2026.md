@@ -32,6 +32,8 @@ Apple謹製、Macでしか動かないという一点だけがこの人の「頑
 
 ピアノロールも直感的で、GarageBandから移ってきた人が「[圧倒的に安い](https://dtmdriver.com/logic-review-15)」「[土台ががっしり固まり尽くしている](https://dtmdriver.com/logic-review-15)」と評するのも頷ける。弱点は拡張性で、対応形式がAudio Units限定、つまりVSTプラグインをそのままでは受け入れてくれない不器用さがある。2026年からは月額1,780円の「Apple Creator Studio」というサブスクの器にも収まったが、買い切り版と機能差はないというから、これは単なる選択肢の増加と見ていいだろう。
 
+🛒 [公式サイトで見る(Apple)](https://www.apple.com/jp/logic-pro/) — Mac App Store専売のためAmazonでの取り扱いなし
+
 ---
 
 ## FL Studio — やんちゃだが、天才肌
@@ -43,6 +45,8 @@ Apple謹製、Macでしか動かないという一点だけがこの人の「頑
 ステップシーケンサーとピアノロールの打ち込み心地の良さは、ほとんどの記事が口を揃えて褒めている。ループを重ねてビートを組み立てる感覚は、まるでブロック遊びだ。ただし最初の関門がやや高く、「[最初のDAWとしてはあまりオススメできない](https://kaymusic-online.com/contents/review-flstudio/)」という正直な感想もちらほら見かけた。画面のどこに何が置いてあるか分かりにくいという声も多い。
 
 それでも憎めないのは、買い切ったら一生アップデートが無料というふところの広さ。2026年夏に出た最新版ではAIアシスタント「Gopher」がテキスト指示でミキサーの配線まで整理してくれるというから、やんちゃなくせに気は利く。一方で「[FL Studioはクラッシュとバグさえ無くなれば神](https://touya-blog-life.com/fl-studio-drawbacks/)」という、褒めているのか呆れているのか分からない評も多く、天才肌にありがちな危うさは健在らしい。
+
+🛒 [Amazonで見る(FL Studio 21 Producer Edition)](https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22)
 
 ---
 
@@ -56,6 +60,8 @@ Apple謹製、Macでしか動かないという一点だけがこの人の「頑
 
 拡張性の高さは五本の中でも頭ひとつ抜けていて、「Max for Live」という自作の作業台を使えば、シンセもエフェクトも一から編める。しかも「[世界で最も実用的なDAWと評されるほど安定性に優れる](https://dtm-hakase.biz/185/)」という評判どおり、動作の軽さにも定評がある。器用貧乏ならぬ、器用職人といったところだろうか。
 
+🛒 [Amazonで見る(Ableton Live 12 Suite)](https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22)
+
 ---
 
 ## Cubase — 生真面目な優等生
@@ -68,6 +74,8 @@ Apple謹製、Macでしか動かないという一点だけがこの人の「頑
 
 ただし機能が多い分、最初の一歩は険しい。「[専門用語がすっと頭に入ってこなくて、何度も同じ所を見返しました](https://ameblo.jp/labonacafe/entry-12825306683.html)」というつぶやきに、多くの初心者が頷くはずだ。2025年秋に出たCubase 15では、VOCALOIDチーム製の歌声合成まで内蔵されたというから、生真面目なりに新しいことにも手を出し始めている。
 
+🛒 [Amazonで見る(Cubase Pro 15)](https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22)
+
 ---
 
 ## Fender Studio Pro(旧Studio One) — 改名した働き者
@@ -79,6 +87,8 @@ Apple謹製、Macでしか動かないという一点だけがこの人の「頑
 2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。ギターメーカーの名を背負うことになった本人(ソフト)は戸惑っているだろうが、中身と開発チームは変わっていない、というのが救いだ。あるレビューは「[開発チームはそのまま。Studio One のコアエンジン・ワークフロー・哲学はそのまま](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」とつづっていて、ひとまず安堵した人も多いはずだ。
 
 ドラッグ&ドロップ主体の操作感は突出していて、「[修正の手間を考えても、ゼロから打ち込むより圧倒的に速い](https://shunbass.com/fender-studio-pro-8-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%80%90studio-one-2%E4%B8%96%E4%BB%A3%E7%9B%AE%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%AD%A3%E7%9B%B4%E3%81%AB%E8%AA%9E%E3%82%8B/)」という制作速度の速さは、伊達ではない。弱点は付属音源の少なさ。他社が70GB超えの音源ライブラリを積んでくる中、こちらは36GB程度と控えめで、拡張性のスコアはやや伸び悩んだ。
+
+🛒 [公式サイトで見る(Fender Studio Pro)](https://jp.fender.com/en/products/fender-studio-pro) — Amazonに単体販売の取り扱いなし
 
 ---
 
