@@ -48,7 +48,7 @@ draft: false
 
 2025年10月に登場した最新の末っ子。長年の不満だったジョイスティックを廃して本物のピッチ/モジュレーションホイールを積んだのは大きな進歩で、「[ミニ鍵盤特有の『遊び』が極限まで抑えられ](https://aostapp.hatenablog.com/entry/2025/10/18/103000)」とパッドの評判も上々だ。1000以上のプリセットを積んだ音源同梱で「[MPK Mini IVとStudio Instrument Collectionの2つで、16,800円(税込)はかなりオトク](https://www.dtmstation.com/archives/73920.html)」というコスパの良さも人気の理由らしい。
 
-ただしミニ鍵盤の宿命からは逃れられておらず、「[it's a downgrade to me... the Mk3 is better for beginners](https://soundgearnerd.com/akai-mpk-mini-review/)」と、あえて旧モデルを使い続ける古参ファンもいる。発売してまだ日が浅いため、耐久性についてはこれから評価が積み上がっていく段階だ。伸びしろがあるというのは、裏を返せばまだ何者でもないということでもある——という説教くさいことを言えるほど、私自身に伸びしろが残っているかは甚だ疑問だが。
+ただしミニ鍵盤の宿命からは逃れられておらず、「[自分にとっては退化だ……初心者にはMk3の方が向いている](https://soundgearnerd.com/akai-mpk-mini-review/)」と、あえて旧モデルを使い続ける古参ファンもいる。発売してまだ日が浅いため、耐久性についてはこれから評価が積み上がっていく段階だ。伸びしろがあるというのは、裏を返せばまだ何者でもないということでもある——という説教くさいことを言えるほど、私自身に伸びしろが残っているかは甚だ疑問だが。
 
 🛒 [Amazonで見る(Akai MPK Mini MK4)](https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22)
 
@@ -74,9 +74,9 @@ USB接続一発でDAWと手を繋いでしまう気配りの良さは、五本�
 
 - セットアップ 4 / 演奏性 4 / DAW連携 5 / 拡張性 4 / 耐久性 3
 
-Ableton Liveユーザーにとっては、ほとんど専用機と言っていい存在だ。「[Ableton Live専用機と言えるほど深い統合が施されている](https://aostapp.hatenablog.com/entry/2026/02/28/183000)」と評され、海外レビューでも「[the experience using a Launchkey is simply incredible](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」と絶賛されている。「弾けなくても作れる」スケール/コードモードの設計思想は、私のような人間のために存在していると言っても過言ではない。
+Ableton Liveユーザーにとっては、ほとんど専用機と言っていい存在だ。「[Ableton Live専用機と言えるほど深い統合が施されている](https://aostapp.hatenablog.com/entry/2026/02/28/183000)」と評され、海外レビューでも「[Launchkeyを使う体験は、とにかく圧倒的だ](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」と絶賛されている。「弾けなくても作れる」スケール/コードモードの設計思想は、私のような人間のために存在していると言っても過言ではない。
 
-鍵盤の評価は割れていて、「[they're the best I've tried](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」という声がある一方で、「鍵盤の感触がひどかった」という真逆の投稿も見かけた([Gearspace](https://gearspace.com/threads/arturia-keylab-essential-mk3-vs-novation-launchkey-mk4-midi-controller-keyboards.1442347/))。アフタータッチが無い点も惜しまれる。Ableton以外のDAWでは連携が「largely successful」ながら本領発揮とまではいかないようで、要するに一途な性格らしい。前回Ableton Liveの峠の手前で敗退した身としては、少々複雑な気持ちになる。
+鍵盤の評価は割れていて、「[自分が試した中では最高の出来](https://www.sinesquares.net/musicgear/novation-launchkey-mk4-review)」という声がある一方で、「鍵盤の感触がひどかった」という真逆の投稿も見かけた([Gearspace](https://gearspace.com/threads/arturia-keylab-essential-mk3-vs-novation-launchkey-mk4-midi-controller-keyboards.1442347/))。アフタータッチが無い点も惜しまれる。Ableton以外のDAWでは連携が「largely successful」ながら本領発揮とまではいかないようで、要するに一途な性格らしい。前回Ableton Liveの峠の手前で敗退した身としては、少々複雑な気持ちになる。
 
 🛒 [Amazonで見る(Novation Launchkey MK4)](https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22)
 
@@ -90,7 +90,7 @@ Ableton Liveユーザーにとっては、ほとんど専用機と言ってい�
 
 2020年発売から後継機が出ないまま、いまだに現役フラッグシップの座にいる重鎮だ。PHA-4鍵盤のエスケープメント機構による弾き心地は「[適度な重さとエスケープメントによって得られる演奏感はグランドピアノに近い](https://96bit-music.com/roland-a88-mk%E2%85%B1-review/)」と高く評価され、あるレビュアーは他社製品と比べて「[さすが国産です](https://96bit-music.com/roland-a88-mk%E2%85%B1-review/)」とまで言い切っている。
 
-MIDI 2.0の高解像度対応など、地味に長く進化を続けている律儀さも美点だ。ただしメモリースロットが8つしかない点は「[downright measly](https://www.soundonsound.com/reviews/roland-88-mkii)」と辛口に評され、拡張性の面では物足りなさが残る。派手さはないが寡黙に長く働いてくれる、頼れる大黒柱——こういう存在が身近にいると、自分がいかに派手で頼りないかを思い知らされる。
+MIDI 2.0の高解像度対応など、地味に長く進化を続けている律儀さも美点だ。ただしメモリースロットが8つしかない点は「[はっきり言って貧弱](https://www.soundonsound.com/reviews/roland-88-mkii)」と辛口に評され、拡張性の面では物足りなさが残る。派手さはないが寡黙に長く働いてくれる、頼れる大黒柱——こういう存在が身近にいると、自分がいかに派手で頼りないかを思い知らされる。
 
 🛒 [Amazonで見る(Roland A-88MKII)](https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22)
 

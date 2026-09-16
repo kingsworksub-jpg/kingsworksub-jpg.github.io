@@ -48,7 +48,7 @@ draft: false
 
 VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感が手に入る。あるユーザーは「[コンプレッサーの知識がなくても、簡単に良い感じになるのがすごいです](https://hikigatarisuto-labo.jp/volt276/)」と評し、別のレビューでは「[細かく追い込めない代わりに、何も考えず使いやすい](https://dtmdriver.com/universal-audio-volt276)」と、割り切りの潔さを褒めている。知識がなくても様になる、というのは私が長年追い求めてきた境地そのものである。
 
-ただし前面スイッチについては「[front switches feel slightly plasticky](https://musicproductionwiki.com/articles/universal-audio-volt-276-review)」という指摘もあり、見た目の高級感と細部の質感には少し差があるようだ。玄人向けの機能を初心者にも開いてくれる気さくな本格派、という評価にケチをつける気はないが、細部で化けの皮が剥がれるあたり、こちらも人のことは言えない。
+ただし前面スイッチについては「[質感はやや安っぽい](https://musicproductionwiki.com/articles/universal-audio-volt-276-review)」という指摘もあり、見た目の高級感と細部の質感には少し差があるようだ。玄人向けの機能を初心者にも開いてくれる気さくな本格派、という評価にケチをつける気はないが、細部で化けの皮が剥がれるあたり、こちらも人のことは言えない。
 
 🛒 [Amazonで見る(Universal Audio Volt 276)](https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22)
 

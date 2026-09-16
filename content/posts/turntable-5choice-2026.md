@@ -38,7 +38,7 @@ draft: false
 
 カートリッジもフォノイコも別売り、という潔さがこの定番機の性格をよく表している。「[慣れ親しんできた操作性はそのままに、しかし細部は確実にアップデートされていた](https://mikiki.tokyo.jp/articles/-/22116)」という評のとおり、DJ用途での完成度は歴代モデルの正統進化だ。組み上げた末に音が出た瞬間の喜びも、実際に使い込んだブログで「[ちゃんと鳴ってる〜](https://hoshiimo-bass.hatenablog.com/entry/2023/06/21/223503)」という一言に滲んでいる。この「ちゃんと鳴ってる」の一言に至るまで、私は説明書を三回読み返した。
 
-鳴りについては「[The MK7 was pretty much spot on, all the low frequencies coming over tight and unexaggerated, with crisp high frequencies](https://www.stereonet.com/reviews/technics-sl-1200mk7-direct-drive-turntable-review)」と評され、低域の締まりと高域の抜けの良さに定評がある。色付けの少ない、ニュートラルな「土台」としての完成度は高い。ただし箱から出してすぐ聴きたい人には向かない。カートリッジ選び、ヘッドシェル取り付け、フォノイコの配線——すべて自分の手でやることになる。裏を返せば「[壊れにくいのです！](https://www.otaiweb.com/otareco/2025/08/08/14302/)」という信頼感と、トーンアームの高さまで調整できる拡張性の高さは、その手間に見合う対価だと思う。玄人が黙って選ぶ理由が、素人にもなんとなく分かる一台だ。
+鳴りについては「[MK7はほぼ完璧で、低域は誇張なく締まっており、高域も鮮やかだった](https://www.stereonet.com/reviews/technics-sl-1200mk7-direct-drive-turntable-review)」と評され、低域の締まりと高域の抜けの良さに定評がある。色付けの少ない、ニュートラルな「土台」としての完成度は高い。ただし箱から出してすぐ聴きたい人には向かない。カートリッジ選び、ヘッドシェル取り付け、フォノイコの配線——すべて自分の手でやることになる。裏を返せば「[壊れにくいのです！](https://www.otaiweb.com/otareco/2025/08/08/14302/)」という信頼感と、トーンアームの高さまで調整できる拡張性の高さは、その手間に見合う対価だと思う。玄人が黙って選ぶ理由が、素人にもなんとなく分かる一台だ。
 
 🛒 [Amazonで見る(Technics SL-1200MK7)](https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22)
 
@@ -50,7 +50,7 @@ draft: false
 
 - セットアップ 3 / 操作性 3 / 音質 4 / 拡張性 5 / 耐久性 4
 
-累計100万台という数字が物語る通り、この一台は「特別すごい」というより「どこも欠点が致命的ではない」という強さを持っている。「[この価格でダイレクトドライブは希少](https://kumagumablog.com/at-lp120xbt-usb-review/)」という評価どおり、駆動方式の面ではこの価格帯を超えた実力がある。鳴りっぷりも「[clean, punchy, and easy to live with, without trying to flatter records with extra warmth or romance](https://www.loudersound.com/reviews/audio-technica-at-lp120xusb-review)」と評され、変な色気で誤魔化さない、素直な音という評価が目立つ。色気で誤魔化さない、というのは、この記事の文体とは真逆の生き方である。
+累計100万台という数字が物語る通り、この一台は「特別すごい」というより「どこも欠点が致命的ではない」という強さを持っている。「[この価格でダイレクトドライブは希少](https://kumagumablog.com/at-lp120xbt-usb-review/)」という評価どおり、駆動方式の面ではこの価格帯を超えた実力がある。鳴りっぷりも「[クリーンでパンチがあり、余計な温かみやロマンでレコードにお世辞を言わない、付き合いやすい音](https://www.loudersound.com/reviews/audio-technica-at-lp120xusb-review)」と評され、変な色気で誤魔化さない、素直な音という評価が目立つ。色気で誤魔化さない、というのは、この記事の文体とは真逆の生き方である。
 
 ただし正直な弱点もある。オートリターンが無いため「[レコードが終わっても、針が上がりアームが自動で戻らない](https://note.com/magic_ixora1929/n/n38b17598cc9b)」ので、「[音楽を聴きながら寝落ちできない](https://note.com/magic_ixora1929/n/n38b17598cc9b)」というユーザーの嘆きにはつい笑ってしまった。私も一度寝落ちして、同じ溝を三十分近くループさせた前科がある。その代わりヘッドシェルの脱着が容易で、「[カートリッジ交換で音質の変化が楽しめる](https://xn--dcknb0b6f4f7ftc.pw/archives/7438)」拡張性の高さは五本の中でも屈指だ。
 
@@ -66,7 +66,7 @@ draft: false
 
 「[操作系はシンプルで、セッティングは厳密で容易](https://www.phileweb.com/review/article/201608/25/2191.html)」と評されるこの一台は、オーディオファイル向けでありながら不思議と気取っていない。バランスウェイトを手で"浮かせる"だけの簡易調整法は、YouTubeで「so EASY」と紹介されるほど拍子抜けするほど手軽だ。気取っていないのに、こちらより余程様になっているのが、少し悔しい。
 
-鳴りの評判もよく、「[It doesn't try to impress by sounding big and glossy; instead, it gets out of the way and lets records keep their shape](https://darksidevinyl.com/review/rega-planar-3/)」と評されるように、音を盛らずに素材の形をそのまま届けるタイプらしい。一方でストレートアームゆえ「[カートリッジを頻繁に交換したい場合には不便](https://www.sara-mac.com/audio/rega-planar3.html)」という声もあり、33/45回転の切り替えもベルトを手で掛け替える方式のため、「[Not a quick job](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」とやや面倒くさがられている。それでも「[It's robust and well built, but still looks the business](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」という評判どおり、静かな完成度の高さが英国紳士らしい一台だ。
+鳴りの評判もよく、「[大きく華やかな音で印象付けようとせず、むしろ邪魔をせず、レコードそのものの形を保たせてくれる](https://darksidevinyl.com/review/rega-planar-3/)」と評されるように、音を盛らずに素材の形をそのまま届けるタイプらしい。一方でストレートアームゆえ「[カートリッジを頻繁に交換したい場合には不便](https://www.sara-mac.com/audio/rega-planar3.html)」という声もあり、33/45回転の切り替えもベルトを手で掛け替える方式のため、「[すぐには終わらない作業](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」とやや面倒くさがられている。それでも「[頑丈でしっかり作られていながら、見た目にも風格がある](https://longlivevinyl.net/2017/06/09/rega-planar-3-turntable-review/)」という評判どおり、静かな完成度の高さが英国紳士らしい一台だ。
 
 🛒 [Amazonで見る(Rega Planar 3)](https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22)
 
@@ -80,7 +80,7 @@ draft: false
 
 「[33回転から45回転への切り替えはユニットを分解せず簡単](https://www.worldwidestereo.com/blogs/guides/pro-ject-debut-carbon-evo-turntable-review)」という電子式スイッチは、地味だが日常使いでは効いてくる進化だ。プラッターに「ボタンもスイッチも印字もない、潔いミニマルデザイン」という佇まいにも、この機種の気配り上手な性格がにじんでいる。潔さだけは見習いたいものだと、締切を三度延ばした人間として思う。
 
-音の傾向は「[lush midband is warm without being woolly](https://www.stereonet.com/reviews/pro-ject-debut-carbon-evo-turntable-review)」(中域は温かみがありつつもたつかない)と評され、TechRadarも「neutral rather than exciting」と表現している。派手さより誠実さで勝負するタイプらしい。拡張性の面では、「[交換するのは針だけ、再調整も新カートリッジ本体も不要](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」という上位カートリッジへの乗り換えやすさが光る。ただしフォノプリアンプは内蔵しておらず、「[フォノプリアンプはオプションではなく必須の構成要素](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」と念を押されている。
+音の傾向は「[豊かな中域は、もたつくことなく温かみがある](https://www.stereonet.com/reviews/pro-ject-debut-carbon-evo-turntable-review)」(中域は温かみがありつつもたつかない)と評され、TechRadarも「neutral rather than exciting」と表現している。派手さより誠実さで勝負するタイプらしい。拡張性の面では、「[交換するのは針だけ、再調整も新カートリッジ本体も不要](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」という上位カートリッジへの乗り換えやすさが光る。ただしフォノプリアンプは内蔵しておらず、「[フォノプリアンプはオプションではなく必須の構成要素](https://vinylpickup.com/pro-ject-debut-carbon-evo-review/)」と念を押されている。
 
 🛒 [Amazonで見る(Pro-Ject Debut Carbon EVO)](https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22)
 

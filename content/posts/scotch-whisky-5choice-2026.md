@@ -34,9 +34,9 @@ draft: false
 
 - 飲みやすさ 5 / 複雑さ 2 / コスパ 4 / 汎用性 5 / 入手性 5
 
-世界でいちばん売れているシングルモルト、という肩書きは伊達ではない。海外レビューでは「[like the Coca-Cola of whisky](https://roadtodram.com/glenfiddich-12-world-most-popular-single-malt/)」と評されるほど、誰にでも開かれた味わいだ。「[面白くはないが飲みやすい](https://note.com/alambic0830/n/n300d5bb35417)」という日本語レビューの一言が、この銘柄の性格を的確に言い当てている。私のような味覚に自信のない人間には、むしろありがたい話である。
+世界でいちばん売れているシングルモルト、という肩書きは伊達ではない。海外レビューでは「[ウイスキー界のコカ・コーラのような存在](https://roadtodram.com/glenfiddich-12-world-most-popular-single-malt/)」と評されるほど、誰にでも開かれた味わいだ。「[面白くはないが飲みやすい](https://note.com/alambic0830/n/n300d5bb35417)」という日本語レビューの一言が、この銘柄の性格を的確に言い当てている。私のような味覚に自信のない人間には、むしろありがたい話である。
 
-ただし裏を返せば、「[個性的な特徴が感じられない](https://whisky-shiru.com/glenfiddich12)」という物足りなさは、玄人が語るときによく出てくる評価でもある。それでも「[a good entry point to whisky-nerdness](https://roadtodram.com/glenfiddich-12-world-most-popular-single-malt/)」という言葉どおり、ウイスキーという沼に足を踏み入れる最初の一本としては、これ以上ないくらい優秀だ。もっとも、私はまだ沼の入り口で立ち尽くしている。
+ただし裏を返せば、「[個性的な特徴が感じられない](https://whisky-shiru.com/glenfiddich12)」という物足りなさは、玄人が語るときによく出てくる評価でもある。それでも「[ウイスキーオタクへの良い入り口](https://roadtodram.com/glenfiddich-12-world-most-popular-single-malt/)」という言葉どおり、ウイスキーという沼に足を踏み入れる最初の一本としては、これ以上ないくらい優秀だ。もっとも、私はまだ沼の入り口で立ち尽くしている。
 
 🛒 [Amazonで見る(グレンフィディック12年)](https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22)
 

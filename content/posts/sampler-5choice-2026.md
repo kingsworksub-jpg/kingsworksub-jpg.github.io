@@ -54,7 +54,7 @@ draft: false
 
 - 学習コスト 4 / 編集 4 / 制作速度 5 / 拡張性 3 / 安定性 4
 
-セルにドラムの音を並べていくだけ、という潔さがこの製品の美点だ。あるユーザーは「[Battery is so uncomplicated it allows you to move fast and remain creative](https://www.kvraudio.com/forum/viewtopic.php?t=503453&start=60)」と評し、日本語のレビューでも「[打ち込みドラムで曲を作る場合、結局「Battery 4」を使ってしまいます](https://note.com/masatsumu/n/n8e4c390fac0f)」というつぶやきが見つかる。迷ったらこれ、という信頼のされ方は、優柔不断な人間が一番欲しかったものだ。
+セルにドラムの音を並べていくだけ、という潔さがこの製品の美点だ。あるユーザーは「[Batteryはあまりに単純明快で、創造性を保ったまま素早く動ける](https://www.kvraudio.com/forum/viewtopic.php?t=503453&start=60)」と評し、日本語のレビューでも「[打ち込みドラムで曲を作る場合、結局「Battery 4」を使ってしまいます](https://note.com/masatsumu/n/n8e4c390fac0f)」というつぶやきが見つかる。迷ったらこれ、という信頼のされ方は、優柔不断な人間が一番欲しかったものだ。
 
 ただし正直に書いておくと、後継機「Battery 5」は2026年になっても影も形もない。NIの公式フォーラムでは2018年からずっと「Battery 5はまだ?」という声が上がり続けていて、他人事とは思えず胸が痛む。寡黙なのは美徳だが、待たされている側の身にもなってほしい。
 
@@ -70,7 +70,7 @@ draft: false
 
 - 学習コスト 5 / 編集 3 / 制作速度 5 / 拡張性 4 / 安定性 4
 
-5本の中でいちばん「拍子抜けするほど簡単」だったのがこの一本だ。レビューは「[fast paced and incredibly intuitive for both beginners and advanced producers](https://www.producersphere.com/tal-sampler-review/)」と評し、フォーラムでも「[Piece of cake to load and play 4 samples](https://www.kvraudio.com/forum/viewtopic.php?t=499571)」と、まるで朝食の支度のような軽さで語られている。正直、私の作業速度より圧倒的に速い。
+5本の中でいちばん「拍子抜けするほど簡単」だったのがこの一本だ。レビューは「[テンポが良く、初心者にも上級者にも驚くほど直感的](https://www.producersphere.com/tal-sampler-review/)」と評し、フォーラムでも「[4つのサンプルを読み込んで鳴らすのは朝飯前](https://www.kvraudio.com/forum/viewtopic.php?t=499571)」と、まるで朝食の支度のような軽さで語られている。正直、私の作業速度より圧倒的に速い。
 
 4レイヤーというシンプルな構造ゆえに、Kontaktのような複雑な多重マッピングには向かない。日本語のレビューでも「[大容量のピアノ・サンプル・ライブラリなどを期待しないでください](https://sawayakatrip.com/tal-sampler)」と釘を刺されている。その代わり、ヴィンテージ機材の質感を再現するDACモデル切り替えなど、小柄な体に似合わぬ奥行きも持っている。要領の良さと引き出しの多さを兼ね備えた後輩に、こちらが教わっている構図である。
 
@@ -88,7 +88,7 @@ draft: false
 
 正直に言うと、最初の印象は「手強い」の一言だった。あるレビューは「[多機能すぎてわかりづらい](https://watanabejunya.com/uvi-falcon2/)」「[一生かけて使いこなせるかどうかと思えるほど](https://watanabejunya.com/uvi-falcon2/)」と書いていて、こちらは我が意を得たりと頷いた。ただし同じ記事は「[基本構造と画面構成さえ掴めば一気に扱いやすくなります](https://watanabejunya.com/uvi-falcon2/)」とも続けていて、白状すると私はまだその基本構造にすら辿り着いていない。
 
-24種のオシレーターと100以上のエフェクト、Luaベースのスクリプトまで揃った拡張性は五本の中でも随一。慣れたユーザーは「[open Falcon, browse to a folder, draw a MIDI note, and flick through sounds](https://vi-control.net/community/threads/falcon-2-8-the-best-vst-for-sound-design.131055/)」というくらい自在に使いこなしている。最初の関門さえ越えれば一番遠くまで連れて行ってくれるらしいのだが、その関門の手前で立ち尽くしている人間が、ここに一人いる。
+24種のオシレーターと100以上のエフェクト、Luaベースのスクリプトまで揃った拡張性は五本の中でも随一。慣れたユーザーは「[Falconを開いてフォルダを選び、MIDIノートを描いて音を次々と切り替えるだけ](https://vi-control.net/community/threads/falcon-2-8-the-best-vst-for-sound-design.131055/)」というくらい自在に使いこなしている。最初の関門さえ越えれば一番遠くまで連れて行ってくれるらしいのだが、その関門の手前で立ち尽くしている人間が、ここに一人いる。
 
 🛒 [公式サイトで見る(UVI Falcon)](https://www.uvi.net/falcon.html) — Amazon上の出品は旧バージョンのため公式サイトを案内
 
@@ -102,7 +102,7 @@ draft: false
 
 - 学習コスト 5 / 編集 4 / 制作速度 5 / 拡張性 3 / 安定性 3
 
-「[Even beginners can get started in as little as 30 seconds](https://samplehunt.com/serato-sample/)」という謳い文句は、大抵のソフトでは眉唾だが、これに関してはどうやら本当らしい。日本語のレビューでも「[使い方自体は非常に簡単です](https://dawlesson.net/review/serato-sample/)」「[操作のシンプルさやスピードで言えば、断然SAMPLEの方が上です](https://dawlesson.net/review/serato-sample/)」と、身軽さを褒める声が揃う。お見合いを三度断った男より、よほど即断即決である。
+「[初心者でもわずか30秒で始められる](https://samplehunt.com/serato-sample/)」という謳い文句は、大抵のソフトでは眉唾だが、これに関してはどうやら本当らしい。日本語のレビューでも「[使い方自体は非常に簡単です](https://dawlesson.net/review/serato-sample/)」「[操作のシンプルさやスピードで言えば、断然SAMPLEの方が上です](https://dawlesson.net/review/serato-sample/)」と、身軽さを褒める声が揃う。お見合いを三度断った男より、よほど即断即決である。
 
 ただし身軽さと引き換えに、込み入ったことは苦手だ。ベロシティ感度やトランジェント検出でのチョップには対応しておらず、Gearspaceでは「[GUIリサイズ不可](https://gearspace.com/threads/lets-talk-serato-sample.1164495/)」といった細かい不満も見かけた。複数インスタンスを開くと重くなるため、公式サポートも「[チョップ後はオーディオ化(フラット化)推奨](https://support.serato.com/hc/en-us/articles/115000475714-Optimization-for-Serato-Sample-users)」と案内している。走るのは速いが長距離走には向かない——お互い様、という気がしないでもない。
 
