@@ -6,7 +6,7 @@ tags: ["Focusrite", "Scarlett 2i2", "オーディオインターフェース", "
 draft: false
 ---
 
-Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで検分してみた。
+Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで見ていく。
 
 <div class="product-links">
 <a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen"></a>

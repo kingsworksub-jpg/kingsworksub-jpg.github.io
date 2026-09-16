@@ -6,7 +6,7 @@ tags: ["DAW", "DTM", "比較", "Logic Pro", "FL Studio", "Ableton Live", "Cubase
 draft: false
 ---
 
-各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を実際に使い込んで、その実力を確かめてみた。
+各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を比較していく。
 
 比べる軸は、次の5つに決めた。
 
@@ -16,7 +16,7 @@ draft: false
 4. **拡張性** — プラグインや自作の道具で、自分好みに化けさせられるか
 5. **安定性** — 長時間の格闘に、黙って付き合ってくれるか
 
-それぞれ5段階でレーダーチャートにしてみた。性格診断のような感覚で眺めてもらえると分かりやすいと思う。
+それぞれ5段階でレーダーチャートにまとめた。性格診断のような感覚で眺めてもらえると分かりやすいと思う。
 
 ---
 
@@ -98,21 +98,21 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 - 学習コスト 4 / 打ち込み・編集 5 / 制作速度 5 / 拡張性 3 / 安定性 4
 
-2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。開発チームはそのまま、コアエンジンもワークフローも哲学も変わっていないという。使ってみても、その中身の一貫性は確かに感じられた。
+2026年1月、「Studio One」は長年培ったキャリアを引っさげて「Fender Studio Pro」と改名した。開発チームはそのまま、コアエンジンもワークフローも哲学も変わっていないという。その中身の一貫性は確かに感じられる。
 
 ドラッグ&ドロップ主体の操作感は突出していて、修正の手間を考えても、ゼロから打ち込むより圧倒的に速いと感じる場面が多く、制作速度の速さは伊達ではない。弱点は付属音源の少なさで、他社が70GB超えの音源ライブラリを積んでくる中、こちらは36GB程度と控えめ。ここはもう少し充実していてもよかったと感じた。
 
 ---
 
-## まとめ一覧
+## まとめ
 
 | DAW | 学習コスト | 打ち込み・編集 | 制作速度 | 拡張性 | 安定性 |
 |---|---|---|---|---|---|
-| Logic Pro | 4 | 4 | 4 | 3 | 4 |
-| FL Studio | 3 | 4 | 4 | 4 | 3 |
-| Ableton Live | 3 | 4 | 4 | 5 | 4 |
-| Cubase | 3 | 5 | 4 | 4 | 3 |
-| Fender Studio Pro | 4 | 5 | 5 | 3 | 4 |
+| [Logic Pro](https://www.apple.com/jp/logic-pro/) | 4 | 4 | 4 | 3 | 4 |
+| [FL Studio](https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22) | 3 | 4 | 4 | 4 | 3 |
+| [Ableton Live](https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22) | 3 | 4 | 4 | 5 | 4 |
+| [Cubase](https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22) | 3 | 5 | 4 | 4 | 3 |
+| [Fender Studio Pro](https://jp.fender.com/en/products/fender-studio-pro) | 4 | 5 | 5 | 3 | 4 |
 
 ---
 

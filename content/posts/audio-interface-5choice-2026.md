@@ -6,7 +6,7 @@ tags: ["オーディオインターフェース", "機材", "比較", "Scarlett"
 draft: false
 ---
 
-各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——**Focusrite Scarlett 2i2(4th Gen)**、**Universal Audio Volt 276**、**RME Babyface Pro FS**、**Yamaha AG03MK2**、**YAMAHA URX22C(旧Steinberg UR22C)**——を実際に配線して、その言葉を検証してみた。
+各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——**Focusrite Scarlett 2i2(4th Gen)**、**Universal Audio Volt 276**、**RME Babyface Pro FS**、**Yamaha AG03MK2**、**YAMAHA URX22C(旧Steinberg UR22C)**——を比較していく。
 
 軸はこれまでと同じ発想で、オーディオインターフェース向けに言い換えている。
 
@@ -98,15 +98,15 @@ VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感�
 
 ---
 
-## まとめ一覧
+## まとめ
 
 | オーディオI/O | セットアップ | 操作性 | 録音開始 | 拡張性 | 耐久性 |
 |---|---|---|---|---|---|
-| Scarlett 2i2(4th Gen) | 5 | 4 | 4 | 3 | 5 |
-| Universal Audio Volt 276 | 4 | 4 | 4 | 4 | 3 |
-| RME Babyface Pro FS | 2 | 3 | 3 | 5 | 5 |
-| Yamaha AG03MK2 | 5 | 5 | 5 | 3 | 3 |
-| YAMAHA URX22C | 4 | 4 | 3 | 4 | 3 |
+| [Scarlett 2i2(4th Gen)](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22) | 5 | 4 | 4 | 3 | 5 |
+| [Universal Audio Volt 276](https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22) | 4 | 4 | 4 | 4 | 3 |
+| [RME Babyface Pro FS](https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22) | 2 | 3 | 3 | 5 | 5 |
+| [Yamaha AG03MK2](https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22) | 5 | 5 | 5 | 3 | 3 |
+| [YAMAHA URX22C](https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22) | 4 | 4 | 3 | 4 | 3 |
 
 ---
 

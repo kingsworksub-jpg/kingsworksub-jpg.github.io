@@ -6,7 +6,7 @@ tags: ["MIDIキーボード", "機材", "比較", "Komplete Kontrol", "MPK Mini"
 draft: false
 ---
 
-各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を実際に弾き込んで、その謳い文句の真偽を確かめてみた。
+各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を比較していく。
 
 軸は今回もおなじみの5つを、鍵盤という「触れる道具」向けに言い換えている。
 
@@ -98,15 +98,15 @@ MIDI 2.0の高解像度対応など、地味に長く進化を続けている律
 
 ---
 
-## まとめ一覧
+## まとめ
 
 | MIDIキーボード | セットアップ | 演奏性 | DAW連携 | 拡張性 | 耐久性 |
 |---|---|---|---|---|---|
-| Komplete Kontrol S61 MK3 | 3 | 4 | 5 | 4 | 3 |
-| Akai MPK Mini MK4 | 4 | 3 | 4 | 4 | 3 |
-| Arturia KeyLab Essential mk3 | 4 | 3 | 5 | 4 | 3 |
-| Novation Launchkey MK4 | 4 | 4 | 5 | 4 | 3 |
-| Roland A-88MKII | 3 | 4 | 4 | 3 | 4 |
+| [Komplete Kontrol S61 MK3](https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22) | 3 | 4 | 5 | 4 | 3 |
+| [Akai MPK Mini MK4](https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22) | 4 | 3 | 4 | 4 | 3 |
+| [Arturia KeyLab Essential mk3](https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22) | 4 | 3 | 5 | 4 | 3 |
+| [Novation Launchkey MK4](https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22) | 4 | 4 | 5 | 4 | 3 |
+| [Roland A-88MKII](https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22) | 3 | 4 | 4 | 3 | 4 |
 
 ---
 

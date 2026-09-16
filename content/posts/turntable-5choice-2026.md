@@ -6,7 +6,7 @@ tags: ["ターンテーブル", "レコードプレーヤー", "機材", "比較
 draft: false
 ---
 
-各メーカーは「アナログの温かみを、あなたの部屋に」と謳う。2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を実際に回して、その謳い文句を確かめてみた。
+各メーカーは「アナログの温かみを、あなたの部屋に」と謳う。2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を比較していく。
 
 (補足: Pro-Ject Debut Carbon EVOは後継機「Debut EVO 2」に、Sony PS-LX310BTは後継機「PS-LX3BT/LX5BT」にそれぞれ世代交代が進んでいる。ただし設計思想を色濃く受け継いだ直系モデルであり、中古・並行流通も含めて依然よく語られているため、今回はこの2機種を対象にした。)
 
@@ -104,15 +104,15 @@ draft: false
 
 ---
 
-## まとめ一覧
+## まとめ
 
 | ターンテーブル | セットアップ | 操作性 | 音質 | 拡張性 | 耐久性 |
 |---|---|---|---|---|---|
-| Technics SL-1200MK7 | 2 | 5 | 4 | 5 | 5 |
-| AT-LP120XUSB | 3 | 3 | 4 | 5 | 4 |
-| Rega Planar 3 | 4 | 4 | 4 | 4 | 4 |
-| Pro-Ject Debut Carbon EVO | 4 | 4 | 4 | 5 | 4 |
-| Sony PS-LX310BT | 5 | 4 | 3 | 2 | 3 |
+| [Technics SL-1200MK7](https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22) | 2 | 5 | 4 | 5 | 5 |
+| [AT-LP120XUSB](https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22) | 3 | 3 | 4 | 5 | 4 |
+| [Rega Planar 3](https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22) | 4 | 4 | 4 | 4 | 4 |
+| [Pro-Ject Debut Carbon EVO](https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22) | 4 | 4 | 4 | 5 | 4 |
+| [Sony PS-LX310BT](https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22) | 5 | 4 | 3 | 2 | 3 |
 
 ---
 
