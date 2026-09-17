@@ -13,6 +13,7 @@ Run this periodically (Task Scheduler, cron, etc.). Each run:
 from __future__ import annotations
 
 import sys
+import time
 import traceback
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -51,8 +52,17 @@ def process_scraped(conn) -> None:
             db.mark_error(conn, row["id"], f"generation error: {e}\n{traceback.format_exc()}")
 
 
+# Minimum gap between consecutive posts so a multi-article backlog doesn't
+# fire off a rapid burst of tweets in a row (looks bot-like, not the goal).
+POST_INTERVAL_S = 45
+
+
 def process_generated(conn) -> None:
-    for row in db.fetch_by_status(conn, "generated"):
+    rows = db.fetch_by_status(conn, "generated")
+    for i, row in enumerate(rows):
+        if i > 0:
+            print(f"[main] waiting {POST_INTERVAL_S}s before next post...")
+            time.sleep(POST_INTERVAL_S)
         print(f"[main] posting #{row['id']}: {row['title']}")
         try:
             poster.post_tweet(row["chosen_text"], row["url"])

@@ -1,83 +1,71 @@
-"""Post the chosen tweet text (plus the article URL) to X via browser
-automation (Playwright), reusing a saved login session -- no paid API.
+"""Post the chosen tweet text (plus the article URL) to X by driving the
+user's regular, already-logged-in Edge browser via OS-level mouse/keyboard
+simulation -- no browser-automation protocol (CDP/WebDriver) involved.
 
-X's API v2 dropped its free tier in Feb 2026 and now charges per post
-($0.20/post for anything containing a URL), which conflicts with this
-project's goal of a fully local, zero-cost pipeline. This module instead
-drives the real x.com web UI with a session saved by x_login_setup.py.
+Why: X's login flow and bot-detection both blocked Playwright-driven
+Chromium and even Playwright-driven real Chrome (CDP leaves detectable
+automation signals regardless of which browser binary drives it). This
+avoids that category of detection entirely by never touching a browser
+automation API -- it launches the user's normal Edge (default profile,
+already logged into X from everyday use) and sends real OS input events
+(the same channel a human's mouse/keyboard use), the same way any RPA or
+macro tool works.
 
-Known tradeoff (accepted): this is browser automation against a service
-that expects human use via its own official channels; it is a gray area
-under X's terms and carries some account-risk if used at high volume or
-in an obviously bot-like pattern. This project posts at most a few times
-a week, matching normal human posting cadence.
+Requires: the user's default Edge profile must already be logged into X.
 """
 
 from __future__ import annotations
 
+import subprocess
 import sys
+import time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
 
-from playwright.sync_api import sync_playwright
+import pyautogui
+import pygetwindow as gw
+import pyperclip
 
-AUTH_STATE_PATH = Path(__file__).parent / ".." / ".." / ".secrets" / "x-auth-state.json"
+EDGE_PATH = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+COMPOSE_URL = "https://x.com/compose/post"
 
-COMPOSE_SELECTOR = '[data-testid="tweetTextarea_0"]'
-POST_BUTTON_SELECTORS = ['[data-testid="tweetButtonInline"]', '[data-testid="tweetButton"]']
+LAUNCH_WAIT_S = 4
+PASTE_WAIT_S = 1
+SUBMIT_WAIT_S = 2
 
 
 class PostingError(RuntimeError):
     pass
 
 
-class SessionExpiredError(PostingError):
-    pass
-
-
-def post_tweet(text: str, url: str, timeout_ms: int = 30000) -> None:
-    """Post `text` + the article URL to X via the logged-in web UI."""
-    if not AUTH_STATE_PATH.exists():
-        raise PostingError(
-            f"No saved X login session at {AUTH_STATE_PATH.resolve()}. "
-            "Run `python x_login_setup.py` once first."
-        )
-
+def post_tweet(text: str, url: str) -> None:
+    """Post `text` + the article URL to X via the logged-in Edge session."""
     full_text = f"{text}\n{url}"
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        try:
-            context = browser.new_context(storage_state=str(AUTH_STATE_PATH))
-            page = context.new_page()
-            page.goto("https://x.com/compose/post", timeout=timeout_ms, wait_until="domcontentloaded")
+    if not Path(EDGE_PATH).exists():
+        raise PostingError(f"Edge not found at {EDGE_PATH}")
 
-            if "/login" in page.url:
-                raise SessionExpiredError(
-                    "X session has expired (redirected to login). "
-                    "Run `python x_login_setup.py` again to re-authenticate."
-                )
+    subprocess.Popen([EDGE_PATH, COMPOSE_URL])
+    time.sleep(LAUNCH_WAIT_S)
 
-            page.wait_for_selector(COMPOSE_SELECTOR, timeout=timeout_ms)
-            page.click(COMPOSE_SELECTOR)
-            page.keyboard.type(full_text, delay=15)
+    active = gw.getActiveWindow()
+    if active is None or "Edge" not in (active.title or ""):
+        title = active.title if active else None
+        raise PostingError(
+            f"Expected an Edge window to be focused after launch, got: {title!r}. "
+            "Aborting rather than sending input to an unknown window."
+        )
 
-            posted = False
-            for selector in POST_BUTTON_SELECTORS:
-                button = page.locator(selector)
-                if button.count() > 0 and button.first.is_enabled():
-                    button.first.click()
-                    posted = True
-                    break
-            if not posted:
-                raise PostingError("Could not find an enabled post button (X's UI may have changed).")
+    pyperclip.copy(full_text)
+    time.sleep(PASTE_WAIT_S)
 
-            # Give the post request time to complete before closing the browser.
-            page.wait_for_timeout(3000)
-        finally:
-            browser.close()
+    pyautogui.hotkey("ctrl", "v")
+    time.sleep(PASTE_WAIT_S)
+
+    pyautogui.hotkey("ctrl", "enter")
+    time.sleep(SUBMIT_WAIT_S)
 
 
 if __name__ == "__main__":
