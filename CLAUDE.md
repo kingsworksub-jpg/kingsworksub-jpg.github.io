@@ -32,6 +32,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 **公開済み記事(参考)**:
 - DAW / サンプラー / MIDIキーボード / オーディオI/O / アナログターンテーブル(音響機材・DTM系)
 - スコッチウイスキー(音楽と無関係の初のジャンル拡張)
+- コスパ重視の安ウイスキー10本+個別深掘り10本(2026-09-17、ウイスキージャンル第2弾)
 
 ## 拡散投稿(SNS/ブログサイトへの転載)
 
@@ -147,6 +148,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - `audio-interface-5choice-2026.md` — オーディオI/O 5本
 - `turntable-5choice-2026.md` — アナログターンテーブル 5本
 - `scotch-whisky-5choice-2026.md` — スコッチウイスキー 5本
+- `budget-whisky-10choice-2026.md` — コスパ重視の安ウイスキー10本(角瓶/ブラックニッカ クリア/トリスウイスキー/ジムビーム ホワイト/フォアローゼズ イエロー/バランタイン ファイネス/カティサーク/ホワイトホース ファインオールド/デュワーズ ホワイトラベル/ジョニーウォーカー レッドラベル、2026-09-17。5本ではなく10本の回だが型その1のフォーマットをそのまま踏襲)
 
 **単発の製品深掘り記事(「記事の型その2」、下記参照)**:
 - `scarlett-2i2-deep-dive-2026.md` — Focusrite Scarlett 2i2(4th Gen)
@@ -155,6 +157,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - `rega-planar3-deep-dive-2026.md` — Rega Planar 3(同上)
 - `debut-carbon-evo-deep-dive-2026.md` — Pro-Ject Debut Carbon EVO(同上)
 - `sony-pslx3bt-deep-dive-2026.md` — Sony PS-LX3BT(旧PS-LX310BT)(同上)
+- `suntory-kakubin-deep-dive-2026.md` / `black-nikka-clear-deep-dive-2026.md` / `suntory-trys-deep-dive-2026.md` / `jim-beam-white-deep-dive-2026.md` / `four-roses-yellow-deep-dive-2026.md` / `ballantines-finest-deep-dive-2026.md` / `cutty-sark-deep-dive-2026.md` / `white-horse-fineold-deep-dive-2026.md` / `dewars-white-label-deep-dive-2026.md` / `johnnie-walker-red-deep-dive-2026.md` — `budget-whisky-10choice-2026.md` 特集10本の深掘り(2026-09-17、リスト記事と同時に執筆)。**タイトルは「全機能解剖」ではなく「{製品名}を隅から隅まで味わい尽くす — {サブタイトル}」に言い換えている**(ウイスキーに「機能」は無いため。新ジャンルでは対象の性質に合わせてこの部分の語彙も調整してよい)。
+- **ニッカ フロム・ザ・バレルはリサーチ済みだが不採用**: 2026-09-17時点で実勢価格が値上がりし500mlで4,000〜6,000円台まで高騰していたため、「安価」を謳う本リストの趣旨と合わず、代わりにジョニーウォーカー レッドラベルを採用した。同様の「トレンドで名前が挙がったが実際に調べたら前提と合わなかった」ケースなので、対象を機械的に採用せず、リサーチ結果を見て都度取捨選択すること。
 
 **2026-09-17、ユーザー指示「比較記事で特集している製品それぞれの詳細レビュー記事を書いて」**: 比較記事1本につき、特集製品ぶんの単発深掘り記事(「記事の型その2」フォーマット)を追加で書く、というパターンが発生した。今後も同様の指示があれば、対象の比較記事から製品名・ASIN・画像パスをそのまま流用し、各製品にAgent(general-purpose)を並列起動して個別に深掘りリサーチ(最低10サイト)した上で執筆する。画像・ASINは使い回すため新規ダウンロードは不要。
 
