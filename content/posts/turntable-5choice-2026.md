@@ -24,9 +24,13 @@ draft: false
 
 ## Technics SL-1200MK7 — 玄人が黙って選ぶ定番
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22"><img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7">
+<span class="product-banner-info">
+<span class="product-banner-name">Technics SL-1200MK7</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Technics SL-1200MK7の使いやすさレーダーチャート](/images/radar/sl-1200mk7.svg)
 
@@ -40,9 +44,13 @@ draft: false
 
 ## Audio-Technica AT-LP120XUSB — 良くも悪くも「普通」に強い
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22"><img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
+<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB">
+<span class="product-banner-info">
+<span class="product-banner-name">AT-LP120XUSB</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![AT-LP120XUSBの使いやすさレーダーチャート](/images/radar/at-lp120xusb.svg)
 
@@ -56,9 +64,13 @@ draft: false
 
 ## Rega Planar 3 — 英国紳士の、静かな完成度
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22"><img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3">
+<span class="product-banner-info">
+<span class="product-banner-name">Rega Planar 3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Rega Planar 3の使いやすさレーダーチャート](/images/radar/rega-planar3.svg)
 
@@ -72,9 +84,13 @@ draft: false
 
 ## Pro-Ject Debut Carbon EVO — 気配りの効いた優等生
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22"><img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO">
+<span class="product-banner-info">
+<span class="product-banner-name">Pro-Ject Debut Carbon EVO</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Pro-Ject Debut Carbon EVOの使いやすさレーダーチャート](/images/radar/debut-carbon-evo.svg)
 
@@ -88,9 +104,13 @@ draft: false
 
 ## Sony PS-LX310BT — とにかく気軽に鳴らしたい人へ
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22"><img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT">
+<span class="product-banner-info">
+<span class="product-banner-name">Sony PS-LX3BT</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (PS-LX310BTは生産終了のため、直系の後継機を案内)
 

@@ -22,9 +22,13 @@ draft: false
 
 ## Logic Pro — 寡黙で頑固、Macだけに尽くす職人気質
 
-<div class="product-links">
-<a class="product-link" href="https://www.apple.com/jp/logic-pro/"><img src="/images/products/logic-pro.jpg" alt="Logic Pro"></a>
-</div>
+<a class="product-banner" href="https://www.apple.com/jp/logic-pro/">
+<img src="/images/products/logic-pro.jpg" alt="Logic Pro">
+<span class="product-banner-info">
+<span class="product-banner-name">Logic Pro</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (Mac App Store専売のためAmazonでの取り扱いなし)
 
@@ -40,9 +44,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 ## FL Studio — やんちゃで自由奔放な発想型
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22"><img src="/images/products/fl-studio.png" alt="FL Studio"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22">
+<img src="/images/products/fl-studio.png" alt="FL Studio">
+<span class="product-banner-info">
+<span class="product-banner-name">FL Studio</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![FL Studioの使いやすさレーダーチャート](/images/radar/fl-studio.svg)
 
@@ -56,9 +64,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 ## Ableton Live — 二つの顔を持つ、峠の先の景色
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22"><img src="/images/products/ableton-live.png" alt="Ableton Live"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">
+<img src="/images/products/ableton-live.png" alt="Ableton Live">
+<span class="product-banner-info">
+<span class="product-banner-name">Ableton Live</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Ableton Liveの使いやすさレーダーチャート](/images/radar/ableton-live.svg)
 
@@ -72,9 +84,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 ## Cubase — 生真面目な職人気質
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22"><img src="/images/products/cubase.jpg" alt="Cubase"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22">
+<img src="/images/products/cubase.jpg" alt="Cubase">
+<span class="product-banner-info">
+<span class="product-banner-name">Cubase</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Cubaseの使いやすさレーダーチャート](/images/radar/cubase.svg)
 
@@ -88,9 +104,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 ## Fender Studio Pro(旧Studio One) — 名前は変えても、律儀さは変わらないらしい
 
-<div class="product-links">
-<a class="product-link" href="https://jp.fender.com/en/products/fender-studio-pro"><img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro"></a>
-</div>
+<a class="product-banner" href="https://jp.fender.com/en/products/fender-studio-pro">
+<img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro">
+<span class="product-banner-info">
+<span class="product-banner-name">Fender Studio Pro</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (Amazonに単体販売の取り扱いなし)
 

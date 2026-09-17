@@ -24,9 +24,13 @@ draft: false
 
 ## Kontakt 8 — 業界標準という名の、重い荷物
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22"><img src="/images/products/kontakt-8.png" alt="Kontakt 8"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">
+<img src="/images/products/kontakt-8.png" alt="Kontakt 8">
+<span class="product-banner-info">
+<span class="product-banner-name">Kontakt 8</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Kontakt 8の使いやすさレーダーチャート](/images/radar/kontakt-8.svg)
 
@@ -40,9 +44,13 @@ draft: false
 
 ## Battery 4 — 寡黙な働き者、いつも変わらず頼れる存在
 
-<div class="product-links">
-<a class="product-link" href="https://www.native-instruments.com/products/battery"><img src="/images/products/battery-4.png" alt="Battery 4"></a>
-</div>
+<a class="product-banner" href="https://www.native-instruments.com/products/battery">
+<img src="/images/products/battery-4.png" alt="Battery 4">
+<span class="product-banner-info">
+<span class="product-banner-name">Battery 4</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (Amazonに単体販売の取り扱いなし)
 
@@ -58,9 +66,13 @@ draft: false
 
 ## TAL-Sampler — 小柄だが、驚くほど身のこなしが軽い
 
-<div class="product-links">
-<a class="product-link" href="https://tal-software.com/products/tal-sampler"><img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler"></a>
-</div>
+<a class="product-banner" href="https://tal-software.com/products/tal-sampler">
+<img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler">
+<span class="product-banner-info">
+<span class="product-banner-name">TAL-Sampler</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (Amazonに単体販売の取り扱いなし)
 
@@ -76,9 +88,13 @@ draft: false
 
 ## UVI Falcon — 一生かけても仲良くなれるか怪しいタイプ
 
-<div class="product-links">
-<a class="product-link" href="https://www.uvi.net/falcon.html"><img src="/images/products/uvi-falcon.webp" alt="UVI Falcon"></a>
-</div>
+<a class="product-banner" href="https://www.uvi.net/falcon.html">
+<img src="/images/products/uvi-falcon.webp" alt="UVI Falcon">
+<span class="product-banner-info">
+<span class="product-banner-name">UVI Falcon</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 (Amazon上の出品は旧バージョンのため公式サイトを案内)
 
@@ -94,9 +110,13 @@ draft: false
 
 ## Serato Sample — 出会って30秒、迷う暇を与えない身軽さ
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22"><img src="/images/products/serato-sample.png" alt="Serato Sample"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">
+<img src="/images/products/serato-sample.png" alt="Serato Sample">
+<span class="product-banner-info">
+<span class="product-banner-name">Serato Sample</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Serato Sampleの使いやすさレーダーチャート](/images/radar/serato-sample.svg)
 

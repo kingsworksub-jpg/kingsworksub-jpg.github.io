@@ -20,9 +20,13 @@ draft: false
 
 ## Komplete Kontrol S61 MK3 — 画面が導く、迷いのない秀才
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22"><img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22">
+<img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3">
+<span class="product-banner-info">
+<span class="product-banner-name">Komplete Kontrol S61 MK3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Komplete Kontrol S61 MK3の使いやすさレーダーチャート](/images/radar/komplete-kontrol-s61-mk3.svg)
 
@@ -36,9 +40,13 @@ draft: false
 
 ## Akai MPK Mini MK4 — 身軽だが、成長痛もある新顔
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22"><img src="/images/products/mpk-mini-mk4.png" alt="Akai MPK Mini MK4"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22">
+<img src="/images/products/mpk-mini-mk4.png" alt="Akai MPK Mini MK4">
+<span class="product-banner-info">
+<span class="product-banner-name">Akai MPK Mini MK4</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Akai MPK Mini MK4の使いやすさレーダーチャート](/images/radar/mpk-mini-mk4.svg)
 
@@ -52,9 +60,13 @@ draft: false
 
 ## Arturia KeyLab Essential mk3 — 気配り上手なコスパ番長
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22"><img src="/images/products/keylab-essential-mk3.png" alt="Arturia KeyLab Essential mk3"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22">
+<img src="/images/products/keylab-essential-mk3.png" alt="Arturia KeyLab Essential mk3">
+<span class="product-banner-info">
+<span class="product-banner-name">Arturia KeyLab Essential mk3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Arturia KeyLab Essential mk3の使いやすさレーダーチャート](/images/radar/keylab-essential-mk3.svg)
 
@@ -68,9 +80,13 @@ USB接続一発でDAWと手を繋いでしまう気配りの良さは、五本�
 
 ## Novation Launchkey MK4 — Abletonとだけは異様に仲がいい
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22"><img src="/images/products/launchkey-mk4.png" alt="Novation Launchkey MK4"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22">
+<img src="/images/products/launchkey-mk4.png" alt="Novation Launchkey MK4">
+<span class="product-banner-info">
+<span class="product-banner-name">Novation Launchkey MK4</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Novation Launchkey MK4の使いやすさレーダーチャート](/images/radar/launchkey-mk4.svg)
 
@@ -84,9 +100,13 @@ Ableton Liveユーザーにとっては、ほとんど専用機と言ってい�
 
 ## Roland A-88MKII — 寡黙な国産の重鎮
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22"><img src="/images/products/a-88mkii.jpg" alt="Roland A-88MKII"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22">
+<img src="/images/products/a-88mkii.jpg" alt="Roland A-88MKII">
+<span class="product-banner-info">
+<span class="product-banner-name">Roland A-88MKII</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ![Roland A-88MKIIの使いやすさレーダーチャート](/images/radar/a-88mkii.svg)
 
