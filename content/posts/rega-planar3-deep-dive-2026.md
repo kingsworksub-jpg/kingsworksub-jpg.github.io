@@ -8,9 +8,13 @@ draft: false
 
 Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を隅から隅まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22"><img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3">
+<span class="product-banner-info">
+<span class="product-banner-name">Rega Planar 3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -30,10 +34,6 @@ RB330という9インチトーンアームは、Rega社内で手作業により�
 
 出荷時期やパッケージによって、Elys 2・Exact・Nd3・Nd5といった、いずれもRega自社製のMM型カートリッジが工場で取り付け・調整された状態で届く。この「工場出荷時点で調整済み」という点をRegaは明確な強みとして打ち出している。アップグレードの道筋もRega自社ラインナップ内で用意されていて、MM型ならNd3→Nd5→Nd7→Nd9 Ref、MC型ならAnia→Ania Pro(750ポンド)→Apheta 3(1,250ポンド)→Aphelion 2 Ref(同ラインの最上位)という具合に、段階的にグレードアップできる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22"><img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3"></a>
-</div>
-
 ## 速度・接続性
 
 33⅓/45回転の切り替えは完全手動で、ボタン一つでは変えられない。ガラス製プラッターを持ち上げて、二段プーリーの上段(33回転)・下段(45回転)にベルトを掛け替える必要がある。LPとシングル盤を頻繁に行き来する人にとっては、これは地味に不便なポイントだ。電子式の速度切り替えが欲しい場合は、前述のNeo PSUという別売りオプションを追加する必要があり、予算に含めるなら決して小さくない出費になる。
@@ -46,9 +46,13 @@ RB330という9インチトーンアームは、Rega社内で手作業により�
 
 弱点として指摘されるのは、トーンアームの高さが調整できないこと(Rega以外のカートリッジへの乗り換えでシムが必要になり、副作用もある)、速度切り替えが完全手動で、電子化するには追加コストがかかること、しっかりした振動の少ない設置場所(壁掛け棚や剛性の高いスタンドなど)を選ぶ必要があること、フォノプリアンプが内蔵されておらずシステム全体のコストが上がること。世代を重ねるごとに価格も上がっていて(Nd3付属モデルで発売時799ポンドだったのが、2025年には840ポンドに)、値段に見合うかどうかを気にする声も出てきている。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22"><img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3">
+<span class="product-banner-info">
+<span class="product-banner-name">Rega Planar 3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ## 価格・現行性
 

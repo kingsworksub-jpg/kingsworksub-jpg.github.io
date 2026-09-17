@@ -8,9 +8,13 @@ draft: false
 
 「トリスバー」「トリハイ」という言葉を生んだ、戦後日本のウイスキー史そのもののようなブランド。1946年発売、10本の中でも屈指の長寿銘柄であるトリスウイスキーを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22"><img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー">
+<span class="product-banner-info">
+<span class="product-banner-name">トリスウイスキー</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 やさしく甘い香りに、丸みのあるなめらかな味わい。アルコール度数は37%とこの10本の中でも低めで、バランスの取れた口当たりが売りとされている。個人的には、香りの主張は控えめで、キャラメルのニュアンスがうっすら感じられる程度という印象。ストレートで攻めるとアルコールの刺激の方が先に来てしまうので、ハイボール前提で設計されていると考えた方がしっくりくる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22"><img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー"></a>
-</div>
-
 ## トリスバーという文化
 
 1946年、戦後の三級ウイスキーとして発売され、1989年の酒税法改正でブレンド用アルコールからグレーンスピリッツに切り替わったことで品質が向上したという経緯がある。トリスを中心に提供した大衆酒場「トリスバー」は最盛期に比べれば店舗数は減ったものの、今も現存する店がある。2000年代後半以降のハイボールブームの源流のひとつとされているのも納得で、値段だけでは測れない文化的な重みを持つ一本だと思う。
@@ -34,9 +34,13 @@ draft: false
 
 公式参考価格は990円(税別)。実勢はネット最安値で800円台から、店舗によっては1,300円程度まで。180ml〜4Lまで幅広い容量展開があり、大容量のペットボトルは単価がさらに下がる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22"><img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー">
+<span class="product-banner-info">
+<span class="product-banner-name">トリスウイスキー</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

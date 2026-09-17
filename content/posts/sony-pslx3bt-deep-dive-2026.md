@@ -8,9 +8,13 @@ draft: false
 
 Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後継)を隅から隅まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22"><img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT">
+<span class="product-banner-info">
+<span class="product-banner-name">Sony PS-LX3BT</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -30,10 +34,6 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 
 PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたのに対し、PS-LX3BTはaptX Adaptiveに対応し、Hi-Res Wireless認証も取得、最大24bit/96kHzでの伝送が可能になった。最大8台のデバイスとのペアリング履歴を記憶する仕様も備える。皮肉な話ではあるが、Sony自社のワイヤレスヘッドホン「WH-1000X」シリーズはXM3以降aptX Adaptiveに対応していないため、Sonyのヘッドホンを使っている人はSBC接続止まりになってしまうという、やや残念な組み合わせの妙がある。Bluetoothと並行して、有線のRCA出力も独立して使用可能で、OUTPUT SELECTスイッチで3段階(LOW/MID/HIGH)のゲイン調整ができる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22"><img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT"></a>
-</div>
-
 ## 速度・接続性
 
 33⅓/45回転に対応し、電子式の速度切り替え。サイズと回転数はダイヤルで選んでからスタートボタンを押す、という手順になっている。フォノプリアンプ(フォノEQ)は標準で内蔵されており、これは初めてターンテーブルを選ぶ人にとって大きな安心材料だ——別途プリアンプを用意する必要がない。RCA出力に加え、パソコンへの録音用にUSB-B端子も備えている。
@@ -44,9 +44,13 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 
 弱点としては、プラスチックが目立つ筐体の質感がスペック(アルミプラッター・アーム)に見合っていないと感じられる点、カートリッジのアップグレード経路が無く、Sony純正のスタイラス交換に縛られる点。PS-LX3BTについては、価格の高さが最大の弱点として挙げられることが多い。より安く、より選択肢の多いBluetoothターンテーブルが増えている市場において、この価格でこのモデルを積極的に勧めにくい、という厳しい評価も見られた。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22"><img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT">
+<span class="product-banner-info">
+<span class="product-banner-name">Sony PS-LX3BT</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ## 価格・現行性
 

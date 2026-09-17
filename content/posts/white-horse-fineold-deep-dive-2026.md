@@ -8,9 +8,13 @@ draft: false
 
 1890年、Peter Mackieが創業。アイラ島の名門・ラガヴーリン蒸溜所を創業者一族が所有していたという歴史的経緯から、ピーテッドモルトがブレンドに使われている珍しい一本、ホワイトホース ファインオールドを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22"><img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
+<img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド">
+<span class="product-banner-info">
+<span class="product-banner-name">ホワイトホース ファインオールド</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 花や蜂蜜を思わせるフレッシュな香りに、ほのかなスモーキーさが混じる。味わいはまろやかさとドライさのバランスが取れていて、モルトとグレーンの甘みの奥にかすかなピートフレーバーが感じられる。この価格帯のブレンデッドでピートの個性がちゃんと主張してくるのは正直珍しく、ラガヴーリン譲りという触れ込みに嘘はないと感じた。余韻はスムーズでウッディ。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22"><img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド"></a>
-</div>
-
 スモーキーさは強くはなく初心者にも飲みやすいレベルに抑えられているが、ピート香がまったくない他の千円台スコッチと並べると、確かな違いを感じる。
 
 ## 歴史と日本での立ち位置
@@ -36,9 +36,13 @@ draft: false
 
 実勢価格は700mlで1,100〜1,800円程度。200ml〜1,750mlまで容量展開が幅広く、Amazonでは2.7Lのバルクサイズも見かける。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22"><img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
+<img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド">
+<span class="product-banner-info">
+<span class="product-banner-name">ホワイトホース ファインオールド</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

@@ -8,9 +8,13 @@ draft: false
 
 1846年John Dewar創業、White Labelは1899年発売。米国で最も売れているスコッチウイスキーという実績を持つ一本、デュワーズ ホワイトラベルを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22"><img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル">
+<span class="product-banner-info">
+<span class="product-banner-name">デュワーズ ホワイトラベル</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 ブライトな柑橘、ヘザーハニー、繊細な洋梨の香り。味わいはソフトなバニラファッジ、トフィー、トーストしたオークのニュアンスがあり、余韻にはハーブの爽やかさと蜂蜜のような甘さの残る、バランスの取れた構成になっている。国内向けの表記ではフローラルさやほのかなスモーキーさの余韻にも触れられていて、表現の幅はあるものの「はちみつ・洋梨・バニラの甘さ」「スムースな口当たり」という核の部分は一致している印象だ。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22"><img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル"></a>
-</div>
-
 角が丸く仕上げられている分、複雑さよりも均一な安定感を評価したい一本だと思う。
 
 ## 米国No.1という実績
@@ -36,9 +36,13 @@ draft: false
 
 実勢価格は700mlで1,300〜1,700円程度が中心。200ml・700ml・1,750mlの容量展開があり、サッポロビールが国内の輸入・取扱を担当している。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22"><img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル">
+<span class="product-banner-info">
+<span class="product-banner-name">デュワーズ ホワイトラベル</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

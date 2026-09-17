@@ -8,9 +8,13 @@ draft: false
 
 1795年創業、7世代・230年超の歴史を持つケンタッキーの老舗蒸溜所が手がける看板商品。年間販売数量で世界のバーボン市場トップに立つジムビーム ホワイトを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22"><img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト">
+<span class="product-banner-info">
+<span class="product-banner-name">ジムビーム ホワイト</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -21,10 +25,6 @@ draft: false
 ## 香り・味わい
 
 バニラ、カラメル、洋梨やプラム、桃を思わせるフルーティーな香りがあり、味わいはコーンの香ばしさとバニラ・カラメルの甘みのバランスが取れている。余韻はキレがあり、やや苦味を伴いながら長く続く。バーボンらしいバーボン、という表現がしっくりくる、方向性のはっきりした味わいだと思う。
-
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22"><img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト"></a>
-</div>
 
 スコッチ勢の軽やかさと比べると、甘さの主張がはっきりしていて好みが分かれるところではあるが、それこそがバーボンらしさでもある。
 
@@ -40,9 +40,13 @@ draft: false
 
 実勢価格は700mlで1,100〜1,800円程度。1,000〜1,750ml展開もあり、まとめ買いすればさらに単価が下がる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22"><img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト">
+<span class="product-banner-info">
+<span class="product-banner-name">ジムビーム ホワイト</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

@@ -8,9 +8,13 @@ draft: false
 
 ジョニーウォーカーに次ぐ世界2位の販売量を誇るスコッチブランド。ブランド全体の売上の約9割を占めるという主力商品、バランタイン ファイネスを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22"><img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス">
+<span class="product-banner-info">
+<span class="product-banner-name">バランタイン ファイネス</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -21,10 +25,6 @@ draft: false
 ## 香り・味わい
 
 蜂蜜とスパイスのニュアンスに続いて、ミルクチョコレート、赤リンゴ、バニラの香り。味わいはビスケットのようなコクに青リンゴや柑橘、ペッパーが重なり、余韻は短めでクリーン、オークやスモーキーさはほとんど感じない。全体を通して角が取れた飲みやすさがあり、クセの強さで選ぶ酒ではないというのが率直な印象だ。
-
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22"><img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス"></a>
-</div>
 
 ## 世界規模のブランド力
 
@@ -38,9 +38,13 @@ draft: false
 
 実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22"><img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス">
+<span class="product-banner-info">
+<span class="product-banner-name">バランタイン ファイネス</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

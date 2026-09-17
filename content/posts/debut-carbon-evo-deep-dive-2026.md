@@ -8,9 +8,13 @@ draft: false
 
 Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを隅から隅まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22"><img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO">
+<span class="product-banner-info">
+<span class="product-banner-name">Pro-Ject Debut Carbon EVO</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -30,10 +34,6 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 
 モーター一体型のMMカートリッジがあらかじめ取り付けられた状態で届く。時期や市場によって仕様が異なり、初期・欧州向けモデルはOrtofon 2M Red、後期・米国向けモデルはSumiko Rainier(楕円針、出力5.0mV、15Hz〜25kHz対応)が搭載されているとの情報がある。Sumiko Rainierの場合はスタイラス(針)がSumikoのOlympia/Moonstoneシリーズと共通のため、カートリッジ本体ごと買い替えなくても針交換だけでグレードアップできる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22"><img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO"></a>
-</div>
-
 ## 速度・接続性
 
 33/45回転はロッカースイッチ一つで切り替えられる電子式で、旧来のDebut Carbon(非EVO)のようにベルトを掛け替える必要はない。ただし78回転だけは今も手動でベルトを三段目のプーリーに掛け替える方式が残っている。オートスタート・オートストップは無く、操作は最初から最後まで手動だ。
@@ -46,9 +46,13 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 
 弱点として気になるのは、フォノプリアンプが内蔵されていないこと(別途50〜150ドル程度の追加コストになりうる)、VTA調整機構が無いこと、完全手動操作でオートストップが無いこと、そしてダストカバーを閉じるとモーターの振動がわずかに増幅されるように感じる点(カバーを外せば気にならない)。付属カートリッジについても、いずれ上位モデルへ買い替えたくなる人は一定数いそうだ。78回転だけベルトの掛け替えが必要な点も、地味に手間がかかる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22"><img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO">
+<span class="product-banner-info">
+<span class="product-banner-name">Pro-Ject Debut Carbon EVO</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ## 価格・現行性
 

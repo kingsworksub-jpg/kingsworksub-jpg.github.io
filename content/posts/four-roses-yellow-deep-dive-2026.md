@@ -8,9 +8,13 @@ draft: false
 
 赤い薔薇のラベルが目印の、ケンタッキー州ローレンスバーグの蒸溜所が手がけるバーボン。エントリーモデルにしては珍しいほど手の込んだブレンド設計を持つフォアローゼズ イエローを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22"><img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
+<img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー">
+<span class="product-banner-info">
+<span class="product-banner-name">フォアローゼズ イエロー</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 ドライアプリコットやライトピーチのようなフルーツ香、シトラスブロッサムやラベンダーのフローラルさに、柔らかなスパイスと蜂蜜が続く。味わいはキャラメル・バニラ・穏やかなスパイスに加えて、洋梨やリンゴのようなオーチャード系のフルーティーさも感じられる。バーボンとしては軽やかでなめらかな部類で、余韻はキャラメルとトフィーの甘さがソフトなオークに溶けていくように短めに収まる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22"><img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー"></a>
-</div>
-
 ジムビームの直球な甘さと比べると、こちらはもう少し華やかで軽やかな方向性だと感じる。
 
 ## オーナー変更という近況
@@ -36,9 +36,13 @@ draft: false
 
 軽やかな香りをじっくり楽しむなら、ハイボールよりロックやストレートの方が向いていると思う。実勢価格は700mlで1,700〜2,300円程度と、この価格帯の中ではやや高めだが、その分だけ複雑さでも一枚上手だと感じる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22"><img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
+<img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー">
+<span class="product-banner-info">
+<span class="product-banner-name">フォアローゼズ イエロー</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

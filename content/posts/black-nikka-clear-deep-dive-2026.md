@@ -8,9 +8,13 @@ draft: false
 
 1956年発売の「ブラックニッカ」シリーズの中でも、もっとも軽くもっとも安いのがこのクリア。実勢価格が1,000円を切ることも珍しくない一本を隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22"><img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア">
+<span class="product-banner-info">
+<span class="product-banner-name">ブラックニッカ クリア</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -24,10 +28,6 @@ draft: false
 
 穏やかなモルト香に、蜂蜜やバニラを思わせる軽い甘さ。ノンピートモルトが中心のため、スモーキーさはほとんど感じられない。味わいは軽快でなめらか、クセが少なく甘みとコクがある一方、余韻は短め〜中程度で、軽いビター感とともにすっと消えていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22"><img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア"></a>
-</div>
-
 度数37%という低さもあって、アルコールの刺激はかなり抑えめ。裏を返せば個性は薄めで、複雑な香味を求めると物足りなさはある。
 
 ## 飲み方のコツ
@@ -38,9 +38,13 @@ draft: false
 
 メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22"><img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア">
+<span class="product-banner-info">
+<span class="product-banner-name">ブラックニッカ クリア</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 

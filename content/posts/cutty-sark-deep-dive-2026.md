@@ -8,9 +8,13 @@ draft: false
 
 黄色いラベルに帆船の絵、という見た目のインパクトも含めて記憶に残るボトル。1923年、英国の名門ワイン商Berry Bros & Rudd社が発売したカティサークを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22"><img src="/images/products/cutty-sark.jpg" alt="カティサーク"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
+<img src="/images/products/cutty-sark.jpg" alt="カティサーク">
+<span class="product-banner-info">
+<span class="product-banner-name">カティサーク</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 一般的なブレンデッドよりさらに淡い、乾いた干し草のような色合いが特徴的。柑橘(オレンジ・レモンピール)やフレッシュフルーツ、バニラの香りに、微かなピート香が混じる。味わいはグレーン主体らしい軽やかさに、はちみつのような甘さ、シナモンなどの軽いスパイス、トフィーやりんごのニュアンスが乗ってくる。角が取れた滑らかな飲み口で、ロックやストレートに向いていると感じた。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22"><img src="/images/products/cutty-sark.jpg" alt="カティサーク"></a>
-</div>
-
 ## 名前とラベルの由来
 
 詩人ロバート・バーンズの1790年の詩「Tam o' Shanter」に登場する魔女ナニーの「短いシャツ(cutty-sark)」が名前の由来で、1869年建造の快速帆船カティサーク号の船名もそこから取られている。1920年代の米国禁酒法時代、伝説の密輸船長ビル・マッコイへの敬意を込めて開発されたという逸話もあり、視認性の高い黄色いボトルは当時の密輸酒と一線を画すための工夫だったとも言われる。「タクシードライバー」や「グッドフェローズ」など、アメリカのギャング映画・ドラマで象徴的な小道具として頻繁に登場するのも納得の、物語性の強いブランドだと思う。
@@ -34,9 +34,13 @@ draft: false
 
 実勢価格は700mlで1,150円前後から見つかることもあれば、店舗によっては3,000円を超えることもあり、この10本の中でも価格差がかなり大きい部類。並行輸入や小規模な出品の影響とみられ、買う前に楽天や酒販系ECサイトで一度価格を比較しておいた方が安心だと感じる。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22"><img src="/images/products/cutty-sark.jpg" alt="カティサーク"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
+<img src="/images/products/cutty-sark.jpg" alt="カティサーク">
+<span class="product-banner-info">
+<span class="product-banner-name">カティサーク</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 なお上級グレードだった12年デラックスやストームは終売済みで、現行ラインナップはオリジナル(700ml/1000ml)が中心になっている。
 

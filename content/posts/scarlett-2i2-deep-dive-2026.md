@@ -8,9 +8,13 @@ draft: false
 
 Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
+<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen">
+<span class="product-banner-info">
+<span class="product-banner-name">Focusrite Scarlett 2i2 4th Gen</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -40,10 +44,6 @@ USB-C接続、USB 2.0のバスパワー駆動(消費900mA)。電源が不安定�
 
 弱点として気になるのがMIDI端子の不在で、Universal Audio Volt 2との対抗軸としてよく挙げられるポイントでもある。電子楽器を使う人にとっては、地味に効いてくる差だろう。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen"></a>
-</div>
-
 ## スペック
 
 変換部は24bit/192kHzに対応、コンバーターはFocusrite上位機のRedNetシリーズ由来とされる。ダイナミックレンジはライン出力120dB、マイク入力116dB(Aウェイト)、ライン入力115.5dB。THD+Nはおよそ-100dB(約0.001%)とされ、実用上は非常にクリーンだと感じる。レイテンシについても、ほぼ気にならない水準だと思う。
@@ -56,9 +56,13 @@ USB-C接続、USB 2.0のバスパワー駆動(消費900mA)。電源が不安定�
 
 総じて評価は高く、強化されたプリアンプ、ヘッドホンアンプ、コンバーターが大きな売りだと感じる。ただしMIDI端子の不足とモニターミキシングの選択肢の限られている点は、電子楽器を使うミュージシャンにとって弱みになりうるとも思う。競合としてはUniversal Audio Volt 2(MIDI端子・ヴィンテージモード搭載)やSteinberg UR22Cがよく引き合いに出されるが、後者の32bit変換については、実際の性能というより宣伝文句が先行している印象を受けた。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22"><img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
+<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen">
+<span class="product-banner-info">
+<span class="product-banner-name">Focusrite Scarlett 2i2 4th Gen</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ## 価格・現行性
 

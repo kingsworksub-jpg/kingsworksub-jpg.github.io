@@ -8,9 +8,13 @@ draft: false
 
 Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22"><img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7">
+<span class="product-banner-info">
+<span class="product-banner-name">Technics SL-1200MK7</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -38,10 +42,6 @@ Technicsは、SL-1200シリーズを「クラブシーンのスタンダード�
 
 33⅓/45/78回転に対応。ピッチフェーダーは±8%/±16%が基本で、資料によっては±50%まで拡張できるピッチレンジ切り替えスイッチや逆回転機能への言及もある。クオーツロックによる速度精度の高さは、このシリーズの伝統的な強みだ。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22"><img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7"></a>
-</div>
-
 ## 接続性
 
 金メッキRCA出力とアース端子のみといういたってシンプルな構成で、フォノプリアンプやアンプのフォノ入力に接続する前提の設計だ。USB出力もBluetoothもデジタル録音機能も無く、内蔵フォノプリアンプすら持たない。ここは同価格帯のAudio-Technica AT-LP120XUSBのようなUSB出力・切り替え式内蔵プリアンプを備えたモデルとの明確な違いで、「純粋にターンテーブルとしての役割に徹する」という設計思想がよく表れている。
@@ -56,9 +56,13 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 
 一方で弱点として気になるのは、価格の高さ(米国では発売時999ドルから2026年8月時点で1,299.99ドルまで値上がりしている)、カートリッジが別売りであること、フォノプリアンプが内蔵されていないこと、オートリターン・オートストップの無い完全マニュアル操作であること、USB出力やデジタル録音機能が無いこと、ダストカバーのヒンジやオーバーハング調整ゲージが省かれていること。旧来のTechnics製品と比べると素材のコストダウンがわずかに感じられる箇所もあり、スタート/ストップボタンの頼りなさも正直気になった。より安価なAT-LP120X(実売59,900円前後)がUSB出力込みで近い基本機能を提供していることを踏まえると、価格に対する価値をどう見るかは人によって分かれるところだろう。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22"><img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7">
+<span class="product-banner-info">
+<span class="product-banner-name">Technics SL-1200MK7</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ## 価格・現行性
 

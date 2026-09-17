@@ -8,9 +8,13 @@ draft: false
 
 コンビニでも酒屋でも、必ずと言っていいほど棚に並んでいる一本。1937年発売、鳥井信治郎率いる寿屋(現サントリー)による戦前からの国産ウイスキーの系譜という、とにかく息の長いブランドを角瓶を隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22"><img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶">
+<span class="product-banner-info">
+<span class="product-banner-name">サントリー角瓶</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -19,10 +23,6 @@ draft: false
 六角形の鼈甲柄ボトルが「角瓶」の愛称の由来になっていて、発売から90年近く経った今も基本デザインは大きく変わっていない。中身は山崎蒸溜所・白州蒸溜所のモルト原酒と、知多蒸溜所のグレーン原酒をブレンドしたもの。自社で3つの蒸溜所を持ち、原酒を垂直統合的に調達できるというのがサントリーの強みで、角瓶の価格と品質のバランスはこの体制に支えられていると感じる。
 
 発売当初は43度だったが、1992年に40度へ変更されている。熟成年数の表記はなく、いわゆるノンエイジステートメント。若い原酒も柔軟に使えることが、安定した価格を維持できている理由のひとつだと思う。
-
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22"><img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶"></a>
-</div>
 
 ## 香り・味わい
 
@@ -38,9 +38,13 @@ draft: false
 
 希望小売価格は資料によって表記に差があるものの、実勢は700mlで1,700〜1,900円程度に落ち着いていることが多い。2016年、2023年と値上げを経ているが、2026年時点でも大きな価格改定や販売終了の兆しはなく、現行品として安定して流通している。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22"><img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶">
+<span class="product-banner-info">
+<span class="product-banner-name">サントリー角瓶</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 コンビニ・スーパー・酒販店・ネット通販、どこでも同じように手に入るという安定感は、日々飲むボトルとしては地味に重要なポイントだと思う。
 

@@ -8,9 +8,13 @@ draft: false
 
 世界で最も売れているブレンデッドスコッチウイスキーという看板を持ちながら、実勢1,000円台で買える一本。同ブランドの12年熟成「ブラックラベル」とは違う方向性を持つジョニーウォーカー レッドラベルを隅々まで見ていく。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22"><img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル">
+<span class="product-banner-info">
+<span class="product-banner-name">ジョニーウォーカー レッドラベル</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
@@ -22,10 +26,6 @@ draft: false
 
 シトラス、シナモンやブラックペッパーのようなスパイス、バニラ、トースト香。味わいはスパイシーで力強く、青リンゴや洋梨のフルーティな甘みとバニラファッジが乗ってくる。余韻はスモーキーで比較的短め〜中程度、ペッパー感が残る。ブラックラベルの層になった重厚さとは対照的に、単体でもパンチのある飲み口だと感じた。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22"><img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル"></a>
-</div>
-
 ## ハイボールとの相性
 
 ノンエイジ・高めのグレーン比率という設計は、割って飲む用途を前提にしたコスト効率重視のブレンド哲学だという指摘をよく見かける。実際、ハイボールにすると持ち前のスパイシーさが炭酸と好相性で、単体で飲むより印象がまとまる。世界200以上の市場で展開されているという規模の大きさも含め、割って飲まれることを前提に設計されたウイスキーの完成形のひとつだと思う。
@@ -34,9 +34,13 @@ draft: false
 
 実勢価格は700mlで1,100〜1,800円程度。200ml・700ml・1L展開があり、キリンビールが日本国内の輸入・販売を担当している。
 
-<div class="product-links">
-<a class="product-link" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22"><img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル"></a>
-</div>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル">
+<span class="product-banner-info">
+<span class="product-banner-name">ジョニーウォーカー レッドラベル</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
 
 ---
 
