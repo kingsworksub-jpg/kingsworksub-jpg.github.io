@@ -39,7 +39,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 | 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
 |---|---|---|---|---|
-| X (Twitter) | リンク+一言 | **方式変更(2026-09-17)**: 直接のAPI v2連携ではなく、**IFTTT経由でRSSフィードをトリガーに自動投稿**する方式を採用。はてなブログのRSSフィード(`https://kinbro.hatenablog.com/rss`)を「RSS Feed」サービスの新着検知トリガーにし、「X (Twitter)」サービスの「Post a tweet」アクションに繋ぐアプレットをIFTTT上で作成する。API Key発行やDeveloper Portal登録が不要になる分、直接API連携よりセットアップが簡単。 | IFTTTアカウント作成、IFTTT上でXアカウントをOAuth連携(いずれもユーザー本人がブラウザで実施、代行不可) | **2026-09-17、方式決定・ユーザーがIFTTT側の設定を実施予定**。詳細は下記「IFTTT経由のX自動投稿」参照 |
+| X (Twitter) | Claude生成の要約付き投稿文+記事URL | **方式再変更(2026-09-17、同日中に2回目)**: IFTTTのRSS→定型テンプレ投稿案は、記事内容を踏まえたカスタム投稿文が作れない(タイトル+リンクの機械的な投稿になる)という制約があったため、**Python+Playwright+SQLite+Claude Code CLIによる自前パイプライン**に切り替えた。`scripts/x-autopost/`に実装済み。詳細は下記「Python自前パイプラインによるX自動投稿」参照。IFTTT案は不採用(下記のIFTTT設定詳細はその名残として残すが、実装はしていない)。 | X Developer Portalでアプリ作成(Read and Write権限)→ API Key/Secret・Access Token/Secret取得(ユーザー本人が登録)。Python 3.12・Claude Code CLI・Playwright(Chromium)はこのセッションでインストール済み。 | **実装済み・動作確認済み(2026-09-17)**。X API認証情報の設定と初回のバックログskip登録(`seed_baseline.py`)だけユーザー側で必要 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
@@ -77,7 +77,26 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Pro-Ject Debut Carbon EVO 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094453 | 14945776032078691593 |
 | Sony PS-LX3BT 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094503 | 14945776032078691636 |
 
-### IFTTT経由のX自動投稿(2026-09-17、方式決定)
+### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
+
+下記IFTTT案を不採用にし、代わりにClaudeが記事内容を踏まえた投稿文を作る自前パイプラインを実装した。コードは`scripts/x-autopost/`、使い方の詳細は`scripts/x-autopost/README.md`参照。
+
+**処理の流れ**: はてなRSS(`https://kinbro.hatenablog.com/rss`)をポーリング → 新着記事をSQLite(`scripts/x-autopost/posts.db`、gitignore対象)に記録 → Playwrightで記事ページ本文を取得(RSSのdescriptionは省略・崩れの可能性があるため実ページをレンダリングして取得) → Claude Code CLI(`claude -p --output-format json --json-schema ...`)で要約+X投稿文3パターン+最も自然なものの選定 → X API v2(tweepy)で投稿。各段階の結果・失敗はすべてSQLiteに記録し、失敗した記事は自動リトライせず`status='error'`で停止する(手動で状態を戻せば次回実行時に再処理される)。
+
+**環境構築(このセッションで実施済み)**: このマシンにはPython・Node.js・Claude Code CLIのいずれも入っていなかったため、`winget install --id Python.Python.3.12` と `winget install --id Anthropic.ClaudeCode` でインストールした。`scripts/x-autopost/.venv`に依存パッケージ(feedparser/playwright/tweepy/python-dotenv)とPlaywrightのChromiumをインストール済み。
+
+**重要な学び・注意点**:
+- **Claude Code CLIのモデル指定**: デフォルト(Sonnet+拡張思考)だと1回の要約+投稿文生成呼び出しで$0.27〜0.37かかることを実測した。`--model claude-haiku-4-5-20251001`を指定することで$0.05程度まで下がり、品質もこのタスクには十分だったため、`generate.py`はhaikuモデル固定にしてある。`--max-budget-usd`で暴走時の上限も設定。
+- **Windows上でのCLI出力の文字化け**: `claude`コマンドの標準出力を`>`でファイルにリダイレクトしてから読むと、日本語が文字化けする現象を確認した(Node.jsのWindows上でのstdout非TTY時のcodepage挙動が原因と推測)。Pythonの`subprocess.run(capture_output=True, encoding="utf-8")`でパイプ経由で直接受け取る方式では文字化けしないことを確認済み。ファイルリダイレクト方式は使わないこと。
+- **Windowsコンソールのcp932問題**: Pythonスクリプトの`print()`で日本語(特にem dash「—」等の記号)を出力すると`UnicodeEncodeError`になる。全スクリプトの冒頭で`sys.stdout.reconfigure(encoding="utf-8")` / `sys.stderr.reconfigure(encoding="utf-8")`を呼んで回避している。
+- **`python`コマンドが2種類ある**: Windows Store版のスタブ(`WindowsApps\python.exe`、実体が無く動かない)と、winget/python.orgでインストールした実体(`AppData\Local\Programs\Python\Python312\python.exe`)がPATH上で衝突し、シェルによってはスタブの方が先に解決されてしまう。Bashツールから実行する際は`export PATH="/c/Users/norio/AppData/Local/Programs/Python/Python312:$PATH"`のように実体のパスを先頭に追加する必要がある(このBashツールの環境変数はコマンドごとにリセットされるため、python/pipを使うコマンドでは毎回このexportを含めること)。
+- **初回セットアップ時のバックログ誤爆に注意**: DBが空の状態で`main.py`を実行すると、RSSフィードに載っている既存記事すべてが「新着」と誤認識されて一斉投稿されてしまう。実際にこのセッションで既存12記事がこの状態になったため、`python feed_check.py && python seed_baseline.py`で全て`status='skipped_baseline'`に変更し、投稿対象から除外した。新しい環境で再セットアップする場合も、X認証情報を設定する前に必ずこの手順を踏むこと。
+- **X API認証情報**: `.secrets/x-api.env`(gitignore対象、テンプレートは`scripts/x-autopost/x-api.env.example`)に`X_API_KEY` `X_API_SECRET` `X_ACCESS_TOKEN` `X_ACCESS_TOKEN_SECRET`を設定する必要がある。Bearerトークン(アプリ単体認証)ではユーザーの代わりに投稿できないため、OAuth 1.0aのAccess Token/Secret(Read and Write権限)が必須。**未設定・未取得(2026-09-17時点)** — ユーザーがX Developer Portalで取得する必要がある。
+- **定期実行**: Windowsタスクスケジューラで`scripts/x-autopost/.venv/Scripts/python.exe main.py`を任意の間隔(15分〜1時間程度)で実行する運用を想定。まだユーザー側でタスク登録はしていない。
+
+### IFTTT経由のX自動投稿(2026-09-17、不採用・参考として残す)
+
+上記のPython自前パイプラインに切り替えたため、以下は実装していない。カスタム投稿文が不要でとにかく手軽に始めたい場合の代替案として記録だけ残す。
 
 はてなブログのRSSフィードを起点に、IFTTTでX(Twitter)へ自動投稿する構成。X Developer Portalでのアプリ登録・API課金が不要になるのが利点。
 

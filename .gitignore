@@ -3,3 +3,6 @@ resources/_gen/
 .hugo_build.lock
 .secrets/
 *.env
+scripts/x-autopost/posts.db
+scripts/x-autopost/__pycache__/
+scripts/x-autopost/.venv/
