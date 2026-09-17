@@ -71,6 +71,11 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | アナログターンテーブル | https://kinbro.hatenablog.com/entry/2026/09/16/175537 | 14945776032078470439 |
 | スコッチウイスキー | https://kinbro.hatenablog.com/entry/2026/09/16/175540 | 14945776032078470450 |
 | Focusrite Scarlett 2i2 深掘り(単発テーマ記事の初回) | https://kinbro.hatenablog.com/entry/2026/09/16/201704 | 14945776032078510345 |
+| Technics SL-1200MK7 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094413 | 14945776032078691372 |
+| Audio-Technica AT-LP120XUSB 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094433 | 14945776032078691454 |
+| Rega Planar 3 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094443 | 14945776032078691554 |
+| Pro-Ject Debut Carbon EVO 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094453 | 14945776032078691593 |
+| Sony PS-LX3BT 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094503 | 14945776032078691636 |
 
 ## デプロイの仕組み
 
