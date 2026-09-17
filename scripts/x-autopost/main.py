@@ -55,9 +55,9 @@ def process_generated(conn) -> None:
     for row in db.fetch_by_status(conn, "generated"):
         print(f"[main] posting #{row['id']}: {row['title']}")
         try:
-            tweet_id = poster.post_tweet(row["chosen_text"], row["url"])
-            db.mark_posted(conn, row["id"], tweet_id)
-            print(f"[main] posted -> https://x.com/i/web/status/{tweet_id}")
+            poster.post_tweet(row["chosen_text"], row["url"])
+            db.mark_posted(conn, row["id"])
+            print(f"[main] posted #{row['id']} (check x.com to confirm)")
         except Exception as e:  # noqa: BLE001
             print(f"[main] posting failed for #{row['id']}: {e}", file=sys.stderr)
             db.mark_error(conn, row["id"], f"post error: {e}\n{traceback.format_exc()}")

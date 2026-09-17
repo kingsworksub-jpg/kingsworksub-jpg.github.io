@@ -1,16 +1,21 @@
 # はてなブログ → X 自動投稿パイプライン
 
-はてなブログのRSSフィードで新着記事を検出し、Playwrightで本文を取得、Claude Code CLIで要約とX投稿文(3パターン→最も自然なもの1つを選択)を生成し、X API v2で自動投稿する。処理状況はSQLite(`posts.db`)に記録し、重複投稿を防ぐ。
+はてなブログのRSSフィードで新着記事を検出し、Playwrightで本文を取得、Claude Code CLIで要約とX投稿文(3パターン→最も自然なもの1つを選択)を生成し、**Playwrightでx.comにログインしたブラウザから直接投稿する**(X API課金ゼロ)。処理状況はSQLite(`posts.db`)に記録し、重複投稿を防ぐ。
+
+**なぜAPIを使わないか**: X API v2は2026年2月に無料枠を廃止し、URL付き投稿は1件$0.20の完全従量課金になった。このパイプラインは「無料・ローカル完結」を前提に組んでいるため、あえて公式APIを使わず、Playwrightで実際のx.com Web UIにログインして投稿する方式を採用している。
+
+**既知のトレードオフ(承知の上で採用)**: 公式APIではないブラウザ自動化は、Xの利用規約上グレーゾーンであり、頻度や挙動によってはアカウント制限のリスクがある。このパイプラインはブログの更新頻度(週数回程度)に合わせた低頻度投稿を想定しており、人間の通常利用に近いペースで動かす前提。
 
 ## 構成
 
 ```
-feed_check.py  -- RSSフィードをポーリングし、新着記事をDBに登録(status='detected')
-scraper.py     -- Playwrightで記事ページを開き、本文を抽出(status='scraped')
-generate.py    -- Claude Code CLI(haikuモデル)で要約+投稿文3案+選定(status='generated')
-poster.py      -- X API v2(tweepy)で投稿(status='posted')
-db.py          -- SQLiteのスキーマ・CRUDヘルパー
-main.py        -- 上記を順に実行するオーケストレーター(これを定期実行する)
+feed_check.py     -- RSSフィードをポーリングし、新着記事をDBに登録(status='detected')
+scraper.py        -- Playwrightで記事ページを開き、本文を抽出(status='scraped')
+generate.py       -- Claude Code CLI(haikuモデル)で要約+投稿文3案+選定(status='generated')
+poster.py         -- Playwrightでx.comにログイン済みセッションから投稿(status='posted')
+x_login_setup.py  -- 【初回のみ・手動】ブラウザでXにログインし、セッションを保存する
+db.py             -- SQLiteのスキーマ・CRUDヘルパー
+main.py           -- 上記を順に実行するオーケストレーター(これを定期実行する)
 ```
 
 ## セットアップ
@@ -33,12 +38,16 @@ claude --version
 
 インストール済みでない場合は `winget install --id Anthropic.ClaudeCode -e` でインストールできる。`main.py` を実行するユーザーがClaude Codeにログイン済みである必要がある(`claude` を一度対話モードで起動してログインしておく)。
 
-### 3. X API認証情報の取得
+### 3. Xへのログインセッションを保存する(初回のみ・手動)
 
-1. https://developer.x.com/en/portal/dashboard でアプリを作成(または既存アプリを使用)。
-2. アプリの権限を **Read and Write** に設定。
-3. 「Keys and tokens」から API Key/Secret、Access Token/Secret を発行(Access Token発行は権限設定を変更した後に再生成が必要な場合がある)。
-4. `scripts/x-autopost/x-api.env.example` を `.secrets/x-api.env`(リポジトリルート直下)にコピーし、値を埋める。**このファイルはgit管理対象外(.gitignore済み)。絶対にコミットしないこと。**
+```powershell
+cd scripts\x-autopost
+python x_login_setup.py
+```
+
+ブラウザウィンドウが開くので、**自分のXアカウントで手動でログイン**する(2段階認証もそのまま画面上で完了する)。パスワードはコードやファイルに一切保存されない——保存されるのはログイン後のセッション情報(Cookie等)のみで、`.secrets/x-auth-state.json`(git管理対象外)に書き出される。ログイン完了後、ターミナルに戻ってEnterを押すとセッションが保存される。
+
+このセッションは長期間有効だが、**Xに再ログインを求められる・投稿が失敗するようになったら、このスクリプトをもう一度実行してセッションを取り直す**こと。
 
 ### 4. 【重要】既存記事のバックログをスキップ登録する(初回のみ・必須)
 
@@ -77,3 +86,6 @@ python main.py
 - **Windows環境でのエンコーディング**: `claude` CLIの出力をファイルリダイレクト(`>`)経由で読むと文字化けする場合がある(Node.jsのWindows上でのstdout非TTY時のcodepage挙動に起因すると見られる)。`generate.py`は`subprocess.run(capture_output=True, encoding="utf-8")`でパイプ経由の直接読み取りを行っており、この方式では文字化けしないことを確認済み。ファイルリダイレクト方式に変更しないこと。
 - **本文取得のセレクタ**: `scraper.py`の`ENTRY_CONTENT_SELECTOR`ははてなブログの標準テーマの`.entry-content.hatenablog-entry`を前提にしている。テーマを変更した場合は要修正。
 - **重複投稿防止**: RSSのGUID(記事の一意ID)をSQLiteでユニーク制約管理しているため、同じ記事に対して`main.py`を何度実行しても2重投稿にはならない。ただし「既存記事の内容修整による再投稿」(`update-hatena-post.sh`での更新)はRSSのGUIDが変わらないため、そもそも新着として検出されない(想定通りの挙動)。
+- **X投稿のセレクタは未検証**: `poster.py`の投稿欄・投稿ボタンのセレクタ(`data-testid="tweetTextarea_0"`等)はX公式サイトの実装に依存しており、**実際にログインして動かして初めて検証できる**(このセッションでは実アカウントへのログインができないため未実施)。初回実行時にうまく投稿できない場合は、ブラウザの開発者ツールでボタン等の`data-testid`を確認し、`poster.py`のセレクタを調整すること。
+- **セッション切れ**: `poster.py`は投稿先URLがログインページにリダイレクトされた場合、`SessionExpiredError`を出して停止する。`x_login_setup.py`を再実行してセッションを取り直すこと。
+- **tweet_idは取得しない**: API方式と違い、ブラウザ自動化では投稿後のツイートURLを確実に取得するのが難しいため、`posts.db`の`tweet_id`列は基本的に空のままになる(投稿できたかどうかは`status='posted'`で判断する)。

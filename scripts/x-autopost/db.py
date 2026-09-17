@@ -95,7 +95,11 @@ def mark_generated(
     )
 
 
-def mark_posted(conn: sqlite3.Connection, post_id: int, tweet_id: str) -> None:
+def mark_posted(conn: sqlite3.Connection, post_id: int, tweet_id: str | None = None) -> None:
+    # tweet_id is best-effort: browser-automation posting (poster.py) can't
+    # reliably capture the resulting tweet's id/URL the way an API response
+    # would, so this is usually None. Left in the schema in case a future
+    # version of poster.py starts scraping the permalink after posting.
     conn.execute(
         "UPDATE posts SET tweet_id = ?, posted_at = ?, status = 'posted' WHERE id = ?",
         (tweet_id, _now(), post_id),
