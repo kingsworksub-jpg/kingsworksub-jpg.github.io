@@ -1,0 +1,4 @@
+{
+  "_comment": "Tracks ASINs already covered by the recurring carbonated-drink deep-dive job (2026-09-18~). Each cron firing must check this before picking a product, and append to it after publishing. Source search: https://www.amazon.co.jp/s?k=%E7%82%AD%E9%85%B8",
+  "covered": []
+}
