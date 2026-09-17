@@ -77,6 +77,17 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Rega Planar 3 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094443 | 14945776032078691554 |
 | Pro-Ject Debut Carbon EVO 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094453 | 14945776032078691593 |
 | Sony PS-LX3BT 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094503 | 14945776032078691636 |
+| コスパ重視の安ウイスキー10選 | https://kinbro.hatenablog.com/entry/2026/09/17/223231 | 14945776032078925432 |
+| サントリー角瓶 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223226 | 14945776032078925412 |
+| ブラックニッカ クリア 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223235 | 14945776032078925462 |
+| トリスウイスキー 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223244 | 14945776032078925505 |
+| ジムビーム ホワイト 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223241 | 14945776032078925498 |
+| フォアローゼズ イエロー 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223224 | 14945776032078925392 |
+| バランタイン ファイネス 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223238 | 14945776032078925486 |
+| カティサーク 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223228 | 14945776032078925420 |
+| ホワイトホース ファインオールド 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223219 | 14945776032078925366 |
+| デュワーズ ホワイトラベル 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223233 | 14945776032078925440 |
+| ジョニーウォーカー レッドラベル 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223222 | 14945776032078925374 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
