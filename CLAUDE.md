@@ -39,7 +39,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 | 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
 |---|---|---|---|---|
-| X (Twitter) | リンク+一言 | API v2で可能。2026年2月からPay-per-use課金制($0.01/投稿=1.5円ほど、従量課金なので低コスト) | Developer Portalでアプリ作成 → API Key/Secret・Access Token取得(ユーザー本人が登録・支払い方法登録) | 未着手 |
+| X (Twitter) | リンク+一言 | **方式変更(2026-09-17)**: 直接のAPI v2連携ではなく、**IFTTT経由でRSSフィードをトリガーに自動投稿**する方式を採用。はてなブログのRSSフィード(`https://kinbro.hatenablog.com/rss`)を「RSS Feed」サービスの新着検知トリガーにし、「X (Twitter)」サービスの「Post a tweet」アクションに繋ぐアプレットをIFTTT上で作成する。API Key発行やDeveloper Portal登録が不要になる分、直接API連携よりセットアップが簡単。 | IFTTTアカウント作成、IFTTT上でXアカウントをOAuth連携(いずれもユーザー本人がブラウザで実施、代行不可) | **2026-09-17、方式決定・ユーザーがIFTTT側の設定を実施予定**。詳細は下記「IFTTT経由のX自動投稿」参照 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
@@ -76,6 +76,17 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Rega Planar 3 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094443 | 14945776032078691554 |
 | Pro-Ject Debut Carbon EVO 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094453 | 14945776032078691593 |
 | Sony PS-LX3BT 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/094503 | 14945776032078691636 |
+
+### IFTTT経由のX自動投稿(2026-09-17、方式決定)
+
+はてなブログのRSSフィードを起点に、IFTTTでX(Twitter)へ自動投稿する構成。X Developer Portalでのアプリ登録・API課金が不要になるのが利点。
+
+- **フィードURL**: `https://kinbro.hatenablog.com/rss`(RSS 2.0、確認済み・title/link/description/pubDate/guid/enclosureを含む正常なフィード)。Atom形式が必要な場合は `https://kinbro.hatenablog.com/feed`。
+- **IFTTTアプレット構成**: If This = 「RSS Feed」サービスの「New feed item」トリガー(フィードURLを指定) → Then That = 「X (Twitter)」サービスの「Post a tweet」アクション。ツイート本文は `{{EntryTitle}} {{EntryUrl}}` のようなテンプレートで組む。
+- **セットアップはユーザー本人がIFTTT上で実施**(IFTTTアカウント作成、X側のOAuth連携)。Claude Code側で代行はできない。
+- **チェック頻度**: 無料プランは1時間ごと、Pro/Pro+プランは5分ごと。
+- **重複投稿の心配は無い**: IFTTTはフィード項目のGUIDで既知/未知を判定するため、`update-hatena-post.sh` で既存記事を更新(GUID不変)してもトリガーは再発火しない。`post-to-hatena.sh` で新規記事を投稿したときだけ新しいGUIDとして検知され、ツイートが飛ぶ想定。
+- **注意**: 無料プランは同時に有効化できるアプレット数に上限がある場合があるため、設定時にIFTTT側の制限を確認すること。
 
 ## デプロイの仕組み
 
