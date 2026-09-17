@@ -102,6 +102,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | ホワイトホース ファインオールド 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223219 | 14945776032078925366 |
 | デュワーズ ホワイトラベル 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223233 | 14945776032078925440 |
 | ジョニーウォーカー レッドラベル 深掘り | https://kinbro.hatenablog.com/entry/2026/09/17/223222 | 14945776032078925374 |
+| ウィルキンソン タンサン 深掘り(炭酸飲料シリーズ1本目) | https://kinbro.hatenablog.com/entry/2026/09/18/075054 | 14945776032079085104 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
