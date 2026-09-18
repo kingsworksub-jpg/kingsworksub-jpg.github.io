@@ -137,6 +137,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - 低頻度(週数回程度)の投稿に留める前提。`main.py`は複数記事をまとめて投稿する際、1件あたり45秒の間隔を空ける(`POST_INTERVAL_S`)。
 - 投稿文に「テスト」「自動投稿」「AI」「bot」「生成」等、自動化を連想させる語を含めないよう`generate.py`のプロンプトで明示的に禁止している(2026-09-17、実際にテスト用の文言がそのまま投稿されてしまい、ユーザーに削除してもらう事故があったための追記)。
 - `poster.py`は投稿後のツイートURL/IDを取得できない(ブラウザ自動化の性質上)。`posts.db`の`tweet_id`列は常にNULL。
+- **投稿後は開いたcomposeタブを閉じる(2026-09-18、ユーザー指示・実装済み)**: `post_tweet()`は投稿(`Ctrl+Enter`)後、Edgeがまだフォーカスされていることを再確認した上で`Ctrl+W`でそのタブを自動的に閉じる。炭酸飲料(2時間おき)・ジャズ(1時間おき)のような高頻度cronタスクでタブが際限なく溜まりメモリを圧迫する問題への対応。フォーカスが外れていた場合は閉じずに警告のみ(誤ったウィンドウを閉じないため)。
 - Bashツールから`scripts/x-autopost/`配下のPythonスクリプトを実行する際、Claude Code側の自動モード分類器が「実世界への投稿」を検知してブロックすることがある。`.claude/settings.local.json`(gitignore対象)に`Bash(cd .../scripts/x-autopost && .venv/Scripts/python.exe *)`という許可ルールを追加済みなので、今後はこの形式(`cd` してから`.venv/Scripts/python.exe`を呼ぶ)でコマンドを組み立てること。
 
 **重要な学び・注意点**:

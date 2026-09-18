@@ -34,6 +34,7 @@ COMPOSE_URL = "https://x.com/compose/post"
 LAUNCH_WAIT_S = 4
 PASTE_WAIT_S = 1
 SUBMIT_WAIT_S = 2
+CLOSE_TAB_WAIT_S = 1
 
 
 class PostingError(RuntimeError):
@@ -66,6 +67,26 @@ def post_tweet(text: str, url: str) -> None:
 
     pyautogui.hotkey("ctrl", "enter")
     time.sleep(SUBMIT_WAIT_S)
+
+    # Each post_tweet() call opens a fresh compose tab (subprocess.Popen above
+    # forwards the URL to the already-running Edge instance rather than
+    # spawning a new browser process). Left unclosed, these accumulate one
+    # tab per post -- with the hourly/every-2-hours cron jobs this adds up
+    # fast and eats memory. Close the tab now that the post is submitted.
+    # Re-check focus first (same safety rule as above): only send Ctrl+W if
+    # Edge is still confirmed focused, so a stray window never eats a
+    # close-tab keystroke meant for the compose tab.
+    active = gw.getActiveWindow()
+    if active is not None and "Edge" in (active.title or ""):
+        pyautogui.hotkey("ctrl", "w")
+        time.sleep(CLOSE_TAB_WAIT_S)
+    else:
+        print(
+            "Warning: Edge no longer confirmed focused after posting; "
+            "skipping tab close to avoid sending Ctrl+W to the wrong window. "
+            "The compose tab may be left open.",
+            file=sys.stderr,
+        )
 
 
 if __name__ == "__main__":
