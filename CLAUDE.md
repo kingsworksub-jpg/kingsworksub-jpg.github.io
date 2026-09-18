@@ -123,6 +123,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | カナダドライ ジンジャーエール 深掘り(炭酸飲料シリーズ5本目) | https://kinbro.hatenablog.com/entry/2026/09/18/144205 | 14945776032079413222 |
 | 伊藤園 ミネラルストロング 深掘り(炭酸飲料シリーズ6本目) | https://kinbro.hatenablog.com/entry/2026/09/18/164514 | 14945776032079524762 |
 | 富士山の強炭酸水 深掘り(炭酸飲料シリーズ7本目) | https://kinbro.hatenablog.com/entry/2026/09/18/184231 | 14945776032079558940 |
+| 三ツ矢サイダーZERO 深掘り(炭酸飲料シリーズ8本目) | https://kinbro.hatenablog.com/entry/2026/09/18/221832 | 14945776032079620987 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
