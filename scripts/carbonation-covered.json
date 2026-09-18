@@ -18,6 +18,20 @@
       "name": "OZA SODA",
       "slug": "oza-soda-deep-dive-2026",
       "date": "2026-09-18"
+    },
+    {
+      "asin": "B0GN2DJKK4",
+      "name": "CRYSTAL SPARK グレープソーダ",
+      "slug": "crystal-spark-grape-deep-dive-2026",
+      "date": "2026-09-18"
+    }
+  ],
+  "skipped_same_product": [
+    {
+      "asin": "B0CF92WD2H",
+      "name": "ウィルキンソン タンサン 500ml×32本",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY)と同一製品・容量違いのため、別記事にせず候補から除外",
+      "date": "2026-09-18"
     }
   ]
 }
