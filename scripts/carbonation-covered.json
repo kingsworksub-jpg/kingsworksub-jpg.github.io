@@ -64,6 +64,12 @@
       "name": "by Amazon 強炭酸水 プレーン ラベルレス 500ml×35本",
       "reason": "AmazonのプライベートブランドでAmazon以外の製造元公式サイト・商品画像が見つからず(姉妹品の24本入りは別SKUで画像流用不可)。記事ルール上、Amazon商品画像は使用不可のため見送り",
       "date": "2026-09-18"
+    },
+    {
+      "asin": "B0G6K1YK5C",
+      "name": "サントリー天然水 グレフル SPARKLING",
+      "reason": "products.suntory.co.jp が一貫して403(Referer付与のPlaywright再試行でも403)で、Amazon以外の公式商品画像を取得できなかったため見送り",
+      "date": "2026-09-18"
     }
   ]
 }
