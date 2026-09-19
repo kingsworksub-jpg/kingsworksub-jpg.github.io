@@ -146,6 +146,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | KEITH 純チタン おちょこ 酒器 深掘り(酒器シリーズ4本目) | https://kinbro.hatenablog.com/entry/2026/09/19/213034 | 14945776032079974862 |
 | ドデカミン 深掘り(炭酸飲料シリーズ13本目) | https://kinbro.hatenablog.com/entry/2026/09/19/223514 | 14945776032079996485 |
 | アデリア 津軽びいどろ NEBUTA 酒器セット 深掘り(酒器シリーズ5本目) | https://kinbro.hatenablog.com/entry/2026/09/20/024441 | 14945776032080063857 |
+| green cola(グリーンコーラ) 深掘り(炭酸飲料シリーズ14本目) | https://kinbro.hatenablog.com/entry/2026/09/20/032817 | 14945776032080069533 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
