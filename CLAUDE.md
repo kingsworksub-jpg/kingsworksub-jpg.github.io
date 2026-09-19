@@ -126,6 +126,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 三ツ矢サイダーZERO 深掘り(炭酸飲料シリーズ8本目) | https://kinbro.hatenablog.com/entry/2026/09/18/221832 | 14945776032079620987 |
 | キリンレモン 炭酸水 深掘り(炭酸飲料シリーズ9本目) | https://kinbro.hatenablog.com/entry/2026/09/18/224858 | 14945776032079629572 |
 | 能作 本錫100%酒器セット 深掘り(酒器シリーズ1本目) | https://kinbro.hatenablog.com/entry/2026/09/19/132413 | 14945776032079837776 |
+| サンペレグリノ 深掘り(炭酸飲料シリーズ10本目) | https://kinbro.hatenablog.com/entry/2026/09/19/142329 | 14945776032079851655 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
