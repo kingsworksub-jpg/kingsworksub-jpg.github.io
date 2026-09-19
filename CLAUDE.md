@@ -140,6 +140,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 能作 本錫100%酒器セット 深掘り(酒器シリーズ1本目) | https://kinbro.hatenablog.com/entry/2026/09/19/132413 | 14945776032079837776 |
 | サンペレグリノ 深掘り(炭酸飲料シリーズ10本目) | https://kinbro.hatenablog.com/entry/2026/09/19/142329 | 14945776032079851655 |
 | 柳宗理デザイン 清酒グラス 深掘り(酒器シリーズ2本目) | https://kinbro.hatenablog.com/entry/2026/09/19/152635 | 14945776032079869167 |
+| CRYSTAL SPARK ラムネ 深掘り(炭酸飲料シリーズ11本目) | https://kinbro.hatenablog.com/entry/2026/09/19/172227 | 14945776032079902024 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
