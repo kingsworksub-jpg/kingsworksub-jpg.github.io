@@ -1,0 +1,12 @@
+{
+  "_comment": "Tracks ASINs already covered by the recurring sake-vessel (オシャレ 酒器) deep-dive job (2026-09-19~). Each run must check this before picking a product, and append to it after publishing. Source search: https://www.amazon.co.jp/s?k=%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC+%E9%85%92%E5%99%A8",
+  "covered": [
+    {
+      "asin": "B01N24OSZT",
+      "name": "能作 本錫100%酒器セット(ぐい呑み・片口小)",
+      "slug": "nousaku-tin-sake-set-deep-dive-2026",
+      "date": "2026-09-19"
+    }
+  ],
+  "skipped_same_product": []
+}
