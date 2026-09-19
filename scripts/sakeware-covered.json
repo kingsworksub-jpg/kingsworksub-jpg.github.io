@@ -12,7 +12,26 @@
       "name": "柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)",
       "slug": "sori-yanagi-seishu-glass-deep-dive-2026",
       "date": "2026-09-19"
+    },
+    {
+      "asin": "B09LH94YWS",
+      "name": "BODUM(ボダム) DOURO 徳利/カラフェ 360ml",
+      "slug": "bodum-douro-carafe-deep-dive-2026",
+      "date": "2026-09-19"
     }
   ],
-  "skipped_same_product": []
+  "skipped_same_product": [
+    {
+      "asin": "B0G41KGZ6R",
+      "name": "柳宗理デザイン 清酒グラス 65ml",
+      "reason": "既に記事化済みの柳宗理デザイン 清酒グラス 125ml(B0G41NTDJK)と同一製品・サイズ違いのため、別記事にせず候補から除外",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0GJJ3F6XM",
+      "name": "柳宗理デザイン 清酒グラス 6個販売(125ml)",
+      "reason": "既に記事化済みの柳宗理デザイン 清酒グラス 125ml(B0G41NTDJK)と同一製品・個数違いのため、別記事にせず候補から除外",
+      "date": "2026-09-19"
+    }
+  ]
 }
