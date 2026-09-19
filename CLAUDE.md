@@ -144,6 +144,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | BODUM DOURO 徳利/カラフェ 深掘り(酒器シリーズ3本目) | https://kinbro.hatenablog.com/entry/2026/09/19/182858 | 14945776032079920491 |
 | コカ・コーラ ゼロ 深掘り(炭酸飲料シリーズ12本目) | https://kinbro.hatenablog.com/entry/2026/09/19/192204 | 14945776032079935473 |
 | KEITH 純チタン おちょこ 酒器 深掘り(酒器シリーズ4本目) | https://kinbro.hatenablog.com/entry/2026/09/19/213034 | 14945776032079974862 |
+| ドデカミン 深掘り(炭酸飲料シリーズ13本目) | https://kinbro.hatenablog.com/entry/2026/09/19/223514 | 14945776032079996485 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
