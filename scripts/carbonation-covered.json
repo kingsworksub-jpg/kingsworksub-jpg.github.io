@@ -132,9 +132,27 @@
       "name": "コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本",
       "slug": "icy-spark-canada-dry-lemon-deep-dive-2026",
       "date": "2026-09-21"
+    },
+    {
+      "asin": "B08XPC1N8Z",
+      "name": "大塚食品 MATCH マッチ 500ml×24本",
+      "slug": "otsuka-match-deep-dive-2026",
+      "date": "2026-09-21"
     }
   ],
   "skipped_same_product": [
+    {
+      "asin": "B0DJ1348CX",
+      "name": "アサヒ飲料 ウィルキンソン タンサン マルチパック 500ml×6本",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY、500ml×24本)と同一製品・本数違いのため除外",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B01E6T508C",
+      "name": "アサヒ ウィルキンソン タンサン 500ml(単本)",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY)と同一製品・単本バラ売りのため除外",
+      "date": "2026-09-21"
+    },
     {
       "asin": "B0CF92WD2H",
       "name": "ウィルキンソン タンサン 500ml×32本",

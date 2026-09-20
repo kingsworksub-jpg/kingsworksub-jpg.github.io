@@ -165,6 +165,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 東洋佐々木ガラス 片口 冷酒カラフェ 深掘り(酒器シリーズ13本目) | https://kinbro.hatenablog.com/entry/2026/09/21/022656 | 14945776032080423161 |
 | コカ・コーラ アイシー・スパーク from カナダドライ レモン 深掘り(炭酸飲料シリーズ22本目) | https://kinbro.hatenablog.com/entry/2026/09/21/032810 | 14945776032080428751 |
 | 国産美濃焼 黒千代香 深掘り(酒器シリーズ14本目) | https://kinbro.hatenablog.com/entry/2026/09/21/042359 | 14945776032080433323 |
+| 大塚食品 MATCH(マッチ) 深掘り(炭酸飲料シリーズ23本目) | https://kinbro.hatenablog.com/entry/2026/09/21/052233 | 14945776032080452514 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
