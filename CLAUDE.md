@@ -167,6 +167,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 国産美濃焼 黒千代香 深掘り(酒器シリーズ14本目) | https://kinbro.hatenablog.com/entry/2026/09/21/042359 | 14945776032080433323 |
 | 大塚食品 MATCH(マッチ) 深掘り(炭酸飲料シリーズ23本目) | https://kinbro.hatenablog.com/entry/2026/09/21/052233 | 14945776032080452514 |
 | アデリア 津軽びいどろ 片口あじさい 深掘り(酒器シリーズ15本目) | https://kinbro.hatenablog.com/entry/2026/09/21/062443 | 14945776032080467143 |
+| カナダドライ ザ・タンサン ストロング 深掘り(炭酸飲料シリーズ24本目) | https://kinbro.hatenablog.com/entry/2026/09/21/072220 | 14945776032080477449 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
