@@ -1,0 +1,207 @@
+{
+  "_comment": "Tracks ASINs already covered by the recurring carbonated-drink deep-dive job (2026-09-18~). Each cron firing must check this before picking a product, and append to it after publishing. Source search: https://www.amazon.co.jp/s?k=%E7%82%AD%E9%85%B8",
+  "covered": [
+    {
+      "asin": "B01CNBT7NY",
+      "name": "ウィルキンソン タンサン",
+      "slug": "wilkinson-tansan-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B01HHPFXUM",
+      "name": "ヨサソーダ",
+      "slug": "yosa-soda-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B0DLMKR2VB",
+      "name": "OZA SODA",
+      "slug": "oza-soda-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B0GN2DJKK4",
+      "name": "CRYSTAL SPARK グレープソーダ",
+      "slug": "crystal-spark-grape-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B00158V46K",
+      "name": "カナダドライ ジンジャーエール",
+      "slug": "canada-dry-ginger-ale-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B09QX3PG25",
+      "name": "伊藤園 ミネラルストロング",
+      "slug": "itoen-mineral-strong-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B09LCRNQT4",
+      "name": "富士山の強炭酸水",
+      "slug": "fuji-strong-soda-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B01B2NN7MG",
+      "name": "三ツ矢サイダーZERO(旧ゼロストロング)",
+      "slug": "mitsuya-cider-zero-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B0BVMGY6P7",
+      "name": "キリンレモン 炭酸水",
+      "slug": "kirin-lemon-sparkling-deep-dive-2026",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B07HB1Z4GQ",
+      "name": "サンペレグリノ(S.Pellegrino) 炭酸水 PET 500ml×24本",
+      "slug": "san-pellegrino-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0DVGK6GH1",
+      "name": "CRYSTAL SPARK ラムネ",
+      "slug": "crystal-spark-ramune-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B004Y9IZDC",
+      "name": "コカ・コーラ ゼロ",
+      "slug": "coca-cola-zero-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0GNRJMSZ9",
+      "name": "ドデカミン",
+      "slug": "dodecamin-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0H75QM1RZ",
+      "name": "green cola(グリーンコーラ)",
+      "slug": "green-cola-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B00371XUQA",
+      "name": "リアルゴールド",
+      "slug": "real-gold-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B0CP79814S",
+      "name": "ポッカサッポロ 北海道富良野ホップ炭酸水",
+      "slug": "pokka-furano-hop-soda-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B0BTZT7BYF",
+      "name": "アサヒ飲料 モンスター パイプラインパンチ",
+      "slug": "monster-pipeline-punch-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B07R94DPM4",
+      "name": "サンガリア きれいな炭酸水",
+      "slug": "sangaria-kireina-tansansui-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B09RSP32SR",
+      "name": "キレートレモン Wレモン 炭酸飲料",
+      "slug": "kiretolemon-wlemon-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B005MVQPBU",
+      "name": "神戸居留地 スパークリングウォーター 強炭酸水 プレーン",
+      "slug": "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B004P6HUNA",
+      "name": "アサヒ飲料 三ツ矢サイダー(通常版) 缶250ml×20本",
+      "slug": "mitsuya-cider-original-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B09TVVN918",
+      "name": "コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本",
+      "slug": "icy-spark-canada-dry-lemon-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B08XPC1N8Z",
+      "name": "大塚食品 MATCH マッチ 500ml×24本",
+      "slug": "otsuka-match-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B08CDYX378",
+      "name": "コカ・コーラ カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本",
+      "slug": "canada-dry-tansan-strong-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B0GNRWR1W5",
+      "name": "アサヒ飲料 ドデカミンのゼロが好きだと叫びたい(ドデカミンゼロ、毎年改名の企画商品) 500ml×24本",
+      "slug": "dodecamin-zero-sakebitai-deep-dive-2026",
+      "date": "2026-09-21"
+    }
+  ],
+  "skipped_same_product": [
+    {
+      "asin": "B0DJ1348CX",
+      "name": "アサヒ飲料 ウィルキンソン タンサン マルチパック 500ml×6本",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY、500ml×24本)と同一製品・本数違いのため除外",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B01E6T508C",
+      "name": "アサヒ ウィルキンソン タンサン 500ml(単本)",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY)と同一製品・単本バラ売りのため除外",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B0CF92WD2H",
+      "name": "ウィルキンソン タンサン 500ml×32本",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY)と同一製品・容量違いのため、別記事にせず候補から除外",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B09YL4T7S4",
+      "name": "ウィルキンソン アサヒ飲料 タンサン 300ml×24本",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY、500ml×24本)と同一製品・容量違いのため除外",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B0CSRW5XQ8",
+      "name": "アサヒ飲料 ウィルキンソン タンサン 190ml×30本 缶",
+      "reason": "既に記事化済みのウィルキンソン タンサン(B01CNBT7NY)と同一製品・容量/フォーマット違いのため除外",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B0CJ326S2T",
+      "name": "アイリスオーヤマ 富士山の強炭酸水 1000ml×15本",
+      "reason": "既に記事化済みの富士山の強炭酸水(B09LCRNQT4、500ml×24本)と同一製品・容量違いのため除外",
+      "date": "2026-09-21"
+    }
+  ],
+  "skipped_no_official_image": [
+    {
+      "asin": "B0D2D85W9F",
+      "name": "by Amazon 強炭酸水 プレーン ラベルレス 500ml×35本",
+      "reason": "AmazonのプライベートブランドでAmazon以外の製造元公式サイト・商品画像が見つからず(姉妹品の24本入りは別SKUで画像流用不可)。記事ルール上、Amazon商品画像は使用不可のため見送り",
+      "date": "2026-09-18"
+    },
+    {
+      "asin": "B0G6K1YK5C",
+      "name": "サントリー天然水 グレフル SPARKLING",
+      "reason": "products.suntory.co.jp が一貫して403(Referer付与のPlaywright再試行でも403)で、Amazon以外の公式商品画像を取得できなかったため見送り",
+      "date": "2026-09-18"
+    }
+  ]
+}

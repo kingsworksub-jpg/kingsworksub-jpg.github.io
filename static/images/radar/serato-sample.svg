@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 460" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+<rect x="0" y="0" width="500" height="460" rx="18" fill="#F8F6F1"/>
+<text x="250" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#3A362E">Serato Sample</text>
+<polygon points="250.0,222.0 276.6,241.3 266.5,272.7 233.5,272.7 223.4,241.3 " fill="none" stroke="#DDD9CF" stroke-width="1"/>
+<polygon points="250.0,194.0 303.3,232.7 282.9,295.3 217.1,295.3 196.7,232.7 " fill="none" stroke="#DDD9CF" stroke-width="1"/>
+<polygon points="250.0,166.0 329.9,224.0 299.4,318.0 200.6,318.0 170.1,224.0 " fill="none" stroke="#DDD9CF" stroke-width="1"/>
+<polygon points="250.0,138.0 356.5,215.4 315.8,340.6 184.2,340.6 143.5,215.4 " fill="none" stroke="#DDD9CF" stroke-width="1"/>
+<polygon points="250.0,110.0 383.2,206.7 332.3,363.3 167.7,363.3 116.8,206.7 " fill="none" stroke="#B9B4A8" stroke-width="1"/>
+<line x1="250" y1="250" x2="250" y2="110" stroke="#CFCABD" stroke-width="1"/>
+<line x1="250" y1="250" x2="383.154" y2="206.74" stroke="#CFCABD" stroke-width="1"/>
+<line x1="250" y1="250" x2="332.292" y2="363.26" stroke="#CFCABD" stroke-width="1"/>
+<line x1="250" y1="250" x2="167.708" y2="363.26" stroke="#CFCABD" stroke-width="1"/>
+<line x1="250" y1="250" x2="116.846" y2="206.74" stroke="#CFCABD" stroke-width="1"/>
+<text x="250" y="62" text-anchor="middle" font-size="15" font-weight="600" fill="#4A4636">学習コスト</text>
+<text x="429.296" y="192.998" text-anchor="start" font-size="15" font-weight="600" fill="#4A4636">編集</text>
+<text x="364.628" y="410.002" text-anchor="start" font-size="15" font-weight="600" fill="#4A4636">制作速度</text>
+<text x="135.372" y="410.002" text-anchor="end" font-size="15" font-weight="600" fill="#4A4636">拡張性</text>
+<text x="70.7042" y="192.998" text-anchor="end" font-size="15" font-weight="600" fill="#4A4636">安定性</text>
+<polygon points="250.0,110.0 356.5,215.4 332.3,363.3 200.6,318.0 170.1,224.0 " fill="#7048E8" fill-opacity="0.28" stroke="#7048E8" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="250" cy="110" r="4.5" fill="#7048E8" stroke="#F8F6F1" stroke-width="1.5"/>
+<circle cx="356.523" cy="215.392" r="4.5" fill="#7048E8" stroke="#F8F6F1" stroke-width="1.5"/>
+<circle cx="332.292" cy="363.26" r="4.5" fill="#7048E8" stroke="#F8F6F1" stroke-width="1.5"/>
+<circle cx="200.625" cy="317.956" r="4.5" fill="#7048E8" stroke="#F8F6F1" stroke-width="1.5"/>
+<circle cx="170.108" cy="224.044" r="4.5" fill="#7048E8" stroke="#F8F6F1" stroke-width="1.5"/>
+</svg>

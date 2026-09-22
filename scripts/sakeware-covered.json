@@ -1,0 +1,127 @@
+{
+  "_comment": "Tracks ASINs already covered by the recurring sake-vessel (オシャレ 酒器) deep-dive job (2026-09-19~). Each run must check this before picking a product, and append to it after publishing. Source search: https://www.amazon.co.jp/s?k=%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC+%E9%85%92%E5%99%A8",
+  "covered": [
+    {
+      "asin": "B01N24OSZT",
+      "name": "能作 本錫100%酒器セット(ぐい呑み・片口小)",
+      "slug": "nousaku-tin-sake-set-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0G41NTDJK",
+      "name": "柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)",
+      "slug": "sori-yanagi-seishu-glass-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B09LH94YWS",
+      "name": "BODUM(ボダム) DOURO 徳利/カラフェ 360ml",
+      "slug": "bodum-douro-carafe-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0HG4PGR4Q",
+      "name": "KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)",
+      "slug": "keith-ti9304-titanium-sake-cup-deep-dive-2026",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B019DM82EQ",
+      "name": "アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット 金箔入(FS71551)",
+      "slug": "tsugaru-vidro-nebuta-sake-set-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B002ORKHHI",
+      "name": "東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml(61048DV)",
+      "slug": "toyo-sasaki-carafe-variation-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B088K6V7KV",
+      "name": "田島硝子 金箔富士 冷酒杯(桜)",
+      "slug": "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B0FL7DZZHM",
+      "name": "和座の蔵 九谷焼 ぐい呑み 白粒鉄仙(和座の蔵/九谷物産)",
+      "slug": "kutani-shiratsubu-tessen-guinomi-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B09DKNGKQD",
+      "name": "ピーコック とっくり おちょこ セット 真空二重構造 ACF-38",
+      "slug": "peacock-acf38-sake-set-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B099MVGMQ2",
+      "name": "廣田硝子 ちろり 青 中子付き",
+      "slug": "hirota-glass-chirori-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B09Y3DHRS6",
+      "name": "高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入) ゴールド ぐい呑み(天野漆器)",
+      "slug": "takaoka-shikki-raden-glass-sakura-deep-dive-2026",
+      "date": "2026-09-20"
+    },
+    {
+      "asin": "B00DGN94GY",
+      "name": "大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)",
+      "slug": "odate-akita-sugi-sake-set-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B00J3IENRG",
+      "name": "東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml(B-40601)",
+      "slug": "toyo-sasaki-katakuchi-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B002T3IKIU",
+      "name": "国産美濃焼 黒千代香 2合セット 2客 ツル付(480g) 説明書付",
+      "slug": "kurojoka-mino-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B00PXL3Z76",
+      "name": "アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)",
+      "slug": "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B09SBJRVJJ",
+      "name": "退職祝い 酒器セット 有田焼 徳利1個・ぐい呑み2個セット 炎華",
+      "slug": "arita-enka-sake-set-deep-dive-2026",
+      "date": "2026-09-21"
+    },
+    {
+      "asin": "B08FCCKDD9",
+      "name": "アデリア(ADERIA) 津軽びいどろ みずばしょう 酒器セット(徳利1個・盃2個) FS-71582",
+      "slug": "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026",
+      "date": "2026-09-21"
+    }
+  ],
+  "skipped_same_product": [
+    {
+      "asin": "B0G41KGZ6R",
+      "name": "柳宗理デザイン 清酒グラス 65ml",
+      "reason": "既に記事化済みの柳宗理デザイン 清酒グラス 125ml(B0G41NTDJK)と同一製品・サイズ違いのため、別記事にせず候補から除外",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B0GJJ3F6XM",
+      "name": "柳宗理デザイン 清酒グラス 6個販売(125ml)",
+      "reason": "既に記事化済みの柳宗理デザイン 清酒グラス 125ml(B0G41NTDJK)と同一製品・個数違いのため、別記事にせず候補から除外",
+      "date": "2026-09-19"
+    },
+    {
+      "asin": "B08TQQWSP8",
+      "name": "能作 赤のコットンリボンでラッピング 片口-小・ぐい呑2ヶ 酒器セット 錫100%(KS1=G2)",
+      "reason": "既に記事化済みの能作 本錫100%酒器セット(ぐい呑み・片口小、B01N24OSZT)と同一製品・ラッピング違いのため、別記事にせず候補から除外",
+      "date": "2026-09-21"
+    }
+  ]
+}

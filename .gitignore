@@ -1,0 +1,10 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.secrets/
+*.env
+.claude/settings.local.json
+scripts/x-autopost/posts.db
+scripts/x-autopost/posts.db-journal
+scripts/x-autopost/__pycache__/
+scripts/x-autopost/.venv/

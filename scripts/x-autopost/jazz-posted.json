@@ -1,0 +1,216 @@
+{
+  "_comment": "Tracks article URLs already tweeted by the recurring overseas-jazz-news posting job (2026-09-18~). Each cron firing must check this before picking an article, and append to it after posting. Not tied to the blog's own Hugo content pipeline -- this is a standalone X-only task.",
+  "posted": [
+    {
+      "url": "https://downbeat.com/news/detail/the-zeitgeist-of-isaiah-collier",
+      "title": "The Zeitgeist of Isaiah Collier (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/blue-note-records-announces-2026-classic-vinyl-reissue-titles",
+      "title": "Blue Note Records Announces 2026 Classic Vinyl Reissue Titles (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/flea-finds-his-jazz-thing",
+      "title": "Flea Finds His Jazz Thing (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/maria-schneider-asks-us-to-listen-to-each-other",
+      "title": "Maria Schneider Asks Us to Listen to Each Other (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/relocate-andres-thor-losen-records",
+      "title": "Andres Thor: Relocate (All About Jazz)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.bluenote.com/melissa-aldana-announces-filin-ballads-album/",
+      "title": "Melissa Aldana Announces \"Filin\" Ballads Album (Blue Note Records)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/the-orchestral-jazz-musings-of-vince-mendoza",
+      "title": "The Orchestral Jazz Musings of Vince Mendoza (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.jazztimes.com/features/profiles/turn-it-around-henry-threadgill-wants-to-interview-you/?v=0b3b97fa6688",
+      "title": "Turn It Around: Henry Threadgill Wants to Interview You (JazzTimes)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://jazzineurope.mfmmedia.nl/2026/07/cd-review-danny-keane-kinesis/",
+      "title": "CD Review: Danny Keane, Kinesis (Jazz in Europe)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://jazztrail.net/blog/ralph-alessi-a-sun-that-never-sets-album-review",
+      "title": "Ralph Alessi - A Sun That Never Sets (JazzTrail)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/jacob-garchik-blending-ye-olde-with-the-new",
+      "title": "Jacob Garchik Blending Ye Olde with the New (DownBeat)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://echoesanddust.com/2026/06/moyses-dos-santos-maria/",
+      "title": "Moyses Dos Santos - Maria (Echoes and Dust)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.jazztimes.com/features/profiles/saxophonist-lakecia-benjamins-dream-better-and-bolder-than-our-reality/?v=0b3b97fa6688",
+      "title": "Lakecia Benjamin's Dream: Better and Bolder Than Our Reality (JazzTimes)",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/terri-lyne-carrington-fight-songs-for-dancing",
+      "title": "Terri Lyne Carrington: Fight Songs for Dancing (DownBeat)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/in-memoriam-cassandra-wilson-19552026",
+      "title": "In Memoriam: Cassandra Wilson, 1955-2026 (DownBeat)",
+      "date": "2026-09-19",
+      "note": "Original post misspelled the artist's name as キャサリン (Katherine) instead of キャサンドラ (Cassandra); a follow-up correction tweet was posted immediately after."
+    },
+    {
+      "url": "https://downbeat.com/news/detail/blindfold-test-rodney-whitaker",
+      "title": "Blindfold Test: Rodney Whitaker (DownBeat)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.jazztimes.com/features/profiles/good-trouble-great-belief-drummer-matt-wilson-on-banding-together-in-music-and-life/?v=0b3b97fa6688",
+      "title": "Good Trouble, Great Belief: Drummer Matt Wilson on Banding Together, in Music and Life (JazzTimes)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/detroit-jazz-festival-2026-a-gathering-in-a-great-jazz-city",
+      "title": "Detroit Jazz Festival 2026: A Gathering in a Great Jazz City (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.jazztimes.com/reviews/live/skylar-tang-miranda-agnew-play-24th-annual-festival-of-new-trumpet-music-font/?v=0b3b97fa6688",
+      "title": "Skylar Tang, Miranda Agnew Play 24th Annual Festival of New Trumpet Music (FONT) (JazzTimes)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/jasur-khalilov-from-falak-to-fusion",
+      "title": "Jasur Khalilov: From Falak to Fusion (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/after-the-storm-satoko-fujii-orchestra-kobe-libra-records",
+      "title": "After The Storm - Satoko Fujii Orchestra Kobe (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://daily.bandcamp.com/best-jazz/the-best-jazz-on-bandcamp-august-2026",
+      "title": "The Best Jazz on Bandcamp, August 2026 (Bandcamp Daily)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/big-ears-fest-reveals-2027-lineup-passes-available-for-purchase",
+      "title": "Big Ears Reveals 2027 Fest Lineup; Passes Now Available (DownBeat)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.jazztimes.com/reviews/live/review-tord-gustavsen-trio-live-in-la-jolla-at-the-athenaeum-jazz-series/?v=0b3b97fa6688",
+      "title": "Review: Tord Gustavsen Trio Live in La Jolla at the Athenaeum Jazz Series (JazzTimes)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/new-york-city-jazz-performance-preview-fall-2026",
+      "title": "New York City Jazz Performance Preview: Fall 2026 (All About Jazz, Paul's Picks)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/hingetown-jazz-festival-2026",
+      "title": "Hingetown Jazz Festival 2026 (All About Jazz, live review)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/sml-delivers-serious-spontaneous-music-live",
+      "title": "SML Delivers Serious Spontaneous Music Live (DownBeat)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/cut-where-you-was-henry-threadgill-pi-recordings",
+      "title": "Cut You Where You Was - Henry Threadgill Zooid Review (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/talamanti-patricia-brennan-antlia-records",
+      "title": "Talamanti - Patricia Brennan and Sylvie Courvoisier Review (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/chuck-bergeron-brings-out-the-vocalists",
+      "title": "Chuck Bergeron Brings Out the Vocalists (DownBeat)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/enzo-favata-coming-home-to-atlantico",
+      "title": "Enzo Favata: Coming Home to Atlantico (All About Jazz)",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://www.jazztimes.com/blog/patrice-rushen-2026-nea-jazz-master/?v=0b3b97fa6688",
+      "title": "Patrice Rushen: 2026 NEA Jazz Master (JazzTimes)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.jazztimes.com/blog/airto-moreira-2026-nea-jazz-master/?v=0b3b97fa6688",
+      "title": "Airto Moreira: 2026 NEA Jazz Master (JazzTimes)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/reykjavik-jazz-festival-a-release-show-rite-of-passage-for-icelandic-artist",
+      "title": "Reykjavík Jazz Festival: A Release-Show Rite of Passage for Icelandic Artists (DownBeat)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/monterey-jazz-fest-to-feature-a-host-of-firsts",
+      "title": "Monterey Jazz Fest to Feature a Host of 'Firsts' (DownBeat)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/lost-in-geneva-kris-davis-self-produced",
+      "title": "Lost In Geneva - The Kris Davis Trio Review (All About Jazz)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.jazztimes.com/reviews/live/jazz-past-and-future-at-the-2026-dc-jazz-festival/?v=0b3b97fa6688",
+      "title": "Jazz Past and Future at the 2026 DC Jazz Festival (JazzTimes)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/paul-cornish-a-debut-well-worth-the-wait",
+      "title": "Paul Cornish: A Debut Well Worth the Wait (DownBeat)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://downbeat.com/news/detail/showcase-applications-for-jazzahead-2027-now-open-until-sept.-30",
+      "title": "Showcase Applications for jazzahead! 2027 Open Until Sept. 30 (DownBeat)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/mas-alto-todd-delgiudice-oa2-records",
+      "title": "Mas Alto - Todd DelGiudice Review (All About Jazz)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/odyssey-denny-zeitlin-sunnyside-records",
+      "title": "Odyssey - Denny Zeitlin Review (All About Jazz)",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://www.allaboutjazz.com/islay-jazz-festival-2026-festival-round-up",
+      "title": "Islay Jazz Festival 2026: Festival Round-Up (All About Jazz)",
+      "date": "2026-09-20"
+    }
+  ]
+}
