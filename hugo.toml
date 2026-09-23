@@ -84,6 +84,11 @@ pygmentsUseClasses = true
     url = '/categories/sakeware/'
     weight = 47
   [[menu.main]]
+    identifier = 'fashion'
+    name = 'ファッション'
+    url = '/categories/fashion/'
+    weight = 48
+  [[menu.main]]
     identifier = 'search'
     name = '検索'
     url = '/search/'
