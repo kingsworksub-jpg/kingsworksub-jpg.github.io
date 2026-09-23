@@ -8,3 +8,5 @@ scripts/x-autopost/posts.db
 scripts/x-autopost/posts.db-journal
 scripts/x-autopost/__pycache__/
 scripts/x-autopost/.venv/
+
+scripts/scheduled/logs/

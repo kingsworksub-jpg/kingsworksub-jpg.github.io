@@ -28,6 +28,11 @@ fi
 
 SITE_ORIGIN="https://kingsworksub-jpg.github.io"
 
+# Hatena does not load this site's CSS, so hatena_banner.py inlines the .product-banner
+# sizing (120x120 thumbnail, 468x120 banner). Without it the banner image renders at full size.
+PY="$REPO_ROOT/scripts/x-autopost/.venv/Scripts/python.exe"
+[ -x "$PY" ] || PY="python"
+
 # Extract everything between the post-content div and its matching </div>,
 # tracking nesting depth so nested raw <div> blocks (e.g. the per-product
 # affiliate-link divs) don't trip a premature stop at their own closing tag.
@@ -71,6 +76,7 @@ awk -v start_marker='<div class="post-content md-content">' '
   }
 ' "$POST_HTML" \
   | sed -E "s@(src|href)=\"/([^\"#])@\1=\"${SITE_ORIGIN}/\2@g" \
+  | "$PY" "$REPO_ROOT/scripts/hatena_banner.py" \
   > "$OUT"
 
 rm -rf "$BUILD_DIR"

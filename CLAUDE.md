@@ -6,7 +6,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 - 公開URL: https://kingsworksub-jpg.github.io/
 - リポジトリ: https://github.com/kingsworksub-jpg/kingsworksub-jpg.github.io
-- ローカルパス: `C:\Users\norio\Projects\kingsworksub-jpg.github.io`
+- ローカルパス: `C:\Users\norio\my-github-blog`
 
 ## 基本ルーティン(記事生成プロセス)
 
