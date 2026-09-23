@@ -6,6 +6,11 @@ categories: ["music"]
 tags: ["Héroes del Silencio", "Alan Boguslavsky", "Bunbury", "スペイン", "ロック"]
 ---
 
+<figure class="photo photo--left">
+  <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy">
+  <figcaption>2007年、セビリアのオリンピック・スタジアム。再結成「World Tour 2007」のステージ。黄金期の4人編成の向こうに、5人目のギタリストの姿はない<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
+</figure>
+
 スペイン語圏ロックの金字塔、Héroes del Silencio。その中心にはいつも4人の顔があった。ボーカルのEnrique Bunbury、ギターのJuan Valdivia、ベースのJoaquín Cardiel、ドラムのPedro Andreu。だが、1993年から1996年までの"黄金期"を支えたのは、実は5人目の男だ。Los Ángeles生まれ、メキシコ育ちのギタリスト、Alan Boguslavsky。彼は表舞台の4人とは少し距離を保ちながら、バンドのライブを支え続けた。
 
 ## 1992年、メキシコでの出会い
@@ -57,6 +62,11 @@ Bogusflowの音楽は、どちらかというとスピリチュアルで内向�
 ## 2025〜2026年、ふたたびステージへ
 
 近年、Boguslavskyは思いがけない形で活動を再び活発にしている。Héroes del Silencioのトリビュートバンドとの共演だ。2025年2月にはスペインのPara Siempreと組んでマラガ・マドリードに立ち、2025年9月にはメキシコで『Avalancha』30周年を記念したツアー(レオン・グアダラハラ・コリマ)を実施した。2026年9月には『Bunbury & Héroes Experience』と題する企画で、マドリードとサラゴサのステージに立っている。Copi Corellano、あるいはテンポの違う同窓生たちと一緒に。
+
+<figure class="photo photo--right">
+  <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-2.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムで演奏するHéroes del Silencioの別アングル" width="1280" height="960" loading="lazy">
+  <figcaption>同ツアーのステージを別アングルから。はるか遠い4人と、ファンの記憶に残る「空席」<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
+</figure>
 
 かつて彼自身、2007年の再結成ツアーには参加していなかった。そのときの空席は、ファンの間で今も語り草になっている。それだけに、彼がトリビュートバンドという形で古い曲たちを再び手に取り、それを演奏する姿には、20年を経た和解に似た感慨がある。彼は言う。「僕が最初に手を挙げる。ここに居るよ、と」。本国スペインでファンの世代が変わっても、『Entre dos tierras』や『Avalancha』のリフが鳴るたびに、あの5人編成の熱気がよみがえるのだ。
 
