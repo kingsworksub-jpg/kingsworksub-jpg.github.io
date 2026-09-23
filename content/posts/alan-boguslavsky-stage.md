@@ -1,6 +1,6 @@
 ---
 title: "Héroes del Silencioの「5人目の男」Alan Boguslavsky — ステージを渡り歩いたギタリストの軌跡"
-date: 2026-09-24T10:00:00+09:00
+date: 2026-09-24T07:30:00+09:00
 draft: false
 categories: ["music"]
 tags: ["Héroes del Silencio", "Alan Boguslavsky", "Bunbury", "スペイン", "ロック"]
