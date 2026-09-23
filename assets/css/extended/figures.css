@@ -1,0 +1,29 @@
+.post-content figure.photo {
+    margin: 1.8rem auto;
+    width: min(72%, 560px);
+}
+
+.post-content figure.photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.post-content figure.photo figcaption {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--secondary);
+    text-align: center;
+}
+
+.post-content figure.photo figcaption .credit {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.68rem;
+    color: var(--secondary);
+    opacity: 0.75;
+}
