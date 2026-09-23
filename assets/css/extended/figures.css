@@ -4,14 +4,14 @@
 
 .post-content figure.photo--left {
     float: left;
-    width: min(40%, 300px);
+    width: min(34%, 220px);
     margin-right: 1.5rem;
     margin-left: 0;
 }
 
 .post-content figure.photo--right {
     float: right;
-    width: min(40%, 300px);
+    width: min(34%, 220px);
     margin-left: 1.5rem;
     margin-right: 0;
 }
