@@ -1,5 +1,6 @@
 ---
 title: "モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音"
+description: "『Kind of Blue』から『A Love Supreme』へ。コード進行を捨て、旋法の上で語り始めたモーダル・ジャズの挑戦をたどる。"
 date: 2026-09-24T10:00:00+09:00
 draft: false
 categories: ["music"]
@@ -57,4 +58,4 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 
 <p>「モーダル・ジャズが何かを変えた」と言うとき、それはルールの話ではなく、人間の聴き方の話だと思う。コード進行という手すりを外した瞬間、ソリストは音符ひとつひとつを、まるで最後の一滴のように長く、大切に扱う必要に迫られた。『Kind of Blue』に流れるのは、そうして生まれた「沈黙にまでいたる豊かさ」だ。もしあなたがはじめてモーダル・ジャズを聴くなら、まずは『So What』の冒頭のベース・ラインに、耳を澄ませてほしい。音は少ないのに、そこには窮屈さが一切ない。「音を減らす」という、音楽史のなかで最も大胆な冒険の、その一歩に、あなたは立ち会うことになる。</p>
 
-**関連記事**: [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/)
+**関連記事**: [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/) · [ジャズの楽器を基礎から](/posts/jazz-instruments-guide/)

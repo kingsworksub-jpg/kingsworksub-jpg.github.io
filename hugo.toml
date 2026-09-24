@@ -17,7 +17,7 @@ pygmentsUseClasses = true
 
 [params]
   env = 'production'
-  description = '音響機材・DTM・音楽制作ソフトの使用レビューと制作環境紹介'
+  description = 'Studio Notes — ジャズ音楽を軸に、DTM・機材レビューや暮らしの道具を綴るブログ'
   author = 'kingsworksub-jpg'
   defaultTheme = 'auto'
   ShowReadingTime = true

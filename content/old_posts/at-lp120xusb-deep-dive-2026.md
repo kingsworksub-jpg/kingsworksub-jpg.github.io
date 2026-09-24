@@ -3,7 +3,7 @@ title: "Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこな�
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Audio-Technica", "AT-LP120XUSB", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
-draft: false
+draft: true
 ---
 
 Audio-Technicaは、AT-LP120XUSBを「本格的なDJ操作感とレコードのデジタル化を、手の届く価格で両立させた一台」と位置づけている。その言葉に見合う中身なのか、隅から隅まで見ていく。

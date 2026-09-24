@@ -3,7 +3,7 @@ title: "BODUM DOUROを隅から隅まで味わい尽くす — ドウロ渓谷�
 date: 2026-09-19
 categories: ["sakeware"]
 tags: ["BODUM", "ボダム", "DOURO", "耐熱ガラス", "レビュー"]
-draft: false
+draft: true
 ---
 
 北欧というよりは中欧寄りのブランドだが、店頭で見かけるとつい「北欧デザイン」と呼びたくなる佇まい。BODUM(ボダム)のカラフェ「DOURO(ドウロ)」を、日本酒の徳利として使う前提で見ていく。

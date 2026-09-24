@@ -18,7 +18,8 @@ def frontmatter(md: str):
     fm, body = (m.group(1), m.group(2)) if m else ("", md)
     title = re.search(r'^title\s*:\s*"(.+?)"\s*$', fm, re.M) or re.search(r"^title\s*:\s*(.+?)\s*$", fm, re.M)
     date = re.search(r"^date\s*:\s*([\d\-T:+ ]+)\s*$", fm, re.M)
-    return (title.group(1).strip() if title else "(no title)", date.group(1).strip() if date else "", body)
+    draft = bool(re.search(r"^draft\s*:\s*true", fm, re.M | re.I))
+    return (title.group(1).strip() if title else "(no title)", date.group(1).strip() if date else "", body, draft)
 
 def count_h(body, lvl=2, lvl2=3):
     # Hugo markdown headings. Japanese headings use full-width spaces; match '^#+ ' 
@@ -45,9 +46,13 @@ def external_links(body):
     return sorted(set(md + html))
 
 posts = {}
+drafts = []
 for p in sorted(POSTS.glob("*.md")):
     md = p.read_text(encoding="utf-8")
-    title, date, body = frontmatter(md)
+    title, date, body, draft = frontmatter(md)
+    if draft:
+        drafts.append(p.name)
+        continue
     h2, h3 = count_h(body)
     posts[p.name] = dict(path=p, title=title, date=date, jp=jp_chars(body),
                          h2=h2, h3=h3,
@@ -86,7 +91,9 @@ if CHECK_LINKS:
 
 lines = ["# SEO監査レポート(自動生成)\n"]
 lines.append(f"生成日時: { __import__('datetime').datetime.now().isoformat() }\n")
-lines.append(f"対象記事数: {len(posts)}\n")
+lines.append(f"対象記事数: {len(posts)} (下書き: {len(drafts)})\n")
+if drafts:
+    lines.append(f"下書き(本番非掲載): {', '.join(drafts)}\n")
 lines.append("\n## 記事サマリ (記事名 | 文字数 | h2/h3 | 画像数 | 内部リンク送信 | 被内部リンク)\n")
 for name in sorted(posts, key=lambda n: posts[n]["date"], reverse=True):
     d = posts[name]
@@ -108,5 +115,5 @@ for name in sorted(posts):
 
 OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 print(f"written: {OUT.relative_to(ROOT)}")
-print(f"posts={len(posts)} orphans={sum(1 for n in posts if inbound[n]==0)} "
+print(f"posts={len(posts)} drafts={len(drafts)} orphans={sum(1 for n in posts if inbound[n]==0)} "
       f"big_images={len(img_report)} broken={len(broken)}")

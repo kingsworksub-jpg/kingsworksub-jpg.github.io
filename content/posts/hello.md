@@ -1,5 +1,6 @@
 ---
 title: "はじめまして — Studio Notes について"
+description: "Studio Notesのブログ概要。音楽・機材・暮らしの道具をテーマにする理由と、ブログのコンセプト紹介。"
 date: 2026-09-14
 categories: ["setup"]
 tags: ["ブログ"]

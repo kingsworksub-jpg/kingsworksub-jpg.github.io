@@ -1,5 +1,6 @@
 ---
 title: "「写真から消された5人目の男」— Héroes del Silencioのギタリスト Alan Boguslavskyが歩んだステージの軌跡"
+description: "Héroes del Silencioの「5人目の男」Alan Boguslavsky。写真に写らなかったギタリストの足跡と、2026年の復活ステージを追う。"
 date: 2026-09-24T07:30:00+09:00
 draft: false
 categories: ["music"]
