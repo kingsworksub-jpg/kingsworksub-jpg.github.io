@@ -1,3 +1,12 @@
+{{- if hugo.IsProduction }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLKDS40D9S"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PLKDS40D9S');
+</script>
+{{- end }}
 {{- if and .IsPage (eq .Type "posts") }}
 <script defer>
 (function () {
