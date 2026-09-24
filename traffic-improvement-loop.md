@@ -53,3 +53,12 @@
 - **新ツール**: `scripts/commons-search.py`(Wikimedia Commons検索+CC画像DL・クレジット出力)
 - 監査結果: posts=6 / orphans=1(hello.mdのみ・許容) / big_images=27 / broken=0
 - 残タスク: product画像(static/images/products)の整理、`hello.md` から孤孤立解除する場合は関連記事へ追加、Search Console 連携、old_posts の画像ディレクトリ整理(数ラウンド後)
+
+## 3周目(2026-09-24)
+
+- **クラスタの「要(hub)」記事を新規執筆**: `content/posts/jazz-masterpieces-beginner.md`「はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に」。1925-28のアームストロングから1965のA Love Supremeまで時代順に10枚を案内し、既存記事(ハードバップ/モーダル/楽器ガイド)へ多数の内部リンクを張ってクラスタ全体を強化
+- **hubへの被リンクを一気に増強**: 既存5記事(ハードバップ/モーダル/楽器ガイド/Alan/ジャズシューズ)の「関連記事」末尾に新記事へのリンクを1本ずつ追加。クラスタの相互リンクが完全な網になる(6記事すべてが互いに繋がる)
+- 画像4点(Wikimedia Commons)を取得・圧縮: アームストロング(VoA/PD)、エリントン(PD)、ビル・エヴァンス 1961(Steve Schapiro/PD)、コルトレーン 1963(Hugo van Gelderen/CC0)。いずれも width/height/alt/lazy + `<span class="credit">` 付き。大型3枚を q70+1200px リサイズで 280→127KB / 621→214KB / 371→197KB に削減
+- **学び(新)**: `hugo.toml` に `buildFuture = false` があるため、**未来日時の `date` を書いた記事はビルドされても public に出力されず、ローカルと本番の両方で「消えた」ように見える**(ビルドは成功し sitemap にも出ない)。新規記事の `date` は必ず現在時刻以前にする。`hugo list all` で published 扱いなのに public に出ない場合はまず date を疑う
+- 監査結果: posts=7 / orphans=1 / big_images=27 / broken=0(楽器ガイドのはてな転載も実施し、CLAUDE.md のはてな投稿テーブルへ追記)
+- 残タスク: product画像の整理、Search Console 連携、次はジャズ以外カテゴリのクラスタ形成

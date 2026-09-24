@@ -61,4 +61,4 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 
 バレエフラットが履かれる前、ダンスシューズは舞台のために生まれた。そのルーツを守りながら、ジャズシューズは今、日常の靴として復活している。細くてしなやかで、それでいてちゃんと歩ける。2026年のフラットシューズを選ぶなら、まずこの一足から考えてみるのがよさそうだ。
 
-**関連記事**: [モーダルジャズという挑戦 — コード進行の外に広がった音](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/)
+**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [モーダルジャズという挑戦 — コード進行の外に広がった音](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/)

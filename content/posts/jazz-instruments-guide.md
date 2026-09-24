@@ -79,4 +79,4 @@ aliases:
 
 ジャズの楽器は、それぞれが「声」と「役割」を持っている。ベースとドラムが地面を走り、ピアノとギターが色彩を与え、そこにサックスやトランペットが人間の息吹を吹き込む。次にジャズを聴くとき、耳を「どの楽器のあとを追うか」に絞ってみてほしい。ひとつの音色に集中するだけで、アンサンブルの対話が見えてくるはずだ。
 
-**関連記事**: [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/)
+**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/)
