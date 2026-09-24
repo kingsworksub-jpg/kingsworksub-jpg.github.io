@@ -24,7 +24,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 8. **公開**: `hugo --minify` でローカルビルド確認 → commit & push → GitHub Actionsのデプロイ完了を確認。
 9. **ロードマップ更新**: 下記「ロードマップ」セクションのステータスを更新する(着手/公開済みに変更、次候補があれば追記)。
 
-> **GA4計測(2026-09-24導入済み)**: GitHub Pages は `layouts/partials/extend_head.html` 冒頭に gtag.js を追加済み(測定ID `G-PLKDS40D9S`、`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」に `G-24HLBTRFJ7` を設定済み。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
+> **GA4計測(2026-09-24導入済み・同日はてなID更新)**: GitHub Pages は `layouts/partials/extend_head.html` 冒頭に gtag.js を追加済み(測定ID `G-PLKDS40D9S`、`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」に `G-ZL0DCF6JXB` を設定(初回 `G-24HLBTRFJ7` → 2026-09-24に`G-ZL0DCF6JXB`へ変更)。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
 
 ## ロードマップ
 
@@ -106,7 +106,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - `scripts/post-to-hatena.sh "タイトル" 本文HTMLファイル [draft|publish]` — AtomPub APIへWSSE認証でPOST。`draft` を渡すと下書き、省略(または`publish`)で即時公開。**投稿後にHatenaのレスポンスXMLから実際の`app:draft`値を読み直して、意図通りかを検証してから成功と表示する**(初回テストで`true`/`false`ではなく`yes`/`no`でないと無視される仕様に気づかず誤って即時公開してしまった教訓を反映)。
 - 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
 - 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
-- **GA4導入済み(2026-09-24)**: はてなブログは設定→詳細設定→「解析ツール」→「Google アナリティクス 4 埋め込み」に測定ID `G-24HLBTRFJ7` を貼って保存済み。静的なページHTMLには出ないが(はてなのGTMが動的読み込み)、実ブラウザで `googletagmanager.com/gtag/js?id=G-24HLBTRFJ7` の読み込みを確認済み。**変更はAPI不可なのでダッシュボードから。再設定不要のサイト全体設定・投稿ルーティンへの追加は不要**。
+- **GA4導入済み(2026-09-24)**: はてなブログは設定→詳細設定→「解析ツール」→「Google アナリティクス 4 埋め込み」に測定ID `G-ZL0DCF6JXB` を貼って保存(初回 `G-24HLBTRFJ7` から同日に更新)。静的なページHTMLには出ないが(はてなのGTMが動的読み込み)、実ブラウザで `googletagmanager.com/gtag/js?id=G-ZL0DCF6JXB` の読み込みを確認済み。**変更はAPI不可なのでダッシュボードから。再設定不要のサイト全体設定・投稿ルーティンへの追加は不要**。
 - **2026-09-16、既存6記事を一括で本公開済み**(ユーザー指示「一気に公開しちゃって」)。以後、新しい記事を公開する際は都度この2スクリプトで はてなブログにも転載すること(ロードマップの「拡散投稿」欄も更新する)。
 - **重要な教訓**: `post-to-hatena.sh` は常に**新規エントリを作成する**(POST)。すでに投稿済みの記事の内容やタイトルを直しただけのつもりで再度 `post-to-hatena.sh` を叩くと、**同じ記事がもう1本増えて重複投稿になる**(実際に2026-09-16、DAW記事をこれで重複させてしまい、後から気づいてエントリ一覧をAtomPubで取得し直し、古い方を`DELETE`で削除した)。既存記事の内容・タイトルを直したときは、必ず `scripts/update-hatena-post.sh <entry_id> "新タイトル" 新本文.html` で**その記事のentry IDを指定してPUT更新**すること。entry IDが分からない場合は、コレクションのAtomPubフィード(`GET .../atom/entry`)を取得し、`<link rel="edit">` と `<title>` をペアで見て該当記事のIDを特定する。
 
