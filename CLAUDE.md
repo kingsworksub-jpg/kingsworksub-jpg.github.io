@@ -24,7 +24,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 8. **公開**: `hugo --minify` でローカルビルド確認 → commit & push → GitHub Actionsのデプロイ完了を確認。
 9. **ロードマップ更新**: 下記「ロードマップ」セクションのステータスを更新する(着手/公開済みに変更、次候補があれば追記)。
 
-> **GA4計測(2026-09-24導入済み・同日はてなID更新)**: GitHub Pages は `layouts/partials/extend_head.html` 冒頭に gtag.js を追加済み(測定ID `G-PLKDS40D9S`、`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」に `G-ZL0DCF6JXB` を設定(初回 `G-24HLBTRFJ7` → 2026-09-24に`G-ZL0DCF6JXB`へ変更)。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
+> **GA4計測(2026-09-24導入済み・同日ID統一)**: 両ブログとも測定ID `G-ZL0DCF6JXB` に統一(はてなブログ:`G-24HLBTRFJ7`→`G-ZL0DCF6JXB`、GitHub Pages:`G-PLKDS40D9S`→`G-ZL0DCF6JXB`)。GitHub Pages は `layouts/partials/extend_head.html` 冒頭の gtag.js(`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
 
 ## ロードマップ
 
