@@ -1,7 +1,10 @@
 name: Google Indexing notify
 
-# デプロイワークフロー("Deploy Hugo site to Pages")成功後に発火し、
+# (任意・オプション)デプロイワークフロー("Deploy Hugo site to Pages")成功後に発火し、
 # そのコミットで追加・変更された記事URLを Google Indexing API へ通知する。
+# 現運用は Search Console の手動1回登録のため使わない。GitHub Secret
+# GOOGLE_INDEXING_CREDENTIALS(サービスアカウントJSON)を登録しない限り
+# 送信は自動スキップされ、デプロイにもサイトにも一切影響しない。
 on:
   workflow_run:
     workflows: ["Deploy Hugo site to Pages"]
