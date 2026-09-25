@@ -37,6 +37,9 @@ pygmentsUseClasses = true
   showtoc = true
   tocopen = false
 
+  [params.analytics.google]
+    SiteVerificationTag = 'HwMgsKhlwUko6g73lMGvGnq4vtvtbXbOU8rqzPMI5G8'
+
   [params.homeInfoParams]
     Title = 'Studio Notes へようこそ'
     Content = '音響機材・DTM・音楽制作ソフトを実際に使ったレビューと、制作環境の紹介をしています。'
