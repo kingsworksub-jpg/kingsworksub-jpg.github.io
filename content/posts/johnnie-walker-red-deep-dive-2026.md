@@ -1,0 +1,47 @@
+---
+title: "ジョニーウォーカー レッドラベルを隅から隅まで味わい尽くす — ブラックの弟分が持つスパイス感"
+date: 2026-09-17
+categories: ["whisky"]
+tags: ["ジョニーウォーカー", "スコッチ", "ウイスキー", "ハイボール", "機材", "レビュー"]
+draft: false
+aliases:
+- /old_posts/johnnie-walker-red-deep-dive-2026/
+---
+
+世界で最も売れているブレンデッドスコッチウイスキーという看板を持ちながら、実勢1,000円台で買える一本。同ブランドの12年熟成「ブラックラベル」とは違う方向性を持つジョニーウォーカー レッドラベルを隅々まで見ていく。
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
+</a>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+---
+
+## ブレンド構成とブラックとの違い
+
+公式では最大35種類のモルト・グレーンウイスキーをブレンドしているとされ、キーモルトにはCardhu(カーデュ)、Caol Ila(カリラ)、Teaninich(ティーニニック)、グレーンにCameronbridge(キャメロンブリッジ)が挙げられている。熟成年数表記のないノンエイジで、アルコール度数はブラックラベルと同じ40%。ブラックラベルが12年熟成・約40種のブレンドで重厚な方向に振っているのに対し、レッドラベルはノンエイジで軽快・スパイシーな方向に設計されている、という住み分けがはっきりしている。
+
+## 香り・味わい
+
+シトラス、シナモンやブラックペッパーのようなスパイス、バニラ、トースト香。味わいはスパイシーで力強く、青リンゴや洋梨のフルーティな甘みとバニラファッジが乗ってくる。余韻はスモーキーで比較的短め〜中程度、ペッパー感が残る。ブラックラベルの層になった重厚さとは対照的に、単体でもパンチのある飲み口だと感じた。
+
+## ハイボールとの相性
+
+ノンエイジ・高めのグレーン比率という設計は、割って飲む用途を前提にしたコスト効率重視のブレンド哲学だという指摘をよく見かける。実際、ハイボールにすると持ち前のスパイシーさが炭酸と好相性で、単体で飲むより印象がまとまる。世界200以上の市場で展開されているという規模の大きさも含め、割って飲まれることを前提に設計されたウイスキーの完成形のひとつだと思う。
+
+## 価格・入手性
+
+実勢価格は700mlで1,100〜1,800円程度。200ml・700ml・1L展開があり、キリンビールが日本国内の輸入・販売を担当している。
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
+</a>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+---
+
+同じブランドでもラベルの色が違うだけでここまで方向性が変わる、というのはブレンデッドスコッチの面白さだと思う。ブラックラベルの重厚さに慣れた後で改めて飲むと、レッドラベルの軽さとスパイス感の意味がよく分かる。

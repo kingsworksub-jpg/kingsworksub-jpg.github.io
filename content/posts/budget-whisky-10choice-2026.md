@@ -1,0 +1,242 @@
+---
+title: "コスパ抜群の安ウイスキーを10本徹底比較 — 千円台の相棒たちを本気で選ぶ"
+date: 2026-09-17
+categories: ["whisky"]
+tags: ["ウイスキー", "コスパ", "角瓶", "ブラックニッカ", "トリス", "ジムビーム", "フォアローゼズ", "バランタイン", "カティサーク", "ホワイトホース", "デュワーズ", "ジョニーウォーカー"]
+draft: false
+aliases:
+- /old_posts/budget-whisky-10choice-2026/
+---
+
+高級シングルモルトの話ばかりしていると忘れそうになるが、毎日のグラスを支えているのは大抵、千円台のボトルだ。**サントリー角瓶**、**ブラックニッカ クリア**、**トリスウイスキー**、**ジムビーム ホワイト**、**フォアローゼズ イエロー**、**バランタイン ファイネス**、**カティサーク**、**ホワイトホース ファインオールド**、**デュワーズ ホワイトラベル**、**ジョニーウォーカー レッドラベル**——どれもスーパーや酒屋で普通に買える、いわゆる「デイリーユース」の定番10本を並べてみる。
+
+評価軸はこう置いた。
+
+1. **飲みやすさ** — クセの少なさ、口当たりの良さ
+2. **味わいの複雑さ** — 香りと味の層の豊かさ
+3. **コストパフォーマンス** — その値段に見合う満足感
+4. **飲み方の幅** — ハイボールからロック・ストレートまで応えてくれるか
+5. **入手安定性** — 近所の店やネットで安定して買えるか
+
+(念のため: 本記事は成人の嗜好品としてのウイスキーを扱っています。飲酒は20歳になってから、節度を持って楽しんでください。)
+
+---
+
+## サントリー角瓶 — ハイボールの原点にして王道
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
+</a>
+<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![サントリー角瓶の使いやすさレーダーチャート](/images/radar/suntory-kakubin.svg)
+
+- 飲みやすさ 5 / 複雑さ 2 / コスパ 4 / 汎用性 5 / 入手性 5
+
+1937年発売という長い歴史を持ちながら、いまだに「角ハイボール」の代名詞として現役バリバリなのがすごいところだと思う。山崎・白州のモルト原酒と知多のグレーン原酒を自社ブレンドできる強みがそのまま価格に反映されていて、1,700〜1,900円程度で買えるのに雑味が少なく、蜂蜜やシナモンを思わせる甘い香りがちゃんと感じられる。
+
+単体で複雑な味を求めるタイプの一本ではないが、それは欠点というより役割分担だと思う。炭酸で割って七難隠れるタイプのウイスキーで、コンビニでも普通に手に入る入手性の高さも含めて、これ一本あれば大体の場面をしのげる安心感がある。
+
+---
+
+## ブラックニッカ クリア — とにかく軽く、とにかく安い
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
+</a>
+<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![ブラックニッカ クリアの使いやすさレーダーチャート](/images/radar/black-nikka-clear.svg)
+
+- 飲みやすさ 5 / 複雑さ 1 / コスパ 5 / 汎用性 4 / 入手性 5
+
+実勢価格が1,000円を切ることも珍しくない、10本の中でも最安クラスの一本。ノンピートモルトとグレーンウイスキーのブレンドで、香りにスモーキーさはほぼなく、蜂蜜のような軽い甘さがふわっと来る程度。良くも悪くも主張が少ない味わいで、複雑さを求めると物足りなさは正直ある。
+
+ただ、この値段でここまで飲みやすいのは素直にすごいと思う。強炭酸でぐっと薄めに割るとバランスが良くなる、という飲み方の工夫が語られるのも納得で、毎日気軽に開けるボトルとしての完成度は高い。1956年発売のロングセラーで、2026年にはパッケージがリニューアルされたが中身は変わっていない。
+
+---
+
+## トリスウイスキー — 「トリスバー」から続く庶民の相棒
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
+</a>
+<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![トリスウイスキーの使いやすさレーダーチャート](/images/radar/suntory-trys.svg)
+
+- 飲みやすさ 4 / 複雑さ 1 / コスパ 5 / 汎用性 4 / 入手性 5
+
+1946年発売という、10本の中でも指折りの長寿ブランド。かつては「トリス〈クラシック〉」という名前で白州モルトをキーに据えたやや上質寄りの立ち位置だったが、2025年に「トリスウイスキー」へ改称・パッケージ刷新されている(味と価格は変更なし)。度数37%とやや低めで、やさしい甘さとなめらかな口当たりが中心の、まさに引っかかりのない一本だ。
+
+大容量のペットボトル展開まであるあたり、最初から「たくさん、気軽に」を前提に設計されているのがよく分かる。ストレートで複雑さを楽しむ酒ではないが、トリスバー文化を生んだハイボールの源流という立ち位置には、値段以上の説得力がある。
+
+---
+
+## ジムビーム ホワイト — 世界一売れているバーボンの実力
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
+</a>
+<figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![ジムビーム ホワイトの使いやすさレーダーチャート](/images/radar/jim-beam-white.svg)
+
+- 飲みやすさ 4 / 複雑さ 2 / コスパ 4 / 汎用性 4 / 入手性 4
+
+バニラとカラメルの甘い香りに、コーン由来の香ばしさが乗ってくる、バーボンらしいバーボンだと思う。表ラベルには年数表記がないが、実際は最低4年熟成のストレートバーボンで、味の骨格はちゃんとしている。1,300〜1,800円程度で買えるのに、年間販売数量で世界のバーボン市場トップを走り続けているというのは、それだけ裏切りが少ないという証拠でもある。
+
+スコッチ勢と比べると甘さの方向性がはっきりしていて、ハイボールにするとコーンの香ばしさが引き立つ。脂っこい料理との相性が良いとよく言われるのも納得で、居酒屋メニューに寄り添う懐の深さがある一本だ。
+
+---
+
+## フォアローゼズ イエロー — 手間のかかったやさしさ
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
+<img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー" width="712" height="1350" loading="lazy">
+</a>
+<figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![フォアローゼズ イエローの使いやすさレーダーチャート](/images/radar/four-roses-yellow.svg)
+
+- 飲みやすさ 4 / 複雑さ 3 / コスパ 4 / 汎用性 3 / 入手性 4
+
+2種類のマッシュビルと5種類の酵母を掛け合わせた10種類の原酒をブレンドするという、エントリーモデルにしてはかなり手間のかかった作り方をしている一本。そのおかげか、ドライアプリコットやシトラスのような軽いフルーツ香があり、バーボンにしては華やかな印象を受ける。度数40%と低めで、口当たりも角がない。
+
+1,700〜2,300円程度とこの10本の中ではやや高めの部類だが、その分だけ複雑さでも一枚上手だと感じる。ハイボールよりはロックやストレートで、フルーティーな香りをじっくり追いかける飲み方の方が向いていると思う。
+
+---
+
+## バランタイン ファイネス — 世界2位の売上を支える隙のなさ
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
+</a>
+<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![バランタイン ファイネスの使いやすさレーダーチャート](/images/radar/ballantines-finest.svg)
+
+- 飲みやすさ 4 / 複雑さ 2 / コスパ 4 / 汎用性 5 / 入手性 5
+
+40種類以上のモルト・グレーン原酒をブレンドした、ジョニーウォーカーに次ぐ世界2位の販売量を誇るスコッチ。蜂蜜とスパイスの香りに、青リンゴや柑橘のフレッシュさが乗る構成で、オークやスモーキーさは控えめ。クセがない分、食事にも合わせやすい万能さがある。
+
+1,300〜2,300円程度というレンジの広さは店によっての差が大きいということでもあるが、裏を返せばそれだけ取扱店が多いということでもある。ハイボールでもロックでも破綻しない、良い意味で「無難」を極めた一本だと思う。
+
+---
+
+## カティサーク — 淡い色に軽い飲み口、船の名を冠した一本
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
+<img src="/images/products/cutty-sark.jpg" alt="カティサーク" width="480" height="2013" loading="lazy">
+</a>
+<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![カティサークの使いやすさレーダーチャート](/images/radar/cutty-sark.svg)
+
+- 飲みやすさ 5 / 複雑さ 2 / コスパ 4 / 汎用性 4 / 入手性 3
+
+グレーン比率が高めのブレンドで、色も一般的なブレンデッドより淡い。柑橘とバニラの軽やかな香りに、はちみつのような甘さが続く、まさに「軽さ」を追求した設計だと感じる。禁酒法時代の密輸船長に由来するとも言われる黄色いラベルは、海外のギャング映画で小道具としてよく登場するくらい知名度が高い。
+
+1,150円前後で見つかることもあれば、店によっては3,000円を超えることもあり、価格差がこの10本の中でも特に大きいのが気になるところ。買うなら楽天や酒販系ECサイトで価格を見比べてから、というひと手間をかけたい一本だ。
+
+---
+
+## ホワイトホース ファインオールド — ラガヴーリン譲りの、ほのかな個性
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
+<img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド" width="1048" height="4096" loading="lazy">
+</a>
+<figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![ホワイトホース ファインオールドの使いやすさレーダーチャート](/images/radar/white-horse-fineold.svg)
+
+- 飲みやすさ 3 / 複雑さ 3 / コスパ 5 / 汎用性 4 / 入手性 4
+
+創業者一族がアイラ島のラガヴーリン蒸溜所を所有していたという歴史的経緯から、ピーテッドモルトがブレンドに使われているのが最大の特徴。花や蜂蜜のフレッシュな香りの奥に、ほのかなスモーキーさが顔を出す構成で、この価格帯では珍しく「個性」を感じられる一本だと思う。
+
+1,100〜1,700円程度というレンジで、5軸の中でもコスパは頭ひとつ抜けている印象。1920年代に世界に先駆けてスクリューキャップを採用した歴史も持ち、大衆酒場での定番人気は伊達ではない。ピートの軽い個性が好みに合えば、かなり刺さる一本だと思う。
+
+---
+
+## デュワーズ ホワイトラベル — 二度熟成が生む、まろやかさ
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル" width="249" height="1024" loading="lazy">
+</a>
+<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![デュワーズ ホワイトラベルの使いやすさレーダーチャート](/images/radar/dewars-white-label.svg)
+
+- 飲みやすさ 4 / 複雑さ 2 / コスパ 4 / 汎用性 4 / 入手性 4
+
+1899年に考案された「ダブルエイジング」製法——原酒を地域ごとにマリッジしてからブレンドし、さらに樽で追加熟成させる二段階の手法——が今も受け継がれている一本。ヘザーハニーや洋梨を思わせる甘い香りに、バニラファッジのような柔らかい味わいが続き、余韻にほんの少しスモーキーさが残る。
+
+米国で最も売れているスコッチという実績を持つだけあって、味の均一感・安定感は高い。1,300〜1,700円程度というレンジで、角が取れたまろやかさを求めるなら安心して選べる一本だと感じる。
+
+---
+
+## ジョニーウォーカー レッドラベル — スパイシーさで攻める、ブラックの弟分
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
+</a>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
+
+![ジョニーウォーカー レッドラベルの使いやすさレーダーチャート](/images/radar/johnnie-walker-red.svg)
+
+- 飲みやすさ 3 / 複雑さ 3 / コスパ 4 / 汎用性 5 / 入手性 5
+
+同じブランドの12年熟成「ブラックラベル」が重厚でまろやかな方向なのに対し、こちらはノンエイジで度数だけは同じ40%、味はよりスパイシーで軽快な方向に振ってある。シナモンやブラックペッパーのニュアンスに、青リンゴや洋梨のフルーティーな甘みが乗ってくる構成で、単体で飲むと意外とパンチがある。
+
+世界で最も売れているブレンデッドスコッチという看板を持ちながら1,100〜1,800円程度で買える、規模の経済を体現したような一本。ハイボールにすると持ち前のスパイシーさが炭酸と好相性で、汎用性の高さは10本の中でもトップクラスだと思う。
+
+---
+
+## まとめ
+
+| ウイスキー | 飲みやすさ | 味わいの複雑さ | コスパ | 飲み方の幅 | 入手安定性 |
+|---|---|---|---|---|---|
+| [サントリー角瓶](https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22) | 5 | 2 | 4 | 5 | 5 |
+| [ブラックニッカ クリア](https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22) | 5 | 1 | 5 | 4 | 5 |
+| [トリスウイスキー](https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22) | 4 | 1 | 5 | 4 | 5 |
+| [ジムビーム ホワイト](https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22) | 4 | 2 | 4 | 4 | 4 |
+| [フォアローゼズ イエロー](https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22) | 4 | 3 | 4 | 3 | 4 |
+| [バランタイン ファイネス](https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22) | 4 | 2 | 4 | 5 | 5 |
+| [カティサーク](https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22) | 5 | 2 | 4 | 4 | 3 |
+| [ホワイトホース ファインオールド](https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22) | 3 | 3 | 5 | 4 | 4 |
+| [デュワーズ ホワイトラベル](https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22) | 4 | 2 | 4 | 4 | 4 |
+| [ジョニーウォーカー レッドラベル](https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22) | 3 | 3 | 4 | 5 | 5 |
+
+---
+
+## それで、結局どれを選べばいいのか
+
+- **とにかく最安値・軽さ重視の人** → ブラックニッカ クリア
+- **ハイボールの王道を外したくない人** → サントリー角瓶
+- **バーボンの定番から入りたい人** → ジムビーム ホワイト
+- **香りの複雑さも千円台で欲しい人** → フォアローゼズ イエロー、ホワイトホース ファインオールド
+- **万能選手を一本だけ選ぶなら** → バランタイン ファイネス、ジョニーウォーカー レッドラベル
+
+高いウイスキーが必ずしも「正解」とは限らない。むしろ千円台のボトルたちの方が、毎日の晩酌という土俵では圧倒的に打席数が多い分、作り手の技術や哲学がシビアに問われている気がする。今日の一杯も、良いものでありますように。
+
+飲酒は20歳になってから、節度を持って。
