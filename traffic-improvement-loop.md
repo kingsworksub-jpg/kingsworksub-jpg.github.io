@@ -78,3 +78,11 @@
 - 商品画像82個のうち大容量30個を256色パレット量子化+最大1200px化で圧縮(約7.5MB削減、1枚表示でも軽量化)
 - **1行10文字ルールの検証**: 本文領域720px − 220px×2 − 余白24px×4 = 対向画像間232px(≥180px) / 単一回り込み時476px → 両条件で「1行10文字以上」を充足
 - 残タスク: 未実施の画像はバナー転換のみで本文画像は元のまま(旧記事には本題図以外の写真なし)
+
+## ディレクトリ統合(2026-09-25) — content/posts への一本化
+
+- ユーザー依頼: 「old_posts とそれ以外の記事が整理しづらいので、どこか別のディレクトリへ移してひとまとめで管理したい」
+- **対応**(commit `83d26b5`): `content/old_posts/*.md` 65本を `content/posts/` へ移動し、`content/old_posts/`(と `_index.md`)を廃止。全記事ソースが `content/posts/` に一本化
+- **旧URL維持**: 移動した各フロントマターに `aliases: [/old_posts/<slug>/]` を自動付与 → `/old_posts/<slug>/` は alias リダイレクトページ(=refresh + canonical /posts/<slug>/)で継続アクセス可能。GitHub Pages 上は meta refresh の 200 応答
+- URL: `/old_posts/<slug>/` → `/posts/<slug>/`。sitemap 297 件・重複0・`/old_posts/` の sitemap 残存なし
+- 教訓: セクション統合時は **slug 衝突チェック** → **alias 付与** → **sitemap/重複検証** の順。本番で新旧URL・リダイレクト先・sitemap を確認済み
