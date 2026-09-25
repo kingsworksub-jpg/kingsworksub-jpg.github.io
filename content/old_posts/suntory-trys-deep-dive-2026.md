@@ -8,13 +8,12 @@ draft: false
 
 「トリスバー」「トリハイ」という言葉を生んだ、戦後日本のウイスキー史そのもののようなブランド。1946年発売、10本の中でも屈指の長寿銘柄であるトリスウイスキーを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
-<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー">
-<span class="product-banner-info">
-<span class="product-banner-name">トリスウイスキー</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
 </a>
+<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -34,13 +33,12 @@ draft: false
 
 公式参考価格は990円(税別)。実勢はネット最安値で800円台から、店舗によっては1,300円程度まで。180ml〜4Lまで幅広い容量展開があり、大容量のペットボトルは単価がさらに下がる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
-<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー">
-<span class="product-banner-info">
-<span class="product-banner-name">トリスウイスキー</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
 </a>
+<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

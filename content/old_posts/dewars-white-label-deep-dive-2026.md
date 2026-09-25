@@ -8,13 +8,12 @@ draft: false
 
 1846年John Dewar創業、White Labelは1899年発売。米国で最も売れているスコッチウイスキーという実績を持つ一本、デュワーズ ホワイトラベルを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
-<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル">
-<span class="product-banner-info">
-<span class="product-banner-name">デュワーズ ホワイトラベル</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル" width="249" height="1024" loading="lazy">
 </a>
+<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -36,13 +35,12 @@ draft: false
 
 実勢価格は700mlで1,300〜1,700円程度が中心。200ml・700ml・1,750mlの容量展開があり、サッポロビールが国内の輸入・取扱を担当している。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
-<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル">
-<span class="product-banner-info">
-<span class="product-banner-name">デュワーズ ホワイトラベル</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル" width="249" height="1024" loading="lazy">
 </a>
+<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

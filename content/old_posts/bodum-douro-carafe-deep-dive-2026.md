@@ -8,13 +8,12 @@ draft: false
 
 北欧というよりは中欧寄りのブランドだが、店頭で見かけるとつい「北欧デザイン」と呼びたくなる佇まい。BODUM(ボダム)のカラフェ「DOURO(ドウロ)」を、日本酒の徳利として使う前提で見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
-<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml">
-<span class="product-banner-info">
-<span class="product-banner-name">BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
+<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -48,13 +47,12 @@ DOUROという名前は、ポルトガルのドウロ渓谷から取られてい
 
 実用面での違いは手入れのしやすさだ。食洗機にそのまま放り込める気軽さは、繊細な絵付けが施された陶器の徳利にはなかなか真似できない。北欧的というよりは中欧的な、装飾を削ぎ落としたミニマルな見た目も含めて、和洋どちらの食卓にも馴染む懐の深さがこの器の魅力だと感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
-<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml">
-<span class="product-banner-info">
-<span class="product-banner-name">BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
+<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格と購入先 — 今も現行のラインナップ
 

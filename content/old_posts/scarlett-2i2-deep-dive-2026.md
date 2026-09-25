@@ -8,13 +8,12 @@ draft: false
 
 Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
-<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen">
-<span class="product-banner-info">
-<span class="product-banner-name">Focusrite Scarlett 2i2 4th Gen</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
+<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen" width="1280" height="1280" loading="lazy">
 </a>
+<figcaption>Focusrite Scarlett 2i2 4th Gen<span class="credit"><a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -56,13 +55,12 @@ USB-C接続、USB 2.0のバスパワー駆動(消費900mA)。電源が不安定�
 
 総じて評価は高く、強化されたプリアンプ、ヘッドホンアンプ、コンバーターが大きな売りだと感じる。ただしMIDI端子の不足とモニターミキシングの選択肢の限られている点は、電子楽器を使うミュージシャンにとって弱みになりうるとも思う。競合としてはUniversal Audio Volt 2(MIDI端子・ヴィンテージモード搭載)やSteinberg UR22Cがよく引き合いに出されるが、後者の32bit変換については、実際の性能というより宣伝文句が先行している印象を受けた。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
-<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen">
-<span class="product-banner-info">
-<span class="product-banner-name">Focusrite Scarlett 2i2 4th Gen</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
+<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen" width="1280" height="1280" loading="lazy">
 </a>
+<figcaption>Focusrite Scarlett 2i2 4th Gen<span class="credit"><a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

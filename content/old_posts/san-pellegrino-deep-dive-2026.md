@@ -8,13 +8,12 @@ draft: false
 
 緑色のガラス瓶に赤い星のロゴ、一流レストランのテーブルでよく見かける炭酸水がある。イタリア・ロンバルディア州の小さな温泉町で1899年から作られ続けているサンペレグリノを、隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">
-<img src="/images/products/san-pellegrino.png" alt="サンペレグリノ">
-<span class="product-banner-info">
-<span class="product-banner-name">サンペレグリノ 炭酸水 PET 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">
+<img src="/images/products/san-pellegrino.png" alt="サンペレグリノ" width="1000" height="667" loading="lazy">
 </a>
+<figcaption>サンペレグリノ 炭酸水 PET 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 店頭では、レストラン向けにもなじみのあるガラス瓶と、家庭向けのPETボトルの両方が流通している。今回取り上げているPET500ml×24本のケースは、価格.com調べで3,000円台前半、ガラス瓶の同本数だと5,000円台後半〜6,000円台とかなり差があるので、日常使いならPET、少し格を出したい場面ならガラス瓶、と使い分けるのが現実的だと思う。生産終了や仕様変更の情報は見当たらず、2026年時点でも通常通り流通が続いている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">
-<img src="/images/products/san-pellegrino.png" alt="サンペレグリノ">
-<span class="product-banner-info">
-<span class="product-banner-name">サンペレグリノ 炭酸水 PET 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">
+<img src="/images/products/san-pellegrino.png" alt="サンペレグリノ" width="1000" height="667" loading="lazy">
 </a>
+<figcaption>サンペレグリノ 炭酸水 PET 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

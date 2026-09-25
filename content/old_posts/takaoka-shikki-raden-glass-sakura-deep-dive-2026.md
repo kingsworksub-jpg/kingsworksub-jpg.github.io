@@ -8,13 +8,12 @@ draft: false
 
 ガラスの盃なのに、底に貝が埋め込まれている。しかも酒を注ぐまでその貝の模様がはっきり見えない、という仕掛けの酒器がある。富山県高岡市の天野漆器が作る「螺鈿ガラス 金杯(万華鏡シリーズ)」の桜柄を、今回は隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
-<img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜">
-<span class="product-banner-info">
-<span class="product-banner-name">高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
+<img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜" width="800" height="764" loading="lazy">
 </a>
+<figcaption>高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -40,13 +39,12 @@ draft: false
 
 ## 「金杯[万華鏡シリーズ]」のスペックと柄のバリエーション
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
-<img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜">
-<span class="product-banner-info">
-<span class="product-banner-name">高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
+<img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜" width="800" height="764" loading="lazy">
 </a>
+<figcaption>高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 サイズは直径約58mm×高さ約81mm、容量は約70mlというミニマムなサイズ感で、素材はガラス・漆・アワビ貝の3つを組み合わせた構成になっている。表面は十二角形にカットされ、縁には金の装飾が入る。この金縁と多角形カットのおかげで、光の反射がいくつもの面に分散し、螺鈿の輝きがより複雑に見える設計になっているのだと思う。
 

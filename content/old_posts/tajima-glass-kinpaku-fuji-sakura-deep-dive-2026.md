@@ -8,13 +8,12 @@ draft: false
 
 盃の底に富士山が立っている。それも、酒を注ぐたびに色を変える富士山だ。東京の老舗ガラスメーカー、田島硝子の「金箔富士 冷酒杯(桜)」を見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
-<img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)">
-<span class="product-banner-info">
-<span class="product-banner-name">田島硝子 金箔富士 冷酒杯(桜)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
+<img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 ソーダガラス特有の話として、洗浄後に水滴が残ると跡が白く曇って見えることがあるが、これは汚れではなく、乾いて拭き上げれば元の透明感に戻る。神経質になりすぎず、使うたびに拭き上げる習慣をつければ十分だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
-<img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)">
-<span class="product-banner-info">
-<span class="product-banner-name">田島硝子 金箔富士 冷酒杯(桜)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
+<img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 1956年創業、江東区のガラスメーカー
 

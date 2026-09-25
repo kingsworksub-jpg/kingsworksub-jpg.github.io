@@ -8,13 +8,12 @@ draft: false
 
 割り材といえばウィルキンソン、という空気が長らく続いていたところに、コカ・コーラシステムが「THE」を頭に付けて殴り込んできたのが「ザ・タンサン」シリーズだ。その中でもラベルレス・ケース販売専用という一風変わった売られ方をしている「カナダドライ ザ・タンサン ストロング」430ml×24本を、今回は隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-tansan-strong.png" alt="カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">
+<img src="/images/products/canada-dry-tansan-strong.png" alt="カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本" width="396" height="1125" loading="lazy">
 </a>
+<figcaption>カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -36,13 +35,12 @@ draft: false
 
 ラベルレス化の理由は環境配慮――ラベルを剥がす手間やプラスチックごみを減らす狙いに加えて、コロナ禍で伸びたネット通販のまとめ買い需要に対応する意味合いもあったようだ。通常はラベルに記載する原材料表示などの法定表示は、外箱のダンボールに印刷することで対応している。発売時の希望小売価格は税別2,640円/24本ケースだったとのことで、今のAmazon実勢価格(1,300円前後)と比べるとかなり値下がりしていることになる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-tansan-strong.png" alt="カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">
+<img src="/images/products/canada-dry-tansan-strong.png" alt="カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本" width="396" height="1125" loading="lazy">
 </a>
+<figcaption>カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 割り材としての実力
 

@@ -8,13 +8,12 @@ draft: false
 
 Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
-<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO">
-<span class="product-banner-info">
-<span class="product-banner-name">Pro-Ject Debut Carbon EVO</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
 </a>
+<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 
 弱点として気になるのは、フォノプリアンプが内蔵されていないこと(別途50〜150ドル程度の追加コストになりうる)、VTA調整機構が無いこと、完全手動操作でオートストップが無いこと、そしてダストカバーを閉じるとモーターの振動がわずかに増幅されるように感じる点(カバーを外せば気にならない)。付属カートリッジについても、いずれ上位モデルへ買い替えたくなる人は一定数いそうだ。78回転だけベルトの掛け替えが必要な点も、地味に手間がかかる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
-<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO">
-<span class="product-banner-info">
-<span class="product-banner-name">Pro-Ject Debut Carbon EVO</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
 </a>
+<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

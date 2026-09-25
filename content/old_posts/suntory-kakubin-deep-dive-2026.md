@@ -8,13 +8,12 @@ draft: false
 
 コンビニでも酒屋でも、必ずと言っていいほど棚に並んでいる一本。1937年発売、鳥井信治郎率いる寿屋(現サントリー)による戦前からの国産ウイスキーの系譜という、とにかく息の長いブランドを角瓶を隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
-<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶">
-<span class="product-banner-info">
-<span class="product-banner-name">サントリー角瓶</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
 </a>
+<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -38,13 +37,12 @@ draft: false
 
 希望小売価格は資料によって表記に差があるものの、実勢は700mlで1,700〜1,900円程度に落ち着いていることが多い。2016年、2023年と値上げを経ているが、2026年時点でも大きな価格改定や販売終了の兆しはなく、現行品として安定して流通している。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
-<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶">
-<span class="product-banner-info">
-<span class="product-banner-name">サントリー角瓶</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
 </a>
+<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 コンビニ・スーパー・酒販店・ネット通販、どこでも同じように手に入るという安定感は、日々飲むボトルとしては地味に重要なポイントだと思う。
 

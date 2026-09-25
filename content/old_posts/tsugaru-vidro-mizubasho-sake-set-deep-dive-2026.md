@@ -8,13 +8,12 @@ draft: false
 
 これまで陶磁器や漆器の酒器をいくつか取り上げてきたが、今回は趣向を変えてガラスの酒器を見ていく。「アデリア 津軽びいどろ」の「みずばしょう酒器セット」(徳利1個・盃2個、型番FS-71582)。深いブルーの徳利に、白い花のような模様が浮かぶ盃が寄り添う、冷酒専用の一式だ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)">
-<span class="product-banner-info">
-<span class="product-banner-name">津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 ## 使い方と扱い方 — 冷酒に向く一本
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)">
-<span class="product-banner-info">
-<span class="product-banner-name">津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 素材は耐熱表記のないソーダガラスなので、電子レンジや熱湯の使用はできず、食器洗浄機も避けるようにと公式サイトに明記されている。手洗いが前提の道具だと理解しておいたほうがいい。用途としては冷酒がまっすぐ向いていて、キリッと冷やした日本酒を注ぐと、ブルーのガラス越しに透ける酒の色まで涼しげに見える。熱燗を楽しみたい日は、別の徳利に任せるのが賢明だと思う。
 

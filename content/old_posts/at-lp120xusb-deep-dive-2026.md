@@ -8,13 +8,12 @@ draft: false
 
 Audio-Technicaは、AT-LP120XUSBを「本格的なDJ操作感とレコードのデジタル化を、手の届く価格で両立させた一台」と位置づけている。その言葉に見合う中身なのか、隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
-<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB">
-<span class="product-banner-info">
-<span class="product-banner-name">AT-LP120XUSB</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
+<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
 </a>
+<figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -52,13 +51,12 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 
 弱点として気になるのは、オートリターン・オートストップが無い点、内蔵プリアンプ経由だと音量を上げたときにわずかなノイズフロアが乗る点、低域が締まりよりも温かみ寄りの傾向にある点、上位のオーディオファイル向け機と比べるとトーンアームの解像感や音場の奥行きに一歩譲る点。振動への耐性もそれほど高くなく、テーブルに軽くぶつかると音飛びしやすいので、設置場所には多少気を配った方がよさそうだ。本体重量もこの価格帯にしてはやや軽く、台座がどこか空洞っぽく感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
-<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB">
-<span class="product-banner-info">
-<span class="product-banner-name">AT-LP120XUSB</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
+<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
 </a>
+<figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

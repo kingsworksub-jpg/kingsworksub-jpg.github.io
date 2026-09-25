@@ -8,13 +8,12 @@ draft: false
 
 無糖なのに、グラスに注いだ瞬間からブドウジュースのような甘い香りが広がる。アイリスオーヤマの強炭酸水ブランド「CRYSTAL SPARK」から2026年春夏限定で登場したグレープソーダを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ">
-<span class="product-banner-info">
-<span class="product-banner-name">CRYSTAL SPARK グレープソーダ</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
+<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
 </a>
+<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -28,13 +27,12 @@ draft: false
 
 強炭酸を謳っているが、具体的なガス圧の数値は公開されていない。開栓時に勢いよく吹き出すことがあるという注意書きがあるくらいなので、刺激自体はしっかりある部類だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ">
-<span class="product-banner-info">
-<span class="product-banner-name">CRYSTAL SPARK グレープソーダ</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
+<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
 </a>
+<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 味の甘さよりも香りの再現に重心を置いた設計は、糖質を気にする人でも満足感を得やすいように意図されているのだと思う。実際に飲んだ人の感想でも「香りは強いが飲んだ瞬間の甘さは弱め」という声が近いフレーバーで見られ、この香り先行の設計は狙いどおりに機能していると言えそうだ。
 
@@ -46,13 +44,12 @@ draft: false
 
 500ml×24本のケースで、実勢価格はセール時で1,400円台から、通常時は3,000円台になることもあり、時期によって差が大きい。ラベルレスのため、フレーバー展開の多さに対して見た目はシンプルにまとまっている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ">
-<span class="product-banner-info">
-<span class="product-banner-name">CRYSTAL SPARK グレープソーダ</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
+<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
 </a>
+<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 2026年春夏の期間限定フレーバーという位置づけのため、同じシリーズの「ラムネ」のように通年商品化されていない点には注意したい。気になっている人は、店頭やECで見かけたうちに確保しておいた方が良さそうだ。
 

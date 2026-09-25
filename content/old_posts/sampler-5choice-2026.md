@@ -24,13 +24,12 @@ draft: false
 
 ## Kontakt 8 — 業界標準という名の、重い荷物
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">
-<img src="/images/products/kontakt-8.png" alt="Kontakt 8">
-<span class="product-banner-info">
-<span class="product-banner-name">Kontakt 8</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">
+<img src="/images/products/kontakt-8.png" alt="Kontakt 8" width="1200" height="444" loading="lazy">
 </a>
+<figcaption>Kontakt 8<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![Kontakt 8の使いやすさレーダーチャート](/images/radar/kontakt-8.svg)
 
@@ -44,13 +43,12 @@ draft: false
 
 ## Battery 4 — 寡黙な働き者、いつも変わらず頼れる存在
 
-<a class="product-banner" href="https://www.native-instruments.com/products/battery">
-<img src="/images/products/battery-4.png" alt="Battery 4">
-<span class="product-banner-info">
-<span class="product-banner-name">Battery 4</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.native-instruments.com/products/battery">
+<img src="/images/products/battery-4.png" alt="Battery 4" width="1200" height="675" loading="lazy">
 </a>
+<figcaption>Battery 4<span class="credit"><a href="https://www.native-instruments.com/products/battery">Amazonで見る →</a></span></figcaption>
+</figure>
 
 (Amazonに単体販売の取り扱いなし)
 
@@ -66,13 +64,12 @@ draft: false
 
 ## TAL-Sampler — 小柄だが、驚くほど身のこなしが軽い
 
-<a class="product-banner" href="https://tal-software.com/products/tal-sampler">
-<img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler">
-<span class="product-banner-info">
-<span class="product-banner-name">TAL-Sampler</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://tal-software.com/products/tal-sampler">
+<img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler" width="1600" height="867" loading="lazy">
 </a>
+<figcaption>TAL-Sampler<span class="credit"><a href="https://tal-software.com/products/tal-sampler">Amazonで見る →</a></span></figcaption>
+</figure>
 
 (Amazonに単体販売の取り扱いなし)
 
@@ -88,13 +85,12 @@ draft: false
 
 ## UVI Falcon — 一生かけても仲良くなれるか怪しいタイプ
 
-<a class="product-banner" href="https://www.uvi.net/falcon.html">
-<img src="/images/products/uvi-falcon.webp" alt="UVI Falcon">
-<span class="product-banner-info">
-<span class="product-banner-name">UVI Falcon</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.uvi.net/falcon.html">
+<img src="/images/products/uvi-falcon.webp" alt="UVI Falcon" width="1024" height="391" loading="lazy">
 </a>
+<figcaption>UVI Falcon<span class="credit"><a href="https://www.uvi.net/falcon.html">Amazonで見る →</a></span></figcaption>
+</figure>
 
 (Amazon上の出品は旧バージョンのため公式サイトを案内)
 
@@ -110,13 +106,12 @@ draft: false
 
 ## Serato Sample — 出会って30秒、迷う暇を与えない身軽さ
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">
-<img src="/images/products/serato-sample.png" alt="Serato Sample">
-<span class="product-banner-info">
-<span class="product-banner-name">Serato Sample</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">
+<img src="/images/products/serato-sample.png" alt="Serato Sample" width="1200" height="800" loading="lazy">
 </a>
+<figcaption>Serato Sample<span class="credit"><a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![Serato Sampleの使いやすさレーダーチャート](/images/radar/serato-sample.svg)
 

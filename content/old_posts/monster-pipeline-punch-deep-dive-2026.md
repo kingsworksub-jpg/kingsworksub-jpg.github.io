@@ -8,13 +8,12 @@ draft: false
 
 エナジードリンクの缶に、なぜかサーフィンの聖地の名前がついている。「パイプラインパンチ」という名前を最初に見たとき、そのギャップに少し引かれた。緑の爪痕ロゴでおなじみのモンスターエナジーのジューシー系ライン「Juice Monster」の一本で、日本ではアサヒ飲料が展開している355ml缶を、パッケージの隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
-<img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ">
-<span class="product-banner-info">
-<span class="product-banner-name">モンスターエナジー パイプラインパンチ 355ml×12本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
+<img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ" width="350" height="180" loading="lazy">
 </a>
+<figcaption>モンスターエナジー パイプラインパンチ 355ml×12本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 ## 価格・入手性
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
-<img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ">
-<span class="product-banner-info">
-<span class="product-banner-name">モンスターエナジー パイプラインパンチ 355ml×12本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
+<img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ" width="350" height="180" loading="lazy">
 </a>
+<figcaption>モンスターエナジー パイプラインパンチ 355ml×12本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 コンビニでの単品購入だと1本200円台が相場で、全国のコンビニ・スーパーで広く流通している。ケース買いの場合、355ml×12本や24本、48本といったまとめ買い向けの箱がAmazonなどの通販サイトに揃っていて、単価はコンビニでの単品購入よりかなり下がる。2024年に500mlボトル缶が新規追加されたことからも分かるように、生産終了や縮小の気配はまったく感じられない。2019年の一時販売中止も需要過多による品薄が原因であって、今は完全に定番ラインとして定着している一本だ。
 

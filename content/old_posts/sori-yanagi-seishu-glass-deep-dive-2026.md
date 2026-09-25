@@ -8,13 +8,12 @@ draft: false
 
 脚付きの小さなガラス杯に、金の小さな紋章がひとつ。プロダクトデザインの世界で知らない人はいない柳宗理が手がけた「清酒グラス」を、隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">
-<img src="/images/products/sori-yanagi-seishu-glass.jpg" alt="柳宗理デザイン 清酒グラス">
-<span class="product-banner-info">
-<span class="product-banner-name">柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">
+<img src="/images/products/sori-yanagi-seishu-glass.jpg" alt="柳宗理デザイン 清酒グラス" width="1061" height="1061" loading="lazy">
 </a>
+<figcaption>柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -50,13 +49,12 @@ draft: false
 
 生産中止になった様子はなく、発表から半世紀以上たった今もカタログに載り続けているロングセラーだ。デザイナーの名前で語られがちな器だが、実際の値段は缶チューハイ数本分ほどしかしない、というギャップも含めて面白い存在だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">
-<img src="/images/products/sori-yanagi-seishu-glass.jpg" alt="柳宗理デザイン 清酒グラス">
-<span class="product-banner-info">
-<span class="product-banner-name">柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">
+<img src="/images/products/sori-yanagi-seishu-glass.jpg" alt="柳宗理デザイン 清酒グラス" width="1061" height="1061" loading="lazy">
 </a>
+<figcaption>柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

@@ -8,13 +8,12 @@ draft: false
 
 Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
-<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3">
-<span class="product-banner-info">
-<span class="product-banner-name">Rega Planar 3</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3" width="1600" height="800" loading="lazy">
 </a>
+<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ RB330という9インチトーンアームは、Rega社内で手作業により�
 
 弱点として指摘されるのは、トーンアームの高さが調整できないこと(Rega以外のカートリッジへの乗り換えでシムが必要になり、副作用もある)、速度切り替えが完全手動で、電子化するには追加コストがかかること、しっかりした振動の少ない設置場所(壁掛け棚や剛性の高いスタンドなど)を選ぶ必要があること、フォノプリアンプが内蔵されておらずシステム全体のコストが上がること。世代を重ねるごとに価格も上がっていて(Nd3付属モデルで発売時799ポンドだったのが、2025年には840ポンドに)、値段に見合うかどうかを気にする声も出てきている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
-<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3">
-<span class="product-banner-info">
-<span class="product-banner-name">Rega Planar 3</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3" width="1600" height="800" loading="lazy">
 </a>
+<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

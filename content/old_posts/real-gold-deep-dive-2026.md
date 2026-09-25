@@ -8,13 +8,12 @@ draft: false
 
 赤い缶に走る黄色い稲妻、そこに黒文字で「REAL GOLD」。自動販売機やコンビニの一角で昔からずっと同じ場所を守ってきた栄養ドリンク系炭酸「リアルゴールド」を、隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
-<img src="/images/products/real-gold.png" alt="リアルゴールド">
-<span class="product-banner-info">
-<span class="product-banner-name">リアルゴールド 160ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
+<img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
 </a>
+<figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -36,13 +35,12 @@ draft: false
 
 好き嫌いが分かれるとすれば、この「薬草っぽさ」の部分だろう。栄養ドリンクの独特な風味が苦手な人には引っかかる要素になり得るが、逆にその風味こそが「効いている感じ」を演出してくれる部分でもあり、昔からのファンが求めているのはまさにこの後味なのだと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
-<img src="/images/products/real-gold.png" alt="リアルゴールド">
-<span class="product-banner-info">
-<span class="product-banner-name">リアルゴールド 160ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
+<img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
 </a>
+<figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## パッケージ展開と価格・現行性
 

@@ -8,13 +8,12 @@ draft: false
 
 「ちろり」と聞いてすぐに形が思い浮かぶ人は、今どれくらいいるだろうか。本来は錫や銅で作られた、湯煎で燗をつけるための酒器の名前だ。その金属の道具を、東京・墨田区のガラスメーカー廣田硝子がハンドメイドのガラスで作り直したのが今回見ていく一本になる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
-<img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き">
-<span class="product-banner-info">
-<span class="product-banner-name">廣田硝子 ちろり 青 中子付き</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
+<img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
 </a>
+<figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -40,13 +39,12 @@ draft: false
 
 耐熱ガラスとはいえ、直火にかけて温める使い方は想定されていない。あくまで湯煎が基本で、いきなり火であぶるような使い方は避けたほうがいい。食洗機についても対応をうたっていないので、手洗いでのお手入れが安心だと思う。多少手間はかかるが、ガラスと真鍮の組み合わせという凝った作りを考えれば、そのくらいの気遣いは自然なことに感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
-<img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き">
-<span class="product-banner-info">
-<span class="product-banner-name">廣田硝子 ちろり 青 中子付き</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
+<img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
 </a>
+<figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 廣田硝子という会社 — 1899年創業、江戸硝子の担い手
 

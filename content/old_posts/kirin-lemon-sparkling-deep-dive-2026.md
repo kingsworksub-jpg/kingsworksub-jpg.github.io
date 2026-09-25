@@ -8,13 +8,12 @@ draft: false
 
 「透明なままでゆけ。」というキャッチコピーがあるくらい、無色透明であることをずっと売りにしてきたブランドがある。1928年発売のキリンレモンから生まれた無糖の派生品、キリンレモン 炭酸水を隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
-<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">キリンレモン 炭酸水</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
+<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水" width="580" height="580" loading="lazy">
 </a>
+<figcaption>キリンレモン 炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -28,13 +27,12 @@ draft: false
 
 通常の「キリンレモン」(加糖・着色ありのサイダー)とは対照的に、この炭酸水版は無糖でレモンの香りだけを効かせたすっきりした後味が特徴だ。炭酸の強さは、いわゆる強炭酸水ジャンルの製品と比べるとやや穏やかで、きめ細かい泡感を楽しむタイプという印象を受けた。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
-<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">キリンレモン 炭酸水</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
+<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水" width="580" height="580" loading="lazy">
 </a>
+<figcaption>キリンレモン 炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 割材として使う場合、レモンの香りと酸味はハイボールや酎ハイに合わせやすいが、風味の濃さそのものは控えめなので、しっかりしたレモン感を求める人には少し物足りなく感じられるかもしれない。そのまま飲んで爽やかさを楽しむ用途の方が向いていると思う。
 
@@ -46,13 +44,12 @@ CMソング「キリンレモンのうた」は1961年に作られ、以降長�
 
 500ml×24本のケースで、実勢価格はAmazon.co.jpで2,000円前後、価格.com調べでも1,980円あたりが目安になる。楽天など店舗によっては2,600円台〜3,700円台と幅があるので、購入前に価格を見比べておきたい。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
-<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">キリンレモン 炭酸水</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
+<img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水" width="580" height="580" loading="lazy">
 </a>
+<figcaption>キリンレモン 炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 公式の出荷終了品一覧にも本品の記載は見当たらず、2026年時点でも現行品として流通が続いているようだ。
 

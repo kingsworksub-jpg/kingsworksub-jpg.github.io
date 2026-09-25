@@ -8,13 +8,12 @@ draft: false
 
 自動販売機の隅っこに、水色のラベルに黄色い液体という組み合わせでいつも並んでいる「MATCH(マッチ)」。ポカリスエットやアクエリアスのようなイオン飲料とはどこか違う、ビタミン配合の微炭酸飲料というちょっと変わった立ち位置の一本を、今回は隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
-<img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">大塚食品 MATCH マッチ 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
+<img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本" width="400" height="440" loading="lazy">
 </a>
+<figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -36,13 +35,12 @@ MATCHが発売されたのは1996年。当時は大塚製薬工業という社�
 
 正直、この「何味とも言い切れない曖昧さ」こそがMATCHの個性なのだと思う。フルーツジュース的なわかりやすい美味しさを求めて飲むと拍子抜けするかもしれないが、部活後や勉強の合間にビタミン補給がてらゴクゴク飲むという用途で考えると、この控えめな甘さとすっきりした後味はちょうどいいバランスに感じられる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
-<img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">大塚食品 MATCH マッチ 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
+<img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本" width="400" height="440" loading="lazy">
 </a>
+<figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## ラインナップの広がりとパッケージ
 

@@ -8,13 +8,12 @@ draft: false
 
 赤いコカ・コーラの隣に、ずっと黒いボトルが並んでいる。カロリーゼロ・糖類ゼロをうたいながらも「ダイエット」の名を冠さなかった、コカ・コーラ ゼロを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">
-<img src="/images/products/coca-cola-zero.png" alt="コカ・コーラ ゼロ">
-<span class="product-banner-info">
-<span class="product-banner-name">コカ・コーラ ゼロ 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">
+<img src="/images/products/coca-cola-zero.png" alt="コカ・コーラ ゼロ" width="730" height="940" loading="lazy">
 </a>
+<figcaption>コカ・コーラ ゼロ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -40,13 +39,12 @@ draft: false
 
 パッケージの黒は、赤を基調にした通常のコカ・コーラとの差別化はもちろん、「ゼロカロリー」を視覚的に訴求する狙いも込められている。スペンサーロゴをあえて黒にすることで、同じブランドでありながら別物だと一目で分かるようにしているわけだ。アメリカ本国では2016〜2017年ごろに黒地へ赤い円形ロゴを大きく配置するデザインへ刷新され、その後は徐々に赤みを増す方向に寄っていったが、日本版は黒基調をずっと貫いている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">
-<img src="/images/products/coca-cola-zero.png" alt="コカ・コーラ ゼロ">
-<span class="product-banner-info">
-<span class="product-banner-name">コカ・コーラ ゼロ 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">
+<img src="/images/products/coca-cola-zero.png" alt="コカ・コーラ ゼロ" width="730" height="940" loading="lazy">
 </a>
+<figcaption>コカ・コーラ ゼロ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 容量展開も幅広く、350ml・500ml・700mlのPETボトルに加え、1.5Lの大容量PET、缶とラインナップが揃っている。350mlや700mlはスーパー・ドラッグストア向け、500mlや1.5Lはコンビニ・自販機向けという棲み分けがあり、買う場所によって見かける容量が変わってくる。
 

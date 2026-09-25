@@ -8,13 +8,12 @@ draft: false
 
 徳利とおちょこなのに、中身は魔法瓶。大阪の老舗魔法瓶メーカー、ピーコック魔法瓶工業の「酒器セット ACF-38」を見ていく。陶器でもガラスでもなく、ステンレスの真空二重構造でできた徳利、という時点でもう普通の酒器とは違う設計思想を感じる一本だ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
-<img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38">
-<span class="product-banner-info">
-<span class="product-banner-name">ピーコック 酒器セット ACF-38</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
+<img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38" width="1080" height="1080" loading="lazy">
 </a>
+<figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -38,13 +37,12 @@ draft: false
 
 食洗機・食器乾燥機には対応しているので、日常使いの手入れは楽な部類に入る。一方で電子レンジと直火・湯せんでの加熱には対応していない。燗をつけたいときは、別の容器やレンジ対応のちろりで温めてから、この徳利に移し替える必要がある。保温力の高さと引き換えに、徳利自体で燗をつける手軽さは犠牲になっている格好だ。この一手間を面倒と見るか、温度が長持ちする代償として納得するかで評価が分かれるところだと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
-<img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38">
-<span class="product-banner-info">
-<span class="product-banner-name">ピーコック 酒器セット ACF-38</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
+<img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38" width="1080" height="1080" loading="lazy">
 </a>
+<figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 大阪の魔法瓶御三家、3番手のブランド
 

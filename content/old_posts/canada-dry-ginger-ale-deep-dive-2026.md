@@ -8,13 +8,12 @@ draft: false
 
 モスコミュールやハイボールの割材として、名前だけは誰でも知っているであろう定番ブランド。1904年にカナダで生まれ、禁酒法時代のアメリカを生き延びたという歴史を持つカナダドライ ジンジャーエールを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール">
-<span class="product-banner-info">
-<span class="product-banner-name">カナダドライ ジンジャーエール</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
+<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
 </a>
+<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -28,13 +27,12 @@ draft: false
 
 1920年代の禁酒法時代、密造酒(ムーンシャイン)特有の粗い風味をごまかすミキサーとして、隠れ酒場(スピークイージー)で重宝されたという歴史がある。この時期に定着した「お酒を割る」という文化的な立ち位置が、そのまま現代のモスコミュールやハイボールの割材需要にまでつながっていると考えると、なかなか感慨深いブランドだ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール">
-<span class="product-banner-info">
-<span class="product-banner-name">カナダドライ ジンジャーエール</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
+<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
 </a>
+<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 味の方向性とウィルキンソンとの違い
 
@@ -46,13 +44,12 @@ draft: false
 
 160ml缶×30本のケースで、実勢価格はAmazon.co.jpで1,700円台。楽天市場では店舗により1,600円台〜2,400円台と幅がある。160ml缶のほか250ml缶、350ml缶、500ml PET、1.5L PETまで容量展開は幅広い。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール">
-<span class="product-banner-info">
-<span class="product-banner-name">カナダドライ ジンジャーエール</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
+<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
 </a>
+<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 2025年4月にはロゴ・パッケージデザインが一新され、新しいCMとともに全国展開されている。生産終了どころか、ブランドとしてしっかり刷新・継続されている状態だ。
 

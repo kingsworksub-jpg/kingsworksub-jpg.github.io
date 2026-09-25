@@ -8,13 +8,12 @@ draft: false
 
 コンビニのレジ横、栄養ドリンクの棚の隣にいつも強炭酸のオレンジ色のボトルが並んでいる。名前の由来はギリシャ語の「12」。12種類の成分を強炭酸に溶かし込んだアサヒ飲料のドデカミンを、パッケージの隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">
-<img src="/images/products/dodecamin.jpg" alt="ドデカミン">
-<span class="product-banner-info">
-<span class="product-banner-name">ドデカミン 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">
+<img src="/images/products/dodecamin.jpg" alt="ドデカミン" width="340" height="900" loading="lazy">
 </a>
+<figcaption>ドデカミン 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 コンビニでの単品購入だと1本140〜200円程度が相場で、ケース買いだと1本あたりの単価はぐっと下がる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">
-<img src="/images/products/dodecamin.jpg" alt="ドデカミン">
-<span class="product-banner-info">
-<span class="product-banner-name">ドデカミン 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">
+<img src="/images/products/dodecamin.jpg" alt="ドデカミン" width="340" height="900" loading="lazy">
 </a>
+<figcaption>ドデカミン 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 500ml×24本のケース売りだとまとめ買いの単価メリットが大きく、コンビニで単品を買い続けるよりも1本あたりの負担はかなり軽くなる。スーパー・コンビニ・自販機と流通網は幅広く、入手性に不安を感じる場面はない。2026年に入ってもローソン限定色違い版や夜向けの新商品が投入されており、生産終了やブランド縮小の気配はまったく感じられない。むしろ栄養炭酸飲料というジャンル全体が横ばい傾向にあるなかで、リピート購入率の高さで踏ん張っている一本という印象だ。
 

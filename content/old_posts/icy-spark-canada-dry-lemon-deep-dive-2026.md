@@ -8,13 +8,12 @@ draft: false
 
 「日本コカ・コーラ史上最強の強炭酸水」というキャッチコピーを背負って売り場に並んでいるのが「アイシー・スパーク from カナダドライ レモン」だ。ラベルレス430mlペットボトル×24本というまとめ買い向けの箱を前に、この一本の中身をじっくり見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">
-<img src="/images/products/icy-spark-canada-dry-lemon.png" alt="コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">
+<img src="/images/products/icy-spark-canada-dry-lemon.png" alt="コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本" width="730" height="940" loading="lazy">
 </a>
+<figcaption>アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -34,13 +33,12 @@ draft: false
 
 このドライな味わいのおかげで、レモンサワーやハイボールの割り材として使うと主張しすぎず馴染みがいい。自家製のジンジャーエール風カクテルを作るときのベースにしても、余計な甘さが乗らないぶん使い勝手がいいと感じている。手元に届いた分は賞味期限がそこまで長くなかったので、まとめ買いする場合はある程度のペースで飲み切る前提で考えたほうがよさそうだ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">
-<img src="/images/products/icy-spark-canada-dry-lemon.png" alt="コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本">
-<span class="product-banner-info">
-<span class="product-banner-name">アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">
+<img src="/images/products/icy-spark-canada-dry-lemon.png" alt="コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本" width="730" height="940" loading="lazy">
 </a>
+<figcaption>アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## なぜラベルレスなのか
 

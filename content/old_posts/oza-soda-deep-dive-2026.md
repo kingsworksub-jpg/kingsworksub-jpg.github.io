@@ -8,13 +8,12 @@ draft: false
 
 楽天のランキングで水・ソフトドリンク部門1位を何度も獲得している、じわじわと支持を広げている強炭酸水がある。もとは「ZAO SODA」という名前だったこの炭酸水、OZA SODAを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
-<img src="/images/products/oza-soda.jpg" alt="OZA SODA">
-<span class="product-banner-info">
-<span class="product-banner-name">OZA SODA</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
+<img src="/images/products/oza-soda.jpg" alt="OZA SODA" width="600" height="600" loading="lazy">
 </a>
+<figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -28,13 +27,12 @@ draft: false
 
 原材料は水と炭酸のみとシンプル。公式では「当社史上最高レベルの強炭酸」と謳われていて、一般的な炭酸水のガス圧を大きく上回る、国内トップクラスの強炭酸に位置づけられているという。実際に開けてみると、翌日まで炭酸が持続するという評判に納得できるくらいの持続力を感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
-<img src="/images/products/oza-soda.jpg" alt="OZA SODA">
-<span class="product-banner-info">
-<span class="product-banner-name">OZA SODA</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
+<img src="/images/products/oza-soda.jpg" alt="OZA SODA" width="600" height="600" loading="lazy">
 </a>
+<figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 香りづけは控えめで、そのまま飲むよりはハイボールや酎ハイの割材として使うと素直に活きる味だと感じる。
 
@@ -46,13 +44,12 @@ draft: false
 
 500ml×24本のケースで、Amazon.co.jpの実勢価格は1,300円台、楽天の公式ストアではクーポン利用時に1,200円前後まで下がることもある。公式オンラインストアの通常価格は1,579円(税込)。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
-<img src="/images/products/oza-soda.jpg" alt="OZA SODA">
-<span class="product-banner-info">
-<span class="product-banner-name">OZA SODA</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
+<img src="/images/products/oza-soda.jpg" alt="OZA SODA" width="600" height="600" loading="lazy">
 </a>
+<figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 2026年に入ってからは群馬県での製造も新たに開始し、蔵王・日田と合わせて供給体制をさらに強化しているという。生産終了どころか、勢いを増している商品だと言えそうだ。
 

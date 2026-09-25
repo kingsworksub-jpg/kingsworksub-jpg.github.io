@@ -8,13 +8,12 @@ draft: false
 
 酒器の産地というと、このブログでもすでに九谷焼や美濃焼を取り上げてきたが、日本の磁器の歴史そのものを語るなら避けて通れないのが佐賀県有田町の「有田焼」だ。今回はその有田焼を名乗る「炎華」という酒器セット(徳利1個・ぐい呑み2個・木箱入り)を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
-<img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)">
-<span class="product-banner-info">
-<span class="product-banner-name">有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
+<img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -42,13 +41,12 @@ draft: false
 
 ## 磁器・陶器としての実用面
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
-<img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)">
-<span class="product-banner-info">
-<span class="product-banner-name">有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
+<img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)" width="1200" height="1200" loading="lazy">
 </a>
+<figcaption>有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 有田焼を含む磁器全般は吸水率がほぼ0%とされていて、匂い移りやカビの心配が少なく、表面がガラス質で汚れも落ちやすい。これまでこのブログで扱ってきた木曽杉の徳利や漆の酒器と比べると、お手入れのしやすさという点でははっきり分がある。熱伝導率が高いぶん、熱燗を注ぐと器自体もすぐ温まるので、うっかり熱いまま手に取ると驚くことになる。逆に言えば冷酒を注いだときの、きりっとした冷たさが手のひらにそのまま伝わってくる感覚は気に入っている。
 

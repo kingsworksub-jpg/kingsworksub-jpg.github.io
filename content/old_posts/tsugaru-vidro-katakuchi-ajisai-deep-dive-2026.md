@@ -8,13 +8,12 @@ draft: false
 
 冷酒を注ぐ器といえば徳利を思い浮かべる人が多いと思うが、注ぎ口が開いた「片口」という形もある。アデリアの「津軽びいどろ 片口あじさい」を、この夏らしい水色の器として見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml">
-<span class="product-banner-info">
-<span class="product-banner-name">アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -42,13 +41,12 @@ draft: false
 
 徳利との違いは口の広さにある。徳利は首が細く閉じているぶん香りを閉じ込めやすく、燗をつけたときに温度も保ちやすい。一方の片口は口が大きく開いているぶん空気に触れる面積が広く、香りがふわっと立ちやすい。冷酒、特に香りの華やかな吟醸系の酒を、まず目と鼻で楽しんでから注ぐ、という飲み方に向いている形だと感じる。ゆっくり注ぐと注ぎ口から液だれしやすいという注意書きもあったので、そこは徳利にはない片口特有のクセとして覚えておきたい。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml">
-<span class="product-banner-info">
-<span class="product-banner-name">アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## アデリアというブランド
 

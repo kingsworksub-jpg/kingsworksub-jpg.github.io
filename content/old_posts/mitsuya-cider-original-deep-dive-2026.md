@@ -8,13 +8,12 @@ draft: false
 
 自動販売機でもスーパーでも、当たり前のようにそこにある「三ツ矢サイダー」。缶250ml×20本というオーソドックスな通常版を軸に、この透明な炭酸飲料を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
-<img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本">
-<span class="product-banner-info">
-<span class="product-banner-name">アサヒ飲料 三ツ矢サイダー 缶250ml×20本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
+<img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本" width="125" height="280" loading="lazy">
 </a>
+<figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -34,13 +33,12 @@ draft: false
 
 炭酸の強さについては缶によって印象が少し変わる気がしていて、開けたてはしっかり弾けるものの、時間が経つとやや抜けやすい。個体差か保存状態の差かは分からないが、キンキンに冷やしてすぐ飲み切るのが一番おいしく感じるタイプの炭酸だ。強炭酸を売りにしたウィルキンソン タンサンのような商品と比べると刺激自体は控えめで、そのぶん喉への当たりは優しい。ストレートで飲むのはもちろん、焼酎やウイスキーの割り材にしても、香料の甘さが主張しすぎずちょうどいい脇役になってくれる印象だ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
-<img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本">
-<span class="product-banner-info">
-<span class="product-banner-name">アサヒ飲料 三ツ矢サイダー 缶250ml×20本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
+<img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本" width="125" height="280" loading="lazy">
 </a>
+<figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 容量とラインナップの広がり
 

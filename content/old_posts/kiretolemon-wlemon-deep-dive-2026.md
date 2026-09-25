@@ -8,13 +8,12 @@ draft: false
 
 コンビニのレジ横で長年見かけてきた「キレートレモン」。あのブランドが展開している炭酸入りの「Wレモン」を、隅から隅まで見ていく。すっぱい系飲料の中でも際立って酸味が強いという評判が気になっていた一本だ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
-<img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン">
-<span class="product-banner-info">
-<span class="product-banner-name">キレートレモン Wレモン 炭酸飲料 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
+<img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン" width="596" height="596" loading="lazy">
 </a>
+<figcaption>キレートレモン Wレモン 炭酸飲料 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -32,13 +31,12 @@ Wレモンという名前の通り、通常のキレートレモンよりレモ�
 
 炭酸の強さについては、正直そこまで強烈ではない。酸味と苦みが先に来る分、炭酸の刺激は脇役に回っている印象で、強炭酸を期待して開けると拍子抜けするかもしれない。逆に、炭酸の刺激よりも酸味そのものを楽しみたい人には向いている設計だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
-<img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン">
-<span class="product-banner-info">
-<span class="product-banner-name">キレートレモン Wレモン 炭酸飲料 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
+<img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン" width="596" height="596" loading="lazy">
 </a>
+<figcaption>キレートレモン Wレモン 炭酸飲料 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## どんな場面で飲むか
 

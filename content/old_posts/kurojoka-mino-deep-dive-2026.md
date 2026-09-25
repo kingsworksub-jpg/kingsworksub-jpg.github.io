@@ -8,13 +8,12 @@ draft: false
 
 「ちょか」という響きだけを聞くと、酒器というより丸っこい小動物の名前のように思えてしまう。実際の姿もどこか愛嬌があって、そろばん玉のようにふっくらした胴に、つると注ぎ口が付いた黒い急須型の器だ。この黒千代香(くろぢょか)は、焼酎を直火にかけてじっくり燗をつけるための、鹿児島生まれの伝統的な酒器を、岐阜の美濃焼で作り直した一本になる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
-<img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット">
-<span class="product-banner-info">
-<span class="product-banner-name">国産美濃焼 黒千代香 2合セット</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
+<img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット" width="1280" height="960" loading="lazy">
 </a>
+<figcaption>国産美濃焼 黒千代香 2合セット<span class="credit"><a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -58,13 +57,12 @@ draft: false
 
 整理すると、黒千代香は「器ごと味に関与させる、手間のかかる伝統的なスタイル」、ちろりは「手早く均一に燗をつける実用スタイル」、電気酒燗器は「温度管理と利便性を優先する現代的なスタイル」というふうに、三者三様の役割分担になっている。手間を楽しみたい夜は黒千代香、とにかく早く一杯やりたい夜はちろりや電気式、という使い分けが現実的なところだと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
-<img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット">
-<span class="product-banner-info">
-<span class="product-banner-name">国産美濃焼 黒千代香 2合セット</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
+<img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット" width="1280" height="960" loading="lazy">
 </a>
+<figcaption>国産美濃焼 黒千代香 2合セット<span class="credit"><a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## サイズ・価格・現行性
 

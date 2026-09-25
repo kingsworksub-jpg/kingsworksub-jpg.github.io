@@ -8,13 +8,12 @@ draft: false
 
 ジョニーウォーカーに次ぐ世界2位の販売量を誇るスコッチブランド。ブランド全体の売上の約9割を占めるという主力商品、バランタイン ファイネスを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
-<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス">
-<span class="product-banner-info">
-<span class="product-banner-name">バランタイン ファイネス</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
 </a>
+<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -38,13 +37,12 @@ draft: false
 
 実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
-<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス">
-<span class="product-banner-info">
-<span class="product-banner-name">バランタイン ファイネス</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
 </a>
+<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

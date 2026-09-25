@@ -8,13 +8,12 @@ draft: false
 
 表面いっぱいに白い粒が並び、そこに金色の蔓草が這っている。石川県が誇る色絵磁器、九谷焼の「ぐい呑み 白粒鉄仙(しろつぶてっせん)」を見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
-<img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙">
-<span class="product-banner-info">
-<span class="product-banner-name">和座の蔵 九谷焼 ぐい呑み 白粒鉄仙</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
+<img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
 </a>
+<figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -42,13 +41,12 @@ draft: false
 
 徳利や片口とセットで使う小さな酒盃という立ち位置はどちらも共通していて、陶器製は熱伝導が穏やかなぶん、熱燗にも冷酒にも使いやすい。ガラスや金属の器に比べて口当たりが柔らかいのも、陶器の酒器ならではの良さだと思う。同じ意匠のシリーズを見ると、径5.5cm前後、高さ5cm前後というのがこのあたりの標準的なサイズ感のようで、手のひらに収まる小さな器の中に、加飾の手間だけはしっかり詰め込まれている格好になる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
-<img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙">
-<span class="product-banner-info">
-<span class="product-banner-name">和座の蔵 九谷焼 ぐい呑み 白粒鉄仙</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
+<img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
 </a>
+<figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 電子レンジ・食洗機はNG — 手洗いが基本
 

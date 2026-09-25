@@ -8,13 +8,12 @@ draft: false
 
 錫、ガラス、と続けて器を見てきたところで、今回は毛色の違う一客を取り上げる。KEITHのチタン製おちょこ「Ti9304」。もともとは中国の白酒(バイジュウ)用に設計されたショットグラスだが、日本酒のおちょことして使う前提で眺めていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
-<img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304">
-<span class="product-banner-info">
-<span class="product-banner-name">KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
+<img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
 </a>
+<figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -48,13 +47,12 @@ Ti9304は単層(シングルウォール)構造なので、熱いお酒を注げ
 
 熱燗・冷酒のどちらにも対応できる懐の広さも美点で、陶器やガラスのように用途を選ばない。ただし雰囲気作りという点では、装飾性のある陶器や漆器には及ばない。あくまで実用一辺倒の道具として割り切って使うのが向いていると思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
-<img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304">
-<span class="product-banner-info">
-<span class="product-banner-name">KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
+<img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
 </a>
+<figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格と入手性 — 並行輸入の可能性も踏まえて
 

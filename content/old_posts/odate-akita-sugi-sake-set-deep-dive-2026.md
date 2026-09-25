@@ -8,13 +8,12 @@ draft: false
 
 酒器といえばガラスや陶磁器、金属を思い浮かべることが多いが、木でできた徳利とお猪口もある。秋田県大館市の大館工芸社が作る「秋田杉 酒器3点セット」を、今回は隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
-<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット">
-<span class="product-banner-info">
-<span class="product-banner-name">大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
+<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" width="550" height="366" loading="lazy">
 </a>
+<figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -44,13 +43,12 @@ draft: false
 
 ## 使い方と手入れの注意点
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
-<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット">
-<span class="product-banner-info">
-<span class="product-banner-name">大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
+<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" width="550" height="366" loading="lazy">
 </a>
+<figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 洗い方は、使用後に洗剤とスポンジで洗い、乾いた布で水気を拭き取ってからしっかり乾燥させるのが基本になる。曲げわっぱ全般に言えることだが、電子レンジと食器洗浄機は使えない。急激な乾燥や直射日光も木を反らせたり割れの原因になったりするので、風通しの良い場所で自然乾燥させるのが無難だ。
 

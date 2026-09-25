@@ -8,13 +8,12 @@ draft: false
 
 Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後継)を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
-<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT">
-<span class="product-banner-info">
-<span class="product-banner-name">Sony PS-LX3BT</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
 </a>
+<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -44,13 +43,12 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 
 弱点としては、プラスチックが目立つ筐体の質感がスペック(アルミプラッター・アーム)に見合っていないと感じられる点、カートリッジのアップグレード経路が無く、Sony純正のスタイラス交換に縛られる点。PS-LX3BTについては、価格の高さが最大の弱点として挙げられることが多い。より安く、より選択肢の多いBluetoothターンテーブルが増えている市場において、この価格でこのモデルを積極的に勧めにくい、という厳しい評価も見られた。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
-<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT">
-<span class="product-banner-info">
-<span class="product-banner-name">Sony PS-LX3BT</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
 </a>
+<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

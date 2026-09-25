@@ -8,13 +8,12 @@ draft: false
 
 1795年創業、7世代・230年超の歴史を持つケンタッキーの老舗蒸溜所が手がける看板商品。年間販売数量で世界のバーボン市場トップに立つジムビーム ホワイトを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
-<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト">
-<span class="product-banner-info">
-<span class="product-banner-name">ジムビーム ホワイト</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
 </a>
+<figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -40,13 +39,12 @@ draft: false
 
 実勢価格は700mlで1,100〜1,800円程度。1,000〜1,750ml展開もあり、まとめ買いすればさらに単価が下がる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
-<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト">
-<span class="product-banner-info">
-<span class="product-banner-name">ジムビーム ホワイト</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
 </a>
+<figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

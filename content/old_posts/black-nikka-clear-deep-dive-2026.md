@@ -8,13 +8,12 @@ draft: false
 
 1956年発売の「ブラックニッカ」シリーズの中でも、もっとも軽くもっとも安いのがこのクリア。実勢価格が1,000円を切ることも珍しくない一本を隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
-<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア">
-<span class="product-banner-info">
-<span class="product-banner-name">ブラックニッカ クリア</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
 </a>
+<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -38,13 +37,12 @@ draft: false
 
 メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
-<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア">
-<span class="product-banner-info">
-<span class="product-banner-name">ブラックニッカ クリア</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
 </a>
+<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

@@ -8,13 +8,12 @@ draft: false
 
 スーパーや業務スーパーの棚でよく見かける「神戸居留地」の炭酸水。缶190mlという飲み切りサイズの強炭酸水「スパークリングウォーター プレーン」を、隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
-<img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml">
-<span class="product-banner-info">
-<span class="product-banner-name">神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
+<img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml" width="800" height="800" loading="lazy">
 </a>
+<figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -34,13 +33,12 @@ draft: false
 
 一方で、まとめ買いをするとなると30本という本数はそれなりにかさばるし、缶を何度も開け閉めする手間は当然ペットボトルより増える。単価計算では大容量ペットボトルの方が割安になりやすい面もあるので、「毎回きっちり飲み切りたい派」か「まとめて作り置きしたい派」かで評価が分かれるところだろう。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
-<img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml">
-<span class="product-banner-info">
-<span class="product-banner-name">神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
+<img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml" width="800" height="800" loading="lazy">
 </a>
+<figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 炭酸の強さと味わい
 

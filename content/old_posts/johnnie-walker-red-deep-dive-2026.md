@@ -8,13 +8,12 @@ draft: false
 
 世界で最も売れているブレンデッドスコッチウイスキーという看板を持ちながら、実勢1,000円台で買える一本。同ブランドの12年熟成「ブラックラベル」とは違う方向性を持つジョニーウォーカー レッドラベルを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
-<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル">
-<span class="product-banner-info">
-<span class="product-banner-name">ジョニーウォーカー レッドラベル</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
 </a>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -34,13 +33,12 @@ draft: false
 
 実勢価格は700mlで1,100〜1,800円程度。200ml・700ml・1L展開があり、キリンビールが日本国内の輸入・販売を担当している。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
-<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル">
-<span class="product-banner-info">
-<span class="product-banner-name">ジョニーウォーカー レッドラベル</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
 </a>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 

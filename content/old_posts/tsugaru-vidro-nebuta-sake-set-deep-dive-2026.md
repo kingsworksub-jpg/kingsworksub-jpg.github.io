@@ -8,13 +8,12 @@ draft: false
 
 金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。片口と盃のペアで、色そのものが主役になっている道具だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット">
-<span class="product-banner-info">
-<span class="product-banner-name">アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -42,13 +41,12 @@ NEBUTAシリーズは、その名の通り青森ねぶた祭りをモチーフ�
 
 冷酒との相性という点では、このセットはむしろ強みを発揮する。色ガラスは光を通したときに一番きれいに見える道具で、日の光や照明にかざすとグラデーションが浮かび上がる。冷たい日本酒を注いで、氷を思わせる涼しげな色合いと一緒に味わう使い方が、このガラスの発色を最も活かせる飲み方だと感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット">
-<span class="product-banner-info">
-<span class="product-banner-name">アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
+<img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## アデリアというブランドの中での位置づけ
 

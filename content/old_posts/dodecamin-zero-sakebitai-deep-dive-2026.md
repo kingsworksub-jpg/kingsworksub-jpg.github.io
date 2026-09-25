@@ -8,13 +8,12 @@ draft: false
 
 「ドデカミンのゼロが好きだと叫びたい」——正直、初めてこの商品名を見たとき二度見した。長い。しかも意味深に語尾が「叫びたい」で終わっている。この長い名前を背負ったゼロカロリー版ドデカミンを、隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">
-<img src="/images/products/dodecamin-zero.png" alt="ドデカミンのゼロが好きだと叫びたい">
-<span class="product-banner-info">
-<span class="product-banner-name">ドデカミンのゼロが好きだと叫びたい 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">
+<img src="/images/products/dodecamin-zero.png" alt="ドデカミンのゼロが好きだと叫びたい" width="90" height="280" loading="lazy">
 </a>
+<figcaption>ドデカミンのゼロが好きだと叫びたい 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -48,13 +47,12 @@ draft: false
 
 ## 価格・入手性
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">
-<img src="/images/products/dodecamin-zero.png" alt="ドデカミンのゼロが好きだと叫びたい">
-<span class="product-banner-info">
-<span class="product-banner-name">ドデカミンのゼロが好きだと叫びたい 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">
+<img src="/images/products/dodecamin-zero.png" alt="ドデカミンのゼロが好きだと叫びたい" width="90" height="280" loading="lazy">
 </a>
+<figcaption>ドデカミンのゼロが好きだと叫びたい 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 Amazonでは500mlペットボトル×24本のケースで1,999円前後、1本あたり80円台という計算になる。楽天やヨドバシ.comでも同じ24本ケースの取り扱いがあり、コンビニでの単品購入(1本200円前後が相場)よりケース買いのほうが単価は明確に下がる。名前が毎年変わるせいで検索するときに少し迷うが、パッケージの「ドデカミン」ロゴと赤いボトルデザインを目印にすれば見分けはつく。生産終了やブランド縮小の気配はなく、むしろ改名のたびに話題を作り続けている印象で、しばらくはこの「名前だけ変わる」路線が続きそうだ。
 

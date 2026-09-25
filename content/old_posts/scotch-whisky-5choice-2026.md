@@ -22,13 +22,12 @@ draft: false
 
 ## グレンフィディック12年 — 優等生すぎる、という贅沢な悩み
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22">
-<img src="/images/products/glenfiddich-12.jpg" alt="グレンフィディック12年">
-<span class="product-banner-info">
-<span class="product-banner-name">グレンフィディック12年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22">
+<img src="/images/products/glenfiddich-12.jpg" alt="グレンフィディック12年" width="498" height="1024" loading="lazy">
 </a>
+<figcaption>グレンフィディック12年<span class="credit"><a href="https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![グレンフィディック12年の使いやすさレーダーチャート](/images/radar/glenfiddich-12.svg)
 
@@ -42,13 +41,12 @@ draft: false
 
 ## ザ・マッカラン12年 ダブルカスク — 名声に見合う値段、という現実
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0D8PCRQHG?tag=nakimoto1-22">
-<img src="/images/products/macallan-12-doublecask.jpg" alt="マッカラン12年 ダブルカスク">
-<span class="product-banner-info">
-<span class="product-banner-name">マッカラン12年 ダブルカスク</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0D8PCRQHG?tag=nakimoto1-22">
+<img src="/images/products/macallan-12-doublecask.jpg" alt="マッカラン12年 ダブルカスク" width="633" height="1024" loading="lazy">
 </a>
+<figcaption>マッカラン12年 ダブルカスク<span class="credit"><a href="https://www.amazon.co.jp/dp/B0D8PCRQHG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![マッカラン12年 ダブルカスクの使いやすさレーダーチャート](/images/radar/macallan-12-doublecask.svg)
 
@@ -62,13 +60,12 @@ draft: false
 
 ## ラフロイグ10年 — 好き嫌いを試される、初心者キラー
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22">
-<img src="/images/products/laphroaig-10.png" alt="ラフロイグ10年">
-<span class="product-banner-info">
-<span class="product-banner-name">ラフロイグ10年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22">
+<img src="/images/products/laphroaig-10.png" alt="ラフロイグ10年" width="1080" height="1080" loading="lazy">
 </a>
+<figcaption>ラフロイグ10年<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![ラフロイグ10年の使いやすさレーダーチャート](/images/radar/laphroaig-10.svg)
 
@@ -82,13 +79,12 @@ draft: false
 
 ## ジョニーウォーカー ブラックラベル — 隙のない、みんなの相棒
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0B6F398ZJ?tag=nakimoto1-22">
-<img src="/images/products/johnnie-walker-black.webp" alt="ジョニーウォーカー ブラックラベル">
-<span class="product-banner-info">
-<span class="product-banner-name">ジョニーウォーカー ブラックラベル</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0B6F398ZJ?tag=nakimoto1-22">
+<img src="/images/products/johnnie-walker-black.webp" alt="ジョニーウォーカー ブラックラベル" width="1440" height="1440" loading="lazy">
 </a>
+<figcaption>ジョニーウォーカー ブラックラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B0B6F398ZJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![ジョニーウォーカー ブラックラベルの使いやすさレーダーチャート](/images/radar/johnnie-walker-black.svg)
 
@@ -102,13 +98,12 @@ draft: false
 
 ## ハイランドパーク12年 — 弱点を探す方が難しい、隠れた優等生
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B096TPP9YR?tag=nakimoto1-22">
-<img src="/images/products/highland-park-12.jpg" alt="ハイランドパーク12年">
-<span class="product-banner-info">
-<span class="product-banner-name">ハイランドパーク12年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B096TPP9YR?tag=nakimoto1-22">
+<img src="/images/products/highland-park-12.jpg" alt="ハイランドパーク12年" width="874" height="1024" loading="lazy">
 </a>
+<figcaption>ハイランドパーク12年<span class="credit"><a href="https://www.amazon.co.jp/dp/B096TPP9YR?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ![ハイランドパーク12年の使いやすさレーダーチャート](/images/radar/highland-park-12.svg)
 

@@ -8,13 +8,12 @@ draft: false
 
 黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">
-<img src="/images/products/green-cola.jpg" alt="green cola(グリーンコーラ)">
-<span class="product-banner-info">
-<span class="product-banner-name">green cola(グリーンコーラ) 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">
+<img src="/images/products/green-cola.jpg" alt="green cola(グリーンコーラ)" width="1351" height="4199" loading="lazy">
 </a>
+<figcaption>green cola(グリーンコーラ) 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -40,13 +39,12 @@ draft: false
 
 価格はコンビニでの単品購入が1本200円(税抜)前後、税込だと216円程度が相場。まとめ買いの24本ケースだと1本あたりの単価はぐっと下がる計算になる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">
-<img src="/images/products/green-cola.jpg" alt="green cola(グリーンコーラ)">
-<span class="product-banner-info">
-<span class="product-banner-name">green cola(グリーンコーラ) 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">
+<img src="/images/products/green-cola.jpg" alt="green cola(グリーンコーラ)" width="1351" height="4199" loading="lazy">
 </a>
+<figcaption>green cola(グリーンコーラ) 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 流通はコンビニ・スーパー・Amazon・楽天と一通り揃っており、2026年8月の全国展開からまだ日が浅いこともあって、生産終了や取り扱い縮小の気配はまったくない。むしろ全国展開直後の3日間で60万ケース(1,440万本)を売り上げたというから、コーラ市場という激戦区に新規ブランドとして食い込めている部類だと思う。ギリシャ発のブランドが日本の炭酸棚にどこまで定着するか、しばらく追いかけてみたい一本だ。
 

@@ -8,13 +8,12 @@ draft: false
 
 缶コーヒーで名前を覚えた人が多いであろう「サンガリア」が出している無糖の炭酸水、「きれいな炭酸水」。派手な訴求も強炭酸を売りにする雰囲気もなく、静かに棚の一角に収まっているこの一本を、隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">
-<img src="/images/products/sangaria-kireina-tansansui.jpg" alt="サンガリア きれいな炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">サンガリア きれいな炭酸水 185ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">
+<img src="/images/products/sangaria-kireina-tansansui.jpg" alt="サンガリア きれいな炭酸水" width="108" height="135" loading="lazy">
 </a>
+<figcaption>サンガリア きれいな炭酸水 185ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -32,13 +31,12 @@ draft: false
 
 甘みも香りも一切ないので、味の好き嫌いが分かれる要素がほとんどない。これは物足りなさにもなり得るが、「炭酸水はとにかく安く、たくさん常備しておきたい」という使い方には、むしろ好都合な性格だと感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">
-<img src="/images/products/sangaria-kireina-tansansui.jpg" alt="サンガリア きれいな炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">サンガリア きれいな炭酸水 185ml×30本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">
+<img src="/images/products/sangaria-kireina-tansansui.jpg" alt="サンガリア きれいな炭酸水" width="108" height="135" loading="lazy">
 </a>
+<figcaption>サンガリア きれいな炭酸水 185ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 似た立ち位置の炭酸水との違い
 

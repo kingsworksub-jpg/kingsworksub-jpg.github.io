@@ -8,13 +8,12 @@ draft: false
 
 バーで「タンサンで」と頼めば、大抵このボトルが出てくる。1904年発売、120年以上ハイボールの相棒を務め続けている無糖の強炭酸水、ウィルキンソン タンサンを隅々まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン">
-<span class="product-banner-info">
-<span class="product-banner-name">ウィルキンソン タンサン</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
+<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
 </a>
+<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -28,13 +27,12 @@ draft: false
 
 公式ではガス圧6容と明記されていて、キャッチコピーも「刺激、強め。」。原材料は炭酸水のみ(水と炭酸ガス)で、無糖・カロリーゼロ。余計な甘みが一切ない分、口に含んだ瞬間の刺激がダイレクトに来る設計だと感じる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン">
-<span class="product-banner-info">
-<span class="product-banner-name">ウィルキンソン タンサン</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
+<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
 </a>
+<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 クセのないクリアな味わいという評判はその通りだと思う一方、炭酸の強さの感じ方には個人差もあるようで、「思ったより強くない」という声も見かけた。とはいえ国内の炭酸水の中では強めの部類に位置づけられることが多い一本だ。
 
@@ -50,13 +48,12 @@ draft: false
 
 500ml×24本のケースで、Amazon.co.jpの通常価格は2,500円前後、クーポン適用時は1,800円台まで下がることもある。楽天市場では1,700円台からの出品も見られ、コンビニでの単品価格は500mlあたり160〜170円程度が目安になる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン">
-<span class="product-banner-info">
-<span class="product-banner-name">ウィルキンソン タンサン</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
+<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
 </a>
+<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 2026年時点でも生産終了の情報はなく、むしろ新フレーバーの投入が続いていて、ブランドとしての勢いは衰えていないようだ。
 

@@ -8,13 +8,12 @@ draft: false
 
 夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL SPARK」からは以前グレープソーダを取り上げたが、同じシリーズの「ラムネ」は人気投票を勝ち抜いて定番入りした一本だと知り、改めて隅々まで見ていくことにした。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ">
-<span class="product-banner-info">
-<span class="product-banner-name">CRYSTAL SPARK ラムネ</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
+<img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ" width="700" height="700" loading="lazy">
 </a>
+<figcaption>CRYSTAL SPARK ラムネ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -30,13 +29,12 @@ CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリス�
 
 強炭酸を謳う分、ガスの刺激もかなりしっかりしている。甘い香りに反してうっすら酸味を感じる後味は、いかにも「無糖の清涼飲料水」らしい仕上がりで、糖分を気にせず気軽に飲めるのがありがたい。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ">
-<span class="product-banner-info">
-<span class="product-banner-name">CRYSTAL SPARK ラムネ</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
+<img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ" width="700" height="700" loading="lazy">
 </a>
+<figcaption>CRYSTAL SPARK ラムネ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 割材としての立ち位置と、価格・入手性
 

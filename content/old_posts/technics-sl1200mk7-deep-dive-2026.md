@@ -8,13 +8,12 @@ draft: false
 
 Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
-<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7">
-<span class="product-banner-info">
-<span class="product-banner-name">Technics SL-1200MK7</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -56,13 +55,12 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 
 一方で弱点として気になるのは、価格の高さ(米国では発売時999ドルから2026年8月時点で1,299.99ドルまで値上がりしている)、カートリッジが別売りであること、フォノプリアンプが内蔵されていないこと、オートリターン・オートストップの無い完全マニュアル操作であること、USB出力やデジタル録音機能が無いこと、ダストカバーのヒンジやオーバーハング調整ゲージが省かれていること。旧来のTechnics製品と比べると素材のコストダウンがわずかに感じられる箇所もあり、スタート/ストップボタンの頼りなさも正直気になった。より安価なAT-LP120X(実売59,900円前後)がUSB出力込みで近い基本機能を提供していることを踏まえると、価格に対する価値をどう見るかは人によって分かれるところだろう。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
-<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7">
-<span class="product-banner-info">
-<span class="product-banner-name">Technics SL-1200MK7</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
 </a>
+<figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 価格・現行性
 

@@ -8,13 +8,12 @@ draft: false
 
 「片口(かたくち)」と聞いて、すぐに形が思い浮かぶ人はそう多くないと思う。もともとは醤油や出汁、酢といった液体を注ぐための台所道具で、酒器の主役というよりは裏方の存在だった。それがいつのまにか、日本酒の香りを立たせるための器として食卓に上がるようになった。東洋佐々木ガラスが作るこの片口は、そんな器の役割の移り変わりを、ガラスという素材でわかりやすく体現している一本だと思う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
-<img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml">
-<span class="product-banner-info">
-<span class="product-banner-name">東洋佐々木ガラス 片口 冷酒カラフェ 240ml</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
+<img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml" width="610" height="920" loading="lazy">
 </a>
+<figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -44,13 +43,12 @@ draft: false
 
 なお業務用としてもよく流通していて、48個セットのケース販売で飲食店・酒販店向けに卸されている実績もある。家庭用の単品としてだけでなく、日本酒バーのような場でも使われている器だと考えると、実用性の高さにも納得がいく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
-<img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml">
-<span class="product-banner-info">
-<span class="product-banner-name">東洋佐々木ガラス 片口 冷酒カラフェ 240ml</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
+<img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml" width="610" height="920" loading="lazy">
 </a>
+<figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ## 東洋佐々木ガラスという会社
 

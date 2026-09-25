@@ -8,13 +8,12 @@ draft: false
 
 コーラでもサイダーでもプレーンな炭酸水でもない、「ホップの香りと苦味だけを炭酸水に閉じ込める」という発想の飲み物がある。ポッカサッポロの「北海道富良野ホップ炭酸水」だ。ビールの主原料であるホップを使いながらアルコールもビールらしさも狙わない、ちょっと変わった立ち位置の一本を隅から隅まで見ていく。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">
-<img src="/images/products/pokka-furano-hop-soda.jpg" alt="北海道富良野ホップ炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">
+<img src="/images/products/pokka-furano-hop-soda.jpg" alt="北海道富良野ホップ炭酸水" width="1040" height="1040" loading="lazy">
 </a>
+<figcaption>ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 ---
 
@@ -46,13 +45,12 @@ draft: false
 
 500ml PETボトル単品の希望小売価格はおよそ140〜180円(税別)で、24本入りケースの実勢価格は3,000円前後が相場。今回参照したAmazonの取り扱い(24本入り)もこの価格帯に収まっている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">
-<img src="/images/products/pokka-furano-hop-soda.jpg" alt="北海道富良野ホップ炭酸水">
-<span class="product-banner-info">
-<span class="product-banner-name">ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">
+<img src="/images/products/pokka-furano-hop-soda.jpg" alt="北海道富良野ホップ炭酸水" width="1040" height="1040" loading="lazy">
 </a>
+<figcaption>ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+</figure>
 
 流通はスーパー・ドラッグストア・通販と一通り揃っていて、2024年の全国発売から2年近く経った今も販売数量が伸びているところを見ると、生産終了や取り扱い縮小の気配は感じられない。ビールの主原料であるホップを、あえてビールから切り離して主役に据えるという発想自体が新鮮で、休肝日のお供や割り材として長く手元に置いておきたくなる一本だと思う。
 
