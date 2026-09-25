@@ -1,5 +1,7 @@
 ---
 title: "Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思想"
+description: "Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を隅から隅まで見ていく。"
+images: ["/images/og/rega-planar3-deep-dive-2026.jpg"]
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Rega", "Planar 3", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/rega-planar3-deep-dive-2026/
 ---
+
 
 Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を隅から隅まで見ていく。
 

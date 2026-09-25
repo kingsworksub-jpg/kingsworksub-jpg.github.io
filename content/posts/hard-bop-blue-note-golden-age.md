@@ -1,11 +1,13 @@
 ---
 title: "ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-60年代の名盤が鳴らした熱"
-description: "アート・ブレイキーとブルー・ノートが鳴らした、1950〜60年代ハードバップ黄金期の熱と名盤をひもとく。"
+description: "「ハードバップ」と聞いて、どんな音を思い浮かべるだろうか。高らかに吹き鳴らされるホーン、たたみかけるスネアの切れ味。それなのに、なぜか鼻歌を口ずさみたくなるような、歌心のあるメロディ。"
+images: ["/images/og/hard-bop-blue-note-golden-age.jpg"]
 date: 2026-09-24T08:30:00+09:00
 draft: false
 categories: ["music"]
 tags: ["ハードバップ", "Blue Note", "Art Blakey", "Jazz Messengers", "モダンジャズ"]
 ---
+
 
 <figure class="photo photo--left">
   <img src="/images/hard-bop-blue-note/art-blakey-portrait.jpg" alt="1960年代のアート・ブレイキーのスタジオポートレート" width="1086" height="1200" loading="lazy">

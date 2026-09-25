@@ -1,5 +1,7 @@
 ---
 title: "サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか"
+description: "各社は口を揃えて「これ一つで、あらゆる音があなたのものに」と言う。2026年現在よく名前が挙がる5本——Kontakt 8、Battery 4、TAL-Sampler、UVI Falcon、Serato Sample——を比較していく。"
+images: ["/images/og/sampler-5choice-2026.jpg"]
 date: 2026-09-15
 categories: ["software"]
 tags: ["サンプラー", "DTM", "比較", "Kontakt", "Battery", "TAL-Sampler", "UVI Falcon", "Serato Sample"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/sampler-5choice-2026/
 ---
+
 
 各社は口を揃えて「これ一つで、あらゆる音があなたのものに」と言う。2026年現在よく名前が挙がる5本——**Kontakt 8**、**Battery 4**、**TAL-Sampler**、**UVI Falcon**、**Serato Sample**——を比較していく。
 

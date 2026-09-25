@@ -1,5 +1,7 @@
 ---
 title: "デュワーズ ホワイトラベルを隅から隅まで味わい尽くす — 米国No.1スコッチの二段熟成"
+description: "1846年John Dewar創業、White Labelは1899年発売。米国で最も売れているスコッチウイスキーという実績を持つ一本、デュワーズ ホワイトラベルを隅々まで見ていく。"
+images: ["/images/og/dewars-white-label-deep-dive-2026.jpg"]
 date: 2026-09-17
 categories: ["whisky"]
 tags: ["デュワーズ", "スコッチ", "ウイスキー", "機材", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/dewars-white-label-deep-dive-2026/
 ---
+
 
 1846年John Dewar創業、White Labelは1899年発売。米国で最も売れているスコッチウイスキーという実績を持つ一本、デュワーズ ホワイトラベルを隅々まで見ていく。
 

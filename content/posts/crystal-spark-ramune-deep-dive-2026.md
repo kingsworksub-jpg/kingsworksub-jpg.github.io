@@ -1,5 +1,7 @@
 ---
 title: "CRYSTAL SPARK ラムネを隅から隅まで味わい尽くす — 果汁ゼロで蘇る、あの瓶の記憶"
+description: "夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL"
+images: ["/images/og/crystal-spark-ramune-deep-dive-2026.jpg"]
 date: 2026-09-19
 categories: ["drink"]
 tags: ["CRYSTAL SPARK", "クリスタルスパーク", "アイリスオーヤマ", "ラムネ", "炭酸水", "飲料", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/crystal-spark-ramune-deep-dive-2026/
 ---
+
 
 夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL SPARK」からは以前グレープソーダを取り上げたが、同じシリーズの「ラムネ」は人気投票を勝ち抜いて定番入りした一本だと知り、改めて隅々まで見ていくことにした。
 

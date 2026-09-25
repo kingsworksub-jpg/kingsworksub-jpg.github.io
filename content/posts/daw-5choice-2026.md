@@ -1,5 +1,7 @@
 ---
 title: "DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか"
+description: "各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——Logic Pro、FL Studio、Ableton"
+images: ["/images/og/daw-5choice-2026.jpg"]
 date: 2026-09-14
 categories: ["software"]
 tags: ["DAW", "DTM", "比較", "Logic Pro", "FL Studio", "Ableton Live", "Cubase", "Fender Studio Pro"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/daw-5choice-2026/
 ---
+
 
 各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——**Logic Pro**、**FL Studio**、**Ableton Live**、**Cubase**、そして2026年1月に名前を変えたばかりの**Fender Studio Pro(旧Studio One)**——を比較していく。
 

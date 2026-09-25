@@ -1,11 +1,13 @@
 ---
 title: "「写真から消された5人目の男」— Héroes del Silencioのギタリスト Alan Boguslavskyが歩んだステージの軌跡"
-description: "Héroes del Silencioの「5人目の男」Alan Boguslavsky。写真に写らなかったギタリストの足跡と、2026年の復活ステージを追う。"
+description: "Héroes del Silencio。スペイン語圏ロックの金字塔にして、1990年代に世界中のスタジアムを埋めた4人組。そのラインナップはよく知られている。ボーカルのEnrique Bunbury、ギターのJuan"
+images: ["/images/og/alan-boguslavsky-stage.jpg"]
 date: 2026-09-24T07:30:00+09:00
 draft: false
 categories: ["music"]
 tags: ["Héroes del Silencio", "Alan Boguslavsky", "Bunbury", "スペイン", "ロック"]
 ---
+
 
 <figure class="photo photo--left">
   <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy">

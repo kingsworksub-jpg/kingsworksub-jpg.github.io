@@ -1,5 +1,7 @@
 ---
 title: "オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人"
+description: "各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——Focusrite Scarlett 2i2(4th Gen)、Universal Audio Volt 276、RME Babyface Pro"
+images: ["/images/og/audio-interface-5choice-2026.jpg"]
 date: 2026-09-15
 categories: ["gear"]
 tags: ["オーディオインターフェース", "機材", "比較", "Scarlett", "Volt", "RME", "AG03MK2", "UR22C"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/audio-interface-5choice-2026/
 ---
+
 
 各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——**Focusrite Scarlett 2i2(4th Gen)**、**Universal Audio Volt 276**、**RME Babyface Pro FS**、**Yamaha AG03MK2**、**YAMAHA URX22C(旧Steinberg UR22C)**——を比較していく。
 

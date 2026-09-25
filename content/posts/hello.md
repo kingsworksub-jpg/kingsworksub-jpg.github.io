@@ -1,11 +1,13 @@
 ---
 title: "はじめまして — Studio Notes について"
-description: "Studio Notesのブログ概要。音楽・機材・暮らしの道具をテーマにする理由と、ブログのコンセプト紹介。"
+description: "ブログを始めてみることにした。音響機材やDTMソフトのことを調べるのがもともと好きで、せっかくなら記録として残しておこうと思ったのがきっかけだ。当ブログ「Studio"
+images: ["/images/og/hello.jpg"]
 date: 2026-09-14
 categories: ["setup"]
 tags: ["ブログ"]
 draft: false
 ---
+
 
 はじめまして。
 

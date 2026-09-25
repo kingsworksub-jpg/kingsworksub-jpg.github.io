@@ -1,5 +1,7 @@
 ---
 title: "MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手"
+description: "各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——Komplete Kontrol S61 MK3、Akai MPK Mini MK4、Arturia KeyLab Essential"
+images: ["/images/og/midi-keyboard-5choice-2026.jpg"]
 date: 2026-09-15
 categories: ["gear"]
 tags: ["MIDIキーボード", "機材", "比較", "Komplete Kontrol", "MPK Mini", "KeyLab Essential", "Launchkey", "A-88MKII"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/midi-keyboard-5choice-2026/
 ---
+
 
 各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を比較していく。
 

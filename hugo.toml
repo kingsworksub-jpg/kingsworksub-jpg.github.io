@@ -19,6 +19,7 @@ pygmentsUseClasses = true
   env = 'production'
   description = 'Studio Notes — ジャズ音楽を軸に、DTM・機材レビューや暮らしの道具を綴るブログ'
   author = 'kingsworksub-jpg'
+  images = ['/images/og/site-default.jpg']
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowShareButtons = true

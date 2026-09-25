@@ -1,5 +1,7 @@
 ---
 title: "アデリア 津軽びいどろ NEBUTA 酒器セットを隅から隅まで味わい尽くす — ねぶたの夜を、盃の中に閉じ込める"
+description: "金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。"
+images: ["/images/og/tsugaru-vidro-nebuta-sake-set-deep-dive-2026.jpg"]
 date: 2026-09-20
 categories: ["sakeware"]
 tags: ["津軽びいどろ", "アデリア", "ガラス", "青森", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/
 ---
+
 
 金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。片口と盃のペアで、色そのものが主役になっている道具だと思う。
 

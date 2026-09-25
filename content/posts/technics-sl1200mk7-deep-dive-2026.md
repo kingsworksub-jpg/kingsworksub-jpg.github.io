@@ -1,5 +1,7 @@
 ---
 title: "Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機"
+description: "Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。"
+images: ["/images/og/technics-sl1200mk7-deep-dive-2026.jpg"]
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Technics", "SL-1200MK7", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/technics-sl1200mk7-deep-dive-2026/
 ---
+
 
 Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。
 

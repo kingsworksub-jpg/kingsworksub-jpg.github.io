@@ -1,5 +1,7 @@
 ---
 title: "Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気軽に鳴らしたい人への回答"
+description: "Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後"
+images: ["/images/og/sony-pslx3bt-deep-dive-2026.jpg"]
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Sony", "PS-LX3BT", "PS-LX310BT", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/sony-pslx3bt-deep-dive-2026/
 ---
+
 
 Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後継)を隅から隅まで見ていく。
 

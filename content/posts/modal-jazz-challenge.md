@@ -1,11 +1,13 @@
 ---
 title: "モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音"
-description: "『Kind of Blue』から『A Love Supreme』へ。コード進行を捨て、旋法の上で語り始めたモーダル・ジャズの挑戦をたどる。"
+description: "ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。"
+images: ["/images/og/modal-jazz-challenge.jpg"]
 date: 2026-09-24T10:00:00+09:00
 draft: false
 categories: ["music"]
 tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", "A Love Supreme"]
 ---
+
 
 <figure class="photo photo--left">
   <img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy">

@@ -1,5 +1,7 @@
 ---
 title: "green cola(グリーンコーラ)を隅から隅まで味わい尽くす — ギリシャ生まれ、日本の棚に馴染む黒い一本"
+description: "黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。"
+images: ["/images/og/green-cola-deep-dive-2026.jpg"]
 date: 2026-09-20
 categories: ["drink"]
 tags: ["green cola", "グリーンコーラ", "アサヒ飲料", "炭酸飲料", "コーラ", "レビュー"]
@@ -7,6 +9,7 @@ draft: false
 aliases:
 - /old_posts/green-cola-deep-dive-2026/
 ---
+
 
 黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。隅から隅まで見ていく。
 
