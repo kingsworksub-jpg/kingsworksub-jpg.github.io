@@ -1,21 +1,86 @@
 # SEO監査レポート(自動生成)
 
-生成日時: 2026-09-24T23:35:09.337212
+生成日時: 2026-09-26T02:21:15.042303
 
-対象記事数: 7 (下書き: 5)
+対象記事数: 72 (下書き: 5)
 
 下書き(本番非掲載): 2026-09-22-154310.md, 2026-09-22-155647.md, 2026-09-22-160948.md, 2026-09-22-162404.md, 2026-09-22-164455.md
 
 
 ## 記事サマリ (記事名 | 文字数 | h2/h3 | 画像数 | 内部リンク送信 | 被内部リンク)
 
-- jazz-masterpieces-beginner.md (2026-09-24T23:31:00+09:00) | 5701字 | h2=12 h3=0 | 画像4 | 内発5 | 被内5 | 「はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に」
-- jazz-instruments-guide.md (2026-09-24T22:00:00+09:00) | 3523字 | h2=4 h3=8 | 画像4 | 内発5 | 被内3 | 「ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド」
+- jazz-masterpieces-beginner.md (2026-09-24T23:31:00+09:00) | 5701字 | h2=12 h3=0 | 画像4 | 内発5 | 被内6 | 「はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に」
+- jazz-instruments-guide.md (2026-09-24T22:00:00+09:00) | 3523字 | h2=4 h3=8 | 画像4 | 内発5 | 被内4 | 「ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド」
 - modal-jazz-challenge.md (2026-09-24T10:00:00+09:00) | 4685字 | h2=6 h3=0 | 画像3 | 内発5 | 被内5 | 「モーダルジャズという挑戦 — 『Kind of Blue』から『A Love S」
 - hard-bop-blue-note-golden-age.md (2026-09-24T08:30:00+09:00) | 5632字 | h2=5 h3=0 | 画像3 | 内発5 | 被内5 | 「ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-」
 - alan-boguslavsky-stage.md (2026-09-24T07:30:00+09:00) | 4982字 | h2=9 h3=0 | 画像2 | 内発4 | 被内5 | 「「写真から消された5人目の男」— Héroes del Silencioのギタリ」
 - jazz-shoes-trend-2026.md (2026-09-23T10:30:00+09:00) | 3544字 | h2=5 h3=0 | 画像4 | 内発4 | 被内5 | 「ジャズシューズが2026年の靴トレンドを制する — バレエフラットの後釜に、19」
-- hello.md (2026-09-14) | 209字 | h2=0 h3=0 | 画像0 | 内発0 | 被内0 | 「はじめまして — Studio Notes について」
+- arita-enka-sake-set-deep-dive-2026.md (2026-09-21) | 3782字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「有田焼 炎華 酒器セットを隅から隅まで味わい尽くす — 黒い炎を宿した徳利とぐい」
+- canada-dry-tansan-strong-deep-dive-2026.md (2026-09-21) | 3648字 | h2=6 h3=0 | 画像1 | 内発4 | 被内4 | 「カナダドライ ザ・タンサン ストロングを隅から隅まで味わい尽くす — 泡だけを、」
+- dodecamin-zero-sakebitai-deep-dive-2026.md (2026-09-21) | 3055字 | h2=5 h3=0 | 画像1 | 内発4 | 被内4 | 「ドデカミンのゼロが好きだと叫びたいを隅から隅まで味わい尽くす — 名前は変わって」
+- icy-spark-canada-dry-lemon-deep-dive-2026.md (2026-09-21) | 3584字 | h2=6 h3=0 | 画像1 | 内発4 | 被内4 | 「コカ・コーラ アイシー・スパーク from カナダドライ レモンを隅から隅まで味」
+- kurojoka-mino-deep-dive-2026.md (2026-09-21) | 4268字 | h2=7 h3=0 | 画像1 | 内発3 | 被内3 | 「国産美濃焼 黒千代香を隅から隅まで味わい尽くす — 焼酎に千代の香りを移す、直火」
+- mitsuya-cider-original-deep-dive-2026.md (2026-09-21) | 3453字 | h2=5 h3=0 | 画像1 | 内発4 | 被内4 | 「三ツ矢サイダーを隅から隅まで味わい尽くす — 140年変わらない透明な甘さの正体」
+- odate-akita-sugi-sake-set-deep-dive-2026.md (2026-09-21) | 3212字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「大館工芸社 秋田杉 酒器3点セットを隅から隅まで味わい尽くす — 木曽から立ちの」
+- otsuka-match-deep-dive-2026.md (2026-09-21) | 3735字 | h2=7 h3=0 | 画像1 | 内発4 | 被内4 | 「MATCH(マッチ)を隅から隅まで味わい尽くす — 部活帰りの喉が知っている、あ」
+- toyo-sasaki-katakuchi-deep-dive-2026.md (2026-09-21) | 3290字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「東洋佐々木ガラス 片口 冷酒カラフェを隅から隅まで味わい尽くす — 注ぎ口ひとつ」
+- tsugaru-vidro-katakuchi-ajisai-deep-dive-2026.md (2026-09-21) | 3315字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「津軽びいどろ 片口あじさいを隅から隅まで味わい尽くす — 龍飛崎の紫陽花を写した」
+- tsugaru-vidro-mizubasho-sake-set-deep-dive-2026.md (2026-09-21) | 3227字 | h2=5 h3=0 | 画像1 | 内発2 | 被内2 | 「津軽びいどろ みずばしょう酒器セットを隅から隅まで味わい尽くす — 湿地に咲く白」
+- green-cola-deep-dive-2026.md (2026-09-20) | 2725字 | h2=4 h3=0 | 画像1 | 内発1 | 被内1 | 「green cola(グリーンコーラ)を隅から隅まで味わい尽くす — ギリシャ生」
+- hirota-glass-chirori-deep-dive-2026.md (2026-09-20) | 2893字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「廣田硝子 ちろりを隅から隅まで味わい尽くす — 大正の灯りを一本の耐熱ガラスに閉」
+- kiretolemon-wlemon-deep-dive-2026.md (2026-09-20) | 2996字 | h2=6 h3=0 | 画像1 | 内発4 | 被内4 | 「キレートレモン Wレモンを隅から隅まで味わい尽くす — レモン2個分の酸味に振り」
+- kobe-kyoryuchi-sparkling-water-deep-dive-2026.md (2026-09-20) | 3157字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「神戸居留地 スパークリングウォーターを隅から隅まで味わい尽くす — 缶190ml」
+- kutani-shiratsubu-tessen-guinomi-deep-dive-2026.md (2026-09-20) | 3822字 | h2=8 h3=0 | 画像1 | 内発3 | 被内3 | 「和座の蔵 九谷焼 ぐい呑み 白粒鉄仙を隅から隅まで味わい尽くす — 粒立つ白と、」
+- monster-pipeline-punch-deep-dive-2026.md (2026-09-20) | 3381字 | h2=5 h3=0 | 画像1 | 内発4 | 被内4 | 「モンスターエナジー パイプラインパンチを隅から隅まで味わい尽くす — ノースショ」
+- peacock-acf38-sake-set-deep-dive-2026.md (2026-09-20) | 3353字 | h2=7 h3=0 | 画像1 | 内発3 | 被内3 | 「ピーコック 真空二重構造 酒器セットを隅から隅まで味わい尽くす — 魔法瓶メーカ」
+- pokka-furano-hop-soda-deep-dive-2026.md (2026-09-20) | 3015字 | h2=5 h3=0 | 画像1 | 内発3 | 被内3 | 「北海道富良野ホップ炭酸水を隅から隅まで味わい尽くす — ビールでもノンアルビール」
+- real-gold-deep-dive-2026.md (2026-09-20) | 3103字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「リアルゴールドを隅から隅まで味わい尽くす — カフェインなしで元気を配る、黄金の」
+- sangaria-kireina-tansansui-deep-dive-2026.md (2026-09-20) | 2698字 | h2=5 h3=0 | 画像1 | 内発3 | 被内3 | 「サンガリア きれいな炭酸水を隅から隅まで味わい尽くす — 名古屋の低価格路線が守」
+- tajima-glass-kinpaku-fuji-sakura-deep-dive-2026.md (2026-09-20) | 3103字 | h2=7 h3=0 | 画像1 | 内発2 | 被内2 | 「田島硝子 金箔富士 冷酒杯(桜)を隅から隅まで味わい尽くす — 盃の底に、紅と金」
+- takaoka-shikki-raden-glass-sakura-deep-dive-2026.md (2026-09-20) | 3351字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「高岡漆器 螺鈿ガラス 金杯(万華鏡)桜を隅から隅まで味わい尽くす — 貝殻の虹色」
+- toyo-sasaki-carafe-variation-deep-dive-2026.md (2026-09-20) | 2895字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「東洋佐々木ガラス カラフェ・バリエーションを隅から隅まで味わい尽くす — 氷を閉」
+- tsugaru-vidro-nebuta-sake-set-deep-dive-2026.md (2026-09-20) | 3359字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「アデリア 津軽びいどろ NEBUTA 酒器セットを隅から隅まで味わい尽くす — 」
+- bodum-douro-carafe-deep-dive-2026.md (2026-09-19) | 3107字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「BODUM DOUROを隅から隅まで味わい尽くす — ドウロ渓谷のぶどう畑をまと」
+- coca-cola-zero-deep-dive-2026.md (2026-09-19) | 2967字 | h2=5 h3=0 | 画像1 | 内発1 | 被内1 | 「コカ・コーラ ゼロを隅から隅まで味わい尽くす — 罪悪感を引き算した、もうひとつ」
+- crystal-spark-ramune-deep-dive-2026.md (2026-09-19) | 2422字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「CRYSTAL SPARK ラムネを隅から隅まで味わい尽くす — 果汁ゼロで蘇る」
+- dodecamin-deep-dive-2026.md (2026-09-19) | 3399字 | h2=5 h3=0 | 画像1 | 内発4 | 被内4 | 「ドデカミンを隅から隅まで味わい尽くす — 汗と栄養素が弾ける、現場発の元気ドリン」
+- keith-ti9304-titanium-sake-cup-deep-dive-2026.md (2026-09-19) | 3567字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「KEITH 純チタン おちょこ 酒器 2個セットを隅から隅まで味わい尽くす — 」
+- nousaku-tin-sake-set-deep-dive-2026.md (2026-09-19) | 3070字 | h2=5 h3=0 | 画像1 | 内発3 | 被内3 | 「能作 本錫100%酒器セットを隅から隅まで味わい尽くす — 曲がる金属が注ぐ、や」
+- san-pellegrino-deep-dive-2026.md (2026-09-19) | 3034字 | h2=4 h3=0 | 画像1 | 内発3 | 被内3 | 「サンペレグリノを隅から隅まで味わい尽くす — ロンバルディアの地下水が、世界のテ」
+- sori-yanagi-seishu-glass-deep-dive-2026.md (2026-09-19) | 2847字 | h2=6 h3=0 | 画像1 | 内発2 | 被内2 | 「柳宗理デザイン 清酒グラスを隅から隅まで味わい尽くす — てのひらの形から生まれ」
+- canada-dry-ginger-ale-deep-dive-2026.md (2026-09-18) | 2752字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「カナダドライ ジンジャーエールを隅から隅まで味わい尽くす — 禁酒法時代を生き延」
+- crystal-spark-grape-deep-dive-2026.md (2026-09-18) | 2575字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「CRYSTAL SPARK グレープソーダを隅から隅まで味わい尽くす — 香りだ」
+- fuji-strong-soda-deep-dive-2026.md (2026-09-18) | 2474字 | h2=4 h3=0 | 画像1 | 内発3 | 被内3 | 「富士山の強炭酸水を隅から隅まで味わい尽くす — 地層が磨いた口当たりの正体」
+- itoen-mineral-strong-deep-dive-2026.md (2026-09-18) | 2407字 | h2=3 h3=0 | 画像1 | 内発3 | 被内3 | 「伊藤園 ミネラルストロングを隅から隅まで味わい尽くす — シリカという小さなこだ」
+- kirin-lemon-sparkling-deep-dive-2026.md (2026-09-18) | 2650字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「キリンレモン 炭酸水を隅から隅まで味わい尽くす — 1928年の透明感を無糖で受」
+- mitsuya-cider-zero-deep-dive-2026.md (2026-09-18) | 2606字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「三ツ矢サイダーZEROを隅から隅まで味わい尽くす — 142年ブランドが辿り着い」
+- oza-soda-deep-dive-2026.md (2026-09-18) | 2512字 | h2=4 h3=0 | 画像1 | 内発4 | 被内4 | 「OZA SODAを隅から隅まで味わい尽くす — 改名の裏にあった二重の意味」
+- wilkinson-tansan-deep-dive-2026.md (2026-09-18) | 2641字 | h2=5 h3=0 | 画像1 | 内発3 | 被内3 | 「ウィルキンソン タンサンを隅から隅まで味わい尽くす — 強炭酸の元祖が教えてくれ」
+- yosa-soda-deep-dive-2026.md (2026-09-18) | 2469字 | h2=4 h3=0 | 画像1 | 内発3 | 被内3 | 「ヨサソーダを隅から隅まで味わい尽くす — 飲みきりサイズが正解だった理由」
+- at-lp120xusb-deep-dive-2026.md (2026-09-17) | 3598字 | h2=9 h3=0 | 画像1 | 内発3 | 被内3 | 「Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役」
+- ballantines-finest-deep-dive-2026.md (2026-09-17) | 1767字 | h2=5 h3=0 | 画像1 | 内発3 | 被内2 | 「バランタイン ファイネスを隅から隅まで味わい尽くす — 世界2位のスコッチの中身」
+- black-nikka-clear-deep-dive-2026.md (2026-09-17) | 1922字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「ブラックニッカ クリアを隅から隅まで味わい尽くす — 1,000円を切る軽さの正」
+- budget-whisky-10choice-2026.md (2026-09-17) | 9953字 | h2=12 h3=0 | 画像10 | 内発11 | 被内12 | 「コスパ抜群の安ウイスキーを10本徹底比較 — 千円台の相棒たちを本気で選ぶ」
+- cutty-sark-deep-dive-2026.md (2026-09-17) | 1958字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「カティサークを隅から隅まで味わい尽くす — 帆船の名を冠した軽やかな一本」
+- debut-carbon-evo-deep-dive-2026.md (2026-09-17) | 3751字 | h2=7 h3=0 | 画像1 | 内発3 | 被内2 | 「Pro-Ject Debut Carbon EVOを全機能解剖 — 気配りの効い」
+- dewars-white-label-deep-dive-2026.md (2026-09-17) | 1840字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「デュワーズ ホワイトラベルを隅から隅まで味わい尽くす — 米国No.1スコッチの」
+- four-roses-yellow-deep-dive-2026.md (2026-09-17) | 1969字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「フォアローゼズ イエローを隅から隅まで味わい尽くす — 10種の原酒が生む手間の」
+- jim-beam-white-deep-dive-2026.md (2026-09-17) | 1887字 | h2=5 h3=0 | 画像1 | 内発3 | 被内2 | 「ジムビーム ホワイトを隅から隅まで味わい尽くす — 世界一売れているバーボンの中」
+- johnnie-walker-red-deep-dive-2026.md (2026-09-17) | 1884字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「ジョニーウォーカー レッドラベルを隅から隅まで味わい尽くす — ブラックの弟分が」
+- rega-planar3-deep-dive-2026.md (2026-09-17) | 4232字 | h2=7 h3=0 | 画像1 | 内発3 | 被内3 | 「Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思」
+- sony-pslx3bt-deep-dive-2026.md (2026-09-17) | 3593字 | h2=7 h3=0 | 画像1 | 内発3 | 被内3 | 「Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気」
+- suntory-kakubin-deep-dive-2026.md (2026-09-17) | 2016字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「サントリー角瓶を隅から隅まで味わい尽くす — ハイボール文化の原点を掘り下げる」
+- suntory-trys-deep-dive-2026.md (2026-09-17) | 1860字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「トリスウイスキーを隅から隅まで味わい尽くす — トリスバー文化を支えた一本」
+- technics-sl1200mk7-deep-dive-2026.md (2026-09-17) | 4280字 | h2=9 h3=0 | 画像1 | 内発3 | 被内4 | 「Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けて」
+- white-horse-fineold-deep-dive-2026.md (2026-09-17) | 1961字 | h2=4 h3=0 | 画像1 | 内発3 | 被内2 | 「ホワイトホース ファインオールドを隅から隅まで味わい尽くす — ラガヴーリン譲り」
+- scarlett-2i2-deep-dive-2026.md (2026-09-16) | 3556字 | h2=8 h3=0 | 画像1 | 内発3 | 被内1 | 「Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 」
+- audio-interface-5choice-2026.md (2026-09-15) | 5451字 | h2=7 h3=0 | 画像5 | 内発5 | 被内6 | 「オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人」
+- midi-keyboard-5choice-2026.md (2026-09-15) | 5489字 | h2=7 h3=0 | 画像5 | 内発4 | 被内4 | 「MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手」
+- sampler-5choice-2026.md (2026-09-15) | 5177字 | h2=7 h3=0 | 画像5 | 内発4 | 被内5 | 「サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか」
+- scotch-whisky-5choice-2026.md (2026-09-15) | 4943字 | h2=7 h3=0 | 画像5 | 内発1 | 被内11 | 「スコッチウイスキーを5本徹底比較 — グラスの中の、もうひとつの制作環境」
+- turntable-5choice-2026.md (2026-09-15) | 6439字 | h2=7 h3=0 | 画像5 | 内発9 | 被内9 | 「アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について」
+- daw-5choice-2026.md (2026-09-14) | 5346字 | h2=7 h3=0 | 画像5 | 内発4 | 被内6 | 「DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか」
+- hello.md (2026-09-14) | 673字 | h2=1 h3=0 | 画像0 | 内発5 | 被内0 | 「はじめまして — Studio Notes について」
 
 ## 孤立記事(被内部リンク0)
 
@@ -32,24 +97,9 @@
 - static\images\jazz-shoes\street-style-white-tee-midi.jpg	321KB	1600x2400
 - static\images\modal-jazz\bill-evans-1961.jpg	621KB	1600x2028
 - static\images\products\ableton-live.png	133KB	1680x945
-- static\images\products\battery-4.png	861KB	1400x788
-- static\images\products\canada-dry-ginger-ale.png	383KB	730x940
-- static\images\products\canada-dry-tansan-strong.png	436KB	396x1125
-- static\images\products\coca-cola-zero.png	311KB	730x940
-- static\images\products\four-roses-yellow.png	534KB	712x1350
 - static\images\products\green-cola.jpg	297KB	1351x4199
-- static\images\products\icy-spark-canada-dry-lemon.png	349KB	730x940
-- static\images\products\keylab-essential-mk3.png	821KB	1920x1260
-- static\images\products\komplete-kontrol-s61-mk3.png	1119KB	1920x1080
-- static\images\products\kontakt-8.png	1119KB	1600x592
-- static\images\products\laphroaig-10.png	411KB	1080x1080
-- static\images\products\mpk-mini-mk4.png	297KB	1024x614
-- static\images\products\real-gold.png	376KB	730x940
-- static\images\products\san-pellegrino.png	1049KB	1000x667
-- static\images\products\serato-sample.png	644KB	1600x1066
-- static\images\products\tajima-glass-fuji-sakura.png	860KB	2048x2048
+- static\images\products\san-pellegrino.png	296KB	1000x667
 - static\images\products\takaoka-raden-glass-sakura.jpg	267KB	800x764
-- static\images\products\volt-276.png	311KB	1248x980
 
 ## 破損外部リンク
 
@@ -57,4 +107,4 @@
 
 ## 画像無し/文字数少ない記事
 
-- hello.md: 画像0/文字数209
+- hello.md: 画像0/文字数673

@@ -108,3 +108,13 @@
 - **検証済み**: ローカルビルド + 本番デプロイで、post=index,follow / tag・search=noindex,follow / og:image / description / canonical / twitter:summary_large_image / robots.txt(sitemap指定) を確認
 - **学び**: ビルド後 `public/posts/<draft-slug>/index.html` が存在しても、中身が 345バイトの **alias リダイレクトページ** である場合がある(draft 自体は `hugo list published` に含まれない)。draft 判定は `hugo list published` で行うこと
 - 残タスク(ユーザー指示の続き待ち): SEO対策の項番2以降
+
+## 4周目(2026-09-26) — 非ジャズカテゴリのクラスタ形成(内部リンク網の完成)
+
+- **孤立記事66件 → 1件(hello.mdのみ・定番で許容)** に解消。whisky / gear / drink / sakeware の4カテゴリで「比較ハブ ↔ 個別レビュー」および「同系統記事同士」の `**関連記事**` リンクを一括付与(64ファイル + kiretoレモン補強)。
+- ハブ指定: `budget-whisky-10choice`(ウイスキー10本⇔各deep-dive)、`turntable-5choice`(ターンテーブル5台⇔各解剖記事)、`audio-interface-5choice`↔`scarlett-2i2`、DTM系ハブ5本(daw/midi/sampler/audio/turntable)は相互リンク。
+- drink(炭酸水/サイダー/レモン/コーラ/エナジー)と sakeware(津軽びいどろ/東洋佐々木/陶磁器/ガラス工芸/現代工芸)は同系統グループごとに相互リンク。
+- `hello.md` に「このブログで書いていること」節を追加(3柱+クラスタへの導線)。定番ページとして薄い状態を改善。
+- 画像圧縮を再実行: 18ファイル・計1KB削減のみ(既に q82・上限1600px に最適化済みのため追加削減は僅少)。残余 big_images=12, broken=0。
+- 監査結果: posts=72 / orphans=1 / big_images=12 / broken=0
+- 残タスク: SEO対策の項番2以降(ユーザー指示待ち)、old_posts 画像ディレクトリ整理(数ラウンド後)、Search Console の所有者確認クリック待ち(HTMLタグ設定済み・本番反映済み)

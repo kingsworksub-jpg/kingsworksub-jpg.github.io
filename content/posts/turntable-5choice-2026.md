@@ -145,3 +145,6 @@ aliases:
 - **とにかく気軽にレコードを鳴らしたいだけの人** → Sony PS-LX310BT
 
 針を落とすまでの手間と、鳴った音への愛着は、たいてい比例するように思う。手間をかけた分だけ、その音に対する愛着も自然と増していく気がする。それでも、良い音は良い音である。手間を楽しめるかどうかが、この五本を選ぶときの一番の分かれ目だと思う。
+
+
+**関連記事**: [DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手](/posts/midi-keyboard-5choice-2026/) · [サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人](/posts/audio-interface-5choice-2026/) · [Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこなす実用派](/posts/at-lp120xusb-deep-dive-2026/) · [Pro-Ject Debut Carbon EVOを全機能解剖 — 気配りの効いた優等生の中身](/posts/debut-carbon-evo-deep-dive-2026/) · [Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気軽に鳴らしたい人への回答](/posts/sony-pslx3bt-deep-dive-2026/) · [Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)

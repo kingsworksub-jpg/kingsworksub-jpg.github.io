@@ -62,3 +62,6 @@ aliases:
 ---
 
 140年以上前の鉱泉水から始まったブランドが、令和の今もカロリーゼロという形でアップデートを続けている。歴史の重みと時代への適応を両立させている、なかなか懐の深い一本だと思う。
+
+
+**関連記事**: [三ツ矢サイダーを隅から隅まで味わい尽くす — 140年変わらない透明な甘さの正体](/posts/mitsuya-cider-original-deep-dive-2026/) · [CRYSTAL SPARK ラムネを隅から隅まで味わい尽くす — 果汁ゼロで蘇る、あの瓶の記憶](/posts/crystal-spark-ramune-deep-dive-2026/) · [CRYSTAL SPARK グレープソーダを隅から隅まで味わい尽くす — 香りだけで満足させる無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAを隅から隅まで味わい尽くす — 改名の裏にあった二重の意味](/posts/oza-soda-deep-dive-2026/)
