@@ -2,6 +2,8 @@
 title: "津軽びいどろ みずばしょう酒器セットを隅から隅まで味わい尽くす — 湿地に咲く白い花を、青いガラスに閉じ込めて"
 description: "これまで陶磁器や漆器の酒器をいくつか取り上げてきたが、今回は趣向を変えてガラスの酒器を見ていく。「アデリア 津軽びいどろ」の「みずばしょう酒器セット」(徳利1個・盃2個、型番FS-71582)。"
 images: ["/images/og/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["sakeware"]
 tags: ["津軽びいどろ", "アデリア", "ガラス", "酒器", "ギフト", "レビュー"]

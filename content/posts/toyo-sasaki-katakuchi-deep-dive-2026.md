@@ -2,6 +2,8 @@
 title: "東洋佐々木ガラス 片口 冷酒カラフェを隅から隅まで味わい尽くす — 注ぎ口ひとつに宿る、千三百年の知恵"
 description: "「片口(かたくち)」と聞いて、すぐに形が思い浮かぶ人はそう多くないと思う。もともとは醤油や出汁、酢といった液体を注ぐための台所道具で、酒器の主役というよりは裏方の存在だった。"
 images: ["/images/og/toyo-sasaki-katakuchi-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["sakeware"]
 tags: ["東洋佐々木ガラス", "片口", "酒器", "ガラス", "レビュー"]

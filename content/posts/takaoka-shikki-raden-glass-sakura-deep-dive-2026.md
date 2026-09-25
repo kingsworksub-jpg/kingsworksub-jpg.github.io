@@ -2,6 +2,8 @@
 title: "高岡漆器 螺鈿ガラス 金杯(万華鏡)桜を隅から隅まで味わい尽くす — 貝殻の虹色を、酒で呼び覚ます盃"
 description: "ガラスの盃なのに、底に貝が埋め込まれている。しかも酒を注ぐまでその貝の模様がはっきり見えない、という仕掛けの酒器がある。富山県高岡市の天野漆器が作る「螺鈿ガラス 金杯(万華鏡シリーズ)」の桜柄を、今回は隅から隅まで見ていく。"
 images: ["/images/og/takaoka-shikki-raden-glass-sakura-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["sakeware"]
 tags: ["高岡漆器", "螺鈿", "天野漆器", "酒器", "レビュー"]

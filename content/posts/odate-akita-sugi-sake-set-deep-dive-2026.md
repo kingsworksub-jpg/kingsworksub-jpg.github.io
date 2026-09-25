@@ -2,6 +2,8 @@
 title: "大館工芸社 秋田杉 酒器3点セットを隅から隅まで味わい尽くす — 木曽から立ちのぼる、もう一つの酒の香り"
 description: "酒器といえばガラスや陶磁器、金属を思い浮かべることが多いが、木でできた徳利とお猪口もある。秋田県大館市の大館工芸社が作る「秋田杉 酒器3点セット」を、今回は隅から隅まで見ていく。"
 images: ["/images/og/odate-akita-sugi-sake-set-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["sakeware"]
 tags: ["大館工芸社", "曲げわっぱ", "秋田杉", "酒器", "レビュー"]

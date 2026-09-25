@@ -2,6 +2,8 @@
 title: "キレートレモン Wレモンを隅から隅まで味わい尽くす — レモン2個分の酸味に振り切った一本"
 description: "コンビニのレジ横で長年見かけてきた「キレートレモン」。あのブランドが展開している炭酸入りの「Wレモン」を、隅から隅まで見ていく。すっぱい系飲料の中でも際立って酸味が強いという評判が気になっていた一本だ。"
 images: ["/images/og/kiretolemon-wlemon-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["drink"]
 tags: ["キレートレモン", "Wレモン", "ポッカサッポロ", "炭酸飲料", "レビュー"]

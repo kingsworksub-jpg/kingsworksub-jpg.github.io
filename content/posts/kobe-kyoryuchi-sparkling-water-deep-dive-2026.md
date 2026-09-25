@@ -2,6 +2,8 @@
 title: "神戸居留地 スパークリングウォーターを隅から隅まで味わい尽くす — 缶190mlに詰め込まれた飲み切りの強炭酸"
 description: "スーパーや業務スーパーの棚でよく見かける「神戸居留地」の炭酸水。缶190mlという飲み切りサイズの強炭酸水「スパークリングウォーター プレーン」を、隅から隅まで見ていく。"
 images: ["/images/og/kobe-kyoryuchi-sparkling-water-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["drink"]
 tags: ["神戸居留地", "富永貿易", "炭酸水", "強炭酸水", "レビュー"]

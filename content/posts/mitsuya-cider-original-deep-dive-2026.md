@@ -2,6 +2,8 @@
 title: "三ツ矢サイダーを隅から隅まで味わい尽くす — 140年変わらない透明な甘さの正体"
 description: "自動販売機でもスーパーでも、当たり前のようにそこにある「三ツ矢サイダー」。缶250ml×20本というオーソドックスな通常版を軸に、この透明な炭酸飲料を隅から隅まで見ていく。"
 images: ["/images/og/mitsuya-cider-original-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["drink"]
 tags: ["三ツ矢サイダー", "アサヒ飲料", "サイダー", "炭酸飲料", "レビュー"]

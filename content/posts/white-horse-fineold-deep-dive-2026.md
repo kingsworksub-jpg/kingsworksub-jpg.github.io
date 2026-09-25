@@ -2,6 +2,8 @@
 title: "ホワイトホース ファインオールドを隅から隅まで味わい尽くす — ラガヴーリン譲りの個性"
 description: "1890年、Peter Mackieが創業。アイラ島の名門・ラガヴーリン蒸溜所を創業者一族が所有していたという歴史的経緯から、ピーテッドモルトがブレンドに使われている珍しい一本、ホワイトホース ファインオールドを隅々まで見ていく。"
 images: ["/images/og/white-horse-fineold-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
 tags: ["ホワイトホース", "スコッチ", "ウイスキー", "アイラ", "機材", "レビュー"]

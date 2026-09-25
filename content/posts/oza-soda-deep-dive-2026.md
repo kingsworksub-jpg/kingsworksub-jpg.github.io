@@ -2,6 +2,8 @@
 title: "OZA SODAを隅から隅まで味わい尽くす — 改名の裏にあった二重の意味"
 description: "楽天のランキングで水・ソフトドリンク部門1位を何度も獲得している、じわじわと支持を広げている強炭酸水がある。もとは「ZAO SODA」という名前だったこの炭酸水、OZA SODAを隅々まで見ていく。"
 images: ["/images/og/oza-soda-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-18
 categories: ["drink"]
 tags: ["OZAソーダ", "ライフドリンクカンパニー", "炭酸水", "飲料", "レビュー"]

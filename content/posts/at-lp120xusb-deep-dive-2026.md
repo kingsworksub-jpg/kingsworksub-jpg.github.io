@@ -2,6 +2,8 @@
 title: "Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこなす実用派"
 description: "ダイキャストアルミ製のプラッターに、制振・防振設計の筐体、4つのゴム足を組み合わせた構成。公称重量は約8.0kg、サイズは452×352×141.6mm。カラーはブラックとシルバーの2色展開で、見た目のレイアウトはTechnics"
 images: ["/images/og/at-lp120xusb-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Audio-Technica", "AT-LP120XUSB", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]

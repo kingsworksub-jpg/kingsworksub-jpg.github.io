@@ -2,6 +2,8 @@
 title: "はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に"
 description: "ジャズ初心者の最初の一枚に、この順番が正解。1920年代のルイ・アームストロングから1965年のア・ラヴ・スプリームまで、時代順に並んだ10枚でジャズの大きな流れが一晩で体に入る。"
 images: ["/images/og/jazz-masterpieces-beginner.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-24T23:31:00+09:00
 draft: false
 categories: ["music"]

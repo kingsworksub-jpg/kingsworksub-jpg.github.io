@@ -2,6 +2,8 @@
 title: "フォアローゼズ イエローを隅から隅まで味わい尽くす — 10種の原酒が生む手間の味"
 description: "赤い薔薇のラベルが目印の、ケンタッキー州ローレンスバーグの蒸溜所が手がけるバーボン。エントリーモデルにしては珍しいほど手の込んだブレンド設計を持つフォアローゼズ イエローを隅々まで見ていく。"
 images: ["/images/og/four-roses-yellow-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
 tags: ["フォアローゼズ", "バーボン", "ウイスキー", "機材", "レビュー"]

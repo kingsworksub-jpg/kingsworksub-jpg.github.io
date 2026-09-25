@@ -2,6 +2,8 @@
 title: "柳宗理デザイン 清酒グラスを隅から隅まで味わい尽くす — てのひらの形から生まれた、日本酒のための器"
 description: "脚付きの小さなガラス杯に、金の小さな紋章がひとつ。プロダクトデザインの世界で知らない人はいない柳宗理が手がけた「清酒グラス」を、隅々まで見ていく。このグラスの出発点は、日本酒造組合中央会からの依頼だったという。"
 images: ["/images/og/sori-yanagi-seishu-glass-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-19
 categories: ["sakeware"]
 tags: ["柳宗理", "清酒グラス", "東洋佐々木硝子", "ガラス", "レビュー"]

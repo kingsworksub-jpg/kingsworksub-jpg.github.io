@@ -2,6 +2,8 @@
 title: "ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-60年代の名盤が鳴らした熱"
 description: "「ハードバップ」と聞いて、どんな音を思い浮かべるだろうか。高らかに吹き鳴らされるホーン、たたみかけるスネアの切れ味。それなのに、なぜか鼻歌を口ずさみたくなるような、歌心のあるメロディ。"
 images: ["/images/og/hard-bop-blue-note-golden-age.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-24T08:30:00+09:00
 draft: false
 categories: ["music"]

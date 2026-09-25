@@ -2,6 +2,8 @@
 title: "トリスウイスキーを隅から隅まで味わい尽くす — トリスバー文化を支えた一本"
 description: "「トリスバー」「トリハイ」という言葉を生んだ、戦後日本のウイスキー史そのもののようなブランド。1946年発売、10本の中でも屈指の長寿銘柄であるトリスウイスキーを隅々まで見ていく。"
 images: ["/images/og/suntory-trys-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
 tags: ["サントリー", "トリス", "ウイスキー", "ハイボール", "機材", "レビュー"]

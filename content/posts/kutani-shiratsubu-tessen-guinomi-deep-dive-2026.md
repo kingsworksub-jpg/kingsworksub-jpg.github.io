@@ -2,6 +2,8 @@
 title: "和座の蔵 九谷焼 ぐい呑み 白粒鉄仙を隅から隅まで味わい尽くす — 粒立つ白と、切れない蔓の文様"
 description: "表面いっぱいに白い粒が並び、そこに金色の蔓草が這っている。石川県が誇る色絵磁器、九谷焼の「ぐい呑み 白粒鉄仙(しろつぶてっせん)」を見ていく。九谷焼は石川県南部、加賀・能美・小松のあたりで作られてきた色絵磁器だ。"
 images: ["/images/og/kutani-shiratsubu-tessen-guinomi-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["sakeware"]
 tags: ["九谷焼", "ぐい呑み", "陶器", "伝統工芸", "レビュー"]

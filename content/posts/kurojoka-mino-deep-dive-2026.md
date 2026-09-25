@@ -2,6 +2,8 @@
 title: "国産美濃焼 黒千代香を隅から隅まで味わい尽くす — 焼酎に千代の香りを移す、直火のもてなし"
 description: "「ちょか」という響きだけを聞くと、酒器というより丸っこい小動物の名前のように思えてしまう。実際の姿もどこか愛嬌があって、そろばん玉のようにふっくらした胴に、つると注ぎ口が付いた黒い急須型の器だ。"
 images: ["/images/og/kurojoka-mino-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["sakeware"]
 tags: ["黒千代香", "美濃焼", "酒器", "焼酎", "レビュー"]

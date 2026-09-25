@@ -2,6 +2,8 @@
 title: "伊藤園 ミネラルストロングを隅から隅まで味わい尽くす — シリカという小さなこだわり"
 description: "強炭酸水はどれも似たり寄ったりに見えて、実はミネラル構成のこだわり方に差が出る。伊藤園がAmazon.co.jp限定で展開する「ミネラルストロング」を隅々まで見ていく。製造・販売元は伊藤園。"
 images: ["/images/og/itoen-mineral-strong-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-18
 categories: ["drink"]
 tags: ["伊藤園", "ミネラルストロング", "炭酸水", "シリカ", "飲料", "レビュー"]

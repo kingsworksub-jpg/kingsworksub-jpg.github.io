@@ -2,6 +2,8 @@
 title: "はじめまして — Studio Notes について"
 description: "ブログを始めてみることにした。音響機材やDTMソフトのことを調べるのがもともと好きで、せっかくなら記録として残しておこうと思ったのがきっかけだ。当ブログ「Studio"
 images: ["/images/og/hello.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-14
 categories: ["setup"]
 tags: ["ブログ"]

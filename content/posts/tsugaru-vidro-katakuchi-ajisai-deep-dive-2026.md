@@ -2,6 +2,8 @@
 title: "津軽びいどろ 片口あじさいを隅から隅まで味わい尽くす — 龍飛崎の紫陽花を写した一滴"
 description: "冷酒を注ぐ器といえば徳利を思い浮かべる人が多いと思うが、注ぎ口が開いた「片口」という形もある。アデリアの「津軽びいどろ 片口あじさい」を、この夏らしい水色の器として見ていく。"
 images: ["/images/og/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-21
 categories: ["sakeware"]
 tags: ["津軽びいどろ", "アデリア", "ADERIA", "片口", "ガラス酒器", "レビュー"]

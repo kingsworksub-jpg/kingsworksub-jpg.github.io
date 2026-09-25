@@ -2,6 +2,8 @@
 title: "Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する"
 description: "Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで見ていく。"
 images: ["/images/og/scarlett-2i2-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-16
 categories: ["gear"]
 tags: ["Focusrite", "Scarlett 2i2", "オーディオインターフェース", "機材", "レビュー"]

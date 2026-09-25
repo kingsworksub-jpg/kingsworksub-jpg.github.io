@@ -2,6 +2,8 @@
 title: "リアルゴールドを隅から隅まで味わい尽くす — カフェインなしで元気を配る、黄金の稲妻"
 description: "赤い缶に走る黄色い稲妻、そこに黒文字で「REAL GOLD」。自動販売機やコンビニの一角で昔からずっと同じ場所を守ってきた栄養ドリンク系炭酸「リアルゴールド」を、隅から隅まで見ていく。"
 images: ["/images/og/real-gold-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["drink"]
 tags: ["リアルゴールド", "Real Gold", "日本コカ・コーラ", "エナジードリンク", "炭酸飲料", "レビュー"]

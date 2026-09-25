@@ -2,6 +2,8 @@
 title: "ウィルキンソン タンサンを隅から隅まで味わい尽くす — 強炭酸の元祖が教えてくれるシンプルさの正解"
 description: "バーで「タンサンで」と頼めば、大抵このボトルが出てくる。1904年発売、120年以上ハイボールの相棒を務め続けている無糖の強炭酸水、ウィルキンソン タンサンを隅々まで見ていく。"
 images: ["/images/og/wilkinson-tansan-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-18
 categories: ["drink"]
 tags: ["ウィルキンソン", "タンサン", "炭酸水", "アサヒ飲料", "飲料", "レビュー"]

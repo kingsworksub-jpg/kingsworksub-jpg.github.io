@@ -2,6 +2,8 @@
 title: "東洋佐々木ガラス カラフェ・バリエーションを隅から隅まで味わい尽くす — 氷を閉じ込めた、薄まらない冷酒のための器"
 description: "冷酒を氷で冷やすと、どうしても味が薄まる。その当たり前の悩みに、ガラスの構造だけで答えを出した器がある。東洋佐々木ガラスの「カラフェ・バリエーション」徳利(氷ポケット付、品番61048DV)を見ていく。"
 images: ["/images/og/toyo-sasaki-carafe-variation-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-20
 categories: ["sakeware"]
 tags: ["東洋佐々木ガラス", "カラフェ", "徳利", "氷ポケット", "レビュー"]

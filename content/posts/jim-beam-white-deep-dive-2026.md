@@ -2,6 +2,8 @@
 title: "ジムビーム ホワイトを隅から隅まで味わい尽くす — 世界一売れているバーボンの中身"
 description: "1795年創業、7世代・230年超の歴史を持つケンタッキーの老舗蒸溜所が手がける看板商品。年間販売数量で世界のバーボン市場トップに立つジムビーム ホワイトを隅々まで見ていく。"
 images: ["/images/og/jim-beam-white-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
 tags: ["ジムビーム", "バーボン", "ウイスキー", "ハイボール", "機材", "レビュー"]

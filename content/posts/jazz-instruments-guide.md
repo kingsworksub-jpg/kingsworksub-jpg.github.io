@@ -2,6 +2,8 @@
 title: "ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド"
 description: "ジャズのサウンドは、楽器の「組み合わせ」そのものだ。コントラバスとドラムが刻む低い地面のうえに、サックスやトランペットの息づかいが人の声のように乗っていく。ピアノは四角いリズムと色彩を与え、一見脇役のギターがソロの主役に変わる瞬間もある。"
 images: ["/images/og/jazz-instruments-guide.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-24T22:00:00+09:00
 draft: false
 categories: ["music"]

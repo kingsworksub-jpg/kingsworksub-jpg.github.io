@@ -2,6 +2,8 @@
 title: "サンペレグリノを隅から隅まで味わい尽くす — ロンバルディアの地下水が、世界のテーブルに選ばれる理由"
 description: "緑色のガラス瓶に赤い星のロゴ、一流レストランのテーブルでよく見かける炭酸水がある。イタリア・ロンバルディア州の小さな温泉町で1899年から作られ続けているサンペレグリノを、隅々まで見ていく。"
 images: ["/images/og/san-pellegrino-deep-dive-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-09-19
 categories: ["drink"]
 tags: ["サンペレグリノ", "S.Pellegrino", "炭酸水", "イタリア", "ミネラルウォーター"]
