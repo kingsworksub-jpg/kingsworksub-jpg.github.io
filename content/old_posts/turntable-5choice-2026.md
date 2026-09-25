@@ -3,7 +3,7 @@ title: "アナログターンテーブルを5台徹底比較 — 針を落とす
 date: 2026-09-15
 categories: ["gear"]
 tags: ["ターンテーブル", "レコードプレーヤー", "機材", "比較", "Technics", "Audio-Technica", "Rega", "Pro-Ject", "Sony"]
-draft: true
+draft: false
 ---
 
 各メーカーは「アナログの温かみを、あなたの部屋に」と謳う。2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を比較していく。

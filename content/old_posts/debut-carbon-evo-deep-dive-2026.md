@@ -3,7 +3,7 @@ title: "Pro-Ject Debut Carbon EVOを全機能解剖 — 気配りの効いた優
 date: 2026-09-17
 categories: ["gear"]
 tags: ["Pro-Ject", "Debut Carbon EVO", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
-draft: true
+draft: false
 ---
 
 Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを隅から隅まで見ていく。
