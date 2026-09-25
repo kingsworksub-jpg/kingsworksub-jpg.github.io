@@ -96,3 +96,15 @@
 - **完成形**: 見出し → figure(photo--left/right) → 本文段落(回り込み)。deep-dive は principal/価格 の各セクション、5choice は商品ごとのセクションで成立
 - **検証**: 0残留(行単位監査)。`hugo --minify` → 本番HTMLで「見出し直後 figure + 直後 paragraph」を確認。commit `e0d68b8`・push・デプロイ済み
 - **運用ルール(今後も)**: **figure を置くときは必ず「見出し直後・本文段落の直前」にする。見出し/---/短文の直後に置かない**。figure の直後には必ず段落テキストが来るようにする(5choice ではレーダーチャートが続くのは OK = intended)
+
+## SEO 第1項: メタデータ&記事ヘッダー自動最適化(2026-09-26)
+
+ユーザー指示(SEO対策・項番1)の実装。対象: 全記事(未来記事含む)。
+
+- **meta description 自動生成**(`scripts/gen-descriptions.py`): description 欠落の記事に 110〜120字の `description:` を frontmatter へ付与。複数段落を連結し文境界で切る方式(二重句点「。。」は掃除済み)
+- **OG画像自動生成**(`scripts/og-image-generator.py`): 1200x630 の `static/images/og/<slug>.jpg` を全記事分生成(PIL・YuGothic)、frontmatter へ `images: ["/images/og/<slug>.jpg"]` を追加。`hugo.toml` の `params.images` に site-default を設定し、記事以外(トップ/カテゴリ/about等)も og:image を持つ
+- **robots制御**(site `layouts/_partials/head.html` に theme head をコピーして改修): 単一記事・固定ページ = `index, follow` / **taxonomy・term・404・search = `noindex, follow`**(`.Params.robotsNoIndex`、`.Kind`、`.Layout=="search"` で判定)
+- **sitemap 整理**: `search.md` に `sitemap: {disable: true}`、`content/tags/_index.md`・`content/categories/_index.md` に `cascade: {sitemap: {disable: true}}`。**Hugo 既定の `sitemap.excludedKinds` は本環境(未対応)で効かない**ため、cascade 方式で実装。実行結果: 77 URL(投稿72+固定5)、タグ/カテゴリ/search/404/draft は全て除外
+- **検証済み**: ローカルビルド + 本番デプロイで、post=index,follow / tag・search=noindex,follow / og:image / description / canonical / twitter:summary_large_image / robots.txt(sitemap指定) を確認
+- **学び**: ビルド後 `public/posts/<draft-slug>/index.html` が存在しても、中身が 345バイトの **alias リダイレクトページ** である場合がある(draft 自体は `hugo list published` に含まれない)。draft 判定は `hugo list published` で行うこと
+- 残タスク(ユーザー指示の続き待ち): SEO対策の項番2以降

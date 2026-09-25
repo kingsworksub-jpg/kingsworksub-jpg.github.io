@@ -26,6 +26,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 > **GA4計測(2026-09-24導入済み・同日ID調整)**: GitHub Pages は `layouts/partials/extend_head.html` 冒頭の gtag.js、測定ID `G-ZL0DCF6JXB`(`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」に測定ID `G-EBY0HM3HRM`(初回 `G-24HLBTRFJ7` → `G-ZL0DCF6JXB` → `G-EBY0HM3HRM` と同日中に変更)。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
 
+> **SEO運用ルール(2026-09-26 導入済み・全記事/未来記事に適用)**: 全ての記事の frontmatter に **`description:`(110〜120字・要旨)** と **`images: ["/images/og/<slug>.jpg"]`(1200x630 OG画像)** を必ず書く。自動生成なら `scripts/gen-descriptions.py` / `scripts/og-image-generator.py` を使用。タイトルはキーワードを先頭 30〜35文字に収める。robots はテーマの site override(`layouts/_partials/head.html`)により自動(記事=`index, follow` / タグ・カテゴリ・search・404=`noindex, follow`)、sitemap はタグ/カテゴリ/search が自動除外されている。**新規記事作成時も必ず description / images を付けること**。`hugo list published` で公開判定を確認可能(ビルド後の `public/posts/<slug>/index.html` が alias リダイレクトの可能性あり)。
+
 ## ロードマップ
 
 次に書く記事の候補と進捗を管理する場所。空欄・空リストで始めて、ユーザーからの指示や思いついたアイデアを都度ここに追記していく。新しいセッションはまずここを読んで、指示がなければユーザーに「次は何を書くか」を確認すること。
