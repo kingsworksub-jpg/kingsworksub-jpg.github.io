@@ -11,3 +11,4 @@ __pycache__/
 scripts/x-autopost/.venv/
 
 scripts/scheduled/logs/
+scripts/indexing/credentials*.json

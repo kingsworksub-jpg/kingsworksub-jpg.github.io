@@ -1,0 +1,53 @@
+name: Google Indexing notify
+
+# デプロイワークフロー("Deploy Hugo site to Pages")成功後に発火し、
+# そのコミットで追加・変更された記事URLを Google Indexing API へ通知する。
+on:
+  workflow_run:
+    workflows: ["Deploy Hugo site to Pages"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    name: Notify changed URLs
+    # 実リポジトリのデプロイ成功時のみ
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository == 'kingsworksub-jpg/kingsworksub-jpg.github.io' }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    concurrency:
+      group: "indexing-notify"
+      cancel-in-progress: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Build with Hugo (URL 判定用の public/ を生成)
+        env:
+          HUGO_VERSION: 0.166.0
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          wget -q -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i /tmp/hugo.deb
+          hugo --minify --baseURL "https://kingsworksub-jpg.github.io/"
+
+      - name: Install Python dependencies
+        run: pip install --quiet google-auth google-api-python-client
+
+      - name: Notify Google Indexing
+        env:
+          GOOGLE_INDEXING_CREDENTIALS_JSON: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS }}
+        run: |
+          python scripts/indexing/notify_changed.py \
+            --repo . \
+            --public public \
+            --old "$(git rev-parse "${{ github.event.workflow_run.head_sha }}~1" 2>/dev/null || echo '')" \
+            --new "${{ github.event.workflow_run.head_sha }}"

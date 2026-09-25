@@ -28,6 +28,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 > **SEO運用ルール(2026-09-26 導入済み・全記事/未来記事に適用)**: 全ての記事の frontmatter に **`description:`(110〜120字・要旨)** と **`images: ["/images/og/<slug>.jpg"]`(1200x630 OG画像)** を必ず書く。自動生成なら `scripts/gen-descriptions.py` / `scripts/og-image-generator.py` を使用。タイトルはキーワードを先頭 30〜35文字に収める。robots はテーマの site override(`layouts/_partials/head.html`)により自動(記事=`index, follow` / タグ・カテゴリ・search・404=`noindex, follow`)、sitemap はタグ/カテゴリ/search が自動除外されている。**新規記事作成時も必ず description / images を付けること**。`hugo list published` で公開判定を確認可能(ビルド後の `public/posts/<slug>/index.html` が alias リダイレクトの可能性あり)。
 
+> **Google Indexing API 自動申請(2026-09-26 導入)**: 記事の commit & push だけで、追加・更新した記事URLが Google Indexing API へ自動通知される。仕組み: ①`scripts/indexing/notify_changed.py` が git 差分(`content/`配下の追加/変更/削除)から URL を特定 ②`.github/workflows/indexing.yml` が「Deploy Hugo site to Pages」の成功後に実行(GitHub Secret `GOOGLE_INDEXING_CREDENTIALS` = サービスアカウントJSON)。draft 記事と noindex ページは自動スキップ。`--dry-run` で内容確認、手動送信は `python scripts/indexing/notify_changed.py --publish "https://kingsworksub-jpg.github.io/posts/<slug>/"`。**セットアップ手順(要 Google Cloud)**: Indexing API を有効化 → サービスアカウントを作成し JSON キーを取得 → リポジトリ設定 → Secrets and variables → Actions の `GOOGLE_INDEXING_CREDENTIALS` に JSON の全文を登録(ローカルでは `*.json` は `.gitignore` 済み)。**注意**: Indexing API は公式には求人(JobPosting)・ライブ動画(LiveStream)ページのみ対応のため、通常のブログ記事は API がエラーを返す・または無視される可能性がある(ログで確認・影響なし)。クォータは既定200リクエスト/日。
+
 ## ロードマップ
 
 次に書く記事の候補と進捗を管理する場所。空欄・空リストで始めて、ユーザーからの指示や思いついたアイデアを都度ここに追記していく。新しいセッションはまずここを読んで、指示がなければユーザーに「次は何を書くか」を確認すること。
