@@ -10,6 +10,10 @@ aliases:
 
 金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。片口と盃のペアで、色そのものが主役になっている道具だと思う。
 
+
+---
+
+## 漁業用の浮き玉から始まったガラス工芸
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
 <img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 漁業用の浮き玉から始まったガラス工芸
 
 津軽びいどろを作っているのは、青森市の北洋硝子株式会社。もともとは1949年創業で、漁業用のガラス製浮き玉(浮き球)を作るメーカーだった。1973年ごろには国内生産量トップになるほど盛んだったというから、当時はかなりの規模だったのだろう。しかしプラスチック製の浮き玉が普及すると需要は一気に縮小していく。その転機に、浮き玉づくりで培った「宙吹き」の技術を食器やインテリアガラスに転用して始まったのが津軽びいどろだった。1977年のことで、1996年には青森県の伝統工芸品指定を受けている。
 
@@ -43,6 +44,8 @@ NEBUTAシリーズは、その名の通り青森ねぶた祭りをモチーフ�
 
 冷酒との相性という点では、このセットはむしろ強みを発揮する。色ガラスは光を通したときに一番きれいに見える道具で、日の光や照明にかざすとグラデーションが浮かび上がる。冷たい日本酒を注いで、氷を思わせる涼しげな色合いと一緒に味わう使い方が、このガラスの発色を最も活かせる飲み方だと感じる。
 
+
+## アデリアというブランドの中での位置づけ
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
 <img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
@@ -50,7 +53,6 @@ NEBUTAシリーズは、その名の通り青森ねぶた祭りをモチーフ�
 <figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## アデリアというブランドの中での位置づけ
 
 「アデリア(ADERIA)」は石塚硝子株式会社とそのグループ会社が展開するガラス食器ブランドで、津軽びいどろの指定工場でもある。つまり津軽びいどろは、アデリアという大きなブランドの中の一系統という位置づけになる。シリーズは季節の情景を色ガラスで表現した「四季」、11色を揃える「にほんの色」など幅広く、NEBUTAは祭りと夏をテーマにした一群という立ち位置だ。同じ産地・同じ製法でも、シリーズによって表現したい情景が違うというのが、このブランドの奥行きだと思う。
 

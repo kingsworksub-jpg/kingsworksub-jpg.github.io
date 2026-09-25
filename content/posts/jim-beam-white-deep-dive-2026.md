@@ -10,6 +10,10 @@ aliases:
 
 1795年創業、7世代・230年超の歴史を持つケンタッキーの老舗蒸溜所が手がける看板商品。年間販売数量で世界のバーボン市場トップに立つジムビーム ホワイトを隅々まで見ていく。
 
+
+---
+
+## マッシュビルと熟成
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
 <img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## マッシュビルと熟成
 
 コーン75%・ライ麦13%・モルト大麦12%という配合が一般的に伝えられている標準的なビーム系マッシュビル。表ラベルには熟成年数の記載がないため一見ノンエイジに見えるが、実際は最低4年熟成というストレートバーボンの法定基準を満たしている一本で、裏ラベルに年数が記載されていることが多い。アルコール度数は40度(80プルーフ)。
 
@@ -38,15 +39,16 @@ aliases:
 2025年12月、主力蒸溜所であるケンタッキー州クレアモントが2026年通年で蒸溜作業を一時停止するというニュースが複数の海外メディアで報じられている。これはバーボン市場全体の供給過剰を受けた在庫調整が目的とされており、ボトリング・出荷・観光施設の運営は継続する見込みで、ホワイトラベル自体の生産終了やレシピ変更を示す情報はない。2026年時点では現行品として通常通り流通している。
 
 ## 価格・入手性
-
-実勢価格は700mlで1,100〜1,800円程度。1,000〜1,750ml展開もあり、まとめ買いすればさらに単価が下がる。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
 <img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
 </a>
 <figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+実勢価格は700mlで1,100〜1,800円程度。1,000〜1,750ml展開もあり、まとめ買いすればさらに単価が下がる。
+
 
 ---
 

@@ -10,6 +10,10 @@ aliases:
 
 1890年、Peter Mackieが創業。アイラ島の名門・ラガヴーリン蒸溜所を創業者一族が所有していたという歴史的経緯から、ピーテッドモルトがブレンドに使われている珍しい一本、ホワイトホース ファインオールドを隅々まで見ていく。
 
+
+---
+
+## ラガヴーリンという核
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
 <img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド" width="1048" height="4096" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## ラガヴーリンという核
 
 ブランド名は、エディンバラにあった「ホワイトホース・セラー」という1742年創業の宿駅に由来する。キーモルトはアイラ島のラガヴーリン蒸溜所で、これに加えてスペイサイドのグレンエルギン、創業者が1891年に設立したクライゲラキ、オルトモアなど、35種類以上の原酒をブレンドしているとされる。日本では2009年からキリンビールが輸入・販売を担当している。アルコール度数は40%。
 
@@ -34,15 +35,16 @@ aliases:
 1920年代に世界に先駆けて金属製スクリューキャップを採用し、開封の手軽さで販売を伸ばしたという歴史を持つ。1908年には英国王室御用達に認定され、日英博覧会でグランプリを受賞した記録もある。日本では大衆居酒屋・バーの定番として古くから定着しており、2018年発売の「ホワイトホース ハイボール缶」でハイボール文脈での再訴求も行われた。2026年3月には韓国市場への新規展開も発表されており、現役ブランドとしての勢いは衰えていないようだ。
 
 ## 価格・入手性
-
-実勢価格は700mlで1,100〜1,800円程度。200ml〜1,750mlまで容量展開が幅広く、Amazonでは2.7Lのバルクサイズも見かける。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
 <img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド" width="1048" height="4096" loading="lazy">
 </a>
 <figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+実勢価格は700mlで1,100〜1,800円程度。200ml〜1,750mlまで容量展開が幅広く、Amazonでは2.7Lのバルクサイズも見かける。
+
 
 ---
 

@@ -10,6 +10,10 @@ aliases:
 
 錫、ガラス、と続けて器を見てきたところで、今回は毛色の違う一客を取り上げる。KEITHのチタン製おちょこ「Ti9304」。もともとは中国の白酒(バイジュウ)用に設計されたショットグラスだが、日本酒のおちょことして使う前提で眺めていく。
 
+
+---
+
+## 金型製造から始まったチタン専業ブランド
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
 <img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 金型製造から始まったチタン専業ブランド
 
 KEITHは中国広東省仏山(フォシャン)を拠点とするメーカーで、正式には「Foshan KEITH Titanium Co., Ltd.」という。創業者Liu Minye氏が2001年にプレス金型の設計・製造業として立ち上げ、2004年に高級キッチン用品の分野へ進出、2005年からチタン製品の設計・開発・製造を本格的に始めたという経歴を持つ。2016年に法人名を「Keith Titanium Inc.」に改め、以後はチタンマグ・水筒・クッカー・カトラリー・弁当箱・茶器といった製品群を、アウトドア・登山・旅行・家庭用と幅広いカテゴリで展開している。ISO 9001:2015認証を取得したメーカーで、公式サイトのスローガンは「内なる探検家を解き放て」。金属加工の下請けからスタートし、チタンという素材一本で自社ブランドを築いてきた会社だと思う。
 
@@ -49,6 +50,8 @@ Ti9304は単層(シングルウォール)構造なので、熱いお酒を注げ
 
 熱燗・冷酒のどちらにも対応できる懐の広さも美点で、陶器やガラスのように用途を選ばない。ただし雰囲気作りという点では、装飾性のある陶器や漆器には及ばない。あくまで実用一辺倒の道具として割り切って使うのが向いていると思う。
 
+
+## 価格と入手性 — 並行輸入の可能性も踏まえて
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
 <img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
@@ -56,7 +59,6 @@ Ti9304は単層(シングルウォール)構造なので、熱いお酒を注げ
 <figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格と入手性 — 並行輸入の可能性も踏まえて
 
 KEITH公式サイトではTi9304は現行商品として販売されており、生産終了の様子はない。価格は米国の公式ストアで19ドル前後、Amazon.co.jpでは3,000円前後で取り扱われている。前述の通り日本の正規代理店の取扱リストには含まれていないため、国内で流通している分は並行輸入品とみて差し支えないだろう。正規保証や日本語サポートを重視するなら、その点は割り引いて考えた方がいい。
 

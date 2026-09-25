@@ -10,6 +10,10 @@ aliases:
 
 赤い薔薇のラベルが目印の、ケンタッキー州ローレンスバーグの蒸溜所が手がけるバーボン。エントリーモデルにしては珍しいほど手の込んだブレンド設計を持つフォアローゼズ イエローを隅々まで見ていく。
 
+
+---
+
+## 10種類の原酒というこだわり
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
 <img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー" width="712" height="1350" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 10種類の原酒というこだわり
 
 2種類のマッシュビル(コーン60%・ライ麦35%・大麦麦芽5%のスパイシー系と、コーン75%・ライ麦20%・大麦麦芽5%の甘め系)と、5種類の独自酵母(デリケート&フルーティ、スパイシー、リッチ&フルーティ、フローラル、ハーブ)を掛け合わせた、計10レシピの原酒をブレンドしている。この手間はSmall BatchやSingle Barrelのような上位グレードでこそ見られる手法で、スタンダードモデルに投入しているのはかなり珍しいと思う。アルコール度数は40%。
 
@@ -34,15 +35,16 @@ aliases:
 2026年2月、親会社キリンホールディングスが本ブランドを米E.&J.ガロ・ワイナリーに売却することを発表し、同年4月2日に売却が完了した。2002年からの24年間にわたるキリン保有が終了し、83年ぶりに米国資本(ファミリー企業)の傘下に戻った形になる。マスター蒸溜家を含む現地チームは留任しており、今のところ味や供給への直接的な影響を伝える報道はない。ちなみに米国では2018年に「イエローラベル」という通称が公式には廃止されているが、日本の小売店では今も慣用的にこの名前で呼ばれ続けている。
 
 ## 飲み方・価格
-
-軽やかな香りをじっくり楽しむなら、ハイボールよりロックやストレートの方が向いていると思う。実勢価格は700mlで1,700〜2,300円程度と、この価格帯の中ではやや高めだが、その分だけ複雑さでも一枚上手だと感じる。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
 <img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー" width="712" height="1350" loading="lazy">
 </a>
 <figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+軽やかな香りをじっくり楽しむなら、ハイボールよりロックやストレートの方が向いていると思う。実勢価格は700mlで1,700〜2,300円程度と、この価格帯の中ではやや高めだが、その分だけ複雑さでも一枚上手だと感じる。
+
 
 ---
 

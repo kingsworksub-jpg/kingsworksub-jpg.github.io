@@ -10,6 +10,10 @@ aliases:
 
 「SINCE 1884」という文字を缶に堂々と刻めるブランドは、そう多くない。142年の歴史を持つ三ツ矢サイダーの、糖類ゼロ・カロリーゼロ版である三ツ矢サイダーZEROを隅々まで見ていく。
 
+
+---
+
+## 名前が示す通りの改称
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">
 <img src="/images/products/mitsuya-cider-zero.jpg" alt="三ツ矢サイダーZERO" width="700" height="1776" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>三ツ矢サイダーZERO<span class="credit"><a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 名前が示す通りの改称
 
 この商品はもともと2019年に「三ツ矢サイダー ゼロ ストロング」として発売されたが、2024年3月に「三ツ矢サイダーZERO」へ改称・リニューアルされている。公式によれば中身は同じで、「ストロング」という言葉が名前から消えた後も強炭酸自体はそのまま維持されているという。Amazon.co.jp上には旧名称のままの商品リスティングも残っているため、購入時にはどちらの表記でも同じ商品を指していると考えて差し支えない。
 

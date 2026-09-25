@@ -10,6 +10,10 @@ aliases:
 
 赤い缶に走る黄色い稲妻、そこに黒文字で「REAL GOLD」。自動販売機やコンビニの一角で昔からずっと同じ場所を守ってきた栄養ドリンク系炭酸「リアルゴールド」を、隅から隅まで見ていく。
 
+
+---
+
+## 1981年発売、40年以上続くロングセラー
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
 <img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 1981年発売、40年以上続くロングセラー
 
 リアルゴールドは1981年に日本コカ・コーラが発売した炭酸系の栄養ドリンクだ。同じ棚に並ぶ大塚製薬「オロナミンC」が先行していた市場に、コカ・コーラが独自のブランドとして参入した形になる。発売当初はガラス瓶のみの展開で、後から缶入りが加わったという経緯も、この手の炭酸栄養ドリンクらしい歴史の刻み方だと思う。
 
@@ -37,6 +38,8 @@ aliases:
 
 好き嫌いが分かれるとすれば、この「薬草っぽさ」の部分だろう。栄養ドリンクの独特な風味が苦手な人には引っかかる要素になり得るが、逆にその風味こそが「効いている感じ」を演出してくれる部分でもあり、昔からのファンが求めているのはまさにこの後味なのだと思う。
 
+
+## パッケージ展開と価格・現行性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
 <img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
@@ -44,7 +47,6 @@ aliases:
 <figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## パッケージ展開と価格・現行性
 
 現行のラインナップは缶が160ml・190ml・250mlの3サイズ、加えてPETボトルの「ビタミンローヤルパワー」490mlがある。自動販売機やコンビニでの単品価格はおおむね130円前後、まとめ買いの160ml×30本ケースならAmazonや価格.comで1,500円前後から見つかる。2025年4月にパッケージを刷新したばかりということもあり、生産終了や取り扱い縮小の気配はまったくなく、コンビニ・スーパー・自販機のいずれでも安定して手に入る。
 

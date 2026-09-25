@@ -10,6 +10,10 @@ aliases:
 
 自動販売機でもスーパーでも、当たり前のようにそこにある「三ツ矢サイダー」。缶250ml×20本というオーソドックスな通常版を軸に、この透明な炭酸飲料を隅から隅まで見ていく。
 
+
+---
+
+## 始まりは兵庫の鉱泉水だった
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
 <img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本" width="125" height="280" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 始まりは兵庫の鉱泉水だった
 
 三ツ矢サイダーの歴史は1884年(明治17年)まで遡る。兵庫県川辺郡多田村(現在の川西市)で湧き出ていた天然の炭酸鉱泉水が「平野水(ひらのすい)」として商品化されたのがそもそもの出発点だ。この鉱泉自体は、1881年に宮内省の依頼で全国の水源を調査していた英国人科学者ウィリアム・ガウランドによって見出されたとされている。当初は無糖・無着色、香料も入っていない、ただの天然炭酸水だった。1890年には皇太子(のちの大正天皇)の御用品にも選ばれたというから、当時からかなり格の高い飲み物として扱われていたのだろう。
 
@@ -35,6 +36,8 @@ aliases:
 
 炭酸の強さについては缶によって印象が少し変わる気がしていて、開けたてはしっかり弾けるものの、時間が経つとやや抜けやすい。個体差か保存状態の差かは分からないが、キンキンに冷やしてすぐ飲み切るのが一番おいしく感じるタイプの炭酸だ。強炭酸を売りにしたウィルキンソン タンサンのような商品と比べると刺激自体は控えめで、そのぶん喉への当たりは優しい。ストレートで飲むのはもちろん、焼酎やウイスキーの割り材にしても、香料の甘さが主張しすぎずちょうどいい脇役になってくれる印象だ。
 
+
+## 容量とラインナップの広がり
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
 <img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本" width="125" height="280" loading="lazy">
@@ -42,7 +45,6 @@ aliases:
 <figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 容量とラインナップの広がり
 
 三ツ矢サイダーは缶160ml・250ml(20本/30本入り)・500ml、ペットボトルの300ml・430ml・500ml・1.5L、ボトル缶300ml、リターナブルびん200mlと、驚くほど幅広い容量で展開されている。今回取り上げている缶250ml×20本は、その中でもオーソドックスな通常版で、糖分・カロリーともに標準的な処方だ。
 

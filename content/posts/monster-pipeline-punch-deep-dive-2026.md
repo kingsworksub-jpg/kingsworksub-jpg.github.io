@@ -10,6 +10,10 @@ aliases:
 
 エナジードリンクの缶に、なぜかサーフィンの聖地の名前がついている。「パイプラインパンチ」という名前を最初に見たとき、そのギャップに少し引かれた。緑の爪痕ロゴでおなじみのモンスターエナジーのジューシー系ライン「Juice Monster」の一本で、日本ではアサヒ飲料が展開している355ml缶を、パッケージの隅から隅まで見ていく。
 
+
+---
+
+## 名前の由来はハワイの伝説的な波
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
 <img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ" width="350" height="180" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>モンスターエナジー パイプラインパンチ 355ml×12本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 名前の由来はハワイの伝説的な波
 
 「パイプライン」は、ハワイ・オアフ島ノースショアにある「バンザイパイプライン」というビッグウェーブの名所そのものを指している。世界中のサーファーが目指す聖地の名を冠して、フレーバーの方はパッションフルーツ・オレンジ・グァバを中心にしたハワイらしいトロピカルブレンドに仕上げてある。エナジードリンクにサーフカルチャーの記号を持ち込むあたり、モトクロスやスケートボード、格闘技といったサブカルチャーに深く食い込んできたモンスターエナジーというブランドの性格がよく出ていると思う。
 

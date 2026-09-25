@@ -10,6 +10,10 @@ aliases:
 
 Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを隅から隅まで見ていく。
 
+
+---
+
+## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
 <img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
@@ -17,9 +21,6 @@ Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん�
 <figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 筐体・外観・ビルド品質
 
 MDF製プラッターベースにグロス/サテン塗装を施した筐体で、重量は約5.6kg、ダストカバー込みのサイズは約488×235×393mm。カラー展開は9色前後と幅広く、グロスブラック・グロスホワイト・サテンファーグリーン・サテンスティールブルー・サテンワインレッド・ウォールナット調など、好みに合わせて選べる。天板にボタン類が一切見当たらないミニマルなデザインで、電源・速度切り替えは側面のロッカースイッチ一つに集約されている。脚は高さ調整可能なTPE制振アルミ製で、旧モデルの4脚から3脚に変更されたことで、水平出しの作業がシンプルになった。
 
@@ -47,6 +48,8 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 
 弱点として気になるのは、フォノプリアンプが内蔵されていないこと(別途50〜150ドル程度の追加コストになりうる)、VTA調整機構が無いこと、完全手動操作でオートストップが無いこと、そしてダストカバーを閉じるとモーターの振動がわずかに増幅されるように感じる点(カバーを外せば気にならない)。付属カートリッジについても、いずれ上位モデルへ買い替えたくなる人は一定数いそうだ。78回転だけベルトの掛け替えが必要な点も、地味に手間がかかる。
 
+
+## 価格・現行性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
 <img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
@@ -54,7 +57,6 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 <figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格・現行性
 
 米国での発売時価格は499ドルで、後の生産分では599ドルまで値上がりしている。ただし2026年時点で確認する限り、このDebut Carbon EVOはすでに現行ラインナップから外れており、Pro-Ject公式サイトでは後継モデル「Debut EVO 2」が現行機として案内されている。Debut EVO 2では、Ortofon製の新カートリッジ「Pick It MM EVO」、スチールからアルミへ変更されたプラッター、上位機Debut Pro譲りのトーンアーム・ベアリングブロックなどが採用されているという。日本国内でも、正規輸入代理店の現行ラインナップに「Debut Carbon EVO」の名前は見当たらず、Amazon.co.jpなどで流通しているのは並行輸入品(実売145,500〜175,300円前後)が中心のようだ。購入を検討する場合は、手に入るのが旧モデルの並行輸入品なのか、後継のDebut EVO 2なのかを確認しておいた方がよさそうだ。
 

@@ -10,6 +10,10 @@ aliases:
 
 モスコミュールやハイボールの割材として、名前だけは誰でも知っているであろう定番ブランド。1904年にカナダで生まれ、禁酒法時代のアメリカを生き延びたという歴史を持つカナダドライ ジンジャーエールを隅々まで見ていく。
 
+
+---
+
+## 「ペール」ジンジャーエールという発明
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
 <img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 「ペール」ジンジャーエールという発明
 
 1904年、カナダ・オンタリオ州の薬剤師ジョン・J・マクローリンが、シャンパンのようなドライな味わいと洗練さを目指して開発したのが始まりとされている。当時主流だったジンジャーエールはカラメル色素で色付けされた濃厚な甘口だったが、マクローリンが作ったのは色の薄い(pale)、すっきりとした辛口タイプ。この違いが「ペールジンジャーエール」という呼び名の由来になっている。妻モードが考案したという「シャンパンのようなジンジャーエール」というキャッチコピーも、なかなか気の利いた売り文句だと思う。
 
@@ -29,6 +30,8 @@ aliases:
 
 1920年代の禁酒法時代、密造酒(ムーンシャイン)特有の粗い風味をごまかすミキサーとして、隠れ酒場(スピークイージー)で重宝されたという歴史がある。この時期に定着した「お酒を割る」という文化的な立ち位置が、そのまま現代のモスコミュールやハイボールの割材需要にまでつながっていると考えると、なかなか感慨深いブランドだ。
 
+
+## 味の方向性とウィルキンソンとの違い
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
 <img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
@@ -36,7 +39,6 @@ aliases:
 <figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 味の方向性とウィルキンソンとの違い
 
 原材料はジンジャーエキス・炭酸・香料が中心で、生の生姜そのものは使われていない(すりおろし生姜入りの辛口版「プレミアジンジャーエール」という派生商品は別に存在する)。「甘すぎない、すっきりしたおいしさ」というのが公式の訴求で、実際に飲んでみても甘さは控えめで飲みやすい部類に入ると思う。
 

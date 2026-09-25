@@ -10,6 +10,10 @@ aliases:
 
 表面いっぱいに白い粒が並び、そこに金色の蔓草が這っている。石川県が誇る色絵磁器、九谷焼の「ぐい呑み 白粒鉄仙(しろつぶてっせん)」を見ていく。
 
+
+---
+
+## 九谷焼という産地 — 加賀の色絵磁器
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
 <img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 九谷焼という産地 — 加賀の色絵磁器
 
 九谷焼は石川県南部、加賀・能美・小松のあたりで作られてきた色絵磁器だ。始まりは江戸初期の明暦年間、大聖寺藩の初代藩主が領内の九谷村で磁鉱を見つけ、金工師に色絵を焼かせたのがきっかけとされている。この最初期の窯は50年ほどで途絶え、その頃の作品群は「古九谷」と呼ばれて今も評価が高い。その後100年近い空白を経て、江戸後期に加賀藩内で色絵磁器の窯が次々と立ち上がり、これが「再興九谷」と呼ばれる系譜になる。吉田屋窯が古九谷の作風を復興させ、宮本屋窯が赤絵の細密画を、永楽窯が金襴手を、というように、窯ごとに違う画風を競い合ってきた歴史がある。
 
@@ -43,6 +44,8 @@ aliases:
 
 徳利や片口とセットで使う小さな酒盃という立ち位置はどちらも共通していて、陶器製は熱伝導が穏やかなぶん、熱燗にも冷酒にも使いやすい。ガラスや金属の器に比べて口当たりが柔らかいのも、陶器の酒器ならではの良さだと思う。同じ意匠のシリーズを見ると、径5.5cm前後、高さ5cm前後というのがこのあたりの標準的なサイズ感のようで、手のひらに収まる小さな器の中に、加飾の手間だけはしっかり詰め込まれている格好になる。
 
+
+## 電子レンジ・食洗機はNG — 手洗いが基本
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
 <img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
@@ -50,7 +53,6 @@ aliases:
 <figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 電子レンジ・食洗機はNG — 手洗いが基本
 
 金彩や粒の盛り上げを施した九谷焼は、電子レンジやオーブンでの使用ができない。金属を含む絵具が火花を発する原因になるためで、これは上絵付けの器全般に共通する注意点になる。食洗機についても、洗剤や高温の水流、他の食器との接触で色落ちや剥落が進みやすいため、基本的には避けたほうがいい。
 

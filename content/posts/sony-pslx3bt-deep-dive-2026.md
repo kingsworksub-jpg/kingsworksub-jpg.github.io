@@ -10,6 +10,10 @@ aliases:
 
 Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後継)を隅から隅まで見ていく。
 
+
+---
+
+## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
 <img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
@@ -17,9 +21,6 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 <figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 筐体・外観・ビルド品質
 
 サイズは430×117×366mm、重量3.5kg。旧モデルのPS-LX310BTが黒一色だったのに対し、PS-LX3BTはチャコールグレーの本体にグリーンのスタートボタン、イエローのアクセントが入ったカートリッジという、思い切ったカラーリングに変わった。アルミダイキャスト製のプラッターと新設計のダイナミックバランス・トーンアームを備えるが、それ以外の筐体はプラスチックが中心。ボタン類の押し心地はやや安っぽく感じ、価格帯を考えると質感はそれなりに割り切られている印象だ。
 
@@ -45,6 +46,8 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 
 弱点としては、プラスチックが目立つ筐体の質感がスペック(アルミプラッター・アーム)に見合っていないと感じられる点、カートリッジのアップグレード経路が無く、Sony純正のスタイラス交換に縛られる点。PS-LX3BTについては、価格の高さが最大の弱点として挙げられることが多い。より安く、より選択肢の多いBluetoothターンテーブルが増えている市場において、この価格でこのモデルを積極的に勧めにくい、という厳しい評価も見られた。
 
+
+## 価格・現行性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
 <img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
@@ -52,7 +55,6 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 <figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格・現行性
 
 PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相まって448ドル前後まで値上がりしている。後継のPS-LX3BTは2026年2月のCESで発表され、希望小売価格は299ポンド/299ユーロ/469豪ドル(おおよそ401ドル相当)。日本国内はオープン価格で、実売はおよそ29,800円(最安値)〜38,560〜41,000円、主要な販売店ではおよそ34,470円あたりに価格が集まっている。PS-LX310BTからの変更点は、チャコールグレーの新デザインとカラーアクセント、ボタン・ダイヤルの見直し、切り替え式フォノステージの改良、BluetoothコーデックのaptXからaptX Adaptiveへの強化、球状針から楕円針へのアップグレード、電源入力のUSB-C化など多岐にわたる。
 

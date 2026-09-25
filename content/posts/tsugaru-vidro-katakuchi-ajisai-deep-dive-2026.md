@@ -10,6 +10,10 @@ aliases:
 
 冷酒を注ぐ器といえば徳利を思い浮かべる人が多いと思うが、注ぎ口が開いた「片口」という形もある。アデリアの「津軽びいどろ 片口あじさい」を、この夏らしい水色の器として見ていく。
 
+
+---
+
+## 浮き玉づくりから食卓の器へ
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
 <img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml" width="1600" height="1600" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 浮き玉づくりから食卓の器へ
 
 津軽びいどろを作っているのは、青森市の北洋硝子という会社だ。もともとは1949年、漁業で使うガラスの浮き玉(浮き球)を作る会社として始まっている。この浮き玉づくりで培った「宙吹き」という、型を使わず息と道具だけでガラスを膨らませる技術が、今の津軽びいどろの土台になっているらしい。1973年には浮き玉の国内生産量で首位に立ったというから、当時はかなりの規模で作っていたのだろう。
 
@@ -43,6 +44,8 @@ aliases:
 
 徳利との違いは口の広さにある。徳利は首が細く閉じているぶん香りを閉じ込めやすく、燗をつけたときに温度も保ちやすい。一方の片口は口が大きく開いているぶん空気に触れる面積が広く、香りがふわっと立ちやすい。冷酒、特に香りの華やかな吟醸系の酒を、まず目と鼻で楽しんでから注ぐ、という飲み方に向いている形だと感じる。ゆっくり注ぐと注ぎ口から液だれしやすいという注意書きもあったので、そこは徳利にはない片口特有のクセとして覚えておきたい。
 
+
+## アデリアというブランド
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
 <img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml" width="1600" height="1600" loading="lazy">
@@ -50,7 +53,6 @@ aliases:
 <figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## アデリアというブランド
 
 津軽びいどろを展開するアデリアの母体は、愛知県で1819年に創業した石塚硝子だ。尾張藩の御用でガラスを作っていたのが始まりというから、200年以上の歴史を持つ会社ということになる。実際、2019年には創業200周年を迎えている。アデリアというブランド自体は1961年に食器ブランドとして立ち上がったもので、津軽びいどろのほかにも、近年人気の「アデリアレトロ」のような復刻デザインのシリーズまで幅広く手がけている。片口一つとっても、老舗ガラスメーカーが地方の伝統技術ブランドを支える、という構図が背景にあるわけだ。
 

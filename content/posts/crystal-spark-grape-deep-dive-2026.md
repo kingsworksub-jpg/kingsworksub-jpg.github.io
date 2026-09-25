@@ -10,6 +10,10 @@ aliases:
 
 無糖なのに、グラスに注いだ瞬間からブドウジュースのような甘い香りが広がる。アイリスオーヤマの強炭酸水ブランド「CRYSTAL SPARK」から2026年春夏限定で登場したグレープソーダを隅々まで見ていく。
 
+
+---
+
+## 無果汁・無糖という設計
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
 <img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 無果汁・無糖という設計
 
 製造・販売はアイリスオーヤマグループの食品会社であるアイリスフーズ。CRYSTAL SPARKは同社が展開する無糖強炭酸水ブランドで、プレーン、レモン、ラムネ、シャインマスカット、ジンジャーエール、クリームソーダなど季節ごとに多彩なフレーバーを展開している。グレープソーダはその中でも2026年2月に発売された春夏限定フレーバーだ。
 

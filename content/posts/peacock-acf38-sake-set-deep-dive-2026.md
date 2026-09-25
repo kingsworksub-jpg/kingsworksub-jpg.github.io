@@ -10,6 +10,10 @@ aliases:
 
 徳利とおちょこなのに、中身は魔法瓶。大阪の老舗魔法瓶メーカー、ピーコック魔法瓶工業の「酒器セット ACF-38」を見ていく。陶器でもガラスでもなく、ステンレスの真空二重構造でできた徳利、という時点でもう普通の酒器とは違う設計思想を感じる一本だ。
 
+
+---
+
+## 徳利は真空、おちょこは中空 — ステンレス2枚の間に仕込まれた仕掛け
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
 <img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38" width="1080" height="1080" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 徳利は真空、おちょこは中空 — ステンレス2枚の間に仕込まれた仕掛け
 
 この徳利の芯にあるのは、ステンレスを2枚重ねてその間を真空にする、水筒や魔法瓶と同じ構造だ。真空の層は熱をほとんど伝えないので、注いだ酒の温度が外気に引っ張られにくい。徳利がこの完全な真空二重構造なのに対して、セットのおちょこは中空二重構造という一段軽い作りになっている。おちょこは手にすぐ持って口をつけるものなので、完全真空にして分厚くするより、この使い分けの方が理にかなっていると思う。
 
@@ -39,6 +40,8 @@ aliases:
 
 食洗機・食器乾燥機には対応しているので、日常使いの手入れは楽な部類に入る。一方で電子レンジと直火・湯せんでの加熱には対応していない。燗をつけたいときは、別の容器やレンジ対応のちろりで温めてから、この徳利に移し替える必要がある。保温力の高さと引き換えに、徳利自体で燗をつける手軽さは犠牲になっている格好だ。この一手間を面倒と見るか、温度が長持ちする代償として納得するかで評価が分かれるところだと思う。
 
+
+## 大阪の魔法瓶御三家、3番手のブランド
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
 <img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38" width="1080" height="1080" loading="lazy">
@@ -46,7 +49,6 @@ aliases:
 <figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 大阪の魔法瓶御三家、3番手のブランド
 
 ピーコック魔法瓶工業は1950年、大阪・福島区で創業した会社だ。象印マホービン、タイガー魔法瓶という先発2社に続く形で、同じように動物の名前を社名に冠して立ち上げられたという成り立ちを知って、なるほどと思った。象・虎・孔雀と並ぶ、大阪発祥の魔法瓶御三家の一角ということになる。
 

@@ -10,6 +10,10 @@ aliases:
 
 バーで「タンサンで」と頼めば、大抵このボトルが出てくる。1904年発売、120年以上ハイボールの相棒を務め続けている無糖の強炭酸水、ウィルキンソン タンサンを隅々まで見ていく。
 
+
+---
+
+## 発祥は宝塚の天然炭酸鉱泉
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
 <img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 発祥は宝塚の天然炭酸鉱泉
 
 1889年、日本で事業機会を探っていた英国人実業家ジョン・クリフォード・ウィルキンソンが、兵庫県宝塚(武庫川沿い)で狩猟中に天然の炭酸鉱泉を発見したのが始まりとされている。湧き水をロンドンの分析機関に送ったところ食卓用として世界的に見ても優良という評価を受け、1890年に瓶詰めを開始。1904年に「ウヰルキンソン・タンサン」への改称を経て、現在まで続くブランドが立ち上がった。一時期は海外にも広く輸出されていたというから、当時としてはかなり国際色の強い国産ブランドだったのだろうと思う。
 

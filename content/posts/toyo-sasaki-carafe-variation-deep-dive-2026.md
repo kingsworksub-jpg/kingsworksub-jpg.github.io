@@ -10,6 +10,10 @@ aliases:
 
 冷酒を氷で冷やすと、どうしても味が薄まる。その当たり前の悩みに、ガラスの構造だけで答えを出した器がある。東洋佐々木ガラスの「カラフェ・バリエーション」徳利(氷ポケット付、品番61048DV)を見ていく。
 
+
+---
+
+## 氷を入れるのに、酒には触れさせない
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">
 <img src="/images/products/toyo-sasaki-carafe-variation.jpg" alt="東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml" width="550" height="550" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml(61048DV)<span class="credit"><a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 氷を入れるのに、酒には触れさせない
 
 この徳利のいちばんの見せ場は、胴の中央に空いた大きな空洞だ。ここに氷を入れるのだが、そのポケットは容器の内側に向かって入り組んだ形状になっていて、酒そのものには氷が直接触れない。氷はあくまでガラスの壁を介して酒を外側から冷やす役目に徹し、溶けた水も外にこぼれないよう下方に向かって空洞が続く造りになっている。
 
@@ -43,6 +44,8 @@ aliases:
 
 ガラス製の酒器全般に言えることだが、急激な温度変化には弱い。冷蔵庫でよく冷やしてから使い、洗浄後は自然乾燥させる、という程度の気遣いで十分長く付き合えると思う。
 
+
+## 明治から続く、ガラスの老舗の合流点
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">
 <img src="/images/products/toyo-sasaki-carafe-variation.jpg" alt="東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml" width="550" height="550" loading="lazy">
@@ -50,7 +53,6 @@ aliases:
 <figcaption>東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml(61048DV)<span class="credit"><a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 明治から続く、ガラスの老舗の合流点
 
 東洋佐々木ガラスという社名は2002年に生まれたもので、そこには2つの流れが合流している。ひとつは1878年創業の東洋ガラス、もうひとつは1902年に東京・神田で石油ランプの販売から始まった佐々木硝子だ。佐々木硝子は戦後にガラス食器の卸販売へ軸を移し、東証一部にまで名を連ねた時期もあったが、平成に入って経営再建を経験している。その佐々木硝子とハウスウエア事業を担っていた東洋ガラスが統合して、今の社名になった。
 

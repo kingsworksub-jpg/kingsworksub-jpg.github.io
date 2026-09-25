@@ -102,6 +102,8 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 ## Fender Studio Pro(旧Studio One) — 名前は変えても、律儀さは変わらないらしい
 
+
+(Amazonに単体販売の取り扱いなし)
 <figure class="photo photo--left">
 <a href="https://jp.fender.com/en/products/fender-studio-pro">
 <img src="/images/products/fender-studio-pro.png" alt="Fender Studio Pro" width="1200" height="630" loading="lazy">
@@ -109,7 +111,6 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 <figcaption>Fender Studio Pro<span class="credit"><a href="https://jp.fender.com/en/products/fender-studio-pro">Amazonで見る →</a></span></figcaption>
 </figure>
 
-(Amazonに単体販売の取り扱いなし)
 
 ![Fender Studio Proの使いやすさレーダーチャート](/images/radar/fender-studio-pro.svg)
 

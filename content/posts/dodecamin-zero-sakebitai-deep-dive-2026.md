@@ -10,6 +10,10 @@ aliases:
 
 「ドデカミンのゼロが好きだと叫びたい」——正直、初めてこの商品名を見たとき二度見した。長い。しかも意味深に語尾が「叫びたい」で終わっている。この長い名前を背負ったゼロカロリー版ドデカミンを、隅から隅まで見ていく。
 
+
+---
+
+## 毎年名前が変わる、という珍しい商品
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">
 <img src="/images/products/dodecamin-zero.png" alt="ドデカミンのゼロが好きだと叫びたい" width="90" height="280" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ドデカミンのゼロが好きだと叫びたい 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRWR1W5?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 毎年名前が変わる、という珍しい商品
 
 このゼロカロリー版ドデカミン、実は中身も味もほぼそのままに、**パッケージの商品名だけが毎年変わる**という珍しい経歴を持っている。
 

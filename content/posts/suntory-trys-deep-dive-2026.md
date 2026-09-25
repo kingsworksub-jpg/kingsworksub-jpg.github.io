@@ -10,6 +10,10 @@ aliases:
 
 「トリスバー」「トリハイ」という言葉を生んだ、戦後日本のウイスキー史そのもののようなブランド。1946年発売、10本の中でも屈指の長寿銘柄であるトリスウイスキーを隅々まで見ていく。
 
+
+---
+
+## 名称変更の経緯
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
 <img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 名称変更の経緯
 
 2015年に「トリス〈クラシック〉」として発売された際は、白州産モルトをキーモルトに据えたやや上質寄りの構成で登場した。ところが2025年11月、15年ぶりに「トリスウイスキー」という名称へ回帰し、アンクルトリスのイラストをあしらったパッケージへ刷新されている。公式発表では中身(味・香り・価格)は変更なしと明記されており、実質的には名称とパッケージだけの切り替えだ。原酒構成はモルト・グレーンウイスキーのブレンドで、白州モルトやスパニッシュオーク樽由来のモルトも使われている。
 
@@ -32,15 +33,16 @@ aliases:
 1946年、戦後の三級ウイスキーとして発売され、1989年の酒税法改正でブレンド用アルコールからグレーンスピリッツに切り替わったことで品質が向上したという経緯がある。トリスを中心に提供した大衆酒場「トリスバー」は最盛期に比べれば店舗数は減ったものの、今も現存する店がある。2000年代後半以降のハイボールブームの源流のひとつとされているのも納得で、値段だけでは測れない文化的な重みを持つ一本だと思う。
 
 ## 価格・入手性
-
-公式参考価格は990円(税別)。実勢はネット最安値で800円台から、店舗によっては1,300円程度まで。180ml〜4Lまで幅広い容量展開があり、大容量のペットボトルは単価がさらに下がる。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
 <img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
 </a>
 <figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+公式参考価格は990円(税別)。実勢はネット最安値で800円台から、店舗によっては1,300円程度まで。180ml〜4Lまで幅広い容量展開があり、大容量のペットボトルは単価がさらに下がる。
+
 
 ---
 

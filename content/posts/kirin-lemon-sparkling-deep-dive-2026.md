@@ -10,6 +10,10 @@ aliases:
 
 「透明なままでゆけ。」というキャッチコピーがあるくらい、無色透明であることをずっと売りにしてきたブランドがある。1928年発売のキリンレモンから生まれた無糖の派生品、キリンレモン 炭酸水を隅々まで見ていく。
 
+
+---
+
+## 無色透明という98年前からの主張
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">
 <img src="/images/products/kirin-lemon-sparkling.jpg" alt="キリンレモン 炭酸水" width="580" height="580" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>キリンレモン 炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BVMGY6P7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 無色透明という98年前からの主張
 
 キリンレモンは1928年3月16日発売、キリンブランドとして最初の清涼飲料だった。当時の炭酸飲料は着色されているものが主流だったのに対し、無色透明・無着色を前面に打ち出したのが最大の特徴だったという。この「透明であること」への強いこだわりは、90周年キャンペーンの「透明なままでゆけ。」というコピーにも表れていて、ブランドの一貫した軸になっている。
 

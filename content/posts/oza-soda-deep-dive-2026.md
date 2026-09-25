@@ -10,6 +10,10 @@ aliases:
 
 楽天のランキングで水・ソフトドリンク部門1位を何度も獲得している、じわじわと支持を広げている強炭酸水がある。もとは「ZAO SODA」という名前だったこの炭酸水、OZA SODAを隅々まで見ていく。
 
+
+---
+
+## 改名に込められた二重の意味
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
 <img src="/images/products/oza-soda.jpg" alt="OZA SODA" width="600" height="600" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 改名に込められた二重の意味
 
 製造・販売元は東証プライム上場のライフドリンクカンパニー。もともとは山形県山形市・蔵王山麓の地下水を使う「ZAO SODA」として発売され、5年ほどで累計2億本を売り上げた人気商品だった。生産拠点を蔵王だけでなく大分県日田にも拡大したタイミングで、2024年11月に「OZA SODA」へ改名している。
 

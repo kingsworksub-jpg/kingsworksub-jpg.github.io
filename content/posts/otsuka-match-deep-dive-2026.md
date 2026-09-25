@@ -10,6 +10,10 @@ aliases:
 
 自動販売機の隅っこに、水色のラベルに黄色い液体という組み合わせでいつも並んでいる「MATCH(マッチ)」。ポカリスエットやアクエリアスのようなイオン飲料とはどこか違う、ビタミン配合の微炭酸飲料というちょっと変わった立ち位置の一本を、今回は隅から隅まで見ていく。
 
+
+---
+
+## 1996年生まれ、もう30年選手のロングセラー
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
 <img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本" width="400" height="440" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 1996年生まれ、もう30年選手のロングセラー
 
 MATCHが発売されたのは1996年。当時は大塚製薬工業という社名だった大塚食品から世に出て、2010年に大塚ベバレジの飲料事業を吸収合併した際に「ジャワティ」などと並んで正式に大塚食品の看板ブランドへ組み込まれた経緯がある。2009年には成分構成を見直すマイナーチェンジを行い、「ビタミン飲料」というカテゴリーをより明確に打ち出す方向へ舵を切ったそうだ。もう30年近く自販機や売り場に並び続けているわけで、清涼飲料の世界では立派な古株といっていい。
 
@@ -37,6 +38,8 @@ MATCHが発売されたのは1996年。当時は大塚製薬工業という社�
 
 正直、この「何味とも言い切れない曖昧さ」こそがMATCHの個性なのだと思う。フルーツジュース的なわかりやすい美味しさを求めて飲むと拍子抜けするかもしれないが、部活後や勉強の合間にビタミン補給がてらゴクゴク飲むという用途で考えると、この控えめな甘さとすっきりした後味はちょうどいいバランスに感じられる。
 
+
+## ラインナップの広がりとパッケージ
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
 <img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本" width="400" height="440" loading="lazy">
@@ -44,7 +47,6 @@ MATCHが発売されたのは1996年。当時は大塚製薬工業という社�
 <figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## ラインナップの広がりとパッケージ
 
 基本ラインアップは270ml・500ml・1.5Lのペットボトルと、350ml・480mlの缶。派生商品として2023年10月に「マッチ ビタミンみかん」が登場している。こちらはビタミンCの含有量を通常品の2倍に強化し、みかんの葉をあしらったアイコンでフレーバーを差別化した一本で、受験生や高校生といった健康志向の層をターゲットに想定しているようだ。ゼリータイプの「マッチゼリー」も展開されており、飲料だけでなく食感の違う派生商品にまでブランドが広がっている。
 

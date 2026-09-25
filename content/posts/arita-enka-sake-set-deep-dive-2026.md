@@ -10,6 +10,10 @@ aliases:
 
 酒器の産地というと、このブログでもすでに九谷焼や美濃焼を取り上げてきたが、日本の磁器の歴史そのものを語るなら避けて通れないのが佐賀県有田町の「有田焼」だ。今回はその有田焼を名乗る「炎華」という酒器セット(徳利1個・ぐい呑み2個・木箱入り)を隅から隅まで見ていく。
 
+
+---
+
+## 有田焼という産地 — 日本の磁器はここから始まった
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
 <img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)" width="1200" height="1200" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 有田焼という産地 — 日本の磁器はここから始まった
 
 有田焼の起源は1616年、朝鮮出兵に同行してきた陶工・李参平が有田東部の泉山で磁器の原料になる白磁鉱を発見し、日本で初めて磁器を焼いたことに遡るとされている。それまで日本の焼き物は陶器が中心で、白く硬い磁器は中国・朝鮮からの輸入品しか手に入らなかった時代に、国内で磁器が焼けるようになったのは大きな転換点だったらしい。
 

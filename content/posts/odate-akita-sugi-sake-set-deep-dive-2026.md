@@ -10,6 +10,10 @@ aliases:
 
 酒器といえばガラスや陶磁器、金属を思い浮かべることが多いが、木でできた徳利とお猪口もある。秋田県大館市の大館工芸社が作る「秋田杉 酒器3点セット」を、今回は隅から隅まで見ていく。
 
+
+---
+
+## 大館曲げわっぱという産地 — 武士の副業から国指定の伝統工芸へ
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
 <img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" width="550" height="366" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 大館曲げわっぱという産地 — 武士の副業から国指定の伝統工芸へ
 
 秋田県大館市に伝わる曲げわっぱの起源は平安時代まで遡るとも言われているが、産業として本格的に発展したのは17世紀後半、大館城主・佐竹西家が下級武士の副業として奨励したのがきっかけだったらしい。樹齢200〜300年という天然秋田杉の資源に恵まれた土地柄が、この工芸を支えてきた土台になっている。1980年には経済産業大臣指定の伝統的工芸品にも指定され、今も大館の地場産業として続いている。
 

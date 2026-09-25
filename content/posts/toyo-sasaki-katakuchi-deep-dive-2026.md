@@ -10,6 +10,10 @@ aliases:
 
 「片口(かたくち)」と聞いて、すぐに形が思い浮かぶ人はそう多くないと思う。もともとは醤油や出汁、酢といった液体を注ぐための台所道具で、酒器の主役というよりは裏方の存在だった。それがいつのまにか、日本酒の香りを立たせるための器として食卓に上がるようになった。東洋佐々木ガラスが作るこの片口は、そんな器の役割の移り変わりを、ガラスという素材でわかりやすく体現している一本だと思う。
 
+
+---
+
+## そもそも「片口」とは何なのか
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
 <img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml" width="610" height="920" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## そもそも「片口」とは何なのか
 
 片口は、片側にだけ注ぎ口が付いた、首のない広口のボウル型の器のことを指す。奈良の平城京跡からも出土例があるそうで、その歴史はおよそ1300年に及ぶという。もとの用途は日本酒に限らず、醤油や出汁、酢、油といった液体全般を注ぎ分けるための調理道具だった。宮廷儀式で使われた「銚子」という柄付きの酒器から、徳利や片口へと形が枝分かれしていった系譜の中に位置づけられる器でもある。
 
@@ -45,6 +46,8 @@ aliases:
 
 なお業務用としてもよく流通していて、48個セットのケース販売で飲食店・酒販店向けに卸されている実績もある。家庭用の単品としてだけでなく、日本酒バーのような場でも使われている器だと考えると、実用性の高さにも納得がいく。
 
+
+## 東洋佐々木ガラスという会社
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
 <img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml" width="610" height="920" loading="lazy">
@@ -52,7 +55,6 @@ aliases:
 <figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 東洋佐々木ガラスという会社
 
 東洋佐々木ガラス株式会社のルーツは1902年、佐々木宗次郎が東京・神田で石油ランプの販売を始めたことにさかのぼる。1947年に佐々木硝子株式会社として法人化し、1962年には東京証券取引所二部に上場するほどの規模に育った。ところが1999年に会社更生法の適用を申請することになり、2002年、東洋製罐グループの東洋ガラスが持つハウスウエア部門と統合されて、現在の「東洋佐々木ガラス株式会社」という社名になった。
 

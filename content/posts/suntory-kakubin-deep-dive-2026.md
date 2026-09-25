@@ -10,6 +10,10 @@ aliases:
 
 コンビニでも酒屋でも、必ずと言っていいほど棚に並んでいる一本。1937年発売、鳥井信治郎率いる寿屋(現サントリー)による戦前からの国産ウイスキーの系譜という、とにかく息の長いブランドを角瓶を隅々まで見ていく。
 
+
+---
+
+## ボトルデザインと原酒構成
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
 <img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## ボトルデザインと原酒構成
 
 六角形の鼈甲柄ボトルが「角瓶」の愛称の由来になっていて、発売から90年近く経った今も基本デザインは大きく変わっていない。中身は山崎蒸溜所・白州蒸溜所のモルト原酒と、知多蒸溜所のグレーン原酒をブレンドしたもの。自社で3つの蒸溜所を持ち、原酒を垂直統合的に調達できるというのがサントリーの強みで、角瓶の価格と品質のバランスはこの体制に支えられていると感じる。
 

@@ -10,6 +10,10 @@ aliases:
 
 1956年発売の「ブラックニッカ」シリーズの中でも、もっとも軽くもっとも安いのがこのクリア。実勢価格が1,000円を切ることも珍しくない一本を隅々まで見ていく。
 
+
+---
+
+## 原酒構成とブランドの位置づけ
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
 <img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 原酒構成とブランドの位置づけ
 
 ノンピートモルト原酒(ピートを使わず熱風乾燥させたモルト)とグレーンウイスキーをブレンドし、輸入原酒も一部使用している。ブラックニッカシリーズには他にディープブレンド(45%)、リッチブレンド(40%)、スペシャル(42%)などもあり、クリアは度数37%ともっとも軽く、価格帯もエントリーに位置づけられる。
 
@@ -36,15 +37,16 @@ aliases:
 炭酸割りにすると酸味が勝ってしまい特徴が薄れる、という指摘をよく見かけるが、これは強炭酸で氷をたっぷり、比率をやや薄めの1:3.5程度にすると評価が上がるらしい。個人的にも、濃いめに作るよりは薄めにさらっと作った方がこの酒には合っている気がする。糖質・プリン体ゼロという実用面の安心感もあり、とにかく毎日気軽に開けられる一本だと思う。
 
 ## 価格・入手性
-
-メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
 <img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
 </a>
 <figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。
+
 
 ---
 

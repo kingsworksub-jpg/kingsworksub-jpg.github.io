@@ -10,6 +10,10 @@ aliases:
 
 スーパーや業務スーパーの棚でよく見かける「神戸居留地」の炭酸水。缶190mlという飲み切りサイズの強炭酸水「スパークリングウォーター プレーン」を、隅から隅まで見ていく。
 
+
+---
+
+## 富永貿易という会社と、「神戸居留地」ブランド
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
 <img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml" width="800" height="800" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 富永貿易という会社と、「神戸居留地」ブランド
 
 製造・販売元は富永貿易株式会社。1923年創業、1949年設立という長い歴史を持つ神戸の会社で、本社は神戸市中央区御幸通にある。「ファブレスメーカー」「商社」「OEM」の3本柱で食品・飲料を幅広く手掛けており、売上高は400億円を超える規模だ。「神戸居留地」はその関連会社である富永食品が1994年から展開しているソフトドリンクブランドで、炭酸水だけでなくコーラやサイダー、コーヒー、緑茶・烏龍茶・紅茶、果汁飲料、さらにはチューハイ・ハイボールといったアルコール飲料まで抱える、思いのほか懐の深いラインナップになっている。
 
@@ -35,6 +36,8 @@ aliases:
 
 一方で、まとめ買いをするとなると30本という本数はそれなりにかさばるし、缶を何度も開け閉めする手間は当然ペットボトルより増える。単価計算では大容量ペットボトルの方が割安になりやすい面もあるので、「毎回きっちり飲み切りたい派」か「まとめて作り置きしたい派」かで評価が分かれるところだろう。
 
+
+## 炭酸の強さと味わい
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
 <img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml" width="800" height="800" loading="lazy">
@@ -42,7 +45,6 @@ aliases:
 <figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 炭酸の強さと味わい
 
 プレーンなので味の主張はほぼゼロで、評価のポイントは炭酸の強さと後味の軽さに絞られる。実際に飲んでみると、缶入りらしくしっかりとした刺激があり、ウィルキンソン タンサンのような定番の強炭酸水と比べても見劣りしない強さだと感じた。喉への当たりは強めだが、後味はすっきりしていて、変な癖が残らない。ハイボールの割り材として使うと、ウイスキーの香りを邪魔せずにガツンとした刺激を足してくれる印象で、割り材用途としての完成度は高いと思う。
 

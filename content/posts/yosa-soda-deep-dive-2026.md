@@ -10,6 +10,10 @@ aliases:
 
 500mlのペットボトル炭酸水を開けて、飲みきる前に気が抜けてしまった経験がある人は多いと思う。その課題にまっすぐ答えたのが、キリンが2016年に通販限定で発売した190ml缶の無糖炭酸水、ヨサソーダだ。隅々まで見ていく。
 
+
+---
+
+## 190ml缶という設計思想
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22">
 <img src="/images/products/yosa-soda.jpg" alt="ヨサソーダ" width="580" height="580" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ヨサソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 190ml缶という設計思想
 
 キリンビバレッジが2016年8月に発売した無糖炭酸水で、原材料は水と炭酸のみ、ミネラル添加のない純水仕様。最大の特徴は缶サイズが190mlに絞られている点で、これは500ml以上のペットボトル炭酸水にありがちな「飲みきる前に炭酸が抜けてしまう」という課題に対する回答として企画されたという。無糖炭酸水市場が数年で2倍以上に拡大した時期に、通販・EC需要を見込んで投入された商品だと知ると、飲みきりサイズという設計にも納得がいく。
 

@@ -10,6 +10,10 @@ aliases:
 
 夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL SPARK」からは以前グレープソーダを取り上げたが、同じシリーズの「ラムネ」は人気投票を勝ち抜いて定番入りした一本だと知り、改めて隅々まで見ていくことにした。
 
+
+---
+
+## 期間限定から定番へ、異例の昇格
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
 <img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ" width="700" height="700" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>CRYSTAL SPARK ラムネ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 期間限定から定番へ、異例の昇格
 
 CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリスフーズが2024年7月に立ち上げた無糖強炭酸水ブランドで、プレーン・レモン・和梨・ゆず・マスカット・ジンジャーエールといったフレーバーを軸に展開してきた。ラムネはもともと2025年春夏の期間限定フレーバーとして登場したのだが、歴代の期間限定フレーバーの中で人気No.1という結果を受けて、2026年2月にグレープソーダの新発売と同時に通年の定番ラインナップへ昇格している。期間限定で終わらず定番になった、というのはこのシリーズの中でもラムネだけの経歴だ。
 
@@ -31,6 +32,8 @@ CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリス�
 
 強炭酸を謳う分、ガスの刺激もかなりしっかりしている。甘い香りに反してうっすら酸味を感じる後味は、いかにも「無糖の清涼飲料水」らしい仕上がりで、糖分を気にせず気軽に飲めるのがありがたい。
 
+
+## 割材としての立ち位置と、価格・入手性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
 <img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ" width="700" height="700" loading="lazy">
@@ -38,7 +41,6 @@ CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリス�
 <figcaption>CRYSTAL SPARK ラムネ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 割材としての立ち位置と、価格・入手性
 
 パッケージには割り材としての用途がはっきり書かれていて、無糖・無果汁だからこそチューハイやサワーの割材にもそのまま使いやすい。ラムネ味のサワーというのも、考えてみればコンビニの棚に並んでいそうな組み合わせで、家庭で再現できるのは地味に嬉しいポイントだと思う。
 

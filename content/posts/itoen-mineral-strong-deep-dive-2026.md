@@ -10,6 +10,10 @@ aliases:
 
 強炭酸水はどれも似たり寄ったりに見えて、実はミネラル構成のこだわり方に差が出る。伊藤園がAmazon.co.jp限定で展開する「ミネラルストロング」を隅々まで見ていく。
 
+
+---
+
+## 「ミネラル」の正体はシリカ
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">
 <img src="/images/products/itoen-mineral-strong.png" alt="伊藤園 ミネラルストロング" width="455" height="1043" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>伊藤園 ミネラルストロング<span class="credit"><a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 「ミネラル」の正体はシリカ
 
 製造・販売元は伊藤園。名前にある「ミネラル」は主にシリカ(ケイ素由来の天然ミネラルで、体内で合成できない成分)を指していて、天然水由来のシリカを50mg/L含有していると謳っている。「ストロング」はガス圧の強さを指しており、公式では「泡は細かく、ガス圧は強い」という表現でその刺激の強さを訴求している。
 

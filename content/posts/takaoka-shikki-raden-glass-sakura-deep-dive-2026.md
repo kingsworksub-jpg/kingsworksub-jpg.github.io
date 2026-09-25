@@ -10,6 +10,10 @@ aliases:
 
 ガラスの盃なのに、底に貝が埋め込まれている。しかも酒を注ぐまでその貝の模様がはっきり見えない、という仕掛けの酒器がある。富山県高岡市の天野漆器が作る「螺鈿ガラス 金杯(万華鏡シリーズ)」の桜柄を、今回は隅から隅まで見ていく。
 
+
+---
+
+## 高岡漆器という産地 — 城下町から始まった400年
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
 <img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜" width="800" height="764" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 高岡漆器という産地 — 城下町から始まった400年
 
 高岡漆器のルーツは1609年、加賀藩2代藩主・前田利長が高岡城を築いた際、城下に職人を集めて武具や膳、箪笥といった日用品を作らせたことに遡るという。以来、明和年間(1764〜1772年)に中国風の意匠を取り入れたことをきっかけに技法が発展し、明治初期までに「彫刻塗」「勇助塗」「青貝塗(螺鈿)」という3つの技法体系が確立された。1975年9月4日には経済産業大臣指定の伝統的工芸品にも指定されている。
 

@@ -10,6 +10,10 @@ aliases:
 
 盃の底に富士山が立っている。それも、酒を注ぐたびに色を変える富士山だ。東京の老舗ガラスメーカー、田島硝子の「金箔富士 冷酒杯(桜)」を見ていく。
 
+
+---
+
+## 「被せ硝子」という二重構造
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
 <img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)" width="1200" height="1200" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 「被せ硝子」という二重構造
 
 この盃の見た目のインパクトは、透明なガラスの上にもう一枚、薄い色ガラスを重ねる「被せ硝子(きせがらす)」という技法から来ている。職人が透明なガラスの生地に、0.2〜0.3mmほどの薄さで色ガラスをひとつずつ吹き重ねていくのだそうで、この一枚がロックグラスのボディに紅色の帯を作っている。そこにさらに金箔の装飾を施すことで、単色のガラスとは違う奥行きが出ている。
 
@@ -47,6 +48,8 @@ aliases:
 
 ソーダガラス特有の話として、洗浄後に水滴が残ると跡が白く曇って見えることがあるが、これは汚れではなく、乾いて拭き上げれば元の透明感に戻る。神経質になりすぎず、使うたびに拭き上げる習慣をつければ十分だと思う。
 
+
+## 1956年創業、江東区のガラスメーカー
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
 <img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)" width="1200" height="1200" loading="lazy">
@@ -54,7 +57,6 @@ aliases:
 <figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 1956年創業、江東区のガラスメーカー
 
 田島硝子は1956年に東京・江東区で創業し、現在は3代目に代を重ねている会社だ。もともとは江戸切子向けの色被せガラスを生地として供給する仕事を長く手がけてきたメーカーで、その中で薄い被せガラスの技術を磨き上げてきた背景がある。この冷酒杯シリーズも、その蓄積の上に生まれたブランド展開のひとつという位置づけになる。
 

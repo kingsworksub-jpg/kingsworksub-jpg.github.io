@@ -10,6 +10,10 @@ aliases:
 
 「ちろり」と聞いてすぐに形が思い浮かぶ人は、今どれくらいいるだろうか。本来は錫や銅で作られた、湯煎で燗をつけるための酒器の名前だ。その金属の道具を、東京・墨田区のガラスメーカー廣田硝子がハンドメイドのガラスで作り直したのが今回見ていく一本になる。
 
+
+---
+
+## そもそも「ちろり」とは何なのか
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
 <img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## そもそも「ちろり」とは何なのか
 
 ちろりは江戸時代後期に登場したとされる酒器で、円筒形の器にコの字形の持ち手が付いた独特の形をしている。役割は燗徳利とは少し違っていて、酒を直接火にかけるのではなく、**お湯を張った鍋に浸けて湯煎で温める**ための道具だ。金属製ならではの熱伝導の良さを活かして、短時間でむらなく燗をつけられるのが本来の使い方になる。
 
@@ -41,6 +42,8 @@ aliases:
 
 耐熱ガラスとはいえ、直火にかけて温める使い方は想定されていない。あくまで湯煎が基本で、いきなり火であぶるような使い方は避けたほうがいい。食洗機についても対応をうたっていないので、手洗いでのお手入れが安心だと思う。多少手間はかかるが、ガラスと真鍮の組み合わせという凝った作りを考えれば、そのくらいの気遣いは自然なことに感じる。
 
+
+## 廣田硝子という会社 — 1899年創業、江戸硝子の担い手
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
 <img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
@@ -48,7 +51,6 @@ aliases:
 <figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 廣田硝子という会社 — 1899年創業、江戸硝子の担い手
 
 廣田硝子の創業は1899年(明治32年)。新潟出身の初代・廣田金太が東京でガラス商を始めたのがルーツで、1915年には墨田区にあたる本所区にガラス工場を構え、ランプのほや作りからものづくりを広げていった。関東大震災、東京大空襲と二度の大きな被災を経ながらも復興し、1950年に廣田硝子株式会社として現在の体制になったという歴史を持つ、東京でも指折りの老舗ガラスメーカーだ。
 

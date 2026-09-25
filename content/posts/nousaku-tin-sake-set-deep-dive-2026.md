@@ -10,6 +10,10 @@ aliases:
 
 富山・高岡に、曲がる金属で酒器を作る鋳物メーカーがある。能作の「本錫100%」シリーズから、ぐい呑みと片口小のセットを取り上げる。
 
+
+---
+
+## 高岡が育てた、曲がる金属
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">
 <img src="/images/products/nousaku-tin-sake-set.jpg" alt="能作 本錫100%酒器セット" width="700" height="700" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 高岡が育てた、曲がる金属
 
 能作の創業は1916年。高岡銅器という400年続く鋳物産地で、仏具や茶道具、花瓶を手がける工房として始まった会社だ。転機になったのは2003年、世界初とうたう「100%純錫」のテーブルウェアラインを立ち上げたこと。普通、錫の器はアンチモンや銅などを混ぜた合金にして硬さを持たせるものだが、能作はあえて硬化材を一切加えず、純度100%に近い錫のまま鋳造する道を選んだ。
 
@@ -50,6 +51,8 @@ aliases:
 
 ただ、味がまろやかになるという部分は科学的に完全に立証された話ではなく、あくまで長年語り継がれてきた経験則に近い。個人的には、金属特有のひんやりした口当たりと軽い清涼感が、冷酒をきりっと引き締めてくれる感じが気に入っている。過度な期待はせず、素材の面白さとして楽しむくらいがちょうどいいと思う。
 
+
+## 価格・現行性
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">
 <img src="/images/products/nousaku-tin-sake-set.jpg" alt="能作 本錫100%酒器セット" width="700" height="700" loading="lazy">
@@ -57,7 +60,6 @@ aliases:
 <figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格・現行性
 
 実勢価格はAmazon.co.jpで11,000円台。能作の直販サイトでは、片口小単体が7,000円台、片口小+ぐい呑み2個のセットが14,000円台〜と、価格帯は近い。錆びにくく変形しにくいという錫の性質になぞらえて、結婚10周年を祝う「錫婚式」の贈り物として能作自身が紹介しているくらいで、還暦祝いや退職祝いの品としてもよく選ばれているブランドだ。
 

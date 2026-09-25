@@ -10,6 +10,10 @@ aliases:
 
 これまで陶磁器や漆器の酒器をいくつか取り上げてきたが、今回は趣向を変えてガラスの酒器を見ていく。「アデリア 津軽びいどろ」の「みずばしょう酒器セット」(徳利1個・盃2個、型番FS-71582)。深いブルーの徳利に、白い花のような模様が浮かぶ盃が寄り添う、冷酒専用の一式だ。
 
+
+---
+
+## 水芭蕉が湖畔に咲くように
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
 <img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)" width="1600" height="1600" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 水芭蕉が湖畔に咲くように
 
 水芭蕉(みずばしょう)は、尾瀬をはじめとする東北から北海道の湿地に自生する多年草だ。白い花びらのように見える部分は実は葉が変形した「仏炎苞(ぶつえんほう)」で、本当の花はその中心にある棒状の部分に小さく密生しているらしい。5月半ばから6月にかけて、雪解け水の残る湿原に群れて咲く姿は、涼しさと清らかさの象徴として和の意匠にたびたび取り入れられてきた。
 

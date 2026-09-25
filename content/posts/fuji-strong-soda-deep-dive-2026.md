@@ -10,6 +10,10 @@ aliases:
 
 水源の場所を商品名にそのまま冠している時点で、なかなかの自信の表れだと思う。アイリスオーヤマが静岡県小山町の富士小山工場で生産する「富士山の強炭酸水」を隅々まで見ていく。
 
+
+---
+
+## 富士山麓の地層が磨いた水
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">
 <img src="/images/products/fuji-strong-soda.png" alt="富士山の強炭酸水" width="600" height="600" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>富士山の強炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 富士山麓の地層が磨いた水
 
 製造は食品部門のアイリスフーズ、販売はアイリスオーヤマ。静岡県小山町の富士小山工場で、富士山麓の地層を長い年月かけて通り抜けた天然水を汲み上げて使っている。原材料は水(鉱水)と炭酸のみで、プレーンタイプは無糖・無香料。地層でろ過される過程でミネラルが磨かれる、という訴求は、なるほど富士山という土地の物語をそのまま商品価値に変えている発想だと感じる。
 

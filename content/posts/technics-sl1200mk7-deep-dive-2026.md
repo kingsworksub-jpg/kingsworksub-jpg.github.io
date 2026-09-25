@@ -10,6 +10,10 @@ aliases:
 
 Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。
 
+
+---
+
+## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
 <img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
@@ -17,9 +21,6 @@ Technicsは、SL-1200シリーズを「クラブシーンのスタンダード�
 <figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 筐体・外観・ビルド品質
 
 重さ9.6kg、サイズ約452×170×353mm。アルミダイキャストとラバーを組み合わせたプラッターは、しっかりした制振性を感じさせる仕上がりだ。カラーはブラック(SL-1200MK7-K)とシルバー(SL-1200MK7-S)の2色展開で、DJブース向けの全黒仕様「SL-1210MK7」も別途用意されている。2026年には発売50周年を記念した限定モデル「SL-1200M7L」も登場し、ゴールドのトーンアームと7色のカラーバリエーションを揃えているが、こちらは全世界12,000台限定という位置づけで、通常のMK7を置き換えるものではない。
 
@@ -57,6 +58,8 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 
 一方で弱点として気になるのは、価格の高さ(米国では発売時999ドルから2026年8月時点で1,299.99ドルまで値上がりしている)、カートリッジが別売りであること、フォノプリアンプが内蔵されていないこと、オートリターン・オートストップの無い完全マニュアル操作であること、USB出力やデジタル録音機能が無いこと、ダストカバーのヒンジやオーバーハング調整ゲージが省かれていること。旧来のTechnics製品と比べると素材のコストダウンがわずかに感じられる箇所もあり、スタート/ストップボタンの頼りなさも正直気になった。より安価なAT-LP120X(実売59,900円前後)がUSB出力込みで近い基本機能を提供していることを踏まえると、価格に対する価値をどう見るかは人によって分かれるところだろう。
 
+
+## 価格・現行性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
 <img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
@@ -64,7 +67,6 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 <figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格・現行性
 
 2026年時点で、シルバー(SL-1200MK7-S)が135,800円前後、ブラック(SL-1200MK7-K)が139,800円前後、店舗によっては149,800円という価格帯。jp.technics.comを見る限り、2026年時点でもTechnicsのDJシリーズにおける現行モデルであり、後継機は確認できなかった。全黒仕様の「SL-1210MK7」や50周年記念限定モデル「SL-1200M7L」は別ラインとして併存しているが、いずれも標準モデルのMK7を置き換えるものではない。
 

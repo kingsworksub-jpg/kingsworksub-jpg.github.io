@@ -10,6 +10,10 @@ aliases:
 
 ジョニーウォーカーに次ぐ世界2位の販売量を誇るスコッチブランド。ブランド全体の売上の約9割を占めるという主力商品、バランタイン ファイネスを隅々まで見ていく。
 
+
+---
+
+## ブレンド構成
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
 <img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## ブレンド構成
 
 40種類以上のモルト・グレーン原酒をブレンドしたスタンダードなブレンデッドスコッチ。中核となるキーモルトはスペイサイドのグレンバーギーとミルトンダフ、グレーンはストラスクライド蒸溜所由来のものが中心とされている。アルコール度数は40%。
 
@@ -36,15 +37,16 @@ aliases:
 甘くフルーティーな香りが炭酸と好相性で、ハイボール用途として日本でも定番の人気がある。コンビニで扱われていることもあるほど流通量は多く、入手性の高さは10本の中でもトップクラス。
 
 ## 価格
-
-実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
 <img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
 </a>
 <figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。
+
 
 ---
 

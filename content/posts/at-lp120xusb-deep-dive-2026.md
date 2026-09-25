@@ -10,6 +10,10 @@ aliases:
 
 Audio-Technicaは、AT-LP120XUSBを「本格的なDJ操作感とレコードのデジタル化を、手の届く価格で両立させた一台」と位置づけている。その言葉に見合う中身なのか、隅から隅まで見ていく。
 
+
+---
+
+## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
 <img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
@@ -17,9 +21,6 @@ Audio-Technicaは、AT-LP120XUSBを「本格的なDJ操作感とレコードの�
 <figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 筐体・外観・ビルド品質
 
 ダイキャストアルミ製のプラッターに、制振・防振設計の筐体、4つのゴム足を組み合わせた構成。公称重量は約8.0kg、サイズは452×352×141.6mm。カラーはブラックとシルバーの2色展開で、見た目のレイアウトはTechnics SL-1200シリーズを強く意識したデザインだ。コンポーネントの質感という点では、後述するPro-Ject Debut Carbonには一歩譲るものの、価格を考えれば十分な仕上がりだと感じる。
 
@@ -53,6 +54,8 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 
 弱点として気になるのは、オートリターン・オートストップが無い点、内蔵プリアンプ経由だと音量を上げたときにわずかなノイズフロアが乗る点、低域が締まりよりも温かみ寄りの傾向にある点、上位のオーディオファイル向け機と比べるとトーンアームの解像感や音場の奥行きに一歩譲る点。振動への耐性もそれほど高くなく、テーブルに軽くぶつかると音飛びしやすいので、設置場所には多少気を配った方がよさそうだ。本体重量もこの価格帯にしてはやや軽く、台座がどこか空洞っぽく感じる。
 
+
+## 価格・現行性
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
 <img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
@@ -60,7 +63,6 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 <figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
-## 価格・現行性
 
 日本国内では、Bluetooth出力を追加した実質的な後継機「AT-LP120XBT-USB」が主力として展開されており、価格は55,000〜59,400円前後。無印の「AT-LP120XUSB」(Bluetooth無し)は北米・欧州市場が中心のSKUで、国内では単体の正規流通があまり見当たらない。購入時はどちらのバリエーションが手元に届くのか、販売ページで確認しておくと安心だ。シリーズ累計では、2025年8月時点で全世界1,000万台以上(原文ママの資料では約100万台という表記もある)を売り上げているとされ、生産終了の兆候はない。米国での価格は発売時299ドルから、現在は399〜449ドル程度まで上がっている。
 

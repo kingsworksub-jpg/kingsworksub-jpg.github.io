@@ -10,6 +10,10 @@ aliases:
 
 黄色いラベルに帆船の絵、という見た目のインパクトも含めて記憶に残るボトル。1923年、英国の名門ワイン商Berry Bros & Rudd社が発売したカティサークを隅々まで見ていく。
 
+
+---
+
+## ブレンドの設計思想
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
 <img src="/images/products/cutty-sark.jpg" alt="カティサーク" width="480" height="2013" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## ブレンドの設計思想
 
 ブレンド構成を考案し熟成の中心拠点となっているのはスペイサイドのグレンロセス蒸溜所。モルトとグレーンの比率は非公開だが、業界解説では「モルト約3割・グレーン約7割」という、グレーン比率がかなり高めの構成がよく紹介されている。グレーン主体で原価を抑えつつ、軽やかな飲み口を作るという設計思想が透けて見える一本だ。アルコール度数は40%(オリジナル)。
 

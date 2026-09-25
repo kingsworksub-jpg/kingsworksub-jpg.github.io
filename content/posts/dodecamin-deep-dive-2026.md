@@ -10,6 +10,10 @@ aliases:
 
 コンビニのレジ横、栄養ドリンクの棚の隣にいつも強炭酸のオレンジ色のボトルが並んでいる。名前の由来はギリシャ語の「12」。12種類の成分を強炭酸に溶かし込んだアサヒ飲料のドデカミンを、パッケージの隅から隅まで見ていく。
 
+
+---
+
+## 「12」を背負ったネーミング
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">
 <img src="/images/products/dodecamin.jpg" alt="ドデカミン" width="340" height="900" loading="lazy">
@@ -17,9 +21,6 @@ aliases:
 <figcaption>ドデカミン 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GNRJMSZ9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
----
-
-## 「12」を背負ったネーミング
 
 「ドデカミン」という名前は、ギリシャ語で「12」を意味する「ドデカ」に由来する。ビタミンやアミノ酸など12種類の成分を配合したというコンセプトをそのまま商品名にしてしまったわけで、栄養ドリンクにありがちな「元気」「活力」といった抽象語に頼らず、成分の数を看板に掲げた潔さがある。実際のラベルを見ると、タウリン、アルギニン、オルニチン、グルタミン、分岐鎖アミノ酸(ロイシン・イソロイシン・バリン)、ビタミンB群、ビタミンCといった面々がずらりと並んでいて、確かに「12」を名乗るだけの物量は感じる。
 
