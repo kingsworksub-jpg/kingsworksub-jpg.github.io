@@ -57,10 +57,10 @@ aliases:
 <figcaption>Battery 4<span class="credit"><a href="https://www.native-instruments.com/products/battery">Amazonで見る →</a></span></figcaption>
 </figure>
 <figure class="photo photo--left">
-<a href="https://tal-software.com/products/tal-sampler">
+<a href="https://tal-software.com/products/tal-sampler/">
 <img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler" width="1600" height="867" loading="lazy">
 </a>
-<figcaption>TAL-Sampler<span class="credit"><a href="https://tal-software.com/products/tal-sampler">Amazonで見る →</a></span></figcaption>
+<figcaption>TAL-Sampler<span class="credit"><a href="https://tal-software.com/products/tal-sampler/">Amazonで見る →</a></span></figcaption>
 </figure>
 
 
@@ -136,7 +136,7 @@ aliases:
 |---|---|---|---|---|---|
 | [Kontakt 8](https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22) | 2 | 3 | 3 | 5 | 2 |
 | [Battery 4](https://www.native-instruments.com/products/battery) | 4 | 4 | 5 | 3 | 4 |
-| [TAL-Sampler](https://tal-software.com/products/tal-sampler) | 5 | 3 | 5 | 4 | 4 |
+| [TAL-Sampler](https://tal-software.com/products/tal-sampler/) | 5 | 3 | 5 | 4 | 4 |
 | [UVI Falcon](https://www.uvi.net/falcon.html) | 2 | 4 | 4 | 5 | 4 |
 | [Serato Sample](https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22) | 5 | 4 | 5 | 3 | 3 |
 
