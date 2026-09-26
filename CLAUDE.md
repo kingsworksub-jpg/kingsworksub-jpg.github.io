@@ -189,6 +189,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音(ジャズ特集4本目) | https://kinbro.hatenablog.com/entry/2026/09/24/124123 | 14945776032081757708 |
 | ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド(ジャズ特集5本目) | https://kinbro.hatenablog.com/entry/2026/09/24/232320 | 14945776032081943034 |
 | はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に(ジャズ特集6本目) | https://kinbro.hatenablog.com/entry/2026/09/24/233736 | 14945776032081946518 |
+| VOX 強炭酸水 コーラフレーバー 深掘り(炭酸飲料シリーズ26本目) | https://kinbro.hatenablog.com/entry/2026/09/26/200122 | 14945776032082692111 |
 
 ### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
 
