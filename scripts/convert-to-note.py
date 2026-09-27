@@ -124,6 +124,8 @@ def build_title(meta, slug):
     tags = meta.get("tags", [])
     if "ハードバップ" in tags or "Blue Note" in tags:
         return "ハードバップとブルー・ノート黄金時代"
+    if "クール・ジャズ" in tags:
+        return "クール・ジャズの時代とChet Bakerの西海岸"
     # ブログ用タイトルは長すぎるので、 区切り文字で 30 文字に詰める
     title = meta.get("title", slug)
     for sep in [" — ", " - ", "：", ": "]:
