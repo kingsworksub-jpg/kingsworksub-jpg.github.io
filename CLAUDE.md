@@ -53,13 +53,13 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ユーザー指示: 「2時間に1回、Amazon検索結果([https://www.amazon.co.jp/s?k=炭酸](https://www.amazon.co.jp/s?k=%E7%82%AD%E9%85%B8&crid=3T9HK09F9IGYT&sprefix=%E7%82%AD%E9%85%B8%2Cfood-beverage%2C339&ref=nb_sb_noss_1))内の3000円以下の商品について詳細レビュー記事(型その2)を投稿し続けること。同じ製品は重複させない。指示があるまで自動継続」。
 
-- **実装方式(2026-09-19変更)**: **Windowsタスクスケジューラ**のタスク`KingsWork-Blog-Drink`が**1時間に1回(毎時15分)**、`scripts/scheduled/run-claude-task.ps1`経由でヘッドレスの`claude -p`を起動し、`scripts/scheduled/prompts/blog-drink.md`の指示で1記事分のパイプラインを実行する。当初のCronCreate(2時間おき)方式は、セッションを閉じると通知なく止まる欠陥があり、ユーザー指示(2026-09-19)で廃止した。頻度も2時間→1時間に変更。タスクの再登録は`scripts/scheduled/register-tasks.ps1`、ログは`scripts/scheduled/logs/`(gitignore)。**前提**: PCが起動していてユーザーがログオン中・画面ロック解除であること(X投稿がEdgeへのOS入力シミュレーションのため)。ジャズXポストとは排他ロック(名前付きMutex)で直列化される。
+- **実装方式(2026-09-19変更)**: **Windowsタスクスケジューラ**のタスク`KingsWork-Blog-Drink`が**1時間に1回(毎時15分)**、`scripts/scheduled/run-claude-task.ps1`経由でヘッドレスの`claude -p`を起動し、`scripts/scheduled/prompts/blog-drink.md`の指示で1記事分のパイプラインを実行する。当初のCronCreate(2時間おき)方式は、セッションを閉じると通知なく止まる欠陥があり、ユーザー指示(2026-09-19)で廃止した。頻度も2時間→1時間に変更。タスクの再登録は`scripts/scheduled/register-tasks.ps1`、ログは`scripts/scheduled/logs/`(gitignore)。**Xへの自動投稿は2026-09-27にユーザー指示で恒久的に廃止**した(旧ステップ(10)は削除済み)。**前提**: PCが起動していてユーザーがログオン中であること(タスクスケジューラが「ユーザーがログオンしているときのみ実行」のため)。**画面ロック解除の要件は2026-09-27に廃止** — 当初はX投稿がEdgeへのOS入力シミュレーションを要したため必要だったが、本タスクはブラウザ操作を一切行わなくなった。ラッパーの排他ロック(名前付きMutex)は現在 **海外ジャズ記事のXポストのためだけ**に存在し、本タスクはXを触らないため競合しない。
 - **対象**: 上記Amazon検索URL(「炭酸」)の検索結果に表示される商品のうち、価格3,000円以下のもの。実態はほぼ全て炭酸水・炭酸飲料の24本前後のケース売り商品(ウィルキンソン タンサン、コカ・コーラ系、伊藤園、アイリスオーヤマ、サンガリア等)。
 - **重複防止**: `scripts/carbonation-covered.json`にASINのリストを保持。新しい記事を選ぶ前に必ずこのファイルを確認し、公開後は選んだASINをこのファイルに追記すること(このファイルがユーザーの指示「同じ製品の記事は書かないこと」を担保する唯一の永続的な状態なので、更新を絶対に忘れないこと)。**同一製品の容量・パック数違い(例: ウィルキンソン タンサンの500ml×24本と500ml×32本)はASINが別でも「同じ製品」とみなし、`covered`に無くても新規記事の対象にはしない**(2026-09-18に実例あり)。この場合は`skipped_same_product`配列に理由付きで記録し、次の候補に進む。一方、同じブランドでもフレーバー違い(例: CRYSTAL SPARKのグレープソーダとラムネ)は十分に別の記事として成立するため対象にしてよい。
 - **カテゴリ**: `drink`(新設、2026-09-18。`hugo.toml`の`[menu]`に追加済み)。
 - **記事フォーマット**: 記事の型その2(単発製品深掘り)をそのまま踏襲。タイトルは「{製品名}を隅から隅まで味わい尽くす — {詩的サブタイトル}」(ウイスキーと同じ言い換えパターン)。アフィリエイトバナーは`.product-banner`を2箇所(序文直後・価格/購入情報セクション付近)。評価軸・レーダーチャートは使わない(型その2は比較しないため)。文体・引用ルール・研究ルール(最低10サイト)は他の記事と完全に共通。
 - **画像**: 公式サイト(メーカー・ブランドの製品ページ)から1枚取得。Amazon商品ページの画像は使わない(既存ルールと同じ)。取得できない場合は正規小売サイトの画像で代替可(既存の`Referer`ヘッダー回避テクニックを流用してよい)。
-- **毎回のフルパイプライン**: (1) Amazon検索結果をPlaywright(`scripts/x-autopost/.venv`)で取得し価格3,000円以下の候補を抽出 → (2) `carbonation-covered.json`と突き合わせて未着手のASINを1つ選ぶ(全て着手済みならその回は何もせず終了してよい) → (3) Agent(general-purpose)で最低10サイト以上リサーチ → (4) 記事執筆(`content/posts/`) → (5) 商品画像ダウンロード(`static/images/products/`) → (6) `hugo --minify`でビルド確認 → (7) commit & push → (8) GitHub Actionsデプロイ確認 → (9) `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない — 新規記事なので**)、発行されたEntry IDをCLAUDE.mdの表に追記 → (10) `scripts/x-autopost/`の`feed_check.py`→`main.py`でXに自動投稿 → (11) `carbonation-covered.json`にASINを追記してcommit。
+- **毎回のフルパイプライン**: (1) Amazon検索結果をPlaywright(`scripts/x-autopost/.venv`)で取得し価格3,000円以下の候補を抽出 → (2) `carbonation-covered.json`と突き合わせて未着手のASINを1つ選ぶ(全て着手済みならその回は何もせず終了してよい) → (3) Agent(general-purpose)で最低10サイト以上リサーチ → (4) 記事執筆(`content/posts/`) → (5) 商品画像ダウンロード(`static/images/products/`) → (6) `hugo --minify`でビルド確認 → (7) commit & push → (8) GitHub Actionsデプロイ確認 → (9) `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない — 新規記事なので**)、発行されたEntry IDをCLAUDE.mdの表に追記 → (10) `carbonation-covered.json`にASINを追記してcommit。**Xへの自動投稿は2026-09-27に廃止**(旧ステップ(10)で`feed_check.py`→`main.py`を呼んでいた)。
 - **停止方法**: ユーザーから「止めて」と言われたら`Disable-ScheduledTask -TaskName KingsWork-Blog-Drink`(または`Unregister-ScheduledTask`)。状態確認は`Get-ScheduledTask -TaskName KingsWork-*`と`scripts/scheduled/logs/`。
 
 ### ネタ元の追加: 酒器(2026-09-19、ユーザー指示)
@@ -71,7 +71,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **カテゴリ**: `sakeware`(新設、2026-09-19。`hugo.toml`の`[menu]`に「酒器」として追加済み)。記事フロントマターの`categories`は`["sakeware"]`。
 - **記事フォーマット**: 炭酸飲料と同じ型その2(単発製品深掘り)。タイトルは「{製品名}を隅から隅まで味わい尽くす — {詩的サブタイトル}」。アフィリエイトバナー・画像・文体・引用/研究ルール(最低10サイト)・禁止語も共通。酒器なので素材(磁器・ガラス・錫・漆など)、産地・窯元・ブランド、容量、電子レンジ/食洗機可否、熱燗/冷酒の向き不向きといった実用面を軸にする。画像は公式・メーカーの製品ページから取得(Amazon商品画像は使わない)。
 - **系統の選び方(交互)**: 直前に公開した記事(`content/posts/`で最後に追加された`drink`または`sakeware`の記事)と**別の系統**を選ぶ。片方の候補が尽きている場合はもう片方だけを続ける。両方尽きていれば何もせず終了。結果として炭酸・酒器がそれぞれ2時間に1本のペアになる。
-- 記事投稿フロー(リサーチ→執筆→ビルド→push→はてな投稿→X告知→重複ファイル追記)は炭酸と同一。はてな投稿は`post-to-hatena.sh`、EntryIDはCLAUDE.mdの表に追記。
+- 記事投稿フロー(リサーチ→執筆→ビルド→push→はてな投稿→重複ファイル追記)は炭酸と同一。はてな投稿は`post-to-hatena.sh`、EntryIDはCLAUDE.mdの表に追記。**X告知は2026-09-27に廃止**(炭酸の旧ステップ(10)とともに削除)。
 
 ## 自動継続タスク: 海外ジャズ記事のXポスト(2026-09-18、ユーザー指示で開始)
 
@@ -86,15 +86,16 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **禁止語(既存ルールと共通)**: 「テスト」「自動投稿」「AI」「bot」「生成」など自動化を連想させる語は使わない。文字数は日本語コメント部分でおよそ100文字以内を目安にする。
 - **運用上のリスク(2026-09-18時点でユーザーに明示的確認はしていないが記録しておく)**: 既存のブログ告知用X投稿は「週数回程度の低頻度」を前提にBot検知回避の安全策としていたが、**この新タスクは当初1時間に1回(1日24回)、2026-09-19以降は30分に1回=1日48回(ブログ記事の告知投稿は別)という大幅に高い頻度**になる。OSレベル入力シミュレーションでCDP検知は回避できるが、投稿頻度・時間間隔の規則性自体がX側のスパム/自動化検知に引っかかるリスクは相応にある。何らかの形でアカウント制限が発生した場合はこのタスクを即座に`Disable-ScheduledTask -TaskName KingsWork-X-Jazz`で止め、ユーザーに報告すること。
 - **リスクが実際に発生した記録(2026-09-20)**: 炭酸/酒器タスクのX告知ステップで、モンスターパイプラインパンチ回(drink #17)・ピーコック酒器セット回(sakeware #9)の2件連続で投稿がXの「1日のポスト制限に達しました」ダイアログにより失敗(`scripts/x-autopost/posts.db`にstatus='error'で記録)。ピーコック回ではさらに、前回投稿がこの制限で未完了のまま残っていたcomposeタブが原因で「サイトから移動しますか?」という未保存離脱確認ダイアログが出て`poster.py`が安全側に倒れて中断する事象も発生(Escapeキーで安全に閉じて復旧したが、投稿自体は制限により結局失敗)。ジャズタスク(30分に1回)と炭酸/酒器タスク(1時間に1回)を合算すると1日70件超のX投稿を試みている計算になり、この合算頻度がXの1日投稿上限に達した実例と見られる。ユーザーに報告済み(2026-09-20)。**頻度を落とすか、どちらかのタスクを間引くかの判断をユーザーに仰ぐこと。**
+  - **【2026-09-27 追記】ブログ側のX告知ステップはユーザー指示で廃止済み**。したがって上記「1日70件超」のうちブログ由来分はゼロになり、Xへの投稿は**海外ジャズ記事のXポストタスク(30分に1回=1日48回)のみ**となった。当時ユーザーへ求めた「減速または間引き」の判断は、対象が jazz 側のみに縮小したうえで**依然として必要**である点は変わらない。
 - **停止方法**: 上記のとおり`Disable-ScheduledTask -TaskName KingsWork-X-Jazz`。
 
 ## 拡散投稿(SNS/ブログサイトへの転載)
 
-記事を公開するたびに、この表の「有効」な投稿先へ自動投稿する運用にする(2026-09-17〜検討開始)。SNSは記事へのリンク+一言、ブログサイトは記事本文そのものを転載する。
+記事を公開するたびに、この表の「有効」な投稿先へ自動投稿する運用にする(2026-09-17〜検討開始)。SNSは記事へのリンク+一言、ブログサイトは記事本文そのものを転載する。**2026-09-27、記事公開に伴うXへの自動投稿は廃止した**(下表のXの行はブログフローの一部ではなくなった)。
 
 | 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
 |---|---|---|---|---|
-| X (Twitter) | Claude生成の要約付き投稿文+記事URL | **方式変遷(2026-09-17、同日中に4段階)**: (1)IFTTTのRSS→定型テンプレ投稿案 →記事内容を踏まえたカスタム投稿文が作れないため不採用。(2)Python+Playwright+SQLite+Claude Code CLI+**X API v2(tweepy)**の自前パイプライン →ユーザーから「全部無料・ローカル完結が前提」という要件が判明し、かつX APIがURL付き投稿$0.20/件の完全従量課金(2026年2月に無料枠廃止)と判明したため不採用。(3)Playwright(CDP)でx.comに自動ログインして投稿 →Googleログイン・X自身のログインフォームの両方でBot検知に阻まれ(実Chromeに切り替えても同様)断念。(4)**最終形: OSレベルのマウス・キーボードのシミュレーション(`pyautogui`/`pygetwindow`/`pyperclip`)で、ユーザーの普段のEdge(既定プロファイル、ログイン済み)を直接操作して投稿**。CDP/WebDriverを一切使わないためBot検知の対象にならない。`scripts/x-autopost/`に実装済み・実際に動作確認済み。詳細は下記「Python自前パイプラインによるX自動投稿」参照。 | Python 3.12・Claude Code CLI・Edge(既定プロファイルでX にログイン済みであること)。pyautogui/pygetwindow/pyperclipはこのセッションでインストール済み。ログイン自動化は不要(ユーザーの既存Edgeセッションをそのまま使う)。 | **実装済み・実アカウントでの投稿確認済み(2026-09-17)**。2026-09-17に既存12記事すべてをこのパイプラインでXに投稿(45秒間隔でのペーシング付き)。 |
+| X (Twitter) | Claude生成の要約付き投稿文+記事URL | **方式変遷(2026-09-17、同日中に4段階)**: (1)IFTTTのRSS→定型テンプレ投稿案 →記事内容を踏まえたカスタム投稿文が作れないため不採用。(2)Python+Playwright+SQLite+Claude Code CLI+**X API v2(tweepy)**の自前パイプライン →ユーザーから「全部無料・ローカル完結が前提」という要件が判明し、かつX APIがURL付き投稿$0.20/件の完全従量課金(2026年2月に無料枠廃止)と判明したため不採用。(3)Playwright(CDP)でx.comに自動ログインして投稿 →Googleログイン・X自身のログインフォームの両方でBot検知に阻まれ(実Chromeに切り替えても同様)断念。(4)**最終形: OSレベルのマウス・キーボードのシミュレーション(`pyautogui`/`pygetwindow`/`pyperclip`)で、ユーザーの普段のEdge(既定プロファイル、ログイン済み)を直接操作して投稿**。CDP/WebDriverを一切使わないためBot検知の対象にならない。`scripts/x-autopost/`に実装済み・実際に動作確認済み。詳細は下記「Python自前パイプラインによるX自動投稿」参照。 | Python 3.12・Claude Code CLI・Edge(既定プロファイルでX にログイン済みであること)。pyautogui/pygetwindow/pyperclipはこのセッションでインストール済み。ログイン自動化は不要(ユーザーの既存Edgeセッションをそのまま使う)。 | **記事公開に伴う自動投稿は2026-09-27に廃止**。ブログ投稿フロー(`KingsWork-Blog-Drink`)からはX告知ステップを完全に削除済み。ただしX投稿基盤自体(`poster.py`)は**海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)専用のため残存**しており、上記の投稿方式・依存パッケージは今後も当該タスクで使用する。 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
@@ -191,13 +192,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に(ジャズ特集6本目) | https://kinbro.hatenablog.com/entry/2026/09/24/233736 | 14945776032081946518 |
 | VOX 強炭酸水 コーラフレーバー 深掘り(炭酸飲料シリーズ26本目) | https://kinbro.hatenablog.com/entry/2026/09/26/200122 | 14945776032082692111 |
 
-### Python自前パイプラインによるX自動投稿(2026-09-17、採用・実装済み)
+### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
 
 下記IFTTT案を不採用にし、代わりにClaudeが記事内容を踏まえた投稿文を作る自前パイプラインを実装した。コードは`scripts/x-autopost/`、使い方の詳細は`scripts/x-autopost/README.md`参照。
 
+**【2026-09-27 廃止】ブログ投稿フロー(`KingsWork-Blog-Drink`)は本パイプラインを一切呼び出さなくなった**(ユーザー指示による恒久的な廃止)。炭酸・酒器の両タスクの完了条件は「記事公開 → はてな転載 → 重複ファイル追記」までであり、1時間ごとにEdgeを実操作していた副作用(画面ロック解除の要件・Xの1日投稿上限への抵触)も同時に解消した。コード(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`)は削除せず現状のまま温存しており、実行はされない。残して利用価値があるのは `poster.py` のみで、これは「海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)」が使用するため。`posts.db` は同日、未投稿29件を破棄する形で削除済み。**将来このパイプラインを復活させる場合は `seed_baseline.py` による baseline 設定が必須** — DBが空の状態で `feed_check.py` を走らせるとRSS上の既存記事を全件「新着」と誤認して一斉処理してしまうため(下記「初回セットアップ時のバックログ誤爆に注意」参照)。
+
 **処理の流れ**: はてなRSS(`https://kinbro.hatenablog.com/rss`)をポーリング → 新着記事をSQLite(`scripts/x-autopost/posts.db`、gitignore対象)に記録 → Playwrightで記事ページ本文を取得(RSSのdescriptionは省略・崩れの可能性があるため実ページをレンダリングして取得) → Claude Code CLI(`claude -p --output-format json --json-schema ...`、haikuモデル)で要約+X投稿文3パターン+最も自然なものの選定 → **OSレベルのマウス・キーボードシミュレーションでEdgeを操作し投稿**(下記参照)。各段階の結果・失敗はすべてSQLiteに記録し、失敗した記事は自動リトライせず`status='error'`で停止する(手動で状態を戻せば次回実行時に再処理される)。
 
-**環境構築(このセッションで実施済み)**: このマシンにはPython・Node.js・Claude Code CLIのいずれも入っていなかったため、`winget install --id Python.Python.3.12` と `winget install --id Anthropic.ClaudeCode` でインストールした。`scripts/x-autopost/.venv`に依存パッケージ(feedparser/playwright/pyautogui/pygetwindow/pyperclip)とPlaywrightのChromiumをインストール済み(Playwrightは本文取得のスクレイピング専用、X投稿には使っていない)。
+**環境構築**: このマシンにはPython・Node.js・Claude Code CLIのいずれも入っていなかったため、`winget install --id Python.Python.3.12` と `winget install --id Anthropic.ClaudeCode` でインストールした。`scripts/x-autopost/.venv`に依存パッケージ(feedparser/playwright/pyautogui/pygetwindow/pyperclip)とPlaywrightのChromiumをインストール済み(Playwrightは本文取得のスクレイピング専用、X投稿には使っていない)。**2026-09-27追記**: この`.venv`が所在不明の状態になっていたため、`python -m venv` で再作成し、`pip install -r requirements.txt` と `playwright install chromium` を再実行して復旧した(playwright 1.63.0 / Chromium 153.0.8010.12 で起動確認済み)。ブログフローのステップ(1)(Amazon候補取得)は`scripts/x-autopost/.venv`を直接参照しているため、**このディレクトリを失うと自動タスクがステップ(1)で即死する**。復旧後も削除しないこと。
 
 **X投稿方式の変遷と最終形(2026-09-17)**: 当初はX API v2(tweepy)での投稿を実装したが、ユーザーから「そもそも全部無料にするためローカル環境で投稿する仕組みとしてこのワークフローを組んでいる」という前提が明かされ、方針転換した。調査の結果、X APIは2026年2月に無料枠を廃止し、**URLを含む投稿は1件$0.20**の完全従量課金(リンク無しの13倍)であることが判明——これは当初CLAUDE.mdに記録していた「$0.01/投稿」という情報が古く、実態と大きく乖離していたための転換でもある。
 

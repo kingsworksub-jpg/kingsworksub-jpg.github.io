@@ -7,8 +7,11 @@ param(
 )
 
 # Windows Task Scheduler entry point. Runs one headless Claude Code turn in the blog repo.
-# A machine-wide mutex serialises jobs: X posting drives the real Edge window via
-# pyautogui/clipboard, so two jobs must never post at the same time.
+# A machine-wide mutex serialises jobs. As of 2026-09-27 the only job that
+# still posts is the jazz-post task (KingsWork-X-Jazz), which drives the real
+# Edge window via pyautogui/clipboard -- so two jobs must never post at once.
+# The blog job (KingsWork-Blog-Drink) no longer posts to X at all, but it keeps
+# taking the same lock so it can never overlap a jazz post.
 
 $ErrorActionPreference = "Continue"
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)

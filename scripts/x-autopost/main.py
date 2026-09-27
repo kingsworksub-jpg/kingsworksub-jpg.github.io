@@ -1,5 +1,13 @@
 """Orchestrator for the Hatena -> X auto-post pipeline.
 
+RETIRED FROM THE BLOG WORKFLOW (2026-09-27, per user instruction). The blog
+posting tasks no longer call this script -- they stop after the Hatena
+cross-post. The code is kept on disk but not executed; `poster.py` is still
+live because the separate jazz-post task (KingsWork-X-Jazz) uses it.
+
+If you ever revive this pipeline, run `seed_baseline.py` FIRST: with an empty
+posts.db, `feed_check.py` treats every existing RSS article as new.
+
 Run this periodically (Task Scheduler, cron, etc.). Each run:
   1. Polls the RSS feed and records any new articles (status='detected').
   2. Scrapes the full body of 'detected' articles via Playwright.
@@ -26,30 +34,38 @@ import poster
 import scraper
 
 
-def process_detected(conn) -> None:
-    for row in db.fetch_by_status(conn, "detected"):
+def process_detected() -> None:
+    with db.connect() as conn:
+        rows = db.fetch_by_status(conn, "detected")
+    for row in rows:
         print(f"[main] scraping #{row['id']}: {row['title']}")
         try:
             body = scraper.fetch_article_body(row["url"])
             if not body:
                 raise RuntimeError("scraped body was empty")
-            db.mark_scraped(conn, row["id"], body)
+            with db.connect() as conn:
+                db.mark_scraped(conn, row["id"], body)
         except Exception as e:  # noqa: BLE001 - want to record any failure and keep going
             print(f"[main] scrape failed for #{row['id']}: {e}", file=sys.stderr)
-            db.mark_error(conn, row["id"], f"scrape error: {e}\n{traceback.format_exc()}")
+            with db.connect() as conn:
+                db.mark_error(conn, row["id"], f"scrape error: {e}\n{traceback.format_exc()}")
 
 
-def process_scraped(conn) -> None:
-    for row in db.fetch_by_status(conn, "scraped"):
+def process_scraped() -> None:
+    with db.connect() as conn:
+        rows = db.fetch_by_status(conn, "scraped")
+    for row in rows:
         print(f"[main] generating tweet text for #{row['id']}: {row['title']}")
         try:
             result = generate.generate(row["title"], row["body_text"])
-            db.mark_generated(
-                conn, row["id"], result["summary"], result["candidates"], result["chosen_index"]
-            )
+            with db.connect() as conn:
+                db.mark_generated(
+                    conn, row["id"], result["summary"], result["candidates"], result["chosen_index"]
+                )
         except Exception as e:  # noqa: BLE001
             print(f"[main] generation failed for #{row['id']}: {e}", file=sys.stderr)
-            db.mark_error(conn, row["id"], f"generation error: {e}\n{traceback.format_exc()}")
+            with db.connect() as conn:
+                db.mark_error(conn, row["id"], f"generation error: {e}\n{traceback.format_exc()}")
 
 
 # Minimum gap between consecutive posts so a multi-article backlog doesn't
@@ -57,8 +73,9 @@ def process_scraped(conn) -> None:
 POST_INTERVAL_S = 45
 
 
-def process_generated(conn) -> None:
-    rows = db.fetch_by_status(conn, "generated")
+def process_generated() -> None:
+    with db.connect() as conn:
+        rows = db.fetch_by_status(conn, "generated")
     for i, row in enumerate(rows):
         if i > 0:
             print(f"[main] waiting {POST_INTERVAL_S}s before next post...")
@@ -66,11 +83,13 @@ def process_generated(conn) -> None:
         print(f"[main] posting #{row['id']}: {row['title']}")
         try:
             poster.post_tweet(row["chosen_text"], row["url"])
-            db.mark_posted(conn, row["id"])
+            with db.connect() as conn:
+                db.mark_posted(conn, row["id"])
             print(f"[main] posted #{row['id']} (check x.com to confirm)")
         except Exception as e:  # noqa: BLE001
             print(f"[main] posting failed for #{row['id']}: {e}", file=sys.stderr)
-            db.mark_error(conn, row["id"], f"post error: {e}\n{traceback.format_exc()}")
+            with db.connect() as conn:
+                db.mark_error(conn, row["id"], f"post error: {e}\n{traceback.format_exc()}")
 
 
 def main() -> None:
@@ -79,12 +98,13 @@ def main() -> None:
     n_new = feed_check.check_feed()
     print(f"[main] {n_new} new article(s) detected")
 
-    with db.connect() as conn:
-        process_detected(conn)
-    with db.connect() as conn:
-        process_scraped(conn)
-    with db.connect() as conn:
-        process_generated(conn)
+    # Each stage below opens one connection per article to read the pending
+    # list, then a fresh one per article to write the result. db.connect()
+    # commits on exit, so a per-article write means an interrupted run keeps
+    # everything it already finished instead of losing the whole batch.
+    process_detected()
+    process_scraped()
+    process_generated()
 
 
 if __name__ == "__main__":
