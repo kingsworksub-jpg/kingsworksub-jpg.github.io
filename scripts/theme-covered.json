@@ -1,6 +1,6 @@
 {
-  "_comment": "Tracks themes already written by the recurring theme-article job (2026-09-27~). Source list: C:\\Users\\norio\\x_bot\\themes.txt (one theme per line). Each run must check this before picking a theme, and append to it after publishing. Replaces the retired carbonation-covered.json / sakeware-covered.json ASIN trackers.",
-  "source_file": "C:\\Users\\norio\\x_bot\\themes.txt",
+  "_comment": "Tracks themes already written by the recurring theme-article job (2026-09-27~). Source list: scripts/themes.txt (one theme per line). Each run must check this before picking a theme, and append to it after publishing. Replaces the retired carbonation-covered.json / sakeware-covered.json ASIN trackers.",
+  "source_file": "scripts/themes.txt",
   "covered": [
     {
       "theme": "jazzで使用される楽器",
