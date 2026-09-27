@@ -1,0 +1,20 @@
+{
+  "_comment": "Tracks themes already written by the recurring theme-article job (2026-09-27~). Source list: C:\\Users\\norio\\x_bot\\themes.txt (one theme per line). Each run must check this before picking a theme, and append to it after publishing. Replaces the retired carbonation-covered.json / sakeware-covered.json ASIN trackers.",
+  "source_file": "C:\\Users\\norio\\x_bot\\themes.txt",
+  "covered": [
+    {
+      "theme": "jazzで使用される楽器",
+      "slug": "jazz-instruments-guide",
+      "date": "2026-09-24",
+      "note": "既存記事「ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド」と重複のためスキップ"
+    },
+    {
+      "theme": "フリー・ジャズの革命と生涯（Ornette Coleman／Albert Ayler／その後の音楽家たち）",
+      "slug": "free-jazz-ornette-coleman-legacy",
+      "date": "2026-09-24",
+      "note": "既存記事「フリージャズ革命と生涯 — Ornette Coleman の葛藤と生涯」と重複のためスキップ"
+    }
+  ],
+  "skipped_duplicate": [],
+  "skipped_empty": []
+}
