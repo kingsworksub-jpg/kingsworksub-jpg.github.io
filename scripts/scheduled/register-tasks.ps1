@@ -1,5 +1,5 @@
 # Registers (or re-registers) the two recurring jobs in Windows Task Scheduler.
-#   Blog-Drink : theme article from x_bot\themes.txt, every 60 min (at :15)
+#   Blog-Drink : theme article from scripts\themes.txt, every 60 min (at :15)
 #   X-Jazz     : overseas jazz X post,      every 30 min (at :00/:30)
 # Run as the interactive user: X posting needs the logged-in, unlocked desktop (pyautogui + Edge).
 
