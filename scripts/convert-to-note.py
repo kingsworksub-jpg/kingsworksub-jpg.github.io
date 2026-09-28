@@ -126,6 +126,8 @@ def build_title(meta, slug):
         return "ハードバップとブルー・ノート黄金時代"
     if "クール・ジャズ" in tags:
         return "クール・ジャズの時代とChet Bakerの西海岸"
+    if "ビバップ" in tags:
+        return "ビバップの夜明け — Charlie Parker"
     # ブログ用タイトルは長すぎるので、 区切り文字で 30 文字に詰める
     title = meta.get("title", slug)
     for sep in [" — ", " - ", "：", ": "]:
@@ -133,6 +135,12 @@ def build_title(meta, slug):
             title = title.split(sep)[0]
             break
     return title[:30]
+
+
+def normalize_tag(tag):
+    """note のハッシュタグは空白やアポストロフィを使えないため取り除く。"""
+    tag = re.sub(r"[\s'\"()、。,.\-]+", "", tag)
+    return tag
 
 
 def build_tags(meta):
@@ -179,7 +187,7 @@ def main():
     lines.append(title)
     lines.append("")
     lines.append("# タグ（1行にまとめて貼り付け）")
-    lines.append(" ".join("#%s" % t.replace(" ", "") for t in tags))
+    lines.append(" ".join("#%s" % normalize_tag(t) for t in tags))
     lines.append("")
     lines.append("# 本文（ここから貼り付け）")
     lines.append("")
@@ -208,7 +216,7 @@ def main():
     plain = re.sub(r"[#*`\[\]()!]", "", body)
     print("出力: %s" % out)
     print("タイトル: %s（%d 文字）" % (title, len(title)))
-    print("タグ: %s" % " ".join("#%s" % t.replace(" ", "") for t in tags))
+    print("タグ: %s" % " ".join("#%s" % normalize_tag(t) for t in tags))
     print("本文の文字数: 約 %d" % len(plain.replace("\n", "")))
     print("元記事URL: %s" % url)
 
