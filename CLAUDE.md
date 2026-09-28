@@ -206,7 +206,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
 - ドラフト変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
 - ドラフト投入: `python scripts/post-to-note.py --slug <slug> --save`（`--save` で下書き保存まで行う）
-- 公開確認: ブラウザ（`--hold` / 既定）で内容を確認してから公開する。
+- 公開確認: ブラウザ（`--hold` / 既定）で内容を確認してから公開する。**`--publish` を付けると公開まで自動化する**（`publish_note()` が2段実行し、APIで公開を検証する）。**既定の運用は `--save` で下書きに止め、ユーザーが確認してから `--publish` 相当の手動公開をする**。
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
   - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
 - 主なオプション:
@@ -256,11 +256,26 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 - **下書きの削除は UI 経由でしかできない**。行の「⋮」メニュー → `削除`。記事 key は「共有用リンクをコピー」でクリップボードに `https://note.com/preview/<key>?...` が取れるので、そこから判定する（一覧の行は `a[href]` を持たないため、セレクタでは取れない）。**直接削除 API（`/api/v1/text_notes/<key>`、`/api/v3/text_notes/<key>`、`/api/v1/drafts/<key>`、`/api/v1/text_notes/<key>/destroy`）はすべて CloudFront 403 で拒否される**。
 - **削除の進め方**: 保持したい下書きの key を固定してから、それ以外を下書き一覧から1件ずつ消して、最後に件数とタイトルを再確認する。
 
-| 記事 | note 下書きkey | 状態 |
-|---|---|---|
-| ハードバップとブルー・ノート黄金時代 | `https://editor.note.com/notes/n4551a5b4bb6d/edit/` | 下書き(未公開) |
-| ビバップの夜明け — Charlie Parker | `https://editor.note.com/notes/n3c57c2555f9a/edit/` | 下書き(未公開) |
-| クール・ジャズの時代とChet Bakerの西海岸 | `https://editor.note.com/notes/n5cb685647f38/edit/` | 下書き(未公開) |
+| 記事 | note 公開URL | 下書きkey | 状態 |
+|---|---|---|---|
+| ハードバップとブルー・ノート黄金時代 | https://note.com/shining_finger01/n/n4551a5b4bb6d | `n4551a5b4bb6d` | **公開済(2026-09-29)** |
+| ビバップの夜明け — Charlie Parker | https://note.com/shining_finger01/n/n3c57c2555f9a | `n3c57c2555f9a` | **公開済(2026-09-29)** |
+| クール・ジャズの時代とChet Bakerの西海岸 | https://note.com/shining_finger01/n/n5cb685647f38 | `n5cb685647f38` | **公開済(2026-09-29)** |
+
+**noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
+
+**公開状態の確認方法(2026-09-29 実測)**:
+- `GET https://note.com/api/v3/notes/<key>` が**ブラウザ内 fetch（`credentials:'include'`）なら取れる**（CORS制約に引っかかるため curl や requests からは不可。Playwright のページ内 evaluate で叩く）。返りの `status` が `published` / `is_published: true` なら公開済み、`note_url` フィールドで公開URLも得られる。
+- 自分の記事は `https://note.com/notes` で「公開中」バッジ付き一覧になる。**`?type=draft` は下書き限定に効かない**（公開済みの記事も混ざる）。
+- **公開済み記事は「公開に進む」ではなく「更新する」になる**ので、下書きか公開済みかの判定に使える。
+
+**公開の手順に注意点(2026-09-29 実測・重要)**:
+1. `公開に進む` を押すと **`/publish/` の公開設定画面に移動するだけ**で、まだ公開されていない。
+2. 公開設定画面（`/publish/`）の**右上「投稿する」**を押すのが本番。押すと `note.com/like_reaction_setting?kind=recommend` などに遷移して公開が完了する。
+3. **「投稿する」は `get_by_role` だと不安定**（要素が再描画されてdetachedになる）。**JSで要素の座標を取得して `page.mouse.click()` で押す**のが確実。
+4. 公開設定画面では**ハッシュタグがnoteの自動提案で複数入る**（`#music` `#BlueNote` `#posts` `#github` など）。本文のタグチップとは別に付くので、記事内容を表すものだけ残すか、意図したタグ以外は削除してから公開する。
+5. **`post-to-note.py` の `--publish` はこの2段自動化に修正済み(2026-09-29)**。`publish_note()` が「公開に進む」/「更新する」→ `/publish/` 待ち → 「投稿する」の座標クリックまで実行し、最後にブラウザ内 `fetch` で `GET /api/v3/notes/<key>` を叩いて `is_published` を検証してから公開URLを返す。**公開URLが返ってこなければ公開されていない**ので、その場合は手動で公開すること。
+
 
 ### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
 

@@ -381,6 +381,110 @@ def remove_empty_paragraphs(page, max_iter=80):
     return removed
 
 
+def click_button_by_text(page, text, timeout=30):
+    """テキストが一致する <button> を JS で探して座標クリックする。
+
+    note のボタンは React で再描画されるため、 get_by_role() は要素が
+    detached になって失敗することが多い（2026-09-29 実測）。座標を取得して
+    mouse.click() 才是最安定。見つからなければ False。
+    """
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        pos = page.evaluate("""(t) => {
+            for (const b of document.querySelectorAll('button')) {
+                const bt = (b.innerText || '').trim();
+                const al = (b.getAttribute('aria-label') || '').trim();
+                if (bt === t || al === t) {
+                    const r = b.getBoundingClientRect();
+                    if (r.width < 1 || r.height < 1) continue;
+                    return {x: r.left + r.width / 2, y: r.top + r.height / 2,
+                            disabled: b.disabled === true};
+                }
+            }
+            return null;
+        }""", text)
+        if pos and not pos["disabled"]:
+            page.mouse.move(pos["x"], pos["y"])
+            page.wait_for_timeout(300)
+            page.mouse.click(pos["x"], pos["y"])
+            return True
+        page.wait_for_timeout(1200)
+    return False
+
+
+def public_note_url(page, key):
+    """ブラウザ内 fetch で note API を叩き、公開済みなら公開URLを返す。"""
+    return page.evaluate("""async (k) => {
+        try {
+            const res = await fetch('https://note.com/api/v3/notes/' + k,
+                                    {credentials: 'include'});
+            if (res.status !== 200) return null;
+            const j = await res.json();
+            const d = j.data || {};
+            if (!d.is_published && d.status !== 'published') return null;
+            return d.note_url || null;
+        } catch (e) { return null; }
+    }""", key)
+
+
+def publish_note(page, timeout=120):
+    """note の下書きを公開する（2026-09-29 実測の2段階）。
+
+    1. 編集画面の「公開に進む」を押す  → /publish/ の公開設定画面に移動するだけ
+    2. 公開設定画面右上の「投稿する」を押す → ここで初めて公開される
+
+    1段目だけで止めると公開されないので、2段目まで実行する。
+    公開済みarticle では 1段目のボタンが「更新する」になる。
+    """
+    # 現在の下書きkey（編集URLから取り出す）
+    m = re.search(r"/notes/([0-9a-f]{12,})", page.url)
+    key = m.group(1) if m else None
+
+    # --- 1段目: 公開に進む
+    step1 = None
+    for name in ("公開に進む", "更新する"):
+        if click_button_by_text(page, name, timeout=25):
+            step1 = name
+            break
+    if step1 is None:
+        print("  [warn] 「公開に進む」/「更新する」がありません。"
+              "ブラウザ側で手で操作してください。", flush=True)
+        return None
+    print(f"  「{step1}」を押します…", flush=True)
+    page.wait_for_timeout(4000)
+
+    if "/publish/" not in page.url:
+        print(f"  [warn] 公開設定画面(/publish/)へ移動しませんでした: {page.url}",
+              flush=True)
+        return None
+    print("  公開設定画面(/publish/)に遷移しました", flush=True)
+    page.wait_for_timeout(4000)
+
+    # --- 2段目: 投稿する
+    if not click_button_by_text(page, "投稿する", timeout=30):
+        print("  [warn] 公開設定画面の「投稿する」がありません。"
+              "ブラウザ側で手で押してください。", flush=True)
+        return None
+    print("  「投稿する」を押します…", flush=True)
+    page.wait_for_timeout(12000)
+    try:
+        page.wait_for_load_state("networkidle", timeout=90000)
+    except Exception:  # noqa: BLE001
+        pass
+    page.wait_for_timeout(4000)
+
+    # --- 公開確認（API で検証する。遷移先は like_reaction_setting などに飛ぶため）
+    if key:
+        url = public_note_url(page, key)
+        if url:
+            print(f"  公開しました: {url}", flush=True)
+            return url
+        print("  [warn] API 上ではまだ公開されていません。"
+              "「投稿する」の后再読込が必要かもしれません。", flush=True)
+    print(f"  遷移先: {page.url}", flush=True)
+    return None
+
+
 # ---------------------------------------------------------------- image paste
 
 
@@ -870,35 +974,9 @@ def post_one(p, path, args):
             except Exception as e:  # noqa: BLE001
                 print(f"  [warn] 下書き保存: {e}", flush=True)
         if args.publish:
-            # 実DOMのボタンは「公開に進む」。その後confirm dialogが出る。
-            btn = None
-            for name in ("公開に進む", "公開する", "投稿する"):
-                sel = page.get_by_role("button", name=name).first
-                try:
-                    sel.wait_for(state="visible", timeout=6000)
-                    btn = sel
-                    break
-                except Exception:  # noqa: BLE001, S110
-                    continue
-            if btn is None:
-                print("  [warn] 公開ボタンが見つかりません。ブラウザ側で手で押してください。", flush=True)
-            else:
-                print(f"  「{btn.inner_text().strip()}」を押します…", flush=True)
-                btn.click(timeout=30000)
-                page.wait_for_timeout(3000)
-                for cname in ("公開する", "公開"):
-                    cbtn = page.get_by_role("button", name=cname).last
-                    try:
-                        if cbtn.is_visible(timeout=5000):
-                            print(f"  確認ダイアログの「{cname}」を押します…", flush=True)
-                            cbtn.click(timeout=30000)
-                            page.wait_for_timeout(6000)
-                            break
-                    except Exception:  # noqa: BLE001, S110
-                        continue
-                page.wait_for_load_state("networkidle", timeout=90000)
-                print(f"  公開しました: {page.url}", flush=True)
-                return page.url
+            url = publish_note(page)
+            if url:
+                return url
         print("  ここで内容を確認して、ブラウザの「公開に進む」を押してください。", flush=True)
         print("  (自動で押す場合は --publish を付けます)", flush=True)
         if args.no_wait:
