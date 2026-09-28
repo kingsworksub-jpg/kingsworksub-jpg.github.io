@@ -1,0 +1,124 @@
+---
+title: "ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間"
+description: "1945年11月26日、ニューヨークのWORスタジオでCharlie Parkerが「Ko-Ko」を録音した。ミントンの日曜のjamからスウィング・ストリートへ。1940年代のビバップの胎動と熱を、録音日程とクラブの地図からひも解く。"
+images: ["/images/og/bebop-52nd-street-nights.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
+date: 2026-09-28T11:00:00+09:00
+draft: false
+categories: ["music"]
+tags: ["ビバップ", "Charlie Parker", "Dizzy Gillespie", "52nd Street", "Minton's Playhouse", "1940年代のジャズ"]
+---
+
+
+ビバップを語るとき、最後に戻りたい日がひとつあります。1945年11月26日、ニューヨークのブロードウェイ通り、WORスタジオで6曲が録音されました。アルトサックスはCharlie Parker、トランペットはDizzy Gillespie。曲名は「Ko-Ko」「Now's the Time」「Billie's Bounce」「Warming Up a Riff」「Thriving on a Riff」「Meandering」です。
+
+この日、Parkerははじめて自分の名前で打分を持つセッションを録音しました。それまで約5年、彼は常に誰かの名前の下で吹いていました。Jay McShannのオーケストラ、Billy Eckstineの即興録音会、Tiny Grimes、Dizzy Gillespie、Sarah Vaughan、Red Norvo。技量はこの時点ですでに開いていた。それでも、自分の名前で鳴らす日が近いとは思っていなかった。
+
+今回は、1940年代の前半から後半へ、音がどう移り、どこへ移ったのかを、録音日程と場所の地図の両方から辿ります。前半の終わりまでは即興録音会とラジオの放送が担い、1946年を境に固定されたクラブと入場料のついた夜のコンサートが並び始めます。聴いた人は自分からその場へ向かいます。
+
+## ミントンの扉
+
+<figure class="photo photo--right">
+ <img src="/images/bebop/thelonious-monk-mintons-1947.jpg" alt="Minton's Playhouseでピアノを弾くThelonious Monk" width="1600" height="1678" loading="lazy">
+ <figcaption>1947年9月ごろ、Minton's Playhouse。Thelonious Monk はこのクラブの house pianist を務めていた<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
+</figure>
+
+ビバップの空気は日曜の朝にありました。ニューヨークのWest 118th Street、St. Nicholas Avenueの角、Hotel Cecilの一階にMinton's Playhouseがあります。開館したのはMonroe Henry Minton。建物は1895年から1896年にかけて建てられた5階建てで、扉はWest 118th Street側にあり、小さなプレートが貼られています。
+
+Hotel Cecilは2023年6月27日にニューヨーク市指定の歴史的建造物になりました。さかのぼって1985年9月18日には国立史跡登録リストにも載っています。このビルは、黒人旅行者のための案内書、Negro Motorist Green Bookに1941年から1961年まで続けて載っていた。
+
+常駐のドラムスは1941年からKenny Clarkeでした。常連バンドにはJoe Guy、Thelonious Monk、Nick Fentonが名を連ねています。日曜の朝の即興会がこのクラブの核心でした。そこから生まれた「52nd Street Theme」は、後にMonkのテーマ曲になり、Kenny ClarkeとHis 52nd Street Boysとして録音もされました。
+
+地図に載せてみると、Minton'sはビバップを広めた最初の中心でした。52nd Streetがその次に来ます。この一軒の窓から出てきた音が、夜のニューヨークの空気そのものを塗り替えていきました。今もWest 118th Streetのその扉は残っています。
+
+## 「Ko-Ko」が録音された日
+
+<figure class="photo photo--left">
+ <img src="/images/bebop/charlie-parker-1947-threedeeuces.jpg" alt="Three Deucesでアルトサックスを吹くCharlie Parkerと隣に立つMiles Davis" width="1600" height="1580" loading="lazy">
+ <figcaption>1947年8月ごろ、ニューヨークの Three Deuces。Charlie Parker と Miles Davis<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
+</figure>
+
+セッションの顔ぶれはこうでした。アルトサックスはCharlie Parker。トランペットとピアノをDizzy Gillespieが持ち、トランペットは一部の曲でMiles Davis、ピアノは一部の曲でSadik Hakim。ベースはCurly Russell、ドラムはMax Roach。
+
+「Ko-Ko」はSavoy 597ではDon Byasの「How High the Moon」、45-311では「Marmaduke」と向かい合わせで発売されました。「Warming Up a Riff」は別の音源の別モノで、「Ko-Ko」と組まれることはありませんでした。
+
+このセッションの6本は、短い曲ばかりでした。「Ko-Ko」では、コード進行は元の中速で進むのに、旋律だけがその半分の音符値で走っている。
+
+これは通常のコード進行の書き換えではない。物流の規格はそのままに、載せる荷物の個数だけを増やしたようなものだ。
+
+Parker 自身にとっては、これは理論的な書き換えではなく、手の動きの話だったのかもしれない。
+
+1949年のDown Beatには、Parkerがギター奏者のBiddy Fleetと、1939年12月に第七大通りのある店で「Cherokee」を練習していた、という話が載っています。
+
+Parkerは1920年8月29日、カンザスシティ（在カンザス州）で生まれました。最初の録音は1940年12月2日、カンザス州ウィチタのラジオ局KFBIで流されたJay McShannのオーケストラの放送でした。残された5本は「Moten Swing」「Coquette」「Lady Be Good」「Blues」「Honeysuckle Rose」でした。1943年2月15日と28日、ChicagoのSavoy Hotelの305号室で、Billy Eckstineの主催によるRedcross Jam Sessionが開かれます。Parkerはそこでテノーサックスを吹きました。Dizzy GillespieとOscar Pettifordが隣に立っています。1944年、ParkerはEckstineの大バンドに残ることを断りました。断るときの言葉は「It's a jail」でした。
+
+1944年9月15日には、ニューヨークのWORスタジオでTiny Grimesのセッションがあり、Parkerのニューヨークでの最初の録音になりました。そのあとの1年のあいだに、1945年2月12日のCootie Williams、2月28日と5月11日のDizzy Gillespie（Guildで発売）、5月25日のSarah Vaughan、6月6日のRed Norvoと、短い日程が詰まります。2月12日のCootie Williamsの分は、Savoy Ballroomで14人の編成で録られますが、商品として発売されることはありませんでした。6月6日のRed Norvoの分は、Dialが1949年にかけ直しています。
+
+## スウィング・ストリート
+
+<figure class="photo photo--right">
+ <img src="/images/bebop/52nd-street-1948.jpg" alt="1948年5月ごろの52nd Streetの夜、ネオンサインが立ち並ぶ通り" width="1600" height="1205" loading="lazy">
+ <figcaption>1948年5月ごろ Fifth Avenue と Seventh Avenue の間、52nd Street。当時は「Swing Street」と呼ばれていた<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
+</figure>
+
+Fifth AvenueとSeventh Avenueのあいだ、52nd Street。当時は「Swing Street」と呼ばれていました。ビバップを広めた拠点として、Minton'sの次に来る重要な場所でした。固定されたステージがあり、入場料があり、名前のあるバンドが名前で公演する。朝の即興会とはちがう、夜の側の生物です。
+
+Three Deucesが、Parkerのクインテットが根を張った場所です。1947年8月ごろの写真には、Tommy Potter、Charlie Parker、Max Roach、Miles Davis、Duke Jordanが並びます。ベースとドラムスがいかに安定しているかを見れば、ビバップの音がどう組み立てられるかが分かります。裏拍と表拍のあいだに、旋律の動く余地が残されているからです。
+
+52nd Streetから少し離れたところにも、ビバップの夜の拠点がありました。Royal Roostです。住所は1580 Broadway、47th Streetと48th Streetのあいだ、Strand Theatreの向かい側です。1947年にRalph Watkinsが廃業したフライドチキンの店を買いました。ジャズの夜が始まったのは1948年3月です。会場は「The Metropolitan Bopera House」や「The House That Bop Built」の名で売り出されました。入場料は90セントで、安い見安席が別にありました。Symphony Sid TorinがWMCAから生放送し、1948年9月4日には住所を放送しました。放送のあいだはリスナーから電話で要望が送れました。その夜、ParkerはMiles Davis、Tadd Dameron、Curly Russell、Max Roachと演奏し、番組には「52nd Street Theme」と「Ko-Ko」が入りました。
+
+その流れを受けたのが、1949年5月に始まったBop Cityです。場所は48th StreetとBroadwayの角のBrill Buildingで、10年の契約を結びました。見安席の価格はRoyal Roostの90セントから1ドル20セントへ上がりました。1949年12月には、52nd Streetのすぐ北にも新しいクラブが開きました。
+
+そのクラブがBirdlandです。1949年12月15日に、1678 Broadwayに開きました。52nd Streetのすぐ北にあたる場所で、Morris Levyが運営しました。入口の看板には「The Jazz Corner of the World」と書かれていました。入場料は75セントで、見安席もあり、壁にはHerman Leonardの写真が貼られていました。収容客数の表示は273人です。名前はCharlie Parkerに由来し、開店の夜もParkerが主役でした。Birdlandは1965年に閉店しました。
+
+## どっしり座った男 — Dizzy Gillespie
+
+<figure class="photo photo--left">
+ <img src="/images/bebop/dizzy-gillespie-52nd-street-1947.jpg" alt="52nd Streetで腰を下ろして楽器を待つDizzy Gillespie" width="1600" height="1604" loading="lazy">
+ <figcaption>1946年から1948年のあいだ、52nd Street の Dizzy Gillespie<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
+</figure>
+
+Dizzy GillespieことJohn Birks Gillespieは、1917年10月21日にSouth CarolinaのCherawで生まれました。Cab Callowayのオーケストラには1939年から1941年までいました。1944年にParkerのクインテットに加わります。この2人がいなければ、1945年11月26日の6本は成立しません。
+
+Gillespieの作曲家としての仕事も、Parkerと並ぶほど重要でした。「A Night in Tunisia」は1942年の作曲で、当初の表題は「Interlude」でした。Frank Paparelliの共作表記は、別の書き起こし作業の対価として付けられたもので、作曲とは無関係です。1946年2月22日にRCA Victorで録られた版には、Don Byas、Milt Jackson、Al Haig、Bill DeArango、J.C. Heard、Ray Brownが並びます。2004年にGrammy Hall of Fameに入りました。
+
+「ビバップ」という名称が実際に目にできる最初は、1945年8月1日のDown Beat、8ページに載った「Be-Bop」という見出しです。2年後の1947年5月21日号では、Gillespieの写真に「Well, be-bop!」という見出しがつきました。語源は意味のある語ではなく、スキャット歌唱の無意味な音でした。最初の記録はMcKinney's Cotton Pickersの「Four or Five Times」（1928年）で、1945年にはR&Bの中で定着していました。Gillespieは、自分の曲「Max Is Making Wax」で即興したスキャットから来たと話しています。
+
+GillespieはDuke Ellingtonの言葉を伝えています。音楽に名前をつけたことが、いちばん大きな失敗だ、と。名前をつけた瞬間に、そのものは時代より前になるからです。Parkerは「ビバップ」という言葉を自分では使いませんでした。音楽を見下す言葉だと考えたからです。1949年の取材では、こう語っています。音楽には境目という考えがあるけれど、芸術に境目などない、と。
+
+## 誰も買わなかった音楽
+
+1942年8月、AFMのJames Petrilloが録音禁止を出しました。禁令は1944年まで続き、ラジオとジュークボックスから新しい音楽が押さえられました。Parkerがレコードとして出した音は、Savoy、Dial、Verveの3社に限られます。この少数のレーベルと、足りない放送枠が、1940年代のビバップの行き先を狭くしていました。
+
+1944年7月2日、ロサンゼンジのPhilharmonic Auditoriumで最初のJazz at the Philharmonicが開かれました。主催はNorman Granzで、借りた約300ドルが予算でした。1946年から毎年ツアーを続け、同じ年にClefを設立しました。人種差別的な方針のクラブの予約は引き受けませんでした。1947年のDown Beatで、1年あたり10万ドル分の日時を取り消されたと話しています。
+
+1949年、Parkerはヨーロッパへ公演に行きました。5月8日、9日、14日、15日はパリのSalle Pleyel、12日はRoubaixでした。帰国後は9月18日のCarnegie HallでJazz at the Philharmonicを行いました。
+
+この時期の基本は5人のクインテットでした。ベースとドラムスに、トランペット、ピアノ、アルトサックスが並びます。どの楽器をどれだけ鳴らすかで、聴く印象はまったく変わります。リズム隊とホーンがどう音を作っているのかは、[ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/) に整理しました。
+
+1949年11月30日、Charlie Parker with Stringsが録音されました。プロデュースはNorman Granzで、MercuryのMG-35010として10インチLPで発売されています。続編は1950年7月5日のセッションで、MGC-109になりました。
+
+## 一九四六年、カマリラの六か月
+
+1946年3月28日、ロサンゼンジのRadio RecordersでDialのセッションが開かれます。4本は「Moose the Mooche」「Yardbird Suite」「Ornithology」「A Night in Tunisia」です。Parkerのアルトサックスに、Miles Davis、Lucky Thompson、Dodo Marmarosa、Arvin Garrison、Vic McMillan、Roy Porterが並びます。1945年11月のニューヨークから、わずか4か月でここへ移りました。
+
+その4か月後、事件が起こります。1946年7月29日、ロサンゼンジのCivic Hotelで、Parkerは寝台のシーツに火をつけ、ホールのなかを走りました。逮捕され、East Los Angelesの刑務所の精神科病棟に留められます。容疑は放火、公衆でのわいせつ、逮捕への抵抗でした。六か月をCamarillo State Hospitalで過ごし、1947年1月に釈放されます。
+
+「Moose the Mooche」という曲名は、ロサンゼンジの麻薬密売人の名です。その人が逮捕されると、Parkerはつながりを失いました。アルコールに傾き、体も心も崩れていきます。1947年、カリフォルニアを出る前に「Relaxin' at Camarillo」を録みました。
+
+1947年4月7日、Parkerはニューヨークへ帰りました。5月8日にはHarris Smith Studiosで録音しています。8月14日のSavoyでは6本を録りました。10月28日、WORスタジオのDialでも6本です。「Dexterity」「Bongo Bop」「Dewey Square」「The Hymn」「Bird of Paradise」「Embraceable You」。Miles Davis、Duke Jordan、Tommy Potter、Max Roachが並びました。
+
+1951年、Parkerは麻薬の所持で逮捕されます。執行猶予3か月。キャバレットカードも取り消されました。ニューヨークのほとんどの夜のクラブで仕事ができなくなります。1951年から1953年のあいだ、出ていける場所为数えると、Apolloがそのひとつでした。
+
+## 最後に残ったもの
+
+1955年3月12日、Parkerはニューヨークで亡くなりました。34歳でした。遺体はKansas City, MissouriのLincoln Cemeteryに眠っています。葬儀の費用を出したのはDizzy Gillespieでした。ハーレムの葬列は、議員であり牧師でもあるAdam Clayton Powell Jr.が取り仕切りました。
+
+残ったのは、34年のあいだに残した大量の録音でした。「Ko-Ko」「Now's the Time」「Billie's Bounce」は、その出発点にあたる。Parker自身が使ったことのない「ビバップ」という言葉だけが、先回りして生き残っています。
+
+その先には、1949年の「A Night in Tunisia」や、弦の加わったCharlie Parker with Stringsが並びます。さらに先の1950年代には、コード進行の外側から別の音楽が生まれていきます。[モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) で追えます。ビバップの流れは1950年代にはハードバップへ移ります。[ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) に続きます。
+
+地図だけで見れば、1940年代は短い区間です。West 118th Streetの一階から始まり、52nd Streetを通り、Broadwayの新しい建物へ移りました。場所が変わると、聴ける層も変わります。Minton'sから始めて、Three Deuces、Royal Roost、Bop City、Birdlandと、5つの場所を見てきました。1955年にParkerは亡くなりましたが、場所の名前はそのまま残っています。
+
+**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/) · [クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで](/posts/cool-jazz-birth-of-the-cool/)

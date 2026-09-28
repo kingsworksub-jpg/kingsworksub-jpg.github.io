@@ -1,18 +1,21 @@
 # SEO監査レポート(自動生成)
 
-生成日時: 2026-09-26T02:48:27.709893
+生成日時: 2026-09-28T18:13:43.090610
 
-対象記事数: 72 (下書き: 5)
+対象記事数: 75 (下書き: 5)
 
 下書き(本番非掲載): 2026-09-22-154310.md, 2026-09-22-155647.md, 2026-09-22-160948.md, 2026-09-22-162404.md, 2026-09-22-164455.md
 
 
 ## 記事サマリ (記事名 | 文字数 | h2/h3 | 画像数 | 内部リンク送信 | 被内部リンク)
 
-- jazz-masterpieces-beginner.md (2026-09-24T23:31:00+09:00) | 5701字 | h2=12 h3=0 | 画像4 | 内発5 | 被内6 | 「はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に」
-- jazz-instruments-guide.md (2026-09-24T22:00:00+09:00) | 3523字 | h2=4 h3=8 | 画像4 | 内発5 | 被内4 | 「ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド」
-- modal-jazz-challenge.md (2026-09-24T10:00:00+09:00) | 4685字 | h2=6 h3=0 | 画像3 | 内発5 | 被内5 | 「モーダルジャズという挑戦 — 『Kind of Blue』から『A Love S」
-- hard-bop-blue-note-golden-age.md (2026-09-24T08:30:00+09:00) | 5632字 | h2=5 h3=0 | 画像3 | 内発5 | 被内5 | 「ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-」
+- bebop-52nd-street-nights.md (2026-09-28T11:00:00+09:00) | 8980字 | h2=7 h3=0 | 画像4 | 内発5 | 被内1 | 「ビバップの夜明け — Charlie ParkerとDizzy Gillespi」
+- cool-jazz-birth-of-the-cool.md (2026-09-27T10:30:00+09:00) | 4039字 | h2=7 h3=0 | 画像2 | 内発5 | 被内1 | 「クール・ジャズの時代 — Miles Davis『Birth of the Co」
+- vox-cola-flavor-deep-dive-2026.md (2026-09-26) | 5342字 | h2=6 h3=0 | 画像1 | 内発0 | 被内0 | 「VOX 強炭酸水 コーラフレーバーを隅から隅まで味わい尽くす — コーラの香りだ」
+- jazz-masterpieces-beginner.md (2026-09-24T23:31:00+09:00) | 5701字 | h2=12 h3=0 | 画像4 | 内発5 | 被内8 | 「はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に」
+- jazz-instruments-guide.md (2026-09-24T22:00:00+09:00) | 3523字 | h2=4 h3=8 | 画像4 | 内発5 | 被内6 | 「ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド」
+- modal-jazz-challenge.md (2026-09-24T10:00:00+09:00) | 4685字 | h2=6 h3=0 | 画像3 | 内発5 | 被内7 | 「モーダルジャズという挑戦 — 『Kind of Blue』から『A Love S」
+- hard-bop-blue-note-golden-age.md (2026-09-24T08:30:00+09:00) | 5632字 | h2=5 h3=0 | 画像3 | 内発5 | 被内7 | 「ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-」
 - alan-boguslavsky-stage.md (2026-09-24T07:30:00+09:00) | 4982字 | h2=9 h3=0 | 画像2 | 内発4 | 被内5 | 「「写真から消された5人目の男」— Héroes del Silencioのギタリ」
 - jazz-shoes-trend-2026.md (2026-09-23T10:30:00+09:00) | 3544字 | h2=5 h3=0 | 画像4 | 内発4 | 被内5 | 「ジャズシューズが2026年の靴トレンドを制する — バレエフラットの後釜に、19」
 - arita-enka-sake-set-deep-dive-2026.md (2026-09-21) | 3782字 | h2=6 h3=0 | 画像1 | 内発3 | 被内3 | 「有田焼 炎華 酒器セットを隅から隅まで味わい尽くす — 黒い炎を宿した徳利とぐい」
@@ -85,11 +88,15 @@
 ## 孤立記事(被内部リンク0)
 
 - hello.md
+- vox-cola-flavor-deep-dive-2026.md
 
 ## 巨大画像 (>250KB または 幅>1600px)
 
 - static\images\alan-boguslavsky\heroes-2007-tour-sevilla-1.jpg	356KB	1280x960
 - static\images\alan-boguslavsky\heroes-2007-tour-sevilla-2.jpg	348KB	1280x960
+- static\images\bebop\thelonious-monk-mintons-1947.jpg	364KB	1600x1678
+- static\images\cool-jazz\chet-baker-1955-portrait.jpg	555KB	1600x2000
+- static\images\cool-jazz\stan-getz-chet-baker-1983.jpg	513KB	1280x1288
 - static\images\jazz-instruments\jazz-double-bass.jpg	632KB	1000x1505
 - static\images\jazz-shoes\celine-ss26-jazz-shoes.jpg	335KB	1600x2401
 - static\images\jazz-shoes\celine-ss26-suited-booted.jpg	321KB	1600x2401

@@ -92,3 +92,7 @@ cool jazz は長い間、软弱で退屈という偏見にさらされていた�
 
 同じ時期、Baker は別の言語で同じことをやった。1950年代のジャズを「演奏する」だけでなく「描く」仕事として捉えていた。
 
+この10年の前半に、重要な出来事が起きている。ミントンの日曜の jam session から 52nd Street の夜へ散った、時間の流れ。あの側の物語は [ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間](/posts/bebop-52nd-street-nights/) に置いてある。
+
+**関連記事**: [ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間](/posts/bebop-52nd-street-nights/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/)
+
