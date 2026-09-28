@@ -55,7 +55,7 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
 )
-# bot 判定回避。headless のままだと本文进水ISLAって取得できないことがある。
+# bot 判定回避。headless のままだと本文が空で取得できないことがある。
 INIT_SCRIPT = """
 Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
 window.chrome = window.chrome || {runtime: {}};
@@ -111,10 +111,274 @@ def block_lines(block):
     """1ブロックを「note に入力する単位」に分割する。
 
     note の ProseMirror では Enter 1回だと同じ <p> 内に <br> が入るため、
-    連続行を正しい要素にするため���行ごとに分ける。
+    連続行を正しい要素にするため行ごとに分ける。
     """
     lines = [ln for ln in block.split("\n") if ln.strip()]
     return lines or [block]
+
+
+def exit_image_caption(page):
+    """画像貼付後にカーソルを <figcaption> から通常段落へ逃がす。
+
+    note の <figcaption> は text-align:center が既定で、ここに本文が続くと
+    その部分だけ中央寄せになる（2026-09-28 実測）。
+
+    脱出し方として «Escape → Enter 2回» が唯一有効（ArrowDown は効かない）。
+    ただし Enter 2回で図版直下に空 <p> が残るため、直後に Backspace で潰す。
+    実測で「画像直後の空段落がゼロ」になるシーケンスは
+    «Escape → Enter 2回 → Backspace» のみ（2026-09-28 実測）。
+    """
+    cap = page.locator('.ProseMirror figcaption').last
+    try:
+        cap.scroll_into_view_if_needed(timeout=5000)
+        page.wait_for_timeout(250)
+        cap.click()
+        page.wait_for_timeout(450)
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] figcaption のクリック失敗: {e}")
+        return False
+
+    page.keyboard.press("Escape")
+    page.wait_for_timeout(300)
+    for _ in range(2):
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(300)
+    page.keyboard.press("Backspace")   # 図版直下の空 <p> を潰す
+    page.wait_for_timeout(300)
+
+    escaped = page.evaluate("""() => {
+        const s = window.getSelection();
+        if (!s || !s.anchorNode) return false;
+        const el = s.anchorNode.nodeType === 3 ? s.anchorNode.parentElement : s.anchorNode;
+        return !el.closest('figcaption');
+    }""")
+    print(f"    figcaption 脱出: {'OK' if escaped else 'NG'}", flush=True)
+    return escaped
+
+
+def set_text_align(page, mode="指定なし", max_retry=3):
+    """本文の段落を左寄せに確定させる。
+
+    note の仕様（2026-09-28 実測）:
+      - 選択肢は「指定なし」「中央寄せ」「右寄せ」のみ
+      - 「指定なし」= 左寄せ（text-align: start / left）
+      - バブルメニューは «単一ブロック内の選択» にしか出ない。Ctrl+A や
+        複数ブロックをまたぐ Shift+クリックでは出ない（画像の有無を問わない）
+      - そのため「中央/右になっている要素」だけを 1 ブロックずつ
+        三クリックして指定なしを適用する（通常時は 0 回で終わる）
+      - 通常時は何も変更しないので、意図しない中央/右寄せは発生しない
+    """
+    BAD = ("center", "right", "end")
+
+    def bad_blocks():
+        return page.evaluate("""(BAD) => {
+            const sels = ['p','h1','h2','h3','h4','h5','h6','li','blockquote','figcaption'];
+            const out = [];
+            let idx = 0;
+            for (const s of sels) {
+                for (const e of document.querySelectorAll('.ProseMirror '+s)) {
+                    const t = (e.innerText||'').replace(/\\s+/g,' ').trim();
+                    if (!t) continue;
+                    const a = getComputedStyle(e).textAlign;
+                    if (BAD.includes(a)) out.push({i: idx++, tag: s, align: a, text: t.slice(0,30)});
+                }
+            }
+            return out;
+        }""", BAD)
+
+    def apply_to(nth_text_block):
+        """n 番目の「テキストのあるブロック」を三クリックして指定なし。"""
+        loc = page.locator(
+            '.ProseMirror p, .ProseMirror h1, .ProseMirror h2, .ProseMirror h3, '
+            '.ProseMirror h4, .ProseMirror h5, .ProseMirror h6, '
+            '.ProseMirror li, .ProseMirror blockquote, .ProseMirror figcaption')
+        for _ in range(max_retry):
+            for _ in range(3):
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(150)
+            try:
+                b = loc.nth(nth_text_block)
+                b.scroll_into_view_if_needed(timeout=6000)
+                page.wait_for_timeout(250)
+                b.click(click_count=3, timeout=6000)
+                page.wait_for_timeout(450)
+            except Exception:  # noqa: BLE001
+                return False
+            btn = page.locator('button[aria-label="文章の配置"]').first
+            try:
+                if not btn.is_visible(timeout=3000):
+                    continue
+                btn.click(force=True)
+                page.wait_for_timeout(1000)
+            except Exception:  # noqa: BLE001
+                continue
+            opt = page.get_by_role("button", name=mode, exact=True)
+            n = opt.count()
+            if n == 0:
+                page.keyboard.press("Escape")
+                continue
+            try:
+                opt.nth(n - 1).click(timeout=8000)   # 手前のもの
+                page.wait_for_timeout(1100)
+            except Exception:  # noqa: BLE001
+                page.keyboard.press("Escape")
+                continue
+            now = page.evaluate("""(i) => {
+                const sels = ['p','h1','h2','h3','h4','h5','h6','li','blockquote','figcaption'];
+                const all = [];
+                for (const s of sels) {
+                    for (const e of document.querySelectorAll('.ProseMirror '+s)) {
+                        if ((e.innerText||'').trim()) all.push(e);
+                    }
+                }
+                const e = all[i];
+                return e ? getComputedStyle(e).textAlign : null;
+            }""", nth_text_block)
+            if now in (None, "start", "left"):
+                return True
+        return False
+
+    total_bad = len(bad_blocks())
+    print(f"    中央/右寄せの要素: {total_bad} 個", flush=True)
+    fixed = 0
+    for i in range(max_retry):
+        bad = bad_blocks()
+        if not bad:
+            break
+        for rec in bad:
+            if apply_to(rec["i"]):
+                fixed += 1
+                print(f"      修正: <{rec['tag']}> {rec['align']} → left  {rec['text']!r}", flush=True)
+            else:
+                print(f"      [NG] 修正失敗: <{rec['tag']}> {rec['text']!r}", flush=True)
+    print(f"    修正 {fixed} / {total_bad} 個", flush=True)
+
+    res = page.evaluate("""() => {
+        const sels = ['p','h1','h2','h3','h4','h5','h6','li','blockquote','figcaption'];
+        const computed = {};
+        for (const s of sels) for (const e of document.querySelectorAll('.ProseMirror '+s)) {
+            if (!(e.innerText||'').trim()) continue;
+            const a = getComputedStyle(e).textAlign;
+            computed[a] = (computed[a] || 0) + 1;
+        }
+        return computed;
+    }""")
+    print(f"    最終 text-align 内訳: {res}", flush=True)
+    return res
+
+
+def validate_body(page, max_caption=60):
+    """入力後の本文を検証する。見つけた問題を警告として返す。
+
+    特に重要なのは figcaption。note の <figcaption> は text-align:center が
+    初期値で、画像の直後に本文を接着すると本文ごとセンター寄せになる
+    （2026-09-28 実測）。キャプションは max_caption 文字以内に収めること。
+    """
+    return page.evaluate("""(maxCap) => {
+        const pm = document.querySelector('.ProseMirror');
+        if (!pm) return {error: 'ProseMirror なし'};
+        const problems = [];
+        const caps = [...pm.querySelectorAll('figcaption')];
+        for (const c of caps) {
+            const t = (c.innerText || '').replace(/\\s+/g, ' ').trim();
+            if (t.length > maxCap) {
+                problems.push(`figcaption が長すぎ（${t.length}文字 > ${maxCap}）: ${t.slice(0,40)}…`);
+            }
+        }
+        const sels = ['p', 'h1', 'h2', 'h3', 'h4', 'li', 'blockquote', 'figcaption'];
+        const alignTally = {};
+        for (const s of sels) {
+            for (const e of pm.querySelectorAll(s)) {
+                const t = (e.innerText || '').replace(/\\s+/g, ' ').trim();
+                // 空要素は視覚的に無影響なので集計しない
+                if (!t) continue;
+                const a = getComputedStyle(e).textAlign;
+                alignTally[a] = (alignTally[a] || 0) + 1;
+            }
+        }
+        for (const [k, v] of Object.entries(alignTally)) {
+            if (k !== 'start' && k !== 'left') {
+                problems.push(`text-align=${k} が ${v} 要素に残存（左寄せになっていない）`);
+            }
+        }
+        // 空段落（<br> だけ / 空白だけ）の数 = 画像と文字の隙間の大きさ
+        let emptyP = 0;
+        for (const e of pm.querySelectorAll('p, div')) {
+            if (e.closest('figure')) continue;
+            if (e.querySelector('p, figure, img, ul, ol')) continue;
+            const t = (e.innerText || '').replace(/[\\s\\u3000]/g, '');
+            if (!t) emptyP++;
+        }
+        if (emptyP > 2) {
+            problems.push(`空段落が ${emptyP} 個ある（画像と文字の間隔が広い）`);
+        }
+        return {
+            figure: pm.querySelectorAll('figure').length,
+            figcaption: caps.length,
+            h2: pm.querySelectorAll('h2').length,
+            h3: pm.querySelectorAll('h3').length,
+            p: pm.querySelectorAll('p').length,
+            emptyP: emptyP,
+            alignTally: alignTally,
+            problems: problems,
+        };
+    }""", max_caption)
+
+
+def print_validation(page):
+    v = validate_body(page)
+    if v.get("error"):
+        print(f"  [検証] エラー: {v['error']}", flush=True)
+        return v
+    print(f"  [検証] figure={v['figure']} figcaption={v['figcaption']} "
+          f"h2={v['h2']} h3={v['h3']} p={v['p']} 空段落={v.get('emptyP', '?')}", flush=True)
+    print(f"  [検証] text-align 内訳: {v['alignTally']}", flush=True)
+    if v["problems"]:
+        for p in v["problems"]:
+            print(f"  [検証][NG] {p}", flush=True)
+    else:
+        print("  [検証] 問題なし", flush=True)
+    return v
+
+
+def remove_empty_paragraphs(page, max_iter=80):
+    """本文中の空 <p>（<br> だけ / 空白だけ）を順に削除する。
+
+    note は見出しの直後・画像の前後に空段落を残すため
+    （2026-09-28 実測）、入力側で完璧に潰すのは困難。
+    入力後に «空段落を 1 つクリック → Backspace» を繰り返して掃除する。
+    """
+    removed = 0
+    for _ in range(max_iter):
+        idx = page.evaluate("""() => {
+            const pm = document.querySelector('.ProseMirror');
+            let n = 0;
+            for (const e of pm.children) {
+                if (e.tagName !== 'P') continue;
+                if (e.querySelector('img, figure, br.ProseMirror-trailingBreak + img')) continue;
+                const t = (e.innerText || '').replace(/[\\s\\u3000]/g, '');
+                if (!t) return n;
+                n++;
+            }
+            return -1;
+        }""")
+        if idx is None or idx < 0:
+            break
+        p = page.locator('.ProseMirror > p').nth(idx)
+        try:
+            p.scroll_into_view_if_needed(timeout=4000)
+            page.wait_for_timeout(200)
+            p.click(timeout=4000)
+            page.wait_for_timeout(250)
+            page.keyboard.press("Backspace")
+            page.wait_for_timeout(320)
+            removed += 1
+        except Exception as e:  # noqa: BLE001
+            print(f"    [warn] 空段落削除を中断: {e}")
+            break
+    if removed:
+        print(f"    空段落を {removed} 個削除", flush=True)
+    return removed
 
 
 # ---------------------------------------------------------------- image paste
@@ -150,16 +414,31 @@ def shrink_image(page, steps=1):
     """画像ツールバーの「縮小」ボタンで幅を段階的に縮める。
 
     note は figure に float / style を保持しないため（2026-09-28 実測）、
-    幅を変える手段は「縮小」ボタンだけ。1回押すと約60% になる。
+    幅を変える手段は「縮小」ボタンだけ。1回押すと 620px → 372px。
+    ツールバーは «画像をクリック» した時しか出ない（2026-09-28 実測）。
     """
+    img = page.locator('.ProseMirror figure img').last
+    try:
+        img.scroll_into_view_if_needed(timeout=6000)
+        page.wait_for_timeout(300)
+        img.click(force=True, timeout=6000)      # 画像ツールバーを出すためクリック
+        page.wait_for_timeout(1500)
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] 画像クリック失敗: {e}")
+        return 0
+
     base = figure_width(page)
     if not base:
+        print("    [warn] 画像幅を測定できません", flush=True)
         return 0
     for _ in range(steps):
         btn = page.locator('button[aria-label="縮小"]').first
         try:
+            if not btn.is_visible(timeout=5000):
+                print("    [warn] 「縮小」ボタンが見えません", flush=True)
+                break
             btn.click(force=True, timeout=6000)
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(2000)
         except Exception as e:  # noqa: BLE001
             print(f"    [warn] 縮小失敗: {e}")
             break
@@ -209,7 +488,7 @@ def paste_image(page, url):
         page.wait_for_timeout(3000)
         after = count_figures(page)
         if after <= before:
-            # 失敗しても latin にはもうOrganisation入れない（note は Enter で <br> を挿入するだけ）
+            # 失敗しても latin にはもう書き込まない（note は Enter で <br> を挿入するだけ）
             page.keyboard.press("Control+z")
             page.wait_for_timeout(500)
             return False
@@ -254,7 +533,7 @@ def new_paragraph(page, n=2):
     """次のブロック（見出し/リスト/画像）へ移動する。
 
     note の ProseMirror では Enter 1回だと同じ <p> 内に <br> が入るため、
-    ブロック要素を新���段落の先頭に出すには Enter 2回が必要（2026-09-28 実測）。
+    ブロック要素を新しい段落の先頭に出すには Enter 2回が必要（2026-09-28 実測）。
     """
     for _ in range(n):
         page.keyboard.press("Enter")
@@ -322,16 +601,21 @@ def fill_body(page, body, tags, use_images, fast, img_scale=0):
     """本文をブロック単位で入力する。
 
     note の仕様（2026-09-28 実測）に基づく:
-      - Enter 2回で新しい段落ECUT。1回だと同じ <p> 内に <br> が入る
+      - Enter 1回 → 同じ <p> 内に <br> が入る
+      - Enter 2回 → 兄弟の新しい <p> ができる（«空段落なし» で区切れる）
       - 画像は必ず «新しい段落» に貼り付ける。既存 <p> の末尾に貼ると
         後続のテキストがすべて <figcaption> に入ってしまう
       - note は figure に float / style を保持しない（JS で set しても破棄される）。
-        よって画像の «回り込み» は note の仕様として存在しない。
         img_scale で「縮小」ボタンにより幅だけ縮めることは可能。
+
+    間隔の詰め方:
+      ブロック境界では «Enter 2回» だけを使い、空 <p> は作らない。
+      （Enter 1回 + Enter 1回 に分けると <br> だけの空段落が残って
+        画像と文字の隙間が異常に広くなる）
     """
     blocks = split_blocks(body)
     total = len(blocks)
-    prev_was_figure = False
+    at_line_start = True      # 直前に改行済み = 段落の先頭にいる
 
     for i, block in enumerate(blocks, 1):
         lines = block_lines(block)
@@ -340,40 +624,72 @@ def fill_body(page, body, tags, use_images, fast, img_scale=0):
         if m:
             url, alt = m.group("url"), m.group("alt")
             print(f"  [{i}/{total}] 画像: {os.path.basename(url)}", flush=True)
-            # 画像は独立した段落に置く。直前の要素が figure なら Enter 2回で抜ける
-            new_paragraph(page, 2)
+            if at_line_start:
+                pass                      # すでに新しい段落の先頭
+            else:
+                # 画像は «Enter 1回» でよい。2 回だと図版の前に空 <p> が残る
+                # （2026-09-28 実測: Enter1回=0個 / Enter2回=1個）
+                new_paragraph(page, 1)
             ok = use_images and paste_image(page, url)
-            if ok and img_scale:
-                shrink_image(page, img_scale)
-            if not ok:
+            if ok:
+                if img_scale:
+                    shrink_image(page, img_scale)
+                # 図版直下の新しい <p> にカーソルを移す（後続本文を figcaption に入れない）
+                if exit_image_caption(page):
+                    at_line_start = True
+                else:
+                    new_paragraph(page, 2)
+                    at_line_start = True
+            else:
                 type_markdown_line(page, f"[画像: {alt or url}]", fast)
-                page.keyboard.press("Enter")
-            prev_was_figure = True
+                at_line_start = False
             continue
 
         head = lines[0]
         print(f"  [{i}/{total}] {head[:34]}", flush=True)
 
-        if prev_was_figure:
-            new_paragraph(page, 1)
-            prev_was_figure = False
-        elif i > 1:
-            new_paragraph(page, 1)
-
-        in_list = False
-        for line in lines:
+        prev_item = False
+        prev_line = ""
+        for j, line in enumerate(lines):
             is_item = bool(LIST_RE.match(line.strip()))
-            if in_list and not is_item:
-                new_paragraph(page, 1)
+
+            if j == 0:
+                if not at_line_start:
+                    new_paragraph(page, 2)
+            elif prev_item and is_item:
+                page.keyboard.press("Enter")      # リストは Enter 1回で次の <li>
+                page.wait_for_timeout(250)
+            else:
+                new_paragraph(page, 2)
+
+            # 見出しの直後は note が空 <p> を残すので 1 つ潰す。
+            # （実測: Enter2回のみ=1個 / Enter2回+Backspace=0個）
+            if prev_line.strip().startswith("#") and not prev_item:
+                page.keyboard.press("Backspace")
+                page.wait_for_timeout(250)
+
             type_markdown_line(page, line, fast)
-            page.keyboard.press("Enter")
-            page.wait_for_timeout(200)
-            in_list = is_item
+            prev_item = is_item
+            prev_line = line
+            at_line_start = False
 
     if tags:
         new_paragraph(page, 2)
         page.keyboard.type(tags, delay=30)   # #tag をチップ化させるため実キー入力
         page.wait_for_timeout(500)
+
+    # 空段落を掃除して、画像と文字の間隔を詰める
+    print("  [仕上げ] 空段落を削除（間隔を詰める）", flush=True)
+    remove_empty_paragraphs(page)
+
+    # 全文を左寄せに確定させる（中央/右になっている要素だけを修復）
+    if not fast:
+        print("  [仕上げ] 全段落を左寄せに統一（中央/右寄せの要素のみ修復）", flush=True)
+        set_text_align(page, "指定なし")
+
+    # 検証（figcaption 長すぎ / 中央寄せ残り を検出）
+    print("  [検証] 本文レイアウトを検証", flush=True)
+    print_validation(page)
 
 
 def find_title_input(page):
