@@ -185,6 +185,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に(ジャズ特集6本目) | https://kinbro.hatenablog.com/entry/2026/09/24/233736 | 14945776032081946518 |
 | VOX 強炭酸水 コーラフレーバー 深掘り(炭酸飲料シリーズ26本目) | https://kinbro.hatenablog.com/entry/2026/09/26/200122 | 14945776032082692111 |
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
+| ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
 
 ### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
 
