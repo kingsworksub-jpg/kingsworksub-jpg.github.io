@@ -12,3 +12,6 @@ scripts/x-autopost/.venv/
 
 scripts/scheduled/logs/
 scripts/indexing/credentials*.json
+
+# note.com 自動投稿用の Chromium プロファイル（cookie / セッションが含まれる）
+data/note_user_data/

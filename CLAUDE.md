@@ -187,6 +187,23 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
 | ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
 
+### note.com への投稿（2026-09-28 実装）
+
+note.com には投稿用の公開 API がない（はてなブログは AtomPub がある）。
+しかし、ブラウザの永続プロファイルにログイン状態を保存し、エディタへの入力だけを自動化する。
+公開ボタンだけは人が押す（`--publish` で自動化も可）。
+
+- ドラフト作成: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
+- 投稿: `python scripts/post-to-note.py --slug <slug>`
+  - タイトルは `get_by_placeholder` で `fill()`、本文は `[contenteditable="true"]` にキー入力（`fill()` は効かない）。
+  - note のエディタは Markdown ショートカットをリアルタイムで解釈する（`## ` → 見出し、`**x**` → 太字、`#tag` → タグチップ）。だからマークダウンで始まる行は実キー入力で入力する。
+  - 画像は `![](url)` を理解しない。クリップボード経由で貼り付ける（失敗した場合は `[画像: ...]` という行を残す）。
+  - class 名は note 側で変わり続けるので、文字列セレクタだけを使う。
+- ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
+  - ブラウザが開くので手動でログインし、ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
+- 以降のオプション: `--all`（ドラフト全件）/ `--publish`（公開まで自動）/ `--no-images`（画像なしのテキストのみ）/ `--fast`（`insertText` で一括入力。マークダウン変換が効かない場合に使う）
+- 注意: note は自動保存するので、公開の前に中断しても下書きが消えることはない。
+
 ### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
 
 下記IFTTT案を不採用にし、代わりにClaudeが記事内容を踏まえた投稿文を作る自前パイプラインを実装した。コードは`scripts/x-autopost/`、使い方の詳細は`scripts/x-autopost/README.md`参照。
