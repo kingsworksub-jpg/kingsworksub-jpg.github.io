@@ -104,6 +104,19 @@ def split_blocks(body):
     return [b for b in re.split(r"\n{2,}", body) if b.strip()]
 
 
+LIST_RE = re.compile(r"^\s*(?:[-*+]|\d+\.)\s+")
+
+
+def block_lines(block):
+    """1ブロックを「note に入力する単位」に分割する。
+
+    note の ProseMirror では Enter 1回だと同じ <p> 内に <br> が入るため、
+    連続行を正しい要素にするため���行ごとに分ける。
+    """
+    lines = [ln for ln in block.split("\n") if ln.strip()]
+    return lines or [block]
+
+
 # ---------------------------------------------------------------- image paste
 
 
@@ -121,6 +134,38 @@ def count_figures(page):
     return page.evaluate(
         "() => document.querySelectorAll('.note-prose-image, figure, [data-image-id]').length"
     )
+
+
+def figure_width(page):
+    d = page.evaluate("""() => {
+        const fs = [...document.querySelectorAll('.ProseMirror figure')];
+        const f = fs[fs.length - 1];
+        const i = f && f.querySelector('img');
+        return i ? Math.round(i.getBoundingClientRect().width) : 0;
+    }""")
+    return d or 0
+
+
+def shrink_image(page, steps=1):
+    """画像ツールバーの「縮小」ボタンで幅を段階的に縮める。
+
+    note は figure に float / style を保持しないため（2026-09-28 実測）、
+    幅を変える手段は「縮小」ボタンだけ。1回押すと約60% になる。
+    """
+    base = figure_width(page)
+    if not base:
+        return 0
+    for _ in range(steps):
+        btn = page.locator('button[aria-label="縮小"]').first
+        try:
+            btn.click(force=True, timeout=6000)
+            page.wait_for_timeout(1500)
+        except Exception as e:  # noqa: BLE001
+            print(f"    [warn] 縮小失敗: {e}")
+            break
+    w = figure_width(page)
+    print(f"    画像幅 {base}px → {w}px", flush=True)
+    return w
 
 
 CLIP_MIME = "image/png"  # Chromium の ClipboardItem.write が対応しているのは png だけ
@@ -191,7 +236,6 @@ def convert_italics(text):
     """
     if IMG_RE.match(text.strip()):
         return text
-    # **bold** / __bold__ は保護してから、*italic* / _italic_ を **bold** に落とす
     bolds = []
 
     def stash(m):
@@ -199,9 +243,6 @@ def convert_italics(text):
         return f"\x00{len(bolds) - 1}\x00"
 
     t = re.sub(r"(\*\*|__).+?\1", stash, text)
-    # 単独 *x* / _x_ → **x**
-    #   uls: 前が空白/行頭 or 閉じ括弧類、後が空白/行末 or 開き括弧類、
-    #        内側に空白を含まない。`2*3=6` や `foo*bar*baz` の誤爆を防ぐ。
     t = re.sub(r"(?<![A-Za-z0-9*])\*(?!\s)([^*\n]*\S[^*\n]*)(?<!\s)\*(?![A-Za-z0-9*])", r"**\1**", t)
     t = re.sub(r"(?<![A-Za-z0-9_])_(?!\s)([^_\n]*\S[^_\n]*)(?<!\s)_(?![A-Za-z0-9_])", r"**\1**", t)
     for i, b in enumerate(bolds):
@@ -209,56 +250,130 @@ def convert_italics(text):
     return t
 
 
-def type_block(page, text, fast, enter=True):
-    """1ブロックを入力する。
+def new_paragraph(page, n=2):
+    """次のブロック（見出し/リスト/画像）へ移動する。
 
-    実DOM仕様（2026-09-28 実測）:
-      - `## ` は入力すると <h2> に変換される
-      - `**x**` は <strong> に変換される
-      - `*斜体*` は変換されない（`__太字__` は変換される）
-      - Enter で改行すると同じ <p> 内に <br> が入る（見た目上の行間なので問題ない）
+    note の ProseMirror では Enter 1回だと同じ <p> 内に <br> が入るため、
+    ブロック要素を新���段落の先頭に出すには Enter 2回が必要（2026-09-28 実測）。
     """
-    first = text.lstrip()[:1]
-    needs_keys = first in ("#", "-", "*", ">", "[", "|", "1")
-    converted = convert_italics(text)
-    if converted != text:
-        needs_keys = True  # 変換後なので実キー入力（insertText では変換されない）
-    if fast and not needs_keys:
-        page.keyboard.insert_text(converted)
+    for _ in range(n):
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(220)
+
+
+def type_text(page, text, fast=False, delay=8):
+    """テキストだけを入力する（変換記号なし）。"""
+    if fast:
+        page.keyboard.insert_text(text)
     else:
-        page.keyboard.type(converted, delay=8)
+        page.keyboard.type(text, delay=delay)
+    page.wait_for_timeout(120)
+
+
+def type_markdown_line(page, text, fast=False):
+    """マークダウン行を入力する。
+
+    note が理解する記法（2026-09-28 実測）:
+      - `## ` → <h2>、`### ` → <h3>
+      - `- ` / `* ` / `1. ` → <ul>/<ol> の <li>
+      - `**x**` と `__x__` → <strong>
+      - `*斜体*` / `_斜体_` → 未対応（convert_italics でボールド化）
+      - `# `（h1）と `> `（引用）は未対応
+    """
+    s = text.strip()
+
+    m = re.match(r"^(#{2,6})\s+(.*)$", s)
+    if m:
+        page.keyboard.type(m.group(1) + " ", delay=90)
+        page.wait_for_timeout(700)
+        page.keyboard.type(convert_italics(m.group(2)), delay=8)
+        return
+
+    if LIST_RE.match(s):
+        m2 = re.match(r"^(\s*)([-*+]|\d+\.)\s+(.*)$", s)
+        indent, marker, rest = m2.group(1), m2.group(2), m2.group(3)
+        if indent:
+            for _ in range(len(indent) // 2):
+                page.keyboard.press("Tab")
+                page.wait_for_timeout(150)
+        page.keyboard.type(marker + " ", delay=90)
+        page.wait_for_timeout(600)
+        page.keyboard.type(convert_italics(rest), delay=8)
+        return
+
+    t = convert_italics(s)
+    if t.startswith("**") or "__" in t:
+        page.keyboard.type(t, delay=8)  # 変換記号は実キー入力が必要
+    elif fast:
+        page.keyboard.insert_text(t)
+    else:
+        page.keyboard.type(t, delay=8)
+
+
+def type_block(page, text, fast=False, enter=True):
+    """後方互換のラッパ（1行入力 + Enter）。"""
+    type_markdown_line(page, text, fast)
     if enter:
         page.keyboard.press("Enter")
         page.wait_for_timeout(120)
 
 
-def fill_body(page, body, tags, use_images, fast):
-    """本文をブロック単位で入力する。"""
+def fill_body(page, body, tags, use_images, fast, img_scale=0):
+    """本文をブロック単位で入力する。
+
+    note の仕様（2026-09-28 実測）に基づく:
+      - Enter 2回で新しい段落ECUT。1回だと同じ <p> 内に <br> が入る
+      - 画像は必ず «新しい段落» に貼り付ける。既存 <p> の末尾に貼ると
+        後続のテキストがすべて <figcaption> に入ってしまう
+      - note は figure に float / style を保持しない（JS で set しても破棄される）。
+        よって画像の «回り込み» は note の仕様として存在しない。
+        img_scale で「縮小」ボタンにより幅だけ縮めることは可能。
+    """
     blocks = split_blocks(body)
     total = len(blocks)
+    prev_was_figure = False
+
     for i, block in enumerate(blocks, 1):
-        m = IMG_RE.match(block.strip())
+        lines = block_lines(block)
+        m = IMG_RE.match(lines[0].strip()) if len(lines) == 1 else None
+
         if m:
-            url = m.group("url")
-            alt = m.group("alt")
+            url, alt = m.group("url"), m.group("alt")
             print(f"  [{i}/{total}] 画像: {os.path.basename(url)}", flush=True)
-            if use_images and paste_image(page, url):
-                # 直後のブロックが *キャプション* なので、ここでは alt を重ねない
-                pass
-            else:
-                type_block(page, f"[画像: {alt or url}]", fast)
-            page.wait_for_timeout(300)
+            # 画像は独立した段落に置く。直前の要素が figure なら Enter 2回で抜ける
+            new_paragraph(page, 2)
+            ok = use_images and paste_image(page, url)
+            if ok and img_scale:
+                shrink_image(page, img_scale)
+            if not ok:
+                type_markdown_line(page, f"[画像: {alt or url}]", fast)
+                page.keyboard.press("Enter")
+            prev_was_figure = True
             continue
 
-        head = block.split("\n")[0]
+        head = lines[0]
         print(f"  [{i}/{total}] {head[:34]}", flush=True)
-        for line in block.split("\n"):
-            type_block(page, line, fast)
+
+        if prev_was_figure:
+            new_paragraph(page, 1)
+            prev_was_figure = False
+        elif i > 1:
+            new_paragraph(page, 1)
+
+        in_list = False
+        for line in lines:
+            is_item = bool(LIST_RE.match(line.strip()))
+            if in_list and not is_item:
+                new_paragraph(page, 1)
+            type_markdown_line(page, line, fast)
+            page.keyboard.press("Enter")
+            page.wait_for_timeout(200)
+            in_list = is_item
 
     if tags:
-        page.keyboard.press("Enter")
-        page.keyboard.press("Enter")
-        type_block(page, tags, False)  # #tag をチップ化させるため実キー入力
+        new_paragraph(page, 2)
+        page.keyboard.type(tags, delay=30)   # #tag をチップ化させるため実キー入力
+        page.wait_for_timeout(500)
 
 
 def find_title_input(page):
@@ -426,7 +541,7 @@ def post_one(p, path, args):
         ed.click()
         page.wait_for_timeout(400)
         t0 = time.time()
-        fill_body(page, body, tags, not args.no_images, args.fast)
+        fill_body(page, body, tags, not args.no_images, args.fast, args.img_scale)
         print(f"  入力完了 ({time.time() - t0:.0f} 秒)")
 
         page.wait_for_timeout(3000)
@@ -500,6 +615,8 @@ def main():
     ap.add_argument("--hold", type=int, default=180,
                     help="--no-wait のときブラウザを開いておく秒数")
     ap.add_argument("--save", action="store_true", help="下書き保存ボタンを押す")
+    ap.add_argument("--img-scale", type=int, default=0,
+                    help="画像を「縮小」ボタンで縮める回数（0=full幅620px、1=約372px）")
     args = ap.parse_args()
 
     global PROFILE  # noqa: PLW0603
