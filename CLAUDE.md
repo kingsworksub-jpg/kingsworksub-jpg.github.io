@@ -273,7 +273,12 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 1. `公開に進む` を押すと **`/publish/` の公開設定画面に移動するだけ**で、まだ公開されていない。
 2. 公開設定画面（`/publish/`）の**右上「投稿する」**を押すのが本番。押すと `note.com/like_reaction_setting?kind=recommend` などに遷移して公開が完了する。
 3. **「投稿する」は `get_by_role` だと不安定**（要素が再描画されてdetachedになる）。**JSで要素の座標を取得して `page.mouse.click()` で押す**のが確実。
-4. 公開設定画面では**ハッシュタグがnoteの自動提案で複数入る**（`#music` `#BlueNote` `#posts` `#github` など）。本文のタグチップとは別に付くので、記事内容を表すものだけ残すか、意図したタグ以外は削除してから公開する。
+4. **ハッシュタグ（2026-09-29 実測・訂正）**: 公開した3記事とも、付いているタグは**記事内容を表すものだけ**だった（generic な自動提案タグ `#posts` `#github` 等は**付かなかった**）。実測値:
+   - `n4551a5b4bb6d`: `#music` `#BlueNote` `#モダンジャズ` `#ハードバップ` `#artblakey` `#jazzmessengers`
+   - `n3c57c2555f9a`: `#music` `#ビバップ` `#CharlieParker` `#DizzyGillespie` `#52ndStreet` `#1940年代のジャズ` `#MintonsPlayhouse`
+   - `n5cb685647f38`: `#music` `#MilesDavis` `#ビバップ` `#chetbaker` `#クール・ジャズ` `#BirthOfTheCool` `#WestCoastJazz` `#1950年代のジャズ`
+
+   ただし `#music` は全記事に入るので、記事固有のものを優先したいなら公開前に外す。**API のフィールド名は `title`/`tags` ではない**ので注意（`title` は `name`、タグは `hashtag_notes[].hashtag.name`）。
 5. **`post-to-note.py` の `--publish` はこの2段自動化に修正済み(2026-09-29)**。`publish_note()` が「公開に進む」/「更新する」→ `/publish/` 待ち → 「投稿する」の座標クリックまで実行し、最後にブラウザ内 `fetch` で `GET /api/v3/notes/<key>` を叩いて `is_published` を検証してから公開URLを返す。**公開URLが返ってこなければ公開されていない**ので、その場合は手動で公開すること。
 
 
