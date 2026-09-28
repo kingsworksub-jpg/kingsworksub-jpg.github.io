@@ -62,7 +62,11 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **カテゴリ**: 新設なし。音楽・ジャズ系は既存`music`、ファッション系は既存`fashion`を使う(どちらも`hugo.toml`の`[menu]`に登録済み)。1記事につき必ず**1つだけ**指定する。
 - **記事フォーマット**: 型その2(単発製品深掘り)のタイトル規則「{テーマ}を隅から隅まで味わい尽くす — {詩的サブタイトル}」と文体を踏襲。ただし**製品記事ではない**ため、アフィリエイトバナー(`.product-banner`)は入れない(商品ページがない)。評価軸・レーダーチャートは使わない(比較対象がない)。文体・引用ルール・研究ルール(最低10サイト)・禁止語は他記事と完全に共通。
 - **画像**: 参照元のページ(公式・ニュース記事・写真作品)から1枚以上取得し、権利表示(撮影者・ライセンス)を<span class="credit">に記載する。参照元に画像が無い場合のみWeb検索で確保。配置は`photo photo--left`/`photo photo--right`で文字を回り込ませ、1行10文字以下にしない(画像幅220px以下、向かい合う2枚の間は180px以上)。
-- **毎回のフルパイプライン**: (1) `themes.txt`+`theme-covered.json`で未着手テーマを1つ選ぶ(残りがなければ何もせず終了) → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**)、発行されたEntry IDをCLAUDE.mdの表に追記 → (9) `scripts/theme-covered.json`にテーマを追記してcommit。**Xへの自動投稿は2026-09-27に廃止済み**(`feed_check.py`/`main.py`は実行しない)。
+- **毎回のフルパイプライン**: (1) `themes.txt`+`theme-covered.json`で未着手テーマを1つ選ぶ(残りがなければ何もせず終了) → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿**（下記参照。両方必須） → (9) `scripts/theme-covered.json`にテーマを追記してcommit。**Xへの自動投稿は2026-09-27に廃止済み**(`feed_check.py`/`main.py`は実行しない)。
+  - **(8a) はてなブログ**: `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**)、発行されたEntry IDをCLAUDE.mdの表に追記。
+  - **(8b) note.com（2026-09-28 から必須・ユーザー指示）**: `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --save`。**下書き保存まで自動化し、公開は人が確認して行う**（`--publish` は使わない）。**生成された下書きkey（`https://editor.note.com/notes/<key>/edit/`）を CLAUDE.md のnote記録表に追記する**。実行前に `https://note.com/notes?type=draft` の件数を確認して、テスト書きの残骸があれば先に削除する（`post-to-note.py` は新規下書きを作るコマンドなので、既存下書きに対して使うと重複する）。詳細仕様は下記「note.com への投稿」節を参照。
+  - **完了条件**: 「(1)〜(9)すべて」＝**記事公開 → はてな転載 → note下書き作成 → `theme-covered.json` 追記**。**はてなだけ投稿して note を飛ばした場合は「未完了」とみなす**。
+
 - **旧記録(参考・再開禁止)**: `scripts/carbonation-covered.json`と`scripts/sakeware-covered.json`は炭酸/酒器時代のASIN記録として**温存するが、以降は使わない**。再開する指示が出ても本セクションの`themes.txt`方式に戻さないこと。
 - **停止方法**: ユーザーから「止めて」と言われたら`Disable-ScheduledTask -TaskName KingsWork-Blog-Drink`。状態確認は`Get-ScheduledTask -TaskName KingsWork-*`と`scripts/scheduled/logs/`。
 
@@ -92,7 +96,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
-| note.com | 記事本文 | **公式APIなし**(2026年時点でも非公開、時期未定)。非公式API/Selenium自動化は技術的に可能だが規約リスクありコミュニティでも非推奨 | — | **自動化非推奨**。やるなら手動投稿 |
+| note.com | 記事本文 | **公式APIなし(2026年時点でも非公開・時期未定)**。はてなブログと異なりAtomPubも無い。`scripts/post-to-note.py` + Playwright で **Chromium永続プロファイルにログイン状態を保存し、エディタへのキー入力だけ自動化する**(2026-09-28 実装・検証済み) | — | **有効(2026-09-28)** — はてなブログと同じく、記事公開ごとに自動投稿する。下記「note.com への投稿」参照 |
 | Instagram | リンク+一言 | フィード投稿の本文にリンクを貼れない仕様のため、記事拡散用途にはそもそも不向き | — | **対象外** |
 
 **セキュリティ上の注意**: このリポジトリ(`kingsworksub-jpg/kingsworksub-jpg.github.io`)は公開リポジトリ。APIキー・アクセストークンの類は**絶対にコード/コミットに直書きしない**。ローカル実行時は環境変数、GitHub Actionsで動かす場合はリポジトリの Encrypted Secrets を使うこと。
@@ -187,22 +191,76 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
 | ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
 
-### note.com への投稿（2026-09-28 実装）
+### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
-note.com には投稿用の公開 API がない（はてなブログは AtomPub がある）。
-しかし、ブラウザの永続プロファイルにログイン状態を保存し、エディタへの入力だけを自動化する。
-公開ボタンだけは人が押す（`--publish` で自動化も可）。
+> **重要(2026-09-28、ユーザー指示)**: **note.com は「はてなブログ」と並び、記事公開ごとの必須の投稿先になった。**
+> これからは **Hugoビルド → commit & push → GitHub Actions デプロイ確認 → はてなブログへ転載 → note.com へドラフト作成 → 公開** の順で必ずセットで行うこと。
+> はてなブログへの転載を飛ばさないようにしているのと同時に、**`post-to-note.py` も飛ばさないこと**。
+> 1時間に1回のテーマ記事パイプライン(`KingsWork-Blog-Drink`)にもnote投稿のステップを追加してあるので、通常の自動投稿ルートでも必ず走る。
+> 手動で記事を書いた場合も同様に note へ投入する。
+> **ユーザーが「note には投稿しない」と明示的に指示した場合はこの限りでない。それ以外の既定値は「必ず投稿する」こと。**
 
-- ドラフト作成: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
-- 投稿: `python scripts/post-to-note.py --slug <slug>`
-  - タイトルは `get_by_placeholder` で `fill()`、本文は `[contenteditable="true"]` にキー入力（`fill()` は効かない）。
-  - note のエディタは Markdown ショートカットをリアルタイムで解釈する（`## ` → 見出し、`**x**` → 太字、`#tag` → タグチップ）。だからマークダウンで始まる行は実キー入力で入力する。
-  - 画像は `![](url)` を理解しない。クリップボード経由で貼り付ける（失敗した場合は `[画像: ...]` という行を残す）。
-  - class 名は note 側で変わり続けるので、文字列セレクタだけを使う。
+note.com には投稿用の公開 API がなく（はてなブログは AtomPub がある）、コマンド1行では投稿できない。
+そのため **Chromium の永続プロファイルにログイン状態を保存し、エディタへのキー入力だけを自動化する** 方式で運用する。
+下書き保存までは自動化してもよいが、**公開ボタンだけは人が押す運用を基本とする**（`--publish` で自動化も可能）。
+
+- ドラフト変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
+- ドラフト投入: `python scripts/post-to-note.py --slug <slug> --save`（`--save` で下書き保存まで行う）
+- 公開確認: ブラウザ（`--hold` / 既定）で内容を確認してから公開する。
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
-  - ブラウザが開くので手動でログインし、ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
-- 以降のオプション: `--all`（ドラフト全件）/ `--publish`（公開まで自動）/ `--no-images`（画像なしのテキストのみ）/ `--fast`（`insertText` で一括入力。マークダウン変換が効かない場合に使う）
-- 注意: note は自動保存するので、公開の前に中断しても下書きが消えることはない。
+  - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
+- 主なオプション:
+  - `--all` — `note-drafts/` にある全ファイルを順番に処理
+  - `--slug <slug>` — 対象スラッグを1つ指定
+  - `--save` — 「下書き保存」まで自動で押す
+  - `--publish` — 公開まで自動で押す（既定は押さない）
+  - `--img-scale 1` — 画像を「縮小」ボタンで620px→372pxにする（**既定で1**。0指定は全幅）
+  - `--no-images` — 画像を挿入せずテキストのみ
+  - `--fast` — `insertText` で一括入力（高速だが **Markdown変換が効かない**ので緊急時のみ）
+  - `--hold` / `--no-wait` — ブラウザを開いて確認する時間の制御
+
+#### noteエディタの仕様（2026-09-28 実測。修正時に必ず参照すること）
+
+以下はすべて実測値であり、**すべて `post-to-note.py` にコードとして実装済み**。推測でDOMや操作を変えると壊れるので、まずこの節を読むこと。
+
+- **本文は `.ProseMirror[contenteditable="true"]`、幅620px固定**。初期値は `text-align: start`（＝左寄せ）。中央/右揃えは**明示的に選んだときだけ**付く。
+- **タイトル欄は `textarea[placeholder="記事タイトル"]`**（`input` ではない）。`fill()` が効く。
+- **Enter 1回**は **同じ `<p>` の中に `<br>` が入る**（＝段落が分かれない）。**Enter 2回**で**兄弟の新しい `<p>`** ができる。ブロック境界は必ず **Enter 2回**。
+- **`## `（h2）/ `### `（h3）/ リスト / `**x**`（太字）は実キー入力でしか変換されない**。`insertText`（`--fast`）では効かない。
+- **`#tag` は実キー入力**（`page.keyboard.type`、delay付き）でチップ化する。
+- **`*斜体*` / `_斜体_` は非対応**（「*」が残る）。`convert_italics` で `**ボールド**` に変換して回避している。`# `（h1）と `> `（引用）も非対応。
+- **画像は必ず新しい段落の中に貼り付ける**。既存 `<p>` の末尾に貼ると、**後続のテキストがすべて `<figcaption>` の中に入り**、その部分だけ中央寄せになる（`figcaption` の既定が `text-align: center` のため）。
+- **画像直後の脱出シーケンス（これ一択）**: `Escape` → `Enter`×2 → `Backspace`。`ArrowDown` は効かない。`Backspace` を落とすと図版直下に空 `<p>` が1個残る。
+- **画像前は Enter 1回でよい**。2回にすると図版の前に空 `<p>` が残る。
+- **見出し直後の空 `<p>`** は `Enter`×2 → `Backspace` で潰す。
+- **画像ツールバーは画像をクリックしないと出ない**。クリック → `button[aria-label="縮小"]` で **620px → 372px**。
+- **画像の float（回り込み）は非対応**。`figure` に style を JavaScript で当てても破棄され、「画像の配置」メニューは選択肢が空。**GitHub Pages 側の `photo photo--left/right` による回り込みレイアウトは note では再現できない**ので、note では縦積みのままにする（`assets/css/extended/figures.css` の `max-width` は効かない）。
+- **間隔は note の標準余白に任せる**（画像と段落の間36px、見出しの直後18px）。CSS で詰める手段はないので、**空 `<p>`（`<br>`だけ/空白だけ）を残さないこと**だけが間隔対策になる。`remove_empty_paragraphs()`（空段落をクリック → `Backspace`）で入力後に掃除する。
+
+#### 保存前の自動検証（`validate_body()` / `print_validation()`）
+
+投稿処理の最後に自動で走り、NGが出たら `[検証][NG]` を表示する。**公開前に必ず確認すること。**
+
+- **`figcaption` が60文字を超える** → 画像後の本文が `figcaption` に流れ込んでいる
+- **`text-align` が `start`/`left` 以外の要素が残存** → 中央/右寄せが混ざっている
+- **空 `<p>` が3個以上** → 画像と文字の間隔が異常に広い
+
+`set_text_align()` は「中央/右になっている要素だけ」を1ブロックずつ三クリックして「指定なし（左）」を適用する修復関数。
+**全ブロックに一括で適用するとメニューを誤クリックして逆に `center`/`right` を作ってしまう**（実測）ので、**NG として検出されたときだけ修復する**こと。問題がなければ0回で終わる。
+
+#### 下書きの管理（重複防止）
+
+- **`post-to-note.py` は新規下書きを作るコマンド**。既存下書きを修正したいときにそのまま使うと**下書きが複製される**ので、既存下書きは `https://editor.note.com/notes/<key>/edit/` に直接アクセスして編集する。
+- **生成した下書きの key は必ず下の表に記録する**。
+- **下書きの確認**: `https://note.com/notes?type=draft` に一覧が出る。**「自分の記事」の件数が想定より多いならテスト書きの残骸が残っているので削除する。**
+- **下書きの削除は UI 経由でしかできない**。行の「⋮」メニュー → `削除`。記事 key は「共有用リンクをコピー」でクリップボードに `https://note.com/preview/<key>?...` が取れるので、そこから判定する（一覧の行は `a[href]` を持たないため、セレクタでは取れない）。**直接削除 API（`/api/v1/text_notes/<key>`、`/api/v3/text_notes/<key>`、`/api/v1/drafts/<key>`、`/api/v1/text_notes/<key>/destroy`）はすべて CloudFront 403 で拒否される**。
+- **削除の進め方**: 保持したい下書きの key を固定してから、それ以外を下書き一覧から1件ずつ消して、最後に件数とタイトルを再確認する。
+
+| 記事 | note 下書きkey | 状態 |
+|---|---|---|
+| ハードバップとブルー・ノート黄金時代 | `https://editor.note.com/notes/n4551a5b4bb6d/edit/` | 下書き(未公開) |
+| ビバップの夜明け — Charlie Parker | `https://editor.note.com/notes/n3c57c2555f9a/edit/` | 下書き(未公開) |
+| クール・ジャズの時代とChet Bakerの西海岸 | `https://editor.note.com/notes/n5cb685647f38/edit/` | 下書き(未公開) |
 
 ### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
 

@@ -38,7 +38,28 @@
 
 ## 毎回のフルパイプライン
 
-(1) `themes.txt` + `theme-covered.json` でテーマを1つ選ぶ → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿。**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**（新規記事なので）。発行されたEntry IDをCLAUDE.mdの表に追記 → (9) `scripts/theme-covered.json`にテーマを追記してcommit。
+(1) `themes.txt` + `theme-covered.json` でテーマを1つ選ぶ → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿（両方必須）** → (9) `scripts/theme-covered.json`にテーマを追記してcommit。
+
+### (8a) はてなブログへの転載
+
+`scripts/extract-post-html.sh <slug>` → `scripts/post-to-hatena.sh "記事タイトル" <出力ファイル> publish`。
+**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**（新規記事なので）。
+発行されたEntry IDをCLAUDE.mdの表に追記する。
+
+### (8b) note.com への下書き作成（2026-09-28 から必須）
+
+はてなブログと並べて**note.com にも必ずドラフトを作る**。飛ばした状态下は「未完了」とみなす。
+
+```
+python scripts/convert-to-note.py <slug>
+python scripts/post-to-note.py --slug <slug> --save
+```
+
+- `--save` で下書き保存まで行う。**公開ボタン（`--publish`）は押さない。** 公開はユーザーが後で行う
+- 生成された下書きkey（`https://editor.note.com/notes/<key>/edit/` のkey部分）を CLAUDE.md の「note.com への投稿」節の記録表に追記してcommitする
+- **実行前に `https://note.com/notes?type=draft` を開いて自分の記事件数を確認する。想定より多ければテスト書きの残骸なので、保持する下書き以外を削除してから実行する**（`post-to-note.py` は新規下書きを作るコマンドであり、既存下書きに対して使うと重複する）
+- noteエディタの仕様（Enterの回数・画像後の脱出シーケンス・figcaption が中央寄せになる問題・画像幅620px→372pxなど）と自動検証の判定基準は CLAUDE.md の「note.com への投稿」節にまとめてある。**実行前に必ず読んでおくこと**
+- noteへの投稿が失敗しても、記事"Is published"とGitHub Pagesへのデプロイは完了している。失敗した旨を最終出力に残し、9) `theme-covered.json` の追記は行う
 
 **Xへの自動投稿は2026-09-27に廃止** — `feed_check.py`/`main.py`は実行しない。
 
