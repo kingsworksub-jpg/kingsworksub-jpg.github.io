@@ -185,7 +185,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
 | ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
 | アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで(テーマ記事「アニメーションとjazz」) | https://kinbro.hatenablog.com/entry/2026/09/29/133345 | 14945776032083816100 |
-| 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://kinbro.hatenablog.com/entry/2026/09/29/224721 | 14945776032084039340 |
+| 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://kinbro.hatenablog.com/entry/2026/09/30/005218 | 14945776032084075516 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -257,6 +257,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ハードバップとブルー・ノート黄金時代 | https://note.com/shining_finger01/n/n4551a5b4bb6d | `n4551a5b4bb6d` | **公開済(2026-09-29)** |
 | ビバップの夜明け — Charlie Parker | https://note.com/shining_finger01/n/n3c57c2555f9a | `n3c57c2555f9a` | **公開済(2026-09-29)** |
 | クール・ジャズの時代とChet Bakerの西海岸 | https://note.com/shining_finger01/n/n5cb685647f38 | `n5cb685647f38` | **公開済(2026-09-29)** |
+| 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年 | https://note.com/shining_finger01/n/n289ad3de1b0b | `n289ad3de1b0b` | **公開済(2026-09-30)** |
 | アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで | https://note.com/shining_finger01/n/n0893de9eb19f | `n0893de9eb19f` | **公開済(2026-09-29)** |
 | 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://note.com/shining_finger01/n/n8e7adda7fe72 | `n8e7adda7fe72` | **公開済(2026-09-29)** |
 
