@@ -247,16 +247,17 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
 - **`post-to-note.py` は新規下書きを作るコマンド**。既存下書きを修正したいときにそのまま使うと**下書きが複製される**ので、既存下書きは `https://editor.note.com/notes/<key>/edit/` に直接アクセスして編集する。
 - **生成した下書きの key は必ず下の表に記録する**。
-- **下書きの確認**: `https://note.com/notes?type=draft` に一覧が出る。**「自分の記事」の件数が想定より多いならテスト書きの残骸が残っているので削除する。**
-- **下書きの削除は UI 経由でしかできない**。行の「⋮」メニュー → `削除`。記事 key は「共有用リンクをコピー」でクリップボードに `https://note.com/preview/<key>?...` が取れるので、そこから判定する（一覧の行は `a[href]` を持たないため、セレクタでは取れない）。**直接削除 API（`/api/v1/text_notes/<key>`、`/api/v3/text_notes/<key>`、`/api/v1/drafts/<key>`、`/api/v1/text_notes/<key>/destroy`）はすべて CloudFront 403 で拒否される**。
-- **削除の進め方**: 保持したい下書きの key を固定してから、それ以外を下書き一覧から1件ずつ消して、最後に件数とタイトルを再確認する。
+- **下書きの確認**: `https://note.com/notes?type=draft` に一覧が出る（`button[aria-label$="を編集"]` を持つ行が下書き1件）。**「自分の記事」の件数が想定より多いならテスト書きの残骸が残っているので削除する。**
+- **下書きの削除は UI 経由でしかできない**。行の「⋮」メニュー → `削除` → 確認ダイアログの `削除`、または編集画面の「その他」→「削除」→ 確認ダイアログ。**記事 key は `…を編集` を押したときの遷移先 URL**（`https://editor.note.com/notes/<key>/edit/`）から取得する（一覧の行は `a[href]` を持たないため、セレクタでは取れない）。**直接削除 API（`/api/v1/text_notes/<key>`、`/api/v3/text_notes/<key>`、`/api/v1/drafts/<key>`、`/api/v1/text_notes/<key>/destroy`）はすべて CloudFront 403 で拒否される**。行のメニューは `aria-label` 空・`svg` ありの2つ目のボタンなので**行の `button[aria-label]` を数えて「編集」以外のものを押す**（「公開ステータス」や「下書きを保存」は別要素で誤クリックしやすい）。
+- **削除の進め方**: 保持したい下書きの key を固定してから、それ以外を下書き一覧から1件ずつ消して、最後に件数とタイトルを再確認する。**タイトルが空の下書きは一覧に現れない**ので、編集画面の「その他」→「削除」で消す（上記「公開の手順に注意点」7番）。
+- **2026-09-29 時点の整理結果**: 下書きは **0件**。`アニメーションとジャズ`(n0893de9eb19f) を公開し、残っていた重複下書き3件（ビバップ ×2・クールジャズ ×1）と空下書き `n2b8ea38ece88` を削除済み。公開済4本はすべて `is_published: true` を確認。
 
 | 記事 | note 公開URL | 下書きkey | 状態 |
 |---|---|---|---|
 | ハードバップとブルー・ノート黄金時代 | https://note.com/shining_finger01/n/n4551a5b4bb6d | `n4551a5b4bb6d` | **公開済(2026-09-29)** |
 | ビバップの夜明け — Charlie Parker | https://note.com/shining_finger01/n/n3c57c2555f9a | `n3c57c2555f9a` | **公開済(2026-09-29)** |
 | クール・ジャズの時代とChet Bakerの西海岸 | https://note.com/shining_finger01/n/n5cb685647f38 | `n5cb685647f38` | **公開済(2026-09-29)** |
-| アニメーションとジャズを隅から隅まで味わい尽くす | (未公開) | `n0893de9eb19f` | **下書き作成済(2026-09-29・未公開)** |
+| アニメーションとジャズを隅から隅まで味わい尽くす | https://note.com/shining_finger01/n/n0893de9eb19f | `n0893de9eb19f` | **公開済(2026-09-29)** |
 
 **noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
 
@@ -276,7 +277,11 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
    ただし `#music` は全記事に入るので、記事固有のものを優先したいなら公開前に外す。**API のフィールド名は `title`/`tags` ではない**ので注意（`title` は `name`、タグは `hashtag_notes[].hashtag.name`）。
 5. **`post-to-note.py` の `--publish` はこの2段自動化に修正済み(2026-09-29)**。`publish_note()` が「公開に進む」/「更新する」→ `/publish/` 待ち → 「投稿する」の座標クリックまで実行し、最後にブラウザ内 `fetch` で `GET /api/v3/notes/<key>` を叩いて `is_published` を検証してから公開URLを返す。**公開URLが返ってこなければ公開されていない**ので、その場合は手動で公開すること。
-   - **既知の不具合(2026-09-29 実測、下書き作成時は影響なし)**: 下書きkeyは `n` 始まり(例 `n0893de9eb19f`)だが、`public_note_url()` のURL解析正規表現が `r"/notes/([0-9a-f]{12,})"` なので**先頭の `n` でマッチ失敗し、`--publish` 時に公開URLを返せない**(`[a-z0-9]{12,}` などに直す必要あり。`https://editor.note.com/notes/<key>/edit/` を直接開けばkeyは分かるので、下書きkeyの記録・手動公開は問題なし)。
+   - **下書きkeyの正規表現バグは同日修正済み**: 下書きkeyは `n` 始まり(例 `n0893de9eb19f`)だが `public_note_url()` のURL解析が `r"/notes/([0-9a-f]{12,})"` だったため `--publish` が公開URLを返せなかった。`publish_note()` の `re.search` を `r"/notes/([a-z0-9]{12,})"` に修正し、既存下書き `n0893de9eb19f` の公開 URL 取得を実測確認済み。
+   - **既存下書きを公開 liberatingには `--publish` を使わない**: `post-to-note.py` は起動時に `editor.note.com/new` を開くため、下書き公開のために走らせると**新しい下書きがもう1件作られ二重投稿になる**。既存下書きを公開するときは `https://editor.note.com/notes/<key>/edit/` を直接開いて `publish_note(page)` を呼ぶ（2026-09-29、`n0893de9eb19f` の公開はこの経路で実施）。
+6. **下書き削除の実測手順(2026-09-29)** — 下書き一覧(`https://note.com/notes?type=draft`)の行は、`…を編集`(`absolute inset-0` の透明オーバーレイ)Besides **`aria-label` を持つ2つ目のボタン(⋮、`aria-label` 空・`svg` あり)** を行メニューを開く。開いたメニューは `role="menuitem"` の `編集` / `複写` / `共有用リンクをコピー` / `削除`。`削除` を押すと **`[role="dialog"]` の確認ダイアログ**が出るので、そこで `削除` を押す。1件消すたびに一覧を再読込し、空になるまで繰り返す。
+7. **空の下書きは一覧に出ない**: `editor.note.com/new` を開くと、タイトル・本文が空の下書き（key `n2b8ea38ece88` 等）が作られるが、**タイトルが空なので下書き一覧の行には現れない**。これは編集画面の右上 `その他`(`aria-haspopup="true"`) → `削除`（`class` に `text-text-danger` の `span`）→ 確認ダイアログの `削除` で消す。押すと `https://note.com/notes` に戻る。**`post-to-note.py` を1回動かすたびに空下書きが1件増えるので、作業後に `その他` → `削除` で掃除する**。
+8. **削除済み記事キーの API 応答(2026-09-29 実測)**: 削除しても `GET /api/v3/notes/<key>` は HTTP 200 を返し、返りの `status` が **`deleted`** になる(`is_published: false`)。**404 にはならないので、削除判定は「一覧に現れるか」で行う**。
 
 
 ### はてなブログ→X自動投稿パイプライン(……**2026-09-29 完全削除**、再開禁止)

@@ -437,7 +437,8 @@ def publish_note(page, timeout=120):
     公開済みarticle では 1段目のボタンが「更新する」になる。
     """
     # 現在の下書きkey（編集URLから取り出す）
-    m = re.search(r"/notes/([0-9a-f]{12,})", page.url)
+    # key は "n" 始まり（例 n0893de9eb19f）なので [a-z0-9] で拾う
+    m = re.search(r"/notes/([a-z0-9]{12,})", page.url)
     key = m.group(1) if m else None
 
     # --- 1段目: 公開に進む
