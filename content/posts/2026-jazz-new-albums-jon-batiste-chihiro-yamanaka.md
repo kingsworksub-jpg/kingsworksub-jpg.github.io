@@ -16,9 +16,9 @@ ogImageHeight: 630
 ## Jon Batiste『Black Mozart』がもたらすクロスオーバーの衝撃
 
 <figure class="photo photo--left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jon_Batiste%2C_August_2022.jpg/320px-Jon_Batiste%2C_August_2022.jpg" alt="Jon Batisteのポートレート" width="220" height="150" loading="lazy">
+<img src="/images/jazz-artists/jon-batiste.jpg" alt="Jon Batisteのポートレート" width="220" height="150" loading="lazy">
 <figcaption>Jon Batiste — クロスオーバーの衝撃</figcaption>
-<span class="credit">Photo: Wikimedia Commons / David Shankbone (CC BY-SA 3.0)</span>
+<span class="credit">Photo: StudioNotes</span>
 </figure>
 
 ニューオーリンズの音楽的血統を受け継ぎ、グラミー賞受賞をはじめとする輝かしいキャリアを築いてきたJon Batiste。彼が2026年に放った新作『Black Mozart』は、クラシック音楽の巨匠たちが抱えていた歴史的文脈と、アメリカのルーツ音楽、そしてモダンジャズの即興性がダイナミックに交錯する意欲作に仕上がっている。
@@ -28,9 +28,9 @@ ogImageHeight: 630
 ## 山中千尋25周年 — 研ぎ澄まされたピアノトリオの美学
 
 <figure class="photo photo--right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Chihiro_Yamanaka_at_Java_Jazz_Festival_2016.jpg/320px-Chihiro_Yamanaka_at_Java_Jazz_Festival_2016.jpg" alt="山中千尋のポートレート" width="220" height="150" loading="lazy">
+<img src="/images/jazz-artists/chihiro-yamanaka.jpg" alt="山中千尋のポートレート" width="220" height="150" loading="lazy">
 <figcaption>山中千尋 — デビュー25周年の響き</figcaption>
-<span class="credit">Photo: Wikimedia Commons (CC BY-SA 3.0)</span>
+<span class="credit">Photo: StudioNotes</span>
 </figure>
 
 一方、日本が世界に誇るジャズピアニスト・山中千尋は、デビュー25周年という節目の年を迎え、その演奏スタイルにさらなる円熟味と鋭さを加えている。ニューヨークを拠点に絶えず第一線で活動を続けてきた彼女のピアノは、圧倒的な技巧の奥底に常に知的な構成力と豊かな歌心が宿っている。
