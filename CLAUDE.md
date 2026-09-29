@@ -60,12 +60,12 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **ネタ元**: `scripts/themes.txt`(1行1テーマ、2026-09-27時点で14件)。ここが唯一のネタ元であり、**Amazon検索・Playwrightスクレイピングは使わない**。空行と`#`始まりの行は読み飛ばす。
 - **重複防止**: `scripts/theme-covered.json`の`covered`配列で管理する(**ASINではなくテーマ文字列**)。選ぶ前に必ず確認し、公開後に`theme`/`slug`/`date`/`note`を追記してcommitする。**このファイルがテーマ重複防止の唯一の永続的な状態なので、更新を絶対に忘れないこと**。2026-09-27作成時点で、既存記事と重複する2テーマ(`jazzで使用される楽器`と`フリー・ジャズの革命と生涯`)を事前登録して除外してある。
 - **カテゴリ**: 新設なし。音楽・ジャズ系は既存`music`、ファッション系は既存`fashion`を使う(どちらも`hugo.toml`の`[menu]`に登録済み)。1記事につき必ず**1つだけ**指定する。
-- **記事フォーマット**: 型その2(単発製品深掘り)のタイトル規則「{テーマ}を隅から隅まで味わい尽くす — {詩的サブタイトル}」と文体を踏襲。ただし**製品記事ではない**ため、アフィリエイトバナー(`.product-banner`)は入れない(商品ページがない)。評価軸・レーダーチャートは使わない(比較対象がない)。文体・引用ルール・研究ルール(最低10サイト)・禁止語は他記事と完全に共通。
+- **記事フォーマット**: 型その2(単発製品深掘り)のタイトル規則「{テーマ}の現在地 — {詩的サブタイトル}」(前半は記事の副題そのものを要約語にする)と文体を踏襲。**「{テーマ}を隅から隅まで味わい尽くす」のような定型句は使わない(2026-09-29、ユーザー指示)**。ただし**製品記事ではない**ため、アフィリエイトバナー(`.product-banner`)は入れない(商品ページがない)。評価軸・レーダーチャートは使わない(比較対象がない)。文体・引用ルール・研究ルール(最低10サイト)・禁止語は他記事と完全に共通。
 - **画像**: 参照元のページ(公式・ニュース記事・写真作品)から1枚以上取得し、権利表示(撮影者・ライセンス)を<span class="credit">に記載する。参照元に画像が無い場合のみWeb検索で確保。配置は`photo photo--left`/`photo photo--right`で文字を回り込ませ、1行10文字以下にしない(画像幅220px以下、向かい合う2枚の間は180px以上)。
 - **毎回のフルパイプライン**: (1) `themes.txt`+`theme-covered.json`で未着手テーマを1つ選ぶ(残りがなければ何もせず終了) → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿**（下記参照。両方必須） → (9) `scripts/theme-covered.json`にテーマを追記してcommit。**Xへの自動投稿は2026-09-27に廃止済み**(`feed_check.py`/`main.py`は実行しない)。
   - **(8a) はてなブログ**: `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**)、発行されたEntry IDをCLAUDE.mdの表に追記。
-  - **(8b) note.com（2026-09-28 から必須・ユーザー指示）**: `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --save`。**下書き保存まで自動化し、公開は人が確認して行う**（`--publish` は使わない）。**生成された下書きkey（`https://editor.note.com/notes/<key>/edit/`）を CLAUDE.md のnote記録表に追記する**。実行前に `https://note.com/notes?type=draft` の件数を確認して、テスト書きの残骸があれば先に削除する（`post-to-note.py` は新規下書きを作るコマンドなので、既存下書きに対して使うと重複する）。詳細仕様は下記「note.com への投稿」節を参照。
-  - **完了条件**: 「(1)〜(9)すべて」＝**記事公開 → はてな転載 → note下書き作成 → `theme-covered.json` 追記**。**はてなだけ投稿して note を飛ばした場合は「未完了」とみなす**。
+  - **(8b) note.com（2026-09-28 から必須 → 2026-09-29 から公開まで自動）**: `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`。**下書きで止めない。公開URL(`https://note.com/shining_finger01/n/<key>`)が返って初めて完了**。**公開keyと公開URLを CLAUDE.md のnote記録表に追記する**。実行後は `https://note.com/notes?type=draft` の下書きが0件であることを確認し、`post-to-note.py` が作る空の下書き(タイトルなし)は編集画面の「その他」→「削除」で掃除する。既存公開済み記事の更新は `--publish` を使わず `editor.note.com/notes/<key>/edit/` を直接開いて「更新する」→ `/publish/` の「更新する」。詳細仕様は下記「note.com への投稿」節を参照。
+  - **完了条件**: 「(1)〜(9)すべて」＝**記事公開 → はてな転載 → note公開 → `theme-covered.json` 追記**。**はてなだけ投稿して note を飛ばした場合は「未完了」とみなす**。**note は下書き作成だけでも「未完了」とみなす**。
 
 - **旧記録(参考・再開禁止)**: `scripts/carbonation-covered.json`と`scripts/sakeware-covered.json`は炭酸/酒器時代のASIN記録として**温存するが、以降は使わない**。再開する指示が出ても本セクションの`themes.txt`方式に戻さないこと。
 - **停止方法**: ユーザーから「止めて」と言われたら`Disable-ScheduledTask -TaskName KingsWork-Blog-Drink`。状態確認は`Get-ScheduledTask -TaskName KingsWork-*`と`scripts/scheduled/logs/`。
@@ -184,7 +184,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | VOX 強炭酸水 コーラフレーバー 深掘り(炭酸飲料シリーズ26本目) | https://kinbro.hatenablog.com/entry/2026/09/26/200122 | 14945776032082692111 |
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
 | ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
-| アニメーションとジャズを隅から隅まで味わい尽くす — 「Tank!」から佐世保の喫茶店まで(テーマ記事「アニメーションとjazz」) | https://kinbro.hatenablog.com/entry/2026/09/29/133345 | 14945776032083816100 |
+| アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで(テーマ記事「アニメーションとjazz」) | https://kinbro.hatenablog.com/entry/2026/09/29/133345 | 14945776032083816100 |
+| 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://kinbro.hatenablog.com/entry/2026/09/29/224721 | 14945776032084039340 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -197,11 +198,10 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 note.com には投稿用の公開 API がなく（はてなブログは AtomPub がある）、コマンド1行では投稿できない。
 そのため **Chromium の永続プロファイルにログイン状態を保存し、エディタへのキー入力だけを自動化する** 方式で運用する。
-下書き保存までは自動化してもよいが、**公開ボタンだけは人が押す運用を基本とする**（`--publish` で自動化も可能）。
+**公開まで自動化してするのが既定運用(2026-09-29、ユーザー指示)**。`--publish` で公開まで行い、公開URLが返ったことを確認して完了とする。
 
-- ドラフト変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
-- ドラフト投入: `python scripts/post-to-note.py --slug <slug> --save`（`--save` で下書き保存まで行う）
-- 公開確認: ブラウザ（`--hold` / 既定）で内容を確認してから公開する。**`--publish` を付けると公開まで自動化する**（`publish_note()` が2段実行し、APIで公開を検証する）。**既定の運用は `--save` で下書きに止め、ユーザーが確認してから `--publish` 相当の手動公開をする**。
+- 変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
+- 投稿・公開: `python scripts/post-to-note.py --slug <slug> --publish`（`publish_note()` が2段実行し、APIで公開を検証して公開URLを返す）
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
   - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
 - 主なオプション:
@@ -257,7 +257,8 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ハードバップとブルー・ノート黄金時代 | https://note.com/shining_finger01/n/n4551a5b4bb6d | `n4551a5b4bb6d` | **公開済(2026-09-29)** |
 | ビバップの夜明け — Charlie Parker | https://note.com/shining_finger01/n/n3c57c2555f9a | `n3c57c2555f9a` | **公開済(2026-09-29)** |
 | クール・ジャズの時代とChet Bakerの西海岸 | https://note.com/shining_finger01/n/n5cb685647f38 | `n5cb685647f38` | **公開済(2026-09-29)** |
-| アニメーションとジャズを隅から隅まで味わい尽くす | https://note.com/shining_finger01/n/n0893de9eb19f | `n0893de9eb19f` | **公開済(2026-09-29)** |
+| アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで | https://note.com/shining_finger01/n/n0893de9eb19f | `n0893de9eb19f` | **公開済(2026-09-29)** |
+| 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://note.com/shining_finger01/n/n8e7adda7fe72 | `n8e7adda7fe72` | **公開済(2026-09-29)** |
 
 **noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
 
@@ -330,7 +331,7 @@ Xに自動投稿する様組は已終了。以下は履歴で、コードとタ�
 - `rega-planar3-deep-dive-2026.md` — Rega Planar 3(同上)
 - `debut-carbon-evo-deep-dive-2026.md` — Pro-Ject Debut Carbon EVO(同上)
 - `sony-pslx3bt-deep-dive-2026.md` — Sony PS-LX3BT(旧PS-LX310BT)(同上)
-- `suntory-kakubin-deep-dive-2026.md` / `black-nikka-clear-deep-dive-2026.md` / `suntory-trys-deep-dive-2026.md` / `jim-beam-white-deep-dive-2026.md` / `four-roses-yellow-deep-dive-2026.md` / `ballantines-finest-deep-dive-2026.md` / `cutty-sark-deep-dive-2026.md` / `white-horse-fineold-deep-dive-2026.md` / `dewars-white-label-deep-dive-2026.md` / `johnnie-walker-red-deep-dive-2026.md` — `budget-whisky-10choice-2026.md` 特集10本の深掘り(2026-09-17、リスト記事と同時に執筆)。**タイトルは「全機能解剖」ではなく「{製品名}を隅から隅まで味わい尽くす — {サブタイトル}」に言い換えている**(ウイスキーに「機能」は無いため。新ジャンルでは対象の性質に合わせてこの部分の語彙も調整してよい)。
+- `suntory-kakubin-deep-dive-2026.md` / `black-nikka-clear-deep-dive-2026.md` / `suntory-trys-deep-dive-2026.md` / `jim-beam-white-deep-dive-2026.md` / `four-roses-yellow-deep-dive-2026.md` / `ballantines-finest-deep-dive-2026.md` / `cutty-sark-deep-dive-2026.md` / `white-horse-fineold-deep-dive-2026.md` / `dewars-white-label-deep-dive-2026.md` / `johnnie-walker-red-deep-dive-2026.md` — `budget-whisky-10choice-2026.md` 特集10本の深掘り(2026-09-17、リスト記事と同時に執筆)。**タイトルは「全機能解剖」ではなく「{製品名}の味と仕様 — {サブタイトル}」にする**(ウイスキーに「機能」は無いため)。新ジャンルでは対象の性質に合わせてこの部分の語彙も調整してよい。**2026-09-29に「隅から隅まで味わい尽くす」形式からは一括で撤退済み(下記タイトル規則7番)**。
 - **ニッカ フロム・ザ・バレルはリサーチ済みだが不採用**: 2026-09-17時点で実勢価格が値上がりし500mlで4,000〜6,000円台まで高騰していたため、「安価」を謳う本リストの趣旨と合わず、代わりにジョニーウォーカー レッドラベルを採用した。同様の「トレンドで名前が挙がったが実際に調べたら前提と合わなかった」ケースなので、対象を機械的に採用せず、リサーチ結果を見て都度取捨選択すること。
 
 **2026-09-17、ユーザー指示「比較記事で特集している製品それぞれの詳細レビュー記事を書いて」**: 比較記事1本につき、特集製品ぶんの単発深掘り記事(「記事の型その2」フォーマット)を追加で書く、というパターンが発生した。今後も同様の指示があれば、対象の比較記事から製品名・ASIN・画像パスをそのまま流用し、各製品にAgent(general-purpose)を並列起動して個別に深掘りリサーチ(最低10サイト)した上で執筆する。画像・ASINは使い回すため新規ダウンロードは不要。
@@ -394,14 +395,20 @@ Xに自動投稿する様組は已終了。以下は履歴で、コードとタ�
    - **はてなブログ側のバナー(2026-09-19、ユーザー指示で修正)**: はてなにはこのサイトのCSSが効かず、何もしないと`<img>`が原寸の特大表示になる。対策として、はてなに出すHTMLは`scripts/extract-post-html.sh`が`scripts/hatena_banner.py`を通して、バナーの`<a>`・`<img>`・各`<span>`に**インラインstyleと`width="120" height="120"`**を付与する(サイトと同じ468×120px、画像120×120px。記事のmarkdown側は`.product-banner`のまま変更不要)。**新規投稿・更新では必ず`extract-post-html.sh`経由でHTMLを作ること(手書きのHTMLを`post-to-hatena.sh`に渡さない)**。公開済みのはてな記事を全件まとめて再同期したいときは`scripts/.venv/Scripts/python.exe scripts/fix-hatena-banners.py`(ドライラン)→`--apply`(冪等・タイトル等は変更しない)。2026-09-19に既存40記事を修正済み。
    - **2026-09-18時点で全ての既存記事(型その1の7本・型その2の16本、計40+32=72箇所)にこの`.product-banner`デザインを適用済み**。
 6. タイトルに「五番勝負」のような対決煽り文句は**使わない**(ユーザーが明示的に削除を指示した)。
+   - **ありきたりな定型句もタイトルに使わない(2026-09-29、ユーザー指示)**。特に**「{対象}を隅から隅まで味わい尽くす」**(および「隅から隅まで」「味わい尽くす」の変形)は全面禁止**。同じ型をそのまま数十本に貼り付けただけ&$%に見え、1本1本に中身が無い。
 7. **タイトルは「内容を要約しつつキャッチー」にする(2026-09-16、ユーザー指示)**。「主題 — 詩的なサブタイトル」だけでは何を扱っているか一目で伝わらないという指摘を受け、以下の形に統一:
    - 5製品比較: 「{ジャンル}を{数}{本/台}徹底比較 — {詩的なサブタイトル}」(例: 「DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか」)
-   - 単発の製品深掘り: 「{製品名}を全機能解剖 — {詩的なサブタイトル}」(例: 「Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する」)
-   - 既存の詩的なサブタイトルはそのまま活かし、前半に「対象・件数・記事の性質」が一目で分かる要約句を足す形にする。新ジャンルで上記2パターンに当てはまらない場合も、この考え方(要約句+従来のサブタイトル)を踏襲すること。
+   - 単発の製品深掘り(機材・DTM系): 「{製品名}を全機能解剖 — {詩的なサブタイトル}」(例: 「Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する」)
+   - 単発の深掘り(飲食系・酒器など、機材の「全機能解剖」が合わないジャンル): **前半は「何をどう読む記事か」が一目で分かる要約句にする**。
+     - 飲料(ウイスキー・清涼飲料・栄養ドリンクなど): 「**{対象}の味と仕様** — {詩的なサブタイトル}」(例: 「サントリー角瓶の味と仕様 — ハイボール文化の原点を掘り下げる」)
+     - 酒器(徳利・盃・酒器セットなど): 「**{対象}の仕様と使い方** — {詩的なサブタイトル}」(例: 「有田焼 炎華 酒器セットの仕様と使い方 — 黒い炎を宿した徳利とぐい呑み」)
+     - テーマ記事(製品ではなく Anything ない Explore もの): 前半は記事の副題そのものを要約語にして使う(例: 「アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで」)
+   - 既存の詩的なサブタイトルはそのまま活かし、前半に「対象・件数・記事の性質」が一目で分かる要約句を足す形にする。新ジャンルで上記パターンに当てはまらない場合も、この考え方(要約句+従来のサブタイトル)を踏襲すること。
+   - **2026-09-29 に過去記事54本のタイトルから「隅から隅まで味わい尽くす」を撤去済み**(内訳: 飲料36本の「{対象}の味と仕様」/酒器17本の「{対象}の仕様と使い方」/テーマ記事1本の「現在地」)。`description` にも同表現が残っていた14本は「一つ一つ見ていく」等に差し替え、`static/images/og/*.jpg`54枚を再生成、はてな54件とnote 1件もタイトルを同期済み。以后この表現を新規に使わないこと。
 
 ## 記事の型その2:「単発製品深掘り」フォーマット
 
-1製品を隅から隅まで掘り下げる形式。既存の比較記事(型その1)で特集した製品について、後から個別に深掘り記事を追加するケース(2026-09-17、ユーザー指示)と、最初から単発で書くケース(Scarlett 2i2の初回テスト投稿)の両方がある。
+1製品だけを掘り下げる形式。既存の比較記事(型その1)で特集した製品について、後から個別に深掘り記事を追加するケース(2026-09-17、ユーザー指示)と、最初から単発で書くケース(Scarlett 2i2の初回テスト投稿)の両方がある。
 
 これまで作った記事は「ロードマップ」セクション内の「単発の製品深掘り記事」一覧を参照。
 
