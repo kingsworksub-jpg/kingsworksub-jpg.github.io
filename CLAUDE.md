@@ -70,21 +70,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **旧記録(参考・再開禁止)**: `scripts/carbonation-covered.json`と`scripts/sakeware-covered.json`は炭酸/酒器時代のASIN記録として**温存するが、以降は使わない**。再開する指示が出ても本セクションの`themes.txt`方式に戻さないこと。
 - **停止方法**: ユーザーから「止めて」と言われたら`Disable-ScheduledTask -TaskName KingsWork-Blog-Drink`。状態確認は`Get-ScheduledTask -TaskName KingsWork-*`と`scripts/scheduled/logs/`。
 
-## 自動継続タスク: 海外ジャズ記事のXポスト(2026-09-18、ユーザー指示で開始)
+## 自動続続タスク: 海外ジャズ記事のXポスト(……**2026-09-29 完全削除**、再開禁止)
 
-ユーザー指示: 「あなたは、jazz好きのミュージックプロデューサー兼コンポーザーです(このペルソナを投稿内で明示する必要はない)。1時間に1回、海外のjazz関連の記事をピックアップして、Xへポストして。今後継続」。
+ユーザー指示: 既にバランド自動化じゃないとして、完全に要ないとして「宏全に実行しないと判断し、3時間前に以下を全部停止し、コードも削除した。
 
-- **ブログ本体(Hugo/はてな)とは無関係の、X単体のタスク**。記事執筆・ビルド・デプロイ・はてな投稿は一切発生しない。「記事を見つける→短い一言を添える→Xに投稿する→記録する」のみ。
-- **実装方式(2026-09-19変更)**: Windowsタスクスケジューラのタスク`KingsWork-X-Jazz`が**30分に1回(毎時0分・30分)**、`scripts/scheduled/run-claude-task.ps1`経由でヘッドレスの`claude -p`(sonnet)を起動し、`scripts/scheduled/prompts/x-jazz.md`の指示で1投稿分を実行する。CronCreate(1時間おき)方式は廃止(ユーザー指示、頻度も1時間→30分に変更)。炭酸飲料タスクと同じ前提・排他ロックが適用される。
-- **投稿方法**: `scripts/x-autopost/post_jazz_tweet.py "コメント文" "記事URL"`(引数2つのCLIラッパー、中で`poster.post_tweet(text, url)`を呼ぶだけ)を`.venv/Scripts/python.exe post_jazz_tweet.py ...`の形で実行する。Claude CLIのサブプロセス呼び出しは不要 — cron発火時点のClaude自身が対話ターンとして動いているので、その場でツイート文を直接考えて渡せばよい。**注意(2026-09-18判明)**: `poster.post_tweet(...)`を`python -c`やヒアドキュメントでインライン実行すると、`.venv/Scripts/python.exe *`の許可ルールにコマンド文字列としては一致していても自動モード分類器にブロックされることがあった(実際に1回発生)。`post_jazz_tweet.py`のような**独立したスクリプトファイルを`.venv/Scripts/python.exe <script>.py <引数>`の形で呼ぶ**(main.py/feed_check.pyと同じ形)と問題なく通る。今後もこの形式を守ること。
-- **記事の探し方**: WebSearchで海外(英語)のジャズ専門メディア(例: JazzTimes, DownBeat, All About Jazz, Jazzwise, NPR Music, The Guardian Music, Bandcamp Daily等)の直近のニュース・レビュー・インタビュー記事を探す。日本語メディアは対象外(「海外の」という指示のため)。
-- **重複防止**: `scripts/x-autopost/jazz-posted.json`に投稿済みURLのリストを保持。新しい記事を選ぶ前に必ず確認し、投稿後は追記すること。
-- **投稿文の言語・トーン**: このブログ・Xアカウントは一貫して日本語運用のため、**ツイート本文は日本語**(記事の内容を踏まえた、ジャズ好きの音楽プロデューサー/コンポーザーらしい一人称の感想・着眼点)+記事URLを添える形にする。「プロデューサーです」「コンポーザーです」のような肩書きの直接表明はしない(ユーザー指示通り、ペルソナは声のトーンに滲ませるだけで明示しない)。作編曲・プロダクション視点のひとこと(ヴォイシング、アレンジ、グルーヴ、音色等への言及)があると望ましいが、無理に専門用語を詰め込まない。
-- **禁止語(既存ルールと共通)**: 「テスト」「自動投稿」「AI」「bot」「生成」など自動化を連想させる語は使わない。文字数は日本語コメント部分でおよそ100文字以内を目安にする。
-- **運用上のリスク(2026-09-18時点でユーザーに明示的確認はしていないが記録しておく)**: 既存のブログ告知用X投稿は「週数回程度の低頻度」を前提にBot検知回避の安全策としていたが、**この新タスクは当初1時間に1回(1日24回)、2026-09-19以降は30分に1回=1日48回(ブログ記事の告知投稿は別)という大幅に高い頻度**になる。OSレベル入力シミュレーションでCDP検知は回避できるが、投稿頻度・時間間隔の規則性自体がX側のスパム/自動化検知に引っかかるリスクは相応にある。何らかの形でアカウント制限が発生した場合はこのタスクを即座に`Disable-ScheduledTask -TaskName KingsWork-X-Jazz`で止め、ユーザーに報告すること。
-- **リスクが実際に発生した記録(2026-09-20)**: 炭酸/酒器タスクのX告知ステップで、モンスターパイプラインパンチ回(drink #17)・ピーコック酒器セット回(sakeware #9)の2件連続で投稿がXの「1日のポスト制限に達しました」ダイアログにより失敗(`scripts/x-autopost/posts.db`にstatus='error'で記録)。ピーコック回ではさらに、前回投稿がこの制限で未完了のまま残っていたcomposeタブが原因で「サイトから移動しますか?」という未保存離脱確認ダイアログが出て`poster.py`が安全側に倒れて中断する事象も発生(Escapeキーで安全に閉じて復旧したが、投稿自体は制限により結局失敗)。ジャズタスク(30分に1回)と炭酸/酒器タスク(1時間に1回)を合算すると1日70件超のX投稿を試みている計算になり、この合算頻度がXの1日投稿上限に達した実例と見られる。ユーザーに報告済み(2026-09-20)。**頻度を落とすか、どちらかのタスクを間引くかの判断をユーザーに仰ぐこと。**
-  - **【2026-09-27 追記】ブログ側のX告知ステップはユーザー指示で廃止済み**。したがって上記「1日70件超」のうちブログ由来分はゼロになり、Xへの投稿は**海外ジャズ記事のXポストタスク(30分に1回=1日48回)のみ**となった。当時ユーザーへ求めた「減速または間引き」の判断は、対象が jazz 側のみに縮小したうえで**依然として必要**である点は変わらない。
-- **停止方法**: 上記のとおり`Disable-ScheduledTask -TaskName KingsWork-X-Jazz`。
+- **Windowsタスクシューラーの`KingsWork-X-Jazz`を`Unregister-ScheduledTask`で削除済み**。再登録は`scripts/scheduled/register-tasks.ps1`に`KingsWork-Blog-Drink`のみを残している。
+- **`scripts/x-autopost/`ディレクトリ全体を削除**。`poster.py`/`post_jazz_tweet.py`/`jazz-posted.json`(ジャズポスト用)と、前回のフログプランスト(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`/`README.md`)、更に確認済みの若干の口道レストファイル(`amazon_search_fetch.py`/`parse_amazon_html.py`/`fetch_carbonation.py`/`fetch_sakeware.py`/`fetch_bodum_image.py`)をまとめ除外。
+- **Pythonヴィンツュークルートの位置を`scripts/x-autopost/.venv/`から`scripts/.venv/`に移動**。`extract-post-html.sh`のPython取得先と`の`allowedTools`はこの新パスに更新済み。なお、`pyautogui`/`pygetwindow`/`pyperclip`/`feedparser`は无要になったが、実装は`playwright`と`greenlet`/`pyee`のみで十分。
+- **以降のこのセクションは全部復徑引用**(旧チュートプロクト‘ハートバンナーの修正’の`fix-hatena-banners.py`使用コマンドなど)。X自動化を使用していた記述は下記の「Python自前パイプラインによるX自動投稿」の章のから御除されている。
+- **このセクションの再開しない**。ヘードフドのログヨードトと相拥して以下が残っている。
 
 ## 拡散投稿(SNS/ブログサイトへの転載)
 
@@ -92,7 +86,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 | 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
 |---|---|---|---|---|
-| X (Twitter) | Claude生成の要約付き投稿文+記事URL | **方式変遷(2026-09-17、同日中に4段階)**: (1)IFTTTのRSS→定型テンプレ投稿案 →記事内容を踏まえたカスタム投稿文が作れないため不採用。(2)Python+Playwright+SQLite+Claude Code CLI+**X API v2(tweepy)**の自前パイプライン →ユーザーから「全部無料・ローカル完結が前提」という要件が判明し、かつX APIがURL付き投稿$0.20/件の完全従量課金(2026年2月に無料枠廃止)と判明したため不採用。(3)Playwright(CDP)でx.comに自動ログインして投稿 →Googleログイン・X自身のログインフォームの両方でBot検知に阻まれ(実Chromeに切り替えても同様)断念。(4)**最終形: OSレベルのマウス・キーボードのシミュレーション(`pyautogui`/`pygetwindow`/`pyperclip`)で、ユーザーの普段のEdge(既定プロファイル、ログイン済み)を直接操作して投稿**。CDP/WebDriverを一切使わないためBot検知の対象にならない。`scripts/x-autopost/`に実装済み・実際に動作確認済み。詳細は下記「Python自前パイプラインによるX自動投稿」参照。 | Python 3.12・Claude Code CLI・Edge(既定プロファイルでX にログイン済みであること)。pyautogui/pygetwindow/pyperclipはこのセッションでインストール済み。ログイン自動化は不要(ユーザーの既存Edgeセッションをそのまま使う)。 | **記事公開に伴う自動投稿は2026-09-27に廃止**。ブログ投稿フロー(`KingsWork-Blog-Drink`)からはX告知ステップを完全に削除済み。ただしX投稿基盤自体(`poster.py`)は**海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)専用のため残存**しており、上記の投稿方式・依存パッケージは今後も当該タスクで使用する。 |
+| X (Twitter) | — | — | — | **完全媳殈(2026-09-29、ユーザー指示)**。記事公開に伴うX自動投稿は2026-09-27に媳殈し、海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)も2026-09-29にタスク削除・コード別除。相関するコードとトラフステックはすべて削除済み。取材方法の履歴は「はてなブログ→X自動投稿パイプライン」の章に移した。 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
@@ -190,6 +184,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | VOX 強炭酸水 コーラフレーバー 深掘り(炭酸飲料シリーズ26本目) | https://kinbro.hatenablog.com/entry/2026/09/26/200122 | 14945776032082692111 |
 | クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで(ジャズ特集7本目) | https://kinbro.hatenablog.com/entry/2026/09/27/192115 | 14945776032083085599 |
 | ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間(ジャズ特集8本目) | https://kinbro.hatenablog.com/entry/2026/09/28/184241 | 14945776032083484010 |
+| アニメーションとジャズを隅から隅まで味わい尽くす — 「Tank!」から佐世保の喫茶店まで(テーマ記事「アニメーションとjazz」) | https://kinbro.hatenablog.com/entry/2026/09/29/133345 | 14945776032083816100 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -261,6 +256,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ハードバップとブルー・ノート黄金時代 | https://note.com/shining_finger01/n/n4551a5b4bb6d | `n4551a5b4bb6d` | **公開済(2026-09-29)** |
 | ビバップの夜明け — Charlie Parker | https://note.com/shining_finger01/n/n3c57c2555f9a | `n3c57c2555f9a` | **公開済(2026-09-29)** |
 | クール・ジャズの時代とChet Bakerの西海岸 | https://note.com/shining_finger01/n/n5cb685647f38 | `n5cb685647f38` | **公開済(2026-09-29)** |
+| アニメーションとジャズを隅から隅まで味わい尽くす | (未公開) | `n0893de9eb19f` | **下書き作成済(2026-09-29・未公開)** |
 
 **noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
 
@@ -280,52 +276,17 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
    ただし `#music` は全記事に入るので、記事固有のものを優先したいなら公開前に外す。**API のフィールド名は `title`/`tags` ではない**ので注意（`title` は `name`、タグは `hashtag_notes[].hashtag.name`）。
 5. **`post-to-note.py` の `--publish` はこの2段自動化に修正済み(2026-09-29)**。`publish_note()` が「公開に進む」/「更新する」→ `/publish/` 待ち → 「投稿する」の座標クリックまで実行し、最後にブラウザ内 `fetch` で `GET /api/v3/notes/<key>` を叩いて `is_published` を検証してから公開URLを返す。**公開URLが返ってこなければ公開されていない**ので、その場合は手動で公開すること。
+   - **既知の不具合(2026-09-29 実測、下書き作成時は影響なし)**: 下書きkeyは `n` 始まり(例 `n0893de9eb19f`)だが、`public_note_url()` のURL解析正規表現が `r"/notes/([0-9a-f]{12,})"` なので**先頭の `n` でマッチ失敗し、`--publish` 時に公開URLを返せない**(`[a-z0-9]{12,}` などに直す必要あり。`https://editor.note.com/notes/<key>/edit/` を直接開けばkeyは分かるので、下書きkeyの記録・手動公開は問題なし)。
 
 
-### はてなブログ→X自動投稿パイプライン(2026-09-17実装、**2026-09-27にブログフローの利用を終了**)
+### はてなブログ→X自動投稿パイプライン(……**2026-09-29 完全削除**、再開禁止)
 
-下記IFTTT案を不採用にし、代わりにClaudeが記事内容を踏まえた投稿文を作る自前パイプラインを実装した。コードは`scripts/x-autopost/`、使い方の詳細は`scripts/x-autopost/README.md`参照。
+Xに自動投稿する様組は已終了。以下は履歴で、コードとタスクはすべて削除済み。
 
-**【2026-09-27 廃止】ブログ投稿フロー(`KingsWork-Blog-Drink`)は本パイプラインを一切呼び出さなくなった**(ユーザー指示による恒久的な廃止)。**このタスクの完了条件は「記事公開 → はてな転載 → `theme-covered.json` 追記」まで**であり、1時間ごとにEdgeを実操作していた副作用(画面ロック解除の要件・Xの1日投稿上限への抵触)も同時に解消した。テーマ記事パイプライン(下記)も同じく X を一切触らない。コード(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`)は削除せず現状のまま温存しており、実行はされない。残して利用価値があるのは `poster.py` のみで、これは「海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)」が使用するため。`posts.db` は同日、未投稿29件を破棄する形で削除済み。**将来このパイプラインを復活させる場合は `seed_baseline.py` による baseline 設定が必須** — DBが空の状態で `feed_check.py` を走らせるとRSS上の既存記事を全件「新着」と誤認して一斉処理してしまうため(下記「初回セットアップ時のバックログ誤爆に注意」参照)。
-
-**処理の流れ**: はてなRSS(`https://kinbro.hatenablog.com/rss`)をポーリング → 新着記事をSQLite(`scripts/x-autopost/posts.db`、gitignore対象)に記録 → Playwrightで記事ページ本文を取得(RSSのdescriptionは省略・崩れの可能性があるため実ページをレンダリングして取得) → Claude Code CLI(`claude -p --output-format json --json-schema ...`、haikuモデル)で要約+X投稿文3パターン+最も自然なものの選定 → **OSレベルのマウス・キーボードシミュレーションでEdgeを操作し投稿**(下記参照)。各段階の結果・失敗はすべてSQLiteに記録し、失敗した記事は自動リトライせず`status='error'`で停止する(手動で状態を戻せば次回実行時に再処理される)。
-
-**環境構築**: このマシンにはPython・Node.js・Claude Code CLIのいずれも入っていなかったため、`winget install --id Python.Python.3.12` と `winget install --id Anthropic.ClaudeCode` でインストールした。`scripts/x-autopost/.venv`に依存パッケージ(feedparser/playwright/pyautogui/pygetwindow/pyperclip)とPlaywrightのChromiumをインストール済み(Playwrightは本文取得のスクレイピング専用、X投稿には使っていない)。**2026-09-27追記**: この`.venv`が所在不明の状態になっていたため、`python -m venv` で再作成し、`pip install -r requirements.txt` と `playwright install chromium` を再実行して復旧した(playwright 1.63.0 / Chromium 153.0.8010.12 で起動確認済み)。ブログフローのステップ(1)(Amazon候補取得)は`scripts/x-autopost/.venv`を直接参照しているため、**このディレクトリを失うと自動タスクがステップ(1)で即死する**。復旧後も削除しないこと。
-
-**X投稿方式の変遷と最終形(2026-09-17)**: 当初はX API v2(tweepy)での投稿を実装したが、ユーザーから「そもそも全部無料にするためローカル環境で投稿する仕組みとしてこのワークフローを組んでいる」という前提が明かされ、方針転換した。調査の結果、X APIは2026年2月に無料枠を廃止し、**URLを含む投稿は1件$0.20**の完全従量課金(リンク無しの13倍)であることが判明——これは当初CLAUDE.mdに記録していた「$0.01/投稿」という情報が古く、実態と大きく乖離していたための転換でもある。
-
-次にPlaywright(CDP)でx.comに自動ログインして投稿する方式を試したが、**Googleログイン・Xの通常ログインフォームの両方でBot検知にブロックされた**(実Chromeに切り替えても改善せず)。CDP/WebDriver経由の自動操作である以上、ブラウザの実体を変えても検知は避けられないと判断し、方式を再転換。
-
-**最終的に採用したのは、CDP/WebDriverを一切使わない、OSレベルのマウス・キーボード入力シミュレーション**(`pyautogui`によるキー送信、`pyperclip`によるクリップボード経由のテキスト貼り付け、`pygetwindow`によるウィンドウのアクティブ化確認)。ユーザーの**普段使いのEdge(既定プロファイル、Xに既にログイン済み)**をそのまま起動して操作するため、ログイン自動化そのものが不要になった。実装は`poster.py`。X.comのcompose画面を開く→アクティブウィンドウがEdgeであることを確認→クリップボード経由でテキストをペースト→`Ctrl+Enter`で送信、という流れ。2026-09-17に実アカウントでのテスト投稿・削除を経て、既存12記事全てのX投稿に使用し、正常動作を確認済み。tweepy/python-dotenvは不要になり`requirements.txt`から削除、`x_login_setup.py`(Playwright版ログインセットアップ)も削除済み。
-
-**運用上の注意**:
-- 低頻度(週数回程度)の投稿に留める前提。`main.py`は複数記事をまとめて投稿する際、1件あたり45秒の間隔を空ける(`POST_INTERVAL_S`)。
-- 投稿文に「テスト」「自動投稿」「AI」「bot」「生成」等、自動化を連想させる語を含めないよう`generate.py`のプロンプトで明示的に禁止している(2026-09-17、実際にテスト用の文言がそのまま投稿されてしまい、ユーザーに削除してもらう事故があったための追記)。
-- `poster.py`は投稿後のツイートURL/IDを取得できない(ブラウザ自動化の性質上)。`posts.db`の`tweet_id`列は常にNULL。
-- **投稿後は開いたcomposeタブを閉じる(2026-09-18、ユーザー指示・実装済み)**: `post_tweet()`は投稿(`Ctrl+Enter`)後、Edgeがまだフォーカスされていることを再確認した上で`Ctrl+W`でそのタブを自動的に閉じる。高頻度の自動投稿タスクでタブが際限なく溜まりメモリを圧迫する問題への対応。フォーカスが外れていた場合は閉じずに警告のみ(誤ったウィンドウを閉じないため)。
-- Bashツールから`scripts/x-autopost/`配下のPythonスクリプトを実行する際、Claude Code側の自動モード分類器が「実世界への投稿」を検知してブロックすることがある。`.claude/settings.local.json`(gitignore対象)に`Bash(cd .../scripts/x-autopost && .venv/Scripts/python.exe *)`という許可ルールを追加済みなので、今後はこの形式(`cd` してから`.venv/Scripts/python.exe`を呼ぶ)でコマンドを組み立てること。
-
-**重要な学び・注意点**:
-- **Claude Code CLIのモデル指定**: デフォルト(Sonnet+拡張思考)だと1回の要約+投稿文生成呼び出しで$0.27〜0.37かかることを実測した。`--model claude-haiku-4-5-20251001`を指定することで$0.05程度まで下がり、品質もこのタスクには十分だったため、`generate.py`はhaikuモデル固定にしてある。`--max-budget-usd`で暴走時の上限も設定。
-- **Windows上でのCLI出力の文字化け**: `claude`コマンドの標準出力を`>`でファイルにリダイレクトしてから読むと、日本語が文字化けする現象を確認した(Node.jsのWindows上でのstdout非TTY時のcodepage挙動が原因と推測)。Pythonの`subprocess.run(capture_output=True, encoding="utf-8")`でパイプ経由で直接受け取る方式では文字化けしないことを確認済み。ファイルリダイレクト方式は使わないこと。
-- **Windowsコンソールのcp932問題**: Pythonスクリプトの`print()`で日本語(特にem dash「—」等の記号)を出力すると`UnicodeEncodeError`になる。全スクリプトの冒頭で`sys.stdout.reconfigure(encoding="utf-8")` / `sys.stderr.reconfigure(encoding="utf-8")`を呼んで回避している。
-- **`python`コマンドが2種類ある**: Windows Store版のスタブ(`WindowsApps\python.exe`、実体が無く動かない)と、winget/python.orgでインストールした実体(`AppData\Local\Programs\Python\Python312\python.exe`)がPATH上で衝突し、シェルによってはスタブの方が先に解決されてしまう。Bashツールから実行する際は`export PATH="/c/Users/norio/AppData/Local/Programs/Python/Python312:$PATH"`のように実体のパスを先頭に追加する必要がある(このBashツールの環境変数はコマンドごとにリセットされるため、python/pipを使うコマンドでは毎回このexportを含めること)。
-- **初回セットアップ時のバックログ誤爆に注意**: DBが空の状態で`main.py`を実行すると、RSSフィードに載っている既存記事すべてが「新着」と誤認識されて一斉投稿されてしまう。実際にこのセッションで既存12記事がこの状態になったため、`python feed_check.py && python seed_baseline.py`で全て`status='skipped_baseline'`に変更し、投稿対象から除外した。新しい環境で再セットアップする場合も、X認証情報を設定する前に必ずこの手順を踏むこと。
-- **Xログインセッション**: `.secrets/x-auth-state.json`(gitignore対象)にPlaywrightの`storage_state`(Cookie等)を保存する方式。`python x_login_setup.py`でユーザー本人が手動ログインして生成する。**未実施(2026-09-17時点)** — ユーザーが実施する必要がある。パスワードはコード・ファイルのどこにも保存しない。
-- **定期実行**: Windowsタスクスケジューラで`scripts/x-autopost/.venv/Scripts/python.exe main.py`を任意の間隔(15分〜1時間程度)で実行する運用を想定。まだユーザー側でタスク登録はしていない。
-
-### IFTTT経由のX自動投稿(2026-09-17、不採用・参考として残す)
-
-上記のPython自前パイプラインに切り替えたため、以下は実装していない。カスタム投稿文が不要でとにかく手軽に始めたい場合の代替案として記録だけ残す。
-
-はてなブログのRSSフィードを起点に、IFTTTでX(Twitter)へ自動投稿する構成。X Developer Portalでのアプリ登録・API課金が不要になるのが利点。
-
-- **フィードURL**: `https://kinbro.hatenablog.com/rss`(RSS 2.0、確認済み・title/link/description/pubDate/guid/enclosureを含む正常なフィード)。Atom形式が必要な場合は `https://kinbro.hatenablog.com/feed`。
-- **IFTTTアプレット構成**: If This = 「RSS Feed」サービスの「New feed item」トリガー(フィードURLを指定) → Then That = 「X (Twitter)」サービスの「Post a tweet」アクション。ツイート本文は `{{EntryTitle}} {{EntryUrl}}` のようなテンプレートで組む。
-- **セットアップはユーザー本人がIFTTT上で実施**(IFTTTアカウント作成、X側のOAuth連携)。Claude Code側で代行はできない。
-- **チェック頻度**: 無料プランは1時間ごと、Pro/Pro+プランは5分ごと。
-- **重複投稿の心配は無い**: IFTTTはフィード項目のGUIDで既知/未知を判定するため、`update-hatena-post.sh` で既存記事を更新(GUID不変)してもトリガーは再発火しない。`post-to-hatena.sh` で新規記事を投稿したときだけ新しいGUIDとして検知され、ツイートが飛ぶ想定。
-- **注意**: 無料プランは同時に有効化できるアプレット数に上限がある場合があるため、設定時にIFTTT側の制限を確認すること。
+- **削除したファイル**: `scripts/x-autopost/` 全体。ジャズポスト用(`poster.py`/`post_jazz_tweet.py`/`jazz-posted.json`)、前回のフログプランスト(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`/`README.md`/`posts.db`/`requirements.txt`)、更に確認済みの口道レストファイル(`amazon_search_fetch.py`/`parse_amazon_html.py`/`fetch_carbonation.py`/`fetch_sakeware.py`/`fetch_bodum_image.py`)。
+- **Pythonヴィンツュクルルートは`scripts/.venv/`に移動**。これは `post-to-note.py`(プレイツョード)と `extract-post-html.sh`(ハテナバンナー入れ)が使うので**残すない**。需要なバッケージは `playwright`/`greenlet`/`pyee` のみ。
+- **引き済み元**: バランカーの裁っ紙と `run-claude-task.ps1` の `allowedTools`。
+- **本章と同じことを求めてはこそそ**。X API 料金、Bot検知の困るなど、`pyautogui`/`pyperclip` でのOS入力シマュレーションなど、Claude クロードの模型選び(ハイカュ)など、Windows の cp932/`python` スタブの問題などは、**全部別紐として仍あるもので、利用する際には参照するだけ**。
 
 ## デプロイの仕組み
 
@@ -425,7 +386,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
    - Amazonに商品が無い場合は `href` を公式サイトのURLにする(タグなし)。この場合、直後に「(Amazonに単体販売の取り扱いなし)」等の一行注記を添える。
    - **記事末尾の`🛒 [Amazonで見る(...)](...)`という文字だけのリンクは廃止**。バナーリンクが同じ役割を果たすので二重に置かない。
    - 新しい記事を書くたびに、各製品セクションの見出し直後にこのブロックを追加すること。
-   - **はてなブログ側のバナー(2026-09-19、ユーザー指示で修正)**: はてなにはこのサイトのCSSが効かず、何もしないと`<img>`が原寸の特大表示になる。対策として、はてなに出すHTMLは`scripts/extract-post-html.sh`が`scripts/hatena_banner.py`を通して、バナーの`<a>`・`<img>`・各`<span>`に**インラインstyleと`width="120" height="120"`**を付与する(サイトと同じ468×120px、画像120×120px。記事のmarkdown側は`.product-banner`のまま変更不要)。**新規投稿・更新では必ず`extract-post-html.sh`経由でHTMLを作ること(手書きのHTMLを`post-to-hatena.sh`に渡さない)**。公開済みのはてな記事を全件まとめて再同期したいときは`scripts/x-autopost/.venv/Scripts/python.exe scripts/fix-hatena-banners.py`(ドライラン)→`--apply`(冪等・タイトル等は変更しない)。2026-09-19に既存40記事を修正済み。
+   - **はてなブログ側のバナー(2026-09-19、ユーザー指示で修正)**: はてなにはこのサイトのCSSが効かず、何もしないと`<img>`が原寸の特大表示になる。対策として、はてなに出すHTMLは`scripts/extract-post-html.sh`が`scripts/hatena_banner.py`を通して、バナーの`<a>`・`<img>`・各`<span>`に**インラインstyleと`width="120" height="120"`**を付与する(サイトと同じ468×120px、画像120×120px。記事のmarkdown側は`.product-banner`のまま変更不要)。**新規投稿・更新では必ず`extract-post-html.sh`経由でHTMLを作ること(手書きのHTMLを`post-to-hatena.sh`に渡さない)**。公開済みのはてな記事を全件まとめて再同期したいときは`scripts/.venv/Scripts/python.exe scripts/fix-hatena-banners.py`(ドライラン)→`--apply`(冪等・タイトル等は変更しない)。2026-09-19に既存40記事を修正済み。
    - **2026-09-18時点で全ての既存記事(型その1の7本・型その2の16本、計40+32=72箇所)にこの`.product-banner`デザインを適用済み**。
 6. タイトルに「五番勝負」のような対決煽り文句は**使わない**(ユーザーが明示的に削除を指示した)。
 7. **タイトルは「内容を要約しつつキャッチー」にする(2026-09-16、ユーザー指示)**。「主題 — 詩的なサブタイトル」だけでは何を扱っているか一目で伝わらないという指摘を受け、以下の形に統一:
