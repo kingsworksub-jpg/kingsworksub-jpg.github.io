@@ -1,5 +1,5 @@
 ---
-title: "三ツ矢サイダーZEROを隅から隅まで味わい尽くす — 142年ブランドが辿り着いたゼロの完成形"
+title: "三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形"
 description: "「SINCE 1884」という文字を缶に堂々と刻めるブランドは、そう多くない。142年の歴史を持つ三ツ矢サイダーの、糖類ゼロ・カロリーゼロ版である三ツ矢サイダーZEROを隅々まで見ていく。"
 images: ["/images/og/mitsuya-cider-zero-deep-dive-2026.jpg"]
 ogImageWidth: 1200

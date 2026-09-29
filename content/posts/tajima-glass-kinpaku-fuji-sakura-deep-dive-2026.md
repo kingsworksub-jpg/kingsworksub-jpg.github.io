@@ -1,5 +1,5 @@
 ---
-title: "田島硝子 金箔富士 冷酒杯(桜)を隅から隅まで味わい尽くす — 盃の底に、紅と金で沈む富士山"
+title: "田島硝子 金箔富士 冷酒杯(桜)の仕様と使い方 — 盃の底に、紅と金で沈む富士山"
 description: "盃の底に富士山が立っている。それも、酒を注ぐたびに色を変える富士山だ。東京の老舗ガラスメーカー、田島硝子の「金箔富士"
 images: ["/images/og/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026.jpg"]
 ogImageWidth: 1200

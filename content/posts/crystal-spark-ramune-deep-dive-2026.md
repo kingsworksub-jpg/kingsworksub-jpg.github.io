@@ -1,5 +1,5 @@
 ---
-title: "CRYSTAL SPARK ラムネを隅から隅まで味わい尽くす — 果汁ゼロで蘇る、あの瓶の記憶"
+title: "CRYSTAL SPARK ラムネの味と仕様 — 果汁ゼロで蘇る、あの瓶の記憶"
 description: "夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL"
 images: ["/images/og/crystal-spark-ramune-deep-dive-2026.jpg"]
 ogImageWidth: 1200

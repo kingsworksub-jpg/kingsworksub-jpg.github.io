@@ -1,5 +1,5 @@
 ---
-title: "BODUM DOUROを隅から隅まで味わい尽くす — ドウロ渓谷のぶどう畑をまとった徳利"
+title: "BODUM DOUROの仕様と使い方 — ドウロ渓谷のぶどう畑をまとった徳利"
 description: "北欧というよりは中欧寄りのブランドだが、店頭で見かけるとつい「北欧デザイン」と呼びたくなる佇まい。BODUM(ボダム)のカラフェ「DOURO(ドウロ)」を、日本酒の徳利として使う前提で見ていく。"
 images: ["/images/og/bodum-douro-carafe-deep-dive-2026.jpg"]
 ogImageWidth: 1200

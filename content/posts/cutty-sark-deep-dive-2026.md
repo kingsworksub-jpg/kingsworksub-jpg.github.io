@@ -1,5 +1,5 @@
 ---
-title: "カティサークを隅から隅まで味わい尽くす — 帆船の名を冠した軽やかな一本"
+title: "カティサークの味と仕様 — 帆船の名を冠した軽やかな一本"
 description: "黄色いラベルに帆船の絵、という見た目のインパクトも含めて記憶に残るボトル。1923年、英国の名門ワイン商Berry Bros & Rudd社が発売したカティサークを隅々まで見ていく。"
 images: ["/images/og/cutty-sark-deep-dive-2026.jpg"]
 ogImageWidth: 1200

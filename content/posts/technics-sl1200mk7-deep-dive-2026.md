@@ -1,6 +1,6 @@
 ---
 title: "Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機"
-description: "Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を隅から隅まで見ていく。"
+description: "Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を一つ一つ見ていく。"
 images: ["/images/og/technics-sl1200mk7-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

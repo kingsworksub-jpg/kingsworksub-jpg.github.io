@@ -1,5 +1,5 @@
 ---
-title: "CRYSTAL SPARK グレープソーダを隅から隅まで味わい尽くす — 香りだけで満足させる無糖設計"
+title: "CRYSTAL SPARK グレープソーダの味と仕様 — 香りだけで満足させる無糖設計"
 description: "無糖なのに、グラスに注いだ瞬間からブドウジュースのような甘い香りが広がる。アイリスオーヤマの強炭酸水ブランド「CRYSTAL SPARK」から2026年春夏限定で登場したグレープソーダを隅々まで見ていく。"
 images: ["/images/og/crystal-spark-grape-deep-dive-2026.jpg"]
 ogImageWidth: 1200
