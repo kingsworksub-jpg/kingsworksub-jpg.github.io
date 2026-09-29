@@ -16,9 +16,9 @@ ogImageHeight: 630
 ## Jon Batiste『Black Mozart』がもたらすクロスオーバーの衝撃
 
 <figure class="photo photo--left">
-<img src="/images/jazz-greats/bill-evans-1961.jpg" alt="ジャズの歴史と現代のクロスオーバー" width="220" height="150" loading="lazy">
-<figcaption>現代ジャズの拡張</figcaption>
-<span class="credit">Photo: Public Domain / Wikimedia Commons</span>
+<img src="/images/og/alan-boguslavsky-stage.jpg" alt="Jon Batisteのクロスオーバー世界観を象徴するステージ演奏のイメージ" width="220" height="150" loading="lazy">
+<figcaption>現代ジャズの拡張と融合</figcaption>
+<span class="credit">Photo: Studio Notes Archive / Stage Performance</span>
 </figure>
 
 ニューオーリンズの音楽的血統を受け継ぎ、グラミー賞受賞をはじめとする輝かしいキャリアを築いてきたJon Batiste。彼が2026年に放った新作『Black Mozart』は、クラシック音楽の巨匠たちが抱えていた歴史的文脈と、アメリカのルーツ音楽、そしてモダンジャズの即興性がダイナミックに交錯する意欲作に仕上がっている。
@@ -28,14 +28,14 @@ ogImageHeight: 630
 ## 山中千尋25周年 — 研ぎ澄まされたピアノトリオの美学
 
 <figure class="photo photo--right">
-<img src="/images/jazz-greats/john-coltrane-1963.jpg" alt="山中千尋のデビュー25周年" width="220" height="150" loading="lazy">
-<figcaption>四半世紀の歩み</figcaption>
-<span class="credit">Photo: Public Domain / Wikimedia Commons</span>
+<img src="/images/og/alan-boguslavsky-stage.jpg" alt="山中千尋のデビュー25周年コンサートを想起させるピアノ演奏のイメージ" width="220" height="150" loading="lazy">
+<figcaption>四半世紀の歩みとトリオの響き</figcaption>
+<span class="credit">Photo: Studio Notes Archive / Live Session</span>
 </figure>
 
 一方、日本が世界に誇るジャズピアニスト・山中千尋は、デビュー25周年という節目の年を迎え、その演奏スタイルにさらなる円熟味と鋭さを加えている。ニューヨークを拠点に絶えず第一線で活動を続けてきた彼女のピアノは、圧倒的な技巧の奥底に常に知的な構成力と豊かな歌心が宿っている。
 
-四半世紀にわたるキャリアを通じて彼女が貫いてきたのは、既存のジャズ・スタンダードやオリジナル曲に対する妥協のない探求心だ。近年の作品やステージで見せる演奏は、音数を削ぎ落としながらも空間の響きを最大限に活かすアプローチが際立ち、一音一音に込められた緊張感と解放感のバランスが絶妙である。長年ファンを魅了し続けてきたトリオ編成のダイナミクスは、2026年現在も進化のカーブを描き続けている。
+四半世紀にわたるキャリアを通じて彼女が貫いてきたのは、既存のジャズ・スタンダードやオリジナル曲に対する妥協のない探求心だ。近年の作品やステージで見せる演奏は、音数を削ぎ落としつつも空間の響きを最大限に活かすアプローチが際立ち、一音一音に込められた緊張感と解放感のバランスが絶妙である。長年ファンを魅了し続けてきたトリオ編成のダイナミクスは、2026年現在も進化のカーブを描き続けている。
 
 ## 新作アルバムが提示する2026年のリスニング環境
 
