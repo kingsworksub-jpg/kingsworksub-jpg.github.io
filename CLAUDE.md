@@ -187,6 +187,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで(テーマ記事「アニメーションとjazz」) | https://kinbro.hatenablog.com/entry/2026/09/29/133345 | 14945776032083816100 |
 | 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://kinbro.hatenablog.com/entry/2026/09/30/005218 | 14945776032084075516 |
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代（テーマ記事「モダンジャズの新潮流」） | https://kinbro.hatenablog.com/entry/2026/09/30/092501 | 14945776032084177549 |
+| スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://kinbro.hatenablog.com/entry/2026/09/30/112243 | 14945776032084327276 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -262,6 +263,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | アニメーションとジャズの現在地 — 「Tank!」から佐世保の喫茶店まで | https://note.com/shining_finger01/n/n0893de9eb19f | `n0893de9eb19f` | **公開済(2026-09-29)** |
 | 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://note.com/shining_finger01/n/n8e7adda7fe72 | `n8e7adda7fe72` | **公開済(2026-09-29)** |
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代 | https://note.com/shining_finger01/n/n4e882973804f | `n4e882973804f` | **公開済(2026-09-30)** |
+| スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://note.com/shining_finger01/n/ndee7acba7533 | `ndee7acba7533` | **公開済(2026-09-30)** |
 
 **noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
 
