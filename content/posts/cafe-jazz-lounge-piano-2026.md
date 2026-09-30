@@ -14,6 +14,11 @@ ogImageHeight: 630
 
 ## ジェン・Zとミレニアル世代が見つけたジャズの居場所
 
+<figure class="photo photo--right">
+<img src="/images/cafe-jazz/jazz-cafe-otaru.jpg" alt="小樽のジャズカフェ。レンガの壁と木の梁、灯りの落ちたテーブル席" width="220" height="366" loading="lazy">
+<figcaption>灯りを落とした店内に、音だけが満ちていく<span class="credit">Photo: MIKI Yoshihito / Wikimedia Commons (CC BY 2.0)</span></figcaption>
+</figure>
+
 驚くべき統計がある。イギリスの調査では、22%の若者がジャズを聴いており、その約半分（45%）が「リラックス目的」を挙げている。日本ではさらに進行していて、TikTokやYouTubeの「深夜のカフェ」「ジャズ喫茶」「ヴァイナルレコード」といった視覚的コンテンツの流行に伴い、ジャズリスナーの年齢層が大きく若返っている。
 
 Moonlight Jazz Blueは、Spotifyで月間11,900人のリスナーを抱えている。一見すると小さな数字かもしれないが、このジャンルのニッチさを考えると、これは確実な支持層の存在を示している。JAZZ PARADISEとの協業プロジェクトでも月間2,700人のリスナーがいる。その聴き手たちは、「流行っているから」ではなく「必要だから」その音楽を探している。
@@ -21,6 +26,11 @@ Moonlight Jazz Blueは、Spotifyで月間11,900人のリスナーを抱えてい
 ## 2026年のカフェジャズが大切にしていること
 
 2026年のカフェジャズ制作には、明確な哲学がある。かつてのように「感情的な美しさ」を全面に出すのではなく、「個々の調和、忍耐強いリズム、録音の質感」を重視する傾向が強い。つまり、ピアノの鍵盤がきしむ音さえも、意図的に残すということだ。
+
+<figure class="photo photo--left">
+<img src="/images/cafe-jazz/rhodes-piano-keys.jpg" alt="Rhodes エレクトリックピアノ Eighty Eight の鍵盤" width="220" height="165" loading="lazy">
+<figcaption>柔らかく滲むRhodesの和音が、カフェジャズの核になる<span class="credit">Photo: David Adam Kess / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
+</figure>
 
 Moonlight Jazz Blueの最新リリースに耳を澄ましてみると、わかる。Rhodesコード、刷毛でたたかれたドラムス、アコースティックベース、弱音フルート、そして静かな即興演奏——これらが一つの「部屋の中」で共存している。ヘビーな圧縮処理や映画音楽的な壮大さではなく、「その場所に確かに音が鳴っている」という実在感が前面に出ている。
 
@@ -63,6 +73,11 @@ Jazzwise、All About Jazz、JazzTimes、DownBeatといった専門メディア�
 ## 音質への執着——「部屋の音」を聴く
 
 2026年のインストルメンタル音楽業界で、もう一つ注目すべき傾向がある。それは「圧縮処理されたクリアさ」から「その場所の質感」への転換だ。
+
+<figure class="photo photo--right">
+<img src="/images/cafe-jazz/piano-pedal.jpg" alt="ピアノのペダルを踏む革靴" width="220" height="146" loading="lazy">
+<figcaption>ペダルが軋む音さえ、「部屋の音」として残す<span class="credit">Photo: Michael Pardo / Wikimedia Commons (CC0)</span></figcaption>
+</figure>
 
 ネオクラシカルピアノ、コンテンポラリー室内楽、アコースティックギター、そして抑制されたパーカッション——こうした要素が再評価される背景には、リスナー側の疲労がある。完璧すぎる音は、人間の耳を疲れさせる。それに対し、Moonlight Jazz Blueが提供するのは「隙間のある音」だ。ピアノのペダルの音、弦の微細な振動、アンビエンスとしてのノイズまで含めた「録音」。
 
