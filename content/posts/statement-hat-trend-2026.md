@@ -11,18 +11,13 @@ ogImageHeight: 630
 
 ここ数シーズン、帽子がファッション界で急速に存在感を高めている。かつてアクセサリーとしての脇役だった帽子が、アウトフィットの主役になり始めているのだ。特に2026年の秋冬シーズンは、各ファッションウィークでも帽子のシルエットの多様性と大胆さが際立っている。
 
-<figure class="photo photo--left">
-<img src="/images/posts/hat-trend-runway.jpg" alt="2026年パリクチュール・ファッションウィークのステートメントハットルックス" width="220" height="165" loading="lazy">
-<figcaption>パリのハイシーズンコレクションでは、演劇的なミリネリ表現が重視された<span class="credit">Photo: Paris Couture Week</span></figcaption>
-</figure>
-
 この変化は、パンデミック以降のファッション心理の転換を象徴している。過去数年間のミニマリズムと「クリーンガール」美学への反動として、今のトレンドは最大主義へと舵を切った。単なる見栄えの追加ではなく、帽子という立体的な形状が持つ構造美を主張する動きが生まれているのだ。
 
 ## フェドーラ――構造美の再評価
 
 <figure class="photo photo--right">
-<img src="/images/posts/fedora-wool.jpg" alt="広めのツバを持つ構造的フェドーラ" width="220" height="165" loading="lazy">
-<figcaption>密度の高いウール地とラビットファーの組み合わせが標準化<span class="credit">Photo: Luxury Brands</span></figcaption>
+<img src="/images/hat-trend/fedora-brown-felt.jpg" alt="ブラウンのフェルト・フェドーラを被った男性の後ろ姿" width="220" height="181" loading="lazy">
+<figcaption>硬さのあるフェルトが、頭上に「構造」を生む<span class="credit">Photo: Allef Vinicius / Unsplash (CC0)</span></figcaption>
 </figure>
 
 フェドーラの回帰は2026年ハット界で最も顕著なトレンドだ。従来のフェドーラと異なり、今季のそれはツバが広がり、クラウン（頭頂部）の高さもやや抑え気味になっている。ラルフ・ローレン、サン・ローランといった確立されたブランドだけでなく、プラダやディオールといったハイルクスブランドも構造的なウール素材のフェドーラをメインピースとして提示している。
@@ -44,8 +39,8 @@ ogImageHeight: 630
 ## ベレー帽――洗練の記号、アップデートされて
 
 <figure class="photo photo--left">
-<img src="/images/posts/beret-kangol.jpg" alt="モダンに仕立てられたカンゴール製ベレー帽" width="220" height="165" loading="lazy">
-<figcaption>カンゴールはベレー帽の現代化で一貫性を保つ<span class="credit">Photo: Kangol</span></figcaption>
+<img src="/images/hat-trend/red-beret-street.jpg" alt="赤いベレー帽と赤いジャケットで駅構内を歩く女性" width="220" height="321" loading="lazy">
+<figcaption>一点の赤いベレーが、街の空気ごと装いを変える<span class="credit">Photo: Jules Verne Times Two / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 ベレー帽は何十年も「洗練」の記号であり続けたが、2026年には若干の再解釈が加わっている。従来の厳密なシルエットではなく、少し緩い被り方を前提にした設計。また、プレーンな黒や紺だけでなく、バーガンディ、ロスト・グリーン、テラコッタといった秋冬らしい温暖な色展開が広がっている。
@@ -64,11 +59,6 @@ ogImageHeight: 630
 
 ## ウェスタン・カウボーイハット――ラグジュアリー化
 
-<figure class="photo photo--right">
-<img src="/images/posts/western-hat-luxury.jpg" alt="スエード仕立てのラグジュアリーウェスタンハット" width="220" height="165" loading="lazy">
-<figcaption>サン・ローランやディオールが提示するウェスタンハットは、従来のカウボーイ由来の機能性からの離別を示す<span class="credit">Photo: Saint Laurent</span></figcaption>
-</figure>
-
 ウェスタン・ハットやカウボーイ・ハットは、もともとアメリカ西部の実用的な被り物だった。しかし2026年のトレンドでは、スエード、ウールフェルト、さらにはカシミアといった高級素材での仕立てが主流化している。ラルフ・ローレンはこの領域で確固たるポジションを持つが、サン・ローランやディオールも各コレクションに組み込んでいる。
 
 ツバの幅や高さも調整されており、極端な西部フロンティアのシルエットではなく、都会的な洗練を保つ形状。スタイリングとしては、クリスプなトレンチコートとニーハイブーツの組み合わせが標準的。単なるウェスタン・テーマではなく、「西部の形式美」を現代ファッションに翻訳した試みとして機能している。
@@ -82,11 +72,6 @@ ogImageHeight: 630
 これらは実用性と美学のハイブリッド。耳を完全に覆う機能を保ちながら、顔周りに立体的な影を作り出し、全体的なサイズバランスを大きく変える。パリ・クチュールやコペンハーゲン・ファッションウィークでは、特に劇的なシルエットを持つウシャンカやトラッパーが、洗練されたウールコートと組み合わせて提示された。
 
 ## 日本のデザイナー：木島貴行と「ヘルメット風」ハット
-
-<figure class="photo photo--left">
-<img src="/images/posts/kijima-takayuki-hat.jpg" alt="木島貴行によるボブウィッグに着想を得たヘルメット風ハット" width="220" height="165" loading="lazy">
-<figcaption>東京発のデザイナーは、ヘルメット的構造と鮮やかな色使いで国際舞台で存在感を高めている<span class="credit">Photo: Kijima Takayuki</span></figcaption>
-</figure>
 
 東京を拠点とするデザイナー・木島貴行は、ボブウィッグのシルエットに着想を得た「ヘルメット風」ハットで、国際的な注目を集めている。ウール、カシミア、さらには素材実験的な素材を使用し、従来のハット文化の「洗練」「上品さ」という文法を解体している。
 
@@ -127,11 +112,6 @@ ogImageHeight: 630
 入手性としては、ラグジュアリー・ハウスはブティックまたはオンライン直販、コンテンポラリーはSSENSE、FARFETCH、オンライン各社、バジェット層はAmazonやユニクロのハット部門まで広い。
 
 ## 1950-1980年代からのリバイバルのコンテキスト
-
-<figure class="photo photo--right">
-<img src="/images/posts/vintage-hat-reference.jpg" alt="1950年代ファッション・アーカイブの帽子構造参照" width="220" height="165" loading="lazy">
-<figcaption>現在のリバイバルは単なる懐古ではなく、現代の立体性理解による新解釈<span class="credit">Photo: Fashion Archives</span></figcaption>
-</figure>
 
 2026年のハット・リバイバルを理解するには、その歴史的背景が重要だ。パンデミック以降のファッションはミニマリズムと「クリーンガール」美学に傾斜していた。これは疲労感を避け、シンプルさに逃げ込む心理の表れでもあった。
 
