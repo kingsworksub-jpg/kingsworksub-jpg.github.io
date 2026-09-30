@@ -12,9 +12,9 @@ ogImageHeight: 630
 フランス・ファッションの現在地を見つめるなら、2026年は**Gainbourgiennes の再来**といっていい。セリーヌのクリエイティブディレクター、マイケル・ライダーが示した「長く着つづけるための洗練」の哲学。ジル・サンダーが打ち出す「生活の痕跡を感じさせるミニマリズム」。こうした潮流の背後にあるのは、1970年代のセルジュ・ゲンスブール的な美学——つまり、**ぜいたくは決して自己を主張しない**という確信だ。
 
 <figure class="photo photo--right">
-<img src="/images/fashion/gainsbourg-style-2026.jpg" width="220" height="300" alt="Serge Gainbourgeの1970年代のアイコニックなスタイル" loading="lazy">
-<figcaption>Gainbourgeが体現した「無理のない優雅さ」は、2026年のフランス・ファッション復権の哲学的基盤となっている</figcaption>
-<span class="credit">MR PORTER Journal</span>
+<img src="/images/french-style/serge-gainsbourg-1981.jpg" width="220" height="220" alt="1981年のセルジュ・ゲンスブールのモノクロ肖像" loading="lazy">
+<figcaption>セルジュ・ゲンスブール（1981年）。飾らない装いが、今のフレンチスタイルの原点</figcaption>
+<span class="credit">Photo: Claude Truong-Ngoc / Wikimedia Commons (CC BY-SA 3.0)</span>
 </figure>
 
 ## Serge Gainbourgeの遺産：見せかけない贅沢
@@ -26,9 +26,9 @@ ogImageHeight: 630
 ゲンスブール的な美学の核にあるのは、**性別の二項対立を揺さぶること**でもあった。男性的なテーラリングと、一見すると女性的な甘さを同時に纏う。このジェンダー的な曖昧性が、今のジェン・Z の装い——ジェンダーレスな理想像の一つ——に直結している。
 
 <figure class="photo photo--left">
-<img src="/images/fashion/celine-michael-rider-2026.jpg" width="220" height="300" alt="マイケル・ライダーがセリーヌのディレクターとして示した2026年春夏コレクション" loading="lazy">
-<figcaption>セリーヌの2026年春夏「Été」コレクションは、Gainbourgeの「見せかけない優雅さ」を現代的に再解釈している</figcaption>
-<span class="credit">Who What Wear</span>
+<img src="/images/french-style/maison-gainsbourg-verneuil.jpg" width="220" height="165" alt="落書きで覆われたパリ7区ヴェルヌイユ通りのゲンスブール邸の外壁と訪れる人々" loading="lazy">
+<figcaption>パリ7区、ヴェルヌイユ通りのゲンスブール邸。いまも人が絶えない</figcaption>
+<span class="credit">Photo: KolofKtulu / Wikimedia Commons (CC BY 4.0)</span>
 </figure>
 
 ## 2026年の色彩と布地：自信を持ったフランス・パレット
@@ -48,9 +48,9 @@ ogImageHeight: 630
 興味深いのは、2026年の装い手はもはや「どちらか一方」を選ばない、ということだ。平日はLeft Bank の厳密なテーラリングで過ごし、週末はRiviera の色彩と遊ぶ。この**折衷主義こそが、現代的なフレンチスタイル**の実態なのだ。
 
 <figure class="photo photo--right">
-<img src="/images/fashion/jil-sander-2026.jpg" width="220" height="300" alt="ジル・サンダーの2026年秋冬コレクション、シモーネ・ベロッティによるデザイン" loading="lazy">
-<figcaption>「生活の痕跡を感じさせるミニマリズム」——シモーネ・ベロッティが打ち出したジル・サンダーの新しい道筋</figcaption>
-<span class="credit">Numero Magazine</span>
+<img src="/images/french-style/cafe-de-flore-vintage.jpg" width="220" height="223" alt="往年のサン＝ジェルマン＝デ＝プレ、カフェ・ド・フロールの店先" loading="lazy">
+<figcaption>Left Bankの象徴、サン＝ジェルマンのカフェ・ド・フロール</figcaption>
+<span class="credit">Photo: Willem van de Poll / Nationaal Archief (CC0)</span>
 </figure>
 
 ## ジェン・Z の複雑な関係性：知識人らしさへのジェンダーレスな憧れ
@@ -70,9 +70,9 @@ ogImageHeight: 630
 **ルメール（クリストフ・ルメール&セーラ＝リン・トラン監督）**は、流動的なテーラリングで、ムーブメント第一の設計思想を貫いている。迷いのない色彩、誤算のない構造。そうした「確信に満ちた静寂」が、ルメールのアイデンティティだ。
 
 <figure class="photo photo--left">
-<img src="/images/fashion/jacquemus-fw26-palimere.jpg" width="220" height="300" alt="ジャックムスの2026年秋冬「Le Palmier」コレクション" loading="lazy">
-<figcaption>ジャックムスは、1950年代クチュール、1990年代の官能性、1980年代フレンチ・シネマのユーモアを融合させた「The Palmier」を発表。テクニカラーと造形美の共存</figcaption>
-<span class="credit">Hypebeast</span>
+<img src="/images/french-style/promenade-des-anglais-vintage.jpg" width="220" height="156" alt="ヤシの並木が続く往年のニース、プロムナード・デ・ザングレ" loading="lazy">
+<figcaption>Rivieraの陽光。かつてのニース、プロムナード・デ・ザングレ</figcaption>
+<span class="credit">Photo: Fortepan / Wikimedia Commons (Public domain)</span>
 </figure>
 
 ## 2026年フレンチスタイルの五つの原則
