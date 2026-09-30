@@ -100,8 +100,32 @@ def clean_html(body):
     return body
 
 
+def convert_tables(body):
+    """note は表を表示できないので、Markdown の表を箇条書きにする。"""
+    def cells(line):
+        return [re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", c).strip()
+                for c in line.strip().strip("|").split("|")]
+
+    def repl(m):
+        rows = [r for r in m.group(0).strip("\n").split("\n")]
+        head = cells(rows[0])
+        out = []
+        for r in rows[2:]:
+            c = cells(r)
+            if len(c) == 2:
+                out.append("- %s：%s" % (c[0], c[1]))
+            else:
+                out.append("- %s：%s" % (c[0], " / ".join(
+                    "%s %s" % (h, v) for h, v in zip(head[1:], c[1:]))))
+        return "\n".join(out) + "\n"
+
+    return re.sub(r"(?m)^\|.*\|[ \t]*\n\|[ \t:|-]+\|[ \t]*\n(?:\|.*\|[ \t]*(?:\n|$))+",
+                  repl, body)
+
+
 def clean_body(body):
     body = convert_figures(body)
+    body = convert_tables(body)
     body = clean_html(body)
     body = absolutize_links(body)
     # 連続する空行を 1 行に
@@ -147,7 +171,7 @@ def build_title(meta, slug):
 
 def normalize_tag(tag):
     """note のハッシュタグは空白やアポストロフィを使えないため取り除く。"""
-    tag = re.sub(r"[\s'\"()、。,.\-]+", "", tag)
+    tag = re.sub(r"[\s'\"()、。,.\-&]+", "", tag)
     return tag
 
 
