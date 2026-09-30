@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>バーボン on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/%E3%83%90%E3%83%BC%E3%83%9C%E3%83%B3/</link>
+    <description>Recent content in バーボン on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/%E3%83%90%E3%83%BC%E3%83%9C%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ジムビーム ホワイトの味と仕様 — 世界一売れているバーボンの中身</title>
+      <link>https://kingsworksub-jpg.github.io/posts/jim-beam-white-deep-dive-2026/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/jim-beam-white-deep-dive-2026/</guid>
+      <description>1795年創業、7世代・230年超の歴史を持つケンタッキーの老舗蒸溜所が手がける看板商品。年間販売数量で世界のバーボン市場トップに立つジムビーム ホワイトを隅々まで見ていく。</description>
+    </item>
+    <item>
+      <title>フォアローゼズ イエローの味と仕様 — 10種の原酒が生む手間の味</title>
+      <link>https://kingsworksub-jpg.github.io/posts/four-roses-yellow-deep-dive-2026/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/four-roses-yellow-deep-dive-2026/</guid>
+      <description>赤い薔薇のラベルが目印の、ケンタッキー州ローレンスバーグの蒸溜所が手がけるバーボン。エントリーモデルにしては珍しいほど手の込んだブレンド設計を持つフォアローゼズ イエローを隅々まで見ていく。</description>
+    </item>
+  </channel>
+</rss>

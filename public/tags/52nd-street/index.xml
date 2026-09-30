@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>52nd Street on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/52nd-street/</link>
+    <description>Recent content in 52nd Street on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 28 Sep 2026 11:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/52nd-street/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間</title>
+      <link>https://kingsworksub-jpg.github.io/posts/bebop-52nd-street-nights/</link>
+      <pubDate>Mon, 28 Sep 2026 11:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/bebop-52nd-street-nights/</guid>
+      <description>1945年11月26日、ニューヨークのWORスタジオでCharlie Parkerが「Ko-Ko」を録音した。ミントンの日曜のjamからスウィング・ストリートへ。1940年代のビバップの胎動と熱を、録音日程とクラブの地図からひも解く。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Miles Davis on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/miles-davis/</link>
+    <description>Recent content in Miles Davis on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 27 Sep 2026 10:30:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/miles-davis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで</title>
+      <link>https://kingsworksub-jpg.github.io/posts/cool-jazz-birth-of-the-cool/</link>
+      <pubDate>Sun, 27 Sep 2026 10:30:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/cool-jazz-birth-of-the-cool/</guid>
+      <description>ビバップの熱が一瞬にして冷えた、1949年から1951年までの三年間。Miles Davisの九人編成が生んだ『Birth of the Cool』と、同じ時代にカリフォルニアで花開いたChet Bakerの西海岸派。クール・ジャズがどこで生まれ、どこへ波及したのかを、演奏者たちの足取りからひも解く。</description>
+    </item>
+    <item>
+      <title>モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音</title>
+      <link>https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/</link>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/</guid>
+      <description>ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。</description>
+    </item>
+  </channel>
+</rss>

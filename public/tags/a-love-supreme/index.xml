@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>A Love Supreme on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/a-love-supreme/</link>
+    <description>Recent content in A Love Supreme on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 24 Sep 2026 23:31:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/a-love-supreme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に</title>
+      <link>https://kingsworksub-jpg.github.io/posts/jazz-masterpieces-beginner/</link>
+      <pubDate>Thu, 24 Sep 2026 23:31:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/jazz-masterpieces-beginner/</guid>
+      <description>ジャズ初心者の最初の一枚に、この順番が正解。1920年代のルイ・アームストロングから1965年のア・ラヴ・スプリームまで、時代順に並んだ10枚でジャズの大きな流れが一晩で体に入る。</description>
+    </item>
+    <item>
+      <title>モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音</title>
+      <link>https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/</link>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/</guid>
+      <description>ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。</description>
+    </item>
+  </channel>
+</rss>

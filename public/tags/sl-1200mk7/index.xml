@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SL-1200MK7 on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/sl-1200mk7/</link>
+    <description>Recent content in SL-1200MK7 on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/sl-1200mk7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機</title>
+      <link>https://kingsworksub-jpg.github.io/posts/technics-sl1200mk7-deep-dive-2026/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/technics-sl1200mk7-deep-dive-2026/</guid>
+      <description>Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を一つ一つ見ていく。</description>
+    </item>
+  </channel>
+</rss>
