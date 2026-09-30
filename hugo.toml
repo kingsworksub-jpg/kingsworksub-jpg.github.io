@@ -4,6 +4,7 @@ defaultContentLanguage = 'ja'
 timeZone = 'Asia/Tokyo'
 title = 'Studio Notes'
 theme = 'PaperMod'
+publishDir = 'docs'
 
 enableRobotsTXT = true
 buildDrafts = false
