@@ -23,6 +23,12 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 
 ### 1. オーバーサイズの広つば帽（ワイドブリム・フェドラ）
 
+<figure class="photo photo--right">
+<img src="/images/hat-trends-autumn/wide-brim-hat-backlit.jpg" alt="逆光の中、つば広の帽子を被った女性のモノクロ写真" width="220" height="138" loading="lazy">
+<figcaption>つば広の一枚が、輪郭ごと装いを決める</figcaption>
+<span class="credit">Photo: Toni Hukkanen / Unsplash (CC0)</span>
+</figure>
+
 最も直球的なステートメントハット。ウールやフェルトを張った堂々たるシルエット。高く立った王冠部分、カチッと張った縁取り——一度かぶれば、周囲の視線が自動的にそこに吸収される。
 
 ここ数年のフェドラブームの延長に見えるかもしれないが、2026年版はより建築的だ。単なる「紳士的」ではなく、「威厳的」。Prada や Lock & Co. Hatters のモデルを見ると、従来のフェドラの曲線美よりも、角度のある、ジオメトリックな存在感を感じさせる。
@@ -40,6 +46,12 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 ### 3. 彫刻的・アバンギャルド・デザイン
 
 帽子とアートの境界線を曖昧にするデザイン群。ウシャンカの影響を受けた大型ファートリム付き、幾何学的なフォルム、グラフィック要素やタイポグラフィを施したステートメント・ビーニー。Fashion Week のランウェイから生まれたこれらのピースは、「日常着」というより「宣言」だ。
+
+<figure class="photo photo--left">
+<img src="/images/hat-trends-autumn/baker-boy-cap.jpg" alt="8枚はぎのベーカーボーイキャップを被った男性" width="220" height="330" loading="lazy">
+<figcaption>ふっくらした8枚はぎのクラウンが、ベーカーボーイの目印</figcaption>
+<span class="credit">Photo: Capuniverse / Wikimedia Commons (CC BY-SA 4.0)</span>
+</figure>
 
 とりわけ Baker Boy Hat（ベーカーボーイハット）の復権は注目に値する。Fendi が Maria Grazia Chiuri の Fall 2026 デビュー・コレクションで突如、このクラシックな形態を現代的に解釈し直した。その結果、多くのデザイナーが追従し、かつての英国的・職人的な響きから、今は「新しい優雅さ」の象徴へと姿を変えている。
 
@@ -67,6 +79,12 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 ステートメントハットは、周囲との「会話」を要求する。
 
 ### 法則その一：ハットを主役に
+
+<figure class="photo photo--right">
+<img src="/images/hat-trends-autumn/black-hat-knit-styling.jpg" alt="淡いニットに黒のつば広帽を合わせた女性の後ろ姿" width="220" height="147" loading="lazy">
+<figcaption>淡いニットで引き算し、黒のハットを主役に</figcaption>
+<span class="credit">Photo: Brooke Cagle / Unsplash (CC0)</span>
+</figure>
 
 オーバーサイズの帽子やテクスチャード・デザインを選んだら、他の要素はそれを支援する脇役に回す。シンプルで、ラインの美しいトップスとボトムスが理想的。帽子の形状とテクスチャーに視線が集中するように、全体を整える。
 
