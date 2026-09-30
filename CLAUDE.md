@@ -188,6 +188,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://kinbro.hatenablog.com/entry/2026/09/30/005218 | 14945776032084075516 |
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代（テーマ記事「モダンジャズの新潮流」） | https://kinbro.hatenablog.com/entry/2026/09/30/092501 | 14945776032084177549 |
 | スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://kinbro.hatenablog.com/entry/2026/09/30/112243 | 14945776032084327276 |
+| Bowers & Wilkins 685を全機能解剖 — 黄色いコーンが鳴らす、英国流の開放感 | https://kinbro.hatenablog.com/entry/2026/10/01/083002 | 14945776032084538870 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -264,6 +265,13 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き | https://note.com/shining_finger01/n/n8e7adda7fe72 | `n8e7adda7fe72` | **公開済(2026-09-29)** |
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代 | https://note.com/shining_finger01/n/n4e882973804f | `n4e882973804f` | **公開済(2026-09-30)** |
 | スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://note.com/shining_finger01/n/ndee7acba7533 | `ndee7acba7533` | **公開済(2026-09-30)** |
+| Bowers & Wilkins 685を全機能解剖 — 黄色いコーンが鳴らす、英国流の開放感 | https://note.com/shining_finger01/n/n4b561c4f324a | `n4b561c4f324a` | **公開済(2026-10-01)** |
+
+**変換・投稿の追加仕様(2026-10-01)**:
+- `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
+- `post-to-note.py` は `Amazonで見る: URL` の行を HTML リンクとしてクリップボード貼付する(`paste_link()`)。note はキー入力した URL を自動リンクしない。
+- Markdown の表は note で表示できないので、`convert-to-note.py` が「- 1列目：2列目」(3列以上は「見出し 値 / …」)の箇条書きに変換する。
+- ハッシュタグの `&` は除去する(`#B&W` が `#B` になっていた)。一度付いたタグは本文を書き直しても公開設定に残るので、公開設定画面の `[data-has-error] > button`(各タグ)内の `[aria-label="削除"]` で外す。
 
 **noteアカウント**: urlname = `shining_finger01`、nickname = `SF0112`。**公開URLは `https://note.com/shining_finger01/n/<key>`**（nickname ではなく urlname を使う。nickname でアクセスすると404になる）。
 

@@ -613,6 +613,35 @@ def paste_image(page, url):
             pass
 
 
+LINK_LINE_RE = re.compile(r"^(Amazonで見る): (https://www\.amazon\.co\.jp/\S+)$")
+
+
+def paste_link(page, text, url):
+    """note は入力した URL を自動リンクしないので、HTML のリンクを貼り付ける。"""
+    try:
+        before = page.evaluate("() => document.querySelectorAll('.ProseMirror a[href]').length")
+        page.evaluate(
+            """async ([text, url]) => {
+                const a = document.createElement('a');
+                a.href = url; a.textContent = text;
+                const html = new Blob([a.outerHTML], {type: 'text/html'});
+                const plain = new Blob([text], {type: 'text/plain'});
+                await navigator.clipboard.write([new ClipboardItem({'text/html': html, 'text/plain': plain})]);
+            }""",
+            [text, url],
+        )
+        page.keyboard.press("Control+V")
+        page.wait_for_timeout(800)
+        after = page.evaluate("() => document.querySelectorAll('.ProseMirror a[href]').length")
+        if after > before:
+            return True
+        page.keyboard.press("Control+z")
+        page.wait_for_timeout(300)
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] リンク貼付失敗: {e}")
+    return False
+
+
 # ---------------------------------------------------------------- input
 
 
@@ -687,6 +716,10 @@ def type_markdown_line(page, text, fast=False):
         page.keyboard.type(marker + " ", delay=90)
         page.wait_for_timeout(600)
         page.keyboard.type(convert_italics(rest), delay=8)
+        return
+
+    m = LINK_LINE_RE.match(s)
+    if m and paste_link(page, m.group(1), m.group(2)):
         return
 
     t = convert_italics(s)
