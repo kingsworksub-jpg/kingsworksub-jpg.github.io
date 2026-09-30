@@ -13,11 +13,23 @@ ogImageHeight: 630
 
 その美学が、いま再び注目を集めている。2026年のファッションシーンでは、ラグジュアリーブランドからストリートウェアまで、あらゆるレベルでジャズに由来するスタイル要素が復活している。80年代のファッション史を振り返り、90年代のヒップホップがジャズをサンプリングしたように、現代のデザイナーたちはジャズスタイルという古い美学から新しい表現を生み出そうとしている。
 
+<figure class="photo photo--right">
+<img src="/images/jazz-fashion/jazz-saxophone.jpg" width="240" height="320" alt="Jazz saxophonist performing" loading="lazy">
+<figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある</figcaption>
+<span class="credit">Photo: Unsplash / Jens Thekkeveettil</span>
+</figure>
+
 ## ジャズスタイルの起源——音楽と装いの一体性
 
 ジャズの時代性を理解する上で、ファッションの役割は見落とされることが多い。だが1920年から1960年代にかけて、ジャズメンの装いは単なる流行ではなく、彼らの社会的立場と音楽的哲学を映す鏡だった。
 
 禁酒法時代のハーレムで生まれたジャズは、支配的な白人社会に対する黒人文化の主張だった。その時、ジャズメンたちはどう装ったのか。彼らは白人の上流階級が着るスーツを着た。ただし、その着こなしは異なっていた。ピンストライプは細く、シャープに。ダブルブレストは幅広く、大胆に。靴は光らせ、ハットは深くかぶった。既存のファッション言語を使いながら、それを反転させ、新しい意味を与えたのである。
+
+<figure class="photo photo--left">
+<img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy">
+<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった</figcaption>
+<span class="credit">Photo: Pexels / Oscar Steiner</span>
+</figure>
 
 ビバップの時代、Charlie ParkerやDizzy Gillespieが演奏していたのは、同時にこうした美学でもあった。彼らのスーツは、単なる正装ではなく、音楽の外部表現だった。激しいビバップのフレーズと同じように、細いピンストライプは極限まで引き詰められ、ダブルブレストのボタンは幾何学的な秩序を持たせられた。
 
@@ -34,6 +46,12 @@ ogImageHeight: 630
 - **細いネクタイ** — 1950年代以降、ネクタイの幅も極限まで細くなり、ビバップのスピード感を視覚化した
 
 これらの要素が組み合わさることで、一種の美学が成立した。それは「洗練」「知性」「反抗」の混在した美学だった。既得権層の言語を使いながら、それを自分たちのものに変える。その激しさと緻密さは、ジャズの音楽そのものの構造と呼応していた。
+
+<figure class="photo photo--right">
+<img src="/images/jazz-fashion/double-breasted-blazer.jpg" width="240" height="350" alt="Stylish double-breasted blazer" loading="lazy">
+<figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する</figcaption>
+<span class="credit">Photo: Pexels / cottonbro studio</span>
+</figure>
 
 ## 2026年のジャズスタイル復活——ラグジュアリーからストリートまで
 
@@ -68,6 +86,12 @@ ogImageHeight: 630
 つまり、ジャズスタイルは「静かな確実性」の言語なのである。騒々しい現代に、余計な装飾ではなく、構造と秩序で自分を表現したいという欲求。その欲求が、80年前のジャズメンたちが編み出した美学に人々を向かわせているのだろう。
 
 もう一つの理由は、ジャズ文化そのものへの関心の高まりである。前回の記事で書いたように、2026年はNEA Jazz Mastersが新しいマスターを認定し、Kamasi Washingtonやら新世代のジャズミュージシャンたちが社会的な発言を強めている年だ。その音楽の世界への関心が、自然と彼らが着ていた服へも及んでいる。
+
+<figure class="photo photo--right">
+<img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy">
+<figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
+<span class="credit">Photo: Pixabay / tylermike525</span>
+</figure>
 
 ## シャープな靴と細いピンストライプ——細部の美学
 
