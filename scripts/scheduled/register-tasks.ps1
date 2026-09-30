@@ -1,7 +1,6 @@
-# Registers (or re-registers) the two recurring jobs in Windows Task Scheduler.
+# Registers (or re-registers) the recurring blog job in Windows Task Scheduler.
 #   Blog-Drink : theme article from scripts\themes.txt, every 60 min (at :15)
-#   X-Jazz     : overseas jazz X post,      every 30 min (at :00/:30)
-# Run as the interactive user: X posting needs the logged-in, unlocked desktop (pyautogui + Edge).
+# The jazz X-post job (KingsWork-X-Jazz) was removed on 2026-09-29 at the user's request.
 
 $ErrorActionPreference = "Stop"
 $runner = Join-Path $PSScriptRoot "run-claude-task.ps1"
@@ -28,5 +27,4 @@ function Register-Job($taskName, $jobName, $promptFile, $model, $intervalMin, $o
     Write-Host "registered $taskName"
 }
 
-Register-Job "KingsWork-Blog-Drink" "blog-drink" "blog-drink.md" ""       60 15 50 20 75
-Register-Job "KingsWork-X-Jazz"     "x-jazz"     "x-jazz.md"     "sonnet" 30 0  20 20 45
+Register-Job "blog-automation-task" "blog-automation" "blog-drink.md" "" 60 15 50 20 75

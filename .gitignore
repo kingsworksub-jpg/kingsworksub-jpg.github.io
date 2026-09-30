@@ -4,11 +4,8 @@ resources/_gen/
 .secrets/
 *.env
 .claude/settings.local.json
-scripts/x-autopost/posts.db
-scripts/x-autopost/posts.db-journal
-scripts/x-autopost/__pycache__/
 __pycache__/
-scripts/x-autopost/.venv/
+scripts/.venv/
 
 scripts/scheduled/logs/
 scripts/indexing/credentials*.json

@@ -69,4 +69,4 @@ aliases:
 漁業用の浮玉から始まったガラス工芸が、湿地に咲く水芭蕉の風景を映す酒器にたどり着くまでの距離を思うと、この深い青の一本がずいぶん遠くから来たもののように感じられる。冷酒を静かに楽しみたい夜に、そっと出してみたい一組だ。
 
 
-**関連記事**: [津軽びいどろ 片口あじさいを隅から隅まで味わい尽くす — 龍飛崎の紫陽花を写した一滴](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [アデリア 津軽びいどろ NEBUTA 酒器セットを隅から隅まで味わい尽くす — ねぶたの夜を、盃の中に閉じ込める](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)
+**関連記事**: [津軽びいどろ 片口あじさいの仕様と使い方 — 龍飛崎の紫陽花を写した一滴](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [アデリア 津軽びいどろ NEBUTA 酒器セットの仕様と使い方 — ねぶたの夜を、盃の中に閉じ込める](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)

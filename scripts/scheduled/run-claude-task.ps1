@@ -7,11 +7,11 @@ param(
 )
 
 # Windows Task Scheduler entry point. Runs one headless Claude Code turn in the blog repo.
-# A machine-wide mutex serialises jobs. As of 2026-09-27 the only job that
-# still posts is the jazz-post task (KingsWork-X-Jazz), which drives the real
-# Edge window via pyautogui/clipboard -- so two jobs must never post at once.
-# The blog job (KingsWork-Blog-Drink) no longer posts to X at all, but it keeps
-# taking the same lock so it can never overlap a jazz post.
+# A machine-wide mutex serialises jobs. As of 2026-09-29 KingsWork-X-Jazz (the overseas
+# jazz X-post job) has been removed at the user's request, so blog-drink is the only
+# remaining job. The mutex is kept: it costs nothing and stops a future second job
+# from overlapping the hatena/note browser-automation steps, which cannot run
+# concurrently (Playwright drives a real Chromium window and the keyboard).
 
 $ErrorActionPreference = "Continue"
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -40,7 +40,8 @@ try {
         "Read", "Write", "Edit", "Glob", "Grep", "WebSearch", "WebFetch", "Agent",
         "Bash(hugo:*)", "Bash(git:*)", "Bash(gh:*)", "Bash(curl:*)", "Bash(ls:*)", "Bash(mkdir:*)",
         "Bash(bash scripts/*)",
-        "Bash(cd /c/Users/norio/Projects/kingsworksub-jpg.github.io/scripts/x-autopost && .venv/Scripts/python.exe *)"
+        "Bash(cd /c/Users/norio/my-github-blog/scripts && .venv/Scripts/python.exe *)",
+        "Bash(cd /c/Users/norio/my-github-blog && python scripts/*)"
     )
     $argList = @("-p", $Prompt, "--permission-mode", "auto", "--no-session-persistence", "--allowedTools") + $allowed
     if ($Model) { $argList += @("--model", $Model) }

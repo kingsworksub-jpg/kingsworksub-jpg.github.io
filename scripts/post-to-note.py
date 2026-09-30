@@ -4,7 +4,8 @@
 なぜブラウザか:
   note.com には投稿用の公開 API が存在しない（はてなブログは AtomPub がある）。
   そのため Chromium の永続プロファイルにログイン状態を保存し、
-  エディタへの入力だけ自动化する。公開ボタンだけは人が押す（--publish で自動化も可）。
+  エディタへの入力だけ自动化する。公開も `--publish` で自動化するのが既定運用
+  （2026-09-29 ユーザー指示）。保存だけ止める場合は `--save`。
 
 エディタの仕様（2026-09 実測 + 公開事例）:
   - タイトルは通常の input。fill() が効く。
@@ -462,8 +463,11 @@ def publish_note(page, timeout=120):
     page.wait_for_timeout(4000)
 
     # --- 2段目: 投稿する
-    if not click_button_by_text(page, "投稿する", timeout=30):
-        print("  [warn] 公開設定画面の「投稿する」がありません。"
+    # 公開済み記事を再更新する場合は「投稿する」ではなく「更新する」になる
+    # （2026-09-29 実測。タイトル差し替えのとき publish_note() が止まって Manual に落ちた）
+    if not (click_button_by_text(page, "投稿する", timeout=30)
+            or click_button_by_text(page, "更新する", timeout=30)):
+        print("  [warn] 公開設定画面の「投稿する」/「更新する」がありません。"
               "ブラウザ側で手で押してください。", flush=True)
         return None
     print("  「投稿する」を押します…", flush=True)
@@ -887,7 +891,14 @@ def wait_for_login(page, timeout=900):
 # ---------------------------------------------------------------- main
 
 
-def open_editor(p, headless=False):
+def open_editor(p, headless=False, url=None):
+    """ブラウザを起動して編集画面を開く。
+
+    url を渡すとその記事を開く（既存の公開済み記事を更新するとき用）。
+    省略時は新規下書き（editor.note.com/new）を作る。**新規下書きを作るたびに
+    タイトル・本文が空の下書きが1件増える**ので、既存記事触るときは key を渡すこと
+    （2026-09-29 実測）。
+    """
     ctx = p.chromium.launch_persistent_context(
         PROFILE,
         headless=headless,
@@ -906,8 +917,9 @@ def open_editor(p, headless=False):
     page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
     # 初回だけ編集画面が空のことがあるため最大3回リトライする
+    target = url or NEW_NOTE_URL
     for attempt_no in range(1, 4):
-        page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=90000)
+        page.goto(target, wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(12000)
         if is_login_page(page) or page.locator(".ProseMirror").count() > 0:
             break

@@ -33,7 +33,7 @@ SITE_ORIGIN="https://kingsworksub-jpg.github.io"
 # Prefer the project venv. If it is missing, fall back to a real interpreter: on this
 # machine a bare `python` can resolve to the Windows Store stub
 # (WindowsApps/python.exe), which is a 0-byte launcher that exits doing nothing.
-PY="$REPO_ROOT/scripts/x-autopost/.venv/Scripts/python.exe"
+PY="$REPO_ROOT/scripts/.venv/Scripts/python.exe"
 if [ ! -x "$PY" ]; then
   PY=""
   for cand in python3 python; do
@@ -47,7 +47,7 @@ if [ ! -x "$PY" ]; then
   done
   if [ -z "$PY" ]; then
     echo "No usable Python interpreter found (venv missing and python is the Store stub)." >&2
-    echo "Recreate it: python -m venv \"$REPO_ROOT/scripts/x-autopost/.venv\"" >&2
+    echo "Recreate it: python -m venv \"$REPO_ROOT/scripts/.venv\"" >&2
     exit 1
   fi
   echo "warning: project venv missing, falling back to $PY" >&2
