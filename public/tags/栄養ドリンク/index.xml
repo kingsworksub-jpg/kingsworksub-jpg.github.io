@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>栄養ドリンク on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/%E6%A0%84%E9%A4%8A%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF/</link>
+    <description>Recent content in 栄養ドリンク on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/%E6%A0%84%E9%A4%8A%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ドデカミンの味と仕様 — 汗と栄養素が弾ける、現場発の元気ドリンク</title>
+      <link>https://kingsworksub-jpg.github.io/posts/dodecamin-deep-dive-2026/</link>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/dodecamin-deep-dive-2026/</guid>
+      <description>コンビニのレジ横、栄養ドリンクの棚の隣にいつも強炭酸のオレンジ色のボトルが並んでいる。名前の由来はギリシャ語の「12」。12種類の成分を強炭酸に溶かし込んだアサヒ飲料のドデカミンを、パッケージの細部まで見ていく。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ニッカ on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/%E3%83%8B%E3%83%83%E3%82%AB/</link>
+    <description>Recent content in ニッカ on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/%E3%83%8B%E3%83%83%E3%82%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブラックニッカ クリアの味と仕様 — 1,000円を切る軽さの正体</title>
+      <link>https://kingsworksub-jpg.github.io/posts/black-nikka-clear-deep-dive-2026/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/black-nikka-clear-deep-dive-2026/</guid>
+      <description>1956年発売の「ブラックニッカ」シリーズの中でも、もっとも軽くもっとも安いのがこのクリア。実勢価格が1,000円を切ることも珍しくない一本を隅々まで見ていく。ノンピートモルト原酒(ピートを使わず熱風乾燥させたモルト)とグレーンウイス</description>
+    </item>
+  </channel>
+</rss>

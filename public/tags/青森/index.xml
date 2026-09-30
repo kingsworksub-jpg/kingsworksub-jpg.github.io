@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>青森 on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/%E9%9D%92%E6%A3%AE/</link>
+    <description>Recent content in 青森 on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/%E9%9D%92%E6%A3%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>アデリア 津軽びいどろ NEBUTA 酒器セットの仕様と使い方 — ねぶたの夜を、盃の中に閉じ込める</title>
+      <link>https://kingsworksub-jpg.github.io/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/</link>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/</guid>
+      <description>金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。</description>
+    </item>
+  </channel>
+</rss>

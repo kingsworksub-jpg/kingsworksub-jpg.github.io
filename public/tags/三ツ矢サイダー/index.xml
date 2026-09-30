@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>三ツ矢サイダー on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/%E4%B8%89%E3%83%84%E7%9F%A2%E3%82%B5%E3%82%A4%E3%83%80%E3%83%BC/</link>
+    <description>Recent content in 三ツ矢サイダー on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/%E4%B8%89%E3%83%84%E7%9F%A2%E3%82%B5%E3%82%A4%E3%83%80%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三ツ矢サイダーの味と仕様 — 140年変わらない透明な甘さの正体</title>
+      <link>https://kingsworksub-jpg.github.io/posts/mitsuya-cider-original-deep-dive-2026/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/mitsuya-cider-original-deep-dive-2026/</guid>
+      <description>自動販売機でもスーパーでも、当たり前のようにそこにある「三ツ矢サイダー」。缶250ml×20本というオーソドックスな通常版を軸に、この透明な炭酸飲料を一つ一つ見ていく。</description>
+    </item>
+    <item>
+      <title>三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形</title>
+      <link>https://kingsworksub-jpg.github.io/posts/mitsuya-cider-zero-deep-dive-2026/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/mitsuya-cider-zero-deep-dive-2026/</guid>
+      <description>「SINCE 1884」という文字を缶に堂々と刻めるブランドは、そう多くない。142年の歴史を持つ三ツ矢サイダーの、糖類ゼロ・カロリーゼロ版である三ツ矢サイダーZEROを隅々まで見ていく。</description>
+    </item>
+  </channel>
+</rss>

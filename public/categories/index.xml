@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>カテゴリ on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/categories/</link>
+    <description>Recent content in カテゴリ on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 30 Sep 2026 16:15:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fashion</title>
+      <link>https://kingsworksub-jpg.github.io/categories/fashion/</link>
+      <pubDate>Wed, 30 Sep 2026 16:15:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/fashion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://kingsworksub-jpg.github.io/categories/music/</link>
+      <pubDate>Wed, 30 Sep 2026 11:30:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drink</title>
+      <link>https://kingsworksub-jpg.github.io/categories/drink/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/drink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sakeware</title>
+      <link>https://kingsworksub-jpg.github.io/categories/sakeware/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/sakeware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gear</title>
+      <link>https://kingsworksub-jpg.github.io/categories/gear/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/gear/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Whisky</title>
+      <link>https://kingsworksub-jpg.github.io/categories/whisky/</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/whisky/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://kingsworksub-jpg.github.io/categories/software/</link>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup</title>
+      <link>https://kingsworksub-jpg.github.io/categories/setup/</link>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/categories/setup/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

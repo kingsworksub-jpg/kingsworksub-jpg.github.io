@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kingsworksub-jpg.github.io/sitemap.xml

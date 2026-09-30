@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Green Cola on Studio Notes</title>
+    <link>https://kingsworksub-jpg.github.io/tags/green-cola/</link>
+    <description>Recent content in Green Cola on Studio Notes</description>
+    <image>
+      <title>Studio Notes</title>
+      <url>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</url>
+      <link>https://kingsworksub-jpg.github.io/images/og/site-default.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://kingsworksub-jpg.github.io/tags/green-cola/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>green cola(グリーンコーラ)の味と仕様 — ギリシャ生まれ、日本の棚に馴染む黒い一本</title>
+      <link>https://kingsworksub-jpg.github.io/posts/green-cola-deep-dive-2026/</link>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
+      <guid>https://kingsworksub-jpg.github.io/posts/green-cola-deep-dive-2026/</guid>
+      <description>黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。</description>
+    </item>
+  </channel>
+</rss>
