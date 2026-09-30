@@ -18,12 +18,6 @@ ogImageHeight: 630
 
 Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔ぶれは、ジャズ「本流」を超えている。むしろ、ジャズが時代とともに拡張してきた全領域——ソウル、R&B、ヒップホップ——を一堂に集めている。それは、ジャズを「歴史的な音楽」ではなく「生きた現在形」として位置付ける21世紀の発想だ。
 
-<figure class="photo photo--left">
-<img src="/images/jazz-festivals-2026/atlanta-jazz-fest.jpg" alt="Atlanta Jazz Festival 2026" width="220" height="180" loading="lazy">
-<figcaption>Atlanta Jazz Festival は毎年 Memorial Day 週末に開催される。入場無料、朝11時から夜11時まで、Piedmont Park 全域が音楽空間に変わる</figcaption>
-<span class="credit">© Atlanta Jazz Festival</span>
-</figure>
-
 5月のアトランタ。Memorial Day 週末の23日から25日、Piedmont Park に展開する「Atlanta Jazz Festival」は、1960年に遡る歴史を持つ。21年間にわたり、このイベントは「入場料無料・誰でも参加OK」を貫いてきた。Kamasi Washington、The Roots、Esperanza Spalding、Christian McBride——名前だけを見ると最高峰のジャズ・アーティストたちが、スタジアムロックのような大規模フェスの文脈ではなく、公園で日が沈むまで演奏し続ける。
 
 この矛盾こそが、2026年のジャズフェスティバルの本質だ。最高の音楽家たちが、最も民主的な場所で、最も開かれた心で、観衆と向き合っている。アトランタのフェスは朝1時から夜11時まで続く。昼間は家族連れも草の上で聴く。夕方になると、真摯な音楽愛好家たちが三々五々集まってくる。その時間の積層こそが、アトランタ・ジャズ・フェスティバルをアメリカの心臓部に位置付けている。
@@ -33,9 +27,9 @@ Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔�
 7月31日からニューポート。ロードアイランド州、フォート・アダムス州立公園の岬を舞台にした「Newport Jazz Festival」は、今年で72周年を迎える。日本からするとあまり実感がないかもしれないが、ロック、R&B、フォーク、音楽文化全般において、Newport は「現代音楽の実験場」だった。1963年のフォーク・フェスティバルで Bob Dylan が電気ギターを持ち込んだあの場所。その Newport が、2026年に何をしているか。
 
 <figure class="photo photo--right">
-<img src="/images/jazz-festivals-2026/newport-jazz-fest.jpg" alt="Newport Jazz Festival" width="220" height="180" loading="lazy">
-<figcaption>ニューポート・ジャズ・フェスティバルの会場、フォート・アダムス州立公園。大西洋を背景にした野外ステージは、米国東海岸の音楽文化の象徴</figcaption>
-<span class="credit">© Newport Jazz Festival</span>
+<img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy">
+<figcaption>2025年のNewportに立つThe RootsのBlack Thought</figcaption>
+<span class="credit">Photo: Vbrunophotog / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
 Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend たちを配置しながら、Jon Batiste、Thundercat、Robert Glasper、Joshua Redman といった中核メンバーたちが一堂に集う。ここまでなら「いつもの Newport」だ。だが 2026年の Newport の発表を見ていると、Vulfpeck、Snarky Puppy、Lake Street Dive といった、ジャズと呼ぶには「そっちの方が大きい」という種族が現れる。公式な表現は「boundary-pushing, genre-defying」——「境界を超える、ジャンルを定義し直す」。
@@ -47,9 +41,9 @@ Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend
 Montreux は規模だけではなく、「文化的影響力」で Newport と双璧を成している。かつて Prince、Ella Fitzgerald、Miles Davis といった巨人たちがこの地で演奏し、録音された「Live at Montreux」は歴史の証言となった。2026年、Montreux は 60周年を記念して、会場の全面改装を実施した。新しい Duplex（電子音楽用の二階建てクラブ空間）、Paloma（ビーチ・クラブ）、そして再生された Stravinski Auditorium が、旧来の「音楽の権威」を、21世紀のコンテンポラリー・カルチャー・フェスティバルへと変身させた。
 
 <figure class="photo photo--left">
-<img src="/images/jazz-festivals-2026/montreux-jazz-fest.jpg" alt="Montreux Jazz Festival" width="220" height="180" loading="lazy">
-<figcaption>Montreux Jazz Festival の会場は、レマン湖を見下ろすスイス・ジュラ地方の古都。700以上のパフォーマンスと無料プログラムで、欧州最大級の文化イベントへと成長</figcaption>
-<span class="credit">© Montreux Jazz Festival</span>
+<img src="/images/jazz-festivals-2026/montreux-lakeside-2026.jpg" alt="2026年モントルー・ジャズ・フェスティバル、夕暮れのレマン湖畔に集う観客" width="220" height="308" loading="lazy">
+<figcaption>2026年のMontreux。夕陽のレマン湖畔に人が集う</figcaption>
+<span class="credit">Photo: Kalai Ramu / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
 何より驚くべきは、Montreux の「無料プログラム」の充実だ。700以上のコンサート、DJ セット、エクスペリエンス・イベントのうち、**半分以上が無料で公開されている**。つまり、チケット代を払える人だけの祭典ではなく、スイス全土の文化的資産として機能している。22カ国から集う音楽家たち。その半分以上が「Montreux 出演がスイスでの唯一の公演」という立場になるほど、このイベントは北米と欧州を結ぶ音楽の結節点だ。
@@ -59,6 +53,12 @@ Montreux は規模だけではなく、「文化的影響力」で Newport と�
 6月から8月にかけて、北米全土で並行して動く大型フェスティバルが三つある。
 
 「San Francisco Jazz Festival」は、6月16日から8月16日という超・ロング・ランで、複数の室内ホール + テント会場で展開される。Wynton Marsalis Septet（7月14-15日）、Take 6（8月13-16日）、KOKOROKO、Monsieur Periné——ジャズのアコースティック系から、アフロフューチャリズムの最前線まで。Fillmore District（かつてアフリカン・アメリカンの音楽文化の中心地）での July 4-5 ストリート・フェスティバルも、このエコシステムの一部だ。
+
+<figure class="photo photo--right">
+<img src="/images/jazz-festivals-2026/new-orleans-jazz-fest-crowd.jpg" alt="ニューオーリンズ・ジャズ＆ヘリテッジ・フェスティバルのコンゴ・スクエア・ステージ前の観客" width="220" height="146" loading="lazy">
+<figcaption>New Orleans Jazz Fest、Congo Squareステージ前の熱気</figcaption>
+<span class="credit">Photo: thepipe26 / Wikimedia Commons (CC BY 2.0)</span>
+</figure>
 
 4月23日から5月3日、ニューオーリンズの「Jazz & Heritage Festival」は、475,000人という圧倒的な来場者を集める。これは前年比 6% の成長だ。14日間、複数の pavilion（音楽ステージ）に分かれて、ジャズだけではなく、ブルース、ファンク、世界音楽、食文化、アート・ハンディクラフトが共存する。2026年は Jamaica pavilion が特集され、カリブ海の音楽文化との交流プログラムが組まれている。New Orleans Jazz Fest は、音楽というより「生活文化の全体性」を示す事件だ。
 
@@ -75,12 +75,6 @@ Montreux は規模だけではなく、「文化的影響力」で Newport と�
 Jon Batiste は 2026年、複数のメジャー・フェスティバルの headline を担う。Thundercat（ラス・フェレ）は、ベースという楽器の概念を再定義する存在として、Newport、SF Jazz、その他の会場で「異界への入口」を示す。Robert Glasper は、Bilal、Ari Lennox といったR&B / Soul の声の主たちとのコラボレーションで、ジャズと「現代の音」の融合を体現している。
 
 一方、Vulfpeck、Lake Street Dive、Snarky Puppy といった「ジャズ的な技法を持ちながらジャズとは言わないバンド」たちが、フェスティバルの「新生代」として認識されている。彼らはグルーヴを失わない。むしろグルーヴを中心に、その上に複雑さが乗っかる構造だ。
-
-<figure class="photo photo--right">
-<img src="/images/jazz-festivals-2026/jazz-artists-2026.jpg" alt="2026 Jazz Festival Artists" width="220" height="180" loading="lazy">
-<figcaption>Kamasi Washington、Jon Batiste、Robert Glasper、Thundercat。2026年のジャズフェスティバルの主軸を担うアーティストたち。各々が独自の音世界を構築しながら、共通の舞台に集う</figcaption>
-<span class="credit">© Jazz Festival PR</span>
-</figure>
 
 興味深いことに、国際的なアーティストたち——Arlo Parks（ロンドン）、Celeste（イギリス）、Idris Ackamoor（West African traditions と Afrofuturism の結合）——も同じプラットフォームに現れている。Newport がイギリス、アフリカからのアーティストを積極的に booking している背景には、「ジャズはもはやアメリカ発祥の固有文化ではなく、世界中の音楽家が平等に語り直している言語」という認識がある。
 
