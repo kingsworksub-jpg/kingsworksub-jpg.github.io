@@ -17,9 +17,9 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## カルメン・ランディ — 歌とオリジナル曲が編み上げる50年
 
 <figure class="photo photo--left">
-<img src="/images/posts/carmen-lundy-nea-2026.jpg" alt="Carmen Lundy, NEA Jazz Master 2026" width="200" height="220" loading="lazy">
-<figcaption>ジャズ・ヴォーカルの革新者、カルメン・ランディ</figcaption>
-<span class="credit">Photo © Arts.gov / National Endowment for the Arts</span>
+<img src="/images/nea-2026/vintage-microphone.jpg" alt="ヴィンテージの放送用マイク" width="220" height="330" loading="lazy">
+<figcaption>自作曲150以上。自分の言葉で歌い続けた50年（イメージ）</figcaption>
+<span class="credit">Photo: Fourandsixty / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
 1985年のデビュー・アルバム『Good Morning Kiss』は、ジャズ・チャートを23週間走り続けた。しかし、この女性シンガーの本当の力は、150以上の自作曲を手がける作曲家としての側面にあった。ジャズ・ヴォーカル界の多くが標準曲(スタンダード)を唄うなか、ランディは自分の言葉、自分の音で何十年も曲を書き続けてきたのだ。
@@ -33,9 +33,9 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## アイルト・モレイラ — ブラジル・パーカッションの革命児
 
 <figure class="photo photo--right">
-<img src="/images/posts/airto-moreira-nea-2026.jpg" alt="Airto Moreira, Brazilian Percussion Innovator" width="200" height="220" loading="lazy">
-<figcaption>フュージョン時代を定義したパーカッション・マスター</figcaption>
-<span class="credit">Photo © AllAboutJazz / Latin Jazz Network</span>
+<img src="/images/nea-2026/airto-moreira.jpg" alt="カシシを手に歌うアイルト・モレイラ" width="220" height="313" loading="lazy">
+<figcaption>カシシを鳴らして歌うアイルト・モレイラ</figcaption>
+<span class="credit">Photo: Brian McMillen / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
 1941年8月5日生まれのアイルト・モレイラが13歳でプロ音楽家になったとき、ブラジルのジャズ・シーンでさえ、彼がもたらす衝撃の大きさを予見していた者は少なかったはずだ。
@@ -51,9 +51,9 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## パトリス・ラッシェン — ジャズとポップの境界線を消した女性音楽監督
 
 <figure class="photo photo--left">
-<img src="/images/posts/patrice-rushen-nea-2026.jpg" alt="Patrice Rushen, NEA Jazz Master 2026" width="200" height="220" loading="lazy">
-<figcaption>グラミー賞・エミー賞・ピープルズ・チョイス・アワードの音楽監督を務めた</figcaption>
-<span class="credit">Photo © Blue Note Records</span>
+<img src="/images/nea-2026/patrice-rushen.jpg" alt="鍵盤の前で微笑むパトリス・ラッシェン（2010年）" width="220" height="220" loading="lazy">
+<figcaption>鍵盤の前のパトリス・ラッシェン（2010年）</figcaption>
+<span class="credit">Photo: "Cowboy" Ben Alman / Wikimedia Commons (CC BY-SA 2.0)</span>
 </figure>
 
 1970年代のデビュー以来、パトリス・ラッシェンは常に「境界線を引かない」ピアニストだった。クラシックの訓練を受けた手から、ジャズ、R&B、ファンク、ポップが次々と湧き出してきた。彼女が指揮したアルバムの数は14を超え、ジョージ・ベンソン、ライオネル・ハンプトン、ハービー・ハンコック、プリンス、ダイアン・リーヴス、スティーヴィ・ワンダーといった大物たちとの共演記録は、彼女がジャンルを超えた信頼を集めていたことを示している。
