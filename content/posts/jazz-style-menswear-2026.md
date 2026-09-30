@@ -39,6 +39,12 @@ Depop、Vestiaire Collectiveといった二次販売プラットフォーム、T
 
 ### Dapper時代（1920年代-1930年代）
 
+<figure class="photo photo--left">
+<img src="/images/jazz-menswear/duke-ellington-django-1946.jpg" alt="ピアノに向かうジャンゴ・ラインハルトと、ストライプタイにスーツ姿のデューク・エリントン（1946年）" width="220" height="270" loading="lazy">
+<figcaption>デューク・エリントン（右）とジャンゴ・ラインハルト。1946年、ニューヨーク</figcaption>
+<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
+</figure>
+
 Duke Ellingtonの時代、スーツはより緩くなった。裾が広いトラウザーズ、ダブルブレストジャケット、フェドーラハット。洗練と余裕が共存する形だ。ジャズ音楽が登場人物たちの職業であり、彼らはその職業を「見た目で表現する」必要があった。聴衆に訴えかけるのが、音楽だけではなかったからだ。
 
 ### Zoot Suitと反抗（1930年代-1940年代）
@@ -46,6 +52,12 @@ Duke Ellingtonの時代、スーツはより緩くなった。裾が広いトラ
 1930年代、スウィングミュージックが隆盛になると、ゾートスーツが現れた。誇張された比率、巨大なジャケット、高くウエストの上がったワイドレッグトラウザーズ。これは、アフリカ系アメリカ人、ラテン系、イタリア系のコミュニティでの「反抗」であり、支配的な白人文化への異議申し立てだった。
 
 そしてこの時代、ピンストライプスーツは一つのシンボルとなった。Al Caponeとジャズミュージシャンのような「見た目で権力や才能を示す」必要がある人々が、これを選んだ。ピンストライプは「派手に装う人間」のマークだった。
+
+<figure class="photo photo--right">
+<img src="/images/jazz-menswear/dizzy-gillespie-pinstripe-1946.jpg" alt="ピンストライプのスーツでトランペットを手に笑うディジー・ガレスピー（1946年）" width="220" height="293" loading="lazy">
+<figcaption>ピンストライプのスーツを着たディジー・ガレスピー。1946年、52丁目のFamous Door</figcaption>
+<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
+</figure>
 
 1940年代のニューヨーク、52nd Streetの音楽クラブはジャズの中心地。Charlie ParkerとDizzy Gillespieがビバップを生み出した場所。写真に残っているこの時代のミュージシャンたちは、すべてピンストライプかダブルブレストを着ている。それは単なるドレスコードではなく、「音楽の領域に入ったことの証」だった。
 
@@ -100,6 +112,12 @@ Prada、Saint Laurent、Hugo Bossといったメジャーブランドが2025年�
 クリーンなレースアップシューズ、紐で結ぶ靴は、タイトなウール地パンツやワイドレッグデニムとの組み合わせで「今最も強い一手」とされている。ほぼ誰も実践していないから、かえって目立つという逆説がある。形式的な靴が非形式的な下半身と出会う瞬間、それが2026年のメンズスタイルの核になっている。
 
 **ペニーローファー——主流化への3年の歩み**
+
+<figure class="photo photo--left">
+<img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy">
+<figcaption>デニムに白ソックス、足元はペニーローファー</figcaption>
+<span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span>
+</figure>
 
 ローファーは3年前からゆっくり上昇してきた。2026年に到達したのは「主流化」の瞬間だ。特にペニーローファー——ヴァンプ（甲の部分）の清潔さと、シンプルなハードウェアを特徴とする型——が、ビジネスカジュアルからオフデューティまで、あらゆる場面に登場している。素材もバリエーションに富んでいる。スエード、ラフなテクスチャの皮革、大胆な色合い。
 
