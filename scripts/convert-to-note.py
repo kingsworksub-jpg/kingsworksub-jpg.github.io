@@ -54,7 +54,8 @@ def convert_figures(body):
     """<figure class="photo photo--left"> ブロックを Markdown 画像に変える。"""
     pattern = re.compile(
         r'<figure[^>]*>\s*'
-        r'<img\s+src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>\s*'
+        r'(?:<a\s+href="([^"]+)"[^>]*>\s*)?'
+        r'<img\s+src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>\s*(?:</a>\s*)?'
         r'<figcaption>(.*?)(?:<span class="credit">(.*?)</span>)?</figcaption>\s*'
         r'(?:<span class="credit">(.*?)</span>\s*)?'
         r'</figure>',
@@ -62,8 +63,11 @@ def convert_figures(body):
     )
 
     def repl(m):
-        src, alt, caption = m.group(1), m.group(2), m.group(3)
-        credit = m.group(4) or m.group(5) or ""
+        href, src, alt, caption = m.group(1), m.group(2), m.group(3), m.group(4)
+        credit = m.group(5) or m.group(6) or ""
+        # note は画像にリンクを付けられないので、Amazon リンクはキャプションに添える
+        if href and "amazon." in href:
+            caption = re.sub(r"（クリックで[^）]*）", "", caption)
         if src.startswith("/"):
             src = SITE + src
         caption = re.sub(r"\s+", " ", caption).strip()
@@ -73,6 +77,8 @@ def convert_figures(body):
             out += "\n*%s*\n" % caption
         if credit:
             out += "\n（出典: %s）\n" % credit
+        if href and "amazon." in href:
+            out += "\nAmazonで見る: %s\n" % href
         return out
 
     return pattern.sub(repl, body)
