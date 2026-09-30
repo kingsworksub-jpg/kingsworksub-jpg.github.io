@@ -1,22 +1,12 @@
----
-title: "モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代"
-date: 2026-09-30T08:00:00+09:00
-categories:
-  - music
-tags:
-  - jazz
-  - spiritualJazz
-  - DinnerParty
-  - KamasiWashington
-  - Thundercat
-  - RobertGlasper
-  - modernJazz
-description: "2010年代後半から急速に拡大したスピリチュアルジャズのムーブメント。Kamasi Washington、Dinner Party、Thundercatら新世代が拓くジャズの地平。社会正義への声と、ヒップホップ・ソウルへの開放性が生んだ革新的なサウンド。"
-images: ["/images/og/modern-spiritual-jazz-2026.jpg"]
-ogImageWidth: 1200
-ogImageHeight: 630
-draft: false
----
+# タイトル
+モダンジャズの新潮流の現在地
+
+# タグ（1行にまとめて貼り付け）
+
+
+# 本文（ここから貼り付け）
+
+2010年代後半から急速に拡大したスピリチュアルジャズのムーブメント。Kamasi Washington、Dinner Party、Thundercatら新世代が拓くジャズの地平。社会正義への声と、ヒップホップ・ソウルへの開放性が生んだ革新的なサウンド。
 
 2015年が転機だった。5月、ロサンゼルスの若きテナー奏者 Kamasi Washington が『The Epic』という3時間の壮大なアルバムを世に放った。その前後、ヒップホップの帝王 Kendrick Lamar は『To Pimp a Butterfly』で、従来のジャズとは別の何かを求めていた黒人リスナーたちに、歴史と革新が融け合ったジャズの可能性を示した。それから11年。スピリチュアルジャズはもはや「ジャズ好きの秘密の音」ではなく、若い世代が最初に出会うジャズの顔になろうとしている。
 
@@ -75,3 +65,7 @@ Newport Jazz Festival（7月31日〜8月2日）の72周年開催では、Herbie 
 Newport 、Monterey 、Montreux といった歴史あるフェスティバルでも、新進のストリーミング専属アーティストの舞台でも、Kamasi Washington の長時間のサックスから、Thundercat のビート・ボックス的ベース、Shabaka Hutchings の内省的なトーンまで——同じ源流から流れ出ている音が、今、多くの耳に届いている。
 
 それが「モダンジャズの新潮流」の実像だ。トレンドではなく、新世代のジャズ愛好家が創り上げた、次のジャズ伝統の始まり。
+
+---
+
+元記事（ブログ）: https://kingsworksub-jpg.github.io/posts/modern-spiritual-jazz-2026/

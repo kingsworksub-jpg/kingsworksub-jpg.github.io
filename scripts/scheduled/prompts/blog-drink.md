@@ -24,7 +24,8 @@
 
 ## 記事フォーマット
 
-- 型その2（単発製品深掘り）の**タイトル規則と文体**に従う。タイトルは「{テーマ}を隅から隅まで味わい尽くす — {詩的サブタイトル}」形式
+- 型その2（単発製品深掘り）の**タイトル規則と文体**に従う。タイトルは「{テーマ}の現在地 — {詩的サブタイトル}」（前半は記事の副題そのものを要約語にする）
+- **「{テーマ}を隅から隅まで味わい尽くす」のようなありきたりな定型句は使わない**（2026-09-29 ユーザー指示）
 - リサーチは最低10サイト以上（英語圏の音楽メディアと一般メディアの両方）。一次情報（公式・アーティスト公式サイト・報道）を優先
 - 文体・引用ルール・禁止語は既存の他記事と完全に共通。CLAUDE.md の記事フォーマット関連節に従う
 - アフィリエイトバナーは**製品記事ではないため不要**（商品ページがない）。購入導線枠を入れない
@@ -38,7 +39,7 @@
 
 ## 毎回のフルパイプライン
 
-(1) `themes.txt` + `theme-covered.json` でテーマを1つ選ぶ → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿（両方必須）** → (9) `scripts/theme-covered.json`にテーマを追記してcommit。
+(1) `themes.txt` + `theme-covered.json` でテーマを1つ選ぶ → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿（両方必須、noteは公開まで）** → (9) `scripts/theme-covered.json`にテーマを追記してcommit。
 
 ### (8a) はてなブログへの転載
 
@@ -46,18 +47,20 @@
 **`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**（新規記事なので）。
 発行されたEntry IDをCLAUDE.mdの表に追記する。
 
-### (8b) note.com への下書き作成（2026-09-28 から必須）
+### (8b) note.com への公開（2026-09-29 から公開まで自動・必須）
 
-はてなブログと並べて**note.com にも必ずドラフトを作る**。飛ばした状态下は「未完了」とみなす。
+はてなブログと並べて**note.com にも必ず公開する**。下書きで止まるのは「未完了」とみなす。
 
 ```
 python scripts/convert-to-note.py <slug>
-python scripts/post-to-note.py --slug <slug> --save
+python scripts/post-to-note.py --slug <slug> --publish
 ```
 
-- `--save` で下書き保存まで行う。**公開ボタン（`--publish`）は押さない。** 公開はユーザーが後で行う
-- 生成された下書きkey（`https://editor.note.com/notes/<key>/edit/` のkey部分）を CLAUDE.md の「note.com への投稿」節の記録表に追記してcommitする
-- **実行前に `https://note.com/notes?type=draft` を開いて自分の記事件数を確認する。想定より多ければテスト書きの残骸なので、保持する下書き以外を削除してから実行する**（`post-to-note.py` は新規下書きを作るコマンドであり、既存下書きに対して使うと重複する）
+- `--publish` を使う。`--save`（下書きのまま）で終わらせない。**公開URLが返って初めて完了**（`公開しました: https://note.com/<urlname>/n/<key>` の行を必ず確認する）
+- 公開前の下書きチェックは不要。`--publish` は新規下書きを作って公開まで一気に行うコマンド
+- 既存記事（公開済み）をタイトル差し替え等で更新するときだけ、`--publish` を使わず `https://editor.note.com/notes/<key>/edit/` を直接開いて「更新する」→ `/publish/` の「更新する」を押す
+- 公開後の下書きが0件であることも確認する（`https://note.com/notes?type=draft`）。`post-to-note.py` を1回動かすたびに**空の下書きが1件増える**ので、編集画面の「その他」→「削除」で掃除する
+- 公開key（`https://note.com/<urlname>/n/<key>` のkey部分）と公開URLを CLAUDE.md の「note.com への投稿」節の記録表に追記してcommitする
 - noteエディタの仕様（Enterの回数・画像後の脱出シーケンス・figcaption が中央寄せになる問題・画像幅620px→372pxなど）と自動検証の判定基準は CLAUDE.md の「note.com への投稿」節にまとめてある。**実行前に必ず読んでおくこと**
 - noteへの投稿が失敗しても、記事"Is published"とGitHub Pagesへのデプロイは完了している。失敗した旨を最終出力に残し、9) `theme-covered.json` の追記は行う
 
