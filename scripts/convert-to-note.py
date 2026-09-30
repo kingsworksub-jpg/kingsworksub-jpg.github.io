@@ -55,13 +55,15 @@ def convert_figures(body):
     pattern = re.compile(
         r'<figure[^>]*>\s*'
         r'<img\s+src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>\s*'
-        r'<figcaption>(.*?)<span class="credit">(.*?)</span></figcaption>\s*'
+        r'<figcaption>(.*?)(?:<span class="credit">(.*?)</span>)?</figcaption>\s*'
+        r'(?:<span class="credit">(.*?)</span>\s*)?'
         r'</figure>',
         re.DOTALL,
     )
 
     def repl(m):
-        src, alt, caption, credit = m.group(1), m.group(2), m.group(3), m.group(4)
+        src, alt, caption = m.group(1), m.group(2), m.group(3)
+        credit = m.group(4) or m.group(5) or ""
         if src.startswith("/"):
             src = SITE + src
         caption = re.sub(r"\s+", " ", caption).strip()
