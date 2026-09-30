@@ -16,9 +16,9 @@ ogImageHeight: 630
 かつてスカーフは「アクセサリー」だった。首に巻くもの、あるいは頭に巻くもの——控えめで、謙虚な役割に甘んじていた。だが2026年、その定義は完全に変わった。スカーフは衣服そのもになった。
 
 <figure class="photo photo--right">
-<img src="/images/scarf-trend-hermès-top.jpg" width="220" height="280" alt="Hermès 2026年春夏コレクションのスカーフ・トップ" loading="lazy">
-<figcaption>Hermès SS26 でのスカーフ・トップ。スカーフが完全なトップピースとして機能する</figcaption>
-<span class="credit">Hermès S/S 2026 Collection</span>
+<img src="/images/scarf-trend/luxury-scarf-dior.jpg" width="220" height="280" alt="Luxury Dior scarf folded in presentation box" loading="lazy">
+<figcaption>ラグジュアリーブランドのスカーフ。スカーフが完全なトップピースとして機能する</figcaption>
+<span class="credit">Photo: Pexels / Melike B</span>
 </figure>
 
 Hermès が春夏2026年コレクションで発表した「ブラ・スカーフ」は、その宣言そのものだ。スカーフを折り畳み、結び直すことで上半身の衣服に変える——素材としてのスカーフが、幾何学的な創意工夫によって、新しい身体の輪郭を与える。これは単なる「着こなし」の提案ではなく、スカーフというシンプルな矩形が、いかに多様な形態に変容するかの証明である。
@@ -32,9 +32,9 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 **首元のドレープ**が依然として主流だが、その結び方は多岐にわたる。ルーズな結びでシャツやブレザーに合わせるパリジャン・スタイル、古典的な対角折りたたみ・結び——これらは今も有効だが、2026年には新しい変種が加わった。
 
 <figure class="photo photo--left">
-<img src="/images/scarf-styling-multi-position.jpg" width="220" height="300" alt="スカーフの多角的な巻き方：首、髪、腰" loading="lazy">
-<figcaption>首、髪、腰——同じスカーフが身体の異なる部位で異なる役割を果たす</figcaption>
-<span class="credit">Fashion Styling Reference 2026</span>
+<img src="/images/scarf-trend/scarf-styling-neck.jpg" width="220" height="300" alt="Woman wearing scarf around neck with elegant styling" loading="lazy">
+<figcaption>首元のスカーフスタイリング。同じスカーフが身体の異なる部位で異なる役割を果たす</figcaption>
+<span class="credit">Photo: Pexels / Fashion</span>
 </figure>
 
 **髪へのスカーフ**は、特に若い世代で急速に採用が進んでいる。TikTok や Instagram 上では、ヘッドバンド風に巻いたスカーフ、ポニーテールのアクセント、シニヨン（お団子）への巻き付けが、あたかも新種のヘアスタイルであるかのように扱われている。これは1950年代のジャッキー・ケネディから70年代のソフィア・ローレンまで、歴史的なアイコンが示してきた結び方の再発見であり、かつジェン・Z による解釈の更新でもある。
@@ -50,9 +50,9 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 その象徴が「長スカーフ」の復権だ。短め、正方形のハンカチスカーフではなく、肩から膝まで流れ落ちるような細長いスカーフが、TikTok や Depop（ヴィンテージ販売プラットフォーム）で探求されている。この形状は 2000年代初頭を特徴付けるものであり、その時代の「洗練されていない、しかし魅力的な」美学を現代に持ち込もうとする試みにも見える。
 
 <figure class="photo photo--right">
-<img src="/images/scarf-y2k-revival.jpg" width="220" height="310" alt="長スカーフのY2K風スタイリング" loading="lazy">
-<figcaption>長スカーフがアスコットのように首に巻かれたり、腰に結ばれたりするY2K風のスタイリング</figcaption>
-<span class="credit">Y2K Fashion Archive / Depop Styling</span>
+<img src="/images/scarf-trend/scarf-colorful.jpg" width="220" height="310" alt="Colorful scarf in Y2K fashion style" loading="lazy">
+<figcaption>多彩な色彩のスカーフがアスコットのように首に巻かれるY2K風のスタイリング</figcaption>
+<span class="credit">Photo: Pexels / Fashion</span>
 </figure>
 
 同時に、1940年代のニューヨーク、1950年代のハリウッド、1970年代のボヘミアン美学といった歴史的な層も視認できる。つまり 2026 年のスカーフ・トレンドは、複数の時代が同時に並走している状態だ。着者は、自らが参照したい時代を選び、そこからスカーフの巻き方を借用し、現在の身体に装着する——その過程で、時代は相対化され、スカーフは「歴史へのアクセス・ポイント」となる。
@@ -68,9 +68,9 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 キルト加工、シェルパ素材、フェイクファーのような複合素材が、高級ブランドと廉価ブランドを問わず採用されている。Hermès が素材の混成を試みるのであれば、Quince（廉価なカシミア・メリノ専門）も同様に複合テクスチャーを探索している。これは、素材の多様化が、もはや価格帯による分断ではなく、美学的な選択になったことを示唆している。
 
 <figure class="photo photo--left">
-<img src="/images/scarf-texture-evolution.jpg" width="220" height="290" alt="2026年のスカーフ素材：キルト、シェルパ、メタリック" loading="lazy">
-<figcaption>単一素材から複合テクスチャへ。キルト加工とシェルパの組み合わせが、秋冬2026年の特徴</figcaption>
-<span class="credit">Scarf Material Trend Report 2026</span>
+<img src="/images/scarf-trend/silk-texture-coral.jpg" width="220" height="290" alt="Silk scarf texture in coral and pink tones" loading="lazy">
+<figcaption>単一素材から複合テクスチャへ。シルクの深みあるテクスチャが秋冬2026年の特徴</figcaption>
+<span class="credit">Photo: Pexels / Julie Aagaard</span>
 </figure>
 
 **サステナビリティの規制圧力**も、素材選定に大きな影響を与えている。EU の新しいテキスタイル規制により、ラグジュアリーブランドは調達元を可視化し、環理認証を得たカシミア、オーガニックシルクへの移行を余儀なくされている。これは、環境負荷を理由とした制約ではなく、逆説的に「素材の透明性」が新しい付加価値になる状況を生み出している。Hermès、Chanel、Saint Laurent などは、そうした認証素材の使用を公言し始め、それがむしろブランド・アイデンティティの一部となりつつある。
@@ -86,9 +86,9 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 また、TikTok や Instagram での「DIY スタイリング」文化も、スカーフの地位を押し上げている。ジェン・Z は、ブランド既成品の着こなしではなく、素材の多用途的な使用法を発見し、共有することに快感を覚えている。スカーフ・トップ、ウエスト結び、ヘッドバンド、アスコット——同じアイテムが複数の形態を持つことが、その創意工夫の対象になる。
 
 <figure class="photo photo--right">
-<img src="/images/scarf-diy-styling-tiktok.jpg" width="220" height="310" alt="TikTok での DIY スカーフスタイリング" loading="lazy">
+<img src="/images/scarf-trend/scarf-diy-creative.jpg" width="220" height="310" alt="Creative DIY scarf styling experiment" loading="lazy">
 <figcaption>同じスカーフが複数の結び方で異なる表情を見せる。DIY スタイリングの実験場としてのスカーフ</figcaption>
-<span class="credit">TikTok Fashion Trends 2026</span>
+<span class="credit">Photo: Pexels / Fashion & Styling</span>
 </figure>
 
 ## 価格帯と選択肢の民主化
