@@ -3,6 +3,10 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "android/**"
+      - ".github/workflows/topics-app.yml"
+      - "scripts/topic-skips/**"
   workflow_dispatch:
 
 permissions:
