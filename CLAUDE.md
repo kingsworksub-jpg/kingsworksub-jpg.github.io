@@ -189,6 +189,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代（テーマ記事「モダンジャズの新潮流」） | https://kinbro.hatenablog.com/entry/2026/09/30/092501 | 14945776032084177549 |
 | スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://kinbro.hatenablog.com/entry/2026/09/30/112243 | 14945776032084327276 |
 | Bowers & Wilkins 685を全機能解剖 — 黄色いコーンが鳴らす、英国流の開放感 | https://kinbro.hatenablog.com/entry/2026/10/01/083002 | 14945776032084538870 |
+| Cubase Pro 15を全機能解剖 — Doricoの譜面エンジンを抱えたDAWをスコアエディターから読み解く | https://kinbro.hatenablog.com/entry/2026/10/01/092148 | 14945776032084553828 |
+| CUBASE 15 & 15 PRO ユーザーガイドの内容と活用法 — 128ページで制作の流れをつかむ | https://kinbro.hatenablog.com/entry/2026/10/01/092155 | 14945776032084553845 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -266,6 +268,8 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代 | https://note.com/shining_finger01/n/n4e882973804f | `n4e882973804f` | **公開済(2026-09-30)** |
 | スカーフスタイリングの現在地 — 最小限の素材が、最大限の表現になる2026年 | https://note.com/shining_finger01/n/ndee7acba7533 | `ndee7acba7533` | **公開済(2026-09-30)** |
 | Bowers & Wilkins 685を全機能解剖 — 黄色いコーンが鳴らす、英国流の開放感 | https://note.com/shining_finger01/n/n4b561c4f324a | `n4b561c4f324a` | **公開済(2026-10-01)** |
+| Cubase Pro 15を全機能解剖 — Doricoの譜面エンジンを抱えたDAWをスコアエディターから読み解く | https://note.com/shining_finger01/n/ndf382a00e613 | `ndf382a00e613` | **公開済(2026-10-01)** |
+| CUBASE 15 & 15 PRO ユーザーガイドの内容と活用法 — 128ページで制作の流れをつかむ | https://note.com/shining_finger01/n/n09c4734ae7b5 | `n09c4734ae7b5` | **公開済(2026-10-01)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
