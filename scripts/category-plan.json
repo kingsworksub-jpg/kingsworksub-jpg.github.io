@@ -1,0 +1,47 @@
+[
+ {
+  "id": "gear",
+  "name": "機材レビュー",
+  "weight": 1.0
+ },
+ {
+  "id": "software",
+  "name": "DTMソフト・Tips",
+  "weight": 1.0
+ },
+ {
+  "id": "setup",
+  "name": "制作環境公開",
+  "weight": 1.0
+ },
+ {
+  "id": "learning",
+  "name": "スクール・学習",
+  "weight": 1.0
+ },
+ {
+  "id": "whisky",
+  "name": "ウイスキー",
+  "weight": 1.0
+ },
+ {
+  "id": "drink",
+  "name": "飲料",
+  "weight": 1.0
+ },
+ {
+  "id": "sakeware",
+  "name": "酒器",
+  "weight": 1.0
+ },
+ {
+  "id": "fashion",
+  "name": "ファッション",
+  "weight": 1.0
+ },
+ {
+  "id": "music",
+  "name": "音楽",
+  "weight": 1.0
+ }
+]
