@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Blocks a push that adds a post failing scripts/validate_post.py.
+# Install: cp scripts/hooks/pre-push .git/hooks/pre-push
+# Only newly added posts are checked, so edits to older posts are never blocked.
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+PY="$REPO_ROOT/scripts/.venv/Scripts/python.exe"
+[ -x "$PY" ] || PY="$(command -v python3 || command -v python)"
+z40=0000000000000000000000000000000000000000
+slugs=""
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "$z40" ] && continue
+  if [ "$remote_sha" = "$z40" ]; then range="$local_sha"; else range="$remote_sha..$local_sha"; fi
+  for f in $(git diff --name-only --diff-filter=A "$range" -- 'content/posts/*.md' 2>/dev/null); do
+    [ -f "$REPO_ROOT/$f" ] && slugs="$slugs $(basename "$f" .md)"
+  done
+done
+[ -z "$slugs" ] && exit 0
+PYTHONIOENCODING=utf-8 "$PY" "$REPO_ROOT/scripts/validate_post.py" $slugs || {
+  echo "pre-push: 新しい記事が品質チェックに通らないため push を中止しました（scripts/validate_post.py）。" >&2
+  exit 1
+}

@@ -10,7 +10,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24、ユーザー指示)**: 記事本文の生成・執筆は、ローカルのOllama(`github_blog_auto_poster.py`の`qwen2.5:14b`)/llava等ではなく、**opencode の big-pickle モデルで行う**。今後の投稿時もすべてこの方針を踏襲すること。ブログ記事は big-pickle がリサーチ・執筆し、Hugo ビルド → commit & push → GitHub Actions デプロイ確認まで行う。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 改訂、ユーザー指示)**: 自動投稿の実行エンジンは **Claude Code と opencode の big-pickle を1日ごとに切り替える**（下記「自動投稿パイプライン」参照）。ローカルの Ollama は使わない。どちらのエンジンでも、新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
@@ -50,25 +50,39 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - 酒器の個別深掘り(2026-09-19〜2026-09-21、17本。カテゴリ`sakeware`。【2026-09-27 廃止】)
 - ジャズ/音楽の一般記事(2026-09-24〜、カテゴリ`music`。下記「自動継続タスク: テーマ記事の定期投稿」参照)
 
-## 自動継続タスク: テーマ記事の定期投稿(2026-09-27、ユーザー指示で開始)
+## 自動投稿パイプライン（2026-10-01 全面改修、ユーザー指示）
 
-ユーザー指示: 「炭酸飲料と酒器の交互切り替えはテスト的に作成したフローなので廃止して」「系統選択は `my-github-blog/scripts/themes.txt` から取得してほしい」。
+**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**8記事まで**（手動投稿も含む）。
+旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
-炭酸飲料(drink)と酒器(sakeware)の交互選択は**テスト導入だったものを恒久的に廃止**し、単一系統の**テーマ記事**パイプラインに置き換えた。
-
-- **実装方式**: 変更なし。**Windowsタスクスケジューラ**のタスク`KingsWork-Blog-Drink`が**1時間に1回(毎時15分)**、`scripts/scheduled/run-claude-task.ps1`経由でヘッドレスの`claude -p`を起動し、`scripts/scheduled/prompts/blog-drink.md`の指示で1記事分のパイプラインを実行する。タスクの再登録は`scripts/scheduled/register-tasks.ps1`、ログは`scripts/scheduled/logs/`(gitignore)。
-- **ネタ元**: `scripts/themes.txt`(1行1テーマ、2026-09-27時点で14件)。ここが唯一のネタ元であり、**Amazon検索・Playwrightスクレイピングは使わない**。空行と`#`始まりの行は読み飛ばす。
-- **重複防止**: `scripts/theme-covered.json`の`covered`配列で管理する(**ASINではなくテーマ文字列**)。選ぶ前に必ず確認し、公開後に`theme`/`slug`/`date`/`note`を追記してcommitする。**このファイルがテーマ重複防止の唯一の永続的な状態なので、更新を絶対に忘れないこと**。2026-09-27作成時点で、既存記事と重複する2テーマ(`jazzで使用される楽器`と`フリー・ジャズの革命と生涯`)を事前登録して除外してある。
-- **カテゴリ**: 新設なし。音楽・ジャズ系は既存`music`、ファッション系は既存`fashion`を使う(どちらも`hugo.toml`の`[menu]`に登録済み)。1記事につき必ず**1つだけ**指定する。
-- **記事フォーマット**: タイトルは下記「記事の型その1」7番の規則(記事ごとに言い回しを変える。「{テーマ}の現在地 — 」のような固定の型は2026-10-01に廃止)、文体は型その2を踏襲。**「{テーマ}を隅から隅まで味わい尽くす」のような定型句は使わない(2026-09-29、ユーザー指示)**。ただし**製品記事ではない**ため、アフィリエイトバナー(`.product-banner`)は入れない(商品ページがない)。評価軸・レーダーチャートは使わない(比較対象がない)。文体・引用ルール・研究ルール(最低10サイト)・禁止語は他記事と完全に共通。
-- **画像**: 記事に適した画像を挿入する。配置は `photo photo--left`/`photo photo--right` で文字を回り込ませ、1行10文字以下にしない(画像幅220px以下、向かい合う2枚の間は180px以上)。
-- **毎回のフルパイプライン**: (1) `themes.txt`+`theme-covered.json`で未着手テーマを1つ選ぶ(残りがなければ何もせず終了) → (2) Agent(general-purpose)で最低10サイト以上リサーチ → (3) 記事執筆(`content/posts/`) → (4) 画像取得(`static/images/`) → (5) `hugo --minify`でビルド確認 → (6) commit & push → (7) GitHub Actionsデプロイ確認 → (8) **はてなブログとnote.comへの投稿**（下記参照。両方必須） → (9) `scripts/theme-covered.json`にテーマを追記してcommit。**Xへの自動投稿は2026-09-27に廃止済み**(`feed_check.py`/`main.py`は実行しない)。
-  - **(8a) はてなブログ**: `scripts/extract-post-html.sh`+`scripts/post-to-hatena.sh`ではてなブログに新規投稿(**`post-to-hatena.sh`を使う。`update-hatena-post.sh`ではない**)、発行されたEntry IDをCLAUDE.mdの表に追記。
-  - **(8b) note.com（2026-09-28 から必須 → 2026-09-29 から公開まで自動）**: `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`。**下書きで止めない。公開URL(`https://note.com/shining_finger01/n/<key>`)が返って初めて完了**。**公開keyと公開URLを CLAUDE.md のnote記録表に追記する**。実行後は `https://note.com/notes?type=draft` の下書きが0件であることを確認し、`post-to-note.py` が作る空の下書き(タイトルなし)は編集画面の「その他」→「削除」で掃除する。既存公開済み記事の更新は `--publish` を使わず `editor.note.com/notes/<key>/edit/` を直接開いて「更新する」→ `/publish/` の「更新する」。詳細仕様は下記「note.com への投稿」節を参照。
-  - **完了条件**: 「(1)〜(9)すべて」＝**記事公開 → はてな転載 → note公開 → `theme-covered.json` 追記**。**はてなだけ投稿して note を飛ばした場合は「未完了」とみなす**。**note は下書き作成だけでも「未完了」とみなす**。
-
-- **旧記録(参考・再開禁止)**: `scripts/carbonation-covered.json`と`scripts/sakeware-covered.json`は炭酸/酒器時代のASIN記録として**温存するが、以降は使わない**。再開する指示が出ても本セクションの`themes.txt`方式に戻さないこと。
-- **停止方法**: ユーザーから「止めて」と言われたら`Disable-ScheduledTask -TaskName KingsWork-Blog-Drink`。状態確認は`Get-ScheduledTask -TaskName KingsWork-*`と`scripts/scheduled/logs/`。
+- **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
+  - `blog-automation-task`: 投稿。毎日 07:15〜21:15 の2時間おき8回。指示文 `scripts/scheduled/prompts/blog-post.md`
+  - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
+  - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
+- **実行エンジンは日替わり**（ユーザー指示）: 2026-10-01 を0日目として偶数日 = Claude Code、奇数日 = opencode big-pickle
+  （`run-claude-task.ps1` の `-Engine auto` と `topic_plan.py engine` が同じ規則）。手動の作業はこの規則に関係なく Claude Code で行う。
+- **品質の安全装置**: 新しい記事は `scripts/validate_post.py <slug>` に通ったものだけ公開する（本文の長さ、簡体字や他言語の混入、
+  禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ）。
+  さらに `.git/hooks/pre-push`（原本 `scripts/hooks/pre-push`）が、push に含まれる**新規追加の記事**を同じ検査にかけ、NG なら push を止める。
+  連続3回失敗すると投稿ジョブは自動で止まる（`topic_plan.py health`）。
+- **管理スクリプト** `scripts/topic_plan.py`: status / allocate / today-count / engine / similar / add / claim / complete / fail / reject /
+  sync-skips / images / news / calendar / matrix / gaps / health / bootstrap（使い方は冒頭の docstring）。
+- **データ**: `scripts/topics-queue.json`（キュー。status = approved / in_progress / published / failed / rejected / hold / deleted）、
+  `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。均等）、
+  `scripts/topic-sources.json`（カテゴリー別RSS）、`scripts/topic-calendar.json`（月ごとの季節ネタ）、`scripts/topic-matrix.json`（定番テーマの軸）、
+  `scripts/pipeline-status.json`（アプリ表示用の状態）。
+- **配分**: 直近60本に占める割合と目標（均等）の差＋最後の投稿からの日数で優先度を出し、1件ずつ再計算しながら配る。同じカテゴリーは連続させない。
+- **採点**: 重複25／事実確認20／画像20／季節15／検索需要10／Amazon10。60点未満は不採用。画像（ライセンス確認済み2件以上）が無いネタは不採用。
+  製品中心でなくてよい（Amazon は加点のみ）。
+- **新カテゴリー**: 既存に合わない有力候補が3件以上出るときだけ、週1つまで作ってよい（category-plan.json・hugo.toml・layouts/index.html を更新）。
+- **持ち込みネタ**: `scripts/themes.txt` に1行書くと、次のネタ会議で最優先で採用される（取り込んだ行は削除される）。
+- **Android アプリ「ブログのネタ」**（`android/topics-app/`、Kotlin + Compose）: キューと状態を GitHub API で表示。ネタを削除すると
+  `scripts/topic-skips/<id>.json` を作成し、パイプラインは `sync-skips`（claim 時にも自動実行）で `deleted` にしてスキップする。
+  APK は GitHub Actions（`.github/workflows/topics-app.yml`）がビルドし、Release `topics-app-latest` に置く。署名鍵は Secrets
+  （`TOPICS_KEYSTORE_*`）と `.secrets/topics-app.jks`（git管理外の控え）。削除には fine-grained トークン（Contents 読み書き）をアプリに入力する。
+  `hugo.yml` はアプリ・スキップファイルだけの push ではデプロイしない。
+- **停止方法**: 「止めて」と言われたら `Disable-ScheduledTask -TaskName blog-automation-task`（ネタ会議は止めなくてよい）。
+  カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。
 
 ## 自動続続タスク: 海外ジャズ記事のXポスト(……**2026-09-29 完全削除**、再開禁止)
 

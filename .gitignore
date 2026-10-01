@@ -12,3 +12,6 @@ scripts/indexing/credentials*.json
 
 # note.com 自動投稿用の Chromium プロファイル（cookie / セッションが含まれる）
 data/note_user_data/
+
+# ネタ会議の一時ファイル
+scripts/.topic-candidates.json

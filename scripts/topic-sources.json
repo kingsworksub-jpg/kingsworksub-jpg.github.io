@@ -1,0 +1,44 @@
+{
+ "_comment": "カテゴリーごとのニュースRSS。topic_plan.py news <category> が直近の見出しを取得する。2026-10-01 に取得できることを確認したものだけを登録。",
+ "gear": [
+  "https://www.phileweb.com/rss.php",
+  "https://av.watch.impress.co.jp/data/rss/1.0/avw/feed.rdf",
+  "https://www.gizmodo.jp/index.xml",
+  "https://www.gearnews.com/feed/"
+ ],
+ "software": [
+  "https://dtmstation.com/feed",
+  "https://sleepfreaks-dtm.com/feed/",
+  "https://www.synthtopia.com/feed/",
+  "https://www.musicradar.com/feeds.xml"
+ ],
+ "setup": [
+  "https://dtmstation.com/feed",
+  "https://www.gizmodo.jp/index.xml",
+  "https://www.lifehacker.jp/feed/index.xml"
+ ],
+ "learning": [
+  "https://sleepfreaks-dtm.com/feed/",
+  "https://www.lifehacker.jp/feed/index.xml"
+ ],
+ "whisky": [
+  "https://www.whiskyintelligence.com/feed/",
+  "https://prtimes.jp/index.rdf"
+ ],
+ "drink": [
+  "https://prtimes.jp/index.rdf"
+ ],
+ "sakeware": [
+  "https://www.sakeworld.jp/feed/",
+  "https://prtimes.jp/index.rdf"
+ ],
+ "fashion": [
+  "https://www.wwdjapan.com/feed",
+  "https://www.fashionsnap.com/rss.xml"
+ ],
+ "music": [
+  "https://bluenote.com/feed/",
+  "https://www.musicradar.com/feeds.xml",
+  "https://www.japantimes.co.jp/feed/"
+ ]
+}
