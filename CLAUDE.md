@@ -191,6 +191,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感 | https://kinbro.hatenablog.com/entry/2026/10/01/083002 | 14945776032084538870 |
 | Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能 | https://kinbro.hatenablog.com/entry/2026/10/01/092148 | 14945776032084553828 |
 | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | https://kinbro.hatenablog.com/entry/2026/10/01/092155 | 14945776032084553845 |
+| 5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー | https://kinbro.hatenablog.com/entry/2026/10/01/144357 | 14945776032084657450 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -270,6 +271,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感 | https://note.com/shining_finger01/n/n4b561c4f324a | `n4b561c4f324a` | **公開済(2026-10-01)** |
 | Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能 | https://note.com/shining_finger01/n/ndf382a00e613 | `ndf382a00e613` | **公開済(2026-10-01)** |
 | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | https://note.com/shining_finger01/n/n09c4734ae7b5 | `n09c4734ae7b5` | **公開済(2026-10-01)** |
+| 5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー | https://note.com/shining_finger01/n/nb2ef40ad13c4 | `nb2ef40ad13c4` | **公開済(2026-10-01)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
