@@ -1,5 +1,5 @@
 ---
-title: "オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人"
+title: "オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ"
 description: "各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——Focusrite Scarlett 2i2(4th Gen)、Universal Audio Volt 276、RME Babyface Pro"
 images: ["/images/og/audio-interface-5choice-2026.jpg"]
 ogImageWidth: 1200
@@ -144,4 +144,4 @@ VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感�
 
 
 
-**関連記事**: [DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手](/posts/midi-keyboard-5choice-2026/) · [サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか](/posts/sampler-5choice-2026/) · [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する](/posts/scarlett-2i2-deep-dive-2026/)
+**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する](/posts/scarlett-2i2-deep-dive-2026/)

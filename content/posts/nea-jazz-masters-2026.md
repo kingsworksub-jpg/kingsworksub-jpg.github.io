@@ -1,11 +1,13 @@
 ---
-title: "NEA ジャズマスターズ2026の現在地 — グラミー賞を超える栄誉、三大巨匠の光彩"
+title: "NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩"
 description: "2026年のNEA Jazz Masters受賞者を紹介。ヴォーカル、パーカッション、キーボードの三領域で、現代ジャズを形作った巨匠たちの軌跡と、いま現在の活動を追う。"
 date: 2026-09-30
 lastmod: 2026-09-30
 tags: ["jazz", "nea-jazz-masters", "carmen-lundy", "airto-moreira", "patrice-rushen"]
 categories: ["music"]
 images: ["/images/og/nea-jazz-masters-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 slug: "nea-jazz-masters-2026"
 draft: false
 ---

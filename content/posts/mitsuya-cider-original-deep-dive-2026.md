@@ -1,5 +1,5 @@
 ---
-title: "三ツ矢サイダーの味と仕様 — 140年変わらない透明な甘さの正体"
+title: "三ツ矢サイダーの透明な甘さは140年でどう守られてきたか"
 description: "自動販売機でもスーパーでも、当たり前のようにそこにある「三ツ矢サイダー」。缶250ml×20本というオーソドックスな通常版を軸に、この透明な炭酸飲料を一つ一つ見ていく。"
 images: ["/images/og/mitsuya-cider-original-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -64,4 +64,4 @@ Amazon.co.jpでは缶250ml×20本が1,500円前後、1本あたり75〜80円ほ�
 140年前の鉱泉水から始まったブランドが、今も変わらず「甘くて爽やかな透明炭酸」という立ち位置を守り続けているのは、なかなか珍しいことだと思う。強炭酸や無糖系が増えている中で、あえて昔ながらの甘さのある通常版を選ぶのも、たまには悪くない選択肢だ。
 
 
-**関連記事**: [三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネの味と仕様 — 果汁ゼロで蘇る、あの瓶の記憶](/posts/crystal-spark-ramune-deep-dive-2026/) · [CRYSTAL SPARK グレープソーダの味と仕様 — 香りだけで満足させる無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの味と仕様 — 改名の裏にあった二重の意味](/posts/oza-soda-deep-dive-2026/)
+**関連記事**: [三ツ矢サイダーZEROは142年目に見つけたゼロの答え](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる](/posts/crystal-spark-ramune-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの改名に込められた二つの意味](/posts/oza-soda-deep-dive-2026/)

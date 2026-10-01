@@ -1,5 +1,5 @@
 ---
-title: "津軽びいどろ 片口あじさいの仕様と使い方 — 龍飛崎の紫陽花を写した一滴"
+title: "津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花"
 description: "冷酒を注ぐ器といえば徳利を思い浮かべる人が多いと思うが、注ぎ口が開いた「片口」という形もある。アデリアの「津軽びいどろ 片口あじさい」を、この夏らしい水色の器として見ていく。"
 images: ["/images/og/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -72,4 +72,4 @@ aliases:
 漁業の浮き玉づくりから始まった技術が、紫陽花の色を映す酒器にたどり着いている、というのがこの片口の面白いところだと思う。派手さより季節感を選びたいときに、食卓に置いておきたい一品だ。
 
 
-**関連記事**: [津軽びいどろ みずばしょう酒器セットの仕様と使い方 — 湿地に咲く白い花を、青いガラスに閉じ込めて](/posts/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026/) · [アデリア 津軽びいどろ NEBUTA 酒器セットの仕様と使い方 — ねぶたの夜を、盃の中に閉じ込める](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)
+**関連記事**: [湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょう酒器セット](/posts/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026/) · [ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)

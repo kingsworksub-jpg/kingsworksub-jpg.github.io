@@ -1,5 +1,5 @@
 ---
-title: "カナダドライ ジンジャーエールの味と仕様 — 禁酒法時代を生き延びた甘口の実力"
+title: "禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール"
 description: "モスコミュールやハイボールの割材として、名前だけは誰でも知っているであろう定番ブランド。1904年にカナダで生まれ、禁酒法時代のアメリカを生き延びたという歴史を持つカナダドライ ジンジャーエールを隅々まで見ていく。"
 images: ["/images/og/canada-dry-ginger-ale-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -67,4 +67,4 @@ aliases:
 100年以上前に「シャンパンのように洗練された一杯を」という発想で生まれた飲み物が、形を変えながらも今もバーカウンターの定番であり続けているのは、素直にすごいことだと思う。甘口・辛口という好みの分かれ目も含めて、ジンジャーエールという小さなジャンルの奥深さを教えてくれる一本だ。
 
 
-**関連記事**: [キレートレモン Wレモンの味と仕様 — レモン2個分の酸味に振り切った一本](/posts/kiretolemon-wlemon-deep-dive-2026/) · [カナダドライ ザ・タンサン ストロングの味と仕様 — 泡だけを、とことん信じてみる](/posts/canada-dry-tansan-strong-deep-dive-2026/) · [コカ・コーラ アイシー・スパーク from カナダドライ レモンの味と仕様 — 「史上最強」と喉に刺さる泡の正体](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/) · [キリンレモン 炭酸水の味と仕様 — 1928年の透明感を無糖で受け継ぐ](/posts/kirin-lemon-sparkling-deep-dive-2026/)
+**関連記事**: [レモン2個分の酸味に振り切った、キレートレモン Wレモン](/posts/kiretolemon-wlemon-deep-dive-2026/) · [カナダドライ ザ・タンサン ストロングは泡だけで勝負する](/posts/canada-dry-tansan-strong-deep-dive-2026/) · [「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/) · [キリンレモン 炭酸水が無糖で受け継ぐ1928年の透明感](/posts/kirin-lemon-sparkling-deep-dive-2026/)

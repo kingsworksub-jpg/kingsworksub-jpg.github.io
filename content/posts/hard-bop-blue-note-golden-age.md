@@ -1,5 +1,5 @@
 ---
-title: "ハードバップとブルー・ノート黄金時代をたどる — アート・ブレイキーと1950-60年代の名盤が鳴らした熱"
+title: "アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる"
 description: "「ハードバップ」と聞いて、どんな音を思い浮かべるだろうか。高らかに吹き鳴らされるホーン、たたみかけるスネアの切れ味。それなのに、なぜか鼻歌を口ずさみたくなるような、歌心のあるメロディ。"
 images: ["/images/og/hard-bop-blue-note-golden-age.jpg"]
 ogImageWidth: 1200
@@ -70,4 +70,4 @@ tags: ["ハードバップ", "Blue Note", "Art Blakey", "Jazz Messengers", "モ�
 
 <p>コード進行を追うよりも、音符の一つ一つが持つ「意味」を感じる音楽。ハードバップは、知的でいて、決して博識ぶらない。それは1950年代の黒人コミュニティの声であると同時に、いまの私たちにも手渡しできる、体温の記録だ。アート・ブレイキーが最後まで若者と演じ続けようとした音楽院は、いまだに入学自由。今日この夜、ブルー・ノートの青いジャケットに、あなたの席は用意されている。</p>
 
-**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/) · [ジャズの楽器を基礎から](/posts/jazz-instruments-guide/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [バレエフラットの次はジャズシューズ、2026年の足元に響く70年代](/posts/jazz-shoes-trend-2026/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)

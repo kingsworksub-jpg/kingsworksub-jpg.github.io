@@ -1,5 +1,5 @@
 ---
-title: "OZA SODAの味と仕様 — 改名の裏にあった二重の意味"
+title: "OZA SODAの改名に込められた二つの意味"
 description: "楽天のランキングで水・ソフトドリンク部門1位を何度も獲得している、じわじわと支持を広げている強炭酸水がある。もとは「ZAO SODA」という名前だったこの炭酸水、OZA SODAを隅々まで見ていく。"
 images: ["/images/og/oza-soda-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -66,4 +66,4 @@ aliases:
 改名というのは普通ブランドにとってリスクの大きい決断だと思うが、旧ファンとのつながりをアナグラムで残しつつ「王座」という新しい野心を掲げる、というバランスの取り方には素直に感心する。名前を変えてなお売れ続けているのが、その判断の正しさを物語っている気がする。
 
 
-**関連記事**: [三ツ矢サイダーの味と仕様 — 140年変わらない透明な甘さの正体](/posts/mitsuya-cider-original-deep-dive-2026/) · [三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネの味と仕様 — 果汁ゼロで蘇る、あの瓶の記憶](/posts/crystal-spark-ramune-deep-dive-2026/) · [CRYSTAL SPARK グレープソーダの味と仕様 — 香りだけで満足させる無糖設計](/posts/crystal-spark-grape-deep-dive-2026/)
+**関連記事**: [三ツ矢サイダーの透明な甘さは140年でどう守られてきたか](/posts/mitsuya-cider-original-deep-dive-2026/) · [三ツ矢サイダーZEROは142年目に見つけたゼロの答え](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる](/posts/crystal-spark-ramune-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/)

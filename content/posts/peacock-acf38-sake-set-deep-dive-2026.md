@@ -1,5 +1,5 @@
 ---
-title: "ピーコック 真空二重構造 酒器セットの仕様と使い方 — 魔法瓶メーカーが本気で作った、温度を止める徳利"
+title: "温度を止める徳利、ピーコックの真空二重構造 酒器セット"
 description: "徳利とおちょこなのに、中身は魔法瓶。大阪の老舗魔法瓶メーカー、ピーコック魔法瓶工業の「酒器セット ACF-38」を見ていく。陶器でもガラスでもなく、ステンレスの真空二重構造でできた徳利、という時点でもう普通の酒器とは違う設計思想を感じる一本だ。"
 images: ["/images/og/peacock-acf38-sake-set-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -76,4 +76,4 @@ aliases:
 酒が冷めていく速さにため息をついたことがあるなら、この徳利は試す価値がある。器としての情緒よりも、注いだ一杯目と最後の一杯の温度差をなくすことに全振りした、魔法瓶メーカーらしい割り切りが効いている一本だ。
 
 
-**関連記事**: [BODUM DOUROの仕様と使い方 — ドウロ渓谷のぶどう畑をまとった徳利](/posts/bodum-douro-carafe-deep-dive-2026/) · [KEITH 純チタン おちょこ 酒器 2個セットの仕様と使い方 — 白酒のために生まれた、どこへでも連れていける盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [能作 本錫100%酒器セットの仕様と使い方 — 曲がる金属が注ぐ、やわらかな酒の時間](/posts/nousaku-tin-sake-set-deep-dive-2026/)
+**関連記事**: [BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形](/posts/bodum-douro-carafe-deep-dive-2026/) · [KEITH 純チタン おちょこは、白酒のために生まれた旅する盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](/posts/nousaku-tin-sake-set-deep-dive-2026/)

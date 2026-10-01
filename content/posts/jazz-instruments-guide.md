@@ -1,5 +1,5 @@
 ---
-title: "ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド"
+title: "リズム隊とホーンから知る、ジャズの楽器入門"
 description: "ジャズのサウンドは、楽器の「組み合わせ」そのものだ。コントラバスとドラムが刻む低い地面のうえに、サックスやトランペットの息づかいが人の声のように乗っていく。ピアノは四角いリズムと色彩を与え、一見脇役のギターがソロの主役に変わる瞬間もある。"
 images: ["/images/og/jazz-instruments-guide.jpg"]
 ogImageWidth: 1200
@@ -83,4 +83,4 @@ aliases:
 
 ジャズの楽器は、それぞれが「声」と「役割」を持っている。ベースとドラムが地面を走り、ピアノとギターが色彩を与え、そこにサックスやトランペットが人間の息吹を吹き込む。次にジャズを聴くとき、耳を「どの楽器のあとを追うか」に絞ってみてほしい。ひとつの音色に集中するだけで、アンサンブルの対話が見えてくるはずだ。
 
-**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [バレエフラットの次はジャズシューズ、2026年の足元に響く70年代](/posts/jazz-shoes-trend-2026/)

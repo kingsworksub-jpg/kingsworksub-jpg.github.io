@@ -1,5 +1,5 @@
 ---
-title: "MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手"
+title: "MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ"
 description: "各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——Komplete Kontrol S61 MK3、Akai MPK Mini MK4、Arturia KeyLab Essential"
 images: ["/images/og/midi-keyboard-5choice-2026.jpg"]
 ogImageWidth: 1200
@@ -143,4 +143,4 @@ MIDI 2.0の高解像度対応など、地味に長く進化を続けている律
 指先の好みだけは、文章だけでは伝えきれない部分も大きい。できれば楽器店で一度触ってから選んでほしい。
 
 
-**関連記事**: [DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人](/posts/audio-interface-5choice-2026/) · [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/)
+**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)

@@ -1,5 +1,5 @@
 ---
-title: "Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気軽に鳴らしたい人への回答"
+title: "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え"
 description: "Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後"
 images: ["/images/og/sony-pslx3bt-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -70,4 +70,4 @@ PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相ま�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。「何も考えずにレコードを鳴らしたい」というニーズに全振りした設計は、割り切りの潔さとして評価できると思う。ただし価格については、後継機になるたびに競合との比較がシビアになっていく市場の厳しさを感じさせる一台でもある。
 
 
-**関連記事**: [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこなす実用派](/posts/at-lp120xusb-deep-dive-2026/) · [Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)

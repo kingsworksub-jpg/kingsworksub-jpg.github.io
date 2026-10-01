@@ -1,5 +1,5 @@
 ---
-title: "富士山の強炭酸水の味と仕様 — 地層が磨いた口当たりの正体"
+title: "富士山の強炭酸水、地層が磨いた口当たり"
 description: "水源の場所を商品名にそのまま冠している時点で、なかなかの自信の表れだと思う。アイリスオーヤマが静岡県小山町の富士小山工場で生産する「富士山の強炭酸水」を隅々まで見ていく。"
 images: ["/images/og/fuji-strong-soda-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -66,4 +66,4 @@ aliases:
 「富士山」という名前を背負う以上、味とミネラルへのこだわりでその看板に応えようとしている一本だと思う。価格の手頃さと土地の物語を両立させているところに、素直な好感が持てる。
 
 
-**関連記事**: [伊藤園 ミネラルストロングの味と仕様 — シリカという小さなこだわり](/posts/itoen-mineral-strong-deep-dive-2026/) · [ウィルキンソン タンサンの味と仕様 — 強炭酸の元祖が教えてくれるシンプルさの正解](/posts/wilkinson-tansan-deep-dive-2026/) · [神戸居留地 スパークリングウォーターの味と仕様 — 缶190mlに詰め込まれた飲み切りの強炭酸](/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026/)
+**関連記事**: [伊藤園 ミネラルストロングと、シリカという小さなこだわり](/posts/itoen-mineral-strong-deep-dive-2026/) · [強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ](/posts/wilkinson-tansan-deep-dive-2026/) · [190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター](/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026/)

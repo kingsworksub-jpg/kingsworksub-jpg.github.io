@@ -1,5 +1,5 @@
 ---
-title: "Pro-Ject Debut Carbon EVOを全機能解剖 — 気配りの効いた優等生の中身"
+title: "Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル"
 description: "Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを一つ一つ見ていく。"
 images: ["/images/og/debut-carbon-evo-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -72,4 +72,4 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。ボタン一つ見当たらないミニマルな見た目の裏に、モーターの防振構造やカーボンアームなど、地道な作り込みが詰まっている設計思想には素直に感心する。現行モデルがすでにDebut EVO 2へ移行している点は、購入前にひと呼吸置いて確認しておきたいポイントだと思う。
 
 
-**関連記事**: [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思想](/posts/rega-planar3-deep-dive-2026/) · [Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこなす実用派](/posts/at-lp120xusb-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/)

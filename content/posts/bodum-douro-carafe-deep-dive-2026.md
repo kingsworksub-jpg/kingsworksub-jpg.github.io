@@ -1,5 +1,5 @@
 ---
-title: "BODUM DOUROの仕様と使い方 — ドウロ渓谷のぶどう畑をまとった徳利"
+title: "BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形"
 description: "北欧というよりは中欧寄りのブランドだが、店頭で見かけるとつい「北欧デザイン」と呼びたくなる佇まい。BODUM(ボダム)のカラフェ「DOURO(ドウロ)」を、日本酒の徳利として使う前提で見ていく。"
 images: ["/images/og/bodum-douro-carafe-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -74,4 +74,4 @@ DOUROシリーズには同じ溝模様をまとったお猪口サイズのグラ
 コーヒー器具のイメージが強いBODUMだが、ガラスの扱いにルーツを持つブランドだけあって、日本酒の徳利という異色の使い方にもきちんと説得力がある。ぶどう畑の溝模様越しに冷酒を注ぐ、という組み合わせの妙を楽しむための一本だと思う。
 
 
-**関連記事**: [KEITH 純チタン おちょこ 酒器 2個セットの仕様と使い方 — 白酒のために生まれた、どこへでも連れていける盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [ピーコック 真空二重構造 酒器セットの仕様と使い方 — 魔法瓶メーカーが本気で作った、温度を止める徳利](/posts/peacock-acf38-sake-set-deep-dive-2026/) · [能作 本錫100%酒器セットの仕様と使い方 — 曲がる金属が注ぐ、やわらかな酒の時間](/posts/nousaku-tin-sake-set-deep-dive-2026/)
+**関連記事**: [KEITH 純チタン おちょこは、白酒のために生まれた旅する盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [温度を止める徳利、ピーコックの真空二重構造 酒器セット](/posts/peacock-acf38-sake-set-deep-dive-2026/) · [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](/posts/nousaku-tin-sake-set-deep-dive-2026/)

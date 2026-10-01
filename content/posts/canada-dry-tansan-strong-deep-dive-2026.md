@@ -1,5 +1,5 @@
 ---
-title: "カナダドライ ザ・タンサン ストロングの味と仕様 — 泡だけを、とことん信じてみる"
+title: "カナダドライ ザ・タンサン ストロングは泡だけで勝負する"
 description: "割り材といえばウィルキンソン、という空気が長らく続いていたところに、コカ・コーラシステムが「THE」を頭に付けて殴り込んできたのが「ザ・タンサン」シリーズだ。その中でもラベルレス・ケース販売専用という一風変わった売られ方をしている「カナ"
 images: ["/images/og/canada-dry-tansan-strong-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -68,4 +68,4 @@ Amazonでは430ml×24本のケースが1,300円前後で扱われていて、こ
 ラベルレスでケース販売限定という、店頭ではまず出会えない売られ方をしている一本だけに、知らない人もまだ多そうだ。ウィルキンソン一強だった強炭酸水の棚に、静かに割って入ってきた実力派として覚えておいて損はないと思う。
 
 
-**関連記事**: [キレートレモン Wレモンの味と仕様 — レモン2個分の酸味に振り切った一本](/posts/kiretolemon-wlemon-deep-dive-2026/) · [カナダドライ ジンジャーエールの味と仕様 — 禁酒法時代を生き延びた甘口の実力](/posts/canada-dry-ginger-ale-deep-dive-2026/) · [コカ・コーラ アイシー・スパーク from カナダドライ レモンの味と仕様 — 「史上最強」と喉に刺さる泡の正体](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/) · [キリンレモン 炭酸水の味と仕様 — 1928年の透明感を無糖で受け継ぐ](/posts/kirin-lemon-sparkling-deep-dive-2026/)
+**関連記事**: [レモン2個分の酸味に振り切った、キレートレモン Wレモン](/posts/kiretolemon-wlemon-deep-dive-2026/) · [禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール](/posts/canada-dry-ginger-ale-deep-dive-2026/) · [「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/) · [キリンレモン 炭酸水が無糖で受け継ぐ1928年の透明感](/posts/kirin-lemon-sparkling-deep-dive-2026/)

@@ -1,5 +1,5 @@
 ---
-title: "Focusrite Scarlett 2i2(4th Gen)を全機能解剖 — 一台だけを、とことん検分する"
+title: "Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する"
 description: "Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を一つ一つ見ていく。"
 images: ["/images/og/scarlett-2i2-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -81,4 +81,4 @@ USB-C接続、USB 2.0のバスパワー駆動(消費900mA)。電源が不安定�
 
 
 
-**関連記事**: [オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人](/posts/audio-interface-5choice-2026/) · [DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか](/posts/sampler-5choice-2026/)
+**関連記事**: [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/)

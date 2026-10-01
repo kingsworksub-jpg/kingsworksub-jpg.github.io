@@ -1,5 +1,5 @@
 ---
-title: "モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ、コード進行の外に広がった音"
+title: "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ"
 description: "ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。"
 images: ["/images/og/modal-jazz-challenge.jpg"]
 ogImageWidth: 1200
@@ -62,4 +62,4 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 
 <p>「モーダル・ジャズが何かを変えた」と言うとき、それはルールの話ではなく、人間の聴き方の話だと思う。コード進行という手すりを外した瞬間、ソリストは音符ひとつひとつを、まるで最後の一滴のように長く、大切に扱う必要に迫られた。『Kind of Blue』に流れるのは、そうして生まれた「沈黙にまでいたる豊かさ」だ。もしあなたがはじめてモーダル・ジャズを聴くなら、まずは『So What』の冒頭のベース・ラインに、耳を澄ませてほしい。音は少ないのに、そこには窮屈さが一切ない。「音を減らす」という、音楽史のなかで最も大胆な冒険の、その一歩に、あなたは立ち会うことになる。</p>
 
-**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ジャズシューズが2026年の靴トレンドを制する](/posts/jazz-shoes-trend-2026/) · [ジャズの楽器を基礎から](/posts/jazz-instruments-guide/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [バレエフラットの次はジャズシューズ、2026年の足元に響く70年代](/posts/jazz-shoes-trend-2026/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)

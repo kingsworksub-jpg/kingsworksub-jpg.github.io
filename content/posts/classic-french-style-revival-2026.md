@@ -1,5 +1,5 @@
 ---
-title: "クラシック・フレンチスタイルの現在地 — Gainbourgiennes の系譜、2026年の洗練へ"
+title: "ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル"
 date: 2026-09-30T18:00:00+09:00
 slug: "classic-french-style-revival-2026"
 categories: ["fashion"]
