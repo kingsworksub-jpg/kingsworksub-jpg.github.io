@@ -32,8 +32,19 @@ data class PipelineStatus(
     val updated: String,
 )
 
+data class TopicRequest(
+    val file: String,
+    val theme: String,
+    val category: String,
+    val memo: String,
+    val requestedAt: String,
+)
+
+data class Release(val versionCode: Int, val versionName: String, val apkUrl: String)
+
 data class Snapshot(
     val topics: List<Topic>,
+    val requests: List<TopicRequest>,
     val categories: Map<String, String>,
     val skipped: Set<String>,
     val status: PipelineStatus?,
@@ -122,12 +133,23 @@ class GitHubRepo(private val token: String?) {
                 updated = s.optString("updated"),
             )
         }
-        return Snapshot(topics, cats, skipped, status, queue.optString("updated"))
+        val requests = mutableListOf<TopicRequest>()
+        val (rc, rlist) = request("scripts/topic-requests?ref=main", raw = false)
+        if (rc == 200) {
+            val arr = JSONArray(rlist)
+            for (i in 0 until arr.length()) {
+                val name = arr.getJSONObject(i).optString("name")
+                if (!name.endsWith(".json")) continue
+                val o = runCatching { JSONObject(getRaw("scripts/topic-requests/$name") ?: "{}") }.getOrNull() ?: continue
+                requests += TopicRequest(name, o.optString("theme"), o.optString("category"), o.optString("memo"), o.optString("requested_at"))
+            }
+        }
+        return Snapshot(topics, requests, cats, skipped, status, queue.optString("updated"))
     }
 
     /** Creates scripts/topic-skips/<id>.json. The pipeline then marks the topic deleted and never posts it. */
     fun skip(topic: Topic) {
-        require(!token.isNullOrBlank()) { "GitHub トークンが未設定です（右上の設定から入力）" }
+        require(!token.isNullOrBlank()) { "GitHub トークンが未設定です（メニューの「GitHub トークン」から入力）" }
         val payload = JSONObject()
             .put("id", topic.id)
             .put("theme", topic.theme)
@@ -142,6 +164,51 @@ class GitHubRepo(private val token: String?) {
         val (code, text) = request("scripts/topic-skips/${topic.id}.json", "PUT", body, raw = false)
         if (code == 422 && text.contains("sha")) return // already skipped
         if (code !in 200..299) throw IOException("削除に失敗しました（GitHub $code）: ${text.take(160)}")
+    }
+
+    /** Adds a topic from the app as scripts/topic-requests/<timestamp>.json; the pipeline posts it first. */
+    fun addRequest(theme: String, category: String, memo: String) {
+        require(!token.isNullOrBlank()) { "GitHub トークンが未設定です（メニューの「GitHub トークン」から入力）" }
+        val now = OffsetDateTime.now(ZoneOffset.ofHours(9)).withNano(0)
+        val name = now.toString().take(19).replace("-", "").replace(":", "").replace("T", "-") +
+            "-" + java.util.UUID.randomUUID().toString().take(4) + ".json"
+        val payload = JSONObject()
+            .put("theme", theme.trim())
+            .put("category", category)
+            .put("memo", memo.trim())
+            .put("requested_at", now.toString())
+            .put("by", "android")
+            .toString(1)
+        val body = JSONObject()
+            .put("message", "Request topic: ${theme.trim().take(40)} (Android app)")
+            .put("content", Base64.encodeToString(payload.toByteArray(Charsets.UTF_8), Base64.NO_WRAP))
+            .put("branch", "main")
+            .toString()
+        val (code, text) = request("scripts/topic-requests/$name", "PUT", body, raw = false)
+        if (code !in 200..299) throw IOException("追加に失敗しました（GitHub $code）: ${text.take(160)}")
+    }
+
+    /** Reads version.json from the topics-app-latest release. */
+    fun latestRelease(): Release? {
+        val conn = URL("https://api.github.com/repos/$OWNER/$REPO/releases/tags/topics-app-latest").openConnection() as HttpURLConnection
+        conn.setRequestProperty("Accept", "application/vnd.github+json")
+        conn.setRequestProperty("User-Agent", "BlogTopicsApp")
+        if (!token.isNullOrBlank()) conn.setRequestProperty("Authorization", "Bearer $token")
+        if (conn.responseCode != 200) return null
+        val rel = JSONObject(conn.inputStream.bufferedReader().use { it.readText() })
+        val assets = rel.optJSONArray("assets") ?: return null
+        var apk: String? = null
+        var ver: String? = null
+        for (i in 0 until assets.length()) {
+            val a = assets.getJSONObject(i)
+            when (a.optString("name")) {
+                "blog-topics.apk" -> apk = a.optString("browser_download_url")
+                "version.json" -> ver = a.optString("browser_download_url")
+            }
+        }
+        if (apk == null || ver == null) return null
+        val v = JSONObject(URL(ver).openStream().bufferedReader().use { it.readText() })
+        return Release(v.optInt("versionCode"), v.optString("versionName"), apk!!)
     }
 
     companion object {

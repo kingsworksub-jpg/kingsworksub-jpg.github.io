@@ -14,10 +14,13 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
 
 ## 2. ネタを取り出す
 
-`python scripts/topic_plan.py claim` を実行する。Android アプリで削除されたネタはここで自動的に除外される。
+`python scripts/topic_plan.py claim` を実行する。Android アプリで削除されたネタはここで自動的に除外され、アプリから追加されたネタ（`scripts/topic-requests/*.json`）はここでキューに取り込まれて最優先で選ばれる。
 - 出力が `{"empty": true}` なら、`scripts/scheduled/prompts/topic-planning.md` の手順3〜7を**1件分だけ**行ってキューに足し、もう一度 claim する。
 - 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。ここで一度
-  `git add scripts/topics-queue.json scripts/pipeline-status.json && git commit -m "Claim <id>" && git push origin main`。
+  `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/topic-requests && git commit -m "Claim <id>" && git push origin main`。
+- **アプリから追加されたネタ**（`source_of_idea: "user"`、`needs_research: true`）は、テーマとメモしか無い。`sources`・`images`・`keywords` は
+  このあとの手順で自分で集める。`category` が空なら内容に合うカテゴリーを決め（合わなければ新カテゴリーも可）、`article_type` が空なら記事の型を決める。
+  メモ（`angle`）はユーザーの希望なので必ず反映する。
 
 ## 3. リサーチ
 
@@ -66,7 +69,7 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
 
 ## 8. 記録
 
-1. `python scripts/topic_plan.py complete <id> --slug <slug> --hatena <EntryID> --note <key>`
+1. `python scripts/topic_plan.py complete <id> --slug <slug> --hatena <EntryID> --note <key>`（カテゴリーを自分で決めた場合は `--category <id>` も付ける）
 2. CLAUDE.md の「はてなブログ連携」表と「note.com への投稿」表に1行ずつ追記。
 3. `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json CLAUDE.md scripts/note-drafts/<slug>.note.txt`
    → `git commit -m "Record <slug>"` → `git push origin main`。
@@ -81,3 +84,7 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
 ## push について
 
 Android アプリからの削除（`scripts/topic-skips/*.json`）が同時に push されることがある。`git push` が拒否されたら `git pull --rebase origin main` してからもう一度 push する。
+
+## 一時ファイル
+
+作業用の一時ファイル（画像の検索結果、候補の下書きなど）は `scripts/` やリポジトリの中に作らず、`/tmp`（`$TMP`）に置く。終了前に削除する。

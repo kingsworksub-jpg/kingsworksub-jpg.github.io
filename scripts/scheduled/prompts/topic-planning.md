@@ -9,7 +9,8 @@ Windows タスクスケジューラから無人で起動されている。人間
 ## 0. 準備
 
 1. `git pull --rebase origin main`（Android アプリで削除されたネタ＝`scripts/topic-skips/*.json` を取り込むため）
-2. `python scripts/topic_plan.py sync-skips`
+2. `python scripts/topic_plan.py sync-skips` と `python scripts/topic_plan.py ingest-requests`（アプリから追加されたネタを最優先でキューに入れる。
+   これらはテーマとメモだけなので、ここでは補完しなくてよい。投稿ジョブが記事を書くときに調べる）
 3. `python scripts/topic_plan.py status` を見る。キューの `approved` 件数を確認する。
    - `Mode: topup` で `approved` が 16 件以上なら、何もせず「補充不要」と出力して終了する。
    - それ以外は、`approved` が **64 件**になるまで補充する。必要数 N = 64 − approved。
@@ -84,7 +85,7 @@ season（季節・旬 15）／demand（検索需要 10）／amazon（Amazonで�
 
 ## 8. 記録
 
-`git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/themes.txt`（新カテゴリーを作った場合は
+`git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/themes.txt scripts/topic-requests`（新カテゴリーを作った場合は
 `scripts/category-plan.json hugo.toml layouts/index.html` も）→ `git commit -m "Plan: <件数> topics (<Mode>)"` → `git push origin main`。
 `git add -A` は使わない。
 
@@ -93,3 +94,7 @@ season（季節・旬 15）／demand（検索需要 10）／amazon（Amazonで�
 ## push について
 
 Android アプリからの削除（`scripts/topic-skips/*.json`）が同時に push されることがある。`git push` が拒否されたら `git pull --rebase origin main` してからもう一度 push する。
+
+## 一時ファイル
+
+作業用の一時ファイル（画像の検索結果、候補の下書きなど）は `scripts/` やリポジトリの中に作らず、`/tmp`（`$TMP`）に置く。終了前に削除する。

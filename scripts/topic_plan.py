@@ -14,6 +14,7 @@ big-pickle) only have to do the creative work:
   fail ID --reason R         retry later (rejected after 2 failures)
   reject ID --reason R
   sync-skips                 apply deletions made in the Android app (scripts/topic-skips/*.json)
+  ingest-requests            turn topics added in the Android app (scripts/topic-requests/*.json) into queue items
   images QUERY [--n N]       licence-checked image candidates (Wikimedia Commons + Openverse)
   news CATEGORY [--days D]   recent headlines from the category's feeds (topic-sources.json)
   calendar                   seasonal topics for this month and next (topic-calendar.json)
@@ -42,6 +43,7 @@ QUEUE = os.path.join(S, "topics-queue.json")
 LOG = os.path.join(S, "topic-log.json")
 CATS = os.path.join(S, "category-plan.json")
 SKIPS = os.path.join(S, "topic-skips")
+REQUESTS = os.path.join(S, "topic-requests")
 STATUS_FILE = os.path.join(S, "pipeline-status.json")
 JST = dt.timezone(dt.timedelta(hours=9))
 UA = "StudioNotesBot/1.0 (kingswork.sub@gmail.com)"
@@ -217,7 +219,8 @@ def write_status(extra=None):
     counts = {}
     for it in q["items"]:
         counts[it["status"]] = counts.get(it["status"], 0) + 1
-    st.update({"updated": now().isoformat(timespec="seconds"), "queue": counts,
+    pending = len(glob.glob(os.path.join(REQUESTS, "*.json")))
+    st.update({"updated": now().isoformat(timespec="seconds"), "queue": counts, "pending_requests": pending,
                "today_posts": today_count(), "daily_limit": 8, "engine_today": engine_for(now().date())})
     if extra:
         st.update(extra)
@@ -243,6 +246,45 @@ def sync_skips():
     if changed:
         save_queue(q)
     return changed
+
+
+def ingest_requests():
+    """Topics typed into the Android app arrive as scripts/topic-requests/<name>.json.
+
+    Each becomes an approved, user-sourced queue item (posted before anything else). They carry
+    only a theme (plus optional category and memo), so the posting job researches them and finds
+    images itself. The request file is deleted; the caller commits that deletion.
+    """
+    files = sorted(glob.glob(os.path.join(REQUESTS, "*.json")))
+    if not files:
+        return 0
+    q = queue()
+    known = {c["id"] for c in categories()}
+    week = now().strftime("%Gw%V")
+    n0 = sum(1 for it in q["items"] if it["id"].startswith(week + "-r"))
+    done = 0
+    for f in files:
+        try:
+            d = load(f, {})
+        except json.JSONDecodeError:
+            os.remove(f)
+            continue
+        theme = (d.get("theme") or "").strip()
+        if theme:
+            n0 += 1
+            cat = d.get("category") if d.get("category") in known else ""
+            q["items"].append({
+                "id": f"{week}-r{n0:02d}", "status": "approved", "category": cat, "new_category": None,
+                "theme": theme, "angle": (d.get("memo") or "").strip(), "article_type": d.get("article_type") or "",
+                "keywords": [], "subjects": [], "sources": [], "images": [], "season": "",
+                "score": {"total": 100}, "source_of_idea": "user", "needs_research": True,
+                "requested_at": d.get("requested_at", ""), "created": now().date().isoformat(), "retry": 0,
+            })
+            log_entry(id=f"{week}-r{n0:02d}", category=cat, theme=theme, status="requested", reason="Androidアプリから追加")
+            done += 1
+        os.remove(f)
+    save_queue(q)
+    return done
 
 
 REQUIRED = ("category", "theme", "angle", "article_type", "keywords", "sources", "images", "score")
@@ -285,6 +327,7 @@ def last_category():
 
 
 def claim():
+    ingest_requests()
     sync_skips()
     q = queue()
     ready = [it for it in q["items"] if it["status"] == "approved"]
@@ -311,9 +354,11 @@ def find(q, tid):
     sys.exit(f"no such topic: {tid}")
 
 
-def complete(tid, slug, hatena=None, note=None):
+def complete(tid, slug, hatena=None, note=None, category=None):
     q = queue()
     it = find(q, tid)
+    if category:
+        it["category"] = category
     it.update({"status": "published", "slug": slug, "published_at": now().isoformat(timespec="seconds")})
     save_queue(q)
     log_entry(id=tid, category=it["category"], theme=it["theme"], slug=slug, status="published",
@@ -483,11 +528,13 @@ def main():
     c.add_argument("--slug", required=True)
     c.add_argument("--hatena")
     c.add_argument("--note")
+    c.add_argument("--category")
     for name in ("fail", "reject"):
         x = sub.add_parser(name)
         x.add_argument("id")
         x.add_argument("--reason", required=True)
     sub.add_parser("sync-skips")
+    sub.add_parser("ingest-requests")
     x = sub.add_parser("images")
     x.add_argument("query")
     x.add_argument("--n", type=int, default=6)
@@ -528,11 +575,13 @@ def main():
     elif a.cmd == "claim":
         claim()
     elif a.cmd == "complete":
-        complete(a.id, a.slug, a.hatena, a.note)
+        complete(a.id, a.slug, a.hatena, a.note, a.category)
     elif a.cmd == "fail":
         fail(a.id, a.reason)
     elif a.cmd == "reject":
         reject(a.id, a.reason)
+    elif a.cmd == "ingest-requests":
+        print(f"ingested: {ingest_requests()}")
     elif a.cmd == "sync-skips":
         print(f"deleted: {sync_skips()}")
     elif a.cmd == "images":

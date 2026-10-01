@@ -81,6 +81,12 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   APK は GitHub Actions（`.github/workflows/topics-app.yml`）がビルドし、Release `topics-app-latest` に置く。署名鍵は Secrets
   （`TOPICS_KEYSTORE_*`）と `.secrets/topics-app.jks`（git管理外の控え）。削除には fine-grained トークン（Contents 読み書き）をアプリに入力する。
   `hugo.yml` はアプリ・スキップファイルだけの push ではデプロイしない。
+  - **アプリからのネタ追加**（2026-10-01）: 右下の＋でテーマ（必須）・カテゴリー（おまかせ可）・メモを入力すると `scripts/topic-requests/<日時>.json` を作成。
+    `topic_plan.py ingest-requests`（`claim` 時にも自動実行）がキューに `source_of_idea: "user"`・`needs_research: true` で取り込み、**次の投稿で最優先**。
+    情報源・画像・キーワードは投稿ジョブが執筆時に集める。カテゴリーが空なら投稿ジョブが決め、`complete --category` で記録する。
+  - **アプリの自己更新**（2026-10-01）: メニュー「アプリを更新」。Release `topics-app-latest` の `version.json`（versionCode = ビルド番号）と
+    インストール済みの versionCode を比べ、新しければ APK をダウンロードしてインストール画面を開く（起動時にも確認してバナー表示）。
+    同じ署名鍵で署名しているので上書き更新できる。初回のみ「このアプリからのインストールを許可」が必要。
 - **停止方法**: 「止めて」と言われたら `Disable-ScheduledTask -TaskName blog-automation-task`（ネタ会議は止めなくてよい）。
   カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。
 
