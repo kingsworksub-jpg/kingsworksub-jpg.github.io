@@ -1,4 +1,27 @@
 {
  "updated": "",
- "items": []
+ "items": [
+  {
+   "id": "test-skip-001",
+   "status": "approved",
+   "category": "setup",
+   "new_category": null,
+   "theme": "（テスト）同期確認用のダミーのネタ",
+   "angle": "削除の同期テスト",
+   "article_type": "guide",
+   "keywords": [
+    "test"
+   ],
+   "subjects": [],
+   "sources": [],
+   "images": [],
+   "season": "通年",
+   "score": {
+    "total": 99
+   },
+   "source_of_idea": "user",
+   "created": "2026-10-01",
+   "retry": 0
+  }
+ ]
 }
