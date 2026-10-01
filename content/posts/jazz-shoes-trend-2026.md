@@ -1,5 +1,5 @@
 ---
-title: "ジャズシューズが2026年の靴トレンドを制する — バレエフラットの後釜に、1970年代の足音"
+title: "バレエフラットの次はジャズシューズ、2026年の足元に響く70年代"
 description: "ここ数年、フラットシューズがすっかり主役だ。かつてハイヒールが支配していた時期を経て、今はどれだけ歩きやすくて、どれだけきれいなラインが出るかが選ばれる理由になっている。その流れを長く引っ張ってきたのがバレエフラットだった。"
 images: ["/images/og/jazz-shoes-trend-2026.jpg"]
 ogImageWidth: 1200
@@ -65,4 +65,4 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 
 バレエフラットが履かれる前、ダンスシューズは舞台のために生まれた。そのルーツを守りながら、ジャズシューズは今、日常の靴として復活している。細くてしなやかで、それでいてちゃんと歩ける。2026年のフラットシューズを選ぶなら、まずこの一足から考えてみるのがよさそうだ。
 
-**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [モーダルジャズという挑戦 — コード進行の外に広がった音](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [モーダルジャズという挑戦 — コード進行の外に広がった音](/posts/modal-jazz-challenge/) · [「写真から消された5人目の男」Alan Boguslavskyのステージ](/posts/alan-boguslavsky-stage/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/)

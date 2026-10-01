@@ -1,5 +1,5 @@
 ---
-title: "廣田硝子 ちろりの仕様と使い方 — 大正の灯りを一本の耐熱ガラスに閉じ込める"
+title: "廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス"
 description: "「ちろり」と聞いてすぐに形が思い浮かぶ人は、今どれくらいいるだろうか。本来は錫や銅で作られた、湯煎で燗をつけるための酒器の名前だ。その金属の道具を、東京・墨田区のガラスメーカー廣田硝子がハンドメイドのガラスで作り直したのが今回見ていく一本になる。"
 images: ["/images/og/hirota-glass-chirori-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -72,4 +72,4 @@ aliases:
 金属の道具をあえてガラスに置き換えることで、温度の移ろいそのものが見える酒器になった。燗と冷や、季節によって使い分けられる一本を、食卓の主役に据えてみるのも悪くないと思う。
 
 
-**関連記事**: [田島硝子 金箔富士 冷酒杯(桜)の仕様と使い方 — 盃の底に、紅と金で沈む富士山](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/) · [高岡漆器 螺鈿ガラス 金杯(万華鏡)桜の仕様と使い方 — 貝殻の虹色を、酒で呼び覚ます盃](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)
+**関連記事**: [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)

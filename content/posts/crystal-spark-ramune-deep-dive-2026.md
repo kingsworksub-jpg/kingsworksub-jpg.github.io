@@ -1,5 +1,5 @@
 ---
-title: "CRYSTAL SPARK ラムネの味と仕様 — 果汁ゼロで蘇る、あの瓶の記憶"
+title: "CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる"
 description: "夏祭りの屋台で飲んだ、ビー玉入りの瓶のあの香り。アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL"
 images: ["/images/og/crystal-spark-ramune-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -56,4 +56,4 @@ CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリス�
 香料だけで瓶ラムネの記憶を呼び起こしてくるあたり、CRYSTAL SPARKというブランドの香料設計の技術力はやはり侮れない。無糖・カロリーゼロという制約の中で、ここまで「らしさ」を出せているのは素直にすごいと思う。期間限定を勝ち抜いて定番になっただけあって、シリーズの中でも安心して選べる一本だ。
 
 
-**関連記事**: [三ツ矢サイダーの味と仕様 — 140年変わらない透明な甘さの正体](/posts/mitsuya-cider-original-deep-dive-2026/) · [三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK グレープソーダの味と仕様 — 香りだけで満足させる無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの味と仕様 — 改名の裏にあった二重の意味](/posts/oza-soda-deep-dive-2026/)
+**関連記事**: [三ツ矢サイダーの透明な甘さは140年でどう守られてきたか](/posts/mitsuya-cider-original-deep-dive-2026/) · [三ツ矢サイダーZEROは142年目に見つけたゼロの答え](/posts/mitsuya-cider-zero-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの改名に込められた二つの意味](/posts/oza-soda-deep-dive-2026/)

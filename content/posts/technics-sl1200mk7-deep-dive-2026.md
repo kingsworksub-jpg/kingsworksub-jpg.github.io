@@ -1,5 +1,5 @@
 ---
-title: "Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機"
+title: "Technics SL-1200MK7、半世紀の現場が選び続けた基準機"
 description: "Technicsは、SL-1200シリーズを「クラブシーンのスタンダード」と位置づけ続けている。半世紀近く現場に居座り続けてきたその評判に見合う中身なのか、SL-1200MK7を一つ一つ見ていく。"
 images: ["/images/og/technics-sl1200mk7-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -82,4 +82,4 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とはまた違う面白さがあった。半世紀近く前のコンセプトを、コアレスモーターという新しい技術で今に繋いでいる設計思想には素直に感心する。DJ機としてもHi-Fi機としても両方の物差しで測られ続けているという事実が、この製品の懐の深さを物語っているように思う。
 
 
-**関連記事**: [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気軽に鳴らしたい人への回答](/posts/sony-pslx3bt-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)

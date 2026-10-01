@@ -1,5 +1,5 @@
 ---
-title: "伊藤園 ミネラルストロングの味と仕様 — シリカという小さなこだわり"
+title: "伊藤園 ミネラルストロングと、シリカという小さなこだわり"
 description: "強炭酸水はどれも似たり寄ったりに見えて、実はミネラル構成のこだわり方に差が出る。伊藤園がAmazon.co.jp限定で展開する「ミネラルストロング」を隅々まで見ていく。製造・販売元は伊藤園。"
 images: ["/images/og/itoen-mineral-strong-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -62,4 +62,4 @@ Amazon.co.jp限定販売のこのラベルレス仕様は、通常の小売店�
 同じ「強炭酸水」というジャンルの中でも、シリカという成分にこだわって差別化してくる姿勢は伊藤園らしい堅実さだと思う。ただ冷たくてシュワシュワしていればいい、という話ではないのだと気づかせてくれる一本だ。
 
 
-**関連記事**: [富士山の強炭酸水の味と仕様 — 地層が磨いた口当たりの正体](/posts/fuji-strong-soda-deep-dive-2026/) · [ウィルキンソン タンサンの味と仕様 — 強炭酸の元祖が教えてくれるシンプルさの正解](/posts/wilkinson-tansan-deep-dive-2026/) · [神戸居留地 スパークリングウォーターの味と仕様 — 缶190mlに詰め込まれた飲み切りの強炭酸](/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026/)
+**関連記事**: [富士山の強炭酸水、地層が磨いた口当たり](/posts/fuji-strong-soda-deep-dive-2026/) · [強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ](/posts/wilkinson-tansan-deep-dive-2026/) · [190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター](/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026/)

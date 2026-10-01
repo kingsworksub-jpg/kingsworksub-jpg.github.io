@@ -1,5 +1,5 @@
 ---
-title: "カフェジャズ・ラウンジピアノの現在地 — 2026年の静寂の音色、Moonlight Jazz Blueが紡ぐ世界"
+title: "2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ"
 date: 2026-09-30
 categories: ["music"]
 description: "2026年のカフェジャズ・ラウンジピアノシーンを、Moonlight Jazz BlueとJAZZ PARADISEの最新作を通じて掘り下げる。ジェン・Z、ミレニアル世代の音楽トレンド、ストリーミング時代の背景音楽の文化を追う。"

@@ -1,5 +1,5 @@
 ---
-title: "ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間"
+title: "Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間"
 description: "1945年11月26日、ニューヨークのWORスタジオでCharlie Parkerが「Ko-Ko」を録音した。ミントンの日曜のjamからスウィング・ストリートへ。1940年代のビバップの胎動と熱を、録音日程とクラブの地図からひも解く。"
 images: ["/images/og/bebop-52nd-street-nights.jpg"]
 ogImageWidth: 1200
@@ -95,7 +95,7 @@ GillespieはDuke Ellingtonの言葉を伝えています。音楽に名前をつ
 
 1949年、Parkerはヨーロッパへ公演に行きました。5月8日、9日、14日、15日はパリのSalle Pleyel、12日はRoubaixでした。帰国後は9月18日のCarnegie HallでJazz at the Philharmonicを行いました。
 
-この時期の基本は5人のクインテットでした。ベースとドラムスに、トランペット、ピアノ、アルトサックスが並びます。どの楽器をどれだけ鳴らすかで、聴く印象はまったく変わります。リズム隊とホーンがどう音を作っているのかは、[ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/) に整理しました。
+この時期の基本は5人のクインテットでした。ベースとドラムスに、トランペット、ピアノ、アルトサックスが並びます。どの楽器をどれだけ鳴らすかで、聴く印象はまったく変わります。リズム隊とホーンがどう音を作っているのかは、[リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/) に整理しました。
 
 1949年11月30日、Charlie Parker with Stringsが録音されました。プロデュースはNorman Granzで、MercuryのMG-35010として10インチLPで発売されています。続編は1950年7月5日のセッションで、MGC-109になりました。
 
@@ -117,8 +117,8 @@ GillespieはDuke Ellingtonの言葉を伝えています。音楽に名前をつ
 
 残ったのは、34年のあいだに残した大量の録音でした。「Ko-Ko」「Now's the Time」「Billie's Bounce」は、その出発点にあたる。Parker自身が使ったことのない「ビバップ」という言葉だけが、先回りして生き残っています。
 
-その先には、1949年の「A Night in Tunisia」や、弦の加わったCharlie Parker with Stringsが並びます。さらに先の1950年代には、コード進行の外側から別の音楽が生まれていきます。[モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) で追えます。ビバップの流れは1950年代にはハードバップへ移ります。[ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) に続きます。
+その先には、1949年の「A Night in Tunisia」や、弦の加わったCharlie Parker with Stringsが並びます。さらに先の1950年代には、コード進行の外側から別の音楽が生まれていきます。[モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) で追えます。ビバップの流れは1950年代にはハードバップへ移ります。[アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) に続きます。
 
 地図だけで見れば、1940年代は短い区間です。West 118th Streetの一階から始まり、52nd Streetを通り、Broadwayの新しい建物へ移りました。場所が変わると、聴ける層も変わります。Minton'sから始めて、Three Deuces、Royal Roost、Bop City、Birdlandと、5つの場所を見てきました。1955年にParkerは亡くなりましたが、場所の名前はそのまま残っています。
 
-**関連記事**: [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/) · [クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで](/posts/cool-jazz-birth-of-the-cool/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/) · [Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代](/posts/cool-jazz-birth-of-the-cool/)

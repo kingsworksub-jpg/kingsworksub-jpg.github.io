@@ -1,5 +1,5 @@
 ---
-title: "田島硝子 金箔富士 冷酒杯(桜)の仕様と使い方 — 盃の底に、紅と金で沈む富士山"
+title: "盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)"
 description: "盃の底に富士山が立っている。それも、酒を注ぐたびに色を変える富士山だ。東京の老舗ガラスメーカー、田島硝子の「金箔富士"
 images: ["/images/og/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -78,4 +78,4 @@ aliases:
 底に沈んだ富士山に酒を注いだ瞬間だけ、この盃は完成する。ただ眺めて美しいだけでなく、使うたびに違う表情を見せてくれるところが、この一杯を手元に置いておきたくなる理由なのだと思う。
 
 
-**関連記事**: [廣田硝子 ちろりの仕様と使い方 — 大正の灯りを一本の耐熱ガラスに閉じ込める](/posts/hirota-glass-chirori-deep-dive-2026/) · [高岡漆器 螺鈿ガラス 金杯(万華鏡)桜の仕様と使い方 — 貝殻の虹色を、酒で呼び覚ます盃](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)
+**関連記事**: [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)

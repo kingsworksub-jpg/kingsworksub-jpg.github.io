@@ -1,5 +1,5 @@
 ---
-title: "津軽びいどろ みずばしょう酒器セットの仕様と使い方 — 湿地に咲く白い花を、青いガラスに閉じ込めて"
+title: "湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょう酒器セット"
 description: "これまで陶磁器や漆器の酒器をいくつか取り上げてきたが、今回は趣向を変えてガラスの酒器を見ていく。「アデリア 津軽びいどろ」の「みずばしょう酒器セット」(徳利1個・盃2個、型番FS-71582)。"
 images: ["/images/og/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -69,4 +69,4 @@ aliases:
 漁業用の浮玉から始まったガラス工芸が、湿地に咲く水芭蕉の風景を映す酒器にたどり着くまでの距離を思うと、この深い青の一本がずいぶん遠くから来たもののように感じられる。冷酒を静かに楽しみたい夜に、そっと出してみたい一組だ。
 
 
-**関連記事**: [津軽びいどろ 片口あじさいの仕様と使い方 — 龍飛崎の紫陽花を写した一滴](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [アデリア 津軽びいどろ NEBUTA 酒器セットの仕様と使い方 — ねぶたの夜を、盃の中に閉じ込める](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)
+**関連記事**: [津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)

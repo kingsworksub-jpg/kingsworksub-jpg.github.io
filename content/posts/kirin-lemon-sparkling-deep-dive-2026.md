@@ -1,5 +1,5 @@
 ---
-title: "キリンレモン 炭酸水の味と仕様 — 1928年の透明感を無糖で受け継ぐ"
+title: "キリンレモン 炭酸水が無糖で受け継ぐ1928年の透明感"
 description: "「透明なままでゆけ。」というキャッチコピーがあるくらい、無色透明であることをずっと売りにしてきたブランドがある。1928年発売のキリンレモンから生まれた無糖の派生品、キリンレモン 炭酸水を隅々まで見ていく。"
 images: ["/images/og/kirin-lemon-sparkling-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -66,4 +66,4 @@ CMソング「キリンレモンのうた」は1961年に作られ、以降長�
 98年前から変わらない「透明であること」へのこだわりを、無糖・無果汁という現代的な形にそのまま落とし込んだ一本だと思う。派手な主張はないが、ブランドの背骨がぶれていないことがよく分かる商品だ。
 
 
-**関連記事**: [キレートレモン Wレモンの味と仕様 — レモン2個分の酸味に振り切った一本](/posts/kiretolemon-wlemon-deep-dive-2026/) · [カナダドライ ジンジャーエールの味と仕様 — 禁酒法時代を生き延びた甘口の実力](/posts/canada-dry-ginger-ale-deep-dive-2026/) · [カナダドライ ザ・タンサン ストロングの味と仕様 — 泡だけを、とことん信じてみる](/posts/canada-dry-tansan-strong-deep-dive-2026/) · [コカ・コーラ アイシー・スパーク from カナダドライ レモンの味と仕様 — 「史上最強」と喉に刺さる泡の正体](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/)
+**関連記事**: [レモン2個分の酸味に振り切った、キレートレモン Wレモン](/posts/kiretolemon-wlemon-deep-dive-2026/) · [禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール](/posts/canada-dry-ginger-ale-deep-dive-2026/) · [カナダドライ ザ・タンサン ストロングは泡だけで勝負する](/posts/canada-dry-tansan-strong-deep-dive-2026/) · [「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/)

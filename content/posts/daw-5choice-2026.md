@@ -1,5 +1,5 @@
 ---
-title: "DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか"
+title: "DAW 5本を比べる、机の上のオーケストラを誰に任せるか"
 description: "各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——Logic Pro、FL Studio、Ableton"
 images: ["/images/og/daw-5choice-2026.jpg"]
 ogImageWidth: 1200
@@ -153,4 +153,4 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 
 
 
-**関連記事**: [MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手](/posts/midi-keyboard-5choice-2026/) · [サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人](/posts/audio-interface-5choice-2026/) · [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/)
+**関連記事**: [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)

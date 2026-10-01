@@ -1,5 +1,5 @@
 ---
-title: "モダンジャズの新潮流の現在地 — スピリチュアルジャズ、社会意識とオーケストラルサウンドの時代"
+title: "Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流"
 date: 2026-09-30T11:30:00+09:00
 categories:
   - music

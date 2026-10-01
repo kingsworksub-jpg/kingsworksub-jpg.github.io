@@ -152,21 +152,8 @@ def remove_lead_duplicate(body, desc):
 
 
 def build_title(meta, slug):
-    """ブログ用タイトルから note 向けタイトルを作る（15〜25 文字目安）。"""
-    tags = meta.get("tags", [])
-    if "ハードバップ" in tags or "Blue Note" in tags:
-        return "ハードバップとブルー・ノート黄金時代"
-    if "クール・ジャズ" in tags:
-        return "クール・ジャズの時代とChet Bakerの西海岸"
-    if "ビバップ" in tags:
-        return "ビバップの夜明け — Charlie Parker"
-    # ブログ用タイトルは長すぎるので、 区切り文字で 30 文字に詰める
-    title = meta.get("title", slug)
-    for sep in [" — ", " - ", "：", ": "]:
-        if sep in title:
-            title = title.split(sep)[0]
-            break
-    return title[:30]
+    """note のタイトルはブログと同じにする（2026-10-01 のタイトル刷新以降）。"""
+    return meta.get("title", slug)
 
 
 def normalize_tag(tag):

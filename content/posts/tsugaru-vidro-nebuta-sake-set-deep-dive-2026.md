@@ -1,5 +1,5 @@
 ---
-title: "アデリア 津軽びいどろ NEBUTA 酒器セットの仕様と使い方 — ねぶたの夜を、盃の中に閉じ込める"
+title: "ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット"
 description: "金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。"
 images: ["/images/og/tsugaru-vidro-nebuta-sake-set-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -72,4 +72,4 @@ NEBUTAシリーズは、その名の通り青森ねぶた祭りをモチーフ�
 浮き玉づくりの技術が、祭りの夜を映すガラスに変わった。そういう来歴を知った上で手に取ると、この酒器はただの色つきガラスではなく、青森という土地の記憶を宿した道具に見えてくる。熱燗には向かないという制約はあるけれど、冷たい酒を注いで光にかざす瞬間のために作られたと考えれば、その制約もむしろ潔い。
 
 
-**関連記事**: [津軽びいどろ 片口あじさいの仕様と使い方 — 龍飛崎の紫陽花を写した一滴](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [津軽びいどろ みずばしょう酒器セットの仕様と使い方 — 湿地に咲く白い花を、青いガラスに閉じ込めて](/posts/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026/)
+**関連記事**: [津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花](/posts/tsugaru-vidro-katakuchi-ajisai-deep-dive-2026/) · [湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょう酒器セット](/posts/tsugaru-vidro-mizubasho-sake-set-deep-dive-2026/)

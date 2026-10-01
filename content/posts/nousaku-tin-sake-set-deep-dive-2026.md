@@ -1,5 +1,5 @@
 ---
-title: "能作 本錫100%酒器セットの仕様と使い方 — 曲がる金属が注ぐ、やわらかな酒の時間"
+title: "曲がる錫が酒をやわらげる、能作 本錫100%酒器セット"
 description: "富山・高岡に、曲がる金属で酒器を作る鋳物メーカーがある。能作の「本錫100%」シリーズから、ぐい呑みと片口小のセットを取り上げる。能作の創業は1916年。高岡銅器という400年続く鋳物産地で、仏具や茶道具、花瓶を手がける工房として始まった会社だ。"
 images: ["/images/og/nousaku-tin-sake-set-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -75,4 +75,4 @@ aliases:
 曲がるほど柔らかい金属を、あえてそのまま器にしてしまう発想がおもしろい。扱いには気を遣うが、その手間ごと楽しめるなら、晩酌の道具として長く付き合っていける一組だと思う。
 
 
-**関連記事**: [BODUM DOUROの仕様と使い方 — ドウロ渓谷のぶどう畑をまとった徳利](/posts/bodum-douro-carafe-deep-dive-2026/) · [KEITH 純チタン おちょこ 酒器 2個セットの仕様と使い方 — 白酒のために生まれた、どこへでも連れていける盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [ピーコック 真空二重構造 酒器セットの仕様と使い方 — 魔法瓶メーカーが本気で作った、温度を止める徳利](/posts/peacock-acf38-sake-set-deep-dive-2026/)
+**関連記事**: [BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形](/posts/bodum-douro-carafe-deep-dive-2026/) · [KEITH 純チタン おちょこは、白酒のために生まれた旅する盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [温度を止める徳利、ピーコックの真空二重構造 酒器セット](/posts/peacock-acf38-sake-set-deep-dive-2026/)

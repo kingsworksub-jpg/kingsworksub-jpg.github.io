@@ -1,5 +1,5 @@
 ---
-title: "サンプラーを5本徹底比較 — 音の欠片を、誰の手に委ねるか"
+title: "サンプラー5本比較、音の欠片を誰の手に委ねるか"
 description: "各社は口を揃えて「これ一つで、あらゆる音があなたのものに」と言う。2026年現在よく名前が挙がる5本——Kontakt 8、Battery 4、TAL-Sampler、UVI Falcon、Serato Sample——を比較していく。"
 images: ["/images/og/sampler-5choice-2026.jpg"]
 ogImageWidth: 1200
@@ -155,4 +155,4 @@ aliases:
 道具に人格はないはずなのに、使い込むほどに「こいつ、こういう性格だったのか」と気づく瞬間がある。サンプラー選びは、性能だけでなく、自分の作業スタイルに合う「相性」を見つける作業でもあるのだと思う。
 
 
-**関連記事**: [DAWを5本徹底比較 — 机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボードを5台徹底比較 — 指先が最初に触れる相手](/posts/midi-keyboard-5choice-2026/) · [オーディオインターフェースを5台徹底比較 — 声とパソコンのあいだに立つ人](/posts/audio-interface-5choice-2026/) · [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/)
+**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)

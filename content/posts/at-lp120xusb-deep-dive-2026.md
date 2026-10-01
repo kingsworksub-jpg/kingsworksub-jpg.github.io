@@ -1,5 +1,5 @@
 ---
-title: "Audio-Technica AT-LP120XUSBを全機能解剖 — 一台三役をこなす実用派"
+title: "Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル"
 description: "ダイキャストアルミ製のプラッターに、制振・防振設計の筐体、4つのゴム足を組み合わせた構成。公称重量は約8.0kg、サイズは452×352×141.6mm。カラーはブラックとシルバーの2色展開で、見た目のレイアウトはTechnics"
 images: ["/images/og/at-lp120xusb-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -78,4 +78,4 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。「レコードを聴く」「デジタル化する」「DJ的に操作する」という3つの役割を一台に詰め込みながら、価格をこの水準に抑えている設計は素直に感心する。内蔵プリアンプの音質だけは、こだわりたい人ほど外部機材への置き換えを検討する余地がありそうだ。
 
 
-**関連記事**: [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)を全機能解剖 — とにかく気軽に鳴らしたい人への回答](/posts/sony-pslx3bt-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)

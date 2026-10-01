@@ -1,5 +1,5 @@
 ---
-title: "Rega Planar 3を全機能解剖 — 英国紳士が半世紀こだわり続けた設計思想"
+title: "Rega Planar 3が半世紀守る「軽さと剛性」の設計思想"
 description: "Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を一つ一つ見ていく。"
 images: ["/images/og/rega-planar3-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -72,4 +72,4 @@ RB330という9インチトーンアームは、Rega社内で手作業により�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。半世紀近く「軽くて硬い」という設計哲学を貫き通し、トーンアームの高さすら妥協せずに固定してきた頑固さには、素直に感心する。速度切り替えの手間や別売りのフォノプリアンプなど、割り切っている部分も含めて、Regaという会社の姿勢がよく見える一台だと思う。
 
 
-**関連記事**: [アナログターンテーブルを5台徹底比較 — 針を落とす、という儀式について](/posts/turntable-5choice-2026/) · [Pro-Ject Debut Carbon EVOを全機能解剖 — 気配りの効いた優等生の中身](/posts/debut-carbon-evo-deep-dive-2026/) · [Technics SL-1200MK7を全機能解剖 — 半世紀の現場が選び続けてきた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル](/posts/debut-carbon-evo-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)

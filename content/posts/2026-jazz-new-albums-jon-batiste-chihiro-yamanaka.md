@@ -1,5 +1,5 @@
 ---
-title: "2026年ジャズ新作アルバムの現在地 — Jon Batiste『Black Mozart』と山中千尋25周年の響き"
+title: "Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く"
 date: 2026-09-29T14:00:00+09:00
 draft: false
 categories: ["music"]

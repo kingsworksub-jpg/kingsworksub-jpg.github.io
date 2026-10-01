@@ -1,5 +1,5 @@
 ---
-title: "クール・ジャズの時代 — Miles Davis『Birth of the Cool』からChet Bakerの西海岸の夢まで"
+title: "Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代"
 description: "ビバップの熱が一瞬にして冷えた、1949年から1951年までの三年間。Miles Davisの九人編成が生んだ『Birth of the Cool』と、同じ時代にカリフォルニアで花開いたChet Bakerの西海岸派。クール・ジャズがどこで生まれ、どこへ波及したのかを、演奏者たちの足取りからひも解く。"
 images: ["/images/og/cool-jazz-birth-of-the-cool.jpg"]
 ogImageWidth: 1200
@@ -92,7 +92,7 @@ cool jazz は長い間、软弱で退屈という偏見にさらされていた�
 
 同じ時期、Baker は別の言語で同じことをやった。1950年代のジャズを「演奏する」だけでなく「描く」仕事として捉えていた。
 
-この10年の前半に、重要な出来事が起きている。ミントンの日曜の jam session から 52nd Street の夜へ散った、時間の流れ。あの側の物語は [ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間](/posts/bebop-52nd-street-nights/) に置いてある。
+この10年の前半に、重要な出来事が起きている。ミントンの日曜の jam session から 52nd Street の夜へ散った、時間の流れ。あの側の物語は [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/) に置いてある。
 
-**関連記事**: [ビバップの夜明け — Charlie ParkerとDizzy Gillespie、1940年代ニューヨークが燃えた5年間](/posts/bebop-52nd-street-nights/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [ハードバップとブルー・ノート黄金時代をたどる](/posts/hard-bop-blue-note-golden-age/) · [はじめてのジャズ名盤 — 最初に聴くべき10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ジャズの楽器を基礎から — リズム隊とホーンが作るサウンド](/posts/jazz-instruments-guide/)
+**関連記事**: [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)
 

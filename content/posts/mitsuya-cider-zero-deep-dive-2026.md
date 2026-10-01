@@ -1,5 +1,5 @@
 ---
-title: "三ツ矢サイダーZEROの味と仕様 — 142年ブランドが辿り着いたゼロの完成形"
+title: "三ツ矢サイダーZEROは142年目に見つけたゼロの答え"
 description: "「SINCE 1884」という文字を缶に堂々と刻めるブランドは、そう多くない。142年の歴史を持つ三ツ矢サイダーの、糖類ゼロ・カロリーゼロ版である三ツ矢サイダーZEROを隅々まで見ていく。"
 images: ["/images/og/mitsuya-cider-zero-deep-dive-2026.jpg"]
 ogImageWidth: 1200
@@ -66,4 +66,4 @@ aliases:
 140年以上前の鉱泉水から始まったブランドが、令和の今もカロリーゼロという形でアップデートを続けている。歴史の重みと時代への適応を両立させている、なかなか懐の深い一本だと思う。
 
 
-**関連記事**: [三ツ矢サイダーの味と仕様 — 140年変わらない透明な甘さの正体](/posts/mitsuya-cider-original-deep-dive-2026/) · [CRYSTAL SPARK ラムネの味と仕様 — 果汁ゼロで蘇る、あの瓶の記憶](/posts/crystal-spark-ramune-deep-dive-2026/) · [CRYSTAL SPARK グレープソーダの味と仕様 — 香りだけで満足させる無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの味と仕様 — 改名の裏にあった二重の意味](/posts/oza-soda-deep-dive-2026/)
+**関連記事**: [三ツ矢サイダーの透明な甘さは140年でどう守られてきたか](/posts/mitsuya-cider-original-deep-dive-2026/) · [CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる](/posts/crystal-spark-ramune-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの改名に込められた二つの意味](/posts/oza-soda-deep-dive-2026/)
