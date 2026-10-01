@@ -49,8 +49,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cp android/topics-app/app/build/outputs/apk/release/app-release.apk blog-topics.apk
+          echo "{\"versionCode\": ${GITHUB_RUN_NUMBER}, \"versionName\": \"1.0.${GITHUB_RUN_NUMBER}\"}" > version.json
           gh release delete topics-app-latest --yes --cleanup-tag || true
-          gh release create topics-app-latest blog-topics.apk \
+          gh release create topics-app-latest blog-topics.apk version.json \
             --title "ブログのネタ（Android アプリ）" \
-            --notes "build ${GITHUB_RUN_NUMBER} / ${GITHUB_SHA::7}。スマホでこの APK をダウンロードしてインストールしてください（初回は「提供元不明のアプリ」の許可が必要）。" \
+            --notes "build ${GITHUB_RUN_NUMBER} / ${GITHUB_SHA::7}。スマホでこの APK をダウンロードしてインストールしてください（初回は「提供元不明のアプリ」の許可が必要）。2回目以降はアプリのメニュー「アプリを更新」から更新できます。" \
             --latest=false
