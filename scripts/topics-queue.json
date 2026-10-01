@@ -1,4 +1,3463 @@
 {
- "updated": "2026-10-01T22:32:41+09:00",
- "items": []
+ "updated": "2026-10-01T23:03:45+09:00",
+ "items": [
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Universal Audio Volt 276、真空管プリとビンテージコンプを内蔵したUSBインターフェース",
+   "angle": "比較記事で取り上げたまま単独記事が無い一台。76系コンプとVintageモードが宅録のどこで効くのかを、入出力と実用の両面から見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Volt 276 レビュー",
+    "オーディオインターフェース 真空管 コンプ"
+   ],
+   "subjects": [
+    {
+     "name": "Universal Audio Volt 276",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.uaudio.com/",
+    "https://www.sweetwater.com/",
+    "https://en.wikipedia.org/wiki/Universal_Audio_(company)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Avalon_VT-737SP_%26_Yamaha_Steinberg_MR816CSX.jpg/960px-Avalon_VT-737SP_%26_Yamaha_Steinberg_MR816CSX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Avalon_VT-737SP_%26_Yamaha_Steinberg_MR816CSX.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Fritz CLEON"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Behringer_XENYX_2222FX_%2822in_2-2bus%2C_24bit_FX%2C_USB_Audio_IF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Behringer_XENYX_2222FX_(22in_2-2bus,_24bit_FX,_USB_Audio_IF).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Rodrigo Rodríguez"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 19,
+    "images": 14,
+    "season": 7,
+    "demand": 8,
+    "amazon": 8,
+    "total": 78
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-001",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "RME Babyface Pro FS、TotalMix FXとSteadyClock FSで何が変わるか",
+   "angle": "価格帯が離れた一台を、ドライバの安定性とクロック精度という地味な軸から読み解く。長く使う前提の買い方の話にする。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Babyface Pro FS レビュー",
+    "RME オーディオインターフェース 安定性"
+   ],
+   "subjects": [
+    {
+     "name": "RME Babyface Pro FS",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.rme-audio.de/",
+    "https://synthax.jp/",
+    "https://www.rme-usa.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Professional_sound_card_fireface_uc_back_side_with_connectors.jpg/960px-Professional_sound_card_fireface_uc_back_side_with_connectors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Professional_sound_card_fireface_uc_back_side_with_connectors.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Musicproducer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/RME_Fireface_800_-_right_side_Analog_Digital_State_panel.jpg/960px-RME_Fireface_800_-_right_side_Analog_Digital_State_panel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:RME_Fireface_800_-_right_side_Analog_Digital_State_panel.jpg",
+     "license": "CC BY 2.0",
+     "author": "spacedust2019"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 19,
+    "images": 16,
+    "season": 7,
+    "demand": 7,
+    "amazon": 8,
+    "total": 79
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-002",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Yamaha AG03MK2、配信と宅録を1台でまたぐループバックミキサー",
+   "angle": "ミキサーなのかインターフェースなのかという立ち位置を整理し、配信者とDTMerで使い方がどう分かれるかを書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "AG03MK2 レビュー",
+    "配信 ミキサー ループバック"
+   ],
+   "subjects": [
+    {
+     "name": "Yamaha AG03MK2",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://jp.yamaha.com/products/music_production/interfaces/index.html",
+    "https://www.dtmstation.com/",
+    "https://en.wikipedia.org/wiki/Yamaha_Corporation"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Live_streaming_audio_setup_for_Sobra-tankar_-_Yamaha_MG124cx_audio_mixer%2C_Sennheiser_ew100G3_wireless_set%2C_Shure_PGW24-PG58_wireless_set.jpg/960px-Live_streaming_audio_setup_for_Sobra-tankar_-_Yamaha_MG124cx_audio_mixer%2C_Sennheiser_ew100G3_wireless_set%2C_Shure_PGW24-PG58_wireless_set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Live_streaming_audio_setup_for_Sobra-tankar_-_Yamaha_MG124cx_audio_mixer,_Sennheiser_ew100G3_wireless_set,_Shure_PGW24-PG58_wireless_set.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Christian Dahlqvist"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Audio-Mixer_FBT-DIZZY-E20_23369-480x360_%284817631598%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio-Mixer_FBT-DIZZY-E20_23369-480x360_(4817631598).jpg",
+     "license": "CC BY 2.0",
+     "author": "Emilian Robert Vicol from Com. Balanesti, Romania"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 19,
+    "images": 16,
+    "season": 7,
+    "demand": 9,
+    "amazon": 8,
+    "total": 79
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-003",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Akai MPK Mini MK4、机の端に置ける25鍵とパッドの使いどころ",
+   "angle": "小型コントローラーの定番の第4世代。鍵盤・パッド・ノブの実用範囲と、どこから先は上位機が必要になるのかを線引きする。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "MPK Mini MK4 レビュー",
+    "小型 MIDIキーボード 25鍵"
+   ],
+   "subjects": [
+    {
+     "name": "Akai MPK Mini MK4",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.akaipro.com/",
+    "https://www.inmusicbrands.jp/",
+    "https://en.wikipedia.org/wiki/Akai_Professional"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/AKAI_MPK_mini_-_Global_Game_Jam_Berlin_2014.jpg/960px-AKAI_MPK_mini_-_Global_Game_Jam_Berlin_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKAI_MPK_mini_-_Global_Game_Jam_Berlin_2014.jpg",
+     "license": "CC BY 2.0",
+     "author": "Iwan Gabovitch from Berlin, Germany"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/AKAI_MPK_mini_-_closed_view.jpg/960px-AKAI_MPK_mini_-_closed_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKAI_MPK_mini_-_closed_view.jpg",
+     "license": "CC BY 2.0",
+     "author": "dj skyriser"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 19,
+    "images": 18,
+    "season": 7,
+    "demand": 9,
+    "amazon": 8,
+    "total": 81
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-004",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "モニターヘッドホン5台比較、密閉と開放を宅録の作業別に選ぶ",
+   "angle": "録りとミックスで求めるものが違う前提で、密閉型と開放型を混ぜて5台並べる。装着感と遮音という地味な軸を主役にする。",
+   "article_type": "comparison",
+   "keywords": [
+    "モニターヘッドホン 比較",
+    "宅録 ヘッドホン おすすめ"
+   ],
+   "subjects": [
+    {
+     "name": "Audio-Technica ATH-M50x",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Sony MDR-7506",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "beyerdynamic DT 770 PRO",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Sennheiser HD 650",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "AKG K371",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.audio-technica.com/",
+    "https://www.beyerdynamic.com/",
+    "https://www.sennheiser-hearing.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg/960px-Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg",
+     "license": "CC BY 2.0",
+     "author": "Jason Meredith"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Aviom_A-16II_Personal_Mixer_-_headphone_monitor_system%27s_remote_mixer_for_each_musician_%282012-05-24_13.49.45_by_Ethan_Hein_%40_Flickr_7262896128%29_%28Remini_%2B_edit1%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Aviom_A-16II_Personal_Mixer_-_headphone_monitor_system%27s_remote_mixer_for_each_musician_(2012-05-24_13.49.45_by_Ethan_Hein_@_Flickr_7262896128)_(Remini_%2B_edit1).jpg",
+     "license": "CC BY 4.0",
+     "author": "Aviom A-16II Personal Mixer - headphone monitor system's rem"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 10,
+    "amazon": 8,
+    "total": 84
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-005",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "ニアフィールドモニタースピーカー5台比較、5インチ級を机の上で鳴らす",
+   "angle": "ハイファイのブックシェルフとは別物として、宅録用の小型モニターを5台並べる。低域の出方と机での置きやすさを軸にする。",
+   "article_type": "comparison",
+   "keywords": [
+    "モニタースピーカー 比較 5インチ",
+    "DTM スピーカー おすすめ"
+   ],
+   "subjects": [
+    {
+     "name": "Yamaha HS5",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "KRK Rokit RP5 G5",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ADAM Audio T5V",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Genelec 8010A",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "JBL 305P MkII",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://jp.yamaha.com/products/proaudio/speakers/index.html",
+    "https://www.krkmusic.com/",
+    "https://www.adam-audio.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bass_reflex_opening_of_professional_studio_loudspeaker_box_Tannoy_Little_Gold_Monitor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bass_reflex_opening_of_professional_studio_loudspeaker_box_Tannoy_Little_Gold_Monitor.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Pittigrilli"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/LS3_5A_without_grilles_%28clip%29.jpg/960px-LS3_5A_without_grilles_%28clip%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:LS3_5A_without_grilles_(clip).jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "LS3 without grilles.jpg: Ohconfucius at English Wikipedia\nde"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 16,
+    "season": 8,
+    "demand": 10,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-006",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "コンデンサーマイク5本比較、はじめての一本から定番までの距離",
+   "angle": "宅録のマイクはまだ扱っていない空白。指向性と電源、ポップガードまで含めて、価格差が何に消えているのかを書く。",
+   "article_type": "comparison",
+   "keywords": [
+    "コンデンサーマイク 比較",
+    "宅録 マイク おすすめ"
+   ],
+   "subjects": [
+    {
+     "name": "Audio-Technica AT2020",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "RODE NT1 5th Generation",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "AKG C214",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Neumann TLM 102",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Aston Origin",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.audio-technica.com/",
+    "https://rode.com/",
+    "https://www.neumann.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AKG_C214_Condenser_microphone.jpg/960px-AKG_C214_Condenser_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lucasbosch"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/AKG_C214_condenser_microphone_with_H85_shock_mount.jpg/960px-AKG_C214_condenser_microphone_with_H85_shock_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lucasbosch"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 10,
+    "amazon": 8,
+    "total": 85
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-007",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Logic Pro、Mac一台で完結する作曲環境としての現在",
+   "angle": "DAW比較で触れたまま単独記事が無い。Session PlayersやStem Splitterを含め、買い切り一本で何ができるかを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Logic Pro レビュー",
+    "Logic Pro 使い方 作曲"
+   ],
+   "subjects": [
+    {
+     "name": "Logic Pro",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.apple.com/jp/logic-pro/",
+    "https://support.apple.com/ja-jp/logic-pro",
+    "https://en.wikipedia.org/wiki/Logic_Pro"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Logic_PRO_X_Tutorial.png/960px-Logic_PRO_X_Tutorial.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Logic_PRO_X_Tutorial.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Musicianonamission"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Keyboards_and_computer.jpg/960px-Keyboards_and_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keyboards_and_computer.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mitchschneider88"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 19,
+    "images": 14,
+    "season": 7,
+    "demand": 10,
+    "amazon": 5,
+    "total": 75
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-008",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Ableton Live 12、セッションビューという別の作曲動線",
+   "angle": "タイムライン前提のDAWと何が違うのかを、セッションビューとClip運用の話に絞って書く。ライブ用途だけの道具ではない点を立てる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Ableton Live 12 レビュー",
+    "セッションビュー 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "Ableton Live 12",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.ableton.com/ja/live/",
+    "https://www.ableton.com/ja/manual/",
+    "https://en.wikipedia.org/wiki/Ableton_Live"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Ableton_Live_Logo.svg/960px-Ableton_Live_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ableton_Live_Logo.svg",
+     "license": "Public domain",
+     "author": "Ableton AG"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ableton_Live_%2B_Pad_controller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Ableton_Live_%2B_Pad_controller.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Mickey Destro"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 19,
+    "images": 16,
+    "season": 7,
+    "demand": 10,
+    "amazon": 5,
+    "total": 77
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-009",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "FL Studio、生涯無償アップデートという売り方と打ち込みの癖",
+   "angle": "ピアノロールとパターン方式という独特の作り方を、他のDAWから来た人の目線で解く。無償アップデートの条件も確認する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "FL Studio レビュー",
+    "FL Studio 打ち込み 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "FL Studio",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.image-line.com/fl-studio/",
+    "https://www.image-line.com/fl-studio-learning/",
+    "https://en.wikipedia.org/wiki/FL_Studio"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/FL_Studio_Logo_Wordmark.svg/960px-FL_Studio_Logo_Wordmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:FL_Studio_Logo_Wordmark.svg",
+     "license": "Public domain",
+     "author": "Image Line Software"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Remote_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Remote_25.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Allangothic"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 18,
+    "images": 12,
+    "season": 7,
+    "demand": 10,
+    "amazon": 5,
+    "total": 72
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-010",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Kontakt 8、音源を鳴らす側と作る側で見える顔が変わる",
+   "angle": "サンプラー比較で中心に置いた定番の単独記事。ライブラリ再生機としての使い方と、自分で楽器を組む側の話を分けて書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Kontakt 8 レビュー",
+    "Kontakt 使い方 音源"
+   ],
+   "subjects": [
+    {
+     "name": "Native Instruments Kontakt 8",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.native-instruments.com/jp/products/komplete/samplers/kontakt-8/",
+    "https://www.native-instruments.com/jp/support/",
+    "https://en.wikipedia.org/wiki/Kontakt_(software)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Keyboards_and_computer.jpg/960px-Keyboards_and_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keyboards_and_computer.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mitchschneider88"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/AKAI_APC40_Ableton_Performance_Controller.jpg/960px-AKAI_APC40_Ableton_Performance_Controller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKAI_APC40_Ableton_Performance_Controller.jpg",
+     "license": "CC BY 2.0",
+     "author": "Eric Wahlforss from Berlin, Germany"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 18,
+    "images": 12,
+    "season": 7,
+    "demand": 9,
+    "amazon": 5,
+    "total": 71
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-011",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Audacity 4、無料の波形編集ソフトが見た目から作り直された",
+   "angle": "2026年9月に出た大改装。クリップ単位の編集やエフェクト周りが変わり、無料の録音・編集環境としての位置づけが動いた点を押さえる。",
+   "article_type": "guide",
+   "keywords": [
+    "Audacity 4 新機能",
+    "無料 音声編集ソフト"
+   ],
+   "subjects": [
+    {
+     "name": "Audacity 4",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.audacityteam.org/",
+    "https://www.synthtopia.com/content/2026/09/28/audacity-4-brings-new-tools-new-look-to-free-audio-editor/",
+    "https://en.wikipedia.org/wiki/Audacity_(audio_editor)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Audacity_Logo.svg/960px-Audacity_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audacity_Logo.svg",
+     "license": "GPL",
+     "author": "Aaron Spike"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Audacity_Version_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audacity_Version_3.png",
+     "license": "GPL",
+     "author": "Peter H Sampson"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 10,
+    "demand": 9,
+    "amazon": 0,
+    "total": 80
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-012",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "VocAlign 7、ハモリとダブルをまとめて揃えるボーカル編集",
+   "angle": "マルチトラック対応で、重ねた声を一度に合わせられるようになった。手で切り貼りしていた作業がどこまで減るのかを見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "VocAlign 7 レビュー",
+    "ボーカル タイミング 補正"
+   ],
+   "subjects": [
+    {
+     "name": "Synchro Arts VocAlign 7",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.synchroarts.com/",
+    "https://www.dtmstation.com/archives/79283.html",
+    "https://sleepfreaks-dtm.com/dtm-materials/vocalign-7/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg/960px-Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg/960px-Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg",
+     "license": "CC BY 2.0",
+     "author": "Tim Sheerman-Chase"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 16,
+    "season": 8,
+    "demand": 7,
+    "amazon": 3,
+    "total": 76
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-013",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "無料DAWのLUNAで1曲通す、どこまでが無償の範囲か",
+   "angle": "Universal AudioのLUNAは無料で使える。録音からミックス、書き出しまでを通したときに有償機能が必要になる地点を探る。",
+   "article_type": "guide",
+   "keywords": [
+    "LUNA 無料 DAW",
+    "無料 DAW 録音 ミックス"
+   ],
+   "subjects": [
+    {
+     "name": "Universal Audio LUNA",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.uaudio.com/luna",
+    "https://www.dtmstation.com/archives/80125.html",
+    "https://en.wikipedia.org/wiki/Universal_Audio_(company)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Keyboards_and_computer.jpg/960px-Keyboards_and_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keyboards_and_computer.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mitchschneider88"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Louie_Jabonillo_%282%29.jpg/960px-Louie_Jabonillo_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Louie_Jabonillo_(2).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Louie Jabonillo"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 14,
+    "season": 8,
+    "demand": 8,
+    "amazon": 0,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-014",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "6畳の部屋に10万円で宅録環境を組む、優先順位の付け方",
+   "angle": "限られた予算で何から買うか。インターフェース・マイク・ヘッドホン・スタンドまで、机の配置込みで順番を決める。",
+   "article_type": "guide",
+   "keywords": [
+    "宅録 機材 予算 10万円",
+    "6畳 DTM 環境"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.dtmstation.com/",
+    "https://sleepfreaks-dtm.com/",
+    "https://jp.yamaha.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/A_home_recording_setup_for_the_Kathabhidhana_project_for_Wiktionary.jpg/960px-A_home_recording_setup_for_the_Kathabhidhana_project_for_Wiktionary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_home_recording_setup_for_the_Kathabhidhana_project_for_Wiktionary.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Subhashish Panigrahi"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Flickr_-_ronsaunders47_-_John_Lennon%27s_%22White_Room%22.jpg/960px-Flickr_-_ronsaunders47_-_John_Lennon%27s_%22White_Room%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_ronsaunders47_-_John_Lennon%27s_%22White_Room%22.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Ronald Saunders from Warrington, UK"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 16,
+    "images": 18,
+    "season": 8,
+    "demand": 10,
+    "amazon": 6,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-015",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "ワンルームの一角で配信環境を作る、生活と同居させる配置",
+   "angle": "部屋を一室潰せない前提で、机の一角だけを配信用に成立させる。背景・照明・マイクの位置を生活動線と両立させる話。",
+   "article_type": "guide",
+   "keywords": [
+    "ワンルーム 配信 環境",
+    "配信 デスク 配置"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://jp.yamaha.com/products/music_production/interfaces/index.html",
+    "https://www.elgato.com/jp/ja",
+    "https://www.dtmstation.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Tawalker%27s_home_studio_gear_%282007%29.jpg/960px-Tawalker%27s_home_studio_gear_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tawalker%27s_home_studio_gear_(2007).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tim Walker"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Kurt_Schrotenboer_-_Bob_Heil.jpg/960px-Kurt_Schrotenboer_-_Bob_Heil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kurt_Schrotenboer_-_Bob_Heil.jpg",
+     "license": "CC BY 2.0",
+     "author": "Kurt Schrotenboer"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 14,
+    "season": 8,
+    "demand": 9,
+    "amazon": 6,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-016",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "防音と吸音は別の話、賃貸でできる範囲と組み立て式ブースの値段",
+   "angle": "吸音材を貼るだけでは音は漏れない。遮音と吸音を分けて説明し、18万円台から出てきた組み立て式ブースまでを射程に入れる。",
+   "article_type": "guide",
+   "keywords": [
+    "賃貸 防音 DTM",
+    "吸音材 録音 ブース"
+   ],
+   "subjects": [
+    {
+     "name": "MUSICUS B-Free 2.0",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.dtmstation.com/archives/79959.html",
+    "https://camp-fire.jp/",
+    "https://en.wikipedia.org/wiki/Soundproofing"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/202605_Exterior_of_Sound_barrier_wall_while_the_bus_moving_at_night.jpg/960px-202605_Exterior_of_Sound_barrier_wall_while_the_bus_moving_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:202605_Exterior_of_Sound_barrier_wall_while_the_bus_moving_at_night.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Junyu-K"
+    },
+    {
+     "url": "https://live.staticflickr.com/3865/14523876722_89a3146d1e_b.jpg",
+     "page": "https://www.flickr.com/photos/75683070@N00/14523876722",
+     "license": "BY-SA 2.0",
+     "author": "Ken Lund"
+    }
+   ],
+   "season": "10月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 13,
+    "season": 9,
+    "demand": 9,
+    "amazon": 6,
+    "total": 77
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-017",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "机と椅子から制作環境を見直す、長時間座るための選び方",
+   "angle": "機材より先に体が限界を迎える。天板の奥行き、高さ、椅子の調整範囲という、音に直接関係しない部分の効き方を書く。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM デスク 選び方",
+    "作業椅子 長時間 疲れない"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.ergohuman.jp/",
+    "https://www.kokuyo.co.jp/",
+    "https://www.lifehacker.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://live.staticflickr.com/2320/2215657406_e3a70cbd29_b.jpg",
+     "page": "https://www.flickr.com/photos/21893264@N00/2215657406",
+     "license": "BY-SA 2.0",
+     "author": "Mrs. Gemstone"
+    },
+    {
+     "url": "https://live.staticflickr.com/4063/5081408605_717a9669f5_b.jpg",
+     "page": "https://www.flickr.com/photos/68503235@N00/5081408605",
+     "license": "BY 2.0",
+     "author": "Jon Rohan"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 20,
+    "verifiable": 15,
+    "images": 14,
+    "season": 10,
+    "demand": 8,
+    "amazon": 7,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-018",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "モニタースピーカーの置き方で音は変わる、机の上のルームチューニング",
+   "angle": "同じスピーカーでも置き方で別物になる。正三角形、壁からの距離、スタンドと吸音の順番を、6畳前提で具体的に決める。",
+   "article_type": "guide",
+   "keywords": [
+    "モニタースピーカー 設置 高さ",
+    "部屋 定在波 対策"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.genelec.com/",
+    "https://www.adam-audio.com/",
+    "https://en.wikipedia.org/wiki/Studio_monitor"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/5.1_mixing_room_for_Radio%2C_TV%2C_and_Film_production%2C_equipt_with_AVID_Pro_Tools_including_ICON_D-Command_-_Control_Room_B%2C_In_Your_Ear_Studios.jpg/960px-5.1_mixing_room_for_Radio%2C_TV%2C_and_Film_production%2C_equipt_with_AVID_Pro_Tools_including_ICON_D-Command_-_Control_Room_B%2C_In_Your_Ear_Studios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:5.1_mixing_room_for_Radio,_TV,_and_Film_production,_equipt_with_AVID_Pro_Tools_including_ICON_D-Command_-_Control_Room_B,_In_Your_Ear_Studios.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Will Fisher from Richmond, VA, United States"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Bunkamura_Studio_Control_Room_%282006-07-17_22.34.56_by_Patrick_Woodward%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bunkamura_Studio_Control_Room_(2006-07-17_22.34.56_by_Patrick_Woodward).jpg",
+     "license": "CC BY 2.0",
+     "author": "Patrick Woodward from Los Angeles, USA"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 17,
+    "images": 16,
+    "season": 7,
+    "demand": 8,
+    "amazon": 5,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-019",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "冬の制作部屋、寒さと乾燥と結露に機材をどう守らせるか",
+   "angle": "暖房の立ち上げと湿度、窓際の結露。木の楽器やスピーカーを置いた部屋で、冬に起きることと対策を季節の実務としてまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM 部屋 冬 湿度",
+    "楽器 結露 対策"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.jma.go.jp/jma/index.html",
+    "https://www.daikin.co.jp/",
+    "https://jp.yamaha.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Carbon_heater.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Carbon_heater.jpg",
+     "license": "CC BY 2.5",
+     "author": "aquila2664"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Electric_Ceramic_Space_Heater_%2832569563908%29.jpg/960px-Electric_Ceramic_Space_Heater_%2832569563908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Electric_Ceramic_Space_Heater_(32569563908).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tony Webster from Minneapolis, Minnesota, United States"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 20,
+    "verifiable": 15,
+    "images": 13,
+    "season": 14,
+    "demand": 7,
+    "amazon": 6,
+    "total": 75
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-020",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "ブラックフライデーまでの買い物計画、欲しい物リストの作り方",
+   "angle": "11月のセールは毎年荒れる。先に自分の環境の穴を洗い出し、値下がりしやすいものとしないものを分けて待つ段取りを書く。",
+   "article_type": "guide",
+   "keywords": [
+    "ブラックフライデー DTM セール",
+    "プラグイン セール 買い方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.dtmstation.com/",
+    "https://sleepfreaks-dtm.com/",
+    "https://www.pluginboutique.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Black_Friday_Sale_Inflatable_%2822729837503%29.jpg/960px-Black_Friday_Sale_Inflatable_%2822729837503%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_Sale_Inflatable_(22729837503).jpg",
+     "license": "CC BY 2.0",
+     "author": "Rusty Clark - On the Air M-F 8am-noon from merritt usland FL"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Black_Friday_Sale_sign%2C_Rotterdam-Centrum%2C_Rotterdam_%282020%29_01.jpg/960px-Black_Friday_Sale_sign%2C_Rotterdam-Centrum%2C_Rotterdam_%282020%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_Sale_sign,_Rotterdam-Centrum,_Rotterdam_(2020)_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - ©"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 16,
+    "images": 16,
+    "season": 15,
+    "demand": 9,
+    "amazon": 5,
+    "total": 83
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-021",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "映像編集と音楽制作を1つの机で兼用する、画面と音の折り合い",
+   "angle": "画面を増やすとスピーカーの置き場が消える。デュアルモニターと音の両立、オーディオの切り替え、電源まわりの整理を扱う。",
+   "article_type": "guide",
+   "keywords": [
+    "デュアルモニター DTM 配置",
+    "映像編集 音楽制作 兼用 デスク"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.blackmagicdesign.com/jp/",
+    "https://www.benq.com/ja-jp/",
+    "https://www.dtmstation.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg/960px-Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Desk_Setup_%28Unsplash%29.jpg/960px-Desk_Setup_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Desk_Setup_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Luke Chesser lukechesser"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 15,
+    "images": 16,
+    "season": 7,
+    "demand": 8,
+    "amazon": 6,
+    "total": 72
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-022",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "音楽理論を3か月で一周する、書籍とアプリの組み合わせ方",
+   "angle": "理論書を1冊読んで終わらせないための配分。鍵盤に落として確認する手順と、アプリで反復する部分を分けて3か月に割る。",
+   "article_type": "guide",
+   "keywords": [
+    "音楽理論 独学 3か月",
+    "音楽理論 本 おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.rittor-music.co.jp/",
+    "https://www.musictheory.net/",
+    "https://www.yamahamusic.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grand_method_for_flute%2C_part._I_-_containing_complete_theory_of_music%2C_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_%28017_of_110%29.jpg/960px-Grand_method_for_flute%2C_part._I_-_containing_complete_theory_of_music%2C_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_%28017_of_110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Grand_method_for_flute,_part._I_-_containing_complete_theory_of_music,_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_(017_of_110).jpg",
+     "license": "Public domain",
+     "author": "Altès, Henri (1826-1895). Compositeur"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_%2802_of_12%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg",
+     "license": "Public domain",
+     "author": "Bach, Wilhelm Friedemann (1710-1784). Compositeur"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 13,
+    "season": 7,
+    "demand": 10,
+    "amazon": 7,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-023",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ミックスを独学で、1か月の練習メニューを組む",
+   "angle": "毎回同じ曲を題材にして、EQ・コンプ・リバーブを順番に1週ずつ触る。耳が慣れる前にリセットする仕組みも入れる。",
+   "article_type": "guide",
+   "keywords": [
+    "ミックス 独学 練習",
+    "DTM ミックス 上達"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://sleepfreaks-dtm.com/",
+    "https://www.izotope.com/",
+    "https://www.soundonsound.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ADT_Mixing_Console.jpg/960px-ADT_Mixing_Console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Prof. Pod"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Audio_mixer_close_up.jpg/960px-Audio_mixer_close_up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_mixer_close_up.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Lchader"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 16,
+    "season": 7,
+    "demand": 10,
+    "amazon": 5,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-024",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ジャズの聴き方を身につける、入門書と聴く順番",
+   "angle": "名盤を並べるのではなく、何を聴き取ろうとするかを決めてから聴く手順を作る。読む本と聴く盤を対応させる。",
+   "article_type": "guide",
+   "keywords": [
+    "ジャズ 聴き方 入門",
+    "ジャズ 入門書 おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.bluenote.com/",
+    "https://www.rittor-music.co.jp/",
+    "https://ja.wikipedia.org/wiki/ジャズ"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Listening_to_is_Yes%27_self-titled_debut_album_from_1969.jpg/960px-Listening_to_is_Yes%27_self-titled_debut_album_from_1969.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Listening_to_is_Yes%27_self-titled_debut_album_from_1969.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Ed Uthman from Houston, TX, USA"
+    },
+    {
+     "url": "https://live.staticflickr.com/2510/4015102979_704f2efc11_b.jpg",
+     "page": "https://www.flickr.com/photos/39348621@N00/4015102979",
+     "license": "BY 2.0",
+     "author": "mabecerra"
+    }
+   ],
+   "season": "秋",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 15,
+    "season": 9,
+    "demand": 8,
+    "amazon": 7,
+    "total": 76
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-025",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "耳コピとイヤートレーニング、1週間で変わる部分と変わらない部分",
+   "angle": "音感は一夜で付かないが、相対音感の取り方には手順がある。1週間の反復で届く範囲を正直に切り分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "耳コピ やり方 コツ",
+    "イヤートレーニング アプリ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.musictheory.net/exercises/",
+    "https://sleepfreaks-dtm.com/",
+    "https://en.wikipedia.org/wiki/Ear_training"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Closeup_of_the_old_broken_piano_keys.jpg/960px-Closeup_of_the_old_broken_piano_keys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Closeup_of_the_old_broken_piano_keys.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Piano_practice_hands.jpg/960px-Piano_practice_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Piano_practice_hands.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "zaui/Scott Catron"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 14,
+    "season": 7,
+    "demand": 8,
+    "amazon": 5,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-026",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "オンラインのDTM講座とスクール、独学との境目をどこに置くか",
+   "angle": "動画で足りる部分と、人に見てもらわないと止まる部分を分ける。料金体系と添削の有無を比較の軸にする。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM スクール オンライン 比較",
+    "DTM 講座 独学"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://sleepfreaks-dtm.com/news/ai-create/",
+    "https://www.yamahamusic.co.jp/",
+    "https://www.shimamura.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Benefits_and_Challenges_of_Distance_Education.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Benefits_and_Challenges_of_Distance_Education.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Valerie Reed"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Dharmaram_Academy_for_Distance_Education_.png/960px-Dharmaram_Academy_for_Distance_Education_.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dharmaram_Academy_for_Distance_Education_.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Joseph Bangalore"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 16,
+    "images": 12,
+    "season": 8,
+    "demand": 9,
+    "amazon": 3,
+    "total": 68
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-027",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める",
+   "angle": "白紙から書き始めない方法。4小節のループを増築していく段取りと、締め切りを自分で作る仕組みを1か月に落とす。",
+   "article_type": "guide",
+   "keywords": [
+    "作曲 始め方 コード進行",
+    "1か月 作曲 練習"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.rittor-music.co.jp/",
+    "https://sleepfreaks-dtm.com/",
+    "https://www.hooktheory.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_%2802_of_12%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg",
+     "license": "Public domain",
+     "author": "Bach, Wilhelm Friedemann (1710-1784). Compositeur"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_%2803_of_12%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(03_of_12).jpg",
+     "license": "Public domain",
+     "author": "Bach, Wilhelm Friedemann (1710-1784). Compositeur"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 15,
+    "images": 14,
+    "season": 7,
+    "demand": 9,
+    "amazon": 5,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-028",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "大人から鍵盤を始める、指より先に決めることがある",
+   "angle": "弾けるようになるためではなく、打ち込みのために鍵盤を触る前提の独習計画。練習時間の置き方と、電子ピアノの最低条件を書く。",
+   "article_type": "guide",
+   "keywords": [
+    "大人 ピアノ 独学",
+    "電子ピアノ 初心者 選び方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://jp.yamaha.com/products/musical_instruments/pianos/index.html",
+    "https://www.roland.com/jp/",
+    "https://www.kawai.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Piano_practice_hands.jpg/960px-Piano_practice_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Piano_practice_hands.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "zaui/Scott Catron"
+    },
+    {
+     "url": "https://live.staticflickr.com/65535/49347450092_34d7dcfcbb_b.jpg",
+     "page": "https://www.flickr.com/photos/186095195@N02/49347450092",
+     "license": "BY 2.0",
+     "author": "chocolatedazzles"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 15,
+    "images": 14,
+    "season": 7,
+    "demand": 9,
+    "amazon": 6,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-029",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "アイリッシュウイスキー5本比較、三回蒸留の軽さを飲み分ける",
+   "angle": "スコッチとバーボンは扱ったがアイルランドは空白。ポットスチルとブレンデッドの違いを、5本で実際に飲み分ける形にする。",
+   "article_type": "comparison",
+   "keywords": [
+    "アイリッシュウイスキー おすすめ 比較",
+    "アイリッシュウイスキー 違い"
+   ],
+   "subjects": [
+    {
+     "name": "Jameson",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Bushmills Original",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Tullamore D.E.W.",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Redbreast 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Teeling Small Batch",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.jamesonwhiskey.com/",
+    "https://bushmills.com/",
+    "https://www.tullamoredew.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Clontarf_1014_Irish_Whiskey.jpg/960px-Clontarf_1014_Irish_Whiskey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Clontarf_1014_Irish_Whiskey.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Castle Brands Inc"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/An_empty_Bushmills_Whiskey_bottle%2C_Tattykeel_-_geograph.org.uk_-_3287493.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:An_empty_Bushmills_Whiskey_bottle,_Tattykeel_-_geograph.org.uk_-_3287493.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Kenneth  Allen"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 9,
+    "amazon": 8,
+    "total": 84
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-030",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "アイラモルト入門、同じ島でも煙の出方が違う",
+   "angle": "ピートの話をひとまとめにせず、島の南岸と北岸で香りの作られ方が違う点から入る。はじめの一本の選び方に落とす。",
+   "article_type": "comparison",
+   "keywords": [
+    "アイラモルト 入門 おすすめ",
+    "ピート スモーキー ウイスキー 違い"
+   ],
+   "subjects": [
+    {
+     "name": "Laphroaig 10年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Ardbeg 10年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Bowmore 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Caol Ila 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Bruichladdich The Classic Laddie",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.laphroaig.com/",
+    "https://www.ardbeg.com/",
+    "https://www.bruichladdich.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Laphroaig_Distillery%2C_%28May_2001%29_-_panoramio.jpg/960px-Laphroaig_Distillery%2C_%28May_2001%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Laphroaig_Distillery,_(May_2001)_-_panoramio.jpg",
+     "license": "CC BY 3.0",
+     "author": "Heikki Immonen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Laphroaig_Distillery_-_panoramio_%281%29.jpg/960px-Laphroaig_Distillery_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Laphroaig_Distillery_-_panoramio_(1).jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Bjarne Henning Kvaal…"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 18,
+    "season": 9,
+    "demand": 9,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-031",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "ジャパニーズウイスキーの表示ルールが変わった後、いま棚にある5本",
+   "angle": "業界の表示基準が整理され、何をジャパニーズと呼べるのかの線が引かれた。その前提で現行品の5本を選び直す。",
+   "article_type": "comparison",
+   "keywords": [
+    "ジャパニーズウイスキー 定義 表示",
+    "ジャパニーズウイスキー おすすめ 5本"
+   ],
+   "subjects": [
+    {
+     "name": "サントリー 知多",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "サントリー 響 BLOSSOM HARMONY",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ニッカ セッション",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "マルスウイスキー 岩井トラディション",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "あかし シングルモルト",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.suntory.co.jp/whisky/",
+    "https://www.nikka.com/",
+    "https://www.hombo.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hibiki_the_premium_blended_whisky_from_Japanese_distiller_Suntory.jpg/960px-Hibiki_the_premium_blended_whisky_from_Japanese_distiller_Suntory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hibiki_the_premium_blended_whisky_from_Japanese_distiller_Suntory.jpg",
+     "license": "Public domain",
+     "author": "ウィキ太郎 (Wiki Taro)"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Japanese_whisky.jpg/960px-Japanese_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_whisky.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Culture Japon"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 16,
+    "season": 9,
+    "demand": 10,
+    "amazon": 8,
+    "total": 85
+   },
+   "source_of_idea": "search",
+   "id": "2026w40-032",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "バーボン5本比較、ライ麦と小麦で甘さの出方が変わる",
+   "angle": "ジムビームとフォアローゼズは単独で書いた。ここでは穀物比率と樽の焼き方という軸で5本を横に並べる。",
+   "article_type": "comparison",
+   "keywords": [
+    "バーボン おすすめ 比較",
+    "バーボン 違い ライ麦"
+   ],
+   "subjects": [
+    {
+     "name": "Wild Turkey 8年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Maker's Mark",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Woodford Reserve",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Buffalo Trace",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Knob Creek",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://wildturkeybourbon.com/",
+    "https://www.makersmark.com/",
+    "https://www.woodfordreserve.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/1940s_bourbon_whiskey_bottles.jpg/960px-1940s_bourbon_whiskey_bottles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1940s_bourbon_whiskey_bottles.jpg",
+     "license": "CC BY 3.0",
+     "author": "Yourmanstan at English Wikipedia"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Bottle_of_Whiskey_Rebellion_from_Warped_Wing_Brewery.jpg/960px-Bottle_of_Whiskey_Rebellion_from_Warped_Wing_Brewery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle_of_Whiskey_Rebellion_from_Warped_Wing_Brewery.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elwood P. Dowd"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 9,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-033",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "ハイボールの比率と炭酸と氷、数字で決める作り方",
+   "angle": "角瓶の記事で触れた飲み方を独立させる。1対3や1対4という比率、炭酸の強さ、氷の大きさで何が変わるかを手順にする。",
+   "article_type": "guide",
+   "keywords": [
+    "ハイボール 作り方 比率",
+    "ハイボール 炭酸水 おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.suntory.co.jp/whisky/kakubin/",
+    "https://www.asahiinryo.co.jp/wilkinson/",
+    "https://en.wikipedia.org/wiki/Highball"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Gin_and_tonic_cocktail_with_wedge_of_lime.jpg/960px-Gin_and_tonic_cocktail_with_wedge_of_lime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_cocktail_with_wedge_of_lime.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Davidnuescheler"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gin_and_Tonic_with_ingredients.jpg/960px-Gin_and_Tonic_with_ingredients.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gin_and_Tonic_with_ingredients.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "NotFromUtrecht"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 14,
+    "season": 8,
+    "demand": 10,
+    "amazon": 6,
+    "total": 75
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-034",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "年末の贈り物にウイスキーを選ぶ、箱とカレンダーという売り方",
+   "angle": "12月に向けて化粧箱入りとアドベントカレンダーが並ぶ時期。何を基準に贈るかと、自分用に崩す買い方を分けて書く。",
+   "article_type": "guide",
+   "keywords": [
+    "ウイスキー ギフト おすすめ 年末",
+    "ウイスキー アドベントカレンダー"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.whiskyintelligence.com/2026/09/whisky-with-us-launches-new-12-day-whisky-advent-calendars-alongside-two-25-day-calendars-with-a-whisky-filled-christmas-bauble-whisky-advent-news/",
+    "https://www.suntory.co.jp/whisky/",
+    "https://www.nikka.com/"
+   ],
+   "images": [
+    {
+     "url": "https://live.staticflickr.com/3363/3615551027_89244f206f_b.jpg",
+     "page": "https://www.flickr.com/photos/7927132@N08/3615551027",
+     "license": "BY 2.0",
+     "author": "Abhisek Sarda"
+    },
+    {
+     "url": "https://live.staticflickr.com/7054/6991862698_4214111d02_b.jpg",
+     "page": "https://www.flickr.com/photos/34128007@N04/6991862698",
+     "license": "BY 2.0",
+     "author": "Prayitno / Thank you for (12 millions +) view"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 13,
+    "season": 15,
+    "demand": 8,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-035",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "台湾とインドのウイスキー、熱い土地で樽は速く働く",
+   "angle": "KavalanとAmrutが短い熟成年数で評価される理由を、気候と天使の分け前から説明する。年数表示の読み方が変わる話にする。",
+   "article_type": "theme",
+   "keywords": [
+    "カバラン ウイスキー 評価",
+    "アムルット インド ウイスキー"
+   ],
+   "subjects": [
+    {
+     "name": "Kavalan Classic",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Kavalan Solist",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Amrut Fusion",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.kavalanwhisky.com/",
+    "https://www.amrutdistilleries.com/",
+    "https://en.wikipedia.org/wiki/Kavalan_Distillery"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Beautiful_tasting_of_Kavalan_whiskey.jpg/960px-Beautiful_tasting_of_Kavalan_whiskey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beautiful_tasting_of_Kavalan_whiskey.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "ironypoisoning"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Giant_stills.jpg/960px-Giant_stills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Giant_stills.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "ironypoisoning"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 7,
+    "amazon": 7,
+    "total": 81
+   },
+   "source_of_idea": "search",
+   "id": "2026w40-036",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "新しいスコットランドの蒸留所、12年を待たない売り方",
+   "angle": "Isle of HarrisやWolfburnのような近年の蒸留所が、熟成年数の短さをどう設計に変えているか。2026年の新しい出荷を手がかりにする。",
+   "article_type": "theme",
+   "keywords": [
+    "新しい スコッチ 蒸留所",
+    "Isle of Harris ウイスキー"
+   ],
+   "subjects": [
+    {
+     "name": "Isle of Harris Distillery The Hearach",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Wolfburn",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.whiskyintelligence.com/2026/10/isle-of-harris-distillery-single-malt-available-in-the-us-scotch-whisky-news/",
+    "https://www.harrisdistillery.com/",
+    "https://wolfburn.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Harris_Distillery_Exterior.jpg/960px-Harris_Distillery_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Harris_Distillery_Exterior.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Coldupnorth"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Harris_%2847936661612%29.jpg/960px-Harris_%2847936661612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Harris_(47936661612).jpg",
+     "license": "CC BY 2.0",
+     "author": "Graeme Churchard from Bristol (51.473110 -2.625987), UK"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 6,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-037",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ノンアルコールビール5本比較、麦の香りをどこまで作れるか",
+   "angle": "炭酸飲料は深掘りしてきたがノンアルは空白。脱アルコールと発酵抑制という作り方の違いから、味の差を説明する。",
+   "article_type": "comparison",
+   "keywords": [
+    "ノンアルコールビール 比較 おすすめ",
+    "ノンアルビール 作り方 違い"
+   ],
+   "subjects": [
+    {
+     "name": "アサヒ ドライゼロ",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "キリン グリーンズフリー",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "サントリー オールフリー",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "サッポロ プレミアムアルコールフリー",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "龍馬1865",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.asahibeer.co.jp/",
+    "https://www.kirin.co.jp/",
+    "https://www.suntory.co.jp/beer/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/038_Peroni_non-alcoholic_beer_-_bottled_low_alcohol_Italian_beer_brand.jpg/960px-038_Peroni_non-alcoholic_beer_-_bottled_low_alcohol_Italian_beer_brand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:038_Peroni_non-alcoholic_beer_-_bottled_low_alcohol_Italian_beer_brand.jpg",
+     "license": "CC BY 3.0",
+     "author": "Marek Ślusarczyk (Tupungato) Photo portfolio"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Alkoholfri_%C3%B6l.jpg/960px-Alkoholfri_%C3%B6l.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Alkoholfri_%C3%B6l.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Nonalc123"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 10,
+    "amazon": 8,
+    "total": 85
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-038",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "クラフトコーラという作り方、スパイスから組み立てる黒い炭酸",
+   "angle": "大手のコーラとは別系統の、スパイスと柑橘を自分で配合する流れ。原液とボトルの違い、割り方の自由度を扱う。",
+   "article_type": "theme",
+   "keywords": [
+    "クラフトコーラ おすすめ",
+    "伊良コーラ 味"
+   ],
+   "subjects": [
+    {
+     "name": "伊良コーラ",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ともコーラ",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "UMAMI COLA",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://iyoshicola.com/",
+    "https://tomocola.com/",
+    "https://en.wikipedia.org/wiki/Cola"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Coca-Cola-signature_mixers-smoky_notes-front.jpg/960px-Coca-Cola-signature_mixers-smoky_notes-front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-front.jpg",
+     "license": "CC0",
+     "author": "FlippyFlink"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Coca-Cola-signature_mixers-smoky_notes-back.jpg/960px-Coca-Cola-signature_mixers-smoky_notes-back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-back.jpg",
+     "license": "CC0",
+     "author": "FlippyFlink"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 8,
+    "demand": 9,
+    "amazon": 8,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-039",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "トニックウォーター5本比較、割り材としての苦味を選ぶ",
+   "angle": "炭酸水の記事は無糖中心だった。キニーネ由来の苦味と糖のバランスを軸に、割り材として5本を飲み分ける。",
+   "article_type": "comparison",
+   "keywords": [
+    "トニックウォーター 比較 おすすめ",
+    "ジントニック 割り材 選び方"
+   ],
+   "subjects": [
+    {
+     "name": "フィーバーツリー プレミアムインディアントニック",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "シュウェップス トニックウォーター",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ウィルキンソン トニック",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "カナダドライ トニックウォーター",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "神戸居留地 トニックウォーター",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://fever-tree.com/",
+    "https://www.asahiinryo.co.jp/wilkinson/",
+    "https://en.wikipedia.org/wiki/Tonic_water"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bottle_of_UV_Illuminated_Tonic_Water.jpg/960px-Bottle_of_UV_Illuminated_Tonic_Water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle_of_UV_Illuminated_Tonic_Water.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Joseph Blosser"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bottle%2C_aerated_water_%28AM_2014.24.13-7%29.jpg/960px-Bottle%2C_aerated_water_%28AM_2014.24.13-7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle,_aerated_water_(AM_2014.24.13-7).jpg",
+     "license": "CC BY 4.0",
+     "author": "J Grey &amp; Sons; Ross Brothers"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-040",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ウィルキンソン ジンジャエール 辛口、表示どおりの刺激はどこから来るか",
+   "angle": "甘口のジンジャーエールとは別の飲み物として設計されている。生姜の刺激をどこから出しているのかと、割り材としての使い道を書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ウィルキンソン ジンジャエール 辛口",
+    "ドライジンジャエール 違い"
+   ],
+   "subjects": [
+    {
+     "name": "アサヒ飲料 ウィルキンソン ジンジャエール 辛口",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.asahiinryo.co.jp/wilkinson/",
+    "https://www.asahiinryo.co.jp/",
+    "https://en.wikipedia.org/wiki/Ginger_ale"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/8_Gl%C3%A4ser_Ginger_Ale.jpg/960px-8_Gl%C3%A4ser_Ginger_Ale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:8_Gl%C3%A4ser_Ginger_Ale.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Geoprofi Lars"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fitz%27s_Ginger_Ale_Bottle_-_DPLA_-_bbab1e271b82a4ed197beb6cc96accf3_%28page_1%29.jpg/960px-Fitz%27s_Ginger_Ale_Bottle_-_DPLA_-_bbab1e271b82a4ed197beb6cc96accf3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fitz%27s_Ginger_Ale_Bottle_-_DPLA_-_bbab1e271b82a4ed197beb6cc96accf3_(page_1).jpg",
+     "license": "Public domain",
+     "author": "Fitz's Bottling Company"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 8,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-041",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "経口補水液とスポーツドリンク、濃さの違いで役割が変わる",
+   "angle": "同じ棚に並ぶが設計が違う。電解質と糖の比率、浸透圧という数字から、いつどちらを飲むのかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "経口補水液 スポーツドリンク 違い",
+    "OS-1 ポカリスエット 使い分け"
+   ],
+   "subjects": [
+    {
+     "name": "大塚製薬 OS-1",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ポカリスエット",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "アクエリアス",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.os-1.jp/",
+    "https://pocarisweat.jp/",
+    "https://www.otsuka.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Drinking.jpg/960px-Drinking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Drinking.jpg",
+     "license": "CC BY 2.0",
+     "author": "Bengt Nyman"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Adnan_akmal_drinks.jpg/960px-Adnan_akmal_drinks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Adnan_akmal_drinks.jpg",
+     "license": "CC BY 2.0",
+     "author": "Charaka Ranasinghe"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 9,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-042",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "家で作るモクテル、炭酸水とシロップで足りる範囲",
+   "angle": "酒を抜いた飲み物を外で頼むと高い。手持ちの炭酸水と果汁、ハーブで組める配合を、分量付きで数種類まとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "モクテル レシピ 簡単",
+    "ノンアルコール カクテル 作り方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://fever-tree.com/",
+    "https://www.asahiinryo.co.jp/wilkinson/",
+    "https://en.wikipedia.org/wiki/Mocktail"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg/960px-Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+     "license": "CC0",
+     "author": "Andy Li"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Apple_Fennel_Mocktail_%2813907736747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Apple_Fennel_Mocktail_(13907736747).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Charles Haynes"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 16,
+    "images": 18,
+    "season": 9,
+    "demand": 8,
+    "amazon": 6,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-043",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ドクターペッパー、23種類という説明が説明になっていない味",
+   "angle": "コーラでもルートビアでもない味の正体を、原材料表示と歴史から追う。日本で売れ続けている場所の偏りにも触れる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ドクターペッパー 味 なぜ",
+    "ドクターペッパー 日本 人気"
+   ],
+   "subjects": [
+    {
+     "name": "ドクターペッパー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.drpepper.com/",
+    "https://www.cocacola.co.jp/",
+    "https://en.wikipedia.org/wiki/Dr_Pepper"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Cannettes_Dr_Pepper.jpg/960px-Cannettes_Dr_Pepper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cannettes_Dr_Pepper.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Jeanne à vélo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dr_Pepper_0%2C33l_Dose_Classic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Dr_Pepper_0,33l_Dose_Classic.png",
+     "license": "CC BY 4.0",
+     "author": "CF496233"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 9,
+    "amazon": 8,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-044",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "江戸切子の冷酒グラス、カットが口当たりを変える",
+   "angle": "津軽びいどろや田島硝子は扱ったが切子は空白。文様の種類と、手に当たる面のカットが飲み口に与える影響を見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "江戸切子 冷酒グラス",
+    "江戸切子 文様 種類"
+   ],
+   "subjects": [
+    {
+     "name": "江戸切子 冷酒グラス",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.edokiriko.or.jp/",
+    "https://www.kagami.jp/",
+    "https://ja.wikipedia.org/wiki/江戸切子"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Edo-Kiriko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edo-Kiriko.JPG",
+     "license": "Public domain",
+     "author": "User: (WT-shared) Shoestring at  wts wikivoyage"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Edokiriko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edokiriko.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "user: TCK-hp"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 12,
+    "season": 10,
+    "demand": 8,
+    "amazon": 8,
+    "total": 77
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-045",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "薩摩切子のぐい呑み、色被せガラスのぼかしという技",
+   "angle": "江戸切子と並べると色の作りが違う。厚い色被せを削って生まれるぼかしが、酒の色をどう見せるかを書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "薩摩切子 ぐい呑み",
+    "薩摩切子 江戸切子 違い"
+   ],
+   "subjects": [
+    {
+     "name": "薩摩切子 ぐい呑み",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.satsumakiriko.co.jp/",
+    "https://www.shuseikan.jp/",
+    "https://ja.wikipedia.org/wiki/薩摩切子"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Satsumakiriko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Satsumakiriko.jpg",
+     "license": "CC BY 3.0",
+     "author": "H-shimoが撮影"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E3%83%9A%E3%82%A2%E3%82%B0%E3%83%A9%E3%82%B9_%2832809810466%29.jpg/960px-%E3%83%9A%E3%82%A2%E3%82%B0%E3%83%A9%E3%82%B9_%2832809810466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:%E3%83%9A%E3%82%A2%E3%82%B0%E3%83%A9%E3%82%B9_(32809810466).jpg",
+     "license": "CC BY 2.0",
+     "author": "Dime Gontar from Kiev, Ukraine"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 10,
+    "demand": 7,
+    "amazon": 7,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-046",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "錫のちろりで燗をつける、熱の伝わり方が速い金属",
+   "angle": "能作の酒器では錫の柔らかさを見た。ここは燗専用の道具としてのちろりに絞り、湯煎の温度と上がり方を扱う。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "錫 ちろり 燗",
+    "大阪錫器 ちろり"
+   ],
+   "subjects": [
+    {
+     "name": "大阪錫器 ちろり",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.kougeihin.jp/",
+    "https://nousaku.co.jp/",
+    "https://ja.wikipedia.org/wiki/錫"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%27Bollelin%27_pewter_plate_designed_by_Archibald_Knox.jpg/960px-%27Bollelin%27_pewter_plate_designed_by_Archibald_Knox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:%27Bollelin%27_pewter_plate_designed_by_Archibald_Knox.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Sunshineramsey71"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/A_collection_of_pewter_tableware_1939_%28JOKAKAL3B-5694%29.tif/lossy-page1-960px-A_collection_of_pewter_tableware_1939_%28JOKAKAL3B-5694%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_collection_of_pewter_tableware_1939_(JOKAKAL3B-5694).tif",
+     "license": "CC BY 4.0",
+     "author": "unknown"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 16,
+    "season": 13,
+    "demand": 7,
+    "amazon": 8,
+    "total": 81
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-047",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "南部鉄器で湯煎する燗、鉄の道具を酒に使う",
+   "angle": "鉄瓶は湯を沸かす道具だが、燗の湯煎に使うと温度が落ちにくい。錆びと手入れの現実も含めて書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "南部鉄器 燗 湯煎",
+    "鉄瓶 手入れ 錆"
+   ],
+   "subjects": [
+    {
+     "name": "南部鉄器 鉄瓶",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.iwachu.co.jp/",
+    "https://www.oitomi.jp/",
+    "https://ja.wikipedia.org/wiki/南部鉄器"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Botan_kikuzu_teppin.jpg/960px-Botan_kikuzu_teppin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Botan_kikuzu_teppin.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "EL Jones"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/JapaneseCastIronKettleOnBrasier_TetsubinOnHibachi.jpg/960px-JapaneseCastIronKettleOnBrasier_TetsubinOnHibachi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:JapaneseCastIronKettleOnBrasier_TetsubinOnHibachi.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "サフィル"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 18,
+    "season": 13,
+    "demand": 7,
+    "amazon": 8,
+    "total": 86
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-048",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "信楽焼のぐい呑み、火色と土の粗さが舌に当たる",
+   "angle": "磁器の有田・九谷とは逆の方向。釉の縮れや土の粒が口に触る感触を、酒の温度と合わせて確かめる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "信楽焼 ぐい呑み",
+    "信楽焼 特徴 火色"
+   ],
+   "subjects": [
+    {
+     "name": "信楽焼 ぐい呑み",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.city.koka.lg.jp/",
+    "https://www.pref.shiga.lg.jp/",
+    "https://ja.wikipedia.org/wiki/信楽焼"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/241109_Tanikangama_Shigaraki_Koka_Shiga_pref_Japan14s3.jpg/960px-241109_Tanikangama_Shigaraki_Koka_Shiga_pref_Japan14s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:241109_Tanikangama_Shigaraki_Koka_Shiga_pref_Japan14s3.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "663highland"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Japanese_storage_jar.jpg/960px-Japanese_storage_jar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_storage_jar.jpg",
+     "license": "Public domain",
+     "author": "Unknown Japanese artist"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 18,
+    "season": 10,
+    "demand": 7,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-049",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "枡で日本酒を飲む、量を測る道具が器になった経緯",
+   "angle": "一合枡は計量器具だった。それが酒器として使われるようになった流れと、檜の香りが酒に乗る度合いを見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "枡 日本酒 飲む",
+    "大橋量器 枡 酒器"
+   ],
+   "subjects": [
+    {
+     "name": "大橋量器 枡",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.masukoubou.jp/",
+    "https://www.city.ogaki.lg.jp/",
+    "https://ja.wikipedia.org/wiki/枡"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Masu%2COne-sho_measure%2Ckatori-city%2CJapan.JPG/960px-Masu%2COne-sho_measure%2Ckatori-city%2CJapan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Masu,One-sho_measure,katori-city,Japan.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "katorisi"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Masu%2C_One-G%C5%8D_measure.jpg/960px-Masu%2C_One-G%C5%8D_measure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Masu,_One-G%C5%8D_measure.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Namazu-tron"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 16,
+    "images": 16,
+    "season": 10,
+    "demand": 7,
+    "amazon": 8,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-050",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "燗の温度を決める、日向燗から飛び切り燗までと酒燗器",
+   "angle": "燗には呼び名の付いた温度帯がある。湯煎・電子レンジ・酒燗器で到達点と手間がどう違うかを、器の選び方と合わせて書く。",
+   "article_type": "guide",
+   "keywords": [
+    "燗酒 温度 名前",
+    "酒燗器 おすすめ 選び方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.japansake.or.jp/",
+    "https://www.tiger-corporation.com/ja/",
+    "https://ja.wikipedia.org/wiki/日本酒"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Tokkuri_sake.JPG/960px-Tokkuri_sake.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tokkuri_sake.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "User:Kentin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Japanese_sake_glass_and_flask.jpg/960px-Japanese_sake_glass_and_flask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_sake_glass_and_flask.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Culture Japon"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 14,
+    "season": 14,
+    "demand": 8,
+    "amazon": 7,
+    "total": 82
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-051",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "秋冬のコート5型、着丈と肩で印象が決まる",
+   "angle": "トレンチ、チェスターフィールド、バルマカーン、ダッフル、ピーコートを型ごとに整理する。中に着る服との相性を基準にする。",
+   "article_type": "styling",
+   "keywords": [
+    "コート 種類 メンズ 選び方",
+    "チェスターコート トレンチ 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.burberry.com/",
+    "https://www.gloverall.com/",
+    "https://en.wikipedia.org/wiki/Overcoat"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Designing_overcoat_patterns_for_men_and_young_men_%281916%29_%2814761183924%29.jpg/960px-Designing_overcoat_patterns_for_men_and_young_men_%281916%29_%2814761183924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Designing_overcoat_patterns_for_men_and_young_men_(1916)_(14761183924).jpg",
+     "license": "No restrictions",
+     "author": "Simons, Harry"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gazette_of_Fashion%2C_April_1866%2C_RP-P-2009-2677.jpg/960px-Gazette_of_Fashion%2C_April_1866%2C_RP-P-2009-2677.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gazette_of_Fashion,_April_1866,_RP-P-2009-2677.jpg",
+     "license": "CC0",
+     "author": "Rijksmuseum"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 15,
+    "images": 14,
+    "season": 14,
+    "demand": 10,
+    "amazon": 7,
+    "total": 82
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-052",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ツイードジャケット、目の粗い生地を街で着る",
+   "angle": "ハリスツイードやドネガルといった生地の違いと、重さ・張りの扱い。ジャケット単体で浮かせない合わせ方を書く。",
+   "article_type": "styling",
+   "keywords": [
+    "ツイードジャケット 選び方",
+    "ハリスツイード 特徴"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.harristweed.org/",
+    "https://magee1866.com/",
+    "https://en.wikipedia.org/wiki/Tweed"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Old_man_in_a_tweed_jacket_and_glasses_%281527580%29.jpg/960px-Old_man_in_a_tweed_jacket_and_glasses_%281527580%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Old_man_in_a_tweed_jacket_and_glasses_(1527580).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Geoff Charles"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Old_man_in_a_tweed_jacket_and_glasses_%281527582%29.jpg/960px-Old_man_in_a_tweed_jacket_and_glasses_%281527582%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Old_man_in_a_tweed_jacket_and_glasses_(1527582).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Geoff Charles"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 16,
+    "images": 18,
+    "season": 13,
+    "demand": 8,
+    "amazon": 7,
+    "total": 84
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-053",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ニットタイとウールタイ、秋冬のネクタイは素材で変わる",
+   "angle": "シルクの光沢を外すと首元の印象が変わる。結び目の大きさ、剣先の形、シャツの襟との相性を素材別に整理する。",
+   "article_type": "styling",
+   "keywords": [
+    "ニットタイ 合わせ方",
+    "ウールタイ 秋冬 ネクタイ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.drakes.com/",
+    "https://www.fashionsnap.com/",
+    "https://en.wikipedia.org/wiki/Necktie"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Necktie%2C_army_%28AM_2014.21.14-1%29.jpg/960px-Necktie%2C_army_%28AM_2014.21.14-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Necktie,_army_(AM_2014.21.14-1).jpg",
+     "license": "CC BY 4.0",
+     "author": "Austica"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Necktie%2C_army_%28AM_2014.21.14-2%29.jpg/960px-Necktie%2C_army_%28AM_2014.21.14-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Necktie,_army_(AM_2014.21.14-2).jpg",
+     "license": "CC BY 4.0",
+     "author": "Austica"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 15,
+    "images": 13,
+    "season": 13,
+    "demand": 7,
+    "amazon": 7,
+    "total": 77
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-054",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ローファーとダービー、秋の革靴を履き分ける",
+   "angle": "紐のある靴と無い靴で、合わせられる装いの範囲が変わる。ソールの厚みと靴下の選択まで含めて履き分けを決める。",
+   "article_type": "styling",
+   "keywords": [
+    "ローファー ダービー 違い",
+    "秋 革靴 コーデ メンズ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.jmweston.com/",
+    "https://www.church-footwear.com/",
+    "https://en.wikipedia.org/wiki/Slip-on_shoe"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/A_Penny_Loafer.jpg/960px-A_Penny_Loafer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_Penny_Loafer.jpg",
+     "license": "CC0",
+     "author": "Wikipedia-ce"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/A_brown_Loafer_Shoes_from_TODS.jpg/960px-A_brown_Loafer_Shoes_from_TODS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_brown_Loafer_Shoes_from_TODS.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Peachyeung316"
+    }
+   ],
+   "season": "秋",
+   "score": {
+    "novelty": 22,
+    "verifiable": 15,
+    "images": 18,
+    "season": 12,
+    "demand": 9,
+    "amazon": 7,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-055",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "タートルネックとジャケットの重ね着、首元で襟を省く",
+   "angle": "シャツとネクタイを外しても締まって見える合わせ方。ゲージの細さと首の高さ、ジャケットの襟の開きで決まる部分を書く。",
+   "article_type": "styling",
+   "keywords": [
+    "タートルネック ジャケット 合わせ方",
+    "タートルネック 選び方 メンズ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.johnsmedley.com/",
+    "https://www.uniqlo.com/jp/ja/",
+    "https://en.wikipedia.org/wiki/Polo_neck"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/2025_01_27_Sundance_Film_Festival-27_Full.jpg/960px-2025_01_27_Sundance_Film_Festival-27_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2025_01_27_Sundance_Film_Festival-27_Full.jpg",
+     "license": "CC BY 4.0",
+     "author": "Everwest"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Francesco_Tosoni_al_decennale_di_Software_Heritage%2C_sede_UNESCO%2C_Parigi%2C_2026_%2800375%29.jpg/960px-Francesco_Tosoni_al_decennale_di_Software_Heritage%2C_sede_UNESCO%2C_Parigi%2C_2026_%2800375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Francesco_Tosoni_al_decennale_di_Software_Heritage,_sede_UNESCO,_Parigi,_2026_(00375).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elarionne"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 21,
+    "verifiable": 15,
+    "images": 16,
+    "season": 13,
+    "demand": 8,
+    "amazon": 7,
+    "total": 80
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-056",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "グレンチェックとハウンドトゥース、柄を重ねる限界",
+   "angle": "柄物を2つ以上合わせると崩れる。柄の大きさと色数という2つの軸だけで、重ねられるかどうかを判断する方法にする。",
+   "article_type": "styling",
+   "keywords": [
+    "グレンチェック 柄合わせ",
+    "ハウンドトゥース 千鳥格子 コーデ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.harristweed.org/",
+    "https://www.drakes.com/",
+    "https://en.wikipedia.org/wiki/Houndstooth"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Houndstooth.svg/960px-Houndstooth.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Houndstooth.svg",
+     "license": "CC0",
+     "author": "Jemiamapus"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Houndstooth_SVG.svg/960px-Houndstooth_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Houndstooth_SVG.svg",
+     "license": "CC BY 4.0",
+     "author": "Kevin L. Durette"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 22,
+    "verifiable": 15,
+    "images": 16,
+    "season": 12,
+    "demand": 7,
+    "amazon": 6,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-057",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "1970年代のフュージョン、電気楽器がジャズに入ってきた10年",
+   "angle": "Weather ReportやReturn to Foreverが、アコースティックの編成から何を捨てて何を得たか。シンセとベースの役割交代を軸にする。",
+   "article_type": "theme",
+   "keywords": [
+    "フュージョン ジャズ 1970年代",
+    "Weather Report 名盤"
+   ],
+   "subjects": [
+    {
+     "name": "Weather Report",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Return to Forever",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Herbie Hancock",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.bluenote.com/",
+    "https://en.wikipedia.org/wiki/Jazz_fusion",
+    "https://en.wikipedia.org/wiki/Weather_Report"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Joe_Zawinul-Er%C3%B6ffnung_von_birdland-vienna_29.05.2004_%281%29.jpg/960px-Joe_Zawinul-Er%C3%B6ffnung_von_birdland-vienna_29.05.2004_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Joe_Zawinul-Er%C3%B6ffnung_von_birdland-vienna_29.05.2004_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Viennpixelart"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bobby_Thomas_jr._and_Wayne_Shorter.jpg/960px-Bobby_Thomas_jr._and_Wayne_Shorter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bobby_Thomas_jr._and_Wayne_Shorter.jpg",
+     "license": "CC BY 2.0",
+     "author": "Chris Hakkens"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 8,
+    "amazon": 6,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-058",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "ジャズ喫茶という聴き方、店のスピーカーで盤を聴く文化",
+   "angle": "個人の部屋ではなく店で大きな音を聴くという習慣が、日本でどう根付いたか。選盤と私語のルールまで含めた場の話にする。",
+   "article_type": "theme",
+   "keywords": [
+    "ジャズ喫茶 歴史 文化",
+    "ジャズ喫茶 聴き方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://ja.wikipedia.org/wiki/ジャズ喫茶",
+    "https://www.japantimes.co.jp/",
+    "https://en.wikipedia.org/wiki/Jazz_kissa"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Elegance-cafe-jazz-club-roma-2025.jpg/960px-Elegance-cafe-jazz-club-roma-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Elegance-cafe-jazz-club-roma-2025.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Daria.ven"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Concierto_de_jazz_en_el_Caf%C3%A9_Ja%C3%A9n_K01.jpg/960px-Concierto_de_jazz_en_el_Caf%C3%A9_Ja%C3%A9n_K01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Concierto_de_jazz_en_el_Caf%C3%A9_Ja%C3%A9n_K01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Kordas"
+    }
+   ],
+   "season": "秋",
+   "score": {
+    "novelty": 23,
+    "verifiable": 16,
+    "images": 13,
+    "season": 8,
+    "demand": 8,
+    "amazon": 4,
+    "total": 72
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-059",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "ECMというレーベルの音、残響を楽器として扱う",
+   "angle": "Manfred Eicherの録音がなぜ一聴で分かるのか。ヨーロッパのジャズがアメリカと別の道を取った経緯と合わせて書く。",
+   "article_type": "theme",
+   "keywords": [
+    "ECM レーベル 音 特徴",
+    "ヨーロッパ ジャズ 名盤"
+   ],
+   "subjects": [
+    {
+     "name": "Keith Jarrett",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Jan Garbarek",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Manfred Eicher",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/ECM_Records",
+    "https://www.ecmrecords.com/",
+    "https://en.wikipedia.org/wiki/Keith_Jarrett"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Keith_Jarrett-140908-0009WP.jpg/960px-Keith_Jarrett-140908-0009WP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keith_Jarrett-140908-0009WP.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "JPRoche"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Keith_Jarrett-commons.jpg/960px-Keith_Jarrett-commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keith_Jarrett-commons.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Olivier Bruchez"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 14,
+    "season": 7,
+    "demand": 7,
+    "amazon": 6,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-060",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "日本のジャズ、渡辺貞夫から現在までの系譜",
+   "angle": "輸入された音楽をどこで自分のものにしたか。1960年代以降の日本の演奏家を辿り、いま聴ける録音に繋げる。",
+   "article_type": "theme",
+   "keywords": [
+    "日本 ジャズ 歴史 名盤",
+    "渡辺貞夫 アルバム"
+   ],
+   "subjects": [
+    {
+     "name": "渡辺貞夫",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "菊地雅章",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "山下洋輔",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://ja.wikipedia.org/wiki/日本のジャズ",
+    "https://en.wikipedia.org/wiki/Sadao_Watanabe_(musician)",
+    "https://www.bluenote.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Akira_Ando_01.JPG/960px-Akira_Ando_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Akira_Ando_01.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Schorle"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Henry_Threadgill_%26_Zooid%2C_16_november_2011_BIM_-_Stomu_Takeishi_%2850862631318%29.jpg/960px-Henry_Threadgill_%26_Zooid%2C_16_november_2011_BIM_-_Stomu_Takeishi_%2850862631318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Henry_Threadgill_%26_Zooid,_16_november_2011_BIM_-_Stomu_Takeishi_(50862631318).jpg",
+     "license": "Public domain",
+     "author": "Dirk Neven"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 16,
+    "season": 7,
+    "demand": 8,
+    "amazon": 6,
+    "total": 77
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-061",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "フリージャズ、和声と拍から降りた先に何が残るか",
+   "angle": "Ornette ColemanやCecil Taylorが外したものを一つずつ数える。聴き方が分からない音楽への入口を作る。",
+   "article_type": "theme",
+   "keywords": [
+    "フリージャズ 入門 聴き方",
+    "Ornette Coleman 名盤"
+   ],
+   "subjects": [
+    {
+     "name": "Ornette Coleman",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Cecil Taylor",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Albert Ayler",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Free_jazz",
+    "https://en.wikipedia.org/wiki/Ornette_Coleman",
+    "https://www.bluenote.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Denardo_Coleman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Denardo_Coleman.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Brianmcmillen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Jamaaladeen_Tacuma_Quartet_16.02.26_OTO_Jazz_Club_London_-_55104217391.jpg/960px-Jamaaladeen_Tacuma_Quartet_16.02.26_OTO_Jazz_Club_London_-_55104217391.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jamaaladeen_Tacuma_Quartet_16.02.26_OTO_Jazz_Club_London_-_55104217391.jpg",
+     "license": "Public domain",
+     "author": "dirkneven1966"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 16,
+    "season": 7,
+    "demand": 6,
+    "amazon": 6,
+    "total": 76
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-062",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "ジャズヴォーカル入門、声を楽器として聴く",
+   "angle": "歌詞を追うのとは別の聴き方がある。Billie HolidayからBetty Carterまで、間の取り方とフレーズの崩し方で並べる。",
+   "article_type": "guide",
+   "keywords": [
+    "ジャズボーカル 入門 おすすめ",
+    "ジャズ 女性ボーカル 名盤"
+   ],
+   "subjects": [
+    {
+     "name": "Billie Holiday",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Ella Fitzgerald",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Sarah Vaughan",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Betty Carter",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jazz_singing",
+    "https://en.wikipedia.org/wiki/Ella_Fitzgerald",
+    "https://www.bluenote.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/EllaFitzgeraldvv.jpg/960px-EllaFitzgeraldvv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:EllaFitzgeraldvv.jpg",
+     "license": "Public domain",
+     "author": "Carl Van Vechten"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg/960px-Ella_Fitzgerald_%28Gottlieb_02871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_(Gottlieb_02871).jpg",
+     "license": "Public domain",
+     "author": "William P. Gottlieb"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 7,
+    "demand": 9,
+    "amazon": 6,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-063",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "映画の中のジャズ、実録と創作のあいだ",
+   "angle": "『Bird』や『Round Midnight』『Whiplash』が、演奏をどう画面に収めたか。実在の奏者が関わった作品を軸にする。",
+   "article_type": "theme",
+   "keywords": [
+    "ジャズ 映画 おすすめ",
+    "Round Midnight 映画 ジャズ"
+   ],
+   "subjects": [
+    {
+     "name": "Round Midnight",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Bird",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Whiplash",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Round_Midnight_(film)",
+    "https://en.wikipedia.org/wiki/Bird_(1988_film)",
+    "https://en.wikipedia.org/wiki/Jazz"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/FARRAR_%26_KIRCHOFF_1%2C_Mainstreet_Jazz_%26_Blues%2C_Belleville%2C_Illinois%2C_2004-09-03.jpg/960px-FARRAR_%26_KIRCHOFF_1%2C_Mainstreet_Jazz_%26_Blues%2C_Belleville%2C_Illinois%2C_2004-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:FARRAR_%26_KIRCHOFF_1,_Mainstreet_Jazz_%26_Blues,_Belleville,_Illinois,_2004-09-03.jpg",
+     "license": "CC BY 2.0",
+     "author": "christina rutz"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Flickr_-_Official_U.S._Navy_Imagery_-_Navy_musician_performs_concert_at_base_in_Italy..jpg/960px-Flickr_-_Official_U.S._Navy_Imagery_-_Navy_musician_performs_concert_at_base_in_Italy..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Navy_musician_performs_concert_at_base_in_Italy..jpg",
+     "license": "Public domain",
+     "author": "Official Navy Page from United States of America\n\nMC2(SW/AW)"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 7,
+    "demand": 8,
+    "amazon": 5,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-064",
+   "status": "approved",
+   "created": "2026-10-01",
+   "retry": 0
+  }
+ ]
 }
