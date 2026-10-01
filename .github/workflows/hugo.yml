@@ -6,7 +6,8 @@ on:
     paths-ignore:
       - "android/**"
       - ".github/workflows/topics-app.yml"
-      - "scripts/topic-skips/**"
+      - "scripts/**"
+      - "CLAUDE.md"
   workflow_dispatch:
 
 permissions:
