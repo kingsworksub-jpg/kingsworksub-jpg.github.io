@@ -30,6 +30,7 @@ SITE_ORIGIN="https://kingsworksub-jpg.github.io"
 
 # Hatena does not load this site's CSS, so hatena_banner.py inlines the .product-banner
 # sizing (120x120 thumbnail, 468x120 banner). Without it the banner image renders at full size.
+# hatena_figures.py likewise inlines the photo--left/right float so photos wrap text there.
 # Prefer the project venv. If it is missing, fall back to a real interpreter: on this
 # machine a bare `python` can resolve to the Windows Store stub
 # (WindowsApps/python.exe), which is a 0-byte launcher that exits doing nothing.
@@ -97,6 +98,7 @@ awk -v start_marker='<div class="post-content md-content">' '
 ' "$POST_HTML" \
   | sed -E "s@(src|href)=\"/([^\"#])@\1=\"${SITE_ORIGIN}/\2@g" \
   | "$PY" "$REPO_ROOT/scripts/hatena_banner.py" \
+  | "$PY" "$REPO_ROOT/scripts/hatena_figures.py" \
   > "$OUT"
 
 rm -rf "$BUILD_DIR"
