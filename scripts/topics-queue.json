@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T13:28:49+09:00",
+ "updated": "2026-10-02T16:20:07+09:00",
  "items": [
   {
    "category": "gear",
@@ -831,10 +831,11 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-015",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-01",
-   "retry": 0,
-   "claimed_at": "2026-10-02T13:28:49+09:00"
+   "retry": 1,
+   "claimed_at": "2026-10-02T13:28:49+09:00",
+   "last_error": "fallback Claude Code hit its usage limit; big-pickle 15:15 run reported success without publishing"
   },
   {
    "category": "setup",
@@ -1114,11 +1115,11 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-021",
-   "status": "rejected",
+   "status": "approved",
    "created": "2026-10-01",
-   "retry": 2,
+   "retry": 0,
    "claimed_at": "2026-10-02T13:03:25+09:00",
-   "last_error": "big-pickle: 日本語本文の生成が崩坏し、平均1文ごとの修正を繰り返した。句子ごとに書き直しても混入が続き、字数(5,000字以上)を満たせないまま中断。 Publishers 同一週に同じ内容で再試行).",
+   "last_error": "rejected after 2 big-pickle failures (model output corrupted, not a topic problem); re-approved for a Claude Code re-post",
    "pinned": true
   },
   {

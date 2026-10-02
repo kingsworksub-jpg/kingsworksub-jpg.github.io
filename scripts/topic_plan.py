@@ -25,6 +25,9 @@ big-pickle) only have to do the creative work:
                              record a job run (started / finished / failed / timeout) in pipeline-status.json
                              (called by run-claude-task.ps1 so the Android app sees every run, even launch failures)
   bootstrap                  register every published post in topic-log.json (run once)
+  count STATUS               number of queue items with that status (e.g. in_progress), for the job runner
+  release-stale --reason R   return abandoned in_progress topics to the queue as failures
+  health-reset --reason R    clear the consecutive-failure pause after a human has fixed the cause
   snapshot FILE              save the working-tree state before a job (git status), used by recover
   recover --snapshot FILE --reason R
                              after a failed job: drop its unpushed commits and leftover files, return abandoned
@@ -418,7 +421,7 @@ def reject(tid, reason):
 def health() -> int:
     n = 0
     for e in reversed(load(LOG, {"entries": []})["entries"]):
-        if e.get("status") == "published":
+        if e.get("status") in ("published", "health-reset"):
             break
         if e.get("status") == "failed":
             n += 1
@@ -653,6 +656,9 @@ def main():
     x.add_argument("--detail", default="")
     sub.add_parser("bootstrap")
     sub.add_parser("snapshot").add_argument("file")
+    sub.add_parser("count").add_argument("status")
+    sub.add_parser("release-stale").add_argument("--reason", required=True)
+    sub.add_parser("health-reset").add_argument("--reason", required=True)
     x = sub.add_parser("recover")
     x.add_argument("--snapshot", required=True)
     x.add_argument("--reason", required=True)
@@ -710,6 +716,14 @@ def main():
         print(health())
     elif a.cmd == "bootstrap":
         bootstrap()
+    elif a.cmd == "count":
+        print(sum(1 for it in queue()["items"] if it["status"] == a.status))
+    elif a.cmd == "health-reset":
+        log_entry(id="", category="", theme="", status="health-reset", reason=a.reason)
+        write_status({"consecutive_failures": 0})
+        print(health())
+    elif a.cmd == "release-stale":
+        print(release_stale(a.reason))
     elif a.cmd == "snapshot":
         snapshot(a.file)
     elif a.cmd == "recover":

@@ -151,8 +151,7 @@ try {
     if ($isPost -and $Engine -eq "big-pickle") {
         $postCount = [int](Invoke-Py @("today-count"))
         $postHealth = [int](Invoke-Py @("health"))
-        $stale = 0
-        try { $stale = [int]((Invoke-Py @("status", "--json") | ConvertFrom-Json).queue.in_progress) } catch { $stale = 0 }
+        $stale = [int](Invoke-Py @("count", "in_progress"))
         $published = $postCount -gt $preCount
         if (-not $published -and ($final.state -ne "finished" -or $stale -gt 0 -or $postHealth -gt $preHealth)) {
             $why = "big-pickle $($final.state): $($final.detail)"
@@ -162,6 +161,12 @@ try {
             Write-Log "recover: $recovered"
             $final = Invoke-Engine "claude" ", fallback after a failed big-pickle attempt in this slot"
             $final.detail = "[fallback Claude Code] " + $final.detail
+            # If the fallback also failed (e.g. Claude usage limit), clean up again so nothing is left claimed.
+            $stale2 = [int](Invoke-Py @("count", "in_progress"))
+            if ([int](Invoke-Py @("today-count")) -le $preCount -and ($final.state -ne "finished" -or $stale2 -gt 0)) {
+                $recovered = Invoke-Py @("recover", "--snapshot", $snap, "--reason", "fallback Claude Code also failed: $($final.state)")
+                Write-Log "recover after fallback: $recovered"
+            }
         }
     } elseif ($Engine -eq "big-pickle" -and $final.state -ne "finished") {
         # Topic planning / top-up: retry with Claude Code if big-pickle did not finish normally.
