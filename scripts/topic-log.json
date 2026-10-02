@@ -874,18 +874,6 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-02T17:17:51+09:00"
-  },
-  {
-   "id": "2026w40-032",
-   "category": "whisky",
-   "theme": "ジャパニーズウイスキーの表示ルールが変わった後、いま棚にある5本",
-   "slug": "japanese-whisky-standards-2026",
-   "status": "published",
-   "url": "https://kingsworksub-jpg.github.io/posts/japanese-whisky-standards-2026/",
-   "hatena_entry": "14945776032085157820",
-   "note_key": "n2a4765afc80f",
-   "engine": "claude",
-   "at": "2026-10-02T19:35:44+09:00"
   }
  ]
 }
