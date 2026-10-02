@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T16:21:05+09:00",
+ "updated": "2026-10-02T16:48:10+09:00",
  "items": [
   {
    "category": "gear",
@@ -1115,12 +1115,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-021",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-02T16:21:05+09:00",
    "last_error": "rejected after 2 big-pickle failures (model output corrupted, not a topic problem); re-approved for a Claude Code re-post",
-   "pinned": true
+   "pinned": true,
+   "slug": "black-friday-shopping-plan-2026",
+   "published_at": "2026-10-02T16:48:10+09:00"
   },
   {
    "category": "setup",

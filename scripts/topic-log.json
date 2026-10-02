@@ -853,6 +853,18 @@
    "status": "health-reset",
    "reason": "causes fixed: stale-topic detection bug, post-fallback cleanup; Claude usage limit has reset",
    "at": "2026-10-02T16:20:25+09:00"
+  },
+  {
+   "id": "2026w40-021",
+   "category": "setup",
+   "theme": "ブラックフライデーまでの買い物計画、欲しい物リストの作り方",
+   "slug": "black-friday-shopping-plan-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/black-friday-shopping-plan-2026/",
+   "hatena_entry": "14945776032085112463",
+   "note_key": "n7083ae60e8fb",
+   "engine": "claude",
+   "at": "2026-10-02T16:48:10+09:00"
   }
  ]
 }
