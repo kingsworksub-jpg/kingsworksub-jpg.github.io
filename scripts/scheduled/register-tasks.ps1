@@ -22,10 +22,12 @@ function Register-Job($taskName, $jobName, $prompt, $trigger, $timeoutMin, $lock
 # Posting: daily at 07:15, repeated every 2 hours for 14h15m -> 07:15, 09:15, ... 21:15 (8 runs).
 $post = New-ScheduledTaskTrigger -Daily -At "07:15"
 $post.Repetition = (New-ScheduledTaskTrigger -Once -At "07:15" -RepetitionInterval (New-TimeSpan -Hours 2) -RepetitionDuration (New-TimeSpan -Hours 14 -Minutes 15)).Repetition
-Register-Job "blog-automation-task" "blog-post" "Read scripts/scheduled/prompts/blog-post.md and carry it out exactly." $post 60 20 80
+# 55 min per engine; on big-pickle days a failed attempt is retried with Claude Code in the same run (2 x 55 min).
+Register-Job "blog-automation-task" "blog-post" "Read scripts/scheduled/prompts/blog-post.md and carry it out exactly." $post 55 20 125
 
 $weekly = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At "03:00"
-Register-Job "blog-topic-planning" "topic-planning" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: weekly" $weekly 150 30 170
+# Planning and top-up also fall back to Claude Code on big-pickle days, so the limit covers two attempts.
+Register-Job "blog-topic-planning" "topic-planning" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: weekly" $weekly 100 30 215
 
 $topup = New-ScheduledTaskTrigger -Daily -At "04:00"
-Register-Job "blog-topic-topup" "topic-topup" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: topup" $topup 120 30 140
+Register-Job "blog-topic-topup" "topic-topup" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: topup" $topup 90 30 195

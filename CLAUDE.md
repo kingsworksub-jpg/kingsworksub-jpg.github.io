@@ -61,6 +61,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
 - **実行エンジンは日替わり**（ユーザー指示）: 2026-10-01 を0日目として偶数日 = Claude Code、奇数日 = opencode big-pickle
   （`run-claude-task.ps1` の `-Engine auto` と `topic_plan.py engine` が同じ規則）。手動の作業はこの規則に関係なく Claude Code で行う。
+- **big-pickle 失敗時の Claude Code へのやり直し（2026-10-02、ユーザー指示「二度と起こらないよう」）**: 初回の big-pickle 投稿が、
+  本文への中国語・韓国語・意味のない英字の混入 → 1文ずつの修正を21回繰り返して会話が約93,000トークンに膨張 → opencode の要約処理が
+  全体設定の Groq 無料枠（gpt-oss-20b、8,000 TPM）に送られて停止、という経緯で失敗した。対策は2つ:
+  (1) リポジトリ直下の `opencode.json` で要約（compaction）と small_model を big-pickle にした（全体設定は変更しない）。
+  (2) `run-claude-task.ps1` が、big-pickle の回で「記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録」のとき、
+  `topic_plan.py recover`（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）を実行してから、
+  **同じ回を Claude Code でやり直す**。ネタ会議・補充も big-pickle が正常終了しなければ Claude Code でやり直す。
+  タイムアウトはエンジン1回あたり 投稿55分／ネタ会議100分／補充90分、タスクの上限はその2回分。
+  起動スクリプト（.ps1）は **ASCII のみ**にすること（PowerShell 5.1 が BOM なし UTF-8 を ANSI として読み、日本語で構文エラーになる）。
 - **品質の安全装置**: 新しい記事は `scripts/validate_post.py <slug>` に通ったものだけ公開する（本文の長さ、簡体字や他言語の混入、
   禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ）。
   さらに `.git/hooks/pre-push`（原本 `scripts/hooks/pre-push`）が、push に含まれる**新規追加の記事**を同じ検査にかけ、NG なら push を止める。

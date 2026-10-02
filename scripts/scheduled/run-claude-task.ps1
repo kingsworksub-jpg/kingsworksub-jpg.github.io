@@ -7,19 +7,20 @@ param(
     [ValidateSet("auto", "claude", "big-pickle")][string]$Engine = "auto"
 )
 
+# Keep this file ASCII-only: Windows PowerShell 5.1 reads BOM-less scripts as the ANSI code page.
+#
+# Windows Task Scheduler entry point for the blog jobs (blog-post / topic-planning / topic-topup).
+# A machine-wide mutex serialises the jobs, so the git and browser-automation steps never overlap.
+#
 # Engine policy (2026-10-01, user instruction): alternate daily between Claude Code and
 # opencode big-pickle. Day 0 = 2026-10-01 = claude; must match ENGINE_EPOCH in scripts/topic_plan.py.
+# Fallback (2026-10-02, user instruction "never again"): if a blog-post run on big-pickle publishes
+# nothing and failed, timed out, abandoned its claimed topic or recorded a failure, the leftovers are
+# cleaned up (topic_plan.py recover) and the same slot is retried with Claude Code.
 if ($Engine -eq "auto") {
     $dayIndex = ([datetime]::Today - [datetime]"2026-10-01").Days
     $Engine = if ($dayIndex % 2 -eq 0) { "claude" } else { "big-pickle" }
 }
-
-# Windows Task Scheduler entry point. Runs one headless Claude Code turn in the blog repo.
-# A machine-wide mutex serialises jobs. As of 2026-09-29 KingsWork-X-Jazz (the overseas
-# jazz X-post job) has been removed at the user's request, so blog-drink is the only
-# remaining job. The mutex is kept: it costs nothing and stops a future second job
-# from overlapping the hatena/note browser-automation steps, which cannot run
-# concurrently (Playwright drives a real Chromium window and the keyboard).
 
 $ErrorActionPreference = "Continue"
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -30,19 +31,22 @@ $log = Join-Path $logDir "$Name-$stamp.log"
 
 function Write-Log($msg) { "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg | Out-File -FilePath $log -Append -Encoding utf8 }
 
-# Keep this file ASCII-only: Windows PowerShell 5.1 reads BOM-less scripts as the ANSI code page.
+function Invoke-Py([string[]]$pyArgs) {
+    $env:PYTHONIOENCODING = "utf-8"
+    $out = & python scripts/topic_plan.py @pyArgs 2>$null
+    return ($out | Out-String).Trim()
+}
+
 # Records this run in scripts/pipeline-status.json and pushes it, so the Android app shows every run
 # (including launch failures and timeouts). Only called while holding the lock, so no job is mid-git.
-# Name is the job id used by topic_plan.py (blog-post / topic-planning / topic-topup).
 function Publish-Status($state, $detail) {
     try {
         Push-Location $repo
-        $env:PYTHONIOENCODING = "utf-8"
         $detail = ("$detail" -replace '"', "'")
         # PowerShell 5.1 drops empty-string arguments, so only pass --detail when there is one.
-        $statusArgs = @("scripts/topic_plan.py", "run-status", "--job", $Name, "--state", $state)
+        $statusArgs = @("run-status", "--job", $Name, "--state", $state)
         if ($detail) { $statusArgs += @("--detail", $detail) }
-        & python @statusArgs 2>&1 | Out-Null
+        Invoke-Py $statusArgs | Out-Null
         & git add scripts/pipeline-status.json 2>&1 | Out-Null
         & git commit -q -m "Status: $Name $state" -- scripts/pipeline-status.json 2>&1 | Out-Null
         & git pull -q --rebase --autostash origin main 2>&1 | Out-Null
@@ -55,26 +59,11 @@ function Publish-Status($state, $detail) {
     }
 }
 
-# Keep only the newest 200 logs.
-Get-ChildItem $logDir -Filter *.log | Sort-Object LastWriteTime -Descending | Select-Object -Skip 200 | Remove-Item -Force -ErrorAction SilentlyContinue
-
-Write-Log "start name=$Name engine=$Engine model=$Model timeout=${TimeoutMin}m"
-
-$mutex = New-Object System.Threading.Mutex($false, "Local\kingsworksub-blog-x-jobs")
-$held = $false
-try {
-    try { $held = $mutex.WaitOne([TimeSpan]::FromMinutes($LockWaitMin)) }
-    catch [System.Threading.AbandonedMutexException] { $held = $true }
-    if (-not $held) { Write-Log "another job held the lock for ${LockWaitMin}m; skipping this run"; exit 0 }
-
-    Set-Location $repo
-    $env:PYTHONIOENCODING = "utf-8"
-    $env:BLOG_ENGINE = $Engine
-    Publish-Status "started" ""
-    $runState = "failed"
-    $runDetail = ""
-    $enginePrompt = "$Prompt (Today's engine: $Engine)"
-    if ($Engine -eq "big-pickle") {
+# Runs one engine to completion (or timeout) and returns @{ state; detail }.
+function Invoke-Engine([string]$eng, [string]$note) {
+    $env:BLOG_ENGINE = $eng
+    $enginePrompt = "$Prompt (Today's engine: $eng$note)"
+    if ($eng -eq "big-pickle") {
         $exe = "C:\Users\norio\AppData\Roaming\npm\node_modules\opencode-ai\bin\opencode.exe"
         $argList = @("run", $enginePrompt, "-m", "opencode/big-pickle", "--dir", $repo)
     } else {
@@ -90,50 +79,111 @@ try {
         $argList = @("-p", $enginePrompt, "--permission-mode", "auto", "--no-session-persistence", "--allowedTools") + $allowed
         if ($Model) { $argList += @("--model", $Model) }
     }
+    if (-not (Test-Path $exe)) { return @{ state = "failed"; detail = "launch error: executable not found: $exe" } }
     # Start-Process (PS 5.1) does not quote array elements, so quote by hand.
     $argString = ($argList | ForEach-Object {
         if ($_ -match '[\s"()*&|]') { '"' + ($_ -replace '"', '\"') + '"' } else { $_ }
     }) -join " "
-
-    if (-not (Test-Path $exe)) { throw "executable not found: $exe" }
-    $outFile = Join-Path $logDir "$Name-$stamp.out.tmp"
-    $errFile = Join-Path $logDir "$Name-$stamp.err.tmp"
+    $tag = "$Name-$stamp-$eng"
+    $outFile = Join-Path $logDir "$tag.out.tmp"
+    $errFile = Join-Path $logDir "$tag.err.tmp"
     # opencode run reads piped stdin until EOF, so give every engine an empty stdin to avoid an endless wait.
-    $inFile = Join-Path $logDir "$Name-$stamp.in.tmp"
+    $inFile = Join-Path $logDir "$tag.in.tmp"
     New-Item -ItemType File -Force -Path $inFile | Out-Null
-    $p = Start-Process -FilePath $exe -ArgumentList $argString -WorkingDirectory $repo -NoNewWindow -PassThru `
-        -RedirectStandardInput $inFile -RedirectStandardOutput $outFile -RedirectStandardError $errFile -ErrorAction Stop
+    Write-Log "launch $eng"
+    try {
+        $p = Start-Process -FilePath $exe -ArgumentList $argString -WorkingDirectory $repo -NoNewWindow -PassThru `
+            -RedirectStandardInput $inFile -RedirectStandardOutput $outFile -RedirectStandardError $errFile -ErrorAction Stop
+    } catch {
+        return @{ state = "failed"; detail = "launch error: $($_.Exception.Message)" }
+    }
     $null = $p.Handle
     if (-not $p.WaitForExit($TimeoutMin * 60 * 1000)) {
         Write-Log "TIMEOUT after ${TimeoutMin}m; killing process tree"
         & taskkill /PID $p.Id /T /F | Out-Null
-        $runState = "timeout"
-        $runDetail = "timed out after ${TimeoutMin} min ($Engine)"
+        $result = @{ state = "timeout"; detail = "timed out after ${TimeoutMin} min ($eng)" }
     } else {
-        Write-Log "$Engine exited code=$($p.ExitCode)"
-        $runState = if ($p.ExitCode -eq 0) { "finished" } else { "failed" }
+        Write-Log "$eng exited code=$($p.ExitCode)"
         $lastLine = ""
         if (Test-Path $outFile) {
             $lastLine = (Get-Content $outFile -Encoding utf8 | Where-Object { $_.Trim() -ne "" } | Select-Object -Last 1)
         }
-        $runDetail = if ($lastLine) { "$lastLine" } else { "exit code $($p.ExitCode)" }
+        $state = if ($p.ExitCode -eq 0) { "finished" } else { "failed" }
+        $detail = if ($lastLine) { "$lastLine" } else { "exit code $($p.ExitCode)" }
+        $result = @{ state = $state; detail = $detail }
     }
-    Write-Log "--- stdout ---"
+    Write-Log "--- $eng stdout ---"
     if (Test-Path $outFile) { Get-Content $outFile -Encoding utf8 | Out-File -FilePath $log -Append -Encoding utf8 }
-    Write-Log "--- stderr ---"
+    Write-Log "--- $eng stderr ---"
     if (Test-Path $errFile) { Get-Content $errFile -Encoding utf8 | Out-File -FilePath $log -Append -Encoding utf8 }
     Remove-Item $outFile, $errFile, $inFile -Force -ErrorAction SilentlyContinue
+    return $result
+}
+
+# Keep only the newest 200 logs, and drop temp files a killed engine may have left locked.
+Get-ChildItem $logDir -Filter *.log | Sort-Object LastWriteTime -Descending | Select-Object -Skip 200 | Remove-Item -Force -ErrorAction SilentlyContinue
+Get-ChildItem $logDir -Filter *.tmp | Where-Object { $_.LastWriteTime -lt (Get-Date).AddHours(-3) } | Remove-Item -Force -ErrorAction SilentlyContinue
+
+Write-Log "start name=$Name engine=$Engine model=$Model timeout=${TimeoutMin}m"
+
+$mutex = New-Object System.Threading.Mutex($false, "Local\kingsworksub-blog-x-jobs")
+$held = $false
+$final = $null
+try {
+    try { $held = $mutex.WaitOne([TimeSpan]::FromMinutes($LockWaitMin)) }
+    catch [System.Threading.AbandonedMutexException] { $held = $true }
+    if (-not $held) { Write-Log "another job held the lock for ${LockWaitMin}m; skipping this run"; exit 0 }
+
+    Set-Location $repo
+    $env:PYTHONIOENCODING = "utf-8"
+    Publish-Status "started" ""
+
+    $isPost = ($Name -eq "blog-post")
+    $snap = Join-Path $logDir "$Name-$stamp.snap.json"
+    Invoke-Py @("snapshot", $snap) | Out-Null
+    if ($isPost) {
+        $preCount = [int](Invoke-Py @("today-count"))
+        $preHealth = [int](Invoke-Py @("health"))
+    }
+
+    $final = Invoke-Engine $Engine ""
+
+    if ($isPost -and $Engine -eq "big-pickle") {
+        $postCount = [int](Invoke-Py @("today-count"))
+        $postHealth = [int](Invoke-Py @("health"))
+        $stale = 0
+        try { $stale = [int]((Invoke-Py @("status", "--json") | ConvertFrom-Json).queue.in_progress) } catch { $stale = 0 }
+        $published = $postCount -gt $preCount
+        if (-not $published -and ($final.state -ne "finished" -or $stale -gt 0 -or $postHealth -gt $preHealth)) {
+            $why = "big-pickle $($final.state): $($final.detail)"
+            Write-Log "FALLBACK to claude ($why; stale=$stale health=$preHealth->$postHealth)"
+            Publish-Status "failed" "$why -> retrying this slot with Claude Code"
+            $recovered = Invoke-Py @("recover", "--snapshot", $snap, "--reason", "big-pickle failed; retried with Claude Code")
+            Write-Log "recover: $recovered"
+            $final = Invoke-Engine "claude" ", fallback after a failed big-pickle attempt in this slot"
+            $final.detail = "[fallback Claude Code] " + $final.detail
+        }
+    } elseif ($Engine -eq "big-pickle" -and $final.state -ne "finished") {
+        # Topic planning / top-up: retry with Claude Code if big-pickle did not finish normally.
+        $why = "big-pickle $($final.state): $($final.detail)"
+        Write-Log "FALLBACK to claude ($why)"
+        Publish-Status "failed" "$why -> retrying with Claude Code"
+        $recovered = Invoke-Py @("recover", "--snapshot", $snap, "--reason", "big-pickle failed; retried with Claude Code")
+        Write-Log "recover: $recovered"
+        $final = Invoke-Engine "claude" ", fallback after a failed big-pickle attempt in this run"
+        $final.detail = "[fallback Claude Code] " + $final.detail
+    }
 }
 catch {
     Write-Log "ERROR: $($_.Exception.Message)"
-    $runState = "failed"
-    $runDetail = "launch error: $($_.Exception.Message)"
+    $final = @{ state = "failed"; detail = "launch error: $($_.Exception.Message)" }
 }
 finally {
     if ($held) {
-        if ($runState) { Publish-Status $runState $runDetail }
+        if ($final) { Publish-Status $final.state $final.detail }
         $mutex.ReleaseMutex()
     }
     $mutex.Dispose()
+    Remove-Item (Join-Path $logDir "$Name-$stamp.snap.json") -Force -ErrorAction SilentlyContinue
     Write-Log "end"
 }
