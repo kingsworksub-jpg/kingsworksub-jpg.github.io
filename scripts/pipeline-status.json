@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T13:34:38+09:00",
+ "updated": "2026-10-02T15:15:01+09:00",
  "queue": {
   "approved": 62,
   "in_progress": 1,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "failed 2026w40-021: big-pickle: 日本語本文の生成が崩坏し、平均1文ごとの修正を繰り返した。句子ごとに書き直しても混入が続き、字数(5,000字以上)を満たせないまま中断。 Publishers 同一週に同じ内容で再試行).",
  "consecutive_failures": 2,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-02T15:15:01+09:00",
+  "engine": "big-pickle"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
