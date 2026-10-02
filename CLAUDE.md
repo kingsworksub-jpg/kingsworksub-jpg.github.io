@@ -10,7 +10,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24 → 2026-10-01 改訂、ユーザー指示)**: 自動投稿の実行エンジンは **Claude Code と opencode の big-pickle を1日ごとに切り替える**（下記「自動投稿パイプライン」参照）。ローカルの Ollama は使わない。どちらのエンジンでも、新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 改訂、ユーザー指示)**: 自動投稿（ネタ会議・補充・投稿）は**すべて Claude Code で行う**。2026-10-01 から試した opencode big-pickle との日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため**廃止**した。ローカルの Ollama も使わない。新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
@@ -59,16 +59,10 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - `blog-automation-task`: 投稿。毎日 07:15〜21:15 の2時間おき8回。指示文 `scripts/scheduled/prompts/blog-post.md`
   - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
-- **実行エンジンは日替わり**（ユーザー指示）: 2026-10-01 を0日目として偶数日 = Claude Code、奇数日 = opencode big-pickle
-  （`run-claude-task.ps1` の `-Engine auto` と `topic_plan.py engine` が同じ規則）。手動の作業はこの規則に関係なく Claude Code で行う。
-- **big-pickle 失敗時の Claude Code へのやり直し（2026-10-02、ユーザー指示「二度と起こらないよう」）**: 初回の big-pickle 投稿が、
-  本文への中国語・韓国語・意味のない英字の混入 → 1文ずつの修正を21回繰り返して会話が約93,000トークンに膨張 → opencode の要約処理が
-  全体設定の Groq 無料枠（gpt-oss-20b、8,000 TPM）に送られて停止、という経緯で失敗した。対策は2つ:
-  (1) リポジトリ直下の `opencode.json` で要約（compaction）と small_model を big-pickle にした（全体設定は変更しない）。
-  (2) `run-claude-task.ps1` が、big-pickle の回で「記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録」のとき、
-  `topic_plan.py recover`（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）を実行してから、
-  **同じ回を Claude Code でやり直す**。ネタ会議・補充も big-pickle が正常終了しなければ Claude Code でやり直す。
-  タイムアウトはエンジン1回あたり 投稿55分／ネタ会議100分／補充90分、タスクの上限はその2回分。
+- **実行エンジン**: すべて Claude Code（`run-claude-task.ps1`）。big-pickle との日替わりは 2026-10-02 に廃止（上記「記事生成モデルの方針」）。
+- **失敗した回の後片付け（2026-10-02）**: 投稿の回で記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録 のいずれかなら、
+  `run-claude-task.ps1` が `topic_plan.py recover` を実行する（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）。
+  連続失敗で止まったときは、原因に対処してから `topic_plan.py health-reset --reason ...` で解除する。指定のネタを優先したいときは queue の項目に `"pinned": true`。
   起動スクリプト（.ps1）は **ASCII のみ**にすること（PowerShell 5.1 が BOM なし UTF-8 を ANSI として読み、日本語で構文エラーになる）。
 - **品質の安全装置**: 新しい記事は `scripts/validate_post.py <slug>` に通ったものだけ公開する（本文の長さ、簡体字や他言語の混入、
   禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ）。
@@ -79,7 +73,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **データ**: `scripts/topics-queue.json`（キュー。status = approved / in_progress / published / failed / rejected / hold / deleted）、
   `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。均等）、
   `scripts/topic-sources.json`（カテゴリー別RSS）、`scripts/topic-calendar.json`（月ごとの季節ネタ）、`scripts/topic-matrix.json`（定番テーマの軸）、
-  `scripts/pipeline-status.json`（アプリ表示用の状態）。
+  `scripts/pipeline-status.json`（アプリ表示用の状態。実行中のジョブ・直近の実行結果も含む）。
 - **配分**: 直近60本に占める割合と目標（均等）の差＋最後の投稿からの日数で優先度を出し、1件ずつ再計算しながら配る。同じカテゴリーは連続させない。
 - **採点**: 重複25／事実確認20／画像20／季節15／検索需要10／Amazon10。60点未満は不採用。画像（ライセンス確認済み2件以上）が無いネタは不採用。
   製品中心でなくてよい（Amazon は加点のみ）。

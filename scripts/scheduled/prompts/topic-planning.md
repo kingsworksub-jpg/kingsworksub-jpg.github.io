@@ -2,7 +2,7 @@
 
 Windows タスクスケジューラから無人で起動されている。人間は見ていないので質問せず、最後まで自分で判断すること。
 起動時の指示に `Mode: weekly`（毎週日曜03:00）か `Mode: topup`（毎日04:00）が付いている。
-実行エンジンは日替わり（Claude Code / opencode big-pickle）。どちらでも同じ手順で進める。
+
 
 コマンドはすべてリポジトリのルート（`C:\Users\norio\my-github-blog`）で実行する。Python は `python`（環境変数 PYTHONIOENCODING=utf-8 は設定済み）。
 
