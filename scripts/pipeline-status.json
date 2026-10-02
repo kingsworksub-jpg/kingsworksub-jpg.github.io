@@ -10,22 +10,6 @@
  "last_result": "failed 2026w40-021: big-pickle: 本文に韓国語・英語が混入し修正を繰り返したあと、opencode の要約用モデル（Groq 無料枠）の上限で停止",
  "consecutive_failures": 1,
  "current_job": null,
- "last_run": {
-  "job": "launch-test",
-  "label": "launch-test",
-  "state": "timeout",
-  "at": "2026-10-02T12:22:00+09:00",
-  "engine": "big-pickle",
-  "detail": "timed out after 5 min (big-pickle)"
- },
- "recent_runs": [
-  {
-   "job": "launch-test",
-   "label": "launch-test",
-   "state": "timeout",
-   "at": "2026-10-02T12:22:00+09:00",
-   "engine": "big-pickle",
-   "detail": "timed out after 5 min (big-pickle)"
-  }
- ]
+ "last_run": null,
+ "recent_runs": []
 }
