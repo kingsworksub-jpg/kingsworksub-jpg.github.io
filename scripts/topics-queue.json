@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T21:21:47+09:00",
+ "updated": "2026-10-02T21:21:58+09:00",
  "items": [
   {
    "category": "gear",
@@ -1560,11 +1560,11 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-030",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-10-01",
-   "retry": 1,
+   "retry": 2,
    "claimed_at": "2026-10-02T21:21:37+09:00",
-   "last_error": "記事内容は完成しているが、画像クレジット認識の検証エラーで公開不可。回り込み画像のクレジット指定が検証スクリプトに認識されない。"
+   "last_error": "run did not publish (finished); cleaned up"
   },
   {
    "category": "whisky",

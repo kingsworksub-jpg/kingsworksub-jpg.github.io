@@ -892,6 +892,15 @@
    "reason": "時間切れ。前のトピックの検証エラー対応に時間を費やしたため、このトピックの執筆に着手できず。",
    "engine": "claude",
    "at": "2026-10-02T21:21:47+09:00"
+  },
+  {
+   "id": "2026w40-030",
+   "category": "whisky",
+   "theme": "アイリッシュウイスキー5本比較、三回蒸留の軽さを飲み分ける",
+   "status": "failed",
+   "reason": "run did not publish (finished); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-02T21:21:58+09:00"
   }
  ]
 }
