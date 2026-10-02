@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T13:03:25+09:00",
+ "updated": "2026-10-02T13:27:50+09:00",
  "items": [
   {
    "category": "gear",
@@ -1113,11 +1113,11 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-021",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-10-01",
-   "retry": 1,
+   "retry": 2,
    "claimed_at": "2026-10-02T13:03:25+09:00",
-   "last_error": "big-pickle: 本文に韓国語・英語が混入し修正を繰り返したあと、opencode の要約用モデル（Groq 無料枠）の上限で停止",
+   "last_error": "big-pickle: 日本語本文の生成が崩坏し、平均1文ごとの修正を繰り返した。句子ごとに書き直しても混入が続き、字数(5,000字以上)を満たせないまま中断。 Publishers 同一週に同じ内容で再試行).",
    "pinned": true
   },
   {
