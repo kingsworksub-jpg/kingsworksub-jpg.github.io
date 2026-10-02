@@ -874,6 +874,15 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-02T17:17:51+09:00"
+  },
+  {
+   "id": "2026w40-030",
+   "category": "whisky",
+   "theme": "アイリッシュウイスキー5本比較、三回蒸留の軽さを飲み分ける",
+   "status": "failed",
+   "reason": "記事内容は完成しているが、画像クレジット認識の検証エラーで公開不可。回り込み画像のクレジット指定が検証スクリプトに認識されない。",
+   "engine": "claude",
+   "at": "2026-10-02T21:21:24+09:00"
   }
  ]
 }
