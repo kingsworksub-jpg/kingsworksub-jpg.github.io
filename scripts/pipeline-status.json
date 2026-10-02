@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-02T11:17:03+09:00",
+ "updated": "2026-10-02T12:15:01+09:00",
  "queue": {
-  "approved": 63,
-  "in_progress": 1
+  "approved": 64
  },
  "today_posts": 0,
  "daily_limit": 8,
  "engine_today": "big-pickle",
- "pending_requests": 0
+ "pending_requests": 0,
+ "last_result": "failed 2026w40-021: big-pickle: 本文に韓国語・英語が混入し修正を繰り返したあと、opencode の要約用モデル（Groq 無料枠）の上限で停止",
+ "consecutive_failures": 1
 }
