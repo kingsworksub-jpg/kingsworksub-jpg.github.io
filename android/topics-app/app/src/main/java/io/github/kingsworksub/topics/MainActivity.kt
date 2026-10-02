@@ -167,7 +167,8 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     LaunchedEffect(Unit) {
         checkUpdate(manual = false)
         while (true) {
-            delay(60_000)
+            // Without a token GitHub allows 60 requests/hour per IP and each refresh makes ~6, so poll less often.
+            delay(if (token.isBlank()) 180_000 else 60_000)
             refresh()
         }
     }
@@ -384,14 +385,27 @@ private fun StatusCard(s: PipelineStatus, snap: Snapshot) {
         colors = CardDefaults.cardColors(containerColor = Color(0xFFEFF5F8)),
     ) {
         Column(Modifier.padding(12.dp)) {
-            val engine = if (s.engineToday == "big-pickle") "big-pickle" else "Claude Code"
-            Text("今日の投稿 ${s.todayPosts} / ${s.dailyLimit}　・　今日のモデル: $engine", fontWeight = FontWeight.Bold)
+            Text("今日の投稿 ${s.todayPosts} / ${s.dailyLimit}　・　今日のモデル: ${engineName(s.engineToday)}", fontWeight = FontWeight.Bold)
             if (s.consecutiveFailures >= 3) {
                 Text("連続失敗 ${s.consecutiveFailures} 回のため自動投稿は停止中です", color = Color(0xFFB3261E))
             } else if (s.consecutiveFailures > 0) {
                 Text("連続失敗 ${s.consecutiveFailures} 回", color = Color(0xFFB3261E))
             }
-            if (s.lastResult.isNotBlank()) Text("直近: ${s.lastResult}", style = MaterialTheme.typography.bodySmall)
+            s.currentJob?.let { j ->
+                Text("実行中: ${j.label}（${engineName(j.engine)}、${j.at.drop(11).take(5)} 開始）", color = Color(0xFF2F6F8F))
+            }
+            s.lastRun?.let { r ->
+                val (word, color) = when (r.state) {
+                    "finished" -> "完了" to Color(0xFF2E7D32)
+                    "timeout" -> "時間切れ" to Color(0xFFB3261E)
+                    "failed" -> "失敗" to Color(0xFFB3261E)
+                    else -> r.state to Color.Gray
+                }
+                Text("前回の実行: ${r.label} ${word}（${r.at.drop(5).take(11).replace('T', ' ')}）", color = color,
+                    style = MaterialTheme.typography.bodySmall)
+                if (r.detail.isNotBlank()) Text(r.detail, style = MaterialTheme.typography.bodySmall, color = Color.DarkGray, maxLines = 3)
+            }
+            if (s.lastResult.isNotBlank()) Text("直近の記事: ${s.lastResult}", style = MaterialTheme.typography.bodySmall)
             Text("キュー更新: ${snap.queueUpdated.take(16).replace('T', ' ')}", style = MaterialTheme.typography.bodySmall, color = Color.Gray)
         }
     }
@@ -438,3 +452,5 @@ private fun TopicCard(topic: Topic, categoryName: String, status: String, onDele
         }
     }
 }
+
+private fun engineName(e: String) = if (e == "big-pickle") "big-pickle" else "Claude Code"
