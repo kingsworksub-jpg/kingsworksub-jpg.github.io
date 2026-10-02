@@ -1,12 +1,12 @@
 """Topic planning helper for the automated blog pipeline.
 
 Holds the deterministic parts so the planning / posting jobs (Claude Code or opencode
-big-pickle) only have to do the creative work:
+only has to do the creative work:
 
   status [--json]            category priorities, queue counts, today's posts, today's engine
   allocate N                 split N new topics across categories by priority
   today-count                number of published posts dated today (JST), manual posts included
-  engine                     model for today: "claude" or "big-pickle" (alternates daily)
+  engine                     model used by the jobs (always "claude" since 2026-10-02)
   similar TEXT               closest existing posts / queued / logged topics (2-gram Jaccard)
   add FILE                   add candidate topics (JSON list) to the queue after a duplicate check
   claim                      apply app deletions, pick the next approved topic, mark it in_progress
@@ -57,7 +57,6 @@ REQUESTS = os.path.join(S, "topic-requests")
 STATUS_FILE = os.path.join(S, "pipeline-status.json")
 JST = dt.timezone(dt.timedelta(hours=9))
 UA = "StudioNotesBot/1.0 (kingswork.sub@gmail.com)"
-ENGINE_EPOCH = dt.date(2026, 10, 1)  # even day offset = claude, odd = big-pickle
 WINDOW = 60
 MIN_SCORE = 60
 DUP_THRESHOLD = 0.45
@@ -116,7 +115,8 @@ def post_date(p) -> dt.date | None:
 
 
 def engine_for(day: dt.date) -> str:
-    return "claude" if (day - ENGINE_EPOCH).days % 2 == 0 else "big-pickle"
+    """Every job runs on Claude Code (the daily big-pickle alternation was dropped on 2026-10-02)."""
+    return "claude"
 
 
 def categories():
