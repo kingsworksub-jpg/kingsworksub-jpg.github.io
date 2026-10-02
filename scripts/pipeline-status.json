@@ -1,17 +1,22 @@
 {
- "updated": "2026-10-02T21:22:02+09:00",
+ "updated": "2026-10-03T04:00:04+09:00",
  "queue": {
   "approved": 61,
   "published": 2,
   "rejected": 1
  },
- "today_posts": 1,
+ "today_posts": 0,
  "daily_limit": 8,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "failed 2026w40-031: 時間切れ。前のトピックの検証エラー対応に時間を費やしたため、このトピックの執筆に着手できず。",
  "consecutive_failures": 3,
- "current_job": null,
+ "current_job": {
+  "job": "topic-topup",
+  "label": "ネタ補充",
+  "since": "2026-10-03T04:00:04+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
