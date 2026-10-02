@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T16:48:10+09:00",
+ "updated": "2026-10-02T17:15:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -1704,9 +1704,10 @@
    },
    "source_of_idea": "search",
    "id": "2026w40-032",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-02T17:15:23+09:00"
   },
   {
    "category": "whisky",
