@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T04:00:04+09:00",
+ "updated": "2026-10-03T04:00:29+09:00",
  "queue": {
   "approved": 61,
   "published": 2,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "failed 2026w40-031: 時間切れ。前のトピックの検証エラー対応に時間を費やしたため、このトピックの執筆に着手できず。",
  "consecutive_failures": 3,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-03T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-02T21:22:02+09:00",
+  "at": "2026-10-03T04:00:29+09:00",
   "engine": "claude",
-  "detail": "The image credit validation issue appears to be a mismatch between the markdown figcaption format and what the validation script expects. This should be investigated before the next run."
+  "detail": "Status check complete: **approved queue has 61 items** (threshold is 16 for topup mode). No additional topics need to be generated at this time."
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-03T04:00:29+09:00",
+   "engine": "claude",
+   "detail": "Status check complete: **approved queue has 61 items** (threshold is 16 for topup mode). No additional topics need to be generated at this time."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
