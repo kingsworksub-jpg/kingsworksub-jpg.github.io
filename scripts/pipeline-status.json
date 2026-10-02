@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T13:28:49+09:00",
+ "updated": "2026-10-02T13:34:38+09:00",
  "queue": {
   "approved": 62,
   "in_progress": 1,
@@ -16,11 +16,19 @@
   "job": "blog-post",
   "label": "投稿",
   "state": "failed",
-  "at": "2026-10-02T13:28:24+09:00",
+  "at": "2026-10-02T13:34:38+09:00",
   "engine": "big-pickle",
-  "detail": "big-pickle finished: - 今後 big-pickle の日: 日本語の長い分析的な本文は生成が不安定になりやすく、.articleの `description` や短い段落でも混入が起きる可能性がある。CLAUDE.md に「big-pickle は日本語本文を直接書かせず、短い断片に分けて検証する」運用を明記しておくのが安全だと思う（必要なら対応する）。 -> retrying this slot with Claude Code"
+  "detail": "[fallback Claude Code] You've hit your session limit · resets 4:10pm (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-10-02T13:34:38+09:00",
+   "engine": "big-pickle",
+   "detail": "[fallback Claude Code] You've hit your session limit · resets 4:10pm (Asia/Tokyo)"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
