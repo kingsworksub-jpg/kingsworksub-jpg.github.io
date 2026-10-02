@@ -39,7 +39,10 @@ function Publish-Status($state, $detail) {
         Push-Location $repo
         $env:PYTHONIOENCODING = "utf-8"
         $detail = ("$detail" -replace '"', "'")
-        & python scripts/topic_plan.py run-status --job $Name --state $state --detail "$detail" 2>&1 | Out-Null
+        # PowerShell 5.1 drops empty-string arguments, so only pass --detail when there is one.
+        $statusArgs = @("scripts/topic_plan.py", "run-status", "--job", $Name, "--state", $state)
+        if ($detail) { $statusArgs += @("--detail", $detail) }
+        & python @statusArgs 2>&1 | Out-Null
         & git add scripts/pipeline-status.json 2>&1 | Out-Null
         & git commit -q -m "Status: $Name $state" -- scripts/pipeline-status.json 2>&1 | Out-Null
         & git pull -q --rebase --autostash origin main 2>&1 | Out-Null
