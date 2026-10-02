@@ -87,6 +87,9 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - **アプリの自己更新**（2026-10-01）: メニュー「アプリを更新」。Release `topics-app-latest` の `version.json`（versionCode = ビルド番号）と
     インストール済みの versionCode を比べ、新しければ APK をダウンロードしてインストール画面を開く（起動時にも確認してバナー表示）。
     同じ署名鍵で署名しているので上書き更新できる。初回のみ「このアプリからのインストールを許可」が必要。
+  - **実行状況の自動同期**（2026-10-02）: `run-claude-task.ps1` がジョブの開始時と終了時に `topic_plan.py run-status` で
+    `pipeline-status.json` の `current_job` / `last_run` / `recent_runs` を更新して push する（モデルが起動に失敗しても記録される）。
+    アプリは開いた時・前面に戻った時・表示中は1分ごと（トークン未設定なら3分ごと）に読み直し、「実行中」「前回の実行（完了／失敗／時間切れ）」を表示する。
 - **停止方法**: 「止めて」と言われたら `Disable-ScheduledTask -TaskName blog-automation-task`（ネタ会議は止めなくてよい）。
   カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。
 

@@ -23,7 +23,11 @@ data class Topic(
     val slug: String?,
 )
 
+data class RunInfo(val label: String, val state: String, val at: String, val engine: String, val detail: String)
+
 data class PipelineStatus(
+    val currentJob: RunInfo?,
+    val lastRun: RunInfo?,
     val engineToday: String,
     val todayPosts: Int,
     val dailyLimit: Int,
@@ -124,7 +128,13 @@ class GitHubRepo(private val token: String?) {
         }
         val status = getRaw("scripts/pipeline-status.json")?.let { txt ->
             val s = JSONObject(txt)
+            fun run(o: JSONObject?, state: String? = null) = o?.let {
+                RunInfo(it.optString("label"), state ?: it.optString("state"), it.optString("since", it.optString("at")),
+                    it.optString("engine"), it.optString("detail"))
+            }
             PipelineStatus(
+                currentJob = run(s.optJSONObject("current_job"), "running"),
+                lastRun = run(s.optJSONObject("last_run")),
                 engineToday = s.optString("engine_today"),
                 todayPosts = s.optInt("today_posts"),
                 dailyLimit = s.optInt("daily_limit", 8),

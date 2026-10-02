@@ -21,6 +21,9 @@ big-pickle) only have to do the creative work:
   matrix CATEGORY            evergreen idea axes for a category (topic-matrix.json)
   gaps                       existing-content gaps (compared products without a deep dive, etc.)
   health                     consecutive posting failures (the job pauses at 3)
+  run-status --job J --state S [--detail D]
+                             record a job run (started / finished / failed / timeout) in pipeline-status.json
+                             (called by run-claude-task.ps1 so the Android app sees every run, even launch failures)
   bootstrap                  register every published post in topic-log.json (run once)
 """
 
@@ -225,6 +228,25 @@ def write_status(extra=None):
     if extra:
         st.update(extra)
     save(STATUS_FILE, st)
+
+
+JOB_LABELS = {"blog-post": "投稿", "topic-planning": "ネタ会議", "topic-topup": "ネタ補充"}
+
+
+def run_status(job, state, detail=""):
+    st = load(STATUS_FILE, {})
+    at = now().isoformat(timespec="seconds")
+    label = JOB_LABELS.get(job, job)
+    if state == "started":
+        extra = {"current_job": {"job": job, "label": label, "since": at, "engine": engine_for(now().date())}}
+    else:
+        extra = {"current_job": None,
+                 "last_run": {"job": job, "label": label, "state": state, "at": at,
+                              "engine": engine_for(now().date()), "detail": detail[:300]}}
+        runs = st.get("recent_runs", [])
+        runs.insert(0, extra["last_run"])
+        extra["recent_runs"] = runs[:10]
+    write_status(extra)
 
 
 def sync_skips():
@@ -545,6 +567,10 @@ def main():
     sub.add_parser("matrix").add_argument("category")
     sub.add_parser("gaps")
     sub.add_parser("health")
+    x = sub.add_parser("run-status")
+    x.add_argument("--job", required=True)
+    x.add_argument("--state", required=True, choices=["started", "finished", "failed", "timeout", "skipped"])
+    x.add_argument("--detail", default="")
     sub.add_parser("bootstrap")
     a = ap.parse_args()
 
@@ -594,6 +620,8 @@ def main():
         matrix(a.category)
     elif a.cmd == "gaps":
         gaps()
+    elif a.cmd == "run-status":
+        run_status(a.job, a.state, a.detail)
     elif a.cmd == "health":
         print(health())
     elif a.cmd == "bootstrap":

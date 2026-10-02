@@ -30,6 +30,27 @@ $log = Join-Path $logDir "$Name-$stamp.log"
 
 function Write-Log($msg) { "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg | Out-File -FilePath $log -Append -Encoding utf8 }
 
+# Records this run in scripts/pipeline-status.json and pushes it, so the Android app shows every run
+# (including launch failures and timeouts). Only called while holding the lock, so no job is mid-git.
+# Name is the job id used by topic_plan.py (blog-post / topic-planning / topic-topup).
+function Publish-Status($state, $detail) {
+    try {
+        Push-Location $repo
+        $env:PYTHONIOENCODING = "utf-8"
+        $detail = ("$detail" -replace '"', "'")
+        & python scripts/topic_plan.py run-status --job $Name --state $state --detail "$detail" 2>&1 | Out-Null
+        & git add scripts/pipeline-status.json 2>&1 | Out-Null
+        & git commit -q -m "Status: $Name $state" -- scripts/pipeline-status.json 2>&1 | Out-Null
+        & git pull -q --rebase --autostash origin main 2>&1 | Out-Null
+        & git push -q origin main 2>&1 | Out-Null
+        Write-Log "status pushed: $state"
+    } catch {
+        Write-Log "status push failed: $($_.Exception.Message)"
+    } finally {
+        Pop-Location
+    }
+}
+
 # Keep only the newest 200 logs.
 Get-ChildItem $logDir -Filter *.log | Sort-Object LastWriteTime -Descending | Select-Object -Skip 200 | Remove-Item -Force -ErrorAction SilentlyContinue
 
@@ -45,6 +66,9 @@ try {
     Set-Location $repo
     $env:PYTHONIOENCODING = "utf-8"
     $env:BLOG_ENGINE = $Engine
+    Publish-Status "started" ""
+    $runState = "failed"
+    $runDetail = ""
     $enginePrompt = "$Prompt (Today's engine: $Engine)"
     if ($Engine -eq "big-pickle") {
         $exe = "C:\Users\norio\AppData\Roaming\npm\node_modules\opencode-ai\bin\opencode.exe"
@@ -79,8 +103,16 @@ try {
     if (-not $p.WaitForExit($TimeoutMin * 60 * 1000)) {
         Write-Log "TIMEOUT after ${TimeoutMin}m; killing process tree"
         & taskkill /PID $p.Id /T /F | Out-Null
+        $runState = "timeout"
+        $runDetail = "${TimeoutMin}分で時間切れ（$Engine）"
     } else {
         Write-Log "$Engine exited code=$($p.ExitCode)"
+        $runState = if ($p.ExitCode -eq 0) { "finished" } else { "failed" }
+        $lastLine = ""
+        if (Test-Path $outFile) {
+            $lastLine = (Get-Content $outFile -Encoding utf8 | Where-Object { $_.Trim() -ne "" } | Select-Object -Last 1)
+        }
+        $runDetail = if ($lastLine) { "$lastLine" } else { "exit code $($p.ExitCode)" }
     }
     Write-Log "--- stdout ---"
     if (Test-Path $outFile) { Get-Content $outFile -Encoding utf8 | Out-File -FilePath $log -Append -Encoding utf8 }
@@ -90,9 +122,14 @@ try {
 }
 catch {
     Write-Log "ERROR: $($_.Exception.Message)"
+    $runState = "failed"
+    $runDetail = "起動エラー: $($_.Exception.Message)"
 }
 finally {
-    if ($held) { $mutex.ReleaseMutex() }
+    if ($held) {
+        if ($runState) { Publish-Status $runState $runDetail }
+        $mutex.ReleaseMutex()
+    }
     $mutex.Dispose()
     Write-Log "end"
 }
