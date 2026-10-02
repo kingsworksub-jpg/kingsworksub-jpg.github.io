@@ -25,6 +25,10 @@ big-pickle) only have to do the creative work:
                              record a job run (started / finished / failed / timeout) in pipeline-status.json
                              (called by run-claude-task.ps1 so the Android app sees every run, even launch failures)
   bootstrap                  register every published post in topic-log.json (run once)
+  snapshot FILE              save the working-tree state before a job (git status), used by recover
+  recover --snapshot FILE --reason R
+                             after a failed job: drop its unpushed commits and leftover files, return abandoned
+                             in_progress topics to the queue, and push the queue (used before the engine fallback)
 """
 
 from __future__ import annotations
@@ -523,6 +527,81 @@ def gaps():
             print(f"- {t}（{c}記事）")
 
 
+def git(*args, check=False):
+    import subprocess
+    r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
+    if check and r.returncode:
+        raise RuntimeError(f"git {' '.join(args)}: {r.stderr.strip()}")
+    return r.stdout
+
+
+def porcelain():
+    out = {}
+    for line in git("status", "--porcelain", "--untracked-files=all").splitlines():
+        if len(line) > 3:
+            out[line[3:].strip().strip('"')] = line[:2]
+    return out
+
+
+def snapshot(path):
+    save(path, {"head": git("rev-parse", "HEAD").strip(), "status": porcelain()})
+
+
+def release_stale(reason):
+    q = queue()
+    n = 0
+    for it in q["items"]:
+        if it["status"] == "in_progress":
+            it["retry"] = it.get("retry", 0) + 1
+            it["status"] = "rejected" if it["retry"] >= MAX_RETRY else "approved"
+            it["last_error"] = reason
+            log_entry(id=it["id"], category=it["category"], theme=it["theme"], status="failed", reason=reason,
+                      engine=engine_for(now().date()))
+            n += 1
+    if n:
+        save_queue(q)
+    return n
+
+
+def recover(snap_path, reason):
+    """Undo what a failed job left behind, without touching changes that existed before it started."""
+    import shutil
+    snap = load(snap_path, {"head": "", "status": {}})
+    git("fetch", "-q", "origin")
+    ahead = git("rev-list", "origin/main..HEAD").split()
+    if ahead:
+        git("reset", "-q", "--mixed", "origin/main", check=True)  # unpushed commits from the failed run
+    files = ["scripts/topics-queue.json", "scripts/topic-log.json", "scripts/pipeline-status.json"]
+    released = release_stale(reason)  # first, so the claim is recorded as a failure, not silently reverted
+    before = snap["status"]
+    removed, restored = [], []
+    for path, code in porcelain().items():
+        if path in files or (path in before and before[path] == code):
+            continue
+        full = os.path.normpath(os.path.join(ROOT, path))
+        if code == "??" and path.startswith(("content/", "static/", "scripts/note-drafts/")):
+            if os.path.isdir(full):
+                shutil.rmtree(full, ignore_errors=True)
+            elif os.path.exists(full):
+                os.remove(full)
+            removed.append(path)
+            img_root = os.path.normpath(os.path.join(ROOT, "static", "images"))
+            parent = os.path.dirname(full)
+            while parent.startswith(img_root) and parent != img_root and os.path.isdir(parent) and not os.listdir(parent):
+                os.rmdir(parent)
+                parent = os.path.dirname(parent)
+        elif code.strip() in ("M", "MM", "AM", "D") and path not in before:
+            git("checkout", "-q", "origin/main", "--", path)
+            restored.append(path)
+    git("add", *files)
+    if git("diff", "--cached", "--name-only").strip():
+        git("commit", "-q", "-m", f"Recover: {reason[:60]}", "--", *files)
+        git("pull", "-q", "--rebase", "--autostash", "origin", "main")
+        git("push", "-q", "origin", "main")
+    print(json.dumps({"dropped_commits": len(ahead), "removed": removed, "restored": restored,
+                      "released_topics": released}, ensure_ascii=False))
+
+
 def bootstrap():
     log = load(LOG, {"entries": []})
     have = {e.get("slug") for e in log["entries"] if e.get("status") == "published"}
@@ -572,6 +651,10 @@ def main():
     x.add_argument("--state", required=True, choices=["started", "finished", "failed", "timeout", "skipped"])
     x.add_argument("--detail", default="")
     sub.add_parser("bootstrap")
+    sub.add_parser("snapshot").add_argument("file")
+    x = sub.add_parser("recover")
+    x.add_argument("--snapshot", required=True)
+    x.add_argument("--reason", required=True)
     a = ap.parse_args()
 
     if a.cmd == "status":
@@ -626,6 +709,10 @@ def main():
         print(health())
     elif a.cmd == "bootstrap":
         bootstrap()
+    elif a.cmd == "snapshot":
+        snapshot(a.file)
+    elif a.cmd == "recover":
+        recover(a.snapshot, a.reason)
 
 
 if __name__ == "__main__":
