@@ -865,6 +865,15 @@
    "note_key": "n7083ae60e8fb",
    "engine": "claude",
    "at": "2026-10-02T16:48:10+09:00"
+  },
+  {
+   "id": "2026w40-032",
+   "category": "whisky",
+   "theme": "ジャパニーズウイスキーの表示ルールが変わった後、いま棚にある5本",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-02T17:17:51+09:00"
   }
  ]
 }
