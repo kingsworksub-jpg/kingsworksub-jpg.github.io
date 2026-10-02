@@ -1,9 +1,11 @@
 {
- "updated": "2026-10-01T23:03:45+09:00",
+ "updated": "2026-10-02T11:17:03+09:00",
  "queue": {
-  "approved": 64
+  "approved": 63,
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 0,
  "daily_limit": 8,
- "engine_today": "claude"
+ "engine_today": "big-pickle",
+ "pending_requests": 0
 }
