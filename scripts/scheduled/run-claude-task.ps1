@@ -30,6 +30,7 @@ $log = Join-Path $logDir "$Name-$stamp.log"
 
 function Write-Log($msg) { "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg | Out-File -FilePath $log -Append -Encoding utf8 }
 
+# Keep this file ASCII-only: Windows PowerShell 5.1 reads BOM-less scripts as the ANSI code page.
 # Records this run in scripts/pipeline-status.json and pushes it, so the Android app shows every run
 # (including launch failures and timeouts). Only called while holding the lock, so no job is mid-git.
 # Name is the job id used by topic_plan.py (blog-post / topic-planning / topic-topup).
@@ -104,7 +105,7 @@ try {
         Write-Log "TIMEOUT after ${TimeoutMin}m; killing process tree"
         & taskkill /PID $p.Id /T /F | Out-Null
         $runState = "timeout"
-        $runDetail = "${TimeoutMin}分で時間切れ（$Engine）"
+        $runDetail = "timed out after ${TimeoutMin} min ($Engine)"
     } else {
         Write-Log "$Engine exited code=$($p.ExitCode)"
         $runState = if ($p.ExitCode -eq 0) { "finished" } else { "failed" }
@@ -123,7 +124,7 @@ try {
 catch {
     Write-Log "ERROR: $($_.Exception.Message)"
     $runState = "failed"
-    $runDetail = "起動エラー: $($_.Exception.Message)"
+    $runDetail = "launch error: $($_.Exception.Message)"
 }
 finally {
     if ($held) {
