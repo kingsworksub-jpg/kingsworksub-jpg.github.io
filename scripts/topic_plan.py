@@ -362,7 +362,8 @@ def claim():
         return
     order = {r["id"]: i for i, r in enumerate(priorities())}
     last = last_category()
-    user_first = sorted(ready, key=lambda it: (it.get("source_of_idea") != "user",
+    user_first = sorted(ready, key=lambda it: (not it.get("pinned"),
+                                                it.get("source_of_idea") != "user",
                                                 it["category"] == last,
                                                 order.get(it["category"], 99),
                                                 -it.get("score", {}).get("total", 0)))

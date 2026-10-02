@@ -1117,7 +1117,8 @@
    "created": "2026-10-01",
    "retry": 1,
    "claimed_at": "2026-10-02T11:17:03+09:00",
-   "last_error": "big-pickle: 本文に韓国語・英語が混入し修正を繰り返したあと、opencode の要約用モデル（Groq 無料枠）の上限で停止"
+   "last_error": "big-pickle: 本文に韓国語・英語が混入し修正を繰り返したあと、opencode の要約用モデル（Groq 無料枠）の上限で停止",
+   "pinned": true
   },
   {
    "category": "setup",
