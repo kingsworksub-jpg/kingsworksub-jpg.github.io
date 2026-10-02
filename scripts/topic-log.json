@@ -836,6 +836,23 @@
    "reason": "big-pickle: 日本語本文の生成が崩坏し、平均1文ごとの修正を繰り返した。句子ごとに書き直しても混入が続き、字数(5,000字以上)を満たせないまま中断。 Publishers 同一週に同じ内容で再試行).",
    "engine": "big-pickle",
    "at": "2026-10-02T13:27:50+09:00"
+  },
+  {
+   "id": "2026w40-015",
+   "category": "setup",
+   "theme": "6畳の部屋に10万円で宅録環境を組む、優先順位の付け方",
+   "status": "failed",
+   "reason": "fallback Claude Code hit its usage limit; big-pickle 15:15 run reported success without publishing",
+   "engine": "big-pickle",
+   "at": "2026-10-02T16:20:07+09:00"
+  },
+  {
+   "id": "",
+   "category": "",
+   "theme": "",
+   "status": "health-reset",
+   "reason": "causes fixed: stale-topic detection bug, post-fallback cleanup; Claude usage limit has reset",
+   "at": "2026-10-02T16:20:25+09:00"
   }
  ]
 }
