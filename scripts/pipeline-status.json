@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T13:00:59+09:00",
+ "updated": "2026-10-02T13:01:10+09:00",
  "queue": {
   "approved": 64
  },
@@ -13,12 +13,20 @@
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-02T13:00:59+09:00",
+  "state": "finished",
+  "at": "2026-10-02T13:01:10+09:00",
   "engine": "big-pickle",
-  "detail": "big-pickle timeout: timed out after 1 min (big-pickle) -> retrying this slot with Claude Code"
+  "detail": "[fallback Claude Code] OK"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-02T13:01:10+09:00",
+   "engine": "big-pickle",
+   "detail": "[fallback Claude Code] OK"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
