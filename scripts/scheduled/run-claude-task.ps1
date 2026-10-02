@@ -47,7 +47,7 @@ try {
     $env:BLOG_ENGINE = $Engine
     $enginePrompt = "$Prompt (Today's engine: $Engine)"
     if ($Engine -eq "big-pickle") {
-        $exe = "C:\Users\norio\AppData\Roaming\npm\opencode.exe"
+        $exe = "C:\Users\norio\AppData\Roaming\npm\node_modules\opencode-ai\bin\opencode.exe"
         $argList = @("run", $enginePrompt, "-m", "opencode/big-pickle", "--dir", $repo)
     } else {
         $exe = "C:\Users\norio\AppData\Local\Microsoft\WinGet\Links\claude.exe"
@@ -67,23 +67,29 @@ try {
         if ($_ -match '[\s"()*&|]') { '"' + ($_ -replace '"', '\"') + '"' } else { $_ }
     }) -join " "
 
+    if (-not (Test-Path $exe)) { throw "executable not found: $exe" }
     $outFile = Join-Path $logDir "$Name-$stamp.out.tmp"
     $errFile = Join-Path $logDir "$Name-$stamp.err.tmp"
+    # opencode run reads piped stdin until EOF, so give every engine an empty stdin to avoid an endless wait.
+    $inFile = Join-Path $logDir "$Name-$stamp.in.tmp"
+    New-Item -ItemType File -Force -Path $inFile | Out-Null
     $p = Start-Process -FilePath $exe -ArgumentList $argString -WorkingDirectory $repo -NoNewWindow -PassThru `
-        -RedirectStandardOutput $outFile -RedirectStandardError $errFile
+        -RedirectStandardInput $inFile -RedirectStandardOutput $outFile -RedirectStandardError $errFile -ErrorAction Stop
     $null = $p.Handle
     if (-not $p.WaitForExit($TimeoutMin * 60 * 1000)) {
         Write-Log "TIMEOUT after ${TimeoutMin}m; killing process tree"
         & taskkill /PID $p.Id /T /F | Out-Null
     } else {
-        $p.WaitForExit()
         Write-Log "$Engine exited code=$($p.ExitCode)"
     }
     Write-Log "--- stdout ---"
     if (Test-Path $outFile) { Get-Content $outFile -Encoding utf8 | Out-File -FilePath $log -Append -Encoding utf8 }
     Write-Log "--- stderr ---"
     if (Test-Path $errFile) { Get-Content $errFile -Encoding utf8 | Out-File -FilePath $log -Append -Encoding utf8 }
-    Remove-Item $outFile, $errFile -Force -ErrorAction SilentlyContinue
+    Remove-Item $outFile, $errFile, $inFile -Force -ErrorAction SilentlyContinue
+}
+catch {
+    Write-Log "ERROR: $($_.Exception.Message)"
 }
 finally {
     if ($held) { $mutex.ReleaseMutex() }
