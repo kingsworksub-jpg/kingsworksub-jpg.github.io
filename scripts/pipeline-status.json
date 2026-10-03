@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T07:22:57+09:00",
+ "updated": "2026-10-04T07:23:00+09:00",
  "queue": {
   "approved": 64,
   "published": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published home-studio-100k-budget-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-04T07:15:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
-  "state": "finished",
-  "at": "2026-10-04T04:00:29+09:00",
+  "state": "failed",
+  "at": "2026-10-04T07:23:00+09:00",
   "engine": "claude",
-  "detail": "- キューの `approved` = **64 件**（topup の閾値 16 件以上）→ 補充せず終了。作業ツリーはクリーンなので commit / push もなし。"
+  "detail": "You've hit your session limit · resets 8am (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-10-04T07:23:00+09:00",
+   "engine": "claude",
+   "detail": "You've hit your session limit · resets 8am (Asia/Tokyo)"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-03T09:15:24+09:00",
    "engine": "claude",
    "detail": "Health status が 4（3 以上）のため、連続失敗による停止状態です。復旧には `python scripts/topic_plan.py health-reset --reason '<理由>'` を実行してください。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-03T07:15:27+09:00",
-   "engine": "claude",
-   "detail": "Health status が 4 のため、連続失敗による停止状態です。`topic_plan.py health-reset --reason ...` で解除後に再開してください。"
   }
  ]
 }
