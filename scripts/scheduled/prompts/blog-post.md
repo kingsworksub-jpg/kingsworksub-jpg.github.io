@@ -51,6 +51,7 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
   （`python scripts/topic_plan.py images "<検索語>"`）。非商用（NC）・改変禁止（ND）・Amazon の商品画像・図形だけの仮画像は使わない。
 - `static/images/<slug-短縮>/` に保存（幅400〜1000px程度）。
 - 配置は CLAUDE.md の回り込みルール（`<figure class="photo photo--left|right">`、見出しの直後、左右交互、幅220、figcaption と credit 必須）。
+  クレジットは必ず `<span class="credit">CC / Public domain / Image: / Photo: / 撮影: など の具体的なクレジット情報</span>` の形式で。
 - Amazon で扱いのある製品は、画像を `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む。
 
 ## 6. 仕上げと検査

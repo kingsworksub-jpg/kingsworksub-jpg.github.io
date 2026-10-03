@@ -100,7 +100,8 @@ def check(slug: str) -> list[str]:
         if "<figcaption>" not in f:
             errs.append(f"figcaption が無い: {src.group(1)}")
         cr = re.search(r'<span class="credit">(.*?)</span>', f, re.S)
-        if not cr or not re.search(r"(CC|Public domain|Image:|Photo:)", cr.group(1)):
+        # 複数の形式に対応: Photo: / Photo by / 撮影: / 撮影 / CC / Public domain / Image: / 出典 etc.
+        if not cr or not re.search(r"(CC|Public domain|Image:|Photo:?(?:\s|$)|撮影|出典)", cr.group(1), re.I):
             errs.append(f"クレジット（撮影者・ライセンス）が無い: {src.group(1)}")
         if src.group(1).startswith("/"):
             path = os.path.join(ROOT, "static", src.group(1).lstrip("/"))
