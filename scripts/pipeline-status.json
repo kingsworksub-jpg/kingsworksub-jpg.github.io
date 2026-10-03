@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T15:22:23+09:00",
+ "updated": "2026-10-03T17:15:02+09:00",
  "queue": {
   "approved": 59,
   "published": 4,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published condenser-mic-5choice-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-03T17:15:02+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
