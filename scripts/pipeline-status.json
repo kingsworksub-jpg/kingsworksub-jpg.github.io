@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T17:25:28+09:00",
+ "updated": "2026-10-03T17:25:51+09:00",
  "queue": {
   "approved": 58,
   "published": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published audacity-4-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-03T17:15:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-03T15:22:23+09:00",
+  "at": "2026-10-03T17:25:51+09:00",
   "engine": "claude",
-  "detail": "**本文**: 約5,400字、見出し10以上、図表2点"
+  "detail": "記事「Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ」を公開しました。Qt フレームワークへの全面移行、クリップベース編集への転換、リアルタイムエフェクト対応など、2026年9月の大改装について、ユーザーの実用的な利用用途ごとにガイドを構成しました。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-03T17:25:51+09:00",
+   "engine": "claude",
+   "detail": "記事「Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ」を公開しました。Qt フレームワークへの全面移行、クリップベース編集への転換、リアルタイムエフェクト対応など、2026年9月の大改装について、ユーザーの実用的な利用用途ごとにガイドを構成しました。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-02T17:17:55+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 9:10pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-02T16:48:47+09:00",
-   "engine": "claude",
-   "detail": "書くにあたって気をつけた点を2つだけ: Amazon.co.jp の2026年日程は**未発表**なので予想を断定せず「例年のパターン＋未発表」と明記しました。また個人輸入の消費税率について調査で8%という記述が出てきましたが、標準税率10%と矛盾し裏が取れなかったため、数字を出さず「消費税は課税価格に対してかかる」とだけ書いています。画像は4枚ともダウンロード後に目視確認し、Commons API で著作者とライセンスを照合しました。"
   }
  ]
 }
