@@ -1,0 +1,51 @@
+{
+ "/images/islay/laphroaig-10.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Laphroaig_10_year_old_whisky.jpg/1280px-Laphroaig_10_year_old_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Laphroaig_10_year_old_whisky.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JIP",
+  "title": "File:Laphroaig 10 year old whisky.jpg"
+ },
+ "/images/islay/ardbeg-10.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ardbeg_10_years_old_whisky.jpg/1280px-Ardbeg_10_years_old_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ardbeg_10_years_old_whisky.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JIP",
+  "title": "File:Ardbeg 10 years old whisky.jpg"
+ },
+ "/images/islay/bowmore-12.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Bowmore_12_years_old_Scotch_whisky.jpg/1280px-Bowmore_12_years_old_Scotch_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Bowmore_12_years_old_Scotch_whisky.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JIP",
+  "title": "File:Bowmore 12 years old Scotch whisky.jpg"
+ },
+ "/images/islay/caol-ila-12.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Caol_Ila_12_years_old_whisky.jpg/1280px-Caol_Ila_12_years_old_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Caol_Ila_12_years_old_whisky.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JIP",
+  "title": "File:Caol Ila 12 years old whisky.jpg"
+ },
+ "/images/islay/bruichladdich-classic.jpg": {
+  "download": "https://live.staticflickr.com/395/20098517710_05950d3023_b.jpg",
+  "page": "https://www.flickr.com/photos/44758619@N08/20098517710",
+  "license": "CC BY 2.0",
+  "author": "nigab",
+  "title": ""
+ },
+ "/images/islay/laphroaig-distillery.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Laphroaig_Distillery_-_panoramio_%284%29.jpg/1280px-Laphroaig_Distillery_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Laphroaig_Distillery_-_panoramio_(4).jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Bjarne Henning Kvaal…",
+  "title": "File:Laphroaig Distillery - panoramio (4).jpg"
+ },
+ "/images/islay/islay-map.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Islay_map-gd.svg/1280px-Islay_map-gd.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Islay_map-gd.svg",
+  "license": "CC BY-SA 4.0",
+  "author": "Foxtrot1985",
+  "title": "File:Islay map-gd.svg"
+ }
+}

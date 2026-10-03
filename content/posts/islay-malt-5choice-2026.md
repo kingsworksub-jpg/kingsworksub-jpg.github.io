@@ -1,6 +1,6 @@
 ---
 title: "アイラの南北で変わる煙の色、5つのピート体験"
-description: "アイラ島の南岸と北岸に位置する5つの蒸溜所は、どれも「ピーティ」と評されながら、煙の香りは全く異なる。島の地質と水源、製造方法が生み出す個性的なスモーキーウイスキーの入門編。地理が決める5つの選択肢を、はじめの一本選びの指針に。"
+description: "アイラ島の南東岸から北東、西のリンズまで、5つの蒸溜所はどれも「ピーティ」と呼ばれながら煙の出方がまるで違う。麦芽の焚き方と蒸溜所ごとの造りが生む個性を、はじめの一本選びの指針として5本で比べる。"
 date: 2026-10-03T13:00:00+09:00
 categories: ["whisky"]
 tags: ["Islay", "peated", "スコットランド", "ウイスキー"]
@@ -10,39 +10,39 @@ ogImageHeight: 630
 draft: false
 ---
 
-スコットランドのウイスキーの中でも、ピーティ（泥炭臭）で知られるアイラモルト。しかし「ピーティ」というひとことで片付けてしまっては、この島の本当の面白さが見えない。アイラ島の南岸と北岸では、泥炭（ピート）の質が異なり、結果として同じ島でも蒸溜所によって全く違う煙の香りが生まれるのだ。
+スコットランドのウイスキーの中でも、ピーティ（泥炭臭）で知られるアイラモルト。しかし「ピーティ」というひとことで片付けてしまっては、この島の本当の面白さが見えない。同じ島の蒸溜所でも、麦芽をどれだけピートで焚くか、どんな蒸溜器と樽で仕上げるかによって、煙の香りはまったく違うものになる。
 
 「ピーティなウイスキー」というと、どれも同じ強い燻臭いイメージで語られることが多い。テイスティングの初心者も上級者も、「アイラは煙臭い」という先入観から逃げられない。だが実際に5つのアイラモルトを飲み比べると、その固定観念は崩れ去る。同じ島の産物とは思えないほど、それぞれが異なる煙のプロフィールを持っているのだ。
 
-この記事では、アイラ島を代表する5つのシングルモルトを通じて、ピートの多様性を知ってみたい。南岸の最強峰から中央のバランス型、北岸のクリーン系まで、地理が決める5つの選択肢。どれが「スモーキー」なのか、その違いはどこから生まれるのか——はじめの一本を選ぶときの指針にもなるだろう。
+この記事では、アイラ島を代表する5つのシングルモルトを通じて、ピートの多様性を知ってみたい。南東岸の最強峰から中央のバランス型、北東のクリーン系、そして西のノンピートまで、島をぐるりと回る5つの選択肢。どれが「スモーキー」なのか、その違いはどこから生まれるのか——はじめの一本を選ぶときの指針にもなるだろう。
 
-## 北岸と南岸、アイラの地質が決める煙の種類
+## 南東岸から北東まで、アイラの蒸溜所が決める煙の種類
 
 <figure class="photo photo--left">
-<img src="/images/islay/laphroaig-distillery.jpg" alt="アイラ島のラフロイグ蒸溜所、南岸に位置する" width="220" height="165" loading="lazy">
-<figcaption>アイラ島の代表的な蒸溜所は南岸に集中</figcaption>
-<span class="credit">Image: Wikimedia Commons, CC BY 3.0</span>
+<img src="/images/islay/laphroaig-distillery.jpg" alt="海沿いに建つラフロイグ蒸溜所の白い倉庫" width="1000" height="666" loading="lazy">
+<figcaption>海辺に建つラフロイグ蒸溜所<span class="credit">Photo: Bjarne Henning Kvaal / <a href="https://commons.wikimedia.org/wiki/File:Laphroaig_Distillery_-_panoramio_(4).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
-アイラ島はスコットランドの西部、ヘブリディーズ諸島にある小さな島だ。南北に約40km、東西は最大15km程度。この小さな島全体がピート地帯だが、南岸と北岸では泥炭の成り立ちが微妙に異なる。
+アイラ島はスコットランド西岸の沖、ヘブリディーズ諸島の南端にある島だ。南北およそ40km、東西およそ30kmほどの島に、現在は10を超える蒸溜所が点在している。島の大部分が泥炭（ピート）に覆われ、古くから燃料としてピートを使ってきた土地でもある。
 
-南岸のピートは海風の影響を受け、海草（ケルプ）が混じった独特の鉱物質を帯びている。一方、北岸のピートはより内陸的で、植物性が強い。この地質的な違いは、ウイスキーづくりの初期段階で大きな影響を与える。蒸溜所で麦芽を乾燥させるときに、どのピートを使うかで、最終的な香りのベースが決まるのだ。
+ウイスキーの煙の強さを主に決めるのは、麦芽を乾燥させるときにピートをどれだけ焚くかだ。焚く量が多いほど麦芽にフェノール類が移り、仕上がりの煙は濃くなる。南東岸のラフロイグやアードベッグは強く焚いた麦芽を使い、北東のカオル・イーラはそれより穏やか、西のブルイックラディックの看板商品はピートを焚かない麦芽で造られている。
 
-さらに複雑なのは、蒸溜所が必ずしも近くのピートを使うとは限らないということ。蒸溜所の場所と、実際に購入するピートの産地は異なることもある。また、水源の選択、麦芽乾燥の温度や時間、さらには仕込み水の硬度なども、最終的な香りに大きく影響する。つまり、「ピート」という単一の要素だけでは説明できない複雑さが、アイラのウイスキーには隠されているのである。
+さらに複雑なのは、多くの蒸溜所が麦芽を島外の製麦所から仕入れていて、蒸溜所の場所とピートの産地が一致するとは限らないということ。また、蒸溜器の形、発酵の時間、樽の種類なども、最終的な香りに大きく影響する。つまり、「ピート」という単一の要素だけでは説明できない複雑さが、アイラのウイスキーには隠されているのである。
 
-同じピートで燻した麦芽でも、蒸溜所の場所・製造方法・水源によって、最終的なウイスキーの香りは大きく変わる。ピートといえば「いぶされた」という連想で一括りにされやすいが、実際には多くの色合いがある。それを体験できるのが、アイラの5つの蒸溜所なのである。アイラ島を深く知るには、この地理的・地質的な背景を理解することが、何より大切なのだ。
+同じように燻した麦芽でも、蒸溜所の造りによって、最終的なウイスキーの香りは大きく変わる。ピートといえば「いぶされた」という連想で一括りにされやすいが、実際には多くの色合いがある。それを体験できるのが、アイラの5つの蒸溜所なのである。
 
 ## ラフロイグ 10年 — 沿岸の塩辛さが混じる最強峰
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=Laphroaig+10&tag=nakimoto1-22">
-<img src="/images/islay/laphroaig-10.jpg" alt="Laphroaig 10 years" width="120" height="120">
-<span class="product-banner-info">
-<span class="product-banner-name">Laphroaig 10年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Laphroaig+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/islay/laphroaig-10.jpg" alt="ラフロイグ 10年のボトル" width="1000" height="750" loading="lazy">
 </a>
+<figcaption>ラフロイグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Laphroaig_10_year_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Laphroaig+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+</figure>
 
-![ラフロイグ 10年のピート特性レーダーチャート](/images/islay/laphroaig-radar.svg)
+![ラフロイグ 10年のレーダーチャート](/images/radar/islay-laphroaig-10.svg)
+
+- ピート感：5 / 個性：5 / 入手性：5 / コスパ：3 / 入門向き：2
 
 アイラの南端、ポート・エレン地区に位置するラフロイグは、アイラ最高峰のピーティなウイスキーの地位を保ち続けている。南岸の海寄りに建つこの蒸溜所は、ピートの質がもっとも個性的だ。
 
@@ -52,19 +52,18 @@ draft: false
 
 ラフロイグが持つ強烈な個性は、アイラ南岸の特定の場所で採掘されるピートと、蒸溜所独自の製造方法の結果だ。樽の選定も、このピートの強さを引き立てるように工夫されている。つまり、ラフロイグのスモーキーさは偶然ではなく、綿密な設計の上に成り立っているのである。
 
-- ピート感：5 / 個性：5 / 入手性：5 / コスパ：3 / 入門向き：2
-
 ## アードベッグ 10年 — 燻製香の奥に花が咲く
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22">
-<img src="/images/islay/ardbeg-10.jpg" alt="Ardbeg 10 years" width="120" height="120">
-<span class="product-banner-info">
-<span class="product-banner-name">Ardbeg 10年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/islay/ardbeg-10.jpg" alt="アードベッグ 10年のボトル" width="1000" height="750" loading="lazy">
 </a>
+<figcaption>アードベッグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Ardbeg_10_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+</figure>
 
-![アードベッグ 10年のピート特性レーダーチャート](/images/islay/ardbeg-radar.svg)
+![アードベッグ 10年のレーダーチャート](/images/radar/islay-ardbeg-10.svg)
+
+- ピート感：4.5 / 個性：4 / 入手性：4 / コスパ：3.5 / 入門向き：3.5
 
 アイラ島の南西に位置するアードベッグは、南岸の蒸溜所の中でも際立った個性を持つ。ラフロイグほどではないが、やはり強いピート感を前面に出すウイスキーだ。
 
@@ -74,87 +73,81 @@ draft: false
 
 アードベッグは「強いピーティさを持ちながら、バランスの取れた」という難しい立ち位置を見事に実現している。その秘密は、樽の熟成期間と樽種の選定にある。ピートの強さに見合う、しっかりした樽風味があることで、全体が融和されているのだ。
 
-- ピート感：4.5 / 個性：4 / 入手性：4 / コスパ：3.5 / 入門向き：3.5
-
 ## ボウモア 12年 — スモーキーさとバランスの中庸
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=Bowmore+12&tag=nakimoto1-22">
-<img src="/images/islay/bowmore-12.jpg" alt="Bowmore 12 years" width="120" height="120">
-<span class="product-banner-info">
-<span class="product-banner-name">Bowmore 12年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Bowmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/islay/bowmore-12.jpg" alt="ボウモア 12年のボトル" width="1000" height="750" loading="lazy">
 </a>
+<figcaption>ボウモア 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Bowmore_12_years_old_Scotch_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Bowmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+</figure>
 
-![ボウモア 12年のピート特性レーダーチャート](/images/islay/bowmore-radar.svg)
+![ボウモア 12年のレーダーチャート](/images/radar/islay-bowmore-12.svg)
 
-アイラ島の中心地、ボウモア村に蒸溜所を構える同社は、南岸と北岸の丁度中間に位置する。そのためか、このウイスキーはアイラの中ではバランス型だ。
+- ピート感：3.5 / 個性：3.5 / 入手性：5 / コスパ：4 / 入門向き：4.5
+
+アイラ島の中心地、インダール湾に面したボウモア村に蒸溜所を構える。島で最も古い蒸溜所のひとつで、地理的にも南東岸の個性派と北東のカオル・イーラのちょうど間にある。このウイスキーもアイラの中ではバランス型だ。
 
 ピートは確かに感じられるが、ラフロイグやアードベッグほどは前面に出ない。代わりに、12年の熟成で生まれた樽の甘さ、蜂蜜のような優しい香りが共存する。スモーキーさと甘さの共存が、飲み手を選ばない造りを実現している。
 
 テイスティングノート：バニラ、蜂蜜、ライ麦パン、そしてスモーク。複雑だが調和のとれた味わい。ピーティウイスキーが初めての人にも、ピート好きな人にも受け入れられる守備範囲の広さが強み。アイラの蒸溜所の中で最も「飲みやすい」と言われるのは、このバランス感にあるだろう。
 
-ボウモアはアイラの中心に位置しているという地理的な利点を活かし、南岸と北岸双方のピートの特性を程よく取り入れている。また、樽熟成の期間が12年と、他の蒸溜所より長めなのも特徴。この時間をかけた熟成が、ピートの強さを和らげ、樽風味との調和を深めるのに一役買っているのだ。
-
-- ピート感：3.5 / 個性：3.5 / 入手性：5 / コスパ：4 / 入門向き：4.5
+ボウモアは今も自前のフロアモルティング（伝統的な床での発芽・乾燥）で麦芽の一部を仕込んでいる数少ない蒸溜所だ。ピートの焚き方は南東岸の銘柄より控えめで、12年という熟成期間が煙の角を丸め、樽の甘さとの調和を深めている。
 
 ## カオル・イーラ 12年 — スモークの後ろの柑橘香
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22">
-<img src="/images/islay/caol-ila-12.jpg" alt="Caol Ila 12 years" width="120" height="120">
-<span class="product-banner-info">
-<span class="product-banner-name">Caol Ila 12年</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/islay/caol-ila-12.jpg" alt="カオル・イーラ 12年のボトル" width="1000" height="750" loading="lazy">
 </a>
+<figcaption>カオル・イーラ 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Caol_Ila_12_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+</figure>
 
-![カオル・イーラ 12年のピート特性レーダーチャート](/images/islay/caol-ila-radar.svg)
+![カオル・イーラ 12年のレーダーチャート](/images/radar/islay-caol-ila-12.svg)
 
-アイラ島の東岸、スキプ地区に位置するカオル・イーラは、地理的には少し離れた蒸溜所だ。東岸のピートは北岸と南岸の中間的な性質を持ち、より植物性が強い。
+- ピート感：3 / 個性：3.5 / 入手性：4 / コスパ：4 / 入門向き：4
+
+アイラ島の北東、ポート・アスケイグの近くに建つカオル・イーラは、ジュラ島との間のアイラ海峡を望む蒸溜所だ。生産量は島で最大級で、多くのブレンデッドウイスキーの原酒にもなっている。
 
 そのためか、このウイスキーは「スモーク」というより「ほのかなピーティさ」という印象に近い。スモークの奥底に柑橘類の爽やかさ、海塩のミネラル感が隠れており、スモーキーウイスキーの中では最も多面的な香りを持つ。
 
 テイスティングノート：スモークはあるが強くない。レモン、ビター、わずかなペッパー。樽の影響も感じられ、複雑な香りが層をなしている。ピーティウイスキーの「濃い」というイメージを持つ人に飲ませると、「え、これもアイラ？」と驚かれることが多い。まさに「アイラの異端児」という表現がしっくりくる。
 
-カオル・イーラが東岸に位置することの意味は、大きい。南岸と北岸のどちらにも属さない場所だからこそ、独自の道を歩んできた。水源の特性も異なり、アイラ島の中では最もクリーンな水を使う蒸溜所の一つ。結果として、スモーキーでありながら、スモーク以外の複雑さが前面に出るという、他のアイラでは味わえない経験ができるのだ。
-
-- ピート感：3 / 個性：3.5 / 入手性：4 / コスパ：4 / 入門向き：4
+カオル・イーラの蒸溜棟は大きな窓越しに海峡を見渡せることで知られる。ピートの焚き方は南東岸の銘柄より穏やかで、そのぶん蒸溜由来の軽やかさと柑橘のような香りが前に出る。スモーキーでありながら、スモーク以外の表情がはっきり感じられるのが、この一本ならではの体験だ。
 
 ## ブルイックラディック ザ・クラシック・ラディ — ピート・フリーの選択肢
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22">
-<img src="/images/islay/bruichladdich-classic.jpg" alt="Bruichladdich The Classic Laddie" width="120" height="120">
-<span class="product-banner-info">
-<span class="product-banner-name">Bruichladdich The Classic Laddie</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/islay/bruichladdich-classic.jpg" alt="ブルイックラディック ザ・クラシック・ラディのボトル" width="453" height="1000" loading="lazy">
 </a>
+<figcaption>ブルイックラディック ザ・クラシック・ラディ<span class="credit">Photo: nigab / <a href="https://www.flickr.com/photos/44758619@N08/20098517710" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+</figure>
 
-![ブルイックラディック ザ・クラシック・ラディのレーダーチャート](/images/islay/bruichladdich-radar.svg)
-
-アイラの北岸、イアラミック村に蒸溜所を持つブルイックラディックは、独自の選択肢を提示する。かつてはピーティなウイスキーを作っていたが、現在では「ノン・ピーティ」にこだわる蒸溜所として知られている。
-
-北岸のピート地帯でありながら、あえてピートを使わない。代わりに、島の豊かな水源とアイラの大麦本来の香りを引き出す。結果として生まれるのは、「アイラの蒸溜所とは思えない」ほどクリーンで優雅なウイスキーだ。
-
-テイスティングノート：蜂蜜、フローラル、グレープフルーツ、わずかなオーク樽。スモークはほぼなく、爽やかで飲みやすい。アイラのピーティさに圧倒されるなら、まずはこれから始めるのも良い。ピーティウイスキーの「対照」として選ぶ価値もある。同じスコットランドのウイスキーでも、アイラ産というだけで全く異なる個性が生まれることを実感できる。
-
-ブルイックラディックが「ノン・ピーティ」にこだわるのは、単なる逆張りではなく、アイラの本来の価値を引き出したいという思想の現れだ。ピートなしで、アイラの大麦本来の香り、島の豊かな水源がもたらすミネラル感を表現する。その結果が、「アイラとは思えない」ほどクリーンで優雅なウイスキーなのである。
+![ブルイックラディック ザ・クラシック・ラディのレーダーチャート](/images/radar/islay-bruichladdich-classic.svg)
 
 - ピート感：0.5 / 個性：4 / 入手性：4 / コスパ：3.5 / 入門向き：4.5
 
-## アイラ南北の地質が作る、5つの選択肢
+アイラ島の西側、インダール湾を挟んだリンズ地方に蒸溜所を持つブルイックラディックは、独自の選択肢を提示する。同じ蒸溜所でポートシャーロットやオクトモアといった強烈にピーティな銘柄も造っているが、看板のザ・クラシック・ラディはピートを焚かない麦芽で仕込まれている。
 
-<figure class="photo photo--right">
-<img src="/images/islay/islay-map.jpg" alt="アイラ島の地図、南北の蒸溜所の位置関係" width="220" height="165" loading="lazy">
-<figcaption>南岸のラフロイグ・アードベッグから北岸のブルイックラディックまで、ピートの特性は大きく異なる</figcaption>
-<span class="credit">Image: Wikimedia Commons</span>
+ピートの島にありながら、あえてピートを使わない。代わりに、スコットランド産の大麦本来の香りを引き出す。結果として生まれるのは、「アイラの蒸溜所とは思えない」ほどクリーンで優雅なウイスキーだ。
+
+テイスティングノート：蜂蜜、フローラル、グレープフルーツ、わずかなオーク樽。スモークはほぼなく、爽やかで飲みやすい。アイラのピーティさに圧倒されるなら、まずはこれから始めるのも良い。ピーティウイスキーの「対照」として選ぶ価値もある。同じスコットランドのウイスキーでも、アイラ産というだけで全く異なる個性が生まれることを実感できる。
+
+ブルイックラディックがクラシック・ラディでピートを使わないのは、単なる逆張りではなく、大麦の産地や品種による味の違いを表現したいという考えの現れだ。煙に隠れがちな麦の甘さと、海辺の蒸溜所らしいわずかな塩気をまっすぐ味わえる。
+
+## 島をひと回りする、5つの選択肢
+
+<figure class="photo photo--left">
+<img src="/images/islay/islay-map.png" alt="アイラ島の地図" width="888" height="1000" loading="lazy">
+<figcaption>アイラ島の地図。蒸溜所は南東岸・中央・北東・西に点在する<span class="credit">Map: Foxtrot1985 / <a href="https://commons.wikimedia.org/wiki/File:Islay_map-gd.svg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-この5つのウイスキーを飲み比べると、同じアイラ島でも場所によってピートの質が変わることが分かる。
+この5つのウイスキーを飲み比べると、同じアイラ島でも蒸溜所ごとに煙の出方がまるで違うことが分かる。
 
-ラフロイグとアードベッグは南岸の個性派。海の影響を受けたピートが、スモーキーさに塩辛さ・ヨード臭を混ぜる。ボウモアはど中央のバランス型で、ピート感と樽の甘さが共存。カオル・イーラは東岸の多面体で、スモークより柑橘香が気になる。そしてブルイックラディックは北岸から「あえてピートを使わない」という選択。
+ラフロイグとアードベッグは南東岸の個性派。強く焚いた麦芽が、スモーキーさに塩辛さ・ヨード臭を重ねる。ボウモアは中央のバランス型で、ピート感と樽の甘さが共存。カオル・イーラは北東の多面体で、スモークの奥の柑橘香が印象に残る。そしてブルイックラディックは西のリンズから「あえてピートを使わない」という選択。
 
-最初のアイラモルトをどれにするかは、この地質の違いを知ってから選ぶと、より深く楽しめる。「スモーキー」というひとことの奥に、島の自然が刻まれているのだ。
+最初のアイラモルトをどれにするかは、この違いを知ってから選ぶと、より深く楽しめる。「スモーキー」というひとことの奥に、蒸溜所ごとの考え方が刻まれているのだ。
 
 ## まとめ
 
@@ -166,4 +159,4 @@ draft: false
 | [Caol Ila 12年](https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22) | 3 | 3.5 | 4 | 4 | 4 |
 | [Bruichladdich Classic Laddie](https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22) | 0.5 | 4 | 4 | 3.5 | 4.5 |
 
-ピーティウイスキーは「煙臭い」という先入観で敬遠されることもあるが、アイラの地質が作る多様性を知ると、その奥深さが見える。南岸の個性か、中央のバランスか、北岸のクリーンさか——最初の一本を選ぶときは、この5つの選択肢の中から、自分の好みに合うタイプを探してみてはどうだろうか。
+ピーティウイスキーは「煙臭い」という先入観で敬遠されることもあるが、蒸溜所ごとの違いを知ると、その奥深さが見える。南東岸の個性か、中央のバランスか、北東の軽やかさか、西のクリーンさか——最初の一本を選ぶときは、この5つの選択肢の中から、自分の好みに合うタイプを探してみてはどうだろうか。

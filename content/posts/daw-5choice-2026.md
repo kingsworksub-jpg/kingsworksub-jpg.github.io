@@ -31,9 +31,9 @@ aliases:
 
 <figure class="photo photo--left">
 <a href="https://www.apple.com/jp/logic-pro/">
-<img src="/images/products/logic-pro.jpg" alt="Logic Pro" width="1440" height="900" loading="lazy">
+<img src="/images/products/logic-pro.jpg" alt="Logic Pro" width="1000" height="525" loading="lazy">
 </a>
-<figcaption>Logic Pro<span class="credit"><a href="https://www.apple.com/jp/logic-pro/">Amazonで見る →</a></span></figcaption>
+<figcaption>Logic Pro<span class="credit">Image: Apple / <a href="https://www.apple.com/jp/logic-pro/">公式サイトで見る →</a></span></figcaption>
 </figure>
 
 (Mac App Store専売のためAmazonでの取り扱いなし)
