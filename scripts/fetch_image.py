@@ -70,7 +70,7 @@ def photo_problem(im: Image.Image) -> str | None:
     rgb = im.convert("RGB")
     thumb = rgb.resize((64, 64))
     colors = len(set(thumb.get_flattened_data()))
-    if colors < 200:
+    if colors < 16:
         return f"色数が少なすぎる（{colors}色。単色・図形だけの画像の疑い）"
     return None
 

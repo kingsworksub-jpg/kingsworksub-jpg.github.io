@@ -2,8 +2,8 @@
 
     python scripts/check_live_page.py <slug> [--base https://kingsworksub-jpg.github.io] [--shot out.png]
 
-Checks every image in the article body actually loaded (naturalWidth > 0), and that every wrap-around
-figure image is wrapped in a link (Amazon associate link or official site). Saves a full-page screenshot
+Checks every image in the article body actually loaded (naturalWidth > 0), and that a post with Amazon
+links has product photos wrapped in Amazon associate links. Saves a full-page screenshot
 (default: $TMP/<slug>.png) so the page can also be inspected by eye. Exit 1 on any problem.
 """
 
@@ -50,8 +50,9 @@ def main():
                   + (f"  link={i['link'][:70]}" if i["link"] else ""))
             if not i["ok"]:
                 problems.append(f"画像が表示されない: {i['src']}")
-            if i["inFigure"] and not i["link"]:
-                problems.append(f"figure の画像がリンクで包まれていない: {i['src']}")
+        has_amazon = page.evaluate("() => !!document.querySelector('.post-content a[href*=\"amazon.co.jp\"]')")
+        if has_amazon and not any(i["inFigure"] and i["link"] and "amazon.co.jp" in i["link"] for i in imgs):
+            problems.append("Amazon の製品を扱う記事なのに、Amazon リンクで包まれた写真が1枚も無い")
         if not imgs:
             problems.append("本文に画像が1枚も無い")
         page.screenshot(path=shot, full_page=True)
