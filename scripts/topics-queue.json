@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T07:15:20+09:00",
+ "updated": "2026-10-04T07:22:57+09:00",
  "items": [
   {
    "category": "gear",
@@ -3762,10 +3762,11 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-068",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-04",
-   "retry": 0,
-   "claimed_at": "2026-10-04T07:15:20+09:00"
+   "retry": 1,
+   "claimed_at": "2026-10-04T07:15:20+09:00",
+   "last_error": "run did not publish (failed); cleaned up"
   },
   {
    "category": "drink",
