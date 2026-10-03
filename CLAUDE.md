@@ -229,6 +229,9 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | https://kinbro.hatenablog.com/entry/2026/10/01/092155 | 14945776032084553845 |
 | 5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー | https://kinbro.hatenablog.com/entry/2026/10/01/144357 | 14945776032084657450 |
 | ブラックフライデーの買い物計画は10月から始めたほうがいい | https://kinbro.hatenablog.com/entry/2026/10/02/164206 | 14945776032085112463 |
+| アイラの南北で変わる煙の色、5つのピート体験 | https://kinbro.hatenablog.com/entry/2026/10/03/132101 | 14945776032085501583 |
+| コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本 | https://kinbro.hatenablog.com/entry/2026/10/03/152106 | 14945776032085534809 |
+| Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ | https://kinbro.hatenablog.com/entry/2026/10/03/172301 | 14945776032085574083 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -310,6 +313,9 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | https://note.com/shining_finger01/n/n09c4734ae7b5 | `n09c4734ae7b5` | **公開済(2026-10-01)** |
 | 5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー | https://note.com/shining_finger01/n/nb2ef40ad13c4 | `nb2ef40ad13c4` | **公開済(2026-10-01)** |
 | ブラックフライデーの買い物計画は10月から始めたほうがいい | https://note.com/shining_finger01/n/n7083ae60e8fb | `n7083ae60e8fb` | **公開済(2026-10-02)** |
+| アイラの南北で変わる煙の色、5つのピート体験 | https://note.com/shining_finger01/n/nc416005d7ac6 | `nc416005d7ac6` | **公開済(2026-10-03)** |
+| コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本 | https://note.com/shining_finger01/n/nc6d45a823803 | `nc6d45a823803` | **公開済(2026-10-03)** |
+| Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ | https://note.com/shining_finger01/n/n9511f3aef6fa | `n9511f3aef6fa` | **公開済(2026-10-03)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
