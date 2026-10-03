@@ -571,12 +571,28 @@ def to_png(src_path):
     return dst
 
 
+def svg_to_png(page, src_path):
+    """SVG（レーダーチャート）をブラウザで描画して png にする。Pillow は SVG を読めない（2026-10-03）。"""
+    svg = open(src_path, encoding="utf-8").read()
+    dst = src_path + ".conv.png"
+    p2 = page.context.new_page()
+    try:
+        p2.set_viewport_size({"width": 1000, "height": 920})
+        p2.set_content('<html><body style="margin:0;background:#fff">'
+                       '<div id="c" style="width:1000px">' + svg.replace("<svg ", '<svg width="1000" ', 1) + "</div></body></html>")
+        p2.wait_for_timeout(300)
+        p2.locator("#c svg").screenshot(path=dst)
+    finally:
+        p2.close()
+    return dst
+
+
 def paste_image(page, url):
     """画像をクリップボード経由で貼り込む。失敗時は False。"""
     path = download(url)
     try:
         orig = path
-        conv = to_png(orig)
+        conv = svg_to_png(page, orig) if orig.lower().endswith(".svg") else to_png(orig)
         if conv:
             path = conv
             try:
