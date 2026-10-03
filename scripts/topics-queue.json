@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T13:15:25+09:00",
+ "updated": "2026-10-03T13:23:16+09:00",
  "items": [
   {
    "category": "gear",
@@ -1634,11 +1634,13 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-031",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 1,
    "claimed_at": "2026-10-03T13:15:25+09:00",
-   "last_error": "時間切れ。前のトピックの検証エラー対応に時間を費やしたため、このトピックの執筆に着手できず。"
+   "last_error": "時間切れ。前のトピックの検証エラー対応に時間を費やしたため、このトピックの執筆に着手できず。",
+   "slug": "islay-malt-5choice-2026",
+   "published_at": "2026-10-03T13:23:16+09:00"
   },
   {
    "category": "whisky",
