@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T21:37:14+09:00",
+ "updated": "2026-10-04T03:12:01+09:00",
  "items": [
   {
    "category": "gear",
@@ -3485,6 +3485,549 @@
    "id": "2026w40-064",
    "status": "approved",
    "created": "2026-10-01",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Novation Launchkey MK4、25鍵から88鍵まで揃ったレンジの選び方",
+   "angle": "2024年末に出たMK4レンジは2026年9月出荷の88鍵でようやく全7機種が揃った。16個のポリAT対応パッド・OLED・スケール/コードモードという共通の中身は変わらないまま、鍵数と重量だけが選択肢になっている。どの鍵数を机に置くかという視点で、宅録とライブ両方の使い手に向けて書く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Launchkey MK4 レビュー",
+    "Novation MIDIキーボード 選び方",
+    "Launchkey 88 MK4"
+   ],
+   "subjects": [
+    {
+     "name": "Novation Launchkey 49 MK4",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Novation Launchkey 88 MK4",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Novation Launchkey Mini 25 MK4",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://novationmusic.com/launchkey",
+    "https://musictech.com/news/gear/novation-launchkey-88-mk4/",
+    "https://synthanatomy.com/2026/07/novation-launchkey-mk4-updated-midi-keyboard-controllers.html",
+    "https://www.thomannmusic.com/novation_launchkey_49_mk4.htm"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Elektron_Analog_Four%2C_Novation_LaunchKey_Mini%2C_%26_iPad_-_My_setup_for_my_synthesizers-MIDI_talk.jpg/960px-Elektron_Analog_Four%2C_Novation_LaunchKey_Mini%2C_%26_iPad_-_My_setup_for_my_synthesizers-MIDI_talk.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Elektron_Analog_Four,_Novation_LaunchKey_Mini,_%26_iPad_-_My_setup_for_my_synthesizers-MIDI_talk.jpg",
+     "license": "CC BY 2.0",
+     "author": "Pete Brown from Gambrills, MD, USA"
+    },
+    {
+     "url": "https://live.staticflickr.com/7640/17153686472_d3f917df48_b.jpg",
+     "page": "https://www.flickr.com/photos/31308264@N00/17153686472",
+     "license": "CC BY 2.0",
+     "author": "yamagiwa2000"
+    },
+    {
+     "url": "https://live.staticflickr.com/65535/52045077645_55015e19f3_b.jpg",
+     "page": "https://www.flickr.com/photos/195473313@N05/52045077645",
+     "license": "CC BY-SA 2.0",
+     "author": "xtrgamr"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 16,
+    "season": 8,
+    "demand": 9,
+    "amazon": 10,
+    "total": 85
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-065",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "ヘッドホンの加水分解、イヤーパッドとヘッドバンドを自分で替える",
+   "angle": "合皮のベタつき・ひび割れは数年で必ず来る。オーディオテクニカが2026年10月にM50xシリーズ用の純正ヘッドバンド「HP-HBM50x」を2,750円で単品発売し、専用ドライバーと予備ネジ付きで素人でも交換できるようになった。買い替えではなく延命という選択肢を、分解の手順と部品の探し方で説明する。",
+   "article_type": "guide",
+   "keywords": [
+    "ヘッドホン 加水分解 対策",
+    "イヤーパッド 交換 方法",
+    "HP-HBM50x"
+   ],
+   "subjects": [
+    {
+     "name": "Audio-Technica HP-HBM50x 交換用ヘッドバンド",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Audio-Technica ATH-M50x",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.audio-technica.com/en-us/hp-hbm50x",
+    "https://www.phileweb.com/news/d-av/202609/30/66042.html",
+    "https://www.phileweb.com/review/article/202610/02/6687.html"
+   ],
+   "images": [
+    {
+     "url": "https://live.staticflickr.com/7825/32788112928_5c3e5df8c2_b.jpg",
+     "page": "https://www.flickr.com/photos/7940758@N07/32788112928",
+     "license": "CC BY 2.0",
+     "author": "MIKI Yoshihito"
+    },
+    {
+     "url": "https://live.staticflickr.com/4837/46662914191_41593b9d06_b.jpg",
+     "page": "https://www.flickr.com/photos/7940758@N07/46662914191",
+     "license": "CC BY 2.0",
+     "author": "MIKI Yoshihito"
+    },
+    {
+     "url": "https://live.staticflickr.com/7082/6858109242_56f53c7252_b.jpg",
+     "page": "https://www.flickr.com/photos/11018968@N00/6858109242",
+     "license": "CC BY 2.0",
+     "author": "Editor B"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 15,
+    "season": 10,
+    "demand": 9,
+    "amazon": 9,
+    "total": 86
+   },
+   "source_of_idea": "news",
+   "id": "2026w40-066",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "レコード針の寿命、針圧とカートリッジ交換という消耗品の話",
+   "angle": "ターンテーブル本体の記事は増えたが、針が消耗品だという話は抜けていた。1,000時間前後という寿命の目安、針圧が軽すぎても重すぎても減りが早まる理屈、MMとMCで交換のしかたが違うこと、ブラシ掛けで延ばせる範囲。盤を削らないための維持管理として書く。",
+   "article_type": "guide",
+   "keywords": [
+    "レコード針 寿命",
+    "針圧 調整 やり方",
+    "カートリッジ 交換 MM MC"
+   ],
+   "subjects": [
+    {
+     "name": "Ortofon 2M Red",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Audio-Technica VM95シリーズ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://ortofon.com/blogs/news/when-to-replace-the-stylus-of-your-phono-cartridge",
+    "https://ortofon.com/pages/wear-and-tear",
+    "https://pspatialaudio.com/stylus_wear.htm",
+    "https://recordplayerlab.com/turntable-cartridge-stylus-complete-guide/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Cartridge-stylus-mmc2.jpg/960px-Cartridge-stylus-mmc2.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Cartridge-stylus-mmc2.jpg",
+     "license": "CC BY 3.0",
+     "author": "Heje"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Dual_CS_617Q_-_ortofon_stylus_and_cartridge_%2810588723674%29.jpg/960px-Dual_CS_617Q_-_ortofon_stylus_and_cartridge_%2810588723674%29.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Dual_CS_617Q_-_ortofon_stylus_and_cartridge_(10588723674).jpg",
+     "license": "CC BY 2.0",
+     "author": "Jacques from Cape Town, South Africa"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ortofon_2M-Black_PNP_cartridge%2C_stylus_gauge%2C_Ortofon_Anniversary_white_book_%282%29.jpg/960px-Ortofon_2M-Black_PNP_cartridge%2C_stylus_gauge%2C_Ortofon_Anniversary_white_book_%282%29.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Ortofon_2M-Black_PNP_cartridge,_stylus_gauge,_Ortofon_Anniversary_white_book_(2).jpg",
+     "license": "CC0",
+     "author": "Audiotecna Musica"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 17,
+    "season": 7,
+    "demand": 8,
+    "amazon": 9,
+    "total": 81
+   },
+   "source_of_idea": "gap",
+   "id": "2026w40-067",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "シェリー樽のスコッチ5本比較、樽が持ち込む甘さの正体",
+   "angle": "同じ12年でも、オロロソかペドロヒメネスか、全量シェリー樽か二種併用かで味の出方が変わる。シェリー樽の供給が細って価格が上がっている今、1万円前後まででその違いを飲み比べられる5本を軸に、樽材・シーズニング・自然色という条件を整理する。",
+   "article_type": "comparison",
+   "keywords": [
+    "シェリー樽 ウイスキー おすすめ",
+    "オロロソ ペドロヒメネス 違い",
+    "グレンドロナック 12年"
+   ],
+   "subjects": [
+    {
+     "name": "ザ・グレンドロナック 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "アベラワー 12年 ダブルカスク",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "タムデュー 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "グレンファークラス 12年",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ザ・ダルモア 12年",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.glendronachdistillery.com/product/aged-12-years/",
+    "https://www.masterofmalt.com/whiskies/glendronach/the-glendronach-12-year-old-whisky/",
+    "https://www.diffordsguide.com/beer-wine-spirits/4206/aberlour-12-year-old-double-cask",
+    "https://www.scotch-whisky.org.uk/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/RAER_Oloroso_Expression_Blended_Scotch_Whisky.jpg/960px-RAER_Oloroso_Expression_Blended_Scotch_Whisky.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:RAER_Oloroso_Expression_Blended_Scotch_Whisky.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "WhiskyLass"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Whisky_Barrels_-_Jura_-_geograph.org.uk_-_828143.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Whisky_Barrels_-_Jura_-_geograph.org.uk_-_828143.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Steve Partridge"
+    },
+    {
+     "url": "https://live.staticflickr.com/8483/8272516676_9daace1af0_b.jpg",
+     "page": "https://www.flickr.com/photos/63415923@N00/8272516676",
+     "license": "CC BY 2.0",
+     "author": "andy_carter"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 17,
+    "season": 12,
+    "demand": 9,
+    "amazon": 10,
+    "total": 91
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-068",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "炭酸水メーカーで炭酸を作る、ガスの強さを自分で決める",
+   "angle": "市販の強炭酸水を飲み比べてきた側から見ると、自分で作る炭酸は「強さを選べる」点だけが決定的に違う。手動のTERRAと電動のE-TERRAで何が変わるか、シリンダー交換の費用、1リットルあたりの単価、ハイボールや割り材に回したときの使い勝手を数字で整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "炭酸水メーカー おすすめ",
+    "ソーダストリーム 比較",
+    "ソーダストリーム ランニングコスト"
+   ],
+   "subjects": [
+    {
+     "name": "ソーダストリーム TERRA",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ソーダストリーム E-TERRA",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.sodastream.jp/",
+    "https://kakakumag.com/seikatsu-kaden/?id=19642",
+    "https://www.watch.impress.co.jp/docs/series/itsmo/1420800.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/SodaStream_-_August_2018.jpg/960px-SodaStream_-_August_2018.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:SodaStream_-_August_2018.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Wikimedia Commons contributor"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/SodaStream_Crystal_2.0.jpg/960px-SodaStream_Crystal_2.0.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:SodaStream_Crystal_2.0.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Wassersprudler.de"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/SodaStream_and_bottle.jpg/960px-SodaStream_and_bottle.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:SodaStream_and_bottle.jpg",
+     "license": "CC BY 2.0",
+     "author": "Meaghan OMalley"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 15,
+    "season": 9,
+    "demand": 9,
+    "amazon": 10,
+    "total": 85
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-069",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "漆の盃で飲む、朱と黒が口当たりを変える木の器",
+   "angle": "ガラスと陶磁器と金属は扱ってきたが、漆はまだだった。木地に漆を重ねた盃は唇に当たる感触も熱の伝わり方も違い、江戸期の蒔絵の盃から現代の輪島塗まで形が続いている。塗りの工程、朱と黒の使い分け、漆器を酒に使うときの手入れという順で書く。",
+   "article_type": "theme",
+   "keywords": [
+    "漆 盃 酒器",
+    "輪島塗 盃",
+    "漆器 手入れ 酒"
+   ],
+   "subjects": [
+    {
+     "name": "輪島塗の盃",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "蒔絵の盃と盃台（江戸期）",
+     "status": "reference",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://wajimanuri.or.jp/",
+    "https://www.wajimanuri.co.jp/",
+    "https://www.taigadou.com/",
+    "https://kougeihin.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sake_cup_set%2C_Japan%2C_1700s_or_1800s_AD%2C_wood%2C_lacquer_-_Peabody_Essex_Museum_-_DSC07521.jpg/960px-Sake_cup_set%2C_Japan%2C_1700s_or_1800s_AD%2C_wood%2C_lacquer_-_Peabody_Essex_Museum_-_DSC07521.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Sake_cup_set,_Japan,_1700s_or_1800s_AD,_wood,_lacquer_-_Peabody_Essex_Museum_-_DSC07521.jpg",
+     "license": "Public domain",
+     "author": "Daderot"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sake_cup_and_stand_by_Nagata_Yuji%2C_Edo_period%2C_18th_century%2C_surging_wave_and_bird_design_in_maki-e_lacquer_and_mother-of-pearl_inlay_-_Tokyo_National_Museum_-_DSC05152.JPG/960px-thumbnail.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Sake_cup_and_stand_by_Nagata_Yuji,_Edo_period,_18th_century,_surging_wave_and_bird_design_in_maki-e_lacquer_and_mother-of-pearl_inlay_-_Tokyo_National_Museum_-_DSC05152.JPG",
+     "license": "Public domain",
+     "author": "Daderot"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Sake_cups_with_%22Three_Friends%22_design_MET_LC-TR_335_35a_e_2018_sr1-001.jpg/960px-Sake_cups_with_%22Three_Friends%22_design_MET_LC-TR_335_35a_e_2018_sr1-001.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Sake_cups_with_%22Three_Friends%22_design_MET_LC-TR_335_35a_e_2018_sr1-001.jpg",
+     "license": "CC0",
+     "author": "Shibata Zeshin"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 18,
+    "season": 13,
+    "demand": 7,
+    "amazon": 8,
+    "total": 88
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-070",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "革手袋は羊か鹿か、裏地で決まる冬の手元",
+   "angle": "手袋はサイズを測って買う数少ない革小物で、ラムスキンとディアスキンで伸び方も厚みも違う。カシミヤ裏とウール裏と裏なしで暖かさと指の動きがどう折り合うか、手囲いの測り方、甲の3本線（ポイント）という飾りの由来まで、コートと合わせる前提で整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "革手袋 メンズ 選び方",
+    "ラムスキン ディアスキン 違い",
+    "手袋 サイズ 測り方"
+   ],
+   "subjects": [
+    {
+     "name": "Dents のハンドソーン革手袋",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Randers Handsker の革手袋",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://us.dentsgloves.com/collections/mens-gloves",
+    "https://us.dentsgloves.com/products/men-s-handsewn-lambskin-gloves",
+    "https://rhanders.com/products/402161",
+    "https://www.overland.com/products/mens-dents-deerskin-leather-gloves-with-cashmere-lining-74504"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Two_pairs_of_mens_leather_gloves_from_Randers_Handsker.jpg/960px-Two_pairs_of_mens_leather_gloves_from_Randers_Handsker.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Two_pairs_of_mens_leather_gloves_from_Randers_Handsker.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Toxophilus"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Model_wearing_a_striped_shirt_and_a_black_leather_glove.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Model_wearing_a_striped_shirt_and_a_black_leather_glove.jpg",
+     "license": "CC BY 2.0",
+     "author": "Tony V"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Architect_Peter_Marino_-_Paris_Haute_Couture_Spring-Summer_2012.jpg/960px-Architect_Peter_Marino_-_Paris_Haute_Couture_Spring-Summer_2012.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Architect_Peter_Marino_-_Paris_Haute_Couture_Spring-Summer_2012.jpg",
+     "license": "CC BY 2.0",
+     "author": "Christopher Macsurak"
+    }
+   ],
+   "season": "秋冬",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 14,
+    "demand": 9,
+    "amazon": 10,
+    "total": 87
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w40-071",
+   "status": "approved",
+   "created": "2026-10-04",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "ハモンドB-3とレスリー、オルガンがジャズの主役になった日",
+   "angle": "教会用の代用楽器として売られた電気オルガンが、1956年以降のジミー・スミスによってベースと和音とソロを一人で担う楽器に変わった。トーンホイールとドローバー、回転するレスリーのスピーカー、左手でベースを踏むという編成の経済。楽器の仕組みから名盤へ降りていく順で書く。",
+   "article_type": "theme",
+   "keywords": [
+    "ジャズオルガン 名盤",
+    "ハモンドオルガン B-3 仕組み",
+    "ジミー・スミス Blue Note"
+   ],
+   "subjects": [
+    {
+     "name": "Jimmy Smith",
+     "status": "reference",
+     "amazon_asin": null
+    },
+    {
+     "name": "ハモンドB-3オルガン",
+     "status": "reference",
+     "amazon_asin": null
+    },
+    {
+     "name": "レスリースピーカー 122",
+     "status": "reference",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jimmy_Smith_(musician)",
+    "https://www.sfjazz.org/onthecorner/hammond-b3-organ-revival/",
+    "https://www.arts.gov/honors/jazz/jimmy-smith",
+    "https://en.wikipedia.org/wiki/The_Sermon_(Jimmy_Smith_album)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ed_Alstrom_at_the_Hammond_Organ.jpg/960px-Ed_Alstrom_at_the_Hammond_Organ.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Ed_Alstrom_at_the_Hammond_Organ.jpg",
+     "license": "CC0",
+     "author": "Edalstrom"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Grip_on_Hammond_C3_Organ_manual%2C_SJSF_2012.jpg/960px-Grip_on_Hammond_C3_Organ_manual%2C_SJSF_2012.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Grip_on_Hammond_C3_Organ_manual,_SJSF_2012.jpg",
+     "license": "CC BY 2.0",
+     "author": "Henry Zbyszynski"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Hammond_organ_insides_1.png/960px-Hammond_organ_insides_1.png",
+     "page": "https://commons.wikimedia.org/wiki/File:Hammond_organ_insides_1.png",
+     "license": "CC BY-SA 3.0",
+     "author": "Wikimedia Commons contributor"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 8,
+    "total": 85
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w40-072",
+   "status": "approved",
+   "created": "2026-10-04",
    "retry": 0
   }
  ]
