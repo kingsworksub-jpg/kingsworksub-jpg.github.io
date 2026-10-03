@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T03:12:01+09:00",
+ "updated": "2026-10-04T07:15:20+09:00",
  "items": [
   {
    "category": "gear",
@@ -3762,9 +3762,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-068",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-04T07:15:20+09:00"
   },
   {
    "category": "drink",
