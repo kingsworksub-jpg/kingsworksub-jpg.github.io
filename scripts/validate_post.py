@@ -10,9 +10,11 @@ placeholder images) never reaches GitHub Pages / Hatena / note.
 from __future__ import annotations
 
 import datetime as dt
+import io
 import json
 import os
 import re
+import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -112,6 +114,88 @@ def check(slug: str) -> list[str]:
     for a in re.findall(r'https://www\.amazon\.co\.jp/[^\s"\)]+', body):
         if "tag=nakimoto1-22" not in a:
             errs.append(f"Amazonリンクにアソシエイトタグが無い: {a[:60]}")
+    figs_src = [re.search(r'<img\s+src="([^"]+)"', f).group(1) for f in figs if re.search(r'<img\s+src="([^"]+)"', f)]
+    for dup in {x for x in figs_src if figs_src.count(x) > 1}:
+        errs.append(f"同じ画像を複数の figure で使い回している: {dup}")
+    if "amazon.co.jp" in body and figs and not any(re.search(r'<a\s+href="https://www\.amazon\.co\.jp/', f) for f in figs):
+        errs.append("Amazon で扱う製品の記事なのに、画像が Amazon アソシエイトリンクで包まれていない")
+    errs += check_images(slug, body)
+    return errs
+
+
+def _dhash(im) -> int:
+    g = im.convert("L").resize((9, 8))
+    px = list(g.get_flattened_data())
+    return sum(1 << i for i in range(64) if px[(i // 8) * 9 + i % 8] > px[(i // 8) * 9 + i % 8 + 1])
+
+
+def _added_long_ago(path: str) -> bool:
+    """True if the file has been in git for more than 2 days (an image reused from an older post)."""
+    out = subprocess.run(["git", "log", "--diff-filter=A", "--format=%ct", "--", path], cwd=ROOT,
+                         capture_output=True, text=True).stdout.split()
+    return bool(out) and (dt.datetime.now().timestamp() - int(out[-1])) > 2 * 86400
+
+
+def check_images(slug: str, body: str) -> list[str]:
+    """Every local image must be a real, decodable picture; new ones must trace back to their recorded source.
+
+    Images are fetched with scripts/fetch_image.py, which writes scripts/image-sources/<slug>.json. Here each
+    recorded image is downloaded again and compared (perceptual hash) with the saved file, so pictures drawn or
+    generated locally cannot pass. Radar charts must come from scripts/radar-chart.awk.
+    """
+    from PIL import Image, ImageFilter
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    from fetch_image import get, photo_problem
+
+    errs = []
+    sources = {}
+    src_dir = os.path.join(ROOT, "scripts", "image-sources")
+    if os.path.isdir(src_dir):
+        for fn in os.listdir(src_dir):
+            if fn.endswith(".json"):
+                sources.update(json.load(open(os.path.join(src_dir, fn), encoding="utf-8")))
+    refs = set(re.findall(r'(?:src="|\]\()(/images/[^"\)\s]+)', body))
+    for ref in sorted(refs):
+        path = os.path.join(ROOT, "static", ref.lstrip("/"))
+        if not os.path.exists(path):
+            errs.append(f"画像ファイルが無い: {ref}")
+            continue
+        if ref.lower().endswith(".svg"):
+            svg = open(path, encoding="utf-8", errors="replace").read()
+            if not ref.startswith("/images/radar/"):
+                errs.append(f"SVG はレーダーチャート（/images/radar/）以外に使わない: {ref}")
+            elif 'viewBox="0 0 500 460"' not in svg or svg.count("<polygon") < 6:
+                errs.append(f"レーダーチャートが scripts/radar-chart.awk で作られていない: {ref}")
+            continue
+        try:
+            im = Image.open(path)
+            im.load()
+        except Exception:
+            errs.append(f"画像として開けない（壊れたファイル）: {ref}")
+            continue
+        bad = photo_problem(im)
+        if not bad:
+            g = im.convert("L").resize((256, 256))
+            lap = g.filter(ImageFilter.Kernel((3, 3), [0, 1, 0, 1, -4, 1, 0, 1, 0], 1, 128))
+            tex = sum(1 for v in lap.get_flattened_data() if abs(v - 128) > 6) / 65536
+            if tex < 0.03:
+                bad = f"写真としての質感が無い（グラデーションや単色の疑い, {tex:.3f}）"
+        if bad:
+            errs.append(f"画像が実写・実画面ではない: {ref}（{bad}）")
+            continue
+        rec = sources.get(ref)
+        if not rec:
+            if not _added_long_ago(os.path.join("static", ref.lstrip("/"))):
+                errs.append(f"画像の出典記録が無い: {ref}（scripts/fetch_image.py で取得すること）")
+            continue
+        try:
+            orig = Image.open(io.BytesIO(get(rec["download"])))
+            orig.load()
+        except Exception as e:
+            errs.append(f"出典から画像を取得できない: {ref} ← {rec['download'][:80]}（{e}）")
+            continue
+        if bin(_dhash(orig) ^ _dhash(im)).count("1") > 10:
+            errs.append(f"保存した画像が出典の画像と一致しない: {ref}")
     return errs
 
 

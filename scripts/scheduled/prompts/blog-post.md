@@ -47,12 +47,22 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
 
 ## 5. 画像
 
-- ネタの `images` を出発点に、記事に合う画像を2〜5枚。**ダウンロード後に必ず中身を目で確認**し、無関係・低品質なら別の画像を探す
-  （`python scripts/topic_plan.py images "<検索語>"`）。非商用（NC）・改変禁止（ND）・Amazon の商品画像・図形だけの仮画像は使わない。
-- `static/images/<slug-短縮>/` に保存（幅400〜1000px程度）。
+- ネタの `images` を出発点に、記事に合う画像を2〜5枚（比較記事は製品ごとに1枚）。候補は `python scripts/topic_plan.py images "<検索語>"`。
+  非商用（NC）・改変禁止（ND）・Amazon の商品画像は使わない。
+- **画像は必ず `python scripts/fetch_image.py <slug> images/<slug-短縮>/<名前>.jpg "<File:Commonsのファイル名 か URL>"` で取得する**
+  （Commons 以外は `--page <出典ページ> --license <ライセンス> --author <作者>` を付ける）。出典が `scripts/image-sources/<slug>.json` に記録され、
+  validate_post.py が出典から取り直して同じ画像か照合する。出力の `credit` をそのまま `<span class="credit">` に使う。
+- **画像を自分で作らない**。Python（PIL 等）・SVG・awk などで絵・図形・グラデーション・ロゴ風画像・地図風画像を描いて代用することは禁止
+  （例外はレーダーチャートだけ。必ず `scripts/radar-chart.awk` で、記事に書いた点数から作る）。
+  2026-10-03 に、モデルが本物の画像を探しきれず、格子模様・白紙・乱数データの「画像」を作って公開する事故が起きた。
+- 取得した画像は**1枚ずつ Read で開いて目で確認**し、題材そのもの（その製品・その場所）が写っているかを確かめる。ファイル名と中身が違うことがある。
+- 実在の画像が2枚そろわない、製品の写真が見つからない場合は、**画像を作らずに** `python scripts/topic_plan.py fail <id> --reason "画像が見つからない"` で終了する。
 - 配置は CLAUDE.md の回り込みルール（`<figure class="photo photo--left|right">`、見出しの直後、左右交互、幅220、figcaption と credit 必須）。
   クレジットは必ず `<span class="credit">CC / Public domain / Image: / Photo: / 撮影: など の具体的なクレジット情報</span>` の形式で。
-- Amazon で扱いのある製品は、画像を `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む。
+- Amazon で扱いのある製品は、画像を `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む
+  （**画像をクリックするとその製品の Amazon ページが開くこと**。ASIN が分からなければ `https://www.amazon.co.jp/s?k=<製品名>&tag=nakimoto1-22`）。
+  Amazon に無いもの（無料ソフト等）は公式サイトへのリンクで包む。
+- 公開後、`curl` の 200 だけで済ませない。`python scripts/check_live_page.py <slug>` で実ブラウザ表示を確認する（画像が全部表示され、figure がリンク付きか）。
 
 ## 6. 仕上げと検査
 

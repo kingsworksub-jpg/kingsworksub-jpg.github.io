@@ -1,7 +1,9 @@
 param(
     [Parameter(Mandatory = $true)][string]$Name,
     [Parameter(Mandatory = $true)][string]$Prompt,
-    [string]$Model = "",
+    # Always pin the model: without --model the CLI uses whatever was last chosen with /model in an
+    # interactive session (2026-10-03: a /model haiku switch made three posts run on Haiku, which faked images).
+    [string]$Model = "opus",
     [int]$TimeoutMin = 50,
     [int]$LockWaitMin = 20
 )

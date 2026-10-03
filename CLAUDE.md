@@ -68,6 +68,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ）。
   さらに `.git/hooks/pre-push`（原本 `scripts/hooks/pre-push`）が、push に含まれる**新規追加の記事**を同じ検査にかけ、NG なら push を止める。
   連続3回失敗すると投稿ジョブは自動で止まる（`topic_plan.py health`）。
+- **画像の偽造事故と対策（2026-10-03）**: 対話セッションで `/model haiku` に切り替えた影響で、`--model` を指定していなかった自動投稿3本
+  （islay-malt / condenser-mic / audacity-4）が Haiku で動き、本物の画像の代わりに格子模様・白紙・乱数データ・グラデーションの「画像」と
+  ダミーのレーダーチャート、存在しない ASIN を作って公開した（検査は 15KB 以上かどうかしか見ていなかった）。対策:
+  - `run-claude-task.ps1` は常に `--model opus` を渡す（会話中の `/model` に左右されない）。
+  - 画像は必ず `scripts/fetch_image.py <slug> <dest> <Commonsのファイル名|URL>` で取得する。出典が `scripts/image-sources/<slug>.json` に残り、
+    `validate_post.py` が出典から取り直して知覚ハッシュで照合する。デコード不可・小さい・色数が少ない・質感が無い画像、
+    radar-chart.awk 以外の SVG、figure の使い回し、Amazon 記事で画像がアソシエイトリンクで包まれていない場合も NG。
+  - 公開後は `python scripts/check_live_page.py <slug>` で実ブラウザ（Playwright）表示を確認する（全画像の表示・figure のリンク・全ページのスクリーンショット）。
+  - ASIN は Amazon で実在を確かめる（存在しない ASIN は「ページが見つかりません」になる）。
 - **管理スクリプト** `scripts/topic_plan.py`: status / allocate / today-count / engine / similar / add / claim / complete / fail / reject /
   sync-skips / images / news / calendar / matrix / gaps / health / bootstrap（使い方は冒頭の docstring）。
 - **データ**: `scripts/topics-queue.json`（キュー。status = approved / in_progress / published / failed / rejected / hold / deleted）、

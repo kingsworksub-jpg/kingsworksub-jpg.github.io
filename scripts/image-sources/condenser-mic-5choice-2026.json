@@ -1,0 +1,37 @@
+{
+ "/images/condenser-mic/at2020.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Audio-technica_AT2020.JPG/1280px-Audio-technica_AT2020.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Audio-technica_AT2020.JPG",
+  "license": "CC BY-SA 4.0",
+  "author": "Lokal_Profil",
+  "title": "File:Audio-technica AT2020.JPG"
+ },
+ "/images/condenser-mic/rode-nt1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Rode_NT1-A_Diaphragm.jpg/1280px-Rode_NT1-A_Diaphragm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Rode_NT1-A_Diaphragm.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "ElooKoN",
+  "title": "File:Rode NT1-A Diaphragm.jpg"
+ },
+ "/images/condenser-mic/akg-c214.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/AKG_C214_condenser_microphone_with_H85_shock_mount.jpg/1280px-AKG_C214_condenser_microphone_with_H85_shock_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Lucasbosch",
+  "title": "File:AKG C214 condenser microphone with H85 shock mount.jpg"
+ },
+ "/images/condenser-mic/neumann-tlm102.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Neumann_TLM_102ni.jpg/1280px-Neumann_TLM_102ni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Neumann_TLM_102ni.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Alice Wiegand",
+  "title": "File:Neumann TLM 102ni.jpg"
+ },
+ "/images/condenser-mic/aston-origin.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Aston_Origin_large_diaphragm_condenser_microphone.jpg/1280px-Aston_Origin_large_diaphragm_condenser_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Bizzarle",
+  "title": "File:Aston Origin large diaphragm condenser microphone.jpg"
+ }
+}
