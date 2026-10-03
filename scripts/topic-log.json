@@ -901,6 +901,18 @@
    "reason": "run did not publish (finished); cleaned up",
    "engine": "claude",
    "at": "2026-10-02T21:21:58+09:00"
+  },
+  {
+   "id": "2026w40-031",
+   "category": "whisky",
+   "theme": "アイラモルト入門、同じ島でも煙の出方が違う",
+   "slug": "islay-malt-5choice-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/islay-malt-5choice-2026/",
+   "hatena_entry": "14945776032085501583",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-03T13:23:16+09:00"
   }
  ]
 }
