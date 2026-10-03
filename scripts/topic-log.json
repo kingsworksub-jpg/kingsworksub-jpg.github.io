@@ -925,6 +925,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-03T15:22:11+09:00"
+  },
+  {
+   "id": "2026w40-012",
+   "category": "software",
+   "theme": "Audacity 4、無料の波形編集ソフトが見た目から作り直された",
+   "slug": "audacity-4-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/audacity-4-guide-2026/",
+   "hatena_entry": "14945776032085574083",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-03T17:25:28+09:00"
   }
  ]
 }
