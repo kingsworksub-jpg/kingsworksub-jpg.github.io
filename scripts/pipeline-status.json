@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T04:00:02+09:00",
+ "updated": "2026-10-04T04:00:29+09:00",
  "queue": {
   "approved": 64,
   "published": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published home-studio-100k-budget-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-04T04:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-planning",
-  "label": "ネタ会議",
   "state": "finished",
-  "at": "2026-10-04T03:12:32+09:00",
+  "at": "2026-10-04T04:00:29+09:00",
   "engine": "claude",
-  "detail": "採用分はニュース起点（オーディオテクニカ HP-HBM50x の10月発売、Launchkey 88 MK4 の9月出荷）と gap 起点（レコード針・カートリッジ）を混ぜてあり、各候補に実在確認済みの出典3〜4件と CC/PD 画像3件を付けてある。ASIN は捏造防止のためすべて `null` にし、執筆時に実物確認させる形にした。コミット `6b44060` を push 済み。"
+  "detail": "- キューの `approved` = **64 件**（topup の閾値 16 件以上）→ 補充せず終了。作業ツリーはクリーンなので commit / push もなし。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-04T04:00:29+09:00",
+   "engine": "claude",
+   "detail": "- キューの `approved` = **64 件**（topup の閾値 16 件以上）→ 補充せず終了。作業ツリーはクリーンなので commit / push もなし。"
+  },
   {
    "job": "topic-planning",
    "label": "ネタ会議",
@@ -97,14 +100,6 @@
    "at": "2026-10-03T07:15:27+09:00",
    "engine": "claude",
    "detail": "Health status が 4 のため、連続失敗による停止状態です。`topic_plan.py health-reset --reason ...` で解除後に再開してください。"
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-10-03T04:00:29+09:00",
-   "engine": "claude",
-   "detail": "Status check complete: **approved queue has 61 items** (threshold is 16 for topup mode). No additional topics need to be generated at this time."
   }
  ]
 }
