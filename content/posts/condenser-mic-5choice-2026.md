@@ -34,20 +34,20 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/condenser-mic/at2020.jpg" alt="Audio-Technica AT2020" width="220" height="280" loading="lazy">
+<img src="/images/condenser-mic/at2020.jpg" alt="Audio-Technica AT2020" width="1000" height="1000" loading="lazy">
 </a>
-<figcaption>Audio-Technica AT2020<span class="credit">Photo: Lokal_Profil / <a href="https://commons.wikimedia.org/wiki/File:Audio-technica_AT2020.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+<figcaption>Audio-Technica AT2020<span class="credit">Image: Audio-Technica / <a href="https://www.audio-technica.co.jp/product/AT2020" target="_blank" rel="noopener">公式サイト</a></span></figcaption>
 </figure>
-
-![Audio-Technica AT2020 レーダーチャート](/images/radar/at2020.svg)
-
-- セットアップ 4 / 操作性 4 / マイク立ち上げ 5 / 拡張性 3 / 耐久性 4
 
 AT2020 は宅録の入門機として、ここ20年不動の位置にある。単一指向性（カーディオイド）で、スピーカーやバウンスした音を拾いにくく、ボーカル録音に適している。48V ファントム電源が必須だが、ほぼすべてのオーディオインターフェイスが対応しているため、セットアップの手間は最小限だ。
 
 周波数特性は 20Hz 〜 20kHz で標準的。インピーダンス 100Ω という低インピーダンス設計のため、長いマイクケーブルでも扱いやすい。付属するのはスタンドマウントだけなので、ショックマウントやポップフィルターは必要に応じて買い足すことになるが、それを含めても5本の中でいちばん手頃に始められる。
 
 音は明るくクリアで、ボーカルが前に出てくる。構造がシンプルで壊れにくく、長く使える一本だと思う。
+
+![Audio-Technica AT2020 レーダーチャート](/images/radar/at2020.svg)
+
+- セットアップ 4 / 操作性 4 / マイク立ち上げ 5 / 拡張性 3 / 耐久性 4
 
 ### RODE NT1 5th Generation — ノイズフロアの低さが利点
 
@@ -58,10 +58,6 @@ AT2020 は宅録の入門機として、ここ20年不動の位置にある。�
 <figcaption>RODE NT1-A の振動板（NT1 シリーズの旧モデル）<span class="credit">Photo: ElooKoN / <a href="https://commons.wikimedia.org/wiki/File:Rode_NT1-A_Diaphragm.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-![RODE NT1 5th Generation レーダーチャート](/images/radar/rode-nt1.svg)
-
-- セットアップ 4 / 操作性 3 / マイク立ち上げ 5 / 拡張性 4 / 耐久性 4
-
 RODE NT1 5th Generation は、2023 年 2 月に発表された NT1 の最新世代だ。単一指向性のカーディオイドで、AT2020 と用途は似ているが、**ノイズフロアの低さ**に加えて、XLR と USB-C の両方で接続できる点が大きな違いになる。
 
 セルフノイズは 4dB(A) と非常に低く、アコースティック楽器や小さな声のナレーションで有利になる。USB-C で直接パソコンにつなぐと 32bit float で録音でき、入力が大きすぎて音が割れる心配をほぼしなくて済む。XLR で使うときは 48V ファントム電源が必要だ。
@@ -69,6 +65,10 @@ RODE NT1 5th Generation は、2023 年 2 月に発表された NT1 の最新世�
 付属品が充実しており、ポップフィルター一体型のショックマウント、XLR ケーブル、USB-C ケーブルがそろっている。そのため、初期投資はほぼマイク本体の価格に集約される。AT2020 より価格は上がるが、アクセサリ込みで考えるとコスパは高い。
 
 RODE はマイク修理の対応が手厚く、不具合があった場合のサポート体制も整っている。セルフノイズを重視する制作スタイルなら、AT2020 より一段上の選択肢だ。
+
+![RODE NT1 5th Generation レーダーチャート](/images/radar/rode-nt1.svg)
+
+- セットアップ 4 / 操作性 3 / マイク立ち上げ 5 / 拡張性 4 / 耐久性 4
 
 ### AKG C214 — 周波数バランスの優等生
 
@@ -79,10 +79,6 @@ RODE はマイク修理の対応が手厚く、不具合があった場合のサ
 <figcaption>AKG C214（H85 ショックマウント付き）<span class="credit">Photo: Lucasbosch / <a href="https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
-![AKG C214 レーダーチャート](/images/radar/akg-c214.svg)
-
-- セットアップ 3 / 操作性 3 / マイク立ち上げ 4 / 拡張性 4 / 耐久性 5
-
 AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モデル。周波数特性は 20Hz 〜 20kHz で、中高域にほどよい張りがあり、ボーカルが前に出てくる。全金属のダイキャストボディで、スタジオでの酷使を前提にした作りだ。
 
 48V ファントム電源対応。インピーダンス 200Ω。H85 ショックマウント、ウインドスクリーン、金属ケースが付属するので、ポップフィルター以外はすぐにそろう。
@@ -90,6 +86,10 @@ AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モ�
 本体には 20dB の PAD と 160Hz のローカットスイッチがあり、ギターアンプやドラムのような大音量の近接録音にも対応できる。そのぶん設定項目はやや増えるが、耐久性とマイク本体の信頼性は群を抜いている。
 
 ボーカル録音の品質を重視し、楽器の録音にも使い回したい層向けだ。
+
+![AKG C214 レーダーチャート](/images/radar/akg-c214.svg)
+
+- セットアップ 3 / 操作性 3 / マイク立ち上げ 4 / 拡張性 4 / 耐久性 5
 
 ### Neumann TLM 102 — 透明感の高級機
 
@@ -100,10 +100,6 @@ AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モ�
 <figcaption>Neumann TLM 102（リフレクションフィルターと組み合わせた例）<span class="credit">Photo: Alice Wiegand / <a href="https://commons.wikimedia.org/wiki/File:Neumann_TLM_102ni.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
-![Neumann TLM 102 レーダーチャート](/images/radar/neumann-tlm102.svg)
-
-- セットアップ 3 / 操作性 2 / マイク立ち上げ 3 / 拡張性 5 / 耐久性 5
-
 Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ごろ」なモデルだが、実際には高級機の部類だ。単一指向性のカーディオイドで、周波数特性は 20Hz 〜 20kHz。特筆すべきは、**非常にニュートラルで透明感のある音質**である。
 
 48V ファントム電源対応。インピーダンス 50Ω。本体には PAD やフィルターのスイッチが一切なく、単一指向性だけというシンプルな構成だ。調整はすべてオーディオインターフェイス側で行うことになるが、そのぶん余計な迷いがなく、6kHz より上にある穏やかな持ち上がりがボーカルをすっきり浮かび上がらせる。
@@ -111,6 +107,10 @@ Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ご�
 単体ではスタンドマウントのみの付属だが、Neumann 純正のショックマウント EA 4 などのアクセサリが用意されている。修理・メンテナンスのサポートも手厚く、長く使い続けるプロエンジニアが多い。
 
 価格は5本の中で最も高く、AT2020 の数倍になる。その差は音質の透明感と、長年使える信頼性に集約されている。
+
+![Neumann TLM 102 レーダーチャート](/images/radar/neumann-tlm102.svg)
+
+- セットアップ 3 / 操作性 2 / マイク立ち上げ 3 / 拡張性 5 / 耐久性 5
 
 ### Aston Origin — オールインワン設計の異色機
 
@@ -121,10 +121,6 @@ Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ご�
 <figcaption>Aston Origin とポップフィルター<span class="credit">Photo: Bizzarle / <a href="https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-![Aston Origin レーダーチャート](/images/radar/aston-origin.svg)
-
-- セットアップ 5 / 操作性 4 / マイク立ち上げ 5 / 拡張性 2 / 耐久性 4
-
 Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に発売したモデル。**最大の特徴は、マイク本体に内蔵されたポップフィルターだ**。波形のようなヘッドの内側にメッシュが仕込まれていて、別途ポップフィルターを用意しなくても破裂音を抑えられる。
 
 単一指向性のカーディオイドで、周波数特性は 20Hz 〜 20kHz。ボーカルが突き抜けすぎず、まろやかに録音される傾向がある。48V ファントム電源対応。マイク本体には PAD（−10dB 減衰スイッチ）と FILTER（80Hz ハイパスフィルター）が搭載されており、ゲイン調整と低域カット処理ができる。
@@ -134,6 +130,10 @@ Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に
 ただし、指向性はカーディオイドのみで、ボーカルやナレーション向けに音作りされている。楽器の録音やステレオ収録まで1本で広くこなすという意味での**拡張性は低め**だ。価格は AT2020 と TLM 102 の中間あたり。
 
 内蔵ポップフィルターが活躍するのは、声を録る場面。ボーカルやスピーチ中心の制作に限定されるなら、Aston Origin は非常に使いやすい。一方、楽器マイキングやマルチマイク運用まで想定するなら、PAD やローカットに加えて付属品も充実した C214 のような機種が向いている。
+
+![Aston Origin レーダーチャート](/images/radar/aston-origin.svg)
+
+- セットアップ 5 / 操作性 4 / マイク立ち上げ 5 / 拡張性 2 / 耐久性 4
 
 ## まとめ
 
