@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T19:34:25+09:00",
+ "updated": "2026-10-03T21:15:21+09:00",
  "items": [
   {
    "category": "gear",
@@ -837,10 +837,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-015",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
    "retry": 1,
-   "claimed_at": "2026-10-02T13:28:49+09:00",
+   "claimed_at": "2026-10-03T21:15:21+09:00",
    "last_error": "fallback Claude Code hit its usage limit; big-pickle 15:15 run reported success without publishing"
   },
   {
