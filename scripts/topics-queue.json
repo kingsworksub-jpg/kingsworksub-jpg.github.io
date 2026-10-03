@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T17:25:28+09:00",
+ "updated": "2026-10-03T19:15:26+09:00",
  "items": [
   {
    "category": "gear",
@@ -1310,9 +1310,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-025",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-03T19:15:26+09:00"
   },
   {
    "category": "learning",
