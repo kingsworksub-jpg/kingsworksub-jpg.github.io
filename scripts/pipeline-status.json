@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T03:12:01+09:00",
+ "updated": "2026-10-04T03:12:32+09:00",
  "queue": {
   "approved": 64,
   "published": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published home-studio-100k-budget-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-planning",
   "label": "ネタ会議",
-  "since": "2026-10-04T03:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-03T21:37:50+09:00",
+  "at": "2026-10-04T03:12:32+09:00",
   "engine": "claude",
-  "detail": "Research covered 50+ sites across two parallel agents (gear pricing/current-model status, and small-room acoustics). Two facts worth flagging since they shaped the article: Steinberg's UR22C moved to the Yamaha brand as **URX22C** in October 2025 (Steinberg is now software-only), and Rode's NT1-A ha"
+  "detail": "採用分はニュース起点（オーディオテクニカ HP-HBM50x の10月発売、Launchkey 88 MK4 の9月出荷）と gap 起点（レコード針・カートリッジ）を混ぜてあり、各候補に実在確認済みの出典3〜4件と CC/PD 画像3件を付けてある。ASIN は捏造防止のためすべて `null` にし、執筆時に実物確認させる形にした。コミット `6b44060` を push 済み。"
  },
  "recent_runs": [
+  {
+   "job": "topic-planning",
+   "label": "ネタ会議",
+   "state": "finished",
+   "at": "2026-10-04T03:12:32+09:00",
+   "engine": "claude",
+   "detail": "採用分はニュース起点（オーディオテクニカ HP-HBM50x の10月発売、Launchkey 88 MK4 の9月出荷）と gap 起点（レコード針・カートリッジ）を混ぜてあり、各候補に実在確認済みの出典3〜4件と CC/PD 画像3件を付けてある。ASIN は捏造防止のためすべて `null` にし、執筆時に実物確認させる形にした。コミット `6b44060` を push 済み。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-03T04:00:29+09:00",
    "engine": "claude",
    "detail": "Status check complete: **approved queue has 61 items** (threshold is 16 for topup mode). No additional topics need to be generated at this time."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-02T21:22:02+09:00",
-   "engine": "claude",
-   "detail": "The image credit validation issue appears to be a mismatch between the markdown figcaption format and what the validation script expects. This should be investigated before the next run."
   }
  ]
 }
