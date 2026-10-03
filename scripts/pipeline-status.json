@@ -1,17 +1,22 @@
 {
- "updated": "2026-10-03T21:37:50+09:00",
+ "updated": "2026-10-04T03:00:02+09:00",
  "queue": {
   "approved": 56,
   "published": 7,
   "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 0,
  "daily_limit": 8,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published home-studio-100k-budget-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "topic-planning",
+  "label": "ネタ会議",
+  "since": "2026-10-04T03:00:02+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
