@@ -233,6 +233,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本 | https://kinbro.hatenablog.com/entry/2026/10/03/152106 | 14945776032085534809 |
 | Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ | https://kinbro.hatenablog.com/entry/2026/10/03/172301 | 14945776032085574083 |
 | ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方 | https://kinbro.hatenablog.com/entry/2026/10/03/192950 | 14945776032085623091 |
+| 6畳10万円の宅録、買う順番を決めるとマイクは3番目になる | https://kinbro.hatenablog.com/entry/2026/10/03/213122 | 14945776032085666324 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -318,6 +319,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本 | https://note.com/shining_finger01/n/nc6d45a823803 | `nc6d45a823803` | **公開済(2026-10-03)** |
 | Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ | https://note.com/shining_finger01/n/n9511f3aef6fa | `n9511f3aef6fa` | **公開済(2026-10-03)** |
 | ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方 | https://note.com/shining_finger01/n/n506db017a9b9 | `n506db017a9b9` | **公開済(2026-10-03)** |
+| 6畳10万円の宅録、買う順番を決めるとマイクは3番目になる | https://note.com/shining_finger01/n/n39143518033a | `n39143518033a` | **公開済(2026-10-03)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
