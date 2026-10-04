@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T11:15:12+09:00",
+ "updated": "2026-10-05T01:05:08+09:00",
  "items": [
   {
    "category": "gear",
@@ -3762,11 +3762,13 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-068",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-04",
    "retry": 2,
    "claimed_at": "2026-10-05T00:50:35+09:00",
-   "last_error": "manual re-run after session-limit failures on 2026-10-04"
+   "last_error": "manual re-run after session-limit failures on 2026-10-04",
+   "slug": "sherry-cask-5choice-2026",
+   "published_at": "2026-10-05T01:05:08+09:00"
   },
   {
    "category": "drink",
