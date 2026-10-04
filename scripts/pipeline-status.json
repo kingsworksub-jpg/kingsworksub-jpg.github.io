@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T04:00:04+09:00",
+ "updated": "2026-10-05T04:00:39+09:00",
  "queue": {
   "approved": 63,
   "published": 8,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published sherry-cask-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-05T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-04T13:15:12+09:00",
+  "state": "finished",
+  "at": "2026-10-05T04:00:39+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 2:10pm (Asia/Tokyo)"
+  "detail": "- `sync-skips` = 0件（アプリからの削除なし）、`ingest-requests` = 0件（アプリからのネタ追加なし）。キューに変更が無いため commit / push は行っていない（作業ツリーの未追跡ファイルは Android のビルド生成物のみで、対象外）。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-05T04:00:39+09:00",
+   "engine": "claude",
+   "detail": "- `sync-skips` = 0件（アプリからの削除なし）、`ingest-requests` = 0件（アプリからのネタ追加なし）。キューに変更が無いため commit / push は行っていない（作業ツリーの未追跡ファイルは Android のビルド生成物のみで、対象外）。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-03T17:25:51+09:00",
    "engine": "claude",
    "detail": "記事「Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ」を公開しました。Qt フレームワークへの全面移行、クリップベース編集への転換、リアルタイムエフェクト対応など、2026年9月の大改装について、ユーザーの実用的な利用用途ごとにガイドを構成しました。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-03T15:22:23+09:00",
-   "engine": "claude",
-   "detail": "**本文**: 約5,400字、見出し10以上、図表2点"
   }
  ]
 }
