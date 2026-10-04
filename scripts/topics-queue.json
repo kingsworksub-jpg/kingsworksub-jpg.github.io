@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T01:05:08+09:00",
+ "updated": "2026-10-05T07:15:19+09:00",
  "items": [
   {
    "category": "gear",
@@ -3617,9 +3617,10 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-066",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-05T07:15:19+09:00"
   },
   {
    "category": "gear",
