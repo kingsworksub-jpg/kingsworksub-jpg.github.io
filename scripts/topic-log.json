@@ -970,6 +970,15 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-04T07:22:57+09:00"
+  },
+  {
+   "id": "2026w40-068",
+   "category": "whisky",
+   "theme": "シェリー樽のスコッチ5本比較、樽が持ち込む甘さの正体",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-04T11:15:12+09:00"
   }
  ]
 }
