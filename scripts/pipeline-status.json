@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T07:35:13+09:00",
+ "updated": "2026-10-05T07:35:49+09:00",
  "queue": {
   "approved": 62,
   "published": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published headphone-hydrolysis-parts",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-05T07:15:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-05T04:00:39+09:00",
+  "at": "2026-10-05T07:35:49+09:00",
   "engine": "claude",
-  "detail": "- `sync-skips` = 0件（アプリからの削除なし）、`ingest-requests` = 0件（アプリからのネタ追加なし）。キューに変更が無いため commit / push は行っていない（作業ツリーの未追跡ファイルは Android のビルド生成物のみで、対象外）。"
+  "detail": "- `validate_post.py` passed first run; `check_live_page.py` confirms all four figures render at 220px with the float layout and correct links."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-05T07:35:49+09:00",
+   "engine": "claude",
+   "detail": "- `validate_post.py` passed first run; `check_live_page.py` confirms all four figures render at 220px with the float layout and correct links."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-03T19:35:14+09:00",
    "engine": "claude",
    "detail": "- **Amazon リンクは付けていません**。紹介対象が書籍で、記事の画像は演奏風景の CC 写真のため、「Amazon リンクを使うなら figure のどれかをアソシエイトリンクで包む」という検査条件を満たそうとすると、写真と無関係な商品ページへ飛ぶ誤解を招くリンクになります。そこで既存のジャズ系記事（`modern-spiritual-jazz-2026` 等）と同じく Amazon リンクなしとし、書籍は講談社・新潮社・みすず書房の公式ページへのリンクにしました。書籍のアフィリエイトを優先したい場合は、表紙画像を使える形を別途決める必要があります。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-03T17:25:51+09:00",
-   "engine": "claude",
-   "detail": "記事「Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ」を公開しました。Qt フレームワークへの全面移行、クリップベース編集への転換、リアルタイムエフェクト対応など、2026年9月の大改装について、ユーザーの実用的な利用用途ごとにガイドを構成しました。"
   }
  ]
 }
