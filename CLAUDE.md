@@ -60,6 +60,9 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
 - **実行エンジン**: すべて Claude Code（`run-claude-task.ps1`）。big-pickle との日替わりは 2026-10-02 に廃止（上記「記事生成モデルの方針」）。
+- **Web 検索はサブエージェント（Haiku 4.5）に限定（2026-10-05、ユーザー指示）**: 投稿・ネタ会議とも、Web 検索は必ず Agent（general-purpose、`model: "haiku"`）に任せ、
+  メイン（opus）は WebSearch / WebFetch を直接呼ばない。調査量は**5サイト以上**（旧10サイト）。サブエージェントは調査のみで、ファイル・画像・ASIN には触らせない
+  （2026-10-03 の Haiku による画像偽造事故の再発防止）。指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`。
 - **失敗した回の後片付け（2026-10-02）**: 投稿の回で記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録 のいずれかなら、
   `run-claude-task.ps1` が `topic_plan.py recover` を実行する（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）。
   連続失敗で止まったときは、原因に対処してから `topic_plan.py health-reset --reason ...` で解除する。指定のネタを優先したいときは queue の項目に `"pinned": true`。
