@@ -31,7 +31,9 @@ Windows タスクスケジューラから無人で起動されている。人間
 - `python scripts/topic_plan.py calendar` … 今月と来月の季節・行事
 - `python scripts/topic_plan.py gaps` … 既存記事のすき間（単独記事の無い製品など）
 - `python scripts/topic_plan.py matrix <category>` … 定番テーマの軸（ネタ切れ防止）
-- 必要に応じて Web 検索で、新製品・新作・トレンドが**実在し、現在の情報か**を確かめる。
+- 必要に応じて Web 検索で、新製品・新作・トレンドが**実在し、現在の情報か**を確かめる。Web 検索は**必ずサブエージェントに任せる**
+  （Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"` で起動。自分では WebSearch / WebFetch を呼ばない）。
+  1件あたり5サイトまでを目安にし、確かめた事実を出典URL付きで返してもらう。
 
 ## 4. 候補の作成
 
