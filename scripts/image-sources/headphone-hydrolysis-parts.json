@@ -1,0 +1,30 @@
+{
+ "/images/hp-hydro/ath-m50x.jpg": {
+  "download": "https://live.staticflickr.com/746/22330935543_6308c572c4_b.jpg",
+  "page": "https://www.flickr.com/photos/61676142@N00/22330935543",
+  "license": "CC BY 2.0",
+  "author": "Jose C Silva",
+  "title": ""
+ },
+ "/images/hp-hydro/custom-earpads.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Audio-Technica_Headphones_%28Custom_Earpads%29.jpg/1280px-Audio-Technica_Headphones_%28Custom_Earpads%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Audio-Technica_Headphones_(Custom_Earpads).jpg",
+  "license": "CC0",
+  "author": "P0lykey",
+  "title": "File:Audio-Technica Headphones (Custom Earpads).jpg"
+ },
+ "/images/hp-hydro/diy-repair.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beats_headphones_diy_repair.jpg/1280px-Beats_headphones_diy_repair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Beats_headphones_diy_repair.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Bait30",
+  "title": "File:Beats headphones diy repair.jpg"
+ },
+ "/images/hp-hydro/home-studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/The_Podcave_home_studio_update_%28179160280%29.jpg/1280px-The_Podcave_home_studio_update_%28179160280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Podcave_home_studio_update_(179160280).jpg",
+  "license": "CC BY 2.0",
+  "author": "Tim Wilson",
+  "title": "File:The Podcave home studio update (179160280).jpg"
+ }
+}
