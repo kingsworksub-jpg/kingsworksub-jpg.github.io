@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T07:15:19+09:00",
+ "updated": "2026-10-05T07:35:13+09:00",
  "items": [
   {
    "category": "gear",
@@ -3617,10 +3617,12 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-066",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-04",
    "retry": 0,
-   "claimed_at": "2026-10-05T07:15:19+09:00"
+   "claimed_at": "2026-10-05T07:15:19+09:00",
+   "slug": "headphone-hydrolysis-parts",
+   "published_at": "2026-10-05T07:35:13+09:00"
   },
   {
    "category": "gear",
