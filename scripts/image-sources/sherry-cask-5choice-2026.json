@@ -1,0 +1,51 @@
+{
+ "/images/sherry-cask/jerez-bodega.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bodega_Gonzalez-_Byas_Jerez_de_la_Frontera.JPG/1280px-Bodega_Gonzalez-_Byas_Jerez_de_la_Frontera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Bodega_Gonzalez-_Byas_Jerez_de_la_Frontera.JPG",
+  "license": "CC BY-SA 3.0",
+  "author": "Michimaya",
+  "title": "File:Bodega Gonzalez- Byas Jerez de la Frontera.JPG"
+ },
+ "/images/sherry-cask/px-vineyard.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/21.Moriles_Vi%C3%B1as_de_Pedro_Xim%C3%A9nez.JPG/1280px-21.Moriles_Vi%C3%B1as_de_Pedro_Xim%C3%A9nez.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:21.Moriles_Vi%C3%B1as_de_Pedro_Xim%C3%A9nez.JPG",
+  "license": "CC BY-SA 4.0",
+  "author": "Juan R. Lascorz",
+  "title": "File:21.Moriles Viñas de Pedro Ximénez.JPG"
+ },
+ "/images/sherry-cask/glendronach.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruou_whisky_glendronach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ruou_whisky_glendronach.jpg",
+  "license": "CC BY 3.0",
+  "author": "Thanhtour (thảo luận)",
+  "title": "File:Ruou whisky glendronach.jpg"
+ },
+ "/images/sherry-cask/tamdhu-casks.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Casks%2C_Tamdhu_Distillery_-_geograph.org.uk_-_6633224.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Casks,_Tamdhu_Distillery_-_geograph.org.uk_-_6633224.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Richard Webb",
+  "title": "File:Casks, Tamdhu Distillery - geograph.org.uk - 6633224.jpg"
+ },
+ "/images/sherry-cask/dalmore-12.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dalmore_12yo.jpg/1280px-Dalmore_12yo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dalmore_12yo.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Keeezawa",
+  "title": "File:Dalmore 12yo.jpg"
+ },
+ "/images/sherry-cask/aberlour-distillery.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Aberlour_Distillery_-_geograph.org.uk_-_3457838.jpg/1280px-Aberlour_Distillery_-_geograph.org.uk_-_3457838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Aberlour_Distillery_-_geograph.org.uk_-_3457838.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Peter Moore",
+  "title": "File:Aberlour Distillery - geograph.org.uk - 3457838.jpg"
+ },
+ "/images/sherry-cask/glenfarclas-still.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Copper_still_at_Glenfarclas_distillery_-_geograph.org.uk_-_3237457.jpg/1280px-Copper_still_at_Glenfarclas_distillery_-_geograph.org.uk_-_3237457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Copper_still_at_Glenfarclas_distillery_-_geograph.org.uk_-_3237457.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Andrew Abbott",
+  "title": "File:Copper still at Glenfarclas distillery - geograph.org.uk - 3237457.jpg"
+ }
+}
