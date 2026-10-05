@@ -630,6 +630,9 @@ def paste_image(page, url):
 
 
 LINK_LINE_RE = re.compile(r"^(Amazonで見る): (https://www\.amazon\.co\.jp/\S+)$")
+# 冒頭の「オリジナル記事」と末尾の「元記事（ブログ）」。ラベルは文字で、URL はリンクで貼る
+ORIGINAL_LINE_RE = re.compile(
+    r"^(オリジナル記事|元記事（ブログ）)[:：]\s*(https://kingsworksub-jpg\.github\.io/\S+)$")
 
 
 def paste_link(page, text, url):
@@ -736,6 +739,14 @@ def type_markdown_line(page, text, fast=False):
 
     m = LINK_LINE_RE.match(s)
     if m and paste_link(page, m.group(1), m.group(2)):
+        return
+
+    m = ORIGINAL_LINE_RE.match(s)
+    if m:
+        page.keyboard.type(m.group(1) + ": ", delay=8)
+        page.wait_for_timeout(600)  # 貼付失敗時の Ctrl+Z でラベルまで戻さないよう履歴を分ける
+        if not paste_link(page, m.group(2), m.group(2)):
+            page.keyboard.type(m.group(2), delay=8)
         return
 
     t = convert_italics(s)
