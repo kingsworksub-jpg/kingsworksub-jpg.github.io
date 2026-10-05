@@ -1035,6 +1035,18 @@
    "status": "requested",
    "reason": "Androidアプリから追加",
    "at": "2026-10-05T15:15:22+09:00"
+  },
+  {
+   "id": "2026w41-r01",
+   "category": "music",
+   "theme": "Randy Crawford, Raw Silk",
+   "slug": "randy-crawford-raw-silk",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/randy-crawford-raw-silk/",
+   "hatena_entry": "14945776032086379785",
+   "note_key": "n5d91e2846a00",
+   "engine": "claude",
+   "at": "2026-10-05T15:31:56+09:00"
   }
  ]
 }

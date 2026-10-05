@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T15:15:22+09:00",
+ "updated": "2026-10-05T15:31:56+09:00",
  "items": [
   {
    "category": "gear",
@@ -4045,8 +4045,8 @@
   },
   {
    "id": "2026w41-r01",
-   "status": "in_progress",
-   "category": "",
+   "status": "published",
+   "category": "music",
    "new_category": null,
    "theme": "Randy Crawford, Raw Silk",
    "angle": "https://amzn.asia/d/03cif17Z",
@@ -4064,7 +4064,9 @@
    "requested_at": "2026-10-05T12:35:03+09:00",
    "created": "2026-10-05",
    "retry": 0,
-   "claimed_at": "2026-10-05T15:15:22+09:00"
+   "claimed_at": "2026-10-05T15:15:22+09:00",
+   "slug": "randy-crawford-raw-silk",
+   "published_at": "2026-10-05T15:31:56+09:00"
   }
  ]
 }
