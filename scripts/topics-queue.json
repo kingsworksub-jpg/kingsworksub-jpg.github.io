@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T18:45:37+09:00",
+ "updated": "2026-10-05T19:08:14+09:00",
  "items": [
   {
    "category": "gear",
@@ -1806,10 +1806,12 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-033",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
-   "claimed_at": "2026-10-05T18:45:37+09:00"
+   "claimed_at": "2026-10-05T18:45:37+09:00",
+   "slug": "bourbon-5choice-2026",
+   "published_at": "2026-10-05T19:08:14+09:00"
   },
   {
    "category": "whisky",
