@@ -1071,6 +1071,15 @@
    "note_key": "n798ebde966de",
    "engine": "claude",
    "at": "2026-10-05T19:08:14+09:00"
+  },
+  {
+   "id": "2026w40-065",
+   "category": "gear",
+   "theme": "Novation Launchkey MK4、25鍵から88鍵まで揃ったレンジの選び方",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-05T19:18:32+09:00"
   }
  ]
 }
