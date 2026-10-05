@@ -1,0 +1,30 @@
+{
+ "/images/ableton-live-12/live-screenshot.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ableton_Live_Screenshot.png/1280px-Ableton_Live_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ableton_Live_Screenshot.png",
+  "license": "CC BY-SA 3.0",
+  "author": "Dennis Afraz",
+  "title": "File:Ableton Live Screenshot.png"
+ },
+ "/images/ableton-live-12/launchpad.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Novation_Launchpad_-_Ableton_Controller.jpg/1280px-Novation_Launchpad_-_Ableton_Controller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Novation_Launchpad_-_Ableton_Controller.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Gilda from London, UK",
+  "title": "File:Novation Launchpad - Ableton Controller.jpg"
+ },
+ "/images/ableton-live-12/apc40.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/AKAI_APC40_Ableton_Performance_Controller.jpg/1280px-AKAI_APC40_Ableton_Performance_Controller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:AKAI_APC40_Ableton_Performance_Controller.jpg",
+  "license": "CC BY 2.0",
+  "author": "Eric Wahlforss from Berlin, Germany",
+  "title": "File:AKAI APC40 Ableton Performance Controller.jpg"
+ },
+ "/images/ableton-live-12/pad-controller.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ableton_Live_%2B_Pad_controller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Ableton_Live_%2B_Pad_controller.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Mickey Destro",
+  "title": "File:Ableton Live + Pad controller.jpg"
+ }
+}
