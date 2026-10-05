@@ -242,6 +242,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Ableton Live 12のセッションビューが変える作曲の順番 | https://kinbro.hatenablog.com/entry/2026/10/05/092559 | 14945776032086278312 |
 | 賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段 | https://kinbro.hatenablog.com/entry/2026/10/05/131847 | 14945776032086344857 |
 | Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか | https://kinbro.hatenablog.com/entry/2026/10/05/152743 | 14945776032086379785 |
+| ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ | https://kinbro.hatenablog.com/entry/2026/10/05/172709 | 14945776032086413296 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -333,6 +334,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | Ableton Live 12のセッションビューが変える作曲の順番 | https://note.com/shining_finger01/n/n60fe00c14a5d | `n60fe00c14a5d` | **公開済(2026-10-05)** |
 | 賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段 | https://note.com/shining_finger01/n/n188d678db063 | `n188d678db063` | **公開済(2026-10-05)** |
 | Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか | https://note.com/shining_finger01/n/n5d91e2846a00 | `n5d91e2846a00` | **公開済(2026-10-05)** |
+| ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ | https://note.com/shining_finger01/n/n185417280087 | `n185417280087` | **公開済(2026-10-05)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
