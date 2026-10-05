@@ -1,0 +1,37 @@
+{
+ "/images/mix-practice/console.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ADT_Mixing_Console.jpg/1280px-ADT_Mixing_Console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Prof. Pod",
+  "title": "File:ADT Mixing Console.jpg"
+ },
+ "/images/mix-practice/equalizer.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Professional_equalizer_from_dbx_for_19_inch_rack.jpg/1280px-Professional_equalizer_from_dbx_for_19_inch_rack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Professional_equalizer_from_dbx_for_19_inch_rack.jpg",
+  "license": "CC BY 2.0",
+  "author": "mytdx 4",
+  "title": "File:Professional equalizer from dbx for 19 inch rack.jpg"
+ },
+ "/images/mix-practice/compressor.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/LA-2A%2C_1176%2C_Distressors%2C_PCM_196.jpg/1280px-LA-2A%2C_1176%2C_Distressors%2C_PCM_196.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:LA-2A,_1176,_Distressors,_PCM_196.jpg",
+  "license": "CC0",
+  "author": "The Midnite Wolf",
+  "title": "File:LA-2A, 1176, Distressors, PCM 196.jpg"
+ },
+ "/images/mix-practice/reverb.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/EMT_140.jpg/1280px-EMT_140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:EMT_140.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "EMT-Archiv-Lahr",
+  "title": "File:EMT 140.jpg"
+ },
+ "/images/mix-practice/headphones.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/SONY_MDR-CD900ST.jpg/1280px-SONY_MDR-CD900ST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SONY_MDR-CD900ST.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Quercus acuta",
+  "title": "File:SONY MDR-CD900ST.jpg"
+ }
+}
