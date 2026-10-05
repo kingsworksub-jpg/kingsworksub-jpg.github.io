@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T04:00:04+09:00",
+ "updated": "2026-10-06T04:00:44+09:00",
  "queue": {
   "approved": 58,
   "published": 14,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bourbon-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-06T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-05T21:15:17+09:00",
+  "state": "finished",
+  "at": "2026-10-06T04:00:44+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 10:10pm (Asia/Tokyo)"
+  "detail": "なお `status` に `failures=1`（直近の投稿ジョブの失敗カウント）が出ています。3回連続で失敗すると投稿ジョブが自動停止する仕組みなので、投稿側が続けて失敗するようなら原因対処と `topic_plan.py health-reset` が必要になります。今回のネタ会議の範囲外なので手は付けていません。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-06T04:00:44+09:00",
+   "engine": "claude",
+   "detail": "なお `status` に `failures=1`（直近の投稿ジョブの失敗カウント）が出ています。3回連続で失敗すると投稿ジョブが自動停止する仕組みなので、投稿側が続けて失敗するようなら原因対処と `topic_plan.py health-reset` が必要になります。今回のネタ会議の範囲外なので手は付けていません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-05T07:35:49+09:00",
    "engine": "claude",
    "detail": "- `validate_post.py` passed first run; `check_live_page.py` confirms all four figures render at 220px with the float layout and correct links."
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-10-05T04:00:39+09:00",
-   "engine": "claude",
-   "detail": "- `sync-skips` = 0件（アプリからの削除なし）、`ingest-requests` = 0件（アプリからのネタ追加なし）。キューに変更が無いため commit / push は行っていない（作業ツリーの未追跡ファイルは Android のビルド生成物のみで、対象外）。"
   }
  ]
 }
