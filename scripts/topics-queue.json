@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T13:24:04+09:00",
+ "updated": "2026-10-05T15:15:22+09:00",
  "items": [
   {
    "category": "gear",
@@ -4042,6 +4042,29 @@
    "status": "approved",
    "created": "2026-10-04",
    "retry": 0
+  },
+  {
+   "id": "2026w41-r01",
+   "status": "in_progress",
+   "category": "",
+   "new_category": null,
+   "theme": "Randy Crawford, Raw Silk",
+   "angle": "https://amzn.asia/d/03cif17Z",
+   "article_type": "",
+   "keywords": [],
+   "subjects": [],
+   "sources": [],
+   "images": [],
+   "season": "",
+   "score": {
+    "total": 100
+   },
+   "source_of_idea": "user",
+   "needs_research": true,
+   "requested_at": "2026-10-05T12:35:03+09:00",
+   "created": "2026-10-05",
+   "retry": 0,
+   "claimed_at": "2026-10-05T15:15:22+09:00"
   }
  ]
 }

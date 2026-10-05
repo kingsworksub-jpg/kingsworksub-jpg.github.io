@@ -1,14 +1,15 @@
 {
- "updated": "2026-10-05T15:15:02+09:00",
+ "updated": "2026-10-05T15:15:22+09:00",
  "queue": {
   "approved": 60,
   "published": 11,
-  "rejected": 1
+  "rejected": 1,
+  "in_progress": 1
  },
  "today_posts": 4,
  "daily_limit": 8,
  "engine_today": "claude",
- "pending_requests": 1,
+ "pending_requests": 0,
  "last_result": "published rental-soundproofing-booth-2026",
  "consecutive_failures": 0,
  "current_job": {
