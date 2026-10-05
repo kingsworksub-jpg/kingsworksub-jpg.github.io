@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T11:15:32+09:00",
+ "updated": "2026-10-05T13:24:04+09:00",
  "items": [
   {
    "category": "gear",
@@ -942,10 +942,12 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-017",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
-   "claimed_at": "2026-10-05T11:15:32+09:00"
+   "claimed_at": "2026-10-05T11:15:32+09:00",
+   "slug": "rental-soundproofing-booth-2026",
+   "published_at": "2026-10-05T13:24:04+09:00"
   },
   {
    "category": "setup",

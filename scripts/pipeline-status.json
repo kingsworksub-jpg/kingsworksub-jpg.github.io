@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-05T13:15:02+09:00",
+ "updated": "2026-10-05T13:24:04+09:00",
  "queue": {
   "approved": 60,
-  "published": 10,
-  "in_progress": 1,
+  "published": 11,
   "rejected": 1
  },
  "today_posts": 4,
  "daily_limit": 8,
  "engine_today": "claude",
- "pending_requests": 0,
- "last_result": "published ableton-live-12-session-view-2026",
+ "pending_requests": 1,
+ "last_result": "published rental-soundproofing-booth-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
