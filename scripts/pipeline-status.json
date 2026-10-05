@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-05T18:45:37+09:00",
+ "updated": "2026-10-05T19:08:14+09:00",
  "queue": {
   "approved": 58,
-  "published": 13,
-  "rejected": 1,
-  "in_progress": 1
+  "published": 14,
+  "rejected": 1
  },
- "today_posts": 6,
+ "today_posts": 7,
  "daily_limit": 8,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published mix-practice-1month",
+ "last_result": "published bourbon-5choice-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
