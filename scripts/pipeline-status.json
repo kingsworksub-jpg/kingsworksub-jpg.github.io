@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T19:18:35+09:00",
+ "updated": "2026-10-05T21:15:04+09:00",
  "queue": {
   "approved": 58,
   "published": 14,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published bourbon-5choice-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-05T21:15:04+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
