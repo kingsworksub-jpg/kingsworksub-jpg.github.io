@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T19:08:14+09:00",
+ "updated": "2026-10-05T19:08:50+09:00",
  "queue": {
   "approved": 58,
   "published": 14,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bourbon-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-05T18:45:14+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-05T17:33:06+09:00",
+  "at": "2026-10-05T19:08:50+09:00",
   "engine": "claude",
-  "detail": "Notes on the run: the first research pass had three factual errors that a verification pass caught and I corrected before writing them in — OSHA's 8-hour limit is 90 dBA (85 dBA is the action level, not the limit), Mix Challenge's mixing rounds are bi-monthly rather than monthly, and Mike Senior run"
+  "detail": "調査で2点、下調べの内容を訂正して書きました。メーカーズマークの樽の焼きは当初「1番(15秒)」という報告が来ましたが裏取りが弱く、追加調査で**3番(35秒)・樽詰め110プルーフ**が蒸溜所側の仕様と確認できたのでそちらを採用。またノブクリークの「ジムビームより深く焼いているから濃い」という通説は裏づけが見つからなかったため、記事では9年熟成と50度の差によるものとして書き、裏づけが無いことも本文で明示しています。バッファロートレースの穀物比率は非公表なので、出回っている数字は推定値だと断ったうえで扱いました。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-05T19:08:50+09:00",
+   "engine": "claude",
+   "detail": "調査で2点、下調べの内容を訂正して書きました。メーカーズマークの樽の焼きは当初「1番(15秒)」という報告が来ましたが裏取りが弱く、追加調査で**3番(35秒)・樽詰め110プルーフ**が蒸溜所側の仕様と確認できたのでそちらを採用。またノブクリークの「ジムビームより深く焼いているから濃い」という通説は裏づけが見つからなかったため、記事では9年熟成と50度の差によるものとして書き、裏づけが無いことも本文で明示しています。バッファロートレースの穀物比率は非公表なので、出回っている数字は推定値だと断ったうえで扱いました。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "投稿",
    "state": "failed",
    "at": "2026-10-04T11:15:16+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 2:10pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-04T09:24:38+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 2:10pm (Asia/Tokyo)"
   }
