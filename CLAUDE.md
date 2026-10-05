@@ -261,6 +261,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 - 投稿・公開: `python scripts/post-to-note.py --slug <slug> --publish`（`publish_note()` が2段実行し、APIで公開を検証して公開URLを返す）
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
   - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
+- **本文冒頭に GitHub Pages の元記事を「オリジナル記事」として必ず貼る（2026-10-05、ユーザー指示・全記事に適用）**。`convert-to-note.py` が本文の先頭に `オリジナル記事: https://kingsworksub-jpg.github.io/posts/<slug>/` を自動で出力し、`post-to-note.py` が URL を `<a>` リンクとして貼り付ける（note は入力した URL を自動リンクしないため `ORIGINAL_LINE_RE` → `paste_link()`）。末尾の `元記事（ブログ）:` 行も同様にリンク化される。手動で note 記事を作る・直す場合も冒頭のこの行を省かないこと
 - 主なオプション:
   - `--all` — `note-drafts/` にある全ファイルを順番に処理
   - `--slug <slug>` — 対象スラッグを1つ指定

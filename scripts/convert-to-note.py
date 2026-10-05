@@ -210,6 +210,9 @@ def main():
     lines.append("")
     lines.append("# 本文（ここから貼り付け）")
     lines.append("")
+    # 冒頭に GitHub Pages の元記事をオリジナル記事として貼る（2026-10-05、ユーザー指示）
+    lines.append("オリジナル記事: %s" % url)
+    lines.append("")
     if desc:
         lines.append(desc)
         lines.append("")
