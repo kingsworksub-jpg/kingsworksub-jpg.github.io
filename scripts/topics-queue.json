@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T09:15:27+09:00",
+ "updated": "2026-10-05T09:31:14+09:00",
  "items": [
   {
    "category": "gear",
@@ -528,10 +528,12 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-009",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
-   "claimed_at": "2026-10-05T09:15:27+09:00"
+   "claimed_at": "2026-10-05T09:15:27+09:00",
+   "slug": "ableton-live-12-session-view-2026",
+   "published_at": "2026-10-05T09:31:14+09:00"
   },
   {
    "category": "software",
