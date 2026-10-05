@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T19:15:21+09:00",
+ "updated": "2026-10-05T19:18:32+09:00",
  "items": [
   {
    "category": "gear",
@@ -3565,10 +3565,11 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-065",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-04",
-   "retry": 0,
-   "claimed_at": "2026-10-05T19:15:21+09:00"
+   "retry": 1,
+   "claimed_at": "2026-10-05T19:15:21+09:00",
+   "last_error": "run did not publish (failed); cleaned up"
   },
   {
    "category": "gear",
