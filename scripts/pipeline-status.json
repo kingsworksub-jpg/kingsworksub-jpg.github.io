@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T13:24:04+09:00",
+ "updated": "2026-10-05T13:26:57+09:00",
  "queue": {
   "approved": 60,
   "published": 11,
@@ -11,21 +11,24 @@
  "pending_requests": 1,
  "last_result": "published rental-soundproofing-booth-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-05T13:15:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-05T11:32:52+09:00",
+  "state": "finished",
+  "at": "2026-10-05T13:26:57+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 12:10pm (Asia/Tokyo)"
+  "detail": "Queue is now `approved: 60, published: 11`, health 0, today 4/8 — so the next scheduled run has a clean slate and room to publish. No new topic was claimed this run, keeping to the one-article-per-execution limit."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-05T13:26:57+09:00",
+   "engine": "claude",
+   "detail": "Queue is now `approved: 60, published: 11`, health 0, today 4/8 — so the next scheduled run has a clean slate and room to publish. No new topic was claimed this run, keeping to the one-article-per-execution limit."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-04T04:00:29+09:00",
    "engine": "claude",
    "detail": "- キューの `approved` = **64 件**（topup の閾値 16 件以上）→ 補充せず終了。作業ツリーはクリーンなので commit / push もなし。"
-  },
-  {
-   "job": "topic-planning",
-   "label": "ネタ会議",
-   "state": "finished",
-   "at": "2026-10-04T03:12:32+09:00",
-   "engine": "claude",
-   "detail": "採用分はニュース起点（オーディオテクニカ HP-HBM50x の10月発売、Launchkey 88 MK4 の9月出荷）と gap 起点（レコード針・カートリッジ）を混ぜてあり、各候補に実在確認済みの出典3〜4件と CC/PD 画像3件を付けてある。ASIN は捏造防止のためすべて `null` にし、執筆時に実物確認させる形にした。コミット `6b44060` を push 済み。"
   }
  ]
 }
