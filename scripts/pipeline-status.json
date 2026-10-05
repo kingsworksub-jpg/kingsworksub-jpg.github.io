@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T17:32:36+09:00",
+ "updated": "2026-10-05T17:33:06+09:00",
  "queue": {
   "approved": 59,
   "published": 13,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published mix-practice-1month",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-05T17:15:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-05T15:32:32+09:00",
+  "at": "2026-10-05T17:33:06+09:00",
   "engine": "claude",
-  "detail": "The Amazon link resolves to ASIN B000LYNG88 (the *Raw Silk* vinyl), which I confirmed against the live product page; the lead photo is wrapped in it. Today's count is now 5 of 8."
+  "detail": "Notes on the run: the first research pass had three factual errors that a verification pass caught and I corrected before writing them in — OSHA's 8-hour limit is 90 dBA (85 dBA is the action level, not the limit), Mix Challenge's mixing rounds are bi-monthly rather than monthly, and Mike Senior run"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-05T17:33:06+09:00",
+   "engine": "claude",
+   "detail": "Notes on the run: the first research pass had three factual errors that a verification pass caught and I corrected before writing them in — OSHA's 8-hour limit is 90 dBA (85 dBA is the action level, not the limit), Mix Challenge's mixing rounds are bi-monthly rather than monthly, and Mike Senior run"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-04T09:24:38+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 2:10pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-04T07:23:00+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 8am (Asia/Tokyo)"
   }
  ]
 }
