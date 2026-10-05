@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T07:15:29+09:00",
+ "updated": "2026-10-06T07:35:45+09:00",
  "items": [
   {
    "category": "gear",
@@ -3565,11 +3565,13 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-065",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-04",
    "retry": 1,
    "claimed_at": "2026-10-06T07:15:29+09:00",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "launchkey-mk4-key-range",
+   "published_at": "2026-10-06T07:35:45+09:00"
   },
   {
    "category": "gear",
