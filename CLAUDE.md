@@ -240,6 +240,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから | https://kinbro.hatenablog.com/entry/2026/10/05/005805 | 14945776032086182149 |
 | 加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す | https://kinbro.hatenablog.com/entry/2026/10/05/073036 | 14945776032086248357 |
 | Ableton Live 12のセッションビューが変える作曲の順番 | https://kinbro.hatenablog.com/entry/2026/10/05/092559 | 14945776032086278312 |
+| 賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段 | https://kinbro.hatenablog.com/entry/2026/10/05/131847 | 14945776032086344857 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -329,6 +330,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから | https://note.com/shining_finger01/n/n5c8b9915d1c1 | `n5c8b9915d1c1` | **公開済(2026-10-05)** |
 | 加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す | https://note.com/shining_finger01/n/nd679877b72af | `nd679877b72af` | **公開済(2026-10-05)** |
 | Ableton Live 12のセッションビューが変える作曲の順番 | https://note.com/shining_finger01/n/n60fe00c14a5d | `n60fe00c14a5d` | **公開済(2026-10-05)** |
+| 賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段 | https://note.com/shining_finger01/n/n188d678db063 | `n188d678db063` | **公開済(2026-10-05)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
