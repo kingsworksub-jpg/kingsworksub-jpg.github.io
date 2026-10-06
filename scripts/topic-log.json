@@ -1104,6 +1104,18 @@
    "note_key": "n467e0d2c62a8",
    "engine": "claude",
    "at": "2026-10-06T09:30:58+09:00"
+  },
+  {
+   "id": "2026w40-020",
+   "category": "setup",
+   "theme": "冬の制作部屋、寒さと乾燥と結露に機材をどう守らせるか",
+   "slug": "winter-studio-humidity",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/winter-studio-humidity/",
+   "hatena_entry": "14945776032086708379",
+   "note_key": "n82928b7a1914",
+   "engine": "claude",
+   "at": "2026-10-06T11:33:13+09:00"
   }
  ]
 }
