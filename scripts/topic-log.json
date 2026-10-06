@@ -1092,6 +1092,18 @@
    "note_key": "n83051f5f5188",
    "engine": "claude",
    "at": "2026-10-06T07:35:45+09:00"
+  },
+  {
+   "id": "2026w40-013",
+   "category": "software",
+   "theme": "VocAlign 7、ハモリとダブルをまとめて揃えるボーカル編集",
+   "slug": "vocalign-7-multitrack",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/vocalign-7-multitrack/",
+   "hatena_entry": "14945776032086673861",
+   "note_key": "n467e0d2c62a8",
+   "engine": "claude",
+   "at": "2026-10-06T09:30:58+09:00"
   }
  ]
 }
