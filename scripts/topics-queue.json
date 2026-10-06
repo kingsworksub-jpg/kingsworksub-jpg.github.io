@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T09:30:58+09:00",
+ "updated": "2026-10-06T11:15:26+09:00",
  "items": [
   {
    "category": "gear",
@@ -1086,9 +1086,10 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-020",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-06T11:15:26+09:00"
   },
   {
    "category": "setup",
