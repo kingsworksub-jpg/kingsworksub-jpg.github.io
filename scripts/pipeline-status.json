@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T09:31:25+09:00",
+ "updated": "2026-10-06T11:15:04+09:00",
  "queue": {
   "approved": 56,
   "published": 16,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published vocalign-7-multitrack",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-06T11:15:04+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
