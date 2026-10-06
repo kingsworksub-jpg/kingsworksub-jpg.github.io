@@ -1,0 +1,30 @@
+{
+ "/images/music-theory-3month/keys.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Fingers_on_the_piano_keys_%28Unsplash%29.jpg/960px-Fingers_on_the_piano_keys_%28Unsplash%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fingers_on_the_piano_keys_(Unsplash).jpg",
+  "license": "CC0",
+  "author": "Gabriel Barletta",
+  "title": ""
+ },
+ "/images/music-theory-3month/theory-book.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grand_method_for_flute%2C_part._I_-_containing_complete_theory_of_music%2C_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_%28017_of_110%29.jpg/960px-Grand_method_for_flute%2C_part._I_-_containing_complete_theory_of_music%2C_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_%28017_of_110%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grand_method_for_flute,_part._I_-_containing_complete_theory_of_music,_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_(017_of_110).jpg",
+  "license": "Public domain",
+  "author": "Henri Altès",
+  "title": ""
+ },
+ "/images/music-theory-3month/midi-keyboard.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Samson_Graphite_25_MIDI_keyboard.jpg/960px-Samson_Graphite_25_MIDI_keyboard.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Samson_Graphite_25_MIDI_keyboard.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Morn",
+  "title": ""
+ },
+ "/images/music-theory-3month/manuscript.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_%2802_of_12%29.jpg/960px-thumbnail.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg",
+  "license": "Public domain",
+  "author": "Wilhelm Friedemann Bach",
+  "title": ""
+ }
+}
