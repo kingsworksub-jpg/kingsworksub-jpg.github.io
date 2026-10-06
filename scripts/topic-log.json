@@ -1116,6 +1116,18 @@
    "note_key": "n82928b7a1914",
    "engine": "claude",
    "at": "2026-10-06T11:33:13+09:00"
+  },
+  {
+   "id": "2026w40-023",
+   "category": "learning",
+   "theme": "音楽理論を3か月で一周する、書籍とアプリの組み合わせ方",
+   "slug": "music-theory-3month-plan",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/music-theory-3month-plan/",
+   "hatena_entry": "14945776032086751225",
+   "note_key": "nda76ef11b9e4",
+   "engine": "claude",
+   "at": "2026-10-06T14:25:15+09:00"
   }
  ]
 }
