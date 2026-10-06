@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T11:15:26+09:00",
+ "updated": "2026-10-06T11:33:13+09:00",
  "items": [
   {
    "category": "gear",
@@ -1086,10 +1086,12 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-020",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
-   "claimed_at": "2026-10-06T11:15:26+09:00"
+   "claimed_at": "2026-10-06T11:15:26+09:00",
+   "slug": "winter-studio-humidity",
+   "published_at": "2026-10-06T11:33:13+09:00"
   },
   {
    "category": "setup",

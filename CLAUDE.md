@@ -246,6 +246,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方 | https://kinbro.hatenablog.com/entry/2026/10/05/190044 | 14945776032086463961 |
 | Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった | https://kinbro.hatenablog.com/entry/2026/10/06/073118 | 14945776032086642903 |
 | VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える | https://kinbro.hatenablog.com/entry/2026/10/06/092649 | 14945776032086673861 |
+| 冬の制作部屋で最初に買うのは暖房ではなく湿度計 | https://kinbro.hatenablog.com/entry/2026/10/06/112855 | 14945776032086708379 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
@@ -342,6 +343,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方 | https://note.com/shining_finger01/n/n798ebde966de | `n798ebde966de` | **公開済(2026-10-05)** |
 | Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった | https://note.com/shining_finger01/n/n83051f5f5188 | `n83051f5f5188` | **公開済(2026-10-06)** |
 | VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える | https://note.com/shining_finger01/n/n467e0d2c62a8 | `n467e0d2c62a8` | **公開済(2026-10-06)** |
+| 冬の制作部屋で最初に買うのは暖房ではなく湿度計 | https://note.com/shining_finger01/n/n82928b7a1914 | `n82928b7a1914` | **公開済(2026-10-06)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。

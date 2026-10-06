@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-06T11:15:26+09:00",
+ "updated": "2026-10-06T11:33:13+09:00",
  "queue": {
   "approved": 55,
-  "published": 16,
-  "in_progress": 1,
+  "published": 17,
   "rejected": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 8,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published vocalign-7-multitrack",
+ "last_result": "published winter-studio-humidity",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
