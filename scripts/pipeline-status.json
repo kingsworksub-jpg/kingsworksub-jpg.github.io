@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T04:00:03+09:00",
+ "updated": "2026-10-07T04:00:51+09:00",
  "queue": {
   "approved": 54,
   "published": 18,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published music-theory-3month-plan",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-07T04:00:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-06T11:33:52+09:00",
+  "at": "2026-10-07T04:00:51+09:00",
   "engine": "claude",
-  "detail": "画像は4枚とも Commons から `fetch_image.py` で取得し、1枚ずつ目視確認しました。最初に取れた加湿器画像はクジラ型の子供向け製品で記事のトーンに合わなかったので、実際の部屋に置かれた気化式加湿器に差し替えています。`check_live_page.py` で4枚すべての表示とAmazonリンク（ASINが特定できない汎用カテゴリーのため検索リンク形式）を確認済みです。"
+  "detail": "- ファイルに変更が出なかったため commit / push はなし。候補追加 0 件・不採用 0 件。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-07T04:00:51+09:00",
+   "engine": "claude",
+   "detail": "- ファイルに変更が出なかったため commit / push はなし。候補追加 0 件・不採用 0 件。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-05T15:32:32+09:00",
    "engine": "claude",
    "detail": "The Amazon link resolves to ASIN B000LYNG88 (the *Raw Silk* vinyl), which I confirmed against the live product page; the lead photo is wrapped in it. Today's count is now 5 of 8."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-05T13:26:57+09:00",
-   "engine": "claude",
-   "detail": "Queue is now `approved: 60, published: 11`, health 0, today 4/8 — so the next scheduled run has a clean slate and room to publish. No new topic was claimed this run, keeping to the one-article-per-execution limit."
   }
  ]
 }
