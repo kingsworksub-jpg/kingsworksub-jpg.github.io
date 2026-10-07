@@ -1,17 +1,22 @@
 {
- "updated": "2026-10-07T04:00:51+09:00",
+ "updated": "2026-10-08T04:00:04+09:00",
  "queue": {
-  "approved": 54,
+  "approved": 53,
   "published": 18,
-  "rejected": 1
+  "rejected": 2
  },
  "today_posts": 0,
  "daily_limit": 8,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published music-theory-3month-plan",
- "consecutive_failures": 0,
- "current_job": null,
+ "last_result": "failed 2026w40-035: テスト実行のためロールバック",
+ "consecutive_failures": 1,
+ "current_job": {
+  "job": "topic-topup",
+  "label": "ネタ補充",
+  "since": "2026-10-08T04:00:04+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
