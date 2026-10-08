@@ -120,6 +120,3 @@ pygmentsUseClasses = true
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-
-[permalinks]
-  posts = "/posts/:slug/"
