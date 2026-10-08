@@ -1128,6 +1128,61 @@
    "note_key": "nda76ef11b9e4",
    "engine": "claude",
    "at": "2026-10-06T14:25:15+09:00"
+  },
+  {
+   "id": "2026w40-035",
+   "category": "whisky",
+   "theme": "年末の贈り物にウイスキーを選ぶ、箱とカレンダーという売り方",
+   "status": "failed",
+   "reason": "テスト実行のためロールバック",
+   "engine": "claude",
+   "at": "2026-10-07T21:35:21+09:00"
+  },
+  {
+   "id": "2026w40-035",
+   "category": "whisky",
+   "theme": "年末の贈り物にウイスキーを選ぶ、箱とカレンダーという売り方",
+   "status": "failed",
+   "reason": "テスト終了",
+   "engine": "claude",
+   "at": "2026-10-07T21:35:44+09:00"
+  },
+  {
+   "id": "2026w40-036",
+   "category": "whisky",
+   "theme": "台湾とインドのウイスキー、熱い土地で樽は速く働く",
+   "status": "failed",
+   "reason": "テスト終了",
+   "engine": "claude",
+   "at": "2026-10-07T21:36:01+09:00"
+  },
+  {
+   "id": "2026w40-035",
+   "category": "whisky",
+   "theme": "(restored)",
+   "status": "health-reset",
+   "reason": "2026-10-07 21:35-21:36 の手動テスト呼び出し(reason: テスト終了 等)で誤って reject/retry が進んだための復元",
+   "at": "2026-10-09T00:26:40+09:00"
+  },
+  {
+   "id": "",
+   "category": "",
+   "theme": "",
+   "status": "health-reset",
+   "reason": "2026-10-07 21:35-21:36 の手動テスト(topic_plan.py fail を reason=テスト終了等で3回呼んだもの)がconsecutive_failuresを3に押し上げていたと判明。実際のジョブ失敗ではないため解除。2026w40-035のreject/retryも同時に復元。",
+   "at": "2026-10-09T00:27:21+09:00"
+  },
+  {
+   "id": "2026w40-036",
+   "category": "whisky",
+   "theme": "台湾とインドのウイスキー、熱い土地で樽は速く働く",
+   "slug": "taiwan-india-whisky-climate-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/taiwan-india-whisky-climate-2026/",
+   "hatena_entry": null,
+   "note_key": "n497b40b8ae89",
+   "engine": "claude",
+   "at": "2026-10-09T01:25:22+09:00"
   }
  ]
 }
