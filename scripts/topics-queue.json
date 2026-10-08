@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T07:30:23+09:00",
+ "updated": "2026-10-09T07:35:52+09:00",
  "items": [
   {
    "category": "gear",
@@ -1386,14 +1386,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-026",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-09T07:30:23+09:00",
    "channel": "github",
    "content_dir": "tech",
    "slot_time": "07:30",
-   "slot_label": "朝: Tech/AI/開発"
+   "slot_label": "朝: Tech/AI/開発",
+   "slug": "ear-training-one-week",
+   "published_at": "2026-10-09T07:35:52+09:00"
   },
   {
    "category": "learning",
