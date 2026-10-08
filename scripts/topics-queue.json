@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T01:25:22+09:00",
+ "updated": "2026-10-09T02:37:54+09:00",
  "items": [
   {
    "category": "gear",
@@ -476,9 +476,14 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-008",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-09T02:37:54+09:00",
+   "channel": "github",
+   "content_dir": "tech",
+   "slot_time": "07:30",
+   "slot_label": "朝: Tech/AI/開発"
   },
   {
    "category": "software",
