@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T07:35:52+09:00",
+ "updated": "2026-10-09T07:36:02+09:00",
  "queue": {
   "approved": 51,
   "published": 21,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ear-training-one-week",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-09T07:30:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-09T04:00:23+09:00",
+  "at": "2026-10-09T07:36:02+09:00",
   "engine": "claude",
-  "detail": "承認済みのネタが52件あり、補充の基準（16件未満）を上回っているため、今回は何も追加していません（補充不要）。キューの更新もコミットもしていません。"
+  "detail": "One judgment call on the research: some of the figures it returned looked unreliable, such as an exact number of practice trials per day and week-by-week timelines. I left those numbers out. The article only cites the 2019 study in which 2 of 6 adults reached absolute-pitch-level accuracy after 8 we"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-09T07:36:02+09:00",
+   "engine": "claude",
+   "detail": "One judgment call on the research: some of the figures it returned looked unreliable, such as an exact number of practice trials per day and week-by-week timelines. I left those numbers out. The article only cites the 2019 study in which 2 of 6 adults reached absolute-pitch-level accuracy after 8 we"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -95,14 +98,6 @@
    "label": "投稿",
    "state": "failed",
    "at": "2026-10-05T21:15:17+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 10:10pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-05T19:18:35+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 10:10pm (Asia/Tokyo)"
   }
