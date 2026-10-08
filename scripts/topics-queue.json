@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T14:25:15+09:00",
+ "updated": "2026-10-09T01:25:22+09:00",
  "items": [
   {
    "category": "gear",
@@ -1912,7 +1912,9 @@
    "id": "2026w40-035",
    "status": "approved",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-07T21:35:26+09:00",
+   "last_error": null
   },
   {
    "category": "whisky",
@@ -1972,9 +1974,15 @@
    },
    "source_of_idea": "search",
    "id": "2026w40-036",
-   "status": "approved",
+   "status": "published",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-08T08:46:25+09:00",
+   "last_error": null,
+   "channel": "note",
+   "content_dir": "culture",
+   "slug": "taiwan-india-whisky-climate-2026",
+   "published_at": "2026-10-09T01:25:22+09:00"
   },
   {
    "category": "whisky",
