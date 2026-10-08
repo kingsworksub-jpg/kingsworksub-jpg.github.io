@@ -1,0 +1,30 @@
+{
+ "/images/ear-training/piano-hands.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Piano_practice_hands.jpg/1280px-Piano_practice_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Piano_practice_hands.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "zaui/Scott Catron",
+  "title": "File:Piano practice hands.jpg"
+ },
+ "/images/ear-training/curwen-hand-signs.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Curwen_Hand_Signs_MT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Curwen_Hand_Signs_MT.jpg",
+  "license": "Public domain",
+  "author": "John Curwen (1816-1880)",
+  "title": "File:Curwen Hand Signs MT.jpg"
+ },
+ "/images/ear-training/bass-neck.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Neck_of_Five_Strings_Bass_Guitar_%2851875209879%29.jpg/1280px-Neck_of_Five_Strings_Bass_Guitar_%2851875209879%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Neck_of_Five_Strings_Bass_Guitar_(51875209879).jpg",
+  "license": "CC BY 2.0",
+  "author": "Dejan Krsmanovic",
+  "title": "File:Neck of Five Strings Bass Guitar (51875209879).jpg"
+ },
+ "/images/ear-training/monitor-headphones.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg/1280px-Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg",
+  "license": "CC BY 2.0",
+  "author": "Jason Meredith",
+  "title": "File:Cables & Monitor headphones, Downtown Recording.jpg"
+ }
+}
