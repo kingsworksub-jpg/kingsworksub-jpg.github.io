@@ -1183,6 +1183,18 @@
    "note_key": "n497b40b8ae89",
    "engine": "claude",
    "at": "2026-10-09T01:25:22+09:00"
+  },
+  {
+   "id": "2026w40-008",
+   "category": "software",
+   "theme": "Logic Pro、Mac一台で完結する作曲環境としての現在",
+   "slug": "logic-pro-mac-songwriting-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/logic-pro-mac-songwriting-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-09T02:51:03+09:00"
   }
  ]
 }
