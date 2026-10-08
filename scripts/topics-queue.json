@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T02:51:03+09:00",
+ "updated": "2026-10-09T07:30:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -1386,9 +1386,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-026",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-09T07:30:23+09:00",
+   "channel": "github",
+   "content_dir": "tech",
+   "slot_time": "07:30",
+   "slot_label": "朝: Tech/AI/開発"
   },
   {
    "category": "learning",
