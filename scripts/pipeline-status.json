@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T04:00:02+09:00",
+ "updated": "2026-10-09T04:00:23+09:00",
  "queue": {
   "approved": 52,
   "published": 20,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published logic-pro-mac-songwriting-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-09T04:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-09T02:51:16+09:00",
+  "at": "2026-10-09T04:00:23+09:00",
   "engine": "claude",
-  "detail": "- **関連記事 links:** the article has no はてな or note version, so the instructions' 'はてなブログ版はこちら' and note `XXXX` placeholder would have been broken or misleading. I linked to each platform's top page instead, with the 予告 line for the 07:30 slot."
+  "detail": "承認済みのネタが52件あり、補充の基準（16件未満）を上回っているため、今回は何も追加していません（補充不要）。キューの更新もコミットもしていません。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-09T04:00:23+09:00",
+   "engine": "claude",
+   "detail": "承認済みのネタが52件あり、補充の基準（16件未満）を上回っているため、今回は何も追加していません（補充不要）。キューの更新もコミットもしていません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-05T19:18:35+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 10:10pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-05T19:08:50+09:00",
-   "engine": "claude",
-   "detail": "調査で2点、下調べの内容を訂正して書きました。メーカーズマークの樽の焼きは当初「1番(15秒)」という報告が来ましたが裏取りが弱く、追加調査で**3番(35秒)・樽詰め110プルーフ**が蒸溜所側の仕様と確認できたのでそちらを採用。またノブクリークの「ジムビームより深く焼いているから濃い」という通説は裏づけが見つからなかったため、記事では9年熟成と50度の差によるものとして書き、裏づけが無いことも本文で明示しています。バッファロートレースの穀物比率は非公表なので、出回っている数字は推定値だと断ったうえで扱いました。"
   }
  ]
 }
