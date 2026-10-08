@@ -40,5 +40,9 @@
   "https://bluenote.com/feed/",
   "https://www.musicradar.com/feeds.xml",
   "https://www.japantimes.co.jp/feed/"
+ ],
+ "essay": [
+  "https://www.japantimes.co.jp/feed/",
+  "https://www.lifehacker.jp/feed/index.xml"
  ]
 }

@@ -7,9 +7,10 @@ only has to do the creative work:
   allocate N                 split N new topics across categories by priority
   today-count                number of published posts dated today (JST), manual posts included
   engine                     model used by the jobs (always "claude" since 2026-10-02)
+  slot                       the fixed daily time-slot nearest to now (channel + content preference; see SLOTS)
   similar TEXT               closest existing posts / queued / logged topics (2-gram Jaccard)
   add FILE                   add candidate topics (JSON list) to the queue after a duplicate check
-  claim                      apply app deletions, pick the next approved topic, mark it in_progress
+  claim                      apply app deletions, pick the next approved topic (slot-aware), mark it in_progress
   complete ID --slug S [--hatena ID] [--note KEY]
   fail ID --reason R         retry later (rejected after 2 failures)
   reject ID --reason R
@@ -61,6 +62,29 @@ WINDOW = 60
 MIN_SCORE = 60
 DUP_THRESHOLD = 0.45
 MAX_RETRY = 2
+
+# Fixed daily posting schedule (2026-10-08 redesign: replaced the 8 runs/2h cadence with 6 slots
+# timed 30-60 min ahead of each traffic peak, each pinned to one channel so the three platforms
+# post evenly through the day instead of being decided purely by category priority). Each slot can
+# also narrow which categories or article_types it prefers, so the two slots sharing a channel read
+# differently (e.g. practical tech in the morning vs. theory at night). Preferences are soft: if no
+# approved topic matches, claim() falls back to any topic in the right channel, then to anything at
+# all, so a thin queue never stalls the run.
+SLOTS = [
+    {"time": "07:30", "channel": "github", "article_types": ["guide", "comparison", "deep-dive"],
+     "label": "朝: Tech/AI/開発"},
+    {"time": "12:00", "channel": "hatena", "categories": ["gear", "setup", "fashion"],
+     "label": "昼: DTM機材/ガジェットレビュー"},
+    {"time": "17:30", "channel": "hatena", "categories": ["music"],
+     "label": "夕: 音楽アルバム評/名盤紹介"},
+    {"time": "20:00", "channel": "github", "article_types": ["theme"],
+     "label": "夜: DTM音響理論/構造解説"},
+    {"time": "21:30", "channel": "note", "categories": ["whisky", "drink", "sakeware"],
+     "label": "夜ピーク: ウイスキー/ファッション史"},
+    {"time": "23:00", "channel": "note", "categories": ["essay"],
+     "label": "就寝前: カルチャーエッセイ/思考整理"},
+]
+POSTS_PER_DAY = len(SLOTS)
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -123,6 +147,48 @@ def categories():
     return load(CATS, [])
 
 
+def category_meta(cat_id):
+    """Return the category-plan entry (with channel / content_dir) for a category id."""
+    for c in categories():
+        if c["id"] == cat_id:
+            return c
+    return {"id": cat_id, "name": cat_id, "weight": 1.0, "channel": "github", "content_dir": "tech"}
+
+
+def channel_for(cat_id):
+    """Distribution channel for a category: github / hatena / note."""
+    return category_meta(cat_id).get("channel", "github")
+
+
+def content_dir_for(cat_id):
+    """Hugo content sub-directory for a category: tech / reviews / culture."""
+    return category_meta(cat_id).get("content_dir", "tech")
+
+
+def _slot_minutes(t: str) -> int:
+    h, m = t.split(":")
+    return int(h) * 60 + int(m)
+
+
+def slot_for(moment: "dt.datetime | None" = None) -> dict:
+    """The fixed daily slot (see SLOTS) nearest to `moment` (default: now, JST)."""
+    moment = moment or now()
+    mins = moment.hour * 60 + moment.minute
+    return min(SLOTS, key=lambda s: abs(_slot_minutes(s["time"]) - mins))
+
+
+def slot_match_score(it, slot) -> tuple:
+    """Lower sorts first. (0/1 channel mismatch, 0/1 preferred-category-or-type mismatch)."""
+    channel_mismatch = 0 if channel_for(it["category"]) == slot["channel"] else 1
+    if "categories" in slot:
+        pref_mismatch = 0 if it["category"] in slot["categories"] else 1
+    elif "article_types" in slot:
+        pref_mismatch = 0 if it.get("article_type") in slot["article_types"] else 1
+    else:
+        pref_mismatch = 0
+    return (channel_mismatch, pref_mismatch)
+
+
 def priorities():
     cats = categories()
     ps = posts()
@@ -145,7 +211,7 @@ def priorities():
     return sorted(rows, key=lambda r: -r["priority"])
 
 
-def allocate(n: int, per_day: int = 8):
+def allocate(n: int, per_day: int = POSTS_PER_DAY):
     """Hand out n slots one at a time, re-scoring after each as if that post had gone out."""
     cats = [c for c in categories() if c.get("weight", 1.0) > 0]
     total_w = sum(c.get("weight", 1.0) for c in cats) or 1
@@ -231,7 +297,7 @@ def write_status(extra=None):
         counts[it["status"]] = counts.get(it["status"], 0) + 1
     pending = len(glob.glob(os.path.join(REQUESTS, "*.json")))
     st.update({"updated": now().isoformat(timespec="seconds"), "queue": counts, "pending_requests": pending,
-               "today_posts": today_count(), "daily_limit": 8, "engine_today": engine_for(now().date())})
+               "today_posts": today_count(), "daily_limit": POSTS_PER_DAY, "engine_today": engine_for(now().date())})
     if extra:
         st.update(extra)
     save(STATUS_FILE, st)
@@ -365,7 +431,9 @@ def claim():
         return
     order = {r["id"]: i for i, r in enumerate(priorities())}
     last = last_category()
+    slot = slot_for()
     user_first = sorted(ready, key=lambda it: (not it.get("pinned"),
+                                                *slot_match_score(it, slot),
                                                 it.get("source_of_idea") != "user",
                                                 it["category"] == last,
                                                 order.get(it["category"], 99),
@@ -373,6 +441,10 @@ def claim():
     it = user_first[0]
     it["status"] = "in_progress"
     it["claimed_at"] = now().isoformat(timespec="seconds")
+    it["channel"] = channel_for(it["category"])
+    it["content_dir"] = content_dir_for(it["category"])
+    it["slot_time"] = slot["time"]
+    it["slot_label"] = slot["label"]
     save_queue(q)
     print(json.dumps(it, ensure_ascii=False, indent=1))
 
@@ -389,7 +461,7 @@ def complete(tid, slug, hatena=None, note=None, category=None):
     it = find(q, tid)
     if category:
         it["category"] = category
-    it.update({"status": "published", "slug": slug, "published_at": now().isoformat(timespec="seconds")})
+    it.update({"status": "published", "slug": slug, "published_at": now().isoformat(timespec="seconds"), "channel": it.get("channel", "github")})
     save_queue(q)
     log_entry(id=tid, category=it["category"], theme=it["theme"], slug=slug, status="published",
               url=f"https://kingsworksub-jpg.github.io/posts/{slug}/", hatena_entry=hatena, note_key=note,
@@ -625,6 +697,7 @@ def main():
     sub.add_parser("allocate").add_argument("n", type=int)
     sub.add_parser("today-count")
     sub.add_parser("engine")
+    sub.add_parser("slot")
     sub.add_parser("similar").add_argument("text")
     sub.add_parser("add").add_argument("file")
     sub.add_parser("claim")
@@ -669,12 +742,12 @@ def main():
         counts = {}
         for it in q["items"]:
             counts[it["status"]] = counts.get(it["status"], 0) + 1
-        data = {"engine_today": engine_for(now().date()), "today_posts": today_count(), "daily_limit": 8,
+        data = {"engine_today": engine_for(now().date()), "today_posts": today_count(), "daily_limit": POSTS_PER_DAY,
                 "queue": counts, "consecutive_failures": health(), "priorities": priorities()}
         if a.json:
             print(json.dumps(data, ensure_ascii=False, indent=1))
         else:
-            print(f"engine={data['engine_today']} today={data['today_posts']}/8 queue={counts} failures={data['consecutive_failures']}")
+            print(f"engine={data['engine_today']} today={data['today_posts']}/{POSTS_PER_DAY} queue={counts} failures={data['consecutive_failures']}")
             for r in data["priorities"]:
                 print(f"  {r['id']:10} pri={r['priority']:<6} share={r['share']:<6} target={r['target']:<6} last={r['days_since']}d total={r['total']}")
     elif a.cmd == "allocate":
@@ -683,6 +756,8 @@ def main():
         print(today_count())
     elif a.cmd == "engine":
         print(engine_for(now().date()))
+    elif a.cmd == "slot":
+        print(json.dumps(slot_for(), ensure_ascii=False, indent=1))
     elif a.cmd == "similar":
         for row in similar(a.text):
             print(*row, sep=" | ")

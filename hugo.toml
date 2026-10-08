@@ -98,10 +98,15 @@ pygmentsUseClasses = true
     url = '/categories/music/'
     weight = 49
   [[menu.main]]
+    identifier = 'essay'
+    name = 'カルチャーエッセイ'
+    url = '/categories/essay/'
+    weight = 50
+  [[menu.main]]
     identifier = 'search'
     name = '検索'
     url = '/search/'
-    weight = 50
+    weight = 60
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
@@ -115,3 +120,6 @@ pygmentsUseClasses = true
 [taxonomies]
   category = 'categories'
   tag = 'tags'
+
+[permalinks]
+  posts = "/posts/:slug/"

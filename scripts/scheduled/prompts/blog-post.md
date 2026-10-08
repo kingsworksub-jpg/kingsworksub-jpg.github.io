@@ -1,7 +1,9 @@
 # ブログ記事の投稿（キューから1件・無人実行）
 
-Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間おき）無人で起動されている。人間は見ていないので質問せず、
-最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
+Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、`scripts/topic_plan.py` の
+`SLOTS` で定義。2026-10-08、1日6投稿・時間帯別タイムテーブルに改修）無人で起動されている。各回はアクセスピークの
+30〜60分前に当たり、時間帯ごとに配信先チャンネル（github/hatena/note）と記事の性格（実用寄り/理論・エッセイ寄り）が
+決まっている。人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
 
 コマンドはすべてリポジトリのルート（`C:\Users\norio\my-github-blog`）で実行する。Python は `python`。
 ルールの詳細は `CLAUDE.md`（文体・禁止事項・タイトル・画像・アフィリエイト・はてな・note の節）にある。**作業前に必ず読む。**
@@ -10,17 +12,27 @@ Windows タスクスケジューラから1日8回（07:15〜21:15 の2時間お�
 
 1. `git pull --rebase origin main`
 2. `python scripts/topic_plan.py health` が **3以上**なら、連続失敗のため何もせず「停止中（連続失敗）」と出力して終了する。
-3. `python scripts/topic_plan.py today-count` が **8以上**なら「本日の上限（8記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
+3. `python scripts/topic_plan.py today-count` が **6以上**なら「本日の上限（6記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
+4. `python scripts/topic_plan.py slot` でこの回の時間帯スロット（`time` / `channel` / `label`、`categories` か `article_types` の優先条件）を確認する。
+   この後の「ネタを取り出す」「チャンネル判定」「クロスリンク挿入」はこのスロット情報に沿って動く。
 
 ## 2. ネタを取り出す
 
-`python scripts/topic_plan.py claim` を実行する。Android アプリで削除されたネタはここで自動的に除外され、アプリから追加されたネタ（`scripts/topic-requests/*.json`）はここでキューに取り込まれて最優先で選ばれる。
+`python scripts/topic_plan.py claim` を実行する。内部でも同じスロット判定が働き、現在のスロットのチャンネル・優先条件に合う
+承認済みネタを優先して選ぶ（合うネタが無ければチャンネルだけ合うネタ、それも無ければ通常の優先順位にフォールバックする）。
+Android アプリで削除されたネタはここで自動的に除外され、アプリから追加されたネタ（`scripts/topic-requests/*.json`）はここでキューに取り込まれて最優先で選ばれる。
 - 出力が `{"empty": true}` なら、`scripts/scheduled/prompts/topic-planning.md` の手順3〜7を**1件分だけ**行ってキューに足し、もう一度 claim する。
-- 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。ここで一度
+- 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。出力には `channel`（配信先）・`slot_time`・`slot_label`
+  （今回のスロット）も含まれる。ここで一度
   `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/topic-requests && git commit -m "Claim <id>" && git push origin main`。
 - **アプリから追加されたネタ**（`source_of_idea: "user"`、`needs_research: true`）は、テーマとメモしか無い。`sources`・`images`・`keywords` は
-  このあとの手順で自分で集める。`category` が空なら内容に合うカテゴリーを決め（合わなければ新カテゴリーも可）、`article_type` が空なら記事の型を決める。
-  メモ（`angle`）はユーザーの希望なので必ず反映する。
+  このあとの手順で自分で集める。`category` が空なら、まず手順1で確認した今回のスロットのチャンネル（github/hatena/note）に合う既存カテゴリーから、
+  内容に合うものを選ぶ（合わなければ新カテゴリーも可）。`article_type` が空なら記事の型を決める。メモ（`angle`）はユーザーの希望なので必ず反映する。
+- **チャンネル判定**: 取り出したネタの出力に含まれる `channel` フィールドに基づき、以下の配信先を決定する。
+  - `github` → GitHub Pages へのみ投稿（はてな・note への転載はしない）
+  - `hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿
+  - `note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信
+  - `channel` フィールドが無い場合はデフォルトで `github` となる。
 
 ## 3. リサーチ
 
@@ -46,7 +58,8 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 - 文体: 素直で丁寧な一人称。他サイト・媒体名を根拠にしない。情報源や調べ方に触れない。所持に触れない。「実際に〜してみた」禁止。
 - 本文は日本語のみ（中国語・英語の文章を混ぜない）。深掘り・テーマ記事は5,000字前後以上。見出し（##）は3つ以上。
 - frontmatter: `title` / `description`（110〜120字）/ `images: ["/images/og/<slug>.jpg"]` / `date`（**現在時刻より前**、+09:00）/
-  `categories: ["<category>"]` / `tags` / `draft: false`。
+  `categories: ["<category>"]` / `tags` / `draft: false` / `scheduled_time: "<slot の time>"`（手順1で確認したこの回のスロット時刻。
+  例 `"20:00"`。公開は即時だが、どの時間帯枠で書かれた記事かを記録する）。
 - 新カテゴリー（ネタの `new_category` あり）なら、`category-plan.json`・`hugo.toml` の `[menu]`・`layouts/index.html` の `CATEGORY_LABELS` に追加する。
 
 ## 5. 画像
@@ -75,18 +88,38 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 3. **`python scripts/validate_post.py <slug>`** — NG が出たら直して再実行する。2回直しても通らなければ、作った記事・画像を削除し、
    `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` を実行して終了する（公開しない）。
 4. `hugo --minify` でビルドし、`public/posts/<slug>/index.html` ができていることを確認する。
+5. **チャンネル判定**: `python scripts/topic_plan.py claim` の出力JSONに含まれる `channel` フィールドを確認する。その結果に応じて以下の配信先を決定する。
+   - `channel: github` → はてな・note への転載は行わない（GitHub Pages へのみデプロイ）
+   - `channel: hatena` → はてなブログへ全文投稿（ステップ9へ進む）
+   - `channel: note` → GitHub Pages へサマリー掲載し、note へ投稿（ステップ9 の note 実行前にサマリー生成）
+6. クロスリンク挿入: 記事の最後に「関連記事」ブロックを挿入する（手順7.5のスロット別フォーマットを参照）。
 
 ## 7. 公開
 
 1. `git add` で自分が作ったファイルだけを追加（記事・画像フォルダ・OGP画像・必要なら category-plan.json / hugo.toml / layouts/index.html）。
    `git add -A` は使わない。`git commit` → `git push origin main`（pre-push フックが validate_post.py を再実行する。失敗したら直す）。
 2. `gh run list --workflow=hugo.yml --limit 1` で成功を確認し、`curl` で記事ページと各画像が 200 を返すことを確認する。
-3. はてなブログ: `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
-   （回り込みは extract が自動で付ける）。応答 `/tmp/hatena-response.xml` から Entry ID と URL を取る。
-4. note: `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish --no-wait --hold 5 --img-scale 1`。
-   「公開しました: https://note.com/shining_finger01/n/<key>」が出たら成功。失敗しても記事の公開自体は完了として扱い、結果に書く。
+3. **チャンネル別はてな・note投稿**:
+   - `channel: github` → はてな・note への投稿はスキップ
+   - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish` （回り込みは extract が自動で付ける）。応答 `/tmp/hatena-response.xml` から Entry ID と URL を取る。
+   - `channel: note` → まずサマリー生成（抜粋）を行い、次に `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish --no-wait --hold 5 --img-scale 1`。note 公開URLを確認して結果に書く。
+4. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
 
-## 8. 記録
+5. **クロスリンク挿入（CV誘導、手順1.4で確認したスロットに応じて出し分ける）**: 記事の本文末尾（Amazonリンク等より後）に
+   「## 関連記事」ブロックを挿入する。目的は、昼間の記事から夜の主力記事への予告、夜の記事からの本家・他チャンネルへの回遊。
+   - `07:30`（朝・github）/ `12:00`・`17:30`（昼・夕・hatena）: 下記の共通リンクに加えて、まだ存在しない今夜の記事URLではなく
+     プラットフォームのトップページへの「予告」行を1つ足す。例:
+     `- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)`
+   - `20:00`（夜・github）: 下記の共通リンクのみでよい（予告行は不要）。
+   - `21:30`・`23:00`（夜ピーク・就寝前・note）: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
+   共通フォーマット（自分が今回投稿するチャンネル以外へのリンクだけを載せる）:
+   ```
+   ## 関連記事
+   - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
+   - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
+   - [note版はこちら](https://note.com/shining_finger01/n/XXXX)
+   ```
+   ※ `XXXX` は実際のnote記事キーを執筆後に埋める。このステップの時点ではプレースホルダのまま残す。
 
 1. `python scripts/topic_plan.py complete <id> --slug <slug> --hatena <EntryID> --note <key>`（カテゴリーを自分で決めた場合は `--category <id>` も付ける）
 2. CLAUDE.md の「はてなブログ連携」表と「note.com への投稿」表に1行ずつ追記。
