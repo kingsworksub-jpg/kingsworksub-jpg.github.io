@@ -2,46 +2,71 @@
  {
   "id": "gear",
   "name": "機材レビュー",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "reviews"
  },
  {
   "id": "software",
   "name": "DTMソフト・Tips",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "github",
+  "content_dir": "tech"
  },
  {
   "id": "setup",
   "name": "制作環境公開",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "reviews"
  },
  {
   "id": "learning",
   "name": "スクール・学習",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "github",
+  "content_dir": "tech"
  },
  {
   "id": "whisky",
   "name": "ウイスキー",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture"
  },
  {
   "id": "drink",
   "name": "飲料",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture"
  },
  {
   "id": "sakeware",
   "name": "酒器",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture"
  },
  {
   "id": "fashion",
   "name": "ファッション",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "reviews"
  },
  {
   "id": "music",
   "name": "音楽",
-  "weight": 1.0
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "reviews"
+ },
+ {
+  "id": "essay",
+  "name": "カルチャーエッセイ",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture"
  }
 ]

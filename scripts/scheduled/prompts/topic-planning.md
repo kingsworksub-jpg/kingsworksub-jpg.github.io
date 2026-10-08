@@ -31,6 +31,15 @@ Windows タスクスケジューラから無人で起動されている。人間
 - `python scripts/topic_plan.py calendar` … 今月と来月の季節・行事
 - `python scripts/topic_plan.py gaps` … 既存記事のすき間（単独記事の無い製品など）
 - `python scripts/topic_plan.py matrix <category>` … 定番テーマの軸（ネタ切れ防止）
+- **カテゴリーと配信先の対応**（`category-plan.json` の `channel`。実際のカテゴリーIDはこれ）:
+  - `channel: github`（GitHub Pages のみ） … `software`（DTMソフト・Tips）/ `learning`（スクール・学習）
+  - `channel: hatena`（GitHub Pages + はてなブログ） … `gear`（機材レビュー）/ `setup`（制作環境公開）/ `fashion`（ファッション）/ `music`（音楽）
+  - `channel: note`（GitHub Pages + note） … `whisky`（ウイスキー）/ `drink`（飲料・廃止）/ `sakeware`（酒器・廃止）/ `essay`（カルチャーエッセイ）
+- **1日6投稿のスロット（`scripts/topic_plan.py` の `SLOTS`）**: 投稿は時間帯ごとに固定のチャンネルと記事の性格で組まれる
+  （07:30 github・実用寄り / 12:00 hatena・機材レビュー / 17:30 hatena・音楽レビュー / 20:00 github・テーマ記事（理論・構造寄り） /
+  21:30 note・ウイスキー等の製品カルチャー / 23:00 note・`essay` のエッセイ）。配分の採点自体はカテゴリー単位（`allocate`）で行うが、
+  同じチャンネルの中でも20:00向けは `article_type: "theme"` を、23:00向けは `essay` カテゴリーの候補を多めに作り、
+  各スロットが同じような記事で埋まらないようにする。
 - 必要に応じて Web 検索で、新製品・新作・トレンドが**実在し、現在の情報か**を確かめる。Web 検索は**必ずサブエージェントに任せる**
   （Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"` で起動。自分では WebSearch / WebFetch を呼ばない）。
   1件あたり5サイトまでを目安にし、確かめた事実を出典URL付きで返してもらう。

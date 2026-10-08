@@ -2,6 +2,18 @@
 
 **このブログの本質は特定ジャンル(音響機材等)への特化ではなく、「指定されたキーワード/ジャンルについて海外ソースを中心に調べ倒し、日本語記事に仕上げる」という汎用の記事生成ルーティンである**(2026-09-16、ユーザー確認済み)。音響機材・DTM・音楽制作ソフトは最初にこのルーティンを実行した結果できた柱であって、テーマそのものを音楽に縛る必要はない。今後は「あらゆるジャンル」を対象にしうる前提で動くこと。カテゴリ分類は記事の実態に合わせて事後的・柔軟に見直すもので、最初から固定しない。
 
+## プラットフォーム別コンテンツ戦略
+
+本ブログは3つのプラットフォームで構成されたエコシステムを運用します。
+
+- **GitHub Pages** (`kingsworksub-jpg.github.io`): **本家ポータル**・技術・理論記事のストックハブ。すべての記事のベースとなり、サマリーが掲載されます。
+- **はてなブログ** (`kinbro.hatenablog.com`): **レビュー・比較・実用ガイド**の検索（SEO）拡散ハブ。機材レビュー・音楽アルバム評・ファッション実用レビューに最適です。
+- **note** (`note.com/shining_finger01`): **カルチャー・美学・ライフスタイル**によるブランド・ファン化ハブ。ウイスキー・ファッション文化・制作裏話に適しています。
+
+プラットフォームへの配信は、記事の `category` フィールドに基づいて自動判定されます（詳細は「自動投稿パイプライン」節参照）。
+自動投稿は1日6回、時間帯ごとに配信チャンネルと記事の性格を固定したタイムテーブルで動く（「自動投稿パイプライン」節の
+「1日6投稿タイムテーブル」参照）。
+
 Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的サイト。
 
 - 公開URL: https://kingsworksub-jpg.github.io/
@@ -50,13 +62,42 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - 酒器の個別深掘り(2026-09-19〜2026-09-21、17本。カテゴリ`sakeware`。【2026-09-27 廃止】)
 - ジャズ/音楽の一般記事(2026-09-24〜、カテゴリ`music`。下記「自動継続タスク: テーマ記事の定期投稿」参照)
 
-## 自動投稿パイプライン（2026-10-01 全面改修、ユーザー指示）
+## 自動投稿パイプライン（2026-10-01 全面改修 → 2026-10-08 タイムテーブル改修、ユーザー指示）
 
-**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**8記事まで**（手動投稿も含む）。
+**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**6記事まで**（手動投稿も含む）。
 旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
+プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
+- `channel: github` → GitHub Pages へのみデプロイ（`software` / `learning`。技術・理論記事。はてな・note へ転載しない）
+- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`gear` / `setup` / `fashion` / `music`）
+- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`whisky` / `drink` / `sakeware` / `essay`）
+
+### 1日6投稿タイムテーブル（2026-10-08、ユーザー提示の仕様書に基づき改修）
+
+8回/2時間おきの均等配信から、アクセスピークの30〜60分前に当たる**6つの固定時刻**に変更した。各スロットは配信チャンネルを
+固定し、同じチャンネルでも朝/夜で記事の性格を変える。定義は `scripts/topic_plan.py` の `SLOTS`（`topic_plan.py slot` で
+現在時刻に最も近いスロットを取得できる）。
+
+| 順序 | 時刻 | 想定読者行動 | チャンネル | 優先する記事の性格 |
+|---|---|---|---|---|
+| 1本目 | 07:30 | 朝の通勤・始業前 | github | 実用寄り（guide/comparison/deep-dive） |
+| 2本目 | 12:00 | 昼休み | hatena | 機材レビュー（gear/setup/fashion） |
+| 3本目 | 17:30 | 退勤・帰宅移動 | hatena | 音楽アルバム評（music） |
+| 4本目 | 20:00 | 夕食後 | github | DTM理論・構造寄りのテーマ記事（article_type: theme） |
+| 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note | ウイスキー等の製品カルチャー（whisky/drink/sakeware） |
+| 6本目 | 23:00 | 就寝前 | note | カルチャーエッセイ（`essay` カテゴリー、2026-10-08新設） |
+
+`claim()` は現在のスロットのチャンネル・優先条件に合う承認済みネタを優先して選ぶ。合うネタが無ければチャンネルが合うネタ、
+それも無ければ通常の優先順位にフォールバックするため、キューが薄いスロットがあっても投稿は止まらない。
+
+**CV（回遊・収益）誘導**: 07:30・12:00・17:30の記事は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
+21:30・23:00の note 記事は末尾に GitHub Pages（本家）への回遊リンクを必ず残す（具体的な記事URLは執筆時点でまだ存在しないため、
+プラットフォームのトップページへリンクする）。各記事の frontmatter には、どのスロットで書かれたかを示す
+`scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は `scripts/scheduled/prompts/blog-post.md` の
+手順1.4・2・7.5。
+
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
-  - `blog-automation-task`: 投稿。毎日 07:15〜21:15 の2時間おき8回。指示文 `scripts/scheduled/prompts/blog-post.md`
+  - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`
   - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
 - **実行エンジン**: すべて Claude Code（`run-claude-task.ps1`）。big-pickle との日替わりは 2026-10-02 に廃止（上記「記事生成モデルの方針」）。
@@ -68,8 +109,9 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   連続失敗で止まったときは、原因に対処してから `topic_plan.py health-reset --reason ...` で解除する。指定のネタを優先したいときは queue の項目に `"pinned": true`。
   起動スクリプト（.ps1）は **ASCII のみ**にすること（PowerShell 5.1 が BOM なし UTF-8 を ANSI として読み、日本語で構文エラーになる）。
 - **品質の安全装置**: 新しい記事は `scripts/validate_post.py <slug>` に通ったものだけ公開する（本文の長さ、簡体字や他言語の混入、
-  禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ）。
+  禁止表現・廃止したタイトルの型、仮画像〔15KB未満〕、クレジット、未来日付、OGP、アソシエイトタグ、チャンネル未設定）。
   さらに `.git/hooks/pre-push`（原本 `scripts/hooks/pre-push`）が、push に含まれる**新規追加の記事**を同じ検査にかけ、NG なら push を止める。
+  チャンネルが `github` の記事のはてな・note への転載はブロックする。
   連続3回失敗すると投稿ジョブは自動で止まる（`topic_plan.py health`）。
 - **画像の偽造事故と対策（2026-10-03）**: 対話セッションで `/model haiku` に切り替えた影響で、`--model` を指定していなかった自動投稿3本
   （islay-malt / condenser-mic / audacity-4）が Haiku で動き、本物の画像の代わりに格子模様・白紙・乱数データ・グラデーションの「画像」と
@@ -80,13 +122,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
     radar-chart.awk 以外の SVG、figure の使い回し、Amazon 記事で画像がアソシエイトリンクで包まれていない場合も NG。
   - 公開後は `python scripts/check_live_page.py <slug>` で実ブラウザ（Playwright）表示を確認する（全画像の表示・figure のリンク・全ページのスクリーンショット）。
   - ASIN は Amazon で実在を確かめる（存在しない ASIN は「ページが見つかりません」になる）。
-- **管理スクリプト** `scripts/topic_plan.py`: status / allocate / today-count / engine / similar / add / claim / complete / fail / reject /
-  sync-skips / images / news / calendar / matrix / gaps / health / bootstrap（使い方は冒頭の docstring）。
+- **管理スクリプト** `scripts/topic_plan.py`: status / allocate / today-count / engine / slot / similar / add / claim / complete / fail / reject /
+  sync-skips / images / news / calendar / matrix / gaps / health / bootstrap（使い方は冒頭の docstring）。`slot` が現在時刻に最も近い
+  スロット（時刻・チャンネル・優先条件）を返す。
 - **データ**: `scripts/topics-queue.json`（キュー。status = approved / in_progress / published / failed / rejected / hold / deleted）、
-  `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。均等）、
+  `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。channel: github/hatena/note を含む。均等）、
   `scripts/topic-sources.json`（カテゴリー別RSS）、`scripts/topic-calendar.json`（月ごとの季節ネタ）、`scripts/topic-matrix.json`（定番テーマの軸）、
   `scripts/pipeline-status.json`（アプリ表示用の状態。実行中のジョブ・直近の実行結果も含む）。
 - **配分**: 直近60本に占める割合と目標（均等）の差＋最後の投稿からの日数で優先度を出し、1件ずつ再計算しながら配る。同じカテゴリーは連続させない。
+  チャンネル別の配分比率は category-plan.json の weight フィールドで調整可能。
 - **採点**: 重複25／事実確認20／画像20／季節15／検索需要10／Amazon10。60点未満は不採用。画像（ライセンス確認済み2件以上）が無いネタは不採用。
   製品中心でなくてよい（Amazon は加点のみ）。
 - **新カテゴリー**: 既存に合わない有力候補が3件以上出るときだけ、週1つまで作ってよい（category-plan.json・hugo.toml・layouts/index.html を更新）。
@@ -403,6 +447,12 @@ Xに自動投稿する様組は已終了。以下は履歴で、コードとタ�
 - `setup` — 制作環境公開
 - `learning` — スクール・学習
 - `whisky` — ウイスキー(音楽と無関係のジャンルもユーザー許可のもとで追加した実績あり)
+- `drink` — 飲料(【2026-09-27 廃止】個別深掘りシリーズは終了、カテゴリー自体は残存)
+- `sakeware` — 酒器(【2026-09-27 廃止】同上)
+- `fashion` — ファッション
+- `music` — 音楽
+- `essay` — カルチャーエッセイ(2026-10-08新設。1日6投稿タイムテーブルの23:00スロット用。ウイスキー等の製品カルチャーと違い、
+  思考整理・読み物寄りの長文エッセイを担当)
 
 ## 記事の型その1:「5製品比較」フォーマット
 
