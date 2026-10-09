@@ -1255,6 +1255,18 @@
    "note_key": "nab5ccca204af",
    "engine": "claude",
    "at": "2026-10-09T20:14:01+09:00"
+  },
+  {
+   "id": "2026w40-048",
+   "category": "sakeware",
+   "theme": "南部鉄器で湯煎する燗、鉄の道具を酒に使う",
+   "slug": "nanbu-tetsubin-kanzake-yusen",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/",
+   "hatena_entry": null,
+   "note_key": "nb82062a6c3ce",
+   "engine": "claude",
+   "at": "2026-10-10T07:42:26+09:00"
   }
  ]
 }
