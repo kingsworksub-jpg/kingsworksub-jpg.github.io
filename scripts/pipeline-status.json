@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T17:42:08+09:00",
+ "updated": "2026-10-09T20:00:02+09:00",
  "queue": {
   "approved": 48,
   "published": 24,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published fl-studio-pattern-piano-roll",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-09T20:00:02+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
