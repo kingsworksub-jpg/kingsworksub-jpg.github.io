@@ -1231,6 +1231,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-09T15:21:16+09:00"
+  },
+  {
+   "id": "2026w40-010",
+   "category": "software",
+   "theme": "FL Studio、生涯無償アップデートという売り方と打ち込みの癖",
+   "slug": "fl-studio-pattern-piano-roll",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/fl-studio-pattern-piano-roll/",
+   "hatena_entry": "14945776032087999491",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-09T17:41:52+09:00"
   }
  ]
 }
