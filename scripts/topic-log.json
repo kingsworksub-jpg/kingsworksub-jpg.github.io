@@ -1219,6 +1219,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-09T12:11:35+09:00"
+  },
+  {
+   "id": "2026w40-016",
+   "category": "setup",
+   "theme": "ワンルームの一角で配信環境を作る、生活と同居させる配置",
+   "slug": "one-room-streaming-setup-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/one-room-streaming-setup-2026/",
+   "hatena_entry": "14945776032087960224",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-09T15:21:16+09:00"
   }
  ]
 }
