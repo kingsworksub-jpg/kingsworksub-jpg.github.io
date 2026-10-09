@@ -1,0 +1,16 @@
+{
+ "/images/one-room-streaming-setup/studio1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Clapton_Bedroom_Studio_Mark_I_%28by_Gerald_Moore%2C_3975519483%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Clapton_Bedroom_Studio_Mark_I_(by_Gerald_Moore,_3975519483).jpg",
+  "license": "CC BY 2.0",
+  "author": "Gerald Moore",
+  "title": ""
+ },
+ "/images/one-room-streaming-setup/studio2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/2/25/Home_Sweet_Studio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Home_Sweet_Studio.jpg",
+  "license": "CC BY 2.0",
+  "author": "THOR",
+  "title": ""
+ }
+}
