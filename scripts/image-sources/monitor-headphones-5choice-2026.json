@@ -1,0 +1,44 @@
+{
+ "/images/monitor-headphones/ath-m50x.jpg": {
+  "download": "https://live.staticflickr.com/746/22330935543_6308c572c4_b.jpg",
+  "page": "https://www.flickr.com/photos/61676142@N00/22330935543",
+  "license": "CC BY 2.0",
+  "author": "Jose C Silva",
+  "title": ""
+ },
+ "/images/monitor-headphones/mdr-7506.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Sony_MDR-7506_7615.jpg/1280px-Sony_MDR-7506_7615.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Sony_MDR-7506_7615.jpg",
+  "license": "CC BY 4.0",
+  "author": "Ashley Pomeroy",
+  "title": "File:Sony MDR-7506 7615.jpg"
+ },
+ "/images/monitor-headphones/dt-770-pro.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Beyerdynamic_DT_770_PRO_80_Ohm_-01.JPG/1280px-Beyerdynamic_DT_770_PRO_80_Ohm_-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Beyerdynamic_DT_770_PRO_80_Ohm_-01.JPG",
+  "license": "CC BY-SA 3.0",
+  "author": "en:User:MMuzammils",
+  "title": "File:Beyerdynamic DT 770 PRO 80 Ohm -01.JPG"
+ },
+ "/images/monitor-headphones/hd-650.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sennheiser_HD650.jpg/1280px-Sennheiser_HD650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Sennheiser_HD650.jpg",
+  "license": "CC BY 2.5",
+  "author": "The original uploader was Geographer at English Wikipedia.",
+  "title": "File:Sennheiser HD650.jpg"
+ },
+ "/images/monitor-headphones/k240.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/AKG_K240_headphones.jpg/1280px-AKG_K240_headphones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:AKG_K240_headphones.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Jud McCranie",
+  "title": "File:AKG K240 headphones.jpg"
+ },
+ "/images/monitor-headphones/studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg/1280px-Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg",
+  "license": "CC BY 2.0",
+  "author": "Jason Meredith",
+  "title": "File:Cables & Monitor headphones, Downtown Recording.jpg"
+ }
+}
