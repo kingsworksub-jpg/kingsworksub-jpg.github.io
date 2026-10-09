@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T17:41:52+09:00",
+ "updated": "2026-10-09T20:00:26+09:00",
  "items": [
   {
    "category": "gear",
@@ -2206,9 +2206,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-039",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-09T20:00:26+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "20:00",
+   "slot_label": "夜: DTM音響理論/構造解説"
   },
   {
    "category": "drink",
