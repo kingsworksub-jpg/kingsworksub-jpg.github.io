@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T12:11:35+09:00",
+ "updated": "2026-10-09T12:11:50+09:00",
  "queue": {
   "approved": 50,
   "published": 22,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published monitor-headphones-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-09T12:00:04+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-09T07:36:02+09:00",
+  "at": "2026-10-09T12:11:50+09:00",
   "engine": "claude",
-  "detail": "One judgment call on the research: some of the figures it returned looked unreliable, such as an exact number of practice trials per day and week-by-week timelines. I left those numbers out. The article only cites the 2019 study in which 2 of 6 adults reached absolute-pitch-level accuracy after 8 we"
+  "detail": "- **No claim that the MDR-7506 is discontinued.** Sources disagreed on whether it has ended production, so the article only describes it as currently sold."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-09T12:11:50+09:00",
+   "engine": "claude",
+   "detail": "- **No claim that the MDR-7506 is discontinued.** Sources disagreed on whether it has ended production, so the article only describes it as currently sold."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-06T04:00:44+09:00",
    "engine": "claude",
    "detail": "なお `status` に `failures=1`（直近の投稿ジョブの失敗カウント）が出ています。3回連続で失敗すると投稿ジョブが自動停止する仕組みなので、投稿側が続けて失敗するようなら原因対処と `topic_plan.py health-reset` が必要になります。今回のネタ会議の範囲外なので手は付けていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-05T21:15:17+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 10:10pm (Asia/Tokyo)"
   }
  ]
 }
