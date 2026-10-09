@@ -395,6 +395,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 音楽理論を3か月で一周するなら、最初から読む本は1冊だけ | https://note.com/shining_finger01/n/nda76ef11b9e4 | `nda76ef11b9e4` | **公開済(2026-10-06)** |
 | 台湾とインドのウイスキー、熱い土地で樽は速く働く | https://note.com/shining_finger01/n/n497b40b8ae89 | `n497b40b8ae89` | **公開済(2026-10-09)** |
 | クラフトコーラの原液は、割る人が最後の調合を担う | https://note.com/shining_finger01/n/nab5ccca204af | `nab5ccca204af` | **公開済(2026-10-09)** |
+| 南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか | https://note.com/shining_finger01/n/nb82062a6c3ce | `nb82062a6c3ce` | **公開済(2026-10-10)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
