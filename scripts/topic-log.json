@@ -1243,6 +1243,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-09T17:41:52+09:00"
+  },
+  {
+   "id": "2026w40-039",
+   "category": "drink",
+   "theme": "クラフトコーラという作り方、スパイスから組み立てる黒い炭酸",
+   "slug": "craft-cola-spice-syrup-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/craft-cola-spice-syrup-2026/",
+   "hatena_entry": null,
+   "note_key": "nab5ccca204af",
+   "engine": "claude",
+   "at": "2026-10-09T20:14:01+09:00"
   }
  ]
 }

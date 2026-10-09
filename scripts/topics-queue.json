@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T20:00:26+09:00",
+ "updated": "2026-10-09T20:14:01+09:00",
  "items": [
   {
    "category": "gear",
@@ -2206,14 +2206,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-039",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-09T20:00:26+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: DTM音響理論/構造解説"
+   "slot_label": "夜: DTM音響理論/構造解説",
+   "slug": "craft-cola-spice-syrup-2026",
+   "published_at": "2026-10-09T20:14:01+09:00"
   },
   {
    "category": "drink",

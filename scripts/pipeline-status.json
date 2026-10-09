@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-09T20:00:26+09:00",
+ "updated": "2026-10-09T20:14:01+09:00",
  "queue": {
   "approved": 47,
-  "published": 24,
-  "rejected": 1,
-  "in_progress": 1
+  "published": 25,
+  "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published fl-studio-pattern-piano-roll",
+ "last_result": "published craft-cola-spice-syrup-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
