@@ -2,6 +2,8 @@
 title: "ワンルームの狭さを活かす、生活と共存する配信デスクの配置術"
 description: "ワンルームや限られたスペースで配信環境を構築するため、デスク配置やマイクアーム、モニターアーム、照明の工夫を徹底解説。生活動線を圧迫しない省スペースなレイアウトのコツを紹介します。"
 images: ["/images/og/one-room-streaming-setup-2026.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 date: 2026-10-09T10:00:00+09:00
 scheduled_time: "17:30"
 categories: ["setup"]
