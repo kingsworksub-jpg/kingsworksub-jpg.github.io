@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T17:30:33+09:00",
+ "updated": "2026-10-09T17:41:52+09:00",
  "items": [
   {
    "category": "gear",
@@ -597,14 +597,16 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-010",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-09T17:30:33+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "17:30",
-   "slot_label": "夕: 音楽アルバム評/名盤紹介"
+   "slot_label": "夕: 音楽アルバム評/名盤紹介",
+   "slug": "fl-studio-pattern-piano-roll",
+   "published_at": "2026-10-09T17:41:52+09:00"
   },
   {
    "category": "software",
