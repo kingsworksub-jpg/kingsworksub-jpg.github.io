@@ -1,0 +1,30 @@
+{
+ "/images/craft-cola/iyoshi-syrup.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/IyoshiColaSyrup.jpg/1280px-IyoshiColaSyrup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:IyoshiColaSyrup.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "漱石の猫",
+  "title": "File:IyoshiColaSyrup.jpg"
+ },
+ "/images/craft-cola/iyoshi-cola.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Iyoshi_Cola.jpg/1280px-Iyoshi_Cola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Iyoshi_Cola.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "スロッさん",
+  "title": "File:Iyoshi Cola.jpg"
+ },
+ "/images/craft-cola/kola-nut-market.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cola_nut_at_the_market_in_Funsi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Cola_nut_at_the_market_in_Funsi.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Dnshitobu",
+  "title": "File:Cola nut at the market in Funsi.jpg"
+ },
+ "/images/craft-cola/signature-mixers.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Coca-Cola-signature_mixers-smoky_notes-front.jpg/1280px-Coca-Cola-signature_mixers-smoky_notes-front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-front.jpg",
+  "license": "CC0",
+  "author": "FlippyFlink",
+  "title": "File:Coca-Cola-signature mixers-smoky notes-front.jpg"
+ }
+}
