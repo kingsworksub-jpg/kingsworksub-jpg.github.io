@@ -1,0 +1,30 @@
+{
+ "/images/fl-studio/tr-808.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Roland_TR-808_%28large%29.jpg/1280px-Roland_TR-808_%28large%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Roland_TR-808_(large).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Roland_TR-808_&_909.jpg: Brandon Daniel derivative work: Clusternote (talk)",
+  "title": "File:Roland TR-808 (large).jpg"
+ },
+ "/images/fl-studio/player-piano-roll.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/PlayerPianoRoll.jpg/1280px-PlayerPianoRoll.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:PlayerPianoRoll.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Draconichiaro",
+  "title": "File:PlayerPianoRoll.jpg"
+ },
+ "/images/fl-studio/minilab3-desk.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Arturia_Minilab3.jpg/1280px-Arturia_Minilab3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Arturia_Minilab3.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Leo Ronert",
+  "title": "File:Arturia Minilab3.jpg"
+ },
+ "/images/fl-studio/bedroom-studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Small_Bedroom_Studio_%2846795883802%29.jpg/1280px-Small_Bedroom_Studio_%2846795883802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Small_Bedroom_Studio_(46795883802).jpg",
+  "license": "CC BY 2.0",
+  "author": "Dejan Krsmanovic",
+  "title": "File:Small Bedroom Studio (46795883802).jpg"
+ }
+}
