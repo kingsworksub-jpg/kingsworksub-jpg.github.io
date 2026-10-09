@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T12:00:28+09:00",
+ "updated": "2026-10-09T12:11:35+09:00",
  "items": [
   {
    "category": "gear",
@@ -277,14 +277,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-005",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-09T12:00:28+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "12:00",
-   "slot_label": "昼: DTM機材/ガジェットレビュー"
+   "slot_label": "昼: DTM機材/ガジェットレビュー",
+   "slug": "monitor-headphones-5choice-2026",
+   "published_at": "2026-10-09T12:11:35+09:00"
   },
   {
    "category": "gear",
