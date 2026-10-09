@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:42:26+09:00",
+ "updated": "2026-10-10T07:42:38+09:00",
  "queue": {
   "approved": 46,
   "published": 26,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published nanbu-tetsubin-kanzake-yusen",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-10T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-10T04:00:31+09:00",
+  "at": "2026-10-10T07:42:38+09:00",
   "engine": "claude",
-  "detail": "ほかに `status` で気になった点があります。`tech`・`lab`・`notes` の3カテゴリーは、CLAUDE.md のカテゴリー一覧に載っていません。未コミットの `category-plan.json` の変更で入ったものかもしれません。この変更をコミットするか取り消すまでは、次回以降の pull も同じ理由で失敗します。"
+  "detail": "- 作業ツリーに、コミットしていないカテゴリー再編の変更があります（`hugo.toml`、`layouts/index.html`、`scripts/category-plan.json`、`topic-matrix.json`、`topic-sources.json`）。どれも手を付けず、コミットにも含めていません。ただし、ネタの取り出しは `category-plan.json` のこの未コミット版を読んで動いています。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-10T07:42:38+09:00",
+   "engine": "claude",
+   "detail": "- 作業ツリーに、コミットしていないカテゴリー再編の変更があります（`hugo.toml`、`layouts/index.html`、`scripts/category-plan.json`、`topic-matrix.json`、`topic-sources.json`）。どれも手を付けず、コミットにも含めていません。ただし、ネタの取り出しは `category-plan.json` のこの未コミット版を読んで動いています。"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-09T02:51:16+09:00",
    "engine": "claude",
    "detail": "- **関連記事 links:** the article has no はてな or note version, so the instructions' 'はてなブログ版はこちら' and note `XXXX` placeholder would have been broken or misleading. I linked to each platform's top page instead, with the 予告 line for the 07:30 slot."
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-10-08T04:01:06+09:00",
-   "engine": "claude",
-   "detail": "注意として1点: `status` が `failures=3` を示しています。CLAUDE.md の安全装置どおりなら投稿ジョブ（`blog-automation-task`）は自動停止している状態です。再開するには原因を確認した上で `python scripts/topic_plan.py health-reset --reason ...` が必要ですが、このネタ会議の指示範囲外なので何も触っていません。"
   }
  ]
 }
