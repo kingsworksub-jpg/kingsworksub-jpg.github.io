@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T17:26:15+09:00",
+ "updated": "2026-10-10T17:30:24+09:00",
  "items": [
   {
    "category": "gear",
@@ -1467,9 +1467,14 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-027",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-10T17:30:24+09:00",
+   "channel": "ameba",
+   "content_dir": "tech",
+   "slot_time": "17:30",
+   "slot_label": "夕: 機材レビュー/学習体験談"
   },
   {
    "category": "learning",
