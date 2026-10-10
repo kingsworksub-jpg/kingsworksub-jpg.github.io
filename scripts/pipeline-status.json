@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-10T17:30:24+09:00",
+ "updated": "2026-10-10T17:41:06+09:00",
  "queue": {
   "approved": 42,
-  "published": 29,
-  "in_progress": 1,
+  "published": 30,
   "rejected": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published adult-piano-learning-2026",
+ "last_result": "published dtm-school-or-self-study-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
