@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T04:00:02+09:00",
+ "updated": "2026-10-11T04:00:23+09:00",
  "queue": {
   "approved": 64,
   "published": 33,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published urushi-sakazuki-shu-kuro",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-11T04:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-planning",
-  "label": "ネタ会議",
   "state": "finished",
-  "at": "2026-10-11T03:25:11+09:00",
+  "at": "2026-10-11T04:00:23+09:00",
   "engine": "claude",
-  "detail": "- 0 topics added, 0 not adopted, no category breakdown this time."
+  "detail": "- ファイルの変更が無いため、commit と push はしていません。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-11T04:00:23+09:00",
+   "engine": "claude",
+   "detail": "- ファイルの変更が無いため、commit と push はしていません。"
+  },
   {
    "job": "topic-planning",
    "label": "ネタ会議",
@@ -97,14 +100,6 @@
    "at": "2026-10-09T23:00:39+09:00",
    "engine": "claude",
    "detail": "- コミットしていない変更が5ファイル残っていたため、そのままでは `git pull --rebase` が通りませんでした。そこで `--autostash` で取り込み直しました（すでに最新でした）。残っていたのは `hugo.toml`、`layouts/index.html`、`scripts/category-plan.json`、`scripts/topic-matrix.json`、`scripts/topic-sources.json` で、ご自身で作業中の変更と思われるため、コミットせず元のまま残してあります。内容はカテゴリーの再編で、`tech`・`lab`・`notes"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-09T21:30:25+09:00",
-   "engine": "claude",
-   "detail": "- **未完了の手順:** 最初の `git pull --rebase` は実行できませんでした。`hugo.toml`、`layouts/index.html`、`scripts/` 内の JSON 3つに、コミットされていない変更が残っているためです。あなたの作業と思われるので、退避も破棄もしていません。このままだと、次の投稿の回も pull の段階で失敗する可能性があります。"
   }
  ]
 }
