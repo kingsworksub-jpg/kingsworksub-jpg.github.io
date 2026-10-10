@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-10T23:00:20+09:00",
+ "updated": "2026-10-10T23:11:14+09:00",
  "queue": {
   "approved": 39,
-  "published": 32,
-  "rejected": 1,
-  "in_progress": 1
+  "published": 33,
+  "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published whisky-year-end-gift-guide-2026",
+ "last_result": "published urushi-sakazuki-shu-kuro",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
