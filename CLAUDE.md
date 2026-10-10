@@ -295,6 +295,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く | https://kinbro.hatenablog.com/entry/2026/10/09/121119 | 14945776032087902477 |
 | ワンルームの狭さを活かす、生活と共存する配信デスクの配置術 | https://kinbro.hatenablog.com/entry/2026/10/09/152111 | 14945776032087960224 |
 | FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位 | https://kinbro.hatenablog.com/entry/2026/10/09/174142 | 14945776032087999491 |
+| モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる | https://kinbro.hatenablog.com/entry/2026/10/10/121118 | 14945776032088323658 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 

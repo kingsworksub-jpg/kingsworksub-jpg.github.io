@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-10T12:00:30+09:00",
+ "updated": "2026-10-10T12:11:24+09:00",
  "queue": {
   "approved": 45,
-  "published": 26,
-  "in_progress": 1,
+  "published": 27,
   "rejected": 1
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published nanbu-tetsubin-kanzake-yusen",
+ "last_result": "published nearfield-monitors-5choice-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
