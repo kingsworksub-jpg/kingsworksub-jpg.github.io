@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:42:26+09:00",
+ "updated": "2026-10-10T12:00:30+09:00",
  "items": [
   {
    "category": "gear",
@@ -356,9 +356,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-006",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-10T12:00:30+09:00",
+   "channel": "hatena",
+   "content_dir": "reviews",
+   "slot_time": "12:00",
+   "slot_label": "昼: DTM機材/ガジェットレビュー"
   },
   {
    "category": "gear",
