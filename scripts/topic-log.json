@@ -1279,6 +1279,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-10T12:11:24+09:00"
+  },
+  {
+   "id": "2026w40-028",
+   "category": "learning",
+   "theme": "コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める",
+   "slug": "code-progress-1month-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/code-progress-1month-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-10T16:33:15+09:00"
   }
  ]
 }

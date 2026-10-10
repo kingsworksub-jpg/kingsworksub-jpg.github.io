@@ -99,10 +99,11 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 1. `git add` で自分が作ったファイルだけを追加（記事・画像フォルダ・OGP画像・必要なら category-plan.json / hugo.toml / layouts/index.html）。
    `git add -A` は使わない。`git commit` → `git push origin main`（pre-push フックが validate_post.py を再実行する。失敗したら直す）。
 2. `gh run list --workflow=hugo.yml --limit 1` で成功を確認し、`curl` で記事ページと各画像が 200 を返すことを確認する。
-3. **チャンネル別はてな・note投稿**:
-   - `channel: github` → はてな・note への投稿はスキップ
-   - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish` （回り込みは extract が自動で付ける）。応答 `/tmp/hatena-response.xml` から Entry ID と URL を取る。
-   - `channel: note` → まずサマリー生成（抜粋）を行い、次に `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish --no-wait --hold 5 --img-scale 1`。note 公開URLを確認して結果に書く。
+3. **チャンネル別外部プラットフォーム投稿**:
+   - `channel: github` → 外部転送スキップ
+   - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
+   - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
+   - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
 4. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
 
 5. **クロスリンク挿入（CV誘導、手順1.4で確認したスロットに応じて出し分ける）**: 記事の本文末尾（Amazonリンク等より後）に

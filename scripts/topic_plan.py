@@ -71,18 +71,18 @@ MAX_RETRY = 2
 # approved topic matches, claim() falls back to any topic in the right channel, then to anything at
 # all, so a thin queue never stalls the run.
 SLOTS = [
-    {"time": "07:30", "channel": "github", "article_types": ["guide", "comparison", "deep-dive"],
-     "label": "朝: Tech/AI/開発"},
-    {"time": "12:00", "channel": "hatena", "categories": ["gear", "setup", "fashion"],
-     "label": "昼: DTM機材/ガジェットレビュー"},
-    {"time": "17:30", "channel": "hatena", "categories": ["music"],
-     "label": "夕: 音楽アルバム評/名盤紹介"},
-    {"time": "20:00", "channel": "github", "article_types": ["theme"],
-     "label": "夜: DTM音響理論/構造解説"},
-    {"time": "21:30", "channel": "note", "categories": ["whisky", "drink", "sakeware"],
-     "label": "夜ピーク: ウイスキー/ファッション史"},
+    {"time": "07:30", "channel": "github", "categories": ["lab", "notes"],
+     "label": "朝: 検証メモ/個人備忘録"},
+    {"time": "12:00", "channel": "hatena", "categories": ["tech", "software", "setup"],
+     "label": "昼: テック/ソフト/制作環境"},
+    {"time": "17:30", "channel": "ameba", "categories": ["gear", "learning"],
+     "label": "夕: 機材レビュー/学習体験談"},
+    {"time": "20:00", "channel": "ameba", "categories": ["fashion", "drink"],
+     "label": "夜: ファッション/飲料"},
+    {"time": "21:30", "channel": "note", "categories": ["whisky", "music", "sakeware"],
+     "label": "夜ピーク: ウイスキー/音楽/酒器"},
     {"time": "23:00", "channel": "note", "categories": ["essay"],
-     "label": "就寝前: カルチャーエッセイ/思考整理"},
+     "label": "就寝前: カルチャーエッセイ"},
 ]
 POSTS_PER_DAY = len(SLOTS)
 
