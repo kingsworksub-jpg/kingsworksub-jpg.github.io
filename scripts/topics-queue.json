@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:41:22+09:00",
+ "updated": "2026-10-10T23:00:20+09:00",
  "items": [
   {
    "category": "gear",
@@ -4014,9 +4014,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-070",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-10T23:00:20+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ"
   },
   {
    "category": "fashion",
