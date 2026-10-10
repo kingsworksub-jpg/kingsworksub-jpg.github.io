@@ -398,6 +398,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | クラフトコーラの原液は、割る人が最後の調合を担う | https://note.com/shining_finger01/n/nab5ccca204af | `nab5ccca204af` | **公開済(2026-10-09)** |
 | 南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか | https://note.com/shining_finger01/n/nb82062a6c3ce | `nb82062a6c3ce` | **公開済(2026-10-10)** |
 | ウイスキーを年末に贈るなら、化粧箱の1本とアドベントカレンダーは別の買い物 | https://note.com/shining_finger01/n/nd9ffa91f6394 | `nd9ffa91f6394` | **公開済(2026-10-10)** |
+| 漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える | https://note.com/shining_finger01/n/n0a6293f2fc7d | `n0a6293f2fc7d` | **公開済(2026-10-10)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
