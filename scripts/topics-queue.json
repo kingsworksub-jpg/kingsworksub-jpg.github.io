@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T20:00:30+09:00",
+ "updated": "2026-10-10T20:09:46+09:00",
  "items": [
   {
    "category": "gear",
@@ -4073,14 +4073,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-071",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-04",
    "retry": 0,
    "claimed_at": "2026-10-10T20:00:30+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料"
+   "slot_label": "夜: ファッション/飲料",
+   "slug": "leather-gloves-lining-guide-2026",
+   "published_at": "2026-10-10T20:09:46+09:00"
   },
   {
    "category": "music",
