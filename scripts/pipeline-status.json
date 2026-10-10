@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T23:11:14+09:00",
+ "updated": "2026-10-10T23:11:26+09:00",
  "queue": {
   "approved": 39,
   "published": 33,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published urushi-sakazuki-shu-kuro",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-10T23:00:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-10T21:41:42+09:00",
+  "at": "2026-10-10T23:11:26+09:00",
   "engine": "claude",
-  "detail": "The topic is marked complete with the note key, the note table in CLAUDE.md has the new row, and everything is pushed. This is the 5th post today."
+  "detail": "This 23:00 slot prefers `essay`, but the queue gave me a sakeware topic. It still goes to note, which is the right channel for this slot. This was the 6th post today, so today's limit of 6 is now reached."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-10T23:11:26+09:00",
+   "engine": "claude",
+   "detail": "This 23:00 slot prefers `essay`, but the queue gave me a sakeware topic. It still goes to note, which is the right channel for this slot. This was the 6th post today, so today's limit of 6 is now reached."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-09T20:14:22+09:00",
    "engine": "claude",
    "detail": "This was the 6th article today, so later runs will stop at the daily limit. The uncommitted edits to `hugo.toml`, `layouts/index.html` and the `scripts/*.json` files were already there before this run; I left them out of my commits."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-09T17:42:08+09:00",
-   "engine": "claude",
-   "detail": "- **Extra file in the article commit:** `og_dimensions.py` also added the missing OG image size to the earlier `one-room-streaming-setup-2026.md`, and that went into the same commit."
   }
  ]
 }
