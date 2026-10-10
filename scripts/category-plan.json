@@ -1,16 +1,16 @@
 [
  {
   "id": "gear",
-  "name": "機材レビュー",
+  "name": "機材・ガジェットレビュー",
   "weight": 1.0,
-  "channel": "hatena",
+  "channel": "ameba",
   "content_dir": "reviews"
  },
  {
   "id": "software",
   "name": "DTMソフト・Tips",
   "weight": 1.0,
-  "channel": "github",
+  "channel": "hatena",
   "content_dir": "tech"
  },
  {
@@ -22,9 +22,16 @@
  },
  {
   "id": "learning",
-  "name": "スクール・学習",
+  "name": "スクール・学習体験談",
   "weight": 1.0,
-  "channel": "github",
+  "channel": "ameba",
+  "content_dir": "tech"
+ },
+ {
+  "id": "tech",
+  "name": "テック・AI",
+  "weight": 1.0,
+  "channel": "hatena",
   "content_dir": "tech"
  },
  {
@@ -36,9 +43,9 @@
  },
  {
   "id": "drink",
-  "name": "飲料",
+  "name": "飲料・缶コーヒー・炭酸水等",
   "weight": 1.0,
-  "channel": "note",
+  "channel": "ameba",
   "content_dir": "culture"
  },
  {
@@ -50,17 +57,17 @@
  },
  {
   "id": "fashion",
-  "name": "ファッション",
+  "name": "ファッション・愛用品",
   "weight": 1.0,
-  "channel": "hatena",
-  "content_dir": "reviews"
+  "channel": "ameba",
+  "content_dir": "culture"
  },
  {
   "id": "music",
-  "name": "音楽",
+  "name": "音楽・レビュー・ディスクガイド",
   "weight": 1.0,
-  "channel": "hatena",
-  "content_dir": "reviews"
+  "channel": "note",
+  "content_dir": "culture"
  },
  {
   "id": "essay",
@@ -68,5 +75,19 @@
   "weight": 1.0,
   "channel": "note",
   "content_dir": "culture"
+ },
+ {
+  "id": "lab",
+  "name": "検証メモ",
+  "weight": 1.0,
+  "channel": "github",
+  "content_dir": "tech"
+ },
+ {
+  "id": "notes",
+  "name": "個人備忘録",
+  "weight": 1.0,
+  "channel": "github",
+  "content_dir": "tech"
  }
 ]

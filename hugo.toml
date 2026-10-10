@@ -92,17 +92,32 @@ pygmentsUseClasses = true
     name = 'ファッション'
     url = '/categories/fashion/'
     weight = 48
-  [[menu.main]]
+   [[menu.main]]
     identifier = 'music'
-    name = '音楽'
+    name = '音楽・レビュー・ディスクガイド'
     url = '/categories/music/'
     weight = 49
-  [[menu.main]]
+   [[menu.main]]
     identifier = 'essay'
     name = 'カルチャーエッセイ'
     url = '/categories/essay/'
     weight = 50
-  [[menu.main]]
+   [[menu.main]]
+    identifier = 'tech'
+    name = 'テック・AI'
+    url = '/categories/tech/'
+    weight = 51
+   [[menu.main]]
+    identifier = 'lab'
+    name = '検証メモ'
+    url = '/categories/lab/'
+    weight = 52
+   [[menu.main]]
+    identifier = 'notes'
+    name = '個人備忘録'
+    url = '/categories/notes/'
+    weight = 53
+   [[menu.main]]
     identifier = 'search'
     name = '検索'
     url = '/search/'
