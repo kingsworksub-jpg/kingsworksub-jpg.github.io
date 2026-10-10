@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T20:09:46+09:00",
+ "updated": "2026-10-10T21:30:22+09:00",
  "items": [
   {
    "category": "gear",
@@ -1973,11 +1973,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-035",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
    "retry": 0,
-   "claimed_at": "2026-10-07T21:35:26+09:00",
-   "last_error": null
+   "claimed_at": "2026-10-10T21:30:22+09:00",
+   "last_error": null,
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
   },
   {
    "category": "whisky",
