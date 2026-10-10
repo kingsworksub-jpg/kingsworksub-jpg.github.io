@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T07:45:07+09:00",
+ "updated": "2026-10-11T07:59:15+09:00",
  "queue": {
   "approved": 63,
   "published": 34,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published streaming-loudness-normalization-lufs",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-11T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-11T04:00:23+09:00",
+  "at": "2026-10-11T07:59:15+09:00",
   "engine": "claude",
-  "detail": "- ファイルの変更が無いため、commit と push はしていません。"
+  "detail": "I skipped this run and published nothing. It was started by one of my own wait timers from the previous run, not by the 6-a-day scheduler. The 07:30 slot already has its post (`streaming-loudness-normalization-lufs`), so a second one now would double up that slot. The timers are now stopped, and the"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-11T07:59:15+09:00",
+   "engine": "claude",
+   "detail": "I skipped this run and published nothing. It was started by one of my own wait timers from the previous run, not by the 6-a-day scheduler. The 07:30 slot already has its post (`streaming-loudness-normalization-lufs`), so a second one now would double up that slot. The timers are now stopped, and the"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-10T04:00:31+09:00",
    "engine": "claude",
    "detail": "ほかに `status` で気になった点があります。`tech`・`lab`・`notes` の3カテゴリーは、CLAUDE.md のカテゴリー一覧に載っていません。未コミットの `category-plan.json` の変更で入ったものかもしれません。この変更をコミットするか取り消すまでは、次回以降の pull も同じ理由で失敗します。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-09T23:00:39+09:00",
-   "engine": "claude",
-   "detail": "- コミットしていない変更が5ファイル残っていたため、そのままでは `git pull --rebase` が通りませんでした。そこで `--autostash` で取り込み直しました（すでに最新でした）。残っていたのは `hugo.toml`、`layouts/index.html`、`scripts/category-plan.json`、`scripts/topic-matrix.json`、`scripts/topic-sources.json` で、ご自身で作業中の変更と思われるため、コミットせず元のまま残してあります。内容はカテゴリーの再編で、`tech`・`lab`・`notes"
   }
  ]
 }
