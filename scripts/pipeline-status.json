@@ -1,17 +1,22 @@
 {
- "updated": "2026-10-10T23:11:26+09:00",
+ "updated": "2026-10-11T03:00:03+09:00",
  "queue": {
   "approved": 39,
   "published": 33,
   "rejected": 1
  },
- "today_posts": 6,
+ "today_posts": 0,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published urushi-sakazuki-shu-kuro",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "topic-planning",
+  "label": "ネタ会議",
+  "since": "2026-10-11T03:00:03+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
