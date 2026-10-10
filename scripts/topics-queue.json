@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T23:11:14+09:00",
+ "updated": "2026-10-11T03:10:55+09:00",
  "items": [
   {
    "category": "gear",
@@ -4191,6 +4191,1522 @@
    "claimed_at": "2026-10-05T15:15:22+09:00",
    "slug": "randy-crawford-raw-silk",
    "published_at": "2026-10-05T15:31:56+09:00"
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Sony ECM-AX10、スマホに挿すだけでアンビソニックス録音するUSB-Cマイク",
+   "angle": "4基の無指向性カプセルでアンビソニックス・バイノーラル・ステレオを切り替え、Eclipsa Audioにも対応したスマホ用USB-Cマイク。フィールド録音や空間オーディオ素材集めにどこまで使えるかを見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ECM-AX10",
+    "スマホ 空間オーディオ マイク"
+   ],
+   "subjects": [
+    {
+     "name": "Sony ECM-AX10",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "http://www.phileweb.com/news/d-av/202610/09/66125.html",
+    "https://petapixel.com/2026/10/08/sonys-omnidirectional-mic-captures-spatial-audio-into-your-smartphone/",
+    "https://www.soundguys.com/sony-ecm-ax10-spatial-audio-mic-launched-164484/",
+    "https://www.mixonline.com/technology/news-products/sony-launches-spatial-audio-mic-for-smartphones"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sony_ECM-990F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Sony_ECM-990F.jpg",
+     "license": "CC BY 4.0",
+     "author": "Alexdarek"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Sony_ECM-CG50.jpg/960px-Sony_ECM-CG50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sony_ECM-CG50.jpg",
+     "license": "CC BY 3.0",
+     "author": "SkywalkerPL"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Sony-Microphone-ECM-MS907.jpg/960px-Sony-Microphone-ECM-MS907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sony-Microphone-ECM-MS907.jpg",
+     "license": "Public domain",
+     "author": "Evan-Amos"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 10,
+    "season": 14,
+    "demand": 8,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-002",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Fender Studio Pro 8、Studio Oneから名前が変わって何が残り何が変わったか",
+   "angle": "2026年1月にPreSonus Studio OneがFender Studio Proへ改名。アンプモデルやオーディオ→ノート変換など追加された機能と、従来のワークフローで残ったものを分ける。Fender Motion 16/32購入でStudio Proのライセンスが付く点にも触れる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Fender Studio Pro 8",
+    "Studio One 改名"
+   ],
+   "subjects": [
+    {
+     "name": "Fender Studio Pro 8",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Studio One",
+     "status": "renamed",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.soundonsound.com/news/studio-one-becomes-fender-studio-pro",
+    "https://www.dtmstation.com/archives/80198.html",
+    "https://www.soundonsound.com/news/fender-launch-fender-motion-controllers",
+    "https://mmrmagazine.com/fender-introduces-motion-controllers-with-studio-pro-integration/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/PreSonus_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg/960px-PreSonus_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:PreSonus_-_2014_NAMM_Show_(by_Matt_Vanacoro).jpg",
+     "license": "CC BY 2.0",
+     "author": "Matt Vanacoro"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/PreSonus_FaderPort.jpg/960px-PreSonus_FaderPort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:PreSonus_FaderPort.jpg",
+     "license": "CC BY 2.0",
+     "author": "John Athayde from Washington, DC, USA"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/PreSonus_StudioLive_12.4.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:PreSonus_StudioLive_12.4.2.jpg",
+     "license": "CC BY 2.0",
+     "author": "Stephen  Heywood"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 15,
+    "season": 12,
+    "demand": 9,
+    "amazon": 6,
+    "total": 84
+   },
+   "source_of_idea": "gap",
+   "id": "2026w41-003",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "ACE Studioで歌声を作る、歌詞とMIDIからボーカルトラックを起こすAI合成",
+   "angle": "ACE Studio 2.0系で、歌詞とMIDIを入れて140種ほどの声モデルから歌わせる流れと、ボーカロイド的な調声との違い、商用利用・価格(永続ライセンス)を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ACE Studio 使い方",
+    "AI 歌声合成 DAW"
+   ],
+   "subjects": [
+    {
+     "name": "ACE Studio 2.0",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://sleepfreaks-dtm.com/ace-studio/acestudio/",
+    "https://www.recordingmag.com/news/timedomain-releases-ace-studio-2-0-7-introduces-video-composer",
+    "https://mixdownmag.com.au/reviews/review-ace-studio-2-0/",
+    "https://www.kvraudio.com/news-print.php?id=66436"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/RCAStudioB_vocal_booth.jpg/960px-RCAStudioB_vocal_booth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:RCAStudioB_vocal_booth.jpg",
+     "license": "CC BY 2.0",
+     "author": "Cliff from I now live in Arlington, VA (Outside Washington D"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vocal_Booth..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Vocal_Booth..jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "StudioMalibu14"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Recording_studio_console_for_DAW_work_%282016-03-23_15.01.29_by_DayronV_%40pixabay_1290090%29.jpg/960px-Recording_studio_console_for_DAW_work_%282016-03-23_15.01.29_by_DayronV_%40pixabay_1290090%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Recording_studio_console_for_DAW_work_(2016-03-23_15.01.29_by_DayronV_@pixabay_1290090).jpg",
+     "license": "CC0",
+     "author": "Dayron Villaverde from Miami, USA"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 12,
+    "season": 10,
+    "demand": 8,
+    "amazon": 0,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-004",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "制作PCの静音化、ファンの音を録音に入れないためのケースと置き場所",
+   "angle": "静音ケース(Fractal Design・be quiet!)、低回転の大型ファンへの交換、PCを別室や机の下の離れた位置に置く配線までを、マイクに入るノイズの量で優先順位をつけて並べる。",
+   "article_type": "guide",
+   "keywords": [
+    "制作PC 静音化",
+    "PC ファン 録音 ノイズ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://forum.level1techs.com/t/quietest-pc-cases-for-music-production-pc-build/233841",
+    "https://www.kvraudio.com/forum/viewtopic.php?p=9110988",
+    "https://www.fractal-design.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Computer_case_-_Full_Tower.jpg/960px-Computer_case_-_Full_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Computer_case_-_Full_Tower.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Dmitry Makeev"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Antec-branded_80mm_case_fan.jpg/960px-Antec-branded_80mm_case_fan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Antec-branded_80mm_case_fan.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Mkhan4793"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg/960px-Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Bretwa"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/ATX_Computer_cases%2C_back_view.jpg/960px-ATX_Computer_cases%2C_back_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ATX_Computer_cases,_back_view.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Dmitry Makeev"
+    }
+   ],
+   "season": "冬前(10〜11月)",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 6,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-005",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ピアノ練習アプリを3か月、Simply PianoとSkooveとflowkeyの続け方",
+   "angle": "年額1.5〜2万円台の3アプリを、音の判定方法(マイク/MIDI)・楽譜の出し方・待ってくれるモードの有無で比べ、3か月続けるための配分を組む。DTMで鍵盤を弾けるようになりたい人向け。",
+   "article_type": "comparison",
+   "keywords": [
+    "ピアノ 練習 アプリ 比較",
+    "Simply Piano flowkey Skoove"
+   ],
+   "subjects": [
+    {
+     "name": "Simply Piano",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Skoove",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "flowkey",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.flowkey.com/",
+    "https://www.skoove.com/",
+    "https://www.hellosimply.com/simply-piano",
+    "https://hackernoon.com/lite/best-piano-learning-apps-in-2026-an-in-depth-comparison-of-music-education-technology"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Yamaha_P-85_with_sheet_music.jpg/960px-Yamaha_P-85_with_sheet_music.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Yamaha_P-85_with_sheet_music.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Morn"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Digital-piano-423.jpg/960px-Digital-piano-423.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Digital-piano-423.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Pianomangeorge"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_%282016-06-25_22.01.41_by_Scott_Ritchie%29.jpg/960px-Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_%282016-06-25_22.01.41_by_Scott_Ritchie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_(2016-06-25_22.01.41_by_Scott_Ritchie).jpg",
+     "license": "CC BY 2.0",
+     "author": "Scott  Ritchie from Harrisburg, USA"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 17,
+    "season": 7,
+    "demand": 9,
+    "amazon": 8,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-006",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "自動耳コピと自分の耳、1か月の耳コピ練習でどこまで聴き取れるか",
+   "angle": "30年かけて開発されてきた自動採譜『WaoN』がiOS/Macアプリになった。自動採譜に頼る部分と、自分の耳で取る部分(ベースライン→コード→メロディ)を分けて1か月の練習を組む。",
+   "article_type": "guide",
+   "keywords": [
+    "耳コピ 練習 方法",
+    "WaoN 自動耳コピ"
+   ],
+   "subjects": [
+    {
+     "name": "WaoN",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.dtmstation.com/archives/80372.html",
+    "https://formulae.brew.sh/formula/waon",
+    "https://www.seventhstring.com/xscribe/overview.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/A_tuning_fork_placed_on_sheet_music.jpg/960px-A_tuning_fork_placed_on_sheet_music.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_tuning_fork_placed_on_sheet_music.jpg",
+     "license": "CC BY 4.0",
+     "author": "Lukasz Kobus, European Commission"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/A_tuning_fork_placed_on_sheet_music_2.jpg/960px-A_tuning_fork_placed_on_sheet_music_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_tuning_fork_placed_on_sheet_music_2.jpg",
+     "license": "CC BY 4.0",
+     "author": "Lukasz Kobus, European Commission"
+    },
+    {
+     "url": "https://live.staticflickr.com/4013/4270562031_fd0a54b60f_b.jpg",
+     "page": "https://www.flickr.com/photos/41517846@N08/4270562031",
+     "license": "BY-SA 2.0",
+     "author": "katiesw1"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 15,
+    "images": 12,
+    "season": 10,
+    "demand": 8,
+    "amazon": 4,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-007",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ブルース進行を1週間で聴き分ける、Now's the TimeからBlues for Aliceへ",
+   "angle": "12小節ブルースを、Charlie Parkerの『Now's the Time』→『Billie's Bounce』→『Blues for Alice』の順に聴き、コードの置き換えを耳で追う1週間の練習メニュー。",
+   "article_type": "guide",
+   "keywords": [
+    "ジャズブルース 進行",
+    "Blues for Alice コード"
+   ],
+   "subjects": [
+    {
+     "name": "Charlie Parker - Blues for Alice",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.jazzadvice.com/jazz-standards/billies-bounce/",
+    "https://pianowithjonny.com/piano-lessons/bird-blues-charlie-parkers-reharm-of-the-12-bar-blues/",
+    "https://playjazzpianonyc.com/repertoire/blues-for-alice/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Dire_Straits%27_Guitar_%40_blues_bar%2C_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Dire_Straits%27_Guitar_@_blues_bar,_Chicago.jpg",
+     "license": "CC BY 2.0",
+     "author": "Fernando García"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Guitar_blues_%281990826049%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Guitar_blues_(1990826049).jpg",
+     "license": "CC BY 2.0",
+     "author": "Rodrigo Moraes  from São Paulo, brazil"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Stevie_Ray_Vaughan%27s_Guitar_%40_blues_bar%2C_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Stevie_Ray_Vaughan%27s_Guitar_@_blues_bar,_Chicago.jpg",
+     "license": "CC BY 2.0",
+     "author": "Fernando García"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 18,
+    "images": 16,
+    "season": 7,
+    "demand": 7,
+    "amazon": 4,
+    "total": 70
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-008",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "ChromeがGemini Nanoを端末に置く、4GBのオンデバイスAIは何をしているのか",
+   "angle": "Chromeが約4GBのGemini Nanoを自動でダウンロードしている件を、何の機能に使われ、どこに置かれ、設定の『オンデバイスAI』でどう止めるかまで整理する。ストレージが細いノートPCや制作PCの利用者向け。",
+   "article_type": "guide",
+   "keywords": [
+    "Chrome Gemini Nano 4GB",
+    "Chrome オンデバイスAI 無効化"
+   ],
+   "subjects": [
+    {
+     "name": "Google Chrome",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Gemini Nano",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
+    "https://www.androidheadlines.com/2026/05/chrome-has-been-secretly-downloading-a-4gb-gemini-nano-model-to-your-device.html",
+    "https://www.snopes.com/fact-check/google-chrome-ai-installed-computer/",
+    "https://gizmodo.com/google-chrome-is-downloading-a-4gb-ai-model-onto-your-device-without-consent-researcher-warns-2000755201"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Google_Chrome_on_Windows_11.png/960px-Google_Chrome_on_Windows_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_on_Windows_11.png",
+     "license": "Public domain",
+     "author": "Megamanfan3"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Google_Chrome_75_screenshot.png/960px-Google_Chrome_75_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_75_screenshot.png",
+     "license": "Public domain",
+     "author": "WikiPimpi"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Chrome_Split_View_feature.png/960px-Google_Chrome_Split_View_feature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_Split_View_feature.png",
+     "license": "CC0",
+     "author": "TealComet"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 14,
+    "season": 12,
+    "demand": 9,
+    "amazon": 0,
+    "total": 76
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-009",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "OllamaでローカルLLMを動かす、制作PCのメモリとVRAMの目安",
+   "angle": "7B・13B・70Bのモデルを4bit量子化で動かすときに必要なRAM/VRAMを、手持ちの制作PCに当てはめて判断できるようにする。クラウドに出したくない作業用メモや歌詞の下書き用途を想定。",
+   "article_type": "guide",
+   "keywords": [
+    "Ollama VRAM 目安",
+    "ローカルLLM Windows メモリ"
+   ],
+   "subjects": [
+    {
+     "name": "Ollama",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://github.com/ollama/ollama",
+    "https://www.sitepoint.com/ollama-setup-guide-2026/",
+    "https://www.jamescherti.com/running-large-language-models-with-ollama/",
+    "https://lumadock.com/tutorials/ollama-hardware-requirements"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/A_Complex_Graphics_Card.jpg/960px-A_Complex_Graphics_Card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_Complex_Graphics_Card.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Nick Stathas"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/GPU_%28SCHEDA_VIDEO%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:GPU_(SCHEDA_VIDEO).jpg",
+     "license": "CC BY 4.0",
+     "author": "Alix2005"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/GPU_workstation_lid_off.webp/960px-GPU_workstation_lid_off.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GPU_workstation_lid_off.webp",
+     "license": "CC0",
+     "author": "Wikideas1"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 15,
+    "season": 7,
+    "demand": 9,
+    "amazon": 4,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-010",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Windows 11 26H2で起動時メモリが減った、制作PCで効く設定と効かない設定",
+   "angle": "26H2で起動直後のRAM使用量が16GB以上の機種で1.5〜2GBほど減ったとされる。8GB機では変化が小さい理由と、DAWを動かす制作PCで体感できる部分・できない部分を分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "Windows 11 26H2 メモリ",
+    "Windows 11 26H2 DAW"
+   ],
+   "subjects": [
+    {
+     "name": "Windows 11 26H2",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.gizmodo.jp/article/windows-11-26h2-memory-reduction/",
+    "https://www.windowslatest.com/2026/10/05/windows-11-26h2-quietly-shipped-with-a-major-performance-boost-and-heres-why/",
+    "https://www.techpowerup.com/353395/windows-11-26h2-update-lowers-ram-consumption",
+    "https://hwbusters.com/news/windows-11-26h2-trims-up-to-2gb-of-ram-at-boot-but-8gb-pcs-still-see-nothing/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laptop_on_a_desk_%28Unsplash%29.jpg/960px-Laptop_on_a_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_desk_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Aleksi Tappura a"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Laptop_on_a_neat_desk_%28Unsplash%29.jpg/960px-Laptop_on_a_neat_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_neat_desk_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Norbert Levajsics levajsics"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Laptop_and_a_mug_%28Unsplash%29.jpg/960px-Laptop_and_a_mug_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Laptop_and_a_mug_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Ryan Riggins ryan_riggins"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 12,
+    "season": 12,
+    "demand": 8,
+    "amazon": 0,
+    "total": 72
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-011",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "GoogleのFlowで音楽プラグインを言葉から作る、VST3/AUに書き出せるAIの範囲",
+   "angle": "Google Flowが自然言語の指示からエフェクトや音源を組み立て、VST3/AUとして書き出せるようになった。コードを書かない制作者がどこまで自分の道具を作れるか、限界と注意点を整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "Google Flow 音楽 プラグイン",
+    "バイブコーディング VST3"
+   ],
+   "subjects": [
+    {
+     "name": "Google Flow",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.synthtopia.com/content/2026/10/07/google-wants-you-to-vibe-code-audio-plugins/",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
+    "https://en.wikipedia.org/wiki/Vibe_coding"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/KDJ-ONE_mobile_audio_workstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:KDJ-ONE_mobile_audio_workstation.jpg",
+     "license": "CC BY 2.0",
+     "author": "j bizzie"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/REAPER_Digital_Audio_Workstation.jpg/960px-REAPER_Digital_Audio_Workstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:REAPER_Digital_Audio_Workstation.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "REAPER Digital Audio Workstation"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Audio_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_Tracks.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mors nihilismo"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 10,
+    "season": 13,
+    "demand": 7,
+    "amazon": 0,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-012",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "カナディアンウイスキーはなぜライと呼ばれるのか、ベースとフレーバーを分けて造る",
+   "angle": "法的なライ麦比率の下限が無いのに『ライ』と呼ばれる理由、ベースウイスキーとフレーバリングウイスキーを別々に造って合わせる製法、3年熟成と9.09%ルールを、Canadian Club・Crown Royal・Lot No. 40・Alberta Premiumで具体的に見る。",
+   "article_type": "comparison",
+   "keywords": [
+    "カナディアンウイスキー おすすめ",
+    "カナディアンクラブ クラウンローヤル"
+   ],
+   "subjects": [
+    {
+     "name": "Canadian Club",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Crown Royal",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Lot No. 40",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Alberta Premium",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Canadian_whisky",
+    "https://vinepair.com/spirits-101/intro-canadian-whisky-guide/",
+    "https://www.totalwine.com/discover/learn/canadian-whisky"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Canadian_Club_1.14L%2C_Canada_%28obverse%29%2C_2026-03-11.jpg/960px-Canadian_Club_1.14L%2C_Canada_%28obverse%29%2C_2026-03-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Canadian_Club_1.14L,_Canada_(obverse),_2026-03-11.jpg",
+     "license": "CC BY 4.0",
+     "author": "Chris Woodrich"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Crown_Royal_Cask_No._16_whiskey.jpg/960px-Crown_Royal_Cask_No._16_whiskey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Crown_Royal_Cask_No._16_whiskey.jpg",
+     "license": "CC BY 2.0",
+     "author": "Flickr user: @joefoodie"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lot40whisky.jpg/960px-Lot40whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Lot40whisky.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Belenois"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Aged_Canadian_Whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Aged_Canadian_Whisky.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "User SElephant on zh.wikipedia"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-013",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "Compass Boxが『10年物』とだけ書いた理由、スコッチの年数表示のルール",
+   "angle": "2026年9月に出たCompass Box『This is a 10-Year-Old Whisky』は、10年熟成のモルト3種(Clynelishと2種のArdnamurchan)だけを合わせた。最も若い原酒の年数しか書けない規則と、同社が求めてきた表示の透明性を整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "Compass Box 10年",
+    "スコッチ 年数表示 ルール"
+   ],
+   "subjects": [
+    {
+     "name": "Compass Box This is a 10-Year-Old Whisky",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.whiskyintelligence.com/2026/10/compass-box-introducing-this-is-a-10-year-old-whisky-scotch-whisky-news/",
+    "https://www.bevnet.com/pr/2026/09/23/compass-box-scotch-whiskymakers-release-this-is-a-10yearold-whisky",
+    "https://foodanddrink.scotsman.com/producers/compass-box-calls-for-more-transparency-within-the-scotch-whisky-industry/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/COMPASS_BOX_Orchard_House.jpg/960px-COMPASS_BOX_Orchard_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:COMPASS_BOX_Orchard_House.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Keeezawa"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Compass_Box_The_Peat_Monster.jpg/960px-Compass_Box_The_Peat_Monster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Compass_Box_The_Peat_Monster.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "JIP"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Compass_Box_Whisky_Tasting_%2813913258895%29.jpg/960px-Compass_Box_Whisky_Tasting_%2813913258895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Compass_Box_Whisky_Tasting_(13913258895).jpg",
+     "license": "CC BY 2.0",
+     "author": "Dominic Lockyer"
+    }
+   ],
+   "season": "2026年秋",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 14,
+    "season": 12,
+    "demand": 7,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-014",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "Jean-Michel Jarre『Oxygène』50年、自宅のシンセで作った一枚が名盤になるまで",
+   "angle": "1976年に自宅スタジオでARP 2600・EMS VCS3・Eminent 310などを重ねて作られた『Oxygène』が、2026年11月20日に50周年エディション(Abbey Roadでのハーフスピード・マスタリング、Dolby Atmos)で出る。宅録の原点として聴き直す。",
+   "article_type": "theme",
+   "keywords": [
+    "Oxygène 50周年",
+    "Jean-Michel Jarre オキシジェン"
+   ],
+   "subjects": [
+    {
+     "name": "Jean-Michel Jarre - Oxygène",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.synthtopia.com/content/2026/10/09/jean-michel-jarre-announces-50th-anniversary-edition-of-oxygene/",
+    "https://sonicstate.com/news/2026/10/07/oxygene-50th-anniversary-/",
+    "https://www.loudersound.com/music/albums/jean-michel-jarre-announces-50th-anniversary-editon-of-oxygene",
+    "https://en.wikipedia.org/wiki/Oxyg%C3%A8ne"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Jean-Michel_Jarre_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Jean-Michel_Jarre_1986.jpg",
+     "license": "Public domain",
+     "author": "Polygram Records"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jean-Michel_Jarre_2016.jpg/960px-Jean-Michel_Jarre_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jean-Michel_Jarre_2016.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Nicolas Richoffer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/ARP_2600%2C_Energo_2011.jpg/960px-ARP_2600%2C_Energo_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ARP_2600,_Energo_2011.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Ville Hyvönen from helsinki / tallinn, Finland"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/ARP_2600_in_NYU_studio_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:ARP_2600_in_NYU_studio_B.jpg",
+     "license": "CC BY 2.0",
+     "author": "Ethan Hein"
+    }
+   ],
+   "season": "2026年11月発売",
+   "score": {
+    "novelty": 22,
+    "verifiable": 19,
+    "images": 17,
+    "season": 12,
+    "demand": 8,
+    "amazon": 6,
+    "total": 84
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-015",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "カセットテープがまた店に並ぶ、磁気テープという消耗品にもう一度お金を払う理由",
+   "angle": "国産ノーマルポジションカセットの限定発売やMaxell UDの復刻をきっかけに、1963年のコンパクトカセットから続く『劣化する媒体』を選び直す気持ちを考えるエッセイ。",
+   "article_type": "theme",
+   "keywords": [
+    "カセットテープ 復活 2026",
+    "ノーマルポジション カセット 国産"
+   ],
+   "subjects": [
+    {
+     "name": "Maxell UD",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://av.watch.impress.co.jp/docs/news/2147064.html",
+    "https://hifi.fan/stories/denkyosha-revives-maxell-legacy-with-ud-60a-cassette-tapes-nostalgia-meets-innovation",
+    "https://flashbak.com/the-cassette-tape-story-lou-ottens-keith-richards-art-and-sony-walkman-mix-tapes-439512/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Cassette_tape_by_Trio.jpg/960px-Cassette_tape_by_Trio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cassette_tape_by_Trio.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Havelbaude"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Noname_blank_compact_cassette%2C_loose_tape_%281%29.jpg/960px-Noname_blank_compact_cassette%2C_loose_tape_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Noname_blank_compact_cassette,_loose_tape_(1).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tim Reckmann"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Verbatim_DC30_Cassette_tape.jpg/960px-Verbatim_DC30_Cassette_tape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Verbatim_DC30_Cassette_tape.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mister rf"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/DAT_%26_Compact_Cassette_hor.jpg/960px-DAT_%26_Compact_Cassette_hor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DAT_%26_Compact_Cassette_hor.jpg",
+     "license": "CC0",
+     "author": "Inpriva"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 4,
+    "total": 79
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-016",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "ハロウィンの定番曲はいつ生まれたのか、Monster MashからThrillerまで",
+   "angle": "1962年10月20日に全米1位になった『Monster Mash』から1983年の『Thriller』のビデオまで、季節の行事に毎年戻ってくる曲がどう定着したかをたどる。",
+   "article_type": "theme",
+   "keywords": [
+    "ハロウィン 定番曲",
+    "Monster Mash 歴史"
+   ],
+   "subjects": [
+    {
+     "name": "Bobby 'Boris' Pickett - Monster Mash",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Michael Jackson - Thriller",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Monster_Mash",
+    "https://www.history.com/this-day-in-history/october-20/monster-mash-hits-number-one",
+    "https://en.wikipedia.org/wiki/Thriller_(album)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Children_at_a_Halloween_Party%2C_Los_Angeles%2C_1935.jpg/960px-Children_at_a_Halloween_Party%2C_Los_Angeles%2C_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Children_at_a_Halloween_Party,_Los_Angeles,_1935.jpg",
+     "license": "CC BY 4.0",
+     "author": "Los Angeles Times"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Halloween_party_1903.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Halloween_party_1903.png",
+     "license": "Public domain",
+     "author": "Mabel Humphrey"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Halloween_Party_%2815137254694%29.jpg/960px-Halloween_Party_%2815137254694%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Halloween_Party_(15137254694).jpg",
+     "license": "CC BY 2.0",
+     "author": "Memorial Student Center Texas A&amp;M University"
+    }
+   ],
+   "season": "10月(ハロウィン)",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 15,
+    "season": 15,
+    "demand": 7,
+    "amazon": 0,
+    "total": 78
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w41-017",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "シンセサイザーを作るのをやめる会社、楽器は道具なのか慰めなのか",
+   "angle": "Teenage Engineeringの共同創業者が『シンセを買う人の99%は制作の道具として使っていない』と語り、シンセ製造をやめると述べた。OP-1の位置づけを手がかりに、楽器を所有することの意味を考える。",
+   "article_type": "theme",
+   "keywords": [
+    "Teenage Engineering シンセ 製造終了",
+    "OP-1"
+   ],
+   "subjects": [
+    {
+     "name": "Teenage Engineering OP-1",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-tech/synths/99-percent-percent-of-people-who-buy-synths-dont-use-them-as-a-productive-tool-for-making-music-its-therapy-its-entertainment-teenage-engineering-co-founder-says-the-company-will-stop-making-synths-and-that-the-op-1-was-about-more-than-just-productivity",
+    "https://musictech.com/news/industry/teenage-engineering-stop-making-synths/",
+    "https://teenage.engineering/products/op-1"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Teenage_Engineering_OP-1_Synthesizer_at_SMEM_Playroom.jpg/960px-Teenage_Engineering_OP-1_Synthesizer_at_SMEM_Playroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Teenage_Engineering_OP-1_Synthesizer_at_SMEM_Playroom.jpg",
+     "license": "CC BY 4.0",
+     "author": "1904.CC"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Steve_Fisk_with_OP-1_synth_by_Teenage_Engineering%2C_PNW_SynthFest_2013.jpg/960px-Steve_Fisk_with_OP-1_synth_by_Teenage_Engineering%2C_PNW_SynthFest_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Steve_Fisk_with_OP-1_synth_by_Teenage_Engineering,_PNW_SynthFest_2013.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Daniel Spils"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_OP-1_by_Teenage_Engineering.jpg/960px-The_OP-1_by_Teenage_Engineering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:The_OP-1_by_Teenage_Engineering.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "justin lincoln"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Moog_Mother-32_Semi-Modular_Analog_Synthesizer%2C_MicroKORG%2C_Teenage_Engineering_OP-1_%282017-08-22_15.22.00_piqsels.com_en%29.jpg/960px-Moog_Mother-32_Semi-Modular_Analog_Synthesizer%2C_MicroKORG%2C_Teenage_Engineering_OP-1_%282017-08-22_15.22.00_piqsels.com_en%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Moog_Mother-32_Semi-Modular_Analog_Synthesizer,_MicroKORG,_Teenage_Engineering_OP-1_(2017-08-22_15.22.00_piqsels.com_en).jpg",
+     "license": "CC0",
+     "author": "Unknown authorUnknown author"
+    }
+   ],
+   "season": "2026年10月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 17,
+    "season": 10,
+    "demand": 7,
+    "amazon": 0,
+    "total": 74
+   },
+   "source_of_idea": "news",
+   "id": "2026w41-018",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "エンジェルズシェア、樽の中で毎年消えていく2パーセントの話",
+   "angle": "スコットランドでは年に約2%、暑い土地ではそれ以上が樽から蒸発する。熟成の時間が同時に『失う時間』でもあることを、貯蔵庫の空気から考えるエッセイ。",
+   "article_type": "theme",
+   "keywords": [
+    "エンジェルズシェア 意味",
+    "ウイスキー 熟成 蒸発"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://hedonism.co.uk/pages/whisky-101-what-angels-share",
+    "https://milroysofsoho.com/blogs/core-whisky-definitions/what-is-the-angel-s-share-the-whisky-lost-to-maturation",
+    "https://en.wikipedia.org/wiki/Angel%27s_share"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Jura_Distillery_casks_at_warehouse_-_panoramio.jpg/960px-Jura_Distillery_casks_at_warehouse_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jura_Distillery_casks_at_warehouse_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Bjarne Henning Kvaal…"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Old_casks_in_Bushmill%27s_old_warehouse.jpg/960px-Old_casks_in_Bushmill%27s_old_warehouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Old_casks_in_Bushmill%27s_old_warehouse.jpg",
+     "license": "CC BY 2.5",
+     "author": "yvescosentino"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Kilchoman_2006_Casks.jpg/960px-Kilchoman_2006_Casks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kilchoman_2006_Casks.jpg",
+     "license": "Public domain",
+     "author": "Calum Hutchinson"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Whisky_Barrels_-_Jura_-_geograph.org.uk_-_828143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Whisky_Barrels_-_Jura_-_geograph.org.uk_-_828143.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Steve Partridge"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 0,
+    "total": 72
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-019",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "-14 LUFSに揃えた曲は配信サービスのラウドネスノーマライズでどう変わるか",
+   "angle": "同じミックスを-8・-11・-14・-16 LUFSで書き出し、Spotify(-14/Loud -11)・YouTube(-14)・Apple Music(-16)・Amazon Music(-14)の基準に当てたときの音量差とピークの扱いを記録する検証メモ。",
+   "article_type": "guide",
+   "keywords": [
+    "LUFS 配信 ノーマライズ",
+    "Spotify -14 LUFS 検証"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://support.spotify.com/artists/article/loudness-normalization/",
+    "https://www.meterplugs.com/blog/2022/03/23/apple-switch-to-lufs.html",
+    "https://faq.recordjet.com/en/articles/6959419-how-loud-should-my-master-be-what-are-the-store-requirements"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Standard_Soviet_VU_meters.jpg/960px-Standard_Soviet_VU_meters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Standard_Soviet_VU_meters.jpg",
+     "license": "CC0",
+     "author": "Retired electrician"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/VU_Meter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:VU_Meter.jpg",
+     "license": "CC BY 2.5",
+     "author": "Iainf 05:15, 12 August 2006 (UTC)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/VU_meters_and_record_level_knob_on_Technics_RS-612US.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:VU_meters_and_record_level_knob_on_Technics_RS-612US.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "File:Technics RS-612US.jpg: Daniele Napolitano\nderivative wo"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Generic_Chinese_VU_meter_%28D%3D33mm%2C_with_AAA_batteries_for_scale%29_02.jpg/960px-Generic_Chinese_VU_meter_%28D%3D33mm%2C_with_AAA_batteries_for_scale%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Generic_Chinese_VU_meter_(D%3D33mm,_with_AAA_batteries_for_scale)_02.jpg",
+     "license": "CC0",
+     "author": "Retired electrician"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 15,
+    "season": 7,
+    "demand": 9,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-020",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "Whisperのモデルサイズ別に日本語の文字起こし精度と速度を比べた検証メモ",
+   "angle": "tiny〜large-v3、large-v3-turboを同じ日本語音声で回し、所要時間・VRAM・誤認識の傾向を並べる。faster-whisperとwhisper.cppでの差も記録する。",
+   "article_type": "comparison",
+   "keywords": [
+    "Whisper 日本語 精度 比較",
+    "large-v3-turbo 速度"
+   ],
+   "subjects": [
+    {
+     "name": "OpenAI Whisper",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://github.com/openai/whisper",
+    "https://huggingface.co/openai/whisper-large-v3",
+    "https://openwhispr.com/blog/whisper-model-sizes-explained"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/OpenAI_Whisper_architecture.png/960px-OpenAI_Whisper_architecture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:OpenAI_Whisper_architecture.png",
+     "license": "MIT",
+     "author": "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christin"
+    },
+    {
+     "url": "https://live.staticflickr.com/3839/14745063379_6f1e8fdf80_b.jpg",
+     "page": "https://www.flickr.com/photos/75264768@N00/14745063379",
+     "license": "BY 2.0",
+     "author": "smaedli"
+    },
+    {
+     "url": "https://live.staticflickr.com/3097/2286214012_b803eedbd1.jpg",
+     "page": "https://www.flickr.com/photos/77476789@N00/2286214012",
+     "license": "BY 2.0",
+     "author": "the Italian voice"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 12,
+    "season": 7,
+    "demand": 8,
+    "amazon": 0,
+    "total": 67
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-021",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "Demucsで音源分離、ボーカルとドラムとベースはどこまできれいに抜けるか",
+   "angle": "htdemucsとhtdemucs_ftで同じ曲を4ステム/6ステムに分け、残響の残り方や楽器のにじみを記録する。元リポジトリがアーカイブされた後の入手先にも触れる。",
+   "article_type": "guide",
+   "keywords": [
+    "Demucs 音源分離 精度",
+    "htdemucs_ft"
+   ],
+   "subjects": [
+    {
+     "name": "Demucs",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://github.com/facebookresearch/demucs",
+    "https://github.com/adefossez/demucs",
+    "https://huggingface.co/puar-playground/htdemucs"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_%28mid-1950s%29_-_recording_equipment_-_MIM_Phoenix_AZ_%282017-12-04_14.05.19_by_bobistraveling_140519%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_(mid-1950s)_-_recording_equipment_-_MIM_Phoenix_AZ_(2017-12-04_14.05.19_by_bobistraveling_140519).jpg",
+     "license": "CC BY 2.0",
+     "author": "bobistraveling"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg/960px-Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Mikhail (Vokabre) Shcherbakov"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Audio_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_Tracks.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mors nihilismo"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 12,
+    "season": 7,
+    "demand": 8,
+    "amazon": 0,
+    "total": 66
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-022",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "24bitから16bitへ、ディザの有無とノイズシェーピングの違いを検証する",
+   "angle": "フェードアウトと静かなピアノを素材に、ディザなし・TPDF・ノイズシェーピング付きで16bit化し、量子化ノイズの出方を比べる検証メモ。",
+   "article_type": "guide",
+   "keywords": [
+    "ディザ 16bit 検証",
+    "ノイズシェーピング 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.izotope.com/en/learn/what-is-dithering-in-audio/",
+    "https://www.soundonsound.com/techniques/understanding-dither-digital-performer",
+    "https://pspaudioware.com/products/psp-x-dither"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/M-Audio_delta_1010_recording_interface.jpg/960px-M-Audio_delta_1010_recording_interface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:M-Audio_delta_1010_recording_interface.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Musicproducer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/AD574_Analog-Digital_Converter_Dieshot.jpg/960px-AD574_Analog-Digital_Converter_Dieshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AD574_Analog-Digital_Converter_Dieshot.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Lhfjames"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Digital_audio_recording%40300x.png/960px-Digital_audio_recording%40300x.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Digital_audio_recording@300x.png",
+     "license": "CC BY-SA 4.0",
+     "author": "ItzaGarciaOrdonez"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 11,
+    "season": 7,
+    "demand": 7,
+    "amazon": 0,
+    "total": 65
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-023",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "PowerShell 5.1がBOMなしUTF-8を読み違える、日本語スクリプトの文字化け対策メモ",
+   "angle": "Windows PowerShell 5.1はBOMのない.ps1をANSI(日本語環境ではcp932)として読むため、日本語のコメントや文字列で構文エラーになる。BOM付与・ASCII化・PowerShell 7への移行の3案を手順として残す。",
+   "article_type": "guide",
+   "keywords": [
+    "PowerShell 5.1 UTF-8 BOM",
+    "ps1 文字化け 構文エラー"
+   ],
+   "subjects": [
+    {
+     "name": "Windows PowerShell 5.1",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://learn.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/understanding-file-encoding",
+    "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding",
+    "https://dev.classmethod.jp/en/articles/202609-windows-userdata-japanese-comment-parse-error/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/PowerShell_7.4.0_Core_on_Windows_11%2C_23H2.png/960px-PowerShell_7.4.0_Core_on_Windows_11%2C_23H2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:PowerShell_7.4.0_Core_on_Windows_11,_23H2.png",
+     "license": "MIT",
+     "author": "Microsoft Corporation"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/PowerShell_7.5.png/960px-PowerShell_7.5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:PowerShell_7.5.png",
+     "license": "MIT",
+     "author": "Refresh100"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/PowerShell.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:PowerShell.png",
+     "license": "CC BY-SA 4.0",
+     "author": "TurboGino"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 15,
+    "season": 7,
+    "demand": 8,
+    "amazon": 0,
+    "total": 72
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-024",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "WindowsのASIOとWASAPI、オーディオのレイテンシとノイズを切り分ける手順",
+   "angle": "音切れやプチノイズが出たとき、ドライバ(ASIO/WASAPI/MME)・バッファサイズ・DPCレイテンシのどこが原因かをLatencyMonで順に切り分ける手順メモ。",
+   "article_type": "guide",
+   "keywords": [
+    "ASIO WASAPI 違い",
+    "LatencyMon 音切れ"
+   ],
+   "subjects": [
+    {
+     "name": "LatencyMon",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.resplendence.com/latencymon",
+    "https://voicemeeter.com/?p=235265",
+    "https://cycling74.com/forums/max-for-windows-audio-latency"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Digital-audio-interfaces-usb-spdif-toslink.jpg/960px-Digital-audio-interfaces-usb-spdif-toslink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Digital-audio-interfaces-usb-spdif-toslink.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Musicproducer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/USB-Audio-Interfaces.jpg/960px-USB-Audio-Interfaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:USB-Audio-Interfaces.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Itu"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg/960px-Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_(by_Matt_Vanacoro).jpg",
+     "license": "CC BY 2.0",
+     "author": "Matt Vanacoro"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 17,
+    "images": 15,
+    "season": 7,
+    "demand": 8,
+    "amazon": 3,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-025",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "HugoとGitHub Pagesで当日の記事が出ない、タイムゾーンとbuildFutureの罠",
+   "angle": "日付だけ書いた記事がUTC基準で未来扱いになり、buildFuture=falseで黙って除外される問題。timeZone設定とGitHub Actionsでのデプロイ手順を備忘録としてまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "Hugo buildFuture 記事が出ない",
+    "Hugo timeZone GitHub Pages"
+   ],
+   "subjects": [
+    {
+     "name": "Hugo",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://gohugo.io/getting-started/configuration/",
+    "https://gohugo.io/host-and-deploy/host-on-github-pages/",
+    "https://github.com/gohugoio/hugo"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GitHub-workflow.png/960px-GitHub-workflow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub-workflow.png",
+     "license": "CC BY-SA 4.0",
+     "author": "G.prof"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/GitHub_Desktop.png/960px-GitHub_Desktop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub_Desktop.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Gmeneze"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/GitHub_Codespaces_screenshot.webp/960px-GitHub_Codespaces_screenshot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub_Codespaces_screenshot.webp",
+     "license": "CC0",
+     "author": "Wikideas1"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 12,
+    "season": 7,
+    "demand": 7,
+    "amazon": 0,
+    "total": 67
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w41-026",
+   "status": "approved",
+   "created": "2026-10-11",
+   "retry": 0
   }
  ]
 }
