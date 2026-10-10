@@ -1351,6 +1351,18 @@
    "note_key": "n0a6293f2fc7d",
    "engine": "claude",
    "at": "2026-10-10T23:11:14+09:00"
+  },
+  {
+   "id": "2026w41-020",
+   "category": "lab",
+   "theme": "-14 LUFSに揃えた曲は配信サービスのラウドネスノーマライズでどう変わるか",
+   "slug": "streaming-loudness-normalization-lufs",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/streaming-loudness-normalization-lufs/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-11T07:45:07+09:00"
   }
  ]
 }

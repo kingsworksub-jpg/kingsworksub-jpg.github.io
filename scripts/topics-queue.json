@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T07:30:20+09:00",
+ "updated": "2026-10-11T07:45:07+09:00",
  "items": [
   {
    "category": "gear",
@@ -5362,14 +5362,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w41-020",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 0,
    "claimed_at": "2026-10-11T07:30:20+09:00",
    "channel": "github",
    "content_dir": "tech",
    "slot_time": "07:30",
-   "slot_label": "朝: 検証メモ/個人備忘録"
+   "slot_label": "朝: 検証メモ/個人備忘録",
+   "slug": "streaming-loudness-normalization-lufs",
+   "published_at": "2026-10-11T07:45:07+09:00"
   },
   {
    "category": "lab",
