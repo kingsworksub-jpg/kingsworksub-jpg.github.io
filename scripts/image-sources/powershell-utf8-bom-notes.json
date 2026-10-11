@@ -1,0 +1,23 @@
+{
+ "/images/ps-encoding/mojibake-ja.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mojibake_Japanese_CC_Licence.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Mojibake_Japanese_CC_Licence.png",
+  "license": "CC BY 3.0",
+  "author": "My own work as derivative of text available under CC 3.0 attrib",
+  "title": "File:Mojibake Japanese CC Licence.png"
+ },
+ "/images/ps-encoding/pwsh-74.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/bb/PowerShell_7.4.0_Core_on_Windows_11%2C_23H2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:PowerShell_7.4.0_Core_on_Windows_11,_23H2.png",
+  "license": "MIT",
+  "author": "Microsoft Corporation",
+  "title": "File:PowerShell 7.4.0 Core on Windows 11, 23H2.png"
+ },
+ "/images/ps-encoding/winps-commands.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/20231209_19_38_30-PowerShell_Befehlsnamen_crop.png/1280px-20231209_19_38_30-PowerShell_Befehlsnamen_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:20231209_19_38_30-PowerShell_Befehlsnamen_crop.png",
+  "license": "MIT",
+  "author": "Software: Microsoft CorporationScreenshot: PantheraLeo1359531 😺 (talk)",
+  "title": "File:20231209 19 38 30-PowerShell Befehlsnamen crop.png"
+ }
+}
