@@ -1,5 +1,7 @@
 # Registers (or re-registers) the blog jobs in Windows Task Scheduler (2026-10-08 redesign:
-# 8 runs/2h -> 6 fixed slots timed 30-60 min ahead of each traffic peak; see SLOTS in topic_plan.py).
+# 8 runs/2h -> 6 fixed slots timed 30-60 min ahead of each traffic peak; see slots_for_date in
+# topic_plan.py. 2026-10-11: the 20:00/23:00 slots swap channel on odd/even calendar days so
+# github/hatena/ameba/note each get an equal 3-of-12 share over any 2-day window).
 #   blog-automation-task : posting job, 6 runs a day (07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00),
 #                           prompt blog-post.md. Each run asks topic_plan.py for the current slot and
 #                           claims a topic matching that slot's channel/content preference.
@@ -22,7 +24,7 @@ function Register-Job($taskName, $jobName, $prompt, $trigger, $timeoutMin, $lock
     Write-Host "registered $taskName"
 }
 
-# Posting: 6 fixed times a day (30-60 min ahead of each traffic peak; see SLOTS in topic_plan.py).
+# Posting: 6 fixed times a day (30-60 min ahead of each traffic peak; see slots_for_date in topic_plan.py).
 $postTimes = "07:30", "12:00", "17:30", "20:00", "21:30", "23:00"
 $postTriggers = $postTimes | ForEach-Object { New-ScheduledTaskTrigger -Daily -At $_ }
 Register-Job "blog-automation-task" "blog-post" "Read scripts/scheduled/prompts/blog-post.md and carry it out exactly." $postTriggers 60 20 80

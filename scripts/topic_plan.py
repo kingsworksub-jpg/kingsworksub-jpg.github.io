@@ -7,7 +7,7 @@ only has to do the creative work:
   allocate N                 split N new topics across categories by priority
   today-count                number of published posts dated today (JST), manual posts included
   engine                     model used by the jobs (always "claude" since 2026-10-02)
-  slot                       the fixed daily time-slot nearest to now (channel + content preference; see SLOTS)
+  slot                       the fixed daily time-slot nearest to now (channel + content preference; see slots_for_date)
   similar TEXT               closest existing posts / queued / logged topics (2-gram Jaccard)
   add FILE                   add candidate topics (JSON list) to the queue after a duplicate check
   claim                      apply app deletions, pick the next approved topic (slot-aware), mark it in_progress
@@ -64,27 +64,50 @@ DUP_THRESHOLD = 0.45
 MAX_RETRY = 2
 
 # Fixed daily posting schedule (2026-10-08 redesign: replaced the 8 runs/2h cadence with 6 slots
-# timed 30-60 min ahead of each traffic peak, each pinned to one channel so the three platforms
-# post evenly through the day instead of being decided purely by category priority). Each slot can
+# timed 30-60 min ahead of each traffic peak, each pinned to one channel so the platforms post
+# evenly through the day instead of being decided purely by category priority). Each slot can
 # also narrow which categories or article_types it prefers, so the two slots sharing a channel read
 # differently (e.g. practical tech in the morning vs. theory at night). Preferences are soft: if no
 # approved topic matches, claim() falls back to any topic in the right channel, then to anything at
 # all, so a thin queue never stalls the run.
-SLOTS = [
+#
+# Platform-balance rule (2026-10-11, user instruction: average post counts across platforms):
+# four channels now exist (github, hatena, ameba, note). A straight 1/1/2/2 split across the six
+# slots would leave github and hatena at half the post rate of ameba and note. Four slots are
+# pinned to one channel every day; the other two (20:00, 23:00) alternate between a channel pair
+# on odd/even calendar days (JST). Summed over any 2-day window, every channel gets exactly 3 of
+# the 12 slots (1.5 posts/day on average) -- equal across all four platforms.
+SLOTS_FIXED = [
     {"time": "07:30", "channel": "github", "categories": ["lab", "notes"],
      "label": "朝: 検証メモ/個人備忘録"},
     {"time": "12:00", "channel": "hatena", "categories": ["tech", "software", "setup"],
      "label": "昼: テック/ソフト/制作環境"},
     {"time": "17:30", "channel": "ameba", "categories": ["gear", "learning"],
      "label": "夕: 機材レビュー/学習体験談"},
-    {"time": "20:00", "channel": "ameba", "categories": ["fashion", "drink"],
-     "label": "夜: ファッション/飲料"},
     {"time": "21:30", "channel": "note", "categories": ["whisky", "music", "sakeware"],
      "label": "夜ピーク: ウイスキー/音楽/酒器"},
+]
+# 20:00 / 23:00: swap channel on alternating days so github/hatena (otherwise 1 slot/day) and
+# ameba/note (otherwise 2 slots/day) even out to 1.5 slots/day each over a 2-day cycle.
+SLOTS_SWAP_EVEN_DAY = [
+    {"time": "20:00", "channel": "ameba", "categories": ["fashion", "drink"],
+     "label": "夜: ファッション/飲料"},
     {"time": "23:00", "channel": "note", "categories": ["essay"],
      "label": "就寝前: カルチャーエッセイ"},
 ]
-POSTS_PER_DAY = len(SLOTS)
+SLOTS_SWAP_ODD_DAY = [
+    {"time": "20:00", "channel": "hatena", "categories": ["tech", "software", "setup"],
+     "label": "夜: テック/ソフト/制作環境(隔日)"},
+    {"time": "23:00", "channel": "github", "categories": ["lab", "notes"],
+     "label": "就寝前: 検証メモ/個人備忘録(隔日)"},
+]
+POSTS_PER_DAY = len(SLOTS_FIXED) + len(SLOTS_SWAP_EVEN_DAY)
+
+
+def slots_for_date(d: "dt.date") -> list:
+    """The 6 slots in effect on calendar date `d` (JST), fixed slots plus the day's channel swap."""
+    swap = SLOTS_SWAP_EVEN_DAY if d.toordinal() % 2 == 0 else SLOTS_SWAP_ODD_DAY
+    return sorted(SLOTS_FIXED + swap, key=lambda s: _slot_minutes(s["time"]))
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -171,10 +194,10 @@ def _slot_minutes(t: str) -> int:
 
 
 def slot_for(moment: "dt.datetime | None" = None) -> dict:
-    """The fixed daily slot (see SLOTS) nearest to `moment` (default: now, JST)."""
+    """The fixed daily slot (see slots_for_date) nearest to `moment` (default: now, JST)."""
     moment = moment or now()
     mins = moment.hour * 60 + moment.minute
-    return min(SLOTS, key=lambda s: abs(_slot_minutes(s["time"]) - mins))
+    return min(slots_for_date(moment.date()), key=lambda s: abs(_slot_minutes(s["time"]) - mins))
 
 
 def slot_match_score(it, slot) -> tuple:
