@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:30:13+09:00",
+ "updated": "2026-10-11T22:32:22+09:00",
  "items": [
   {
    "category": "gear",
@@ -5148,7 +5148,13 @@
    "id": "2026w41-016",
    "status": "approved",
    "created": "2026-10-11",
-   "retry": 0
+   "retry": 1,
+   "claimed_at": "2026-10-11T22:32:03+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "last_error": "interactive session claimed this by accident while finishing a different in-flight article; returning for the scheduled 23:00 run"
   },
   {
    "category": "essay",
