@@ -36,11 +36,14 @@ Windows タスクスケジューラから無人で起動されている。人間
   - `channel: hatena`（GitHub Pages + はてなブログ） … `tech`, `software`, `setup`
   - `channel: note`（GitHub Pages + note） … `whisky`, `music`, `essay`, `sakeware`
   - `channel: ameba`（GitHub Pages + Amebaブログ） … `gear`, `fashion`, `drink`, `learning`
-- **1日6投稿のスロット（`scripts/topic_plan.py` の `SLOTS`）**: 投稿は時間帯ごとに固定のチャンネルと記事の性格で組まれる
-  （07:30 github・実用寄り / 12:00 hatena・機材レビュー / 17:30 hatena・音楽レビュー / 20:00 github・テーマ記事（理論・構造寄り） /
-  21:30 note・ウイスキー等の製品カルチャー / 23:00 note・`essay` のエッセイ）。配分の採点自体はカテゴリー単位（`allocate`）で行うが、
-  同じチャンネルの中でも20:00向けは `article_type: "theme"` を、23:00向けは `essay` カテゴリーの候補を多めに作り、
-  各スロットが同じような記事で埋まらないようにする。
+- **1日6投稿のスロット（`scripts/topic_plan.py` の `slots_for_date`）**: 投稿は時間帯ごとに固定のチャンネルと記事の性格で組まれる
+  （07:30 github・実用寄り / 12:00 hatena・テック/ソフト/制作環境 / 17:30 ameba・機材レビュー/学習体験談 /
+  21:30 note・ウイスキー等の製品カルチャー）。配分の採点自体はカテゴリー単位（`allocate`）で行う。
+  **プラットフォーム平均化ルール（2026-10-11）**: 20:00と23:00の2枠だけは、日付（JST、偶数日/奇数日）でチャンネルが入れ替わる
+  （偶数日: 20:00=ameba・ファッション/飲料、23:00=note・essay／奇数日: 20:00=hatena・テック/ソフト、23:00=github・検証メモ/備忘録）。
+  これにより github・hatena・ameba・note の4チャンネルは、2日間で12枠中ちょうど3枠ずつ（平均1.5記事/日）になり、
+  単純な1日6枠固定よりも平準化される。ネタ会議では、どの日に補充するか分からないので**4チャンネルとも均等に候補を用意する**
+  （特定のチャンネルだけ偏って枯渇しないようにする）。
 - 必要に応じて Web 検索で、新製品・新作・トレンドが**実在し、現在の情報か**を確かめる。Web 検索は**必ずサブエージェントに任せる**
   （Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"` で起動。自分では WebSearch / WebFetch を呼ばない）。
   1件あたり5サイトまでを目安にし、確かめた事実を出典URL付きで返してもらう。

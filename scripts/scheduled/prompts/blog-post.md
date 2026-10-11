@@ -1,9 +1,13 @@
 # ブログ記事の投稿（キューから1件・無人実行）
 
 Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、`scripts/topic_plan.py` の
-`SLOTS` で定義。2026-10-08、1日6投稿・時間帯別タイムテーブルに改修）無人で起動されている。各回はアクセスピークの
-30〜60分前に当たり、時間帯ごとに配信先チャンネル（github/hatena/note）と記事の性格（実用寄り/理論・エッセイ寄り）が
-決まっている。人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
+`slots_for_date` で定義。2026-10-08、1日6投稿・時間帯別タイムテーブルに改修）無人で起動されている。各回はアクセスピークの
+30〜60分前に当たり、時間帯ごとに配信先チャンネル（github/hatena/ameba/note の4つ）と記事の性格（実用寄り/理論・エッセイ寄り）が
+決まっている。**プラットフォーム平均化ルール（2026-10-11）**: 20:00と23:00の2枠は、日付の偶数/奇数（JST）でチャンネルが
+入れ替わる（偶数日20:00=ameba・奇数日20:00=hatena、偶数日23:00=note・奇数日23:00=github）。これにより4チャンネルとも
+2日間で12枠中3枠ずつ（平均1.5記事/日）になり、特定のプラットフォームだけ投稿数が偏らないようになっている。
+実際にどのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（当日の曜日や日付から手計算しない）。
+人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
 
 コマンドはすべてリポジトリのルート（`C:\Users\norio\my-github-blog`）で実行する。Python は `python`。
 ルールの詳細は `CLAUDE.md`（文体・禁止事項・タイトル・画像・アフィリエイト・はてな・note の節）にある。**作業前に必ず読む。**
@@ -26,11 +30,12 @@ Android アプリで削除されたネタはここで自動的に除外され、
   （今回のスロット）も含まれる。ここで一度
   `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/topic-requests && git commit -m "Claim <id>" && git push origin main`。
 - **アプリから追加されたネタ**（`source_of_idea: "user"`、`needs_research: true`）は、テーマとメモしか無い。`sources`・`images`・`keywords` は
-  このあとの手順で自分で集める。`category` が空なら、まず手順1で確認した今回のスロットのチャンネル（github/hatena/note）に合う既存カテゴリーから、
+  このあとの手順で自分で集める。`category` が空なら、まず手順1で確認した今回のスロットのチャンネル（github/hatena/ameba/note）に合う既存カテゴリーから、
   内容に合うものを選ぶ（合わなければ新カテゴリーも可）。`article_type` が空なら記事の型を決める。メモ（`angle`）はユーザーの希望なので必ず反映する。
 - **チャンネル判定**: 取り出したネタの出力に含まれる `channel` フィールドに基づき、以下の配信先を決定する。
-  - `github` → GitHub Pages へのみ投稿（はてな・note への転載はしない）
+  - `github` → GitHub Pages へのみ投稿（はてな・ameba・note への転載はしない）
   - `hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿
+  - `ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載
   - `note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信
   - `channel` フィールドが無い場合はデフォルトで `github` となる。
 
@@ -89,9 +94,10 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
    `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` を実行して終了する（公開しない）。
 4. `hugo --minify` でビルドし、`public/posts/<slug>/index.html` ができていることを確認する。
 5. **チャンネル判定**: `python scripts/topic_plan.py claim` の出力JSONに含まれる `channel` フィールドを確認する。その結果に応じて以下の配信先を決定する。
-   - `channel: github` → はてな・note への転載は行わない（GitHub Pages へのみデプロイ）
-   - `channel: hatena` → はてなブログへ全文投稿（ステップ9へ進む）
-   - `channel: note` → GitHub Pages へサマリー掲載し、note へ投稿（ステップ9 の note 実行前にサマリー生成）
+   - `channel: github` → はてな・ameba・note への転載は行わない（GitHub Pages へのみデプロイ）
+   - `channel: hatena` → はてなブログへ全文投稿
+   - `channel: ameba` → Amebaブログへ全文転載
+   - `channel: note` → GitHub Pages へサマリー掲載し、note へ投稿（note 実行前にサマリー生成）
 6. クロスリンク挿入: 記事の最後に「関連記事」ブロックを挿入する（手順7.5のスロット別フォーマットを参照）。
 
 ## 7. 公開
@@ -106,21 +112,24 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
    - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
 4. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
 
-5. **クロスリンク挿入（CV誘導、手順1.4で確認したスロットに応じて出し分ける）**: 記事の本文末尾（Amazonリンク等より後）に
-   「## 関連記事」ブロックを挿入する。目的は、昼間の記事から夜の主力記事への予告、夜の記事からの本家・他チャンネルへの回遊。
-   - `07:30`（朝・github）/ `12:00`・`17:30`（昼・夕・hatena）: 下記の共通リンクに加えて、まだ存在しない今夜の記事URLではなく
-     プラットフォームのトップページへの「予告」行を1つ足す。例:
+5. **クロスリンク挿入（CV誘導、手順1.4で確認した `channel`・`time` に応じて出し分ける。20:00/23:00は隔日でチャンネルが
+   変わるので、時刻ではなく `channel` の値で判定する）**: 記事の本文末尾（Amazonリンク等より後）に「## 関連記事」ブロックを
+   挿入する。目的は、昼間の記事から夜の主力記事への予告、夜の記事からの本家・他チャンネルへの回遊。
+   - `channel: github` または `channel: hatena`（＝朝・昼、および隔日の20:00がhatenaの回）: 下記の共通リンクに加えて、
+     まだ存在しない今夜の記事URLではなくプラットフォームのトップページへの「予告」行を1つ足す。例:
      `- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)`
-   - `20:00`（夜・github）: 下記の共通リンクのみでよい（予告行は不要）。
-   - `21:30`・`23:00`（夜ピーク・就寝前・note）: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
+   - `channel: ameba`（17:30、および隔日の20:00がamebaの回）: 下記の共通リンクのみでよい（予告行は不要）。
+   - `channel: note`（21:30・23:00）: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
    共通フォーマット（自分が今回投稿するチャンネル以外へのリンクだけを載せる）:
    ```
    ## 関連記事
    - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
    - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
+   - [Amebaブログ版はこちら](https://blog.ameba.jp/)
    - [note版はこちら](https://note.com/shining_finger01/n/XXXX)
    ```
    ※ `XXXX` は実際のnote記事キーを執筆後に埋める。このステップの時点ではプレースホルダのまま残す。
+   自分が今回投稿したチャンネルの行は含めない（例: 今回 `channel: ameba` ならAmebaの行は省く）。
 
 1. `python scripts/topic_plan.py complete <id> --slug <slug> --hatena <EntryID> --note <key>`（カテゴリーを自分で決めた場合は `--category <id>` も付ける）
 2. CLAUDE.md の「はてなブログ連携」表と「note.com への投稿」表に1行ずつ追記。

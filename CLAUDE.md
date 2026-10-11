@@ -68,33 +68,47 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
 プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
-- `channel: github` → GitHub Pages へのみデプロイ（`software` / `learning`。技術・理論記事。はてな・note へ転載しない）
-- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`gear` / `setup` / `fashion` / `music`）
-- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`whisky` / `drink` / `sakeware` / `essay`）
+2026-10-11 時点で4チャンネル(github/hatena/ameba/note)。カテゴリー構成も当初(software/learning等)から変わっているので、
+最新の対応は `category-plan.json` を正とする(下記テーブルは目安)。
+- `channel: github` → GitHub Pages へのみデプロイ（`lab` / `notes`。検証メモ・個人備忘録。他チャンネルへ転載しない）
+- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`tech` / `software` / `setup`）
+- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`gear` / `learning` / `drink` / `fashion`。2026-10-10追加、
+  `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
+- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`whisky` / `music` / `sakeware` / `essay`）
 
-### 1日6投稿タイムテーブル（2026-10-08、ユーザー提示の仕様書に基づき改修）
+### プラットフォーム平均化ルール（2026-10-11、ユーザー指示「各プラットフォームへの投稿数を平均化して」）
+
+4チャンネル(github/hatena/ameba/note)のうち、github(2カテゴリー)とhatena(3カテゴリー)はameba・note(各4カテゴリー)より
+カテゴリー数が少なく、素朴に「カテゴリーを均等に回す」だけでは**投稿数がチャンネルごとに偏る**(旧タイムテーブルは
+github1・hatena1・ameba2・note2/日で固定だった)。これを解消するため、下記タイムテーブルの**20:00と23:00の2枠だけ**、
+日付(JST)の偶数/奇数でチャンネルが入れ替わる仕組みを `scripts/topic_plan.py` の `slots_for_date()` に実装した
+(`SLOTS_FIXED` が4枠固定分、`SLOTS_SWAP_EVEN_DAY` / `SLOTS_SWAP_ODD_DAY` が20:00・23:00の隔日ペア)。
+結果、**2日間(12枠)でどのチャンネルもちょうど3枠(平均1.5記事/日)になり、4プラットフォームの投稿数が均等になる**。
+カテゴリー単位の均等配分(`allocate`/`priorities`、weight均等)はこれまで通りチャンネル内で機能する。
+
+### 1日6投稿タイムテーブル（2026-10-08、ユーザー提示の仕様書に基づき改修 → 2026-10-11、プラットフォーム平均化ルールで一部隔日化）
 
 8回/2時間おきの均等配信から、アクセスピークの30〜60分前に当たる**6つの固定時刻**に変更した。各スロットは配信チャンネルを
-固定し、同じチャンネルでも朝/夜で記事の性格を変える。定義は `scripts/topic_plan.py` の `SLOTS`（`topic_plan.py slot` で
-現在時刻に最も近いスロットを取得できる）。
+固定し、同じチャンネルでも朝/夜で記事の性格を変える。定義は `scripts/topic_plan.py` の `slots_for_date()`（`topic_plan.py slot`
+で現在時刻に最も近いスロットを取得できる。**どのチャンネルかは日付依存なので、作業前に必ずこのコマンドで確認すること**）。
 
 | 順序 | 時刻 | 想定読者行動 | チャンネル | 優先する記事の性格 |
 |---|---|---|---|---|
-| 1本目 | 07:30 | 朝の通勤・始業前 | github | 実用寄り（guide/comparison/deep-dive） |
-| 2本目 | 12:00 | 昼休み | hatena | 機材レビュー（gear/setup/fashion） |
-| 3本目 | 17:30 | 退勤・帰宅移動 | hatena | 音楽アルバム評（music） |
-| 4本目 | 20:00 | 夕食後 | github | DTM理論・構造寄りのテーマ記事（article_type: theme） |
-| 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note | ウイスキー等の製品カルチャー（whisky/drink/sakeware） |
-| 6本目 | 23:00 | 就寝前 | note | カルチャーエッセイ（`essay` カテゴリー、2026-10-08新設） |
+| 1本目 | 07:30 | 朝の通勤・始業前 | github（固定） | 検証メモ・個人備忘録（lab/notes） |
+| 2本目 | 12:00 | 昼休み | hatena（固定） | テック・ソフト・制作環境（tech/software/setup） |
+| 3本目 | 17:30 | 退勤・帰宅移動 | ameba（固定） | 機材レビュー・学習体験談（gear/learning） |
+| 4本目 | 20:00 | 夕食後 | **偶数日 ameba(fashion/drink) ／ 奇数日 hatena(tech/software/setup)** | 隔日でチャンネルが変わる(平均化枠) |
+| 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note（固定） | ウイスキー等の製品カルチャー（whisky/music/sakeware） |
+| 6本目 | 23:00 | 就寝前 | **偶数日 note(essay) ／ 奇数日 github(lab/notes)** | 隔日でチャンネルが変わる(平均化枠) |
 
 `claim()` は現在のスロットのチャンネル・優先条件に合う承認済みネタを優先して選ぶ。合うネタが無ければチャンネルが合うネタ、
 それも無ければ通常の優先順位にフォールバックするため、キューが薄いスロットがあっても投稿は止まらない。
 
-**CV（回遊・収益）誘導**: 07:30・12:00・17:30の記事は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
-21:30・23:00の note 記事は末尾に GitHub Pages（本家）への回遊リンクを必ず残す（具体的な記事URLは執筆時点でまだ存在しないため、
-プラットフォームのトップページへリンクする）。各記事の frontmatter には、どのスロットで書かれたかを示す
-`scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は `scripts/scheduled/prompts/blog-post.md` の
-手順1.4・2・7.5。
+**CV（回遊・収益）誘導**: `channel: github`/`hatena` の回（朝・昼、および隔日20:00のhatena回）は末尾に「今夜の note / 夜の特集」
+への予告リンクを1行加え、`channel: note` の回（21:30・23:00）は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
+（具体的な記事URLは執筆時点でまだ存在しないため、プラットフォームのトップページへリンクする）。各記事の frontmatter には、
+どのスロットで書かれたかを示す `scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は
+`scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
   - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`
@@ -126,7 +140,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   sync-skips / images / news / calendar / matrix / gaps / health / bootstrap（使い方は冒頭の docstring）。`slot` が現在時刻に最も近い
   スロット（時刻・チャンネル・優先条件）を返す。
 - **データ**: `scripts/topics-queue.json`（キュー。status = approved / in_progress / published / failed / rejected / hold / deleted）、
-  `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。channel: github/hatena/note を含む。均等）、
+  `scripts/topic-log.json`（全履歴。既存記事も登録済み）、`scripts/category-plan.json`（カテゴリーと重み。channel: github/hatena/ameba/note を含む。均等）、
   `scripts/topic-sources.json`（カテゴリー別RSS）、`scripts/topic-calendar.json`（月ごとの季節ネタ）、`scripts/topic-matrix.json`（定番テーマの軸）、
   `scripts/pipeline-status.json`（アプリ表示用の状態。実行中のジョブ・直近の実行結果も含む）。
 - **配分**: 直近60本に占める割合と目標（均等）の差＋最後の投稿からの日数で優先度を出し、1件ずつ再計算しながら配る。同じカテゴリーは連続させない。
