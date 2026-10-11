@@ -12,6 +12,14 @@ Ameba には投稿用の公開 API が無いため、Chromium/Edge の永続プ�
     `CKEDITOR.instances['amebloeditor'].setData(html)` で内容を設定する。
   - 投稿/下書き: button.js-submitButton[publishflg="0"]=投稿する / [publishflg="1"]=下書き保存
   - ログイン画面は https://auth.user.ameba.jp/signin (user.ameba.jp/login は接続できない)
+  - **本文に amazon.co.jp への生リンクがあると「投稿する」が失敗する**(2026-10-11実測。「保存ができませんでした。
+    リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください。」というエラーが、投稿する押下後に開く
+    ポップアップ(srventryupdateend.do)に出る。見た目は普通に編集画面へ戻るだけなので気づきにくい)。
+    `strip_amazon_links()` が setData 後に amazon.co.jp への <a> を自動で剥がす(画像自体は残す)。
+    Ameba Pick(編集画面右サイドバーの「Pick」タブ、またはブログ管理左メニューの「Ameba Pick」→
+    商品カテゴリ(Amazon等)→「アイテムを探す」)に登録済みなら商品リンクを貼れるが、自動挿入は未実装
+    (2026-10-11時点ではリンクを完全に外すだけ)。
+  - 公開URL: https://ameblo.jp/sfd0501/entry-{entry_id}.html (ブログID "sfd0501")
 
 使い方:
   # 1回だけ。ブラウザ(Edge)が開くので手動でログインすると検知して終了する
@@ -193,6 +201,89 @@ def do_login(p):
     ctx.close()
 
 
+def dismiss_dialogs(page):
+    """Ameba editor pops up onboarding/notice <dialog> elements (e.g. "AmebaPickからのお知らせ")
+    that intercept clicks. Close whatever is open, a few times, falling back to Escape."""
+    for _ in range(4):
+        dlg = page.query_selector("dialog[open]")
+        if not dlg:
+            return
+        closed = False
+        for b in dlg.query_selector_all("button"):
+            try:
+                if b.is_visible():
+                    b.click(timeout=1500, force=True)
+                    closed = True
+                    break
+            except Exception:
+                pass
+        page.wait_for_timeout(500)
+        if not closed:
+            page.keyboard.press("Escape")
+            page.wait_for_timeout(500)
+
+
+def strip_amazon_links(page):
+    """Ameba refuses to publish (see publish-time error) any entry whose body contains a plain
+    amazon.co.jp link ("リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください" — bare
+    affiliate links aren't allowed, only their own Ameba Pick widget is). Unwrap such <a> tags,
+    keeping their contents (the product image), so the article can publish. Discovered 2026-10-11
+    when both pending drafts failed to publish with that exact error."""
+    removed = page.evaluate(
+        """() => {
+            const ed = window.CKEDITOR.instances['amebloeditor'];
+            const doc = ed.document.$;
+            let count = 0;
+            doc.querySelectorAll('a[href*="amazon.co.jp"]').forEach(a => {
+                const parent = a.parentNode;
+                while (a.firstChild) parent.insertBefore(a.firstChild, a);
+                parent.removeChild(a);
+                count++;
+            });
+            ed.updateElement();
+            return count;
+        }"""
+    )
+    if removed:
+        print(f"Amazonリンクを{removed}件除去しました(Ameba Pick未対応のため)。")
+
+
+def click_submit_and_check(page, ctx, publish):
+    """Click 投稿する/下書き保存 and, for publish, follow the confirmation popup it opens
+    (srventryupdateend.do) to detect Ameba's "保存ができませんでした" rejection."""
+    flg = "0" if publish else "1"
+    label = "投稿する" if publish else "下書き保存"
+    sel = f'button.js-submitButton[publishflg="{flg}"]'
+    btn = page.wait_for_selector(sel, timeout=20000)
+    btn.scroll_into_view_if_needed()
+    page.wait_for_timeout(500)
+
+    if not publish:
+        btn.click(timeout=10000)
+        print(f"{label} を押しました。処理を待ちます…")
+        page.wait_for_timeout(6000)
+        dismiss_dialogs(page)
+        return True
+
+    try:
+        with ctx.expect_page(timeout=15000) as pinfo:
+            btn.click(timeout=10000)
+        popup = pinfo.value
+        popup.wait_for_load_state("domcontentloaded", timeout=30000)
+        popup.wait_for_timeout(2000)
+        text = popup.inner_text("body")
+        popup.close()
+    except Exception as e:
+        print(f"投稿する クリック後にポップアップを検出できませんでした: {e}")
+        return False
+
+    if "できませんでした" in text or "エラー" in text:
+        print("公開エラー:", text[:300])
+        return False
+    print(f"{label} を押しました。公開を確認しました。")
+    return True
+
+
 def fill_editor_and_submit(slug, publish):
     with sync_playwright() as p:
         ctx = open_browser(p)
@@ -206,6 +297,7 @@ def fill_editor_and_submit(slug, publish):
             print("ログインされていません。`python scripts/post-to-ameba.py --login` を実行してください。")
             ctx.close()
             sys.exit(1)
+        dismiss_dialogs(page)
 
         title_box = page.wait_for_selector('input[name="entry_title"]', timeout=30000)
         if title_box is None:
@@ -229,26 +321,20 @@ def fill_editor_and_submit(slug, publish):
         )
         page.evaluate("(html) => window.CKEDITOR.instances['amebloeditor'].setData(html)", body)
         page.wait_for_timeout(2500)
+        strip_amazon_links(page)
 
         # 初期化モーダルが邪魔になった場合に備えて閉じる
         try:
             page.click("#js-initializing-modal", timeout=1000)
         except Exception:
             pass
+        dismiss_dialogs(page)
 
-        flg = "0" if publish else "1"
-        label = "投稿する" if publish else "下書き保存"
-        sel = f'button.js-submitButton[publishflg="{flg}"]'
-        try:
-            page.click(sel, timeout=10000)
-        except Exception as e:
+        ok = click_submit_and_check(page, ctx, publish)
+        if not ok:
             page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
-            print(f"ボタンクリック失敗: {e}")
             ctx.close()
             sys.exit(1)
-
-        print(f"{label} を押しました。処理を待ちます…")
-        page.wait_for_timeout(8000)
 
         eid = ""
         try:
@@ -257,7 +343,8 @@ def fill_editor_and_submit(slug, publish):
             pass
         print("URL:", page.url[:160])
         print(f"entry_id={eid}")
-        print("完了(入力とボタン押下は成功。公開物はブログ管理画面で確認してください)。")
+        if eid:
+            print(f"公開URL(publish時): https://ameblo.jp/sfd0501/entry-{eid}.html")
         ctx.close()
 
 
