@@ -324,18 +324,28 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 - **重要な制約(2026-10-11実測)**: **本文に`amazon.co.jp`への生リンクがあると「投稿する」が失敗する**。
   エラーは記事編集画面に留まるだけで一見成功したように見え、実際は押下後に開く確認ポップアップ(`srventryupdateend.do`)に
   「保存ができませんでした。リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください。」と出るだけなので気づきにくい。
-  この日、公開を2日連続で妨げていた直接の原因と判明した。`post-to-ameba.py` の `strip_amazon_links()` が
-  CKEditorへの `setData()` 後に `amazon.co.jp` への `<a>` を自動で剥がす(画像自体・バナーは残す。クリックしても
-  Amazonへ飛ばなくなるだけ)。`click_submit_and_check()` が「投稿する」後のポップアップを追跡し、エラー文言を検出したら
-  失敗として扱う。
-- **Ameba Pick(本人が2026-10-11に登録済み)**: ブログ管理左メニュー「Ameba Pick」、または記事編集画面右サイドバーの
-  「Pick」タブから、Amazon・楽天等の商品を検索して専用リンクを貼れる(標準の`.product-banner`とは別物)。
-  `blog.ameba.jp/ucs/pick/top.do` →「オススメアイテム」の Amazon タイル →「アイテムを探す」→ キーワード検索 →
-  チェックして「Pick」ボタンで、その場で新規下書き(`srventryinsertinput.do?pick=[...]`)に商品カードが挿入される
-  ことを確認済み。**自動投稿パイプラインへの組み込みは未実装**(2026-10-11時点では amazon.co.jp リンクを除去するだけで、
-  Ameba Pickへの差し替えはしていない)。やるなら、編集画面右サイドバーの「Pick」タブ内の検索ボックス(`#amebaPickEditorSidePanel_root input`、
-  先に Amazon タブを選ぶ必要があるかもしれない)経由で直接挿入する方法と、`pick=` URLパラメータ経由で別ドラフトに挿入してから
-  本体にHTMLを移植する方法の両方を試したが、前者は検索結果が常に0件になり未解決、後者は動作を確認済み。
+- **Ameba Pick 連携(本人が2026-10-11に登録済み。同日中にAmazon画像リンクの自動変換まで実装完了)**:
+  `post-to-ameba.py` の `convert_amazon_links_to_pick()` が、本文中の `amazon.co.jp/dp/{ASIN}` リンクが商品画像を
+  包んでいる場合、Ameba自身の「pickCreative」アンカー形式(`class="pickCreative"` + `href=""` + `data-df-item-id={ASIN}`
+  + `data-item-id="AZ000001"`)に作り替える。**Amebaのページ表示時に自前のJSがこの空hrefを実際の追跡リンクへ解決する**
+  (2026-10-11実機確認: クリックで `https://d.odsyms15.com/click?aid=...` を経由し、最終的に
+  `amazon.co.jp/dp/{ASIN}?ascsubtag=...&tag=amebablog_st1-22` へ着地。`tag=amebablog_st1-22` はAmeba全体で共有する
+  Associatesタグで、`ascsubtag` が投稿者(プレス)に按分する仕組み)。画像の直後に
+  「（※画像からAmazonの詳細・購入ページへ移動します）」という小さな注記 `<p>` も挿入する。画像を包んでいない
+  Amazonリンク(検索リンクのフォールバック `/s?k=...`、キャプション内の文字リンク、まとめ表など)はASINが取れないので
+  従来通りリンクだけ外す(プレーンテキストとして残す)。
+  - **CKEditorの罠**: `a.setAttribute('href', '')` だけでは効かない。CKEditorは `data-cke-saved-href` 属性に
+    元のURLを保持していて `getData()` はそちらを読むため、**`data-cke-saved-href` も明示的に `removeAttribute` する**
+    必要がある(これに気づかず最初の実装は`amazon.co.jp`の文字列がシリアライズ後に残り、投稿がエラーになった)。
+  - **ASINの調べ方**: Ameba Pick自身の検索API `GET https://blog.ameba.jp/api/pick/items/AZ000001/df_items?q=<キーワード>&category_id=&sort=`
+    (ログイン済みブラウザコンテキストの `page.request.get()` で直接叩ける。UIの「アイテムを探す」モーダルより高速・安定)が
+    `item_url: "https://www.amazon.co.jp/dp/{ASIN}"` 形式で候補を返す。新しい記事でAmeba Pick対応の商品リンクを使うときは、
+    `scripts/post-to-ameba.py` の記事本文生成前に、通常のAmazonアフィリエイトリンク(`/dp/{ASIN}?tag=nakimoto1-22`、
+    検索フォールバックではなく実在のASIN)を使っておけば、Ameba側は自動でPick形式に変換される。
+  - **UIの「アイテムを探す」モーダルは不安定**: `blog.ameba.jp/ucs/pick/top.do` の「オススメアイテム」→ Amazon タイル
+    (`img[src*="stat.amebame.com"][src*="amazon"]` で特定すること。単に `img[src*="amazon"]` だと「お気に入り」欄の
+    商品サムネイルに誤爆する)→「アイテムを探す」で検索UIは開くが、アカウントの状態(お気に入り件数など)によって
+    タイルの位置や挙動が変わりクリックが不安定。**上記のAPI直叩きのほうが確実**。
 - **モーダルに注意**: ログイン直後やPick登録直後は、エディタを開くたびに「編集途中の記事があります」「AmebaPickからのお知らせ」
   等の `<dialog open>` 要素が毎回出てクリックを妨げる。`dismiss_dialogs()` が開いているダイアログのボタンを順番に押し、
   無ければ Escape で閉じる。

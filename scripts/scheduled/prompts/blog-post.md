@@ -82,8 +82,10 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 - 配置は CLAUDE.md の回り込みルール（`<figure class="photo photo--left|right">`、見出しの直後、左右交互、幅220、figcaption と credit 必須）。
   クレジットは必ず `<span class="credit">CC / Public domain / Image: / Photo: / 撮影: など の具体的なクレジット情報</span>` の形式で。
 - Amazon で扱いのある製品は、画像を `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む
-  （**画像をクリックするとその製品の Amazon ページが開くこと**。ASIN が分からなければ `https://www.amazon.co.jp/s?k=<製品名>&tag=nakimoto1-22`）。
-  Amazon に無いもの（無料ソフト等）は公式サイトへのリンクで包む。
+  （**画像をクリックするとその製品の Amazon ページが開くこと**。**ASIN はできるだけ実際の商品ページから確認して使う**
+  （`channel: ameba` の記事は `/dp/<ASIN>` 形式でないと post-to-ameba.py が Ameba Pick リンクに変換できない — 検索リンク
+  フォールバックのままだと Ameba 版はリンクなしの画像になる）。ASIN がどうしても分からなければ
+  `https://www.amazon.co.jp/s?k=<製品名>&tag=nakimoto1-22`）。Amazon に無いもの（無料ソフト等）は公式サイトへのリンクで包む。
 - 公開後、`curl` の 200 だけで済ませない。`python scripts/check_live_page.py <slug>` で実ブラウザ表示を確認する（画像が全部表示され、figure がリンク付きか）。
 
 ## 6. 仕上げと検査
