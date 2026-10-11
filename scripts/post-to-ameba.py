@@ -118,6 +118,45 @@ def extract_post_content(html_path):
     return out
 
 
+FIGURE_RE = re.compile(r'<figure class="photo photo--(?:left|right)".*?</figure>', re.S)
+IMG_TAG_RE = re.compile(r"<img\b[^>]*>")
+WIDTH_ATTR_RE = re.compile(r'width="(\d+)"')
+HEIGHT_ATTR_RE = re.compile(r'height="(\d+)"')
+AMEBA_FIGURE_IMG_WIDTH = 220
+
+
+def shrink_figure_img_attrs(html, target_width=AMEBA_FIGURE_IMG_WIDTH):
+    """Rewrite width/height on <img> inside .photo figures down to the float's real display
+    size (220px, see figures.css / hatena_figures.py's FIG_STYLE).
+
+    Ameba's own lazy-load rewriter (added on save: data-src + a placeholder SVG) looks at the
+    img's width/height *attributes*, not our inline float CSS, to decide layout. A large
+    attribute (e.g. the image's native 750x1000 from fetch_image.py) makes it pick
+    data-amb-layout="fill-width" and stretch the image to the full column width, breaking the
+    float and overlapping the text that was supposed to wrap beside it (seen 2026-10-11 on
+    non-alcohol-beer-5choice-2026's mobile rendering). Site/Hatena render fine regardless since
+    their CSS constrains the box; only Ameba needs the attributes themselves shrunk.
+    """
+
+    def fix_img(m):
+        tag = m.group(0)
+        w, h = WIDTH_ATTR_RE.search(tag), HEIGHT_ATTR_RE.search(tag)
+        if not w or not h:
+            return tag
+        ow, oh = int(w.group(1)), int(h.group(1))
+        if ow <= target_width:
+            return tag
+        nh = round(oh * target_width / ow)
+        tag = WIDTH_ATTR_RE.sub(f'width="{target_width}"', tag, count=1)
+        tag = HEIGHT_ATTR_RE.sub(f'height="{nh}"', tag, count=1)
+        return tag
+
+    def fix_figure(m):
+        return IMG_TAG_RE.sub(fix_img, m.group(0), count=1)
+
+    return FIGURE_RE.sub(fix_figure, html)
+
+
 def render_body_html(slug):
     """Hugo で記事をレンダリングし、本文の HTML を返す(はてな用変換も適用)。"""
     build = tempfile.mkdtemp(prefix="ameba-build-")
@@ -147,6 +186,7 @@ def render_body_html(slug):
                 input=body.encode("utf-8"),
                 capture_output=True, check=True,
             ).stdout.decode("utf-8")
+        body = shrink_figure_img_attrs(body)
         return body
     finally:
         shutil.rmtree(build, ignore_errors=True)
