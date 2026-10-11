@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T17:42:55+09:00",
+ "updated": "2026-10-11T17:43:14+09:00",
  "queue": {
   "approved": 60,
   "published": 37,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published sony-ecm-ax10-spatial-mic-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-11T17:30:05+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-11T12:11:40+09:00",
+  "at": "2026-10-11T17:43:14+09:00",
   "engine": "claude",
-  "detail": "On facts: the research report said a cardioid mic only cuts sound from directly behind by 6 dB, which is wrong. The article uses the standard figures instead: −6 dB at the side, and close to zero pickup directly behind. I also left out a few fan specs I couldn't confirm."
+  "detail": "- **Records:** the topic is marked complete without a Ameba ID and everything is pushed. That makes 4 posts today. I didn't add rows to the hatena/note tables in CLAUDE.md, because this article went to neither."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-11T17:43:14+09:00",
+   "engine": "claude",
+   "detail": "- **Records:** the topic is marked complete without a Ameba ID and everything is pushed. That makes 4 posts today. I didn't add rows to the hatena/note tables in CLAUDE.md, because this article went to neither."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-10T12:11:43+09:00",
    "engine": "claude",
    "detail": "Uncommitted changes to `hugo.toml`, `layouts/index.html` and three `scripts/*.json` files were already there before this run (they look like a category rework you're in the middle of). I left them untouched and didn't commit them. The topic is marked published and the Hatena row is added to CLAUDE.m"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-10T07:42:38+09:00",
-   "engine": "claude",
-   "detail": "- 作業ツリーに、コミットしていないカテゴリー再編の変更があります（`hugo.toml`、`layouts/index.html`、`scripts/category-plan.json`、`topic-matrix.json`、`topic-sources.json`）。どれも手を付けず、コミットにも含めていません。ただし、ネタの取り出しは `category-plan.json` のこの未コミット版を読んで動いています。"
   }
  ]
 }
