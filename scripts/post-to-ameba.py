@@ -15,10 +15,13 @@ Ameba には投稿用の公開 API が無いため、Chromium/Edge の永続プ�
   - **本文に amazon.co.jp への生リンクがあると「投稿する」が失敗する**(2026-10-11実測。「保存ができませんでした。
     リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください。」というエラーが、投稿する押下後に開く
     ポップアップ(srventryupdateend.do)に出る。見た目は普通に編集画面へ戻るだけなので気づきにくい)。
-    `strip_amazon_links()` が setData 後に amazon.co.jp への <a> を自動で剥がす(画像自体は残す)。
-    Ameba Pick(編集画面右サイドバーの「Pick」タブ、またはブログ管理左メニューの「Ameba Pick」→
-    商品カテゴリ(Amazon等)→「アイテムを探す」)に登録済みなら商品リンクを貼れるが、自動挿入は未実装
-    (2026-10-11時点ではリンクを完全に外すだけ)。
+    `convert_amazon_links_to_pick()` が setData 後に対応する。ASINが分かるリンク(`.../dp/{ASIN}`)が
+    画像を包んでいれば、Ameba自身の「pickCreative」アンカー(`href=""` + `data-df-item-id`/`data-item-id`
+    属性)に作り替える — Ameba側のJSがページ表示時にこれを実際の追跡リンクに解決する(2026-10-11実機確認: クリックで
+    `amazon.co.jp/dp/{ASIN}?...&tag=amebablog_st1-22` に遷移。Amebaの共有Associatesタグによる按分)。
+    画像の直後に「（※画像からAmazonの詳細・購入ページへ移動します）」という小さな注記も挿入する。
+    ASINが無い/画像を包んでいないAmazonリンク(検索リンクのフォールバック、キャプション内の文字リンク、
+    まとめ表など)はリンクだけ外す(今まで通り)。
   - 公開URL: https://ameblo.jp/sfd0501/entry-{entry_id}.html (ブログID "sfd0501")
 
 使い方:
@@ -263,29 +266,70 @@ def dismiss_dialogs(page):
             page.wait_for_timeout(500)
 
 
-def strip_amazon_links(page):
+AMEBA_PICK_DISCLAIMER = "（※画像からAmazonの詳細・購入ページへ移動します）"
+AMAZON_CATEGORY_ID = "AZ000001"  # Ameba Pick's fixed id for the Amazon "shop"
+ASIN_RE = re.compile(r"amazon\.co\.jp/dp/([A-Z0-9]{10})")
+
+
+def convert_amazon_links_to_pick(page):
     """Ameba refuses to publish (see publish-time error) any entry whose body contains a plain
     amazon.co.jp link ("リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください" — bare
-    affiliate links aren't allowed, only their own Ameba Pick widget is). Unwrap such <a> tags,
-    keeping their contents (the product image), so the article can publish. Discovered 2026-10-11
-    when both pending drafts failed to publish with that exact error."""
-    removed = page.evaluate(
-        """() => {
+    affiliate links aren't allowed). Discovered 2026-10-11 when both pending drafts failed to
+    publish with that exact error.
+
+    For a link that wraps a product image and has a real ASIN (.../dp/{ASIN}), rebuild it as
+    Ameba's own "pickCreative" anchor instead of just stripping it: same image, same float
+    layout, but `href=""` plus `data-df-item-id`/`data-item-id` attributes. Ameba's own
+    front-end JS hydrates that on page view into a real tracked redirect (confirmed 2026-10-11:
+    clicking one on the live page opened `https://www.amazon.co.jp/dp/<asin>?...&tag=amebablog_st1-22`,
+    i.e. Ameba's shared Associates tag with per-press tracking — this is the only way a
+    affiliate link survives Ameba's publish check). A small-print line is inserted right after
+    the image to disclose that it's an Amazon link.
+
+    Any other amazon.co.jp link (search-fallback `/s?k=`, or a plain text link with no ASIN,
+    e.g. the "Amazonで見る →" caption credit or the summary table) can't be turned into a
+    pickCreative card, so it's just unwrapped (kept as plain text) like before.
+    """
+    counts = page.evaluate(
+        """(disclaimer) => {
             const ed = window.CKEDITOR.instances['amebloeditor'];
             const doc = ed.document.$;
-            let count = 0;
+            let picked = 0, stripped = 0;
             doc.querySelectorAll('a[href*="amazon.co.jp"]').forEach(a => {
-                const parent = a.parentNode;
-                while (a.firstChild) parent.insertBefore(a.firstChild, a);
-                parent.removeChild(a);
-                count++;
+                const m = a.href.match(/amazon\\.co\\.jp\\/dp\\/([A-Z0-9]{10})/);
+                const img = a.querySelector('img');
+                if (m && img) {
+                    a.setAttribute('class', 'pickCreative');
+                    a.setAttribute('data-df-item-id', m[1]);
+                    a.setAttribute('data-item-id', 'AZ000001');
+                    a.setAttribute('href', '');
+                    a.removeAttribute('data-cke-saved-href');
+                    a.setAttribute('target', '_blank');
+                    a.setAttribute('rel', 'noopener');
+                    a.removeAttribute('sponsored');
+                    const existing = a.style.cssText || '';
+                    a.setAttribute('style', existing + ';display:block');
+                    const p = doc.createElement('p');
+                    p.setAttribute('style', 'font-size:0.7em;color:#999;margin:0.2em 0 0;text-align:left');
+                    p.textContent = disclaimer;
+                    a.parentNode.insertBefore(p, a.nextSibling);
+                    picked++;
+                } else {
+                    const parent = a.parentNode;
+                    while (a.firstChild) parent.insertBefore(a.firstChild, a);
+                    parent.removeChild(a);
+                    stripped++;
+                }
             });
             ed.updateElement();
-            return count;
-        }"""
+            return {picked, stripped};
+        }""",
+        AMEBA_PICK_DISCLAIMER,
     )
-    if removed:
-        print(f"Amazonリンクを{removed}件除去しました(Ameba Pick未対応のため)。")
+    if counts["picked"]:
+        print(f"Amazon画像リンクを{counts['picked']}件 Ameba Pick形式に変換しました。")
+    if counts["stripped"]:
+        print(f"ASIN無しのAmazonリンクを{counts['stripped']}件除去しました(Ameba Pick未対応)。")
 
 
 def click_submit_and_check(page, ctx, publish):
@@ -361,7 +405,7 @@ def fill_editor_and_submit(slug, publish):
         )
         page.evaluate("(html) => window.CKEDITOR.instances['amebloeditor'].setData(html)", body)
         page.wait_for_timeout(2500)
-        strip_amazon_links(page)
+        convert_amazon_links_to_pick(page)
 
         # 初期化モーダルが邪魔になった場合に備えて閉じる
         try:
