@@ -1,0 +1,30 @@
+{
+ "/images/quiet-pc/full-tower.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Computer_case_-_Full_Tower.jpg/1280px-Computer_case_-_Full_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Computer_case_-_Full_Tower.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Dmitry Makeev",
+  "title": "File:Computer case - Full Tower.jpg"
+ },
+ "/images/quiet-pc/case-fan-80mm.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Antec-branded_80mm_case_fan.jpg/1280px-Antec-branded_80mm_case_fan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Antec-branded_80mm_case_fan.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Mkhan4793",
+  "title": "File:Antec-branded 80mm case fan.jpg"
+ },
+ "/images/quiet-pc/case-fans.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg/1280px-Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Fans_from_computer_case_-_front_and_back_-_2018-05-22.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Bretwa",
+  "title": "File:Fans from computer case - front and back - 2018-05-22.jpg"
+ },
+ "/images/quiet-pc/atx-back.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/ATX_Computer_cases%2C_back_view.jpg/1280px-ATX_Computer_cases%2C_back_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:ATX_Computer_cases,_back_view.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Dmitry Makeev",
+  "title": "File:ATX Computer cases, back view.jpg"
+ }
+}
