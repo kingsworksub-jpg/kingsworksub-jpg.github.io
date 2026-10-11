@@ -1,0 +1,23 @@
+{
+ "/images/cassette-tape/trio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Cassette_tape_by_Trio.jpg/1280px-Cassette_tape_by_Trio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cassette_tape_by_Trio.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Havelbaude",
+  "title": "File:Cassette tape by Trio.jpg"
+ },
+ "/images/cassette-tape/loose-tape.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Noname_blank_compact_cassette%2C_loose_tape_%281%29.jpg/1280px-Noname_blank_compact_cassette%2C_loose_tape_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Noname_blank_compact_cassette,_loose_tape_(1).jpg",
+  "license": "CC BY 2.0",
+  "author": "Tim Reckmann",
+  "title": "File:Noname blank compact cassette, loose tape (1).jpg"
+ },
+ "/images/cassette-tape/dat-and-cassette.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/DAT_%26_Compact_Cassette_hor.jpg/1280px-DAT_%26_Compact_Cassette_hor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:DAT_%26_Compact_Cassette_hor.jpg",
+  "license": "CC0",
+  "author": "Inpriva",
+  "title": "File:DAT & Compact Cassette hor.jpg"
+ }
+}
