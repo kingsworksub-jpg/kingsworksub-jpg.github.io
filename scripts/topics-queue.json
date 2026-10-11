@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T22:32:22+09:00",
+ "updated": "2026-10-11T22:32:53+09:00",
  "items": [
   {
    "category": "gear",
@@ -2178,7 +2178,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-038",
-   "status": "approved",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 1,
    "claimed_at": "2026-10-11T19:21:46+09:00",
@@ -2186,7 +2186,9 @@
    "content_dir": "culture",
    "slot_time": "20:00",
    "slot_label": "夜: ファッション/飲料",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "non-alcohol-beer-5choice-2026",
+   "published_at": "2026-10-11T22:32:53+09:00"
   },
   {
    "category": "drink",
