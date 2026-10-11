@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-11T17:30:48+09:00",
+ "updated": "2026-10-11T17:42:55+09:00",
  "queue": {
   "approved": 60,
-  "published": 36,
-  "rejected": 1,
-  "in_progress": 1
+  "published": 37,
+  "rejected": 1
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published quiet-music-pc-fan-noise-2026",
+ "last_result": "published sony-ecm-ax10-spatial-mic-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
