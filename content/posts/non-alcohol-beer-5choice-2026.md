@@ -35,10 +35,10 @@ draft: false
 ## アサヒ ドライゼロ、ブリューゼロ製法が生む「いちばんビールに近い」のどごし
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%B5%E3%83%92+%E3%83%89%E3%83%A9%E3%82%A4%E3%82%BC%E3%83%AD&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B006OHKDW8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/nonalc-beer-5/asahi-dry-zero.jpg" alt="アサヒ ドライゼロの缶とグラスに注がれた飲み物" width="1000" height="750" loading="lazy">
 </a>
-<figcaption>缶に「0kcal / 糖質0g」と大きく入る。グラスに注ぐと泡立ちの細かさがよく分かる<span class="credit">Photo: Mr.ちゅらさん / <a href="https://commons.wikimedia.org/wiki/File:Asahi_Dry_Zero_Alcohol_Free_Beer.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%B5%E3%83%92+%E3%83%89%E3%83%A9%E3%82%A4%E3%82%BC%E3%83%AD&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>缶に「0kcal / 糖質0g」と大きく入る。グラスに注ぐと泡立ちの細かさがよく分かる<span class="credit">Photo: Mr.ちゅらさん / <a href="https://commons.wikimedia.org/wiki/File:Asahi_Dry_Zero_Alcohol_Free_Beer.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/dp/B006OHKDW8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 アサヒのドライゼロは、国内のノンアルコールビール市場でもっとも売れている銘柄だと言っていい。コンビニでもスーパーでも、ほぼ確実に棚の一等地に並んでいる。さきほどの分類でいえば「発酵させてから抜く」側の代表格で、ブリューゼロ製法という名前をはっきり前面に出している。
@@ -66,10 +66,10 @@ draft: false
 ## サントリー オールフリー、世界初の0.00%を2026年にもう一段深くした
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC+%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%95%E3%83%AA%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B07QZ5F3FL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/nonalc-beer-5/suntory-allfree.jpg" alt="サントリー オールフリーの缶。カロリーゼロ・糖質ゼロの表示が並ぶ" width="378" height="1000" loading="lazy">
 </a>
-<figcaption>白を基調にしたパッケージに「カロリーゼロ」「糖質ゼロ」の表示が並ぶ<span class="credit">Photo: 森 康哲 / Yoshinori Mori / <a href="https://commons.wikimedia.org/wiki/File:Suntory_allfree_500ml.JPG" target="_blank" rel="noopener">CC BY 3.0</a> / <a href="https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC+%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%95%E3%83%AA%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>白を基調にしたパッケージに「カロリーゼロ」「糖質ゼロ」の表示が並ぶ<span class="credit">Photo: 森 康哲 / Yoshinori Mori / <a href="https://commons.wikimedia.org/wiki/File:Suntory_allfree_500ml.JPG" target="_blank" rel="noopener">CC BY 3.0</a> / <a href="https://www.amazon.co.jp/dp/B07QZ5F3FL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 オールフリーは2010年8月、アルコール0.00%とカロリーゼロ、糖質ゼロを同時に実現した世界初のビールテイスト飲料として登場した銘柄だ。サントリーが400種類以上の処方を試したという逸話が残っていて、ノンアルコールビール市場をいまの形に押し上げた立役者のひとつだと思う。
@@ -110,11 +110,11 @@ draft: false
 
 | 銘柄 | 麦の風味 | 後味のキレ | カロリー糖質 | 食事との相性 | 入手しやすさ |
 |---|---|---|---|---|---|
-| [アサヒ ドライゼロ](https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%B5%E3%83%92+%E3%83%89%E3%83%A9%E3%82%A4%E3%82%BC%E3%83%AD&tag=nakimoto1-22) | 4 | 5 | 5 | 5 | 5 |
-| [キリン グリーンズフリー](https://www.amazon.co.jp/s?k=%E3%82%AD%E3%83%AA%E3%83%B3+%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%BA%E3%83%95%E3%83%AA%E3%83%BC&tag=nakimoto1-22) | 3 | 4 | 3 | 3 | 4 |
-| [サントリー オールフリー](https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC+%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%95%E3%83%AA%E3%83%BC&tag=nakimoto1-22) | 4 | 4 | 5 | 4 | 5 |
-| [サッポロ プレミアムアルコールフリー](https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%83%E3%83%9D%E3%83%AD+%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%95%E3%83%AA%E3%83%BC&tag=nakimoto1-22) | 5 | 4 | 2 | 4 | 4 |
-| [龍馬1865](https://www.amazon.co.jp/s?k=%E9%BE%8D%E9%A6%AC1865+%E3%83%8E%E3%83%B3%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%93%E3%83%BC%E3%83%AB&tag=nakimoto1-22) | 5 | 3 | 2 | 3 | 2 |
+| [アサヒ ドライゼロ](https://www.amazon.co.jp/dp/B006OHKDW8?tag=nakimoto1-22) | 4 | 5 | 5 | 5 | 5 |
+| [キリン グリーンズフリー](https://www.amazon.co.jp/dp/B09RWF8QTH?tag=nakimoto1-22) | 3 | 4 | 3 | 3 | 4 |
+| [サントリー オールフリー](https://www.amazon.co.jp/dp/B07QZ5F3FL?tag=nakimoto1-22) | 4 | 4 | 5 | 4 | 5 |
+| [サッポロ プレミアムアルコールフリー](https://www.amazon.co.jp/dp/B00B7W783W?tag=nakimoto1-22) | 5 | 4 | 2 | 4 | 4 |
+| [龍馬1865](https://www.amazon.co.jp/dp/B01LY3LF99?tag=nakimoto1-22) | 5 | 3 | 2 | 3 | 2 |
 
 ## それで、結局どれを選べばいいのか
 
