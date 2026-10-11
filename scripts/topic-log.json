@@ -1408,6 +1408,15 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-11T21:30:13+09:00"
+  },
+  {
+   "id": "2026w41-016",
+   "category": "essay",
+   "theme": "カセットテープがまた店に並ぶ、磁気テープという消耗品にもう一度お金を払う理由",
+   "status": "failed",
+   "reason": "interactive session claimed this by accident while finishing a different in-flight article; returning for the scheduled 23:00 run",
+   "engine": "claude",
+   "at": "2026-10-11T22:32:22+09:00"
   }
  ]
 }
