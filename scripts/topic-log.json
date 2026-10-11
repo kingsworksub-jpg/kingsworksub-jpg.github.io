@@ -1375,6 +1375,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-11T11:56:34+09:00"
+  },
+  {
+   "id": "2026w41-005",
+   "category": "setup",
+   "theme": "制作PCの静音化、ファンの音を録音に入れないためのケースと置き場所",
+   "slug": "quiet-music-pc-fan-noise-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/quiet-music-pc-fan-noise-2026/",
+   "hatena_entry": "14945776032088764263",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-11T12:11:22+09:00"
   }
  ]
 }

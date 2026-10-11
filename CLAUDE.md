@@ -297,6 +297,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法 | https://kinbro.hatenablog.com/entry/2026/10/11/115553 | 14945776032088759442 |
 | FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位 | https://kinbro.hatenablog.com/entry/2026/10/09/174142 | 14945776032087999491 |
 | モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる | https://kinbro.hatenablog.com/entry/2026/10/10/121118 | 14945776032088323658 |
+| 制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き | https://kinbro.hatenablog.com/entry/2026/10/11/121110 | 14945776032088764263 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
