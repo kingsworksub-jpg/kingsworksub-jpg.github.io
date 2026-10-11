@@ -343,6 +343,15 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
   不安定で、何もトーストやエラーも出ないまま編集画面に留まった)。確実だったのは、ボタンを `scroll_into_view_if_needed()` →
   500ms待機 → 通常の `.click()`、かつ `page.context.expect_page()` でポップアップを捕まえて中身を読む方法
   (`click_submit_and_check()` に実装済み)。
+- **画像回り込みがモバイルで崩れる不具合(2026-10-11、ユーザーがスマホのスクショで報告 → 同日中に修正)**: Ameba は保存時に
+  `<img>` を自前の遅延読み込みコンポーネントへ自動的に置き換える(`src` をプレースホルダーSVGにし、実URLを`data-src`へ)。
+  このときの表示モード(`data-amb-layout`)は、**こちらが付けたインラインCSS(`float:left;width:220px`)ではなく、
+  `<img>` の `width`/`height` 属性の値**で決まる。サイト本体の記事は `fetch_image.py` が付ける実寸(例: 750×1000)を
+  そのまま `width`/`height` に入れており、GitHub Pages・はてなではCSSが効くので問題ないが、Amebaだけはこれを見て
+  `data-amb-layout="fill-width"` を付け、画像を列幅いっぱいに引き伸ばしてしまい、横に回り込むはずの本文と重なって見えた。
+  `shrink_figure_img_attrs()` が `.photo` figure内の `<img>` の `width`/`height` 属性を220px相当(アスペクト比維持)に
+  縮小してから `setData()` する(サイト本体・はてな向けのmarkdown/HTMLは変更不要、Ameba用のレンダリングだけに適用)。
+  **新しいAmeba記事を書くたびに意識する必要はない**(`render_body_html()` 内で自動適用される)。
 
 | 記事 | Ameba公開URL | entry_id |
 |---|---|---|
