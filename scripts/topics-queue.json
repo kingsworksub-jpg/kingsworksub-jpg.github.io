@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T23:00:23+09:00",
+ "updated": "2026-10-11T23:10:12+09:00",
  "items": [
   {
    "category": "gear",
@@ -5148,7 +5148,7 @@
    },
    "source_of_idea": "news",
    "id": "2026w41-016",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 1,
    "claimed_at": "2026-10-11T23:00:23+09:00",
@@ -5156,7 +5156,9 @@
    "content_dir": "culture",
    "slot_time": "23:00",
    "slot_label": "就寝前: カルチャーエッセイ",
-   "last_error": "interactive session claimed this by accident while finishing a different in-flight article; returning for the scheduled 23:00 run"
+   "last_error": "interactive session claimed this by accident while finishing a different in-flight article; returning for the scheduled 23:00 run",
+   "slug": "cassette-tape-revival-2026",
+   "published_at": "2026-10-11T23:10:12+09:00"
   },
   {
    "category": "essay",

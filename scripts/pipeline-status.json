@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-11T23:00:23+09:00",
+ "updated": "2026-10-11T23:10:12+09:00",
  "queue": {
   "approved": 58,
-  "published": 38,
-  "rejected": 1,
-  "in_progress": 1
+  "published": 39,
+  "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published non-alcohol-beer-5choice-2026",
+ "last_result": "published cassette-tape-revival-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
