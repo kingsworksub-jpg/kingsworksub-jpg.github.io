@@ -1399,6 +1399,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-11T17:42:55+09:00"
+  },
+  {
+   "id": "2026w40-038",
+   "category": "drink",
+   "theme": "ノンアルコールビール5本比較、麦の香りをどこまで作れるか",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-11T21:30:13+09:00"
   }
  ]
 }
