@@ -313,6 +313,42 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 | モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる | https://kinbro.hatenablog.com/entry/2026/10/10/121118 | 14945776032088323658 |
 | 制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き | https://kinbro.hatenablog.com/entry/2026/10/11/121110 | 14945776032088764263 |
 
+### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
+
+`channel: ameba` の記事(`gear`/`learning`/`drink`/`fashion`)を `scripts/post-to-ameba.py` でAmebaブログへ全文転載する。
+はてな・noteと同じく Playwright で永続プロファイル(`data/ameba_user_data/`、gitignore対象)にログイン状態を保存する方式。
+
+- ログイン初期化: `python scripts/post-to-ameba.py --login`(Edgeが開くので手動ログイン、検知すると自動終了)。
+- 下書き保存/公開: `python scripts/post-to-ameba.py --slug <slug> --save|--publish`。
+- ブログID: `sfd0501`。公開URLは `https://ameblo.jp/sfd0501/entry-{entry_id}.html`。
+- **重要な制約(2026-10-11実測)**: **本文に`amazon.co.jp`への生リンクがあると「投稿する」が失敗する**。
+  エラーは記事編集画面に留まるだけで一見成功したように見え、実際は押下後に開く確認ポップアップ(`srventryupdateend.do`)に
+  「保存ができませんでした。リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください。」と出るだけなので気づきにくい。
+  この日、公開を2日連続で妨げていた直接の原因と判明した。`post-to-ameba.py` の `strip_amazon_links()` が
+  CKEditorへの `setData()` 後に `amazon.co.jp` への `<a>` を自動で剥がす(画像自体・バナーは残す。クリックしても
+  Amazonへ飛ばなくなるだけ)。`click_submit_and_check()` が「投稿する」後のポップアップを追跡し、エラー文言を検出したら
+  失敗として扱う。
+- **Ameba Pick(本人が2026-10-11に登録済み)**: ブログ管理左メニュー「Ameba Pick」、または記事編集画面右サイドバーの
+  「Pick」タブから、Amazon・楽天等の商品を検索して専用リンクを貼れる(標準の`.product-banner`とは別物)。
+  `blog.ameba.jp/ucs/pick/top.do` →「オススメアイテム」の Amazon タイル →「アイテムを探す」→ キーワード検索 →
+  チェックして「Pick」ボタンで、その場で新規下書き(`srventryinsertinput.do?pick=[...]`)に商品カードが挿入される
+  ことを確認済み。**自動投稿パイプラインへの組み込みは未実装**(2026-10-11時点では amazon.co.jp リンクを除去するだけで、
+  Ameba Pickへの差し替えはしていない)。やるなら、編集画面右サイドバーの「Pick」タブ内の検索ボックス(`#amebaPickEditorSidePanel_root input`、
+  先に Amazon タブを選ぶ必要があるかもしれない)経由で直接挿入する方法と、`pick=` URLパラメータ経由で別ドラフトに挿入してから
+  本体にHTMLを移植する方法の両方を試したが、前者は検索結果が常に0件になり未解決、後者は動作を確認済み。
+- **モーダルに注意**: ログイン直後やPick登録直後は、エディタを開くたびに「編集途中の記事があります」「AmebaPickからのお知らせ」
+  等の `<dialog open>` 要素が毎回出てクリックを妨げる。`dismiss_dialogs()` が開いているダイアログのボタンを順番に押し、
+  無ければ Escape で閉じる。
+- 「投稿する」のクリックは `button.click()` だけでは反応しないことがあった(force click・座標クリック・JS `.click()` いずれも
+  不安定で、何もトーストやエラーも出ないまま編集画面に留まった)。確実だったのは、ボタンを `scroll_into_view_if_needed()` →
+  500ms待機 → 通常の `.click()`、かつ `page.context.expect_page()` でポップアップを捕まえて中身を読む方法
+  (`click_submit_and_check()` に実装済み)。
+
+| 記事 | Ameba公開URL | entry_id |
+|---|---|---|
+| ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか | https://ameblo.jp/sfd0501/entry-12981292027.html | 12981292027 |
+| ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった | https://ameblo.jp/sfd0501/entry-12981311163.html | 12981311163 |
+
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
 > **重要(2026-09-28、ユーザー指示)**: **note.com は「はてなブログ」と並び、記事公開ごとの必須の投稿先になった。**
