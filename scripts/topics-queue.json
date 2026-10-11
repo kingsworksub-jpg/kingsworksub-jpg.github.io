@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T07:45:07+09:00",
+ "updated": "2026-10-11T11:56:34+09:00",
  "items": [
   {
    "category": "gear",
@@ -4677,9 +4677,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w41-009",
-   "status": "approved",
+   "status": "published",
    "created": "2026-10-11",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-11T11:51:33+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "chrome-gemini-nano-4gb-2026",
+   "published_at": "2026-10-11T11:56:34+09:00"
   },
   {
    "category": "tech",

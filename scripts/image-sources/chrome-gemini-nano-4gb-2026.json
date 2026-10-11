@@ -1,0 +1,16 @@
+{
+ "/images/chrome-gemini/chrome1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/03/Google_Chrome_on_Windows_11.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_on_Windows_11.png",
+  "license": "Public domain",
+  "author": "Megamanfan3",
+  "title": ""
+ },
+ "/images/chrome-gemini/chrome2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_Chrome_Split_View_feature.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_Split_View_feature.png",
+  "license": "CC0",
+  "author": "TealComet",
+  "title": ""
+ }
+}

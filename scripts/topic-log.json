@@ -1363,6 +1363,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-11T07:45:07+09:00"
+  },
+  {
+   "id": "2026w41-009",
+   "category": "tech",
+   "theme": "ChromeがGemini Nanoを端末に置く、4GBのオンデバイスAIは何をしているのか",
+   "slug": "chrome-gemini-nano-4gb-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/chrome-gemini-nano-4gb-2026/",
+   "hatena_entry": "14945776032088759442",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-11T11:56:34+09:00"
   }
  ]
 }
