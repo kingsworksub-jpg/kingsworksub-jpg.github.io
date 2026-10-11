@@ -103,9 +103,11 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-002",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "channel": "ameba",
+   "content_dir": "reviews"
   },
   {
    "category": "gear",
