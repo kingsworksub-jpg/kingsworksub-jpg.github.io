@@ -1477,6 +1477,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-12T00:52:58+09:00"
+  },
+  {
+   "id": "2026w41-024",
+   "category": "notes",
+   "theme": "PowerShell 5.1がBOMなしUTF-8を読み違える、日本語スクリプトの文字化け対策メモ",
+   "slug": "powershell-utf8-bom-notes",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/powershell-utf8-bom-notes/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T07:37:21+09:00"
   }
  ]
 }

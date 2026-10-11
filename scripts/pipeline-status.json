@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-12T07:30:31+09:00",
+ "updated": "2026-10-12T07:37:21+09:00",
  "queue": {
-  "published": 42,
+  "published": 43,
   "approved": 54,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published tonic-water-5choice-2026",
+ "last_result": "published powershell-utf8-bom-notes",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
