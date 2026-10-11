@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T00:15:57+09:00",
+ "updated": "2026-10-12T00:40:55+09:00",
  "items": [
   {
    "category": "gear",
@@ -49,11 +49,13 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-001",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "channel": "ameba",
-   "content_dir": "reviews"
+   "content_dir": "reviews",
+   "slug": "universal-audio-volt-276-deep-dive-2026",
+   "published_at": "2026-10-12T00:40:55+09:00"
   },
   {
    "category": "gear",
@@ -103,11 +105,13 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-002",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "channel": "ameba",
-   "content_dir": "reviews"
+   "content_dir": "reviews",
+   "slug": "rme-babyface-pro-fs-deep-dive-2026",
+   "published_at": "2026-10-12T00:40:51+09:00"
   },
   {
    "category": "gear",
@@ -2331,9 +2335,11 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-040",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "channel": "ameba",
+   "content_dir": "culture"
   },
   {
    "category": "drink",
