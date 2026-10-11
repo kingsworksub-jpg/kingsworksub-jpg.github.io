@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T07:37:21+09:00",
+ "updated": "2026-10-12T07:37:33+09:00",
  "queue": {
   "published": 43,
   "approved": 54,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published powershell-utf8-bom-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-12T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-12T04:00:39+09:00",
+  "at": "2026-10-12T07:37:33+09:00",
   "engine": "claude",
-  "detail": "- 古い一時退避が1件（`stash@{0}`、「Status: blog-post started」のコミット時点のもの）残っています。今回作ったものではないので、そのままにしてあります。"
+  "detail": "- **`scripts/post-to-ameba.py`:** it has an uncommitted edit I didn't make. It replaces the dialog-closing code with a version that deletes modal elements via JavaScript. I left it as it is."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-12T07:37:33+09:00",
+   "engine": "claude",
+   "detail": "- **`scripts/post-to-ameba.py`:** it has an uncommitted edit I didn't make. It replaces the dialog-closing code with a version that deletes modal elements via JavaScript. I left it as it is."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-11T03:25:11+09:00",
    "engine": "claude",
    "detail": "- 0 topics added, 0 not adopted, no category breakdown this time."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-10T23:11:26+09:00",
-   "engine": "claude",
-   "detail": "This 23:00 slot prefers `essay`, but the queue gave me a sakeware topic. It still goes to note, which is the right channel for this slot. This was the 6th post today, so today's limit of 6 is now reached."
   }
  ]
 }
