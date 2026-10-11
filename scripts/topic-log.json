@@ -1417,6 +1417,18 @@
    "reason": "interactive session claimed this by accident while finishing a different in-flight article; returning for the scheduled 23:00 run",
    "engine": "claude",
    "at": "2026-10-11T22:32:22+09:00"
+  },
+  {
+   "id": "2026w40-038",
+   "category": "drink",
+   "theme": "ノンアルコールビール5本比較、麦の香りをどこまで作れるか",
+   "slug": "non-alcohol-beer-5choice-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/non-alcohol-beer-5choice-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-11T22:32:53+09:00"
   }
  ]
 }
