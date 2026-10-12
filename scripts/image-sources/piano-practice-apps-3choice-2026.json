@@ -1,0 +1,23 @@
+{
+ "/images/piano-apps/digital-piano-sheet.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Yamaha_P-85_with_sheet_music.jpg/1280px-Yamaha_P-85_with_sheet_music.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Yamaha_P-85_with_sheet_music.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Morn",
+  "title": "File:Yamaha P-85 with sheet music.jpg"
+ },
+ "/images/piano-apps/digital-piano.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Digital-piano-423.jpg/1280px-Digital-piano-423.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Digital-piano-423.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Pianomangeorge",
+  "title": "File:Digital-piano-423.jpg"
+ },
+ "/images/piano-apps/hammer-action-88key.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_%282016-06-25_22.01.41_by_Scott_Ritchie%29.jpg/1280px-Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_%282016-06-25_22.01.41_by_Scott_Ritchie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Williams_Allegro_2_88-Key_Hammer_Action_Digital_Piano_(2016-06-25_22.01.41_by_Scott_Ritchie).jpg",
+  "license": "CC BY 2.0",
+  "author": "Scott Ritchie from Harrisburg, USA",
+  "title": "File:Williams Allegro 2 88-Key Hammer Action Digital Piano (2016-06-25 22.01.41 by Scott Ritchie).jpg"
+ }
+}
