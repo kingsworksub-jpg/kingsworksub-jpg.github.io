@@ -1489,6 +1489,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-12T07:37:21+09:00"
+  },
+  {
+   "id": "2026w41-010",
+   "category": "tech",
+   "theme": "OllamaでローカルLLMを動かす、制作PCのメモリとVRAMの目安",
+   "slug": "ollama-vram-memory-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ollama-vram-memory-guide-2026/",
+   "hatena_entry": "14945776032089192418",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T12:11:42+09:00"
   }
  ]
 }
