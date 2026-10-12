@@ -1,0 +1,37 @@
+{
+ "/images/coat-5types/trench.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Trench_coat_family_%2814087793299%29.jpg/1280px-Trench_coat_family_%2814087793299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Trench_coat_family_(14087793299).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "musicisentropy",
+  "title": "File:Trench coat family (14087793299).jpg"
+ },
+ "/images/coat-5types/chesterfield.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Chesterfieldcoat_oct1901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Chesterfieldcoat_oct1901.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "title": "File:Chesterfieldcoat oct1901.jpg"
+ },
+ "/images/coat-5types/balmacaan.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bal_Collar_Coat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Bal_Collar_Coat.JPG",
+  "license": "CC BY-SA 3.0",
+  "author": "神奈義忠",
+  "title": "File:Bal Collar Coat.JPG"
+ },
+ "/images/coat-5types/duffle.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Grey_duffle_coat_in_Muji.jpg/1280px-Grey_duffle_coat_in_Muji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Grey_duffle_coat_in_Muji.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Peachyeung316",
+  "title": "File:Grey duffle coat in Muji.jpg"
+ },
+ "/images/coat-5types/peacoat.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Modern-Civilian-Peacoat.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Modern-Civilian-Peacoat.png",
+  "license": "CC0",
+  "author": "Kris Karlov",
+  "title": "File:Modern-Civilian-Peacoat.png"
+ }
+}
