@@ -1501,6 +1501,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-12T12:11:42+09:00"
+  },
+  {
+   "id": "2026w40-041",
+   "category": "drink",
+   "theme": "ウィルキンソン ジンジャエール 辛口、表示どおりの刺激はどこから来るか",
+   "slug": "wilkinson-ginger-ale-dry-deep-dive-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/wilkinson-ginger-ale-dry-deep-dive-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T16:12:52+09:00"
   }
  ]
 }

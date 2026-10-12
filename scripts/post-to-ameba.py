@@ -349,16 +349,45 @@ def click_submit_and_check(page, ctx, publish):
         dismiss_dialogs(page)
         return True
 
+    # A handful of one-off modals ("カバーを設定してみましょう", "編集途中の記事があります。復元しますか？")
+    # can intercept the 投稿する click instead of opening the confirmation popup. Dismiss whichever
+    # one shows up and retry the click, a few times.
+    DISMISS_BUTTONS = ["カバーなしで投稿する", "復元しない", "閉じる"]
+    popup = None
+    for attempt in range(4):
+        try:
+            with ctx.expect_page(timeout=7000) as pinfo:
+                btn.click(timeout=10000)
+            popup = pinfo.value
+            break
+        except Exception:
+            popup = None
+        dismissed = False
+        for label_text in DISMISS_BUTTONS:
+            try:
+                b = page.get_by_role("button", name=label_text)
+                if b.is_visible(timeout=1000):
+                    b.click(timeout=3000)
+                    print(f"モーダルを「{label_text}」で閉じました。")
+                    dismissed = True
+                    page.wait_for_timeout(1000)
+                    break
+            except Exception:
+                pass
+        if not dismissed:
+            break
+
+    if popup is None:
+        print("投稿する クリック後にポップアップを検出できませんでした。")
+        return False
+
     try:
-        with ctx.expect_page(timeout=15000) as pinfo:
-            btn.click(timeout=10000)
-        popup = pinfo.value
         popup.wait_for_load_state("domcontentloaded", timeout=30000)
         popup.wait_for_timeout(2000)
         text = popup.inner_text("body")
         popup.close()
     except Exception as e:
-        print(f"投稿する クリック後にポップアップを検出できませんでした: {e}")
+        print(f"確認ポップアップの読み込みに失敗: {e}")
         return False
 
     if "できませんでした" in text or "エラー" in text:
