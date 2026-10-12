@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:45:03+09:00",
+ "updated": "2026-10-12T23:00:29+09:00",
  "items": [
   {
    "category": "gear",
@@ -161,11 +161,13 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-003",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "channel": "ameba",
-   "content_dir": "reviews"
+   "content_dir": "reviews",
+   "slug": "yamaha-ag03mk2-deep-dive-2026",
+   "published_at": "2026-10-12T23:00:07+09:00"
   },
   {
    "category": "gear",
@@ -2471,7 +2473,10 @@
    "id": "2026w40-042",
    "status": "approved",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 1,
+   "channel": "ameba",
+   "content_dir": "culture",
+   "last_error": "run did not publish (finished); cleaned up"
   },
   {
    "category": "drink",
