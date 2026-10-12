@@ -1,0 +1,23 @@
+{
+ "/images/whisper-models/architecture.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/OpenAI_Whisper_architecture.png/1280px-OpenAI_Whisper_architecture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:OpenAI_Whisper_architecture.png",
+  "license": "MIT",
+  "author": "Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, Ilya Sut",
+  "title": "File:OpenAI Whisper architecture.png"
+ },
+ "/images/whisper-models/apple-m1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/8/83/Apple_M1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_M1.jpg",
+  "license": "CC0",
+  "author": "Henriok",
+  "title": "File:Apple M1.jpg"
+ },
+ "/images/whisper-models/microphone.jpg": {
+  "download": "https://live.staticflickr.com/3839/14745063379_6f1e8fdf80_b.jpg",
+  "page": "https://www.flickr.com/photos/75264768@N00/14745063379",
+  "license": "CC BY 2.0",
+  "author": "smaedli",
+  "title": ""
+ }
+}
