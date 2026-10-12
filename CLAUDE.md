@@ -380,6 +380,7 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 | ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方 | https://ameblo.jp/sfd0501/entry-12981373235.html | 12981373235 |
 | トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ | https://ameblo.jp/sfd0501/entry-12981373364.html | 12981373364 |
 | flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方 | https://ameblo.jp/sfd0501/entry-12981373491.html | 12981373491 |
+| Akai MPK Mini MK4の25鍵でできること、上位機に任せること | https://ameblo.jp/sfd0501/entry-12981382030.html | 12981382030 |
 
 ### note.com への投稿（2026-09-28 実装・全記事へ必須化）
 
