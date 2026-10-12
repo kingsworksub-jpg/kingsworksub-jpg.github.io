@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:00:29+09:00",
+ "updated": "2026-10-12T23:25:17+09:00",
  "items": [
   {
    "category": "gear",
@@ -2471,12 +2471,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-042",
-   "status": "approved",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 1,
    "channel": "ameba",
    "content_dir": "culture",
-   "last_error": "run did not publish (finished); cleaned up"
+   "last_error": "run did not publish (finished); cleaned up",
+   "slug": "oral-rehydration-vs-sports-drink-2026",
+   "published_at": "2026-10-12T23:25:17+09:00"
   },
   {
    "category": "drink",
@@ -3036,9 +3038,11 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-053",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "channel": "ameba",
+   "content_dir": "culture"
   },
   {
    "category": "fashion",
