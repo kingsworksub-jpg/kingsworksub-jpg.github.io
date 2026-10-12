@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:11:42+09:00",
+ "updated": "2026-10-12T15:53:48+09:00",
  "items": [
   {
    "category": "gear",
@@ -2391,9 +2391,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-041",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-12T15:53:48+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "manual",
+   "slot_label": "ユーザー指示による繰り上げ投稿(Amebaチャンネル3本)"
   },
   {
    "category": "drink",
@@ -2962,9 +2967,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-052",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-12T15:53:48+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "manual",
+   "slot_label": "ユーザー指示による繰り上げ投稿(Amebaチャンネル3本)"
   },
   {
    "category": "fashion",
@@ -4531,9 +4541,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w41-006",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-11",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-12T15:53:48+09:00",
+   "channel": "ameba",
+   "content_dir": "tech",
+   "slot_time": "manual",
+   "slot_label": "ユーザー指示による繰り上げ投稿(Amebaチャンネル3本)"
   },
   {
    "category": "learning",
