@@ -1537,6 +1537,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-12T16:15:10+09:00"
+  },
+  {
+   "id": "2026w40-004",
+   "category": "gear",
+   "theme": "Akai MPK Mini MK4、机の端に置ける25鍵とパッドの使いどころ",
+   "slug": "akai-mpk-mini-mk4-deep-dive-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/akai-mpk-mini-mk4-deep-dive-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T17:45:03+09:00"
   }
  ]
 }
