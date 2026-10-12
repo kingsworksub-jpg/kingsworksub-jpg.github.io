@@ -1594,6 +1594,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-12T23:38:35+09:00"
+  },
+  {
+   "id": "2026w41-021",
+   "category": "lab",
+   "theme": "Whisperのモデルサイズ別に日本語の文字起こし精度と速度を比べた検証メモ",
+   "slug": "whisper-model-size-japanese-benchmark-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/whisper-model-size-japanese-benchmark-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-13T07:41:03+09:00"
   }
  ]
 }
