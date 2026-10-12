@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:30:03+09:00",
+ "updated": "2026-10-12T21:30:23+09:00",
  "queue": {
   "published": 48,
   "approved": 49,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published akai-mpk-mini-mk4-deep-dive-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-12T21:30:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-12T20:00:27+09:00",
+  "at": "2026-10-12T21:30:23+09:00",
   "engine": "claude",
-  "detail": "（ほかの事前確認はすべて正常でした。`git pull` は更新なし、連続失敗の回数を示す `health` は 0 です。）"
+  "detail": "開始前のチェックで `topic_plan.py today-count` が 6 を返したので、ネタは取り出さず何も公開せずに終了しました。今回の枠は 21:30（note、whisky/music/sakeware）でした。連続失敗カウントは 0 で、パイプラインは止まっていません。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-12T21:30:23+09:00",
+   "engine": "claude",
+   "detail": "開始前のチェックで `topic_plan.py today-count` が 6 を返したので、ネタは取り出さず何も公開せずに終了しました。今回の枠は 21:30（note、whisky/music/sakeware）でした。連続失敗カウントは 0 で、パイプラインは止まっていません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-11T17:43:14+09:00",
    "engine": "claude",
    "detail": "- **Records:** the topic is marked complete without a Ameba ID and everything is pushed. That makes 4 posts today. I didn't add rows to the hatena/note tables in CLAUDE.md, because this article went to neither."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-11T12:11:40+09:00",
-   "engine": "claude",
-   "detail": "On facts: the research report said a cardioid mic only cuts sound from directly behind by 6 dB, which is wrong. The article uses the standard figures instead: −6 dB at the side, and close to zero pickup directly behind. I also left out a few fan specs I couldn't confirm."
   }
  ]
 }
