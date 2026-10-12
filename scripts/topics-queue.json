@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T15:53:48+09:00",
+ "updated": "2026-10-12T16:12:51+09:00",
  "items": [
   {
    "category": "gear",
@@ -2391,14 +2391,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-041",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-12T15:53:48+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "manual",
-   "slot_label": "ユーザー指示による繰り上げ投稿(Amebaチャンネル3本)"
+   "slot_label": "ユーザー指示による繰り上げ投稿(Amebaチャンネル3本)",
+   "slug": "wilkinson-ginger-ale-dry-deep-dive-2026",
+   "published_at": "2026-10-12T16:12:51+09:00"
   },
   {
    "category": "drink",
