@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T07:41:03+09:00",
+ "updated": "2026-10-13T07:41:15+09:00",
  "queue": {
   "published": 52,
   "approved": 45,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published whisper-model-size-japanese-benchmark-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-13T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-13T04:00:41+09:00",
+  "at": "2026-10-13T07:41:15+09:00",
   "engine": "claude",
-  "detail": "`git pull` の時点で取り込む変更はなく、アプリからの削除も追加リクエストも 0 件でした。キューは変えていないので、commit と push もしていません。"
+  "detail": "- In the related-links block, the Ameba link points to the blog itself (`ameblo.jp/sfd0501/`) instead of the template's `blog.ameba.jp`. I also left out the `note/n/XXXX` placeholder line, since it would be a broken link. The previous `lab` post did the same."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-13T07:41:15+09:00",
+   "engine": "claude",
+   "detail": "- In the related-links block, the Ameba link points to the blog itself (`ameblo.jp/sfd0501/`) instead of the template's `blog.ameba.jp`. I also left out the `note/n/XXXX` placeholder line, since it would be a broken link. The previous `lab` post did the same."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-11T23:10:32+09:00",
    "engine": "claude",
    "detail": "The schedule says 23:00 on odd-numbered days (today is the 11th) should go to GitHub only. The `topic_plan.py slot` command returned note instead, and I followed the command as the instructions require. The date-swap logic in `slots_for_date()` may not be working and is worth checking."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-11T21:30:16+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 10:30pm (Asia/Tokyo)"
   }
  ]
 }
