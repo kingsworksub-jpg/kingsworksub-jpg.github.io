@@ -1,0 +1,23 @@
+{
+ "/images/ollama-vram/graphics-card.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/A_Complex_Graphics_Card.jpg/1280px-A_Complex_Graphics_Card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Complex_Graphics_Card.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Nick Stathas",
+  "title": "File:A Complex Graphics Card.jpg"
+ },
+ "/images/ollama-vram/ddr5-module.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg/1280px-Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "ITEagle Europe - Sebastiaan Broekhoven",
+  "title": "File:Kingston FURY Impact DDR5 SO-DIMM Laptop Memory 32GB Module - front view.jpg"
+ },
+ "/images/ollama-vram/rtx3090.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Gigabyte_GeForce_RTX_3090_Eagle_OC_24G%2C_24576_MiB_GDDR6X_Front_20201114_DSC5880.jpg/1280px-Gigabyte_GeForce_RTX_3090_Eagle_OC_24G%2C_24576_MiB_GDDR6X_Front_20201114_DSC5880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Gigabyte_GeForce_RTX_3090_Eagle_OC_24G,_24576_MiB_GDDR6X_Front_20201114_DSC5880.jpg",
+  "license": "CC BY 4.0",
+  "author": "PantheraLeo1359531",
+  "title": "File:Gigabyte GeForce RTX 3090 Eagle OC 24G, 24576 MiB GDDR6X Front 20201114 DSC5880.jpg"
+ }
+}
