@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:25:17+09:00",
+ "updated": "2026-10-12T23:38:35+09:00",
  "items": [
   {
    "category": "gear",
@@ -3038,11 +3038,13 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-053",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "channel": "ameba",
-   "content_dir": "culture"
+   "content_dir": "culture",
+   "slug": "tweed-jacket-street-style-2026",
+   "published_at": "2026-10-12T23:38:35+09:00"
   },
   {
    "category": "fashion",

@@ -1570,6 +1570,30 @@
    "reason": "run did not publish (finished); cleaned up",
    "engine": "claude",
    "at": "2026-10-12T23:00:29+09:00"
+  },
+  {
+   "id": "2026w40-042",
+   "category": "drink",
+   "theme": "経口補水液とスポーツドリンク、濃さの違いで役割が変わる",
+   "slug": "oral-rehydration-vs-sports-drink-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/oral-rehydration-vs-sports-drink-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T23:25:17+09:00"
+  },
+  {
+   "id": "2026w40-053",
+   "category": "fashion",
+   "theme": "ツイードジャケット、目の粗い生地を街で着る",
+   "slug": "tweed-jacket-street-style-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/tweed-jacket-street-style-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-12T23:38:35+09:00"
   }
  ]
 }
