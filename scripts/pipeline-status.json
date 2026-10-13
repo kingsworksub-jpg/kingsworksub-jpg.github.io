@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-13T12:00:26+09:00",
+ "updated": "2026-10-13T12:18:47+09:00",
  "queue": {
-  "published": 52,
+  "published": 53,
   "approved": 44,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published whisper-model-size-japanese-benchmark-2026",
+ "last_result": "published windows-11-26h2-memory-daw-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
