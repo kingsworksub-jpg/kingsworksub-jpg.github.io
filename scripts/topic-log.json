@@ -1606,6 +1606,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-13T07:41:03+09:00"
+  },
+  {
+   "id": "2026w41-011",
+   "category": "tech",
+   "theme": "Windows 11 26H2で起動時メモリが減った、制作PCで効く設定と効かない設定",
+   "slug": "windows-11-26h2-memory-daw-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/windows-11-26h2-memory-daw-2026/",
+   "hatena_entry": "14945776032089597760",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-13T12:18:47+09:00"
   }
  ]
 }
