@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:18:47+09:00",
+ "updated": "2026-10-13T17:30:34+09:00",
  "items": [
   {
    "category": "gear",
@@ -3855,9 +3855,14 @@
    },
    "source_of_idea": "gap",
    "id": "2026w40-067",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-13T17:30:34+09:00",
+   "channel": "ameba",
+   "content_dir": "reviews",
+   "slot_time": "17:30",
+   "slot_label": "夕: 機材レビュー/学習体験談"
   },
   {
    "category": "whisky",
