@@ -1630,6 +1630,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-13T17:42:01+09:00"
+  },
+  {
+   "id": "2026w40-069",
+   "category": "drink",
+   "theme": "炭酸水メーカーで炭酸を作る、ガスの強さを自分で決める",
+   "slug": "sodastream-terra-carbonation-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/sodastream-terra-carbonation-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-13T20:12:10+09:00"
   }
  ]
 }

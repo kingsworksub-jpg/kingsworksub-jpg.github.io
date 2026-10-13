@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-13T20:00:37+09:00",
+ "updated": "2026-10-13T20:12:10+09:00",
  "queue": {
-  "published": 54,
+  "published": 55,
   "approved": 42,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published record-stylus-lifespan-guide-2026",
+ "last_result": "published sodastream-terra-carbonation-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
