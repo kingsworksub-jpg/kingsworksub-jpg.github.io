@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T17:42:01+09:00",
+ "updated": "2026-10-13T20:00:37+09:00",
  "items": [
   {
    "category": "gear",
@@ -4010,9 +4010,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-069",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-13T20:00:37+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "20:00",
+   "slot_label": "夜: ファッション/飲料"
   },
   {
    "category": "sakeware",
