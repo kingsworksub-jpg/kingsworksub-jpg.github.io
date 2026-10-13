@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:12:10+09:00",
+ "updated": "2026-10-13T21:30:20+09:00",
  "items": [
   {
    "category": "gear",
@@ -4231,9 +4231,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-072",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-04",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-13T21:30:20+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
   },
   {
    "id": "2026w41-r01",
