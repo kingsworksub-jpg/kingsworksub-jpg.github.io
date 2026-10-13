@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:41:00+09:00",
+ "updated": "2026-10-14T07:41:08+09:00",
  "queue": {
   "published": 58,
   "approved": 39,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published windows-asio-wasapi-latency-troubleshooting",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-14T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-14T04:00:29+09:00",
+  "at": "2026-10-14T07:41:08+09:00",
   "engine": "claude",
-  "detail": "プルしたうえで削除済みネタの反映（0件）とアプリからの追加ネタの取り込み（0件）を実行しましたが、キューは変わらなかったので、コミットとプッシュもしていません。"
+  "detail": "- **Left out:** I didn't include two claims I couldn't confirm from a primary source: that Windows blocked LatencyMon's driver in 2026, and that Microsoft added built-in ASIO support."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-14T07:41:08+09:00",
+   "engine": "claude",
+   "detail": "- **Left out:** I didn't include two claims I couldn't confirm from a primary source: that Windows blocked LatencyMon's driver in 2026, and that Microsoft added built-in ASIO support."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-12T23:00:34+09:00",
    "engine": "claude",
    "detail": "- 最初の `git pull --rebase` は、作業ツリーに未コミットの変更（`scripts/pipeline-status.json`・`topic-log.json`・`topics-queue.json`）があったため失敗しました。投稿しない回なので、その変更には手を付けていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-12T21:30:23+09:00",
-   "engine": "claude",
-   "detail": "開始前のチェックで `topic_plan.py today-count` が 6 を返したので、ネタは取り出さず何も公開せずに終了しました。今回の枠は 21:30（note、whisky/music/sakeware）でした。連続失敗カウントは 0 で、パイプラインは止まっていません。"
   }
  ]
 }
