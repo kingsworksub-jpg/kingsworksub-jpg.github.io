@@ -1666,6 +1666,18 @@
    "note_key": "n180285a0dc9e",
    "engine": "claude",
    "at": "2026-10-13T23:12:20+09:00"
+  },
+  {
+   "id": "2026w41-025",
+   "category": "notes",
+   "theme": "WindowsのASIOとWASAPI、オーディオのレイテンシとノイズを切り分ける手順",
+   "slug": "windows-asio-wasapi-latency-troubleshooting",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/windows-asio-wasapi-latency-troubleshooting/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-14T07:41:00+09:00"
   }
  ]
 }
