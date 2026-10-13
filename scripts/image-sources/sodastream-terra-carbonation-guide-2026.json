@@ -1,0 +1,30 @@
+{
+ "/images/sodastream/machine-bottle.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/SodaStream_and_bottle.jpg/1280px-SodaStream_and_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SodaStream_and_bottle.jpg",
+  "license": "CC BY 2.0",
+  "author": "Meaghan O'Malley",
+  "title": "File:SodaStream and bottle.jpg"
+ },
+ "/images/sodastream/crystal.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/SodaStream_Crystal_2.0.jpg/1280px-SodaStream_Crystal_2.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SodaStream_Crystal_2.0.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wassersprudler.de",
+  "title": "File:SodaStream Crystal 2.0.jpg"
+ },
+ "/images/sodastream/cylinder.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Carbonation_System_Close_Up_%282011-10-08_by_Kevin_B_3%29.jpg/1280px-Carbonation_System_Close_Up_%282011-10-08_by_Kevin_B_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Carbonation_System_Close_Up_(2011-10-08_by_Kevin_B_3).jpg",
+  "license": "CC BY 2.0",
+  "author": "Kevin B 3",
+  "title": "File:Carbonation System Close Up (2011-10-08 by Kevin B 3).jpg"
+ },
+ "/images/sodastream/highball.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Jim_Beam_Special_Highball_at_Nikudonya_Yakiniku%2C_Xidan_%2820210429112203%29.jpg/1280px-Jim_Beam_Special_Highball_at_Nikudonya_Yakiniku%2C_Xidan_%2820210429112203%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Jim_Beam_Special_Highball_at_Nikudonya_Yakiniku,_Xidan_(20210429112203).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "N509FZ",
+  "title": "File:Jim Beam Special Highball at Nikudonya Yakiniku, Xidan (20210429112203).jpg"
+ }
+}
