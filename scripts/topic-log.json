@@ -1642,6 +1642,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-13T20:12:10+09:00"
+  },
+  {
+   "id": "2026w40-072",
+   "category": "music",
+   "theme": "ハモンドB-3とレスリー、オルガンがジャズの主役になった日",
+   "slug": "hammond-b3-jazz-organ-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/hammond-b3-jazz-organ-2026/",
+   "hatena_entry": null,
+   "note_key": "ne13c53a6690f",
+   "engine": "claude",
+   "at": "2026-10-13T21:42:55+09:00"
   }
  ]
 }
