@@ -1,0 +1,23 @@
+{
+ "/images/asio-latency/usb-spdif.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Digital-audio-interfaces-usb-spdif-toslink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Digital-audio-interfaces-usb-spdif-toslink.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Musicproducer",
+  "title": "File:Digital-audio-interfaces-usb-spdif-toslink.jpg"
+ },
+ "/images/asio-latency/usb-interfaces.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/4e/USB-Audio-Interfaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:USB-Audio-Interfaces.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Itu",
+  "title": "File:USB-Audio-Interfaces.jpg"
+ },
+ "/images/asio-latency/focusrite-forte.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg/1280px-Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Focusrite_Forte_2x4_USB_audio_interface_-_2014_NAMM_Show_(by_Matt_Vanacoro).jpg",
+  "license": "CC BY 2.0",
+  "author": "Matt Vanacoro",
+  "title": "File:Focusrite Forte 2x4 USB audio interface - 2014 NAMM Show (by Matt Vanacoro).jpg"
+ }
+}
