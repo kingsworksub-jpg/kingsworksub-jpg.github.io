@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-13T17:30:34+09:00",
+ "updated": "2026-10-13T17:42:01+09:00",
  "queue": {
-  "published": 53,
+  "published": 54,
   "approved": 43,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published windows-11-26h2-memory-daw-2026",
+ "last_result": "published record-stylus-lifespan-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
