@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T21:42:55+09:00",
+ "updated": "2026-10-13T23:00:22+09:00",
  "items": [
   {
    "category": "gear",
@@ -5307,9 +5307,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w41-017",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-11",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-13T23:00:22+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ"
   },
   {
    "category": "essay",
