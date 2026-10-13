@@ -489,6 +489,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える | https://note.com/shining_finger01/n/n0a6293f2fc7d | `n0a6293f2fc7d` | **公開済(2026-10-10)** |
 | カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか | https://note.com/shining_finger01/n/n9c0a04c2e3fd | `n9c0a04c2e3fd` | **公開済(2026-10-11)** |
 | ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン | https://note.com/shining_finger01/n/ne13c53a6690f | `ne13c53a6690f` | **公開済(2026-10-13)** |
+| ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年 | https://note.com/shining_finger01/n/n180285a0dc9e | `n180285a0dc9e` | **公開済(2026-10-13)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
