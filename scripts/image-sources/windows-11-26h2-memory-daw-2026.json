@@ -1,0 +1,37 @@
+{
+ "/images/win26h2/ddr4-16gb.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2%2A8Go_DDR4_Corsair_-_2018-05-08.jpg/1280px-2%2A8Go_DDR4_Corsair_-_2018-05-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:2*8Go_DDR4_Corsair_-_2018-05-08.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Bretwa",
+  "title": "File:2*8Go DDR4 Corsair - 2018-05-08.jpg"
+ },
+ "/images/win26h2/laptop-sodimm.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Crucial_CT4G4SFS8213_on_laptop_motherboard_20171218.jpg/1280px-Crucial_CT4G4SFS8213_on_laptop_motherboard_20171218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Crucial_CT4G4SFS8213_on_laptop_motherboard_20171218.jpg",
+  "license": "CC BY 2.0",
+  "author": "Diego Torres Silvestre",
+  "title": "File:Crucial CT4G4SFS8213 on laptop motherboard 20171218.jpg"
+ },
+ "/images/win26h2/laptop-desk.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Laptop_on_a_desk_%28Unsplash%29.jpg/1280px-Laptop_on_a_desk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_desk_(Unsplash).jpg",
+  "license": "CC0",
+  "author": "Aleksi Tappura a",
+  "title": "File:Laptop on a desk (Unsplash).jpg"
+ },
+ "/images/win26h2/recording-place.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Recording_place%2C_2010-04-26_%28by_Jordan_Colburn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Recording_place,_2010-04-26_(by_Jordan_Colburn).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Jordan Colburn",
+  "title": "File:Recording place, 2010-04-26 (by Jordan Colburn).jpg"
+ },
+ "/images/win26h2/usb-interfaces.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/4e/USB-Audio-Interfaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:USB-Audio-Interfaces.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Itu",
+  "title": "File:USB-Audio-Interfaces.jpg"
+ }
+}
