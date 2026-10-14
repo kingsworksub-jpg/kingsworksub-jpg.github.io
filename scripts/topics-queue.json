@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:41:00+09:00",
+ "updated": "2026-10-14T12:00:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -4393,9 +4393,14 @@
    },
    "source_of_idea": "gap",
    "id": "2026w41-003",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-11",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-14T12:00:23+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境"
   },
   {
    "category": "software",
