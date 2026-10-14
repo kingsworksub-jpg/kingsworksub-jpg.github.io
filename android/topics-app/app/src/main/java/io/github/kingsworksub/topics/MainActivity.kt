@@ -366,6 +366,34 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
             dismissButton = { TextButton(onClick = { showSettings = false }) { Text("閉じる") } },
         )
     }
+
+    if (showWorkflow) {
+        AlertDialog(
+            onDismissRequest = { showWorkflow = false },
+            title = { Text("パイプライン・ワークフロー詳細") },
+            text = {
+                Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState())) {
+                    Text("1. ネタ会議", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• 週次（日曜3:00）: 承認済みが64件になるまで補充。\n" +
+                        "• 日次補充（4:00）: 承認済みが16件未満のときだけ補充。\n" +
+                        "• 重複・事実確認・画像・季節・検索需要・Amazonの各軸で採点し、60点未満は不採用。")
+                    Spacer(Modifier.height(12.dp))
+                    Text("2. 投稿（1日6固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• 07:30 github / 12:00 hatena / 17:30 ameba / 21:30 note を固定。\n" +
+                        "• 20:00と23:00はameba⇄hatena・note⇄githubが隔日で入れ替わり、4チャンネルの投稿数を平均化。\n" +
+                        "• 実行エンジンはClaude Code（opus固定）。Web検索はHaikuのサブエージェントに限定。")
+                    Spacer(Modifier.height(12.dp))
+                    Text("3. 品質の安全装置", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• validate_post.pyで文字種・画像・OGP・チャンネル設定などを検査したものだけ公開。\n" +
+                        "• 画像は出典から知覚ハッシュで照合し、偽造・ダミー画像を検出。\n" +
+                        "• 連続3回失敗すると自動投稿は停止し、原因対処後に手動で解除する。")
+                }
+            },
+            confirmButton = {
+                TextButton(onClick = { showWorkflow = false }) { Text("閉じる") }
+            },
+        )
+    }
 }
 
 /** Queue topics plus not-yet-ingested app requests, newest first, each with the status to show. */
