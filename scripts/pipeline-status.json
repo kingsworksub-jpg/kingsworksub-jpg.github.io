@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-14T17:30:33+09:00",
+ "updated": "2026-10-14T17:43:17+09:00",
  "queue": {
-  "published": 59,
+  "published": 60,
   "approved": 37,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published fender-studio-pro-8-studio-one-2026",
+ "last_result": "published waon-ear-copy-1month-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
