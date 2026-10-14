@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-14T23:00:22+09:00",
+ "updated": "2026-10-14T23:09:46+09:00",
  "queue": {
-  "published": 62,
+  "published": 63,
   "approved": 34,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published shigaraki-guinomi-hiiro",
+ "last_result": "published demucs-stem-separation-htdemucs-ft-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
