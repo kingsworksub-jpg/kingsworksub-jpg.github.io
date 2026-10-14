@@ -176,7 +176,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("ブログのネタ") },
+                title = { Text("netaManager") },
                 actions = {
                     IconButton(onClick = { refresh() }) { Icon(Icons.Filled.Refresh, "更新") }
                     IconButton(onClick = { menuOpen = true }) { Icon(Icons.Filled.MoreVert, "メニュー") }
