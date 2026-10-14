@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -19,10 +20,8 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
@@ -92,8 +91,36 @@ class MainActivity : ComponentActivity() {
                 TopicsScreen(
                     initialToken = prefs.getString(KEY_TOKEN, "") ?: "",
                     saveToken = { prefs.edit().putString(KEY_TOKEN, it.trim()).apply() },
-                )
+        )
+    }
+
+    if (showWorkflow) {
+        AlertDialog(
+            onDismissRequest = { showWorkflow = false },
+            title = { Text("パイプライン・ワークフロー設計詳細") },
+            text = {
+                Column(
+                    Modifier
+                        .fillMaxWidth()
+                        .verticalScroll(rememberScrollState())
+                ) {
+                    Text("1. ブログ記事自動生成・投稿パイプライン", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• キュー＆ステータス管理: GitHub上のJSONでネタと進捗を管理。\n" +
+                         "• 記事生成: リサーチ、執筆、Hugoビルド、GitHub Pagesデプロイ。\n" +
+                         "• 外部転載: はてなブログ（AtomPub）およびnote.com（完全自動公開）へ同時転載。")
+                    Spacer(Modifier.height(12.dp))
+                    Text("2. X（Twitter）自動宣伝・返信パイプライン", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• RSS記事巡回: 自身のブログRSSから古い順に記事を取り込みカテゴリ分類。\n" +
+                         "• 検索＆関連ゲート: カテゴリ別X検索クエリでlive検索し、キーワード一致で高スコアポストを選定。\n" +
+                         "• ローカルLLM推論 (qwen2.5:3b): 相手のポストの本文を読み解き、3パターン（5〜80文字）の返信文を生成して最適解を選択。\n" +
+                         "• 共感重視・宣伝排除: 自分のブログへの誘導文言は一切書かず、純粋な共感コメントに徹しつつ末尾にブログURLを添付。")
+                }
+            },
+            confirmButton = {
+                TextButton(onClick = { showWorkflow = false }) { Text("閉じる") }
             }
+        )
+    }
         }
     }
 }
@@ -107,9 +134,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     var loading by remember { mutableStateOf(false) }
     var filter by remember { mutableStateOf("approved") }
     var confirm by remember { mutableStateOf<Topic?>(null) }
-    var showSettings by remember { mutableStateOf(initialToken.isBlank()) }
-    var showAdd by remember { mutableStateOf(false) }
-    var menuOpen by remember { mutableStateOf(false) }
+    var showWorkflow by remember { mutableStateOf(false) }
     var newer by remember { mutableStateOf<Release?>(null) }
     var updating by remember { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
@@ -189,6 +214,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                                 if (rel != null) runUpdate(rel) else checkUpdate(manual = true)
                             },
                         )
+                        DropdownMenuItem(text = { Text("ワークフロー詳細") }, onClick = { menuOpen = false; showWorkflow = true })
                         DropdownMenuItem(text = { Text("GitHub トークン") }, onClick = { menuOpen = false; showSettings = true })
                         DropdownMenuItem(
                             text = { Text("バージョン ${Updater.installedVersionName(context)}", color = Color.Gray) },
