@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:13:23+09:00",
+ "updated": "2026-10-14T21:30:29+09:00",
  "items": [
   {
    "category": "gear",
@@ -2841,9 +2841,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-049",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-14T21:30:29+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
   },
   {
    "category": "sakeware",
