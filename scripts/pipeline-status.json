@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T12:13:16+09:00",
+ "updated": "2026-10-14T12:13:28+09:00",
  "queue": {
   "published": 59,
   "approved": 38,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published fender-studio-pro-8-studio-one-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-14T12:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-14T07:41:08+09:00",
+  "at": "2026-10-14T12:13:28+09:00",
   "engine": "claude",
-  "detail": "- **Left out:** I didn't include two claims I couldn't confirm from a primary source: that Windows blocked LatencyMon's driver in 2026, and that Microsoft added built-in ASIO support."
+  "detail": "I recorded the topic as complete and added the Hatena entry to the table in `CLAUDE.md`."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-14T12:13:28+09:00",
+   "engine": "claude",
+   "detail": "I recorded the topic as complete and added the Hatena entry to the table in `CLAUDE.md`."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-13T04:00:41+09:00",
    "engine": "claude",
    "detail": "`git pull` の時点で取り込む変更はなく、アプリからの削除も追加リクエストも 0 件でした。キューは変えていないので、commit と push もしていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-12T23:00:34+09:00",
-   "engine": "claude",
-   "detail": "- 最初の `git pull --rebase` は、作業ツリーに未コミットの変更（`scripts/pipeline-status.json`・`topic-log.json`・`topics-queue.json`）があったため失敗しました。投稿しない回なので、その変更には手を付けていません。"
   }
  ]
 }
