@@ -1690,6 +1690,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-14T12:13:16+09:00"
+  },
+  {
+   "id": "2026w41-007",
+   "category": "learning",
+   "theme": "自動耳コピと自分の耳、1か月の耳コピ練習でどこまで聴き取れるか",
+   "slug": "waon-ear-copy-1month-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/waon-ear-copy-1month-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-14T17:43:17+09:00"
   }
  ]
 }
