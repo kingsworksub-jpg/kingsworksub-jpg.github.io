@@ -1,0 +1,30 @@
+{
+ "/images/fender-studio-pro/presonus-namm.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/0e/PreSonus_-_2014_NAMM_Show_%28by_Matt_Vanacoro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:PreSonus_-_2014_NAMM_Show_(by_Matt_Vanacoro).jpg",
+  "license": "CC BY 2.0",
+  "author": "Matt Vanacoro",
+  "title": "File:PreSonus - 2014 NAMM Show (by Matt Vanacoro).jpg"
+ },
+ "/images/fender-studio-pro/rumble-100.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/0_Fender_Rumble_100_bass_amplifier.jpg/1280px-0_Fender_Rumble_100_bass_amplifier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:0_Fender_Rumble_100_bass_amplifier.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Elmschrat",
+  "title": "File:0 Fender Rumble 100 bass amplifier.jpg"
+ },
+ "/images/fender-studio-pro/faderport.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/PreSonus_FaderPort.jpg/1280px-PreSonus_FaderPort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:PreSonus_FaderPort.jpg",
+  "license": "CC BY 2.0",
+  "author": "John Athayde from Washington, DC, USA",
+  "title": "File:PreSonus FaderPort.jpg"
+ },
+ "/images/fender-studio-pro/studiolive.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/4a/PreSonus_StudioLive_12.4.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:PreSonus_StudioLive_12.4.2.jpg",
+  "license": "CC BY 2.0",
+  "author": "Stephen Heywood",
+  "title": "File:PreSonus StudioLive 12.4.2.jpg"
+ }
+}
