@@ -1,0 +1,23 @@
+{
+ "/images/demucs/architecture.jpg": {
+  "download": "https://raw.githubusercontent.com/facebookresearch/demucs/main/demucs.png",
+  "page": "https://github.com/facebookresearch/demucs",
+  "license": "MIT",
+  "author": "Meta Platforms, Inc. (Alexandre Défossez)",
+  "title": ""
+ },
+ "/images/demucs/console.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg/1280px-Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Audio_console_at_Studio_di_Fonologia_Musicale_RAI_di_Milano.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Mikhail (Vokabre) Shcherbakov",
+  "title": "File:Audio console at Studio di Fonologia Musicale RAI di Milano.jpg"
+ },
+ "/images/demucs/drums.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg/1280px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg",
+  "license": "CC BY 4.0",
+  "author": "Mostafameraji",
+  "title": "File:A drum kit made by Mapex Drums - Cacon Photos- Copyleft - Creative Commons 01.jpg"
+ }
+}
