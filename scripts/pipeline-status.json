@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:44:29+09:00",
+ "updated": "2026-10-14T23:00:01+09:00",
  "queue": {
   "published": 62,
   "approved": 35,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published shigaraki-guinomi-hiiro",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-14T23:00:01+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
