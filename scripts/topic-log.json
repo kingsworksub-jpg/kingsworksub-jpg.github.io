@@ -1678,6 +1678,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-14T07:41:00+09:00"
+  },
+  {
+   "id": "2026w41-003",
+   "category": "software",
+   "theme": "Fender Studio Pro 8、Studio Oneから名前が変わって何が残り何が変わったか",
+   "slug": "fender-studio-pro-8-studio-one-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/fender-studio-pro-8-studio-one-2026/",
+   "hatena_entry": "14945776032089993400",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-14T12:13:16+09:00"
   }
  ]
 }

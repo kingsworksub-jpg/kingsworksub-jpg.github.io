@@ -314,6 +314,7 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 | 制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き | https://kinbro.hatenablog.com/entry/2026/10/11/121110 | 14945776032088764263 |
 | OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる | https://kinbro.hatenablog.com/entry/2026/10/12/121128 | 14945776032089192418 |
 | Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定 | https://kinbro.hatenablog.com/entry/2026/10/13/121833 | 14945776032089597760 |
+| Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ | https://kinbro.hatenablog.com/entry/2026/10/14/121304 | 14945776032089993400 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

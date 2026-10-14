@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T12:00:23+09:00",
+ "updated": "2026-10-14T12:13:16+09:00",
  "items": [
   {
    "category": "gear",
@@ -4393,14 +4393,16 @@
    },
    "source_of_idea": "gap",
    "id": "2026w41-003",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 0,
    "claimed_at": "2026-10-14T12:00:23+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "fender-studio-pro-8-studio-one-2026",
+   "published_at": "2026-10-14T12:13:16+09:00"
   },
   {
    "category": "software",
