@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:44:14+09:00",
+ "updated": "2026-10-14T21:44:29+09:00",
  "queue": {
   "published": 62,
   "approved": 35,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published shigaraki-guinomi-hiiro",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-14T21:30:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-14T20:13:36+09:00",
+  "at": "2026-10-14T21:44:29+09:00",
   "engine": "claude",
-  "detail": "**Unconfirmed points:** Two research passes agreed on the core facts but couldn't confirm which AI model is used, which paid plan export needs, or the rules for commercial use. The article says these haven't been announced rather than guessing. The `.fmx` format and the macOS-only limit came from a "
+  "detail": "There's no Amazon product page for a specific cup, so the image link and the closing link go to an Amazon search for 「信楽焼 ぐい呑み」. I left out the date of this year's 信楽陶器まつり (Shigaraki pottery festival) because I couldn't confirm it. The article only says the festival is held every autumn."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-14T21:44:29+09:00",
+   "engine": "claude",
+   "detail": "There's no Amazon product page for a specific cup, so the image link and the closing link go to an Amazon search for 「信楽焼 ぐい呑み」. I left out the date of this year's 信楽陶器まつり (Shigaraki pottery festival) because I couldn't confirm it. The article only says the festival is held every autumn."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-13T17:42:38+09:00",
    "engine": "claude",
    "detail": "- The topic is marked complete, the Ameba table in `CLAUDE.md` has a new row, and everything is pushed."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-13T12:18:54+09:00",
-   "engine": "claude",
-   "detail": "All checks passed: `validate_post.py`, the deploy, and the real-browser check (all 4 images show and are wrapped in links). The topic is marked complete in the queue and the Hatena row is added to CLAUDE.md. The 4 images' Amazon links are search links, not product pages, because the images aren't of"
   }
  ]
 }
