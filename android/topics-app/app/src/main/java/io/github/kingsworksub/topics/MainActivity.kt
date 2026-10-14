@@ -111,6 +111,9 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     var filter by remember { mutableStateOf("approved") }
     var confirm by remember { mutableStateOf<Topic?>(null) }
     var showWorkflow by remember { mutableStateOf(false) }
+    var showSettings by remember { mutableStateOf(initialToken.isBlank()) }
+    var showAdd by remember { mutableStateOf(false) }
+    var menuOpen by remember { mutableStateOf(false) }
     var newer by remember { mutableStateOf<Release?>(null) }
     var updating by remember { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
