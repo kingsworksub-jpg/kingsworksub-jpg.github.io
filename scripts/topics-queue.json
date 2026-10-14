@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:00:37+09:00",
+ "updated": "2026-10-14T20:13:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -4984,14 +4984,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w41-012",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 0,
    "claimed_at": "2026-10-14T20:00:37+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "20:00",
-   "slot_label": "夜: テック/ソフト/制作環境(隔日)"
+   "slot_label": "夜: テック/ソフト/制作環境(隔日)",
+   "slug": "google-flow-music-plugins-2026",
+   "published_at": "2026-10-14T20:13:23+09:00"
   },
   {
    "category": "whisky",

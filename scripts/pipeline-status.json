@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-14T20:00:37+09:00",
+ "updated": "2026-10-14T20:13:23+09:00",
  "queue": {
-  "published": 60,
+  "published": 61,
   "approved": 36,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published waon-ear-copy-1month-2026",
+ "last_result": "published google-flow-music-plugins-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
