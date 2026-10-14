@@ -91,36 +91,8 @@ class MainActivity : ComponentActivity() {
                 TopicsScreen(
                     initialToken = prefs.getString(KEY_TOKEN, "") ?: "",
                     saveToken = { prefs.edit().putString(KEY_TOKEN, it.trim()).apply() },
-        )
-    }
-
-    if (showWorkflow) {
-        AlertDialog(
-            onDismissRequest = { showWorkflow = false },
-            title = { Text("パイプライン・ワークフロー設計詳細") },
-            text = {
-                Column(
-                    Modifier
-                        .fillMaxWidth()
-                        .verticalScroll(rememberScrollState())
-                ) {
-                    Text("1. ブログ記事自動生成・投稿パイプライン", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
-                    Text("• キュー＆ステータス管理: GitHub上のJSONでネタと進捗を管理。\n" +
-                         "• 記事生成: リサーチ、執筆、Hugoビルド、GitHub Pagesデプロイ。\n" +
-                         "• 外部転載: はてなブログ（AtomPub）およびnote.com（完全自動公開）へ同時転載。")
-                    Spacer(Modifier.height(12.dp))
-                    Text("2. X（Twitter）自動宣伝・返信パイプライン", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
-                    Text("• RSS記事巡回: 自身のブログRSSから古い順に記事を取り込みカテゴリ分類。\n" +
-                         "• 検索＆関連ゲート: カテゴリ別X検索クエリでlive検索し、キーワード一致で高スコアポストを選定。\n" +
-                         "• ローカルLLM推論 (qwen2.5:3b): 相手のポストの本文を読み解き、3パターン（5〜80文字）の返信文を生成して最適解を選択。\n" +
-                         "• 共感重視・宣伝排除: 自分のブログへの誘導文言は一切書かず、純粋な共感コメントに徹しつつ末尾にブログURLを添付。")
-                }
-            },
-            confirmButton = {
-                TextButton(onClick = { showWorkflow = false }) { Text("閉じる") }
+                )
             }
-        )
-    }
         }
     }
 }
