@@ -1,0 +1,37 @@
+{
+ "/images/flowplugin/reaper.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/8/8c/REAPER_Digital_Audio_Workstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:REAPER_Digital_Audio_Workstation.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "REAPER Digital Audio Workstation",
+  "title": "File:REAPER Digital Audio Workstation.jpg"
+ },
+ "/images/flowplugin/kdj-one.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/8/8d/KDJ-ONE_mobile_audio_workstation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:KDJ-ONE_mobile_audio_workstation.jpg",
+  "license": "CC BY 2.0",
+  "author": "j bizzie",
+  "title": "File:KDJ-ONE mobile audio workstation.jpg"
+ },
+ "/images/flowplugin/keyboards-computer.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Keyboards_and_computer.jpg/1280px-Keyboards_and_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Keyboards_and_computer.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mitchschneider88",
+  "title": "File:Keyboards and computer.jpg"
+ },
+ "/images/flowplugin/nord-knobs.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Clavia_Nord_Rack_2_knobs_%28by_David_J%29.jpg/1280px-Clavia_Nord_Rack_2_knobs_%28by_David_J%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Clavia_Nord_Rack_2_knobs_(by_David_J).jpg",
+  "license": "CC BY 2.0",
+  "author": "David J",
+  "title": "File:Clavia Nord Rack 2 knobs (by David J).jpg"
+ },
+ "/images/flowplugin/pedals.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Effects_pedals_Kasey_Underwood.jpg/1280px-Effects_pedals_Kasey_Underwood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Effects_pedals_Kasey_Underwood.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Brownsnake84",
+  "title": "File:Effects pedals Kasey Underwood.jpg"
+ }
+}
