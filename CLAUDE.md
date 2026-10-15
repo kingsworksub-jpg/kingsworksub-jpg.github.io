@@ -316,6 +316,7 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 | Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定 | https://kinbro.hatenablog.com/entry/2026/10/13/121833 | 14945776032089597760 |
 | Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ | https://kinbro.hatenablog.com/entry/2026/10/14/121304 | 14945776032089993400 |
 | Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで | https://kinbro.hatenablog.com/entry/2026/10/14/201310 | 14945776032090135921 |
+| DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲 | https://kinbro.hatenablog.com/entry/2026/10/15/131257 | 14945776032090430709 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

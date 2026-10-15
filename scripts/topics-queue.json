@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:50:11+09:00",
+ "updated": "2026-10-15T13:13:09+09:00",
  "items": [
   {
    "category": "gear",
@@ -1048,14 +1048,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-018",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-15T12:50:11+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "desk-chair-studio-ergonomics-2026",
+   "published_at": "2026-10-15T13:13:09+09:00"
   },
   {
    "category": "setup",
