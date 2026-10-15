@@ -46,12 +46,7 @@ data class TopicRequest(
 
 data class Release(val versionCode: Int, val versionName: String, val apkUrl: String)
 
-data class PublishedPost(
-    val slug: String,
-    val title: String,
-    val platforms: List<String>,
-    val needsManualReview: String?,
-)
+data class PlatformState(val platforms: List<String>, val needsManualReview: String?)
 
 data class Snapshot(
     val topics: List<Topic>,
@@ -60,6 +55,7 @@ data class Snapshot(
     val skipped: Set<String>,
     val status: PipelineStatus?,
     val queueUpdated: String,
+    val platforms: Map<String, PlatformState>,
 )
 
 /** Reads the topic queue from GitHub and records deletions as scripts/topic-skips/<id>.json. */
@@ -161,7 +157,19 @@ class GitHubRepo(private val token: String?) {
                 requests += TopicRequest(name, o.optString("theme"), o.optString("category"), o.optString("memo"), o.optString("requested_at"))
             }
         }
-        return Snapshot(topics, requests, cats, skipped, status, queue.optString("updated"))
+        val platforms = mutableMapOf<String, PlatformState>()
+        getRaw("scripts/post-platforms.json")?.let { txt ->
+            val obj = JSONObject(txt)
+            val keys = obj.keys()
+            while (keys.hasNext()) {
+                val slug = keys.next()
+                val o = obj.getJSONObject(slug)
+                val plats = o.optJSONArray("platforms") ?: JSONArray()
+                val review = if (o.isNull("needs_manual_review")) null else o.optString("needs_manual_review").ifBlank { null }
+                platforms[slug] = PlatformState((0 until plats.length()).map { plats.optString(it) }, review)
+            }
+        }
+        return Snapshot(topics, requests, cats, skipped, status, queue.optString("updated"), platforms)
     }
 
     /** Creates scripts/topic-skips/<id>.json. The pipeline then marks the topic deleted and never posts it. */
@@ -203,36 +211,6 @@ class GitHubRepo(private val token: String?) {
             .toString()
         val (code, text) = request("scripts/topic-requests/$name", "PUT", body, raw = false)
         if (code !in 200..299) throw IOException("追加に失敗しました（GitHub $code）: ${text.take(160)}")
-    }
-
-    /** scripts/post-platforms.json joined with scripts/topic-log.json (for the title). Fetched
-     * only when the "公開済み記事" screen is opened, not on the periodic poll. */
-    fun loadPublishedPosts(): List<PublishedPost> {
-        val platforms = getRaw("scripts/post-platforms.json")?.let { JSONObject(it) } ?: JSONObject()
-        val logEntries = JSONObject(getRaw("scripts/topic-log.json") ?: """{"entries":[]}""").optJSONArray("entries") ?: JSONArray()
-        val titleBySlug = mutableMapOf<String, String>()
-        for (i in 0 until logEntries.length()) {
-            val e = logEntries.getJSONObject(i)
-            if (e.optString("status") == "published") {
-                val slug = e.optString("slug")
-                if (slug.isNotBlank()) titleBySlug[slug] = e.optString("theme")
-            }
-        }
-        val out = mutableListOf<PublishedPost>()
-        val keys = platforms.keys()
-        while (keys.hasNext()) {
-            val slug = keys.next()
-            val o = platforms.getJSONObject(slug)
-            val plats = o.optJSONArray("platforms") ?: JSONArray()
-            val review = if (o.isNull("needs_manual_review")) null else o.optString("needs_manual_review").ifBlank { null }
-            out += PublishedPost(
-                slug = slug,
-                title = titleBySlug[slug] ?: slug,
-                platforms = (0 until plats.length()).map { plats.optString(it) },
-                needsManualReview = review,
-            )
-        }
-        return out.sortedBy { it.title }
     }
 
     /** Requests a platform-set change for an already-published post, as
