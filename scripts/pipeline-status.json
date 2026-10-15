@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T04:00:04+09:00",
+ "updated": "2026-10-16T04:00:33+09:00",
  "queue": {
   "published": 67,
   "approved": 29,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published teenage-engineering-op1-synth-essay-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-16T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-15T23:12:47+09:00",
+  "at": "2026-10-16T04:00:33+09:00",
   "engine": "claude",
-  "detail": "The research had gaps: two research agents didn't report until I resent the task, and their numbers disagreed. A third agent confirmed the core interview claims. Where the reports conflicted (the original OP-1's price, its 2019 price increase, which artists used it), I left those details out."
+  "detail": "- **今日の投稿**: 0/6件"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-16T04:00:33+09:00",
+   "engine": "claude",
+   "detail": "- **今日の投稿**: 0/6件"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-10-14T20:13:36+09:00",
    "engine": "claude",
    "detail": "**Unconfirmed points:** Two research passes agreed on the core facts but couldn't confirm which AI model is used, which paid plan export needs, or the rules for commercial use. The article says these haven't been announced rather than guessing. The `.fmx` format and the macOS-only limit came from a "
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-14T17:43:26+09:00",
-   "engine": "claude",
-   "detail": "**Dead note link:** following the prompt, the 関連記事 block keeps the note link as `https://note.com/shining_finger01/n/XXXX`, which leads nowhere on the live page. This is the prompt's own rule, so every article that follows it has the same dead link. Changing that line to point at the note profile pa"
   }
  ]
 }
