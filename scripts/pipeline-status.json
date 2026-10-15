@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T04:00:33+09:00",
+ "updated": "2026-10-16T07:30:03+09:00",
  "queue": {
   "published": 67,
   "approved": 29,
@@ -12,7 +12,12 @@
  "pending_requests": 0,
  "last_result": "published teenage-engineering-op1-synth-essay-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-16T07:30:03+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
