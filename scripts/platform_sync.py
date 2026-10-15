@@ -230,10 +230,15 @@ def verify() -> dict:
 # request handling
 # ---------------------------------------------------------------------------
 
-def pending_requests() -> dict[str, dict]:
-    """Newest ppp-request per slug. Older duplicate requests for the same slug are deleted
-    unactioned (the newest one supersedes them) — this also removes unparseable files."""
+def pending_requests(commit_cleanup: bool = False) -> dict[str, dict]:
+    """Newest ppp-request per slug. Older duplicate requests for the same slug, and unparseable
+    files, are deleted unactioned (the newest valid one per slug supersedes the rest).
+
+    `commit_cleanup=True` (only reconcile() should pass this — status/diff must stay read-only)
+    commits+pushes any such deletions immediately, so they don't linger as an uncommitted local
+    diff that never reaches origin (and gets "rediscovered" every run otherwise)."""
     by_slug: dict[str, list[tuple[str, dict]]] = {}
+    removed: list[str] = []
     for f in sorted(glob.glob(os.path.join(PPP_REQUESTS, "*.json"))):
         try:
             d = tp.load(f, None)
@@ -241,6 +246,7 @@ def pending_requests() -> dict[str, dict]:
             d = None
         if not d or not d.get("slug"):
             os.remove(f)
+            removed.append(f)
             continue
         by_slug.setdefault(d["slug"], []).append((f, d))
     result = {}
@@ -249,7 +255,10 @@ def pending_requests() -> dict[str, dict]:
         *stale, newest = entries
         for f, _ in stale:
             os.remove(f)
+            removed.append(f)
         result[slug] = {"file": newest[0], "request": newest[1]}
+    if removed and commit_cleanup:
+        git_commit_push("PPP: remove stale/unparseable request files", [rel(p) for p in removed])
     return result
 
 
@@ -421,7 +430,7 @@ def remove_ameba(entry_id: int, expected_title: str) -> None:
 # reconcile
 # ---------------------------------------------------------------------------
 
-def reconcile(dry_run: bool = False) -> dict:
+def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
     # Keeps post-platforms.json current for posts published since the last run (complete() in
     # topic_plan.py doesn't touch this file) and fills in any missing `title`s, then re-verifies
     # every tracked slug's platforms against confirmed signals (see verify()'s docstring for why
@@ -433,7 +442,9 @@ def reconcile(dry_run: bool = False) -> dict:
         verify()
         git_commit_push("PPP: backfill + verify platforms", [rel(PLATFORMS_FILE)])
     platforms = load_platforms()
-    requests = pending_requests()
+    requests = pending_requests(commit_cleanup=not dry_run)
+    if only is not None:
+        requests = {slug: req for slug, req in requests.items() if slug in only}
     summary = {"slugs": 0, "added": 0, "removed": 0, "errors": 0, "flagged": 0}
 
     for slug, req in requests.items():
@@ -494,9 +505,9 @@ def reconcile(dry_run: bool = False) -> dict:
                 state["platforms"] = sorted(set(state["platforms"]) | {plat})
                 state["updated_at"] = tp.now().isoformat(timespec="seconds")
                 save_platforms(platforms)
-                git_commit_push(f"PPP: add {plat} for {slug}", [rel(PLATFORMS_FILE)])
                 tp.log_entry(id=f"ppp-{slug}", category="", theme=title, slug=slug,
                               status="platform_added", reason=plat)
+                git_commit_push(f"PPP: add {plat} for {slug}", [rel(PLATFORMS_FILE), rel(tp.LOG)])
                 summary["added"] += 1
 
             for plat in to_remove:
@@ -534,10 +545,10 @@ def reconcile(dry_run: bool = False) -> dict:
                 state["platforms"] = [p for p in state["platforms"] if p != plat]
                 state["updated_at"] = tp.now().isoformat(timespec="seconds")
                 save_platforms(platforms)
-                git_commit_push(f"PPP: remove {plat} for {slug}", [rel(PLATFORMS_FILE)])
                 tp.log_entry(id=f"ppp-{slug}", category="", theme=title, slug=slug,
                               status="unpublished" if not state["platforms"] else "platform_removed",
                               reason=plat)
+                git_commit_push(f"PPP: remove {plat} for {slug}", [rel(PLATFORMS_FILE), rel(tp.LOG)])
                 summary["removed"] += 1
 
             os.remove(req["file"])
@@ -563,6 +574,7 @@ def main() -> None:
     sub.add_parser("diff").add_argument("slug")
     r = sub.add_parser("reconcile")
     r.add_argument("--dry-run", action="store_true")
+    r.add_argument("--only", action="append", help="slug to process (repeatable); default is all pending requests")
     a = ap.parse_args()
 
     if a.cmd == "backfill":
@@ -592,7 +604,7 @@ def main() -> None:
         print(json.dumps({"slug": a.slug, "current": current, "requested": pending[a.slug]["request"],
                           "effective_target": target, "note": note}, ensure_ascii=False, indent=1))
     elif a.cmd == "reconcile":
-        summary = reconcile(dry_run=a.dry_run)
+        summary = reconcile(dry_run=a.dry_run, only=set(a.only) if a.only else None)
         print(json.dumps(summary, ensure_ascii=False))
 
 

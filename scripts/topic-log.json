@@ -1786,6 +1786,15 @@
    "note_key": "n7e1efb971a38",
    "engine": "claude",
    "at": "2026-10-15T23:12:19+09:00"
+  },
+  {
+   "id": "ppp-windows-11-26h2-memory-daw-2026",
+   "category": "",
+   "theme": "Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定",
+   "slug": "windows-11-26h2-memory-daw-2026",
+   "status": "platform_removed",
+   "reason": "hatena",
+   "at": "2026-10-15T23:35:56+09:00"
   }
  ]
 }
