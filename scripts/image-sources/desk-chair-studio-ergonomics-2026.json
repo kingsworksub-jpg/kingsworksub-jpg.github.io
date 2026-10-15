@@ -1,0 +1,30 @@
+{
+ "/images/desk-chair/flickr-studio-a.jpg": {
+  "download": "https://live.staticflickr.com/2320/2215657406_e3a70cbd29_b.jpg",
+  "page": "https://www.flickr.com/photos/21893264@N00/2215657406",
+  "license": "CC BY-SA 2.0",
+  "author": "Mrs. Gemstone",
+  "title": ""
+ },
+ "/images/desk-chair/flickr-studio-b.jpg": {
+  "download": "https://live.staticflickr.com/4063/5081408605_717a9669f5_b.jpg",
+  "page": "https://www.flickr.com/photos/68503235@N00/5081408605",
+  "license": "CC BY 2.0",
+  "author": "Jon Rohan",
+  "title": ""
+ },
+ "/images/desk-chair/office-chair.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Buerostuhl_%28fcm%29.jpg/1280px-Buerostuhl_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Buerostuhl_(fcm).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Photograph: Frank C. Müller, Baden-Baden",
+  "title": "File:Buerostuhl (fcm).jpg"
+ },
+ "/images/desk-chair/aeron.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Aeron_Chair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Aeron_Chair.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Badudoy at English Wikipedia",
+  "title": "File:Aeron Chair.jpg"
+ }
+}
