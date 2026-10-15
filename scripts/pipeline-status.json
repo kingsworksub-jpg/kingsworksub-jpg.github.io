@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T17:40:15+09:00",
+ "updated": "2026-10-15T20:00:02+09:00",
  "queue": {
   "published": 65,
   "approved": 32,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published parker-blues-ear-training-1week",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-10-15T20:00:02+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
