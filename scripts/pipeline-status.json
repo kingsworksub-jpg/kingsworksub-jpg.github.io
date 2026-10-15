@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-16T07:30:25+09:00",
+ "updated": "2026-10-16T07:37:15+09:00",
  "queue": {
-  "published": 67,
+  "published": 68,
   "approved": 28,
   "rejected": 1,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published teenage-engineering-op1-synth-essay-2026",
+ "last_result": "published hugo-timezone-buildfuture-notes",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

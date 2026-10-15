@@ -1795,6 +1795,18 @@
    "status": "platform_removed",
    "reason": "hatena",
    "at": "2026-10-15T23:35:56+09:00"
+  },
+  {
+   "id": "2026w41-026",
+   "category": "notes",
+   "theme": "HugoとGitHub Pagesで当日の記事が出ない、タイムゾーンとbuildFutureの罠",
+   "slug": "hugo-timezone-buildfuture-notes",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/hugo-timezone-buildfuture-notes/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-16T07:37:15+09:00"
   }
  ]
 }
