@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:50:11+09:00",
+ "updated": "2026-10-15T13:03:54+09:00",
  "queue": {
   "published": 63,
   "approved": 33,
@@ -15,7 +15,7 @@
  "current_job": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-15T12:49:39+09:00",
+  "since": "2026-10-15T13:03:54+09:00",
   "engine": "claude"
  },
  "last_run": {
