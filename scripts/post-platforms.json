@@ -1698,5 +1698,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "loafer-derby-autumn-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981672863",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T20:11:59+09:00"
  }
 }
