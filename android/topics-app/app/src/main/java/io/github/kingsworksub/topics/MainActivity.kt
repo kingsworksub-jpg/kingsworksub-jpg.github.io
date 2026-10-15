@@ -293,7 +293,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
         t.slug?.let { slug ->
             val state = snapshot?.platforms?.get(slug)
             PlatformsEditDialog(
-                title = t.theme,
+                title = state?.title?.ifBlank { null } ?: t.theme,
                 current = state?.platforms ?: emptyList(),
                 needsManualReview = state?.needsManualReview,
                 onDismiss = { editingPlatforms = null },
@@ -513,7 +513,14 @@ private fun TopicCardBody(topic: Topic, categoryName: String, status: String, pl
                 IconButton(onClick = onDelete) { Icon(Icons.Filled.Delete, "削除") }
             }
         }
-        Text(topic.theme, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+        // theme is the planning-stage working title (ネタ会議時点の仮テーマ); the actual article
+        // headline is deliberately rewritten from it during writing, so once published we must
+        // show the real title (platformState.title, from the post's frontmatter) instead, or the
+        // card won't match what's actually live on the blog.
+        Text(
+            (platformState?.title?.ifBlank { null } ?: topic.theme.ifBlank { null } ?: topic.id),
+            fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium,
+        )
         if (topic.angle.isNotBlank()) {
             Text(topic.angle, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
         }

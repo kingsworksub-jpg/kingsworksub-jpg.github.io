@@ -46,7 +46,7 @@ data class TopicRequest(
 
 data class Release(val versionCode: Int, val versionName: String, val apkUrl: String)
 
-data class PlatformState(val platforms: List<String>, val needsManualReview: String?)
+data class PlatformState(val title: String?, val platforms: List<String>, val needsManualReview: String?)
 
 data class Snapshot(
     val topics: List<Topic>,
@@ -166,7 +166,8 @@ class GitHubRepo(private val token: String?) {
                 val o = obj.getJSONObject(slug)
                 val plats = o.optJSONArray("platforms") ?: JSONArray()
                 val review = if (o.isNull("needs_manual_review")) null else o.optString("needs_manual_review").ifBlank { null }
-                platforms[slug] = PlatformState((0 until plats.length()).map { plats.optString(it) }, review)
+                val title = if (o.isNull("title")) null else o.optString("title").ifBlank { null }
+                platforms[slug] = PlatformState(title, (0 until plats.length()).map { plats.optString(it) }, review)
             }
         }
         return Snapshot(topics, requests, cats, skipped, status, queue.optString("updated"), platforms)
