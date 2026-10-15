@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T23:12:19+09:00",
+ "updated": "2026-10-15T23:12:47+09:00",
  "queue": {
   "published": 67,
   "approved": 29,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published teenage-engineering-op1-synth-essay-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-15T23:00:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-15T21:38:28+09:00",
+  "state": "finished",
+  "at": "2026-10-15T23:12:47+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 10:40pm (Asia/Tokyo)"
+  "detail": "The research had gaps: two research agents didn't report until I resent the task, and their numbers disagreed. A third agent confirmed the core interview claims. Where the reports conflicted (the original OP-1's price, its 2019 price increase, which artists used it), I left those details out."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-15T23:12:47+09:00",
+   "engine": "claude",
+   "detail": "The research had gaps: two research agents didn't report until I resent the task, and their numbers disagreed. A third agent confirmed the core interview claims. Where the reports conflicted (the original OP-1's price, its 2019 price increase, which artists used it), I left those details out."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-10-14T17:43:26+09:00",
    "engine": "claude",
    "detail": "**Dead note link:** following the prompt, the 関連記事 block keeps the note link as `https://note.com/shining_finger01/n/XXXX`, which leads nowhere on the live page. This is the prompt's own rule, so every article that follows it has the same dead link. Changing that line to point at the note profile pa"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-14T12:13:28+09:00",
-   "engine": "claude",
-   "detail": "I recorded the topic as complete and added the Hatena entry to the table in `CLAUDE.md`."
   }
  ]
 }
