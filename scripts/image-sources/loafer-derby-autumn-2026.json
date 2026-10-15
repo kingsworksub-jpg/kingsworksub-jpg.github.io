@@ -1,0 +1,37 @@
+{
+ "/images/loafer-derby/penny.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/A_Penny_Loafer.jpg/1280px-A_Penny_Loafer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Penny_Loafer.jpg",
+  "license": "CC0",
+  "author": "Wikipedia-ce",
+  "title": "File:A Penny Loafer.jpg"
+ },
+ "/images/loafer-derby/tods.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/A_brown_Loafer_Shoes_from_TODS.jpg/1280px-A_brown_Loafer_Shoes_from_TODS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_brown_Loafer_Shoes_from_TODS.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Peachyeung316",
+  "title": "File:A brown Loafer Shoes from TODS.jpg"
+ },
+ "/images/loafer-derby/derby-captoe.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/A_plein_Derby_with_Captoe.jpg/1280px-A_plein_Derby_with_Captoe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_plein_Derby_with_Captoe.jpg",
+  "license": "CC0",
+  "author": "Wikipedia-ce",
+  "title": "File:A plein Derby with Captoe.jpg"
+ },
+ "/images/loafer-derby/derby-suede.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/A_Derby_of_suede_leather_with_brogues.jpg/1280px-A_Derby_of_suede_leather_with_brogues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Derby_of_suede_leather_with_brogues.jpg",
+  "license": "CC0",
+  "author": "Wikipedia-ce",
+  "title": "File:A Derby of suede leather with brogues.jpg"
+ },
+ "/images/loafer-derby/blucher-grenson.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Blucher_%28Grenson%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Blucher_(Grenson).jpg",
+  "license": "CC BY-SA 2.5",
+  "author": "Rainer Ersfeld",
+  "title": "File:Blucher (Grenson).jpg"
+ }
+}
