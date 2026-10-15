@@ -1,0 +1,23 @@
+{
+ "/images/hugo-tz/greenwich-clock.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Greenwich_clock_2.jpg/1280px-Greenwich_clock_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Greenwich_clock_2.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Alvesgaspar",
+  "title": "File:Greenwich clock 2.jpg"
+ },
+ "/images/hugo-tz/time-zones-1962.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Admiralty_Chart_No_5006_World_Time_Zones%2C_Published_1962.jpg/1280px-Admiralty_Chart_No_5006_World_Time_Zones%2C_Published_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Admiralty_Chart_No_5006_World_Time_Zones,_Published_1962.jpg",
+  "license": "Public domain",
+  "author": "United Kingdom Hydrographic Office",
+  "title": "File:Admiralty Chart No 5006 World Time Zones, Published 1962.jpg"
+ },
+ "/images/hugo-tz/github-workflow.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GitHub-workflow.png/1280px-GitHub-workflow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:GitHub-workflow.png",
+  "license": "CC BY-SA 4.0",
+  "author": "G.prof",
+  "title": "File:GitHub-workflow.png"
+ }
+}
