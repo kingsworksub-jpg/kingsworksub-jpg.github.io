@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T20:00:31+09:00",
+ "updated": "2026-10-15T20:11:54+09:00",
  "items": [
   {
    "category": "gear",
@@ -3148,14 +3148,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-055",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-15T20:00:31+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料"
+   "slot_label": "夜: ファッション/飲料",
+   "slug": "loafer-derby-autumn-2026",
+   "published_at": "2026-10-15T20:11:54+09:00"
   },
   {
    "category": "fashion",
