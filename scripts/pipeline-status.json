@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-15T23:00:23+09:00",
+ "updated": "2026-10-15T23:12:19+09:00",
  "queue": {
-  "published": 66,
+  "published": 67,
   "approved": 29,
   "rejected": 1,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published loafer-derby-autumn-2026",
+ "last_result": "published teenage-engineering-op1-synth-essay-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
