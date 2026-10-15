@@ -160,11 +160,38 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
   - **アプリの自己更新**（2026-10-01）: メニュー「アプリを更新」。Release `topics-app-latest` の `version.json`（versionCode = ビルド番号）と
     インストール済みの versionCode を比べ、新しければ APK をダウンロードしてインストール画面を開く（起動時にも確認してバナー表示）。
     同じ署名鍵で署名しているので上書き更新できる。初回のみ「このアプリからのインストールを許可」が必要。
+    **バグ修正（2026-10-15）**: `GitHubRepo.latestRelease()` が非200応答（レート制限403等）を「リリースなし」と区別せず
+    `null` を返していたため、確認が失敗しているだけなのに「最新版です」と誤表示することがあった。404以外は例外を投げるよう修正し、
+    トークン未設定時のポーリング間隔も180秒(実際は約120req/時でGitHubの未認証上限60req/時を超過していた)→600秒に変更した。
   - **実行状況の自動同期**（2026-10-02）: `run-claude-task.ps1` がジョブの開始時と終了時に `topic_plan.py run-status` で
     `pipeline-status.json` の `current_job` / `last_run` / `recent_runs` を更新して push する（モデルが起動に失敗しても記録される）。
     アプリは開いた時・前面に戻った時・表示中は1分ごと（トークン未設定なら3分ごと）に読み直し、「実行中」「前回の実行（完了／失敗／時間切れ）」を表示する。
+  - **PPP（投稿先プラットフォーム）編集（2026-10-15）**: メニュー「公開済み記事」で、既存の公開済み記事ごとに投稿先
+    （github/hatena/ameba/note）を個別に編集できる。これはカテゴリー→channelの固定マッピングとは独立した上書きで、
+    保存すると `scripts/ppp-requests/<slug>-<日時>.json` を作成する（topic-requests/topic-skipsと同じファイルドロップ方式）。
+    - **実処理は `scripts/platform_sync.py reconcile`**（Claude Codeは介さない。決定的な差分適用＋既存スクリプト呼び出し＋
+      1操作ごとのコミットという機械的な作業にLLMエージェントを挟む必要がない、という判断）。現在の状態は
+      `scripts/post-platforms.json`（slugごとに `platforms`/`hatena_entry`/`note_key`/`ameba_entry` を保持）に記録される。
+      初期投入は `platform_sync.py backfill`（2026-10-15に実行済み、`topic-log.json` の published エントリから復元。
+      **既存記事の `ameba_entry` は元々どこにも記録されていなかったため null のまま** — このブログ記事のAmeba投稿を
+      PPPで外したい場合は、CLAUDE.md下記のAmeba公開URL一覧から entry_id を調べて `post-platforms.json` に手動で埋める必要がある）。
+    - **GitHub Pagesは単独では外せない**（他プラットフォームのレンダリング元・canonicalリンク先であるため）。githubを外す
+      リクエストは自動的に「全プラットフォームからの削除」に正規化される。空スラッグへの復元（一度全削除した記事にPPPで
+      プラットフォームを戻すこと）も自動実行の対象外（要手動対応としてフラグされる）。
+    - **はてな削除**: `scripts/delete-hatena-post.sh`（AtomPub DELETE、`scripts/hatena_api.py` のヘルパー使用）。削除後に
+      GETで404確認してから成功とする。
+    - **note/Ameba削除は未検証領域**（2026-10-15時点）: このリポジトリにはどちらも「公開済み記事の削除」を自動化したコードが
+      元々無かった。`post-to-note.py --delete-key`・`post-to-ameba.py --delete-entry` を新規実装したが、
+      対象記事のタイトルが一致することを確認してからでないと削除操作のクリックをしない設計（一致しない／想定要素が
+      見つからない場合は例外を投げて `post-platforms.json` に `needs_manual_review` として記録し、処理を止めずに次へ進む）。
+      **実機で1回、人間が見ている状態で動作確認してから自動実行タスクを有効化すること**。
+    - **スケジュール**: `blog-ppp-reconcile` タスク（1時間おき、`scripts/scheduled/run-platform-sync.ps1` 経由、
+      `run-claude-task.ps1` と同じミューテックス `Local\kingsworksub-blog-x-jobs` を共有するが Claude Code は起動しない）。
+      **登録時は Disabled**（`register-tasks.ps1` を実行しても有効にはならない）。`Start-ScheduledTask -TaskName
+      blog-ppp-reconcile` で数回クリーンに動くのを確認してから `Enable-ScheduledTask` で有効化する。
 - **停止方法**: 「止めて」と言われたら `Disable-ScheduledTask -TaskName blog-automation-task`（ネタ会議は止めなくてよい）。
-  カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。
+  カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。PPP同期を止めるなら
+  `Disable-ScheduledTask -TaskName blog-ppp-reconcile`。
 
 ## 自動続続タスク: 海外ジャズ記事のXポスト(……**2026-09-29 完全削除**、再開禁止)
 
