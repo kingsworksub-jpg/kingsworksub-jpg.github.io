@@ -12,14 +12,9 @@ inlined, are skipped.
 from __future__ import annotations
 
 import argparse
-import base64
-import hashlib
-import os
 import re
 import sys
 import time
-import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -28,53 +23,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).parent))
 from hatena_banner import inline_banners  # noqa: E402
-
-ATOM = "{http://www.w3.org/2005/Atom}"
-ENV_FILE = Path(__file__).parent.parent / ".secrets" / "hatena.env"
-
-
-def load_env() -> dict:
-    env = {}
-    for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
-        line = line.strip().removeprefix("export ").strip()
-        if "=" in line and not line.startswith("#"):
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return env
-
-
-def wsse(user: str, key: str) -> str:
-    nonce = os.urandom(16)
-    created = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    digest = base64.b64encode(hashlib.sha1(nonce + created.encode() + key.encode()).digest()).decode()
-    return (f'UsernameToken Username="{user}", PasswordDigest="{digest}", '
-            f'Nonce="{base64.b64encode(nonce).decode()}", Created="{created}"')
-
-
-def request(url: str, user: str, key: str, method="GET", body: bytes | None = None):
-    req = urllib.request.Request(url, data=body, method=method, headers={
-        "X-WSSE": wsse(user, key), "Content-Type": "application/atom+xml;type=entry"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.status, r.read()
-
-
-def list_entries(base: str, user: str, key: str):
-    url = base
-    while url:
-        _, data = request(url, user, key)
-        root = ET.fromstring(data)
-        for e in root.findall(f"{ATOM}entry"):
-            edit = next((l.get("href") for l in e.findall(f"{ATOM}link") if l.get("rel") == "edit"), None)
-            alt = next((l.get("href") for l in e.findall(f"{ATOM}link") if l.get("rel") == "alternate"), "")
-            content = e.find(f"{ATOM}content")
-            draft = e.find("{http://www.w3.org/2007/app}control/{http://www.w3.org/2007/app}draft")
-            yield {
-                "edit": edit, "url": alt, "title": e.findtext(f"{ATOM}title") or "",
-                "type": content.get("type") if content is not None else "",
-                "html": (content.text or "") if content is not None else "",
-                "draft": draft is not None and draft.text == "yes",
-            }
-        url = next((l.get("href") for l in root.findall(f"{ATOM}link") if l.get("rel") == "next"), None)
+from hatena_api import load_env, request, list_entries  # noqa: E402
 
 
 def main() -> None:

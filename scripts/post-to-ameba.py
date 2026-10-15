@@ -42,6 +42,8 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
+import urllib.request
 
 from playwright.sync_api import sync_playwright
 
@@ -397,6 +399,76 @@ def click_submit_and_check(page, ctx, publish):
     return True
 
 
+def delete_entry(entry_id, expected_title):
+    """Delete a PUBLISHED Ameba entry. UNVERIFIED territory (see module docstring / CLAUDE.md) —
+    this codebase has never explored Ameba's existing-entry edit/delete page before. Based on the
+    insert/update/end URL naming already confirmed in this file (srventryinsertinput.do,
+    srventryupdateend.do), this guesses the edit URL is srventryupdateinput.do?entry_id=<id>, and
+    looks for a visible element whose text is exactly "削除". It refuses to click anything unless
+    the title field first matches `expected_title`, and raises (rather than returning a falsy
+    value) on any mismatch, missing element, or failed post-delete verification. Given Ameba's
+    UI is independently documented elsewhere in this file as flaky, this MUST be run once under
+    human supervision against a real entry before being trusted in the unattended pipeline.
+    """
+    with sync_playwright() as p:
+        ctx = open_browser(p)
+        page = ctx.new_page()
+        page.on("dialog", lambda d: d.accept())
+
+        edit_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?entry_id={entry_id}"
+        page.goto(edit_url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(4000)
+        if "blog.ameba.jp/ucs/entry" not in page.url:
+            ctx.close()
+            raise RuntimeError(f"ameba entry {entry_id}: 編集画面を開けません(ログイン切れの可能性): {page.url}")
+        dismiss_dialogs(page)
+
+        try:
+            title_box = page.wait_for_selector('input[name="entry_title"]', timeout=20000)
+            actual_title = (title_box.input_value() or "").strip()
+        except Exception as e:
+            ctx.close()
+            raise RuntimeError(f"ameba entry {entry_id}: タイトル欄が見つかりません(削除操作を中止): {e}") from e
+        if actual_title != expected_title.strip():
+            ctx.close()
+            raise RuntimeError(
+                f"ameba entry {entry_id}: 画面のタイトル「{actual_title}」が期待値「{expected_title}」と"
+                "一致しないため中止")
+
+        delete_btn = None
+        for el in page.query_selector_all("a, button"):
+            try:
+                if el.is_visible() and (el.inner_text() or "").strip() == "削除":
+                    delete_btn = el
+                    break
+            except Exception:
+                continue
+        if delete_btn is None:
+            ctx.close()
+            raise RuntimeError(f"ameba entry {entry_id}: 「削除」ボタン/リンクが見つかりません(削除操作を中止)")
+
+        delete_btn.scroll_into_view_if_needed()
+        page.wait_for_timeout(500)
+        delete_btn.click(timeout=10000)
+        page.wait_for_timeout(2000)
+        # a native confirm() is auto-accepted by the page.on("dialog", ...) handler above;
+        # dismiss_dialogs() handles any custom <dialog> confirmation instead.
+        dismiss_dialogs(page)
+        page.wait_for_timeout(2000)
+        ctx.close()
+
+    public_url = f"https://ameblo.jp/sfd0501/entry-{entry_id}.html"
+    try:
+        req = urllib.request.Request(public_url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        urllib.request.urlopen(req, timeout=15)
+        raise RuntimeError(f"ameba entry {entry_id}: 削除操作後も公開URLが200を返します({public_url})。"
+                            "削除できていない可能性が高いため、成功として扱わないでください。")
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise RuntimeError(f"ameba entry {entry_id}: 削除後の確認で想定外のHTTP {e.code}: {public_url}") from e
+    # 404 confirmed — deletion verified.
+
+
 def fill_editor_and_submit(slug, publish):
     with sync_playwright() as p:
         ctx = open_browser(p)
@@ -467,9 +539,19 @@ def main():
     parser.add_argument("--login", action="store_true", help="Login only")
     parser.add_argument("--publish", action="store_true", help="Publish directly")
     parser.add_argument("--save", action="store_true", help="Save as draft")
+    parser.add_argument("--delete-entry", help="削除する公開済み記事の entry_id")
+    parser.add_argument("--expect-title", help="--delete-entry 使用時、削除前に照合するタイトル(必須・誤削除防止)")
     args = parser.parse_args()
 
     os.makedirs(PROFILE, exist_ok=True)
+
+    if args.delete_entry:
+        if not args.expect_title:
+            print("Error: --delete-entry には --expect-title が必須です(誤削除防止のため)")
+            sys.exit(1)
+        delete_entry(args.delete_entry, args.expect_title)
+        print(f"DELETED: {args.delete_entry}")
+        return
 
     with sync_playwright() as p:
         if args.login:

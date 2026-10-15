@@ -113,12 +113,18 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     var showWorkflow by remember { mutableStateOf(false) }
     var showSettings by remember { mutableStateOf(initialToken.isBlank()) }
     var showAdd by remember { mutableStateOf(false) }
+    var showPlatforms by remember { mutableStateOf(false) }
     var menuOpen by remember { mutableStateOf(false) }
     var newer by remember { mutableStateOf<Release?>(null) }
     var updating by remember { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
     val installed = remember { Updater.installedVersionCode(context) }
+
+    if (showPlatforms) {
+        PlatformsScreen(token = token, onBack = { showPlatforms = false })
+        return
+    }
 
     fun refresh() {
         if (loading) return
@@ -194,6 +200,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                                 if (rel != null) runUpdate(rel) else checkUpdate(manual = true)
                             },
                         )
+                        DropdownMenuItem(text = { Text("公開済み記事") }, onClick = { menuOpen = false; showPlatforms = true })
                         DropdownMenuItem(text = { Text("ワークフロー詳細") }, onClick = { menuOpen = false; showWorkflow = true })
                         DropdownMenuItem(text = { Text("GitHub トークン") }, onClick = { menuOpen = false; showSettings = true })
                         DropdownMenuItem(
