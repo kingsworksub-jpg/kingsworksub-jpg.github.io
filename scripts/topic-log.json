@@ -1750,6 +1750,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-15T13:13:09+09:00"
+  },
+  {
+   "id": "2026w41-008",
+   "category": "learning",
+   "theme": "ブルース進行を1週間で聴き分ける、Now's the TimeからBlues for Aliceへ",
+   "slug": "parker-blues-ear-training-1week",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/parker-blues-ear-training-1week/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-15T17:39:50+09:00"
   }
  ]
 }
