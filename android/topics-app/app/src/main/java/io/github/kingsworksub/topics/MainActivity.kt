@@ -113,18 +113,13 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     var showWorkflow by remember { mutableStateOf(false) }
     var showSettings by remember { mutableStateOf(initialToken.isBlank()) }
     var showAdd by remember { mutableStateOf(false) }
-    var showPlatforms by remember { mutableStateOf(false) }
+    var editingPlatforms by remember { mutableStateOf<Topic?>(null) }
     var menuOpen by remember { mutableStateOf(false) }
     var newer by remember { mutableStateOf<Release?>(null) }
     var updating by remember { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
     val installed = remember { Updater.installedVersionCode(context) }
-
-    if (showPlatforms) {
-        PlatformsScreen(token = token, onBack = { showPlatforms = false })
-        return
-    }
 
     fun refresh() {
         if (loading) return
@@ -200,7 +195,6 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                                 if (rel != null) runUpdate(rel) else checkUpdate(manual = true)
                             },
                         )
-                        DropdownMenuItem(text = { Text("公開済み記事") }, onClick = { menuOpen = false; showPlatforms = true })
                         DropdownMenuItem(text = { Text("ワークフロー詳細") }, onClick = { menuOpen = false; showWorkflow = true })
                         DropdownMenuItem(text = { Text("GitHub トークン") }, onClick = { menuOpen = false; showSettings = true })
                         DropdownMenuItem(
@@ -260,7 +254,9 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                         topic = t,
                         categoryName = snap?.categories?.get(t.category) ?: t.category.ifBlank { "おまかせ" },
                         status = status,
+                        platformState = t.slug?.let { snap?.platforms?.get(it) },
                         onDelete = { confirm = t },
+                        onEditPlatforms = { editingPlatforms = t },
                     )
                 }
             }
@@ -288,6 +284,32 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
             },
             dismissButton = { TextButton(onClick = { confirm = null }) { Text("キャンセル") } },
         )
+    }
+
+    // onEditPlatforms is only ever wired for cards where topic.slug != null (see TopicCard's
+    // `editable` check), so the dialog simply doesn't render in the (unreachable in practice)
+    // case where it's missing, rather than mutating state as a composition side effect.
+    editingPlatforms?.let { t ->
+        t.slug?.let { slug ->
+            val state = snapshot?.platforms?.get(slug)
+            PlatformsEditDialog(
+                title = t.theme,
+                current = state?.platforms ?: emptyList(),
+                needsManualReview = state?.needsManualReview,
+                onDismiss = { editingPlatforms = null },
+                onSave = { target ->
+                    editingPlatforms = null
+                    scope.launch {
+                        try {
+                            withContext(Dispatchers.IO) { GitHubRepo(token).requestPlatformChange(slug, target) }
+                            snackbar.showSnackbar("変更をリクエストしました。反映まで時間がかかります")
+                        } catch (e: Exception) {
+                            snackbar.showSnackbar(e.message ?: "リクエストに失敗しました")
+                        }
+                    }
+                },
+            )
+        }
     }
 
     if (showAdd) {
@@ -453,44 +475,73 @@ private fun StatusCard(s: PipelineStatus, snap: Snapshot) {
 }
 
 @Composable
-private fun TopicCard(topic: Topic, categoryName: String, status: String, onDelete: () -> Unit) {
-    Card(Modifier.fillMaxWidth()) {
-        Column(Modifier.padding(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                AssistChip(onClick = {}, label = { Text(categoryName) })
-                Spacer(Modifier.padding(3.dp))
-                val parts = listOfNotNull(
-                    TYPE_LABELS[topic.articleType] ?: topic.articleType.ifBlank { null },
-                    if (topic.score > 0 && status != "requested") "${topic.score}点" else null,
-                    STATUS_LABELS[status] ?: status,
-                )
-                Text(
-                    parts.joinToString("・"),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = Color.Gray,
-                    modifier = Modifier.weight(1f),
-                )
-                if (status in setOf("approved", "hold", "failed")) {
-                    IconButton(onClick = onDelete) { Icon(Icons.Filled.Delete, "削除") }
-                }
-            }
-            Text(topic.theme, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
-            if (topic.angle.isNotBlank()) {
-                Text(topic.angle, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
-            }
-            if (topic.keywords.isNotEmpty()) {
-                Text(topic.keywords.joinToString("　"), style = MaterialTheme.typography.bodySmall, color = Color.Gray,
-                    modifier = Modifier.padding(top = 4.dp))
-            }
-            val meta = if (status == "requested") listOf("アプリから追加", topic.created)
-            else listOfNotNull(topic.id, topic.created, if (topic.sourceOfIdea == "user") "持ち込み" else null, topic.slug)
+private fun TopicCard(
+    topic: Topic,
+    categoryName: String,
+    status: String,
+    platformState: PlatformState?,
+    onDelete: () -> Unit,
+    onEditPlatforms: () -> Unit,
+) {
+    val editable = status == "published" && topic.slug != null
+    val cardModifier = Modifier.fillMaxWidth()
+    if (editable) {
+        Card(onClick = onEditPlatforms, modifier = cardModifier) { TopicCardBody(topic, categoryName, status, platformState, onDelete) }
+    } else {
+        Card(modifier = cardModifier) { TopicCardBody(topic, categoryName, status, platformState, onDelete) }
+    }
+}
+
+@Composable
+private fun TopicCardBody(topic: Topic, categoryName: String, status: String, platformState: PlatformState?, onDelete: () -> Unit) {
+    Column(Modifier.padding(12.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            AssistChip(onClick = {}, label = { Text(categoryName) })
+            Spacer(Modifier.padding(3.dp))
+            val parts = listOfNotNull(
+                TYPE_LABELS[topic.articleType] ?: topic.articleType.ifBlank { null },
+                if (topic.score > 0 && status != "requested") "${topic.score}点" else null,
+                STATUS_LABELS[status] ?: status,
+            )
             Text(
-                meta.filter { it.isNotBlank() }.joinToString("・"),
-                style = MaterialTheme.typography.labelSmall,
+                parts.joinToString("・"),
+                style = MaterialTheme.typography.bodySmall,
                 color = Color.Gray,
+                modifier = Modifier.weight(1f),
+            )
+            if (status in setOf("approved", "hold", "failed")) {
+                IconButton(onClick = onDelete) { Icon(Icons.Filled.Delete, "削除") }
+            }
+        }
+        Text(topic.theme, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+        if (topic.angle.isNotBlank()) {
+            Text(topic.angle, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
+        }
+        if (topic.keywords.isNotEmpty()) {
+            Text(topic.keywords.joinToString("　"), style = MaterialTheme.typography.bodySmall, color = Color.Gray,
+                modifier = Modifier.padding(top = 4.dp))
+        }
+        if (status == "published") {
+            val platformText = platformState?.platforms?.joinToString("・") { PLATFORM_LABELS[it] ?: it }
+                ?: "読み込み中…"
+            Text(
+                "投稿先: ${platformText.ifBlank { "(非公開)" }}（タップで変更）",
+                style = MaterialTheme.typography.bodySmall, color = Color(0xFF2F6F8F),
                 modifier = Modifier.padding(top = 4.dp),
             )
+            platformState?.needsManualReview?.let {
+                Text("要確認: $it", style = MaterialTheme.typography.bodySmall, color = Color(0xFFB3261E),
+                    modifier = Modifier.padding(top = 2.dp))
+            }
         }
+        val meta = if (status == "requested") listOf("アプリから追加", topic.created)
+        else listOfNotNull(topic.id, topic.created, if (topic.sourceOfIdea == "user") "持ち込み" else null, topic.slug)
+        Text(
+            meta.filter { it.isNotBlank() }.joinToString("・"),
+            style = MaterialTheme.typography.labelSmall,
+            color = Color.Gray,
+            modifier = Modifier.padding(top = 4.dp),
+        )
     }
 }
 
