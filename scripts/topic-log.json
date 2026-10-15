@@ -1774,6 +1774,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-15T20:11:54+09:00"
+  },
+  {
+   "id": "2026w41-018",
+   "category": "essay",
+   "theme": "シンセサイザーを作るのをやめる会社、楽器は道具なのか慰めなのか",
+   "slug": "teenage-engineering-op1-synth-essay-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/teenage-engineering-op1-synth-essay-2026/",
+   "hatena_entry": null,
+   "note_key": "n7e1efb971a38",
+   "engine": "claude",
+   "at": "2026-10-15T23:12:19+09:00"
   }
  ]
 }

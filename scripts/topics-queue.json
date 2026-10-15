@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T23:00:23+09:00",
+ "updated": "2026-10-15T23:12:19+09:00",
  "items": [
   {
    "category": "gear",
@@ -5432,14 +5432,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w41-018",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 0,
    "claimed_at": "2026-10-15T23:00:23+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "teenage-engineering-op1-synth-essay-2026",
+   "published_at": "2026-10-15T23:12:19+09:00"
   },
   {
    "category": "essay",
