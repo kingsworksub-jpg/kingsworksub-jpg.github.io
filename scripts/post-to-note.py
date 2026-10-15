@@ -428,6 +428,59 @@ def public_note_url(page, key):
     }""", key)
 
 
+def note_status(page, key):
+    """Fetch a note's current status via the browser-side API (same fetch shape as public_note_url)."""
+    return page.evaluate("""async (k) => {
+        try {
+            const res = await fetch('https://note.com/api/v3/notes/' + k, {credentials: 'include'});
+            if (res.status !== 200) return null;
+            const j = await res.json();
+            const d = j.data || {};
+            return {status: d.status, is_published: !!d.is_published, name: d.name || ''};
+        } catch (e) { return null; }
+    }""", key)
+
+
+def delete_note(page, key, expected_title):
+    """Delete a PUBLISHED note. UNVERIFIED territory (see module docstring): the draft-deletion
+    UI pattern documented for note.com ('その他' -> '削除' -> confirm dialog) is attempted here
+    against a published note's editor screen, which has never been confirmed to behave the same
+    way. Refuses to click anything destructive unless the editor's title matches `expected_title`
+    first, and raises (rather than returning a falsy value) on any mismatch, missing element, or
+    failed post-delete verification — callers must never treat a non-raising return as success
+    without checking the API status themselves too.
+    """
+    st = note_status(page, key)
+    if st is None:
+        raise RuntimeError(f"note {key}: 現在の状態をAPIで取得できません(削除操作を中止)")
+    if st["status"] == "deleted":
+        return  # already gone, nothing to do — idempotent
+    title_box = find_title_input(page)
+    actual_title = (title_box.input_value() or "").strip()
+    if actual_title != expected_title.strip():
+        raise RuntimeError(
+            f"note {key}: エディタのタイトル「{actual_title}」が期待値「{expected_title}」と一致しないため中止")
+
+    if not click_button_by_text(page, "その他", timeout=20):
+        raise RuntimeError(f"note {key}: 「その他」メニューが見つかりません(削除操作を中止)")
+    page.wait_for_timeout(1000)
+    if not click_button_by_text(page, "削除", timeout=15):
+        raise RuntimeError(f"note {key}: 「削除」メニュー項目が見つかりません(削除操作を中止)")
+    page.wait_for_timeout(1000)
+    dialog = page.locator('[role="dialog"]')
+    try:
+        dialog.wait_for(state="visible", timeout=10000)
+    except Exception as e:  # noqa: BLE001
+        raise RuntimeError(f"note {key}: 削除確認ダイアログが表示されません(削除操作を中止): {e}") from e
+    if not click_button_by_text(page, "削除", timeout=10):
+        raise RuntimeError(f"note {key}: 確認ダイアログの「削除」ボタンを押せませんでした")
+    page.wait_for_timeout(3000)
+
+    st2 = note_status(page, key)
+    if st2 is None or st2["status"] != "deleted":
+        raise RuntimeError(f"note {key}: 削除操作後もAPI上でdeleted状態になっていません: {st2}")
+
+
 def publish_note(page, timeout=120):
     """note の下書きを公開する（2026-09-29 実測の2段階）。
 
@@ -1084,6 +1137,8 @@ def main():
     ap.add_argument("--save", action="store_true", help="下書き保存ボタンを押す")
     ap.add_argument("--img-scale", type=int, default=0,
                     help="画像を「縮小」ボタンで縮める回数（0=full幅620px、1=約372px）")
+    ap.add_argument("--delete-key", help="削除する公開済み記事の note key(n始まり)")
+    ap.add_argument("--expect-title", help="--delete-key 使用時、削除前に照合するタイトル(必須・誤削除防止)")
     args = ap.parse_args()
 
     global PROFILE  # noqa: PLW0603
@@ -1093,6 +1148,24 @@ def main():
     with sync_playwright() as p:
         if args.login:
             do_login(p, args)
+            return
+
+        if args.delete_key:
+            if not args.expect_title:
+                print("[error] --delete-key には --expect-title が必須です(誤削除防止のため)")
+                sys.exit(1)
+            ctx, page = open_editor(p, url=f"https://editor.note.com/notes/{args.delete_key}/edit/")
+            try:
+                if not is_logged_in(page):
+                    print("  ログインが必要です。先に --login を実行してください。")
+                    sys.exit(1)
+                delete_note(page, args.delete_key, args.expect_title)
+                print(f"DELETED: {args.delete_key}")
+            finally:
+                try:
+                    ctx.close()
+                except Exception:  # noqa: BLE001
+                    pass
             return
 
         if args.all:
@@ -1114,7 +1187,9 @@ def main():
             return
 
         for t in targets:
-            post_one(p, t, args)
+            result = post_one(p, t, args)
+            if result:
+                print(f"RESULT: {result}")
 
 
 if __name__ == "__main__":

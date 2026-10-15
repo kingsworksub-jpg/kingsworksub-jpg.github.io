@@ -1,0 +1,1702 @@
+{
+ "daw-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "hello": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "audio-interface-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "midi-keyboard-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sampler-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "scotch-whisky-5choice-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "turntable-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "scarlett-2i2-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "at-lp120xusb-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "ballantines-finest-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "black-nikka-clear-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "budget-whisky-10choice-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cutty-sark-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "debut-carbon-evo-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "dewars-white-label-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "four-roses-yellow-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jim-beam-white-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "johnnie-walker-red-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "rega-planar3-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sony-pslx3bt-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "suntory-kakubin-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "suntory-trys-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "technics-sl1200mk7-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "white-horse-fineold-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "canada-dry-ginger-ale-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "crystal-spark-grape-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "fuji-strong-soda-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "itoen-mineral-strong-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "kirin-lemon-sparkling-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "mitsuya-cider-zero-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "oza-soda-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "wilkinson-tansan-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "yosa-soda-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "bodum-douro-carafe-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "coca-cola-zero-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "crystal-spark-ramune-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "dodecamin-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "keith-ti9304-titanium-sake-cup-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "nousaku-tin-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "san-pellegrino-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sori-yanagi-seishu-glass-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "green-cola-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "hirota-glass-chirori-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "kiretolemon-wlemon-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "kobe-kyoryuchi-sparkling-water-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "kutani-shiratsubu-tessen-guinomi-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "monster-pipeline-punch-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "peacock-acf38-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "pokka-furano-hop-soda-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "real-gold-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sangaria-kireina-tansansui-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "takaoka-shikki-raden-glass-sakura-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "toyo-sasaki-carafe-variation-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tsugaru-vidro-nebuta-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "arita-enka-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "canada-dry-tansan-strong-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "dodecamin-zero-sakebitai-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "icy-spark-canada-dry-lemon-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "kurojoka-mino-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "mitsuya-cider-original-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "odate-akita-sugi-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "otsuka-match-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "toyo-sasaki-katakuchi-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-shoes-trend-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "alan-boguslavsky-stage": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "hard-bop-blue-note-golden-age": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "modal-jazz-challenge": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-instruments-guide": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-masterpieces-beginner": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "vox-cola-flavor-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cool-jazz-birth-of-the-cool": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "bebop-52nd-street-nights": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "anime-and-jazz": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cafe-jazz-lounge-piano-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-festivals-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-style-fashion-revival-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "nea-jazz-masters-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "statement-hat-trends-autumn-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "modern-spiritual-jazz-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "statement-hat-trend-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-style-menswear-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "classic-french-style-revival-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "scarf-styling-trend-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "bw-685-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cubase-pro-15-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cubase-15-user-guide-book-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "classic-suspender-styling-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "black-friday-shopping-plan-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032085112463",
+  "note_key": "n7083ae60e8fb",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "islay-malt-5choice-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": "14945776032085501583",
+  "note_key": "nc416005d7ac6",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "condenser-mic-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032085534809",
+  "note_key": "nc6d45a823803",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "audacity-4-guide-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032085574083",
+  "note_key": "n9511f3aef6fa",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "jazz-listening-guide-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032085623091",
+  "note_key": "n506db017a9b9",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "home-studio-100k-budget-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032085666324",
+  "note_key": "n39143518033a",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sherry-cask-5choice-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": "14945776032086182149",
+  "note_key": "n5c8b9915d1c1",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "headphone-hydrolysis-parts": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032086248357",
+  "note_key": "nd679877b72af",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "ableton-live-12-session-view-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032086278312",
+  "note_key": "n60fe00c14a5d",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "rental-soundproofing-booth-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032086344857",
+  "note_key": "n188d678db063",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "randy-crawford-raw-silk": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": "14945776032086379785",
+  "note_key": "n5d91e2846a00",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "mix-practice-1month": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032086413296",
+  "note_key": "n185417280087",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "bourbon-5choice-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": "14945776032086463961",
+  "note_key": "n798ebde966de",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "launchkey-mk4-key-range": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032086642903",
+  "note_key": "n83051f5f5188",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "vocalign-7-multitrack": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032086673861",
+  "note_key": "n467e0d2c62a8",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "winter-studio-humidity": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032086708379",
+  "note_key": "n82928b7a1914",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "music-theory-3month-plan": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032086751225",
+  "note_key": "nda76ef11b9e4",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "taiwan-india-whisky-climate-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n497b40b8ae89",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "logic-pro-mac-songwriting-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "ear-training-one-week": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "monitor-headphones-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032087902477",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "one-room-streaming-setup-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032087960224",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "fl-studio-pattern-piano-roll": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032087999491",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "craft-cola-spice-syrup-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": "nab5ccca204af",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "nanbu-tetsubin-kanzake-yusen": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nb82062a6c3ce",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "nearfield-monitors-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": "14945776032088323658",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "code-progress-1month-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "adult-piano-learning-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "dtm-school-or-self-study-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "leather-gloves-lining-guide-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "whisky-year-end-gift-guide-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nd9ffa91f6394",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "urushi-sakazuki-shu-kuro": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n0a6293f2fc7d",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "streaming-loudness-normalization-lufs": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "chrome-gemini-nano-4gb-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032088759442",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "quiet-music-pc-fan-noise-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032088764263",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sony-ecm-ax10-spatial-mic-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "non-alcohol-beer-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "cassette-tape-revival-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n9c0a04c2e3fd",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "rme-babyface-pro-fs-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "universal-audio-volt-276-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tonic-water-5choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "powershell-utf8-bom-notes": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "ollama-vram-memory-guide-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032089192418",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "wilkinson-ginger-ale-dry-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "winter-coat-5types-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "piano-practice-apps-3choice-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "akai-mpk-mini-mk4-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "yamaha-ag03mk2-deep-dive-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "oral-rehydration-vs-sports-drink-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "tweed-jacket-street-style-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "whisper-model-size-japanese-benchmark-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "windows-11-26h2-memory-daw-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032089597760",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "record-stylus-lifespan-guide-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "sodastream-terra-carbonation-guide-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "hammond-b3-jazz-organ-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "ne13c53a6690f",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "halloween-songs-monster-mash-thriller-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n180285a0dc9e",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "windows-asio-wasapi-latency-troubleshooting": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "fender-studio-pro-8-studio-one-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032089993400",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "waon-ear-copy-1month-2026": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "google-flow-music-plugins-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090135921",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "shigaraki-guinomi-hiiro": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n693fb248a69a",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "demucs-stem-separation-htdemucs-ft-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "desk-chair-studio-ergonomics-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090430709",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ },
+ "parker-blues-ear-training-1week": {
+  "platforms": [
+   "ameba",
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00"
+ }
+}

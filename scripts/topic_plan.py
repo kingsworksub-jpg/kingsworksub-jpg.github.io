@@ -326,7 +326,8 @@ def write_status(extra=None):
     save(STATUS_FILE, st)
 
 
-JOB_LABELS = {"blog-post": "投稿", "topic-planning": "ネタ会議", "topic-topup": "ネタ補充"}
+JOB_LABELS = {"blog-post": "投稿", "topic-planning": "ネタ会議", "topic-topup": "ネタ補充",
+              "ppp-reconcile": "プラットフォーム同期"}
 
 
 def run_status(job, state, detail=""):
