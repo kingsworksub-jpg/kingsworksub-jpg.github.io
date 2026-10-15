@@ -1738,6 +1738,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-14T23:09:46+09:00"
+  },
+  {
+   "id": "2026w40-018",
+   "category": "setup",
+   "theme": "机と椅子から制作環境を見直す、長時間座るための選び方",
+   "slug": "desk-chair-studio-ergonomics-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/desk-chair-studio-ergonomics-2026/",
+   "hatena_entry": "14945776032090430709",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-15T13:13:09+09:00"
   }
  ]
 }
