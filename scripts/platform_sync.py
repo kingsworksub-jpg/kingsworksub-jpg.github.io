@@ -102,14 +102,22 @@ def git_commit_push(message: str, paths: list[str]) -> bool:
 # ---------------------------------------------------------------------------
 
 def backfill() -> int:
-    """Seed post-platforms.json from topic-log.json's published entries. Only adds slugs not
-    already tracked — safe to re-run after a manual ameba_entry edit without clobbering it."""
+    """Seed post-platforms.json from topic-log.json's published entries, and fill in `title`
+    (the real article headline, from content/posts/<slug>.md's frontmatter) for every tracked
+    slug that's missing one — including already-tracked slugs. The queue's `theme` field is a
+    planning-stage working title that the final article headline is deliberately rewritten from
+    (see CLAUDE.md's title-writing rules), so it must never be shown as if it were the title;
+    `title` here is the only place the real one is cheaply available to the Android app without
+    an extra fetch per card. Otherwise only adds slugs not already tracked — safe to re-run after
+    a manual ameba_entry edit without clobbering it."""
     platforms = load_platforms()
     log = tp.load(tp.LOG, {"entries": []})
     latest_by_slug: dict[str, dict] = {}
     for e in log["entries"]:
         if e.get("status") == "published" and e.get("slug"):
             latest_by_slug[e["slug"]] = e  # later entries overwrite earlier ones for the same slug
+    title_by_slug = {p["slug"]: p["title"] for p in tp.posts()}
+
     added = 0
     for slug, e in latest_by_slug.items():
         if slug in platforms:
@@ -117,6 +125,7 @@ def backfill() -> int:
         channel = tp.channel_for(e.get("category", ""))
         plats = ["github"] if channel == "github" else sorted({"github", channel})
         platforms[slug] = {
+            "title": title_by_slug.get(slug, e.get("theme", slug)),
             "platforms": plats,
             "hatena_entry": e.get("hatena_entry"),
             "note_key": e.get("note_key"),
@@ -125,8 +134,15 @@ def backfill() -> int:
             "updated_at": tp.now().isoformat(timespec="seconds"),
         }
         added += 1
+
+    retitled = 0
+    for slug, state in platforms.items():
+        if not state.get("title") and slug in title_by_slug:
+            state["title"] = title_by_slug[slug]
+            retitled += 1
+
     save_platforms(platforms)
-    print(f"backfilled {added} new slug(s); {len(platforms)} tracked total")
+    print(f"backfilled {added} new slug(s), filled in {retitled} missing title(s); {len(platforms)} tracked total")
     return added
 
 
@@ -326,6 +342,12 @@ def remove_ameba(entry_id: int, expected_title: str) -> None:
 # ---------------------------------------------------------------------------
 
 def reconcile(dry_run: bool = False) -> dict:
+    # Keeps post-platforms.json current for posts published since the last run (complete() in
+    # topic_plan.py doesn't touch this file) and fills in any missing `title`s. Cheap and
+    # idempotent -- never touches already-tracked fields other than a missing title.
+    if not dry_run:
+        backfill()
+        git_commit_push("PPP: backfill newly-published slugs / titles", [rel(PLATFORMS_FILE)])
     platforms = load_platforms()
     requests = pending_requests()
     summary = {"slugs": 0, "added": 0, "removed": 0, "errors": 0, "flagged": 0}
