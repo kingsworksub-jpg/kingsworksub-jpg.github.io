@@ -108,8 +108,14 @@ def backfill() -> int:
     planning-stage working title that the final article headline is deliberately rewritten from
     (see CLAUDE.md's title-writing rules), so it must never be shown as if it were the title;
     `title` here is the only place the real one is cheaply available to the Android app without
-    an extra fetch per card. Otherwise only adds slugs not already tracked — safe to re-run after
-    a manual ameba_entry edit without clobbering it."""
+    an extra fetch per card.
+
+    New slugs are added with `platforms: ["github"]` only — NOT a category->channel guess (that
+    guess is what caused platforms to disagree with reality in the first place: category-plan.json's
+    mapping has changed over time, so applying today's mapping to an old post is unreliable, and it
+    also ignores publish failures). `verify()` fills in the rest from confirmed signals. Otherwise
+    only adds slugs not already tracked — safe to re-run after a manual ameba_entry edit without
+    clobbering it."""
     platforms = load_platforms()
     log = tp.load(tp.LOG, {"entries": []})
     latest_by_slug: dict[str, dict] = {}
@@ -122,11 +128,9 @@ def backfill() -> int:
     for slug, e in latest_by_slug.items():
         if slug in platforms:
             continue
-        channel = tp.channel_for(e.get("category", ""))
-        plats = ["github"] if channel == "github" else sorted({"github", channel})
         platforms[slug] = {
             "title": title_by_slug.get(slug, e.get("theme", slug)),
-            "platforms": plats,
+            "platforms": ["github"],
             "hatena_entry": e.get("hatena_entry"),
             "note_key": e.get("note_key"),
             "ameba_entry": None,  # never tracked historically; backfill by hand from CLAUDE.md if needed
@@ -144,6 +148,82 @@ def backfill() -> int:
     save_platforms(platforms)
     print(f"backfilled {added} new slug(s), filled in {retitled} missing title(s); {len(platforms)} tracked total")
     return added
+
+
+def discover_hatena_entries() -> dict[str, dict]:
+    """Title -> {entry_id, url} for every non-draft entry in the Hatena AtomPub feed. Read-only
+    (a GET over the same API post-to-hatena.sh/update-hatena-post.sh already use for writes)."""
+    env = hatena_api.load_env()
+    user, domain, key = env["HATENA_ID"], env["HATENA_BLOG_DOMAIN"], env["HATENA_API_KEY"]
+    base = f"https://blog.hatena.ne.jp/{user}/{domain}/atom/entry"
+    out: dict[str, dict] = {}
+    for e in hatena_api.list_entries(base, user, key):
+        if e["draft"] or not e["edit"]:
+            continue
+        out[e["title"]] = {"entry_id": int(e["edit"].rsplit("/", 1)[-1]), "url": e["url"]}
+    return out
+
+
+def verify() -> dict:
+    """Recomputes `platforms` for every tracked slug from VERIFIED ground truth, replacing
+    whatever was there before (but never clobbering a manually- or previously-confirmed entry
+    id). This is the actual fix for platforms disagreeing with the real blogs: the old logic
+    inferred platforms from category-plan.json's current category->channel mapping, which drifts
+    over time (categories/channels have been added, renamed and reassigned — see CLAUDE.md) and
+    says nothing about whether a given post's publish to that channel actually succeeded.
+
+    - github: always included (content/posts/<slug>.md existing is the fact itself).
+    - hatena: included iff hatena_entry is already recorded, OR discoverable by an exact title
+      match against the live Hatena AtomPub feed (post-to-hatena.sh posts under the article's
+      exact frontmatter title, so this match is reliable) — newly discovered ids are recorded.
+    - note: included iff note_key is already recorded. No passive, unauthenticated way to list
+      a note.com account's published articles exists in this codebase (note.com has no public
+      listing API and the existing automation only reaches it via a logged-in Playwright
+      session) — slugs without a recorded note_key are flagged, not guessed.
+    - ameba: included iff ameba_entry is already recorded (never auto-discovered — same
+      reasoning as note, and Ameba's existing-entry list page has never been explored either).
+
+    category-plan.json's channel is used ONLY to word the manual-review note (e.g. "this
+    category normally goes to ameba but no ameba_entry is recorded"), never to assert a platform.
+    """
+    platforms = load_platforms()
+    category_by_slug = {p["slug"]: p["category"] for p in tp.posts()}
+    hatena_by_title = discover_hatena_entries()
+
+    changed = 0
+    for slug, state in platforms.items():
+        before = (list(state.get("platforms", [])), state.get("hatena_entry"), state.get("needs_manual_review"))
+        title = state.get("title")
+
+        if not state.get("hatena_entry") and title and title in hatena_by_title:
+            state["hatena_entry"] = hatena_by_title[title]["entry_id"]
+
+        confirmed = ["github"]
+        if state.get("hatena_entry"):
+            confirmed.append("hatena")
+        if state.get("note_key"):
+            confirmed.append("note")
+        if state.get("ameba_entry"):
+            confirmed.append("ameba")
+        state["platforms"] = confirmed
+
+        expected_channel = tp.channel_for(category_by_slug.get(slug, ""))
+        if expected_channel != "github" and expected_channel not in confirmed:
+            label = {"hatena": "はてな", "note": "note", "ameba": "アメブロ"}.get(expected_channel, expected_channel)
+            state["needs_manual_review"] = (
+                f"カテゴリー上は{label}が想定されますが、entry_idが未記録のため確認できていません。"
+                f"実際に{label}に投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。"
+            )
+        elif (state.get("needs_manual_review") or "").startswith("カテゴリー上は"):
+            state["needs_manual_review"] = None  # the earlier gap was since resolved
+
+        if (state["platforms"], state.get("hatena_entry"), state.get("needs_manual_review")) != before:
+            state["updated_at"] = tp.now().isoformat(timespec="seconds")
+            changed += 1
+
+    save_platforms(platforms)
+    print(f"verified {len(platforms)} slug(s), {changed} changed")
+    return {"checked": len(platforms), "changed": changed}
 
 
 # ---------------------------------------------------------------------------
@@ -343,11 +423,15 @@ def remove_ameba(entry_id: int, expected_title: str) -> None:
 
 def reconcile(dry_run: bool = False) -> dict:
     # Keeps post-platforms.json current for posts published since the last run (complete() in
-    # topic_plan.py doesn't touch this file) and fills in any missing `title`s. Cheap and
-    # idempotent -- never touches already-tracked fields other than a missing title.
+    # topic_plan.py doesn't touch this file) and fills in any missing `title`s, then re-verifies
+    # every tracked slug's platforms against confirmed signals (see verify()'s docstring for why
+    # this can't just be done once at backfill time -- it must run every cycle so a newly
+    # discovered/recorded hatena_entry etc. keeps platforms honest). Both are cheap and
+    # idempotent -- neither touches already-correct data.
     if not dry_run:
         backfill()
-        git_commit_push("PPP: backfill newly-published slugs / titles", [rel(PLATFORMS_FILE)])
+        verify()
+        git_commit_push("PPP: backfill + verify platforms", [rel(PLATFORMS_FILE)])
     platforms = load_platforms()
     requests = pending_requests()
     summary = {"slugs": 0, "added": 0, "removed": 0, "errors": 0, "flagged": 0}
@@ -474,6 +558,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("backfill")
+    sub.add_parser("verify")
     sub.add_parser("status")
     sub.add_parser("diff").add_argument("slug")
     r = sub.add_parser("reconcile")
@@ -482,6 +567,8 @@ def main() -> None:
 
     if a.cmd == "backfill":
         backfill()
+    elif a.cmd == "verify":
+        verify()
     elif a.cmd == "status":
         platforms = load_platforms()
         pending = pending_requests()
