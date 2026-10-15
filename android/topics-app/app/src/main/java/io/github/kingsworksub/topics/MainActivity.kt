@@ -171,8 +171,9 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
     LaunchedEffect(Unit) {
         checkUpdate(manual = false)
         while (true) {
-            // Without a token GitHub allows 60 requests/hour per IP and each refresh makes ~6, so poll less often.
-            delay(if (token.isBlank()) 180_000 else 60_000)
+            // Without a token GitHub allows 60 requests/hour per IP and each refresh makes ~6 requests.
+            // 180s was still ~120 req/hour (over budget) and could rate-limit the update check too; 600s keeps us under it.
+            delay(if (token.isBlank()) 600_000 else 60_000)
             refresh()
         }
     }

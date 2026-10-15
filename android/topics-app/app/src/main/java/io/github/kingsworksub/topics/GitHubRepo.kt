@@ -204,7 +204,12 @@ class GitHubRepo(private val token: String?) {
         conn.setRequestProperty("Accept", "application/vnd.github+json")
         conn.setRequestProperty("User-Agent", "BlogTopicsApp")
         if (!token.isNullOrBlank()) conn.setRequestProperty("Authorization", "Bearer $token")
-        if (conn.responseCode != 200) return null
+        val code = conn.responseCode
+        if (code == 404) return null
+        if (code != 200) {
+            val err = (conn.errorStream ?: conn.inputStream)?.bufferedReader(Charsets.UTF_8)?.use { it.readText() } ?: ""
+            throw IOException("GitHub $code: ${err.take(200)}")
+        }
         val rel = JSONObject(conn.inputStream.bufferedReader().use { it.readText() })
         val assets = rel.optJSONArray("assets") ?: return null
         var apk: String? = null
