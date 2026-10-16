@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:42:41+09:00",
+ "updated": "2026-10-17T07:42:53+09:00",
  "queue": {
   "published": 74,
   "approved": 23,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published jarre-oxygene-50th-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-17T07:30:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-17T04:00:35+09:00",
+  "at": "2026-10-17T07:42:53+09:00",
   "engine": "claude",
-  "detail": "- 新しいネタは作っておらず、ファイルの変更もないので、コミットと push はしていません。"
+  "detail": "The 07:30 slot is meant for GitHub-only posts, but `claim` had no GitHub-channel topic in the queue and handed me a note-channel music topic, so it also went to note. The article passed `validate_post.py` and the live page check. All five images display, and the Jarre photo links to an Amazon search"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-17T07:42:53+09:00",
+   "engine": "claude",
+   "detail": "The 07:30 slot is meant for GitHub-only posts, but `claim` had no GitHub-channel topic in the queue and handed me a note-channel music topic, so it also went to note. The article passed `validate_post.py` and the live page check. All five images display, and the Jarre photo links to an Amazon search"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-15T23:12:47+09:00",
    "engine": "claude",
    "detail": "The research had gaps: two research agents didn't report until I resent the task, and their numbers disagreed. A third agent confirmed the core interview claims. Where the reports conflicted (the original OP-1's price, its 2019 price increase, which artists used it), I left those details out."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-15T21:38:28+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 10:40pm (Asia/Tokyo)"
   }
  ]
 }
