@@ -399,6 +399,26 @@ def click_submit_and_check(page, ctx, publish):
     return True
 
 
+def _dump_delete_diagnostics(page, entry_id, stage):
+    """Best-effort screenshot + visible-element dump for debugging a failed delete_entry() step.
+    Returns the screenshot path (or None if even that failed) — never raises itself."""
+    try:
+        path = os.path.join(BASE, "data", f"ameba_delete_fail_{entry_id}_{stage}.png")
+        page.screenshot(path=path, full_page=True)
+    except Exception:  # noqa: BLE001
+        path = None
+    try:
+        texts = page.evaluate(
+            "() => Array.from(document.querySelectorAll('button, a, [role=menuitem]'))"
+            ".map(e => (e.innerText || e.getAttribute('aria-label') || '').trim()).filter(Boolean).slice(0, 80)"
+        )
+        print(f"  [debug] ameba entry {entry_id} @ {stage}: url={page.url}", flush=True)
+        print(f"  [debug] visible button/link texts: {texts}", flush=True)
+    except Exception:  # noqa: BLE001
+        pass
+    return path
+
+
 def delete_entry(entry_id, expected_title):
     """Delete a PUBLISHED Ameba entry. UNVERIFIED territory (see module docstring / CLAUDE.md) —
     this codebase has never explored Ameba's existing-entry edit/delete page before. Based on the
@@ -413,7 +433,7 @@ def delete_entry(entry_id, expected_title):
     with sync_playwright() as p:
         ctx = open_browser(p)
         page = ctx.new_page()
-        page.on("dialog", lambda d: d.accept())
+        page.on("dialog", lambda d: (print(f"  [debug] native dialog: {d.message}", flush=True), d.accept()))
 
         edit_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?entry_id={entry_id}"
         page.goto(edit_url, wait_until="domcontentloaded", timeout=60000)
@@ -427,13 +447,19 @@ def delete_entry(entry_id, expected_title):
             title_box = page.wait_for_selector('input[name="entry_title"]', timeout=20000)
             actual_title = (title_box.input_value() or "").strip()
         except Exception as e:
+            _dump_delete_diagnostics(page, entry_id, "title-box-missing")
             ctx.close()
             raise RuntimeError(f"ameba entry {entry_id}: タイトル欄が見つかりません(削除操作を中止): {e}") from e
         if actual_title != expected_title.strip():
+            shot = _dump_delete_diagnostics(page, entry_id, "title-mismatch")
             ctx.close()
             raise RuntimeError(
                 f"ameba entry {entry_id}: 画面のタイトル「{actual_title}」が期待値「{expected_title}」と"
-                "一致しないため中止")
+                f"一致しないため中止(スクリーンショット: {shot})")
+
+        # Title confirmed correct — screenshot the real edit page before guessing where the
+        # delete control is (this page has never been explored in this codebase before).
+        _dump_delete_diagnostics(page, entry_id, "pre-delete-search")
 
         delete_btn = None
         for el in page.query_selector_all("a, button"):
@@ -444,6 +470,7 @@ def delete_entry(entry_id, expected_title):
             except Exception:
                 continue
         if delete_btn is None:
+            _dump_delete_diagnostics(page, entry_id, "no-delete-button")
             ctx.close()
             raise RuntimeError(f"ameba entry {entry_id}: 「削除」ボタン/リンクが見つかりません(削除操作を中止)")
 
@@ -455,6 +482,7 @@ def delete_entry(entry_id, expected_title):
         # dismiss_dialogs() handles any custom <dialog> confirmation instead.
         dismiss_dialogs(page)
         page.wait_for_timeout(2000)
+        _dump_delete_diagnostics(page, entry_id, "post-click")
         ctx.close()
 
     public_url = f"https://ameblo.jp/sfd0501/entry-{entry_id}.html"
