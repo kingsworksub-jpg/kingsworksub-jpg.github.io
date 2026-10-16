@@ -1876,6 +1876,18 @@
    "status": "platform_removed",
    "reason": "ameba",
    "at": "2026-10-17T00:17:32+09:00"
+  },
+  {
+   "id": "2026w41-015",
+   "category": "music",
+   "theme": "Jean-Michel Jarre『Oxygène』50年、自宅のシンセで作った一枚が名盤になるまで",
+   "slug": "jarre-oxygene-50th-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/jarre-oxygene-50th-2026/",
+   "hatena_entry": null,
+   "note_key": "n11adb9dc9ef1",
+   "engine": "claude",
+   "at": "2026-10-17T07:42:41+09:00"
   }
  ]
 }
