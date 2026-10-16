@@ -295,6 +295,12 @@ def run(cmd: list[str], **kw) -> subprocess.CompletedProcess:
     kw.setdefault("capture_output", True)
     kw.setdefault("text", True)
     kw.setdefault("encoding", "utf-8")
+    # A called script's dependency (seen from Playwright/Chromium's own stderr chatter) can
+    # emit bytes that aren't valid UTF-8; strict decoding then crashes this reader with an
+    # unrelated UnicodeDecodeError that masks the subprocess's actual outcome (its stdout/stderr
+    # come back as None, which every caller here then fails to index into). Never let a decode
+    # hiccup hide whatever the subprocess was actually trying to report.
+    kw.setdefault("errors", "replace")
     kw.setdefault("timeout", 900)
     return subprocess.run(cmd, **kw)
 
