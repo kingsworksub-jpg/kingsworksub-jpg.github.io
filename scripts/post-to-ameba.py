@@ -496,7 +496,27 @@ def delete_entry(entry_id, expected_title):
         # <dialog>, or an immediate delete with no confirmation at all. Screenshot now, before
         # touching anything else, so whichever it was is visible in the diagnostics.
         _dump_delete_diagnostics(page, entry_id, "immediately-after-click")
-        dismiss_dialogs(page)
+
+        # Confirmed 2026-10-16 (screenshot): a custom (non-<dialog>) overlay "記事を削除します
+        # か？ / 削除してしまうと復元できなくなります" with キャンセル/削除する buttons. It is
+        # NOT a <dialog open> element, so dismiss_dialogs() (which only looks for that) finds and
+        # clicks nothing here — confirmed by an earlier run where the modal was still open,
+        # untouched, after dismiss_dialogs() ran. Click 削除する specifically and deliberately;
+        # never dismiss_dialogs() here, since clicking "any visible button" in this particular
+        # modal could just as easily hit キャンセル as 削除する.
+        confirm_btn = page.get_by_role("button", name="削除する")
+        try:
+            confirm_btn.wait_for(state="visible", timeout=8000)
+            confirm_btn.click(timeout=5000)
+            page.wait_for_timeout(2000)
+        except Exception as e:  # noqa: BLE001
+            shot = _dump_delete_diagnostics(page, entry_id, "no-confirm-button")
+            ctx.close()
+            raise RuntimeError(
+                f"ameba entry {entry_id}: 確認ダイアログの「削除する」ボタンが見つかりません"
+                f"(削除は未実行。スクリーンショット: {shot}): {e}") from e
+
+        dismiss_dialogs(page)  # mop up any unrelated announcement dialog that might follow
         page.wait_for_timeout(2000)
         _dump_delete_diagnostics(page, entry_id, "post-click-settled")
         ctx.close()
