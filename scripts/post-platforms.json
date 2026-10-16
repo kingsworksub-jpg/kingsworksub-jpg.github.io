@@ -1925,5 +1925,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-10-16T20:45:57+09:00"
+ },
+ "canadian-whisky-rye-4choice-2026": {
+  "title": "カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "na2cafc0c076f",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T21:43:19+09:00"
  }
 }
