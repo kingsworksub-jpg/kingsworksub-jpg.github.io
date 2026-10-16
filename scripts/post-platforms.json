@@ -1123,8 +1123,8 @@
   "hatena_entry": "14945776032085534809",
   "note_key": "nc6d45a823803",
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-10-15T21:36:14+09:00",
+  "needs_manual_review": "reconcile error: 'NoneType' object is not subscriptable",
+  "updated_at": "2026-10-16T12:25:31+09:00",
   "title": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本"
  },
  "audacity-4-guide-2026": {
