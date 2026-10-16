@@ -1,17 +1,22 @@
 {
- "updated": "2026-10-16T23:08:17+09:00",
+ "updated": "2026-10-17T04:00:04+09:00",
  "queue": {
   "published": 73,
   "approved": 24,
   "rejected": 1
  },
- "today_posts": 6,
+ "today_posts": 0,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published dither-16bit-noise-shaping-test",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "topic-topup",
+  "label": "ネタ補充",
+  "since": "2026-10-17T04:00:04+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
