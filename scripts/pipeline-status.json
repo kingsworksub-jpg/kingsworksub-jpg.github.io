@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-16T20:00:28+09:00",
+ "updated": "2026-10-16T20:12:53+09:00",
  "queue": {
-  "published": 70,
+  "published": 71,
   "approved": 25,
-  "in_progress": 2,
-  "rejected": 1
+  "rejected": 1,
+  "in_progress": 1
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published turtleneck-jacket-layering-2026",
+ "last_result": "published monitor-placement-room-tuning-6jo-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

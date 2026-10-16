@@ -345,6 +345,7 @@ github1・hatena1・ameba2・note2/日で固定だった)。これを解消す�
 | Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで | https://kinbro.hatenablog.com/entry/2026/10/14/201310 | 14945776032090135921 |
 | DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲 | https://kinbro.hatenablog.com/entry/2026/10/15/131257 | 14945776032090430709 |
 | Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う | https://kinbro.hatenablog.com/entry/2026/10/16/121422 | 14945776032090822856 |
+| モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから | https://kinbro.hatenablog.com/entry/2026/10/16/201240 | 14945776032090985503 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
