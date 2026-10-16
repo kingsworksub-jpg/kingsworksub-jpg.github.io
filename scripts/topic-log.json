@@ -1807,6 +1807,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-16T07:37:15+09:00"
+  },
+  {
+   "id": "2026w40-011",
+   "category": "software",
+   "theme": "Kontakt 8、音源を鳴らす側と作る側で見える顔が変わる",
+   "slug": "kontakt-8-player-and-builder-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/kontakt-8-player-and-builder-2026/",
+   "hatena_entry": "14945776032090822856",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-16T12:14:34+09:00"
   }
  ]
 }
