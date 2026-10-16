@@ -1913,5 +1913,17 @@
   "needs_manual_review": null,
   "updated_at": "2026-10-16T17:45:00+09:00",
   "title": "タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる"
+ },
+ "monitor-placement-room-tuning-6jo-2026": {
+  "title": "モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090985503",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T20:45:57+09:00"
  }
 }
