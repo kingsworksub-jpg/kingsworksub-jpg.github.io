@@ -1526,8 +1526,8 @@
   "hatena_entry": null,
   "note_key": null,
   "ameba_entry": 12981292027,
-  "needs_manual_review": "reconcile error: ameba delete failed: '小', '中', '大', '前の年', '次の年', '画像をアップロード', '画像をアップロード', 'アップロードを全てキャンセルする', '履歴', '絵文字', '気持ち', '記号', '自然・動物', '食べ物', 'お出かけ・イベント', 'アイテム', '見出し', 'テキスト', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '左の要素へ移動', '右の要素へ移動', '検索', '新規作成', 'テーマの入力をキャンセルします', '追加']\nal\\Temp\\claude\\blog-check\\scripts\\post-to-ameba.py\", line 580, in main\n    delete_entry(args.delete_entry, args.expect_title)\n  File \"C:\\Users\\norio\\AppData\\Local\\Temp\\claude\\blog-check\\scripts\\post-to-ameba.py\", line 456, in delete_entry\n    raise RuntimeError(\nRuntimeError: ameba entry 12981292027: ��ʂ̃^�C�g���u�v�����Ғl�u�\\�j�[ECM-AX10�́A�X�}�z����ԃI�[�f�B�I�̘^���@�ɂł��邩�v�ƈ�v���Ȃ����ߒ��~(�X�N���[���V���b�g: C:\\Users\\norio\\my-github-blog\\data\\ameba_delete_fail_12981292027_title-mismatch.png)\n",
-  "updated_at": "2026-10-16T13:16:03+09:00",
+  "needs_manual_review": "reconcile error: ameba delete failed: '小', '中', '大', '前の年', '次の年', '画像をアップロード', '画像をアップロード', 'アップロードを全てキャンセルする', '履歴', '絵文字', '気持ち', '記号', '自然・動物', '食べ物', 'お出かけ・イベント', 'アイテム', '見出し', 'テキスト', '左の要素へ移動', '右の要素へ移動', '左の要",
+  "updated_at": "2026-10-16T20:46:11+09:00",
   "title": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか"
  },
  "non-alcohol-beer-5choice-2026": {
