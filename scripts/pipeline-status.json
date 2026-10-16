@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-16T17:30:32+09:00",
+ "updated": "2026-10-16T17:41:50+09:00",
  "queue": {
-  "published": 69,
+  "published": 70,
   "approved": 26,
   "rejected": 1,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published kontakt-8-player-and-builder-2026",
+ "last_result": "published turtleneck-jacket-layering-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
