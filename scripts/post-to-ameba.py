@@ -420,71 +420,85 @@ def _dump_delete_diagnostics(page, entry_id, stage):
 
 
 def delete_entry(entry_id, expected_title):
-    """Delete a PUBLISHED Ameba entry. UNVERIFIED territory (see module docstring / CLAUDE.md) —
-    this codebase has never explored Ameba's existing-entry edit/delete page before. Based on the
-    insert/update/end URL naming already confirmed in this file (srventryinsertinput.do,
-    srventryupdateend.do), the edit URL is srventryupdateinput.do?id=<id> (confirmed 2026-10-16 by
-    reading the real link hrefs on srventrylist.do, the article list page — NOT entry_id, which
-    silently redirected to a blank new-entry form instead of raising any error). This then
-    looks for a visible element whose text is exactly "削除". It refuses to click anything unless
-    the title field first matches `expected_title`, and raises (rather than returning a falsy
-    value) on any mismatch, missing element, or failed post-delete verification. Given Ameba's
-    UI is independently documented elsewhere in this file as flaky, this MUST be run once under
-    human supervision against a real entry before being trusted in the unattended pipeline.
+    """Delete a PUBLISHED Ameba entry, via the article LIST page (srventrylist.do) — NOT the
+    per-entry edit page (an earlier version of this function guessed the delete control lived
+    there; it doesn't). Confirmed 2026-10-16 by reading the real DOM: each row in the list has
+    an actions block
+
+        <li class="action"><a href=".../srventryupdateinput.do?id={id}" class="process">編集</a></li>
+        <li class="action"><button onclick="copyEntry(this,{id});..." class="process">複製</button></li>
+        <li class="action"><button class="process" data-remove-article-button data-entry-id="{id}">削除</button></li>
+
+    so the delete control is selected directly and unambiguously by
+    `button[data-remove-article-button][data-entry-id="{id}"]` — no text/position guessing
+    needed. The row's own `<h2><a>` holds the article title, which is checked against
+    `expected_title` BEFORE anything is clicked (raises, rather than returning a falsy value, on
+    any mismatch or missing element). What happens after the click (native confirm() vs. a
+    custom modal) was NOT observed before this was first run live, so both are handled: a native
+    dialog is auto-accepted (and logged) by the page.on("dialog", ...) handler registered below,
+    and dismiss_dialogs() mops up any custom <dialog> that might appear instead.
     """
     with sync_playwright() as p:
         ctx = open_browser(p)
         page = ctx.new_page()
         page.on("dialog", lambda d: (print(f"  [debug] native dialog: {d.message}", flush=True), d.accept()))
 
-        edit_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?id={entry_id}"
-        page.goto(edit_url, wait_until="domcontentloaded", timeout=60000)
+        list_url = "https://blog.ameba.jp/ucs/entry/srventrylist.do"
+        page.goto(list_url, wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(4000)
         if "blog.ameba.jp/ucs/entry" not in page.url:
             ctx.close()
-            raise RuntimeError(f"ameba entry {entry_id}: 編集画面を開けません(ログイン切れの可能性): {page.url}")
+            raise RuntimeError(f"ameba entry {entry_id}: 記事一覧を開けません(ログイン切れの可能性): {page.url}")
         dismiss_dialogs(page)
 
-        try:
-            title_box = page.wait_for_selector('input[name="entry_title"]', timeout=20000)
-            actual_title = (title_box.input_value() or "").strip()
-        except Exception as e:
-            _dump_delete_diagnostics(page, entry_id, "title-box-missing")
+        row = page.evaluate(
+            """(id) => {
+                const editLink = Array.from(document.querySelectorAll('a[href*="srventryupdateinput.do"]'))
+                    .find(a => a.href.includes('id=' + id));
+                if (!editLink) return {found: false};
+                const entryDiv = editLink.closest('.entry-column')?.querySelector('.entry');
+                const titleLink = entryDiv?.querySelector('h2 a');
+                const delBtn = editLink.closest('li.entry-item')
+                    ?.querySelector('button[data-remove-article-button][data-entry-id="' + id + '"]');
+                return {found: true, title: (titleLink?.innerText || '').trim(), hasDeleteButton: !!delBtn};
+            }""",
+            entry_id,
+        )
+        if not row.get("found"):
+            shot = _dump_delete_diagnostics(page, entry_id, "row-not-found")
             ctx.close()
-            raise RuntimeError(f"ameba entry {entry_id}: タイトル欄が見つかりません(削除操作を中止): {e}") from e
+            raise RuntimeError(
+                f"ameba entry {entry_id}: 記事一覧にこの記事の行が見つかりません"
+                f"(表示範囲外の月の可能性があります。スクリーンショット: {shot})")
+        actual_title = row.get("title", "")
         if actual_title != expected_title.strip():
             shot = _dump_delete_diagnostics(page, entry_id, "title-mismatch")
             ctx.close()
             raise RuntimeError(
-                f"ameba entry {entry_id}: 画面のタイトル「{actual_title}」が期待値「{expected_title}」と"
+                f"ameba entry {entry_id}: 一覧のタイトル「{actual_title}」が期待値「{expected_title}」と"
                 f"一致しないため中止(スクリーンショット: {shot})")
-
-        # Title confirmed correct — screenshot the real edit page before guessing where the
-        # delete control is (this page has never been explored in this codebase before).
-        _dump_delete_diagnostics(page, entry_id, "pre-delete-search")
-
-        delete_btn = None
-        for el in page.query_selector_all("a, button"):
-            try:
-                if el.is_visible() and (el.inner_text() or "").strip() == "削除":
-                    delete_btn = el
-                    break
-            except Exception:
-                continue
-        if delete_btn is None:
-            _dump_delete_diagnostics(page, entry_id, "no-delete-button")
+        if not row.get("hasDeleteButton"):
+            shot = _dump_delete_diagnostics(page, entry_id, "no-delete-button")
             ctx.close()
-            raise RuntimeError(f"ameba entry {entry_id}: 「削除」ボタン/リンクが見つかりません(削除操作を中止)")
+            raise RuntimeError(f"ameba entry {entry_id}: 「削除」ボタンが見つかりません(削除操作を中止、"
+                                f"スクリーンショット: {shot})")
 
+        # Title confirmed correct — screenshot right before the destructive click, so a wrong
+        # outcome is diagnosable even though everything checked out beforehand.
+        _dump_delete_diagnostics(page, entry_id, "pre-delete-click")
+
+        delete_btn = page.locator(f'button[data-remove-article-button][data-entry-id="{entry_id}"]')
         delete_btn.scroll_into_view_if_needed()
         page.wait_for_timeout(500)
         delete_btn.click(timeout=10000)
-        page.wait_for_timeout(2000)
-        # a native confirm() is auto-accepted by the page.on("dialog", ...) handler above;
-        # dismiss_dialogs() handles any custom <dialog> confirmation instead.
+        page.wait_for_timeout(1500)
+        # Unknown post-click flow: could be a native confirm() (auto-accepted above), a custom
+        # <dialog>, or an immediate delete with no confirmation at all. Screenshot now, before
+        # touching anything else, so whichever it was is visible in the diagnostics.
+        _dump_delete_diagnostics(page, entry_id, "immediately-after-click")
         dismiss_dialogs(page)
         page.wait_for_timeout(2000)
-        _dump_delete_diagnostics(page, entry_id, "post-click")
+        _dump_delete_diagnostics(page, entry_id, "post-click-settled")
         ctx.close()
 
     public_url = f"https://ameblo.jp/sfd0501/entry-{entry_id}.html"
