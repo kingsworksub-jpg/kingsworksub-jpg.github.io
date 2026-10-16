@@ -1937,5 +1937,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-10-16T21:43:19+09:00"
+ },
+ "dither-16bit-noise-shaping-test": {
+  "title": "16bit化のディザを3通りで検証、ノイズシェーピングは総量で12dB増えて耳では9dB減る",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T00:17:13+09:00"
  }
 }
