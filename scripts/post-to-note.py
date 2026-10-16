@@ -441,6 +441,26 @@ def note_status(page, key):
     }""", key)
 
 
+def _dump_delete_diagnostics(page, key, stage):
+    """Best-effort screenshot + visible-button dump for debugging a failed delete_note() step.
+    Returns the screenshot path (or None if even that failed) — never raises itself."""
+    try:
+        path = os.path.join(BASE, "data", f"note_delete_fail_{key}_{stage}.png")
+        page.screenshot(path=path, full_page=True)
+    except Exception:  # noqa: BLE001
+        path = None
+    try:
+        texts = page.evaluate(
+            "() => Array.from(document.querySelectorAll('button, [role=menuitem], a'))"
+            ".map(e => (e.innerText || '').trim()).filter(Boolean).slice(0, 60)"
+        )
+        print(f"  [debug] note {key} @ {stage}: url={page.url}", flush=True)
+        print(f"  [debug] visible button/menuitem/link texts: {texts}", flush=True)
+    except Exception:  # noqa: BLE001
+        pass
+    return path
+
+
 def delete_note(page, key, expected_title):
     """Delete a PUBLISHED note. UNVERIFIED territory (see module docstring): the draft-deletion
     UI pattern documented for note.com ('その他' -> '削除' -> confirm dialog) is attempted here
@@ -461,18 +481,30 @@ def delete_note(page, key, expected_title):
         raise RuntimeError(
             f"note {key}: エディタのタイトル「{actual_title}」が期待値「{expected_title}」と一致しないため中止")
 
+    native_dialog = {"seen": None}
+    page.on("dialog", lambda d: (native_dialog.__setitem__("seen", d.message), d.dismiss()))
+
     if not click_button_by_text(page, "その他", timeout=20):
+        _dump_delete_diagnostics(page, key, "その他")
         raise RuntimeError(f"note {key}: 「その他」メニューが見つかりません(削除操作を中止)")
     page.wait_for_timeout(1000)
     if not click_button_by_text(page, "削除", timeout=15):
+        _dump_delete_diagnostics(page, key, "削除")
         raise RuntimeError(f"note {key}: 「削除」メニュー項目が見つかりません(削除操作を中止)")
     page.wait_for_timeout(1000)
     dialog = page.locator('[role="dialog"]')
     try:
         dialog.wait_for(state="visible", timeout=10000)
     except Exception as e:  # noqa: BLE001
-        raise RuntimeError(f"note {key}: 削除確認ダイアログが表示されません(削除操作を中止): {e}") from e
+        shot = _dump_delete_diagnostics(page, key, "confirm-dialog")
+        if native_dialog["seen"] is not None:
+            raise RuntimeError(
+                f"note {key}: [role=dialog]ではなくブラウザネイティブのdialogが出ました"
+                f"(自動でdismissしたため削除は実行されていません): {native_dialog['seen']}") from e
+        raise RuntimeError(f"note {key}: 削除確認ダイアログが表示されません(削除操作を中止、"
+                            f"スクリーンショット: {shot}): {e}") from e
     if not click_button_by_text(page, "削除", timeout=10):
+        _dump_delete_diagnostics(page, key, "confirm-button")
         raise RuntimeError(f"note {key}: 確認ダイアログの「削除」ボタンを押せませんでした")
     page.wait_for_timeout(3000)
 
