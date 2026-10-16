@@ -1709,8 +1709,8 @@
   "hatena_entry": null,
   "note_key": null,
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-10-15T23:35:54+09:00",
+  "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-16T12:25:01+09:00",
   "title": "Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定"
  },
  "record-stylus-lifespan-guide-2026": {
@@ -1878,5 +1878,28 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-10-15T23:35:50+09:00"
+ },
+ "hugo-timezone-buildfuture-notes": {
+  "title": "Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T12:24:58+09:00"
+ },
+ "kontakt-8-player-and-builder-2026": {
+  "title": "Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090822856",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T12:25:01+09:00"
  }
 }
