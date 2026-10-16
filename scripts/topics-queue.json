@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T20:00:28+09:00",
+ "updated": "2026-10-16T20:12:53+09:00",
  "items": [
   {
    "category": "gear",
@@ -1108,14 +1108,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-019",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-16T20:00:28+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "20:00",
-   "slot_label": "夜: テック/ソフト/制作環境(隔日)"
+   "slot_label": "夜: テック/ソフト/制作環境(隔日)",
+   "slug": "monitor-placement-room-tuning-6jo-2026",
+   "published_at": "2026-10-16T20:12:53+09:00"
   },
   {
    "category": "setup",
