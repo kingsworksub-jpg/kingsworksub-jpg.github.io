@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T23:08:05+09:00",
+ "updated": "2026-10-16T23:08:17+09:00",
  "queue": {
   "published": 73,
   "approved": 24,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published dither-16bit-noise-shaping-test",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-16T23:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-16T21:43:34+09:00",
+  "at": "2026-10-16T23:08:17+09:00",
   "engine": "claude",
-  "detail": "Today's count is now 5 of 6."
+  "detail": "The topic is marked complete and recorded in the queue and log, and pushed. There was no note or Hatena entry to add to the tables in CLAUDE.md."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-16T23:08:17+09:00",
+   "engine": "claude",
+   "detail": "The topic is marked complete and recorded in the queue and log, and pushed. There was no note or Hatena entry to add to the tables in CLAUDE.md."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-15T20:12:22+09:00",
    "engine": "claude",
    "detail": "- 3 of the 5 photos show a different shoe from the product their link opens. The captions don't name a brand."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-15T17:40:15+09:00",
-   "engine": "claude",
-   "detail": "The topic is marked published, and the record is pushed."
   }
  ]
 }
