@@ -1855,6 +1855,18 @@
    "note_key": "na2cafc0c076f",
    "engine": "claude",
    "at": "2026-10-16T21:43:00+09:00"
+  },
+  {
+   "id": "2026w41-023",
+   "category": "lab",
+   "theme": "24bitから16bitへ、ディザの有無とノイズシェーピングの違いを検証する",
+   "slug": "dither-16bit-noise-shaping-test",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/dither-16bit-noise-shaping-test/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-16T23:08:05+09:00"
   }
  ]
 }
