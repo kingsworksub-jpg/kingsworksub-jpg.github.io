@@ -1123,8 +1123,8 @@
   "hatena_entry": "14945776032085534809",
   "note_key": "nc6d45a823803",
   "ameba_entry": null,
-  "needs_manual_review": "reconcile error: note delete failed:   編集画面: https://editor.note.com/notes/nc6d45a823803/edit/\neck\\scripts\\post-to-note.py\", line 1162, in main\n    delete_note(page, args.delete_key, args.expect_title)\n  File \"C:\\Users\\norio\\AppData\\Local\\Temp\\claude\\blog-check\\scripts\\post-to-note.py\", line 474, in delete_note\n    raise RuntimeError(f\"note {key}: �폜�m�F�_�C�A���O���\\������܂���(�폜����𒆎~): {e}\") from e\nRuntimeError: note nc6d45a823803: �폜�m�F�_�C�A���O���\\������܂���(�폜����𒆎~): Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"dialog\\\"]\") to be visible\n\n",
-  "updated_at": "2026-10-16T12:26:54+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-16T12:27:47+09:00",
   "title": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本"
  },
  "audacity-4-guide-2026": {
