@@ -1867,6 +1867,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-16T23:08:05+09:00"
+  },
+  {
+   "id": "ppp-sony-ecm-ax10-spatial-mic-2026",
+   "category": "",
+   "theme": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか",
+   "slug": "sony-ecm-ax10-spatial-mic-2026",
+   "status": "platform_removed",
+   "reason": "ameba",
+   "at": "2026-10-17T00:17:32+09:00"
   }
  ]
 }

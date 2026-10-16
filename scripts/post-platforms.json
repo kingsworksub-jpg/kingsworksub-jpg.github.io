@@ -1520,14 +1520,13 @@
  },
  "sony-ecm-ax10-spatial-mic-2026": {
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12981292027,
-  "needs_manual_review": "reconcile error: ameba delete failed: う、ベースからメロディまで耳で取る1か月', '編集', '複製', '削除', '炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方', '編集', '複製', '削除', 'レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた', '編集', '複製', '削除', 'Akai MPK Min",
-  "updated_at": "2026-10-16T20:49:29+09:00",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T00:17:32+09:00",
   "title": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか"
  },
  "non-alcohol-beer-5choice-2026": {
