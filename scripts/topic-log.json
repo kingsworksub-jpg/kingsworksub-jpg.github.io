@@ -1843,6 +1843,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-16T20:12:53+09:00"
+  },
+  {
+   "id": "2026w41-013",
+   "category": "whisky",
+   "theme": "カナディアンウイスキーはなぜライと呼ばれるのか、ベースとフレーバーを分けて造る",
+   "slug": "canadian-whisky-rye-4choice-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/canadian-whisky-rye-4choice-2026/",
+   "hatena_entry": null,
+   "note_key": "na2cafc0c076f",
+   "engine": "claude",
+   "at": "2026-10-16T21:43:00+09:00"
   }
  ]
 }
