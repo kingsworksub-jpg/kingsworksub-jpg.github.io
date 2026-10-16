@@ -423,7 +423,9 @@ def delete_entry(entry_id, expected_title):
     """Delete a PUBLISHED Ameba entry. UNVERIFIED territory (see module docstring / CLAUDE.md) —
     this codebase has never explored Ameba's existing-entry edit/delete page before. Based on the
     insert/update/end URL naming already confirmed in this file (srventryinsertinput.do,
-    srventryupdateend.do), this guesses the edit URL is srventryupdateinput.do?entry_id=<id>, and
+    srventryupdateend.do), the edit URL is srventryupdateinput.do?id=<id> (confirmed 2026-10-16 by
+    reading the real link hrefs on srventrylist.do, the article list page — NOT entry_id, which
+    silently redirected to a blank new-entry form instead of raising any error). This then
     looks for a visible element whose text is exactly "削除". It refuses to click anything unless
     the title field first matches `expected_title`, and raises (rather than returning a falsy
     value) on any mismatch, missing element, or failed post-delete verification. Given Ameba's
@@ -435,7 +437,7 @@ def delete_entry(entry_id, expected_title):
         page = ctx.new_page()
         page.on("dialog", lambda d: (print(f"  [debug] native dialog: {d.message}", flush=True), d.accept()))
 
-        edit_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?entry_id={entry_id}"
+        edit_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?id={entry_id}"
         page.goto(edit_url, wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(4000)
         if "blog.ameba.jp/ucs/entry" not in page.url:
