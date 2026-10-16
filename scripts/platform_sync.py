@@ -561,7 +561,12 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
             git_commit_push(f"PPP: done with {slug}", [rel(req["file"])])
         except Exception as ex:  # noqa: BLE001
             print(f"  [error] {slug}: {ex}", file=sys.stderr)
-            state["needs_manual_review"] = f"reconcile error: {ex}"
+            # needs_manual_review is shown as-is in the Android app's card UI (a single short
+            # line), not a log viewer. The full exception (which can embed a subprocess's
+            # stdout/stderr tail, itself sometimes containing a Python traceback) is already on
+            # stderr above for real debugging; what's stored here must stay short and one-line.
+            short = " ".join(str(ex).split())[:200]
+            state["needs_manual_review"] = f"reconcile error: {short}"
             state["updated_at"] = tp.now().isoformat(timespec="seconds")
             save_platforms(platforms)
             git_commit_push(f"PPP: {slug} needs manual review after an error", [rel(PLATFORMS_FILE)])
