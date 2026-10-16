@@ -1,0 +1,37 @@
+{
+ "/images/turtleneck-jacket/lichtenstein.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Roy_Lichtenstein.jpg/1280px-Roy_Lichtenstein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Roy_Lichtenstein.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Eric Koch for Anefo",
+  "title": "File:Roy Lichtenstein.jpg"
+ },
+ "/images/turtleneck-jacket/seaman-jumper.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/5/55/Seaman_jumper.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Seaman_jumper.JPG",
+  "license": "CC BY-SA 2.5",
+  "author": "Peter Ellis at English Wikipedia",
+  "title": "File:Seaman jumper.JPG"
+ },
+ "/images/turtleneck-jacket/rollneck-knit.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Jersei-coll-alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Jersei-coll-alt.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Joan Rocaguinard",
+  "title": "File:Jersei-coll-alt.jpg"
+ },
+ "/images/turtleneck-jacket/corduroy.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Francesco_Tosoni_al_decennale_di_Software_Heritage%2C_sede_UNESCO%2C_Parigi%2C_2026_%2800375%29.jpg/1280px-Francesco_Tosoni_al_decennale_di_Software_Heritage%2C_sede_UNESCO%2C_Parigi%2C_2026_%2800375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Francesco_Tosoni_al_decennale_di_Software_Heritage,_sede_UNESCO,_Parigi,_2026_(00375).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Elarionne",
+  "title": "File:Francesco Tosoni al decennale di Software Heritage, sede UNESCO, Parigi, 2026 (00375).jpg"
+ },
+ "/images/turtleneck-jacket/leather.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/2025_01_27_Sundance_Film_Festival-27_Full_%28cropped%29.jpg/1280px-2025_01_27_Sundance_Film_Festival-27_Full_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:2025_01_27_Sundance_Film_Festival-27_Full_(cropped).jpg",
+  "license": "CC BY 4.0",
+  "author": "Everwest",
+  "title": "File:2025 01 27 Sundance Film Festival-27 Full (cropped).jpg"
+ }
+}
