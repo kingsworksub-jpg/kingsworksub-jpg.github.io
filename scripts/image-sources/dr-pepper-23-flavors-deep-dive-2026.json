@@ -1,0 +1,30 @@
+{
+ "/images/dr-pepper/museum.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dr_Pepper_Museum_June_2024_1_Waco_Texas.jpg/1280px-Dr_Pepper_Museum_June_2024_1_Waco_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dr_Pepper_Museum_June_2024_1_Waco_Texas.jpg",
+  "license": "CC BY 4.0",
+  "author": "Larry D. Moore",
+  "title": "File:Dr Pepper Museum June 2024 1 Waco Texas.jpg"
+ },
+ "/images/dr-pepper/cans.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Cannettes_Dr_Pepper.jpg/1280px-Cannettes_Dr_Pepper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cannettes_Dr_Pepper.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Jeanne à vélo",
+  "title": "File:Cannettes Dr Pepper.jpg"
+ },
+ "/images/dr-pepper/museum-2016.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dr_Pepper_Museum_June_2016_1.jpg/1280px-Dr_Pepper_Museum_June_2016_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dr_Pepper_Museum_June_2016_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Michael Barera",
+  "title": "File:Dr Pepper Museum June 2016 1.jpg"
+ },
+ "/images/dr-pepper/can.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Dr_Pepper_Dose_2024.jpg/1280px-Dr_Pepper_Dose_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dr_Pepper_Dose_2024.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "DYVER",
+  "title": "File:Dr Pepper Dose 2024.jpg"
+ }
+}
