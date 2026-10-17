@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:46:14+09:00",
+ "updated": "2026-10-18T07:46:30+09:00",
  "queue": {
   "published": 80,
   "approved": 17,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published new-scotch-distilleries-young-whisky-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-18T07:30:05+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-18T04:00:25+09:00",
+  "at": "2026-10-18T07:46:30+09:00",
   "engine": "claude",
-  "detail": "- 作業前からあった未コミットのファイル（`scripts/image-sources/` の JSON 4件など）はそのままにしてあります。"
+  "detail": "This was the 07:30 run, which is assigned to github (lab/notes), but no approved topic matched that slot. The queue picked this note-channel whisky topic instead, so I posted it to note and not to Hatena or Ameba. The article passed `validate_post.py`. The queue now shows the topic as published, and"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-18T07:46:30+09:00",
+   "engine": "claude",
+   "detail": "This was the 07:30 run, which is assigned to github (lab/notes), but no approved topic matched that slot. The queue picked this note-channel whisky topic instead, so I posted it to note and not to Hatena or Ameba. The article passed `validate_post.py`. The queue now shows the topic as published, and"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-17T04:00:35+09:00",
    "engine": "claude",
    "detail": "- 新しいネタは作っておらず、ファイルの変更もないので、コミットと push はしていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-16T23:08:17+09:00",
-   "engine": "claude",
-   "detail": "The topic is marked complete and recorded in the queue and log, and pushed. There was no note or Hatena entry to add to the tables in CLAUDE.md."
   }
  ]
 }
