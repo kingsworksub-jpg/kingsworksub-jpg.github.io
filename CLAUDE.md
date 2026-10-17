@@ -535,6 +535,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 『Oxygène』50周年盤が11月に出る。ジャールが自宅で重ねたシンセの音を、宅録の原点として聴き直す | https://note.com/shining_finger01/n/n11adb9dc9ef1 | `n11adb9dc9ef1` | **公開済(2026-10-17)** |
 | 燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか | https://note.com/shining_finger01/n/nc19d1427034a | `nc19d1427034a` | **公開済(2026-10-17)** |
 | エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある | https://note.com/shining_finger01/n/nba1ef8ce9ae5 | `nba1ef8ce9ae5` | **公開済(2026-10-17)** |
+| 新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え | https://note.com/shining_finger01/n/n9eb0336ae6c3 | `n9eb0336ae6c3` | **公開済(2026-10-18)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
