@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-17T21:30:27+09:00",
+ "updated": "2026-10-17T21:48:40+09:00",
  "queue": {
-  "published": 77,
+  "published": 78,
   "approved": 19,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published glen-check-houndstooth-pattern-mixing-2026",
+ "last_result": "published kanzake-temperature-shukanki-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
