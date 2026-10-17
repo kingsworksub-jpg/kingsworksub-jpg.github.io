@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:00:31+09:00",
+ "updated": "2026-10-17T12:12:00+09:00",
  "items": [
   {
    "category": "gear",
@@ -851,14 +851,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-014",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-17T12:00:31+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "luna-free-daw-limits-2026",
+   "published_at": "2026-10-17T12:12:00+09:00"
   },
   {
    "category": "setup",
