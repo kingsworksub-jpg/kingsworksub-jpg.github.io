@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T03:00:04+09:00",
+ "updated": "2026-10-18T03:17:45+09:00",
  "queue": {
   "published": 79,
   "approved": 18,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published angels-share-evaporation-essay-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-planning",
   "label": "ネタ会議",
-  "since": "2026-10-18T03:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
-  "state": "finished",
-  "at": "2026-10-17T23:11:00+09:00",
+  "state": "failed",
+  "at": "2026-10-18T03:17:45+09:00",
   "engine": "claude",
-  "detail": "The 23:00 slot came back as note. The 23:00 rule says odd dates go to github, and today (the 17th) is odd. I followed the `slot` command's output as the prompt instructs, but `slots_for_date()` may be using a different date or have the even/odd check flipped. It's worth checking."
+  "detail": "You've hit your session limit · resets 4am (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "topic-planning",
+   "label": "ネタ会議",
+   "state": "failed",
+   "at": "2026-10-18T03:17:45+09:00",
+   "engine": "claude",
+   "detail": "You've hit your session limit · resets 4am (Asia/Tokyo)"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-16T21:43:34+09:00",
    "engine": "claude",
    "detail": "Today's count is now 5 of 6."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-16T20:13:13+09:00",
-   "engine": "claude",
-   "detail": "I published 「モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから」 (topic 2026w40-019, setup category, 20:00 Hatena slot). It's live on both sites: https://kingsworksub-jpg.github.io/posts/monitor-placement-room-tuning-6jo-2026/ and https://kinbro.hatenablog.com/entry/2026/10/16/201240 (entry ID 14945776032090985503). "
   }
  ]
 }
