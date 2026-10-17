@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-17T12:00:31+09:00",
+ "updated": "2026-10-17T12:12:00+09:00",
  "queue": {
-  "published": 74,
-  "in_progress": 1,
+  "published": 75,
   "approved": 22,
   "rejected": 1
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published jarre-oxygene-50th-2026",
+ "last_result": "published luna-free-daw-limits-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
