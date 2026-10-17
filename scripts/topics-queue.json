@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:00:35+09:00",
+ "updated": "2026-10-17T20:11:29+09:00",
  "items": [
   {
    "category": "gear",
@@ -3282,14 +3282,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-057",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-17T20:00:35+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料"
+   "slot_label": "夜: ファッション/飲料",
+   "slug": "glen-check-houndstooth-pattern-mixing-2026",
+   "published_at": "2026-10-17T20:11:29+09:00"
   },
   {
    "category": "music",
