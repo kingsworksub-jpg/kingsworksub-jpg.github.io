@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:10:49+09:00",
+ "updated": "2026-10-18T07:30:34+09:00",
  "items": [
   {
    "category": "gear",
@@ -2153,9 +2153,14 @@
    },
    "source_of_idea": "news",
    "id": "2026w40-037",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-18T07:30:34+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "07:30",
+   "slot_label": "朝: 検証メモ/個人備忘録"
   },
   {
    "category": "drink",
