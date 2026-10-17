@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-17T17:30:37+09:00",
+ "updated": "2026-10-17T17:41:50+09:00",
  "queue": {
-  "published": 75,
+  "published": 76,
   "approved": 21,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published luna-free-daw-limits-2026",
+ "last_result": "published dr-pepper-23-flavors-deep-dive-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

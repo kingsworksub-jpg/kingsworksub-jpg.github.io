@@ -1900,6 +1900,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-17T12:12:00+09:00"
+  },
+  {
+   "id": "2026w40-044",
+   "category": "drink",
+   "theme": "ドクターペッパー、23種類という説明が説明になっていない味",
+   "slug": "dr-pepper-23-flavors-deep-dive-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/dr-pepper-23-flavors-deep-dive-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-17T17:41:50+09:00"
   }
  ]
 }

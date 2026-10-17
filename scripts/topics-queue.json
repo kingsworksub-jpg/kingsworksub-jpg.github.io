@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T17:30:37+09:00",
+ "updated": "2026-10-17T17:41:50+09:00",
  "items": [
   {
    "category": "gear",
@@ -2602,14 +2602,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-044",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-17T17:30:37+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "slug": "dr-pepper-23-flavors-deep-dive-2026",
+   "published_at": "2026-10-17T17:41:50+09:00"
   },
   {
    "category": "sakeware",
