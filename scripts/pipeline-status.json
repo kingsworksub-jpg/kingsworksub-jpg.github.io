@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:48:40+09:00",
+ "updated": "2026-10-17T21:48:57+09:00",
  "queue": {
   "published": 78,
   "approved": 19,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published kanzake-temperature-shukanki-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-17T21:30:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-17T20:12:03+09:00",
+  "at": "2026-10-17T21:48:57+09:00",
   "engine": "claude",
-  "detail": "The queue item (2026w40-057) is marked published, and the Ameba row is added to CLAUDE.md and `post-platforms.json`. I didn't touch the untracked files left over from earlier runs (tonic-water and others)."
+  "detail": "ネタは完了として記録し、CLAUDE.md の note 表に1行追加してpush済みです。調査役のサブエージェントが指示に反してリポジトリ直下に調査メモ `kanzake_research_findings.md` を作っていたので、中身を確認したうえで削除しました（commitはされていません）。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-17T21:48:57+09:00",
+   "engine": "claude",
+   "detail": "ネタは完了として記録し、CLAUDE.md の note 表に1行追加してpush済みです。調査役のサブエージェントが指示に反してリポジトリ直下に調査メモ `kanzake_research_findings.md` を作っていたので、中身を確認したうえで削除しました（commitはされていません）。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-16T17:42:20+09:00",
    "engine": "claude",
    "detail": "The topic is marked complete, and the Ameba URL and entry ID are recorded in CLAUDE.md and `scripts/post-platforms.json`. Writing that JSON file the first time reformatted the whole file, so I made one extra commit to restore the original format. The net change is just the new 12-line entry."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-16T12:14:45+09:00",
-   "engine": "claude",
-   "detail": "The research turned up one claim about a new Lua-based scripting language for building instruments that I couldn't confirm, so the article doesn't name or describe that language. Leftover files from an earlier run (a Canadian whisky post, tonic water radar charts and some image-source files) are sti"
   }
  ]
 }
