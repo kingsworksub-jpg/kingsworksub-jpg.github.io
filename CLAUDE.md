@@ -533,6 +533,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち | https://note.com/shining_finger01/n/n7e1efb971a38 | `n7e1efb971a38` | **公開済(2026-10-15)** |
 | カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける | https://note.com/shining_finger01/n/na2cafc0c076f | `na2cafc0c076f` | **公開済(2026-10-16)** |
 | 『Oxygène』50周年盤が11月に出る。ジャールが自宅で重ねたシンセの音を、宅録の原点として聴き直す | https://note.com/shining_finger01/n/n11adb9dc9ef1 | `n11adb9dc9ef1` | **公開済(2026-10-17)** |
+| 燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか | https://note.com/shining_finger01/n/nc19d1427034a | `nc19d1427034a` | **公開済(2026-10-17)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。

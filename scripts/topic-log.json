@@ -1924,6 +1924,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-17T20:11:29+09:00"
+  },
+  {
+   "id": "2026w40-051",
+   "category": "sakeware",
+   "theme": "燗の温度を決める、日向燗から飛び切り燗までと酒燗器",
+   "slug": "kanzake-temperature-shukanki-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/kanzake-temperature-shukanki-2026/",
+   "hatena_entry": null,
+   "note_key": "nc19d1427034a",
+   "engine": "claude",
+   "at": "2026-10-17T21:48:40+09:00"
   }
  ]
 }
