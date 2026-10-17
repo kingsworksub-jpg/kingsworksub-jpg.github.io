@@ -1947,5 +1947,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-10-17T00:17:13+09:00"
+ },
+ "dr-pepper-23-flavors-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981847669",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T17:42:00+09:00",
+  "title": "ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由"
  }
 }
