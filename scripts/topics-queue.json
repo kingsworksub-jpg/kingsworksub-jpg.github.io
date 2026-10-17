@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:00:30+09:00",
+ "updated": "2026-10-17T23:10:49+09:00",
  "items": [
   {
    "category": "gear",
@@ -5555,14 +5555,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w41-019",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-11",
    "retry": 0,
    "claimed_at": "2026-10-17T23:00:30+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "angels-share-evaporation-essay-2026",
+   "published_at": "2026-10-17T23:10:49+09:00"
   },
   {
    "category": "lab",
