@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-17T23:00:30+09:00",
+ "updated": "2026-10-17T23:10:49+09:00",
  "queue": {
-  "published": 78,
+  "published": 79,
   "approved": 18,
-  "rejected": 1,
-  "in_progress": 1
+  "rejected": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published kanzake-temperature-shukanki-2026",
+ "last_result": "published angels-share-evaporation-essay-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
