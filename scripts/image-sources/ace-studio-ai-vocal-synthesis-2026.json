@@ -1,0 +1,30 @@
+{
+ "/images/ace-studio/vocal-booth.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/1/1a/RCAStudioB_vocal_booth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:RCAStudioB_vocal_booth.jpg",
+  "license": "CC BY 2.0",
+  "author": "Cliff from I now live in Arlington, VA (Outside Washington DC), USA",
+  "title": "File:RCAStudioB vocal booth.jpg"
+ },
+ "/images/ace-studio/vocal-booth-mic.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vocal_Booth..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Vocal_Booth..jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "StudioMalibu14",
+  "title": "File:Vocal Booth..jpg"
+ },
+ "/images/ace-studio/daw-console.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Recording_studio_console_for_DAW_work_%282016-03-23_15.01.29_by_DayronV_%40pixabay_1290090%29.jpg/1280px-Recording_studio_console_for_DAW_work_%282016-03-23_15.01.29_by_DayronV_%40pixabay_1290090%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Recording_studio_console_for_DAW_work_(2016-03-23_15.01.29_by_DayronV_@pixabay_1290090).jpg",
+  "license": "CC0",
+  "author": "Dayron Villaverde from Miami, USA",
+  "title": "File:Recording studio console for DAW work (2016-03-23 15.01.29 by DayronV @pixabay 1290090).jpg"
+ },
+ "/images/ace-studio/midi-keyboard.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/AKAI_LPK25_%2B_LPD8.jpg/1280px-AKAI_LPK25_%2B_LPD8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:AKAI_LPK25_%2B_LPD8.jpg",
+  "license": "CC BY 2.0",
+  "author": "Ryuichi IKEDA",
+  "title": "File:AKAI LPK25 + LPD8.jpg"
+ }
+}
