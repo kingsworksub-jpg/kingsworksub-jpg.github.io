@@ -1,0 +1,30 @@
+{
+ "/images/mocktail/mojito.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Drinks_-_Virgin_Mojito%2C_Orange_Juice.jpg/1280px-Drinks_-_Virgin_Mojito%2C_Orange_Juice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Drinks_-_Virgin_Mojito,_Orange_Juice.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Aditijuneja2023",
+  "title": "File:Drinks - Virgin Mojito, Orange Juice.jpg"
+ },
+ "/images/mocktail/muddling.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Muddling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Muddling.jpg",
+  "license": "CC BY 2.0",
+  "author": "Dinner Series",
+  "title": "File:Muddling.jpg"
+ },
+ "/images/mocktail/shirley-temple.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Shirley_Temple_%2816426317324%29.jpg/1280px-Shirley_Temple_%2816426317324%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Shirley_Temple_(16426317324).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Marie from Malang, East Java, Indonesia",
+  "title": "File:Shirley Temple (16426317324).jpg"
+ },
+ "/images/mocktail/elderflower.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg/1280px-Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_%26_Elderflower_Fizz_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+  "license": "CC0",
+  "author": "Andy Li",
+  "title": "File:Apple & Elderflower Fizz - Petit Pois Restaurant 2024-07-11.jpg"
+ }
+}
