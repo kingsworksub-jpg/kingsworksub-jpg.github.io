@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:39:06+09:00",
+ "updated": "2026-10-18T22:40:06+09:00",
  "queue": {
   "published": 84,
   "rejected": 1,
@@ -13,14 +13,22 @@
  "consecutive_failures": 0,
  "current_job": null,
  "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
+  "job": "topic-topup",
+  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-18T21:43:36+09:00",
+  "at": "2026-10-18T22:40:06+09:00",
   "engine": "claude",
-  "detail": "`validate_post.py` passed, the topic is marked complete, the new note post is added to the note table in CLAUDE.md, and everything is pushed. This makes 5 posts today out of the limit of 6."
+  "detail": "手動補充: 承認済み50件を追加 (approved 63)"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-18T22:40:06+09:00",
+   "engine": "claude",
+   "detail": "手動補充: 承認済み50件を追加 (approved 63)"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -92,14 +100,6 @@
    "at": "2026-10-17T21:48:57+09:00",
    "engine": "claude",
    "detail": "ネタは完了として記録し、CLAUDE.md の note 表に1行追加してpush済みです。調査役のサブエージェントが指示に反してリポジトリ直下に調査メモ `kanzake_research_findings.md` を作っていたので、中身を確認したうえで削除しました（commitはされていません）。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-17T20:12:03+09:00",
-   "engine": "claude",
-   "detail": "The queue item (2026w40-057) is marked published, and the Ameba row is added to CLAUDE.md and `post-platforms.json`. I didn't touch the untracked files left over from earlier runs (tonic-water and others)."
   }
  ]
 }
