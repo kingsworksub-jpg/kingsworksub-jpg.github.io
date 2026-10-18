@@ -1,0 +1,23 @@
+{
+ "/images/git-worktree/branching-workflow.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Basic_git_branching_workflow_%28GitLab%29.png/1280px-Basic_git_branching_workflow_%28GitLab%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Basic_git_branching_workflow_(GitLab).png",
+  "license": "CC BY-SA 4.0",
+  "author": "TheresNoTime",
+  "title": "File:Basic git branching workflow (GitLab).png"
+ },
+ "/images/git-worktree/branches-example.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/8/85/Git_branches_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Git_branches_example.png",
+  "license": "Public domain",
+  "author": "Self",
+  "title": "File:Git branches example.png"
+ },
+ "/images/git-worktree/git-gui-error.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/20231112_13_44_46-Git_Gui_error.png/1280px-20231112_13_44_46-Git_Gui_error.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:20231112_13_44_46-Git_Gui_error.png",
+  "license": "GPLv2",
+  "author": "Software: Junio Hamano, Linus Torvalds und andere Screenshot: PantheraLeo1359531",
+  "title": "File:20231112 13 44 46-Git Gui error.png"
+ }
+}
