@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:30:32+09:00",
+ "updated": "2026-10-18T21:43:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -3379,14 +3379,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-058",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-18T21:30:32+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
-   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "slug": "jazz-fusion-1970s-weather-report",
+   "published_at": "2026-10-18T21:43:23+09:00"
   },
   {
    "category": "music",

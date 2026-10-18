@@ -1996,6 +1996,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-18T20:19:09+09:00"
+  },
+  {
+   "id": "2026w40-058",
+   "category": "music",
+   "theme": "1970年代のフュージョン、電気楽器がジャズに入ってきた10年",
+   "slug": "jazz-fusion-1970s-weather-report",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/jazz-fusion-1970s-weather-report/",
+   "hatena_entry": null,
+   "note_key": "n12b64385b528",
+   "engine": "claude",
+   "at": "2026-10-18T21:43:24+09:00"
   }
  ]
 }
