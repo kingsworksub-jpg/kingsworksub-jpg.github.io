@@ -1984,6 +1984,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-18T17:39:10+09:00"
+  },
+  {
+   "id": "2026w41-004",
+   "category": "software",
+   "theme": "ACE Studioで歌声を作る、歌詞とMIDIからボーカルトラックを起こすAI合成",
+   "slug": "ace-studio-ai-vocal-synthesis-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ace-studio-ai-vocal-synthesis-2026/",
+   "hatena_entry": "14945776032091905174",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-18T20:19:09+09:00"
   }
  ]
 }
