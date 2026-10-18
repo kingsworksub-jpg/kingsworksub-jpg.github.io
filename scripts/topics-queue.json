@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:43:23+09:00",
+ "updated": "2026-10-18T22:39:06+09:00",
  "items": [
   {
    "category": "gear",
@@ -6049,6 +6049,2756 @@
    "slot_label": "朝: 検証メモ/個人備忘録",
    "slug": "hugo-timezone-buildfuture-notes",
    "published_at": "2026-10-16T07:37:15+09:00"
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "宅録のダイナミックマイク5本、スピーチと歌を1本でまかなう",
+   "angle": "配信と宅録で定番のダイナミックマイクを価格帯ごとに並べ、使える場面を整理する。",
+   "article_type": "comparison",
+   "keywords": [
+    "ダイナミックマイク 比較",
+    "宅録 マイク おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Microphone",
+    "https://www.shure.com/en-US/products/microphones/sm58",
+    "https://www.audio-technica.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg/960px-2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Steffen Prößdorf",
+     "title": "2018-11-02 Konzert -The Hellfreaks- in -Ilvers Musikbar- in Erfurt IMG 3414 LR10 by Stepro.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AKG_C214_Condenser_microphone.jpg/960px-AKG_C214_Condenser_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lucasbosch",
+     "title": "AKG C214 Condenser microphone.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/AKG_C214_condenser_microphone_with_H85_shock_mount.jpg/960px-AKG_C214_condenser_microphone_with_H85_shock_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lucasbosch",
+     "title": "AKG C214 condenser microphone with H85 shock mount.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-001",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "オーディオインターフェースのマイクプリアンプ、ゲインを上げて音は変わるか",
+   "angle": "同じマイクでも入力段で音が変わることを、プリアンプの設計差から確かめる。",
+   "article_type": "comparison",
+   "keywords": [
+    "マイクプリアンプ 違い",
+    "オーディオインターフェース 音質"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Preamplifier",
+    "https://www.focusrite.com/",
+    "https://www.audient.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/00_Walden_Acoustic_Guitar_D310e_preamp_and_EQ.jpg/960px-00_Walden_Acoustic_Guitar_D310e_preamp_and_EQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:00_Walden_Acoustic_Guitar_D310e_preamp_and_EQ.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elmschrat",
+     "title": "00 Walden Acoustic Guitar D310e preamp and EQ.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audio_preamplifier_%285.1_channel%29.jpg/960px-Audio_preamplifier_%285.1_channel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_preamplifier_(5.1_channel).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Dilshan Jayakody",
+     "title": "Audio preamplifier (5.1 channel).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Dynamic_microphone_preamplifier_%2822701964580%29.jpg/960px-Dynamic_microphone_preamplifier_%2822701964580%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dynamic_microphone_preamplifier_(22701964580).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Dilshan Jayakody from Maharagama, Sri Lanka",
+     "title": "Dynamic microphone preamplifier (22701964580).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-002",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "USBマイク5本比較、配信と宅録で選ぶなら",
+   "angle": "インターフェース不要で使えるUSBマイクを、指向性と付属ソフトで見比べる。",
+   "article_type": "comparison",
+   "keywords": [
+    "USBマイク 比較",
+    "配信 マイク 初心者"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Microphone",
+    "https://www.bluemic.com/",
+    "https://www.rode.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Blue_Snowflake_USB_microphone.jpg/960px-Blue_Snowflake_USB_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Blue_Snowflake_USB_microphone.jpg",
+     "license": "CC BY 2.5",
+     "author": "Marie-Lan Nguyen",
+     "title": "Blue Snowflake USB microphone.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Rode_NT-USB-Mikrofon.JPG/960px-Rode_NT-USB-Mikrofon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rode_NT-USB-Mikrofon.JPG",
+     "license": "CC BY-SA 4.0",
+     "author": "Max Lankau",
+     "title": "Rode NT-USB-Mikrofon.JPG"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Rode_NT-USB.jpg/960px-Rode_NT-USB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rode_NT-USB.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Nicolas Rück (WMDE)",
+     "title": "Rode NT-USB.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-003",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "ヘッドホンアンプは据え置きが要るのか、ポータブルで足りるのか",
+   "angle": "インピーダンスの高いヘッドホンをどこまで鳴らせるかで選び方を分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "ヘッドホンアンプ 必要",
+    "ヘッドホン インピーダンス"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Headphone_amplifier",
+    "https://www.schiit.com/",
+    "https://www.ifi-audio.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bottlehead_Crack_Headphone_Amplifier_%28116368567%29.jpg/960px-Bottlehead_Crack_Headphone_Amplifier_%28116368567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottlehead_Crack_Headphone_Amplifier_(116368567).jpg",
+     "license": "CC BY 3.0",
+     "author": "John Donovan",
+     "title": "Bottlehead Crack Headphone Amplifier (116368567).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Cary_Audio_CAD-300SEI_Integrated_Amplifier_%28headphone_amp%29_%282010-10-19_20.36.16_by_Chun_Yip_So%29.jpg/960px-Cary_Audio_CAD-300SEI_Integrated_Amplifier_%28headphone_amp%29_%282010-10-19_20.36.16_by_Chun_Yip_So%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cary_Audio_CAD-300SEI_Integrated_Amplifier_(headphone_amp)_(2010-10-19_20.36.16_by_Chun_Yip_So).jpg",
+     "license": "CC BY 2.0",
+     "author": "Chun Yip  So from Brooklyn, USA",
+     "title": "Cary Audio CAD-300SEI Integrated Amplifier (headphone amp) (2010-10-19 20.36.16 by Chun Yip So).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Cary_Audio_CAD-300SEI_Integrated_Amplifier_%28headphone_amp%29_corrected.jpg/960px-Cary_Audio_CAD-300SEI_Integrated_Amplifier_%28headphone_amp%29_corrected.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cary_Audio_CAD-300SEI_Integrated_Amplifier_(headphone_amp)_corrected.jpg",
+     "license": "CC BY 2.0",
+     "author": "Chun Yip  So from Brooklyn, USA. Edited by user:Retired_elec",
+     "title": "Cary Audio CAD-300SEI Integrated Amplifier (headphone amp) corrected.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-004",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "モニタースタンドとアイソレーションパッド、机の振動をどこまで切れるか",
+   "angle": "スピーカーと机の間に何を挟むかで低音の濁りがどう変わるかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "モニタースタンド 効果",
+    "インシュレーター スピーカー"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Studio_monitor",
+    "https://www.isoacoustics.com/",
+    "https://www.genelec.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg/960px-2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "TVN Group",
+     "title": "2017 03 31 Dolby Atmos Studio TVN Group.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_%28mid-1950s%29_-_recording_equipment_-_MIM_Phoenix_AZ_%282017-12-04_14.05.19_by_bobistraveling_140519%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_(mid-1950s)_-_recording_equipment_-_MIM_Phoenix_AZ_(2017-12-04_14.05.19_by_bobistraveling_140519).jpg",
+     "license": "CC BY 2.0",
+     "author": "bobistraveling",
+     "title": "Ampex model 300 ½\" 3-track tape recorder & JBL Signature monitor speaker (mid-1950s) - recording equipment - MIM Phoenix AZ (2017-12-04 14.05.19 by bobistraveling 140519).jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bass_reflex_opening_of_professional_studio_loudspeaker_box_Tannoy_Little_Gold_Monitor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bass_reflex_opening_of_professional_studio_loudspeaker_box_Tannoy_Little_Gold_Monitor.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Pittigrilli",
+     "title": "Bass reflex opening of professional studio loudspeaker box Tannoy Little Gold Monitor.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-005",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "無料プラグインだけで組むミックス、EQ・コンプ・リバーブの3本",
+   "angle": "有料に手を出す前に、無料の定番3種でどこまで作れるかを確かめる。",
+   "article_type": "guide",
+   "keywords": [
+    "無料 プラグイン おすすめ",
+    "ミックス 初心者 プラグイン"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Audio_plug-in",
+    "https://www.reaper.fm/",
+    "https://www.voxengo.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ADT_Mixing_Console.jpg/960px-ADT_Mixing_Console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Prof. Pod",
+     "title": "ADT Mixing Console.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/AudioMixer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:AudioMixer.jpg",
+     "license": "Public domain",
+     "author": "Morningfrost",
+     "title": "AudioMixer.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Audio_mixer_close_up.jpg/960px-Audio_mixer_close_up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_mixer_close_up.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Lchader",
+     "title": "Audio mixer close up.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-006",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Ableton LiveのMax for Live入門、自分でデバイスを作る前に",
+   "angle": "既製デバイスの使い方から入り、自作に進む手前で何ができるかを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Max for Live 使い方",
+    "Ableton Live デバイス"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Max_(software)",
+    "https://www.ableton.com/en/live/max-for-live/",
+    "https://cycling74.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1973_Moog_modular_synthesizer.jpg/960px-1973_Moog_modular_synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1973_Moog_modular_synthesizer.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Attila Szász",
+     "title": "1973 Moog modular synthesizer.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Doepfer_A-100_Analog_Modular_System_Synthesizer.svg/960px-Doepfer_A-100_Analog_Modular_System_Synthesizer.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Doepfer_A-100_Analog_Modular_System_Synthesizer.svg",
+     "license": "CC0",
+     "author": "Mani Vieregg",
+     "title": "Doepfer A-100 Analog Modular System Synthesizer.svg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Doepfer_modular_synthesizer_-_Skyphone.jpg/960px-Doepfer_modular_synthesizer_-_Skyphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Doepfer_modular_synthesizer_-_Skyphone.jpg",
+     "license": "CC BY 2.0",
+     "author": "Mads Bødker from Copenhagen, Denmark",
+     "title": "Doepfer modular synthesizer - Skyphone.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-007",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Logic ProのDrummerで曲を組み立てる順番",
+   "angle": "ドラマー機能をどこから触り、曲の骨格にどう合わせるかを手順で示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Logic Pro Drummer 使い方",
+    "ドラム 打ち込み"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Logic_Pro",
+    "https://www.apple.com/logic-pro/",
+    "https://www.apple.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg/960px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_01.jpg",
+     "license": "CC BY 4.0",
+     "author": "Mostafameraji",
+     "title": "A drum kit made by Mapex Drums - Cacon Photos- Copyleft - Creative Commons 01.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_02.jpg/960px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_02.jpg",
+     "license": "CC BY 4.0",
+     "author": "Mostafameraji",
+     "title": "A drum kit made by Mapex Drums - Cacon Photos- Copyleft - Creative Commons 02.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_03.jpg/960px-A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_drum_kit_made_by_Mapex_Drums_-_Cacon_Photos-_Copyleft_-_Creative_Commons_03.jpg",
+     "license": "CC BY 4.0",
+     "author": "Mostafameraji",
+     "title": "A drum kit made by Mapex Drums - Cacon Photos- Copyleft - Creative Commons 03.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-008",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "サイドチェイン・コンプの使いどころ、キックとベースを譲る",
+   "angle": "低域がぶつかる2つをどう譲らせるか、設定の考え方を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "サイドチェイン やり方",
+    "コンプレッサー 使い方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dynamic_range_compression",
+    "https://www.izotope.com/",
+    "https://www.soundonsound.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ADT_Mixing_Console.jpg/960px-ADT_Mixing_Console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Prof. Pod",
+     "title": "ADT Mixing Console.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Japanese_audio_engineer_at_mixing_console.jpg/960px-Japanese_audio_engineer_at_mixing_console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_audio_engineer_at_mixing_console.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Sgroey",
+     "title": "Japanese audio engineer at mixing console.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Major_Mixing_Team.jpg/960px-Major_Mixing_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Major_Mixing_Team.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Major Mixing Team",
+     "title": "Major Mixing Team.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-009",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "4畳半で作るDTM環境、ベッドの隣に机を置く",
+   "angle": "狭い部屋で音と作業スペースを両立させる配置を、寸法から考える。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM 部屋 狭い",
+    "4畳半 デスク 配置"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Home_studio",
+    "https://www.ikea.com/jp/ja/",
+    "https://www.sweetwater.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Boonlee89%27s_home_studio.jpg/960px-Boonlee89%27s_home_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Boonlee89%27s_home_studio.jpg",
+     "license": "CC BY 2.0",
+     "author": "Alexis Fam from Madison, United States",
+     "title": "Boonlee89's home studio.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/FLW_home_and_studio.jpg/960px-FLW_home_and_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:FLW_home_and_studio.jpg",
+     "license": "CC0",
+     "author": "Theemausoliam",
+     "title": "FLW home and studio.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Frank_Lloyd_Wright_Home_and_Studio_%28west_side_zoom%29_cropped.jpg/960px-Frank_Lloyd_Wright_Home_and_Studio_%28west_side_zoom%29_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_Home_and_Studio_(west_side_zoom)_cropped.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "John Delano",
+     "title": "Frank Lloyd Wright Home and Studio (west side zoom) cropped.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-010",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "スタジオの照明、モニターの見え方と目の疲れ",
+   "angle": "画面と手元の明るさをどう作るか、長時間作業の負担から選ぶ。",
+   "article_type": "guide",
+   "keywords": [
+    "デスク 照明 目",
+    "スタジオ 照明"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Task_lighting",
+    "https://www.benq.com/",
+    "https://www.ikea.com/jp/ja/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/-44_Light_fixture.jpg/960px--44_Light_fixture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:-44_Light_fixture.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "-44 Light fixture.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2026-06-30_Light_Fixture_by_Robert_Mitchell_%26_Co._%28George_Stephen_House%29_01.jpg/960px-2026-06-30_Light_Fixture_by_Robert_Mitchell_%26_Co._%28George_Stephen_House%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2026-06-30_Light_Fixture_by_Robert_Mitchell_%26_Co._(George_Stephen_House)_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "2026-06-30 Light Fixture by Robert Mitchell & Co. (George Stephen House) 01.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2026-06-30_Wall_light_fixture_by_Robert_Mitchell_%26_Co._%28George_Stephen_House%29_02.jpg/960px-2026-06-30_Wall_light_fixture_by_Robert_Mitchell_%26_Co._%28George_Stephen_House%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2026-06-30_Wall_light_fixture_by_Robert_Mitchell_%26_Co._(George_Stephen_House)_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "2026-06-30 Wall light fixture by Robert Mitchell & Co. (George Stephen House) 02.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-011",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "電源タップと配線ノイズ、機材のコンセントを分ける",
+   "angle": "音機材と家電の電源をどう分けるか、ハムノイズの原因から整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "電源 ノイズ 対策 オーディオ",
+    "電源タップ 選び方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mains_hum",
+    "https://www.furmanpower.com/",
+    "https://www.audioquest.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%2820241007%29_APC_power_strip.jpg/960px-%2820241007%29_APC_power_strip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:(20241007)_APC_power_strip.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "(20241007) APC power strip.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2009-365-319_One_Power_Strip_to_Rule_Them_All_%284106215673%29.jpg/960px-2009-365-319_One_Power_Strip_to_Rule_Them_All_%284106215673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2009-365-319_One_Power_Strip_to_Rule_Them_All_(4106215673).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "2009-365-319 One Power Strip to Rule Them All (4106215673).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Dornbirn-multiple_%284%29_power_strip_CEE_7_3_socket_and_plug-01ASD.jpg/960px-Dornbirn-multiple_%284%29_power_strip_CEE_7_3_socket_and_plug-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dornbirn-multiple_(4)_power_strip_CEE_7_3_socket_and_plug-01ASD.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Dornbirn-multiple (4) power strip CEE 7 3 socket and plug-01ASD.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-012",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "ノートPC1台で完結するDTM、持ち運ぶ環境の組み方",
+   "angle": "据え置きをやめてノート1台にするとき、何を残し何を削るかを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ノートPC DTM",
+    "モバイル 制作環境"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Laptop",
+    "https://www.apple.com/macbook-pro/",
+    "https://www.ableton.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Dual_touch_screen_laptop.jpg/960px-Dual_touch_screen_laptop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dual_touch_screen_laptop.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Dual touch screen laptop.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/960px-IBM_Thinkpad_R51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:IBM_Thinkpad_R51.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "IBM Thinkpad R51.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Laptop-2411303_960_720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Laptop-2411303_960_720.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Laptop-2411303 960 720.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-013",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "メトロノームでリズム感をつくる、練習の設計",
+   "angle": "速さを上げる前に、裏拍と一定の揺れをどう作るかを練習手順で示す。",
+   "article_type": "guide",
+   "keywords": [
+    "メトロノーム 練習",
+    "リズム感 鍛え方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Metronome",
+    "https://www.berklee.edu/",
+    "https://www.musictheory.net/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Korg_MA-2_Digital_Metronome_%28Front_and_Side%29.jpg/960px-Korg_MA-2_Digital_Metronome_%28Front_and_Side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Korg_MA-2_Digital_Metronome_(Front_and_Side).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Korg MA-2 Digital Metronome (Front and Side).jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Metronome_%28Rozanova%2C_1915%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Metronome_(Rozanova,_1915).jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Metronome (Rozanova, 1915).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Metronome_Nikko.jpg/960px-Metronome_Nikko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Metronome_Nikko.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Metronome Nikko.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-014",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "コード進行を覚える順番、まず4つから",
+   "angle": "主要な進行を丸暗記せず、響きから覚える順番を組み立てる。",
+   "article_type": "guide",
+   "keywords": [
+    "コード進行 覚え方",
+    "音楽理論 初心者"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chord_progression",
+    "https://www.musictheory.net/",
+    "https://www.hooktheory.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/C_Major_Scale_on_Musical_Keyboard.svg/960px-C_Major_Scale_on_Musical_Keyboard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:C_Major_Scale_on_Musical_Keyboard.svg",
+     "license": "CC0",
+     "author": "",
+     "title": "C Major Scale on Musical Keyboard.svg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cartoon_Piano_Keyboard.jpg/960px-Cartoon_Piano_Keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cartoon_Piano_Keyboard.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Cartoon Piano Keyboard.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Common_Musical_Keyboard_Sizes.svg/960px-Common_Musical_Keyboard_Sizes.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Common_Musical_Keyboard_Sizes.svg",
+     "license": "CC0",
+     "author": "",
+     "title": "Common Musical Keyboard Sizes.svg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-015",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "譜読みを1か月で、大人から始める",
+   "angle": "読譜のつまずきを分解し、1か月で何ができるようになるかを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "譜読み コツ",
+    "大人 ピアノ 独学"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sight-reading",
+    "https://www.musictheory.net/",
+    "https://www.flowkey.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Broadway_Melody_%281929%29_sheet_music_cover.jpg/960px-Broadway_Melody_%281929%29_sheet_music_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Broadway_Melody_(1929)_sheet_music_cover.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Broadway Melody (1929) sheet music cover.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Chopin_polonaise_Op._53.jpg/960px-Chopin_polonaise_Op._53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Chopin_polonaise_Op._53.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Chopin polonaise Op. 53.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Great_Is_Thy_Faithfulness_sheet_music_from_Abeka.webp/960px-Great_Is_Thy_Faithfulness_sheet_music_from_Abeka.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Great_Is_Thy_Faithfulness_sheet_music_from_Abeka.webp",
+     "license": "Public domain",
+     "author": "",
+     "title": "Great Is Thy Faithfulness sheet music from Abeka.webp"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-016",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "DAWのショートカットを覚える順番",
+   "angle": "全部覚えようとせず、作業の流れに沿って優先順位をつける。",
+   "article_type": "guide",
+   "keywords": [
+    "DAW ショートカット",
+    "作業効率 上げる"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Keyboard_shortcut",
+    "https://www.ableton.com/",
+    "https://www.apple.com/logic-pro/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Backlit_keyboard.jpg/960px-Backlit_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Backlit keyboard.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Backlit_keyboard_2.jpg/960px-Backlit_keyboard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Backlit keyboard 2.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/960px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Camera zoom burst on a Microsoft computer keyboard in Tuntorp 8.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-017",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ミックスの参考曲を選ぶ、自分の基準を持つ",
+   "angle": "好きな曲と目標の音を分けて、比較用の数曲をどう選ぶかを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ミックス 参考曲",
+    "音作り 基準"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Audio_mixing",
+    "https://www.izotope.com/",
+    "https://www.soundonsound.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/A_Headphone.jpg/120px-A_Headphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_Headphone.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "A Headphone.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/AudioQuest_NightHawk_Carbon_headphones_%2833582571334%29.jpg/960px-AudioQuest_NightHawk_Carbon_headphones_%2833582571334%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AudioQuest_NightHawk_Carbon_headphones_(33582571334).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "AudioQuest NightHawk Carbon headphones (33582571334).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/AudioQuest_NightHawk_Carbon_headphones_%2834424584065%29.jpg/960px-AudioQuest_NightHawk_Carbon_headphones_%2834424584065%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AudioQuest_NightHawk_Carbon_headphones_(34424584065).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "AudioQuest NightHawk Carbon headphones (34424584065).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-018",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Obsidianで作る個人ナレッジベース、保存の形式から考える",
+   "angle": "メモをプレーンテキストで残す理由と、リンクで育てる運用を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Obsidian 使い方",
+    "メモ アプリ 比較"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Obsidian_(software)",
+    "https://obsidian.md/",
+    "https://en.wikipedia.org/wiki/Zettelkasten"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/A_notebook_allegedly_covered_in_human_skin_Wellcome_L0043479.jpg/960px-A_notebook_allegedly_covered_in_human_skin_Wellcome_L0043479.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_notebook_allegedly_covered_in_human_skin_Wellcome_L0043479.jpg",
+     "license": "CC BY 4.0",
+     "author": "",
+     "title": "A notebook allegedly covered in human skin Wellcome L0043479.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/960px-IBM_Thinkpad_R51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:IBM_Thinkpad_R51.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "IBM Thinkpad R51.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Notebook_%28NIH_BioArt_394%29.png/960px-Notebook_%28NIH_BioArt_394%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Notebook_(NIH_BioArt_394).png",
+     "license": "Public domain",
+     "author": "",
+     "title": "Notebook (NIH BioArt 394).png"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-019",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "ローカルLLMの量子化、GGUFの数字を読む",
+   "angle": "Q4やQ5の違いが何を犠牲にしているかを、メモリと精度の両面から示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ローカルLLM 量子化",
+    "GGUF Q4 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Llama.cpp",
+    "https://huggingface.co/docs/hub/gguf",
+    "https://ollama.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/139_Server_Room_01.jpg/960px-139_Server_Room_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:139_Server_Room_01.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "139 Server Room 01.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/312_Adelaide_Street_-_6th_floor_server_room_%285278379952%29.jpg/960px-312_Adelaide_Street_-_6th_floor_server_room_%285278379952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:312_Adelaide_Street_-_6th_floor_server_room_(5278379952).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "312 Adelaide Street - 6th floor server room (5278379952).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/A_view_of_the_server_room_at_The_National_Archives.jpg/960px-A_view_of_the_server_room_at_The_National_Archives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_view_of_the_server_room_at_The_National_Archives.jpg",
+     "license": "CC BY 3.0",
+     "author": "",
+     "title": "A view of the server room at The National Archives.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-020",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "GitHub Actionsで定型作業を自動化する",
+   "angle": "定期実行とpush起点の違いから、最初の1本を作るまでを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "GitHub Actions 使い方",
+    "自動化 定時実行"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/GitHub",
+    "https://docs.github.com/en/actions",
+    "https://github.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/African_software_developer_at_work%2C_Nigeria.jpg/960px-African_software_developer_at_work%2C_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:African_software_developer_at_work,_Nigeria.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "African software developer at work, Nigeria.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/JavaScript_code.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:JavaScript_code.png",
+     "license": "CC0",
+     "author": "",
+     "title": "JavaScript code.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Programmer_writing_code_with_Unit_Tests.jpg/960px-Programmer_writing_code_with_Unit_Tests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Programmer_writing_code_with_Unit_Tests.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Programmer writing code with Unit Tests.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-021",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "パスワードマネージャーの乗り換え、移行でつまずく所",
+   "angle": "乗り換え時に何が残り何が移らないかを、手順として整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "パスワードマネージャー 比較",
+    "乗り換え 手順"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Password_manager",
+    "https://bitwarden.com/",
+    "https://1password.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bitwarden_Desktop_2024.12.1_screenshot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bitwarden_Desktop_2024.12.1_screenshot.webp",
+     "license": "GPLv3",
+     "author": "",
+     "title": "Bitwarden Desktop 2024.12.1 screenshot.webp"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DataInherit_Password_Safe_en.png/960px-DataInherit_Password_Safe_en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DataInherit_Password_Safe_en.png",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "DataInherit Password Safe en.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/G%C3%A9n%C3%A9rateur_de_mot_de_passe.png/960px-G%C3%A9n%C3%A9rateur_de_mot_de_passe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9rateur_de_mot_de_passe.png",
+     "license": "CC0",
+     "author": "",
+     "title": "Générateur de mot de passe.png"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-022",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Windowsの時短設定、ショートカットとランチャー",
+   "angle": "標準機能だけで作業を速くする設定を、優先度順に並べる。",
+   "article_type": "guide",
+   "keywords": [
+    "Windows 時短 設定",
+    "ランチャー おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Microsoft_Windows",
+    "https://learn.microsoft.com/en-us/windows/",
+    "https://www.autohotkey.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Backlit_keyboard.jpg/960px-Backlit_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Backlit keyboard.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Backlit_keyboard_2.jpg/960px-Backlit_keyboard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Backlit keyboard 2.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/960px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Camera zoom burst on a Microsoft computer keyboard in Tuntorp 8.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-023",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "アイリッシュウイスキー入門、3回蒸留とピュアポットスチルの違い",
+   "angle": "スコッチとの造りの差から、味の傾向がどこで分かれるかを示す。",
+   "article_type": "theme",
+   "keywords": [
+    "アイリッシュウイスキー 入門",
+    "ピュアポットスチル 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Irish_whiskey",
+    "https://www.diageo.com/",
+    "https://www.jamesonwhiskey.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bishop%27s_Water_Distillery_Irish_Whiskey_Advert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bishop%27s_Water_Distillery_Irish_Whiskey_Advert.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Bishop's Water Distillery Irish Whiskey Advert.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Clontarf_1014_Irish_Whiskey.jpg/960px-Clontarf_1014_Irish_Whiskey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Clontarf_1014_Irish_Whiskey.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Clontarf 1014 Irish Whiskey.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Concannon_Irish_Whiskey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Concannon_Irish_Whiskey.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Concannon Irish Whiskey.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-024",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "ジャパニーズウイスキーの蒸留所、現行ラインナップを巡る",
+   "angle": "主要蒸留所の個性と、いま店頭に並ぶ定番を整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "ジャパニーズウイスキー 蒸留所",
+    "国産ウイスキー おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Japanese_whisky",
+    "https://www.suntory.co.jp/whisky/",
+    "https://www.nikka.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Hibiki_Harmony_Whisky_01.tif/lossy-page1-960px-Hibiki_Harmony_Whisky_01.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hibiki_Harmony_Whisky_01.tif",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Hibiki Harmony Whisky 01.tif"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Japanese_whisky.jpg/960px-Japanese_whisky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_whisky.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Japanese whisky.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Japanese_whisky_soda_2015.jpg/960px-Japanese_whisky_soda_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Japanese_whisky_soda_2015.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Japanese whisky soda 2015.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-025",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "ハイボールの泡、炭酸の強さと氷の形で変わる",
+   "angle": "同じ酒でも泡の作り方で口当たりがどう変わるかを確かめる。",
+   "article_type": "guide",
+   "keywords": [
+    "ハイボール 作り方",
+    "炭酸 強さ ハイボール"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Highball",
+    "https://www.suntory.co.jp/whisky/",
+    "https://www.sodastream.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Exercise_HIGHBALL_%287945601%29.jpg/960px-Exercise_HIGHBALL_%287945601%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Exercise_HIGHBALL_(7945601).jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Exercise HIGHBALL (7945601).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Highball_Country_Centre%2C_Hanley_Swan_-_geograph.org.uk_-_4948687.jpg/960px-Highball_Country_Centre%2C_Hanley_Swan_-_geograph.org.uk_-_4948687.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Highball_Country_Centre,_Hanley_Swan_-_geograph.org.uk_-_4948687.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Highball Country Centre, Hanley Swan - geograph.org.uk - 4948687.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Highball_Country_Centre_-_geograph.org.uk_-_5453502.jpg/960px-Highball_Country_Centre_-_geograph.org.uk_-_5453502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Highball_Country_Centre_-_geograph.org.uk_-_5453502.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Highball Country Centre - geograph.org.uk - 5453502.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-026",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "缶コーヒー5本比較、無糖と微糖の分かれ目",
+   "angle": "甘さの段階と豆の配合で、どこが自分の基準になるかを並べる。",
+   "article_type": "comparison",
+   "keywords": [
+    "缶コーヒー 比較",
+    "無糖 コーヒー おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Canned_coffee",
+    "https://www.suntory.co.jp/",
+    "https://www.coca-cola.com/jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/202601_Canned_product_Details_of_Mr.Brown_Mandheling_coffee.jpg/960px-202601_Canned_product_Details_of_Mr.Brown_Mandheling_coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:202601_Canned_product_Details_of_Mr.Brown_Mandheling_coffee.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "202601 Canned product Details of Mr.Brown Mandheling coffee.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cafe_du_Monde_canned_coffee_blends.jpg/960px-Cafe_du_Monde_canned_coffee_blends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cafe_du_Monde_canned_coffee_blends.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Cafe du Monde canned coffee blends.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Cafe_du_Monde_canned_coffee_chicory_blend.jpg/960px-Cafe_du_Monde_canned_coffee_chicory_blend.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cafe_du_Monde_canned_coffee_chicory_blend.jpg",
+     "license": "CC BY 4.0",
+     "author": "",
+     "title": "Cafe du Monde canned coffee chicory blend.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-027",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ラムネ5本比較、びんと缶で味は変わるか",
+   "angle": "容器と炭酸の持ちで味わいがどう違うかを飲み比べる。",
+   "article_type": "comparison",
+   "keywords": [
+    "ラムネ 比較",
+    "びん ラムネ おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ramune",
+    "https://www.sangaria.co.jp/",
+    "https://www.asahiinryo.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Rainbow_Ramune_201611a.jpg/960px-Rainbow_Ramune_201611a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rainbow_Ramune_201611a.jpg",
+     "license": "CC BY 3.0",
+     "author": "",
+     "title": "Rainbow Ramune 201611a.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rainbow_Ramune_201611b.jpg/960px-Rainbow_Ramune_201611b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rainbow_Ramune_201611b.jpg",
+     "license": "CC BY 3.0",
+     "author": "",
+     "title": "Rainbow Ramune 201611b.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ramune%2C_Asakusa%2C_Tokyo_%2819853464990%29.jpg/960px-Ramune%2C_Asakusa%2C_Tokyo_%2819853464990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ramune,_Asakusa,_Tokyo_(19853464990).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "Ramune, Asakusa, Tokyo (19853464990).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-028",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "エナジードリンクのカフェイン量を並べる、1日の上限から逆算する",
+   "angle": "含有量と糖分を並べ、いつ飲むかを考え直す。",
+   "article_type": "comparison",
+   "keywords": [
+    "エナジードリンク カフェイン 量",
+    "エナジードリンク 比較"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Energy_drink",
+    "https://www.redbull.com/jp-ja/",
+    "https://www.monsterenergy.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cocaine_Energy_Drink_Can.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Cocaine_Energy_Drink_Can.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Cocaine Energy Drink Can.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Energydrinks-collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Energydrinks-collection.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Energydrinks-collection.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Finnish_energy_drink_ED_greenfruit_11-2022_straight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Finnish_energy_drink_ED_greenfruit_11-2022_straight.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Finnish energy drink ED greenfruit 11-2022 straight.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-029",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "昔ながらのサイダー、びん入りを飲み比べる",
+   "angle": "香料と甘さの設計で、どこが懐かしさを作っているかを見る。",
+   "article_type": "comparison",
+   "keywords": [
+    "サイダー 比較",
+    "びん サイダー"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cider",
+    "https://www.asahiinryo.co.jp/",
+    "https://www.kirin.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Big_Fish_Cider_Co_bottle.jpg/960px-Big_Fish_Cider_Co_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Big_Fish_Cider_Co_bottle.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Big Fish Cider Co bottle.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bottle_of_cider.jpg/960px-Bottle_of_cider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle_of_cider.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Bottle of cider.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Bottles_of_cider%2C_Nelson_%2832659914660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottles_of_cider,_Nelson_(32659914660).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "Bottles of cider, Nelson (32659914660).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-030",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "江戸切子のぐい呑み、カットの種類で光り方が変わる",
+   "angle": "代表的なカットの名前と、燗と冷酒での見え方を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "江戸切子 ぐい呑み",
+    "切子 ガラス 種類"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Edo_kiriko",
+    "https://www.edokiriko.or.jp/",
+    "https://www.kagami.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Edo-Kiriko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edo-Kiriko.JPG",
+     "license": "Public domain",
+     "author": "",
+     "title": "Edo-Kiriko.JPG"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Edokiriko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edokiriko.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Edokiriko.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Edokiriko_sold_in_Kanagawa_-_Sept_2024.jpeg/960px-Edokiriko_sold_in_Kanagawa_-_Sept_2024.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Edokiriko_sold_in_Kanagawa_-_Sept_2024.jpeg",
+     "license": "CC BY 4.0",
+     "author": "",
+     "title": "Edokiriko sold in Kanagawa - Sept 2024.jpeg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-031",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "備前焼のぐい呑み、釉薬を使わない焼きが味を丸くする",
+   "angle": "備前焼の特徴と、酒の角が取れる理由を焼きの面から見る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "備前焼 ぐい呑み",
+    "備前焼 特徴"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bizen_ware",
+    "https://www.bizen.or.jp/",
+    "https://www.kurashiki-kanko.net/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bizen-yaki_Traditional_Pottery_Center_Bizen_Okayama_pref_Japan06s5.jpg/960px-Bizen-yaki_Traditional_Pottery_Center_Bizen_Okayama_pref_Japan06s5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bizen-yaki_Traditional_Pottery_Center_Bizen_Okayama_pref_Japan06s5.jpg",
+     "license": "CC BY 2.5",
+     "author": "",
+     "title": "Bizen-yaki Traditional Pottery Center Bizen Okayama pref Japan06s5.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Bizen_Ware_%284788321188%29.jpg/960px-Bizen_Ware_%284788321188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bizen_Ware_(4788321188).jpg",
+     "license": "No restrictions",
+     "author": "",
+     "title": "Bizen Ware (4788321188).jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bizen_sakeflaska_-_tokkuri..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bizen_sakeflaska_-_tokkuri..jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Bizen sakeflaska - tokkuri..jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-032",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "コーデュロイの秋冬コーデ、畝の太さで印象が変わる",
+   "angle": "太畝と細畝の見え方の差から、合わせるアイテムを整理する。",
+   "article_type": "styling",
+   "keywords": [
+    "コーデュロイ コーデ",
+    "秋冬 パンツ 素材"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Corduroy",
+    "https://www.uniqlo.com/jp/",
+    "https://www.drakes.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Black_Faux_Leather_Jacket%2C_Brown_Corduroy_Shorts%2C_Floral_Top%2C_and_Brown_Flats_%2822658676769%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_Faux_Leather_Jacket,_Brown_Corduroy_Shorts,_Floral_Top,_and_Brown_Flats_(22658676769).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Black Faux Leather Jacket, Brown Corduroy Shorts, Floral Top, and Brown Flats (22658676769).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Corduroy_Creek_Bridge%2C_HAER_AZ-27-7.jpg/960px-Corduroy_Creek_Bridge%2C_HAER_AZ-27-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Corduroy_Creek_Bridge,_HAER_AZ-27-7.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Corduroy Creek Bridge, HAER AZ-27-7.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Corduroy_Trousers_and_bellybutton.jpg/960px-Corduroy_Trousers_and_bellybutton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Corduroy_Trousers_and_bellybutton.jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "Corduroy Trousers and bellybutton.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-033",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ネクタイの結び方、場面で使い分ける4種",
+   "angle": "結び目の大きさが作る印象の差を、シャツの襟と合わせて示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ネクタイ 結び方",
+    "ネクタイ 種類"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Necktie",
+    "https://www.hermes.com/",
+    "https://www.drakes.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/A_man_selling_necktie_in_the_street.jpg/960px-A_man_selling_necktie_in_the_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_man_selling_necktie_in_the_street.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "A man selling necktie in the street.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dress-pinstripe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Dress-pinstripe.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Dress-pinstripe.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Knoten_003_2024_02_20.jpg/960px-Knoten_003_2024_02_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Knoten_003_2024_02_20.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Knoten 003 2024 02 20.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-034",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "革小物の経年変化、財布とベルトの育て方",
+   "angle": "色が変わる仕組みと、手入れが何をしているのかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "革 経年変化",
+    "レザー 手入れ 財布"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Leather",
+    "https://www.redwingheritage.com/",
+    "https://www.tanner-goods.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Aarong_leather_wallet.jpg/960px-Aarong_leather_wallet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Aarong_leather_wallet.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Aarong leather wallet.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_%28page_31%29.jpg/960px-Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_%28page_31%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_(page_31).jpg",
+     "license": "No restrictions",
+     "author": "",
+     "title": "Brown Leather Wallet with Embroidered Decoration - DPLA - d7979a2b0d6da8fa8783bd0edf3c7a20 (page 31).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_%28page_5%29.jpg/960px-Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_%28page_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Brown_Leather_Wallet_with_Embroidered_Decoration_-_DPLA_-_d7979a2b0d6da8fa8783bd0edf3c7a20_(page_5).jpg",
+     "license": "No restrictions",
+     "author": "",
+     "title": "Brown Leather Wallet with Embroidered Decoration - DPLA - d7979a2b0d6da8fa8783bd0edf3c7a20 (page 5).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-035",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ウールの見分け方、梳毛と紡毛の違いを知る",
+   "angle": "同じウールでも織り方で何が変わるかを、生地から読む。",
+   "article_type": "guide",
+   "keywords": [
+    "ウール 素材 違い",
+    "梳毛 紡毛"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wool",
+    "https://www.harris-tweed.org/",
+    "https://www.drakes.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Autopoint_Service%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7297465.jpg/960px-Autopoint_Service%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7297465.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Autopoint_Service,_Wool,_Dorset_-_geograph.org.uk_-_7297465.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Autopoint Service, Wool, Dorset - geograph.org.uk - 7297465.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Dorset_Road_Safe_police_vehicle_on_the_A352%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7297409.jpg/960px-Dorset_Road_Safe_police_vehicle_on_the_A352%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7297409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dorset_Road_Safe_police_vehicle_on_the_A352,_Wool,_Dorset_-_geograph.org.uk_-_7297409.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Dorset Road Safe police vehicle on the A352, Wool, Dorset - geograph.org.uk - 7297409.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/East_Burton_Road%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7289854.jpg/960px-East_Burton_Road%2C_Wool%2C_Dorset_-_geograph.org.uk_-_7289854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:East_Burton_Road,_Wool,_Dorset_-_geograph.org.uk_-_7289854.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "East Burton Road, Wool, Dorset - geograph.org.uk - 7289854.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-036",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "ECMレーベル、静けさを録る録音美学",
+   "angle": "残響と間の取り方から、レーベルが作った音の傾向をたどる。",
+   "article_type": "theme",
+   "keywords": [
+    "ECM レーベル",
+    "ジャズ 録音 名盤"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/ECM_Records",
+    "https://ecmrecords.com/",
+    "https://en.wikipedia.org/wiki/Manfred_Eicher/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/African_Jazz_in_1961_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:African_Jazz_in_1961_(2).jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "African Jazz in 1961 (2).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Control_room_-_Pro_Tools%2C_Mackie_B328_32x8x2_recording_console_-_District_54_Jazz_Band_Recording_Session_22_-_Solid_Sound_Recording_Studio%2C_Hoffman_Estates%2C_IL%2C_2011.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Control_room_-_Pro_Tools,_Mackie_B328_32x8x2_recording_console_-_District_54_Jazz_Band_Recording_Session_22_-_Solid_Sound_Recording_Studio,_Hoffman_Estates,_IL,_2011.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Control room - Pro Tools, Mackie B328 32x8x2 recording console - District 54 Jazz Band Recording Session 22 - Solid Sound Recording Studio, Hoffman Estates, IL, 2011.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Dan_R_Recording_COGLAB.jpg/960px-Dan_R_Recording_COGLAB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dan_R_Recording_COGLAB.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Dan R Recording COGLAB.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-037",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "道具を直して使う、修理という選択",
+   "angle": "買い替えの前に直す道を選ぶとき、何を諦め何を得るかを書く。",
+   "article_type": "theme",
+   "keywords": [
+    "修理 して使う",
+    "物を長く使う"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Repair",
+    "https://www.ifixit.com/",
+    "https://en.wikipedia.org/wiki/Right_to_repair"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/BicycleRepairTools.JPG/960px-BicycleRepairTools.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:BicycleRepairTools.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "BicycleRepairTools.JPG"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bicycle_repair_tools%2C_Bicycle_Kitchen%2C_Los_Angeles.jpg/960px-Bicycle_repair_tools%2C_Bicycle_Kitchen%2C_Los_Angeles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bicycle_repair_tools,_Bicycle_Kitchen,_Los_Angeles.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Bicycle repair tools, Bicycle Kitchen, Los Angeles.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Fahrradwerkzeug_Schraubenschl%C3%BCssel_Campagnolo.jpg/960px-Fahrradwerkzeug_Schraubenschl%C3%BCssel_Campagnolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fahrradwerkzeug_Schraubenschl%C3%BCssel_Campagnolo.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Fahrradwerkzeug Schraubenschlüssel Campagnolo.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-038",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "ジャズ喫茶の音、スピーカー越しの夜",
+   "angle": "大きな音で聴く場所が減った今、その体験が何だったかを振り返る。",
+   "article_type": "theme",
+   "keywords": [
+    "ジャズ喫茶 音",
+    "ジャズ喫茶 文化"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jazz_kissa",
+    "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%82%BA%E5%96%AB%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Jazz"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/De_La_Soul_at_the_Jazz_Cafe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:De_La_Soul_at_the_Jazz_Cafe.jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "De La Soul at the Jazz Cafe.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Jazz_Cafe.JPG/960px-Jazz_Cafe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jazz_Cafe.JPG",
+     "license": "CC BY 3.0",
+     "author": "",
+     "title": "Jazz Cafe.JPG"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Jazz_Cafe_-_Parkway%2C_Camden_Town.jpg/960px-Jazz_Cafe_-_Parkway%2C_Camden_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jazz_Cafe_-_Parkway,_Camden_Town.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Jazz Cafe - Parkway, Camden Town.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-039",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "ながら聴きと音楽、集中のための音",
+   "angle": "音楽を聴きながら働くとき、耳が何をしているのかを整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "ながら聴き 音楽",
+    "作業用BGM 集中"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Music_and_emotion",
+    "https://en.wikipedia.org/wiki/Background_music",
+    "https://www.psychologytoday.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/02024_1054_Vinyl_records_in_Bielsko-Bia%C5%82a.jpg/960px-02024_1054_Vinyl_records_in_Bielsko-Bia%C5%82a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:02024_1054_Vinyl_records_in_Bielsko-Bia%C5%82a.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "02024 1054 Vinyl records in Bielsko-Biała.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/12in-Vinyl-LP-Record-Angle.jpg/960px-12in-Vinyl-LP-Record-Angle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:12in-Vinyl-LP-Record-Angle.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "12in-Vinyl-LP-Record-Angle.jpg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Empty_Arms_by_Sonny_James_vinyl_record.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Empty_Arms_by_Sonny_James_vinyl_record.png",
+     "license": "Public domain",
+     "author": "",
+     "title": "Empty Arms by Sonny James vinyl record.png"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-040",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "引っ越しとレコード、モノを運ぶ",
+   "angle": "重い物を抱えて引っ越すとき、何を持ち何を手放すかを書く。",
+   "article_type": "theme",
+   "keywords": [
+    "引っ越し レコード",
+    "レコード 収納"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gramophone_record",
+    "https://en.wikipedia.org/wiki/Moving",
+    "https://www.discogs.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/An_Overview_of_Moving_Companies_and_Their_Use_of_Moving_Boxes.jpg/960px-An_Overview_of_Moving_Companies_and_Their_Use_of_Moving_Boxes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:An_Overview_of_Moving_Companies_and_Their_Use_of_Moving_Boxes.jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "An Overview of Moving Companies and Their Use of Moving Boxes.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Cats_and_moving_boxes_%2845798708575%29.jpg/960px-Cats_and_moving_boxes_%2845798708575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cats_and_moving_boxes_(45798708575).jpg",
+     "license": "CC BY 2.0",
+     "author": "",
+     "title": "Cats and moving boxes (45798708575).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Closed_box_juliane_krug.svg/960px-Closed_box_juliane_krug.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Closed_box_juliane_krug.svg",
+     "license": "CC0",
+     "author": "",
+     "title": "Closed box juliane krug.svg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-041",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "awkでSVGグラフを描く、レーダーチャートの作り",
+   "angle": "外部ライブラリなしで図を出す方法を、座標計算から記録する。",
+   "article_type": "guide",
+   "keywords": [
+    "awk SVG 生成",
+    "レーダーチャート 作り方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/AWK",
+    "https://en.wikipedia.org/wiki/SVG",
+    "https://www.gnu.org/software/gawk/manual/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Example_of_SVG_code.png/960px-Example_of_SVG_code.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Example_of_SVG_code.png",
+     "license": "Public domain",
+     "author": "",
+     "title": "Example of SVG code.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/SVG.com_logo.svg/960px-SVG.com_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:SVG.com_logo.svg",
+     "license": "Public domain",
+     "author": "",
+     "title": "SVG.com logo.svg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Scalable_Vector_Graphics_Circle2.svg/960px-Scalable_Vector_Graphics_Circle2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Scalable_Vector_Graphics_Circle2.svg",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Scalable Vector Graphics Circle2.svg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-042",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "Pythonで画像の知覚ハッシュを比べる",
+   "angle": "画像の一致判定を、見た目ベースのハッシュで試す。",
+   "article_type": "guide",
+   "keywords": [
+    "知覚ハッシュ python",
+    "画像 類似度 判定"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Perceptual_hashing",
+    "https://pillow.readthedocs.io/",
+    "https://pypi.org/project/ImageHash/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Dark_Frame_Master.jpg/960px-Dark_Frame_Master.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dark_Frame_Master.jpg",
+     "license": "CC0",
+     "author": "",
+     "title": "Dark Frame Master.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg/960px-Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Decomposition of an image into colour and grey-scale components - example.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Image_Processing_Practice_for_Image_Rectification_1.jpg/330px-Image_Processing_Practice_for_Image_Rectification_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Image_Processing_Practice_for_Image_Rectification_1.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Image Processing Practice for Image Rectification 1.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-043",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "Hugoのビルド時間を計測する、生成物を減らして比べる",
+   "angle": "ビルドが遅い原因を、テンプレートと画像から切り分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "Hugo ビルド 高速化",
+    "静的サイト 生成"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hugo_(software)",
+    "https://gohugo.io/",
+    "https://github.com/gohugoio/hugo"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hinderwell_Static_Caravan_Site_-_geograph.org.uk_-_713865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Hinderwell_Static_Caravan_Site_-_geograph.org.uk_-_713865.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Hinderwell Static Caravan Site - geograph.org.uk - 713865.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Kingfisher_static_caravan_site%2C_Wolsingham_-_geograph.org.uk_-_8280438.jpg/960px-Kingfisher_static_caravan_site%2C_Wolsingham_-_geograph.org.uk_-_8280438.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kingfisher_static_caravan_site,_Wolsingham_-_geograph.org.uk_-_8280438.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Kingfisher static caravan site, Wolsingham - geograph.org.uk - 8280438.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kingfisher_static_caravan_site%2C_Wolsingham_-_geograph.org.uk_-_8281283.jpg/960px-Kingfisher_static_caravan_site%2C_Wolsingham_-_geograph.org.uk_-_8281283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kingfisher_static_caravan_site,_Wolsingham_-_geograph.org.uk_-_8281283.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "",
+     "title": "Kingfisher static caravan site, Wolsingham - geograph.org.uk - 8281283.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-044",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "lab",
+   "new_category": null,
+   "theme": "PowerShellからCLIを無人で定期実行する",
+   "angle": "タスクスケジューラでCLIを回すときの、ロックとログの扱いを記録する。",
+   "article_type": "guide",
+   "keywords": [
+    "PowerShell 定期実行",
+    "タスクスケジューラ CLI"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Windows_Task_Scheduler",
+    "https://learn.microsoft.com/en-us/powershell/",
+    "https://learn.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Afw_scheduler-task-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Afw_scheduler-task-en.png",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Afw scheduler-task-en.png"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Afw_scheduler-tasks-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Afw_scheduler-tasks-en.png",
+     "license": "CC BY-SA 3.0",
+     "author": "",
+     "title": "Afw scheduler-tasks-en.png"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Global_Task_Scheduling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Global_Task_Scheduling.jpg",
+     "license": "Public domain",
+     "author": "",
+     "title": "Global Task Scheduling.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-045",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "git worktreeで複数ブランチを行き来する",
+   "angle": "作業ツリーを分けて、切り替えの手間を減らす使い方をメモする。",
+   "article_type": "guide",
+   "keywords": [
+    "git worktree 使い方",
+    "ブランチ 管理"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Git",
+    "https://git-scm.com/docs/git-worktree",
+    "https://git-scm.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/20231112_13_44_46-Git_Gui_error.png/960px-20231112_13_44_46-Git_Gui_error.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:20231112_13_44_46-Git_Gui_error.png",
+     "license": "GPLv2",
+     "author": "",
+     "title": "20231112 13 44 46-Git Gui error.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Basic_git_branching_workflow_%28GitLab%29.png/960px-Basic_git_branching_workflow_%28GitLab%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Basic_git_branching_workflow_(GitLab).png",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Basic git branching workflow (GitLab).png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Basic_git_branching_workflow_%28GitLab%29.svg/960px-Basic_git_branching_workflow_%28GitLab%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Basic_git_branching_workflow_(GitLab).svg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Basic git branching workflow (GitLab).svg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-046",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "Windowsのシンボリックリンク、開発で使う場面",
+   "angle": "管理者権限やジャンクションとの違いを含めて、使いどころをまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "Windows シンボリックリンク",
+    "mklink 使い方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/NTFS",
+    "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mklink",
+    "https://learn.microsoft.com/en-us/windows/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Architectural_Details_Balconies_and_Windows_of_Taj_Tower_Hotel%2C_Mumbai.jpg/960px-Architectural_Details_Balconies_and_Windows_of_Taj_Tower_Hotel%2C_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Architectural_Details_Balconies_and_Windows_of_Taj_Tower_Hotel,_Mumbai.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Architectural Details Balconies and Windows of Taj Tower Hotel, Mumbai.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beilstein_-_Billensbach_-_Stocksberger_Str._14_-_Werkstatt_-_Fenster_mit_Hopfenranken_%281%29.jpg/960px-Beilstein_-_Billensbach_-_Stocksberger_Str._14_-_Werkstatt_-_Fenster_mit_Hopfenranken_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beilstein_-_Billensbach_-_Stocksberger_Str._14_-_Werkstatt_-_Fenster_mit_Hopfenranken_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Beilstein - Billensbach - Stocksberger Str. 14 - Werkstatt - Fenster mit Hopfenranken (1).jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ellis_Island_hospital_window_mural_%2801897%29.jpg/960px-Ellis_Island_hospital_window_mural_%2801897%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ellis_Island_hospital_window_mural_(01897).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Ellis Island hospital window mural (01897).jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-047",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "PowerShellでCSVを集計する、Import-Csvの基本",
+   "angle": "表計算を開かずに集計するときの、よく使う書き方を残す。",
+   "article_type": "guide",
+   "keywords": [
+    "PowerShell CSV 集計",
+    "Import-Csv 使い方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Comma-separated_values",
+    "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/import-csv",
+    "https://learn.microsoft.com/en-us/powershell/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Crystal_004_spreadsheet_document.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Crystal_004_spreadsheet_document.png",
+     "license": "LGPL",
+     "author": "",
+     "title": "Crystal 004 spreadsheet document.png"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Emotion_sort_exercise.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Emotion_sort_exercise.png",
+     "license": "CC BY 4.0",
+     "author": "",
+     "title": "Emotion sort exercise.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Lab-notebook-spreadsheet-simulation.jpg/960px-Lab-notebook-spreadsheet-simulation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Lab-notebook-spreadsheet-simulation.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Lab-notebook-spreadsheet-simulation.jpg"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-048",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "Playwrightの永続プロファイルでログインを保つ",
+   "angle": "毎回ログインし直さずに自動化するときの、保存先と注意点を記録する。",
+   "article_type": "guide",
+   "keywords": [
+    "Playwright プロファイル",
+    "ログイン状態 保存"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Playwright_(software)",
+    "https://playwright.dev/python/",
+    "https://playwright.dev/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/AUSKey_Browser.png/960px-AUSKey_Browser.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AUSKey_Browser.png",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "AUSKey Browser.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Joana_Chicau_-_Act_2_-_live_coding_browser_Javascript.png/960px-Joana_Chicau_-_Act_2_-_live_coding_browser_Javascript.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Joana_Chicau_-_Act_2_-_live_coding_browser_Javascript.png",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Joana Chicau - Act 2 - live coding browser Javascript.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Joana_Chicau_-_Tango_-_live_coding_browser_Javascript.png/960px-Joana_Chicau_-_Tango_-_live_coding_browser_Javascript.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Joana_Chicau_-_Tango_-_live_coding_browser_Javascript.png",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Joana Chicau - Tango - live coding browser Javascript.png"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-049",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "notes",
+   "new_category": null,
+   "theme": "画像を一括で圧縮するスクリプト、Pillowで書く",
+   "angle": "配布用の画像をまとめて軽くする手順を、失敗時の扱いも含めて残す。",
+   "article_type": "guide",
+   "keywords": [
+    "Pillow 画像 圧縮",
+    "画像 一括 変換"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Image_compression",
+    "https://pillow.readthedocs.io/",
+    "https://pypi.org/project/Pillow/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Compression_Ephesos.jpg/960px-Compression_Ephesos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Compression_Ephesos.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Compression Ephesos.jpg"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Compression_Strain-Stress_Curve.png/960px-Compression_Strain-Stress_Curve.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Compression_Strain-Stress_Curve.png",
+     "license": "CC BY-SA 4.0",
+     "author": "",
+     "title": "Compression Strain-Stress Curve.png"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/D%C3%A9compression_Fractale_d%27une_photo_de_Margaret_Hamilton.png/960px-D%C3%A9compression_Fractale_d%27une_photo_de_Margaret_Hamilton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:D%C3%A9compression_Fractale_d%27une_photo_de_Margaret_Hamilton.png",
+     "license": "CC0",
+     "author": "",
+     "title": "Décompression Fractale d'une photo de Margaret Hamilton.png"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 5,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w42-050",
+   "status": "approved",
+   "created": "2026-10-18",
+   "retry": 0
   }
  ]
 }
