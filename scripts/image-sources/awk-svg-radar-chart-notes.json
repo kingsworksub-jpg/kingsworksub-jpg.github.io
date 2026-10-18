@@ -1,0 +1,23 @@
+{
+ "/images/awk-radar/kernighan-vcf-east.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Brian_Kernighan_at_VCF_East_2.jpg/1280px-Brian_Kernighan_at_VCF_East_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Brian_Kernighan_at_VCF_East_2.jpg",
+  "license": "CC0",
+  "author": "Jw12321",
+  "title": "File:Brian Kernighan at VCF East 2.jpg"
+ },
+ "/images/awk-radar/bell-labs-murray-hill.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bell_Telephone_Laboratories%2C_Murray_Hill%2C_New_Jersey._LOC_gsc.5a08397.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Bell_Telephone_Laboratories,_Murray_Hill,_New_Jersey._LOC_gsc.5a08397.jpg",
+  "license": "Public domain",
+  "author": "Gottscho-Schleisner Collection",
+  "title": "File:Bell Telephone Laboratories, Murray Hill, New Jersey. LOC gsc.5a08397.jpg"
+ },
+ "/images/awk-radar/dec-vt100.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/7/7e/DEC_VT100_Terminal_%2816131954383%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:DEC_VT100_Terminal_(16131954383).jpg",
+  "license": "CC0",
+  "author": "Wolfgang Stief from Tittmoning, Germany",
+  "title": "File:DEC VT100 Terminal (16131954383).jpg"
+ }
+}
