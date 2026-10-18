@@ -2008,6 +2008,18 @@
    "note_key": "n12b64385b528",
    "engine": "claude",
    "at": "2026-10-18T21:43:24+09:00"
+  },
+  {
+   "id": "2026w42-046",
+   "category": "notes",
+   "theme": "git worktreeで複数ブランチを行き来する",
+   "slug": "git-worktree-multiple-branches-notes",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/git-worktree-multiple-branches-notes/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-18T23:08:44+09:00"
   }
  ]
 }
