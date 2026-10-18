@@ -1972,6 +1972,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-18T12:09:59+09:00"
+  },
+  {
+   "id": "2026w40-043",
+   "category": "drink",
+   "theme": "家で作るモクテル、炭酸水とシロップで足りる範囲",
+   "slug": "home-mocktail-soda-syrup-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/home-mocktail-soda-syrup-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-18T17:39:10+09:00"
   }
  ]
 }
