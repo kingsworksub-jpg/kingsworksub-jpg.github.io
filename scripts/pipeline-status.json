@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T23:08:44+09:00",
+ "updated": "2026-10-18T23:09:02+09:00",
  "queue": {
   "published": 85,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published git-worktree-multiple-branches-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-18T23:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-18T22:40:06+09:00",
+  "at": "2026-10-18T23:09:02+09:00",
   "engine": "claude",
-  "detail": "手動補充: 承認済み50件を追加 (approved 63)"
+  "detail": "- **Mismatch to check:** today (10/18) is an even day, and CLAUDE.md says the 23:00 slot on even days should go to note. `topic_plan.py slot` returned `github` anyway. I followed the command output as the prompt instructs, but either `slots_for_date()` or CLAUDE.md is likely wrong."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-18T23:09:02+09:00",
+   "engine": "claude",
+   "detail": "- **Mismatch to check:** today (10/18) is an even day, and CLAUDE.md says the 23:00 slot on even days should go to note. `topic_plan.py slot` returned `github` anyway. I followed the command output as the prompt instructs, but either `slots_for_date()` or CLAUDE.md is likely wrong."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-17T23:11:00+09:00",
    "engine": "claude",
    "detail": "The 23:00 slot came back as note. The 23:00 rule says odd dates go to github, and today (the 17th) is odd. I followed the `slot` command's output as the prompt instructs, but `slots_for_date()` may be using a different date or have the even/odd check flipped. It's worth checking."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-17T21:48:57+09:00",
-   "engine": "claude",
-   "detail": "ネタは完了として記録し、CLAUDE.md の note 表に1行追加してpush済みです。調査役のサブエージェントが指示に反してリポジトリ直下に調査メモ `kanzake_research_findings.md` を作っていたので、中身を確認したうえで削除しました（commitはされていません）。"
   }
  ]
 }
