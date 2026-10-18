@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-18T21:30:32+09:00",
+ "updated": "2026-10-18T21:43:24+09:00",
  "queue": {
-  "published": 83,
+  "published": 84,
   "rejected": 1,
-  "approved": 13,
-  "in_progress": 1
+  "approved": 13
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published ace-studio-ai-vocal-synthesis-2026",
+ "last_result": "published jazz-fusion-1970s-weather-report",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
