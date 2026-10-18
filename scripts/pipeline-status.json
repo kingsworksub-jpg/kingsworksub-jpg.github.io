@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-19T07:30:25+09:00",
+ "updated": "2026-10-19T07:41:39+09:00",
  "queue": {
-  "published": 85,
+  "published": 86,
   "rejected": 1,
-  "approved": 61,
-  "in_progress": 1
+  "approved": 61
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published git-worktree-multiple-branches-notes",
+ "last_result": "published awk-svg-radar-chart-notes",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
