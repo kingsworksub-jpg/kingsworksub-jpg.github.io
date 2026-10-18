@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-18T12:00:31+09:00",
+ "updated": "2026-10-18T12:09:59+09:00",
  "queue": {
-  "published": 80,
-  "in_progress": 1,
+  "published": 81,
   "rejected": 1,
   "approved": 16
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published new-scotch-distilleries-young-whisky-2026",
+ "last_result": "published video-music-shared-desk-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
