@@ -1,0 +1,37 @@
+{
+ "/images/shared-desk/home-studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Dai_Stanton%27s_home_studio_2009-03-07.jpg/1280px-Dai_Stanton%27s_home_studio_2009-03-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dai_Stanton%27s_home_studio_2009-03-07.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Dai Stanton",
+  "title": "File:Dai Stanton's home studio 2009-03-07.jpg"
+ },
+ "/images/shared-desk/friend-studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Friend%27s_home_studio_%28by_David_J%29.jpg/1280px-Friend%27s_home_studio_%28by_David_J%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Friend%27s_home_studio_(by_David_J).jpg",
+  "license": "CC BY 2.0",
+  "author": "David J",
+  "title": "File:Friend's home studio (by David J).jpg"
+ },
+ "/images/shared-desk/big-knob.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Mackie_Big_Knob_Passive_Monitor_Controller.tif/lossless-page1-1280px-Mackie_Big_Knob_Passive_Monitor_Controller.tif.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Mackie_Big_Knob_Passive_Monitor_Controller.tif",
+  "license": "CC BY 4.0",
+  "author": "PJ",
+  "title": "File:Mackie Big Knob Passive Monitor Controller.tif"
+ },
+ "/images/shared-desk/resolve-keyboard.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Blackmagic_Design_DaVinci_Resolve_Editor_Keyboard.jpg/1280px-Blackmagic_Design_DaVinci_Resolve_Editor_Keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Blackmagic_Design_DaVinci_Resolve_Editor_Keyboard.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "TaurusEmerald",
+  "title": "File:Blackmagic Design DaVinci Resolve Editor Keyboard.jpg"
+ },
+ "/images/shared-desk/power-strip.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/APC_SurgeArrest_Surge_Protector_Power_Strip_%2848968398472%29.jpg/1280px-APC_SurgeArrest_Surge_Protector_Power_Strip_%2848968398472%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:APC_SurgeArrest_Surge_Protector_Power_Strip_(48968398472).jpg",
+  "license": "CC BY 2.0",
+  "author": "Tony Webster from Minneapolis, Minnesota, United States",
+  "title": "File:APC SurgeArrest Surge Protector Power Strip (48968398472).jpg"
+ }
+}
