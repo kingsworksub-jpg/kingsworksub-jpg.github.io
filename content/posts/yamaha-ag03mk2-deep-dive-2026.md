@@ -3,7 +3,7 @@ title: "Yamaha AG03MK2が配信と宅録をつなぐ理由、ループバック�
 description: "ライブ配信やゲーム実況から本格的な宅録・音楽制作まで幅広く愛用されているYamaha AG03MK2の魅力と、ループバック機能や直感的な物理フェーダーによる優れた操作性の秘密を徹底解説します。"
 images: ["/images/og/yamaha-ag03mk2-deep-dive-2026.jpg"]
 date: 2026-10-11T14:00:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["Yamaha", "AG03MK2", "オーディオインターフェイス", "配信機材"]
 draft: false
 scheduled_time: "17:30"

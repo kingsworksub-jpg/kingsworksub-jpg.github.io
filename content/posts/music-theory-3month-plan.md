@@ -5,7 +5,7 @@ images: ["/images/og/music-theory-3month-plan.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-06T14:02:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["音楽理論", "独学", "MIDIキーボード", "イヤートレーニング", "練習法", "DTM"]
 draft: false
 ---

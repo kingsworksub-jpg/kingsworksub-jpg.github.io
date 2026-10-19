@@ -5,7 +5,7 @@ images: ["/images/og/ear-training-one-week.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-09T07:30:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["耳コピ", "イヤートレーニング", "相対音感", "練習法", "DTM", "独学"]
 draft: false
 scheduled_time: "07:30"

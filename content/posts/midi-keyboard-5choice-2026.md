@@ -5,7 +5,7 @@ images: ["/images/og/midi-keyboard-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-15
-categories: ["gear"]
+categories: [misc]
 tags: ["MIDIキーボード", "機材", "比較", "Komplete Kontrol", "MPK Mini", "KeyLab Essential", "Launchkey", "A-88MKII"]
 draft: false
 aliases:

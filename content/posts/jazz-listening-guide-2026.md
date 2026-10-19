@@ -5,7 +5,7 @@ images: ["/images/og/jazz-listening-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-03T19:10:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["ジャズ", "音楽鑑賞", "入門書", "聴き方", "名盤"]
 draft: false
 ---

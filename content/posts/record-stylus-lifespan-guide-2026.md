@@ -5,7 +5,7 @@ images: ["/images/og/record-stylus-lifespan-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-13T17:30:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["レコード針", "カートリッジ", "針圧", "ターンテーブル", "Ortofon", "Audio-Technica"]
 draft: false
 scheduled_time: "17:30"

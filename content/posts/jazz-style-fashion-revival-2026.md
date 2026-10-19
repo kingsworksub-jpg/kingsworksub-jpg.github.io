@@ -3,7 +3,7 @@ title: "ピンストライプとダブルブレスト、ジャズスタイルが
 description: 1920年代から続くジャズ文化と密接に結びついたファッションスタイルが、2026年の現代ファッションシーンで再び脚光を浴びている。ピンストライプスーツからダブルブレストジャケット、シャープな靴まで、ジャズメンたちが体現した美学がどのように現代に継承されているのかを追った。
 slug: jazz-style-fashion-revival-2026
 date: 2026-09-30
-categories: [fashion]
+categories: [misc]
 images: ["/images/og/jazz-style-fashion-revival-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

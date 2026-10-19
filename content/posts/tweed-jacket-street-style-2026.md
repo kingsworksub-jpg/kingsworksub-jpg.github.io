@@ -3,7 +3,7 @@ title: "ツイードジャケットの着こなし、目の粗いヘビーウェ
 description: "秋冬の定番アウターであるツイードジャケットの魅力と、目の粗いヘビーウェイトな紡毛生地を現代の都市型カジュアルやクラシックスタイルに落とし込むためのコーディネート術を詳しく解説します。"
 images: ["/images/og/tweed-jacket-street-style-2026.jpg"]
 date: 2026-10-11T18:00:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["ツイードジャケット", "メンズファッション", "秋冬コーデ", "トラッド"]
 draft: false
 scheduled_time: "17:30"

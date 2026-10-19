@@ -2,7 +2,7 @@
 title: "コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める"
 date: 2026-10-09T17:30:00+09:00
 draft: false
-categories: ["learning"]
+categories: [misc]
 scheduled_time: "17:30"
 description: "白紙状態から作曲を始めると必ず途中で手が止まってしまう悩みに対して、4小節のループから1曲を完成させる1か月の具体的な段取りと、曲の展開やアレンジで一切迷わなくなるための組み立て方を余すところなく徹底的に解説します。"
 images: ["/images/og/code-progress-1month-2026.jpg"]

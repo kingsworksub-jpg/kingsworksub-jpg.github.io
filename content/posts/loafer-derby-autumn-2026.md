@@ -5,7 +5,7 @@ images: ["/images/og/loafer-derby-autumn-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-15T20:00:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["ローファー", "ダービーシューズ", "革靴", "メンズファッション", "秋コーデ", "靴下"]
 draft: false
 scheduled_time: "20:00"

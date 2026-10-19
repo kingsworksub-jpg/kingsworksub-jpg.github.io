@@ -5,7 +5,7 @@ images: ["/images/og/sony-ecm-ax10-spatial-mic-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-11T17:30:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["ECM-AX10", "ソニー", "空間オーディオ", "アンビソニックス", "バイノーラル", "フィールド録音", "スマホ マイク"]
 draft: false
 scheduled_time: "17:30"

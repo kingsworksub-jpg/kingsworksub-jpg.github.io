@@ -5,7 +5,7 @@ images: ["/images/og/rega-planar3-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
-categories: ["gear"]
+categories: [misc]
 tags: ["Rega", "Planar 3", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
 draft: false
 aliases:

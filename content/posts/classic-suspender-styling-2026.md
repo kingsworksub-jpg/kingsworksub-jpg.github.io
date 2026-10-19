@@ -5,7 +5,7 @@ images: ["/images/og/classic-suspender-styling-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-01T14:30:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["メンズファッション", "サスペンダー", "中折れハット", "ネクタイ", "コーディネート", "クラシックスタイル"]
 draft: false
 ---

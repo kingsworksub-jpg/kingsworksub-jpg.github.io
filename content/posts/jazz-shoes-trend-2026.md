@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-23T10:30:00+09:00
 draft: false
-categories: ["fashion"]
+categories: [misc]
 tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", "ファッション"]
 ---
 

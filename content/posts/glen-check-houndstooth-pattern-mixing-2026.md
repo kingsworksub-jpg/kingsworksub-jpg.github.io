@@ -5,7 +5,7 @@ images: ["/images/og/glen-check-houndstooth-pattern-mixing-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-17T20:00:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["グレンチェック", "千鳥格子", "ハウンドトゥース", "柄合わせ", "メンズファッション", "秋冬コーデ", "ネクタイ"]
 draft: false
 scheduled_time: "20:00"

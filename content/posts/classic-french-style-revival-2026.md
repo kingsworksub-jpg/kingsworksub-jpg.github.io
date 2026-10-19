@@ -2,7 +2,7 @@
 title: "ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル"
 date: 2026-09-30T18:00:00+09:00
 slug: "classic-french-style-revival-2026"
-categories: ["fashion"]
+categories: [misc]
 description: "2026年のファッション界でセリーヌやジル・サンダーが主導するクラシック・フレンチスタイルの復権。Serge Gainbourgeの1970年代的洗練と、Left Bank の知識人らしさ、そしてRiviera の感性が、極限まで削ぎ落とされたミニマリズムに代わってジェン・Zに選ばれている理由。"
 images: ["/images/og/classic-french-style-revival-2026.jpg"]
 ogImageWidth: 1200

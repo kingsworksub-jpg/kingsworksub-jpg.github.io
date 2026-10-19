@@ -7,7 +7,7 @@ ogImageHeight: 630
 date: 2026-09-30T16:15:00+09:00
 lastmod: 2026-09-30T16:15:00+09:00
 draft: false
-categories: ["fashion"]
+categories: [misc]
 ---
 
 

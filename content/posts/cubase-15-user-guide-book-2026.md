@@ -5,7 +5,7 @@ images: ["/images/og/cubase-15-user-guide-book-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-01T09:15:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["Cubase", "Cubase Pro 15", "DTM", "書籍", "ユーザーガイド", "学習"]
 draft: false
 ---

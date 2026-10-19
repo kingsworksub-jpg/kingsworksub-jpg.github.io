@@ -2,7 +2,7 @@
 title: "大人から鍵盤を始める、指より先に決めることがある"
 date: 2026-10-09T17:30:00+09:00
 draft: false
-categories: ["learning"]
+categories: [misc]
 scheduled_time: "17:30"
 description: "大人になってから鍵盤演奏を独習する際、ただ漫然と練習するのではなく、DAWでの打ち込みや作曲に直結させるために最初に決めておくべき具体的な心構えと毎日の練習計画を徹底的に解説します。"
 images: ["/images/og/adult-piano-learning-2026.jpg"]

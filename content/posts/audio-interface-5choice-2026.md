@@ -5,7 +5,7 @@ images: ["/images/og/audio-interface-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-15
-categories: ["gear"]
+categories: [misc]
 tags: ["オーディオインターフェース", "機材", "比較", "Scarlett", "Volt", "RME", "AG03MK2", "UR22C"]
 draft: false
 aliases:

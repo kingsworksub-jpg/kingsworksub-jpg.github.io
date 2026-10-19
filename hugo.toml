@@ -92,6 +92,11 @@ pygmentsUseClasses = true
     name = 'ドリンクツール・ギア'
     url = '/categories/drink-tools/'
     weight = 48
+  [[menu.main]]
+    identifier = 'misc'
+    name = 'その他'
+    url = '/categories/misc/'
+    weight = 54
    [[menu.main]]
     identifier = 'music'
     name = '音楽・レビュー・ディスクガイド'

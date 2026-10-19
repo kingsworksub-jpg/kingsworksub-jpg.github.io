@@ -3,7 +3,7 @@ title: "flowkeyだけにある「待ってくれるモード」、ピアノ練�
 description: "Simply Piano、Skoove、flowkeyの3つのピアノ練習アプリを、音の判定方法・楽譜の出し方・待ってくれるモードの有無・料金プランで比較し、DTMで鍵盤を弾けるようになりたい人向けの続け方を考える。"
 images: ["/images/og/piano-practice-apps-3choice-2026.jpg"]
 date: 2026-10-12T15:50:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["ピアノ練習アプリ", "Simply Piano", "Skoove", "flowkey", "DTM", "鍵盤練習"]
 draft: false
 scheduled_time: "manual"
