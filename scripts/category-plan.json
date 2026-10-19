@@ -22,7 +22,7 @@
  },
  {
   "id": "drink-recipe",
-  "name": "レシピ・割り方・ハック",
+  "name": "レシピ・カクテル",
   "weight": 1.0,
   "channel": "ameba",
   "content_dir": "culture"
@@ -94,6 +94,13 @@
   "id": "misc",
   "name": "その他",
   "weight": 0,
+  "channel": "ameba",
+  "content_dir": "culture"
+ },
+ {
+  "id": "drink-hack",
+  "name": "ハック・裏技",
+  "weight": 1.0,
   "channel": "ameba",
   "content_dir": "culture"
  }
