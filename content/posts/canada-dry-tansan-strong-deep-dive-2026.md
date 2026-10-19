@@ -5,7 +5,7 @@ images: ["/images/og/canada-dry-tansan-strong-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-21
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["カナダドライ", "ザ・タンサン", "コカ・コーラ", "強炭酸水", "ラベルレス", "レビュー"]
 draft: false
 aliases:

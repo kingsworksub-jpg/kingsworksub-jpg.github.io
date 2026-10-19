@@ -5,7 +5,7 @@ images: ["/images/og/sangaria-kireina-tansansui-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-20
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["サンガリア", "きれいな炭酸水", "日本サンガリアベバレッジカンパニー", "炭酸水", "レビュー"]
 draft: false
 aliases:

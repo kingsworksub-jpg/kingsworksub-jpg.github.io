@@ -5,7 +5,7 @@ images: ["/images/og/wilkinson-tansan-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-18
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["ウィルキンソン", "タンサン", "炭酸水", "アサヒ飲料", "飲料", "レビュー"]
 draft: false
 aliases:

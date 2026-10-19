@@ -5,7 +5,7 @@ images: ["/images/og/san-pellegrino-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-19
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["サンペレグリノ", "S.Pellegrino", "炭酸水", "イタリア", "ミネラルウォーター"]
 draft: false
 aliases:

@@ -5,7 +5,7 @@ images: ["/images/og/sodastream-terra-carbonation-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-13T19:50:00+09:00
-categories: ["drink"]
+categories: ["drink-tools"]
 tags: ["炭酸水メーカー", "ソーダストリーム", "TERRA", "E-TERRA", "強炭酸", "ハイボール"]
 draft: false
 scheduled_time: "20:00"

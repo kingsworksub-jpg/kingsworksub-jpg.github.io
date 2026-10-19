@@ -5,7 +5,7 @@ images: ["/images/og/dodecamin-zero-sakebitai-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-21
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["ドデカミン", "アサヒ飲料", "炭酸飲料", "エナジードリンク", "ゼロカロリー", "レビュー"]
 draft: false
 aliases:

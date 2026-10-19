@@ -3,7 +3,7 @@ title: "経口補水液とスポーツドリンク、電解質濃度と糖分の
 description: "熱中症対策や体調不良時の水分補給として欠かせない経口補水液とスポーツドリンクの決定的な違いを、電解質濃度や糖分比率、小腸での吸収メカニズム、および私たちの日常生活におけるそれぞれの適切な飲み分けの観点から詳しく徹底解説します。"
 images: ["/images/og/oral-rehydration-vs-sports-drink-2026.jpg"]
 date: 2026-10-11T16:00:00+09:00
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["経口補水液", "スポーツドリンク", "水分補給", "健康管理"]
 draft: false
 scheduled_time: "17:30"

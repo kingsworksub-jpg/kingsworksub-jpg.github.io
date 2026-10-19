@@ -5,7 +5,7 @@ images: ["/images/og/fuji-strong-soda-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-18
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["アイリスオーヤマ", "富士山の強炭酸水", "炭酸水", "飲料", "レビュー"]
 draft: false
 aliases:

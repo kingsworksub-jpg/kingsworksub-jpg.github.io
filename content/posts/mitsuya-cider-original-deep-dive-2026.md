@@ -5,7 +5,7 @@ images: ["/images/og/mitsuya-cider-original-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-21
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["三ツ矢サイダー", "アサヒ飲料", "サイダー", "炭酸飲料", "レビュー"]
 draft: false
 aliases:
