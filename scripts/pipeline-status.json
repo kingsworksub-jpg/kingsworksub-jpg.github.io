@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T23:12:33+09:00",
+ "updated": "2026-10-19T23:12:47+09:00",
  "queue": {
   "published": 89,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published repair-instead-of-replace-essay-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-19T23:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-19T21:30:15+09:00",
+  "state": "finished",
+  "at": "2026-10-19T23:12:47+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 10:30pm (Asia/Tokyo)"
+  "detail": "The research couldn't confirm a few figures, so I left them out: Patagonia's yearly repair count, the total number of France's repair bonuses, and an exact count of Repair Cafés (the essay just says 'over 2,000')."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-19T23:12:47+09:00",
+   "engine": "claude",
+   "detail": "The research couldn't confirm a few figures, so I left them out: Patagonia's yearly repair count, the total number of France's repair bonuses, and an exact count of Repair Cafés (the essay just says 'over 2,000')."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-18T21:43:36+09:00",
    "engine": "claude",
    "detail": "`validate_post.py` passed, the topic is marked complete, the new note post is added to the note table in CLAUDE.md, and everything is pushed. This makes 5 posts today out of the limit of 6."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-18T20:19:29+09:00",
-   "engine": "claude",
-   "detail": "- **Left out:** I didn't include how Japanese lyrics are typed per note, whether the menus are in Japanese, or Apple Silicon support, because neither check could confirm them. That leaves the Japanese-input section more general."
   }
  ]
 }
