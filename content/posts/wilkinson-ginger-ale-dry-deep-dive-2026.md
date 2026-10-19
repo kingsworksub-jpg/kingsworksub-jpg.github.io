@@ -3,7 +3,7 @@ title: "ウィルキンソン ジンジャエール辛口が1904年から守る�
 description: "ウィルキンソン ジンジャエール辛口の刺激がどこから来るのか、生姜エキスの配合と強炭酸の仕組みを軸に、甘口タイプとの違いや割り材としての使い方、現行品としての立ち位置までまとめて整理して紹介する一本です。"
 images: ["/images/og/wilkinson-ginger-ale-dry-deep-dive-2026.jpg"]
 date: 2026-10-12T15:30:00+09:00
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["ウィルキンソン", "ジンジャエール", "辛口", "ドライジンジャエール", "割り材"]
 draft: false
 scheduled_time: "manual"

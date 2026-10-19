@@ -5,7 +5,7 @@ images: ["/images/og/vox-cola-flavor-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-26
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["VOX", "フォルダ", "強炭酸水", "炭酸水", "コーラフレーバー", "無糖", "レビュー"]
 draft: false
 aliases:

@@ -5,7 +5,7 @@ images: ["/images/og/monster-pipeline-punch-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-20
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["モンスターエナジー", "パイプラインパンチ", "アサヒ飲料", "炭酸飲料", "エナジードリンク", "レビュー"]
 draft: false
 aliases:

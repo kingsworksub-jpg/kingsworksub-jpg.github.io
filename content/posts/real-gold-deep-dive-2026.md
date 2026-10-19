@@ -5,7 +5,7 @@ images: ["/images/og/real-gold-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-20
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["リアルゴールド", "Real Gold", "日本コカ・コーラ", "エナジードリンク", "炭酸飲料", "レビュー"]
 draft: false
 aliases:

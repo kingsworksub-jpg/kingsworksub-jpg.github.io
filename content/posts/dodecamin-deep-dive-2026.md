@@ -5,7 +5,7 @@ images: ["/images/og/dodecamin-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-19
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["ドデカミン", "アサヒ飲料", "炭酸飲料", "エナジードリンク", "栄養ドリンク", "レビュー"]
 draft: false
 aliases:

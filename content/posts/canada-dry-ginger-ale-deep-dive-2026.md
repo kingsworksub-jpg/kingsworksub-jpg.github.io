@@ -5,7 +5,7 @@ images: ["/images/og/canada-dry-ginger-ale-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-18
-categories: ["drink"]
+categories: ["drink-recipe"]
 tags: ["カナダドライ", "ジンジャーエール", "コカ・コーラ", "炭酸水", "飲料", "レビュー"]
 draft: false
 aliases:

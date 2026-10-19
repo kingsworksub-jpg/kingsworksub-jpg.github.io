@@ -5,7 +5,7 @@ images: ["/images/og/craft-cola-spice-syrup-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-09T20:00:00+09:00
-categories: ["drink"]
+categories: ["drink-recipe"]
 tags: ["クラフトコーラ", "伊良コーラ", "ともコーラ", "UMAMI COLA", "コーラナッツ", "スパイス", "炭酸"]
 draft: false
 scheduled_time: "20:00"

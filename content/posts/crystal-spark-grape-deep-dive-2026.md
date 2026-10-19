@@ -5,7 +5,7 @@ images: ["/images/og/crystal-spark-grape-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-18
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["CRYSTAL SPARK", "クリスタルスパーク", "アイリスオーヤマ", "炭酸水", "飲料", "レビュー"]
 draft: false
 aliases:

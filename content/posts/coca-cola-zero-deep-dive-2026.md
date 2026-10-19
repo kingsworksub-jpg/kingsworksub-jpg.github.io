@@ -5,7 +5,7 @@ images: ["/images/og/coca-cola-zero-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-19
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["コカ・コーラ", "コカ・コーラゼロ", "炭酸飲料", "コーラ", "ゼロカロリー", "レビュー"]
 draft: false
 aliases:

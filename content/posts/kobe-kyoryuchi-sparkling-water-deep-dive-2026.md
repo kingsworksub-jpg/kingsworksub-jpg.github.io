@@ -5,7 +5,7 @@ images: ["/images/og/kobe-kyoryuchi-sparkling-water-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-20
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["神戸居留地", "富永貿易", "炭酸水", "強炭酸水", "レビュー"]
 draft: false
 aliases:

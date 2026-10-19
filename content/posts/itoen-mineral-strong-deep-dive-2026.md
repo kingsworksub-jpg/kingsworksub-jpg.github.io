@@ -5,7 +5,7 @@ images: ["/images/og/itoen-mineral-strong-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-18
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["伊藤園", "ミネラルストロング", "炭酸水", "シリカ", "飲料", "レビュー"]
 draft: false
 aliases:

@@ -5,7 +5,7 @@ images: ["/images/og/otsuka-match-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-21
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["MATCH", "マッチ", "大塚食品", "微炭酸", "ビタミン飲料", "レビュー"]
 draft: false
 aliases:

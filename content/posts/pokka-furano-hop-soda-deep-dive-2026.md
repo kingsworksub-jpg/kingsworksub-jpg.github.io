@@ -5,7 +5,7 @@ images: ["/images/og/pokka-furano-hop-soda-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-20
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["ポッカサッポロ", "北海道富良野ホップ炭酸水", "ホップウォーター", "炭酸飲料", "ノンアルコール", "レビュー"]
 draft: false
 aliases:

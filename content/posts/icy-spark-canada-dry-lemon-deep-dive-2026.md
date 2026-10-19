@@ -5,7 +5,7 @@ images: ["/images/og/icy-spark-canada-dry-lemon-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-21
-categories: ["drink"]
+categories: ["drink-hack"]
 tags: ["アイシー・スパーク", "カナダドライ", "コカ・コーラ", "強炭酸水", "レビュー"]
 draft: false
 aliases:

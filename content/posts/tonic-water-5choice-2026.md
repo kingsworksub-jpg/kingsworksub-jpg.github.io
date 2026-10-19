@@ -3,7 +3,7 @@ title: "トニックウォーター5本比較、割り材としての苦味を�
 description: "ジンやウォッカの最高の相棒であるトニックウォーター5銘柄（フィーバーツリー、シュウェップス、ウィルキンソン、カナダドライ、神戸居留地）を徹底比較し、キニーネ由来の苦味と甘さのバランスを検証します。"
 images: ["/images/og/tonic-water-5choice-2026.jpg"]
 date: 2026-10-11T08:00:00+09:00
-categories: ["drink"]
+categories: ["drink-recipe"]
 tags: ["トニックウォーター", "ジンソーダ", "割り材", "カクテル"]
 draft: false
 scheduled_time: "17:30"

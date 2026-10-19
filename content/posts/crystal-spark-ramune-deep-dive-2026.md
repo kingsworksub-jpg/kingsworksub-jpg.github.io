@@ -5,7 +5,7 @@ images: ["/images/og/crystal-spark-ramune-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-19
-categories: ["drink"]
+categories: ["drink-lab"]
 tags: ["CRYSTAL SPARK", "クリスタルスパーク", "アイリスオーヤマ", "ラムネ", "炭酸水", "飲料", "レビュー"]
 draft: false
 aliases:
