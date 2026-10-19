@@ -69,9 +69,14 @@ pygmentsUseClasses = true
     weight = 30
   [[menu.main]]
     identifier = 'drink-recipe'
-    name = 'レシピ・割り方・ハック'
+    name = 'レシピ・カクテル'
     url = '/categories/drink-recipe/'
     weight = 40
+  [[menu.main]]
+    identifier = 'drink-hack'
+    name = 'ハック・裏技'
+    url = '/categories/drink-hack/'
+    weight = 41
   [[menu.main]]
     identifier = 'whisky'
     name = 'ウイスキー'
