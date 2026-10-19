@@ -2032,6 +2032,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-19T07:41:39+09:00"
+  },
+  {
+   "id": "2026w42-019",
+   "category": "tech",
+   "theme": "Obsidianで作る個人ナレッジベース、保存の形式から考える",
+   "slug": "obsidian-knowledge-base-plain-text-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/obsidian-knowledge-base-plain-text-2026/",
+   "hatena_entry": "14945776032092173922",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-19T12:08:16+09:00"
   }
  ]
 }
