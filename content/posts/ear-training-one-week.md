@@ -106,5 +106,4 @@ DAWを使っているなら、手持ちのDAWでも代わりになる。多く�
 ## 関連記事
 
 - [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

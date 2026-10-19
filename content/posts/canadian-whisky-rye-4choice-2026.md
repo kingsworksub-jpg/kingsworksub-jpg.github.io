@@ -188,5 +188,3 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方](https://kingsworksub-jpg.github.io/posts/bourbon-5choice-2026/)
 - [台湾とインドのウイスキー、熱い土地で樽は速く働く](https://kingsworksub-jpg.github.io/posts/taiwan-india-whisky-climate-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

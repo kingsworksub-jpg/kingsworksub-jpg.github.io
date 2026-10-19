@@ -124,4 +124,3 @@ scheduled_time: "23:00"
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)

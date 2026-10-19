@@ -145,7 +145,4 @@ Select-String -Path .\*.ps1 -Pattern '[^\x00-\x7F]'
 
 ## 関連記事
 
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
-- [note版はこちら](https://note.com/shining_finger01/n/XXXX)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

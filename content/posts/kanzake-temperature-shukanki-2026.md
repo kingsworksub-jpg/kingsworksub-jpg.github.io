@@ -139,5 +139,3 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
 - [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](https://kingsworksub-jpg.github.io/posts/hirota-glass-chirori-deep-dive-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

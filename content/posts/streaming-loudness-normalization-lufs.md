@@ -116,5 +116,4 @@ Amazon Musicは基準値を公式には数字で出していない。計測し�
 
 ## 関連記事
 
-- [はてなブログで機材レビューや比較記事を読む](https://kinbro.hatenablog.com/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
