@@ -2077,6 +2077,18 @@
    "note_key": "n424e7acc981d",
    "engine": "claude",
    "at": "2026-10-19T23:12:33+09:00"
+  },
+  {
+   "id": "2026w42-047",
+   "category": "notes",
+   "theme": "Windowsのシンボリックリンク、開発で使う場面",
+   "slug": "windows-symbolic-link-mklink-notes",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/windows-symbolic-link-mklink-notes/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-20T07:42:56+09:00"
   }
  ]
 }
