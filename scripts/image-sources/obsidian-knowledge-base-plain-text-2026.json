@@ -1,0 +1,23 @@
+{
+ "/images/obsidian/zettelkasten.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Zettelkasten_%28514941699%29.jpg/1280px-Zettelkasten_%28514941699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Zettelkasten_(514941699).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Kai Schreiber from Münster, Germany",
+  "title": "File:Zettelkasten (514941699).jpg"
+ },
+ "/images/obsidian/markdown-editor.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/a/af/Apostrophe_Markdown_Editor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Apostrophe_Markdown_Editor.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Anselm Schüler",
+  "title": "File:Apostrophe Markdown Editor.png"
+ },
+ "/images/obsidian/card-box.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Zettelkaesten_et_01.jpg/1280px-Zettelkaesten_et_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Zettelkaesten_et_01.jpg",
+  "license": "CC BY 4.0",
+  "author": "Michiel Streijger",
+  "title": "File:Zettelkaesten et 01.jpg"
+ }
+}
