@@ -136,4 +136,3 @@ scheduled_time: "21:30"
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し](https://kingsworksub-jpg.github.io/posts/budget-whisky-10choice-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)

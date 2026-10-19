@@ -97,6 +97,4 @@ DAWの録音ボタンを押して自分の演奏を一度キャプチャし、�
 
 ## 関連記事
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note はこちら](https://note.com/shining_finger01)
-- [Amebaブログ版はこちら](https://ameblo.jp/)

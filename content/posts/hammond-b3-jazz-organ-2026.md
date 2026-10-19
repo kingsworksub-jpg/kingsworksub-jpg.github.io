@@ -118,5 +118,3 @@ B-3の音を語るとき、オルガン本体と同じくらい重要なのが�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](https://kingsworksub-jpg.github.io/posts/hard-bop-blue-note-golden-age/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

@@ -104,5 +104,3 @@ Obsidianは、メモアプリの中では最初の印象が地味なほうだと
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
-- [note版はこちら](https://note.com/shining_finger01)

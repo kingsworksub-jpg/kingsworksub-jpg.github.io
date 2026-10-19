@@ -107,5 +107,4 @@ Logic Pro 11 で入った ChromaGlow は、真空管やテープを通したよ�
 
 ## 関連記事
 
-- [はてなブログで機材レビューや比較記事を読む](https://kinbro.hatenablog.com/)
 - 今夜はウイスキー・カルチャーの記事や DTM 理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

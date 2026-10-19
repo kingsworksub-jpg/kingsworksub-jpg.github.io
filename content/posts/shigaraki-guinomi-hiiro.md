@@ -126,5 +126,3 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える](https://kingsworksub-jpg.github.io/posts/urushi-sakazuki-shu-kuro/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

@@ -96,6 +96,4 @@ DAWを開いて最初の4小節や8小節のコード進行を作ったものの
 
 ## 関連記事
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note はこちら](https://note.com/shining_finger01)
-- [Amebaブログ版はこちら](https://ameblo.jp/)

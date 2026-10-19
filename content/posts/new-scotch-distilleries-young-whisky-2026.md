@@ -119,5 +119,3 @@ Isle of Harris蒸溜所は、ハリス島の港町ターバートで2015年に�
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある](https://kingsworksub-jpg.github.io/posts/angels-share-evaporation-essay-2026/)
 - [台湾とインドのウイスキー、熱い土地で樽は速く働く](https://kingsworksub-jpg.github.io/posts/taiwan-india-whisky-climate-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

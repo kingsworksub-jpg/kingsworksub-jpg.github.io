@@ -110,4 +110,3 @@ FL Studio のいちばんの特徴として語られることが多いのが、L
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [note版はこちら](https://note.com/shining_finger01)

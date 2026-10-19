@@ -125,6 +125,4 @@ Macなら、whisper.cppのMetal対応でlarge-v3かturboを使う。CPUだけの
 
 ## 関連記事
 
-- [はてなブログでソフトや制作環境の記事を読む](https://kinbro.hatenablog.com/)
-- [Amebaブログで機材レビューを読む](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

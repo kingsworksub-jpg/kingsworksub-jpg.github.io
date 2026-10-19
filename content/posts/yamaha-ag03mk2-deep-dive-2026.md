@@ -84,6 +84,3 @@ Detailモードでは、内蔵コンプレッサーのしきい値やアタッ�
 ## 関連記事
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [note版はこちら](https://note.com/shining_finger01)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

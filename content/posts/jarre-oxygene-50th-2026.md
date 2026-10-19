@@ -108,5 +108,3 @@ ARP 2600は、太くて芯のある音が出るシンセで、旋律や効果音
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち](https://kingsworksub-jpg.github.io/posts/teenage-engineering-op1-synth-essay-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

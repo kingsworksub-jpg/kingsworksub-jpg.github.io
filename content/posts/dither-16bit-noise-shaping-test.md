@@ -130,6 +130,4 @@ TPDFとシェーピングでは、どちらの区間でも山は見つからな�
 
 ## 関連記事
 
-- [はてなブログでソフトや制作環境の記事を読む](https://kinbro.hatenablog.com/)
-- [Amebaブログで機材レビューを読む](https://ameblo.jp/sfd0501/)
 - 明日の夜もウイスキー・カルチャーの記事やDTM理論の記事を公開予定です → [note はこちら](https://note.com/shining_finger01)

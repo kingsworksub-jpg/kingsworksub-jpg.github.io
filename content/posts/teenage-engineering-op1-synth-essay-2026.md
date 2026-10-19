@@ -91,5 +91,3 @@ Teenage Engineeringは、楽器以外の仕事でもよく知られている。�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか](https://kingsworksub-jpg.github.io/posts/cassette-tape-revival-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)

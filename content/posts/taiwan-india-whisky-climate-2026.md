@@ -116,4 +116,3 @@ scheduled_time: "21:30"
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)

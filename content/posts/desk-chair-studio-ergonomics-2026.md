@@ -110,4 +110,3 @@ DTMの机で特に悩ましいのが、MIDIキーボードの置き場所だ。4
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
