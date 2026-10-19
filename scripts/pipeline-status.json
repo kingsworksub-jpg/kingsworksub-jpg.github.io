@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-19T23:00:46+09:00",
+ "updated": "2026-10-19T23:12:33+09:00",
  "queue": {
-  "published": 88,
+  "published": 89,
   "rejected": 1,
-  "approved": 58,
-  "in_progress": 1
+  "approved": 58
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published canned-coffee-5choice-2026",
+ "last_result": "published repair-instead-of-replace-essay-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
