@@ -1,10 +1,10 @@
 [
  {
-  "id": "gear",
-  "name": "機材・ガジェットレビュー",
+  "id": "drink-lab",
+  "name": "飲料の分析・成分・比率",
   "weight": 1.0,
   "channel": "ameba",
-  "content_dir": "reviews"
+  "content_dir": "culture"
  },
  {
   "id": "software",
@@ -21,11 +21,11 @@
   "content_dir": "reviews"
  },
  {
-  "id": "learning",
-  "name": "スクール・学習体験談",
+  "id": "drink-recipe",
+  "name": "レシピ・割り方・ハック",
   "weight": 1.0,
   "channel": "ameba",
-  "content_dir": "tech"
+  "content_dir": "culture"
  },
  {
   "id": "tech",
@@ -56,8 +56,8 @@
   "content_dir": "culture"
  },
  {
-  "id": "fashion",
-  "name": "ファッション・愛用品",
+  "id": "drink-tools",
+  "name": "ドリンクツール・ギア",
   "weight": 1.0,
   "channel": "ameba",
   "content_dir": "culture"

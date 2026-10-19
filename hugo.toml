@@ -53,9 +53,9 @@ pygmentsUseClasses = true
 
 [menu]
   [[menu.main]]
-    identifier = 'gear'
-    name = '機材レビュー'
-    url = '/categories/gear/'
+    identifier = 'drink-lab'
+    name = '飲料の分析・成分・比率'
+    url = '/categories/drink-lab/'
     weight = 10
   [[menu.main]]
     identifier = 'software'
@@ -68,9 +68,9 @@ pygmentsUseClasses = true
     url = '/categories/setup/'
     weight = 30
   [[menu.main]]
-    identifier = 'learning'
-    name = 'スクール・学習'
-    url = '/categories/learning/'
+    identifier = 'drink-recipe'
+    name = 'レシピ・割り方・ハック'
+    url = '/categories/drink-recipe/'
     weight = 40
   [[menu.main]]
     identifier = 'whisky'
@@ -88,9 +88,9 @@ pygmentsUseClasses = true
     url = '/categories/sakeware/'
     weight = 47
   [[menu.main]]
-    identifier = 'fashion'
-    name = 'ファッション'
-    url = '/categories/fashion/'
+    identifier = 'drink-tools'
+    name = 'ドリンクツール・ギア'
+    url = '/categories/drink-tools/'
     weight = 48
    [[menu.main]]
     identifier = 'music'
