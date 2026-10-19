@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T17:30:24+09:00",
+ "updated": "2026-10-19T17:52:34+09:00",
  "items": [
   {
    "category": "gear",
@@ -7538,14 +7538,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-027",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-10-19T17:30:24+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "slug": "canned-coffee-5choice-2026",
+   "published_at": "2026-10-19T17:52:34+09:00"
   },
   {
    "category": "drink",
