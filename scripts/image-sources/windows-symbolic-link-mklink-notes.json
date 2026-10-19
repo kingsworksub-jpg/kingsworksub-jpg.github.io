@@ -1,0 +1,23 @@
+{
+ "/images/win-symlink/hdd-platter.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hard_disk_drive_platter%2C_Western_Digital_Caviar_250Gb_WD2500AAKS.jpg/1280px-Hard_disk_drive_platter%2C_Western_Digital_Caviar_250Gb_WD2500AAKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hard_disk_drive_platter,_Western_Digital_Caviar_250Gb_WD2500AAKS.jpg",
+  "license": "CC BY 4.0",
+  "author": "Mk2010",
+  "title": "File:Hard disk drive platter, Western Digital Caviar 250Gb WD2500AAKS.jpg"
+ },
+ "/images/win-symlink/ps-confirm.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/20231209_19_38_35-PowerShell_Best%C3%A4tigung_erw%C3%BCnscht_crop.png/1280px-20231209_19_38_35-PowerShell_Best%C3%A4tigung_erw%C3%BCnscht_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:20231209_19_38_35-PowerShell_Best%C3%A4tigung_erw%C3%BCnscht_crop.png",
+  "license": "MIT",
+  "author": "Software: Microsoft CorporationScreenshot: PantheraLeo1359531 😺 (talk)",
+  "title": "File:20231209 19 38 35-PowerShell Bestätigung erwünscht crop.png"
+ },
+ "/images/win-symlink/for-developers.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/For_developers_-_Microsoft_Windows_10_Mobile_settings_01.png/1280px-For_developers_-_Microsoft_Windows_10_Mobile_settings_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:For_developers_-_Microsoft_Windows_10_Mobile_settings_01.png",
+  "license": "Public domain",
+  "author": "The Microsoft Corporation.",
+  "title": "File:For developers - Microsoft Windows 10 Mobile settings 01.png"
+ }
+}
