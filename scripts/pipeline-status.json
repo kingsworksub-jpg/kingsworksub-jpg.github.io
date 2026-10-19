@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T04:00:04+09:00",
+ "updated": "2026-10-20T04:00:39+09:00",
  "queue": {
   "published": 89,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published repair-instead-of-replace-essay-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-20T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-19T23:12:47+09:00",
+  "at": "2026-10-20T04:00:39+09:00",
   "engine": "claude",
-  "detail": "The research couldn't confirm a few figures, so I left them out: Patagonia's yearly repair count, the total number of France's repair bonuses, and an exact count of Repair Cafés (the essay just says 'over 2,000')."
+  "detail": "最初の `git pull --rebase` は、コミットしていない `scripts/seo-audit-report.md` の変更があったため止まりました。`--autostash` を付けて再実行し、その変更はそのまま残しています。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-20T04:00:39+09:00",
+   "engine": "claude",
+   "detail": "最初の `git pull --rebase` は、コミットしていない `scripts/seo-audit-report.md` の変更があったため止まりました。`--autostash` を付けて再実行し、その変更はそのまま残しています。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-18T22:40:06+09:00",
    "engine": "claude",
    "detail": "手動補充: 承認済み50件を追加 (approved 63)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-18T21:43:36+09:00",
-   "engine": "claude",
-   "detail": "`validate_post.py` passed, the topic is marked complete, the new note post is added to the note table in CLAUDE.md, and everything is pushed. This makes 5 posts today out of the limit of 6."
   }
  ]
 }
