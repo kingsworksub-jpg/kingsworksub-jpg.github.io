@@ -5,7 +5,7 @@ images: ["/images/og/waon-ear-copy-1month-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-14T17:30:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["耳コピ", "WaoN", "自動採譜", "イヤートレーニング", "練習法", "DTM"]
 draft: false
 scheduled_time: "17:30"

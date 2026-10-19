@@ -3,7 +3,7 @@ title: "帽子が主役になる秋冬2026、ステートメントハットの�
 description: "2026年秋冬ファッションで注目を集めるステートメントハット。フェドーラ、バケットハット、ベレー帽など、各シルエットの特徴と主要ブランド、スタイリング方法、価格帯まで、現在のハット文化を詳しく解説します。"
 date: 2026-09-30T15:00:00+09:00
 lastmod: 2026-09-30
-categories: ["fashion"]
+categories: [misc]
 images: ["/images/og/statement-hat-trend-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

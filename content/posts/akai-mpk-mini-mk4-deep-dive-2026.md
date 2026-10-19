@@ -5,7 +5,7 @@ images: ["/images/og/akai-mpk-mini-mk4-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-12T17:30:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["Akai", "MPK Mini", "MIDIキーボード", "DTM", "宅録"]
 draft: false
 scheduled_time: "17:30"

@@ -5,7 +5,7 @@ images: ["/images/og/technics-sl1200mk7-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
-categories: ["gear"]
+categories: [misc]
 tags: ["Technics", "SL-1200MK7", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
 draft: false
 aliases:

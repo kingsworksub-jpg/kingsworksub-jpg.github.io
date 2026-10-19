@@ -5,7 +5,7 @@ images: ["/images/og/monitor-headphones-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-09T12:00:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["ヘッドホン", "モニターヘッドホン", "宅録", "DTM", "ミックス", "レコーディング"]
 draft: false
 scheduled_time: "12:00"

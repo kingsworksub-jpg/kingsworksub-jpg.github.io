@@ -3,7 +3,7 @@ title: "スカーフ一枚で装いが変わる、2026年のスカーフスタ�
 date: 2026-09-30T19:45:00+09:00
 draft: false
 description: "2026年秋冬のスカーフトレンドを解剖。スカーフ・トップから首元のドレープ、ヘアアクセまで、多角的な巻き方・結び方が生まれている。Hermès、Calvin Klein、Gucci等の最新コレクション、Y2K復権による長スカーフの再評価、ジェンダーレスな装いの中心として機能するスカーフの現在地。"
-categories: ["fashion"]
+categories: [misc]
 images: ["/images/og/scarf-styling-trend-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

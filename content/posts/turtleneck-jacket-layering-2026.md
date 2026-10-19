@@ -5,7 +5,7 @@ images: ["/images/og/turtleneck-jacket-layering-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-16T17:30:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["タートルネック", "ジャケット", "ニット", "メンズファッション", "秋冬コーデ", "ジャケパン"]
 draft: false
 scheduled_time: "17:30"

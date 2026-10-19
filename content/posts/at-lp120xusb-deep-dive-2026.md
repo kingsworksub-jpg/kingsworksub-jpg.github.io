@@ -5,7 +5,7 @@ images: ["/images/og/at-lp120xusb-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
-categories: ["gear"]
+categories: [misc]
 tags: ["Audio-Technica", "AT-LP120XUSB", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
 draft: false
 aliases:

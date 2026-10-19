@@ -89,5 +89,12 @@
   "weight": 1.0,
   "channel": "github",
   "content_dir": "tech"
+ },
+ {
+  "id": "misc",
+  "name": "その他",
+  "weight": 0,
+  "channel": "ameba",
+  "content_dir": "culture"
  }
 ]

@@ -5,7 +5,7 @@ images: ["/images/og/parker-blues-ear-training-1week.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-15T17:30:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["ジャズブルース", "コード進行", "チャーリー・パーカー", "耳コピ", "イヤートレーニング", "練習法"]
 draft: false
 scheduled_time: "17:30"

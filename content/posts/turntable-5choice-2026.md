@@ -5,7 +5,7 @@ images: ["/images/og/turntable-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-15
-categories: ["gear"]
+categories: [misc]
 tags: ["ターンテーブル", "レコードプレーヤー", "機材", "比較", "Technics", "Audio-Technica", "Rega", "Pro-Ject", "Sony"]
 draft: false
 aliases:

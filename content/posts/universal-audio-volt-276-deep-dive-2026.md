@@ -3,7 +3,7 @@ title: "Universal Audio Volt 276が備える76系コンプとビンテージモ�
 description: "Universal Audio Volt 276の76系アナログコンプレッサーと真空管エミュレーションモードが、宅録のボーカルや楽器録音にどのような変化をもたらすのかを詳しく紐解きます。"
 images: ["/images/og/universal-audio-volt-276-deep-dive-2026.jpg"]
 date: 2026-10-11T17:30:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["Universal Audio", "Volt 276", "オーディオインターフェイス", "DTM"]
 draft: false
 scheduled_time: "17:30"

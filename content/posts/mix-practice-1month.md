@@ -5,7 +5,7 @@ images: ["/images/og/mix-practice-1month.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-05T17:20:00+09:00
-categories: ["learning"]
+categories: [misc]
 tags: ["ミックス", "DTM", "EQ", "コンプレッサー", "リバーブ", "練習"]
 draft: false
 ---

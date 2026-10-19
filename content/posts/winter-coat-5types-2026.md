@@ -3,7 +3,7 @@ title: "トレンチからピーコートまで、秋冬のコート5型を肩�
 description: "トレンチ、チェスターフィールド、バルマカーン、ダッフル、ピーコートの5型を、起源・着丈・肩のライン(ラグラン袖かセットイン袖か)という切り口で整理し、それぞれに合わせやすい服まで順番に紹介していく。"
 images: ["/images/og/winter-coat-5types-2026.jpg"]
 date: 2026-10-12T15:40:00+09:00
-categories: ["fashion"]
+categories: [misc]
 tags: ["コート", "トレンチコート", "チェスターフィールドコート", "ダッフルコート", "ピーコート", "メンズファッション"]
 draft: false
 scheduled_time: "manual"

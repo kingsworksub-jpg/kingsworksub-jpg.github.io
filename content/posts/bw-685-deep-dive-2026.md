@@ -5,7 +5,7 @@ images: ["/images/og/bw-685-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-01T08:20:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["Bowers & Wilkins", "B&W", "685", "ブックシェルフスピーカー", "スピーカー", "機材", "レビュー"]
 draft: false
 ---

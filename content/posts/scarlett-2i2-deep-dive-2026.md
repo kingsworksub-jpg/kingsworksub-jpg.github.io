@@ -5,7 +5,7 @@ images: ["/images/og/scarlett-2i2-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-16
-categories: ["gear"]
+categories: [misc]
 tags: ["Focusrite", "Scarlett 2i2", "オーディオインターフェース", "機材", "レビュー"]
 draft: false
 aliases:

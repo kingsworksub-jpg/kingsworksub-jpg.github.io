@@ -5,7 +5,7 @@ images: ["/images/og/debut-carbon-evo-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
-categories: ["gear"]
+categories: [misc]
 tags: ["Pro-Ject", "Debut Carbon EVO", "ターンテーブル", "レコードプレーヤー", "機材", "レビュー"]
 draft: false
 aliases:

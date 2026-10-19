@@ -5,7 +5,7 @@ images: ["/images/og/launchkey-mk4-key-range.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-10-06T07:10:00+09:00
-categories: ["gear"]
+categories: [misc]
 tags: ["Novation", "Launchkey", "MIDIキーボード", "DTM", "宅録"]
 draft: false
 ---
