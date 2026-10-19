@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T23:00:46+09:00",
+ "updated": "2026-10-19T23:12:33+09:00",
  "items": [
   {
    "category": "gear",
@@ -8156,14 +8156,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-038",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-10-19T23:00:46+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "repair-instead-of-replace-essay-2026",
+   "published_at": "2026-10-19T23:12:33+09:00"
   },
   {
    "category": "essay",

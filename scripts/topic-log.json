@@ -2065,6 +2065,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-19T20:06:41+09:00"
+  },
+  {
+   "id": "2026w42-038",
+   "category": "essay",
+   "theme": "道具を直して使う、修理という選択",
+   "slug": "repair-instead-of-replace-essay-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/repair-instead-of-replace-essay-2026/",
+   "hatena_entry": null,
+   "note_key": "n424e7acc981d",
+   "engine": "claude",
+   "at": "2026-10-19T23:12:33+09:00"
   }
  ]
 }
