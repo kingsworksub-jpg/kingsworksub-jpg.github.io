@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T07:42:56+09:00",
+ "updated": "2026-10-20T07:43:07+09:00",
  "queue": {
   "published": 90,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published windows-symbolic-link-mklink-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-20T07:30:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-20T04:00:39+09:00",
+  "at": "2026-10-20T07:43:07+09:00",
   "engine": "claude",
-  "detail": "最初の `git pull --rebase` は、コミットしていない `scripts/seo-audit-report.md` の変更があったため止まりました。`--autostash` を付けて再実行し、その変更はそのまま残しています。"
+  "detail": "`scripts/seo-audit-report.md` already had uncommitted changes I didn't make; I left them as they were."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-20T07:43:07+09:00",
+   "engine": "claude",
+   "detail": "`scripts/seo-audit-report.md` already had uncommitted changes I didn't make; I left them as they were."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-18T23:09:02+09:00",
    "engine": "claude",
    "detail": "- **Mismatch to check:** today (10/18) is an even day, and CLAUDE.md says the 23:00 slot on even days should go to note. `topic_plan.py slot` returned `github` anyway. I followed the command output as the prompt instructs, but either `slots_for_date()` or CLAUDE.md is likely wrong."
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-10-18T22:40:06+09:00",
-   "engine": "claude",
-   "detail": "手動補充: 承認済み50件を追加 (approved 63)"
   }
  ]
 }
