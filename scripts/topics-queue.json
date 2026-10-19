@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T20:00:36+09:00",
+ "updated": "2026-10-19T20:06:41+09:00",
  "items": [
   {
    "category": "gear",
@@ -7600,14 +7600,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-028",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-18",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-10-19T20:00:36+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料"
+   "slot_label": "夜: ファッション/飲料",
+   "last_error": "run did not publish (failed); cleaned up"
   },
   {
    "category": "drink",

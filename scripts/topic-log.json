@@ -2056,6 +2056,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-19T17:52:34+09:00"
+  },
+  {
+   "id": "2026w42-028",
+   "category": "drink",
+   "theme": "ラムネ5本比較、びんと缶で味は変わるか",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-19T20:06:41+09:00"
   }
  ]
 }
