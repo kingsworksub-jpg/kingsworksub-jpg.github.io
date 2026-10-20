@@ -159,5 +159,25 @@
     "next_kpis": [
       "description 100字未満の記事数 53→約49"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T07:53:35.044587Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hello",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "fuji-strong-soda-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026",
+      "budget-whisky-10choice-2026"
+    ],
+    "actions": [
+      "短いdescription 6件を用途・購入判断の訴求を加えて拡充(82〜91字)、フロントマターのみ変更"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description約45件残存。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 51→約45"
+    ]
   }
 ]
