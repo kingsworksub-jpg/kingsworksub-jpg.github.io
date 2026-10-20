@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T12:15:20+09:00",
+ "updated": "2026-10-20T17:30:54+09:00",
  "items": [
   {
    "category": "gear",
@@ -7607,14 +7607,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-028",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
    "retry": 1,
-   "claimed_at": "2026-10-19T20:00:36+09:00",
+   "claimed_at": "2026-10-20T17:30:54+09:00",
    "channel": "ameba",
    "content_dir": "culture",
-   "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料",
+   "slot_time": "17:30",
+   "slot_label": "夕: 機材レビュー/学習体験談",
    "last_error": "run did not publish (failed); cleaned up"
   },
   {
