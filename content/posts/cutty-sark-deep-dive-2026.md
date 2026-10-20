@@ -1,6 +1,6 @@
 ---
 title: "帆船の名を持つスコッチ、カティサークの軽やかさ"
-description: "黄色いラベルに帆船の絵、という見た目のインパクトも含めて記憶に残るボトル。1923年、英国の名門ワイン商Berry Bros & Rudd社が発売したカティサークを隅々まで見ていく。"
+description: "1923年にBerry Bros & Ruddが発売したカティサークの、軽やかな味を生むブレンドの設計思想、色と香り、帆船の名とラベルの由来、価格と入手性の注意点までを一本ずつ整理して解説する。選ぶ前の判断材料に。"
 images: ["/images/og/cutty-sark-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

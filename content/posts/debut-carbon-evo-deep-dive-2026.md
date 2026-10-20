@@ -1,6 +1,6 @@
 ---
 title: "Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル"
-description: "Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん現実的な入り口」と位置づけている。その言葉に見合う中身なのか、Debut Carbon EVOを一つ一つ見ていく。"
+description: "Pro-Ject Debut Carbon EVOを筐体のビルド品質、ドライブ機構、トーンアーム、カートリッジ、速度切替と接続性、実使用での弱点、価格と現行性の順に掘り下げ、本格オーディオの入口としての中身を確かめる。"
 images: ["/images/og/debut-carbon-evo-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

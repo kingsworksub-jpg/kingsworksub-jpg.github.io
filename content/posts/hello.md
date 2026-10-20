@@ -1,6 +1,6 @@
 ---
 title: "はじめまして、Studio Notesです"
-description: "音響機材やDTMソフトを調べて記録に残すために始めたブログ「Studio Notes」の自己紹介。どんな記事を書いていくのか、扱うジャンルと記事の読み方、このブログの方針をまとめた。"
+description: "音響機材やDTMソフトの調べものを記録するために始めたブログ「Studio Notes」の自己紹介。扱うジャンルや記事の読み方、運営の方針を、はじめて訪れた人向けにまとめた。ご挨拶代わりの一本。初めての方はこちらから。"
 images: ["/images/og/hello.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

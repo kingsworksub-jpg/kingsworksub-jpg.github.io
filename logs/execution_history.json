@@ -333,5 +333,25 @@
     "next_kpis": [
       "description 100字未満の記事数 46→40"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T17:54:05.411591Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "cutty-sark-deep-dive-2026",
+      "debut-carbon-evo-deep-dive-2026",
+      "dewars-white-label-deep-dive-2026",
+      "four-roses-yellow-deep-dive-2026",
+      "hard-bop-blue-note-golden-age",
+      "hello"
+    ],
+    "actions": [
+      "短いdescription 6件を見出し内容に沿って100字前後へ書き直し(フロントマターのみ)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。100字未満description残り約34件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 40→34"
+    ]
   }
 ]
