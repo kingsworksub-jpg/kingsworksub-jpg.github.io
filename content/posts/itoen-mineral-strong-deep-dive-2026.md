@@ -1,6 +1,6 @@
 ---
 title: "伊藤園 ミネラルストロングと、シリカという小さなこだわり"
-description: "強炭酸水はどれも似たり寄ったりに見えて、実はミネラル構成のこだわり方に差が出る。伊藤園がAmazon.co.jp限定で展開する「ミネラルストロング」を隅々まで見ていく。製造・販売元は伊藤園。"
+description: "強炭酸水はミネラル構成のこだわり方で差が出る。伊藤園がAmazon.co.jp限定で売るラベルレスの「ミネラルストロング」を取り上げ、シリカ50mg/L含有の意味、泡の強さ、ラベルレスの利点、価格と入手性まで、購入前に知りたい点を順に見ていく。"
 images: ["/images/og/itoen-mineral-strong-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

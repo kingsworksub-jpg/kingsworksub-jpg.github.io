@@ -413,5 +413,24 @@
     "next_kpis": [
       "110字未満description 78→約73件"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T21:53:48.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "universal-audio-volt-276-deep-dive-2026",
+      "mitsuya-cider-zero-deep-dive-2026",
+      "real-gold-deep-dive-2026",
+      "itoen-mineral-strong-deep-dive-2026",
+      "mitsuya-cider-original-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionを本文の見出し内容に沿って書き直し(フロントマターのみ。禁止済みの『隅々まで』系表現も除去。110字以上へ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。110字未満description残り約72件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "110字未満description 77→72件"
+    ]
   }
 ]
