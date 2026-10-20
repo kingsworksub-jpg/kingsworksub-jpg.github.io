@@ -1,6 +1,6 @@
 ---
 title: "Rega Planar 3が半世紀守る「軽さと剛性」の設計思想"
-description: "Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学のもとに作り続けている。その言葉に見合う中身なのか、Planar 3を一つ一つ見ていく。"
+description: "Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽を鳴らす」という一貫した設計哲学で作り続けている。Planar 3の筐体、ドライブ機構、トーンアーム、カートリッジ、実使用での弱点、価格と現行性を見ていく。"
 images: ["/images/og/rega-planar3-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

@@ -393,5 +393,25 @@
     "next_kpis": [
       "description 100字未満の記事数 35→29"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T20:53:58.533532Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "toyo-sasaki-katakuchi-deep-dive-2026",
+      "tweed-jacket-street-style-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "jazz-listening-guide-2026",
+      "rega-planar3-deep-dive-2026",
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026"
+    ],
+    "actions": [
+      "description を見出し内容に沿って書き直し(フロントマターのみ。6件とも100字以上へ。110字未満が残るものあり)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。110字未満description残り約73件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "110字未満description 78→約73件"
+    ]
   }
 ]
