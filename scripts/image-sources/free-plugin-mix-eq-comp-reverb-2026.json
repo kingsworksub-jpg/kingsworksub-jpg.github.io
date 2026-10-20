@@ -1,0 +1,30 @@
+{
+ "/images/free-plugin-mix/eq.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/API_550_Equalizer_-_angled_from_right_-_Control_Room_A%2C_In_Your_Ear_Studios.jpg/1280px-API_550_Equalizer_-_angled_from_right_-_Control_Room_A%2C_In_Your_Ear_Studios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:API_550_Equalizer_-_angled_from_right_-_Control_Room_A,_In_Your_Ear_Studios.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Will Fisher from Richmond, VA, United States",
+  "title": "File:API 550 Equalizer - angled from right - Control Room A, In Your Ear Studios.jpg"
+ },
+ "/images/free-plugin-mix/comp.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Teletronix_LA-2A_Leveling_Amplifier_-_PatchWerk_Recording_Studios%2C_2007_%28edit_%26_clip%29.jpg/1280px-Teletronix_LA-2A_Leveling_Amplifier_-_PatchWerk_Recording_Studios%2C_2007_%28edit_%26_clip%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Teletronix_LA-2A_Leveling_Amplifier_-_PatchWerk_Recording_Studios,_2007_(edit_%26_clip).jpg",
+  "license": "CC BY 4.0",
+  "author": "Teletronix LA-2A Leveling Amplifier, etc. Outboard racks 2-3, PatchWerk Recordin",
+  "title": "File:Teletronix LA-2A Leveling Amplifier - PatchWerk Recording Studios, 2007 (edit & clip).jpg"
+ },
+ "/images/free-plugin-mix/reverb.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Spring_Reverb_8325.jpg/1280px-Spring_Reverb_8325.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Spring_Reverb_8325.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Ashley Pomeroy",
+  "title": "File:Spring Reverb 8325.jpg"
+ },
+ "/images/free-plugin-mix/mixer.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ardour_6.7_Recorder_Editor_Mixer.png/1280px-Ardour_6.7_Recorder_Editor_Mixer.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ardour_6.7_Recorder_Editor_Mixer.png",
+  "license": "CC0",
+  "author": "Derwok",
+  "title": "File:Ardour 6.7 Recorder Editor Mixer.png"
+ }
+}
