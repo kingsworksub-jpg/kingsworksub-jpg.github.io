@@ -2089,6 +2089,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-20T07:42:56+09:00"
+  },
+  {
+   "id": "2026w42-006",
+   "category": "software",
+   "theme": "無料プラグインだけで組むミックス、EQ・コンプ・リバーブの3本",
+   "slug": "free-plugin-mix-eq-comp-reverb-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/free-plugin-mix-eq-comp-reverb-2026/",
+   "hatena_entry": "14945776032092677657",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-20T12:15:20+09:00"
   }
  ]
 }
