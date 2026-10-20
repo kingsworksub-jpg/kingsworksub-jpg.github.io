@@ -275,5 +275,24 @@
     "next_kpis": [
       "description 100字未満の記事数 50→約45"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T13:53:57.771725Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "mitsuya-cider-original-deep-dive-2026",
+      "one-room-streaming-setup-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "real-gold-deep-dive-2026",
+      "rme-babyface-pro-fs-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 5件を見出し内容に沿って100字超へ書き直し(フロントマターのみ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約45件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 50→約45"
+    ]
   }
 ]
