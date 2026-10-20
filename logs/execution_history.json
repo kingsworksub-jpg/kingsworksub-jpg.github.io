@@ -294,5 +294,24 @@
     "next_kpis": [
       "description 100字未満の記事数 50→約45"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T15:53:27.083329Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "adult-piano-learning-2026",
+      "alan-boguslavsky-stage",
+      "arita-enka-sake-set-deep-dive-2026",
+      "audacity-4-guide-2026",
+      "black-nikka-clear-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 5件を見出し内容に沿って100字超へ書き直し(フロントマターのみ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約44件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 49→44"
+    ]
   }
 ]
