@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:47:41+09:00",
+ "updated": "2026-10-20T20:00:35+09:00",
  "items": [
   {
    "category": "gear",
@@ -6603,9 +6603,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-010",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-20T20:00:35+09:00",
+   "channel": "hatena",
+   "content_dir": "reviews",
+   "slot_time": "20:00",
+   "slot_label": "夜: テック/ソフト/制作環境(隔日)"
   },
   {
    "category": "setup",
