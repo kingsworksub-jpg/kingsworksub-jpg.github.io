@@ -1,6 +1,6 @@
 ---
 title: "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え"
-description: "2026年2月発表のSony PS-LX3BT(旧PS-LX310BTの後継)を、Bluetooth送信や自動再生などの機能、音質、価格から検証し、気軽に始めたい人向けかを見ていく。"
+description: "2026年2月発表のSony PS-LX3BT(旧PS-LX310BTの後継)を解説。筐体、自動再生のドライブ機構、カートリッジ、Bluetooth送信、評判と弱点、価格と現行性から、気軽に始めたい人に向くかを検証します。"
 images: ["/images/og/sony-pslx3bt-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
