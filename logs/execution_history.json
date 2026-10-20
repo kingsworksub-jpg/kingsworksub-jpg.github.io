@@ -373,5 +373,25 @@
     "next_kpis": [
       "description 100字未満の記事数 34→28"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T19:53:42.311738Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026",
+      "suntory-trys-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026",
+      "sony-pslx3bt-deep-dive-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026"
+    ],
+    "actions": [
+      "description を CLAUDE.md 規定の110〜120字帯へ書き直し(フロントマターのみ。前回までの『100字超』は実測で不足していた分も補正)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。100字未満description残り約29件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 35→29"
+    ]
   }
 ]
