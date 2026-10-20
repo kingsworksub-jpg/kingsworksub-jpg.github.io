@@ -1,6 +1,6 @@
 ---
 title: Ableton Live 12のセッションビューが変える作曲の順番
-description: Ableton Live 12のセッションビューを、縦の列と横の行で曲が立ち上がる仕組みから整理する。ローンチモード4種、フォローアクション、ワープと量子化の違い、エディション選びまで。
+description: Ableton Live 12のセッションビューを、縦の列と横の行で曲が立ち上がる仕組みから整理する。ローンチモード4種、フォローアクション、ワープと量子化の違い、エディション選びまで順に見ていく。作曲の動線としての使い方も紹介する。
 images: ["/images/og/ableton-live-12-session-view-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
