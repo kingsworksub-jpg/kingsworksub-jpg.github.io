@@ -1,6 +1,6 @@
 ---
 title: "Héroes del Silencioの写真から消された5人目、ギタリストAlan Boguslavskyの軌跡"
-description: "Héroes del Silencio。スペイン語圏ロックの金字塔にして、1990年代に世界中のスタジアムを埋めた4人組。そのラインナップはよく知られている。ボーカルのEnrique Bunbury、ギターのJuan"
+description: "Héroes del Silencioの4人組の写真から消えた第2ギタリスト、Alan Boguslavsky。1992年のメキシコでの出会いから、Avalanchaへの作曲参加までの軌跡をたどる。"
 images: ["/images/og/alan-boguslavsky-stage.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

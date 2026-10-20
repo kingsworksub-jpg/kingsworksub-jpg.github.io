@@ -1,6 +1,6 @@
 ---
 title: "オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ"
-description: "各社は「プロの音が、これ一つで手に入る」と謳う。2026年現在の定番5機種——Focusrite Scarlett 2i2(4th Gen)、Universal Audio Volt 276、RME Babyface Pro"
+description: "Focusrite Scarlett 2i2、Universal Audio Volt 276、RME Babyface Proなど定番5機種を、セットアップ・操作性・録音開始の早さなど5つの軸で比較する。"
 images: ["/images/og/audio-interface-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

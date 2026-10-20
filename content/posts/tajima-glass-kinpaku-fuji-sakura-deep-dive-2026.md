@@ -1,6 +1,6 @@
 ---
 title: "盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)"
-description: "盃の底に富士山が立っている。それも、酒を注ぐたびに色を変える富士山だ。東京の老舗ガラスメーカー、田島硝子の「金箔富士"
+description: "東京の老舗ガラスメーカー・田島硝子「金箔富士 冷酒杯(桜)」。酒を注ぐと表情を変える盃の底の富士山、被せ硝子の構造、サイズ、扱い方を見ていく。"
 images: ["/images/og/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
