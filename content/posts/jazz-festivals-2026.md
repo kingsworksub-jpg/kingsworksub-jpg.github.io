@@ -24,13 +24,13 @@ Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔�
 
 ## 夏の頂点——72年目の Newport と 60年目の Montreux
 
-7月31日からニューポート。ロードアイランド州、フォート・アダムス州立公園の岬を舞台にした「Newport Jazz Festival」は、今年で72周年を迎える。日本からするとあまり実感がないかもしれないが、ロック、R&B、フォーク、音楽文化全般において、Newport は「現代音楽の実験場」だった。1963年のフォーク・フェスティバルで Bob Dylan が電気ギターを持ち込んだあの場所。その Newport が、2026年に何をしているか。
-
 <figure class="photo photo--right">
 <img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy">
 <figcaption>2025年のNewportに立つThe RootsのBlack Thought</figcaption>
 <span class="credit">Photo: Vbrunophotog / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
+
+7月31日からニューポート。ロードアイランド州、フォート・アダムス州立公園の岬を舞台にした「Newport Jazz Festival」は、今年で72周年を迎える。日本からするとあまり実感がないかもしれないが、ロック、R&B、フォーク、音楽文化全般において、Newport は「現代音楽の実験場」だった。1963年のフォーク・フェスティバルで Bob Dylan が電気ギターを持ち込んだあの場所。その Newport が、2026年に何をしているか。
 
 Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend たちを配置しながら、Jon Batiste、Thundercat、Robert Glasper、Joshua Redman といった中核メンバーたちが一堂に集う。ここまでなら「いつもの Newport」だ。だが 2026年の Newport の発表を見ていると、Vulfpeck、Snarky Puppy、Lake Street Dive といった、ジャズと呼ぶには「そっちの方が大きい」という種族が現れる。公式な表現は「boundary-pushing, genre-defying」——「境界を超える、ジャンルを定義し直す」。
 
@@ -50,15 +50,15 @@ Montreux は規模だけではなく、「文化的影響力」で Newport と�
 
 ## 夏の横広がり——San Francisco、New Orleans、Detroit の三様式
 
-6月から8月にかけて、北米全土で並行して動く大型フェスティバルが三つある。
-
-「San Francisco Jazz Festival」は、6月16日から8月16日という超・ロング・ランで、複数の室内ホール + テント会場で展開される。Wynton Marsalis Septet（7月14-15日）、Take 6（8月13-16日）、KOKOROKO、Monsieur Periné——ジャズのアコースティック系から、アフロフューチャリズムの最前線まで。Fillmore District（かつてアフリカン・アメリカンの音楽文化の中心地）での July 4-5 ストリート・フェスティバルも、このエコシステムの一部だ。
-
 <figure class="photo photo--right">
 <img src="/images/jazz-festivals-2026/new-orleans-jazz-fest-crowd.jpg" alt="ニューオーリンズ・ジャズ＆ヘリテッジ・フェスティバルのコンゴ・スクエア・ステージ前の観客" width="220" height="146" loading="lazy">
 <figcaption>New Orleans Jazz Fest、Congo Squareステージ前の熱気</figcaption>
 <span class="credit">Photo: thepipe26 / Wikimedia Commons (CC BY 2.0)</span>
 </figure>
+
+6月から8月にかけて、北米全土で並行して動く大型フェスティバルが三つある。
+
+「San Francisco Jazz Festival」は、6月16日から8月16日という超・ロング・ランで、複数の室内ホール + テント会場で展開される。Wynton Marsalis Septet（7月14-15日）、Take 6（8月13-16日）、KOKOROKO、Monsieur Periné——ジャズのアコースティック系から、アフロフューチャリズムの最前線まで。Fillmore District（かつてアフリカン・アメリカンの音楽文化の中心地）での July 4-5 ストリート・フェスティバルも、このエコシステムの一部だ。
 
 4月23日から5月3日、ニューオーリンズの「Jazz & Heritage Festival」は、475,000人という圧倒的な来場者を集める。これは前年比 6% の成長だ。14日間、複数の pavilion（音楽ステージ）に分かれて、ジャズだけではなく、ブルース、ファンク、世界音楽、食文化、アート・ハンディクラフトが共存する。2026年は Jamaica pavilion が特集され、カリブ海の音楽文化との交流プログラムが組まれている。New Orleans Jazz Fest は、音楽というより「生活文化の全体性」を示す事件だ。
 

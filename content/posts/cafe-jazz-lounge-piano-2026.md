@@ -25,12 +25,12 @@ Moonlight Jazz Blueは、Spotifyで月間11,900人のリスナーを抱えてい
 
 ## 2026年のカフェジャズが大切にしていること
 
-2026年のカフェジャズ制作には、明確な哲学がある。かつてのように「感情的な美しさ」を全面に出すのではなく、「個々の調和、忍耐強いリズム、録音の質感」を重視する傾向が強い。つまり、ピアノの鍵盤がきしむ音さえも、意図的に残すということだ。
-
 <figure class="photo photo--left">
 <img src="/images/cafe-jazz/rhodes-piano-keys.jpg" alt="Rhodes エレクトリックピアノ Eighty Eight の鍵盤" width="220" height="165" loading="lazy">
 <figcaption>柔らかく滲むRhodesの和音が、カフェジャズの核になる<span class="credit">Photo: David Adam Kess / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
+
+2026年のカフェジャズ制作には、明確な哲学がある。かつてのように「感情的な美しさ」を全面に出すのではなく、「個々の調和、忍耐強いリズム、録音の質感」を重視する傾向が強い。つまり、ピアノの鍵盤がきしむ音さえも、意図的に残すということだ。
 
 Moonlight Jazz Blueの最新リリースに耳を澄ましてみると、わかる。Rhodesコード、刷毛でたたかれたドラムス、アコースティックベース、弱音フルート、そして静かな即興演奏——これらが一つの「部屋の中」で共存している。ヘビーな圧縮処理や映画音楽的な壮大さではなく、「その場所に確かに音が鳴っている」という実在感が前面に出ている。
 
@@ -72,12 +72,12 @@ Jazzwise、All About Jazz、JazzTimes、DownBeatといった専門メディア�
 
 ## 音質への執着——「部屋の音」を聴く
 
-2026年のインストルメンタル音楽業界で、もう一つ注目すべき傾向がある。それは「圧縮処理されたクリアさ」から「その場所の質感」への転換だ。
-
 <figure class="photo photo--right">
 <img src="/images/cafe-jazz/piano-pedal.jpg" alt="ピアノのペダルを踏む革靴" width="220" height="146" loading="lazy">
 <figcaption>ペダルが軋む音さえ、「部屋の音」として残す<span class="credit">Photo: Michael Pardo / Wikimedia Commons (CC0)</span></figcaption>
 </figure>
+
+2026年のインストルメンタル音楽業界で、もう一つ注目すべき傾向がある。それは「圧縮処理されたクリアさ」から「その場所の質感」への転換だ。
 
 ネオクラシカルピアノ、コンテンポラリー室内楽、アコースティックギター、そして抑制されたパーカッション——こうした要素が再評価される背景には、リスナー側の疲労がある。完璧すぎる音は、人間の耳を疲れさせる。それに対し、Moonlight Jazz Blueが提供するのは「隙間のある音」だ。ピアノのペダルの音、弦の微細な振動、アンビエンスとしてのノイズまで含めた「録音」。
 

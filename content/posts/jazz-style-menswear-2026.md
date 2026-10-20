@@ -107,6 +107,12 @@ Prada、Saint Laurent、Hugo Bossといったメジャーブランドが2025年�
 
 ## 足元の変化：オックスフォードからローファーへ
 
+<figure class="photo photo--left">
+<img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy">
+<figcaption>デニムに白ソックス、足元はペニーローファー</figcaption>
+<span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span>
+</figure>
+
 ピンストライプやダブルブレストと同じくらい重要な変化が、靴にも起きている。
 
 **オックスフォード——最強の選択肢**
@@ -114,12 +120,6 @@ Prada、Saint Laurent、Hugo Bossといったメジャーブランドが2025年�
 クリーンなレースアップシューズ、紐で結ぶ靴は、タイトなウール地パンツやワイドレッグデニムとの組み合わせで「今最も強い一手」とされている。ほぼ誰も実践していないから、かえって目立つという逆説がある。形式的な靴が非形式的な下半身と出会う瞬間、それが2026年のメンズスタイルの核になっている。
 
 **ペニーローファー——主流化への3年の歩み**
-
-<figure class="photo photo--left">
-<img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy">
-<figcaption>デニムに白ソックス、足元はペニーローファー</figcaption>
-<span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span>
-</figure>
 
 ローファーは3年前からゆっくり上昇してきた。2026年に到達したのは「主流化」の瞬間だ。特にペニーローファー——ヴァンプ（甲の部分）の清潔さと、シンプルなハードウェアを特徴とする型——が、ビジネスカジュアルからオフデューティまで、あらゆる場面に登場している。素材もバリエーションに富んでいる。スエード、ラフなテクスチャの皮革、大胆な色合い。
 

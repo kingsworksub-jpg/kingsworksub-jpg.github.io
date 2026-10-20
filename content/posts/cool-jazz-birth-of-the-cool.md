@@ -79,12 +79,12 @@ Nonet には戻れなかった。1950年3月のセッションが、Nonet とし
 
 ## 二つの冷えた音
 
-ニューヨークの『Birth of the Cool』は、Thornhill のオーケストラの声を小さく再現した音だった。ロサンゼルの Baker の音は、旋律よりも休符に由来していた。弱音のトランペットが、音符と音符のあいだを埋めていった。
-
 <figure class="photo photo--left">
   <img src="/images/cool-jazz/stan-getz-chet-baker-1983.jpg" alt="1983年、ノルウェーでの演奏をするStan GetzとChet Baker" width="1280" height="1288" loading="lazy">
   <figcaption>1983年2月、ノルウェーのサンドヴィーカでの演奏。Stan Getz と Chet Baker<span class="credit">Photo: Geir / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
+
+ニューヨークの『Birth of the Cool』は、Thornhill のオーケストラの声を小さく再現した音だった。ロサンゼルの Baker の音は、旋律よりも休符に由来していた。弱音のトランペットが、音符と音符のあいだを埋めていった。
 
 cool jazz は長い間、软弱で退屈という偏見にさらされていた。
 

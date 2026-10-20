@@ -79,6 +79,12 @@ ogImageHeight: 630
 
 ## 文化としての装い——なぜいま、ジャズスタイルなのか
 
+<figure class="photo photo--right">
+<img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy">
+<figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
+<span class="credit">Photo: Pixabay / tylermike525</span>
+</figure>
+
 2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
 
 現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
@@ -88,12 +94,6 @@ ogImageHeight: 630
 つまり、ジャズスタイルは「静かな確実性」の言語なのである。騒々しい現代に、余計な装飾ではなく、構造と秩序で自分を表現したいという欲求。その欲求が、80年前のジャズメンたちが編み出した美学に人々を向かわせているのだろう。
 
 もう一つの理由は、ジャズ文化そのものへの関心の高まりである。前回の記事で書いたように、2026年はNEA Jazz Mastersが新しいマスターを認定し、Kamasi Washingtonやら新世代のジャズミュージシャンたちが社会的な発言を強めている年だ。その音楽の世界への関心が、自然と彼らが着ていた服へも及んでいる。
-
-<figure class="photo photo--right">
-<img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy">
-<figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
-<span class="credit">Photo: Pixabay / tylermike525</span>
-</figure>
 
 ## シャープな靴と細いピンストライプ——細部の美学
 

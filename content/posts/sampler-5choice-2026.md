@@ -50,14 +50,15 @@ aliases:
 
 ## Battery 4 — 寡黙な働き者、いつも変わらず頼れる存在
 
-
-(Amazonに単体販売の取り扱いなし)
 <figure class="photo photo--right">
 <a href="https://www.native-instruments.com/products/battery">
 <img src="/images/products/battery-4.png" alt="Battery 4" width="1200" height="675" loading="lazy">
 </a>
 <figcaption>Battery 4<span class="credit"><a href="https://www.native-instruments.com/products/battery">Amazonで見る →</a></span></figcaption>
 </figure>
+
+
+(Amazonに単体販売の取り扱いなし)
 <figure class="photo photo--left">
 <a href="https://tal-software.com/products/tal-sampler/">
 <img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler" width="1600" height="867" loading="lazy">

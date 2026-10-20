@@ -81,5 +81,40 @@
     "next_kpis": [
       "figure配置違反記事数 33→23→さらに減少"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T04:53:41.184112Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "alan-boguslavsky-stage",
+      "cafe-jazz-lounge-piano-2026",
+      "cool-jazz-birth-of-the-cool",
+      "crystal-spark-grape-deep-dive-2026",
+      "daw-5choice-2026",
+      "fuji-strong-soda-deep-dive-2026",
+      "itoen-mineral-strong-deep-dive-2026",
+      "jazz-festivals-2026",
+      "jazz-shoes-trend-2026",
+      "jazz-style-fashion-revival-2026",
+      "jazz-style-menswear-2026",
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "mitsuya-cider-zero-deep-dive-2026",
+      "modern-spiritual-jazz-2026",
+      "music-theory-3month-plan",
+      "oza-soda-deep-dive-2026",
+      "sampler-5choice-2026",
+      "scarf-styling-trend-2026",
+      "wilkinson-tansan-deep-dive-2026",
+      "yosa-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "見出し直後でないfigureを見出し直後・本文直前へ移動(回り込み規則準拠)"
+    ],
+    "files_changed": 21,
+    "status": "一部完了(hugo未導入のためビルド未実行。figure配置違反は10記事に残存: イントロ冒頭figureや同セクション複数figureで機械移動不可、要手作業。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "figure配置違反記事数 23→10",
+      "残10記事の手動調整"
+    ]
   }
 ]
