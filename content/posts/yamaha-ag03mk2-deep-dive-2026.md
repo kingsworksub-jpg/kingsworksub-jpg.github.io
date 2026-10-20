@@ -21,6 +21,8 @@ ogImageHeight: 630
 </span>
 </a>
 
+## 配信と音楽制作を両立させるループバック機能の仕組み
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09W92H2D9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/yamaha-ag03mk2/mixer.jpg" alt="配信・宅録用のオーディオミキサー環境" width="960" height="640" loading="lazy">
@@ -29,7 +31,6 @@ ogImageHeight: 630
 <span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span>
 </figure>
 
-## 配信と音楽制作を両立させるループバック機能の仕組み
 
 AG03MK2がこれほどまでに広く普及した最大の理由の一つが、非常に洗練された「ループバック機能」の存在です。パソコン上で再生されているBGMやゲーム音、通話の音声などを、本体に入力したマイクの音声とミックスしてそのまま配信プラットフォームへ送り返すことができるこの機能は、ライブ配信を行う上でなくてはならないものです。
 

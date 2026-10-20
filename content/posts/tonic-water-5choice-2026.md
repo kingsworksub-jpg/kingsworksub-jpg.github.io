@@ -21,6 +21,8 @@ ogImageHeight: 630
 </span>
 </a>
 
+## トニックウォーターの歴史と基本構造
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B078WZJ23P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/tonic-water/bottle.jpg" alt="トニックウォーターのボトルとグラス" width="960" height="720" loading="lazy">
@@ -29,7 +31,6 @@ ogImageHeight: 630
 <span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
 </figure>
 
-## トニックウォーターの歴史と基本構造
 
 トニックウォーターの起源は、かつてマラリア予防のために英兵が飲んでいたキニーネ入りの薬用飲料に遡ります。当時のキニーネは非常に苦味が強くそのままでは到底飲めなかったため、砂糖やライム、そしてジンを加えて飲みやすくしたのがジントニックの始まりだと言われています。現代のトニックウォーターにおいても、この「キニーネ由来の独特な苦味」と「糖分による甘さ」、そして「炭酸の爽快感」の3要素が味わいを決める核心となっています。
 

@@ -85,13 +85,14 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 
 また、TikTok や Instagram での「DIY スタイリング」文化も、スカーフの地位を押し上げている。ジェン・Z は、ブランド既成品の着こなしではなく、素材の多用途的な使用法を発見し、共有することに快感を覚えている。スカーフ・トップ、ウエスト結び、ヘッドバンド、アスコット——同じアイテムが複数の形態を持つことが、その創意工夫の対象になる。
 
+## 価格帯と選択肢の民主化
+
 <figure class="photo photo--right">
 <img src="/images/scarf-trend/scarf-diy-creative.jpg" width="220" height="310" alt="Creative DIY scarf styling experiment" loading="lazy">
 <figcaption>同じスカーフが複数の結び方で異なる表情を見せる。DIY スタイリングの実験場としてのスカーフ</figcaption>
 <span class="credit">Photo: Pexels / Fashion & Styling</span>
 </figure>
 
-## 価格帯と選択肢の民主化
 
 高級スカーフの代表例は、やはり Hermès のシグネチャー・スクエア・スカーフだ。数万円の投資が要求される一方で、その「アイコン性」は揺るがない。
 

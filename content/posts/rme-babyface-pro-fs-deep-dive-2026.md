@@ -21,6 +21,8 @@ ogImageHeight: 630
 </span>
 </a>
 
+## 妥協なきドライバ安定性と低レイテンシー
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0875XSPZQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/rme-babyface-pro-fs/interface.jpg" alt="プロフェッショナル向けオーディオ機器の接続イメージ" width="960" height="388" loading="lazy">
@@ -29,7 +31,6 @@ ogImageHeight: 630
 <span class="credit">Photo: Musicproducer / CC BY-SA 4.0</span>
 </figure>
 
-## 妥協なきドライバ安定性と低レイテンシー
 
 RMEというブランドを語る上で絶対に外せないのが、自社開発による極めて安定性の高いドライバ群です。多くのメーカーがサードパーティ製のオーディオドライバコアに依存する中、RMEはウィンドウズおよびマックの双方において自社オリジナルのドライバをゼロから構築し、最適化し続けています。これにより、極限まで低いバッファサイズ（レイテンシー）に設定しても、プチノイズや突然のドロップアウトが発生しにくい抜群の安定性を誇ります。
 

@@ -21,6 +21,8 @@ ogImageHeight: 630
 </span>
 </a>
 
+## スポーツドリンクの設計思想と日常的な水分補給
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B001V7QN7O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/hydration/bottle.jpg" alt="水分補給用のボトルドリンク" width="960" height="720" loading="lazy">
@@ -29,7 +31,6 @@ ogImageHeight: 630
 <span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
 </figure>
 
-## スポーツドリンクの設計思想と日常的な水分補給
 
 ポカリスエットやアクエリアスをはじめとするスポーツドリンクは、運動時や汗をかいたときに失われる水分やミネラル（ナトリウムやカリウムなど）を素早く補給できるように設計されています。人間の体液よりもやや低い滲透圧（アイソトニックまたはハイポトニック）に調整されており、腸管での水分吸収をスムーズに行うことができます。
 
