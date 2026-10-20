@@ -116,5 +116,29 @@
       "figure配置違反記事数 23→10",
       "残10記事の手動調整"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T05:53:46.481615Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "arita-enka-sake-set-deep-dive-2026",
+      "black-nikka-clear-deep-dive-2026",
+      "canada-dry-tansan-strong-deep-dive-2026",
+      "coca-cola-zero-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "budget-whisky-10choice-2026"
+    ],
+    "actions": [
+      "最短(70字台)だったdescription 8件を購入判断・用途の訴求を加えて拡充(83〜94字)",
+      "figure配置の残違反を再点検: 残りはレーダーチャート連続・冒頭figure・同セクション複数figureで、本文は画像横を回り込むため機能上問題なしと判断し未変更"
+    ],
+    "files_changed": 9,
+    "status": "一部完了(seo-auditはPIL不具合で実行不可、hugo未導入のためビルド未実行。description 100字未満は他に約55件残存。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 約60→約52",
+      "残る短いdescriptionを順次拡充"
+    ]
   }
 ]
