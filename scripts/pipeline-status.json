@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:44:53+09:00",
+ "updated": "2026-10-21T07:45:10+09:00",
  "queue": {
   "published": 95,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published python-perceptual-hash-image-compare",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-21T07:30:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-21T04:00:50+09:00",
+  "at": "2026-10-21T07:45:10+09:00",
   "engine": "claude",
-  "detail": "キューもファイルも変更していないので、コミットと push はしていません。"
+  "detail": "- **Weak spot in the image check:** the dHash (an image fingerprint) in `validate_post.py` sometimes treats two different products on white backgrounds as the same image. Two Crystal Spark bottles came out 1 bit apart. A second fingerprint type, pHash, told them apart, so adding it to the check woul"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-21T07:45:10+09:00",
+   "engine": "claude",
+   "detail": "- **Weak spot in the image check:** the dHash (an image fingerprint) in `validate_post.py` sometimes treats two different products on white backgrounds as the same image. Two Crystal Spark bottles came out 1 bit apart. A second fingerprint type, pHash, told them apart, so adding it to the check woul"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-19T23:12:47+09:00",
    "engine": "claude",
    "detail": "The research couldn't confirm a few figures, so I left them out: Patagonia's yearly repair count, the total number of France's repair bonuses, and an exact count of Repair Cafés (the essay just says 'over 2,000')."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-19T21:30:15+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 10:30pm (Asia/Tokyo)"
   }
  ]
 }
