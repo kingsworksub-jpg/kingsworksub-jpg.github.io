@@ -4,7 +4,7 @@ date: 2026-10-09T17:30:00+09:00
 draft: false
 categories: [misc]
 scheduled_time: "17:30"
-description: "大人が鍵盤を独習するとき、指の練習より先に決めておきたい目標とは。DAWでの打ち込みや作曲につなげるための電子ピアノ選び、1日30分の練習計画、コードとリズムの鍛え方をまとめる。"
+description: "大人が鍵盤を独習するとき、指の練習より先に決めておきたい目標とは。DAWでの打ち込みや作曲につなげる電子ピアノ選び、1日30分の練習計画、コードとリズムの鍛え方、録音での自己チェックまでをまとめる。"
 images: ["/images/og/adult-piano-learning-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
