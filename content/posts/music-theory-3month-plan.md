@@ -31,6 +31,13 @@ draft: false
 
 ## 通読をやめると、三か月で配れるようになる
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=MIDI%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<img src="/images/music-theory-3month/midi-keyboard.jpg" alt="机上に置かれた25鍵のMIDIキーボード、白鍵と黒鍵が一列に並ぶ" width="220" height="103" loading="lazy">
+</a>
+<figcaption>鍵盤は記号を距離に変える層。指が動く先がないと、本は読めても音にならない<span class="credit">Photo: Morn / <a href="https://commons.wikimedia.org/wiki/File:Samson_Graphite_25_MIDI_keyboard.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
 三か月の割り方で私が迷ったのは、毎日何分やるかではなかった。
 それは最後に述べる。
 先に決めるべきは、途中で主教材を入れ替えるかどうかだ。
@@ -44,18 +51,16 @@ draft: false
 本の難易度は問題ではない。
 最後まで読む、という目標が問題だ。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=MIDI%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/music-theory-3month/midi-keyboard.jpg" alt="机上に置かれた25鍵のMIDIキーボード、白鍵と黒鍵が一列に並ぶ" width="220" height="103" loading="lazy">
-</a>
-<figcaption>鍵盤は記号を距離に変える層。指が動く先がないと、本は読めても音にならない<span class="credit">Photo: Morn / <a href="https://commons.wikimedia.org/wiki/File:Samson_Graphite_25_MIDI_keyboard.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
-</figure>
-
 三か月を順に割るとき、書もアプリも一つに固定する。
 変えるのは三か月目の主教材だけ。
 これが配分の要点だ。
 
 ## 第1か月：音程と度数
+
+<figure class="photo photo--right">
+<img src="/images/music-theory-3month/keys.jpg" alt="白い鍵盤の上に指が乗ったところ、斜め上から見た鍵の反射" width="220" height="147" loading="lazy">
+<figcaption>度数とは記号ではなく、鍵と鍵の距離のこと<span class="credit">Photo: Gabriel Barletta / <a href="https://commons.wikimedia.org/wiki/File:Fingers_on_the_piano_keys_(Unsplash).jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
+</figure>
 
 音程を飛ばして和音へ進むことがある。
 結果は単純で、和音が聞き取れなくなる。
@@ -72,11 +77,6 @@ draft: false
 次に黒鍵を加える。
 音程は、指を何個飛ばすかで分かる。
 度数も同じ。基音から指がどこにあるか、で決まる。
-
-<figure class="photo photo--right">
-<img src="/images/music-theory-3month/keys.jpg" alt="白い鍵盤の上に指が乗ったところ、斜め上から見た鍵の反射" width="220" height="147" loading="lazy">
-<figcaption>度数とは記号ではなく、鍵と鍵の距離のこと<span class="credit">Photo: Gabriel Barletta / <a href="https://commons.wikimedia.org/wiki/File:Fingers_on_the_piano_keys_(Unsplash).jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
-</figure>
 
 耳の訓練は musictheory.net だけで足りる。
 音程、音階、和音、鍵盤の四つに分かれていて、ブラウザだけで動く。
@@ -97,6 +97,11 @@ iPhone と iPad と Mac と Android に出ている。
 
 ## 第2か月：三和音・疑似和音・進行
 
+<figure class="photo photo--left">
+<img src="/images/music-theory-3month/manuscript.jpg" alt="古い手書きの楽譜で、密集した音符と和音記号がページいっぱいに並ぶ" width="220" height="354" loading="lazy">
+<figcaption>手書きの和声記号は電報のように密集している。和声の練習とは、その密集を動かせる塊に割る作業である<span class="credit">Photo: Wilhelm Friedemann Bach / <a href="https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
+</figure>
+
 二か月目の流れはこう並べる。
 三和音を構成する。
 転位を求める。
@@ -112,11 +117,6 @@ iPhone と iPad と Mac と Android に出ている。
 半減七和音と減七和音のことだ。
 三か月目まで遅らせると、その先がきつくなる。
 
-<figure class="photo photo--left">
-<img src="/images/music-theory-3month/manuscript.jpg" alt="古い手書きの楽譜で、密集した音符と和音記号がページいっぱいに並ぶ" width="220" height="354" loading="lazy">
-<figcaption>手書きの和声記号は電報のように密集している。和声の練習とは、その密集を動かせる塊に割る作業である<span class="credit">Photo: Wilhelm Friedemann Bach / <a href="https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
-</figure>
-
 耳の訓練には、ここから Complete Ear Trainer を加える。
 このアプリは、和音の識別だけでなく分解や進行も見る。
 iPhone と Android の両方に対応している。
@@ -131,14 +131,14 @@ iPhone と Android の両方に対応している。
 
 ## 第3か月：代理和音と変則和声
 
-三か月目の課題は、進行の先にある。
-ここまではダイアトニックの中だけだった。
-ここから先は、その外へ出る。
-
 <figure class="photo photo--right">
 <img src="/images/music-theory-3month/theory-book.jpg" alt="十九世紀の笛の教本の一ページ。上部に題字、下部に音符と和音の記号が並ぶ" width="220" height="290" loading="lazy">
 <figcaption>和声記号の書き方は三百年ほぼ変わっていない。だから使うのは記号ではなく機能である<span class="credit">Photo: Henri Altès / <a href="https://commons.wikimedia.org/wiki/File:Grand_method_for_flute,_part._I_-_containing_complete_theory_of_music,_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_(017_of_110).jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
+
+三か月目の課題は、進行の先にある。
+ここまではダイアトニックの中だけだった。
+ここから先は、その外へ出る。
 
 用語を先に整理しておく。
 

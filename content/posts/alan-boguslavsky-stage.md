@@ -68,12 +68,12 @@ Bogusflowの音楽は、どちらかというとスピリチュアルで内向�
 
 ## 2025〜2026年、ふたたびステージへ
 
-近年、Boguslavskyは思いがけない形で、いま一度脚光を浴びている。Héroes del Silencioのトリビュートバンドとの共演だ。2025年2月にはスペインのPara Siempreと組んでマラガ・マドリードのステージに立ち、2025年9月にはメキシコで『Avalancha』30周年を記念したツアー(レオン・グアダラハラ・コリマ)を実施した。2026年9月には『Bunbury & Héroes Experience』と題する企画で、マドリードとサラゴサに立つ。隣にいるのはCopi Corellanoだったり、あるいはテンポの違う"同窓生"たちだったりする。
-
 <figure class="photo photo--right">
   <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-2.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムで演奏するHéroes del Silencioの別アングル" width="1280" height="960" loading="lazy">
   <figcaption>同ツアーのステージを別アングルから。はるか遠い4人と、ファンの記憶に残る「空席」<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
 </figure>
+
+近年、Boguslavskyは思いがけない形で、いま一度脚光を浴びている。Héroes del Silencioのトリビュートバンドとの共演だ。2025年2月にはスペインのPara Siempreと組んでマラガ・マドリードのステージに立ち、2025年9月にはメキシコで『Avalancha』30周年を記念したツアー(レオン・グアダラハラ・コリマ)を実施した。2026年9月には『Bunbury & Héroes Experience』と題する企画で、マドリードとサラゴサに立つ。隣にいるのはCopi Corellanoだったり、あるいはテンポの違う"同窓生"たちだったりする。
 
 かつて彼自身は、2007年の再結成ツアーに参加していなかった。そのときに空いた席は、ファンの間で今も語り草になっている。それだけに、彼がトリビュートバンドという形で古い曲を再び手に取り、弾き直す姿には、20年を経た"和解"に似た感慨がある。彼は言う。「僕が最初に手を挙げる。ここに居るよ、と」。世代が入れ替わっても、本国スペインで『Entre dos tierras』や『Avalancha』のリフが鳴るたび、あの5人編成の熱気がよみがえるのだ。
 

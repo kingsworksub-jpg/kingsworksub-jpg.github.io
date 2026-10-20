@@ -33,14 +33,14 @@ aliases:
 
 ## 強炭酸の刺激と持続性
 
-炭酸の強さについては情報源によって数値に幅があり、5.0GV程度という報告もあれば4.4GV程度という実測値もある。ロットや測定条件による差だと思われるが、いずれにしても「強炭酸」を名乗るだけの刺激はしっかりあるという評価が多い。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">
 <img src="/images/products/fuji-strong-soda.png" alt="富士山の強炭酸水" width="600" height="600" loading="lazy">
 </a>
 <figcaption>富士山の強炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+炭酸の強さについては情報源によって数値に幅があり、5.0GV程度という報告もあれば4.4GV程度という実測値もある。ロットや測定条件による差だと思われるが、いずれにしても「強炭酸」を名乗るだけの刺激はしっかりあるという評価が多い。
 
 味わいについては「雑味がなく、天然水らしい清涼感がある」という評価が目立つ一方、「炭酸が抜けるのがやや早く、持続性ではウィルキンソン タンサンのような定番に一歩譲る」という声も見かける。ハイボールなどの割材としては十分実用的だが、長時間シュワシュワ感を保ちたい人はこの点を踏まえておいた方がいいかもしれない。
 
@@ -50,14 +50,14 @@ aliases:
 
 ## 価格・入手性
 
-500ml×24本のケースで、実勢価格はAmazon.co.jpで1,200円前後からと、この10本近いシリーズの中でも手頃な価格帯に入る。500ml以外に1Lのラベルレスケースも展開されている。
-
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">
 <img src="/images/products/fuji-strong-soda.png" alt="富士山の強炭酸水" width="600" height="600" loading="lazy">
 </a>
 <figcaption>富士山の強炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+500ml×24本のケースで、実勢価格はAmazon.co.jpで1,200円前後からと、この10本近いシリーズの中でも手頃な価格帯に入る。500ml以外に1Lのラベルレスケースも展開されている。
 
 2026年時点でも各ECサイトで通常販売されており、生産終了の情報は見当たらない。
 
