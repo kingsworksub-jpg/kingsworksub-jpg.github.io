@@ -353,5 +353,25 @@
     "next_kpis": [
       "description 100字未満の記事数 40→34"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T18:53:39.052009Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "one-room-streaming-setup-2026",
+      "real-gold-deep-dive-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "mitsuya-cider-original-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 6件を見出し内容に沿って100字超へ書き直し(フロントマターのみ)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。100字未満description残り約28件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 34→28"
+    ]
   }
 ]
