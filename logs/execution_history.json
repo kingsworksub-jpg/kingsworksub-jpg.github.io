@@ -313,5 +313,25 @@
     "next_kpis": [
       "description 100字未満の記事数 49→44"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T16:53:05.335963Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "2026-09-22-162404",
+      "bodum-douro-carafe-deep-dive-2026",
+      "canada-dry-tansan-strong-deep-dive-2026",
+      "budget-whisky-10choice-2026",
+      "arita-enka-sake-set-deep-dive-2026",
+      "adult-piano-learning-2026"
+    ],
+    "actions": [
+      "短いdescription 6件を見出し内容に沿って100字超へ書き直し(フロントマターのみ)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約40件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 46→40"
+    ]
   }
 ]
