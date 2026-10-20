@@ -1,6 +1,6 @@
 ---
 title: "Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル"
-description: "ダイキャストアルミ製のプラッターに、制振・防振設計の筐体、4つのゴム足を組み合わせた構成。公称重量は約8.0kg、サイズは452×352×141.6mm。カラーはブラックとシルバーの2色展開で、見た目のレイアウトはTechnics"
+description: "ダイキャストアルミのプラッターと制振筐体、USB出力による録音機能まで備えたAudio-Technica AT-LP120XUSB。重量・サイズ・操作系・価格を整理する。"
 images: ["/images/og/at-lp120xusb-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

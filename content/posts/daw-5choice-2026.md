@@ -1,6 +1,6 @@
 ---
 title: "DAW 5本を比べる、机の上のオーケストラを誰に任せるか"
-description: "各メーカーは「これさえあれば、あなたの創作は変わる」とアピールする。2026年現在「トレンド」と呼べる5本のDAW——Logic Pro、FL Studio、Ableton"
+description: "Logic Pro、FL Studio、Ableton Live、Cubase、Fender Studio Proの5本を、学習コスト・打ち込み・制作速度・拡張性・安定性の5軸で比べ、選び方を整理する。"
 images: ["/images/og/daw-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

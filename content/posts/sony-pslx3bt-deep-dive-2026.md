@@ -1,6 +1,6 @@
 ---
 title: "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え"
-description: "Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後"
+description: "2026年2月発表のSony PS-LX3BT(旧PS-LX310BTの後継)を、Bluetooth送信や自動再生などの機能、音質、価格から検証し、気軽に始めたい人向けかを見ていく。"
 images: ["/images/og/sony-pslx3bt-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
