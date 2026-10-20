@@ -140,5 +140,24 @@
       "description 100字未満の記事数 約60→約52",
       "残る短いdescriptionを順次拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T06:53:45.192495Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "crystal-spark-ramune-deep-dive-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "mitsuya-cider-original-deep-dive-2026",
+      "nea-jazz-masters-2026",
+      "at-lp120xusb-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 5件に購入判断・用途の訴求を追記(87〜104字)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description約50件残存。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 53→約49"
+    ]
   }
 ]

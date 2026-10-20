@@ -1,6 +1,6 @@
 ---
 title: "CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる"
-description: "アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL SPARK」のラムネ味。ビー玉入りの瓶を思わせる香りと味わい、割り材としての使い方、価格や入手性を見ていく。"
+description: "アイリスオーヤマの無糖強炭酸水ブランド「CRYSTAL SPARK」のラムネ味。ビー玉入りの瓶を思わせる香りと味わい、割り材としての使い方、価格や入手性を見ていく。甘くない強炭酸でラムネ気分を味わいたい人へ。"
 images: ["/images/og/crystal-spark-ramune-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
