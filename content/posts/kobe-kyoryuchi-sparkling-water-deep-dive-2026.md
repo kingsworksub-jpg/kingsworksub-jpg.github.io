@@ -1,6 +1,6 @@
 ---
 title: "190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター"
-description: "スーパーや業務スーパーの棚でよく見かける「神戸居留地」の炭酸水。缶190mlという飲み切りサイズの強炭酸水「スパークリングウォーター プレーン」を、一つ一つ見ていく。"
+description: "スーパーや業務スーパーの棚でよく見かける「神戸居留地」の炭酸水。缶190mlという飲み切りサイズの強炭酸水「スパークリングウォーター プレーン」の味・価格・使い道を見ていく。"
 images: ["/images/og/kobe-kyoryuchi-sparkling-water-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
