@@ -2137,6 +2137,15 @@
    "note_key": "n09e7f3f9cf03",
    "engine": "claude",
    "at": "2026-10-20T21:57:44+09:00"
+  },
+  {
+   "id": "2026w42-043",
+   "category": "lab",
+   "theme": "Pythonで画像の知覚ハッシュを比べる",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-20T23:03:50+09:00"
   }
  ]
 }
