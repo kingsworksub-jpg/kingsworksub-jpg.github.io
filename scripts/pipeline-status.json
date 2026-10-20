@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-20T20:00:35+09:00",
+ "updated": "2026-10-20T20:14:50+09:00",
  "queue": {
-  "published": 92,
+  "published": 93,
   "rejected": 1,
-  "approved": 54,
-  "in_progress": 1
+  "approved": 54
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published ramune-5choice-2026",
+ "last_result": "published yojohan-dtm-bedside-desk-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

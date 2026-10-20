@@ -2113,6 +2113,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-20T17:47:41+09:00"
+  },
+  {
+   "id": "2026w42-010",
+   "category": "setup",
+   "theme": "4畳半で作るDTM環境、ベッドの隣に机を置く",
+   "slug": "yojohan-dtm-bedside-desk-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/yojohan-dtm-bedside-desk-2026/",
+   "hatena_entry": "14945776032092831462",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-20T20:14:50+09:00"
   }
  ]
 }
