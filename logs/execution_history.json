@@ -179,5 +179,24 @@
     "next_kpis": [
       "description 100字未満の記事数 51→約45"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T08:53:02.728629Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jim-beam-white-deep-dive-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "toyo-sasaki-katakuchi-deep-dive-2026",
+      "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 5件を本文の見出し内容に沿って100字超に拡充(フロントマターのみ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約46件(下書き1件含む)。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 51→約46"
+    ]
   }
 ]
