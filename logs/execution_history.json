@@ -191,7 +191,7 @@
       "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026"
     ],
     "actions": [
-      "短いdescription 5件を本文の見出し内容に沿って100字超に拡充(フロントマターのみ)"
+      "短いdescription 5件を本文の見出し内容に沿って84〜96字に拡充(110字未満のため引き続き拡充余地あり)(フロントマターのみ)"
     ],
     "files_changed": 6,
     "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約46件(下書き1件含む)。はてな/Ameba/noteは未巡回)",
