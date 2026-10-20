@@ -256,5 +256,24 @@
     "next_kpis": [
       "description 100字未満の記事数 50→約45"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T12:53:49.645746Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026",
+      "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "2026-09-22-162404"
+    ],
+    "actions": [
+      "短いdescription 5件を見出し内容に沿って89〜92字へ書き直し(フロントマターのみ、本文は未変更)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約45件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 50→約45"
+    ]
   }
 ]
