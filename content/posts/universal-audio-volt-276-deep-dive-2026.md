@@ -1,6 +1,6 @@
 ---
 title: "Universal Audio Volt 276が備える76系コンプとビンテージモードの正体"
-description: "Universal Audio Volt 276の76系アナログコンプレッサーと真空管エミュレーションモードが、宅録のボーカルや楽器録音にどのような変化をもたらすのかを詳しく紐解きます。"
+description: "Universal Audio Volt 276の1176系アナログコンプとVintageモードは、宅録のボーカルやギターをどう変えるのか。コンバーター、バスパワー駆動、下位Voltとの違い、付属ソフトまで整理して選び方の基準を示す。"
 images: ["/images/og/universal-audio-volt-276-deep-dive-2026.jpg"]
 date: 2026-10-11T17:30:00+09:00
 categories: [misc]
