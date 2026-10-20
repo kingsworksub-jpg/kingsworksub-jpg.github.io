@@ -451,5 +451,24 @@
     "next_kpis": [
       "110字未満description 72→約68件"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T23:53:20.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ableton-live-12-session-view-2026",
+      "adult-piano-learning-2026",
+      "arita-enka-sake-set-deep-dive-2026",
+      "at-lp120xusb-deep-dive-2026",
+      "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka"
+    ],
+    "actions": [
+      "descriptionを見出し内容に沿って書き直し(フロントマターのみ、約110字へ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。110字未満description残り約64件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "110字未満description 69→約64件"
+    ]
   }
 ]

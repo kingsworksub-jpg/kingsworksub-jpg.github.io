@@ -1,6 +1,6 @@
 ---
 title: Ableton Live 12のセッションビューが変える作曲の順番
-description: Ableton Live 12のセッションビューは、タイムラインに置く前にクリップを組み替えるための画面だ。シーンとローンチ設定、フォローアクションの仕組みから、ライブ専用ではない作曲動線としての使い方を整理する。
+description: Ableton Live 12のセッションビューを、縦の列と横の行で曲が立ち上がる仕組みから整理する。ローンチモード4種、フォローアクション、ワープと量子化の違い、エディション選びまで。
 images: ["/images/og/ableton-live-12-session-view-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
