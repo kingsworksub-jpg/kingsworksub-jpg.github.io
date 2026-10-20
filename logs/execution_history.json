@@ -57,5 +57,29 @@
       "figure配置違反記事数の減少(残: 見出し直後でないfigure約30記事)",
       "画像クレジット流用の確認"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T02:53:50.765228Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canada-dry-ginger-ale-deep-dive-2026",
+      "coca-cola-zero-deep-dive-2026",
+      "cutty-sark-deep-dive-2026",
+      "dodecamin-deep-dive-2026",
+      "green-cola-deep-dive-2026",
+      "nousaku-tin-sake-set-deep-dive-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "statement-hat-trends-autumn-2026",
+      "suntory-kakubin-deep-dive-2026",
+      "vox-cola-flavor-deep-dive-2026"
+    ],
+    "actions": [
+      "見出し直後でないfigureを見出し直後・本文直前へ移動(回り込み規則準拠)、連続空行を整理"
+    ],
+    "files_changed": 11,
+    "status": "一部完了(hugo/PIL未導入のためビルド・seo-audit未実行。figure配置違反は約23記事に残存、次回対象。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "figure配置違反記事数 33→23→さらに減少"
+    ]
   }
 ]

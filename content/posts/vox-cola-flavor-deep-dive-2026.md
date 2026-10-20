@@ -12,22 +12,11 @@ aliases:
 - /old_posts/vox-cola-flavor-deep-dive-2026/
 ---
 
-
-
 フォルダ株式会社が手がける炭酸水ブランド「VOX」には、ストレート・シリカ・レモン・ミント・コーラの5ラインアップが並ぶ。違うのは香りの種類だけかと思いきや、その中に「無糖なのにコーラの香りがある」一本が混じっている。多数派ではない一例として据えて、妙味と限界を見ていく。
-
-
 
 ---
 
 まず、VOX を作った会社の体格から
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22">
-<img src="/images/products/vox-cola-flavor.jpg" alt="VOX 強炭酸水 コーラフレーバー 500ml×24本" width="900" height="900" loading="lazy">
-</a>
-<figcaption>VOX 強炭酸水 コーラフレーバー 500ml×24本<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>
-</figure>
-
 
 フォルダ株式会社は2006年2月設立。資本金5,000万円、2025年12月期の売上高52.3億円、従業員数は連結49名と、中規模メーカーとしてはほどよい規模だ。本社は東京都渋谷区。事業内容には「食品、飲料、日用品の企画・販売・製造」と書かれていて、飲料を自社で製造する体制を採っている。
 
@@ -40,6 +29,13 @@ VOX ブランドはこの体制で2016年に始まった。Sports・Music・Fash
 製品ページの「イベントのオーガナイズやコンテンツのアーカイブ、サンプリングや賞品提供を通じてライフスタイルの中に炭酸があるシーンを創る」という記述を見ると、飲料メーカーとしての一歩先にある立ち位置を意図している印象を受ける。
 
 ## 5.0GV は業界でどのあたりの位置なのか
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22">
+<img src="/images/products/vox-cola-flavor.jpg" alt="VOX 強炭酸水 コーラフレーバー 500ml×24本" width="900" height="900" loading="lazy">
+</a>
+<figcaption>VOX 強炭酸水 コーラフレーバー 500ml×24本<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>
+</figure>
+
 数字の話に戻そう。VOX が掲げる「VOLUME MAX 炭酸充填量 5.0GV」の 5.0GV とは、どれくらいの量なのか。
 
 GV はガスボリュームの略称で、飲料1Lに溶け込む炭酸ガスの体積(L)を指す。5.0GV なら、1L の水に対して5L の炭酸ガスを溶かし込んでいることになる。炭酸は水温が低いほど溶けやすく、充填量に比例して開封時の泡立ちと飲んだときの刺激が強くなる。
@@ -124,7 +120,6 @@ Amazon 側には「数日経つと炭酸が弱くなって、コーラのフレ�
 
 Amazon 詳細ページには 4.1 評価が 2,700 件以上集まっている。異色のフレーバーだけあって買われているのは珍しい。
 
-
 ---
 
 ## まとめ
@@ -134,7 +129,6 @@ Amazon 詳細ページには 4.1 評価が 2,700 件以上集まっている。�
 </a>
 <figcaption>香りを付けただけ、という単純さが骨格にある<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>
 </figure>
-
 
 飲料の種類としては珍しい「無糖のコーラ」という存在だ。糖もカロリーもゼロなのに、鼻の奥ではコーラの記憶を引き出す —— という表現で尽きる。
 
