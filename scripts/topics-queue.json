@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:30:27+09:00",
+ "updated": "2026-10-21T07:44:53+09:00",
  "items": [
   {
    "category": "gear",
@@ -8468,7 +8468,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-043",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-10-21T07:30:27+09:00",
@@ -8476,7 +8476,9 @@
    "content_dir": "tech",
    "slot_time": "07:30",
    "slot_label": "朝: 検証メモ/個人備忘録",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "python-perceptual-hash-image-compare",
+   "published_at": "2026-10-21T07:44:53+09:00"
   },
   {
    "category": "lab",
