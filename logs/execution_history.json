@@ -198,5 +198,24 @@
     "next_kpis": [
       "description 100字未満の記事数 51→約46"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T09:53:39.671072Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "arita-enka-sake-set-deep-dive-2026",
+      "wilkinson-tansan-deep-dive-2026",
+      "coca-cola-zero-deep-dive-2026",
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "fuji-strong-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "短いdescription 5件を見出し内容に沿って93〜100字に拡充(フロントマターのみ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo/seo-audit未実行。100字未満description残り約46件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 51→約46"
+    ]
   }
 ]
