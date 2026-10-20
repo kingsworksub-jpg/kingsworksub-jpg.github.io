@@ -1,0 +1,30 @@
+{
+ "/images/phash/farid.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dr._Hany_Farid_at_37th_Annual_Global_Fraud_Conference%2C_July%2C_14%2C_2026_002.JPG/1280px-Dr._Hany_Farid_at_37th_Annual_Global_Fraud_Conference%2C_July%2C_14%2C_2026_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dr._Hany_Farid_at_37th_Annual_Global_Fraud_Conference,_July,_14,_2026_002.JPG",
+  "license": "CC BY-SA 4.0",
+  "author": "John Manard",
+  "title": "File:Dr. Hany Farid at 37th Annual Global Fraud Conference, July, 14, 2026 002.JPG"
+ },
+ "/images/phash/jpeg-quality.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/b2/JPEG_compression_Example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:JPEG_compression_Example.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JJ Harrison, side-by-side comparison by Ibrahim.ID",
+  "title": "File:JPEG compression Example.jpg"
+ },
+ "/images/phash/grayscale.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg/1280px-Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Tom Axford 1",
+  "title": "File:Decomposition of an image into colour and grey-scale components - example.jpg"
+ },
+ "/images/phash/dct-8x8.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/2/24/DCT-8x8.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:DCT-8x8.png",
+  "license": "Public domain",
+  "author": "Devcore",
+  "title": "File:DCT-8x8.png"
+ }
+}
