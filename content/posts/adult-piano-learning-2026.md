@@ -4,7 +4,7 @@ date: 2026-10-09T17:30:00+09:00
 draft: false
 categories: [misc]
 scheduled_time: "17:30"
-description: "大人になってから鍵盤演奏を独習する際、ただ漫然と練習するのではなく、DAWでの打ち込みや作曲に直結させるために最初に決めておくべき具体的な心構えと毎日の練習計画を徹底的に解説します。"
+description: "大人が鍵盤を独習するとき、指の練習より先に決めておきたい目標とは。DAWでの打ち込みや作曲につなげるための電子ピアノ選び、1日30分の練習計画、コードとリズムの鍛え方をまとめる。"
 images: ["/images/og/adult-piano-learning-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

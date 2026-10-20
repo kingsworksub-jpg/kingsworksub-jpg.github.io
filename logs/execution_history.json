@@ -236,5 +236,25 @@
     "next_kpis": [
       "description 100字未満の記事数 49→約44"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T11:53:58.379185Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "2026-09-22-162404",
+      "adult-piano-learning-2026",
+      "audacity-4-guide-2026",
+      "black-nikka-clear-deep-dive-2026",
+      "budget-whisky-10choice-2026"
+    ],
+    "actions": [
+      "短いdescription 5件を内容に沿って100〜110字前後に書き直し(うち1件は本文コピーだったものを要旨に差し替え)",
+      "black-nikka本文の『隅々まで』を『順に』へ修正(定型句禁止ルール準拠)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(seo-auditはPIL環境不良で未実行。100字未満description残り約45件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事数 50→約45"
+    ]
   }
 ]
