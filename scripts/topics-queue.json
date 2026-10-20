@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:30:54+09:00",
+ "updated": "2026-10-20T17:47:41+09:00",
  "items": [
   {
    "category": "gear",
@@ -7607,7 +7607,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-028",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-10-20T17:30:54+09:00",
@@ -7615,7 +7615,9 @@
    "content_dir": "culture",
    "slot_time": "17:30",
    "slot_label": "夕: 機材レビュー/学習体験談",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "ramune-5choice-2026",
+   "published_at": "2026-10-20T17:47:41+09:00"
   },
   {
    "category": "drink",

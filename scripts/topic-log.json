@@ -2101,6 +2101,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-20T12:15:20+09:00"
+  },
+  {
+   "id": "2026w42-028",
+   "category": "drink",
+   "theme": "ラムネ5本比較、びんと缶で味は変わるか",
+   "slug": "ramune-5choice-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ramune-5choice-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-20T17:47:41+09:00"
   }
  ]
 }
