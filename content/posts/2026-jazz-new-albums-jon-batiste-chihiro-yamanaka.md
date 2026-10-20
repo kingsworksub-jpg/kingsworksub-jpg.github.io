@@ -3,7 +3,7 @@ title: "Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャ�
 date: 2026-09-29T14:00:00+09:00
 draft: false
 categories: ["music"]
-description: "2026年のジャズ新作から、Jon Batisteのクロスオーバー作『Black Mozart』と、山中千尋のデビュー25周年を掲げるピアノトリオの響きを聴き比べ、いまの試聴環境の変化にも触れる。"
+description: "2026年のジャズ新作から、Jon Batisteのクロスオーバー作『Black Mozart』と、山中千尋のデビュー25周年を掲げるピアノトリオの響きを聴き比べ、新作を楽しむいまのリスニング環境の変化にも触れ、両作の魅力を掘り下げる。"
 images: ["/images/og/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
