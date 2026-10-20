@@ -1,6 +1,6 @@
 ---
 title: Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ
-description: 2026年9月にリリースされたAudacity 4は、UI からクリップ単位の編集まで、25年の歴史で最大の改装。無料の音声編集環境がどう変わったかを、新機能と移行の注意点で整理する。
+description: "2026年9月3日公開のAudacity 4は、UIをQt6へ刷新しクリップ中心の編集に転換した、25年で最大の改装。新機能、エフェクトチェーン、失われた機能と移行時の注意点、向く用途を整理する。"
 images: ["/images/og/audacity-4-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
