@@ -432,5 +432,24 @@
     "next_kpis": [
       "110字未満description 77→72件"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T22:53:40.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "san-pellegrino-deep-dive-2026",
+      "tsugaru-vidro-nebuta-sake-set-deep-dive-2026",
+      "fuji-strong-soda-deep-dive-2026",
+      "jim-beam-white-deep-dive-2026",
+      "one-room-streaming-setup-2026"
+    ],
+    "actions": [
+      "descriptionを見出し内容に沿って書き直し(フロントマターのみ、100〜117字へ延長)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。110字未満description残り約68件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "110字未満description 72→約68件"
+    ]
   }
 ]

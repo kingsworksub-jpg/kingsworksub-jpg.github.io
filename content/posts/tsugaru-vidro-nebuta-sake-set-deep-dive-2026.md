@@ -1,6 +1,6 @@
 ---
 title: "ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット"
-description: "金属、陶器、そして色ガラス。酒器シリーズもだいぶ素材の幅が広がってきた。今回取り上げるのは、青森の伝統工芸「津軽びいどろ」から、祭りをモチーフにした一組「NEBUTA(ねぶた)酒器セット」。"
+description: "青森の伝統工芸、津軽びいどろのNEBUTA酒器セットを解説。浮き玉に始まるガラス工芸の歴史、ねぶた祭りを写した8色の意匠、片口250mlと盃85mlのサイズ感、冷酒でこそ映える理由、6,600円の価格をほかの酒器と比べながらまとめる。"
 images: ["/images/og/tsugaru-vidro-nebuta-sake-set-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
