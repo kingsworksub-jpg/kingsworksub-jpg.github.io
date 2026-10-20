@@ -13,13 +13,14 @@ ogImageHeight: 630
 
 その美学が、いま再び注目を集めている。2026年のファッションシーンでは、ラグジュアリーブランドからストリートウェアまで、あらゆるレベルでジャズに由来するスタイル要素が復活している。80年代のファッション史を振り返り、90年代のヒップホップがジャズをサンプリングしたように、現代のデザイナーたちはジャズスタイルという古い美学から新しい表現を生み出そうとしている。
 
+## ジャズスタイルの起源——音楽と装いの一体性
+
 <figure class="photo photo--right">
 <img src="/images/jazz-fashion/jazz-saxophone.jpg" width="240" height="320" alt="Jazz saxophonist performing" loading="lazy">
 <figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある</figcaption>
 <span class="credit">Photo: Unsplash / Jens Thekkeveettil</span>
 </figure>
 
-## ジャズスタイルの起源——音楽と装いの一体性
 
 ジャズの時代性を理解する上で、ファッションの役割は見落とされることが多い。だが1920年から1960年代にかけて、ジャズメンの装いは単なる流行ではなく、彼らの社会的立場と音楽的哲学を映す鏡だった。
 
@@ -47,13 +48,14 @@ ogImageHeight: 630
 
 これらの要素が組み合わさることで、一種の美学が成立した。それは「洗練」「知性」「反抗」の混在した美学だった。既得権層の言語を使いながら、それを自分たちのものに変える。その激しさと緻密さは、ジャズの音楽そのものの構造と呼応していた。
 
+## 2026年のジャズスタイル復活——ラグジュアリーからストリートまで
+
 <figure class="photo photo--right">
 <img src="/images/jazz-fashion/double-breasted-blazer.jpg" width="240" height="350" alt="Stylish double-breasted blazer" loading="lazy">
 <figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する</figcaption>
 <span class="credit">Photo: Pexels / cottonbro studio</span>
 </figure>
 
-## 2026年のジャズスタイル復活——ラグジュアリーからストリートまで
 
 2026年現在、ジャズスタイルが再び脚光を浴びるのは、単なる懐古趣味ではない。現代のファッションシーンが、ある種の「精度回帰」を求めているからである。
 

@@ -21,6 +21,8 @@ ogImageHeight: 630
 </span>
 </a>
 
+## ツイードが持つ歴史的背景と生地の特性
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08H1P9N23?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/fashion/tweed.jpg" alt="クラシックなテーラードスタイル" width="960" height="720" loading="lazy">
@@ -29,7 +31,6 @@ ogImageHeight: 630
 <span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
 </figure>
 
-## ツイードが持つ歴史的背景と生地の特性
 
 ツイードの歴史は、スコットランドの寒冷な気候の中で羊を飼う農夫や猟師たちが身につけていた防寒着にまで遡ります。未脱脂の羊毛を用いて織り上げられたその生地は、水分を弾きやすく、風を通さず、そして何よりも着込むほどに体に馴染んで経年変化を楽しむことができるという驚異的なタフさを持っていました。
 

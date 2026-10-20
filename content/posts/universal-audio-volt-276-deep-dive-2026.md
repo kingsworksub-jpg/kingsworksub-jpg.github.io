@@ -21,6 +21,8 @@ Universal AudioのVoltシリーズは、同社の伝統的なスタジオ機材�
 </span>
 </a>
 
+## 76コンプレッサーの実力と音楽的な恩恵
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09JNY3M3C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/universal-audio-volt-276/interface.jpg" alt="スタジオ機材と接続されたオーディオインターフェイス" width="960" height="640" loading="lazy">
@@ -29,7 +31,6 @@ Universal AudioのVoltシリーズは、同社の伝統的なスタジオ機材�
 <span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span>
 </figure>
 
-## 76コンプレッサーの実力と音楽的な恩恵
 
 Volt 276の最大の見どころは、何といってもパネル面に搭載された「76 Compressor」です。これは同社の名機である1176リミッターアンプをベースにしたアナログ回路であり、ボーカル、ギター、シンセサイザーなどの音源に対し、ハードウェアならではの自然なまとまりと密度感を与えてくれます。ソフトウェアのプラグインで後からコンプレッサーをかけるのとは異なり、入力段階でハードウェアのアナログコンプを通すことで、ピークを音楽的に抑えつつ音に太さを加えることができます。
 

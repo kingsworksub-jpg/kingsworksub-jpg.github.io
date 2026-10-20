@@ -32,5 +32,30 @@
       "description 110-120字への統一",
       "次回は2026-09-20以降の古い深掘り記事のfigure配置点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-20T01:53:36.625897Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "classic-french-style-revival-2026",
+      "jazz-style-fashion-revival-2026",
+      "oral-rehydration-vs-sports-drink-2026",
+      "rme-babyface-pro-fs-deep-dive-2026",
+      "scarf-styling-trend-2026",
+      "tonic-water-5choice-2026",
+      "tweed-jacket-street-style-2026",
+      "universal-audio-volt-276-deep-dive-2026",
+      "yamaha-ag03mk2-deep-dive-2026"
+    ],
+    "actions": [
+      "figureがh2見出しの直前に置かれ本文が回り込まない配置を、見出し直後・本文段落直前へ移動(CLAUDE.md画像レイアウト規則準拠)",
+      "tonic-water/tweed等で別記事と同一クレジット(Joseph Blosser)の画像流用疑いあり→要確認"
+    ],
+    "files_changed": 9,
+    "status": "一部完了(はてな/Ameba/noteは未巡回。『見出し直後でないfigure』は約30記事に残存。次回対象)",
+    "next_kpis": [
+      "figure配置違反記事数の減少(残: 見出し直後でないfigure約30記事)",
+      "画像クレジット流用の確認"
+    ]
   }
 ]
