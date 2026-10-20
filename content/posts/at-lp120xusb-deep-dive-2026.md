@@ -1,6 +1,6 @@
 ---
 title: "Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル"
-description: "ダイキャストアルミのプラッターと制振筐体、USB出力による録音機能まで備えたAudio-Technica AT-LP120XUSB。重量・サイズ・操作系・価格を整理し、初めての一台に向くかを確かめる。"
+description: "Audio-Technica AT-LP120XUSBを筐体、ダイレクトドライブ、トーンアーム、カートリッジ、USB出力、速度調整、接続性の順に整理。実使用での弱点と価格、現行性まで確かめ、初めての一台に向くかを考える。"
 images: ["/images/og/at-lp120xusb-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
