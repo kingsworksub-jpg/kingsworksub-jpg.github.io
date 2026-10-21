@@ -1,6 +1,6 @@
 ---
 title: "ジャズ名盤入門、最初に聴きたい10枚を時代順に"
-description: "ジャズ初心者の最初の一枚に。1925年のルイ・アームストロングから1965年の『A Love Supreme』まで、時代順に並べた名盤10枚でジャズの大きな流れが一晩で体に入る聴き方を紹介する。"
+description: "ジャズ初心者の最初の一枚に。1925年のルイ・アームストロングから1965年の『A Love Supreme』まで、時代順に並べた名盤10枚で、ジャズの大きな流れが一晩で体に入る聴き方を紹介する。"
 images: ["/images/og/jazz-masterpieces-beginner.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

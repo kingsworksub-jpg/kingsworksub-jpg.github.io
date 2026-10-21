@@ -1,6 +1,6 @@
 ---
 title: "Yamaha AG03MK2が配信と宅録をつなぐ理由、ループバックと操作性の全貌"
-description: "ライブ配信やゲーム実況から本格的な宅録・音楽制作まで幅広く愛用されているYamaha AG03MK2の魅力と、ループバック機能や直感的な物理フェーダーによる優れた操作性の秘密を徹底解説します。"
+description: "Yamaha AG03MK2のループバック機能と60mmフェーダーの操作性、D-PREプリアンプと内蔵DSP、LUFSを意識した配信音量の整え方、AG Controllerの設定まで、配信と宅録で使う視点で整理する。"
 images: ["/images/og/yamaha-ag03mk2-deep-dive-2026.jpg"]
 date: 2026-10-11T14:00:00+09:00
 categories: [misc]
