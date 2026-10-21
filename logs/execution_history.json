@@ -566,5 +566,25 @@
     "next_kpis": [
       "130字超description 残り約3件(alan-boguslavsky-stage, condenser-mic-5choice-2026, hugo-timezone-buildfuture-notes, python-perceptual-hash-image-compare, windows-symbolic-link-mklink-notes)"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T05:53:01.361790Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "condenser-mic-5choice-2026",
+      "hugo-timezone-buildfuture-notes",
+      "jazz-festivals-2026",
+      "python-perceptual-hash-image-compare",
+      "windows-symbolic-link-mklink-notes"
+    ],
+    "actions": [
+      "130字超descriptionを約100字に短縮(フロントマターのみ)。130字超の残りは0件に"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 130字超 0件達成",
+      "次回は古い記事のH2構造・内部リンク点検"
+    ]
   }
 ]

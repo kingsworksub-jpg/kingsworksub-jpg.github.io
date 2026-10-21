@@ -1,6 +1,6 @@
 ---
 title: "画像の知覚ハッシュをPythonで比べた記録、縮小では動かず左右反転で30ビット変わる"
-description: "見た目の似た画像を同じと判定する知覚ハッシュを、PythonのImageHash 4.3.2とPillowで比べた検証メモ。aHash・dHash・pHashの仕組み、写真1枚を14通りに加工したときの距離、手元の画像549枚の総当たりで見えた白背景の弱点を記録した。"
+description: "似た画像を同じと判定する知覚ハッシュを、PythonのImageHash 4.3.2とPillowで検証。aHash・dHash・pHashの仕組み、14通りの加工での距離、画像549枚の総当たりで見えた白背景の弱点を記録した。"
 images: ["/images/og/python-perceptual-hash-image-compare.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

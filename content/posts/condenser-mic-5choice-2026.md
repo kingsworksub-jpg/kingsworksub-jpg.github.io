@@ -3,7 +3,7 @@ title: "コンデンサーマイク5本比較 — 指向性と電源から選ぶ
 date: 2026-10-03T14:00:00+09:00
 categories: [misc]
 tags: ["マイク", "宅録", "DTM", "オーディオ"]
-description: "宅録初心者のマイク選びは指向性と電源が決め手。Audio-Technica AT2020から Neumann TLM 102・Aston Origin まで、コンデンサーマイク5本を徹底比較。ポップガード・ショックマウント・セットアップコストまで含めた総合評価。"
+description: "宅録初心者のマイク選びは指向性と電源が決め手。Audio-Technica AT2020からNeumann TLM 102・Aston Originまで、コンデンサーマイク5本をセットアップ費用込みで比較。"
 images: ["/images/og/condenser-mic-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

@@ -1,6 +1,6 @@
 ---
 title: "Windowsのシンボリックリンクをmklinkで作る、ジャンクションとの違いとrmdirで消す理由"
-description: "Windowsのシンボリックリンクとジャンクション、ハードリンクの違いを、手元のWindows 11でmklinkを使って確かめた備忘録。開発者モードで管理者権限が不要になる条件、フォルダ移動で切れるリンク、delで中身が消える落とし穴、Gitの設定までまとめた。"
+description: "Windowsのシンボリックリンク・ジャンクション・ハードリンクの違いを、Windows 11でmklinkを使って確認した備忘録。開発者モードで管理者権限が不要になる条件、delで中身が消える落とし穴、Gitの設定まで。"
 images: ["/images/og/windows-symbolic-link-mklink-notes.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

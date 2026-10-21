@@ -1,6 +1,6 @@
 ---
 title: "Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture"
-description: "Hugoは時刻やオフセットのない日付をUTCとして読み、buildFutureの既定がfalseのため、日本の朝に書いた当日の記事は未来扱いで黙って除外される。手元で再現した結果と、timeZone設定・日付の書き方・GitHub Actionsでの直し方をまとめた。"
+description: "Hugoは日付をUTCとして読み、buildFutureが既定falseのため、日本の朝に書いた当日記事は未来扱いで除外される。再現結果とtimeZone設定・日付の書き方・Actionsでの直し方をまとめた。"
 images: ["/images/og/hugo-timezone-buildfuture-notes.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
