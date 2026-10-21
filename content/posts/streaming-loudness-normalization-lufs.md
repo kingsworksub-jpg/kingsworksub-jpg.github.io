@@ -1,6 +1,6 @@
 ---
 title: "ラウドネスノーマライズの検証メモ：-8から-16 LUFSまで4本書き出すと何が残るか"
-description: "同じミックスを-8・-11・-14・-16 LUFSの4通りで書き出す設計にして、Spotify・YouTube・Apple Music・TIDAL・Amazon Musicの音量補正の規則に当てはめた検証メモ。補正後の音量とピークの高さ、リミッターの掛かり方を表で整理した。"
+description: "同じミックスを-8・-11・-14・-16 LUFSで書き出し、Spotify・YouTube・Apple Music・TIDAL・Amazon Musicの音量補正に当てはめた検証メモ。補正後の音量とピーク、リミッターの掛かり方を表で整理した。"
 images: ["/images/og/streaming-loudness-normalization-lufs.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

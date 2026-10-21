@@ -1,6 +1,6 @@
 ---
 title: "ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年"
-description: "1962年10月20日に全米1位になった「Monster Mash」と、1983年12月にMTVで初めて流れた「Thriller」の短編映画。季節の行事に毎年戻ってくるハロウィンの定番曲が、偶然の発売時期と映像の力でどう定着していったのかを、夏の大ヒットだった曲も交えてたどる。"
+description: "1962年10月に全米1位になった「Monster Mash」と、1983年12月にMTVで流れた「Thriller」の短編映画。ハロウィンの定番曲が、偶然の発売時期と映像の力で定着した経緯をたどる。"
 images: ["/images/og/halloween-songs-monster-mash-thriller-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

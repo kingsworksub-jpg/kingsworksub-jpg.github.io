@@ -546,5 +546,25 @@
       "130字超description 残り約15件(134〜139字)",
       "短い2026-09-22系ジャズ記事(本文572〜827字)は重複疑いのため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T04:53:19.681592Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "halloween-songs-monster-mash-thriller-2026",
+      "jazz-fusion-1970s-weather-report",
+      "jazz-style-fashion-revival-2026",
+      "jazz-style-menswear-2026",
+      "taiwan-india-whisky-climate-2026",
+      "streaming-loudness-normalization-lufs"
+    ],
+    "actions": [
+      "130字超descriptionを80〜120字に短縮(検索結果での切り捨て対策、フロントマターのみ)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "130字超description 残り約3件(alan-boguslavsky-stage, condenser-mic-5choice-2026, hugo-timezone-buildfuture-notes, python-perceptual-hash-image-compare, windows-symbolic-link-mklink-notes)"
+    ]
   }
 ]
