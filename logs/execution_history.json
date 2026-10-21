@@ -508,5 +508,23 @@
     "next_kpis": [
       "110字未満description 64→59件(2026-09-22系ジャズ3本は重複疑いで未着手)"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T02:53:12.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "islay-malt-5choice-2026",
+      "kiretolemon-wlemon-deep-dive-2026",
+      "technics-sl1200mk7-deep-dive-2026",
+      "winter-coat-5types-2026"
+    ],
+    "actions": [
+      "descriptionを見出し内容に沿って書き直し(フロントマターのみ、100字前後へ)"
+    ],
+    "files_changed": 5,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "100字未満description 残りは重複疑いのジャズ系のみ"
+    ]
   }
 ]
