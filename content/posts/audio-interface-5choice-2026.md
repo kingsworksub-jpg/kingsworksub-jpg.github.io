@@ -1,6 +1,6 @@
 ---
 title: "オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ"
-description: "Focusrite Scarlett 2i2、Universal Audio Volt 276、RME Babyface Proなど定番5機種を、セットアップ・操作性・録音開始の早さなど5つの軸で比較する。"
+description: "Focusrite Scarlett 2i2、UA Volt 276、RME Babyface Pro FS、Yamaha AG03MK2、URX22Cの5機種を、セットアップ・操作性・録音開始の早さなど5軸で比べ、用途別の選び方を整理する。"
 images: ["/images/og/audio-interface-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
