@@ -609,5 +609,30 @@
       "description範囲外 0件",
       "次回: git-worktree-multiple-branches-notesのコードブロック内#行はH1ではない(要確認不要)、古い記事のH2・内部リンク点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T07:54:09.474083Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka",
+      "modern-spiritual-jazz-2026",
+      "jazz-listening-guide-2026",
+      "jazz-festivals-2026",
+      "nea-jazz-masters-2026",
+      "cafe-jazz-lounge-piano-2026",
+      "randy-crawford-raw-silk",
+      "chrome-gemini-nano-4gb-2026",
+      "one-room-streaming-setup-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったジャズ系7記事の末尾に既存記事への関連記事リンク3本ずつを追加",
+      "figureのimgにwidth=100%のみでheight欠落だった2記事に実寸のwidth/heightを付与(CLS対策)"
+    ],
+    "files_changed": 10,
+    "status": "一部完了(hugo/PIL不具合のためビルド・seo-audit未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約80本)を系統別に順次解消",
+      "次回はウイスキー/音響機材系に関連記事リンクを追加"
+    ]
   }
 ]

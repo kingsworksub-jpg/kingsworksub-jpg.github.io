@@ -85,3 +85,5 @@ NEA Jazz Masters という賞は、商業的成功を測るものではない。
 ---
 
 **参考情報**: NEA Jazz Masters Tribute Concert は2026年9月15日、ロサンゼルスのWalt Disney Concert Hallで無料開催。全米ラジオ放送とライブ配信で視聴可能。
+
+**関連記事**: [Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る](/posts/jazz-festivals-2026/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/)
