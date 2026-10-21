@@ -586,5 +586,28 @@
       "description 130字超 0件達成",
       "次回は古い記事のH2構造・内部リンク点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T06:53:47.961727Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "icy-spark-canada-dry-lemon-deep-dive-2026",
+      "otsuka-match-deep-dive-2026",
+      "canadian-whisky-rye-4choice-2026",
+      "logic-pro-mac-songwriting-2026",
+      "luna-free-daw-limits-2026",
+      "nearfield-monitors-5choice-2026",
+      "teenage-engineering-op1-synth-essay-2026",
+      "windows-11-26h2-memory-daw-2026"
+    ],
+    "actions": [
+      "冒頭文の流用だった2記事のdescriptionを要旨に書き直し、125字超の6記事を80〜120字に短縮(フロントマターのみ)"
+    ],
+    "files_changed": 9,
+    "status": "一部完了(seo-audit.pyはPIL不具合、hugo未導入のため未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description範囲外 0件",
+      "次回: git-worktree-multiple-branches-notesのコードブロック内#行はH1ではない(要確認不要)、古い記事のH2・内部リンク点検"
+    ]
   }
 ]

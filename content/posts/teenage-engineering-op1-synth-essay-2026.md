@@ -1,6 +1,6 @@
 ---
 title: "Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち"
-description: "Teenage Engineeringの創業者が、シンセを買う人の99%は曲づくりの道具として使っていない、それはセラピーで娯楽だと語り、シンセの製造をやめると述べた。2011年のOP-1から始まった小さな楽器の歩みをたどり、楽器を持つことの意味を考える。"
+description: "Teenage Engineeringの創業者は、シンセを買う人の99%は曲づくりに使っていない、セラピーで娯楽だと語り、製造をやめると述べた。2011年のOP-1からの歩みをたどる。"
 images: ["/images/og/teenage-engineering-op1-synth-essay-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
