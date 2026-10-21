@@ -95,3 +95,5 @@ Moonlight Jazz BlueとJAZZ PARADISEが2026年に続々とリリースする楽�
 
 **参考情報源：**
 Jazzwise、All About Jazz、JazzTimes、DownBeat、Bandcamp Daily、Spotify、Apple Music、NEA Jazz Research、Technavio Background Music Market Report、Rate Your Music Jazz Charts
+
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)

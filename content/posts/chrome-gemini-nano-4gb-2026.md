@@ -18,7 +18,7 @@ draft: false
 ## 1. Google Chromeが裏側でダウンロードするGemini Nanoの正体
 
 <figure class="photo photo--left">
-<img src="/images/chrome-gemini/chrome1.jpg" alt="Google Chromeの画面イメージ" width="100%" loading="lazy">
+<img src="/images/chrome-gemini/chrome1.jpg" alt="Google Chromeの画面イメージ" width="1000" height="591" loading="lazy">
 <figcaption>ブラウザのバックグラウンドで動作するAI機能</figcaption>
 <span class="credit">Photo: Megamanfan3 / Public domain</span>
 </figure>
@@ -32,7 +32,7 @@ ChromeブラウザがこのGemini Nanoを自動ダウンロードする背景に
 ## 2. オンデバイスAIがPCのストレージやリソースに与える影響
 
 <figure class="photo photo--right">
-<img src="/images/chrome-gemini/chrome2.jpg" alt="Chromeの機能拡張と画面分割" width="100%" loading="lazy">
+<img src="/images/chrome-gemini/chrome2.jpg" alt="Chromeの機能拡張と画面分割" width="1000" height="529" loading="lazy">
 <figcaption>ブラウザの機能拡張とリソース消費</figcaption>
 <span class="credit">Photo: TealComet / CC0</span>
 </figure>

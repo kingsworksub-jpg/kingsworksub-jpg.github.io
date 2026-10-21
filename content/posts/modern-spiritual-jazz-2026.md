@@ -93,3 +93,5 @@ Newport Jazz Festival（7月31日〜8月2日）の72周年開催では、Herbie 
 Newport 、Monterey 、Montreux といった歴史あるフェスティバルでも、新進のストリーミング専属アーティストの舞台でも、Kamasi Washington の長時間のサックスから、Thundercat のビート・ボックス的ベース、Shabaka Hutchings の内省的なトーンまで——同じ源流から流れ出ている音が、今、多くの耳に届いている。
 
 それが「モダンジャズの新潮流」の実像だ。トレンドではなく、新世代のジャズ愛好家が創り上げた、次のジャズ伝統の始まり。
+
+**関連記事**: [Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く](/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka/) · [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る](/posts/jazz-festivals-2026/)

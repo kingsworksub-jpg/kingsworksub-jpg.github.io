@@ -101,3 +101,5 @@ Kamasi Washington が saxophone を握りしめ、Esperanza Spalding が bass �
 フェスティバルのチケットを握りしめて現地に向かう人も、スマートフォンからストリーミング映像を開く 92カ国の誰かも、同じ季節に同じ心拍数で、ジャズの脈動を感じている。
 
 2026年は、そういう時代だ。
+
+**関連記事**: [Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流](/posts/modern-spiritual-jazz-2026/) · [Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く](/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/)
