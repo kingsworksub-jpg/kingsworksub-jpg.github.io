@@ -1,6 +1,6 @@
 ---
 title: "Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか"
-description: "Logic Pro 12は3万円の買い切りで、伴奏を弾くSession Players、6種類に分けるStem Splitter、Mastering Assistantまで揃う。Apple silicon必須になった動作環境と、サブスク版との違いも整理した。"
+description: "Logic Pro 12は3万円の買い切りで、Session PlayersやStem Splitter、Mastering Assistantまで揃う。Apple silicon必須になった動作環境と、サブスク版との違いも整理した。"
 images: ["/images/og/logic-pro-mac-songwriting-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
