@@ -1,0 +1,30 @@
+{
+ "/images/max-for-live/jdopatch.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Jdopatch.jpg/1280px-Jdopatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Jdopatch.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Nicolight61",
+  "title": "File:Jdopatch.jpg"
+ },
+ "/images/max-for-live/modular.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lemur_%E2%87%92_MaxMSP_%E2%87%92_Processing_%E2%87%92_Octomod_%E2%87%92_Modular_Synth.jpg/1280px-Lemur_%E2%87%92_MaxMSP_%E2%87%92_Processing_%E2%87%92_Octomod_%E2%87%92_Modular_Synth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Lemur_%E2%87%92_MaxMSP_%E2%87%92_Processing_%E2%87%92_Octomod_%E2%87%92_Modular_Synth.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "George P. Macklin",
+  "title": "File:Lemur ⇒ MaxMSP ⇒ Processing ⇒ Octomod ⇒ Modular Synth.jpg"
+ },
+ "/images/max-for-live/push.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ableton_Push_%2848477280412%29.jpg/1280px-Ableton_Push_%2848477280412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ableton_Push_(48477280412).jpg",
+  "license": "CC0",
+  "author": "Audiotecna Música",
+  "title": "File:Ableton Push (48477280412).jpg"
+ },
+ "/images/max-for-live/moog.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1973_Moog_modular_synthesizer.jpg/1280px-1973_Moog_modular_synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:1973_Moog_modular_synthesizer.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Attila Szász",
+  "title": "File:1973 Moog modular synthesizer.jpg"
+ }
+}
