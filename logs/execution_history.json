@@ -470,5 +470,24 @@
     "next_kpis": [
       "110字未満description 69→約64件"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T00:53:45.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "yamaha-ag03mk2-deep-dive-2026",
+      "coca-cola-zero-deep-dive-2026",
+      "jazz-masterpieces-beginner",
+      "kurojoka-mino-deep-dive-2026",
+      "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionを見出し内容に沿って書き直し(フロントマターのみ、110字前後へ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。110字未満description残り約59件。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "110字未満description 64→59件"
+    ]
   }
 ]
