@@ -140,7 +140,7 @@ class GitHubRepo(private val token: String?) {
                 lastRun = run(s.optJSONObject("last_run")),
                 engineToday = s.optString("engine_today"),
                 todayPosts = s.optInt("today_posts"),
-                dailyLimit = s.optInt("daily_limit", 6),
+                dailyLimit = s.optInt("daily_limit", 9),
                 consecutiveFailures = s.optInt("consecutive_failures"),
                 lastResult = s.optString("last_result"),
                 updated = s.optString("updated"),
