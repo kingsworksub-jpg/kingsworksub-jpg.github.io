@@ -2170,6 +2170,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-21T12:17:14+09:00"
+  },
+  {
+   "id": "2026w42-029",
+   "category": "drink",
+   "theme": "エナジードリンクのカフェイン量を並べる、1日の上限から逆算する",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-21T17:44:58+09:00"
   }
  ]
 }
