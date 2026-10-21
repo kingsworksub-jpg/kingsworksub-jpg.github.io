@@ -2158,6 +2158,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-21T07:44:53+09:00"
+  },
+  {
+   "id": "2026w42-007",
+   "category": "software",
+   "theme": "Ableton LiveのMax for Live入門、自分でデバイスを作る前に",
+   "slug": "max-for-live-device-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/max-for-live-device-guide-2026/",
+   "hatena_entry": "14945776032093080191",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-21T12:17:14+09:00"
   }
  ]
 }
