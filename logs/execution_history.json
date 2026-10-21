@@ -526,5 +526,25 @@
     "next_kpis": [
       "100字未満description 残りは重複疑いのジャズ系のみ"
     ]
+  },
+  {
+    "timestamp": "2026-10-21T03:55:00.000000Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "statement-hat-trends-autumn-2026",
+      "cool-jazz-birth-of-the-cool",
+      "classic-french-style-revival-2026",
+      "scarf-styling-trend-2026"
+    ],
+    "actions": [
+      "130字超の長すぎるdescriptionを要旨を保ったまま80〜100字に短縮(検索結果での切り捨て対策)",
+      "classic-french-style-revival-2026の綴り誤りGainbourge→Gainsbourgを修正"
+    ],
+    "files_changed": 5,
+    "status": "一部完了(seo-audit.pyはPIL不具合で実行不可、簡易スクリプトで点検。hugo未導入。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "130字超description 残り約15件(134〜139字)",
+      "短い2026-09-22系ジャズ記事(本文572〜827字)は重複疑いのため未着手"
+    ]
   }
 ]
