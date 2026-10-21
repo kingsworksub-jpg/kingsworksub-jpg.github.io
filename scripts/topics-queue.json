@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T12:00:27+09:00",
+ "updated": "2026-10-21T12:17:14+09:00",
  "items": [
   {
    "category": "gear",
@@ -6445,14 +6445,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-007",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-10-21T12:00:27+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "max-for-live-device-guide-2026",
+   "published_at": "2026-10-21T12:17:14+09:00"
   },
   {
    "category": "software",

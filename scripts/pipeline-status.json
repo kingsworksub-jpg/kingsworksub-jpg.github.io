@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-21T12:00:27+09:00",
+ "updated": "2026-10-21T12:17:14+09:00",
  "queue": {
-  "published": 95,
+  "published": 96,
   "rejected": 1,
-  "approved": 51,
-  "in_progress": 1
+  "approved": 51
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published python-perceptual-hash-image-compare",
+ "last_result": "published max-for-live-device-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
