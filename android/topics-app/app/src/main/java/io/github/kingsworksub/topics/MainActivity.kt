@@ -342,7 +342,7 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                         label = { Text("メモ（切り口・希望など、任意）") }, modifier = Modifier.fillMaxWidth(), minLines = 2,
                     )
                     Text(
-                        "追加したネタは、次の投稿のときに最優先で記事になります（1日8記事の上限内）。",
+                        "追加したネタは、次の投稿のときに最優先で記事になります（1日9記事の上限内）。",
                         style = MaterialTheme.typography.bodySmall, color = Color.Gray, modifier = Modifier.padding(top = 6.dp),
                     )
                 }
@@ -408,9 +408,9 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                         "• 日次補充（4:00）: 承認済みが16件未満のときだけ補充。\n" +
                         "• 重複・事実確認・画像・季節・検索需要・Amazonの各軸で採点し、60点未満は不採用。")
                     Spacer(Modifier.height(12.dp))
-                    Text("2. 投稿（1日6固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
-                    Text("• 07:30 github / 12:00 hatena / 17:30 ameba / 21:30 note を固定。\n" +
-                        "• 20:00と23:00はameba⇄hatena・note⇄githubが隔日で入れ替わり、4チャンネルの投稿数を平均化。\n" +
+                    Text("2. 投稿（1日9固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• 07:30 / 12:00 / 20:00 がhatena、09:30 / 17:00 / 23:00 がameba、14:30 / 18:30 / 21:30 がnote。\n" +
+                        "• hatena・ameba・note に毎日3本ずつ。GitHub Pagesは別枠で全記事を自動デプロイ。\n" +
                         "• 実行エンジンはClaude Code（opus固定）。Web検索はHaikuのサブエージェントに限定。")
                     Spacer(Modifier.height(12.dp))
                     Text("3. 品質の安全装置", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
