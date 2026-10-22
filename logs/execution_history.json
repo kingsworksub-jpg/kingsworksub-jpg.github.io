@@ -810,5 +810,32 @@
       "内部リンク0件の公開記事(約11本)を順次解消",
       "次回は2026-09-22-*系・essay/sakeware/whisky系に追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T18:53:32.191002Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ace-studio-ai-vocal-synthesis-2026",
+      "audacity-4-guide-2026",
+      "black-friday-shopping-plan-2026",
+      "bw-685-deep-dive-2026",
+      "cassette-tape-revival-2026",
+      "chrome-gemini-nano-4gb-2026",
+      "halloween-songs-monster-mash-thriller-2026",
+      "headphone-hydrolysis-parts",
+      "nanbu-tetsubin-kanzake-yusen",
+      "obsidian-knowledge-base-plain-text-2026",
+      "sony-ecm-ax10-spatial-mic-2026",
+      "suzu-chirori-kanzake-2026"
+    ],
+    "actions": [
+      "内部リンクが無かった公開記事12本(software/tech/essay/sakeware/misc)の「関連記事」に同系統の既存記事への内部リンク3本ずつを追加(headphone-hydrolysis-partsは関連記事節を新設)"
+    ],
+    "files_changed": 13,
+    "status": "完了(公開済み記事の内部リンク0件は解消。hugo未導入のためビルド未実行、seo-auditはPIL不具合で未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "公開記事の内部リンク0件=0を維持",
+      "次回は描写の薄い記事・見出し構造・description長(110〜120字)の点検"
+    ]
   }
 ]

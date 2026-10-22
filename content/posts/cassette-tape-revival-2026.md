@@ -99,4 +99,7 @@ scheduled_time: "23:00"
 
 ## 関連記事
 
+- [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
+- [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)
+- [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

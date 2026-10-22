@@ -64,6 +64,9 @@ Google Chromeをはじめとするモダンブラウザの急速なAI化は、�
 Google ChromeによるGemini Nanoの自動ダウンロード問題は、ローカルAIの利便性と、PCのリソース管理・プライバシーへの配慮との間で揺れる現代のインターネット事情を象徴するトピックである。オンデバイスAIは強力な武器になり得る一方で、すべてのユーザーにとって常に不可欠な機能とは限らない。自身のストレージや用途に合わせて設定を見直し、ブラウザを快適な状態に保つための管理術をしっかりと身につけておこう。
 
 ## 関連記事
+- [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
+- [Obsidianのメモはただのテキストファイル。10年後も開ける知識の置き場を作る](/posts/obsidian-knowledge-base-plain-text-2026/)
+- [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
