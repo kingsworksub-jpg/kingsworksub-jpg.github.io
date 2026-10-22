@@ -76,8 +76,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   `pc`=PC・周辺機器、`dev`=開発・プログラミング、`net`=ネット・自宅サーバーは2026-10-22追加）
 - `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-lab` / `drink-recipe` / `drink-tools` / `drink-hack` / `whisky` / `sakeware` / `gear` / `learning`。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
-- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior`。
-  `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリアは2026-10-22追加）
+- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
+  `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加）
 
 ### 1日9枠のプラットフォーム配分（2026-10-22、ユーザー指示「ameba/note/hatena に均等に毎日3本ずつ、github は別枠で全記事」）
 

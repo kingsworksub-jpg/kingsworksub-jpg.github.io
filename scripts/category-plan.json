@@ -34,13 +34,13 @@
   "channel": "hatena",
   "content_dir": "tech"
  },
- {
-  "id": "whisky",
-  "name": "ウイスキー",
-  "weight": 1.0,
-  "channel": "note",
-  "content_dir": "culture"
- },
+  {
+   "id": "whisky",
+   "name": "ウイスキー",
+   "weight": 1.0,
+   "channel": "ameba",
+   "content_dir": "culture"
+  },
  {
   "id": "drink",
   "name": "飲料・缶コーヒー・炭酸水等",
@@ -48,13 +48,27 @@
   "channel": "ameba",
   "content_dir": "culture"
  },
- {
-  "id": "sakeware",
-  "name": "酒器",
-  "weight": 1.0,
-  "channel": "note",
-  "content_dir": "culture"
- },
+  {
+   "id": "sakeware",
+   "name": "酒器",
+   "weight": 1.0,
+   "channel": "ameba",
+   "content_dir": "culture"
+  },
+  {
+   "id": "fashion",
+   "name": "ファッション",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
+  {
+   "id": "jazz",
+   "name": "ジャズ・名盤・歴史",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
  {
   "id": "drink-tools",
   "name": "ドリンクツール・ギア",
@@ -69,27 +83,69 @@
   "channel": "note",
   "content_dir": "culture"
  },
- {
-  "id": "essay",
-  "name": "カルチャーエッセイ",
-  "weight": 1.0,
-  "channel": "note",
-  "content_dir": "culture"
- },
- {
-  "id": "lab",
-  "name": "検証メモ",
-  "weight": 1.0,
-  "channel": "github",
-  "content_dir": "tech"
- },
- {
-  "id": "notes",
-  "name": "個人備忘録",
-  "weight": 1.0,
-  "channel": "github",
-  "content_dir": "tech"
- },
+  {
+   "id": "essay",
+   "name": "カルチャーエッセイ",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
+  {
+   "id": "film",
+   "name": "映画・映像",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
+  {
+   "id": "book",
+   "name": "読書・文学",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
+  {
+   "id": "interior",
+   "name": "住まい・インテリア",
+   "weight": 1.0,
+   "channel": "note",
+   "content_dir": "culture"
+  },
+  {
+   "id": "lab",
+   "name": "検証メモ",
+   "weight": 0,
+   "channel": "github",
+   "content_dir": "tech"
+  },
+   {
+   "id": "notes",
+   "name": "個人備忘録",
+   "weight": 0,
+   "channel": "github",
+   "content_dir": "tech"
+   },
+  {
+   "id": "pc",
+   "name": "PC・周辺機器",
+   "weight": 1.0,
+   "channel": "hatena",
+   "content_dir": "tech"
+  },
+  {
+   "id": "dev",
+   "name": "開発・プログラミング",
+   "weight": 1.0,
+   "channel": "hatena",
+   "content_dir": "tech"
+  },
+  {
+   "id": "net",
+   "name": "ネット・自宅サーバー",
+   "weight": 1.0,
+   "channel": "hatena",
+   "content_dir": "tech"
+  },
  {
   "id": "misc",
   "name": "その他",
@@ -97,11 +153,32 @@
   "channel": "ameba",
   "content_dir": "culture"
  },
- {
-  "id": "drink-hack",
-  "name": "ハック・裏技",
-  "weight": 1.0,
-  "channel": "ameba",
-  "content_dir": "culture"
- }
+  {
+   "id": "drink-hack",
+   "name": "ハック・裏技",
+   "weight": 1.0,
+   "channel": "ameba",
+   "content_dir": "culture"
+  },
+  {
+   "id": "gear",
+   "name": "機材レビュー",
+   "weight": 1.0,
+   "channel": "ameba",
+   "content_dir": "reviews"
+  },
+   {
+    "id": "learning",
+    "name": "スクール・学習",
+    "weight": 1.0,
+    "channel": "ameba",
+    "content_dir": "reviews"
+   },
+   {
+    "id": "anime",
+    "name": "アニメ・映像",
+    "weight": 1.0,
+    "channel": "note",
+    "content_dir": "culture"
+   }
 ]
