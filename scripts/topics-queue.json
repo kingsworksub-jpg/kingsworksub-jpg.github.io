@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:30:43+09:00",
+ "updated": "2026-10-22T21:51:08+09:00",
  "items": [
   {
    "category": "gear",
@@ -3692,14 +3692,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-063",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-10-22T21:30:43+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
-   "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい"
+   "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい",
+   "slug": "jazz-vocal-phrasing-guide-2026",
+   "published_at": "2026-10-22T21:51:08+09:00"
   },
   {
    "category": "music",

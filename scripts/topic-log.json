@@ -2227,6 +2227,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-22T20:48:10+09:00"
+  },
+  {
+   "id": "2026w40-063",
+   "category": "music",
+   "theme": "ジャズヴォーカル入門、声を楽器として聴く",
+   "slug": "jazz-vocal-phrasing-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/jazz-vocal-phrasing-guide-2026/",
+   "hatena_entry": null,
+   "note_key": "na9f9ae795627",
+   "engine": "claude",
+   "at": "2026-10-22T21:51:11+09:00"
   }
  ]
 }
