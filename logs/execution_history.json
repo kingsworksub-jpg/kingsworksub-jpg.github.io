@@ -837,5 +837,26 @@
       "公開記事の内部リンク0件=0を維持",
       "次回は描写の薄い記事・見出し構造・description長(110〜120字)の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T19:53:13Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canadian-whisky-rye-4choice-2026",
+      "classic-french-style-revival-2026",
+      "otsuka-match-deep-dive-2026",
+      "scarf-styling-trend-2026",
+      "jazz-festivals-2026",
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "description が短かった(80〜90字台)記事6本を、要旨を補って約110〜120字に拡充"
+    ],
+    "files_changed": 7,
+    "status": "完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満=0(残り16本は97〜99字・130字超の確認)",
+      "次回は薄い記事(本文4000字未満)の補強"
+    ]
   }
 ]
