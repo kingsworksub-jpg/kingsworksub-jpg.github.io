@@ -116,5 +116,8 @@ ACE Studioがいちばん力を発揮するのは、歌のある曲を作りた�
 140を超える声のどれを選ぶか、どこまで手を入れるか。そこに迷う時間が増えるのは、うれしい悩みかもしれない。まずは手元にある打ち込みのメロディを一つ選び、歌詞を乗せて歌わせるところから始めてみると、ACE Studioがどんな道具なのかがいちばん早く分かる。
 
 ## 関連記事
+- [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)
+- [Max for Liveの使い方は、自作より先にLFOのMapボタンから覚える](/posts/max-for-live-device-guide-2026/)
+- [LUNAは無料でどこまで使えるか。録音から書き出しまで1曲通して、お金が要る4つの地点](/posts/luna-free-daw-limits-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

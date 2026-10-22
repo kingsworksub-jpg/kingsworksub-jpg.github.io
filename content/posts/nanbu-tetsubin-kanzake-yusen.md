@@ -115,5 +115,8 @@ scheduled_time: "07:30"
 
 ## 関連記事
 
+- [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
+- [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](/posts/suzu-chirori-kanzake-2026/)
+- [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

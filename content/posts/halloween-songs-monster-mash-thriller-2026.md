@@ -109,4 +109,7 @@ scheduled_time: "23:00"
 
 ## 関連記事
 
+- [ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン](/posts/hammond-b3-jazz-organ-2026/)
+- [1970年代のフュージョンでは、ベースが旋律を歌いシンセが低音を弾いた](/posts/jazz-fusion-1970s-weather-report/)
+- [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
