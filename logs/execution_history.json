@@ -858,5 +858,32 @@
       "description 100字未満=0(残り16本は97〜99字・130字超の確認)",
       "次回は薄い記事(本文4000字未満)の補強"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T20:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "oza-soda-deep-dive-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "modern-spiritual-jazz-2026",
+      "corduroy-wale-width-styling-2026",
+      "statement-hat-trends-autumn-2026",
+      "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026",
+      "jazz-style-menswear-2026",
+      "kurojoka-mino-deep-dive-2026",
+      "taiwan-india-whisky-climate-2026",
+      "logic-pro-drummer-workflow-2026",
+      "teenage-engineering-op1-synth-essay-2026",
+      "jazz-masterpieces-beginner"
+    ],
+    "actions": [
+      "description が短い/長すぎた記事12本を要旨を保ったまま約100〜115字に調整(OZA SODAは『隅々まで』の定型句も除去)"
+    ],
+    "files_changed": 13,
+    "status": "一部完了(hugo未導入でビルド未実行。kurojoka等一部は100字未満が残る。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description 100字未満の記事を0に(残り約40本)",
+      "次回は本文4000字未満の薄い記事の補強"
+    ]
   }
 ]
