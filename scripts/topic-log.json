@@ -2191,6 +2191,42 @@
    "note_key": "nb8e1c036a264",
    "engine": "claude",
    "at": "2026-10-22T18:35:11+09:00"
+  },
+  {
+   "id": "2026w42-020",
+   "category": "tech",
+   "theme": "ローカルLLMの量子化、GGUFの数字を読む",
+   "slug": "gguf-quantization-q4-q5-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/gguf-quantization-q4-q5-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-22T20:14:49+09:00"
+  },
+  {
+   "id": "2026w42-008",
+   "category": "software",
+   "theme": "Logic ProのDrummerで曲を組み立てる順番",
+   "slug": "logic-pro-drummer-workflow-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/logic-pro-drummer-workflow-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-22T20:32:36+09:00"
+  },
+  {
+   "id": "2026w42-011",
+   "category": "setup",
+   "theme": "スタジオの照明、モニターの見え方と目の疲れ",
+   "slug": "studio-lighting-eye-fatigue-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/studio-lighting-eye-fatigue-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-22T20:48:10+09:00"
   }
  ]
 }
