@@ -130,4 +130,7 @@ scheduled_time: "20:00"
 
 ## 関連記事
 
+- [コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか](/posts/corduroy-wale-width-styling-2026/)
+- [トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ](/posts/winter-coat-5types-2026/)
+- [グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける](/posts/glen-check-houndstooth-pattern-mixing-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

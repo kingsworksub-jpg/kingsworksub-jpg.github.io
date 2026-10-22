@@ -115,4 +115,7 @@ ogImageHeight: 630
 
 ## 関連記事
 
+- [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
+- [ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方](/posts/loafer-derby-autumn-2026/)
+- [ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学](/posts/tweed-jacket-street-style-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

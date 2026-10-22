@@ -657,5 +657,26 @@
       "内部リンク0件の公開記事(約65本)を系統別に順次解消",
       "次回はファッション/ドリンク系に関連記事リンクを追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T12:53:30.869214Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "corduroy-wale-width-styling-2026",
+      "glen-check-houndstooth-pattern-mixing-2026",
+      "loafer-derby-autumn-2026",
+      "turtleneck-jacket-layering-2026",
+      "tweed-jacket-street-style-2026",
+      "winter-coat-5types-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったファッション系6記事の「関連記事」に、同系統の既存記事への内部リンク3本ずつを追加"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約60本)を系統別に順次解消",
+      "次回はドリンク系(canned-coffee/ramune/tonic-water等)に関連記事リンクを追加"
+    ]
   }
 ]
