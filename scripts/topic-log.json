@@ -2179,6 +2179,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-21T17:44:58+09:00"
+  },
+  {
+   "id": "2026w42-033",
+   "category": "fashion",
+   "theme": "コーデュロイの秋冬コーデ、畝の太さで印象が変わる",
+   "slug": "corduroy-wale-width-styling-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/corduroy-wale-width-styling-2026/",
+   "hatena_entry": null,
+   "note_key": "nb8e1c036a264",
+   "engine": "claude",
+   "at": "2026-10-22T18:35:11+09:00"
   }
  ]
 }

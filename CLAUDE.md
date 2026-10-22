@@ -11,8 +11,9 @@
 - **note** (`note.com/shining_finger01`): **カルチャー・美学・ライフスタイル**によるブランド・ファン化ハブ。ウイスキー・ファッション文化・制作裏話に適しています。
 
 プラットフォームへの配信は、記事の `category` フィールドに基づいて自動判定されます（詳細は「自動投稿パイプライン」節参照）。
-自動投稿は1日6回、時間帯ごとに配信チャンネルと記事の性格を固定したタイムテーブルで動く（「自動投稿パイプライン」節の
-「1日6投稿タイムテーブル」参照）。
+自動投稿は1日9回で、**hatena・ameba・note に3本ずつ**、時間帯ごとに記事の性格を固定したタイムテーブルで動く。
+GitHub Pages はスロットを持たず、全記事が公開と同時に自動デプロイされる（「自動投稿パイプライン」節の
+「1日9投稿タイムテーブル」参照）。
 
 Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的サイト。
 
@@ -64,54 +65,53 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 自動投稿パイプライン（2026-10-01 全面改修 → 2026-10-08 タイムテーブル改修、ユーザー指示）
 
-**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**6記事まで**（手動投稿も含む）。
+**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**9記事まで**（手動投稿も含む）。
 旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
 プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
-2026-10-11 時点で4チャンネル(github/hatena/ameba/note)。カテゴリー構成も当初(software/learning等)から変わっているので、
-最新の対応は `category-plan.json` を正とする(下記テーブルは目安)。
-- `channel: github` → GitHub Pages へのみデプロイ（`lab` / `notes`。検証メモ・個人備忘録。他チャンネルへ転載しない）
-- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`tech` / `software` / `setup`）
-- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`gear` / `learning` / `drink` / `fashion`。2026-10-10追加、
+カテゴリー構成は当初(software/learning等)から変わっているので、最新の対応は `category-plan.json` を正とする(下記は目安)。
+- `channel: github` → **GitHub Pages は全記事のベース（別枠）**。どのチャンネルの記事も公開と同時に必ずデプロイされる。
+  `lab` / `notes` は weight 0（投稿スロット外・手動用）で、自動投稿では選ばれない
+- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`tech` / `software` / `setup` / `pc` / `dev` / `net`。
+  `pc`=PC・周辺機器、`dev`=開発・プログラミング、`net`=ネット・自宅サーバーは2026-10-22追加）
+- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-lab` / `drink-recipe` / `drink-tools` / `drink-hack` / `whisky` / `sakeware` / `gear` / `learning`。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
-- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`whisky` / `music` / `sakeware` / `essay`）
+- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior`。
+  `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリアは2026-10-22追加）
 
-### プラットフォーム平均化ルール（2026-10-11、ユーザー指示「各プラットフォームへの投稿数を平均化して」）
+### 1日9枠のプラットフォーム配分（2026-10-22、ユーザー指示「ameba/note/hatena に均等に毎日3本ずつ、github は別枠で全記事」）
 
-4チャンネル(github/hatena/ameba/note)のうち、github(2カテゴリー)とhatena(3カテゴリー)はameba・note(各4カテゴリー)より
-カテゴリー数が少なく、素朴に「カテゴリーを均等に回す」だけでは**投稿数がチャンネルごとに偏る**(旧タイムテーブルは
-github1・hatena1・ameba2・note2/日で固定だった)。これを解消するため、下記タイムテーブルの**20:00と23:00の2枠だけ**、
-日付(JST)の偶数/奇数でチャンネルが入れ替わる仕組みを `scripts/topic_plan.py` の `slots_for_date()` に実装した
-(`SLOTS_FIXED` が4枠固定分、`SLOTS_SWAP_EVEN_DAY` / `SLOTS_SWAP_ODD_DAY` が20:00・23:00の隔日ペア)。
-結果、**2日間(12枠)でどのチャンネルもちょうど3枠(平均1.5記事/日)になり、4プラットフォームの投稿数が均等になる**。
-カテゴリー単位の均等配分(`allocate`/`priorities`、weight均等)はこれまで通りチャンネル内で機能する。
+投稿スロットは9枠で、**hatena 3本・ameba 3本・note 3本を毎日固定**（隔日の入れ替えは廃止）。GitHub Pages はスロットを
+持たず、9本すべてが公開と同時に自動デプロイされる別枠の扱い。`scripts/topic_plan.py` の `SLOTS` が定義で、`claim()` は
+**スロットと同じチャンネルの承認済みネタだけ**を選ぶ（他チャンネルへのフォールバックなし）。これにより各外部プラットフォームは
+毎日ちょうど3本になる。キューの該当チャンネルが尽きた場合は `claim` が `{"empty": true}` を返し、投稿ジョブがその場で
+同じチャンネルのネタを1件補充する。カテゴリー単位の均等配分(`allocate`/`priorities`)はチャンネル内で機能する。
 
-### 1日6投稿タイムテーブル（2026-10-08、ユーザー提示の仕様書に基づき改修 → 2026-10-11、プラットフォーム平均化ルールで一部隔日化）
+### 1日9投稿タイムテーブル（2026-10-22、9枠・3プラットフォーム均等に改修）
 
-8回/2時間おきの均等配信から、アクセスピークの30〜60分前に当たる**6つの固定時刻**に変更した。各スロットは配信チャンネルを
-固定し、同じチャンネルでも朝/夜で記事の性格を変える。定義は `scripts/topic_plan.py` の `slots_for_date()`（`topic_plan.py slot`
-で現在時刻に最も近いスロットを取得できる。**どのチャンネルかは日付依存なので、作業前に必ずこのコマンドで確認すること**）。
+各スロットは配信チャンネルを固定し、同じチャンネルでも時間帯で記事の性格を変える。定義は `scripts/topic_plan.py` の
+`SLOTS`（`topic_plan.py slot` で現在時刻に最も近いスロットを取得できる。**作業前に必ずこのコマンドで確認すること**）。
 
 | 順序 | 時刻 | 想定読者行動 | チャンネル | 優先する記事の性格 |
 |---|---|---|---|---|
-| 1本目 | 07:30 | 朝の通勤・始業前 | github（固定） | 検証メモ・個人備忘録（lab/notes） |
-| 2本目 | 12:00 | 昼休み | hatena（固定） | テック・ソフト・制作環境（tech/software/setup） |
-| 3本目 | 17:30 | 退勤・帰宅移動 | ameba（固定） | 機材レビュー・学習体験談（gear/learning） |
-| 4本目 | 20:00 | 夕食後 | **偶数日 ameba(fashion/drink) ／ 奇数日 hatena(tech/software/setup)** | 隔日でチャンネルが変わる(平均化枠) |
-| 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note（固定） | ウイスキー等の製品カルチャー（whisky/music/sakeware） |
-| 6本目 | 23:00 | 就寝前 | **偶数日 note(essay) ／ 奇数日 github(lab/notes)** | 隔日でチャンネルが変わる(平均化枠) |
+| 1本目 | 07:30 | 朝の通勤・始業前 | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
+| 2本目 | 09:30 | 午前の休憩 | ameba | ドリンク・酒分析・カクテルレシピ・ツール（drink系/whisky/sakeware） |
+| 3本目 | 12:00 | 昼休み | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
+| 4本目 | 14:30 | 午後の休憩 | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
+| 5本目 | 17:00 | 退勤・帰宅移動 | ameba | ドリンク・酒分析・カクテルレシピ・ツール（drink系/whisky/sakeware） |
+| 6本目 | 18:30 | 帰宅後 | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
+| 7本目 | 20:00 | 夕食後 | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
+| 8本目 | 21:30 | 【最大ピーク】在宅リラックス | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
+| 9本目 | 23:00 | 就寝前 | ameba | ドリンク・酒分析・カクテルレシピ・ハック（drink系/whisky/sakeware） |
 
-`claim()` は現在のスロットのチャンネル・優先条件に合う承認済みネタを優先して選ぶ。合うネタが無ければチャンネルが合うネタ、
-それも無ければ通常の優先順位にフォールバックするため、キューが薄いスロットがあっても投稿は止まらない。
-
-**CV（回遊・収益）誘導**: `channel: github`/`hatena` の回（朝・昼、および隔日20:00のhatena回）は末尾に「今夜の note / 夜の特集」
-への予告リンクを1行加え、`channel: note` の回（21:30・23:00）は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
-（具体的な記事URLは執筆時点でまだ存在しないため、プラットフォームのトップページへリンクする）。各記事の frontmatter には、
-どのスロットで書かれたかを示す `scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は
+**CV（回遊・収益）誘導**: `channel: hatena` の回（07:30・12:00・20:00）は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
+`channel: note` の回（14:30・18:30・21:30）は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
+（具体的な記事URLは執筆時点でまだ存在しないため、プラットフォームのトップページへリンクする）。`channel: ameba` は共通リンクのみ。
+各記事の frontmatter には、どのスロットで書かれたかを示す `scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は
 `scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
-  - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`
+  - `blog-automation-task`: 投稿。毎日 07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00 の9回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`
   - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
 - **実行エンジン**: すべて Claude Code（`run-claude-task.ps1`）。big-pickle との日替わりは 2026-10-02 に廃止（上記「記事生成モデルの方針」）。
@@ -548,6 +548,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 1970年代のフュージョンでは、ベースが旋律を歌いシンセが低音を弾いた | https://note.com/shining_finger01/n/n12b64385b528 | `n12b64385b528` | **公開済(2026-10-18)** |
 | 修理して使うか、買い替えるか。直す道を選んだとき諦めるものと手元に残るもの | https://note.com/shining_finger01/n/n424e7acc981d | `n424e7acc981d` | **公開済(2026-10-19)** |
 | 錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器 | https://note.com/shining_finger01/n/n09e7f3f9cf03 | `n09e7f3f9cf03` | **公開済(2026-10-20)** |
+| コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか | https://note.com/shining_finger01/n/nb8e1c036a264 | `nb8e1c036a264` | **公開済(2026-10-22)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
@@ -603,14 +604,20 @@ Xに自動投稿する様組は已終了。以下は履歴で、コードとタ�
 - `gear` — 機材レビュー(ハードウェア)
 - `software` — DTMソフト・Tips
 - `setup` — 制作環境公開
+- `pc` — PC・周辺機器(2026-10-22追加、hatena向け)
+- `dev` — 開発・プログラミング(2026-10-22追加、hatena向け)
+- `net` — ネット・自宅サーバー(2026-10-22追加、hatena向け)
 - `learning` — スクール・学習
 - `whisky` — ウイスキー(音楽と無関係のジャンルもユーザー許可のもとで追加した実績あり)
 - `drink` — 飲料(【2026-09-27 廃止】個別深掘りシリーズは終了、カテゴリー自体は残存)
 - `sakeware` — 酒器(【2026-09-27 廃止】同上)
 - `fashion` — ファッション
 - `music` — 音楽
-- `essay` — カルチャーエッセイ(2026-10-08新設。1日6投稿タイムテーブルの23:00スロット用。ウイスキー等の製品カルチャーと違い、
+- `essay` — カルチャーエッセイ(2026-10-08新設。note の 14:30 / 18:30 / 21:30 スロットで使う。ウイスキー等の製品カルチャーと違い、
   思考整理・読み物寄りの長文エッセイを担当)
+- `film` — 映画・映像(2026-10-22追加、note向け)
+- `book` — 読書・文学(2026-10-22追加、note向け)
+- `interior` — 住まい・インテリア(2026-10-22追加、note向け)
 
 ## 記事の型その1:「5製品比較」フォーマット
 
