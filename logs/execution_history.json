@@ -938,5 +938,22 @@
       "ウイスキー深掘り10本の本文補強(事実確認つき)",
       "同記事の二重figure(同一画像)の整理"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T23:53:48Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "figureの左右配置が連続(right→right)していたため82行目を photo--left に変更し交互配置に修正",
+      "公開済み全記事のdescription/images/画像実在・figure直後の見出しを点検(他に問題なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了(hugo未導入でビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "ウイスキー深掘り10本の本文補強",
+      "同記事の二重figure整理"
+    ]
   }
 ]

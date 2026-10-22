@@ -79,7 +79,7 @@ ogImageHeight: 630
 
 ## 文化としての装い——なぜいま、ジャズスタイルなのか
 
-<figure class="photo photo--right">
+<figure class="photo photo--left">
 <img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy">
 <figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
 <span class="credit">Photo: Pixabay / tylermike525</span>
