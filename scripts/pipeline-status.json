@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-22T23:00:30+09:00",
+ "updated": "2026-10-22T23:25:25+09:00",
  "queue": {
-  "published": 101,
+  "published": 102,
   "rejected": 1,
-  "approved": 45,
-  "in_progress": 1
+  "approved": 45
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published jazz-vocal-phrasing-guide-2026",
+ "last_result": "published irish-whiskey-pot-still-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
