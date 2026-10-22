@@ -162,4 +162,7 @@ scheduled_time: "17:30"
 
 ## 関連記事
 
+- [トニックウォーター5本比較、割り材としての苦味を選ぶ](/posts/tonic-water-5choice-2026/)
+- [ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方](/posts/wilkinson-ginger-ale-dry-deep-dive-2026/)
+- [ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった](/posts/non-alcohol-beer-5choice-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

@@ -678,5 +678,33 @@
       "内部リンク0件の公開記事(約60本)を系統別に順次解消",
       "次回はドリンク系(canned-coffee/ramune/tonic-water等)に関連記事リンクを追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T13:54:02.095298Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canned-coffee-5choice-2026",
+      "ramune-5choice-2026",
+      "tonic-water-5choice-2026",
+      "dr-pepper-23-flavors-deep-dive-2026",
+      "vox-cola-flavor-deep-dive-2026",
+      "wilkinson-ginger-ale-dry-deep-dive-2026",
+      "sodastream-terra-carbonation-guide-2026",
+      "home-mocktail-soda-syrup-2026",
+      "craft-cola-spice-syrup-2026",
+      "non-alcohol-beer-5choice-2026",
+      "oral-rehydration-vs-sports-drink-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったドリンク系11記事の「関連記事」に、同系統の既存記事への内部リンク3本ずつを追加",
+      "vox-cola-flavor-deep-dive-2026 は結びが唐突(『6.0GV を選ぶ理由はない』等)で要リライト候補として記録"
+    ],
+    "files_changed": 12,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約50本)を系統別に順次解消",
+      "次回はソフト/setup/tech系(ableton/kontakt/ollama等)に関連記事リンクを追加",
+      "vox-cola記事の結論部リライト"
+    ]
   }
 ]

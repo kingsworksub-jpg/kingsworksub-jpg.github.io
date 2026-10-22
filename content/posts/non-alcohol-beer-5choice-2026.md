@@ -128,4 +128,7 @@ draft: false
 
 ## 関連記事
 
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線](/posts/canned-coffee-5choice-2026/)
+- [経口補水液とスポーツドリンク、電解質濃度と糖分の違いがもたらす役割](/posts/oral-rehydration-vs-sports-drink-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

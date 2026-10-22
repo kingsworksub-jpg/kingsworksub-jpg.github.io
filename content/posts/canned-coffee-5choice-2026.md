@@ -194,4 +194,7 @@ scheduled_time: "17:30"
 
 ## 関連記事
 
+- [ラムネはびんと缶で何が変わるのか。ビー玉の栓とねじ蓋で5本を比べる](/posts/ramune-5choice-2026/)
+- [ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった](/posts/non-alcohol-beer-5choice-2026/)
+- [経口補水液とスポーツドリンク、電解質濃度と糖分の違いがもたらす役割](/posts/oral-rehydration-vs-sports-drink-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

@@ -97,4 +97,7 @@ ogImageHeight: 630
 
 ## 関連記事
 
+- [トニックウォーター5本比較、割り材としての苦味を選ぶ](/posts/tonic-water-5choice-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [クラフトコーラの原液は、割る人が最後の調合を担う](/posts/craft-cola-spice-syrup-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

@@ -98,4 +98,7 @@ ogImageHeight: 630
 
 ## 関連記事
 
+- [ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった](/posts/non-alcohol-beer-5choice-2026/)
+- [缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線](/posts/canned-coffee-5choice-2026/)
+- [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

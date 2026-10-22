@@ -195,6 +195,9 @@ scheduled_time: "17:30"
 
 ## 関連記事
 
+- [缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線](/posts/canned-coffee-5choice-2026/)
+- [ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由](/posts/dr-pepper-23-flavors-deep-dive-2026/)
+- [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note版はこちら](https://note.com/shining_finger01)

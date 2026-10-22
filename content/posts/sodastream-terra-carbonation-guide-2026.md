@@ -107,4 +107,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 
 ## 関連記事
 
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [トニックウォーター5本比較、割り材としての苦味を選ぶ](/posts/tonic-water-5choice-2026/)
+- [VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか](/posts/vox-cola-flavor-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

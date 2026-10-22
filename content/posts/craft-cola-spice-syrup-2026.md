@@ -121,4 +121,7 @@ UMAMI COLAは、さらに大胆に甘みの出どころを変えた。砂糖の�
 
 ## 関連記事
 
+- [ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由](/posts/dr-pepper-23-flavors-deep-dive-2026/)
+- [VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか](/posts/vox-cola-flavor-deep-dive-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
