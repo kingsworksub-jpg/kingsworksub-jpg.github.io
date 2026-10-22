@@ -76,6 +76,9 @@ Drummer機能の真骨頂は、内蔵エンジンによって構築された演�
 初期段階のアイデア出しやリズム構築の労力を完全に肩代わりしてもらい、最後の「美味しい部分の味付け」だけを自分の手で行う。このワークフローを取り入れることで、DTMにおける楽曲制作の効率とクオリティは劇的に向上するはずだ。日々の制作環境において、このツールをいかに使いこなすかが、スピーディかつクオリティの高い楽曲を生み出すための鍵となる。
 
 ## 関連記事
+- [LUNAは無料でどこまで使えるか。録音から書き出しまで1曲通して、お金が要る4つの地点](/posts/luna-free-daw-limits-2026/)
+- [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
+- [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](/posts/kontakt-8-player-and-builder-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note版はこちら](https://note.com/shining_finger01)

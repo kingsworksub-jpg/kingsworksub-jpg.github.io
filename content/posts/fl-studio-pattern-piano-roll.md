@@ -108,5 +108,8 @@ FL Studio のいちばんの特徴として語られることが多いのが、L
 そのうえで、ピアノロールのスライドノートやノートごとのファインピッチ、ゴーストノートを少しずつ使ってみると、FL Studio ならではの打ち込みの楽しさが見えてくると思う。マス目を押すだけでビートが鳴り、パターンを並べ替えるだけで展開が変わる。最初の戸惑いを越えた先にあるのは、考えるより先に手が動く、軽やかな作り方だ。買ったあとの更新で悩まなくていい分、その作り方を自分のペースで育てていける。
 
 ## 関連記事
+- [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/)
+- [Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで](/posts/logic-pro-drummer-workflow-2026/)
+- [LUNAは無料でどこまで使えるか。録音から書き出しまで1曲通して、お金が要る4つの地点](/posts/luna-free-daw-limits-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

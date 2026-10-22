@@ -125,4 +125,7 @@ Macなら、whisper.cppのMetal対応でlarge-v3かturboを使う。CPUだけの
 
 ## 関連記事
 
+- [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)
+- [Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで](/posts/google-flow-music-plugins-2026/)
+- [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

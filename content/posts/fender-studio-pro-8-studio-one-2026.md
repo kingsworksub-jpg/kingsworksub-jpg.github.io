@@ -111,5 +111,8 @@ Studio One 6や7を買い切りで使っている人なら、99.99ドルで乗�
 Fender Studio Pro 8は、名前と売り方が大きく変わった一方で、Studio Oneを支えてきた操作の流れはほとんど手を付けずに残した更新だった。新しく加わったのは、Fenderのアンプと、音声を音符に変える機能、そして8.1で入った歌の補正やパート分けといった、制作の入り口を広げるための道具だ。Studio Oneに慣れた人は戸惑う時間が短く、これから始める人はMotionと組み合わせることで、手頃な入り口が手に入る。ロゴが変わっても中身は地続きだと分かれば、9か月前に感じた不安はだいぶ小さくなるはずだ。
 
 ## 関連記事
+- [Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで](/posts/logic-pro-drummer-workflow-2026/)
+- [LUNAは無料でどこまで使えるか。録音から書き出しまで1曲通して、お金が要る4つの地点](/posts/luna-free-daw-limits-2026/)
+- [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

@@ -106,5 +106,8 @@ Ollamaは、一度読み込んだモデルを最後に使ってから5分間は�
 VRAMの目安を一つだけ覚えておくなら、「8GBで8B、12GBから16GBで14B、24GBで32B」という対応だと思う。歌詞の言い回しを考えたり、作業メモを整理したりする用途なら、8Bから14Bのモデルでも十分役に立つ。まずは手元のGPUに収まる大きさのモデルから始めて、足りないと感じたら、コンテキスト長とKVキャッシュの設定を見直してから、モデルを一段大きくするか考えるのがいいと思う。
 
 ## 関連記事
+- [ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの](/posts/gguf-quantization-q4-q5-guide-2026/)
+- [Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで](/posts/whisper-model-size-japanese-benchmark-2026/)
+- [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

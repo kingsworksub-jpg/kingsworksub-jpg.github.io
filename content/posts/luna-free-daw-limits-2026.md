@@ -107,5 +107,8 @@ LUNAの特徴として、Extensionsと呼ばれる拡張がある。これはプ
 まずは無料のLUNAで1曲を最後まで書き出してみて、そのうえで物足りなかった部分がどの段階にあったかを振り返る。その答えが、LUNA Studioなのか、Neve Summingなのか、あるいはApolloなのかを教えてくれるはずだ。
 
 ## 関連記事
+- [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
+- [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](/posts/kontakt-8-player-and-builder-2026/)
+- [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

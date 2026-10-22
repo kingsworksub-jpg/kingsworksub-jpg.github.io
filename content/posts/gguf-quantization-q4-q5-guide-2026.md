@@ -70,6 +70,9 @@ GGUFにおける量子化方式（Q-type）は、単にすべての数値を一�
 GGUFのファイル名に刻まれた数字の意味を理解し、自分のPC環境と相談しながら最適なQ-typeを選ぶこと。それこそが、ローカルLLMを真の相棒として使いこなすための第一歩となる。日々のAIライフをより豊かにするために、ぜひ手元の環境で様々な量子化モデルの挙動を比較してみてほしい。
 
 ## 関連記事
+- [Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで](/posts/whisper-model-size-japanese-benchmark-2026/)
+- [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)
+- [Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで](/posts/google-flow-music-plugins-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://blog.ameba.jp/)
 - [note版はこちら](https://note.com/shining_finger01)
