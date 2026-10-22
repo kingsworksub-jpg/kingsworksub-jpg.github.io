@@ -790,5 +790,25 @@
       "内部リンク0件の公開記事(約16本)を系統別に順次解消",
       "次回はmisc系(adult-piano-learning, code-progress, dtm-school, piano-practice-apps等)・essay/sakeware系に追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T17:53:30.425166Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "adult-piano-learning-2026",
+      "code-progress-1month-2026",
+      "dtm-school-or-self-study-2026",
+      "piano-practice-apps-3choice-2026",
+      "music-theory-3month-plan"
+    ],
+    "actions": [
+      "内部リンクが無かったmisc(学習)系5本の「関連記事」に同系統の既存記事への内部リンク3本ずつを追加"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約11本)を順次解消",
+      "次回は2026-09-22-*系・essay/sakeware/whisky系に追加"
+    ]
   }
 ]
