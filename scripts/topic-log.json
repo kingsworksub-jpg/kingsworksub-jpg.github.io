@@ -2251,6 +2251,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-22T23:25:25+09:00"
+  },
+  {
+   "id": "2026w42-009",
+   "category": "software",
+   "theme": "サイドチェイン・コンプの使いどころ、キックとベースを譲る",
+   "slug": "sidechain-kick-bass-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/sidechain-kick-bass-guide-2026/",
+   "hatena_entry": "14945776032094000930",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-23T07:43:42+09:00"
   }
  ]
 }
