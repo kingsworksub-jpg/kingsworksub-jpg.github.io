@@ -733,5 +733,34 @@
       "内部リンク0件の公開記事(約40本)を系統別に順次解消",
       "次回はfashion/essay/music/whisky系に内部リンクを追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T15:55:02.827741Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "scarf-styling-trend-2026",
+      "statement-hat-trends-autumn-2026",
+      "statement-hat-trend-2026",
+      "classic-suspender-styling-2026",
+      "leather-gloves-lining-guide-2026",
+      "jazz-style-menswear-2026",
+      "jazz-style-fashion-revival-2026",
+      "classic-french-style-revival-2026",
+      "winter-studio-humidity",
+      "rental-soundproofing-booth-2026",
+      "quiet-music-pc-fan-noise-2026",
+      "desk-chair-studio-ergonomics-2026",
+      "studio-lighting-eye-fatigue-guide-2026",
+      "one-room-streaming-setup-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったファッション系8本・setup系6本の「関連記事」に同系統の既存記事への内部リンク3本ずつを追加(既存の関連記事節がある記事は先頭に追記)"
+    ],
+    "files_changed": 15,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約25本)を系統別に順次解消",
+      "次回はlab/notes/essay/whisky/sakeware/gear系に内部リンクを追加"
+    ]
   }
 ]

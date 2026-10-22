@@ -156,3 +156,8 @@ TikTok の「最高の着こなしの人」として Vogue に選出された Wi
 - Vogue, Business of Fashion – Fashion Week Reviews (Paris, Milan, London, New York AW26)
 - Ghelter, Hat Attack New York, Eric Javits, Lock & Co. Hatters – Hat Trend Analysis
 - TikTok, Instagram Trend Data – Social Media Engagement Metrics
+
+## 関連記事
+- [帽子が主役になる秋冬2026、ステートメントハットの選び方](/posts/statement-hat-trend-2026/)
+- [5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー](/posts/classic-suspender-styling-2026/)
+- [革手袋はなぜ巻尺で選ぶのか、羊革と鹿革と裏地で変わる冬の手元](/posts/leather-gloves-lining-guide-2026/)

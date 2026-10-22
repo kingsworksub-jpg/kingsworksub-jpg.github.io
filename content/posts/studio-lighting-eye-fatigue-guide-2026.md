@@ -78,6 +78,9 @@ scheduled_time: "20:00"
 画面と手元の明るさを適切にデザインし、自身の身体への負担を最小限に抑えること。見落としがちな照明環境の最適化こそが、日々のクリエイティブなパフォーマンスを持続させるための隠れたキーファクターとなる。自らのワークスペースを見直し、今日からでも快適な光の環境を整えてみてほしい。
 
 ## 関連記事
+- [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
+- [モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから](/posts/monitor-placement-room-tuning-6jo-2026/)
+- [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note版はこちら](https://note.com/shining_finger01)
