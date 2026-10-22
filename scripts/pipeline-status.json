@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-22T21:30:43+09:00",
+ "updated": "2026-10-22T21:51:11+09:00",
  "queue": {
-  "published": 100,
+  "published": 101,
   "rejected": 1,
-  "approved": 46,
-  "in_progress": 1
+  "approved": 46
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published studio-lighting-eye-fatigue-guide-2026",
+ "last_result": "published jazz-vocal-phrasing-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
