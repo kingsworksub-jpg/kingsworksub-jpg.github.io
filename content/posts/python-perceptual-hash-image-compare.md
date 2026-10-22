@@ -142,6 +142,10 @@ print(imagehash.phash(a) - imagehash.phash(b))   # 0〜64
 
 ## 関連記事
 
+
+- [awkだけでSVGのレーダーチャートを描く、72度ずつ回す座標計算と壊れる入力の記録](/posts/awk-svg-radar-chart-notes/)
+- [git worktreeで作業フォルダをブランチの数だけ持つ、stashと切り替えをやめるための備忘録](/posts/git-worktree-multiple-branches-notes/)
+- [PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった](/posts/powershell-utf8-bom-notes/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

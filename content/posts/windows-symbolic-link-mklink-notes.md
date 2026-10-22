@@ -110,4 +110,8 @@ PowerShell 5.1の`Remove-Item`は、手元の版では`-Recurse -Force`を付け
 
 ## 関連記事
 
+
+- [PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった](/posts/powershell-utf8-bom-notes/)
+- [git worktreeで作業フォルダをブランチの数だけ持つ、stashと切り替えをやめるための備忘録](/posts/git-worktree-multiple-branches-notes/)
+- [Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture](/posts/hugo-timezone-buildfuture-notes/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

@@ -125,4 +125,8 @@ READMEには、GPUを使う場合は少なくとも3GBのビデオメモリが�
 
 ## 関連記事
 
+
+- [16bit化のディザを3通りで検証、ノイズシェーピングは総量で12dB増えて耳では9dB減る](/posts/dither-16bit-noise-shaping-test/)
+- [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+- [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
 - 明日の夜もウイスキー・カルチャーの記事やDTM理論の記事を公開予定です → [note はこちら](https://note.com/shining_finger01)

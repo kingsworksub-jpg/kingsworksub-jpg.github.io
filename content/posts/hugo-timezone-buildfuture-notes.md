@@ -130,4 +130,8 @@ Hugoで当日の記事が出ない問題は、時刻やオフセットのない�
 
 ## 関連記事
 
+
+- [git worktreeで作業フォルダをブランチの数だけ持つ、stashと切り替えをやめるための備忘録](/posts/git-worktree-multiple-branches-notes/)
+- [PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった](/posts/powershell-utf8-bom-notes/)
+- [awkだけでSVGのレーダーチャートを描く、72度ずつ回す座標計算と壊れる入力の記録](/posts/awk-svg-radar-chart-notes/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

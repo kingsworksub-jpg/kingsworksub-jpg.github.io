@@ -166,4 +166,8 @@ git worktree repair ../wt-feature
 
 ## 関連記事
 
+
+- [Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture](/posts/hugo-timezone-buildfuture-notes/)
+- [Windowsのシンボリックリンクをmklinkで作る、ジャンクションとの違いとrmdirで消す理由](/posts/windows-symbolic-link-mklink-notes/)
+- [PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった](/posts/powershell-utf8-bom-notes/)
 - 夜はウイスキー・カルチャーの記事やDTM理論の記事も公開しています → [note はこちら](https://note.com/shining_finger01)
