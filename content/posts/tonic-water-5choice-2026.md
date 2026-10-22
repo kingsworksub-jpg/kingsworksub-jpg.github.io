@@ -130,4 +130,7 @@ ogImageHeight: 630
 
 ## 関連記事
 
+- [ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方](/posts/wilkinson-ginger-ale-dry-deep-dive-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

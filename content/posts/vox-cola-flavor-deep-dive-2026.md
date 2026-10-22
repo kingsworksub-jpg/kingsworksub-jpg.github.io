@@ -141,3 +141,9 @@ Amazon 詳細ページには 4.1 評価が 2,700 件以上集まっている。�
 最後にひとつだけ。
 
 1本 150円で 6.0GV を選ぶ理由はない。VOX で十分だ。
+
+## 関連記事
+
+- [ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由](/posts/dr-pepper-23-flavors-deep-dive-2026/)
+- [クラフトコーラの原液は、割る人が最後の調合を担う](/posts/craft-cola-spice-syrup-2026/)
+- [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)

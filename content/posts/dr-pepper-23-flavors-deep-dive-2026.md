@@ -115,4 +115,7 @@ scheduled_time: "17:30"
 
 ## 関連記事
 
+- [クラフトコーラの原液は、割る人が最後の調合を担う](/posts/craft-cola-spice-syrup-2026/)
+- [VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか](/posts/vox-cola-flavor-deep-dive-2026/)
+- [ラムネはびんと缶で何が変わるのか。ビー玉の栓とねじ蓋で5本を比べる](/posts/ramune-5choice-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
