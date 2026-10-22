@@ -1,6 +1,6 @@
 ---
 title: "「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン"
-description: "「日本コカ・コーラ史上最強の強炭酸水」をうたう、アイシー・スパーク from カナダドライ レモン。ラベルレス430ml×24本の箱買い向け仕様と、レモンの香りの出方、炭酸の強さを確かめる。"
+description: "「日本コカ・コーラ史上最強の強炭酸水」をうたう、アイシー・スパーク from カナダドライ レモン。ラベルレス430ml×24本の箱買い向け仕様と、レモンの香りの出方、炭酸の強さ、価格の目安まで確かめる。"
 images: ["/images/og/icy-spark-canada-dry-lemon-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

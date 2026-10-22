@@ -3,7 +3,7 @@ title: "ゲンスブールの系譜を継ぐ、2026年のクラシック・フ�
 date: 2026-09-30T18:00:00+09:00
 slug: "classic-french-style-revival-2026"
 categories: [misc]
-description: "2026年に復権するクラシック・フレンチスタイル。セリーヌやジル・サンダーが主導する流れを、ゲンズブールの洗練、左岸とリヴィエラの系譜、Z世代の支持、秋冬の色と素材の選び方から読み解く。"
+description: "2026年に復権するクラシック・フレンチスタイル。セリーヌやジル・サンダーが主導する流れを、ゲンズブールの洗練、左岸とリヴィエラの系譜、Z世代の支持、秋冬の色と素材の選び方、取り入れ方まで丁寧に読み解く。"
 images: ["/images/og/classic-french-style-revival-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

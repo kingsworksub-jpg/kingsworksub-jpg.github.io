@@ -885,5 +885,32 @@
       "description 100字未満の記事を0に(残り約40本)",
       "次回は本文4000字未満の薄い記事の補強"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T21:53:16Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canadian-whisky-rye-4choice-2026",
+      "classic-french-style-revival-2026",
+      "gguf-quantization-q4-q5-guide-2026",
+      "icy-spark-canada-dry-lemon-deep-dive-2026",
+      "jazz-style-fashion-revival-2026",
+      "kurojoka-mino-deep-dive-2026",
+      "nea-jazz-masters-2026",
+      "otsuka-match-deep-dive-2026",
+      "scarf-styling-trend-2026",
+      "studio-lighting-eye-fatigue-guide-2026",
+      "tonic-water-5choice-2026",
+      "windows-11-26h2-memory-daw-2026"
+    ],
+    "actions": [
+      "description が100字未満だった12本を要旨を保ったまま100〜110字に拡充(『徹底解説』等の定型句を含む記事は文言維持)"
+    ],
+    "files_changed": 13,
+    "status": "完了(hugo/PIL未導入でビルド・seo-audit未実行。description 100字未満・130字超は0に。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "本文4000字未満の薄い記事の補強",
+      "seo-audit実行環境が整えば内部リンク/孤立記事の点検"
+    ]
   }
 ]

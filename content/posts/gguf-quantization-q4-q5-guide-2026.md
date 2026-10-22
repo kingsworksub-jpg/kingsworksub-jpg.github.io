@@ -1,6 +1,6 @@
 ---
 title: "ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの"
-description: "ローカルLLMの実行に欠かせないGGUFフォーマットの量子化（Q4_K_M、Q5_K_M、Q8_0）。ビット数とメモリ削減の効果、そして困惑度（Perplexity）や精度への影響を解説します。"
+description: "ローカルLLMの実行に欠かせないGGUFフォーマットの量子化（Q4_K_M、Q5_K_M、Q8_0）。ビット数とメモリ削減の効果、そして困惑度（Perplexity）や精度への影響、用途別の選び方まで解説します。"
 images: ["/images/og/gguf-quantization-q4-q5-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
