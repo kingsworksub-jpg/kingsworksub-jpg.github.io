@@ -103,6 +103,11 @@ pygmentsUseClasses = true
     url = '/categories/misc/'
     weight = 54
    [[menu.main]]
+    identifier = 'jazz'
+    name = 'ジャズ・名盤・歴史'
+    url = '/categories/jazz/'
+    weight = 48.5
+   [[menu.main]]
     identifier = 'music'
     name = '音楽・レビュー・ディスクガイド'
     url = '/categories/music/'
@@ -113,10 +118,45 @@ pygmentsUseClasses = true
     url = '/categories/essay/'
     weight = 50
    [[menu.main]]
+    identifier = 'film'
+    name = '映画・映像'
+    url = '/categories/film/'
+    weight = 50.1
+   [[menu.main]]
+    identifier = 'book'
+    name = '読書・文学'
+    url = '/categories/book/'
+    weight = 50.2
+   [[menu.main]]
+     identifier = 'interior'
+     name = '住まい・インテリア'
+     url = '/categories/interior/'
+     weight = 50.3
+   [[menu.main]]
+     identifier = 'anime'
+     name = 'アニメ・映像'
+     url = '/categories/anime/'
+     weight = 50.4
+   [[menu.main]]
     identifier = 'tech'
     name = 'テック・AI'
     url = '/categories/tech/'
     weight = 51
+   [[menu.main]]
+    identifier = 'pc'
+    name = 'PC・周辺機器'
+    url = '/categories/pc/'
+    weight = 51.1
+   [[menu.main]]
+    identifier = 'dev'
+    name = '開発・プログラミング'
+    url = '/categories/dev/'
+    weight = 51.2
+   [[menu.main]]
+    identifier = 'net'
+    name = 'ネット・自宅サーバー'
+    url = '/categories/net/'
+    weight = 51.3
    [[menu.main]]
     identifier = 'lab'
     name = '検証メモ'
