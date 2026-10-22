@@ -110,5 +110,8 @@ Kontakt 8の世代では、楽器の画面をより今どきの見た目で作�
 Kontakt 8は、鳴らすだけの人には無料のPlayerとToolsで十分に入り口を開き、作る人にはインストゥルメントからスクリプトまで細かな道具を一式そろえている。同じ名前のソフトでも、自分がどちらの立場で触るのかを決めておくと、必要なお金も、覚えるべき画面もはっきりする。まずはPlayerで好きな音源を鳴らし、音の並べ方が気になり始めたら作る側へ一歩踏み出す、という順番で付き合っていくのがいちばん無理がないと思う。
 
 ## 関連記事
+- [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)
+- [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](/posts/fl-studio-pattern-piano-roll/)
+- [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

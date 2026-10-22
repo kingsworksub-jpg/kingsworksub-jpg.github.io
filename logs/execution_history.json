@@ -706,5 +706,32 @@
       "次回はソフト/setup/tech系(ableton/kontakt/ollama等)に関連記事リンクを追加",
       "vox-cola記事の結論部リライト"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T14:53:55.205171Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ableton-live-12-session-view-2026",
+      "fl-studio-pattern-piano-roll",
+      "fender-studio-pro-8-studio-one-2026",
+      "logic-pro-drummer-workflow-2026",
+      "luna-free-daw-limits-2026",
+      "vocalign-7-multitrack",
+      "kontakt-8-player-and-builder-2026",
+      "ollama-vram-memory-guide-2026",
+      "gguf-quantization-q4-q5-guide-2026",
+      "whisper-model-size-japanese-benchmark-2026",
+      "windows-11-26h2-memory-daw-2026",
+      "google-flow-music-plugins-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったソフト/DAW系7本・tech/AI系5本の「関連記事」に同系統の既存記事への内部リンク3本ずつを追加(ableton/vocalignは関連記事節を新設)"
+    ],
+    "files_changed": 13,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約40本)を系統別に順次解消",
+      "次回はfashion/essay/music/whisky系に内部リンクを追加"
+    ]
   }
 ]

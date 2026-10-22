@@ -102,5 +102,8 @@ USB Audio Class 1.0は、専用ドライバーなしで挿すだけで使える�
 26H2のメモリ削減は、16GB以上のPCを使っている人にとっては、ありがたいおまけのような変化だと思う。ただ、DAWの安定性を決めているのは、メモリの空きよりも、CPUの処理が時間内に終わるかどうかと、ドライバーのふるまいのほうだ。更新をきっかけに電源プランとUSBまわりの設定を一度見直し、使っている機器が問題なく動くかを確かめておけば、26H2の恩恵を気持ちよく受け取れるはずだ。
 
 ## 関連記事
+- [Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで](/posts/google-flow-music-plugins-2026/)
+- [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
+- [ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの](/posts/gguf-quantization-q4-q5-guide-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

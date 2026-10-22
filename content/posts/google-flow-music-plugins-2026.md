@@ -102,5 +102,8 @@ Spacesは、プラグイン開発のすべてを誰にでも開いたわけで�
 コードを書く力の代わりに求められるのは、自分が欲しい音を、音の通り道として言葉にする力だ。シンセの仕組みやエフェクトの働きを知っているほど、Spacesでできることは広がる。逆に言えば、音作りの基礎を学ぶことが、そのまま自分の道具を作る力につながる時代になってきた。まずは普段よく使う効果を一つ選び、言葉で注文してみるところから始めるのがよさそうだ。
 
 ## 関連記事
+- [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
+- [ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの](/posts/gguf-quantization-q4-q5-guide-2026/)
+- [Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで](/posts/whisper-model-size-japanese-benchmark-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
