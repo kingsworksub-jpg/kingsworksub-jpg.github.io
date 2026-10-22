@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T20:48:10+09:00",
+ "updated": "2026-10-22T21:30:43+09:00",
  "items": [
   {
    "category": "gear",
@@ -3692,9 +3692,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-063",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-22T21:30:43+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい"
   },
   {
    "category": "music",
