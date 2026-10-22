@@ -146,4 +146,7 @@ scheduled_time: "20:00"
 
 ## 関連記事
 
+- [ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学](/posts/tweed-jacket-street-style-2026/)
+- [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
+- [コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか](/posts/corduroy-wale-width-styling-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

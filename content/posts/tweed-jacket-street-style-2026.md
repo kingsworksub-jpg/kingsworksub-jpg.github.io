@@ -90,4 +90,7 @@ ogImageHeight: 630
 
 ## 関連記事
 
+- [グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける](/posts/glen-check-houndstooth-pattern-mixing-2026/)
+- [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
+- [ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方](/posts/loafer-derby-autumn-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
