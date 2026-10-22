@@ -130,4 +130,8 @@ TPDFとシェーピングでは、どちらの区間でも山は見つからな�
 
 ## 関連記事
 
+
+- [ラウドネスノーマライズの検証メモ：-8から-16 LUFSまで4本書き出すと何が残るか](/posts/streaming-loudness-normalization-lufs/)
+- [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+- [Demucsでボーカルを抜くと残響はどこへ行くか、htdemucsとhtdemucs_ftの4ステムと6ステム](/posts/demucs-stem-separation-htdemucs-ft-2026/)
 - 明日の夜もウイスキー・カルチャーの記事やDTM理論の記事を公開予定です → [note はこちら](https://note.com/shining_finger01)

@@ -111,4 +111,8 @@ MPK Mini MK4は、長年の弱点だったジョイスティックをホイー�
 
 ## 関連記事
 
+
+- [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/)
+- [Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった](/posts/launchkey-mk4-key-range/)
+- [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

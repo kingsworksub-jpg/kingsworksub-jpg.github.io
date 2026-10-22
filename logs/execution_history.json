@@ -762,5 +762,33 @@
       "内部リンク0件の公開記事(約25本)を系統別に順次解消",
       "次回はlab/notes/essay/whisky/sakeware/gear系に内部リンクを追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T16:53:25.640285Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "awk-svg-radar-chart-notes",
+      "python-perceptual-hash-image-compare",
+      "git-worktree-multiple-branches-notes",
+      "hugo-timezone-buildfuture-notes",
+      "powershell-utf8-bom-notes",
+      "windows-symbolic-link-mklink-notes",
+      "demucs-stem-separation-htdemucs-ft-2026",
+      "dither-16bit-noise-shaping-test",
+      "rme-babyface-pro-fs-deep-dive-2026",
+      "universal-audio-volt-276-deep-dive-2026",
+      "yamaha-ag03mk2-deep-dive-2026",
+      "akai-mpk-mini-mk4-deep-dive-2026",
+      "launchkey-mk4-key-range"
+    ],
+    "actions": [
+      "内部リンクが無かったlab/notes系8本・オーディオI/O・MIDIキーボード系5本の「関連記事」に同系統の既存記事への内部リンク3本ずつを追加"
+    ],
+    "files_changed": 14,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約16本)を系統別に順次解消",
+      "次回はmisc系(adult-piano-learning, code-progress, dtm-school, piano-practice-apps等)・essay/sakeware系に追加"
+    ]
   }
 ]
