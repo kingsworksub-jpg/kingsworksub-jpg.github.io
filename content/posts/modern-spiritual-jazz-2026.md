@@ -11,7 +11,7 @@ tags:
   - Thundercat
   - RobertGlasper
   - modernJazz
-description: "2010年代後半から急速に拡大したスピリチュアルジャズのムーブメント。Kamasi Washington、Dinner Party、Thundercatら新世代が拓くジャズの地平。社会正義への声と、ヒップホップ・ソウルへの開放性が生んだ革新的なサウンド。"
+description: "2010年代後半から広がったスピリチュアルジャズの流れを、Kamasi Washington、Dinner Party、Thundercatの新世代から読み解く。社会正義への声とヒップホップ・ソウルへの開放性が鍵になる。"
 images: ["/images/og/modern-spiritual-jazz-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

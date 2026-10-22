@@ -1,6 +1,6 @@
 ---
 title: "台湾とインドのウイスキー、熱い土地で樽は速く働く"
-description: "高温多湿の台湾とインドでは、天使の分け前が年10〜15%に達し、熟成速度はスコットランドの3〜5倍。KavalanとAmrutの3本から、気候がウイスキーの味を変える仕組みを見ていく。"
+description: "高温多湿の台湾とインドでは天使の分け前が年10〜15%に達し、熟成速度はスコットランドの3〜5倍。KavalanとAmrutの3本から、気候がウイスキーの味を変える仕組みを見ていく。飲み比べの手がかりも示す。"
 images: ["/images/og/taiwan-india-whisky-climate-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

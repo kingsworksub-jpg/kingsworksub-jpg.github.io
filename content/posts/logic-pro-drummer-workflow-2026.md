@@ -1,6 +1,6 @@
 ---
 title: "Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで"
-description: "Logic Proの「Drummer」機能を使って楽曲の骨格を素早く構築する方法。ジャンルの選定、X-Yパッドによるダイナミクス調整、MIDI変換してアレンジを詰める手順を解説します。"
+description: "Logic Proの「Drummer」で楽曲の骨格を素早く組み立てる手順。ジャンルの選び方、X-Yパッドによるダイナミクス調整、MIDI変換してアレンジを詰めるところまでを順に解説する。初めての人でも迷いにくい流れで進める。"
 images: ["/images/og/logic-pro-drummer-workflow-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
