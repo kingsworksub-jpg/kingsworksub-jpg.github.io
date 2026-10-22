@@ -1,32 +1,34 @@
 {
- "updated": "2026-10-22T20:00:03+09:00",
+ "updated": "2026-10-22T20:15:42+09:00",
  "queue": {
-  "published": 97,
+  "published": 98,
   "rejected": 1,
-  "approved": 49,
-  "in_progress": 1
+  "approved": 49
  },
  "today_posts": 2,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published corduroy-wale-width-styling-2026",
+ "last_result": "published gguf-quantization-q4-q5-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-22T20:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-22T17:30:15+09:00",
+  "state": "finished",
+  "at": "2026-10-22T20:15:42+09:00",
   "engine": "claude",
-  "detail": "You've hit your weekly limit · resets 8pm (Asia/Tokyo)"
+  "detail": "- **Day count:** `today-count` still reports 2 after this publish, so it may not be counting the opencode post."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-22T20:15:42+09:00",
+   "engine": "claude",
+   "detail": "- **Day count:** `today-count` still reports 2 after this publish, so it may not be counting the opencode post."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +100,6 @@
    "at": "2026-10-21T12:17:29+09:00",
    "engine": "claude",
    "detail": "- The Ableton Live screenshot on Wikimedia Commons is already in the earlier Live 12 session-view article, so I didn't reuse it here. The four images are a 1973 Moog modular, a Max patch, a Max/modular desk setup and an Ableton Push 2."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-21T07:45:10+09:00",
-   "engine": "claude",
-   "detail": "- **Weak spot in the image check:** the dHash (an image fingerprint) in `validate_post.py` sometimes treats two different products on white backgrounds as the same image. Two Crystal Spark bottles came out 1 bit apart. A second fingerprint type, pHash, told them apart, so adding it to the check woul"
   }
  ]
 }
