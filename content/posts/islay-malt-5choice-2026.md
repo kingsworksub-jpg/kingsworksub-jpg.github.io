@@ -160,3 +160,5 @@ draft: false
 | [Bruichladdich Classic Laddie](https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22) | 0.5 | 4 | 4 | 3.5 | 4.5 |
 
 ピーティウイスキーは「煙臭い」という先入観で敬遠されることもあるが、蒸溜所ごとの違いを知ると、その奥深さが見える。南東岸の個性か、中央のバランスか、北東の軽やかさか、西のクリーンさか——最初の一本を選ぶときは、この5つの選択肢の中から、自分の好みに合うタイプを探してみてはどうだろうか。
+
+**関連記事**: [シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから](/posts/sherry-cask-5choice-2026/) · [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](/posts/scotch-whisky-5choice-2026/) · [新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え](/posts/new-scotch-distilleries-young-whisky-2026/)

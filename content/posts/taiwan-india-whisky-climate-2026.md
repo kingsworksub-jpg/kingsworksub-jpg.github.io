@@ -116,3 +116,5 @@ scheduled_time: "21:30"
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
+
+**関連記事**: [エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある](/posts/angels-share-evaporation-essay-2026/) · [バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方](/posts/bourbon-5choice-2026/) · [新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え](/posts/new-scotch-distilleries-young-whisky-2026/)

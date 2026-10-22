@@ -634,5 +634,28 @@
       "内部リンク0件の公開記事(約80本)を系統別に順次解消",
       "次回はウイスキー/音響機材系に関連記事リンクを追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T11:53:53.924623Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "islay-malt-5choice-2026",
+      "sherry-cask-5choice-2026",
+      "bourbon-5choice-2026",
+      "canadian-whisky-rye-4choice-2026",
+      "taiwan-india-whisky-climate-2026",
+      "mix-practice-1month",
+      "condenser-mic-5choice-2026",
+      "home-studio-100k-budget-2026"
+    ],
+    "actions": [
+      "内部リンクが皆無だったウイスキー系5記事・宅録系3記事の末尾に既存記事への関連記事リンク3本ずつを追加"
+    ],
+    "files_changed": 9,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "内部リンク0件の公開記事(約65本)を系統別に順次解消",
+      "次回はファッション/ドリンク系に関連記事リンクを追加"
+    ]
   }
 ]
