@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["サントリー", "トリス", "ウイスキー", "ハイボール", "機材", "レビュー"]
+tags: ["サントリー", "トリス", "ウイスキー", "ハイボール", "レビュー"]
 draft: false
 aliases:
 - /old_posts/suntory-trys-deep-dive-2026/

@@ -912,5 +912,31 @@
       "本文4000字未満の薄い記事の補強",
       "seo-audit実行環境が整えば内部リンク/孤立記事の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-22T22:53:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ballantines-finest-deep-dive-2026",
+      "black-nikka-clear-deep-dive-2026",
+      "cutty-sark-deep-dive-2026",
+      "dewars-white-label-deep-dive-2026",
+      "four-roses-yellow-deep-dive-2026",
+      "jim-beam-white-deep-dive-2026",
+      "johnnie-walker-red-deep-dive-2026",
+      "suntory-kakubin-deep-dive-2026",
+      "suntory-trys-deep-dive-2026",
+      "white-horse-fineold-deep-dive-2026"
+    ],
+    "actions": [
+      "ウイスキー深掘り10本に誤って付いていたタグ『機材』を削除",
+      "ballantines の description から定型句『隅々まで』を除去"
+    ],
+    "files_changed": 11,
+    "status": "一部完了(hugo未導入でビルド未実行。本文1100〜1250字の薄いウイスキー深掘りの補強は未着手。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "ウイスキー深掘り10本の本文補強(事実確認つき)",
+      "同記事の二重figure(同一画像)の整理"
+    ]
   }
 ]

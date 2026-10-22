@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["ジムビーム", "バーボン", "ウイスキー", "ハイボール", "機材", "レビュー"]
+tags: ["ジムビーム", "バーボン", "ウイスキー", "ハイボール", "レビュー"]
 draft: false
 aliases:
 - /old_posts/jim-beam-white-deep-dive-2026/

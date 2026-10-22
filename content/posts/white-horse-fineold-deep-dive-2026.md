@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["ホワイトホース", "スコッチ", "ウイスキー", "アイラ", "機材", "レビュー"]
+tags: ["ホワイトホース", "スコッチ", "ウイスキー", "アイラ", "レビュー"]
 draft: false
 aliases:
 - /old_posts/white-horse-fineold-deep-dive-2026/

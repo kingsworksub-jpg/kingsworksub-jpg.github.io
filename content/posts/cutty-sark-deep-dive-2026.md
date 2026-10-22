@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["カティサーク", "スコッチ", "ウイスキー", "機材", "レビュー"]
+tags: ["カティサーク", "スコッチ", "ウイスキー", "レビュー"]
 draft: false
 aliases:
 - /old_posts/cutty-sark-deep-dive-2026/
