@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["デュワーズ", "スコッチ", "ウイスキー", "機材", "レビュー"]
+tags: ["デュワーズ", "スコッチ", "ウイスキー", "レビュー"]
 draft: false
 aliases:
 - /old_posts/dewars-white-label-deep-dive-2026/

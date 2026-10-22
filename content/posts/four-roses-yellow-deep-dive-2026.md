@@ -6,7 +6,7 @@ ogImageWidth: 1200
 ogImageHeight: 630
 date: 2026-09-17
 categories: ["whisky"]
-tags: ["フォアローゼズ", "バーボン", "ウイスキー", "機材", "レビュー"]
+tags: ["フォアローゼズ", "バーボン", "ウイスキー", "レビュー"]
 draft: false
 aliases:
 - /old_posts/four-roses-yellow-deep-dive-2026/
