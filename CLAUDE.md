@@ -353,6 +353,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ | https://kinbro.hatenablog.com/entry/2026/10/20/121506 | 14945776032092677657 |
 | ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖 | https://kinbro.hatenablog.com/entry/2026/10/20/201436 | 14945776032092831462 |
 | Max for Liveの使い方は、自作より先にLFOのMapボタンから覚える | https://kinbro.hatenablog.com/entry/2026/10/21/121701 | 14945776032093080191 |
+| サイドチェイン・コンプでキックとベースを譲り合わせる、リリースはテンポから逆算する | https://kinbro.hatenablog.com/entry/2026/10/23/074329 | 14945776032094000930 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
