@@ -1,6 +1,6 @@
 ---
 title: "Héroes del Silencioの写真から消された5人目、ギタリストAlan Boguslavskyの軌跡"
-description: "Héroes del Silencioの4人組の写真から消えた第2ギタリスト、Alan Boguslavsky。1992年メキシコでの出会い、Avalanchaへの作曲参加、解散後のBogusflowを経て2025〜2026年のステージ復帰までの軌跡をたどる。"
+description: "Héroes del Silencioの写真から消えた第2ギタリスト、Alan Boguslavsky。1992年メキシコでの出会い、Avalanchaへの作曲参加、解散後のBogusflowを経て、2025〜2026年のステージ復帰までをたどる。"
 images: ["/images/og/alan-boguslavsky-stage.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
