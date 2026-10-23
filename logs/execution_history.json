@@ -1258,5 +1258,22 @@
       "coca-cola-zero/green-cola/streaming-loudness-normalization-lufsの内部リンク追加",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T16:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "keith-ti9304-titanium-sake-cup-deep-dive-2026",
+      "kutani-shiratsubu-tessen-guinomi-deep-dive-2026"
+    ],
+    "actions": [
+      "全公開記事をスクリプト走査(description長・images・figure直後の見出し/区切り・alt欠落)。残る問題はdescription100字未満の2件のみで、100字以上に調整。他の指摘はなし"
+    ],
+    "files_changed": 3,
+    "status": "一部完了(frontmatterのみ。Hatena/Ameba/note未巡回、hugo未ビルド)",
+    "next_kpis": [
+      "Hatena/Ameba/note巡回と drafts 改定案",
+      "孤立記事の内部リンク追加"
+    ]
   }
 ]

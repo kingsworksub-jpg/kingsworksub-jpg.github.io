@@ -1,6 +1,6 @@
 ---
 title: "KEITH 純チタン おちょこは、白酒のために生まれた旅する盃"
-description: "KEITHのチタン製おちょこ「Ti9304」を日本酒用に使う前提で検証。中国の白酒向けショットグラスという出自、チタン専業メーカーの経歴、並行輸入品の可能性まで、購入前に知りたい点をまとめる。"
+description: "KEITHのチタン製おちょこ「Ti9304」を日本酒用に使う前提で検証。中国の白酒向けショットグラスという出自、チタン専業メーカーの経歴、並行輸入品の可能性まで、購入前に知りたい点を価格の目安とともにまとめる。"
 images: ["/images/og/keith-ti9304-titanium-sake-cup-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
