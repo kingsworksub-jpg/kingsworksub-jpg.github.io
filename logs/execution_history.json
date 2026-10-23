@@ -1098,5 +1098,31 @@
       "残りの孤立記事へ関連記事リンク追加",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T06:54:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "cafe-jazz-lounge-piano-2026",
+      "nea-jazz-masters-2026",
+      "randy-crawford-raw-silk",
+      "anime-and-jazz",
+      "yamaha-ag03mk2-deep-dive-2026",
+      "jarre-oxygene-50th-2026",
+      "winter-studio-humidity",
+      "ace-studio-ai-vocal-synthesis-2026",
+      "audacity-4-guide-2026",
+      "bw-685-deep-dive-2026",
+      "irish-whiskey-pot-still-guide-2026"
+    ],
+    "actions": [
+      "孤立記事11本へ、関連性の高い既存記事(jazz-festivals/jazz-vocal/modern-spiritual-jazz/one-room-streaming/jazz-fusion/yojohan/free-plugin-mix/monitor-headphones/scotch-whisky-5choice)の関連記事欄からリンクを追加"
+    ],
+    "files_changed": 9,
+    "status": "一部完了(hugo/seo-audit未実行の可能性。残る孤立記事: logic-pro-mac-songwriting, halloween-songs。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "孤立記事 15→4(logic-pro/halloween/hello+再計測)",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]

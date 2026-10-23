@@ -131,3 +131,4 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ジャズ名盤入門、最初に聴きたい10枚を時代順に](https://kingsworksub-jpg.github.io/posts/jazz-masterpieces-beginner/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
+- [Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか](/posts/randy-crawford-raw-silk/)

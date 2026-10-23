@@ -80,3 +80,4 @@ draft: false
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
+- [Yamaha AG03MK2が配信と宅録をつなぐ理由、ループバックと操作性の全貌](/posts/yamaha-ag03mk2-deep-dive-2026/)

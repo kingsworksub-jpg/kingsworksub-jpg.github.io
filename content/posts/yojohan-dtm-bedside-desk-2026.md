@@ -118,3 +118,4 @@ scheduled_time: "20:00"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://blog.ameba.jp/)
 - [電源タップを替えてもハムノイズが消えない理由、機材と家電のコンセントの分け方](/posts/power-strip-hum-noise-guide-2026/)
+- [冬の制作部屋で最初に買うのは暖房ではなく湿度計](/posts/winter-studio-humidity/)
