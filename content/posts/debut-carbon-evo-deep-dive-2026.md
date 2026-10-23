@@ -72,4 +72,4 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。ボタン一つ見当たらないミニマルな見た目の裏に、モーターの防振構造やカーボンアームなど、地道な作り込みが詰まっている設計思想には素直に感心する。現行モデルがすでにDebut EVO 2へ移行している点は、購入前にひと呼吸置いて確認しておきたいポイントだと思う。
 
 
-**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)

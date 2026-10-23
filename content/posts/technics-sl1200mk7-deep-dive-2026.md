@@ -82,4 +82,4 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とはまた違う面白さがあった。半世紀近く前のコンセプトを、コアレスモーターという新しい技術で今に繋いでいる設計思想には素直に感心する。DJ機としてもHi-Fi機としても両方の物差しで測られ続けているという事実が、この製品の懐の深さを物語っているように思う。
 
 
-**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
