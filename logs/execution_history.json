@@ -1054,5 +1054,26 @@
       "description長の底上げ(110字目安)",
       "Hatena/Ameba/note記事の巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T05:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "coca-cola-zero-deep-dive-2026",
+      "universal-audio-volt-276-deep-dive-2026",
+      "kutani-shiratsubu-tessen-guinomi-deep-dive-2026",
+      "jazz-instruments-guide"
+    ],
+    "actions": [
+      "禁止表現「実際に飲み比べる/試してみる」を2記事から除去",
+      "description短め2本(82字/86字)を内容に即して補強",
+      "全記事の禁止表現(おなじみ/してみた等)を機械点検、残りは文脈上問題なし"
+    ],
+    "files_changed": 5,
+    "status": "一部完了(hugo/PIL不具合でビルド・seo-audit未実行。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "description 100字未満の残り(hirota-glass 91字ほか)の底上げ",
+      "Hatena/Ameba/note記事の巡回"
+    ]
   }
 ]
