@@ -1161,5 +1161,21 @@
       "未改善の古い記事(2026-09-22-*.md等)の巡回",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T10:54:14Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "windows-asio-wasapi-latency-troubleshooting"
+    ],
+    "actions": [
+      "末尾の関連記事欄にあった無関係なnote誘導1行を、内容に沿った内部リンク4本(audio-interface-5choice, power-strip-hum, quiet-music-pc, windows-11-26h2)に差し替え"
+    ],
+    "files_changed": 2,
+    "status": "一部完了(seo-audit/validate_postはPIL破損で未実行。2026-09-22-*はdraft:trueのため対象外。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "parker-blues-ear-training-1week, kanzake-temperature-shukanki等の未点検記事の巡回",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]

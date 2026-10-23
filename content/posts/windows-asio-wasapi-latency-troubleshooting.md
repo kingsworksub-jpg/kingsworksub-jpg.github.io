@@ -136,4 +136,7 @@ Drivers タブの上位に出てくるドライバには、ある程度決まっ
 
 ## 関連記事
 
-- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [オーディオインターフェース5台の比較](/posts/audio-interface-5choice-2026/) — 純正ASIOドライバの有無も選ぶ基準になる
+- [電源タップを替えてもハムノイズが消えない理由](/posts/power-strip-hum-noise-guide-2026/) — 音切れではなくノイズが気になるとき
+- [制作PCのファン音を録音に入れない方法](/posts/quiet-music-pc-fan-noise-2026/)
+- [Windows 11 26H2の起動時メモリとDAWの設定](/posts/windows-11-26h2-memory-daw-2026/)
