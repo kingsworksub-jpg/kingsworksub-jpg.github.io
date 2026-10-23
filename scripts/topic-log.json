@@ -2287,6 +2287,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-23T17:43:47+09:00"
+  },
+  {
+   "id": "2026w42-013",
+   "category": "setup",
+   "theme": "ノートPC1台で完結するDTM、持ち運ぶ環境の組み方",
+   "slug": "laptop-only-dtm-portable-setup-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/laptop-only-dtm-portable-setup-2026/",
+   "hatena_entry": "14945776032094303945",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-23T20:31:02+09:00"
   }
  ]
 }
