@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:30:36+09:00",
+ "updated": "2026-10-23T17:43:47+09:00",
  "items": [
   {
    "category": "gear",
@@ -7740,7 +7740,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-029",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-10-23T17:30:36+09:00",
@@ -7748,7 +7748,9 @@
    "content_dir": "culture",
    "slot_time": "17:00",
    "slot_label": "夕: ドリンク/酒分析/カクテルレシピ/ツール",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "energy-drink-caffeine-5choice-2026",
+   "published_at": "2026-10-23T17:43:47+09:00"
   },
   {
    "category": "drink",

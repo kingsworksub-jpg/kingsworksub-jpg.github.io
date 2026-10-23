@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-23T17:30:36+09:00",
+ "updated": "2026-10-23T17:43:47+09:00",
  "queue": {
-  "published": 104,
+  "published": 105,
   "rejected": 1,
-  "approved": 42,
-  "in_progress": 1
+  "approved": 42
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published power-strip-hum-noise-guide-2026",
+ "last_result": "published energy-drink-caffeine-5choice-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
