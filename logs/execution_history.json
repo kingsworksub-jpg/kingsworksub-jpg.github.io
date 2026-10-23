@@ -1311,5 +1311,20 @@
       "tonic-water記事の正しい商品画像の取得・差し替え",
       "git-worktree記事の本文H1整理"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T19:53:48Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全202記事を走査: 内部リンク切れ0・欠落画像0・description長の異常0・figure直後の見出し/短文配置0を確認。修正対象なし",
+      "git-worktree記事の'#'行はコードブロック内コメントでH1ではないと確認"
+    ],
+    "files_changed": 1,
+    "status": "点検のみ完了(seo-audit.pyはPIL不具合で実行不可、hugo未ビルド。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "tonic-water記事の正しい商品画像の差し替え",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
