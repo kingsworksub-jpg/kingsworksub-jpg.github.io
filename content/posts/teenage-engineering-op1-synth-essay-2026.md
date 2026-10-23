@@ -91,3 +91,4 @@ Teenage Engineeringは、楽器以外の仕事でもよく知られている。�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか](https://kingsworksub-jpg.github.io/posts/cassette-tape-revival-2026/)
+- [ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年](/posts/halloween-songs-monster-mash-thriller-2026/)

@@ -1124,5 +1124,26 @@
       "孤立記事 15→4(logic-pro/halloween/hello+再計測)",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T07:53:28Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "logic-pro-mac-songwriting-2026",
+      "halloween-songs-monster-mash-thriller-2026",
+      "logic-pro-drummer-workflow-2026",
+      "daw-5choice-2026",
+      "jarre-oxygene-50th-2026",
+      "teenage-engineering-op1-synth-essay-2026"
+    ],
+    "actions": [
+      "残る孤立記事2本(logic-pro-mac-songwriting / halloween-songs)へ、関連記事欄から被リンクを追加(logic-pro-drummer-workflow, daw-5choice, jarre-oxygene, teenage-engineering-op1)"
+    ],
+    "files_changed": 5,
+    "status": "完了(hugo/seo-audit はこの環境に未導入のため未実行。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "孤立記事 残り hello のみ想定",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]
