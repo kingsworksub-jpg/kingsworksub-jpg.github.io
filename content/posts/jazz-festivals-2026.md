@@ -103,3 +103,8 @@ Kamasi Washington が saxophone を握りしめ、Esperanza Spalding が bass �
 2026年は、そういう時代だ。
 
 **関連記事**: [Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流](/posts/modern-spiritual-jazz-2026/) · [Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く](/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/)
+
+## 関連記事
+
+- [2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ](/posts/cafe-jazz-lounge-piano-2026/)
+- [NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩](/posts/nea-jazz-masters-2026/)

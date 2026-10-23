@@ -119,3 +119,5 @@ EQには、Tokyo Dawn Records が無料で配っている TDR Nova を選んだ�
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [サイドチェイン・コンプでキックとベースを譲り合わせる、リリースはテンポから逆算する](/posts/sidechain-kick-bass-guide-2026/)
+- [ACE Studioの140を超える声に、打ち込んだメロディと歌詞を渡して歌わせる](/posts/ace-studio-ai-vocal-synthesis-2026/)
+- [Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ](/posts/audacity-4-guide-2026/)

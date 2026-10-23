@@ -182,3 +182,4 @@ scheduled_time: "12:00"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感](/posts/bw-685-deep-dive-2026/)

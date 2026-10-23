@@ -95,3 +95,7 @@ Newport 、Monterey 、Montreux といった歴史あるフェスティバルで
 それが「モダンジャズの新潮流」の実像だ。トレンドではなく、新世代のジャズ愛好家が創り上げた、次のジャズ伝統の始まり。
 
 **関連記事**: [Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く](/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka/) · [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る](/posts/jazz-festivals-2026/)
+
+## 関連記事
+
+- [「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所](/posts/anime-and-jazz/)

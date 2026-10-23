@@ -116,3 +116,4 @@ Weather Reportは1986年に活動を止め、ザヴィヌルは2007年、ショ�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン](https://kingsworksub-jpg.github.io/posts/hammond-b3-jazz-organ-2026/)
+- [『Oxygène』50周年盤が11月に出る。ジャールが自宅で重ねたシンセの音を、宅録の原点として聴き直す](/posts/jarre-oxygene-50th-2026/)
