@@ -126,3 +126,5 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える](https://kingsworksub-jpg.github.io/posts/urushi-sakazuki-shu-kuro/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
+- [九谷焼 ぐい呑み 白粒鉄仙、粒立つ白と途切れない蔓の文様](https://kingsworksub-jpg.github.io/posts/kutani-shiratsubu-tessen-guinomi-deep-dive-2026/)
+- [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](https://kingsworksub-jpg.github.io/posts/suzu-chirori-kanzake-2026/)

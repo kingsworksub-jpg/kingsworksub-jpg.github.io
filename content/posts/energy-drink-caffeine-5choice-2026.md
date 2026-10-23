@@ -219,3 +219,5 @@ WHOは遊離糖類を1日の摂取エネルギーの10%未満、できれば5%(�
 - [リアルゴールドはカフェインなしで元気を配る](https://kingsworksub-jpg.github.io/posts/real-gold-deep-dive-2026/)
 - [ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸](https://kingsworksub-jpg.github.io/posts/dodecamin-deep-dive-2026/)
 - [缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線](https://kingsworksub-jpg.github.io/posts/canned-coffee-5choice-2026/)
+- [経口補水液とスポーツドリンク、電解質濃度と糖分の違いがもたらす役割](https://kingsworksub-jpg.github.io/posts/oral-rehydration-vs-sports-drink-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](https://kingsworksub-jpg.github.io/posts/home-mocktail-soda-syrup-2026/)

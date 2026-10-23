@@ -1197,5 +1197,25 @@
       "内部リンク未整備の記事の巡回",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T13:53:47Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "angels-share-evaporation-essay-2026",
+      "energy-drink-caffeine-5choice-2026",
+      "new-scotch-distilleries-young-whisky-2026",
+      "shigaraki-guinomi-hiiro",
+      "whisky-year-end-gift-guide-2026"
+    ],
+    "actions": [
+      "関連記事欄に関連する既存記事への内部リンクを追加(ウイスキー系4本はスコッチ/アイラ/バーボン/カナディアン/アイリッシュ比較へ、ぐい呑み記事は九谷焼・錫ちろりへ、エナジードリンク記事は経口補水液・モクテルへ)"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(hugo未インストールのためビルド未確認、追記のみの変更。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "内部リンクが1〜2本の記事(cubase-15-user-guide-book, jazz-vocal-phrasing-guide, max-for-live-device-guide, record-stylus-lifespan-guide, repair-instead-of-replace-essay, waon-ear-copy-1month)の巡回",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]

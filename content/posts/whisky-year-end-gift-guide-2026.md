@@ -136,3 +136,6 @@ scheduled_time: "21:30"
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し](https://kingsworksub-jpg.github.io/posts/budget-whisky-10choice-2026/)
+- [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
+- [バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方](https://kingsworksub-jpg.github.io/posts/bourbon-5choice-2026/)
+- [カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける](https://kingsworksub-jpg.github.io/posts/canadian-whisky-rye-4choice-2026/)
