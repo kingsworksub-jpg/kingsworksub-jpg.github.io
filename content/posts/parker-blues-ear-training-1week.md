@@ -109,3 +109,6 @@ scheduled_time: "17:30"
 ## 関連記事
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
+- [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/)
+- [耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない](/posts/ear-training-one-week/)
+- [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/)
