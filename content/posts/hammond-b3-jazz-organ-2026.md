@@ -118,3 +118,5 @@ B-3の音を語るとき、オルガン本体と同じくらい重要なのが�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](https://kingsworksub-jpg.github.io/posts/hard-bop-blue-note-golden-age/)
+- [ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る](/posts/parker-blues-ear-training-1week/)
+- [ジャズヴォーカル入門、歌詞より先に「間」を聴く。ビリー・ホリデイからベティ・カーターまで](/posts/jazz-vocal-phrasing-guide-2026/)

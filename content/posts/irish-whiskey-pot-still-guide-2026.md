@@ -150,3 +150,4 @@ scheduled_time: "23:00"
 - [アイラの南北で変わる煙の色、5つのピート体験](https://kingsworksub-jpg.github.io/posts/islay-malt-5choice-2026/)
 - [シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから](https://kingsworksub-jpg.github.io/posts/sherry-cask-5choice-2026/)
 - [カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける](https://kingsworksub-jpg.github.io/posts/canadian-whisky-rye-4choice-2026/)
+- [ウイスキーを年末に贈るなら、化粧箱の1本とアドベントカレンダーは別の買い物](/posts/whisky-year-end-gift-guide-2026/)

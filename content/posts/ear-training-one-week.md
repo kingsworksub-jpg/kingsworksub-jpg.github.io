@@ -107,3 +107,4 @@ DAWを使っているなら、手持ちのDAWでも代わりになる。多く�
 
 - [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月](/posts/waon-ear-copy-1month-2026/)
