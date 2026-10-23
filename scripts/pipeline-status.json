@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:44:27+09:00",
+ "updated": "2026-10-24T07:44:43+09:00",
  "queue": {
   "published": 108,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published github-actions-schedule-push-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-24T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-24T04:00:47+09:00",
+  "at": "2026-10-24T07:44:43+09:00",
   "engine": "claude",
-  "detail": "その未コミットの変更は、このネタ補充の作業で作ったものではないので、触らずにそのまま残してあります。"
+  "detail": "- **Your local changes:** there were already about 87 uncommitted files in the working tree before this run, including note-drafts, `topic_plan.py`, `post-to-ameba.py` and the prompt files. I didn't touch them. I pulled with `--autostash` so they stayed in place, and committed only this article's fi"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-24T07:44:43+09:00",
+   "engine": "claude",
+   "detail": "- **Your local changes:** there were already about 87 uncommitted files in the working tree before this run, including note-drafts, `topic_plan.py`, `post-to-ameba.py` and the prompt files. I didn't touch them. I pulled with `--autostash` so they stayed in place, and committed only this article's fi"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-22T23:25:52+09:00",
    "engine": "claude",
    "detail": "**Needs your attention:** an earlier run posted the Ameba article 'エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある' twice, at 22:45 and 22:48 (entries 12982368887 and 12982369159). I left both up — you may want to delete one."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-22T21:51:32+09:00",
-   "engine": "claude",
-   "detail": "- **Ameba link:** the 'related articles' section at the end of the post doesn't link to Ameba. The template's address (blog.ameba.jp) is the editor page, not the public blog."
   }
  ]
 }
