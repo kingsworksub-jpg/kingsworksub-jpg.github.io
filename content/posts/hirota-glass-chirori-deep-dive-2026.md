@@ -1,6 +1,6 @@
 ---
 title: "廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス"
-description: "「ちろり」と聞いてすぐに形が思い浮かぶ人は、今どれくらいいるだろうか。本来は錫や銅で作られた、湯煎で燗をつけるための酒器の名前だ。その金属の道具を、東京・墨田区のガラスメーカー廣田硝子がハンドメイドのガラスで作り直したのが今回見ていく一本になる。"
+description: "廣田硝子のガラス製ちろりは、湯煎の燗と氷を入れた冷酒を一本で使い分けられる。中子の仕組み、耐熱ガラスの扱い方、創業1899年の江戸硝子メーカーの背景、青・中子付きの価格帯を整理した。"
 images: ["/images/og/hirota-glass-chirori-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
@@ -49,13 +49,6 @@ aliases:
 
 
 ## 廣田硝子という会社 — 1899年創業、江戸硝子の担い手
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
-<img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
-</a>
-<figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 
 廣田硝子の創業は1899年(明治32年)。新潟出身の初代・廣田金太が東京でガラス商を始めたのがルーツで、1915年には墨田区にあたる本所区にガラス工場を構え、ランプのほや作りからものづくりを広げていった。関東大震災、東京大空襲と二度の大きな被災を経ながらも復興し、1950年に廣田硝子株式会社として現在の体制になったという歴史を持つ、東京でも指折りの老舗ガラスメーカーだ。
 
