@@ -1294,5 +1294,22 @@
       "孤立記事0件(hello除く)",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T18:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "tonic-water-5choice-2026"
+    ],
+    "actions": [
+      "商品バナー5件に別商品の画像(ジンジャーエール・コーラゼロ等)が付いていた誤りを、画像を外して商品名のみのバナーに修正",
+      "全公開記事を走査(description・images・見出し階層・alt/lazy・禁止表現)。他に重大な問題なし(商品バナーimgのlazy未指定は意図的に未対応)"
+    ],
+    "files_changed": 2,
+    "status": "一部完了(hugo未インストールのためビルド未確認。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "tonic-water記事の正しい商品画像の取得・差し替え",
+      "git-worktree記事の本文H1整理"
+    ]
   }
 ]

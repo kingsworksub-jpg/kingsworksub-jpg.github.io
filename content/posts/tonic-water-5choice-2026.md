@@ -14,7 +14,6 @@ ogImageHeight: 630
 ジントニックをはじめとするスピリッツの割り材として欠かせないトニックウォーターは、単なる「甘い炭酸水」ではなく、植物由来の苦味成分であるキニーネや柑橘類の香りが絶妙に調合された奥深い飲み物です。ベースとなるジンやウォッカの個性を引き立てる名脇役として、どの銘柄を選ぶかによってカクテルの表情は劇的に変わります。今回は市場で広く手に入る代表的な5銘柄をピックアップし、それぞれの味わいの特徴と割り材としての適性を詳しく比較します。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B078WZJ23P?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="フィーバーツリー プレミアムインディアントニック">
 <span class="product-banner-info">
 <span class="product-banner-name">フィーバーツリー プレミアムインディアントニック</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -47,7 +46,6 @@ ogImageHeight: 630
 世界初の炭酸飲料ブランドとして歴史を持つシュウェップス。そのトニックウォーターは、柑橘系のフレーバーと心地よい苦味、そして程よい甘さが黄金比率でまとまった、まさに王道の味わいを体現しています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0875XSPZQ?tag=nakimoto1-22">
-<img src="/images/products/coca-cola-zero.png" alt="シュウェップス トニックウォーター">
 <span class="product-banner-info">
 <span class="product-banner-name">シュウェップス トニックウォーター</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -61,7 +59,6 @@ ogImageHeight: 630
 強炭酸水で圧倒的な知名度を誇るウィルキンソンブランドが展開するトニックウォーター。最大の特徴は、何といっても喉を直撃するような圧倒的な炭酸の強さと、甘さを控えめに抑えたドライな飲み口にあります。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B01N9J5Y8Y?tag=nakimoto1-22">
-<img src="/images/products/fuji-strong-soda.png" alt="ウィルキンソン トニック">
 <span class="product-banner-info">
 <span class="product-banner-name">ウィルキンソン トニック</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -75,7 +72,6 @@ ogImageHeight: 630
 ジンジャーエールなどで馴染み深いカナダドライが送るトニックウォーターは、苦味がマイルドで全体の甘さのバランスが非常に良く、誰にとっても親しみやすい味わいに仕上げられています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B004GUD2TS?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ トニックウォーター">
 <span class="product-banner-info">
 <span class="product-banner-name">カナダドライ トニックウォーター</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -89,7 +85,6 @@ ogImageHeight: 630
 国内の飲料メーカーである富永貿易が展開する神戸居留地ブランド。コストパフォーマンスの高さに定評があり、トニックウォーターでありながら圧倒的な低価格を実現している点が最大の強みです。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07T9HJ3V2?tag=nakimoto1-22">
-<img src="/images/products/itoen-mineral-strong.png" alt="神戸居留地 トニックウォーター">
 <span class="product-banner-info">
 <span class="product-banner-name">神戸居留地 トニックウォーター</span>
 <span class="product-banner-cta">Amazonで見る →</span>
