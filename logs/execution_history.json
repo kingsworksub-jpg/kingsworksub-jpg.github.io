@@ -1032,5 +1032,27 @@
       "descriptionが冒頭文コピーの記事の洗い出し",
       "同一画像figure重複の全記事点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T03:53:43Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "keith-ti9304-titanium-sake-cup-deep-dive-2026",
+      "kutani-shiratsubu-tessen-guinomi-deep-dive-2026",
+      "peacock-acf38-sake-set-deep-dive-2026",
+      "scotch-whisky-5choice-2026",
+      "sori-yanagi-seishu-glass-deep-dive-2026",
+      "toyo-sasaki-carafe-variation-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionが冒頭段落のコピーだった6本を、内容の要約に差し替え(公開記事の本文事実のみ使用)",
+      "公開済み全記事のdescription欠落・長さ・冒頭コピーを機械点検し、これで未対応分は解消"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未導入のためビルド未実行。descriptionは88〜96字で目標110字未満。Hatena/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "description長の底上げ(110字目安)",
+      "Hatena/Ameba/note記事の巡回"
+    ]
   }
 ]
