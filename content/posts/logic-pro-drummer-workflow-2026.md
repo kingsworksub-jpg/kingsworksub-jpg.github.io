@@ -82,3 +82,4 @@ Drummer機能の真骨頂は、内蔵エンジンによって構築された演�
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note版はこちら](https://note.com/shining_finger01)
+- [Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか](/posts/logic-pro-mac-songwriting-2026/)
