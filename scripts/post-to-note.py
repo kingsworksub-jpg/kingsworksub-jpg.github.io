@@ -1153,6 +1153,59 @@ def post_one(p, path, args):
             pass
 
 
+def edit_existing_note(p, key, path, args):
+    """既存の note 記事(key)を、draft ファイルの最新内容で上書きして再公開する。
+
+    2026-10-23: Amazonアフィリエイトリンクのタグを note-img-sub-22 に一括で
+    書き換えるため追加。新規下書きは作らず、既存記事の編集URLを直接開いて
+    タイトル・本文を全消去 → 再入力 → 「更新する」で上書きする(重複投稿防止)。
+    """
+    slug = os.path.basename(path).replace(".note.txt", "")
+    title, tags, body = parse_draft(path)
+    print(f"\n=== 既存記事を更新: {slug} (key={key}) ===")
+
+    ctx, page = open_editor(p, url=f"https://editor.note.com/notes/{key}/edit/")
+    try:
+        if not is_logged_in(page):
+            print("  [error] ログインが必要です。先に --login を実行してください。")
+            return None
+
+        fill_title(page, title)
+
+        ed = find_body_editor(page)
+        ed.click()
+        page.wait_for_timeout(300)
+        page.keyboard.press("Control+a")
+        page.wait_for_timeout(200)
+        page.keyboard.press("Backspace")
+        page.wait_for_timeout(500)
+
+        t0 = time.time()
+        fill_body(page, body, tags, not args.no_images, args.fast, args.img_scale)
+        print(f"  入力完了 ({time.time() - t0:.0f} 秒)")
+        page.wait_for_timeout(3000)
+
+        if args.publish:
+            url = publish_note(page)
+            if url:
+                return url
+            print("  [warn] 自動公開に失敗しました。ブラウザで確認してください。")
+        print("  ブラウザで内容を確認してから「更新する」を押してください。", flush=True)
+        if args.no_wait:
+            time.sleep(args.hold)
+        else:
+            try:
+                input("  ブラウザを閉じてよかったら Enter …")
+            except EOFError:
+                time.sleep(args.hold)
+        return page.url
+    finally:
+        try:
+            ctx.close()
+        except Exception:  # noqa: BLE001
+            pass
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug")
@@ -1171,6 +1224,7 @@ def main():
                     help="画像を「縮小」ボタンで縮める回数（0=full幅620px、1=約372px）")
     ap.add_argument("--delete-key", help="削除する公開済み記事の note key(n始まり)")
     ap.add_argument("--expect-title", help="--delete-key 使用時、削除前に照合するタイトル(必須・誤削除防止)")
+    ap.add_argument("--edit-key", help="既存記事のnote key(n始まり)。--slugのdraftで本文を上書きして再公開する")
     args = ap.parse_args()
 
     global PROFILE  # noqa: PLW0603
@@ -1198,6 +1252,19 @@ def main():
                     ctx.close()
                 except Exception:  # noqa: BLE001
                     pass
+            return
+
+        if args.edit_key:
+            if not args.slug:
+                print("[error] --edit-key には --slug が必須です")
+                sys.exit(1)
+            cand = os.path.join(DRAFTS, args.slug + ".note.txt")
+            if not os.path.exists(cand):
+                print(f"ドラフトが見つかりません: {cand}")
+                sys.exit(1)
+            result = edit_existing_note(p, args.edit_key, cand, args)
+            if result:
+                print(f"RESULT: {result}")
             return
 
         if args.all:
