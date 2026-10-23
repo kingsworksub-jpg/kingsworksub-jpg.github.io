@@ -106,5 +106,7 @@ Max for Live のデバイスには、タイトルバーの右側に「Edit」の
 Live 12 の作曲の流れそのものについては、[Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)にまとめている。セッションビューでループを並べながら、LFO や Shaper でつまみを揺らしていくと、Max for Live の便利さがいちばん分かりやすく見えてくると思う。
 
 ## 関連記事
+- [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/)
+- [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

@@ -128,6 +128,8 @@ scheduled_time: "21:30"
 
 ## 関連記事
 
+- [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/)
+- [ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る](/posts/parker-blues-ear-training-1week/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ジャズ名盤入門、最初に聴きたい10枚を時代順に](https://kingsworksub-jpg.github.io/posts/jazz-masterpieces-beginner/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)

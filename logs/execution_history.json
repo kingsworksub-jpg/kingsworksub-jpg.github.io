@@ -1217,5 +1217,26 @@
       "内部リンクが1〜2本の記事(cubase-15-user-guide-book, jazz-vocal-phrasing-guide, max-for-live-device-guide, record-stylus-lifespan-guide, repair-instead-of-replace-essay, waon-ear-copy-1month)の巡回",
       "Hatena/Ameba/note巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T14:53:51Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "cubase-15-user-guide-book-2026",
+      "jazz-vocal-phrasing-guide-2026",
+      "max-for-live-device-guide-2026",
+      "record-stylus-lifespan-guide-2026",
+      "repair-instead-of-replace-essay-2026",
+      "waon-ear-copy-1month-2026"
+    ],
+    "actions": [
+      "関連記事欄に既存記事への内部リンクを追加(cubaseはセクション新設)。スラグ実在確認済み"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(hugo未ビルド、追記のみ。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "seo-audit.py --check-links の孤立記事数",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]

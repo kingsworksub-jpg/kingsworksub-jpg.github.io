@@ -129,4 +129,6 @@ Windowsを使っている人には、Seventh Stringの「Transcribe!」がある
 
 ## 関連記事
 
+- [ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る](/posts/parker-blues-ear-training-1week/)
+- [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

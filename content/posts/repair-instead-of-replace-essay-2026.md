@@ -99,6 +99,7 @@ scheduled_time: "23:00"
 
 ## 関連記事
 
+- [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
 - [加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す](/posts/headphone-hydrolysis-parts/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
