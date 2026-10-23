@@ -1075,5 +1075,28 @@
       "description 100字未満の残り(hirota-glass 91字ほか)の底上げ",
       "Hatena/Ameba/note記事の巡回"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T05:54:40Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hammond-b3-jazz-organ-2026",
+      "ear-training-one-week",
+      "free-plugin-mix-eq-comp-reverb-2026",
+      "irish-whiskey-pot-still-guide-2026",
+      "yojohan-dtm-bedside-desk-2026",
+      "urushi-sakazuki-shu-kuro"
+    ],
+    "actions": [
+      "内部リンクの無い孤立記事(22本)のうち6本へ向けて、関連性の高い記事の「関連記事」欄にリンクを追加(parker-blues/jazz-vocal/waon/sidechain/whisky-year-end-gift/power-strip/shigaraki)",
+      "禁止表現(実際にXしてみた等)・figure配置・description長を未巡回33本で機械点検、問題なし(2026-09-22-*はdraft)"
+    ],
+    "files_changed": 7,
+    "status": "一部完了(PIL不具合でseo-audit未実行、hugo未実行。残る孤立記事: ace-studio, anime-and-jazz, audacity-4, bw-685, cafe-jazz-lounge-piano, halloween-songs, jarre-oxygene, logic-pro-mac, nea-jazz-masters, randy-crawford, sony-ecm-ax10, winter-studio-humidity, yamaha-ag03mk2, max-for-live等。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "孤立記事数 22→16",
+      "残りの孤立記事へ関連記事リンク追加",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]

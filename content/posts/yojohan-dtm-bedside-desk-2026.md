@@ -117,3 +117,4 @@ scheduled_time: "20:00"
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [電源タップを替えてもハムノイズが消えない理由、機材と家電のコンセントの分け方](/posts/power-strip-hum-noise-guide-2026/)

@@ -118,3 +118,4 @@ EQには、Tokyo Dawn Records が無料で配っている TDR Nova を選んだ�
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
+- [サイドチェイン・コンプでキックとベースを譲り合わせる、リリースはテンポから逆算する](/posts/sidechain-kick-bass-guide-2026/)
