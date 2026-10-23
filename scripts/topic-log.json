@@ -2311,6 +2311,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-23T23:17:50+09:00"
+  },
+  {
+   "id": "2026w42-021",
+   "category": "tech",
+   "theme": "GitHub Actionsで定型作業を自動化する",
+   "slug": "github-actions-schedule-push-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/github-actions-schedule-push-guide-2026/",
+   "hatena_entry": "14945776032094480809",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-24T07:44:27+09:00"
   }
  ]
 }
