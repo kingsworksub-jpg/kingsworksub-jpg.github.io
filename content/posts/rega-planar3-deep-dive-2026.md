@@ -72,4 +72,4 @@ RB330という9インチトーンアームは、Rega社内で手作業により�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。半世紀近く「軽くて硬い」という設計哲学を貫き通し、トーンアームの高さすら妥協せずに固定してきた頑固さには、素直に感心する。速度切り替えの手間や別売りのフォノプリアンプなど、割り切っている部分も含めて、Regaという会社の姿勢がよく見える一台だと思う。
 
 
-**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル](/posts/debut-carbon-evo-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル](/posts/debut-carbon-evo-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)

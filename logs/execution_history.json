@@ -1368,5 +1368,27 @@
       "tonic-water記事の正しい商品画像の差し替え",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T23:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "turntable-5choice-2026",
+      "at-lp120xusb-deep-dive-2026",
+      "debut-carbon-evo-deep-dive-2026",
+      "rega-planar3-deep-dive-2026",
+      "sony-pslx3bt-deep-dive-2026",
+      "technics-sl1200mk7-deep-dive-2026"
+    ],
+    "actions": [
+      "ターンテーブル系6記事の関連記事欄に record-stylus-lifespan-guide-2026 への内部リンクを追加(孤立気味だった針ガイドへの導線)"
+    ],
+    "files_changed": 7,
+    "status": "完了(seo-audit は PIL 不具合で未実行、Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "tonic-water記事の正しい商品画像の差し替え",
+      "seo-audit実行環境の整備",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
