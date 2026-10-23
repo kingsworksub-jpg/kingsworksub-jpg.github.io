@@ -98,3 +98,5 @@ scheduled_time: "23:00"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [台湾とインドのウイスキー、熱い土地で樽は速く働く](https://kingsworksub-jpg.github.io/posts/taiwan-india-whisky-climate-2026/)
 - [シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから](https://kingsworksub-jpg.github.io/posts/sherry-cask-5choice-2026/)
+- [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
+- [アイリッシュウイスキー入門。3回蒸溜は決まりではなく、ポットスチルの個性は生の大麦が作る](https://kingsworksub-jpg.github.io/posts/irish-whiskey-pot-still-guide-2026/)
