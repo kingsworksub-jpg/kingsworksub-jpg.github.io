@@ -955,5 +955,24 @@
       "ウイスキー深掘り10本の本文補強",
       "同記事の二重figure整理"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T00:53:10Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hello",
+      "alan-boguslavsky-stage"
+    ],
+    "actions": [
+      "hello: 現状と合わない『3つの柱』表現を更新し、『実際に触って・飲んでみて』『調べ倒した』等の禁止寄り表現を除去",
+      "alan-boguslavsky-stage: description が130字で長すぎたため約110字に短縮",
+      "公開済み全記事のfigure重複画像・alt・description長を機械点検(薄いウイスキー/炭酸深掘り以外に問題なし)"
+    ],
+    "files_changed": 3,
+    "status": "一部完了(seo-audit.py は環境のPIL不具合で実行不可、hugo未導入でビルド未実行。薄いウイスキー深掘り10本・炭酸深掘り数本の本文補強は事実確認が必要なため未着手。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "ウイスキー/炭酸深掘りの本文補強(1000〜1500字台)",
+      "seo-audit.py をPIL修復後に実行"
+    ]
   }
 ]
