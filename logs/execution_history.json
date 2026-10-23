@@ -1326,5 +1326,19 @@
       "tonic-water記事の正しい商品画像の差し替え",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T20:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全202記事のタイトル長(60字超)・description長(80〜150字外)・旧タイトル型/禁止表現を再走査。異常0件、修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "点検のみ完了(Hatena/Ameba/note未巡回、hugo未ビルド)",
+    "next_kpis": [
+      "tonic-water記事の正しい商品画像の差し替え",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
