@@ -314,15 +314,55 @@ def convert_amazon_links_to_pick(page):
                     const p = doc.createElement('p');
                     p.setAttribute('style', 'font-size:0.7em;color:#999;margin:0.2em 0 0;text-align:left');
                     p.textContent = disclaimer;
-                    a.parentNode.insertBefore(p, a.nextSibling);
+                    if (!a.nextSibling || a.nextSibling.textContent !== disclaimer) {
+                        a.parentNode.insertBefore(p, a.nextSibling);
+                    }
                     picked++;
                 } else {
                     const parent = a.parentNode;
-                    while (a.firstChild) parent.insertBefore(a.firstChild, a);
-                    parent.removeChild(a);
-                    stripped++;
+                    if (parent && parent.nodeName !== 'FIGURE') {
+                        while (a.firstChild) parent.insertBefore(a.firstChild, a);
+                        parent.removeChild(a);
+                        stripped++;
+                    }
                 }
             });
+
+            // Gather all ASINs from the document
+            const allAsins = [];
+            doc.querySelectorAll('a[href*="amazon.co.jp"]').forEach(a => {
+                const m = a.href.match(/amazon\\.co\\.jp\\/dp\\/([A-Z0-9]{10})/);
+                if (m && !allAsins.includes(m[1])) allAsins.push(m[1]);
+            });
+
+            // If there are ASINs and figures without links, attach ASINs to them
+            if (allAsins.length > 0) {
+                let asinIdx = 0;
+                doc.querySelectorAll('figure.photo').forEach(fig => {
+                    const img = fig.querySelector('img');
+                    const existingA = fig.querySelector('a');
+                    if (img && !existingA && asinIdx < allAsins.length) {
+                        const asin = allAsins[asinIdx++];
+                        const a = doc.createElement('a');
+                        a.setAttribute('class', 'pickCreative');
+                        a.setAttribute('data-df-item-id', asin);
+                        a.setAttribute('data-item-id', 'AZ000001');
+                        a.setAttribute('href', '');
+                        a.setAttribute('target', '_blank');
+                        a.setAttribute('style', 'display:block');
+                        
+                        img.parentNode.insertBefore(a, img);
+                        a.appendChild(img);
+
+                        const p = doc.createElement('p');
+                        p.setAttribute('style', 'font-size:0.7em;color:#999;margin:0.2em 0 0;text-align:left');
+                        p.textContent = disclaimer;
+                        fig.appendChild(p);
+                        picked++;
+                    }
+                });
+            }
+
             ed.updateElement();
             return {picked, stripped};
         }""",
