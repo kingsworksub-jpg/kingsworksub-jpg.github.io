@@ -13,7 +13,7 @@ aliases:
 ---
 
 
-Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を隅から隅まで見ていく。
+Focusriteは自社サイトで、Scarlettシリーズを「世界でいちばん売れているオーディオインターフェース」と謳う。その言葉に見合う中身なのか、Focusrite Scarlett 2i2(4th Gen)を順に見ていく。
 
 
 ---

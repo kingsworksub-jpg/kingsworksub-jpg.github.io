@@ -974,5 +974,43 @@
       "ウイスキー/炭酸深掘りの本文補強(1000〜1500字台)",
       "seo-audit.py をPIL修復後に実行"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T01:53:09Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "arita-enka-sake-set-deep-dive-2026",
+      "at-lp120xusb-deep-dive-2026",
+      "canada-dry-tansan-strong-deep-dive-2026",
+      "debut-carbon-evo-deep-dive-2026",
+      "dodecamin-deep-dive-2026",
+      "dodecamin-zero-sakebitai-deep-dive-2026",
+      "green-cola-deep-dive-2026",
+      "kiretolemon-wlemon-deep-dive-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "mitsuya-cider-original-deep-dive-2026",
+      "monster-pipeline-punch-deep-dive-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "otsuka-match-deep-dive-2026",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "real-gold-deep-dive-2026",
+      "rega-planar3-deep-dive-2026",
+      "sangaria-kireina-tansansui-deep-dive-2026",
+      "scarlett-2i2-deep-dive-2026",
+      "sony-pslx3bt-deep-dive-2026",
+      "takaoka-shikki-raden-glass-sakura-deep-dive-2026",
+      "technics-sl1200mk7-deep-dive-2026"
+    ],
+    "actions": [
+      "導入文の定型句『隅から隅まで見ていく』(21本で重複)を『順に見ていく』等に置換し単調さを解消",
+      "公開済み記事のdescription長・OG画像実在・カテゴリ・figure直後の見出しを機械点検(他に問題なし)",
+      "2026-09-22-*.md の4本は draft:true かつ内容に誤り(『ブラーベル』等)があり未公開のため触らず。削除/書き直しはユーザー判断"
+    ],
+    "files_changed": 22,
+    "status": "一部完了(hugo未導入のためビルド未実行。はてな/Ameba/noteは未巡回)",
+    "next_kpis": [
+      "ウイスキー/炭酸深掘りの本文補強(事実確認要)",
+      "draft 4本の処遇決定"
+    ]
   }
 ]
