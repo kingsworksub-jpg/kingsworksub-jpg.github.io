@@ -12,7 +12,7 @@ aliases:
 - /old_posts/green-cola-deep-dive-2026/
 ---
 
-黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。隅から隅まで見ていく。
+黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。順に見ていく。
 
 ---
 
