@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:00:04+09:00",
+ "updated": "2026-10-24T04:00:47+09:00",
  "queue": {
   "published": 107,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published masu-sake-cup-hinoki-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-24T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-23T23:18:11+09:00",
+  "at": "2026-10-24T04:00:47+09:00",
   "engine": "claude",
-  "detail": "- **Uncommitted changes not touched:** the working tree already had uncommitted changes (`topic_plan.py`, `post-to-ameba.py`, note drafts and others). I pulled with `--autostash`, left them as they were, and committed only the files for this article."
+  "detail": "その未コミットの変更は、このネタ補充の作業で作ったものではないので、触らずにそのまま残してあります。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-24T04:00:47+09:00",
+   "engine": "claude",
+   "detail": "その未コミットの変更は、このネタ補充の作業で作ったものではないので、触らずにそのまま残してあります。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-22T21:51:32+09:00",
    "engine": "claude",
    "detail": "- **Ameba link:** the 'related articles' section at the end of the post doesn't link to Ameba. The template's address (blog.ameba.jp) is the editor page, not the public blog."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-22T20:15:42+09:00",
-   "engine": "claude",
-   "detail": "- **Day count:** `today-count` still reports 2 after this publish, so it may not be counting the opencode post."
   }
  ]
 }
