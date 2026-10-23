@@ -1012,5 +1012,25 @@
       "ウイスキー/炭酸深掘りの本文補強(事実確認要)",
       "draft 4本の処遇決定"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T02:53:47Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hirota-glass-chirori-deep-dive-2026",
+      "jazz-instruments-guide"
+    ],
+    "actions": [
+      "hirota: 同一画像の重複figureを削除、descriptionを冒頭文コピーから要約に差し替え",
+      "jazz-instruments-guide: descriptionを要約化、『と評される』を主観表現に修正",
+      "未巡回18本のfigure配置・alt・credit・lazy、禁止表現(おなじみ等)を機械点検し問題なし",
+      "seo-audit.pyはPIL不具合で実行不可(環境依存)。Hatena/Ameba/noteは未巡回"
+    ],
+    "files_changed": 3,
+    "status": "一部完了(hugo未導入のためビルド未実行)",
+    "next_kpis": [
+      "descriptionが冒頭文コピーの記事の洗い出し",
+      "同一画像figure重複の全記事点検"
+    ]
   }
 ]
