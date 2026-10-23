@@ -1,0 +1,23 @@
+{
+ "/images/gh-actions/time-clock.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/3/39/Thomas_Alva_Edison%2C_1847-1931%2C_punching_time_clock_on_his_74th_birthday_anniversary%2C_February_11%2C_1921%2C_standing%2C_rear_view_LCCN2005687286.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Alva_Edison,_1847-1931,_punching_time_clock_on_his_74th_birthday_anniversary,_February_11,_1921,_standing,_rear_view_LCCN2005687286.jpg",
+  "license": "Public domain",
+  "author": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "title": "File:Thomas Alva Edison, 1847-1931, punching time clock on his 74th birthday anniversary, February 11, 1921, standing, rear view LCCN2005687286.jpg"
+ },
+ "/images/gh-actions/server-rack.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/1280px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+  "license": "CC0",
+  "author": "Derrick Coetzee from Berkeley, CA, USA",
+  "title": "File:Technician with laptop working on server rack at NERSC.jpg"
+ },
+ "/images/gh-actions/programmer.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Programmer_writing_code_with_Unit_Tests.jpg/1280px-Programmer_writing_code_with_Unit_Tests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Programmer_writing_code_with_Unit_Tests.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Joonspoon",
+  "title": "File:Programmer writing code with Unit Tests.jpg"
+ }
+}
