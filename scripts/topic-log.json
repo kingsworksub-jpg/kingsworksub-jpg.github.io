@@ -2263,6 +2263,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-23T07:43:42+09:00"
+  },
+  {
+   "id": "2026w42-012",
+   "category": "setup",
+   "theme": "電源タップと配線ノイズ、機材のコンセントを分ける",
+   "slug": "power-strip-hum-noise-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/power-strip-hum-noise-guide-2026/",
+   "hatena_entry": "14945776032094107745",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-23T12:13:49+09:00"
   }
  ]
 }
