@@ -125,3 +125,4 @@ scheduled_time: "23:00"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
 - [信楽焼のぐい呑みは、なぜ土のざらつきを残したまま焼かれるのか](/posts/shigaraki-guinomi-hiiro/)
+- [枡で日本酒を冷やで飲む理由、江戸の量り売りの道具が祝いの器になるまで](/posts/masu-sake-cup-hinoki-2026/)
