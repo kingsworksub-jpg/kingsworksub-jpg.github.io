@@ -1238,5 +1238,25 @@
       "seo-audit.py --check-links の孤立記事数",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T15:53:43Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hirota-glass-chirori-deep-dive-2026",
+      "sori-yanagi-seishu-glass-deep-dive-2026",
+      "toyo-sasaki-carafe-variation-deep-dive-2026",
+      "peacock-acf38-sake-set-deep-dive-2026",
+      "scotch-whisky-5choice-2026"
+    ],
+    "actions": [
+      "descriptionが短かった5記事を100〜118字に拡充(検索結果のスニペット向上)。draftの旧記事(2026-09-22-*)は対象外"
+    ],
+    "files_changed": 6,
+    "status": "一部完了(seo-audit.pyはPIL不具合で実行不可、hugo未ビルド、frontmatterのみの変更。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "coca-cola-zero/green-cola/streaming-loudness-normalization-lufsの内部リンク追加",
+      "Hatena/Ameba/note巡回"
+    ]
   }
 ]
