@@ -99,6 +99,7 @@ awk -v start_marker='<div class="post-content md-content">' '
   | sed -E "s@(src|href)=\"/([^\"#])@\1=\"${SITE_ORIGIN}/\2@g" \
   | "$PY" "$REPO_ROOT/scripts/hatena_banner.py" \
   | "$PY" "$REPO_ROOT/scripts/hatena_figures.py" \
+  | "$PY" "$REPO_ROOT/scripts/affiliate_tag.py" hatena \
   > "$OUT"
 
 rm -rf "$BUILD_DIR"

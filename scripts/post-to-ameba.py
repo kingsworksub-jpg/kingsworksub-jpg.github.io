@@ -47,6 +47,9 @@ import urllib.request
 
 from playwright.sync_api import sync_playwright
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from affiliate_tag import rewrite_for  # noqa: E402
+
 sys.stdout.reconfigure(encoding="utf-8")
 
 BASE = r"C:\Users\norio\my-github-blog"
@@ -192,6 +195,7 @@ def render_body_html(slug):
                 capture_output=True, check=True,
             ).stdout.decode("utf-8")
         body = shrink_figure_img_attrs(body)
+        body = rewrite_for(body, "ameba")
         return body
     finally:
         shutil.rmtree(build, ignore_errors=True)

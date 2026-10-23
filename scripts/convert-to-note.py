@@ -20,6 +20,9 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from affiliate_tag import rewrite_for  # noqa: E402
+
 BASE = r"C:\Users\norio\my-github-blog"
 POSTS = os.path.join(BASE, "content", "posts")
 SITE = "https://kingsworksub-jpg.github.io"
@@ -223,6 +226,7 @@ def main():
     lines.append("元記事（ブログ）: %s" % url)
 
     result = "\n".join(lines)
+    result = rewrite_for(result, "note")
 
     if len(sys.argv) >= 3:
         out = sys.argv[2]

@@ -16,3 +16,7 @@ data/ameba_user_data/
 
 # ネタ会議の一時ファイル
 scripts/.topic-candidates.json
+
+# アフィリエイトタグ一括置換(2026-10-23)の作業用一時ファイル
+scripts/_tmp_*
+scripts/_retag_*
