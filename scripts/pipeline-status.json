@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-23T23:00:35+09:00",
+ "updated": "2026-10-23T23:17:50+09:00",
  "queue": {
-  "published": 106,
+  "published": 107,
   "rejected": 1,
-  "approved": 40,
-  "in_progress": 1
+  "approved": 40
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published laptop-only-dtm-portable-setup-2026",
+ "last_result": "published masu-sake-cup-hinoki-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
