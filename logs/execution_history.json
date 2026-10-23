@@ -1275,5 +1275,24 @@
       "Hatena/Ameba/note巡回と drafts 改定案",
       "孤立記事の内部リンク追加"
     ]
+  },
+  {
+    "timestamp": "2026-10-23T17:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "energy-drink-caffeine-5choice-2026",
+      "sony-ecm-ax10-spatial-mic-2026",
+      "masu-sake-cup-hinoki-2026",
+      "laptop-only-dtm-portable-setup-2026"
+    ],
+    "actions": [
+      "被リンクゼロの孤立記事4件に、関連する既存記事7本の末尾から内部リンクを追加(helloは対象外)"
+    ],
+    "files_changed": 8,
+    "status": "一部完了(seo-audit.pyはPIL不具合で実行不可、hugo未ビルド。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "孤立記事0件(hello除く)",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]

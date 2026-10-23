@@ -140,3 +140,4 @@ scheduled_time: "21:30"
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
 - [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](https://kingsworksub-jpg.github.io/posts/hirota-glass-chirori-deep-dive-2026/)
 - [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](https://kingsworksub-jpg.github.io/posts/suzu-chirori-kanzake-2026/)
+- [枡で日本酒を冷やで飲む理由、江戸の量り売りの道具が祝いの器になるまで](/posts/masu-sake-cup-hinoki-2026/)

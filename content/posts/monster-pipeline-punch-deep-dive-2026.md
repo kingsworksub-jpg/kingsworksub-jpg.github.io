@@ -68,3 +68,4 @@ aliases:
 
 
 **関連記事**: [リアルゴールドはカフェインなしで元気を配る](/posts/real-gold-deep-dive-2026/) · [部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ)](/posts/otsuka-match-deep-dive-2026/) · [ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸](/posts/dodecamin-deep-dive-2026/) · [名前は変わっても中身は裏切らない「ドデカミンのゼロが好きだと叫びたい」](/posts/dodecamin-zero-sakebitai-deep-dive-2026/)
+- [エナジードリンクのカフェイン量を5本で比べる。1日400mgの上限はモンスター3本目で越える](/posts/energy-drink-caffeine-5choice-2026/)
