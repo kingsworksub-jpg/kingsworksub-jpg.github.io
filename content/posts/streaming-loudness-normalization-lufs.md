@@ -116,4 +116,6 @@ Amazon Musicは基準値を公式には数字で出していない。計測し�
 
 ## 関連記事
 
+- [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)
+- [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
