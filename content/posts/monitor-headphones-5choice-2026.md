@@ -184,3 +184,5 @@ scheduled_time: "12:00"
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感](/posts/bw-685-deep-dive-2026/)
 - [ノートPC1台でDTMを続けるなら、据え置きから持ち出すのは4つだけ](/posts/laptop-only-dtm-portable-setup-2026/)
+- [モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる](/posts/nearfield-monitors-5choice-2026/)
+- [コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本](/posts/condenser-mic-5choice-2026/)

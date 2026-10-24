@@ -117,3 +117,6 @@ scheduled_time: "20:00"
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
+- [モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる](/posts/nearfield-monitors-5choice-2026/)
+- [賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段](/posts/rental-soundproofing-booth-2026/)
+- [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
