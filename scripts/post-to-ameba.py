@@ -577,6 +577,113 @@ def delete_entry(entry_id, expected_title):
     # 404 confirmed — deletion verified.
 
 
+def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_id=None):
+    """共通処理: タイトル入力 → 本文setData → Amazonリンクのpick変換 → 投稿。
+    新規投稿(srventryinsertinput.do)と既存記事の更新(srventryupdateinput.do)の
+    どちらでも、ページ遷移後にCKEditorインスタンスが準備できていれば同じ流れで使える。
+
+    2026-10-23の事故を受けた安全策: 既存記事の更新(expect_entry_id指定時)では、
+    投稿ボタンを押す直前に「タイトル欄」「隠しentry_id」「本文の長さ」を再読込し、
+    こちらが設定した値のままかを確認してから初めて投稿する。Amebaのエディタには
+    同じブラウザプロファイル内の別記事の未保存下書きを静かに復元する挙動があり
+    (2026-10-23実測: 無関係な記事の下書きで上書きされ、新規エントリが作られた)、
+    この確認が無いと気づかないまま誤った内容を投稿してしまう。
+    """
+    dismiss_dialogs(page)
+
+    title_box = page.wait_for_selector('input[name="entry_title"]', timeout=30000)
+    if title_box is None:
+        print("タイトル欄が見つかりません。")
+        if "/login" in page.url:
+            print("ログインされていません。")
+        ctx.close()
+        sys.exit(1)
+
+    if expect_title is not None:
+        actual_title = page.input_value('input[name="entry_title"]')
+        if actual_title.strip() != expect_title.strip():
+            print(f"[error] 既存記事のタイトルが一致しません。期待値「{expect_title}」"
+                  f" / 実際「{actual_title}」。誤った記事を更新する事故を避けるため中止します。")
+            ctx.close()
+            sys.exit(1)
+
+    with open(os.path.join(POSTS, f"{slug}.md"), encoding="utf-8-sig") as f:
+        meta, _ = parse_front_matter(f.read())
+    title = meta.get("title", slug)
+    page.fill('input[name="entry_title"]', title)
+    print(f"タイトル入力: {title}")
+
+    body = render_body_html(slug)
+    print(f"本文HTML: {len(body)} chars")
+    page.wait_for_function(
+        "window.CKEDITOR && window.CKEDITOR.instances && window.CKEDITOR.instances['amebloeditor']",
+        timeout=60000,
+    )
+    # setData は既存本文を含めて丸ごと置き換える(CKEditorの仕様)
+    page.evaluate("(html) => window.CKEDITOR.instances['amebloeditor'].setData(html)", body)
+    page.wait_for_timeout(2500)
+    convert_amazon_links_to_pick(page)
+
+    # 初期化モーダルが邪魔になった場合に備えて閉じる
+    try:
+        page.click("#js-initializing-modal", timeout=1000)
+    except Exception:
+        pass
+    dismiss_dialogs(page)
+
+    # --- 投稿直前の最終確認(2026-10-23の事故対策) ---
+    final_title = page.input_value('input[name="entry_title"]')
+    final_body_len = page.evaluate(
+        "() => window.CKEDITOR.instances['amebloeditor'].getData().length"
+    )
+    if final_title.strip() != title.strip():
+        print(f"[abort] 投稿直前にタイトルが変化していました。期待値「{title}」/ 実際「{final_title}」。"
+              "別記事の下書きが復元された可能性があるため投稿を中止します。")
+        page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
+        ctx.close()
+        sys.exit(1)
+    if final_body_len < len(body) * 0.5 or final_body_len > len(body) * 1.5:
+        print(f"[abort] 投稿直前に本文の長さが大きく変化していました(設定時 {len(body)} 文字 "
+              f"→ 投稿直前 {final_body_len} 文字)。意図しない内容で投稿する事故を避けるため中止します。")
+        page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
+        ctx.close()
+        sys.exit(1)
+    if expect_entry_id is not None:
+        try:
+            actual_entry_id = page.input_value('input[name="entry_id"]')
+        except Exception:
+            actual_entry_id = None
+        if actual_entry_id != str(expect_entry_id):
+            print(f"[abort] 投稿直前の隠しentry_idが期待値と異なります。期待値「{expect_entry_id}」/ "
+                  f"実際「{actual_entry_id}」。新規記事として投稿されてしまう(重複作成)事故を避けるため中止します。")
+            page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
+            ctx.close()
+            sys.exit(1)
+
+    ok = click_submit_and_check(page, ctx, publish)
+    if not ok:
+        page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
+        ctx.close()
+        sys.exit(1)
+
+    print("URL:", page.url[:160])
+    if expect_entry_id is not None:
+        # 更新フロー: 投稿後のページで entry_id 欄を読み直しても、遷移先(一覧ページ)に
+        # 残った無関係な値を拾うことがあるため信用しない(2026-10-23実測)。
+        # 更新対象は expect_entry_id で確定しているので、そのまま報告する。
+        print(f"entry_id={expect_entry_id}")
+        print(f"公開URL: https://ameblo.jp/sfd0501/entry-{expect_entry_id}.html")
+    else:
+        eid = ""
+        try:
+            eid = page.input_value('input[name="entry_id"]')
+        except Exception:
+            pass
+        print(f"entry_id={eid}")
+        if eid:
+            print(f"公開URL: https://ameblo.jp/sfd0501/entry-{eid}.html")
+
+
 def fill_editor_and_submit(slug, publish):
     with sync_playwright() as p:
         ctx = open_browser(p)
@@ -590,54 +697,34 @@ def fill_editor_and_submit(slug, publish):
             print("ログインされていません。`python scripts/post-to-ameba.py --login` を実行してください。")
             ctx.close()
             sys.exit(1)
-        dismiss_dialogs(page)
 
-        title_box = page.wait_for_selector('input[name="entry_title"]', timeout=30000)
-        if title_box is None:
-            print("タイトル欄が見つかりません。")
-            if "/login" in page.url:
-                print("ログインされていません。")
+        _fill_and_submit(page, ctx, slug, publish)
+        ctx.close()
+
+
+def update_existing_entry(entry_id, slug, expect_title):
+    """既存の公開済みAmeba記事(entry_id)を、記事のレンダリング結果で上書きして再公開する。
+
+    2026-10-23: Amazonアフィリエイトリンクのタグをameba-img-sub-22に書き換えるため追加。
+    新規投稿用のURL(srventryinsertinput.do)ではなく、既存記事の編集URL
+    (srventryupdateinput.do?id=...)を直接開く。CKEditorのsetData()は既存本文を
+    丸ごと置き換えるため、noteのような「全選択→削除」の前処理は不要。
+    """
+    update_url = f"https://blog.ameba.jp/ucs/entry/srventryupdateinput.do?id={entry_id}"
+    with sync_playwright() as p:
+        ctx = open_browser(p)
+        page = ctx.new_page()
+        page.on("dialog", lambda d: d.accept())
+
+        print(f"Amebaエディタ(既存記事)を開いています: {update_url}")
+        page.goto(update_url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(4000)
+        if "blog.ameba.jp/ucs/entry" not in page.url:
+            print("ログインされていません。`python scripts/post-to-ameba.py --login` を実行してください。")
             ctx.close()
             sys.exit(1)
 
-        with open(os.path.join(POSTS, f"{slug}.md"), encoding="utf-8-sig") as f:
-            meta, _ = parse_front_matter(f.read())
-        title = meta.get("title", slug)
-        page.fill('input[name="entry_title"]', title)
-        print(f"タイトル入力: {title}")
-
-        body = render_body_html(slug)
-        print(f"本文HTML: {len(body)} chars")
-        page.wait_for_function(
-            "window.CKEDITOR && window.CKEDITOR.instances && window.CKEDITOR.instances['amebloeditor']",
-            timeout=60000,
-        )
-        page.evaluate("(html) => window.CKEDITOR.instances['amebloeditor'].setData(html)", body)
-        page.wait_for_timeout(2500)
-        convert_amazon_links_to_pick(page)
-
-        # 初期化モーダルが邪魔になった場合に備えて閉じる
-        try:
-            page.click("#js-initializing-modal", timeout=1000)
-        except Exception:
-            pass
-        dismiss_dialogs(page)
-
-        ok = click_submit_and_check(page, ctx, publish)
-        if not ok:
-            page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
-            ctx.close()
-            sys.exit(1)
-
-        eid = ""
-        try:
-            eid = page.input_value('input[name="entry_id"]')
-        except Exception:
-            pass
-        print("URL:", page.url[:160])
-        print(f"entry_id={eid}")
-        if eid:
-            print(f"公開URL(publish時): https://ameblo.jp/sfd0501/entry-{eid}.html")
+        _fill_and_submit(page, ctx, slug, True, expect_title=expect_title, expect_entry_id=entry_id)
         ctx.close()
 
 
@@ -648,7 +735,8 @@ def main():
     parser.add_argument("--publish", action="store_true", help="Publish directly")
     parser.add_argument("--save", action="store_true", help="Save as draft")
     parser.add_argument("--delete-entry", help="削除する公開済み記事の entry_id")
-    parser.add_argument("--expect-title", help="--delete-entry 使用時、削除前に照合するタイトル(必須・誤削除防止)")
+    parser.add_argument("--expect-title", help="--delete-entry/--update-entry 使用時、操作前に照合するタイトル(必須・誤操作防止)")
+    parser.add_argument("--update-entry", help="既存記事(entry_id)を本文で上書きして再公開する")
     args = parser.parse_args()
 
     os.makedirs(PROFILE, exist_ok=True)
@@ -659,6 +747,16 @@ def main():
             sys.exit(1)
         delete_entry(args.delete_entry, args.expect_title)
         print(f"DELETED: {args.delete_entry}")
+        return
+
+    if args.update_entry:
+        if not args.expect_title:
+            print("Error: --update-entry には --expect-title が必須です(誤更新防止のため)")
+            sys.exit(1)
+        if not args.slug:
+            print("Error: --slug <slug> is required.")
+            sys.exit(1)
+        update_existing_entry(args.update_entry, args.slug, args.expect_title)
         return
 
     with sync_playwright() as p:
