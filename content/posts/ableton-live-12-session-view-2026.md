@@ -81,7 +81,8 @@ Live 12 ではこれがひとつのクリップにつき2つまで設定でき�
 
 <figure class="photo photo--right">
 <a href="https://www.ableton.com/ja/live/" target="_blank" rel="noopener">
-<a href="https://www.amazon.co.jp/dp/B0D6Z15H4N?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-12/pad-controller.jpg" alt="ノートパソコンでLiveを動かし、タッチ式のコントローラーを並べた制作環境" width="612" height="612" loading="lazy"></a>
+<img src="/images/ableton-live-12/pad-controller.jpg" alt="ノートパソコンでLiveを動かし、タッチ式のコントローラーを並べた制作環境" width="612" height="612" loading="lazy">
+</a>
 <figcaption>ノートパソコン1台とコントローラーで完結する作業机<span class="credit">Photo: Mickey Destro / <a href="https://commons.wikimedia.org/wiki/File:Ableton_Live_%2B_Pad_controller.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 

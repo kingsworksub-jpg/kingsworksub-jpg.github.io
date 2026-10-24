@@ -41,8 +41,11 @@ def main():
             text = f.read()
         for m in FIGURE_RE.finditer(text):
             side, href, src, alt, caption = m.groups()
-            if href and "amazon." in href:
-                continue  # already linked
+            if href:
+                # 既にAmazonリンクで包まれている、または意図的に公式サイト等へ
+                # リンクされている(2026-10-23: 後者を見落として二重<a>を作る事故が
+                # あったため、hrefが何であれ既存リンクがあるものは全て対象外にする)。
+                continue
             heading = nearest_heading(text, m.start())
             out.append({
                 "slug": slug,

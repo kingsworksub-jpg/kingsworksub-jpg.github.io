@@ -20,7 +20,7 @@ ACE Studioは、そうした場面のためのソフトだ。ピアノロール�
 ## ACE Studioとは何か、2.0で何が変わったのか
 
 <figure class="photo photo--left">
-<a href="https://acestudio.ai/" target="_blank" rel="noopener"><a href="https://www.amazon.co.jp/dp/B0002E4Z8M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ace-studio/vocal-booth.jpg" alt="木の壁に囲まれた古い録音スタジオの歌唱ブース。ブーム付きのマイクスタンドの下に譜面台があり、ヘッドホンが2つ置かれている" width="220" height="146" loading="lazy"></a></a>
+<a href="https://acestudio.ai/" target="_blank" rel="noopener"><img src="/images/ace-studio/vocal-booth.jpg" alt="木の壁に囲まれた古い録音スタジオの歌唱ブース。ブーム付きのマイクスタンドの下に譜面台があり、ヘッドホンが2つ置かれている" width="220" height="146" loading="lazy"></a>
 <figcaption>ナッシュビルのRCAスタジオBに残る歌唱ブース。ACE Studioは、この場所に立つ歌い手の役目をソフトの中で引き受ける<span class="credit">Photo: Cliff from I now live in Arlington, VA (Outside Washington DC), USA / CC BY 2.0</span></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ ACE Studioは、TimeDomainという会社が開発しているAIの歌声合成�
 ## 声を選ぶ、140を超えるモデルとVoiceMix
 
 <figure class="photo photo--left">
-<a href="https://acestudio.ai/" target="_blank" rel="noopener"><a href="https://www.amazon.co.jp/dp/B0B823S1NR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ace-studio/vocal-booth-mic.jpg" alt="木の内装の録音ブース。夕暮れの海と木々が見える大きな窓の前に、ポップガード付きのコンデンサーマイクが一本立っている" width="220" height="165" loading="lazy"></a></a>
+<a href="https://acestudio.ai/" target="_blank" rel="noopener"><img src="/images/ace-studio/vocal-booth-mic.jpg" alt="木の内装の録音ブース。夕暮れの海と木々が見える大きな窓の前に、ポップガード付きのコンデンサーマイクが一本立っている" width="220" height="165" loading="lazy"></a>
 <figcaption>窓辺に立つ一本のマイク。ACE Studioでは、この前に立つ歌い手を140を超える声から選び直せる<span class="credit">Photo: StudioMalibu14 / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ ACE Studioでは、出発点が違う。歌唱そのものを学習したモデ�
 ## DAWとつなぐ、ACE Bridge 2と書き出し
 
 <figure class="photo photo--right">
-<a href="https://acestudio.ai/" target="_blank" rel="noopener"><a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ace-studio/daw-console.jpg" alt="木の天井の録音スタジオのコントロールルーム。手前に椅子とデスク上のパソコン、奥にモニタースピーカーとミキシングコンソール、ガラス越しに録音ブースが見える" width="220" height="330" loading="lazy"></a></a>
+<a href="https://acestudio.ai/" target="_blank" rel="noopener"><img src="/images/ace-studio/daw-console.jpg" alt="木の天井の録音スタジオのコントロールルーム。手前に椅子とデスク上のパソコン、奥にモニタースピーカーとミキシングコンソール、ガラス越しに録音ブースが見える" width="220" height="330" loading="lazy"></a>
 <figcaption>コントロールルームのDAWとミキサー。ACE Studioで作った歌は、ACE Bridge 2を通してDAWの曲と同じ時間の上に並ぶ<span class="credit">Photo: Dayron Villaverde from Miami, USA / CC0</span></figcaption>
 </figure>
 
