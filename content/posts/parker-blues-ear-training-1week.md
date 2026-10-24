@@ -47,7 +47,7 @@ scheduled_time: "17:30"
 ## 1〜2日目、Now's the Timeで12小節の枠を体に入れる
 
 <figure class="photo photo--right">
-<img src="/images/parker-blues/jazz-bass.jpg" alt="ウッドベースの弦を指ではじく男性の手元" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/parker-blues/jazz-bass.jpg" alt="ウッドベースの弦を指ではじく男性の手元" width="220" height="330" loading="lazy"></a>
 <figcaption>小節を数えるときに頼りになるのはベース。1拍ごとに一つずつ音を置くので、和音が変わる場所が聴き取りやすい<span class="credit">Photo: Meutia Chaerani - Indradi Soemardjan / CC BY 2.5</span></figcaption>
 </figure>
 

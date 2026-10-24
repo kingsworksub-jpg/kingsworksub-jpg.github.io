@@ -20,7 +20,7 @@ draft: false
 ## 脱アルコールか、発酵させないか — 国産ノンアルビールの二つの作り方
 
 <figure class="photo photo--left">
-<img src="/images/nonalc-beer-5/kirin-free.jpg" alt="キリンFREEの缶。ALC.0.00%とORIGINAL YEAST-FREE PROCESSの表記が見える" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C3MBZN85?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nonalc-beer-5/kirin-free.jpg" alt="キリンFREEの缶。ALC.0.00%とORIGINAL YEAST-FREE PROCESSの表記が見える" width="750" height="1000" loading="lazy"></a>
 <figcaption>2009年発売のキリンFREE。缶には「発酵させない」製法であることが明記されている<span class="credit">Photo: Mj-bird / <a href="https://commons.wikimedia.org/wiki/File:Kirin_Free_Kirin_Brewery_Company.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

@@ -58,7 +58,7 @@ scheduled_time: "12:00"
 ## 分電盤の回路で、家電と制作機材を分ける
 
 <figure class="photo photo--left">
-<img src="/images/power-hum/breaker-panel.jpg" alt="壁に取り付けられた白い家庭用分電盤のふたを開けた様子。左に主幹ブレーカー、中央に20Aの分岐ブレーカーが上下2段に並んでいる" width="220" height="167" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0007TXT5M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/power-hum/breaker-panel.jpg" alt="壁に取り付けられた白い家庭用分電盤のふたを開けた様子。左に主幹ブレーカー、中央に20Aの分岐ブレーカーが上下2段に並んでいる" width="220" height="167" loading="lazy"></a>
 <figcaption>家庭用の分電盤。左の大きなものが主幹、中央に並ぶ小さなものが部屋ごとの分岐ブレーカーで、多くは20Aになっている<span class="credit">Photo: Uri / <a href="https://commons.wikimedia.org/wiki/File:%E5%AE%B6%E5%BA%AD%E7%94%A8%E5%88%86%E9%9B%BB%E7%9B%A4%EF%BC%88%E5%86%85%E9%83%A8%EF%BC%89.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ scheduled_time: "12:00"
 ## アースと極性は、2つ穴のコンセントでも意識できる
 
 <figure class="photo photo--right">
-<img src="/images/power-hum/ac-outlet.jpg" alt="壁のアース端子付きコンセント。上に差し込み口、下のふたの中のねじに緑色のアース線が留められ、横に電源プラグがぶら下がっている" width="220" height="318" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HB5L1VWW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/power-hum/ac-outlet.jpg" alt="壁のアース端子付きコンセント。上に差し込み口、下のふたの中のねじに緑色のアース線が留められ、横に電源プラグがぶら下がっている" width="220" height="318" loading="lazy"></a>
 <figcaption>エアコン用の20A・125V対応コンセント。下のふたの中がアース端子で、機器から伸びた緑色のアース線をねじで留める。左右の穴の長さが違うことにも注目したい<span class="credit">Photo: Hustvedt / <a href="https://commons.wikimedia.org/wiki/File:Japanese_air_conditioner_electrical_outlet.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

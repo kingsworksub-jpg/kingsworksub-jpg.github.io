@@ -20,7 +20,7 @@ scheduled_time: "12:00"
 ## 机に置いたとき、低音はどこから崩れるのか
 
 <figure class="photo photo--left">
-<img src="/images/nearfield-monitors/adam-a7-pad.jpg" alt="ウレタンのインシュレーターの上に置かれたADAM A7。前面下部に丸いバスレフポートが見える" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B079BBF66V?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nearfield-monitors/adam-a7-pad.jpg" alt="ウレタンのインシュレーターの上に置かれたADAM A7。前面下部に丸いバスレフポートが見える" width="1000" height="666" loading="lazy"></a>
 <figcaption>ウレタンのインシュレーターに載せたADAM A7。前面下の丸い穴がバスレフポート<span class="credit">Photo: GeschnittenBrot / <a href="https://commons.wikimedia.org/wiki/File:ADAM-A7_monitor_mounted_on_Thomann_isolation_pad_-_Pulsn_-_engineroom_14_-_2013-03-06_08.24.28_(by_GeschnittenBrot).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
