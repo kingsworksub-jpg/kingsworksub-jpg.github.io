@@ -59,7 +59,7 @@ scheduled_time: "21:30"
 ## Kavalan Solist — カスクストレングスが示す、台湾の熟成の深さ
 
 <figure class="photo photo--right">
-<img src="/images/products/kavalan-solist.jpg" alt="Kavalan Solist" width="667" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00EJSJY8S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/products/kavalan-solist.jpg" alt="Kavalan Solist" width="667" height="1000" loading="lazy"></a>
 <figcaption>Kavalan Solist<span class="credit">Photo: Jerry Lai / CC BY-SA 2.0 <a href="https://www.kavalanwhisky.com/">公式サイトで見る →</a></span></figcaption>
 </figure>
 

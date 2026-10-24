@@ -18,7 +18,7 @@ scheduled_time: "20:00"
 ## モニター掛け式ライトとタスクライトの役割分担
 
 <figure class="photo photo--left">
-<img src="/images/setup/light1.jpg" alt="照明器具のイメージ" width="857" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FM3NXDVN?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/setup/light1.jpg" alt="照明器具のイメージ" width="857" height="1000" loading="lazy"></a>
 <figcaption>適切なデスク照明は、手元の視認性を高めながらモニター画面への不快な映り込みを防いでくれる。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span>
 </figure>
@@ -64,7 +64,7 @@ scheduled_time: "20:00"
 ## 快適なスタジオ照明を作るための実践的な配置
 
 <figure class="photo photo--right">
-<img src="/images/setup/light2.jpg" alt="別の照明器具" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C1MJ83V3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/setup/light2.jpg" alt="別の照明器具" width="1000" height="750" loading="lazy"></a>
 <figcaption>光源が直接視界に入らないよう配慮し、フリッカーフリーな電源回路を選ぶことが長時間の快適性を生む。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span>
 </figure>

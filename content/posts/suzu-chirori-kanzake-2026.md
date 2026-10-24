@@ -20,7 +20,7 @@ scheduled_time: "21:30"
 ## 錫という金属、柔らかくて重い
 
 <figure class="photo photo--left">
-<img src="/images/suzu-chirori/tin-ingot.jpg" alt="刻印の入った古い錫のインゴット" width="640" height="431" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08KGZQ9X3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/suzu-chirori/tin-ingot.jpg" alt="刻印の入った古い錫のインゴット" width="640" height="431" loading="lazy"></a>
 <figcaption>英国コーンウォールの鉱山遺産施設に展示された錫のインゴット。器になる前の錫は、こうした塊で取引されてきた<span class="credit">Photo: Ashley Dace / CC BY-SA 2.0</span></figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ scheduled_time: "21:30"
 ## 大阪の錫器、江戸から続く手仕事
 
 <figure class="photo photo--left">
-<img src="/images/suzu-chirori/suzuhan-1935.jpg" alt="昭和初期の大阪・心斎橋の角に建つ瓦屋根の商店の店構え" width="1000" height="574" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08KGZQ9X3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/suzu-chirori/suzuhan-1935.jpg" alt="昭和初期の大阪・心斎橋の角に建つ瓦屋根の商店の店構え" width="1000" height="574" loading="lazy"></a>
 <figcaption>昭和10年（1935年）の写真集『寫眞心齋橋』に載った錫半本店の店構え<span class="credit">Photo: 心斎橋新聞社 / Public domain</span></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ scheduled_time: "21:30"
 ## 錫は酒をまろやかにする、という言い伝え
 
 <figure class="photo photo--right">
-<img src="/images/suzu-chirori/pewter-jar-edo.jpg" alt="縦に溝の入った、蓋付きの錫の壺" width="834" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08KGZQ9X3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/suzu-chirori/pewter-jar-edo.jpg" alt="縦に溝の入った、蓋付きの錫の壺" width="834" height="1000" loading="lazy"></a>
 <figcaption>17〜19世紀の日本で作られた錫の蓋付き壺。茶葉などを湿気から守る保存容器として、錫はよく使われた<span class="credit">Image: Cleveland Museum of Art / CC0</span></figcaption>
 </figure>
 

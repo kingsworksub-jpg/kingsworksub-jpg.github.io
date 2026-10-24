@@ -18,7 +18,7 @@ scheduled_time: "20:00"
 ## 4畳半は、およそ264cm四方の正方形
 
 <figure class="photo photo--left">
-<img src="/images/yojohan-dtm/yojohan.jpg" alt="障子の窓から光が差し込み、床の間に掛け軸が掛かった4畳半の和室" width="220" height="148" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GN9SR1M5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yojohan-dtm/yojohan.jpg" alt="障子の窓から光が差し込み、床の間に掛け軸が掛かった4畳半の和室" width="220" height="148" loading="lazy"></a>
 <figcaption>畳4枚半を敷き詰めた4畳半の和室。辺の長さは畳の長辺1枚半ぶんになり、部屋はほぼ正方形になる<span class="credit">Photo: halfrain / <a href="https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E7%95%B3%E5%8D%8A_(14925852775).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ scheduled_time: "20:00"
 ## ベッドを先に置き、残った167cmに机を収める
 
 <figure class="photo photo--right">
-<img src="/images/yojohan-dtm/bedroom-ridel.jpg" alt="壁に取り付けたスピーカーの下に、ディスプレイと機材を積んだ机と黒い椅子が置かれた寝室の制作スペース" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GN9SR1M5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yojohan-dtm/bedroom-ridel.jpg" alt="壁に取り付けたスピーカーの下に、ディスプレイと機材を積んだ机と黒い椅子が置かれた寝室の制作スペース" width="220" height="165" loading="lazy"></a>
 <figcaption>寝室の一角を制作用にした例。机の周りに収納と機材を寄せ、椅子の後ろに動ける床を残している<span class="credit">Photo: Cryptrz / <a href="https://commons.wikimedia.org/wiki/File:Bedroom-studio-franck-ridel.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ scheduled_time: "20:00"
 ## ベッドは高い音を吸うが、低い音は吸わない
 
 <figure class="photo photo--left">
-<img src="/images/yojohan-dtm/cozy.jpg" alt="壁一面の本棚にスピーカーと本が並び、机の上にディスプレイとキーボードが置かれた自宅の制作スペース" width="220" height="176" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0H9KNX4R7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yojohan-dtm/cozy.jpg" alt="壁一面の本棚にスピーカーと本が並び、机の上にディスプレイとキーボードが置かれた自宅の制作スペース" width="220" height="176" loading="lazy"></a>
 <figcaption>壁一面の本棚の中に機材を収めた自宅スタジオ。凸凹の多い本棚は、跳ね返る音を細かく散らす役目も果たす<span class="credit">Photo: Jan Kalinowski / <a href="https://commons.wikimedia.org/wiki/File:Small_cozy_music_studio_at_home.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

@@ -44,7 +44,7 @@ ogImageHeight: 630
 ## 甘口ジンジャーエールとの違い
 
 <figure class="photo photo--right">
-<img src="/images/wilkinson-ginger-ale/glass.jpg" width="220" height="124" alt="複数のグラスに注がれた琥珀色のジンジャーエール" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CST5H886?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wilkinson-ginger-ale/glass.jpg" width="220" height="124" alt="複数のグラスに注がれた琥珀色のジンジャーエール" loading="lazy"></a>
 <figcaption>甘口タイプは氷と合わせてゆっくり飲む設計、辛口タイプは刺激そのものを味わう設計という違いがある</figcaption>
 <span class="credit">Photo: Geoprofi Lars / CC BY-SA 4.0</span>
 </figure>
@@ -78,7 +78,7 @@ ogImageHeight: 630
 ## 現行品としての位置づけ
 
 <figure class="photo photo--left">
-<img src="/images/wilkinson-ginger-ale/bottle.jpg" width="220" height="330" alt="甘さを抑えた辛口系ジンジャーエールのボトル" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B002XCV3MC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wilkinson-ginger-ale/bottle.jpg" width="220" height="330" alt="甘さを抑えた辛口系ジンジャーエールのボトル" loading="lazy"></a>
 <figcaption>甘口と辛口を分けて展開するのは、日本だけでなく英語圏のジンジャーエール文化にも共通する発想だ</figcaption>
 <span class="credit">Photo: Fitz's Bottling Company / Public domain</span>
 </figure>
