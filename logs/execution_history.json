@@ -1592,5 +1592,19 @@
       "新規公開記事が増えた段階で再点検",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-24T14:53:01Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigure配置(直後の見出し/---/短文、左右交互)を機械点検。該当4件は段落内の改行または意図的な注記で、表示崩れなしと判断し変更せず"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
