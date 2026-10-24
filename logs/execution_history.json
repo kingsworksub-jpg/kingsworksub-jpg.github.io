@@ -1636,5 +1636,20 @@
       "description長の超過0件を維持",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-24T19:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事207件を機械点検: 禁止表現(隅から隅まで/味わい尽くす/あるレビューでは/実際に〜てみた/全機能解剖)0件、description長80-140字外・images欠落0件",
+      "figure配置を走査し17件の候補を目視確認。段落内改行や補足行による誤検知が主で、実害のある崩れは無く変更せず(jazz-festivals-2026のfigureは節途中配置だが本文は回り込む状態)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
