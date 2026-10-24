@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:44:23+09:00",
+ "updated": "2026-10-24T23:00:59+09:00",
  "items": [
   {
    "category": "gear",
@@ -7540,9 +7540,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-025",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-24T23:00:59+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: ドリンク/酒分析/カクテルレシピ/ハック"
   },
   {
    "category": "whisky",
