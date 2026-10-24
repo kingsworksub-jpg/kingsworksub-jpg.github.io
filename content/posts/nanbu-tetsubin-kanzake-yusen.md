@@ -20,7 +20,7 @@ scheduled_time: "07:30"
 ## 茶の湯の釜を小さくして、鉄瓶が生まれた
 
 <figure class="photo photo--left">
-<img src="/images/nanbu-kan/botan-tetsubin.jpg" alt="畳の上に展示された牡丹菊図鉄瓶" width="747" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08M5PTJHY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nanbu-kan/botan-tetsubin.jpg" alt="畳の上に展示された牡丹菊図鉄瓶" width="747" height="1000" loading="lazy"></a>
 <figcaption>江戸から明治のころの作とされる牡丹菊図鉄瓶。胴に浮き彫りの花があしらわれている<span class="credit">Photo: EL Jones / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ scheduled_time: "07:30"
 ## 盛岡と水沢、今も続く工房
 
 <figure class="photo photo--right">
-<img src="/images/nanbu-kan/morioka-teapots.jpg" alt="盛岡手づくり村に展示された巨大な鉄瓶と棚に並ぶ鉄瓶" width="1000" height="563" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08M5PTJHY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nanbu-kan/morioka-teapots.jpg" alt="盛岡手づくり村に展示された巨大な鉄瓶と棚に並ぶ鉄瓶" width="1000" height="563" loading="lazy"></a>
 <figcaption>盛岡手づくり村の売り場。中央の大きな鉄瓶の奥に、大小の鉄瓶や急須が棚いっぱいに並ぶ<span class="credit">Photo: Dquai / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ scheduled_time: "07:30"
 ## 燗の温度と、湯煎という方法
 
 <figure class="photo photo--left">
-<img src="/images/nanbu-kan/kanzake.jpg" alt="ガスの火にかけた網の上で温められる燗徳利" width="894" height="707" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08KGZQ9X3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nanbu-kan/kanzake.jpg" alt="ガスの火にかけた網の上で温められる燗徳利" width="894" height="707" loading="lazy"></a>
 <figcaption>網の上で直火にかけられた燗徳利。直火は早いが、湯煎のほうが温度を合わせやすい<span class="credit">Photo: みやとも from Japan. / CC BY 2.1 jp</span></figcaption>
 </figure>
 

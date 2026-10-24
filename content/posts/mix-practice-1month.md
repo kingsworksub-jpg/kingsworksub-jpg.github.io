@@ -17,7 +17,7 @@ draft: false
 ## 曲を変えないほうが、耳は早く育つ
 
 <figure class="photo photo--left">
-<img src="/images/mix-practice/console.jpg" alt="多数のつまみが並ぶアナログミキシングコンソールの卓面" width="220" height="164" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845633787?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mix-practice/console.jpg" alt="多数のつまみが並ぶアナログミキシングコンソールの卓面" width="220" height="164" loading="lazy"></a>
 <figcaption>つまみの数より、同じ素材を何度も通すことのほうが効く<span class="credit">Photo: Prof. Pod / <a href="https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ draft: false
 ## 第1週：EQは、足すより先に削る
 
 <figure class="photo photo--right">
-<img src="/images/mix-practice/equalizer.jpg" alt="ラックマウント式のグラフィックイコライザーのフロントパネル" width="220" height="60" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/484561684X?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mix-practice/equalizer.jpg" alt="ラックマウント式のグラフィックイコライザーのフロントパネル" width="220" height="60" loading="lazy"></a>
 <figcaption>帯域を区切って上げ下げする道具。最初の週は下げる方向だけ使う<span class="credit">Photo: mytdx 4 / <a href="https://commons.wikimedia.org/wiki/File:Professional_equalizer_from_dbx_for_19_inch_rack.jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ draft: false
 ## 第2週：コンプレッサーは、やりすぎてから戻す
 
 <figure class="photo photo--left">
-<img src="/images/mix-practice/compressor.jpg" alt="LA-2AとUniversal Audio 1176、Distressorが積まれたアウトボードのラック" width="220" height="180" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B004NDFRVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mix-practice/compressor.jpg" alt="LA-2AとUniversal Audio 1176、Distressorが積まれたアウトボードのラック" width="220" height="180" loading="lazy"></a>
 <figcaption>つまみは四つしかない。効きが分からないうちは、わざと振り切って覚える<span class="credit">Photo: The Midnite Wolf / <a href="https://commons.wikimedia.org/wiki/File:LA-2A,_1176,_Distressors,_PCM_196.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ draft: false
 ## 第3週：リバーブは、乾いた音を消して聴く
 
 <figure class="photo photo--right">
-<img src="/images/mix-practice/reverb.jpg" alt="EMT 140 プレートリバーブの筐体" width="220" height="224" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FRM6H15J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mix-practice/reverb.jpg" alt="EMT 140 プレートリバーブの筐体" width="220" height="224" loading="lazy"></a>
 <figcaption>鉄板を震わせて残響を作った装置。いまのプレート系の設定はここが元になっている<span class="credit">Photo: EMT-Archiv-Lahr / <a href="https://commons.wikimedia.org/wiki/File:EMT_140.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

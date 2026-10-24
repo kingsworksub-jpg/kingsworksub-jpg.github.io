@@ -38,7 +38,7 @@ DAW連携はAbleton Liveがいちばん深く、クリップの起動からミ�
 ## 鍵盤のタッチは3種類に分かれる
 
 <figure class="photo photo--right">
-<img src="/images/launchkey-mk4/novation-controller.jpg" alt="Novationのコントローラーの鍵盤のクローズアップ" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/launchkey-mk4/novation-controller.jpg" alt="Novationのコントローラーの鍵盤のクローズアップ" width="220" height="147" loading="lazy"></a>
 <figcaption>Novationのコントローラーの鍵盤まわり（写真は25 SL MkII）。鍵の長さや奥行きは見た目以上に弾き心地を左右する。<span class="credit">Photo: Filori / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ DAW連携はAbleton Liveがいちばん深く、クリップの起動からミ�
 ## 机の幅という現実
 
 <figure class="photo photo--left">
-<img src="/images/launchkey-mk4/home-studio-desk.jpg" alt="鍵盤やラック機材が並ぶ自宅のスタジオ" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GWHFFCST?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/launchkey-mk4/home-studio-desk.jpg" alt="鍵盤やラック機材が並ぶ自宅のスタジオ" width="220" height="146" loading="lazy"></a>
 <figcaption>鍵盤が増えると机では収まらなくなり、スタンドと二段重ねの世界に入っていく。<span class="credit">Photo: George P. Macklin / CC BY-SA 2.0</span></figcaption>
 </figure>
 

@@ -23,7 +23,7 @@ draft: false
 ## スピリチュアルジャズとは何か
 
 <figure class="photo photo--right">
-<img src="/images/modern-jazz/kamasi-washington-live.jpg" alt="Saxophonist performing on stage" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07CBYKNH4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/kamasi-washington-live.jpg" alt="Saxophonist performing on stage" width="220" height="146" loading="lazy"></a>
 <figcaption>Jazz saxophonist in passionate performance</figcaption>
 <span class="credit">Photo: Pexels / cottonbro</span>
 </figure>
@@ -37,7 +37,7 @@ draft: false
 ## Dinner Party——スーパーグループの決定的瞬間
 
 <figure class="photo photo--left">
-<img src="/images/modern-jazz/dinner-party-album.jpg" alt="Jazz vinyl records" width="220" height="220" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B074DYKBFN?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/dinner-party-album.jpg" alt="Jazz vinyl records" width="220" height="220" loading="lazy"></a>
 <figcaption>Classic jazz records and vinyl culture</figcaption>
 <span class="credit">Photo: Pexels / Volker Thimm</span>
 </figure>
@@ -61,7 +61,7 @@ Robert Glasper『Black Radio』（2012）は Billboard 200 で#15、ジャズチ
 ## 2026年の景色
 
 <figure class="photo photo--right">
-<img src="/images/modern-jazz/spiritual-jazz-festival.jpg" alt="Jazz band performing on stage" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/spiritual-jazz-festival.jpg" alt="Jazz band performing on stage" width="220" height="146" loading="lazy"></a>
 <figcaption>Contemporary jazz ensemble performing live</figcaption>
 <span class="credit">Photo: Pexels / Cottonbro Studio</span>
 </figure>
