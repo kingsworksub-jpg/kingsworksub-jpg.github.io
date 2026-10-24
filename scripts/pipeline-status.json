@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:46:05+09:00",
+ "updated": "2026-10-25T07:46:19+09:00",
  "queue": {
   "published": 113,
   "rejected": 1,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published topre-hhkb-realforce-capacitive-keyboard-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-25T07:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-25T04:00:47+09:00",
+  "at": "2026-10-25T07:46:19+09:00",
   "engine": "claude",
-  "detail": "未コミットの変更が残っている限り、今後のネタ会議や補充でも冒頭の `git pull --rebase` が毎回失敗します。リモートに新しいアプリの操作が入った日は、それが取り込まれません。手元の変更をコミットするか退避しておくのがおすすめです。"
+  "detail": "The Google Docs connector also needs to be authorized in claude.ai connector settings before it can be used."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-25T07:46:19+09:00",
+   "engine": "claude",
+   "detail": "The Google Docs connector also needs to be authorized in claude.ai connector settings before it can be used."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -98,14 +101,6 @@
    "at": "2026-10-23T23:18:11+09:00",
    "engine": "claude",
    "detail": "- **Uncommitted changes not touched:** the working tree already had uncommitted changes (`topic_plan.py`, `post-to-ameba.py`, note drafts and others). I pulled with `--autostash`, left them as they were, and committed only the files for this article."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-23T21:30:19+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 9:50pm (Asia/Tokyo)"
   }
  ]
 }
