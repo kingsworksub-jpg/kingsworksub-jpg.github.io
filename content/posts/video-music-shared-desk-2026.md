@@ -119,5 +119,8 @@ scheduled_time: "12:00"
 画面を増やすか、スピーカーの位置を守るか。二者択一に見えて、実際には画面の並べ方を変えるだけで両立できることが多い。机の上の配置を一度組み直してから、足りないものを買い足すかどうかを考えても遅くないはずだ。
 
 ## 関連記事
+- [電源タップを替えてもハムノイズが消えない理由、機材と家電のコンセントの分け方](/posts/power-strip-hum-noise-guide-2026/)
+- [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
+- [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

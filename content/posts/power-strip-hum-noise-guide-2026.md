@@ -122,6 +122,10 @@ scheduled_time: "12:00"
 電源タップは、ハムを消す道具というより、机の機材の基準を1か所にまとめ、安全に電気を配るための道具だと考えると選びやすい。つなぎ方を整えてから最後にタップを選ぶ。この順番を守れば、余計な買い物をせずに、静かな制作机に近づけると思う。
 
 ## 関連記事
+- [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
+- [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
+- [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/)
+- [ノートPC1台でDTMを続けるなら、据え置きから持ち出すのは4つだけ](/posts/laptop-only-dtm-portable-setup-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

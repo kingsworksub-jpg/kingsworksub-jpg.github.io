@@ -1429,5 +1429,25 @@
       "tonic-water記事の画像差し替え",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-24T03:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "power-strip-hum-noise-guide-2026",
+      "sidechain-kick-bass-guide-2026",
+      "video-music-shared-desk-2026"
+    ],
+    "actions": [
+      "内部リンクが2本以下だった3記事の「関連記事」欄に関連DTM記事への内部リンクを3〜4本ずつ追加",
+      "power-strip記事のAmebaリンクを汎用 blog.ameba.jp から ameblo.jp/sfd0501/ に修正"
+    ],
+    "files_changed": 4,
+    "status": "完了(Hatena/Ameba/note未巡回。hugo未導入のためビルド確認は未実施、リンク先スラッグの実在のみ確認)",
+    "next_kpis": [
+      "未巡回の2026-09-22-*(draft)と bebop-52nd-street-nights の点検",
+      "Hatena/Ameba/note巡回と drafts 改定案",
+      "seo-audit実行環境の整備"
+    ]
   }
 ]
