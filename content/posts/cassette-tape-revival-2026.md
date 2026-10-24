@@ -33,7 +33,7 @@ scheduled_time: "23:00"
 ## 1963年、ポケットに入るテープ
 
 <figure class="photo photo--right">
-<img src="/images/cassette-tape/trio.jpg" alt="1982年のライブ録音を収めた、緑色のラベルのミュージックテープ" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HBWXJJCJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cassette-tape/trio.jpg" alt="1982年のライブ録音を収めた、緑色のラベルのミュージックテープ" width="1000" height="666" loading="lazy"></a>
 <figcaption>1982年のライブを収めた西ドイツ製のミュージックテープ。ラベルの右上に二酸化クロムのテープであることが書かれている<span class="credit">Photo: Havelbaude / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ scheduled_time: "23:00"
 ## 劣化することが前提の媒体
 
 <figure class="photo photo--left">
-<img src="/images/cassette-tape/loose-tape.jpg" alt="カセットから引き出された茶色の磁気テープが絡まって机の上に広がっている" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HBWXJJCJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cassette-tape/loose-tape.jpg" alt="カセットから引き出された茶色の磁気テープが絡まって机の上に広がっている" width="1000" height="666" loading="lazy"></a>
 <figcaption>殻から引き出されて絡まった磁気テープ。茶色く見えるのは、表面に塗られた酸化鉄の色だ<span class="credit">Photo: Tim Reckmann / CC BY 2.0</span></figcaption>
 </figure>
 

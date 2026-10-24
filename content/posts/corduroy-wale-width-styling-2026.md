@@ -26,7 +26,7 @@ scheduled_time: "18:30"
 ## 太畝がもたらす存在感とカントリーテイスト
 
 <figure class="photo photo--left">
-<img src="/images/corduroy/style1.jpg" alt="コーデュロイのコーディネート例" width="667" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F8HW8KP6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/corduroy/style1.jpg" alt="コーデュロイのコーディネート例" width="667" height="1000" loading="lazy"></a>
 <figcaption>太畝のコーデュロイが持つ独特の立体感と存在感は、秋冬のスタイリングに温かみを与えてくれる。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span>
 </figure>
@@ -40,7 +40,7 @@ scheduled_time: "18:30"
 ## 細畝が演出するクリーンで上品な表情
 
 <figure class="photo photo--right">
-<img src="/images/corduroy/style2.jpg" alt="コーデュロイのパンツスタイル" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HJH26XY8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/corduroy/style2.jpg" alt="コーデュロイのパンツスタイル" width="1000" height="750" loading="lazy"></a>
 <figcaption>細畝のコーデュロイは一見すると無地のような繊細さがあり、きれいめなスタイルに馴染む。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span>
 </figure>
