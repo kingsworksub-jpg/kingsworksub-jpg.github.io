@@ -16,7 +16,7 @@ scheduled_time: "23:00"
 ## 先に結論、スコッチとの違いを数字で並べる
 
 <figure class="photo photo--left">
-<img src="/images/irish-whiskey/midleton-pot-still.jpg" alt="芝生の上に展示された、球形の胴に長い首と曲がった管がついた大きな銅製の単式蒸溜器" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00IXL9982?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/irish-whiskey/midleton-pot-still.jpg" alt="芝生の上に展示された、球形の胴に長い首と曲がった管がついた大きな銅製の単式蒸溜器" width="1000" height="750" loading="lazy"></a>
 <figcaption>コーク州ミドルトンの旧蒸溜所に展示されている大型の単式蒸溜器。アイルランドの蒸溜所は、かつてこうした巨大なポットスチルで生の大麦を含む原料を蒸溜していた<span class="credit">Photo: Stephan Schulz / CC BY-SA 3.0</span></figcaption>
 </figure>
 

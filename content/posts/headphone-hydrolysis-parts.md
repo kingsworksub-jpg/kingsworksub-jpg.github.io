@@ -44,7 +44,7 @@ draft: false
 ## イヤーパッドは工具なしで外れることが多い
 
 <figure class="photo photo--right">
-<img src="/images/hp-hydro/diy-repair.jpg" alt="イヤーパッドを外したヘッドホンと、取り外された2枚のイヤーパッド" width="1000" height="664" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GVPGKSCS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hp-hydro/diy-repair.jpg" alt="イヤーパッドを外したヘッドホンと、取り外された2枚のイヤーパッド" width="1000" height="664" loading="lazy"></a>
 <figcaption>パッドを外すと、ドライバーを覆う樹脂のプレートが現れる<span class="credit">Photo: Bait30 / <a href="https://commons.wikimedia.org/wiki/File:Beats_headphones_diy_repair.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ draft: false
 ## 部品の探し方と、値段の目安
 
 <figure class="photo photo--right">
-<img src="/images/hp-hydro/home-studio.jpg" alt="モニターに掛けられたヘッドホンのある机上の作業環境" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00HVLUR86?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hp-hydro/home-studio.jpg" alt="モニターに掛けられたヘッドホンのある机上の作業環境" width="1000" height="750" loading="lazy"></a>
 <figcaption>吊るして置くだけでも、密閉したケースにしまうより条件はよくなる<span class="credit">Photo: Tim Wilson / <a href="https://commons.wikimedia.org/wiki/File:The_Podcave_home_studio_update_(179160280).jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 

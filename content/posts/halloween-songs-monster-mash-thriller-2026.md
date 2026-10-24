@@ -20,7 +20,7 @@ scheduled_time: "23:00"
 ## 古いハロウィンには、決まった歌がなかった
 
 <figure class="photo photo--left">
-<img src="/images/halloween-songs/party-1935.jpg" alt="1935年のロサンゼルスで、仮装した子どもたちがかぼちゃのランタンを持って庭に並んでいる白黒写真" width="808" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0798GTRCX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/halloween-songs/party-1935.jpg" alt="1935年のロサンゼルスで、仮装した子どもたちがかぼちゃのランタンを持って庭に並んでいる白黒写真" width="808" height="1000" loading="lazy"></a>
 <figcaption>1935年、ロサンゼルスのハロウィンパーティーに集まった子どもたち。手前の女の子がかぼちゃの顔の飾りを掲げている<span class="credit">Photo: Los Angeles Times / CC BY 4.0</span></figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ scheduled_time: "23:00"
 ## 夏の大ヒットが、秋の定番曲になる
 
 <figure class="photo photo--right">
-<img src="/images/halloween-songs/jack-o-lantern.jpg" alt="暗闇のなかで光るかぼちゃのランタン。木の枝にとまる猫の影絵が彫られている" width="800" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C952CJLX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/halloween-songs/jack-o-lantern.jpg" alt="暗闇のなかで光るかぼちゃのランタン。木の枝にとまる猫の影絵が彫られている" width="800" height="1000" loading="lazy"></a>
 <figcaption>木の枝にとまる猫の影絵を彫ったかぼちゃのランタン。南半球のオーストラリアでは、ハロウィンは春の行事になる<span class="credit">Photo: Ashton 29 / CC BY-SA 4.0</span></figcaption>
 </figure>
 

@@ -73,7 +73,7 @@ fatal: 'feature' is already used by worktree at 'C:/Users/norio/AppData/Local/Te
 ## 共有されるものと、フォルダごとに別のもの
 
 <figure class="photo photo--right">
-<img src="/images/git-worktree/branches-example.png" alt="複数のブランチとマージが色付きの線で描かれた、Gitのコミット履歴のグラフ表示" width="220" height="60" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4297153939?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/git-worktree/branches-example.png" alt="複数のブランチとマージが色付きの線で描かれた、Gitのコミット履歴のグラフ表示" width="220" height="60" loading="lazy"></a>
 <figcaption>どのワークツリーから`git log --graph`を見ても、同じ1本の履歴が出てくる<span class="credit">Photo: Self / <a href="https://commons.wikimedia.org/wiki/File:Git_branches_example.png" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ fatal: 'feature' is already used by worktree at 'C:/Users/norio/AppData/Local/Te
 ## フォルダを手で消したときは、pruneで片付ける
 
 <figure class="photo photo--left">
-<img src="/images/git-worktree/git-gui-error.png" alt="Git Guiのエラーダイアログに、Not a Git repositoryと表示されている画面" width="220" height="110" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4297153939?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/git-worktree/git-gui-error.png" alt="Git Guiのエラーダイアログに、Not a Git repositoryと表示されている画面" width="220" height="110" loading="lazy"></a>
 <figcaption>作業フォルダと本体のつながりが切れると、Gitはそこをリポジトリとして認識しなくなる<span class="credit">Photo: Software: Junio Hamano, Linus Torvalds und andere Screenshot: PantheraLeo1359531 / <a href="https://commons.wikimedia.org/wiki/File:20231112_13_44_46-Git_Gui_error.png" target="_blank" rel="noopener">GPLv2</a></span></figcaption>
 </figure>
 

@@ -18,7 +18,7 @@ scheduled_time: "20:00"
 ## GGUFフォーマットと量子化の基礎構造
 
 <figure class="photo photo--left">
-<img src="/images/tech/server1.jpg" alt="サーバー室のイメージ" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F4XC69KL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/tech/server1.jpg" alt="サーバー室のイメージ" width="1000" height="750" loading="lazy"></a>
 <figcaption>ローカルLLMの運用において、メモリ容量とハードウェアの制約を最適化する量子化は不可欠な技術である。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span>
 </figure>
@@ -46,7 +46,7 @@ GGUFにおける量子化方式（Q-type）は、単にすべての数値を一�
 ## 困惑度と精度への影響 — スウィートスポットを見極める
 
 <figure class="photo photo--right">
-<img src="/images/tech/server2.jpg" alt="サーバーラックの様子" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F4XC69KL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/tech/server2.jpg" alt="サーバーラックの様子" width="1000" height="750" loading="lazy"></a>
 <figcaption>限られたVRAMのなかで最高のパフォーマンスを引き出すため、適切な量子化モデルの選択が重要となる。</figcaption>
 <span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span>
 </figure>
