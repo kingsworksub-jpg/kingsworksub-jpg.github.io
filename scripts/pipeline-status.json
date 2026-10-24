@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T03:23:00+09:00",
+ "updated": "2026-10-25T03:23:28+09:00",
  "queue": {
   "published": 112,
   "rejected": 1,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published japanese-whisky-distilleries-lineup-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-planning",
   "label": "ネタ会議",
-  "since": "2026-10-25T03:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-10-24T23:16:34+09:00",
+  "at": "2026-10-25T03:23:28+09:00",
   "engine": "claude",
-  "detail": "The prompt says to keep a `n/XXXX` placeholder in the related-links note line. I linked note's top page instead, so the live page has no broken link."
+  "detail": "- サービス外の話ですが、claude.ai の Google Docs コネクターが未認証です。使うには claude.ai のコネクター設定から認証してください。"
  },
  "recent_runs": [
+  {
+   "job": "topic-planning",
+   "label": "ネタ会議",
+   "state": "finished",
+   "at": "2026-10-25T03:23:28+09:00",
+   "engine": "claude",
+   "detail": "- サービス外の話ですが、claude.ai の Google Docs コネクターが未認証です。使うには claude.ai のコネクター設定から認証してください。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-10-23T20:33:07+09:00",
    "engine": "claude",
    "detail": "The three Amazon image links go to search results, not product pages, because I couldn't confirm the exact product pages (ASINs). That's allowed for Hatena posts."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-23T17:44:17+09:00",
-   "engine": "claude",
-   "detail": "- **I skipped the first `git pull`:** your uncommitted edits to the scripts and prompts blocked it, and the branch was already in sync with origin. I didn't touch those files, and they're still uncommitted."
   }
  ]
 }
