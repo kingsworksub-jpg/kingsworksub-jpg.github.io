@@ -2,9 +2,11 @@
 ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ
 
 # タグ（1行にまとめて貼り付け）
-#ミックス #DTM #EQ #コンプレッサー #リバーブ #練習 #learning
+#ミックス #DTM #EQ #コンプレッサー #リバーブ #練習 #misc
 
 # 本文（ここから貼り付け）
+
+オリジナル記事: https://kingsworksub-jpg.github.io/posts/mix-practice-1month/
 
 ミックスの独学が続かないのは、毎回ちがう曲に手を出すからだと思う。同じ一曲を題材にEQ・コンプ・リバーブを一週ずつ回す四週間の練習メニューと、無料で使えるマルチトラックの入手先、耳が慣れきる前に判断を戻す手順をまとめた。
 
@@ -100,7 +102,7 @@
 
 （出典: Photo: Quercus acuta / <a href="https://commons.wikimedia.org/wiki/File:SONY_MDR-CD900ST.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=SONY+MDR-CD900ST&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=SONY+MDR-CD900ST&tag=note-img-sub-22
 
 四週目で、ようやく三つを同時に使う。ここまでの三週間で、どの道具が何を変えるのかは掴めているはずなので、順番だけ決めておけば迷わない。素のバランスを取り、EQで削り、コンプで整え、最後にリバーブで奥行きを付ける。足りなければ戻って削り直す。
 
@@ -139,6 +141,8 @@ Amazonで見る: https://www.amazon.co.jp/s?k=SONY+MDR-CD900ST&tag=nakimoto1-22
 読み物を一冊だけ横に置いておきたいなら、さきほどのマルチトラック・ライブラリを運営しているマイク・シニアが書いた『Mixing Secrets for the Small Studio』が、ちょうどこの進め方と噛み合う。二〇二五年九月に出た第三版が最新で、聴くこと自体の訓練から、下ごしらえ、バランス、仕上げへと章が積み上がっていく構成になっている。章ごとに課題が付いていて、ライブラリの素材をそのまま使えるように作られているのが強みだ。残念ながら邦訳は出ていないので、原書を読むことになる。
 
 この進め方で確実に遅いのは、覚える順番が一つずつだからだ。三つ同時に触れば一週間で一曲は仕上がる。ただ、そうやって仕上げた曲は、どこが効いたのか説明できない。説明できない処理は次の曲に持っていけないので、結局また最初からやることになる。遠回りに見えて、一つずつ分けたほうが早く着く——というのが、この組み立てにしている理由だ。
+
+**関連記事**: [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](https://kingsworksub-jpg.github.io/posts/home-studio-100k-budget-2026/) · [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](https://kingsworksub-jpg.github.io/posts/monitor-headphones-5choice-2026/) · [モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる](https://kingsworksub-jpg.github.io/posts/nearfield-monitors-5choice-2026/)
 
 ---
 

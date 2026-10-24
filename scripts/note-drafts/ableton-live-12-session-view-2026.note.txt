@@ -6,7 +6,9 @@ Ableton Live 12のセッションビューが変える作曲の順番
 
 # 本文（ここから貼り付け）
 
-Ableton Live 12のセッションビューは、タイムラインに置く前にクリップを組み替えるための画面だ。シーンとローンチ設定、フォローアクションの仕組みから、ライブ専用ではない作曲動線としての使い方を整理する。
+オリジナル記事: https://kingsworksub-jpg.github.io/posts/ableton-live-12-session-view-2026/
+
+Ableton Live 12のセッションビューを、縦の列と横の行で曲が立ち上がる仕組みから整理する。ローンチモード4種、フォローアクション、ワープと量子化の違い、エディション選びまで順に見ていく。作曲の動線としての使い方も紹介する。
 
 多くのDAWは、左から右へ時間が流れる一本の帯の上に素材を置いていく。小節1があって、小節2があって、その順番に沿って曲を組み立てる。頭の中にすでに完成形がある人にとっては、これ以上なく素直な設計だと思う。
 
@@ -22,7 +24,7 @@ Ableton Live にも同じ帯はある。アレンジメントビューと呼ば�
 
 （出典: Photo: Dennis Afraz / <a href="https://commons.wikimedia.org/wiki/File:Ableton_Live_Screenshot.png" target="_blank" rel="noopener">CC BY-SA 3.0</a>）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B0CYHNLY74?tag=note-img-sub-22
 
 セッションビューの格子は、縦の列が1本のトラックに対応している。ドラム、ベース、シンセ、といった具合に楽器ごとに列が立っていて、その列に属するマス目のひとつひとつがクリップスロットになる。ここに置かれた音の断片がクリップで、ひとつの列が同時に鳴らせるクリップはひとつだけという決まりがある。同じトラックの別のマスを押すと、それまで鳴っていたクリップは引っ込んで新しいほうに入れ替わる。この「列はひとつしか鳴らない」という制約が、素材の差し替えをそのまま演奏操作にしている。
 
@@ -110,7 +112,7 @@ Live には Intro、Standard、Suite の3種類がある。差は主に数の制
 
 動作環境も確認しておきたい。Windows は 10 の 22H2 以降または 11 で、CPU が AVX2 という命令セットに対応している必要がある。世代の古いマシンではこの条件で弾かれることがあるので、中古機や長く使っている機械に入れる場合は先に確認しておくと安全だ。macOS は 11.7.10 以降、メモリは8GBから。本体の導入に8GB、付属音源をすべて入れると76GBほどの空き容量を使う。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=note-img-sub-22">
 <img src="/images/products/ableton-live.png" alt="Ableton Live 12 Suite">
 
 Ableton Live 12 Suite
@@ -118,7 +120,7 @@ Amazonで見る →
 
 </a>
 
-パッケージ版は Amazon でも扱いがあり、[Intro](https://www.amazon.co.jp/dp/B0DFLVKFKB?tag=nakimoto1-22)、[Standard](https://www.amazon.co.jp/dp/B0DFLY7VHB?tag=nakimoto1-22)、[Suite](https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22) の3種類が並んでいる。上位版への差額アップグレードも用意されているので、Intro から始めて足りなくなってから乗り換える道も塞がってはいない。
+パッケージ版は Amazon でも扱いがあり、[Intro](https://www.amazon.co.jp/dp/B0DFLVKFKB?tag=note-img-sub-22)、[Standard](https://www.amazon.co.jp/dp/B0DFLY7VHB?tag=note-img-sub-22)、[Suite](https://www.amazon.co.jp/dp/B0CYHNLY74?tag=note-img-sub-22) の3種類が並んでいる。上位版への差額アップグレードも用意されているので、Intro から始めて足りなくなってから乗り換える道も塞がってはいない。
 
 ## 格子から始めるか、帯から始めるか
 
@@ -127,6 +129,12 @@ Amazonで見る →
 タイムライン型のDAWは、素材を置いた時点で何かが決まる。それは悪いことではなく、決まるからこそ前に進める。ただ、頭の中に完成形がまだ無い段階では、決めることが早すぎる場合もある。セッションビューはその段階を引き延ばすための装置で、フォローアクションも、シーンごとのテンポも、レガートも、決めずに鳴らし続けるための部品として並んでいる。
 
 曲の骨格が先に見えているタイプの人なら、アレンジメントビューだけで最後まで走り切れる。Liveはその使い方もちゃんと受け止める。一方で、鳴らしてみないと分からない、並べ替えてみないと決まらないという進め方をしているなら、縦の格子から入る順番のほうが合っているかもしれない。同じソフトの中に、作曲の順番がふた通り用意されている。
+
+## 関連記事
+
+- [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](https://kingsworksub-jpg.github.io/posts/fl-studio-pattern-piano-roll/)
+- [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](https://kingsworksub-jpg.github.io/posts/fender-studio-pro-8-studio-one-2026/)
+- [Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで](https://kingsworksub-jpg.github.io/posts/logic-pro-drummer-workflow-2026/)
 
 ---
 

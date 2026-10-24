@@ -8,7 +8,7 @@
 
 オリジナル記事: https://kingsworksub-jpg.github.io/posts/taiwan-india-whisky-climate-2026/
 
-スコットランドの涼しい気候とは対照的に、台湾とインドの蒸溜所は高温多湿の環境でウイスキーを熟成させる。天使の分け前が年間10〜15%に達し、熟成速度はスコットランドの3〜5倍になる。KavalanとAmrutの3本を通じて、気候がウイスキーの味わいをどう変えるのかを見ていく。
+高温多湿の台湾とインドでは天使の分け前が年10〜15%に達し、熟成速度はスコットランドの3〜5倍。KavalanとAmrutの3本から、気候がウイスキーの味を変える仕組みを見ていく。飲み比べの手がかりも示す。
 
 スコットランドの冷涼な気候で10年、15年とじっくり樽の中で眠らせる——長年ウイスキーの世界で信じられてきた「長い年月こそが良質な熟成を生む」という常識が、アジアの熱い土地で静かに書き換えられている。台湾とインド。どちらもスコットランドの気候からはおよそ想像もつかない高温多湿、あるいは強い日差しと乾燥に包まれた環境でシングルモルトを仕込んでいる。
 
@@ -40,9 +40,9 @@
 
 *Kavalan Classic*
 
-（出典: Photo: othree / CC BY 2.0 <a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22">Amazonで見る →</a>）
+（出典: Photo: othree / CC BY 2.0 <a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=note-img-sub-22">Amazonで見る →</a>）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B007A9JLMM?tag=note-img-sub-22
 
 カバランのスタンダードボトルであり、世界に台湾ウイスキーの名を知らしめた旗艦銘柄が「Kavalan Classic」だ。アルコール度数は飲みやすい40%に調整されており、年数表示のないノンエイジ（NAS）としてリリースされている。バーボン樽とシェリー樽を主軸にした複数の樽のヴァッティングで構成されている。
 
@@ -82,9 +82,9 @@ Amazonで見る: https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22
 
 *Amrut Fusion*
 
-（出典: Photo: Vikrambj / CC BY-SA 3.0 <a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22">Amazonで見る →</a>）
+（出典: Photo: Vikrambj / CC BY-SA 3.0 <a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=note-img-sub-22">Amazonで見る →</a>）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B009R1NX0M?tag=note-img-sub-22
 
 インドのウイスキーといえば、かつては廃糖蜜（モラセス）を原料にした安価なスピリッツが主流だった時代があった。そのイメージを根底から覆し、世界最高峰のシングルモルトとしての地位を確立した立役者が、バンガロールのアムルット蒸溜所が放つ「Amrut Fusion」だ。
 
@@ -116,7 +116,8 @@ Amazonで見る: https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
+
+**関連記事**: [エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある](https://kingsworksub-jpg.github.io/posts/angels-share-evaporation-essay-2026/) · [バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方](https://kingsworksub-jpg.github.io/posts/bourbon-5choice-2026/) · [新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え](https://kingsworksub-jpg.github.io/posts/new-scotch-distilleries-young-whisky-2026/)
 
 ---
 

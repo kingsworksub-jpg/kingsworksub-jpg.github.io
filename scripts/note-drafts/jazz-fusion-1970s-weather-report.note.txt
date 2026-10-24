@@ -8,7 +8,7 @@
 
 オリジナル記事: https://kingsworksub-jpg.github.io/posts/jazz-fusion-1970s-weather-report/
 
-『Bitches Brew』から始まった1970年代のフュージョン。Weather Report、Return to Forever、ハービー・ハンコックがピアノとウッドベースの編成から何を手放し、電気ピアノとシンセで何を得たのかを、ベースと鍵盤の役割の入れ替わりを軸にたどる。
+『Bitches Brew』から始まった1970年代のフュージョン。Weather ReportやReturn to Foreverで、ベースと鍵盤の役割がどう入れ替わったのかを、電気ピアノとシンセの導入からたどる。
 
 ジャズのレコードを年代順に並べて聴いていくと、1970年前後のどこかで、急に部屋の空気が変わる瞬間がある。それまで木と真鍮と羊の腸の弦でできていた音に、電気の唸りが混ざりはじめるのだ。ピアノの代わりに金属の棒を叩く電気ピアノが鳴り、ウッドベースの隣にエレクトリック・ベースが並び、やがて鍵盤の上には配線だらけの箱が載るようになる。のちにフュージョンと呼ばれることになる音楽の、最初の10年である。
 
@@ -38,7 +38,7 @@
 
 （出典: Photo: Jun Tendo / Public domain）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=Weather+Report+Heavy+Weather&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=Weather+Report+Heavy+Weather&tag=note-img-sub-22
 
 ザヴィヌルとウェイン・ショーターが、チェコ出身のベーシスト、ミロスラフ・ヴィトウスと組んで1970年に結成したのがWeather Reportである。1971年5月にコロムビアから出たデビュー作『Weather Report』では、ザヴィヌルはまだ主に電気ピアノを弾いていて、シンセサイザーは使っていない。それでも、このアルバムの聴こえ方はそれまでのジャズとまったく違う。
 
@@ -80,7 +80,7 @@ Weather Reportには「全員がいつもソロをとっていて、同時に誰
 
 （出典: Photo: ArtBrom from Seattle / CC BY-SA 2.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=Return+to+Forever+Romantic+Warrior&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=Return+to+Forever+Romantic+Warrior&tag=note-img-sub-22
 
 チック・コリアのReturn to Foreverは、同じ「電気化」でもまったく違う道筋をたどったバンドだ。1972年2月に録音され、ECMから出たデビュー作『Return to Forever』の編成は、コリアの電気ピアノ、スタンリー・クラークのウッドベース、ジョー・ファレルのフルートとソプラノ・サックス、アイアート・モレイラのドラムとパーカッション、フローラ・プリムの歌。ブラジル音楽の風通しのよさを持った、軽やかで歌心のある音楽だった。翌1973年の『Light as a Feather』には、コリアの代表曲になる「Spain」が入っている。
 
@@ -120,8 +120,7 @@ Weather Reportは1986年に活動を止め、ザヴィヌルは2007年、ショ�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン](https://kingsworksub-jpg.github.io/posts/hammond-b3-jazz-organ-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [『Oxygène』50周年盤が11月に出る。ジャールが自宅で重ねたシンセの音を、宅録の原点として聴き直す](https://kingsworksub-jpg.github.io/posts/jarre-oxygene-50th-2026/)
 
 ---
 

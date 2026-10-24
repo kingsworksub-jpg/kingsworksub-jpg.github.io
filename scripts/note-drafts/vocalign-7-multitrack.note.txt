@@ -90,6 +90,12 @@ VocAlign 7 は ARA 2 に対応している。ARA が使える環境なら、DAW 
 
 それでも、重ねた声を一枚のタイムラインに並べて眺められるようになったこと自体が、作業の性質を少し変えていると思う。これまでは「ガイドとダブル」という二本の関係を何度も作り直していたのが、合唱全体の揃い方を一度に見て、どこを直すか決める作業になった。ボーカル編集で消耗していたのは切り貼りの手数そのものより、どこがずれているかを探して往復する時間のほうだったのだと、画面が変わってみて気づかされた。
 
+## 関連記事
+
+- [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](https://kingsworksub-jpg.github.io/posts/kontakt-8-player-and-builder-2026/)
+- [Ableton Live 12のセッションビューが変える作曲の順番](https://kingsworksub-jpg.github.io/posts/ableton-live-12-session-view-2026/)
+- [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](https://kingsworksub-jpg.github.io/posts/fl-studio-pattern-piano-roll/)
+
 ---
 
 元記事（ブログ）: https://kingsworksub-jpg.github.io/posts/vocalign-7-multitrack/

@@ -38,7 +38,7 @@
 
 （出典: Photo: Kurakurakid / CC BY-SA 4.0）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B00U78NXGI?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B00U78NXGI?tag=note-img-sub-22
 
 錫のちろりで燗をつけると早い、とよく言われる。これは感覚の話ではなく、素材の数字にはっきり表れている。熱の伝わりやすさを表す熱伝導率で比べると、錫はおよそ67 W/(m・K)。陶磁器は1.5前後、ガラスは1前後なので、錫は陶器の40倍以上、ガラスの60倍以上の速さで熱を通すことになる。ちなみに銅は約400、アルミニウムは約237、ステンレスは約16で、錫はステンレスより速く、銅やアルミよりは穏やかという、ちょうど中ほどに位置している。
 
@@ -117,12 +117,15 @@ Amazonで見る: https://www.amazon.co.jp/dp/B00U78NXGI?tag=nakimoto1-22
 
 「まろやかになる」という言い伝えについては、私は錫の不思議な力というより、燗の温度を整えやすい道具の性格が生んだ評判だと考えている。それでも、重く冷たい錫を手に取り、湯気の立つ鍋に沈めて、胴を指で触りながら引き上げどきを待つ時間は、ほかの器ではなかなか味わえない。冬のあいだ、一本のちろりで燗の温度を少しずつ変えながら、好みのところを探していくのは、なかなか楽しい付き合い方だと思う。
 
-大阪錫器の千呂利は、[Amazonでも扱いがある](https://www.amazon.co.jp/dp/B00U78NXGI?tag=nakimoto1-22)。初めての一本なら、1合から1.5合ほどの容量で、持ち手が熱くなりにくい籐巻きのものを選ぶと扱いやすい。
+大阪錫器の千呂利は、[Amazonでも扱いがある](https://www.amazon.co.jp/dp/B00U78NXGI?tag=note-img-sub-22)。初めての一本なら、1合から1.5合ほどの容量で、持ち手が熱くなりにくい籐巻きのものを選ぶと扱いやすい。
 
 ---
 
 ## 関連記事
 
+- [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](https://kingsworksub-jpg.github.io/posts/kanzake-temperature-shukanki-2026/)
+- [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
+- [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](https://kingsworksub-jpg.github.io/posts/nousaku-tin-sake-set-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://blog.ameba.jp/)

@@ -70,7 +70,7 @@
 
 （出典: Photo: サフィル / CC BY-SA 4.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=note-img-sub-22
 
 鉄瓶の口は細く、徳利をそのまま中に入れることはできない。だから鉄瓶を燗に使うときは、鉄瓶で沸かした湯を、片口や小さな鉢、燗用の湯煎鍋に注いで、そこへ徳利を立てる形になる。鉄瓶は湯を作り、湯を足すための道具として働く。
 
@@ -90,7 +90,7 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%
 
 （出典: Photo: Misakubo / CC BY-SA 3.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=note-img-sub-22
 
 鉄瓶を使うと決めたら、錆の話は避けて通れない。新品の鉄瓶は、まず八分目まで水を入れて中火で沸かし、湯を捨てることを2〜3回繰り返す。湯が澄んで、口当たりに嫌な金気がなくなれば使い始めていい。鉄瓶の内側には、仕上げの工程で炭火にかけて高温で焼き、表面に酸化被膜を作る「釜焼き」という処理がされている。この黒い被膜が、むき出しの鉄を赤錆から守っている。そこへ使い込むうちに、水道水に含まれるカルシウムなどが白っぽい膜になって積み重なっていく。これが「湯垢」で、湯垢が育つほど鉄瓶は錆びにくくなり、湯の口当たりもまろやかになるといわれる。
 
@@ -115,14 +115,16 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%
 
 鉄の道具は、手をかけないとすぐに錆びる。けれど、毎回の手入れは湯を捨てて乾かすだけで、むずかしいことは何もない。使うほど内側に湯垢が育ち、湯の口当たりが変わっていく。冬のあいだ、その変化を一本の鉄瓶で追いかけてみるのは、なかなか楽しい付き合い方だと思う。
 
-南部鉄器の鉄瓶は、[Amazonでも各工房のものを探せる](https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=nakimoto1-22)。初めての一本なら、容量1リットル前後で、ガスとIHのどちらに対応しているかを確かめて選ぶと失敗が少ない。
+南部鉄器の鉄瓶は、[Amazonでも各工房のものを探せる](https://www.amazon.co.jp/s?k=%E5%8D%97%E9%83%A8%E9%89%84%E5%99%A8+%E9%89%84%E7%93%B6&tag=note-img-sub-22)。初めての一本なら、容量1リットル前後で、ガスとIHのどちらに対応しているかを確かめて選ぶと失敗が少ない。
 
 ---
 
 ## 関連記事
 
+- [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](https://kingsworksub-jpg.github.io/posts/kanzake-temperature-shukanki-2026/)
+- [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](https://kingsworksub-jpg.github.io/posts/suzu-chirori-kanzake-2026/)
+- [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](https://kingsworksub-jpg.github.io/posts/hirota-glass-chirori-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 
 ---

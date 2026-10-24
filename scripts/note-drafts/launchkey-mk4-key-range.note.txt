@@ -2,7 +2,7 @@
 Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった
 
 # タグ（1行にまとめて貼り付け）
-#Novation #Launchkey #MIDIキーボード #DTM #宅録 #gear
+#Novation #Launchkey #MIDIキーボード #DTM #宅録 #misc
 
 # 本文（ここから貼り付け）
 
@@ -22,7 +22,7 @@ NovationのLaunchkeyがMK4になったのは2024年の夏で、そのときに�
 
 （出典: Photo: Pete Brown from Gambrills, MD, USA / CC BY 2.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=Novation+Launchkey+Mini+MK4&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=Novation+Launchkey+Mini+MK4&tag=note-img-sub-22
 
 共通部分から見ていく。まずパッドが16個。4×4で並んでいて、ベロシティに加えてポリフォニックアフタータッチに対応する。押したあとの圧力をパッドごとに別々に送れるので、和音を押さえたまま一音だけ揺らす、といった使い方ができる。この価格帯でパッドにポリアフターが載っているのは珍しく、MK4のいちばんの売りだと思う。
 
@@ -82,7 +82,7 @@ DAW連携はAbleton Liveがいちばん深く、クリップの起動からミ�
 
 （出典: Photo: Misaochan / CC BY-SA 3.0）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B0H75ZZ5B8?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B0H75ZZ5B8?tag=note-img-sub-22
 
 49鍵は4オクターブで、左手のベースと右手のコードが同時に置ける最小の構成になる。宅録でいちばん売れているサイズなのも納得で、鍵盤を弾いて入力する前提なら、ここから下は妥協、ここから上は贅沢という線引きになる。セミウェイテッド鍵盤が始まるのもこのサイズからなので、実質的にMK4の性格が変わる境目でもある。
 
@@ -112,6 +112,12 @@ Amazonで見る: https://www.amazon.co.jp/dp/B0H75ZZ5B8?tag=nakimoto1-22
 私がいま一台だけ選ぶなら49鍵にする。730mmは机の上で許せる最大寸法で、セミウェイテッドの手応えがあって、左手と右手を同時に置ける。61鍵の余裕には惹かれるが、机を買い替える気はない。そして88鍵については、置き場所が決まっている人だけが買えばいい機種だと思う。1274mmという数字は、鍵盤の都合ではなく部屋の都合で決まるものだから。
 
 鍵盤側のアフタータッチが無いことだけは最後まで引っかかっている。パッドにポリアフターを載せられるのだから、いずれMK5あたりで鍵盤にも来るのではないかと期待している。それでも、7機種すべてで同じことができるという設計は、買う側にとってはずいぶん親切だ。迷うところが鍵数だけに絞られているというのは、楽器選びとしてはかなり楽な部類に入る。
+
+## 関連記事
+
+- [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](https://kingsworksub-jpg.github.io/posts/midi-keyboard-5choice-2026/)
+- [Akai MPK Mini MK4の25鍵でできること、上位機に任せること](https://kingsworksub-jpg.github.io/posts/akai-mpk-mini-mk4-deep-dive-2026/)
+- [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](https://kingsworksub-jpg.github.io/posts/music-theory-3month-plan/)
 
 ---
 

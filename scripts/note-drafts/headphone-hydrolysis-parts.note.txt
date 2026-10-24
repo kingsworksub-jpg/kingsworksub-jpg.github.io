@@ -2,9 +2,11 @@
 加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す
 
 # タグ（1行にまとめて貼り付け）
-#ヘッドホン #加水分解 #イヤーパッド #メンテナンス #オーディオテクニカ #gear
+#ヘッドホン #加水分解 #イヤーパッド #メンテナンス #オーディオテクニカ #misc
 
 # 本文（ここから貼り付け）
+
+オリジナル記事: https://kingsworksub-jpg.github.io/posts/headphone-hydrolysis-parts/
 
 合皮のイヤーパッドとヘッドバンドは数年でベタつき、やがて黒い粉になって剥がれ落ちる。加水分解という化学反応の正体と、単品で売られている交換部品を使って自分で張り替える手順、劣化を遅らせる保管の作法まで順にまとめた。
 
@@ -22,7 +24,7 @@
 
 （出典: Photo: Jose C Silva / <a href="https://www.flickr.com/photos/61676142@N00/22330935543" target="_blank" rel="noopener">CC BY 2.0</a>）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B00HVLUR86?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B00HVLUR86?tag=note-img-sub-22
 
 イヤーパッドやヘッドバンドに使われている「合成皮革」「プロテインレザー」「PUレザー」は、呼び名こそ違うが中身はだいたい同じで、布地の上にポリウレタンの膜を塗った素材だ。手触りが革に近く、安く作れて、縫製も自由がきく。弱点はひとつだけで、その膜が水と反応して分解する。
 
@@ -66,7 +68,7 @@ Amazonで見る: https://www.amazon.co.jp/dp/B00HVLUR86?tag=nakimoto1-22
 
 （出典: Photo: P0lykey / <a href="https://commons.wikimedia.org/wiki/File:Audio-Technica_Headphones_(Custom_Earpads).jpg" target="_blank" rel="noopener">CC0</a>）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B00MFM9DKY?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B00MFM9DKY?tag=note-img-sub-22
 
 純正と同じものを買い直せば音はほぼ元に戻る。これがいちばん無難な選択で、迷うくらいならこれでいい。ただ、交換は素材を変える機会でもあるので、それぞれの性格は知っておいて損がない。
 
@@ -123,6 +125,11 @@ Amazonで見る: https://www.amazon.co.jp/dp/B00MFM9DKY?tag=nakimoto1-22
 逆に、部品が廃番で社外品の対応表にも型番が見当たらず、しかも中のフォームまで崩れているなら、そこが潮時かもしれない。ただその場合でも、次の一台を選ぶときに「補修部品が型番で買えるか」を条件に入れておくと、同じ話を数年後に繰り返さずに済む。
 
 ベタついたパッドを剥がして新しいものを嵌め、ヘッドバンドの螺子を締め直したヘッドホンは、見た目がほとんど新品に戻る。音も、へたったフォームが元の厚みに戻ったぶんだけ、買った当時の鳴り方に近づく。耳に触れる部分だけを替えるという、それだけの手当てで何年か延びるなら、やってみる価値はある。
+
+## 関連記事
+- [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](https://kingsworksub-jpg.github.io/posts/monitor-headphones-5choice-2026/)
+- [修理して使うか、買い替えるか。直す道を選んだとき諦めるものと手元に残るもの](https://kingsworksub-jpg.github.io/posts/repair-instead-of-replace-essay-2026/)
+- [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](https://kingsworksub-jpg.github.io/posts/record-stylus-lifespan-guide-2026/)
 
 ---
 

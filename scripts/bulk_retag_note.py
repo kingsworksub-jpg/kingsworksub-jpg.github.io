@@ -19,6 +19,9 @@ import subprocess
 import sys
 import time
 
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 BASE = r"C:\Users\norio\my-github-blog"
 MAP_FILE = os.path.join(BASE, "scripts", "_tmp_note_slug_map.json")
 PROGRESS_FILE = os.path.join(BASE, "scripts", "_retag_note_progress.json")
