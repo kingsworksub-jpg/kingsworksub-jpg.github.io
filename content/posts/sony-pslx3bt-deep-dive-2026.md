@@ -70,4 +70,4 @@ PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相ま�
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。「何も考えずにレコードを鳴らしたい」というニーズに全振りした設計は、割り切りの潔さとして評価できると思う。ただし価格については、後継機になるたびに競合との比較がシビアになっていく市場の厳しさを感じさせる一台でもある。
 
 
-**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)

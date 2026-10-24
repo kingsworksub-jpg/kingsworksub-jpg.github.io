@@ -78,4 +78,4 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。「レコードを聴く」「デジタル化する」「DJ的に操作する」という3つの役割を一台に詰め込みながら、価格をこの水準に抑えている設計は素直に感心する。内蔵プリアンプの音質だけは、こだわりたい人ほど外部機材への置き換えを検討する余地がありそうだ。
 
 
-**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)
+**関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
