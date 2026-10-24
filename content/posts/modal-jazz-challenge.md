@@ -12,7 +12,7 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 
 
 <figure class="photo photo--left">
-  <img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy"></a>
   <figcaption>1964年、ヘルシンキのステージでトランペットを手にしたマイルス・デイヴィス。モーダル・ジャズは、この男の「次の一手」から始まった<span class="credit">Photo: Reijo Koskinen / Lehtikuva（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 ## 『Kind of Blue』— 一度きりのテイクで
 
 <figure class="photo photo--right">
-  <img src="/images/modal-jazz/john-coltrane-playing-sax.jpg" alt="サックスを演奏するジョン・コルトレーンの宣材写真" width="1024" height="1259" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/john-coltrane-playing-sax.jpg" alt="サックスを演奏するジョン・コルトレーンの宣材写真" width="1024" height="1259" loading="lazy"></a>
   <figcaption>『Kind of Blue』のセッションから4年後に、自らの組曲『A Love Supreme』を録音したジョン・コルトレーン。モーダルという空気は、彼の祈りを運んだ<span class="credit">Photo: Impulse! Records（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 ## ビル・エヴァンズと、個の感受性
 
 <figure class="photo photo--left">
-  <img src="/images/modal-jazz/bill-evans-1961.jpg" alt="1961年の宣材写真に写るビル・エヴァンズ" width="1600" height="2028" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B003YOMN68?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/bill-evans-1961.jpg" alt="1961年の宣材写真に写るビル・エヴァンズ" width="1600" height="2028" loading="lazy"></a>
   <figcaption>『Kind of Blue』の「もうひとりの主役」ビル・エヴァンズ。彼の抒情的なピアノが、モーダル・ジャズに叙情の体温を注いだ<span class="credit">Photo: Steve Schapiro（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 

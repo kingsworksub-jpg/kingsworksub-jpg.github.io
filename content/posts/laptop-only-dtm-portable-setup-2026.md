@@ -18,7 +18,7 @@ scheduled_time: "20:00"
 ## 基準は「かばんから出して5分で音が出るか」
 
 <figure class="photo photo--left">
-<img src="/images/laptop-dtm/powerbook-rig.jpg" alt="ライブ会場の椅子の上に置かれたノートPCと、機材ケースの上に置かれたパッドコントローラー" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/laptop-dtm/powerbook-rig.jpg" alt="ライブ会場の椅子の上に置かれたノートPCと、機材ケースの上に置かれたパッドコントローラー" width="220" height="165" loading="lazy"></a>
 <figcaption>椅子に置いたノートPCと、ケースの上のパッドコントローラーだけで組んだライブ用の環境。持ち運ぶ機材はこのくらいまで絞れる<span class="credit">Photo: kenji ross / <a href="https://commons.wikimedia.org/wiki/File:Akai_MPD16,_17%27_PowerBook_-_my_rig..jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 

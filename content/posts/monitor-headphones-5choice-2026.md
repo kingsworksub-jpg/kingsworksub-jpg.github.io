@@ -20,7 +20,7 @@ scheduled_time: "12:00"
 ## 録りとミックスで、ヘッドホンに求めることは逆になる
 
 <figure class="photo photo--left">
-<img src="/images/monitor-headphones/studio.jpg" alt="録音スタジオの壁に掛けられたマイクケーブルとモニターヘッドホン" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00HVLUR86?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/monitor-headphones/studio.jpg" alt="録音スタジオの壁に掛けられたマイクケーブルとモニターヘッドホン" width="750" height="1000" loading="lazy"></a>
 <figcaption>録音スタジオの壁。マイクケーブルと並んで、録りの最中に演奏者がかけるヘッドホンが掛けてある<span class="credit">Photo: Jason Meredith / <a href="https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 

@@ -18,7 +18,7 @@ scheduled_time: "20:00"
 ## 机の向きは、短い壁に向かって長い方向に音を飛ばす
 
 <figure class="photo photo--left">
-<img src="/images/monitor-placement/control-room-b.jpg" alt="左右対称に壁に埋め込まれた大型スピーカーと、卓の両脇に置かれた小型モニターがあるスタジオのコントロールルーム" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/monitor-placement/control-room-b.jpg" alt="左右対称に壁に埋め込まれた大型スピーカーと、卓の両脇に置かれた小型モニターがあるスタジオのコントロールルーム" width="220" height="147" loading="lazy"></a>
 <figcaption>業務用のコントロールルームは、聴く位置を中心に部屋そのものが左右対称に作られている<span class="credit">Photo: Will Fisher from Richmond, VA, United States / <a href="https://commons.wikimedia.org/wiki/File:5.1_mixing_room_for_Radio,_TV,_and_Film_production,_equipt_with_AVID_Pro_Tools_including_ICON_D-Command_-_Control_Room_B,_In_Your_Ear_Studios.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ scheduled_time: "20:00"
 ## 定在波を避けて、座る位置を部屋の真ん中から外す
 
 <figure class="photo photo--left">
-<img src="/images/monitor-placement/bunkamura.jpg" alt="大型のミキシングコンソールの奥に、2台の小型モニターと壁に埋め込まれた大型スピーカーが並ぶスタジオ" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/monitor-placement/bunkamura.jpg" alt="大型のミキシングコンソールの奥に、2台の小型モニターと壁に埋め込まれた大型スピーカーが並ぶスタジオ" width="220" height="165" loading="lazy"></a>
 <figcaption>コンソールの奥に置かれた小型モニター。聴く位置は部屋の中心ではなく前寄りに取られている<span class="credit">Photo: Patrick Woodward from Los Angeles, USA / <a href="https://commons.wikimedia.org/wiki/File:Bunkamura_Studio_Control_Room_(2006-07-17_22.34.56_by_Patrick_Woodward).jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ scheduled_time: "20:00"
 ## 吸音材を足すなら、反射の一次点から順番に
 
 <figure class="photo photo--right">
-<img src="/images/monitor-placement/bass-trap.jpg" alt="穴あきの金属フレームに厚い吸音材を収めた、背の高い板状のベーストラップのレンダリング画像" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HLYZQ84L?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/monitor-placement/bass-trap.jpg" alt="穴あきの金属フレームに厚い吸音材を収めた、背の高い板状のベーストラップのレンダリング画像" width="220" height="165" loading="lazy"></a>
 <figcaption>厚みのある吸音材を枠に収めたベーストラップのレンダリング。低音を吸うには数十cm単位の厚みと空気層が要る<span class="credit">Photo: Powerjoe / <a href="https://commons.wikimedia.org/wiki/File:Bass_Trap.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

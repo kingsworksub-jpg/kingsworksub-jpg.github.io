@@ -58,7 +58,7 @@ draft: false
 ## 第1か月：音程と度数
 
 <figure class="photo photo--right">
-<img src="/images/music-theory-3month/keys.jpg" alt="白い鍵盤の上に指が乗ったところ、斜め上から見た鍵の反射" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/music-theory-3month/keys.jpg" alt="白い鍵盤の上に指が乗ったところ、斜め上から見た鍵の反射" width="220" height="147" loading="lazy"></a>
 <figcaption>度数とは記号ではなく、鍵と鍵の距離のこと<span class="credit">Photo: Gabriel Barletta / <a href="https://commons.wikimedia.org/wiki/File:Fingers_on_the_piano_keys_(Unsplash).jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ iPhone と iPad と Mac と Android に出ている。
 ## 第2か月：三和音・疑似和音・進行
 
 <figure class="photo photo--left">
-<img src="/images/music-theory-3month/manuscript.jpg" alt="古い手書きの楽譜で、密集した音符と和音記号がページいっぱいに並ぶ" width="220" height="354" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GFC6KXX9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/music-theory-3month/manuscript.jpg" alt="古い手書きの楽譜で、密集した音符と和音記号がページいっぱいに並ぶ" width="220" height="354" loading="lazy"></a>
 <figcaption>手書きの和声記号は電報のように密集している。和声の練習とは、その密集を動かせる塊に割る作業である<span class="credit">Photo: Wilhelm Friedemann Bach / <a href="https://commons.wikimedia.org/wiki/File:Six_Polonoises_-_Pour_Le_Clavecin_ou_forte_piano_-_compos%C3%A9es_par_-_Guillaume_Friedemann_Bach._-_ci_devant_fameux_organiste_%C3%A0_Halle._-_NB._Ce_manuscript_est_%C3%A9crit_de_la_main_de_l%27auteur_-_btv1b10535113t_(02_of_12).jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ iPhone と Android の両方に対応している。
 ## 第3か月：代理和音と変則和声
 
 <figure class="photo photo--right">
-<img src="/images/music-theory-3month/theory-book.jpg" alt="十九世紀の笛の教本の一ページ。上部に題字、下部に音符と和音の記号が並ぶ" width="220" height="290" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/music-theory-3month/theory-book.jpg" alt="十九世紀の笛の教本の一ページ。上部に題字、下部に音符と和音の記号が並ぶ" width="220" height="290" loading="lazy"></a>
 <figcaption>和声記号の書き方は三百年ほぼ変わっていない。だから使うのは記号ではなく機能である<span class="credit">Photo: Henri Altès / <a href="https://commons.wikimedia.org/wiki/File:Grand_method_for_flute,_part._I_-_containing_complete_theory_of_music,_-_by_Henry_Alt%C3%A8s..._-_bpt6k11621179_(017_of_110).jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 

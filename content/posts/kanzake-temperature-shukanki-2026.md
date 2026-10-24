@@ -20,7 +20,7 @@ scheduled_time: "21:30"
 ## 紅葉を焚いて酒を温める、燗の古い情景
 
 <figure class="photo photo--left">
-<img src="/images/kanzake-temp/autumn-leaves.jpg" alt="紅葉の下で、落ち葉を焚いた火で酒を温める従者たちを描いた錦絵" width="718" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08KGZQ9X3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/kanzake-temp/autumn-leaves.jpg" alt="紅葉の下で、落ち葉を焚いた火で酒を温める従者たちを描いた錦絵" width="718" height="1000" loading="lazy"></a>
 <figcaption>落ち葉を焚いた火で酒を温める情景を描いた幕末の錦絵。手前の火の上に燗をつける器が見える<span class="credit">Image: Wellcome Collection / CC BY 4.0</span></figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ scheduled_time: "21:30"
 ## 直火の燗鍋から、ちろりと燗徳利へ
 
 <figure class="photo photo--right">
-<img src="/images/kanzake-temp/iron-kettle.jpg" alt="明治時代の鉄製の燗鍋。ごつごつとした肌に弦の持ち手と注ぎ口が付いている" width="1000" height="752" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B003CIWZXW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/kanzake-temp/iron-kettle.jpg" alt="明治時代の鉄製の燗鍋。ごつごつとした肌に弦の持ち手と注ぎ口が付いている" width="1000" height="752" loading="lazy"></a>
 <figcaption>明治時代の鉄製の燗鍋。金沢の老舗記念館に収蔵されているもので、弦の持ち手と短い注ぎ口が付く<span class="credit">Photo: Daderot / CC0</span></figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ scheduled_time: "21:30"
 ## 冷やの側にも名前がある、雪冷えから涼冷えまで
 
 <figure class="photo photo--right">
-<img src="/images/kanzake-temp/glass-flask.jpg" alt="木のカウンターに置かれた紺色の陶器の徳利と、升に入ったグラスの冷酒" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0195RFRN8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/kanzake-temp/glass-flask.jpg" alt="木のカウンターに置かれた紺色の陶器の徳利と、升に入ったグラスの冷酒" width="1000" height="750" loading="lazy"></a>
 <figcaption>升に入れたグラスに注いだ冷酒と、細長い陶器の徳利。冷やして飲む酒にも温度ごとの呼び名がある<span class="credit">Photo: Culture Japon / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ scheduled_time: "21:30"
 ## 電気の酒燗器は、温度を機械に任せる道具
 
 <figure class="photo photo--left">
-<img src="/images/kanzake-temp/kobayashi-house.jpg" alt="古い家の座敷に置かれた、湯を張る金属の箱にちろりを差し込んだ燗つけの道具" width="740" height="640" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09QFTYZ3M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/kanzake-temp/kobayashi-house.jpg" alt="古い家の座敷に置かれた、湯を張る金属の箱にちろりを差し込んだ燗つけの道具" width="740" height="640" loading="lazy"></a>
 <figcaption>古い家に残る燗つけの道具。湯を張った金属の箱の穴にちろりを差し込み、湯の熱で酒を温める<span class="credit">Photo: User:逃亡者 (ja:利用者:逃亡者) / Public domain</span></figcaption>
 </figure>
 

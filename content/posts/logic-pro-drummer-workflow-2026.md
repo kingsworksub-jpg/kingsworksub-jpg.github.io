@@ -18,7 +18,7 @@ AppleのDAW「Logic Pro」に搭載されている「Drummer」機能は、こ�
 ## バーチャル・ドラマーの選定と最初のグルーブ構築
 
 <figure class="photo photo--left">
-<img src="/images/software/drum1.jpg" alt="ドラムキットのイメージ" width="1000" height="667" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B005RVSKKO?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/software/drum1.jpg" alt="ドラムキットのイメージ" width="1000" height="667" loading="lazy"></a>
 <figcaption>Logic ProのDrummerでは、楽曲のジャンルやプレイヤーのキャラクターに応じた最適なグルーブを選択できる。</figcaption>
 <span class="credit">Photo: Mostafameraji / CC BY 4.0</span>
 </figure>
@@ -42,7 +42,7 @@ Logic Proで新しいプロジェクトを立ち上げ、最初に直面する�
 ## フィルインのコントロールと人間らしいグルーブの付加
 
 <figure class="photo photo--right">
-<img src="/images/software/drum2.jpg" alt="ドラムセットの別角度" width="1000" height="667" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B074JWLBCD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/software/drum2.jpg" alt="ドラムセットの別角度" width="1000" height="667" loading="lazy"></a>
 <figcaption>セクションの変わり目に発生するフィルの頻度や、キックとベースの連動性を微調整することで楽曲の完成度が高まる。</figcaption>
 <span class="credit">Photo: Mostafameraji / CC BY-SA 4.0</span>
 </figure>

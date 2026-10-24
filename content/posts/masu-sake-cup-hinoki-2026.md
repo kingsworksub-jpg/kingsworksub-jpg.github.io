@@ -41,7 +41,7 @@ scheduled_time: "23:00"
 ## 太閤検地から寛文9年まで、枡は年貢を量る道具だった
 
 <figure class="photo photo--right">
-<img src="/images/masu/one-sho-masu.jpg" alt="木の机の上に置かれた、角を櫛の歯状に組んだ大きな一升枡" width="1000" height="670" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CT28W7RQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/masu/one-sho-masu.jpg" alt="木の机の上に置かれた、角を櫛の歯状に組んだ大きな一升枡" width="1000" height="670" loading="lazy"></a>
 <figcaption>千葉県香取市で撮られた一升枡。四隅の板を櫛の歯のように互い違いに刻み、噛み合わせて組んでいる<span class="credit">Photo: katorisi / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ scheduled_time: "23:00"
 ## 酒屋の店先で角から飲む、角打ちともっきり
 
 <figure class="photo photo--left">
-<img src="/images/masu/mokkiri.jpg" alt="朱と黒に塗られた枡の中に置いたグラスから、日本酒が縁を越えてあふれている様子" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0057SD5ZC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/masu/mokkiri.jpg" alt="朱と黒に塗られた枡の中に置いたグラスから、日本酒が縁を越えてあふれている様子" width="750" height="1000" loading="lazy"></a>
 <figcaption>グラスを枡に入れ、縁からあふれるまで酒を注ぐ「もっきり」。枡は塗りのものなので、木の香りは移らない<span class="credit">Photo: Intforce / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ scheduled_time: "23:00"
 ## 大垣の枡づくりと、名入れの枡
 
 <figure class="photo photo--right">
-<img src="/images/masu/one-go-2.jpg" alt="側面に記念の文字が刻まれた白木の一合枡と、横に置かれたマッチ棒" width="515" height="470" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0BYCNYGY6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/masu/one-go-2.jpg" alt="側面に記念の文字が刻まれた白木の一合枡と、横に置かれたマッチ棒" width="515" height="470" loading="lazy"></a>
 <figcaption>記念行事のために文字を刻んだ一合枡。名入れの枡は、祝いの席の引き出物や記念品としてよく作られる<span class="credit">Photo: Fraxinus2 / CC BY-SA 3.0</span></figcaption>
 </figure>
 
