@@ -62,7 +62,7 @@ scheduled_time: "17:30"
 ## 押しつぶしすぎない、ミントとかんきつの扱い
 
 <figure class="photo photo--right">
-<img src="/images/mocktail/muddling.jpg" width="220" height="147" alt="金属のカップの中で、桃とミントの葉をマドラーで押しつぶしているところ" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GCRJFQSD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mocktail/muddling.jpg" width="220" height="147" alt="金属のカップの中で、桃とミントの葉をマドラーで押しつぶしているところ" loading="lazy"></a>
 <figcaption>桃とミントをマドラーで押しているところ。葉は軽く押すだけで、細かくちぎらない</figcaption>
 <span class="credit">Photo: Dinner Series / CC BY 2.0</span>
 </figure>
@@ -99,7 +99,7 @@ scheduled_time: "17:30"
 ## エルダーフラワーとりんごのフィズ、ほか4杯
 
 <figure class="photo photo--right">
-<img src="/images/mocktail/elderflower.jpg" width="220" height="293" alt="乾燥レモンの薄切りを添えた、淡い黄色のりんごとエルダーフラワーのフィズ" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000MJQO04?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mocktail/elderflower.jpg" width="220" height="293" alt="乾燥レモンの薄切りを添えた、淡い黄色のりんごとエルダーフラワーのフィズ" loading="lazy"></a>
 <figcaption>りんごとエルダーフラワーのフィズ。淡い色と花の香りで、食事にも合わせやすい</figcaption>
 <span class="credit">Photo: Andy Li / CC0</span>
 </figure>

@@ -12,7 +12,7 @@ tags: ["ハードバップ", "Blue Note", "Art Blakey", "Jazz Messengers", "モ�
 
 
 <figure class="photo photo--left">
-  <img src="/images/hard-bop-blue-note/art-blakey-portrait.jpg" alt="1960年代のアート・ブレイキーのスタジオポートレート" width="1086" height="1200" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00000I8UF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hard-bop-blue-note/art-blakey-portrait.jpg" alt="1960年代のアート・ブレイキーのスタジオポートレート" width="1086" height="1200" loading="lazy"></a>
   <figcaption>ハードバップの黄金期を支えたドラマー、アート・ブレイキー。彼はシンバルを避けてスネアとバスドラムで「うねり」を作り、バンド全体を持ち上げた<span class="credit">Photo: Shaw Artists Corporation（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ tags: ["ハードバップ", "Blue Note", "Art Blakey", "Jazz Messengers", "モ�
 ## アート・ブレイキーと「移動する音楽院」
 
 <figure class="photo photo--right">
-  <img src="/images/hard-bop-blue-note/jazz-messengers-amsterdam-1960.jpg" alt="1960年、アムステルダムのステージで演奏するアート・ブレイキーとジャズ・メッセンジャーズ" width="1046" height="680" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00000IL26?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hard-bop-blue-note/jazz-messengers-amsterdam-1960.jpg" alt="1960年、アムステルダムのステージで演奏するアート・ブレイキーとジャズ・メッセンジャーズ" width="1046" height="680" loading="lazy"></a>
   <figcaption>1960年12月、アムステルダムのコンセルトヘボウに立つジャズ・メッセンジャーズ。この当時のトランペット席にはリー・モーガンがいた<span class="credit">Photo: Ben van Meerendonk / IISG（CC BY-SA 2.0）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ tags: ["ハードバップ", "Blue Note", "Art Blakey", "Jazz Messengers", "モ�
 ## 名盤たちが語る黄金期
 
 <figure class="photo photo--left">
-  <img src="/images/hard-bop-blue-note/jazz-messengers-den-haag-1963.jpg" alt="1963年、オランダ・デン・ハーグのクアザールで演奏するアート・ブレイキーとジャズ・メッセンジャーズ" width="1600" height="1071" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00000I8UH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hard-bop-blue-note/jazz-messengers-den-haag-1963.jpg" alt="1963年、オランダ・デン・ハーグのクアザールで演奏するアート・ブレイキーとジャズ・メッセンジャーズ" width="1600" height="1071" loading="lazy"></a>
   <figcaption>1963年3月、デン・ハーグのコンサートホールにて。この時期のホーンセクションは、トランペットにフレディ・ハバード、テナーにウェイン・ショーターがいた黄金の布陣だった<span class="credit">Photo: Fotopersbureau De Boer / Noord-Hollands Archief（CC0）/ Wikimedia Commons</span></figcaption>
 </figure>
 

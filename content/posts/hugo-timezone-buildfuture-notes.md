@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## Hugoは時刻のない日付を、UTCの0時として読む
 
 <figure class="photo photo--left">
-<img src="/images/hugo-tz/greenwich-clock.jpg" alt="ロンドン・グリニッジ天文台の門の脇にある、24時間表示の白い文字盤の時計" width="220" height="193" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CCT7WXC1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hugo-tz/greenwich-clock.jpg" alt="ロンドン・グリニッジ天文台の門の脇にある、24時間表示の白い文字盤の時計" width="220" height="193" loading="lazy"></a>
 <figcaption>グリニッジ天文台の門の脇にある24時間表示の時計。Hugoが既定で使うUTCは、この天文台を通る子午線の時刻(グリニッジ標準時)の後継にあたる<span class="credit">Photo: Alvesgaspar / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ timeZone = 'Asia/Tokyo'
 ## GitHub Actionsでデプロイするときに確かめておくこと
 
 <figure class="photo photo--right">
-<img src="/images/hugo-tz/github-workflow.jpg" alt="手元のリポジトリからcommitしてpushし、GitHub上のリポジトリから取り込む流れを矢印で示した図" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4297153939?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hugo-tz/github-workflow.jpg" alt="手元のリポジトリからcommitしてpushし、GitHub上のリポジトリから取り込む流れを矢印で示した図" width="220" height="147" loading="lazy"></a>
 <figcaption>手元でcommitし、GitHubへpushする流れ。GitHub Pagesでは、このpushをきっかけにビルドが走る<span class="credit">Photo: G.prof / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ on:
 ## 記事が出ないときに見る順番
 
 <figure class="photo photo--left">
-<img src="/images/hugo-tz/time-zones-1962.jpg" alt="経度に沿って縦の帯で世界を区切り、各地域の時差を色分けした1962年の世界時刻帯図" width="220" height="135" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4022727659?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hugo-tz/time-zones-1962.jpg" alt="経度に沿って縦の帯で世界を区切り、各地域の時差を色分けした1962年の世界時刻帯図" width="220" height="135" loading="lazy"></a>
 <figcaption>1962年に英国の水路部が刊行した世界の時刻帯図。同じ瞬間でも、場所によって日付が違う<span class="credit">Photo: United Kingdom Hydrographic Office / Public domain</span></figcaption>
 </figure>
 

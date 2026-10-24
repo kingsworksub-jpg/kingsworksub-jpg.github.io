@@ -17,7 +17,7 @@ draft: false
 ## 10万円という予算の輪郭
 
 <figure class="photo photo--left">
-<img src="/images/home-studio-100k/home-recording-setup.jpg" width="220" height="146" alt="ノートパソコンの横に小型のレコーダーとマイク、イヤホンが置かれた簡素な録音環境" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CSLDLKZJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/home-recording-setup.jpg" width="220" height="146" alt="ノートパソコンの横に小型のレコーダーとマイク、イヤホンが置かれた簡素な録音環境" loading="lazy"></a>
 <figcaption>最小構成の録音机。足りないものを数えるより、何が要らないかを決めるほうが早い</figcaption>
 <span class="credit">Photo: Subhashish Panigrahi / CC BY-SA 4.0</span>
 </figure>
@@ -85,7 +85,7 @@ draft: false
 ## 4番目、スタンドと小物
 
 <figure class="photo photo--left">
-<img src="/images/home-studio-100k/mic-stand.jpg" width="220" height="302" alt="三脚ベースのブーム式マイクスタンド。アームが斜めに伸び、先端にショックマウントが付いている" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09DP2VWHV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/mic-stand.jpg" width="220" height="302" alt="三脚ベースのブーム式マイクスタンド。アームが斜めに伸び、先端にショックマウントが付いている" loading="lazy"></a>
 <figcaption>ブーム式のスタンド。角度と高さが自由になることが、音の安定に直結する</figcaption>
 <span class="credit">Photo: Bubba73 (Jud McCranie) / CC BY-SA 3.0</span>
 </figure>
@@ -125,7 +125,7 @@ draft: false
 ## 生活音とどう付き合うか
 
 <figure class="photo photo--right">
-<img src="/images/home-studio-100k/mic-popfilter-reflection.jpg" width="220" height="147" alt="ポップガードとショックマウントを装着したコンデンサーマイクと、その背後に立てられた半円形のリフレクションフィルター" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09CV3XR3F?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/mic-popfilter-reflection.jpg" width="220" height="147" alt="ポップガードとショックマウントを装着したコンデンサーマイクと、その背後に立てられた半円形のリフレクションフィルター" loading="lazy"></a>
 <figcaption>ポップガードとリフレクションフィルターの組み合わせ。部屋ではなくマイクの周囲だけを囲う発想</figcaption>
 <span class="credit">Photo: Tim Sheerman-Chase / CC BY 2.0</span>
 </figure>
