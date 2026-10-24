@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T12:14:04+09:00",
+ "updated": "2026-10-24T12:14:19+09:00",
  "queue": {
   "published": 109,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published password-manager-migration-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-24T12:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-24T07:44:43+09:00",
+  "at": "2026-10-24T12:14:19+09:00",
   "engine": "claude",
-  "detail": "- **Your local changes:** there were already about 87 uncommitted files in the working tree before this run, including note-drafts, `topic_plan.py`, `post-to-ameba.py` and the prompt files. I didn't touch them. I pulled with `--autostash` so they stayed in place, and committed only this article's fi"
+  "detail": "The changes that were already uncommitted in your working tree when I started (`blog-post.md`, `topic_plan.py`, the note drafts and others) are untouched and still uncommitted."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-24T12:14:19+09:00",
+   "engine": "claude",
+   "detail": "The changes that were already uncommitted in your working tree when I started (`blog-post.md`, `topic_plan.py`, the note drafts and others) are untouched and still uncommitted."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-23T04:00:53+09:00",
    "engine": "claude",
    "detail": "手元の変更が commit か stash されるまで、次回以降の pull も同じように失敗します。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-22T23:25:52+09:00",
-   "engine": "claude",
-   "detail": "**Needs your attention:** an earlier run posted the Ameba article 'エンジェルズシェアで毎年2%ずつ減る樽、熟成は失う時間でもある' twice, at 22:45 and 22:48 (entries 12982368887 and 12982369159). I left both up — you may want to delete one."
   }
  ]
 }
