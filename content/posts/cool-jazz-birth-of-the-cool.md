@@ -13,7 +13,7 @@ tags: ["クール・ジャズ", "Birth of the Cool", "Miles Davis", "Chet Baker"
 
 
 <figure class="photo photo--right">
-  <img src="/images/cool-jazz/chet-baker-1955-portrait.jpg" alt="1955年のChet Bakerのポートレート" width="1634" height="2043" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00DI4HU8K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cool-jazz/chet-baker-1955-portrait.jpg" alt="1955年のChet Bakerのポートレート" width="1634" height="2043" loading="lazy"></a>
   <figcaption>Chet Baker。1955年、27歳。若さそのものがスタイルの一部だったと写っている<span class="credit">Photo: Associated Booking Corporation（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Nonet には戻れなかった。1950年3月のセッションが、Nonet とし
 ## 二つの冷えた音
 
 <figure class="photo photo--left">
-  <img src="/images/cool-jazz/stan-getz-chet-baker-1983.jpg" alt="1983年、ノルウェーでの演奏をするStan GetzとChet Baker" width="1280" height="1288" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00JKTFR1E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cool-jazz/stan-getz-chet-baker-1983.jpg" alt="1983年、ノルウェーでの演奏をするStan GetzとChet Baker" width="1280" height="1288" loading="lazy"></a>
   <figcaption>1983年2月、ノルウェーのサンドヴィーカでの演奏。Stan Getz と Chet Baker<span class="credit">Photo: Geir / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
 

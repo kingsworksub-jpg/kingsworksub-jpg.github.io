@@ -19,7 +19,7 @@ draft: false
 ## バーボンを名乗るための条件と、そこに残された自由
 
 <figure class="photo photo--left">
-<img src="/images/bourbon-5/corn-field.jpg" alt="夏のトウモロコシ畑" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00AG8EHO6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bourbon-5/corn-field.jpg" alt="夏のトウモロコシ畑" width="1000" height="750" loading="lazy"></a>
 <figcaption>バーボンの甘さの土台はトウモロコシから来る<span class="credit">Photo: Hyena / <a href="https://commons.wikimedia.org/wiki/File:Corn_field.jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ draft: false
 ## 樽の焼き方という、もうひとつの変数
 
 <figure class="photo photo--right">
-<img src="/images/bourbon-5/woodford-barrels.jpg" alt="薄暗い熟成庫に段積みされたバーボンの樽" width="749" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0029ZCQYM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bourbon-5/woodford-barrels.jpg" alt="薄暗い熟成庫に段積みされたバーボンの樽" width="749" height="1000" loading="lazy"></a>
 <figcaption>熟成庫に積まれた樽。鏡板に蒸溜所名と樽詰めの日付が焼き印されている<span class="credit">Photo: Tamanoeconomico / <a href="https://commons.wikimedia.org/wiki/File:Woodford_Reserve_(1).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

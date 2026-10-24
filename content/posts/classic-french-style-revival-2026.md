@@ -14,7 +14,7 @@ ogImageHeight: 630
 ## Serge Gainsbourgの遺産：見せかけない贅沢
 
 <figure class="photo photo--right">
-<img src="/images/french-style/serge-gainsbourg-1981.jpg" width="220" height="220" alt="1981年のセルジュ・ゲンスブールのモノクロ肖像" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000051YEG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/french-style/serge-gainsbourg-1981.jpg" width="220" height="220" alt="1981年のセルジュ・ゲンスブールのモノクロ肖像" loading="lazy"></a>
 <figcaption>セルジュ・ゲンスブール（1981年）。飾らない装いが、今のフレンチスタイルの原点</figcaption>
 <span class="credit">Photo: Claude Truong-Ngoc / Wikimedia Commons (CC BY-SA 3.0)</span>
 </figure>
@@ -29,7 +29,7 @@ ogImageHeight: 630
 ## 2026年の色彩と布地：自信を持ったフランス・パレット
 
 <figure class="photo photo--left">
-<img src="/images/french-style/maison-gainsbourg-verneuil.jpg" width="220" height="165" alt="落書きで覆われたパリ7区ヴェルヌイユ通りのゲンスブール邸の外壁と訪れる人々" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000051YEG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/french-style/maison-gainsbourg-verneuil.jpg" width="220" height="165" alt="落書きで覆われたパリ7区ヴェルヌイユ通りのゲンスブール邸の外壁と訪れる人々" loading="lazy"></a>
 <figcaption>パリ7区、ヴェルヌイユ通りのゲンスブール邸。いまも人が絶えない</figcaption>
 <span class="credit">Photo: KolofKtulu / Wikimedia Commons (CC BY 4.0)</span>
 </figure>
@@ -52,7 +52,7 @@ ogImageHeight: 630
 ## ジェン・Z の複雑な関係性：知識人らしさへのジェンダーレスな憧れ
 
 <figure class="photo photo--right">
-<img src="/images/french-style/cafe-de-flore-vintage.jpg" width="220" height="223" alt="往年のサン＝ジェルマン＝デ＝プレ、カフェ・ド・フロールの店先" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0018JXAC2?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/french-style/cafe-de-flore-vintage.jpg" width="220" height="223" alt="往年のサン＝ジェルマン＝デ＝プレ、カフェ・ド・フロールの店先" loading="lazy"></a>
 <figcaption>Left Bankの象徴、サン＝ジェルマンのカフェ・ド・フロール</figcaption>
 <span class="credit">Photo: Willem van de Poll / Nationaal Archief (CC0)</span>
 </figure>
@@ -75,7 +75,7 @@ ogImageHeight: 630
 ## 2026年フレンチスタイルの五つの原則
 
 <figure class="photo photo--left">
-<img src="/images/french-style/promenade-des-anglais-vintage.jpg" width="220" height="156" alt="ヤシの並木が続く往年のニース、プロムナード・デ・ザングレ" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GH7HZFHY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/french-style/promenade-des-anglais-vintage.jpg" width="220" height="156" alt="ヤシの並木が続く往年のニース、プロムナード・デ・ザングレ" loading="lazy"></a>
 <figcaption>Rivieraの陽光。かつてのニース、プロムナード・デ・ザングレ</figcaption>
 <span class="credit">Photo: Fortepan / Wikimedia Commons (Public domain)</span>
 </figure>

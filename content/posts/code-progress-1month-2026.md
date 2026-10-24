@@ -17,7 +17,7 @@ DAWを開いて最初の4小節や8小節のコード進行を作ったものの
 ## 4小節のループから全体像を組み立てる
 
 <figure class="photo photo--left">
-<img src="/images/code-progress/score.jpg" alt="楽譜と作曲のプロセス" width="800" height="600" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/code-progress/score.jpg" alt="楽譜と作曲のプロセス" width="800" height="600" loading="lazy"></a>
 <figcaption>五線譜やピアノロールに向き合う前に、曲の骨組みをあらかじめ整理しておく。<span class="credit">Photo: neurovelho / CC BY-SA 3.0</span></figcaption>
 </figure>
 

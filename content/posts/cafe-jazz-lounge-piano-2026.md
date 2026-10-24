@@ -15,7 +15,7 @@ ogImageHeight: 630
 ## ジェン・Zとミレニアル世代が見つけたジャズの居場所
 
 <figure class="photo photo--right">
-<img src="/images/cafe-jazz/jazz-cafe-otaru.jpg" alt="小樽のジャズカフェ。レンガの壁と木の梁、灯りの落ちたテーブル席" width="220" height="366" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4868310054?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cafe-jazz/jazz-cafe-otaru.jpg" alt="小樽のジャズカフェ。レンガの壁と木の梁、灯りの落ちたテーブル席" width="220" height="366" loading="lazy"></a>
 <figcaption>灯りを落とした店内に、音だけが満ちていく<span class="credit">Photo: MIKI Yoshihito / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Moonlight Jazz Blueは、Spotifyで月間11,900人のリスナーを抱えてい
 ## 2026年のカフェジャズが大切にしていること
 
 <figure class="photo photo--left">
-<img src="/images/cafe-jazz/rhodes-piano-keys.jpg" alt="Rhodes エレクトリックピアノ Eighty Eight の鍵盤" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0116X2COG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cafe-jazz/rhodes-piano-keys.jpg" alt="Rhodes エレクトリックピアノ Eighty Eight の鍵盤" width="220" height="165" loading="lazy"></a>
 <figcaption>柔らかく滲むRhodesの和音が、カフェジャズの核になる<span class="credit">Photo: David Adam Kess / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ Jazzwise、All About Jazz、JazzTimes、DownBeatといった専門メディア�
 ## 音質への執着——「部屋の音」を聴く
 
 <figure class="photo photo--right">
-<img src="/images/cafe-jazz/piano-pedal.jpg" alt="ピアノのペダルを踏む革靴" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HFSG3JJF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cafe-jazz/piano-pedal.jpg" alt="ピアノのペダルを踏む革靴" width="220" height="146" loading="lazy"></a>
 <figcaption>ペダルが軋む音さえ、「部屋の音」として残す<span class="credit">Photo: Michael Pardo / Wikimedia Commons (CC0)</span></figcaption>
 </figure>
 

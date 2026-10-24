@@ -17,7 +17,7 @@ draft: false
 ## 2026年のブラックフライデーは11月27日、ただし当日はあまり関係ない
 
 <figure class="photo photo--left">
-<img src="/images/bf-plan/black-friday-sign-rotterdam.jpg" width="220" height="124" alt="路上に置かれた「BLACK FRIDAY SALE」と書かれた黒い立て看板と、その奥の衣料品のラック" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/black-friday-sign-rotterdam.jpg" width="220" height="124" alt="路上に置かれた「BLACK FRIDAY SALE」と書かれた黒い立て看板と、その奥の衣料品のラック" loading="lazy"></a>
 <figcaption>街頭に出るセールの立て看板。11月の恒例になって久しい</figcaption>
 <span class="credit">Photo: Donald Trung Quoc Don / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -35,7 +35,7 @@ draft: false
 ## 買う物を決める前に、自分の環境の穴を洗い出す
 
 <figure class="photo photo--right">
-<img src="/images/bf-plan/home-studio-cluttered.jpg" width="220" height="146" alt="機材とケーブルが棚いっぱいに積み上がった狭い自宅スタジオ。キーボード2台とミキサー、マイクが並ぶ" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09NHSLTK3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/home-studio-cluttered.jpg" width="220" height="146" alt="機材とケーブルが棚いっぱいに積み上がった狭い自宅スタジオ。キーボード2台とミキサー、マイクが並ぶ" loading="lazy"></a>
 <figcaption>増やし続けた結果の部屋。足りないものより、使っていないものが先に目につく</figcaption>
 <span class="credit">Photo: Dai Stanton / Wikimedia Commons (CC BY-SA 2.0)</span>
 </figure>
@@ -55,7 +55,7 @@ draft: false
 ## 値下がりしやすいもの、しにくいもの
 
 <figure class="photo photo--left">
-<img src="/images/bf-plan/desk-monitors-interface.jpg" width="220" height="152" alt="左右にモニタースピーカーを置いた制作机。中央にディスプレイ、下段にオーディオインターフェイスとヘッドホンが並ぶ" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CJ54Q7YX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/desk-monitors-interface.jpg" width="220" height="152" alt="左右にモニタースピーカーを置いた制作机。中央にディスプレイ、下段にオーディオインターフェイスとヘッドホンが並ぶ" loading="lazy"></a>
 <figcaption>よく使うものほど値引き率は小さい、という関係になりやすい</figcaption>
 <span class="credit">Photo: andrew pilling / Wikimedia Commons (CC BY-SA 2.0)</span>
 </figure>
@@ -88,7 +88,7 @@ DAWも性格が割れている。Logic Proは一度も値引きされたこと�
 ## 「◯％オフ」をそのまま信じない
 
 <figure class="photo photo--right">
-<img src="/images/bf-plan/black-friday-crowd-nyc.jpg" width="220" height="146" alt="ブラックフライデーの朝、店舗前の歩道を埋め尽くす大勢の買い物客" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09Z2S9FSX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/black-friday-crowd-nyc.jpg" width="220" height="146" alt="ブラックフライデーの朝、店舗前の歩道を埋め尽くす大勢の買い物客" loading="lazy"></a>
 <figcaption>数字が大きいほど冷静さが要る、というのは実店舗でも通販でも同じ</figcaption>
 <span class="credit">Photo: JoeInQueens / Wikimedia Commons (CC BY 2.0)</span>
 </figure>

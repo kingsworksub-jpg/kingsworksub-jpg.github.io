@@ -131,7 +131,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--left">
 <a href="https://albertadistillers.com/our-brands/alberta-premium" target="_blank" rel="noopener">
-<img src="/images/canadian-whisky/alberta-premium.jpg" alt="アルバータ・プレミアムの1.14リットルボトル" width="439" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B01N7UAFWD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/canadian-whisky/alberta-premium.jpg" alt="アルバータ・プレミアムの1.14リットルボトル" width="439" height="1000" loading="lazy"></a>
 </a>
 <figcaption>ラベルには「カナディアン・ライ・ウイスキー」と麦の穂の紋章<span class="credit">Photo: The original uploader was Crypticfirefly at English Wikipedia. / <a href="https://commons.wikimedia.org/wiki/File:Alberta_premium.jpg" target="_blank" rel="noopener">FAL</a></span></figcaption>
 </figure>
