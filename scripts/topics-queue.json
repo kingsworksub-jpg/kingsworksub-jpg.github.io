@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:15:53+09:00",
+ "updated": "2026-10-25T03:23:00+09:00",
  "items": [
   {
    "category": "gear",
@@ -9002,6 +9002,1754 @@
    "id": "2026w42-050",
    "status": "approved",
    "created": "2026-10-18",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Chromeの拡張機能はManifest V3でどう変わったか、uBlock Origin Liteで広告ブロックはどこまで効くか",
+   "angle": "Chrome 139以降でMV2拡張が止まり、uBlock Originが使えなくなった人向けに、MV3版uBO Liteで何ができて何ができないかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "uBlock Origin Lite 違い",
+    "Manifest V3 広告ブロック"
+   ],
+   "subjects": [
+    {
+     "name": "uBlock Origin Lite",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://chromestory.com/2026/06/chrome-150-closes-final-loophole-that-kept-ad-blockers-like-ublock-origin-alive/",
+    "https://adguard.com/fc/en/blog/ublock-origin-disabled-chrome.html",
+    "https://github.com/uBlockOrigin/uBOL-home",
+    "https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Google_Chrome_on_Windows_11.png/960px-Google_Chrome_on_Windows_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_on_Windows_11.png",
+     "license": "Public domain",
+     "author": "Megamanfan3"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png/960px-Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png",
+     "license": "CC BY-SA 4.0",
+     "author": "AHollender (WMF)"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Chrome-web-store-stats.png/960px-Chrome-web-store-stats.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Chrome-web-store-stats.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Vitaly Zdanevich"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 18,
+    "season": 10,
+    "demand": 9,
+    "amazon": 0,
+    "total": 78
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-001",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "パスワード流出に気づいたら、Have I Been Pwnedで確かめてから変える順番",
+   "angle": "流出の知らせを受けたとき、HIBPで範囲を確かめ、使い回したサービスから順に変え、2段階認証を足すまでの順番を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "パスワード 流出 確認",
+    "Have I Been Pwned 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "Have I Been Pwned",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://haveibeenpwned.com/faqs",
+    "https://haveibeenpwned.com/Passwords",
+    "https://www.sophos.com/en-us/blog/have-i-been-pwned-breach-site-partners-with-the-fbi",
+    "https://www.gizmodo.jp/article/2610-what-to-do-if-password-is-leaked/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Data_security_privacy_lock_password_%2841237924492%29.jpg/960px-Data_security_privacy_lock_password_%2841237924492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Data_security_privacy_lock_password_(41237924492).jpg",
+     "license": "CC BY 2.0",
+     "author": "Book Catalog"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wells_Fargo_2FA_RSA_Token_-_Two_Factor_Authentication_-_Six_Digit_Code_%2853370207137%29.jpg/960px-Wells_Fargo_2FA_RSA_Token_-_Two_Factor_Authentication_-_Six_Digit_Code_%2853370207137%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_2FA_RSA_Token_-_Two_Factor_Authentication_-_Six_Digit_Code_(53370207137).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tony Webster"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png/960px-Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Wikimedia Foundation"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 9,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-002",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "LM StudioでローカルLLMを動かす、Ollamaとの違いはGUIと内蔵APIサーバー",
+   "angle": "Ollamaの記事を読んだ人の次の一歩として、GUIでモデルを探して試せるLM Studioと、OpenAI互換APIサーバーの使い分けを比べる。",
+   "article_type": "guide",
+   "keywords": [
+    "LM Studio 使い方",
+    "LM Studio Ollama 違い"
+   ],
+   "subjects": [
+    {
+     "name": "LM Studio",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://lmstudio.ai/docs/api/server",
+    "https://lmstudio.ai/docs/app/api",
+    "https://lmstudio.ai/",
+    "https://github.com/ollama/ollama"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/ATX_computer_case_-_left_-_2018-05-18.jpg/960px-ATX_computer_case_-_left_-_2018-05-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ATX_computer_case_-_left_-_2018-05-18.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Bretwa"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/HP-HCRX24-GFX-Card_05.jpg/960px-HP-HCRX24-GFX-Card_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:HP-HCRX24-GFX-Card_05.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Thomas Schanz"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Top_20_OpenRouter_LLMs.webp/960px-Top_20_OpenRouter_LLMs.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Top_20_OpenRouter_LLMs.webp",
+     "license": "CC0",
+     "author": "Wikideas1"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 17,
+    "verifiable": 18,
+    "images": 14,
+    "season": 6,
+    "demand": 8,
+    "amazon": 0,
+    "total": 63
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-003",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "iZotope Ozone 12のマスタリングアシスタント、提案を受け入れる前に聴くべき3か所",
+   "angle": "Ozone 12のMaster Assistantが出す提案を、低域・音量・ステレオ幅の3点で聴き直してから受け入れる手順として紹介する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Ozone 12 使い方",
+    "マスタリング アシスタント"
+   ],
+   "subjects": [
+    {
+     "name": "iZotope Ozone 12",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.prosoundweb.com/izotope-announces-new-ozone-12-mastering-suite/",
+    "https://www.izotope.com/en/learn/how-to-use-master-assistant-in-ozone.html",
+    "https://www.izotope.com/en/products/ozone.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/JVC_Mastering_Center_-_Yokohama_Studios_-_Kotetsu_Room_%28%E5%B0%8F%E9%90%B5%E3%83%AB%E3%83%BC%E3%83%A0%29SP_DSC3566_%282010-11-03_16.03.25_by_JacoTen_%40_Flickr_6794554073%29.jpg/960px-JVC_Mastering_Center_-_Yokohama_Studios_-_Kotetsu_Room_%28%E5%B0%8F%E9%90%B5%E3%83%AB%E3%83%BC%E3%83%A0%29SP_DSC3566_%282010-11-03_16.03.25_by_JacoTen_%40_Flickr_6794554073%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:JVC_Mastering_Center_-_Yokohama_Studios_-_Kotetsu_Room_(%E5%B0%8F%E9%90%B5%E3%83%AB%E3%83%BC%E3%83%A0)SP_DSC3566_(2010-11-03_16.03.25_by_JacoTen_@_Flickr_6794554073).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "JacoTen from Tokyo, Japan"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Mastering_with_Roger_Seibel_at_SAE_Mastering_in_Phoenix%2C_AZ.jpg/960px-Mastering_with_Roger_Seibel_at_SAE_Mastering_in_Phoenix%2C_AZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Mastering_with_Roger_Seibel_at_SAE_Mastering_in_Phoenix,_AZ.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "VACANT  FEVER"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Studio_Mastering.jpg/960px-Studio_Mastering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Studio_Mastering.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Giuliano Radiciotti"
+    }
+   ],
+   "season": "11月(ブラックフライデーのセール前)",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 12,
+    "demand": 8,
+    "amazon": 4,
+    "total": 82
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-004",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Digital Performer 12のチャンクで曲を組む、劇伴の作曲家が手放さないDAW",
+   "angle": "2026年9月に出たDP12のチャンク機能（曲や映像キューを1プロジェクトに並べる）を軸に、劇伴の作り方とDP12の新機能をまとめる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Digital Performer 12",
+    "Digital Performer チャンク"
+   ],
+   "subjects": [
+    {
+     "name": "MOTU Digital Performer 12",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://sonicstate.com/amped/2026/09/17/digital-performer-12-ships/",
+    "https://www.shimamura.co.jp/update/?p=85810",
+    "https://motu.com/de/news/this-week-is-chunks-week",
+    "https://sleepfreaks-dtm.com/dtm-materials/digital-performer-12/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/MOTU_PCIX-424_7825.jpg/960px-MOTU_PCIX-424_7825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:MOTU_PCIX-424_7825.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Ashley Pomeroy"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MOTU_Audio_Interfaces_7849.jpg/960px-MOTU_Audio_Interfaces_7849.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:MOTU_Audio_Interfaces_7849.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Ashley Pomeroy"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Editing_%28clip%29_-_Skyphone_retreat_%40_Hotell_Hildur%2C_Ever%C3%B6d%2C_Sweden%2C_April_16%2C_2010.jpg/960px-Editing_%28clip%29_-_Skyphone_retreat_%40_Hotell_Hildur%2C_Ever%C3%B6d%2C_Sweden%2C_April_16%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Editing_(clip)_-_Skyphone_retreat_@_Hotell_Hildur,_Ever%C3%B6d,_Sweden,_April_16,_2010.jpg",
+     "license": "CC BY 2.0",
+     "author": "Editing_-_Skyphone_retreat_@_Hotell_Hildur,_Everöd,_Sweden,_"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 15,
+    "season": 12,
+    "demand": 6,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-005",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Melodyne 5のピッチ補正、ノートを切る・つなぐ・揃えるの基本",
+   "angle": "VocAlign記事の対になる、1本のボーカルをMelodyne 5で直す基本。ノートの分割・結合・ピッチの揃え方を、やりすぎない範囲で示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Melodyne 5 使い方",
+    "ピッチ補正 やり方"
+   ],
+   "subjects": [
+    {
+     "name": "Celemony Melodyne 5",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.celemony.com/en/melodyne/what-is-melodyne",
+    "https://capterra.com/p/217515/Melodyne/",
+    "https://www.soundonsound.com/node/4906978",
+    "https://helpcenter.celemony.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg/960px-Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Close_up_view_of_a_microphone_set_up_in_a_recording_studio.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg/960px-Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Condenser_Microphone_with_Pop_Filter_and_Reflection_Filter.jpg",
+     "license": "CC BY 2.0",
+     "author": "Tim Sheerman-Chase"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Sound_Baffle_for_vocal_recording_-_Ian_Curtis_of_Joy_Division_recorded_his_vocals_for_Digital_Glass_and_Atmosphere_behind_this_screen_in_1978_and_1979._Joy_Division_Exhibition%2C_Manchester%2C_2010_%282010-05-19_13.12.01_by_Man_Alive%21%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sound_Baffle_for_vocal_recording_-_Ian_Curtis_of_Joy_Division_recorded_his_vocals_for_Digital_Glass_and_Atmosphere_behind_this_screen_in_1978_and_1979._Joy_Division_Exhibition,_Manchester,_2010_(2010-05-19_13.12.01_by_Man_Alive!).jpg",
+     "license": "CC BY 2.0",
+     "author": "Man Alive!"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 17,
+    "season": 6,
+    "demand": 9,
+    "amazon": 4,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-006",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "Dolby Atmosを自宅で始める、7.1.4chのスピーカー12本より先にヘッドホンのバイノーラルから",
+   "angle": "スピーカー12本を置けない部屋で、DAWのバイノーラル出力をヘッドホンで聴きながらAtmosのミックスを始める順番を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Dolby Atmos 自宅 ミックス",
+    "バイノーラル ヘッドホン Atmos"
+   ],
+   "subjects": [
+    {
+     "name": "Dolby Atmos",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.soundonsound.com/techniques/logic-pro-getting-started-atmos",
+    "https://support.apple.com/ar-qa/guide/logicpro/lgcp57f6cc60/mac",
+    "https://www.dtmstation.com/archives/80517.html",
+    "https://professional.dolby.com/music/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg/960px-2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "TVN Group"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Surround_sound_5.1_speaker_setup_surround_channels_red.jpg/960px-Surround_sound_5.1_speaker_setup_surround_channels_red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Surround_sound_5.1_speaker_setup_surround_channels_red.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Daniel Christensen (talk)"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sony_DAV_w_speakers_Sound-system.jpg/960px-Sony_DAV_w_speakers_Sound-system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sony_DAV_w_speakers_Sound-system.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Meganbeckett27"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 4,
+    "total": 77
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-007",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "デスク裏の配線整理、ケーブルトレーと電源の分け方でノイズと埃を減らす",
+   "angle": "電源タップの記事の続きとして、机の裏のケーブルトレーに電源系と信号系を分けて這わせ、掃除しやすく雑音を拾いにくい配線にする。",
+   "article_type": "guide",
+   "keywords": [
+    "デスク 配線整理",
+    "ケーブルトレー 机"
+   ],
+   "subjects": [
+    {
+     "name": "ケーブルトレー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.bestbuy.ca/en-ca/product/startech-under-desk-cable-management-tray-udcmtray/15555090",
+    "https://www.jbhifi.com.au/products/desky-magnetic-cable-management-tray-500mm-grey",
+    "https://www.startech.com/en-us/cables/udcmtray"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Think_Tank_Photo_Red_Whips_for_cable_management_%2823737444780%29.jpg/960px-Think_Tank_Photo_Red_Whips_for_cable_management_%2823737444780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Think_Tank_Photo_Red_Whips_for_cable_management_(23737444780).jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Tony Webster from Minneapolis, Minnesota, United States"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Server_cable_management_-_IMG_3545.jpg/960px-Server_cable_management_-_IMG_3545.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Server_cable_management_-_IMG_3545.jpg",
+     "license": "CC BY 2.0",
+     "author": "Jemimus"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Server_cable_management_%282%29_-_IMG_3548.jpg/960px-Server_cable_management_%282%29_-_IMG_3548.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Server_cable_management_(2)_-_IMG_3548.jpg",
+     "license": "CC BY 2.0",
+     "author": "Jemimus"
+    }
+   ],
+   "season": "年末の大掃除",
+   "score": {
+    "novelty": 18,
+    "verifiable": 16,
+    "images": 16,
+    "season": 10,
+    "demand": 8,
+    "amazon": 8,
+    "total": 76
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-008",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "モニターアームでディスプレイを浮かせる、スピーカーの反射と机の奥行きを取り戻す",
+   "angle": "ディスプレイの脚をやめてアームで浮かせると、机の奥行きとスピーカーの反射がどう変わるかを、VESA規格の確認から説明する。",
+   "article_type": "guide",
+   "keywords": [
+    "モニターアーム 選び方",
+    "モニターアーム VESA"
+   ],
+   "subjects": [
+    {
+     "name": "モニターアーム",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.benq.eu/en-uk/knowledge-center/knowledge/10-things-to-consider-when-buying-a-monitor-arm.html",
+    "https://elektronicavoorjou.nl/en/blog/what-is-vesa",
+    "https://www.vesa.org/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Monitor_arm_stand_%281%29.jpg/960px-Monitor_arm_stand_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Monitor_arm_stand_(1).jpg",
+     "license": "CC BY 2.0",
+     "author": "Ben Scholzen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg/960px-Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Desk_Setup_%28Unsplash%29.jpg/960px-Desk_Setup_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Desk_Setup_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Luke Chesser lukechesser"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 17,
+    "verifiable": 16,
+    "images": 18,
+    "season": 6,
+    "demand": 9,
+    "amazon": 9,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-009",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "静電容量無接点キーボードは何が違うのか、HHKBとREALFORCEの打鍵感と押下圧",
+   "angle": "スコスコと言われる打鍵感の正体（ラバードームと静電容量の検知）と、45gと30gなど押下圧の違いを、HHKBとREALFORCEで比べる。",
+   "article_type": "comparison",
+   "keywords": [
+    "静電容量無接点 違い",
+    "HHKB REALFORCE 比較"
+   ],
+   "subjects": [
+    {
+     "name": "HHKB Professional HYBRID Type-S",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "REALFORCE R3",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://hhkeyboard.us/invest-in-a-hhkb/",
+    "https://hhkeyboard.us/resources/features/best-topre-mechanical-keyboards",
+    "https://www.gizmodo.jp/article/2610-hhkb-professional-elite-330000-yen/",
+    "https://www.realforce.co.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Switches_on_the_back_of_Topre_Realforce_87UB_keyboard.jpg/960px-Switches_on_the_back_of_Topre_Realforce_87UB_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Switches_on_the_back_of_Topre_Realforce_87UB_keyboard.jpg",
+     "license": "CC0",
+     "author": "Syced"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/HHKB_Pro_Hybrid_Type-S.jpg/960px-HHKB_Pro_Hybrid_Type-S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:HHKB_Pro_Hybrid_Type-S.jpg",
+     "license": "CC0",
+     "author": "WikiLinuz"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Happy_Hacking_Keyboard_Lite_2_%28Black%29_2014-03-10.JPG/960px-Happy_Hacking_Keyboard_Lite_2_%28Black%29_2014-03-10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Happy_Hacking_Keyboard_Lite_2_(Black)_2014-03-10.JPG",
+     "license": "CC0",
+     "author": "Asanagi"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 20,
+    "season": 8,
+    "demand": 9,
+    "amazon": 10,
+    "total": 87
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-010",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "制作データのバックアップは3-2-1ルールで、外付けSSDとHDDとクラウドの分担",
+   "angle": "曲のプロジェクトとサンプルを、作業用SSD・手元のHDD・クラウドの3つにどう分けて置くかを、3-2-1ルールで組み立てる。",
+   "article_type": "guide",
+   "keywords": [
+    "3-2-1 バックアップ",
+    "DTM バックアップ 方法"
+   ],
+   "subjects": [
+    {
+     "name": "外付けSSD",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.backblaze.com/blog/the-3-2-1-backup-strategy/",
+    "https://ninjaone.com/blog/3-2-1-backup-rule-explained",
+    "https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Samsung_870_QVO_8TB_SATA_2%2C5_Zoll_Internes_Solid_State_Drive_%28SSD%29_%28MZ-77Q8T0BW%29_20211008_SSD023_corr.png/960px-Samsung_870_QVO_8TB_SATA_2%2C5_Zoll_Internes_Solid_State_Drive_%28SSD%29_%28MZ-77Q8T0BW%29_20211008_SSD023_corr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Samsung_870_QVO_8TB_SATA_2,5_Zoll_Internes_Solid_State_Drive_(SSD)_(MZ-77Q8T0BW)_20211008_SSD023_corr.png",
+     "license": "CC BY 4.0",
+     "author": "PantheraLeo1359531"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/WD_Blue_Hard_Disk_Drive_connected_to_Laptop_via_USB-C.jpg/960px-WD_Blue_Hard_Disk_Drive_connected_to_Laptop_via_USB-C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:WD_Blue_Hard_Disk_Drive_connected_to_Laptop_via_USB-C.jpg",
+     "license": "CC BY 4.0",
+     "author": "Augkun-ane"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Seagate_U4_ST34311A_4.3GB_hard_disk_drive_front_view.jpg/960px-Seagate_U4_ST34311A_4.3GB_hard_disk_drive_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Seagate_U4_ST34311A_4.3GB_hard_disk_drive_front_view.jpg",
+     "license": "CC0",
+     "author": "Navaneethpp"
+    }
+   ],
+   "season": "年末(データ整理)",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 8,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-011",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "ミニPCでDTMはできるか、Ryzen 7 7730U級で鳴らせるトラック数と音切れの境目",
+   "angle": "日本限定のGEEKOM A5 2027エディション（Ryzen 7 7730U）を例に、ミニPCでDAWを動かすときのCPU・冷却・ファン音の見どころを示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ミニPC DTM",
+    "ミニPC DAW 音切れ"
+   ],
+   "subjects": [
+    {
+     "name": "GEEKOM A5 2027 Edition",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.dtmstation.com/archives/80346.html",
+    "https://www.notebookcheck.net/1427375.html",
+    "https://persportaal.anp.nl/artikel/CSN-070926103/geekom-launches-a5-2027-edition-mini-pc-built-for-productivity-that-lasts"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/AMD_Ryzen_7_1800X.jpg/960px-AMD_Ryzen_7_1800X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_1800X.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Brian Wong"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/AMD_Ryzen_9_5900X_by_BugWarp_03.jpg/960px-AMD_Ryzen_9_5900X_by_BugWarp_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_03.jpg",
+     "license": "CC0",
+     "author": "BugWarp"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/AMD_Ryzen_7_3700X_top_IMGP3165_smial_wp.jpg/960px-AMD_Ryzen_7_3700X_top_IMGP3165_smial_wp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_3700X_top_IMGP3165_smial_wp.jpg",
+     "license": "FAL",
+     "author": "Smial (talk)"
+    }
+   ],
+   "season": "11月(セール)",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 10,
+    "demand": 8,
+    "amazon": 8,
+    "total": 80
+   },
+   "source_of_idea": "news",
+   "id": "2026w43-012",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "Pythonの仮想環境はvenvかuvか、最初の1本を作る前に知っておく違い",
+   "angle": "Pythonを始める人が最初に迷う仮想環境を、標準のvenvとAstralのuvで、作り方・速さ・ロックファイルの違いから比べる。",
+   "article_type": "guide",
+   "keywords": [
+    "uv venv 違い",
+    "Python 仮想環境 uv"
+   ],
+   "subjects": [
+    {
+     "name": "uv",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://github.com/astral-sh/uv",
+    "https://docs.astral.sh/uv/",
+    "https://docs.python.org/3/library/venv.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Python-logo.png/960px-Python-logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Python-logo.png",
+     "license": "CC BY 2.5",
+     "author": "Logo Python"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Python_sul_Terminale.jpg/960px-Python_sul_Terminale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Python_sul_Terminale.jpg",
+     "license": "CC0",
+     "author": "9002Jack"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Python_logo_%282025%29.png/960px-Python_logo_%282025%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Python_logo_(2025).png",
+     "license": "CC0",
+     "author": "Unknown authorUnknown author"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 6,
+    "demand": 9,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-013",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "VS CodeのDev Containersで開発環境を箱に入れる、Dockerを使う最小の手順",
+   "angle": "自分のPCを汚さずに言語やツールを揃えるDev Containersを、devcontainer.jsonの最小構成から動かす。",
+   "article_type": "guide",
+   "keywords": [
+    "Dev Containers 使い方",
+    "VS Code Docker 開発環境"
+   ],
+   "subjects": [
+    {
+     "name": "Visual Studio Code Dev Containers",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://code.visualstudio.com/docs/devcontainers/tutorial",
+    "https://code.visualstudio.com/docs/devcontainers/create-dev-container",
+    "https://containers.dev/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/VS_code2013_v1.60.1.png/960px-VS_code2013_v1.60.1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:VS_code2013_v1.60.1.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Pota12"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/VS_Code_%28Insiders%29.png/960px-VS_Code_%28Insiders%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:VS_Code_(Insiders).png",
+     "license": "Public domain",
+     "author": "Microsoft"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Starting_the_Docker_container..png/960px-Starting_the_Docker_container..png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Starting_the_Docker_container..png",
+     "license": "CC BY-SA 4.0",
+     "author": "Alexandru.munteanu98"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 18,
+    "season": 6,
+    "demand": 8,
+    "amazon": 0,
+    "total": 72
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-014",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "GitHub CLIのghでプルリクエストをターミナルから作る、ブラウザを開かない一日の流れ",
+   "angle": "ghでブランチを切ってからPRを出し、レビューを見てマージするまでをターミナルだけで回す一日の流れ。",
+   "article_type": "guide",
+   "keywords": [
+    "gh pr create",
+    "GitHub CLI 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "GitHub CLI",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://cli.github.com/manual/gh_pr_create",
+    "https://manpages.debian.org/testing/gh/gh-pr-create.1.en.html",
+    "https://graphite.com/guides/create-pr-from-gh-command-line",
+    "https://cli.github.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/GitHub_Codespaces_screenshot.webp/960px-GitHub_Codespaces_screenshot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub_Codespaces_screenshot.webp",
+     "license": "CC0",
+     "author": "Wikideas1"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/GitHub_Codespaces_side_by_side_terminal.webp/960px-GitHub_Codespaces_side_by_side_terminal.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub_Codespaces_side_by_side_terminal.webp",
+     "license": "CC0",
+     "author": "Wikideas1"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GitHub-workflow.png/960px-GitHub-workflow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:GitHub-workflow.png",
+     "license": "CC BY-SA 4.0",
+     "author": "G.prof"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 17,
+    "season": 6,
+    "demand": 8,
+    "amazon": 0,
+    "total": 70
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-015",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "メッシュWi-Fiと中継機は何が違うのか、Wi-Fi 7ルーターで家の隅まで届かせる",
+   "angle": "中継機を足しても速くならない理由と、メッシュWi-Fi（専用の中継経路やMLO）がどう違うかを、Wi-Fi 7世代で説明する。",
+   "article_type": "guide",
+   "keywords": [
+    "メッシュWi-Fi 中継機 違い",
+    "Wi-Fi 7 MLO"
+   ],
+   "subjects": [
+    {
+     "name": "Wi-Fi 7 メッシュルーター",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.vigi.com/us/home-networking/range-extender/re235be/v1",
+    "https://www.tp-link.com/us/document/106569/",
+    "https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/ASUS_Wi-Fi_ROUTER_TUF_6500_%282%29.jpg/960px-ASUS_Wi-Fi_ROUTER_TUF_6500_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ASUS_Wi-Fi_ROUTER_TUF_6500_(2).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Dinkun Chen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Wi-fi_router.jpg/960px-Wi-fi_router.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Wi-fi_router.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Solijon Solayev"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg/960px-ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg",
+     "license": "CC0",
+     "author": "Syced"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 18,
+    "season": 6,
+    "demand": 10,
+    "amazon": 10,
+    "total": 84
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-016",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "NASを自宅サーバーにする、Synologyの2ベイで写真とバックアップを1か所に集める",
+   "angle": "Synologyの2ベイNAS（DS225+）で、スマホ写真のバックアップとPCのバックアップを1か所に集める構成を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Synology NAS 自宅サーバー",
+    "DS225+ 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "Synology DiskStation DS225+",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://mdcomputers.in/product/synology-diskstation-ds225-plus",
+    "https://www.synology.com/en-global/products/DS225+",
+    "https://www.synology.com/en-global/dsm/feature/photos"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Synology_Disk_Station_DS223J_-_NAS-Server.jpg/960px-Synology_Disk_Station_DS223J_-_NAS-Server.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Synology_Disk_Station_DS223J_-_NAS-Server.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "DYVER"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Synology_DS213%2B.jpg/960px-Synology_DS213%2B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Synology_DS213%2B.jpg",
+     "license": "CC BY 4.0",
+     "author": "Piotr Doroszewski"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Synology_NAS_HDD_Drive_Tray.jpg/960px-Synology_NAS_HDD_Drive_Tray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Synology_NAS_HDD_Drive_Tray.jpg",
+     "license": "CC BY 2.0",
+     "author": "Tony Webster"
+    }
+   ],
+   "season": "年末(写真整理)",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 19,
+    "season": 8,
+    "demand": 8,
+    "amazon": 10,
+    "total": 84
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-017",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "IPv6(IPoE)にすると夜の回線は速くなるのか、PPPoEの混雑とv6プラスの仕組み",
+   "angle": "夜に遅くなる回線の原因がPPPoEの網終端装置の混雑にあることと、IPoEやv6プラスに切り替えると何が変わるかを説明する。",
+   "article_type": "guide",
+   "keywords": [
+    "IPoE PPPoE 違い",
+    "v6プラス 速くなる"
+   ],
+   "subjects": [
+    {
+     "name": "v6プラス",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://internet.watch.impress.co.jp/docs/news/596528.html",
+    "https://gmobb.jp/media/hikari/about-v6plus/",
+    "https://www.jpne.co.jp/service/v6plus/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Optic_fiber_cables_02.jpg/960px-Optic_fiber_cables_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Optic_fiber_cables_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "SwarmCheng"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Fiber_optic_cable_installation_%28rubin-20170124-101126%29.jpg/960px-Fiber_optic_cable_installation_%28rubin-20170124-101126%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fiber_optic_cable_installation_(rubin-20170124-101126).jpg",
+     "license": "CC BY 4.0",
+     "author": "Rubin Observatory/NSF/AURA"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Fujikura_optic_fiber_at_Science_Museum.jpg/960px-Fujikura_optic_fiber_at_Science_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fujikura_optic_fiber_at_Science_Museum.jpg",
+     "license": "CC0",
+     "author": "Syced"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 15,
+    "season": 6,
+    "demand": 10,
+    "amazon": 4,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-018",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか、ヴィンス・ガラルディのピアノトリオ",
+   "angle": "1965年のTVスペシャルのサウンドトラックが、なぜ毎年12月にチャートへ戻るのかを、ピアノトリオの編成と子どもの合唱から読む。",
+   "article_type": "theme",
+   "keywords": [
+    "チャーリー・ブラウン クリスマス ジャズ",
+    "ヴィンス・ガラルディ"
+   ],
+   "subjects": [
+    {
+     "name": "Vince Guaraldi Trio『A Charlie Brown Christmas』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas_(soundtrack)",
+    "https://www.billboard.com/music/chart-beat/charlie-brown-christmas-soundtrack-album-sales-chart-number-two-1235191283",
+    "https://en.wikipedia.org/wiki/Vince_Guaraldi"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Vince_Guaraldi_Trio_plays_at_TGIF_party_-_1963_Franciscan.jpg/960px-Vince_Guaraldi_Trio_plays_at_TGIF_party_-_1963_Franciscan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vince_Guaraldi_Trio_plays_at_TGIF_party_-_1963_Franciscan.jpg",
+     "license": "Public domain",
+     "author": "Associated Students of San Francisco State College"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vince_Guaraldi_Ad_October_1967.png/960px-Vince_Guaraldi_Ad_October_1967.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vince_Guaraldi_Ad_October_1967.png",
+     "license": "Public domain",
+     "author": "San Jose State University"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Charlie_Brown%27s_Christmas_Tree.jpg/960px-Charlie_Brown%27s_Christmas_Tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Charlie_Brown%27s_Christmas_Tree.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "niiicedave"
+    }
+   ],
+   "season": "12月(クリスマス)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 19,
+    "season": 13,
+    "demand": 8,
+    "amazon": 8,
+    "total": 90
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-019",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "ビル・エヴァンスとスコット・ラファロ、ピアノトリオで3人が対等に話しはじめた1961年",
+   "angle": "ラファロの死の11日前、1961年6月25日のヴィレッジ・ヴァンガード録音で、ベースが伴奏から会話の相手に変わったことを聴き取る。",
+   "article_type": "theme",
+   "keywords": [
+    "ビル・エヴァンス ワルツ・フォー・デビイ",
+    "スコット・ラファロ"
+   ],
+   "subjects": [
+    {
+     "name": "Bill Evans『Waltz for Debby』",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Bill Evans『Sunday at the Village Vanguard』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sunday_at_the_Village_Vanguard",
+    "https://en.wikipedia.org/wiki/1961_in_jazz",
+    "https://en.wikipedia.org/wiki/Waltz_for_Debby_(album)",
+    "https://en.wikipedia.org/wiki/Scott_LaFaro"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bill_Evans_Trio_1977.jpg/960px-Bill_Evans_Trio_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bill_Evans_Trio_1977.jpg",
+     "license": "Public domain",
+     "author": "Distributed by Fantasy Records"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Village_Vanguard_daytime_jeh.jpg/960px-Village_Vanguard_daytime_jeh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Village_Vanguard_daytime_jeh.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Jim.henderson"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Villagevanguard4.JPG/960px-Villagevanguard4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Villagevanguard4.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Freimut Bahlo"
+    }
+   ],
+   "season": "秋",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 19,
+    "season": 8,
+    "demand": 8,
+    "amazon": 8,
+    "total": 86
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-020",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "ジョン・カーペンター『ハロウィン』(1978)、低予算と5/4拍子のテーマ曲が作った恐怖",
+   "angle": "約30万ドルの予算と、カーペンター自作の5/4拍子のピアノのテーマが、どうやってスラッシャー映画の型を作ったかを扱う。",
+   "article_type": "theme",
+   "keywords": [
+    "ハロウィン 1978 テーマ曲",
+    "ジョン・カーペンター ハロウィン"
+   ],
+   "subjects": [
+    {
+     "name": "『ハロウィン』(1978)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://looper.com/648024/the-truth-about-halloweens-1978-bizarrely-low-budget/",
+    "https://online.berklee.edu/takenote/the-halloween-theme-what-makes-the-music-so-scary/",
+    "https://en.wikipedia.org/wiki/Halloween_(1978_film)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Jamie_Lee_Curtis_as_Laurie_Strode_in_Halloween_%281978%29.webp/960px-Jamie_Lee_Curtis_as_Laurie_Strode_in_Halloween_%281978%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jamie_Lee_Curtis_as_Laurie_Strode_in_Halloween_(1978).webp",
+     "license": "Public domain",
+     "author": "Unknown"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Portrait_of_John_Carpenter.jpg/960px-Portrait_of_John_Carpenter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_John_Carpenter.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Kyle Cassidy"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/JohnCarpenter2023.jpg/960px-JohnCarpenter2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:JohnCarpenter2023.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Philip Romano"
+    }
+   ],
+   "season": "10月(ハロウィン)",
+   "score": {
+    "novelty": 22,
+    "verifiable": 19,
+    "images": 19,
+    "season": 15,
+    "demand": 8,
+    "amazon": 6,
+    "total": 89
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-021",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "ヒッチコック『めまい』のドリーズーム、カメラが引きながら寄る撮影はなぜ目眩になるのか",
+   "angle": "ドリーを引きながらズームで寄るとなぜ床が伸びて見えるのかを、考案者アーミン・ロバーツと『めまい』の鐘楼の場面から説明する。",
+   "article_type": "theme",
+   "keywords": [
+    "ドリーズーム めまい",
+    "ヒッチコック めまい 撮影"
+   ],
+   "subjects": [
+    {
+     "name": "『めまい』(1958)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dolly_zoom",
+    "https://faroutmagazine.co.uk/story-behind-vertigos-dolly-zoom/",
+    "https://en.wikipedia.org/wiki/Vertigo_(film)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Vertigomovie.jpg/960px-Vertigomovie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vertigomovie.jpg",
+     "license": "Public domain",
+     "author": "Saul Bass"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kim_Novak_James_Stewart_Vertigo_Still.jpg/960px-Kim_Novak_James_Stewart_Vertigo_Still.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kim_Novak_James_Stewart_Vertigo_Still.jpg",
+     "license": "Public domain",
+     "author": "Paramount Pictures"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hitchcock_Novak_Vertigo_Publicity.jpg/960px-Hitchcock_Novak_Vertigo_Publicity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hitchcock_Novak_Vertigo_Publicity.jpg",
+     "license": "Public domain",
+     "author": "Paramount Pictures"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 20,
+    "season": 6,
+    "demand": 8,
+    "amazon": 6,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-022",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "積読は悪くない、読まない本が本棚で果たしている役割",
+   "angle": "エーコの蔵書とタレブの「反蔵書」の考え方から、読んでいない本が本棚にあることの意味を考えるエッセイ寄りの読書論。",
+   "article_type": "theme",
+   "keywords": [
+    "積読 意味",
+    "アンチライブラリー"
+   ],
+   "subjects": [
+    {
+     "name": "ナシーム・タレブ『ブラック・スワン』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antilibrary",
+    "https://flashbak.com/umberto-eco-the-antilibraty-and-the-joy-of-not-knowing-460107/",
+    "https://bigthink.com/personal-growth/do-i-own-too-many-books"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Part_of_a_bookshelf_containing_books_by_Greek_and_Roman_writers_%281%29.jpg/960px-Part_of_a_bookshelf_containing_books_by_Greek_and_Roman_writers_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Part_of_a_bookshelf_containing_books_by_Greek_and_Roman_writers_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Roman Eisele"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Part_of_a_bookshelf_with_mixed_books%2C_mostly_in_German_%281%29.jpg/960px-Part_of_a_bookshelf_with_mixed_books%2C_mostly_in_German_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Part_of_a_bookshelf_with_mixed_books,_mostly_in_German_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Roman Eisele"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Coffee_Table_book_stack.jpg/960px-Coffee_Table_book_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Coffee_Table_book_stack.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Gabbybratcher"
+    }
+   ],
+   "season": "秋(読書の秋)",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 18,
+    "season": 12,
+    "demand": 8,
+    "amazon": 6,
+    "total": 84
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-023",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "チャンドラー『ロング・グッドバイ』を村上春樹訳と清水俊二訳で読み比べる",
+   "angle": "抄訳に近い清水俊二訳（1958年）と全訳の村上春樹訳（2007年）で、同じ場面の長さと台詞の手ざわりがどう違うかを比べる。",
+   "article_type": "theme",
+   "keywords": [
+    "ロング・グッドバイ 村上春樹訳",
+    "長いお別れ 清水俊二"
+   ],
+   "subjects": [
+    {
+     "name": "レイモンド・チャンドラー『ロング・グッドバイ』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Long_Goodbye_(novel)",
+    "https://quillandquire.com/authors/2008/05/27/haruki-murakami-on-translation/",
+    "https://openculture.com/2022/02/haruki-murakamis-five-favorite-books.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Haruki_Murakami_2018.jpg/960px-Haruki_Murakami_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Haruki_Murakami_2018.jpg",
+     "license": "Public domain",
+     "author": "Ministerio Cultura y Patrimonio"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Haruki_Murakami_at_the_Jerusalem_Prize.JPG/960px-Haruki_Murakami_at_the_Jerusalem_Prize.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Haruki_Murakami_at_the_Jerusalem_Prize.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Galoren.com"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Raymond_Chandler_-_1888_-_1959_Writer_lived_here.jpg/960px-Raymond_Chandler_-_1888_-_1959_Writer_lived_here.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Raymond_Chandler_-_1888_-_1959_Writer_lived_here.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Spudgun67"
+    }
+   ],
+   "season": "秋(読書の秋)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 16,
+    "images": 16,
+    "season": 10,
+    "demand": 8,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-024",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "間接照明で部屋を広く見せる、天井を照らすか壁を照らすか",
+   "angle": "天井を照らすと高く、壁を照らすと奥行きが出る。フロアライトとテープライトで、工事なしに間接照明を足す配置を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "間接照明 部屋 広く見せる",
+    "間接照明 配置"
+   ],
+   "subjects": [
+    {
+     "name": "フロアライト",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.paclights.com/explore/the-hidden-benefits-of-upgrading-to-cove-lights/",
+    "https://www.paclights.com/explore/is-cove-light-ceiling-the-right-choice-for-your-lighting-needs/",
+    "https://en.wikipedia.org/wiki/Cove_lighting"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Comparison_of_indirect_and_direct_illumination_%281912%29_%2814803142573%29.jpg/960px-Comparison_of_indirect_and_direct_illumination_%281912%29_%2814803142573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Comparison_of_indirect_and_direct_illumination_(1912)_(14803142573).jpg",
+     "license": "No restrictions",
+     "author": "Habrylwicz, Valentine Bernard;\n\nKailer, Frank Spencer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Drawing%2C_Floor_Lamp%2C_Henry_J._Allen_Residence%2C_Wichita%2C_Kansas%2C_1917_%28CH_18800273-2%29.jpg/960px-Drawing%2C_Floor_Lamp%2C_Henry_J._Allen_Residence%2C_Wichita%2C_Kansas%2C_1917_%28CH_18800273-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Drawing,_Floor_Lamp,_Henry_J._Allen_Residence,_Wichita,_Kansas,_1917_(CH_18800273-2).jpg",
+     "license": "Public domain",
+     "author": "Unknown artistUnknown artist"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Lovis_Corinth%2C_Interior_with_Floor_Lamp_%28Interieur_mit_Stehlampe%29%2C_1916%2C_NGA_74065.jpg/960px-Lovis_Corinth%2C_Interior_with_Floor_Lamp_%28Interieur_mit_Stehlampe%29%2C_1916%2C_NGA_74065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Lovis_Corinth,_Interior_with_Floor_Lamp_(Interieur_mit_Stehlampe),_1916,_NGA_74065.jpg",
+     "license": "CC0",
+     "author": "Lovis Corinth"
+    }
+   ],
+   "season": "秋冬(日が短い季節)",
+   "score": {
+    "novelty": 23,
+    "verifiable": 16,
+    "images": 14,
+    "season": 10,
+    "demand": 9,
+    "amazon": 9,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-025",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『AKIRA』のネオ東京、セル画の手描き背景とバイクの光の尾",
+   "angle": "約16万枚のセル画と327色（うち50色は新しく作った色）、台詞を先に録るプレスコで作られた『AKIRA』の画面を読み解く。",
+   "article_type": "theme",
+   "keywords": [
+    "AKIRA 作画",
+    "AKIRA セル画 枚数"
+   ],
+   "subjects": [
+    {
+     "name": "『AKIRA』(1988)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.linearity.io/blog/akira/",
+    "https://artrkl.com/blogs/news/the-art-of-anime-akira-1988",
+    "https://slashfilm.com/807579/how-akiras-record-breaking-use-of-color-resulted-in-50-new-shades",
+    "https://en.wikipedia.org/wiki/Akira_(1988_film)"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/FIBD2016Otomo01.jpg/960px-FIBD2016Otomo01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:FIBD2016Otomo01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Selbymay"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/FIBD2016OtomoHermann.jpg/960px-FIBD2016OtomoHermann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:FIBD2016OtomoHermann.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Selbymay"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 15,
+    "season": 6,
+    "demand": 8,
+    "amazon": 6,
+    "total": 77
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-026",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "ホットワインのスパイス配合、温度は70℃を超えないところで止める",
+   "angle": "アルコールは78℃で飛び始めるので、70℃前後で止めるのがホットワインのこつ。シナモン・クローブ・オレンジの配合も示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ホットワイン 作り方",
+    "グリューワイン スパイス"
+   ],
+   "subjects": [
+    {
+     "name": "赤ワイン",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.thelocal.com/20221115/5-things-you-need-to-know-about-german-gluhwein/",
+    "https://mydinner.co.uk/wprm_print/traditional-gluhwein-german-mulled-wine",
+    "https://en.wikipedia.org/wiki/Mulled_wine"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mulled_wine_-_Olea_2025-12-26.jpg/960px-Mulled_wine_-_Olea_2025-12-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Mulled_wine_-_Olea_2025-12-26.jpg",
+     "license": "CC0",
+     "author": "Andy Li"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Gl%C3%BChwein_%28hot_mulled_wine%29_in_a_glass_with_an_orange_slice_07.jpg/960px-Gl%C3%BChwein_%28hot_mulled_wine%29_in_a_glass_with_an_orange_slice_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein_(hot_mulled_wine)_in_a_glass_with_an_orange_slice_07.jpg",
+     "license": "CC BY 2.0",
+     "author": "Wheeler Cowperthwaite"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Gl%C3%BChwein_%28hot_mulled_wine%29_in_a_glass_with_an_orange_slice_12.jpg/960px-Gl%C3%BChwein_%28hot_mulled_wine%29_in_a_glass_with_an_orange_slice_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein_(hot_mulled_wine)_in_a_glass_with_an_orange_slice_12.jpg",
+     "license": "CC BY 2.0",
+     "author": "Wheeler Cowperthwaite"
+    }
+   ],
+   "season": "11〜12月(冬)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 20,
+    "season": 14,
+    "demand": 9,
+    "amazon": 6,
+    "total": 91
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-027",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "家の製氷皿で透明な氷を作る、上から凍らせる方向性凍結の仕組み",
+   "angle": "小型の保冷ボックスに水を張って冷凍庫に入れ、上から凍らせると透明な氷ができる理由（方向性凍結）と手順を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "透明な氷 作り方",
+    "方向性凍結"
+   ],
+   "subjects": [
+    {
+     "name": "透明氷メーカー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://alcademics.com/what-is-directional-freezing/",
+    "https://alcademics.com/?p=3570",
+    "https://saveur.com/article/techniques/crystal-clear-how-to-make-clear-ice"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Clear_ice.jpg/960px-Clear_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Clear_ice.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Public class"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Homemade_clear_ice_tray.jpg/960px-Homemade_clear_ice_tray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Homemade_clear_ice_tray.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Public class"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Clear_ice_with_ginkgo_leave.jpg/960px-Clear_ice_with_ginkgo_leave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Clear_ice_with_ginkgo_leave.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Public class"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 20,
+    "season": 8,
+    "demand": 9,
+    "amazon": 9,
+    "total": 87
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-028",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "缶飲料を10分で冷やす、塩を入れた氷水が冷凍庫より速い理由",
+   "angle": "塩で氷水の温度が0℃より下がり、缶全体が水に触れることで、冷凍庫より速く冷える仕組みと塩の量の目安を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "缶ビール 急速 冷やす",
+    "氷 塩 冷やす 理由"
+   ],
+   "subjects": [
+    {
+     "name": "アイスペール",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.tastingtable.com/2181448/coke-freezer-chill-drink-fast/",
+    "https://www.popsci.com/fastest-way-to-chill-your-beer/",
+    "https://tastingtable.com/693114/cold-beer-chill-fast-ice-water-salt-bucket"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Macro_view_of_beer_in_ice_%28Unsplash%29.jpg/960px-Macro_view_of_beer_in_ice_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Macro_view_of_beer_in_ice_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Brandon Morgan littleppl85"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ice_cold_beer_every_day_-_Brussels%2C_Belgium_-_DSC07785.jpg/960px-Ice_cold_beer_every_day_-_Brussels%2C_Belgium_-_DSC07785.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ice_cold_beer_every_day_-_Brussels,_Belgium_-_DSC07785.jpg",
+     "license": "CC0",
+     "author": "Daderot"
+    }
+   ],
+   "season": "年末年始(来客)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 15,
+    "season": 8,
+    "demand": 9,
+    "amazon": 5,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w43-029",
+   "status": "approved",
+   "created": "2026-10-25",
+   "retry": 0
+  },
+  {
+   "category": "drink-lab",
+   "new_category": null,
+   "theme": "ボジョレー・ヌーヴォーはなぜ軽いのか、マセラシオン・カルボニックという醸造法",
+   "angle": "房ごと炭酸ガスの中で発酵させるマセラシオン・カルボニックが、ガメイの軽さとバナナのような香りを生む。2026年の解禁は11月19日。",
+   "article_type": "theme",
+   "keywords": [
+    "ボジョレー・ヌーヴォー 2026",
+    "マセラシオン・カルボニック"
+   ],
+   "subjects": [
+    {
+     "name": "ボジョレー・ヌーヴォー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.atlasobscura.com/foods/beaujolais-nouveau",
+    "https://www.winespectator.com/articles/46115",
+    "https://en.wikipedia.org/wiki/Beaujolais_nouveau"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Beaujolais_nouveau_-_Cuv%C3%A9e_2022_a.jpg/960px-Beaujolais_nouveau_-_Cuv%C3%A9e_2022_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beaujolais_nouveau_-_Cuv%C3%A9e_2022_a.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "René Hourdry"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Beaujolais_nouveau.JPG/960px-Beaujolais_nouveau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beaujolais_nouveau.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Véronique PAGNIER"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Gamay_-_leaf.jpg/960px-Gamay_-_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gamay_-_leaf.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Marianne Casamance"
+    }
+   ],
+   "season": "11月(解禁日)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 6,
+    "total": 92
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w43-030",
+   "status": "approved",
+   "created": "2026-10-25",
    "retry": 0
   }
  ]
