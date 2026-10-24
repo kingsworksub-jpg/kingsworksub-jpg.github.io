@@ -104,5 +104,7 @@ draft: false
 ## 関連記事
 - [Obsidianのメモはただのテキストファイル。10年後も開ける知識の置き場を作る](/posts/obsidian-knowledge-base-plain-text-2026/)(データを特定のサービスに閉じ込めないという考え方つながりで)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法](/posts/chrome-gemini-nano-4gb-2026/)(ブラウザーの裏で動く機能を設定から確認する、という点でのつながりで)
+- [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)(認証情報をSecretsに置く考え方の入口として)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
