@@ -1506,5 +1506,20 @@
       "内部リンク2本以下の記事を継続補強",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-24T07:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事(約200本)のdescription長・禁止表現・H2数・簡体字混入を機械点検し、問題なし(hello.mdのみH2が1つだが固定ページ的な記事)",
+      "figureが見出し直後でない配置が10本ほど残るが、いずれも直後の段落が回り込む位置にあり表示崩れなしと判断し変更せず"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。seo-audit.pyは環境のPIL不具合で実行不可。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
