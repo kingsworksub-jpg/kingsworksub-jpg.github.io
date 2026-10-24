@@ -35,7 +35,7 @@ scheduled_time: "07:30"
 ## 絶対音感ではなく、主音からの距離で聴く
 
 <figure class="photo photo--right">
-<img src="/images/ear-training/curwen-hand-signs.jpg" alt="ド・レ・ミなどの階名ごとに異なる手の形を描いた19世紀の教本のページ" width="220" height="347" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4276502047?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ear-training/curwen-hand-signs.jpg" alt="ド・レ・ミなどの階名ごとに異なる手の形を描いた19世紀の教本のページ" width="220" height="347" loading="lazy"></a>
 <figcaption>19世紀の英国で広まった階名の手振り。どの調でも主音を「ド」と呼ぶ移動ドの考え方を、手の形で覚えさせた<span class="credit">Image: John Curwen (1816-1880) / <a href="https://commons.wikimedia.org/wiki/File:Curwen_Hand_Signs_MT.jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 

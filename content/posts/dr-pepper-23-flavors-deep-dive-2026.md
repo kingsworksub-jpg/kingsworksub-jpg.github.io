@@ -44,7 +44,7 @@ scheduled_time: "17:30"
 ## 1885年、テキサスの薬局で生まれた飲み物
 
 <figure class="photo photo--right">
-<img src="/images/dr-pepper/museum-2016.jpg" width="220" height="147" alt="テキサス州ウェーコのドクターペッパー博物館の外観。黄色いれんがの建物" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/museum-2016.jpg" width="220" height="147" alt="テキサス州ウェーコのドクターペッパー博物館の外観。黄色いれんがの建物" loading="lazy"></a>
 <figcaption>ウェーコにあるドクターペッパー博物館。1906年に建てられた瓶詰め工場の建物を使っている</figcaption>
 <span class="credit">Photo: Michael Barera / CC BY-SA 4.0</span>
 </figure>
@@ -58,7 +58,7 @@ scheduled_time: "17:30"
 ## 「10時、2時、4時」に飲む炭酸
 
 <figure class="photo photo--left">
-<img src="/images/dr-pepper/museum.jpg" width="220" height="147" alt="博物館内に再現されたオールド・コーナー・ドラッグストアの店構え" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/museum.jpg" width="220" height="147" alt="博物館内に再現されたオールド・コーナー・ドラッグストアの店構え" loading="lazy"></a>
 <figcaption>博物館の中に再現された「オールド・コーナー・ドラッグストア」。ここのソーダファウンテンが出発点だった</figcaption>
 <span class="credit">Photo: Larry D. Moore / CC BY 4.0</span>
 </figure>
@@ -80,7 +80,7 @@ scheduled_time: "17:30"
 ## 日本では、売れる場所が偏っている
 
 <figure class="photo photo--right">
-<img src="/images/dr-pepper/cans.jpg" width="220" height="185" alt="棚に並ぶドクターペッパーの缶。チェリー、クリームソーダ、ストロベリーなど複数の味" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/cans.jpg" width="220" height="185" alt="棚に並ぶドクターペッパーの缶。チェリー、クリームソーダ、ストロベリーなど複数の味" loading="lazy"></a>
 <figcaption>アメリカで売られている派生フレーバーの缶。日本の売り場で見かけるのは、ほぼ定番とダイエットの二種類に限られる</figcaption>
 <span class="credit">Photo: Jeanne à vélo / CC BY-SA 4.0</span>
 </figure>

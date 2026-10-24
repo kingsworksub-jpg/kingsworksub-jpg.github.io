@@ -18,7 +18,7 @@ scheduled_time: "12:00"
 ## 体が先に音を上げる理由
 
 <figure class="photo photo--left">
-<img src="/images/desk-chair/flickr-studio-a.jpg" alt="脚立を棚代わりにした自宅の机。ブラウン管モニターとキーボードが置かれ、横には本棚とスピーカーが並ぶ" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F7QLYSLZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/desk-chair/flickr-studio-a.jpg" alt="脚立を棚代わりにした自宅の机。ブラウン管モニターとキーボードが置かれ、横には本棚とスピーカーが並ぶ" width="220" height="165" loading="lazy"></a>
 <figcaption>手近な家具で組んだ机は、高さも奥行きも体に合わせて決めたものではないことが多い<span class="credit">Photo: Mrs. Gemstone / <a href="https://www.flickr.com/photos/21893264@N00/2215657406" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ DTMの作業姿勢には、ふつうの事務作業と違う癖がある。一�
 ## 天板の高さは身長と座面から逆算する
 
 <figure class="photo photo--right">
-<img src="/images/desk-chair/flickr-studio-b.jpg" alt="木目の天板にディスプレイ、キーボード、マウス、ヘッドホンとヘッドホンアンプが並んだ作業机" width="220" height="164" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DSJJMRFL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/desk-chair/flickr-studio-b.jpg" alt="木目の天板にディスプレイ、キーボード、マウス、ヘッドホンとヘッドホンアンプが並んだ作業机" width="220" height="164" loading="lazy"></a>
 <figcaption>キーボードとマウスを置いた面の高さが、肘の高さと合っているかが最初の確認点になる<span class="credit">Photo: Jon Rohan / <a href="https://www.flickr.com/photos/68503235@N00/5081408605" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ DTMの作業姿勢には、ふつうの事務作業と違う癖がある。一�
 ## 奥行きはスピーカーとの距離で決まる
 
 <figure class="photo photo--left">
-<img src="/images/desk-chair/office-chair.jpg" alt="肘掛け付きで、キャスターが5本ある布張りの一般的なオフィスチェア" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GXY1PLK9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/desk-chair/office-chair.jpg" alt="肘掛け付きで、キャスターが5本ある布張りの一般的なオフィスチェア" width="220" height="330" loading="lazy"></a>
 <figcaption>椅子を机に引き寄せられるかどうかは、肘掛けの高さと天板の下の空間で決まる<span class="credit">Photo: Frank C. Müller / <a href="https://commons.wikimedia.org/wiki/File:Buerostuhl_(fcm).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
