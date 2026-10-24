@@ -25,7 +25,7 @@ Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔�
 ## 夏の頂点——72年目の Newport と 60年目の Montreux
 
 <figure class="photo photo--right">
-<img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy"></a>
 <figcaption>2025年のNewportに立つThe RootsのBlack Thought</figcaption>
 <span class="credit">Photo: Vbrunophotog / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -41,7 +41,7 @@ Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend
 Montreux は規模だけではなく、「文化的影響力」で Newport と双璧を成している。かつて Prince、Ella Fitzgerald、Miles Davis といった巨人たちがこの地で演奏し、録音された「Live at Montreux」は歴史の証言となった。2026年、Montreux は 60周年を記念して、会場の全面改装を実施した。新しい Duplex（電子音楽用の二階建てクラブ空間）、Paloma（ビーチ・クラブ）、そして再生された Stravinski Auditorium が、旧来の「音楽の権威」を、21世紀のコンテンポラリー・カルチャー・フェスティバルへと変身させた。
 
 <figure class="photo photo--left">
-<img src="/images/jazz-festivals-2026/montreux-lakeside-2026.jpg" alt="2026年モントルー・ジャズ・フェスティバル、夕暮れのレマン湖畔に集う観客" width="220" height="308" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/montreux-lakeside-2026.jpg" alt="2026年モントルー・ジャズ・フェスティバル、夕暮れのレマン湖畔に集う観客" width="220" height="308" loading="lazy"></a>
 <figcaption>2026年のMontreux。夕陽のレマン湖畔に人が集う</figcaption>
 <span class="credit">Photo: Kalai Ramu / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -51,7 +51,7 @@ Montreux は規模だけではなく、「文化的影響力」で Newport と�
 ## 夏の横広がり——San Francisco、New Orleans、Detroit の三様式
 
 <figure class="photo photo--right">
-<img src="/images/jazz-festivals-2026/new-orleans-jazz-fest-crowd.jpg" alt="ニューオーリンズ・ジャズ＆ヘリテッジ・フェスティバルのコンゴ・スクエア・ステージ前の観客" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0000026PH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/new-orleans-jazz-fest-crowd.jpg" alt="ニューオーリンズ・ジャズ＆ヘリテッジ・フェスティバルのコンゴ・スクエア・ステージ前の観客" width="220" height="146" loading="lazy"></a>
 <figcaption>New Orleans Jazz Fest、Congo Squareステージ前の熱気</figcaption>
 <span class="credit">Photo: thepipe26 / Wikimedia Commons (CC BY 2.0)</span>
 </figure>

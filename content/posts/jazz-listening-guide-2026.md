@@ -27,7 +27,7 @@ draft: false
 ## 耳の置きどころを一つに決める
 
 <figure class="photo photo--left">
-<img src="/images/jazz-listening/bluenote-club.jpg" alt="ニューヨークのブルーノートで演奏するサックス奏者とベース奏者" width="220" height="154" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00000AVOZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-listening/bluenote-club.jpg" alt="ニューヨークのブルーノートで演奏するサックス奏者とベース奏者" width="220" height="154" loading="lazy"></a>
 <figcaption>一人が吹き、もう一人がその場で応える。ジャズの中身はこの往復にある<span class="credit">Photo: Francesca.giovinazzo / <a href="https://commons.wikimedia.org/wiki/File:Bluenote_Jazz_Club_in_NYC.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ draft: false
 ## 曲の形がわかると、迷子にならない
 
 <figure class="photo photo--right">
-<img src="/images/jazz-listening/bass-player.jpg" alt="ジャズクラブでウッドベースを弾く奏者" width="220" height="321" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-listening/bass-player.jpg" alt="ジャズクラブでウッドベースを弾く奏者" width="220" height="321" loading="lazy"></a>
 <figcaption>ベースを追うと曲の継ぎ目が見えてくる。一周の変わり目で動きが戻る<span class="credit">Photo: CookipediaChef / <a href="https://commons.wikimedia.org/wiki/File:Len_Skeat_at_Upwell_Jazz_Club_-_Feb_2020.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ draft: false
 ## 六週間の聴く順番を組む
 
 <figure class="photo photo--left">
-<img src="/images/jazz-listening/jazz-drummer.jpg" alt="ドラムセットでシンバルを叩くジャズドラマー" width="220" height="188" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FB98FSS1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-listening/jazz-drummer.jpg" alt="ドラムセットでシンバルを叩くジャズドラマー" width="220" height="188" loading="lazy"></a>
 <figcaption>ライドシンバルの刻みとブラシの擦れる音。二週目はここだけを追う<span class="credit">Photo: Mike a davies / <a href="https://commons.wikimedia.org/wiki/File:Billie_Davies_Female_Jazz_Drummer_1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ draft: false
 ## ライブで答え合わせをする
 
 <figure class="photo photo--right">
-<img src="/images/jazz-listening/jazz-vipers.jpg" alt="ニューオーリンズの店で演奏するジャズバンド" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0000026PH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-listening/jazz-vipers.jpg" alt="ニューオーリンズの店で演奏するジャズバンド" width="220" height="147" loading="lazy"></a>
 <figcaption>小さな店の近い距離なら、誰が誰に反応したのかが目で見える<span class="credit">Photo: Neworleansjazzvipers / <a href="https://commons.wikimedia.org/wiki/File:The_New_Orleans_Jazz_Vipers_at_the_Spotted_Cat_Music_Club_on_Frenchmen_Street,_2013.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

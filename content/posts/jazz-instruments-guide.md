@@ -24,7 +24,7 @@ aliases:
 ### コントラバス
 
 <figure class="photo photo--left">
-  <img src="/images/jazz-instruments/jazz-double-bass.jpg" alt="ステージでコントラバスを演奏するジャズ・ベーシスト" width="1000" height="1505" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-instruments/jazz-double-bass.jpg" alt="ステージでコントラバスを演奏するジャズ・ベーシスト" width="1000" height="1505" loading="lazy"></a>
   <figcaption>ジャズの音の床。四分音符でコード進行を歩く「ウォーキング・ベース」が曲の奥行きを作る<span class="credit">Photo: Rolff Massimiliano / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ aliases:
 ### ドラムセット
 
 <figure class="photo photo--right">
-  <img src="/images/jazz-instruments/jazz-drumset-stage.jpg" alt="ジャズ・フェスティバルの舞台に置かれたドラムセット" width="900" height="600" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0FB98FSS1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-instruments/jazz-drumset-stage.jpg" alt="ジャズ・フェスティバルの舞台に置かれたドラムセット" width="900" height="600" loading="lazy"></a>
   <figcaption>ライド・シンバルの「チーチーチー」で時間を刻む。小規模編成ではスネアのブラシ奏法も耳に残る<span class="credit">Photo: Tore Sætre / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ aliases:
 ### サクソフォン
 
 <figure class="photo photo--left">
-  <img src="/images/jazz-instruments/vintage-alto-saxophone.jpg" alt="1927年製のビンテージ・アルトサクソフォン" width="1200" height="1600" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0002E1U5S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-instruments/vintage-alto-saxophone.jpg" alt="1927年製のビンテージ・アルトサクソフォン" width="1200" height="1600" loading="lazy"></a>
   <figcaption>ビバップ以降、ジャズの主役に躍り出たサクソフォン。アルトとテナーが二大巨頭だ<span class="credit">Photo: Nabokov / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ aliases:
 ### トランペット
 
 <figure class="photo photo--right">
-  <img src="/images/jazz-instruments/jazz-trumpet-new-orleans.jpg" alt="ニューオーリンズの路上でトランペットを吹くミュージシャン" width="1280" height="854" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00B3LNXDQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-instruments/jazz-trumpet-new-orleans.jpg" alt="ニューオーリンズの路上でトランペットを吹くミュージシャン" width="1280" height="854" loading="lazy"></a>
   <figcaption>ニューオーリンズ・ジャズ以来、ジャズの「顔」であり続けたトランペット<span class="credit">Photo: Jessep242 / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 

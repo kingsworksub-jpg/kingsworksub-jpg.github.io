@@ -19,7 +19,7 @@ draft: false
 ## 南東岸から北東まで、アイラの蒸溜所が決める煙の種類
 
 <figure class="photo photo--left">
-<img src="/images/islay/laphroaig-distillery.jpg" alt="海沿いに建つラフロイグ蒸溜所の白い倉庫" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0029ZFVVW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/islay/laphroaig-distillery.jpg" alt="海沿いに建つラフロイグ蒸溜所の白い倉庫" width="1000" height="666" loading="lazy"></a>
 <figcaption>海辺に建つラフロイグ蒸溜所<span class="credit">Photo: Bjarne Henning Kvaal / <a href="https://commons.wikimedia.org/wiki/File:Laphroaig_Distillery_-_panoramio_(4).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
@@ -139,7 +139,7 @@ draft: false
 ## 島をひと回りする、5つの選択肢
 
 <figure class="photo photo--left">
-<img src="/images/islay/islay-map.png" alt="アイラ島の地図" width="888" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B002VZY62K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/islay/islay-map.png" alt="アイラ島の地図" width="888" height="1000" loading="lazy"></a>
 <figcaption>アイラ島の地図。蒸溜所は南東岸・中央・北東・西に点在する<span class="credit">Map: Foxtrot1985 / <a href="https://commons.wikimedia.org/wiki/File:Islay_map-gd.svg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

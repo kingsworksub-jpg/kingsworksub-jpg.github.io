@@ -42,7 +42,7 @@ Depop、Vestiaire Collectiveといった二次販売プラットフォーム、T
 ### Dapper時代（1920年代-1930年代）
 
 <figure class="photo photo--left">
-<img src="/images/jazz-menswear/duke-ellington-django-1946.jpg" alt="ピアノに向かうジャンゴ・ラインハルトと、ストライプタイにスーツ姿のデューク・エリントン（1946年）" width="220" height="270" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00005B4D4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/duke-ellington-django-1946.jpg" alt="ピアノに向かうジャンゴ・ラインハルトと、ストライプタイにスーツ姿のデューク・エリントン（1946年）" width="220" height="270" loading="lazy"></a>
 <figcaption>デューク・エリントン（右）とジャンゴ・ラインハルト。1946年、ニューヨーク</figcaption>
 <span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
 </figure>
@@ -56,7 +56,7 @@ Duke Ellingtonの時代、スーツはより緩くなった。裾が広いトラ
 そしてこの時代、ピンストライプスーツは一つのシンボルとなった。Al Caponeとジャズミュージシャンのような「見た目で権力や才能を示す」必要がある人々が、これを選んだ。ピンストライプは「派手に装う人間」のマークだった。
 
 <figure class="photo photo--right">
-<img src="/images/jazz-menswear/dizzy-gillespie-pinstripe-1946.jpg" alt="ピンストライプのスーツでトランペットを手に笑うディジー・ガレスピー（1946年）" width="220" height="293" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/dizzy-gillespie-pinstripe-1946.jpg" alt="ピンストライプのスーツでトランペットを手に笑うディジー・ガレスピー（1946年）" width="220" height="293" loading="lazy"></a>
 <figcaption>ピンストライプのスーツを着たディジー・ガレスピー。1946年、52丁目のFamous Door</figcaption>
 <span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
 </figure>
@@ -108,7 +108,7 @@ Prada、Saint Laurent、Hugo Bossといったメジャーブランドが2025年�
 ## 足元の変化：オックスフォードからローファーへ
 
 <figure class="photo photo--left">
-<img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B001H9NS8E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy"></a>
 <figcaption>デニムに白ソックス、足元はペニーローファー</figcaption>
 <span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>

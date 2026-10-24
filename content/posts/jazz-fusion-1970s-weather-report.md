@@ -18,7 +18,7 @@ scheduled_time: "21:30"
 ## 『In a Silent Way』と『Bitches Brew』、スタジオで組み立てられた電気のジャズ
 
 <figure class="photo photo--left">
-<img src="/images/fusion-1970s/rhodes-mark1.jpg" alt="1975年製のRhodes Mark Iステージピアノ。73鍵の鍵盤と黒い蓋、足元のサステインペダル" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00000J7SS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/fusion-1970s/rhodes-mark1.jpg" alt="1975年製のRhodes Mark Iステージピアノ。73鍵の鍵盤と黒い蓋、足元のサステインペダル" width="220" height="165" loading="lazy"></a>
 <figcaption>1975年製のRhodes Mark I。73鍵のステージ型で、1970年代のフュージョンの標準的な鍵盤だった<span class="credit">Photo: Daniel Spils from Seattle, USA / CC BY 2.0</span></figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Weather Reportには「全員がいつもソロをとっていて、同時に誰
 ## ARP 2600が持ち込んだ、オーケストラの代わりの音
 
 <figure class="photo photo--left">
-<img src="/images/fusion-1970s/arp-2600.jpg" alt="スタンドに置かれたARP 2600。パネルにつまみとパッチケーブルが並び、手前に鍵盤が付いている" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000002AGE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/fusion-1970s/arp-2600.jpg" alt="スタンドに置かれたARP 2600。パネルにつまみとパッチケーブルが並び、手前に鍵盤が付いている" width="220" height="147" loading="lazy"></a>
 <figcaption>ARP 2600。パネル上の穴をケーブルでつなぎ替えて音を組み立てる<span class="credit">Photo: Ville Hyvönen from helsinki / tallinn, Finland / CC BY-SA 2.0</span></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Return to Foreverが手放したのは、デビュー作にあった風のよう
 ## ジャコ・パストリアス、フレットを抜いたベースが歌いはじめる
 
 <figure class="photo photo--left">
-<img src="/images/fusion-1970s/jaco-1980.jpg" alt="1980年のステージで、ヘッドバンドを巻いて前かがみに演奏するジャコ・パストリアス" width="220" height="156" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000002AGE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/fusion-1970s/jaco-1980.jpg" alt="1980年のステージで、ヘッドバンドを巻いて前かがみに演奏するジャコ・パストリアス" width="220" height="156" loading="lazy"></a>
 <figcaption>1980年のジャコ・パストリアス。この前後の数年がWeather Report在籍の時期にあたる<span class="credit">Photo: Chris Hakkens / CC BY 2.0</span></figcaption>
 </figure>
 
