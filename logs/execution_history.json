@@ -1486,5 +1486,25 @@
       "2巡目: 古い記事から再点検(内部リンク3本以下・誤字検査)",
       "Hatena/Ameba/note巡回と drafts 改定案"
     ]
+  },
+  {
+    "timestamp": "2026-10-24T06:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "coca-cola-zero-deep-dive-2026",
+      "green-cola-deep-dive-2026",
+      "streaming-loudness-normalization-lufs",
+      "ear-training-one-week"
+    ],
+    "actions": [
+      "内部リンクが少ない4記事に関連記事リンクを追加(コーラ2本に各2本、LUFS記事にミックス2本、耳コピ記事にパーカー記事)",
+      "全記事のdescription/images/figure配置/簡体字混入を機械点検し、問題なしを確認"
+    ],
+    "files_changed": 5,
+    "status": "完了(Hatena/Ameba/note未巡回。hugo未導入のためビルド未確認。draft 5件は対象外)",
+    "next_kpis": [
+      "内部リンク2本以下の記事を継続補強",
+      "Hatena/Ameba/note巡回と drafts 改定案"
+    ]
   }
 ]
