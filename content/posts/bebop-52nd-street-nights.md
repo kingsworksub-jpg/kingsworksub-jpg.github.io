@@ -13,7 +13,7 @@ tags: ["ビバップ", "Charlie Parker", "Dizzy Gillespie", "52nd Street", "Mint
 
 ビバップを語るとき、最後に戻りたい日がひとつあります。1945年11月26日、ニューヨークのブロードウェイ通り、WORスタジオで6曲が録音されました。アルトサックスはCharlie Parker、トランペットはDizzy Gillespie。曲名は「Ko-Ko」「Now's the Time」「Billie's Bounce」「Warming Up a Riff」「Thriving on a Riff」「Meandering」です。
 
-この日、Parkerははじめて自分の名前で打分を持つセッションを録音しました。それまで約5年、彼は常に誰かの名前の下で吹いていました。Jay McShannのオーケストラ、Billy Eckstineの即興録音会、Tiny Grimes、Dizzy Gillespie、Sarah Vaughan、Red Norvo。技量はこの時点ですでに開いていた。それでも、自分の名前で鳴らす日が近いとは思っていなかった。
+この日、Parkerははじめて自分の名義で率いるセッションを録音しました。それまで約5年、彼は常に誰かの名前の下で吹いていました。Jay McShannのオーケストラ、Billy Eckstineの即興録音会、Tiny Grimes、Dizzy Gillespie、Sarah Vaughan、Red Norvo。技量はこの時点ですでに開いていた。それでも、自分の名前で鳴らす日が近いとは思っていなかった。
 
 今回は、1940年代の前半から後半へ、音がどう移り、どこへ移ったのかを、録音日程と場所の地図の両方から辿ります。前半の終わりまでは即興録音会とラジオの放送が担い、1946年を境に固定されたクラブと入場料のついた夜のコンサートが並び始めます。聴いた人は自分からその場へ向かいます。
 
@@ -51,7 +51,7 @@ Parker 自身にとっては、これは理論的な書き換えではなく、�
 
 1949年のDown Beatには、Parkerがギター奏者のBiddy Fleetと、1939年12月に第七大通りのある店で「Cherokee」を練習していた、という話が載っています。
 
-Parkerは1920年8月29日、カンザスシティ（在カンザス州）で生まれました。最初の録音は1940年12月2日、カンザス州ウィチタのラジオ局KFBIで流されたJay McShannのオーケストラの放送でした。残された5本は「Moten Swing」「Coquette」「Lady Be Good」「Blues」「Honeysuckle Rose」でした。1943年2月15日と28日、ChicagoのSavoy Hotelの305号室で、Billy Eckstineの主催によるRedcross Jam Sessionが開かれます。Parkerはそこでテノーサックスを吹きました。Dizzy GillespieとOscar Pettifordが隣に立っています。1944年、ParkerはEckstineの大バンドに残ることを断りました。断るときの言葉は「It's a jail」でした。
+Parkerは1920年8月29日、カンザス州カンザスシティで生まれました。最初の録音は1940年12月2日、カンザス州ウィチタのラジオ局KFBIで流されたJay McShannのオーケストラの放送でした。残された5本は「Moten Swing」「Coquette」「Lady Be Good」「Blues」「Honeysuckle Rose」でした。1943年2月15日と28日、ChicagoのSavoy Hotelの305号室で、Billy Eckstineの主催によるRedcross Jam Sessionが開かれます。Parkerはそこでテノーサックスを吹きました。Dizzy GillespieとOscar Pettifordが隣に立っています。1944年、ParkerはEckstineの大バンドに残ることを断りました。断るときの言葉は「It's a jail」でした。
 
 1944年9月15日には、ニューヨークのWORスタジオでTiny Grimesのセッションがあり、Parkerのニューヨークでの最初の録音になりました。そのあとの1年のあいだに、1945年2月12日のCootie Williams、2月28日と5月11日のDizzy Gillespie（Guildで発売）、5月25日のSarah Vaughan、6月6日のRed Norvoと、短い日程が詰まります。2月12日のCootie Williamsの分は、Savoy Ballroomで14人の編成で録られますが、商品として発売されることはありませんでした。6月6日のRed Norvoの分は、Dialが1949年にかけ直しています。
 
@@ -91,7 +91,7 @@ GillespieはDuke Ellingtonの言葉を伝えています。音楽に名前をつ
 
 1942年8月、AFMのJames Petrilloが録音禁止を出しました。禁令は1944年まで続き、ラジオとジュークボックスから新しい音楽が押さえられました。Parkerがレコードとして出した音は、Savoy、Dial、Verveの3社に限られます。この少数のレーベルと、足りない放送枠が、1940年代のビバップの行き先を狭くしていました。
 
-1944年7月2日、ロサンゼンジのPhilharmonic Auditoriumで最初のJazz at the Philharmonicが開かれました。主催はNorman Granzで、借りた約300ドルが予算でした。1946年から毎年ツアーを続け、同じ年にClefを設立しました。人種差別的な方針のクラブの予約は引き受けませんでした。1947年のDown Beatで、1年あたり10万ドル分の日時を取り消されたと話しています。
+1944年7月2日、ロサンゼルスのPhilharmonic Auditoriumで最初のJazz at the Philharmonicが開かれました。主催はNorman Granzで、借りた約300ドルが予算でした。1946年から毎年ツアーを続け、同じ年にClefを設立しました。人種差別的な方針のクラブの予約は引き受けませんでした。1947年のDown Beatで、1年あたり10万ドル分の日時を取り消されたと話しています。
 
 1949年、Parkerはヨーロッパへ公演に行きました。5月8日、9日、14日、15日はパリのSalle Pleyel、12日はRoubaixでした。帰国後は9月18日のCarnegie HallでJazz at the Philharmonicを行いました。
 
@@ -101,15 +101,15 @@ GillespieはDuke Ellingtonの言葉を伝えています。音楽に名前をつ
 
 ## 一九四六年、カマリラの六か月
 
-1946年3月28日、ロサンゼンジのRadio RecordersでDialのセッションが開かれます。4本は「Moose the Mooche」「Yardbird Suite」「Ornithology」「A Night in Tunisia」です。Parkerのアルトサックスに、Miles Davis、Lucky Thompson、Dodo Marmarosa、Arvin Garrison、Vic McMillan、Roy Porterが並びます。1945年11月のニューヨークから、わずか4か月でここへ移りました。
+1946年3月28日、ロサンゼルスのRadio RecordersでDialのセッションが開かれます。4本は「Moose the Mooche」「Yardbird Suite」「Ornithology」「A Night in Tunisia」です。Parkerのアルトサックスに、Miles Davis、Lucky Thompson、Dodo Marmarosa、Arvin Garrison、Vic McMillan、Roy Porterが並びます。1945年11月のニューヨークから、わずか4か月でここへ移りました。
 
-その4か月後、事件が起こります。1946年7月29日、ロサンゼンジのCivic Hotelで、Parkerは寝台のシーツに火をつけ、ホールのなかを走りました。逮捕され、East Los Angelesの刑務所の精神科病棟に留められます。容疑は放火、公衆でのわいせつ、逮捕への抵抗でした。六か月をCamarillo State Hospitalで過ごし、1947年1月に釈放されます。
+その4か月後、事件が起こります。1946年7月29日、ロサンゼルスのCivic Hotelで、Parkerは寝台のシーツに火をつけ、ホールのなかを走りました。逮捕され、East Los Angelesの刑務所の精神科病棟に留められます。容疑は放火、公衆でのわいせつ、逮捕への抵抗でした。六か月をCamarillo State Hospitalで過ごし、1947年1月に釈放されます。
 
-「Moose the Mooche」という曲名は、ロサンゼンジの麻薬密売人の名です。その人が逮捕されると、Parkerはつながりを失いました。アルコールに傾き、体も心も崩れていきます。1947年、カリフォルニアを出る前に「Relaxin' at Camarillo」を録みました。
+「Moose the Mooche」という曲名は、ロサンゼルスの麻薬密売人の名です。その人が逮捕されると、Parkerはつながりを失いました。アルコールに傾き、体も心も崩れていきます。1947年、カリフォルニアを出る前に「Relaxin' at Camarillo」を録音しました。
 
 1947年4月7日、Parkerはニューヨークへ帰りました。5月8日にはHarris Smith Studiosで録音しています。8月14日のSavoyでは6本を録りました。10月28日、WORスタジオのDialでも6本です。「Dexterity」「Bongo Bop」「Dewey Square」「The Hymn」「Bird of Paradise」「Embraceable You」。Miles Davis、Duke Jordan、Tommy Potter、Max Roachが並びました。
 
-1951年、Parkerは麻薬の所持で逮捕されます。執行猶予3か月。キャバレットカードも取り消されました。ニューヨークのほとんどの夜のクラブで仕事ができなくなります。1951年から1953年のあいだ、出ていける場所为数えると、Apolloがそのひとつでした。
+1951年、Parkerは麻薬の所持で逮捕されます。執行猶予3か月。キャバレーカード(ニューヨークの酒場で演奏するための許可証)も取り消されました。市内のほとんどのナイトクラブで仕事ができなくなります。1951年から1953年のあいだ、出演できる場所を数えると、Apolloがそのひとつでした。
 
 ## 最後に残ったもの
 
