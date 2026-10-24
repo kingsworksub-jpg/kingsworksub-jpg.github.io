@@ -20,7 +20,7 @@ tags: ["ビバップ", "Charlie Parker", "Dizzy Gillespie", "52nd Street", "Mint
 ## ミントンの扉
 
 <figure class="photo photo--right">
- <img src="/images/bebop/thelonious-monk-mintons-1947.jpg" alt="Minton's Playhouseでピアノを弾くThelonious Monk" width="1600" height="1678" loading="lazy">
+ <a href="https://www.amazon.co.jp/dp/B002CNV3LS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bebop/thelonious-monk-mintons-1947.jpg" alt="Minton's Playhouseでピアノを弾くThelonious Monk" width="1600" height="1678" loading="lazy"></a>
  <figcaption>1947年9月ごろ、Minton's Playhouse。Thelonious Monk はこのクラブの house pianist を務めていた<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Hotel Cecilは2023年6月27日にニューヨーク市指定の歴史的建造�
 ## 「Ko-Ko」が録音された日
 
 <figure class="photo photo--left">
- <img src="/images/bebop/charlie-parker-1947-threedeeuces.jpg" alt="Three Deucesでアルトサックスを吹くCharlie Parkerと隣に立つMiles Davis" width="1600" height="1580" loading="lazy">
+ <a href="https://www.amazon.co.jp/dp/B00EHULWQK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bebop/charlie-parker-1947-threedeeuces.jpg" alt="Three Deucesでアルトサックスを吹くCharlie Parkerと隣に立つMiles Davis" width="1600" height="1580" loading="lazy"></a>
  <figcaption>1947年8月ごろ、ニューヨークの Three Deuces。Charlie Parker と Miles Davis<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Parkerは1920年8月29日、カンザスシティ（在カンザス州）で生�
 ## スウィング・ストリート
 
 <figure class="photo photo--right">
- <img src="/images/bebop/52nd-street-1948.jpg" alt="1948年5月ごろの52nd Streetの夜、ネオンサインが立ち並ぶ通り" width="1600" height="1205" loading="lazy">
+ <a href="https://www.amazon.co.jp/dp/B01N35GFB4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bebop/52nd-street-1948.jpg" alt="1948年5月ごろの52nd Streetの夜、ネオンサインが立ち並ぶ通り" width="1600" height="1205" loading="lazy"></a>
  <figcaption>1948年5月ごろ Fifth Avenue と Seventh Avenue の間、52nd Street。当時は「Swing Street」と呼ばれていた<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Three Deucesが、Parkerのクインテットが根を張った場所です。19
 ## どっしり座った男 — Dizzy Gillespie
 
 <figure class="photo photo--left">
- <img src="/images/bebop/dizzy-gillespie-52nd-street-1947.jpg" alt="52nd Streetで腰を下ろして楽器を待つDizzy Gillespie" width="1600" height="1604" loading="lazy">
+ <a href="https://www.amazon.co.jp/dp/B09V7Q1P7Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bebop/dizzy-gillespie-52nd-street-1947.jpg" alt="52nd Streetで腰を下ろして楽器を待つDizzy Gillespie" width="1600" height="1604" loading="lazy"></a>
  <figcaption>1946年から1948年のあいだ、52nd Street の Dizzy Gillespie<span class="credit">Photo: William P. Gottlieb (Library of Congress) / Wikimedia Commons（パブリックドメイン）</span></figcaption>
 </figure>
 

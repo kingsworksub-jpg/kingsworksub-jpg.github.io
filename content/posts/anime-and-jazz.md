@@ -22,7 +22,7 @@ tags: ["菅野よう子", "カウボーイビバップ", "坂道のアポロン"
 ## 「ジャズにしたい」という一言
 
 <figure class="photo photo--right">
-  <img src="/images/anime-jazz/satchmo-carnegie-hall-1947.jpg" alt="1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるLouis Armstrong" width="1024" height="1031" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/satchmo-carnegie-hall-1947.jpg" alt="1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるLouis Armstrong" width="1024" height="1031" loading="lazy"></a>
   <figcaption>1947年2月、ニューヨーク・カーネギーホール。マイクに口をつける Louis Armstrong<span class="credit">Photo: William P. Gottlieb / Library of Congress（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
 ## ピンとこなかった人が書いた
 
 <figure class="photo photo--left">
-  <img src="/images/anime-jazz/kanno-animeexpo-2010.jpg" alt="2010年のステージで演奏する菅野よう子と中嶋美嘉" width="1280" height="850" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B009W67NI0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/kanno-animeexpo-2010.jpg" alt="2010年のステージで演奏する菅野よう子と中嶋美嘉" width="1280" height="850" loading="lazy"></a>
   <figcaption>2010年7月2日、Anime Expo 2010 のステージで演奏する菅野よう子と中嶋美嘉<span class="credit">Photo: Dennis Amith / CC BY-SA 2.0 / Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
 ## 佐世保という土台
 
 <figure class="photo photo--right">
-  <img src="/images/anime-jazz/sasebo-1945-destruction.jpg" alt="1945年9月、叩き壊された佐世保の市街を望む" width="768" height="575" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/4868310054?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/sasebo-1945-destruction.jpg" alt="1945年9月、叩き壊された佐世保の市街を望む" width="768" height="575" loading="lazy"></a>
   <figcaption>1945年9月、終戦直後の佐世保市街<span class="credit">Photo: U.S. Navy（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
 ## 24曲、すべて生演奏
 
 <figure class="photo photo--left">
-  <img src="/images/anime-jazz/art-blakey-1981.jpg" alt="1981年6月26日のArt Blakey" width="1280" height="850" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00000I8UF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/art-blakey-1981.jpg" alt="1981年6月26日のArt Blakey" width="1280" height="850" loading="lazy"></a>
   <figcaption>1981年6月26日の Art Blakey<span class="credit">Photo: Bernard Gotfryd / Library of Congress（パブリックドメイン）</span></figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
 ## 全24曲のうち、11曲
 
 <figure class="photo photo--right">
-  <img src="/images/anime-jazz/coltrane-schiphol-1963.jpg" alt="1963年10月26日、アムステルダムのスキッホル空港に着いたJohn Coltrane" width="1400" height="1865" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/coltrane-schiphol-1963.jpg" alt="1963年10月26日、アムステルダムのスキッホル空港に着いたJohn Coltrane" width="1400" height="1865" loading="lazy"></a>
   <figcaption>1963年10月26日、アムステルダム・スキッホル空港に到着した John Coltrane<span class="credit">Photo: Hugo van Gelderen / Anefo（CC0）</span></figcaption>
 </figure>
 
@@ -133,7 +133,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
 ## 喫茶店の地図
 
 <figure class="photo photo--left">
-  <img src="/images/anime-jazz/bluenote-tokyo-2024.jpg" alt="2024年、東京のBlue Noteの前の通り" width="1440" height="1440" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B00000AVOZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/anime-jazz/bluenote-tokyo-2024.jpg" alt="2024年、東京のBlue Noteの前の通り" width="1440" height="1440" loading="lazy"></a>
   <figcaption>2024年、東京・南青山の Blue Note 前の通り<span class="credit">Photo: Kazuhisa OTSUBO / CC BY 2.0 / Wikimedia Commons</span></figcaption>
 </figure>
 

@@ -16,7 +16,7 @@ ogImageHeight: 630
 ## Jon Batiste『Black Mozart』がもたらすクロスオーバーの衝撃
 
 <figure class="photo photo--left">
-<img src="/images/jazz-artists/jon-batiste.jpg" alt="Jon Batisteのポートレート" width="220" height="150" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GYYY2ZSM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-artists/jon-batiste.jpg" alt="Jon Batisteのポートレート" width="220" height="150" loading="lazy"></a>
 <figcaption>Jon Batiste — クロスオーバーの衝撃</figcaption>
 <span class="credit">Photo: StudioNotes</span>
 </figure>
@@ -28,7 +28,7 @@ ogImageHeight: 630
 ## 山中千尋25周年 — 研ぎ澄まされたピアノトリオの美学
 
 <figure class="photo photo--right">
-<img src="/images/jazz-artists/chihiro-yamanaka.jpg" alt="山中千尋のポートレート" width="220" height="150" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HDBYKQDS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-artists/chihiro-yamanaka.jpg" alt="山中千尋のポートレート" width="220" height="150" loading="lazy"></a>
 <figcaption>山中千尋 — デビュー25周年の響き</figcaption>
 <span class="credit">Photo: StudioNotes</span>
 </figure>

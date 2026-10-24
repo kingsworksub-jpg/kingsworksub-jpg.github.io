@@ -20,7 +20,7 @@ scheduled_time: "23:00"
 ## 1年に2%という数字の重さ
 
 <figure class="photo photo--left">
-<img src="/images/angels-share/jura-casks.jpg" alt="荒れ地の丘を背に、蒸溜所の敷地のコンクリートの上に並べられた古いウイスキー樽" width="1000" height="656" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FF8ZR7DR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/angels-share/jura-casks.jpg" alt="荒れ地の丘を背に、蒸溜所の敷地のコンクリートの上に並べられた古いウイスキー樽" width="1000" height="656" loading="lazy"></a>
 <figcaption>スコットランド西岸のジュラ島、蒸溜所の貯蔵庫の脇に置かれた樽。背後には木の少ない丘が広がる<span class="credit">Photo: Bjarne Henning Kvaal… / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ scheduled_time: "23:00"
 ## 樽は呼吸している
 
 <figure class="photo photo--right">
-<img src="/images/angels-share/bushmills.jpg" alt="薄暗い石造りの貯蔵庫に、白い鏡板に蒸溜所の名前が書かれた樽が何段にも積まれている" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B01IGQ7ANY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/angels-share/bushmills.jpg" alt="薄暗い石造りの貯蔵庫に、白い鏡板に蒸溜所の名前が書かれた樽が何段にも積まれている" width="750" height="1000" loading="lazy"></a>
 <figcaption>北アイルランドのブッシュミルズ蒸溜所の古い貯蔵庫。裸電球の下で、鏡板に社名と「SINGLE MALT」と書かれた樽が奥まで並ぶ<span class="credit">Photo: yvescosentino / CC BY 2.5</span></figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ scheduled_time: "23:00"
 ## 度数が下がる土地、上がる土地
 
 <figure class="photo photo--left">
-<img src="/images/angels-share/kilchoman.jpg" alt="土の床に横たえられた木の樽。青く塗られた鏡板に蒸溜所の名前と2006の数字が書かれている" width="1000" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B007VMC3U0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/angels-share/kilchoman.jpg" alt="土の床に横たえられた木の樽。青く塗られた鏡板に蒸溜所の名前と2006の数字が書かれている" width="1000" height="1000" loading="lazy"></a>
 <figcaption>アイラ島のキルホーマン蒸溜所で2006年に詰められた樽。土の床に横たえて寝かせる、昔ながらの置き方だ<span class="credit">Photo: Calum Hutchinson / Public domain</span></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ scheduled_time: "23:00"
 ## 樽の木に残る、もうひとつの取り分
 
 <figure class="photo photo--right">
-<img src="/images/angels-share/jura-barrels.jpg" alt="草地の脇に並ぶ古いウイスキー樽。上段の樽の鏡板には蒸溜所名と1997の数字が書かれている" width="640" height="427" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0FF8ZR7DR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/angels-share/jura-barrels.jpg" alt="草地の脇に並ぶ古いウイスキー樽。上段の樽の鏡板には蒸溜所名と1997の数字が書かれている" width="640" height="427" loading="lazy"></a>
 <figcaption>ジュラ蒸溜所の敷地に積まれた樽。鏡板には1997年の文字が見える。中身を出したあとの樽にも、木に染みこんだ原酒が残っている<span class="credit">Photo: Steve Partridge / CC BY-SA 2.0</span></figcaption>
 </figure>
 

@@ -17,7 +17,7 @@ ogImageHeight: 630
 ## 鍵盤は「演奏する道具」ではなく「思考する道具」
 
 <figure class="photo photo--left">
-<img src="/images/piano/practice.jpg" alt="ピアノの練習風景" width="800" height="531" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/piano/practice.jpg" alt="ピアノの練習風景" width="800" height="531" loading="lazy"></a>
 <figcaption>鍵盤を前にしたとき、指を鍛えることよりもコードとスケールの関係を視覚的に理解することが優先される。<span class="credit">Photo: zaui/Scott Catron / CC BY-SA 2.0</span></figcaption>
 </figure>
 

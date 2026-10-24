@@ -44,7 +44,7 @@ Logic Pro や Cubase、Pro Tools といった従来型のDAWでは、素材を�
 ## クリップの鳴らし方を決める4つのローンチモード
 
 <figure class="photo photo--right">
-<img src="/images/ableton-live-12/launchpad.jpg" alt="セッションビューのマス目に対応した8×8のパッドを持つグリッドコントローラー" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07WWZCMP5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-12/launchpad.jpg" alt="セッションビューのマス目に対応した8×8のパッドを持つグリッドコントローラー" width="750" height="1000" loading="lazy"></a>
 <figcaption>格子状のパッドは画面のクリップスロットにそのまま対応する<span class="credit">Photo: Gilda from London, UK / <a href="https://commons.wikimedia.org/wiki/File:Novation_Launchpad_-_Ableton_Controller.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Live 12 ではこれがひとつのクリップにつき2つまで設定でき�
 ## ワープとローンチ量子化は別の仕事をしている
 
 <figure class="photo photo--left">
-<img src="/images/ableton-live-12/apc40.jpg" alt="クリップ起動用のパッドとノブを備えたコントローラーを操作しているところ" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00J3YYSUW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-12/apc40.jpg" alt="クリップ起動用のパッドとノブを備えたコントローラーを操作しているところ" width="1000" height="750" loading="lazy"></a>
 <figcaption>クリップの起動とシーン送りを手元に割り当てた操作卓<span class="credit">Photo: Eric Wahlforss from Berlin, Germany / <a href="https://commons.wikimedia.org/wiki/File:AKAI_APC40_Ableton_Performance_Controller.jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ Live 12 ではこれがひとつのクリップにつき2つまで設定でき�
 
 <figure class="photo photo--right">
 <a href="https://www.ableton.com/ja/live/" target="_blank" rel="noopener">
-<img src="/images/ableton-live-12/pad-controller.jpg" alt="ノートパソコンでLiveを動かし、タッチ式のコントローラーを並べた制作環境" width="612" height="612" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0D6Z15H4N?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-12/pad-controller.jpg" alt="ノートパソコンでLiveを動かし、タッチ式のコントローラーを並べた制作環境" width="612" height="612" loading="lazy"></a>
 <figcaption>ノートパソコン1台とコントローラーで完結する作業机<span class="credit">Photo: Mickey Destro / <a href="https://commons.wikimedia.org/wiki/File:Ableton_Live_%2B_Pad_controller.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 

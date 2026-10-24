@@ -12,7 +12,7 @@ tags: ["Héroes del Silencio", "Alan Boguslavsky", "Bunbury", "スペイン", "�
 
 
 <figure class="photo photo--left">
-  <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B004D95G08?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy"></a>
   <figcaption>2007年、セビリアのオリンピック・スタジアム。再結成「World Tour 2007」のステージ。黄金期の4人編成の向こうに、5人目のギタリストの姿はない<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Bogusflowの音楽は、どちらかというとスピリチュアルで内向�
 ## 2025〜2026年、ふたたびステージへ
 
 <figure class="photo photo--right">
-  <img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-2.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムで演奏するHéroes del Silencioの別アングル" width="1280" height="960" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0000089MJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-2.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムで演奏するHéroes del Silencioの別アングル" width="1280" height="960" loading="lazy"></a>
   <figcaption>同ツアーのステージを別アングルから。はるか遠い4人と、ファンの記憶に残る「空席」<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
 </figure>
 
