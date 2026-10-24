@@ -18,7 +18,7 @@ CD用やサンプル配布用に16bitのWAVを書き出すとき、書き出し�
 ## 16bitに落とすとき、何が起きているのか
 
 <figure class="photo photo--left">
-<img src="/images/dither/ad574-die.jpg" alt="アナログ・デジタル変換器AD574の半導体チップを顕微鏡で撮影した写真。上下に2つのチップが並ぶ" width="220" height="306" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C5JMFX6S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dither/ad574-die.jpg" alt="アナログ・デジタル変換器AD574の半導体チップを顕微鏡で撮影した写真。上下に2つのチップが並ぶ" width="220" height="306" loading="lazy"></a>
 <figcaption>連続した電圧を飛び飛びの数値に置き換えるのが変換器の仕事で、その刻み幅が量子化の細かさになる<span class="credit">Photo: Lhfjames / <a href="https://commons.wikimedia.org/wiki/File:AD574_Analog-Digital_Converter_Dieshot.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ CD用やサンプル配布用に16bitのWAVを書き出すとき、書き出し�
 ## 素材と3つの方式をそろえる
 
 <figure class="photo photo--right">
-<img src="/images/dither/m-audio-delta-1010.jpg" alt="M-AudioのDelta 1010。ラックマウントの入出力ユニットの背面と、ケーブルでつながったPCIカード" width="220" height="136" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08Q1NJSBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dither/m-audio-delta-1010.jpg" alt="M-AudioのDelta 1010。ラックマウントの入出力ユニットの背面と、ケーブルでつながったPCIカード" width="220" height="136" loading="lazy"></a>
 <figcaption>24bitで録って16bitで納める、という流れはPCIカードの時代から変わっていない<span class="credit">Photo: Musicproducer / <a href="https://commons.wikimedia.org/wiki/File:M-Audio_delta_1010_recording_interface.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ Cのノイズシェーピングは、古くから知られる44.1 kHz用の5次�
 ## フェードアウトの尻尾は、ディザなしだと5.09秒で消える
 
 <figure class="photo photo--left">
-<img src="/images/dither/marantz-cd63.jpg" alt="マランツのCDプレーヤーCD-63。金色の筐体に円形のディスク窓と操作ボタンが並ぶ" width="220" height="166" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08F6Z8NQ9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dither/marantz-cd63.jpg" alt="マランツのCDプレーヤーCD-63。金色の筐体に円形のディスク窓と操作ボタンが並ぶ" width="220" height="166" loading="lazy"></a>
 <figcaption>1983年のCDプレーヤー。16bit・44.1 kHzという器の大きさは、この頃から変わっていない<span class="credit">Photo: Daderot / <a href="https://commons.wikimedia.org/wiki/File:CD_63_compact_disc_player,_manufactured_by_Marantz,_1983_-_Design_Museum,_Kensington_-_London_-_DSC01623.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 

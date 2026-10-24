@@ -20,7 +20,7 @@ scheduled_time: "20:00"
 ## コーラはもともと薬局のカウンターで生まれた
 
 <figure class="photo photo--left">
-<img src="/images/craft-cola/kola-nut-market.jpg" alt="ガーナ北部の市場に並ぶコーラナッツ" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0H6PJTYNZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/craft-cola/kola-nut-market.jpg" alt="ガーナ北部の市場に並ぶコーラナッツ" width="1000" height="750" loading="lazy"></a>
 <figcaption>市場で山ごとに売られるコーラナッツ。西アフリカでは噛んで疲れを和らげる習慣があった<span class="credit">Photo: Dnshitobu / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ UMAMI COLAは、さらに大胆に甘みの出どころを変えた。砂糖の�
 ## 大手も「割るためのコーラ」を作った
 
 <figure class="photo photo--right">
-<img src="/images/craft-cola/signature-mixers.jpg" alt="コカ・コーラ シグネチャーミキサーズ スモーキーノーツのボトル" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B01B17C8SM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/craft-cola/signature-mixers.jpg" alt="コカ・コーラ シグネチャーミキサーズ スモーキーノーツのボトル" width="750" height="1000" loading="lazy"></a>
 <figcaption>コカ・コーラ シグネチャーミキサーズの「スモーキーノーツ」。ラベルにイランイランやグアヤクウッドの名が並ぶ<span class="credit">Photo: FlippyFlink / CC0</span></figcaption>
 </figure>
 

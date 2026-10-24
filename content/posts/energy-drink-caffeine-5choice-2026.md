@@ -40,7 +40,7 @@ scheduled_time: "17:00"
 ## カフェインの上限は、1日400mgと1回200mgの2本立て
 
 <figure class="photo photo--left">
-<img src="/images/energy-5/collection.jpg" alt="棚に何段も積み上げられた、さまざまな銘柄のエナジードリンクの缶とびん" width="390" height="332" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07SL2G12P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/energy-5/collection.jpg" alt="棚に何段も積み上げられた、さまざまな銘柄のエナジードリンクの缶とびん" width="390" height="332" loading="lazy"></a>
 <figcaption>海外で集められたエナジードリンクの缶。銘柄ごとに容量もカフェインの量も違う<span class="credit">Photo: Dominicp / <a href="https://commons.wikimedia.org/wiki/File:Energydrinks-collection.jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 

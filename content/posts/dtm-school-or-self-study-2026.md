@@ -18,7 +18,7 @@ DTMの学び方を調べ始めると、無料の解説動画、数千円の動�
 ## 動画で足りるのは「操作」と「知識」
 
 <figure class="photo photo--left">
-<img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" width="1000" height="659" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" width="1000" height="659" loading="lazy"></a>
 <figcaption>DAWの操作や書き出しの手順は、画面を見ながら覚えるのがいちばん早い。<span class="credit">Photo: Marco Raaphorst from The Hague, The Netherlands / CC BY 2.0</span></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 ## 独学が止まるのは、自分の曲の何が悪いか分からないとき
 
 <figure class="photo photo--right">
-<img src="/images/dtm-school/daw-mixing.jpg" alt="夜の自宅スタジオに並ぶモニターとMIDIキーボード" width="1000" height="678" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dtm-school/daw-mixing.jpg" alt="夜の自宅スタジオに並ぶモニターとMIDIキーボード" width="1000" height="678" loading="lazy"></a>
 <figcaption>夜の自宅スタジオ。ひとりで作業していると、自分の音の欠点にはなかなか気づけない。<span class="credit">Photo: Mooganic / CC BY 2.0</span></figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 ## 海外では「動画の定額」と「単発の添削」を組み合わせる
 
 <figure class="photo photo--left">
-<img src="/images/dtm-school/studio-guide.jpg" alt="録音機材の前で身振りを交えて説明する人物" width="1000" height="714" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000CZ0R42?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dtm-school/studio-guide.jpg" alt="録音機材の前で身振りを交えて説明する人物" width="1000" height="714" loading="lazy"></a>
 <figcaption>機材の前で説明を受ける見学者。人から直接教わると、手順の理由まで伝わりやすい。<span class="credit">Photo: W.carter / CC BY-SA 4.0</span></figcaption>
 </figure>
 
