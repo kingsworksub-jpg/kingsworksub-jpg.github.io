@@ -123,6 +123,9 @@ FL Studio は少し考え方が違う。ミキサーでキックのチャンネ�
 コンプの基本的な扱いや、EQとリバーブとの組み合わせについては、[無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)と、[ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)にもまとめている。サイドチェインは、ふつうのコンプの使い方が手に馴染んでから触れると、つまみの意味がずっと分かりやすくなる。
 
 ## 関連記事
+- [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+- [モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから](/posts/monitor-placement-room-tuning-6jo-2026/)
+- [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](/posts/monitor-headphones-5choice-2026/)
 - [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)
 - [Max for Liveの使い方は、自作より先にLFOのMapボタンから覚える](/posts/max-for-live-device-guide-2026/)
 - [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](/posts/fl-studio-pattern-piano-roll/)
