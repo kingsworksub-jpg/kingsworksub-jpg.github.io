@@ -20,7 +20,7 @@ draft: false
 ## キックとベースは、同じ50〜100Hzを取り合っている
 
 <figure class="photo photo--left">
-<img src="/images/sidechain/kick-pedal.jpg" alt="ドラムセットの足元に並ぶツインペダルとハイハットスタンド。バスドラムを踏むペダルが床に置かれている" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00BBRM0EA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sidechain/kick-pedal.jpg" alt="ドラムセットの足元に並ぶツインペダルとハイハットスタンド。バスドラムを踏むペダルが床に置かれている" width="220" height="147" loading="lazy"></a>
 <figcaption>バスドラムを踏むペダル。この一打の太さは、ベースの最低音とほぼ同じ帯域に集まっている<span class="credit">Photo: slayer / <a href="https://commons.wikimedia.org/wiki/File:Dixon-double-pedal.jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ draft: false
 ## 主要なDAWでの配線のしかた
 
 <figure class="photo photo--left">
-<img src="/images/sidechain/console.jpg" alt="アナログのミキシングコンソールを斜めから写した写真。灰色のつまみに色付きのキャップが並び、奥にフェーダーとレベルメーターが光っている" width="220" height="164" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B004NDFRVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sidechain/console.jpg" alt="アナログのミキシングコンソールを斜めから写した写真。灰色のつまみに色付きのキャップが並び、奥にフェーダーとレベルメーターが光っている" width="220" height="164" loading="lazy"></a>
 <figcaption>ミキシングコンソールのつまみの列。DAWのサイドチェインは、この卓のセンドで信号を別の機材へ送る操作をソフトの中で行っている<span class="credit">Photo: Prof. Pod / <a href="https://commons.wikimedia.org/wiki/File:ADT_Mixing_Console.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ FL Studio は少し考え方が違う。ミキサーでキックのチャンネ�
 ## コンプを使わない譲らせ方もある
 
 <figure class="photo photo--right">
-<img src="/images/sidechain/bass.jpg" alt="スタンドに立てかけた銀色の4弦エレキベース。後ろに木製の家具と譜面台が見える" width="220" height="293" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GTZ2LZHT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sidechain/bass.jpg" alt="スタンドに立てかけた銀色の4弦エレキベース。後ろに木製の家具と譜面台が見える" width="220" height="293" loading="lazy"></a>
 <figcaption>4弦のエレキベース。開放のE弦は約41Hzで、キックの中心とそのまま重なる高さにある<span class="credit">Photo: Elmschrat / <a href="https://commons.wikimedia.org/wiki/File:Yamaha_electric_bass_guitar_RBX374.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

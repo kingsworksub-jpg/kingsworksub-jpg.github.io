@@ -24,7 +24,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 ### 1. オーバーサイズの広つば帽（ワイドブリム・フェドラ）
 
 <figure class="photo photo--right">
-<img src="/images/hat-trends-autumn/wide-brim-hat-backlit.jpg" alt="逆光の中、つば広の帽子を被った女性のモノクロ写真" width="220" height="138" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hat-trends-autumn/wide-brim-hat-backlit.jpg" alt="逆光の中、つば広の帽子を被った女性のモノクロ写真" width="220" height="138" loading="lazy"></a>
 <figcaption>つば広の一枚が、輪郭ごと装いを決める</figcaption>
 <span class="credit">Photo: Toni Hukkanen / Unsplash (CC0)</span>
 </figure>
@@ -45,7 +45,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 
 ### 3. 彫刻的・アバンギャルド・デザイン
 <figure class="photo photo--left">
-<img src="/images/hat-trends-autumn/baker-boy-cap.jpg" alt="8枚はぎのベーカーボーイキャップを被った男性" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0B3XCDF9Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hat-trends-autumn/baker-boy-cap.jpg" alt="8枚はぎのベーカーボーイキャップを被った男性" width="220" height="330" loading="lazy"></a>
 <figcaption>ふっくらした8枚はぎのクラウンが、ベーカーボーイの目印</figcaption>
 <span class="credit">Photo: Capuniverse / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -80,7 +80,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 ### 法則その一：ハットを主役に
 
 <figure class="photo photo--right">
-<img src="/images/hat-trends-autumn/black-hat-knit-styling.jpg" alt="淡いニットに黒のつば広帽を合わせた女性の後ろ姿" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hat-trends-autumn/black-hat-knit-styling.jpg" alt="淡いニットに黒のつば広帽を合わせた女性の後ろ姿" width="220" height="147" loading="lazy"></a>
 <figcaption>淡いニットで引き算し、黒のハットを主役に</figcaption>
 <span class="credit">Photo: Brooke Cagle / Unsplash (CC0)</span>
 </figure>

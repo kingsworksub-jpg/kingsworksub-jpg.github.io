@@ -16,7 +16,7 @@ ogImageHeight: 630
 ## フェドーラ――構造美の再評価
 
 <figure class="photo photo--right">
-<img src="/images/hat-trend/fedora-brown-felt.jpg" alt="ブラウンのフェルト・フェドーラを被った男性の後ろ姿" width="220" height="181" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07TB4M1Y8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hat-trend/fedora-brown-felt.jpg" alt="ブラウンのフェルト・フェドーラを被った男性の後ろ姿" width="220" height="181" loading="lazy"></a>
 <figcaption>硬さのあるフェルトが、頭上に「構造」を生む<span class="credit">Photo: Allef Vinicius / Unsplash (CC0)</span></figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ ogImageHeight: 630
 ## ベレー帽――洗練の記号、アップデートされて
 
 <figure class="photo photo--left">
-<img src="/images/hat-trend/red-beret-street.jpg" alt="赤いベレー帽と赤いジャケットで駅構内を歩く女性" width="220" height="321" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B076K9H184?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hat-trend/red-beret-street.jpg" alt="赤いベレー帽と赤いジャケットで駅構内を歩く女性" width="220" height="321" loading="lazy"></a>
 <figcaption>一点の赤いベレーが、街の空気ごと装いを変える<span class="credit">Photo: Jules Verne Times Two / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 

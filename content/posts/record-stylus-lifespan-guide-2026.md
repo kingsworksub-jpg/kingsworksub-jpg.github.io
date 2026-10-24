@@ -43,7 +43,7 @@ scheduled_time: "17:30"
 ## 針圧は軽すぎても重すぎても減りが早まる
 
 <figure class="photo photo--right">
-<img src="/images/stylus-care/tonearm-counterweight.jpg" alt="カウンターウェイト付きのトーンアームと、手前に置かれた針圧計" width="220" height="293" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0772GM8SG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/stylus-care/tonearm-counterweight.jpg" alt="カウンターウェイト付きのトーンアームと、手前に置かれた針圧計" width="220" height="293" loading="lazy"></a>
 <figcaption>トーンアームの後ろに付く丸い重りがカウンターウェイト。手前の目盛り付きの道具は天秤式の針圧計。<span class="credit">Photo: Jacques from Cape Town, South Africa / CC BY 2.0</span></figcaption>
 </figure>
 

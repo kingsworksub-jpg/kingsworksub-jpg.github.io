@@ -19,7 +19,7 @@ draft: false
 ## 遮音と吸音は、別々の仕事をしている
 
 <figure class="photo photo--left">
-<img src="/images/soundproof/noise-barrier.jpg" alt="高速道路脇に立つレンガ積みの遮音壁" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0H392H9MP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/soundproof/noise-barrier.jpg" alt="高速道路脇に立つレンガ積みの遮音壁" width="1000" height="750" loading="lazy"></a>
 <figcaption>高速道路の遮音壁。音を止める側はひたすら重く、厚い<span class="credit">Photo: DiscoA340 / <a href="https://commons.wikimedia.org/wiki/File:Noise_Barrier_on_I-440.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ draft: false
 ## 吸音材が低い音に効かない理由
 
 <figure class="photo photo--right">
-<img src="/images/soundproof/anechoic.jpg" alt="無響室の壁に並ぶ巨大なくさび形の吸音体" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09GFFQ6GF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/soundproof/anechoic.jpg" alt="無響室の壁に並ぶ巨大なくさび形の吸音体" width="1000" height="750" loading="lazy"></a>
 <figcaption>無響室のくさび。低い音まで吸わせようとすると、吸音体はこの大きさになる<span class="credit">Photo: Togabi / <a href="https://commons.wikimedia.org/wiki/File:Anechoic_chamber-4.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ draft: false
 ## 賃貸でできることの輪郭
 
 <figure class="photo photo--right">
-<img src="/images/soundproof/glazing.jpg" alt="複層ガラスを納めた木製窓枠の断面。ゴム製のパッキンが見える" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0091FUPUA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/soundproof/glazing.jpg" alt="複層ガラスを納めた木製窓枠の断面。ゴム製のパッキンが見える" width="750" height="1000" loading="lazy"></a>
 <figcaption>窓枠の断面。遮音を決めているのはガラスの厚みとパッキンの気密<span class="credit">Photo: Kozuch / <a href="https://commons.wikimedia.org/wiki/File:EURO_68_wooden_window_profile_with_insulated_glazing_01.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ draft: false
 ## 組み立て式ブースはいくらで、どこまでやるのか
 
 <figure class="photo photo--left">
-<img src="/images/soundproof/vocal-booth.jpg" alt="展示会に置かれた組み立て式のボーカルブース。扉を開けた内側に吸音体が並ぶ" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HBKBGP74?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/soundproof/vocal-booth.jpg" alt="展示会に置かれた組み立て式のボーカルブース。扉を開けた内側に吸音体が並ぶ" width="750" height="1000" loading="lazy"></a>
 <figcaption>組み立て式ブースの内側。小窓と換気口が標準で付く<span class="credit">Photo: TaurusEmerald / <a href="https://commons.wikimedia.org/wiki/File:VocalBooth_Isolation_Sound_Control_Booth.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

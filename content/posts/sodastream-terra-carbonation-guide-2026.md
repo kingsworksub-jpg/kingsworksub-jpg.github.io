@@ -54,7 +54,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 ## ガスシリンダーの交換費用と1リットルの単価
 
 <figure class="photo photo--left">
-<img src="/images/sodastream/cylinder.jpg" width="220" height="165" alt="炭酸ガスボンベとレギュレーター、炭酸水のボトル" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sodastream/cylinder.jpg" width="220" height="165" alt="炭酸ガスボンベとレギュレーター、炭酸水のボトル" loading="lazy"></a>
 <figcaption>炭酸ガスのボンベと圧力計。ソーダストリームのシリンダーも、中身は高圧で詰められた二酸化炭素だ</figcaption>
 <span class="credit">Photo: Kevin B 3 / CC BY 2.0</span>
 </figure>
@@ -84,7 +84,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 ## ハイボールと割り材で、強さを使い分ける
 
 <figure class="photo photo--right">
-<img src="/images/sodastream/highball.jpg" width="220" height="147" alt="ジョッキに注がれた氷入りのハイボール" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sodastream/highball.jpg" width="220" height="147" alt="ジョッキに注がれた氷入りのハイボール" loading="lazy"></a>
 <figcaption>ジョッキで出される氷入りのハイボール。ウイスキーと氷に注ぐ過程で、炭酸は思った以上に抜けていく</figcaption>
 <span class="credit">Photo: N509FZ / CC BY-SA 4.0</span>
 </figure>

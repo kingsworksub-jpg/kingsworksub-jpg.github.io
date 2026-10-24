@@ -20,7 +20,7 @@ scheduled_time: "21:30"
 ## 紫香楽宮の瓦から六古窯へ、信楽焼の歩み
 
 <figure class="photo photo--left">
-<img src="/images/shigaraki-guinomi/small-jar-natural-glaze.jpg" alt="室町時代の信楽焼の小壺。肩に檜垣の文様が刻まれ、自然釉がかかっている" width="762" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B087M16VF5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shigaraki-guinomi/small-jar-natural-glaze.jpg" alt="室町時代の信楽焼の小壺。肩に檜垣の文様が刻まれ、自然釉がかかっている" width="762" height="1000" loading="lazy"></a>
 <figcaption>室町時代15世紀の信楽焼の小壺。肩に檜垣文を刻み、窯の中で降りかかった灰が自然釉になっている<span class="credit">Photo: Daderot / Public domain</span></figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ scheduled_time: "21:30"
 ## 穴窯と登り窯、何日も続く火の番
 
 <figure class="photo photo--left">
-<img src="/images/shigaraki-guinomi/water-jar-shiba-no-iori.jpg" alt="安土桃山時代の信楽焼の水指。緑がかった自然釉が流れ、大きなひびが入っている" width="834" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B087M16VF5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shigaraki-guinomi/water-jar-shiba-no-iori.jpg" alt="安土桃山時代の信楽焼の水指。緑がかった自然釉が流れ、大きなひびが入っている" width="834" height="1000" loading="lazy"></a>
 <figcaption>安土桃山時代の信楽焼の水指「柴庵（しばのいおり）」。緑のビードロ、紫がかった焦げ、口縁の火色が一つの器に重なっている<span class="credit">Photo: Daderot / CC0</span></figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ scheduled_time: "21:30"
 ## 唇に当たる土の粒、燗酒と冷やで変わる感触
 
 <figure class="photo photo--right">
-<img src="/images/shigaraki-guinomi/shigaraki-shop.jpg" alt="赤褐色の信楽焼の角皿に刺身が盛られ、緑のビードロと白い長石の粒が見える" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B073QKMSXL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shigaraki-guinomi/shigaraki-shop.jpg" alt="赤褐色の信楽焼の角皿に刺身が盛られ、緑のビードロと白い長石の粒が見える" width="1000" height="666" loading="lazy"></a>
 <figcaption>信楽で出された刺身を盛った角皿。赤褐色の地に緑のビードロが流れ、長石の白い粒が一面に散っている<span class="credit">Photo: 663highland / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ scheduled_time: "21:30"
 ## 使いはじめの水通しと、育てていく楽しみ
 
 <figure class="photo photo--left">
-<img src="/images/shigaraki-guinomi/tanikan-kiln.jpg" alt="信楽の谷寛窯の工房。木造の建物の中央に大きな壺が置かれ、棚に器が並んでいる" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B087M16VF5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shigaraki-guinomi/tanikan-kiln.jpg" alt="信楽の谷寛窯の工房。木造の建物の中央に大きな壺が置かれ、棚に器が並んでいる" width="1000" height="666" loading="lazy"></a>
 <figcaption>信楽の谷寛窯の工房。古い木造の建物の中に大壺や器が並ぶ。信楽ではいまも多くの窯元が器を焼いている<span class="credit">Photo: 663highland / CC BY-SA 4.0</span></figcaption>
 </figure>
 
