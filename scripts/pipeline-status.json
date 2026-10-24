@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-24T23:00:59+09:00",
+ "updated": "2026-10-24T23:15:53+09:00",
  "queue": {
-  "published": 111,
+  "published": 112,
   "rejected": 1,
   "approved": 34,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published necktie-knots-collar-guide-2026",
+ "last_result": "published japanese-whisky-distilleries-lineup-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
