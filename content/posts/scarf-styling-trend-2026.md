@@ -12,7 +12,7 @@ ogImageHeight: 630
 ## スカーフの現在地
 
 <figure class="photo photo--right">
-<img src="/images/scarf-trend/luxury-scarf-dior.jpg" width="220" height="280" alt="Luxury Dior scarf folded in presentation box" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/luxury-scarf-dior.jpg" width="220" height="280" alt="Luxury Dior scarf folded in presentation box" loading="lazy"></a>
 <figcaption>ラグジュアリーブランドのスカーフ。スカーフが完全なトップピースとして機能する</figcaption>
 <span class="credit">Photo: Pexels / Melike B</span>
 </figure>
@@ -28,7 +28,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 ## 多角的な巻き方：首から髪へ、そして腰へ
 
 <figure class="photo photo--left">
-<img src="/images/scarf-trend/scarf-styling-neck.jpg" width="220" height="300" alt="Woman wearing scarf around neck with elegant styling" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-styling-neck.jpg" width="220" height="300" alt="Woman wearing scarf around neck with elegant styling" loading="lazy"></a>
 <figcaption>首元のスカーフスタイリング。同じスカーフが身体の異なる部位で異なる役割を果たす</figcaption>
 <span class="credit">Photo: Pexels / Fashion</span>
 </figure>
@@ -46,7 +46,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 ## Y2K 復権と長スカーフの再評価
 
 <figure class="photo photo--right">
-<img src="/images/scarf-trend/scarf-colorful.jpg" width="220" height="310" alt="Colorful scarf in Y2K fashion style" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-colorful.jpg" width="220" height="310" alt="Colorful scarf in Y2K fashion style" loading="lazy"></a>
 <figcaption>多彩な色彩のスカーフがアスコットのように首に巻かれるY2K風のスタイリング</figcaption>
 <span class="credit">Photo: Pexels / Fashion</span>
 </figure>
@@ -60,7 +60,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 ## 色彩と素材の転換
 
 <figure class="photo photo--left">
-<img src="/images/scarf-trend/silk-texture-coral.jpg" width="220" height="290" alt="Silk scarf texture in coral and pink tones" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/silk-texture-coral.jpg" width="220" height="290" alt="Silk scarf texture in coral and pink tones" loading="lazy"></a>
 <figcaption>単一素材から複合テクスチャへ。シルクの深みあるテクスチャが秋冬2026年の特徴</figcaption>
 <span class="credit">Photo: Pexels / Julie Aagaard</span>
 </figure>
@@ -88,7 +88,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 ## 価格帯と選択肢の民主化
 
 <figure class="photo photo--right">
-<img src="/images/scarf-trend/scarf-diy-creative.jpg" width="220" height="310" alt="Creative DIY scarf styling experiment" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-diy-creative.jpg" width="220" height="310" alt="Creative DIY scarf styling experiment" loading="lazy"></a>
 <figcaption>同じスカーフが複数の結び方で異なる表情を見せる。DIY スタイリングの実験場としてのスカーフ</figcaption>
 <span class="credit">Photo: Pexels / Fashion & Styling</span>
 </figure>

@@ -35,7 +35,7 @@ ECM-AX10の中心にあるのは、新しく作られた球状のマイクモジ
 ## アンビソニックス、バイノーラル、ステレオは何が違うのか
 
 <figure class="photo photo--right">
-<img src="/images/ecm-ax10/ambisonic-mic.jpg" alt="教会の中でブームに取り付けられた、複数のマイクを組み合わせた金属製のマイクアレイ" width="220" height="174" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0HL9K53T2?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ecm-ax10/ambisonic-mic.jpg" alt="教会の中でブームに取り付けられた、複数のマイクを組み合わせた金属製のマイクアレイ" width="220" height="174" loading="lazy"></a>
 <figcaption>英国のレーベルNimbus Recordsがアンビソニックス録音に使ったマイクアレイ。かつては大がかりな装置が必要だった<span class="credit">Photo: Paul Hodges / <a href="https://commons.wikimedia.org/wiki/File:Nimbus-Halliday-Microphone-A.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

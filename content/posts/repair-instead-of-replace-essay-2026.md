@@ -20,7 +20,7 @@ scheduled_time: "23:00"
 ## 直すと決めたときに諦めるもの
 
 <figure class="photo photo--left">
-<img src="/images/repair-essay/bicycle-tools.jpg" alt="白い布の上に並べられたモンキーレンチ、タイヤレバー、六角レンチ、ドライバー、パンク修理キットなどの自転車修理用の工具" width="1000" height="570" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0BYYFB9ZR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/repair-essay/bicycle-tools.jpg" alt="白い布の上に並べられたモンキーレンチ、タイヤレバー、六角レンチ、ドライバー、パンク修理キットなどの自転車修理用の工具" width="1000" height="570" loading="lazy"></a>
 <figcaption>自転車の修理に使う小さな工具一式。モンキーレンチ、タイヤレバー、六角レンチ、ニップル回し、そしてパンク修理キット<span class="credit">Photo: Gengiskanhg / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ scheduled_time: "23:00"
 ## 金継ぎは、割れた跡を隠さない
 
 <figure class="photo photo--right">
-<img src="/images/repair-essay/kintsugi-bowl.jpg" alt="青地に橙色の花が描かれた鉢の内側に、割れ目に沿って金色の線が枝分かれして走っている" width="960" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B098JN1227?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/repair-essay/kintsugi-bowl.jpg" alt="青地に橙色の花が描かれた鉢の内側に、割れ目に沿って金色の線が枝分かれして走っている" width="960" height="750" loading="lazy"></a>
 <figcaption>金継ぎで直された鉢。割れた線が金で縁取られ、絵柄の上を枝のように走っている<span class="credit">Photo: Ruthann Hurwitz / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ scheduled_time: "23:00"
 ## 直す権利が、法律になりはじめている
 
 <figure class="photo photo--left">
-<img src="/images/repair-essay/repair-cafe.jpg" alt="会議室の机を囲んで、数人の大人がシュレッダーや白い家電の蓋を開け、ドライバーで中を修理している" width="1000" height="638" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07W4KVGWZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/repair-essay/repair-cafe.jpg" alt="会議室の机を囲んで、数人の大人がシュレッダーや白い家電の蓋を開け、ドライバーで中を修理している" width="1000" height="638" loading="lazy"></a>
 <figcaption>イギリス・レディングのリペアカフェ。持ち込まれた家電を、ボランティアと持ち主が一緒に開けて直していく<span class="credit">Photo: Karen Blakeman / CC0</span></figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ scheduled_time: "23:00"
 ## 繕うことは、持ち主になり直すことかもしれない
 
 <figure class="photo photo--right">
-<img src="/images/repair-essay/darning.jpg" alt="模様入りのテーブルクロスの上で、若い女性がうつむいて靴下の穴を繕っている白黒写真" width="1000" height="980" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C7G74C1B?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/repair-essay/darning.jpg" alt="模様入りのテーブルクロスの上で、若い女性がうつむいて靴下の穴を繕っている白黒写真" width="1000" height="980" loading="lazy"></a>
 <figcaption>オランダの船「ダムコ9号」の船室で、靴下を繕う女性。穴のあいた靴下も、編み目を埋めれば履き続けられる<span class="credit">Photo: Willem van de Poll / CC0</span></figcaption>
 </figure>
 

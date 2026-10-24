@@ -19,7 +19,7 @@ draft: false
 ## 1980年代、シェリー樽は余り物から注文品になった
 
 <figure class="photo photo--left">
-<img src="/images/sherry-cask/jerez-bodega.jpg" alt="ヘレス・デ・ラ・フロンテーラのボデガ、ブドウの葉に覆われた通路" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0H996NSHG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sherry-cask/jerez-bodega.jpg" alt="ヘレス・デ・ラ・フロンテーラのボデガ、ブドウの葉に覆われた通路" width="1000" height="666" loading="lazy"></a>
 <figcaption>ヘレス・デ・ラ・フロンテーラ、ゴンサレス・ビアス社のボデガ<span class="credit">Photo: Michimaya / <a href="https://commons.wikimedia.org/wiki/File:Bodega_Gonzalez-_Byas_Jerez_de_la_Frontera.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ draft: false
 ## オロロソは渋くて乾いた甘さ、ペドロヒメネスはシロップの甘さ
 
 <figure class="photo photo--right">
-<img src="/images/sherry-cask/px-vineyard.jpg" alt="アンダルシア、モリレスのペドロヒメネス種のブドウ畑" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B08GCN2JB6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sherry-cask/px-vineyard.jpg" alt="アンダルシア、モリレスのペドロヒメネス種のブドウ畑" width="1000" height="750" loading="lazy"></a>
 <figcaption>モリレスに広がるペドロヒメネス種の畑<span class="credit">Photo: Juan R. Lascorz / <a href="https://commons.wikimedia.org/wiki/File:21.Moriles_Vi%C3%B1as_de_Pedro_Xim%C3%A9nez.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

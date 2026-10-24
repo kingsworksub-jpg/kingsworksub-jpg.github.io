@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## LUFSとトゥルーピーク、先に押さえる2つの単位
 
 <figure class="photo photo--left">
-<img src="/images/loudness/vu-technics.jpg" alt="テクニクスのオープンリールデッキに付いた左右2つのVUメーターと録音レベルのつまみ" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845619911?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/loudness/vu-technics.jpg" alt="テクニクスのオープンリールデッキに付いた左右2つのVUメーターと録音レベルのつまみ" width="220" height="147" loading="lazy"></a>
 <figcaption>針のメーターは平均的な音量を、LUFSは耳の感じ方に近い音量を測る<span class="credit">Photo: File:Technics RS-612US.jpg: Daniele Napolitano derivative work: Pittigrilli / <a href="https://commons.wikimedia.org/wiki/File:VU_meters_and_record_level_knob_on_Technics_RS-612US.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ LUFSは0 dBFS（デジタルで表せる最大値）を基準にした絶対的�
 ## Spotifyは上げ下げの両方をやる、ただし上げるときは慎重
 
 <figure class="photo photo--right">
-<img src="/images/loudness/dorrough-meter.jpg" alt="ラックに収まった放送用機材の最下段に並ぶ、ドーロウ社のラウドネスモニター2台" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845619911?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/loudness/dorrough-meter.jpg" alt="ラックに収まった放送用機材の最下段に並ぶ、ドーロウ社のラウドネスモニター2台" width="220" height="165" loading="lazy"></a>
 <figcaption>放送の世界では昔から、ピークとは別に「聞こえ方の音量」を監視してきた<span class="credit">Photo: Fabrice Florin / <a href="https://commons.wikimedia.org/wiki/File:RCA_BTE-15A_FM_Exciter,_Transmitter_Input_volumes,_and_Dorrough_Loudness_Meter_-_Pataphysical_Time_(2016-03-19_18.35.21_by_Fabrice_Florin).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Aは少し事情が違う。素のミックスのピークが-2 dBTPなので、
 ## YouTubeとTIDALは下げるだけ、Apple Musicは-16にそろえる
 
 <figure class="photo photo--left">
-<img src="/images/loudness/soviet-vu.jpg" alt="定規の上に並べた小型のアナログレベルメーター2個。目盛りは-20から+5まで" width="220" height="133" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845619911?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/loudness/soviet-vu.jpg" alt="定規の上に並べた小型のアナログレベルメーター2個。目盛りは-20から+5まで" width="220" height="133" loading="lazy"></a>
 <figcaption>0の右側の赤い領域に入れないことは、アナログでもデジタルでも変わらない<span class="credit">Photo: Retired electrician / <a href="https://commons.wikimedia.org/wiki/File:Standard_Soviet_VU_meters.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ Amazon Musicは基準値を公式には数字で出していない。計測し�
 ## -14 LUFSに合わせるのが正解、とまでは言えない
 
 <figure class="photo photo--right">
-<img src="/images/loudness/mastering-console.jpg" alt="薄暗いマスタリングルームに置かれた、色とりどりのつまみが並ぶ専用コンソールと周辺機材" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4845619911?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/loudness/mastering-console.jpg" alt="薄暗いマスタリングルームに置かれた、色とりどりのつまみが並ぶ専用コンソールと周辺機材" width="220" height="146" loading="lazy"></a>
 <figcaption>JVCマスタリングセンターのマスタリング卓。最終的な音量はここで決まる<span class="credit">Photo: JacoTen from Tokyo, Japan / <a href="https://commons.wikimedia.org/wiki/File:JVC_Mastering_Center_-_Yokohama_Studios_-_Kotetsu_Room_(%E5%B0%8F%E9%90%B5%E3%83%AB%E3%83%BC%E3%83%A0)_-_JVC_PC-77_(JVC_Kotetsu_Custom)_Mastering_console_-_DSC3549_(2010-11-03_16.01.47_by_JacoTen_@_Flickr_6794553037).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
