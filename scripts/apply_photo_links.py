@@ -21,14 +21,19 @@ TAG = "nakimoto1-22"
 
 
 def wrap_image(text, src, asin):
-    # img タグ全体にマッチ(src属性で特定)。既に <a href="...amazon...">  に包まれて
-    # いる場合はスキップする(直前50文字にamazonリンクのaタグがあれば既存とみなす)。
+    # img タグ全体にマッチ(src属性で特定)。既に何らかの <a href="..."> に包まれている
+    # 場合は(Amazonであれ公式サイトであれ)スキップする(2026-10-23の事故対策: 既存の
+    # <a>(例: 本家サイトへの意図的なリンク)にネストした<a>を差し込んで不正なHTMLを
+    # 作ってしまったため。figure開始からこのimgまでの間に開いた<a>があるかを数える)。
     img_re = re.compile(r'<img\s+src="' + re.escape(src) + r'"[^>]*>')
     m = img_re.search(text)
     if not m:
         return text, "not-found"
-    before = text[max(0, m.start() - 120):m.start()]
-    if re.search(r'<a\s+href="[^"]*amazon[^"]*"[^>]*>\s*$', before):
+    fig_start = text.rfind('<figure', 0, m.start())
+    between = text[fig_start if fig_start != -1 else max(0, m.start() - 300):m.start()]
+    opens = len(re.findall(r'<a\s+href=', between))
+    closes = between.count('</a>')
+    if opens > closes:
         return text, "already-linked"
     img_tag = m.group(0)
     href = f"https://www.amazon.co.jp/dp/{asin}?tag={TAG}"
