@@ -20,7 +20,7 @@ scheduled_time: "17:30"
 ## 30年近く育てられてきた自動採譜、WaoN
 
 <figure class="photo photo--left">
-<img src="/images/waon-ear-copy/tuning-fork-score.jpg" alt="ピアノ譜の上に置かれた銀色の音叉" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0H83QWTR9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/waon-ear-copy/tuning-fork-score.jpg" alt="ピアノ譜の上に置かれた銀色の音叉" width="220" height="330" loading="lazy"></a>
 <figcaption>音を高さの情報として読み取るのが自動採譜の仕事。基準の音から距離を測るのは、耳コピも同じだ<span class="credit">Photo: Lukasz Kobus, European Commission / CC BY 4.0</span></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ WaoNは、市来健吾さんが開発してきた自動採譜のソフトだ。�
 ## 自動採譜が苦手なのは、倍音と重なった音
 
 <figure class="photo photo--right">
-<img src="/images/waon-ear-copy/harmonics-spectrogram.jpg" alt="一定の低い音の上に倍音の帯が階段状に並ぶスペクトログラム" width="220" height="73" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4276502047?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/waon-ear-copy/harmonics-spectrogram.jpg" alt="一定の低い音の上に倍音の帯が階段状に並ぶスペクトログラム" width="220" height="73" loading="lazy"></a>
 <figcaption>一つの音でも、上には倍音の帯が何本も並ぶ。機械はこれを別の音符と取り違えやすい<span class="credit">Photo: Giovanni Bortoluzzi / CC BY-SA 4.0</span></figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ WaoNは、市来健吾さんが開発してきた自動採譜のソフトだ。�
 ## 1週目、ベースラインを取る
 
 <figure class="photo photo--left">
-<img src="/images/waon-ear-copy/kay-bass.jpg" alt="琥珀色のボディに4本の弦が張られたエレキベース" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0GTZ2LZHT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/waon-ear-copy/kay-bass.jpg" alt="琥珀色のボディに4本の弦が張られたエレキベース" width="220" height="330" loading="lazy"></a>
 <figcaption>ベースは一度に一つの音を弾くことが多い。動きを追う最初の対象として扱いやすい<span class="credit">Photo: Melissa Ursula Dawn Goldsmith / CC BY-SA 4.0</span></figcaption>
 </figure>
 

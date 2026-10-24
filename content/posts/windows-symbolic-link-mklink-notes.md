@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## Windowsのリンクは3種類、まず何が違うのか
 
 <figure class="photo photo--left">
-<img src="/images/win-symlink/hdd-platter.jpg" alt="カバーを外したハードディスク。銀色の円盤と読み取り用のアームが見えている" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B01I8SQOJ6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/win-symlink/hdd-platter.jpg" alt="カバーを外したハードディスク。銀色の円盤と読み取り用のアームが見えている" width="220" height="147" loading="lazy"></a>
 <figcaption>ハードリンクは同じボリュームの中でしか作れない。ディスクをまたぐならジャンクションかシンボリックリンクを使う<span class="credit">Photo: Mk2010 / <a href="https://commons.wikimedia.org/wiki/File:Hard_disk_drive_platter,_Western_Digital_Caviar_250Gb_WD2500AAKS.jpg" target="_blank" rel="noopener">CC BY 4.0</a></span></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ WindowsのNTFSで使えるリンクは、シンボリックリンク、ジャン
 ## 管理者権限が要るのはシンボリックリンクだけ、開発者モードで外せる
 
 <figure class="photo photo--right">
-<img src="/images/win-symlink/for-developers.png" alt="Windows 10 Mobileの開発者向け設定画面。開発者モードを選ぶ項目が並んでいる" width="220" height="391" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4844336231?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/win-symlink/for-developers.png" alt="Windows 10 Mobileの開発者向け設定画面。開発者モードを選ぶ項目が並んでいる" width="220" height="391" loading="lazy"></a>
 <figcaption>Windows 10 Mobileの「開発者向け」設定。パソコン版のWindowsにも同じ名前の画面があり、そこで開発者モードをオンにする<span class="credit">Photo: The Microsoft Corporation / <a href="https://commons.wikimedia.org/wiki/File:For_developers_-_Microsoft_Windows_10_Mobile_settings_01.png" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ WindowsのNTFSで使えるリンクは、シンボリックリンク、ジャン
 ## 消すときはrmdir、delはリンク先の中身を消す
 
 <figure class="photo photo--left">
-<img src="/images/win-symlink/ps-confirm.png" alt="Windows Terminalのタブで開いた青い背景のWindows PowerShell 5.1と、確認のダイアログ" width="220" height="117" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4844336231?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/win-symlink/ps-confirm.png" alt="Windows Terminalのタブで開いた青い背景のWindows PowerShell 5.1と、確認のダイアログ" width="220" height="117" loading="lazy"></a>
 <figcaption>Windows Terminalで動くWindows PowerShell 5.1。Windows 11にも標準で入っていて、Remove-Itemの挙動はこの版で確かめた<span class="credit">Photo: Software: Microsoft Corporation, Screenshot: PantheraLeo1359531 / <a href="https://commons.wikimedia.org/wiki/File:20231209_19_38_35-PowerShell_Best%C3%A4tigung_erw%C3%BCnscht_crop.png" target="_blank" rel="noopener">MIT</a></span></figcaption>
 </figure>
 

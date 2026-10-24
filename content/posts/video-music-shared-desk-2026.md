@@ -18,7 +18,7 @@ scheduled_time: "12:00"
 ## 2枚の画面とスピーカーは、机の横幅を取り合う
 
 <figure class="photo photo--left">
-<img src="/images/shared-desk/friend-studio.jpg" alt="机の上に2台のモニターが並び、その両外側にモニタースピーカーが置かれた自宅スタジオ" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DSJJMRFL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shared-desk/friend-studio.jpg" alt="机の上に2台のモニターが並び、その両外側にモニタースピーカーが置かれた自宅スタジオ" width="220" height="165" loading="lazy"></a>
 <figcaption>2台の画面の両外側にスピーカーを置いた自宅の制作机。画面の幅がそのままスピーカーの間隔を決めている<span class="credit">Photo: David J / <a href="https://commons.wikimedia.org/wiki/File:Friend%27s_home_studio_(by_David_J).jpg" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ scheduled_time: "12:00"
 ## 画面は縦に積むか、ウルトラワイド1枚にまとめる
 
 <figure class="photo photo--right">
-<img src="/images/shared-desk/home-studio.jpg" alt="鍵盤の奥の高い位置に2台の画面が並び、左側にモニタースピーカーが置かれた制作机" width="220" height="146" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DSJJMRFL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/shared-desk/home-studio.jpg" alt="鍵盤の奥の高い位置に2台の画面が並び、左側にモニタースピーカーが置かれた制作机" width="220" height="146" loading="lazy"></a>
 <figcaption>画面を鍵盤より奥の高い位置へ上げた制作机。画面の位置を変えるだけで、天板の上に使える場所が生まれる<span class="credit">Photo: Dai Stanton / <a href="https://commons.wikimedia.org/wiki/File:Dai_Stanton%27s_home_studio_2009-03-07.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 

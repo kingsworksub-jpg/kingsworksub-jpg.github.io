@@ -20,7 +20,7 @@ scheduled_time: "23:00"
 ## 「99%は道具として使っていない」という言葉
 
 <figure class="photo photo--left">
-<img src="/images/te-op1/smem.jpg" alt="teenage engineeringのロゴが入った黒い箱の前に置かれた、白いOP-1" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0BGWSKBMR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/te-op1/smem.jpg" alt="teenage engineeringのロゴが入った黒い箱の前に置かれた、白いOP-1" width="1000" height="750" loading="lazy"></a>
 <figcaption>スイスの電子楽器博物館の展示室に置かれたOP-1。手前の解説の紙にはテープレコーダーやFMラジオの文字が見える<span class="credit">Photo: 1904.CC / CC BY 4.0</span></figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ OP-1の歩みは順調なばかりではなかった。2018年ごろには、使
 ## 道具として使われない楽器は、失敗なのか
 
 <figure class="photo photo--left">
-<img src="/images/te-op1/desk.jpg" alt="モーグのMother-32と鍵盤のシンセサイザー、右端にOP-1が並ぶ暗い作業机" width="1000" height="668" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0BGWSKBMR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/te-op1/desk.jpg" alt="モーグのMother-32と鍵盤のシンセサイザー、右端にOP-1が並ぶ暗い作業机" width="1000" height="668" loading="lazy"></a>
 <figcaption>モーグのセミモジュラーやほかの鍵盤と並ぶOP-1(右端)。何台ものシンセが机に集まっていくのは、珍しい光景ではない<span class="credit">Photo: 作者不明 / CC0</span></figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ OP-1の歩みは順調なばかりではなかった。2018年ごろには、使
 ## 慰めとしての楽器、という見方
 
 <figure class="photo photo--right">
-<img src="/images/te-op1/fisk.jpg" alt="ヘッドホンをつけた男性が、ケーブルの並ぶ机の上でOP-1を弾いている" width="750" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00CXSJUZS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/te-op1/fisk.jpg" alt="ヘッドホンをつけた男性が、ケーブルの並ぶ机の上でOP-1を弾いている" width="750" height="1000" loading="lazy"></a>
 <figcaption>2013年、アメリカ北西部のシンセサイザーの催しでOP-1を弾く音楽プロデューサーのスティーヴ・フィスク。奥ではモジュラーシンセを囲む人たちが音を出している<span class="credit">Photo: Daniel Spils / CC BY-SA 2.0</span></figcaption>
 </figure>
 

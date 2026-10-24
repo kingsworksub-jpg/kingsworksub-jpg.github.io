@@ -47,7 +47,7 @@ scheduled_time: "23:00"
 ## 朱と黒、色の違いは何を変えるのか
 
 <figure class="photo photo--right">
-<img src="/images/urushi-sakazuki/zeshin-three-friends.jpg" alt="朱の漆の盃の内側に黒い漆で梅の枝が描かれている" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F3W55MMP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/urushi-sakazuki/zeshin-three-friends.jpg" alt="朱の漆の盃の内側に黒い漆で梅の枝が描かれている" width="1000" height="750" loading="lazy"></a>
 <figcaption>柴田是真による「歳寒三友」の図柄の盃のうちの一枚。朱の地に黒い漆で梅の枝を描いている<span class="credit">Photo: Shibata Zeshin / CC0</span></figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ scheduled_time: "23:00"
 ## 江戸の盃と盃台、蒔絵の金が酒の面に映る
 
 <figure class="photo photo--left">
-<img src="/images/urushi-sakazuki/nagata-yuji-cup-stand.jpg" alt="波と鳥の蒔絵と螺鈿を施した江戸時代の盃と盃台" width="1000" height="689" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F3W55MMP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/urushi-sakazuki/nagata-yuji-cup-stand.jpg" alt="波と鳥の蒔絵と螺鈿を施した江戸時代の盃と盃台" width="1000" height="689" loading="lazy"></a>
 <figcaption>永田友治の作とされる盃と盃台。江戸時代18世紀のもので、波と鳥を蒔絵と螺鈿で表している<span class="credit">Photo: Daderot / Public domain</span></figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ scheduled_time: "23:00"
 ## 唇に当たる木の器、燗にも冷やにも
 
 <figure class="photo photo--right">
-<img src="/images/urushi-sakazuki/sake-cup-set-pem.jpg" alt="朱の漆の地に金と銀の蒔絵で龍と鯉を描いた大中小三枚の盃" width="1000" height="498" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0F3W55MMP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/urushi-sakazuki/sake-cup-set-pem.jpg" alt="朱の漆の地に金と銀の蒔絵で龍と鯉を描いた大中小三枚の盃" width="1000" height="498" loading="lazy"></a>
 <figcaption>18〜19世紀の日本で作られた、木地に漆を塗った三枚組の盃。朱の地に金と銀で龍と鯉、波を描いている<span class="credit">Photo: Daderot / Public domain</span></figcaption>
 </figure>
 

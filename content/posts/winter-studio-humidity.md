@@ -57,7 +57,7 @@ draft: false
 ## 窓際だけは、乾燥ではなく水が出る
 
 <figure class="photo photo--left">
-<img src="/images/winter-studio/frosty-window.jpg" alt="冬の朝、内側が凍りついた窓ガラス" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07TYN8584?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/winter-studio/frosty-window.jpg" alt="冬の朝、内側が凍りついた窓ガラス" width="1000" height="750" loading="lazy"></a>
 <figcaption>外気で冷やされたガラスは部屋の中でいちばん温度が低い。空気が露点を下回る場所が、ここだけ局所的にできる。<span class="credit">Photo: Paulo O from Halifax, Canada / CC BY 2.0</span></figcaption>
 </figure>
 
