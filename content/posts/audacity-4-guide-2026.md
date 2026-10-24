@@ -20,7 +20,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.audacityteam.org/download/" target="_blank" rel="noopener">
-<img src="/images/audacity-4-guide-2026/audacity-3-3.png" alt="刷新前の Audacity 3.3 の画面" width="1000" height="562" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C5JSHP7M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/audacity-4-guide-2026/audacity-3-3.png" alt="刷新前の Audacity 3.3 の画面" width="1000" height="562" loading="lazy"></a>
 </a>
 <figcaption>刷新前の Audacity 3.3。wxWidgets 時代の画面<span class="credit">Image: Peter H Sampson / <a href="https://commons.wikimedia.org/wiki/File:Audacity_version_3.3.png" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
@@ -45,7 +45,7 @@ Audacity 4 は、この根底から Qt6 に置き換えた。Qt は、VLC メデ
 
 <figure class="photo photo--right">
 <a href="https://www.audacityteam.org/download/" target="_blank" rel="noopener">
-<img src="/images/audacity-4-guide-2026/audacity-4-main.png" alt="Audacity 4.0 の画面。クリップごとに色付きのヘッダーが並ぶ" width="1000" height="490" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0C5JSHP7M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/audacity-4-guide-2026/audacity-4-main.png" alt="Audacity 4.0 の画面。クリップごとに色付きのヘッダーが並ぶ" width="1000" height="490" loading="lazy"></a>
 </a>
 <figcaption>Audacity 4.0。クリップごとにヘッダーが付く<span class="credit">Image: Zurel / <a href="https://commons.wikimedia.org/wiki/File:Audacity_version_4.0.png" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>

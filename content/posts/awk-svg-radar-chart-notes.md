@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## awkとSVG、どちらもテキストを書くだけの道具
 
 <figure class="photo photo--left">
-<img src="/images/awk-radar/kernighan-vcf-east.jpg" alt="ブライアン・カーニハンが壇上の机に向かい、マイクの前で笑顔を見せている写真" width="220" height="220" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4320026926?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/awk-radar/kernighan-vcf-east.jpg" alt="ブライアン・カーニハンが壇上の机に向かい、マイクの前で笑顔を見せている写真" width="220" height="220" loading="lazy"></a>
 <figcaption>awkの名前の「k」に当たるブライアン・カーニハン。2023年に出た第2版の著者にも名を連ねている<span class="credit">Photo: Jw12321 / <a href="https://commons.wikimedia.org/wiki/File:Brian_Kernighan_at_VCF_East_2.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ awk -v TITLE="製品名" -v COLOR="#2F9E44" -v SCORES="4,3,5,2,4" \
 ## 正五角形の頂点は、上から時計回りに72度ずつ
 
 <figure class="photo photo--right">
-<img src="/images/awk-radar/bell-labs-murray-hill.jpg" alt="畑の向こうに低層の大きな研究所の建物が横に長く並ぶ白黒写真" width="220" height="156" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4320026926?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/awk-radar/bell-labs-murray-hill.jpg" alt="畑の向こうに低層の大きな研究所の建物が横に長く並ぶ白黒写真" width="220" height="156" loading="lazy"></a>
 <figcaption>ニュージャージー州マレーヒルのベル研究所。awkはここで生まれた<span class="credit">Photo: Gottscho-Schleisner Collection / <a href="https://commons.wikimedia.org/wiki/File:Bell_Telephone_Laboratories,_Murray_Hill,_New_Jersey._LOC_gsc.5a08397.jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ awk -v TITLE="製品名" -v COLOR="#2F9E44" -v SCORES="4,3,5,2,4" \
 ## 数値を文字にするとき、%.1fを通すかどうか
 
 <figure class="photo photo--left">
-<img src="/images/awk-radar/dec-vt100.jpg" alt="DECのVT100端末。ベージュの筐体の画面と、黒いキーが並ぶキーボード" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0CJTCPB85?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/awk-radar/dec-vt100.jpg" alt="DECのVT100端末。ベージュの筐体の画面と、黒いキーが並ぶキーボード" width="220" height="165" loading="lazy"></a>
 <figcaption>文字の端末で図を作るという発想は、この頃の画面から変わっていない<span class="credit">Photo: Wolfgang Stief from Tittmoning, Germany / <a href="https://commons.wikimedia.org/wiki/File:DEC_VT100_Terminal_(16131954383).jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
 </figure>
 
