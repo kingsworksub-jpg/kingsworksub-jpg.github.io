@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:00:36+09:00",
+ "updated": "2026-10-24T20:14:30+09:00",
  "items": [
   {
    "category": "gear",
@@ -7416,14 +7416,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-023",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-10-24T20:00:36+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "20:00",
-   "slot_label": "夜: テック/ソフト/制作環境/PC/開発/ネット"
+   "slot_label": "夜: テック/ソフト/制作環境/PC/開発/ネット",
+   "slug": "windows-shortcuts-launcher-guide-2026",
+   "published_at": "2026-10-24T20:14:30+09:00"
   },
   {
    "category": "whisky",

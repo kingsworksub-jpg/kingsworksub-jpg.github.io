@@ -2335,6 +2335,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-24T12:14:04+09:00"
+  },
+  {
+   "id": "2026w42-023",
+   "category": "tech",
+   "theme": "Windowsの時短設定、ショートカットとランチャー",
+   "slug": "windows-shortcuts-launcher-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/windows-shortcuts-launcher-guide-2026/",
+   "hatena_entry": "14945776032094755887",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-24T20:14:30+09:00"
   }
  ]
 }
