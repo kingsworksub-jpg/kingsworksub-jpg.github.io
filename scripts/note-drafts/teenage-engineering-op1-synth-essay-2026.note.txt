@@ -8,7 +8,7 @@ Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲
 
 オリジナル記事: https://kingsworksub-jpg.github.io/posts/teenage-engineering-op1-synth-essay-2026/
 
-Teenage Engineeringの創業者が、シンセを買う人の99%は曲づくりの道具として使っていない、それはセラピーで娯楽だと語り、シンセの製造をやめると述べた。2011年のOP-1から始まった小さな楽器の歩みをたどり、楽器を持つことの意味を考える。
+Teenage Engineeringの創業者は、シンセを買う人の99%は曲づくりに使わないと語り製造をやめると述べた。2011年のOP-1からの歩みをたどり、曲にならない時間の値打ちを考える。宅録の読者にも響く話として読める。
 
 夜、机の上に置いた小さなシンセサイザーの電源を入れて、何を作るでもなく鍵盤を押している時間がある。録音もしないし、曲にもならない。十五分ほど音をいじって、満足して電源を切る。翌日になれば何を弾いたかも覚えていない。そういう使い方をしている人は、たぶん自分だけではないと思う。
 
@@ -40,7 +40,7 @@ Teenage Engineeringは、2005年にストックホルムで4人の創業者に�
 
 （出典: Photo: justin lincoln / CC BY-SA 2.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=teenage+engineering+OP-1+field&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=teenage+engineering+OP-1+field&tag=note-img-sub-22
 
 OP-1が発売されたのは2011年だ。幅は30センチに満たず、アルミの筐体に24の鍵盤と4つの色つきのつまみ、小さな有機ELの画面が並ぶ。電池で動き、スピーカーも内蔵しているので、ケーブルを1本もつながずに鳴らせる。シンセサイザーの音源がいくつも入っていて、サンプラーとしても使え、FMラジオまで受信できる。本体を傾けると音が変わる加速度センサーも付いていた。
 
@@ -96,8 +96,7 @@ Teenage Engineeringは、楽器以外の仕事でもよく知られている。�
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか](https://kingsworksub-jpg.github.io/posts/cassette-tape-revival-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年](https://kingsworksub-jpg.github.io/posts/halloween-songs-monster-mash-thriller-2026/)
 
 ---
 

@@ -50,7 +50,7 @@
 
 （出典: CC0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81%90%E3%81%84%E5%91%91%E3%81%BF&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81%90%E3%81%84%E5%91%91%E3%81%BF&tag=note-img-sub-22
 
 信楽焼の多くは、釉薬を掛けずに焼き締める。釉薬で表面を覆わないぶん、土がどう焼けたか、炎や灰がどこに当たったかが、そのまま器の表情として残る。焼き物の世界ではこれを「景色」と呼ぶ。信楽焼のぐい呑みを選ぶというのは、ほとんどこの景色を選ぶことだと言ってもいいと思う。
 
@@ -121,7 +121,7 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81
 
 信楽焼のぐい呑みは、有田や九谷の磁器のように、白い肌と端正な形で酒を引き立てる器ではない。土の粒も、火の跡も、灰が流れた筋も、すべて隠さずに見せる器だ。その分、手に取るたびに違う表情があり、唇に当てたときの感触にも、ほかの器にはない温かさがある。
 
-燗酒がおいしくなる季節に、ぐい呑みを一つ選ぶなら、火色の赤みが好きか、ビードロの緑が好きか、石はぜの白い粒が多いほうがいいか、景色の好みから選んでみるのがいいと思う。信楽焼のぐい呑みは、[Amazonでも各窯元のものを探せる](https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81%90%E3%81%84%E5%91%91%E3%81%BF&tag=nakimoto1-22)。焼締めのものを選んで、使う前に一度水に浸してから、最初の一杯を注いでみてほしい。
+燗酒がおいしくなる季節に、ぐい呑みを一つ選ぶなら、火色の赤みが好きか、ビードロの緑が好きか、石はぜの白い粒が多いほうがいいか、景色の好みから選んでみるのがいいと思う。信楽焼のぐい呑みは、[Amazonでも各窯元のものを探せる](https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81%90%E3%81%84%E5%91%91%E3%81%BF&tag=note-img-sub-22)。焼締めのものを選んで、使う前に一度水に浸してから、最初の一杯を注いでみてほしい。
 
 ---
 
@@ -130,8 +130,8 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BF%A1%E6%A5%BD%E7%84%BC+%E3%81
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える](https://kingsworksub-jpg.github.io/posts/urushi-sakazuki-shu-kuro/)
 - [南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか](https://kingsworksub-jpg.github.io/posts/nanbu-tetsubin-kanzake-yusen/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [九谷焼 ぐい呑み 白粒鉄仙、粒立つ白と途切れない蔓の文様](https://kingsworksub-jpg.github.io/posts/kutani-shiratsubu-tessen-guinomi-deep-dive-2026/)
+- [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](https://kingsworksub-jpg.github.io/posts/suzu-chirori-kanzake-2026/)
 
 ---
 

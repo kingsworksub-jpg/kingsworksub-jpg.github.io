@@ -2,7 +2,7 @@
 クラフトコーラの原液は、割る人が最後の調合を担う
 
 # タグ（1行にまとめて貼り付け）
-#クラフトコーラ #伊良コーラ #ともコーラ #UMAMICOLA #コーラナッツ #スパイス #炭酸 #drink
+#クラフトコーラ #伊良コーラ #ともコーラ #UMAMICOLA #コーラナッツ #スパイス #炭酸 #drinkrecipe
 
 # 本文（ここから貼り付け）
 
@@ -52,7 +52,7 @@ OpenColaのレシピは、こうして作ったシロップを炭酸水で5倍�
 
 （出典: Photo: 漱石の猫 / CC BY-SA 4.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BC%8A%E8%89%AF%E3%82%B3%E3%83%BC%E3%83%A9&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BC%8A%E8%89%AF%E3%82%B3%E3%83%BC%E3%83%A9&tag=note-img-sub-22
 
 日本のクラフトコーラを語るとき、最初に名前が挙がるのが伊良コーラだと思う。作り手は「コーラ小林」を名乗る小林隆英さんで、2018年に東京で販売を始めた。最初は「カワセミ号」と名づけた小さな移動販売車で売り歩き、のちに高田馬場に総本店を構えている。原点にあるのは、祖父が営んでいた漢方の工房「伊良葯工」だ。生薬を刻んで煎じる仕事を受け継ぐような形で、コーラの原液づくりが始まったという。ラベルに描かれたカワセミと「SINCE 1954」の文字は、その工房の歴史を引き継いでいることを示している。
 
@@ -80,7 +80,7 @@ UMAMI COLAは、さらに大胆に甘みの出どころを変えた。砂糖の�
 
 （出典: Photo: スロッさん / CC BY-SA 4.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BC%8A%E8%89%AF%E3%82%B3%E3%83%BC%E3%83%A9&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BC%8A%E8%89%AF%E3%82%B3%E3%83%BC%E3%83%A9&tag=note-img-sub-22
 
 クラフトコーラの多くは、原液とそのまま飲めるボトルや缶の両方を用意している。どちらを選ぶかで、楽しみ方はかなり変わる。缶やボトルは作り手が決めた濃さと炭酸の強さで完成しているので、作り手が想定した味をそのまま受け取れる。初めて飲むなら、まずこちらで基準の味を知っておくのがいいと思う。一方の原液は、最後の調合を飲む人に任せている。
 
@@ -122,8 +122,10 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E4%BC%8A%E8%89%AF%E3%82%B3%E3%83%
 
 ## 関連記事
 
+- [ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由](https://kingsworksub-jpg.github.io/posts/dr-pepper-23-flavors-deep-dive-2026/)
+- [VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか](https://kingsworksub-jpg.github.io/posts/vox-cola-flavor-deep-dive-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](https://kingsworksub-jpg.github.io/posts/home-mocktail-soda-syrup-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 
 ---
 

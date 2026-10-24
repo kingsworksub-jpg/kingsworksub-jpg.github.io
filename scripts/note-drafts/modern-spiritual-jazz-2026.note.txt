@@ -1,12 +1,14 @@
 # タイトル
-モダンジャズの新潮流の現在地
+Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流
 
 # タグ（1行にまとめて貼り付け）
 
 
 # 本文（ここから貼り付け）
 
-2010年代後半から急速に拡大したスピリチュアルジャズのムーブメント。Kamasi Washington、Dinner Party、Thundercatら新世代が拓くジャズの地平。社会正義への声と、ヒップホップ・ソウルへの開放性が生んだ革新的なサウンド。
+オリジナル記事: https://kingsworksub-jpg.github.io/posts/modern-spiritual-jazz-2026/
+
+2010年代後半から広がったスピリチュアルジャズの流れを、Kamasi Washington、Dinner Party、Thundercatの新世代から読み解く。社会正義への声とヒップホップ・ソウルへの開放性が鍵になる。
 
 2015年が転機だった。5月、ロサンゼルスの若きテナー奏者 Kamasi Washington が『The Epic』という3時間の壮大なアルバムを世に放った。その前後、ヒップホップの帝王 Kendrick Lamar は『To Pimp a Butterfly』で、従来のジャズとは別の何かを求めていた黒人リスナーたちに、歴史と革新が融け合ったジャズの可能性を示した。それから11年。スピリチュアルジャズはもはや「ジャズ好きの秘密の音」ではなく、若い世代が最初に出会うジャズの顔になろうとしている。
 
@@ -26,13 +28,13 @@
 
 ## Dinner Party——スーパーグループの決定的瞬間
 
-2020年、ジャズシーンを揺さぶったのは Robert Glasper（キーボード）、Terrace Martin（サックス）、Kamasi Washington（サックス）、そして 9th Wonder（ヒップホップ・プロデューサー）という4人の共同プロジェクト Dinner Party だった。
-
 ![Jazz vinyl records](https://kingsworksub-jpg.github.io/images/modern-jazz/dinner-party-album.jpg)
 
 *Classic jazz records and vinyl culture*
 
 （出典: Photo: Pexels / Volker Thimm）
+
+2020年、ジャズシーンを揺さぶったのは Robert Glasper（キーボード）、Terrace Martin（サックス）、Kamasi Washington（サックス）、そして 9th Wonder（ヒップホップ・プロデューサー）という4人の共同プロジェクト Dinner Party だった。
 
 当時、アメリカは George Floyd の殺害と全米規模の抗議運動の渦中にあった。7月10日にリリースされたアルバム『Dinner Party』は、その痛みと怒り、そして望郷と希望を、ジャズ×ソウル×ヒップホップ×1970年代ファンクの交叉点に集約した。9th Wonder のビート、Glasper のグルーヴィーなキーボード、Kamasi と Terrace の説得力あるホーン、そして複数のボーカリストたちのメッセージ。8曲、わずか40分。しかし音は数時間分の重みを持っていた。
 
@@ -50,17 +52,17 @@ Robert Glasper『Black Radio』（2012）は Billboard 200 で#15、ジャズチ
 
 ## 2026年の景色
 
-2026年のジャズは、スピリチュアル・ムーブメントなしには語れない。
-
-Newport Jazz Festival（7月31日〜8月2日）の72周年開催では、Herbie Hancock、Kamasi Washington、Jon Batiste、Vulfpeck、Thundercat、Makaya McCraven といったラインナップが組まれた。ここに「若い世代向けの最新ジャズ」という枠組みはない。新旧が共存する。
-
-同じ時期、Julian Lage『Scenes from Above』（1月2026）、José James『Ritual』、Jacob Mann『Gratitude』など、新作ラッシュが続いている。特に注目されるのは、ストリングス（弦楽器）が各作品で重要な役割を果たしていることだ。チェリストの Tomeka Reid は、現代ジャズにおける弦の表現力を実験的に拡張し続けている。
-
 ![Jazz band performing on stage](https://kingsworksub-jpg.github.io/images/modern-jazz/spiritual-jazz-festival.jpg)
 
 *Contemporary jazz ensemble performing live*
 
 （出典: Photo: Pexels / Cottonbro Studio）
+
+2026年のジャズは、スピリチュアル・ムーブメントなしには語れない。
+
+Newport Jazz Festival（7月31日〜8月2日）の72周年開催では、Herbie Hancock、Kamasi Washington、Jon Batiste、Vulfpeck、Thundercat、Makaya McCraven といったラインナップが組まれた。ここに「若い世代向けの最新ジャズ」という枠組みはない。新旧が共存する。
+
+同じ時期、Julian Lage『Scenes from Above』（1月2026）、José James『Ritual』、Jacob Mann『Gratitude』など、新作ラッシュが続いている。特に注目されるのは、ストリングス（弦楽器）が各作品で重要な役割を果たしていることだ。チェリストの Tomeka Reid は、現代ジャズにおける弦の表現力を実験的に拡張し続けている。
 
 もう1つの重要な点：スピリチュアルジャズは、高い教育を受けたリスナー、あるいは「ジャズ好きの大人」だけでなく、むしろ Z 世代のストリーミングユーザーが最初に出会うジャズになった。TikTok や YouTube のアルゴリズムが、Kamasi Washington や Thundercat を「集中音楽」「瞑想音楽」「夜のモード」の文脈で推薦する。ジャズのハードルが大幅に下がったのだ。
 
@@ -83,6 +85,12 @@ Newport Jazz Festival（7月31日〜8月2日）の72周年開催では、Herbie 
 Newport 、Monterey 、Montreux といった歴史あるフェスティバルでも、新進のストリーミング専属アーティストの舞台でも、Kamasi Washington の長時間のサックスから、Thundercat のビート・ボックス的ベース、Shabaka Hutchings の内省的なトーンまで——同じ源流から流れ出ている音が、今、多くの耳に届いている。
 
 それが「モダンジャズの新潮流」の実像だ。トレンドではなく、新世代のジャズ愛好家が創り上げた、次のジャズ伝統の始まり。
+
+**関連記事**: [Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く](https://kingsworksub-jpg.github.io/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka/) · [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/) · [Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る](https://kingsworksub-jpg.github.io/posts/jazz-festivals-2026/)
+
+## 関連記事
+
+- [「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所](https://kingsworksub-jpg.github.io/posts/anime-and-jazz/)
 
 ---
 

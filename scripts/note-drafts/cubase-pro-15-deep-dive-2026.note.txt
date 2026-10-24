@@ -1,10 +1,12 @@
 # タイトル
-Cubase Pro 15を全機能解剖
+Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能
 
 # タグ（1行にまとめて貼り付け）
 #Cubase #CubasePro15 #Steinberg #DAW #スコアエディター #DTM #レビュー #software
 
 # 本文（ここから貼り付け）
+
+オリジナル記事: https://kingsworksub-jpg.github.io/posts/cubase-pro-15-deep-dive-2026/
 
 SteinbergのCubase Pro 15をスコアエディター中心に掘り下げる。Dorico由来の譜面エンジン、表示用クオンタイズ、ドラム譜やタブ譜、15での書式の改良、エクスプレッションマップ連携、新機能と価格・動作環境まで整理した。
 
@@ -12,7 +14,7 @@ SteinbergのCubase Pro 15は、2025年11月に登場したCubaseの最新メジ�
 
 今回はCubase Pro 15の機能の中から、とくに**スコアエディター**に焦点を当てたい。Cubase 14で、楽譜機能はSteinbergの楽譜作成ソフトDoricoの技術をもとに丸ごと作り直された。15ではその新しいスコアエディターに、書式設定や表示まわりの改良が少しずつ積み重ねられている。打ち込んだMIDIをそのまま楽譜にして、バンドメンバーやレコーディングの奏者に渡したい人にとって、ここはCubaseを選ぶ大きな理由になりうる部分だと思う。
 
-前半でスコアエディターの仕組みと使い方、15での変化、弱点を詳しく見て、後半ではそれ以外の新機能、エディションと価格、動作環境までを整理していく。DAW全体の比較は「[DAWを5本徹底比較](https://kingsworksub-jpg.github.io/posts/daw-5choice-2026/)」にまとめているので、他のDAWとの違いが気になる人はあわせて読んでほしい。Cubaseを学ぶための書籍については「[CUBASE 15 & 15 PRO ユーザーガイドの内容と活用法](https://kingsworksub-jpg.github.io/posts/cubase-15-user-guide-book-2026/)」で取り上げている。
+前半でスコアエディターの仕組みと使い方、15での変化、弱点を詳しく見て、後半ではそれ以外の新機能、エディションと価格、動作環境までを整理していく。DAW全体の比較は「[DAW 5本を比べる、机の上のオーケストラを誰に任せるか](https://kingsworksub-jpg.github.io/posts/daw-5choice-2026/)」にまとめているので、他のDAWとの違いが気になる人はあわせて読んでほしい。Cubaseを学ぶための書籍については「[『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる](https://kingsworksub-jpg.github.io/posts/cubase-15-user-guide-book-2026/)」で取り上げている。
 
 ## Cubase Pro 15の立ち位置と主な新機能
 
@@ -36,7 +38,7 @@ Cubaseのエディションは、上からPro、Artist、Elementsの3つ（ほ�
 
 （出典: Image: Steinberg）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=note-img-sub-22
 
 Cubaseのスコアエディターは、Cubase 14で約30年ぶりに作り直された。土台になっているのは、Steinbergの楽譜作成ソフトDoricoの技術で、DoricoがMIDIファイルを読み込むときに使っている「採譜（トランスクリプション）エンジン」と同じものが、Cubaseの中で動いている。MIDIの演奏データから、拍子や調、声部の分かれ方を判断して、読みやすい楽譜を自動で組み上げてくれる仕組みだ。
 
@@ -136,7 +138,7 @@ Cubaseで曲を作って音を詰めたあと、出版や本番用の細かな�
 
 （出典: Image: Steinberg）
 
-Amazonで見る: https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=note-img-sub-22
 
 スコアエディター以外で、制作の手触りが大きく変わったと感じたのは、ステム分離とメロディック・パターンシーケンサーの2つだ。ステム分離は、既存の音源からボーカルやドラムを抜き出せるので、リファレンス曲の分析やリミックスの素材づくりに重宝する。分離の精度は専用のツールにはまだ一歩譲る印象だが、DAWの中で完結できる手軽さは大きい。
 

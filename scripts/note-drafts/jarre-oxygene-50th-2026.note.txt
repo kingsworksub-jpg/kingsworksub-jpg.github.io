@@ -24,7 +24,7 @@
 
 （出典: Photo: Polygram Records / Public domain）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=Jean-Michel+Jarre+Oxygene&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=Jean-Michel+Jarre+Oxygene&tag=note-img-sub-22
 
 50周年エディションは、180グラムの黒いアナログ盤、CD、数量限定のカラー盤、そしてブルーレイを収めたブック形式の豪華版という構成で出る。アナログ盤のカッティングを担当したのは、アビー・ロード・スタジオでハーフスピード・マスタリングを専門にしてきたマイルス・ショーウェルだ。ハーフスピード・マスタリングは、元のテープとカッティングの旋盤をどちらも通常の半分の速さで回して溝を刻む手法で、高い音の細かな動きまで溝に乗せやすいとされている。
 
@@ -114,8 +114,7 @@ ARP 2600は、太くて芯のある音が出るシンセで、旋律や効果音
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち](https://kingsworksub-jpg.github.io/posts/teenage-engineering-op1-synth-essay-2026/)
-- [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年](https://kingsworksub-jpg.github.io/posts/halloween-songs-monster-mash-thriller-2026/)
 
 ---
 

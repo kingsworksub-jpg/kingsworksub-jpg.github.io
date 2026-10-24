@@ -22,7 +22,7 @@
 
 （出典: Photo: aquila2664 / CC BY 2.5）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%B3%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%B3%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC&tag=note-img-sub-22
 
 乾燥の正体は暖房そのものだ。といっても暖房が水分を吸い取っているわけではなく、空気が抱えられる水蒸気の量が温度で変わる、という物理の話にすぎない。同じ量の水蒸気を含んだ空気でも、温めれば「満杯に対して何割か」という比率、つまり相対湿度は下がる。
 
@@ -48,7 +48,7 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%
 
 （出典: Photo: Jacek Halicki / CC BY-SA 4.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B8%A9%E6%B9%BF%E5%BA%A6%E8%A8%88&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B8%A9%E6%B9%BF%E5%BA%A6%E8%A8%88&tag=note-img-sub-22
 
 40%という線は、楽器の都合だけで決まっているわけではない。静電気の管理を扱う規格の世界でも、ほぼ同じところに境界が引かれている。湿度が40%以上あると、プラスチックや布のような絶縁体の表面にも薄い水の膜が吸着して、たまった電荷がじわじわ逃げていく。この膜が働いているあいだは、歩き回っても服を脱いでも、電位はたいして上がらない。
 
@@ -94,7 +94,7 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B8%A9%E6%B9%BF%E5%BA%A6%E8%A8%
 
 （出典: Photo: ajay_suresh / CC BY 2.0）
 
-Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B0%97%E5%8C%96%E5%BC%8F+%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=nakimoto1-22
+Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B0%97%E5%8C%96%E5%BC%8F+%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=note-img-sub-22
 
 機材のある部屋では、加湿器の方式が普通の部屋より重く効いてくる。超音波式は水を振動で細かい霧にして飛ばすので、水道水に含まれるカルシウムやマグネシウムも一緒に空中へ出ていく。霧が乾いたあとに残るのが、いわゆる白い粉だ。これが机やラックに積もるだけなら掃除で済むが、放熱フィンの隙間や基板の上に落ちると話が変わる。ミネラルは吸湿するので、積もった粉が湿気を呼び、本来は絶縁されているはずの場所に細い導電経路をつくることがある。タンクの手入れを怠れば、中で増えた雑菌もそのまま霧に乗る。
 
@@ -113,6 +113,11 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E6%B0%97%E5%8C%96%E5%BC%8F+%E5%8A
 みっつめは、冷えた機材を数時間放置するという待ち時間。外から持ち込んだものは、結露が消えるまで電源を入れない。重いものは半日。
 
 あとは温湿度計を一台買って、机の上に置くだけでいい。千円台のデジタルのもので十分だし、数字が見えていれば、加湿器を足すのか、ヒーターの向きを変えるのか、窓を拭くのかという判断がその場でつく。乾燥も結露も、起きてから直すより、起きる前の数字を見ているほうがずっと安い。冬の制作部屋で最初に買うものを一つだけ選べと言われたら、私はやはり湿度計を挙げる。
+
+## 関連記事
+- [賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段](https://kingsworksub-jpg.github.io/posts/rental-soundproofing-booth-2026/)
+- [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](https://kingsworksub-jpg.github.io/posts/quiet-music-pc-fan-noise-2026/)
+- [DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲](https://kingsworksub-jpg.github.io/posts/desk-chair-studio-ergonomics-2026/)
 
 ---
 
