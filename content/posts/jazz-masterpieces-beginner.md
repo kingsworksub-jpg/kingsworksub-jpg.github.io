@@ -20,7 +20,7 @@ tags: ["ジャズ名盤", "ジャズ入門", "Kind of Blue", "A Love Supreme", "
 ## ルイ・アームストロング／『ホット・ファイヴス&セヴンズ』(1925-28)
 
 <figure class="photo photo--left">
-  <img src="/images/jazz-greats/louis-armstrong-conover-studio.jpg" alt="VOAのラジオスタジオに招かれたルイ・アームストロング" width="1200" height="952" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B012NG3HR6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-greats/louis-armstrong-conover-studio.jpg" alt="VOAのラジオスタジオに招かれたルイ・アームストロング" width="1200" height="952" loading="lazy"></a>
   <figcaption>世界への放送で名を轟かせた「サッチモ」ルイ・アームストロング。ラジオがジャズを世界に広めた時代の象徴でもある<span class="credit">Photo: Voice of America / パブリックドメイン / Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ tags: ["ジャズ名盤", "ジャズ入門", "Kind of Blue", "A Love Supreme", "
 ## デューク・エリントン／『ブラントン=ウェブスター・バンド』(1940-42)
 
 <figure class="photo photo--right">
-  <img src="/images/jazz-greats/duke-ellington-publicity.jpg" alt="デューク・エリントンの公式ポートレート" width="1049" height="1279" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B000003EO4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-greats/duke-ellington-publicity.jpg" alt="デューク・エリントンの公式ポートレート" width="1049" height="1279" loading="lazy"></a>
   <figcaption>ジャズで初めて「作曲家」として本格的に名を残した男、デューク・エリントン。自らのオーケストラを楽器として使いこなした<span class="credit">Photo: 出典不詳（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ tags: ["ジャズ名盤", "ジャズ入門", "Kind of Blue", "A Love Supreme", "
 ## ビル・エヴァンス・トリオ／『ワルツ・フォー・デビー』(1961)
 
 <figure class="photo photo--left">
-  <img src="/images/jazz-greats/bill-evans-1961.jpg" alt="1961年のビル・エヴァンスの公式ポートレート" width="1200" height="1521" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B003YOMN68?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-greats/bill-evans-1961.jpg" alt="1961年のビル・エヴァンスの公式ポートレート" width="1200" height="1521" loading="lazy"></a>
   <figcaption>『ワルツ・フォー・デビー』録音の年に撮影されたビル・エヴァンス。リバーサイドの宣材写真家スティーブ・シャピロによる一枚<span class="credit">Photo: Steve Schapiro / パブリックドメイン / Wikimedia Commons</span></figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ tags: ["ジャズ名盤", "ジャズ入門", "Kind of Blue", "A Love Supreme", "
 ## ジョン・コルトレーン／『ア・ラヴ・スプリーム』(1965)
 
 <figure class="photo photo--right">
-  <img src="/images/jazz-greats/john-coltrane-1963.jpg" alt="1963年、ステージでサックスを吹くジョン・コルトレーン" width="1200" height="1599" loading="lazy">
+  <a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-greats/john-coltrane-1963.jpg" alt="1963年、ステージでサックスを吹くジョン・コルトレーン" width="1200" height="1599" loading="lazy"></a>
   <figcaption>1963年、オランダのフェスティバルに立つジョン・コルトレーン。翌年録音される『ア・ラヴ・スプリーム』の前夜、彼の音楽は祭りの熱気を帯びていた<span class="credit">Photo: Hugo van Gelderen / Anefo（CC0）/ Wikimedia Commons</span></figcaption>
 </figure>
 

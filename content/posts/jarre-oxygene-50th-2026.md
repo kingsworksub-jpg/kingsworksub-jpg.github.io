@@ -33,7 +33,7 @@ scheduled_time: "07:30"
 ## パリのアパートで、一人きりで録った6つのパート
 
 <figure class="photo photo--right">
-<img src="/images/oxygene-50/arp2600.jpg" alt="薄暗い倉庫のような空間に置かれた、パッチケーブルが何本も挿さった黒いARP 2600と鍵盤" width="1000" height="666" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07DR91M1X?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/oxygene-50/arp2600.jpg" alt="薄暗い倉庫のような空間に置かれた、パッチケーブルが何本も挿さった黒いARP 2600と鍵盤" width="1000" height="666" loading="lazy"></a>
 <figcaption>パッチケーブルで音の通り道をつなぐARP 2600。『Oxygène』の主役の一つになったシンセサイザーだ<span class="credit">Photo: Ville Hyvönen from helsinki / tallinn, Finland / CC BY-SA 2.0</span></figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ scheduled_time: "07:30"
 ## ARP 2600とVCS3、音の通り道を手でつなぐシンセ
 
 <figure class="photo photo--left">
-<img src="/images/oxygene-50/vcs3.jpg" alt="木枠の筐体に多数のつまみと、ピンを挿して配線する格子状の盤面が並ぶEMS VCS3" width="1000" height="998" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07DR91M1X?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/oxygene-50/vcs3.jpg" alt="木枠の筐体に多数のつまみと、ピンを挿して配線する格子状の盤面が並ぶEMS VCS3" width="1000" height="998" loading="lazy"></a>
 <figcaption>イギリスのEMS社のVCS3。右下のジョイスティックと左下のピン差しの盤で、音の流れを組み替える<span class="credit">Photo: Rosa Menkman / CC BY 2.0</span></figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ ARP 2600は、太くて芯のある音が出るシンセで、旋律や効果音
 ## 家庭用オルガンEminent 310が支えた、弦のような和音
 
 <figure class="photo photo--right">
-<img src="/images/oxygene-50/eminent310.jpg" alt="上下2段の鍵盤と、ストリングやパーカッションと書かれたスイッチが並ぶEminent 310 Uniqueのパネル" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07DR91M1X?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/oxygene-50/eminent310.jpg" alt="上下2段の鍵盤と、ストリングやパーカッションと書かれたスイッチが並ぶEminent 310 Uniqueのパネル" width="1000" height="750" loading="lazy"></a>
 <figcaption>オランダのEminent 310 Unique。2段鍵盤の家庭用オルガンだが、内蔵の弦の音色が『Oxygène』の背景を支えた<span class="credit">Photo: Dan Wilson (Hideaway Studio) / CC BY 4.0</span></figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ ARP 2600は、太くて芯のある音が出るシンセで、旋律や効果音
 ## セロハンテープで2つのリズムを重ねたMini Pops
 
 <figure class="photo photo--left">
-<img src="/images/oxygene-50/minipops7.jpg" alt="木の側板に挟まれた金色のパネルに、ワルツやサンバなどのリズム名とスライダーが並ぶKorg Mini Pops" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07DR91M1X?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/oxygene-50/minipops7.jpg" alt="木の側板に挟まれた金色のパネルに、ワルツやサンバなどのリズム名とスライダーが並ぶKorg Mini Pops" width="1000" height="750" loading="lazy"></a>
 <figcaption>コルグのリズムボックスMini Popsシリーズ。下の白いボタンでワルツやボサノヴァなどのリズムを選ぶ<span class="credit">Photo: Alison Cassidy / CC BY-SA 4.0</span></figcaption>
 </figure>
 

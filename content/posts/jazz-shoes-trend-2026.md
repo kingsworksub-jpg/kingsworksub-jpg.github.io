@@ -22,7 +22,7 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 ## 1970年代の足音
 
 <figure class="photo photo--right">
-<img src="/images/jazz-shoes/serge-gainsbourg-jazz-shoes.jpg" alt="白いレースアップのジャズシューズを履いたセルジュ・ギャンズブール" width="1600" height="2400" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/serge-gainsbourg-jazz-shoes.jpg" alt="白いレースアップのジャズシューズを履いたセルジュ・ギャンズブール" width="1600" height="2400" loading="lazy"></a>
 <figcaption>セルジュ・ギャンズブール — 白いレースアップを履きこなし、時代のシンボルにした男<span class="credit">Photo: Sergio Gaudenti / Sygma via Getty Images</span></figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 ## ランウェイを席巻する
 
 <figure class="photo photo--left">
-<img src="/images/jazz-shoes/celine-ss26-jazz-shoes.jpg" alt="セリーヌ 2026年春夏コレクションのランウェイで白いジャズシューズを履いたルック" width="1600" height="2400" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/celine-ss26-jazz-shoes.jpg" alt="セリーヌ 2026年春夏コレクションのランウェイで白いジャズシューズを履いたルック" width="1600" height="2400" loading="lazy"></a>
 <figcaption>セリーヌ 2026年春夏 — 白いジャズシューズをまとったルック<span class="credit">Photo: Estrop / Getty Images</span></figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 ## 街に広がって
 
 <figure class="photo photo--right">
-<img src="/images/jazz-shoes/street-style-white-tee-midi.jpg" alt="白いTシャツとミディスカートにカラフルなジャズシューズを合わせたストリートスタイル" width="1600" height="2400" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/street-style-white-tee-midi.jpg" alt="白いTシャツとミディスカートにカラフルなジャズシューズを合わせたストリートスタイル" width="1600" height="2400" loading="lazy"></a>
 <figcaption>白Tシャツ×ミディスカート×ジャズシューズ — 夏の定番の組み合わせ<span class="credit">Photo: Edward Berthelot / Getty Images</span></figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 あわせ方は、穿き慣れたデニムが外れない。マーク・ジェイコブスとギャンズブールが、50年を隔ててまったく同じ組み合わせで履いているのは面白い。白いTシャツにミディスカート、あるいはフレンチリヴィエラ風の白いリネンシャツに。ダブルブレストのブレザーを羽織れば、落ち着いた大人の正装にもなる。
 
 <figure class="photo photo--left">
-<img src="/images/jazz-shoes/celine-ss26-suited-booted.jpg" alt="ダブルブレストのスーツにジャズシューズを合わせたセリーヌ 2026年春夏のルック" width="1600" height="2400" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/celine-ss26-suited-booted.jpg" alt="ダブルブレストのスーツにジャズシューズを合わせたセリーヌ 2026年春夏のルック" width="1600" height="2400" loading="lazy"></a>
 <figcaption>「スーツ+正装」の着こなしにも一足のジャズシューズで<span class="credit">Photo: Estrop / Getty Images</span></figcaption>
 </figure>
 
