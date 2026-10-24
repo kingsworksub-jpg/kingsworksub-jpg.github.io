@@ -359,6 +359,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから | https://kinbro.hatenablog.com/entry/2026/10/24/074414 | 14945776032094480809 |
 | パスワードマネージャーを乗り換えると、CSVに乗らずに置いていかれるもの | https://kinbro.hatenablog.com/entry/2026/10/24/121328 | 14945776032094573049 |
 | Windowsの時短はどこから始めるか、標準のショートカットとランチャーを優先度順に並べる | https://kinbro.hatenablog.com/entry/2026/10/24/201417 | 14945776032094755887 |
+| 静電容量無接点のHHKBとREALFORCE、同じ東プレのスイッチでも押下圧と配列で打ち心地が分かれる | https://kinbro.hatenablog.com/entry/2026/10/25/074552 | 14945776032094919275 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
