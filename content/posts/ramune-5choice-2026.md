@@ -38,7 +38,7 @@ scheduled_time: "17:30"
 ## ビー玉の栓は、炭酸の圧力そのもので閉じている
 
 <figure class="photo photo--left">
-<img src="/images/ramune-5/codd-bottle.jpg" alt="19世紀イギリスのコッドびん2本。首の中にガラス玉が見える" width="460" height="570" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B003GXFCVK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ramune-5/codd-bottle.jpg" alt="19世紀イギリスのコッドびん2本。首の中にガラス玉が見える" width="460" height="570" loading="lazy"></a>
 <figcaption>イギリスで使われていた初期のコッドびん。くびれの上にガラス玉が収まる<span class="credit">Photo: Moriori / <a href="https://commons.wikimedia.org/wiki/File:Image-Codd_bottle.jpg" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ scheduled_time: "17:30"
 ## 神戸のガラスびんラムネ、返されて戻ってくるびん
 
 <figure class="photo photo--left">
-<img src="/images/ramune-5/kobe.jpg" alt="神戸のガラスびんのラムネ。屋台の絵とラムネの赤い文字が描かれたラベル" width="367" height="1000" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B003GXFCVK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ramune-5/kobe.jpg" alt="神戸のガラスびんのラムネ。屋台の絵とラムネの赤い文字が描かれたラベル" width="367" height="1000" loading="lazy"></a>
 <figcaption>「神戸 ガラスびんのラムネ」と書かれたびん。首のフィルムに品名・原材料・内容量が並ぶ<span class="credit">Photo: Rikaris / <a href="https://commons.wikimedia.org/wiki/File:Ramune_de_Kobe.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

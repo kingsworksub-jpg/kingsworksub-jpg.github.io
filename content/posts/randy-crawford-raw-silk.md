@@ -32,7 +32,7 @@ draft: false
 ## 11曲のうち10曲は、他の誰かが先に歌っていた
 
 <figure class="photo photo--right">
-<img src="/images/randy-crawford/randy-crawford-portrait.jpg" alt="制帽をかぶって笑うランディ・クロフォードのモノクロ・ポートレート" width="220" height="310" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000006XUQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/randy-crawford/randy-crawford-portrait.jpg" alt="制帽をかぶって笑うランディ・クロフォードのモノクロ・ポートレート" width="220" height="310" loading="lazy"></a>
 <figcaption>笑い方まで歌のうち、と思わせる人だった<span class="credit">Photo: Stuart Mentiply / GFDL 1.2</span></figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ A面は「I Stand Accused」で始まる。ジェリー・バトラーとビリ�
 ## 5か月後、「Street Life」がすべてを変えた
 
 <figure class="photo photo--left">
-<img src="/images/randy-crawford/joe-sample-1978.jpg" alt="1978年、ステージで鍵盤に向かうジョー・サンプル" width="220" height="220" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DZ1T5P8V?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/randy-crawford/joe-sample-1978.jpg" alt="1978年、ステージで鍵盤に向かうジョー・サンプル" width="220" height="220" loading="lazy"></a>
 <figcaption>1978年のジョー・サンプル。奥でベースを弾くのはウィルトン・フェルダー<span class="credit">Photo: Lionel decoster / CC BY-SA 3.0</span></figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ A面は「I Stand Accused」で始まる。ジェリー・バトラーとビリ�
 ## 英国が先に見つけた歌手
 
 <figure class="photo photo--right">
-<img src="/images/randy-crawford/crusaders-knebworth.jpg" alt="英国ネブワース・パークの野外ステージで演奏するクルセイダーズ" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DZ1T5P8V?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/randy-crawford/crusaders-knebworth.jpg" alt="英国ネブワース・パークの野外ステージで演奏するクルセイダーズ" width="220" height="165" loading="lazy"></a>
 <figcaption>英国ネブワース・パークのステージに立つクルセイダーズ<span class="credit">Photo: Kentrethewey / CC BY-SA 4.0</span></figcaption>
 </figure>
 

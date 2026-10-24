@@ -19,7 +19,7 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## カルメン・ランディ — 歌とオリジナル曲が編み上げる50年
 
 <figure class="photo photo--left">
-<img src="/images/nea-2026/vintage-microphone.jpg" alt="ヴィンテージの放送用マイク" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00LP830LM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nea-2026/vintage-microphone.jpg" alt="ヴィンテージの放送用マイク" width="220" height="330" loading="lazy"></a>
 <figcaption>自作曲150以上。自分の言葉で歌い続けた50年（イメージ）</figcaption>
 <span class="credit">Photo: Fourandsixty / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -35,7 +35,7 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## アイルト・モレイラ — ブラジル・パーカッションの革命児
 
 <figure class="photo photo--right">
-<img src="/images/nea-2026/airto-moreira.jpg" alt="カシシを手に歌うアイルト・モレイラ" width="220" height="313" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B00004SB0B?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nea-2026/airto-moreira.jpg" alt="カシシを手に歌うアイルト・モレイラ" width="220" height="313" loading="lazy"></a>
 <figcaption>カシシを鳴らして歌うアイルト・モレイラ</figcaption>
 <span class="credit">Photo: Brian McMillen / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
@@ -53,7 +53,7 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 ## パトリス・ラッシェン — ジャズとポップの境界線を消した女性音楽監督
 
 <figure class="photo photo--left">
-<img src="/images/nea-2026/patrice-rushen.jpg" alt="鍵盤の前で微笑むパトリス・ラッシェン（2010年）" width="220" height="220" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B000024TZG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nea-2026/patrice-rushen.jpg" alt="鍵盤の前で微笑むパトリス・ラッシェン（2010年）" width="220" height="220" loading="lazy"></a>
 <figcaption>鍵盤の前のパトリス・ラッシェン（2010年）</figcaption>
 <span class="credit">Photo: "Cowboy" Ben Alman / Wikimedia Commons (CC BY-SA 2.0)</span>
 </figure>

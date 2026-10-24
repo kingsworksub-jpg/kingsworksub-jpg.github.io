@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## 何が起きているのか、5.1はBOMが無ければShift_JISで読む
 
 <figure class="photo photo--left">
-<img src="/images/ps-encoding/mojibake-ja.png" alt="日本語のライセンス表示ページが、文字コードを取り違えて記号の羅列になった画面" width="220" height="172" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4844336231?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ps-encoding/mojibake-ja.png" alt="日本語のライセンス表示ページが、文字コードを取り違えて記号の羅列になった画面" width="220" height="172" loading="lazy"></a>
 <figcaption>文字コードを取り違えると、日本語は意味のない記号の列になる。これはUTF-8を西欧向けの文字コードで読んだ例<span class="credit">Photo: My own work as derivative of text available under CC 3.0 attrib / <a href="https://commons.wikimedia.org/wiki/File:Mojibake_Japanese_CC_Licence.png" target="_blank" rel="noopener">CC BY 3.0</a></span></figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ UTF-8の日本語は、ひらがな・カタカナ・漢字のほとんどが1�
 ## もっと厄介なのは、エラーにならずに1行消えるケース
 
 <figure class="photo photo--right">
-<img src="/images/ps-encoding/winps-commands.png" alt="Windows Terminalで開いた青い背景のWindows PowerShellと、コマンドパレットの一覧" width="220" height="117" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4844336231?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ps-encoding/winps-commands.png" alt="Windows Terminalで開いた青い背景のWindows PowerShellと、コマンドパレットの一覧" width="220" height="117" loading="lazy"></a>
 <figcaption>Windows 11にも、昔ながらの青い背景のWindows PowerShell 5.1が標準で入っている<span class="credit">Photo: Software: Microsoft CorporationScreenshot: PantheraLeo1359531 / <a href="https://commons.wikimedia.org/wiki/File:20231209_19_38_30-PowerShell_Befehlsnamen_crop.png" target="_blank" rel="noopener">MIT</a></span></figcaption>
 </figure>
 

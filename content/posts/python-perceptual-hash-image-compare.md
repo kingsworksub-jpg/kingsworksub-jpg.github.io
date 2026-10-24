@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 ## ファイルのハッシュと、見た目のハッシュ
 
 <figure class="photo photo--left">
-<img src="/images/phash/jpeg-quality.jpg" alt="枝に止まった緑と黄色の鳥の写真を左右に2枚並べ、右側だけ強く圧縮して色がくすんでいる比較画像" width="220" height="165" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4065301173?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/phash/jpeg-quality.jpg" alt="枝に止まった緑と黄色の鳥の写真を左右に2枚並べ、右側だけ強く圧縮して色がくすんでいる比較画像" width="220" height="165" loading="lazy"></a>
 <figcaption>左が元の写真、右が強く圧縮した写真。ファイルとしては別物でも、知覚ハッシュでは距離0になった<span class="credit">Photo: JJ Harrison, side-by-side comparison by Ibrahim.ID / <a href="https://commons.wikimedia.org/wiki/File:JPEG_compression_Example.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ MD5やSHA-256のようなハッシュは、入力が1ビットでも変われば
 ## aHashとdHashは、8×8の明るさを並べるだけ
 
 <figure class="photo photo--right">
-<img src="/images/phash/grayscale.jpg" alt="手をつないで歩く4人の子どもの後ろ姿を、色の成分だけ、明るさだけ、元の写真の3段に分けて縦に並べた画像" width="220" height="495" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4065301173?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/phash/grayscale.jpg" alt="手をつないで歩く4人の子どもの後ろ姿を、色の成分だけ、明るさだけ、元の写真の3段に分けて縦に並べた画像" width="220" height="495" loading="lazy"></a>
 <figcaption>同じ写真を色の成分（上）と明るさ（中）に分けた例。知覚ハッシュが使うのは中段の明るさだけだ<span class="credit">Photo: Tom Axford 1 / <a href="https://commons.wikimedia.org/wiki/File:Decomposition_of_an_image_into_colour_and_grey-scale_components_-_example.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ def distance(a, b):
 ## pHashは32×32に縮めてから、周波数の低い成分を見る
 
 <figure class="photo photo--left">
-<img src="/images/phash/dct-8x8.jpg" alt="白黒の縞模様や市松模様の小さな正方形が8行8列に並び、右下に行くほど模様が細かくなる図" width="220" height="220" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4065301173?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/phash/dct-8x8.jpg" alt="白黒の縞模様や市松模様の小さな正方形が8行8列に並び、右下に行くほど模様が細かくなる図" width="220" height="220" loading="lazy"></a>
 <figcaption>8×8の離散コサイン変換で使う64通りの模様。pHashは左上に近い、粗い模様の成分だけを残す<span class="credit">Photo: Devcore / <a href="https://commons.wikimedia.org/wiki/File:DCT-8x8.png" target="_blank" rel="noopener">Public domain</a></span></figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ print(imagehash.phash(a) - imagehash.phash(b))   # 0〜64
 ## 写真1枚を14通りに加工して、距離を測る
 
 <figure class="photo photo--right">
-<img src="/images/phash/farid.jpg" alt="赤い背景の舞台の上で、黒いジャケットの男性と青いスーツの男性が握手している写真" width="220" height="147" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/4065301173?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/phash/farid.jpg" alt="赤い背景の舞台の上で、黒いジャケットの男性と青いスーツの男性が握手している写真" width="220" height="147" loading="lazy"></a>
 <figcaption>加工の元にした写真。左は2009年にマイクロソフトとPhotoDNAを作ったハニー・ファリド<span class="credit">Photo: John Manard / <a href="https://commons.wikimedia.org/wiki/File:Dr._Hany_Farid_at_37th_Annual_Global_Fraud_Conference,_July,_14,_2026_002.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 

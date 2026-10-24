@@ -18,7 +18,7 @@ PCを静かにする方法を調べると、たいてい静音ケースや静音
 ## 録音に入る音は、PCの音量とマイクの拾い方の両方で決まる
 
 <figure class="photo photo--left">
-<img src="/images/quiet-pc/full-tower.jpg" alt="前面に5インチベイと光学ドライブが並ぶ、黒いフルタワー型のPCケース" width="220" height="412" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0B55YL7TP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/quiet-pc/full-tower.jpg" alt="前面に5インチベイと光学ドライブが並ぶ、黒いフルタワー型のPCケース" width="220" height="412" loading="lazy"></a>
 <figcaption>タワー型のケースは前面と側面に吸気口があり、ファンの音はそこから漏れてくる<span class="credit">Photo: Dmitry Makeev / <a href="https://commons.wikimedia.org/wiki/File:Computer_case_-_Full_Tower.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ PCを静かにする方法を調べると、たいてい静音ケースや静音
 ## 距離を倍にすると6dB、ただし部屋の反射が上限を決める
 
 <figure class="photo photo--right">
-<img src="/images/quiet-pc/atx-back.jpg" alt="PCケースの背面。マザーボードのUSBや音声端子、グラフィックボードの映像出力、排気ファンの網目が見える" width="220" height="330" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0B2JML3KN?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/quiet-pc/atx-back.jpg" alt="PCケースの背面。マザーボードのUSBや音声端子、グラフィックボードの映像出力、排気ファンの網目が見える" width="220" height="330" loading="lazy"></a>
 <figcaption>背面には映像出力とUSBが集まる。PCを離して置くと、ここから伸びるケーブルの長さが問題になる<span class="credit">Photo: Dmitry Makeev / <a href="https://commons.wikimedia.org/wiki/File:ATX_Computer_cases,_back_view.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ PCを静かにする方法を調べると、たいてい静音ケースや静音
 ## 録音のあいだだけ、回っているファンを止める
 
 <figure class="photo photo--left">
-<img src="/images/quiet-pc/case-fan-80mm.jpg" alt="指でつまんで持った、Antecのロゴが入った80mmの小型ケースファン" width="220" height="293" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B07XR1KLLK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/quiet-pc/case-fan-80mm.jpg" alt="指でつまんで持った、Antecのロゴが入った80mmの小型ケースファン" width="220" height="293" loading="lazy"></a>
 <figcaption>小さなファンは同じ風量を出すために速く回る必要があり、そのぶん高い音が出やすい<span class="credit">Photo: Mkhan4793 / <a href="https://commons.wikimedia.org/wiki/File:Antec-branded_80mm_case_fan.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 

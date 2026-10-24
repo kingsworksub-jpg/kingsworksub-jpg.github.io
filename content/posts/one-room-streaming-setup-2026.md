@@ -18,7 +18,7 @@ draft: false
 ## 1. 垂直方向の活用とモニターアームによる省スペース化
 
 <figure class="photo photo--left">
-<img src="/images/one-room-streaming-setup/studio1.jpg" alt="ベッドルーム兼用のスタジオ空間" width="1000" height="665" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B0DSJJMRFL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/one-room-streaming-setup/studio1.jpg" alt="ベッドルーム兼用のスタジオ空間" width="1000" height="665" loading="lazy"></a>
 <figcaption>限られた空間でのデスク配置例</figcaption>
 <span class="credit">Photo: Gerald Moore / CC BY 2.0</span>
 </figure>
@@ -32,7 +32,7 @@ draft: false
 ## 2. マイクアームと配線整理で生活動線を確保する
 
 <figure class="photo photo--right">
-<img src="/images/one-room-streaming-setup/studio2.jpg" alt="ホームスタジオのデスク周り" width="1000" height="750" loading="lazy">
+<a href="https://www.amazon.co.jp/dp/B09NHSLTK3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/one-room-streaming-setup/studio2.jpg" alt="ホームスタジオのデスク周り" width="1000" height="750" loading="lazy"></a>
 <figcaption>機材とケーブルを整理したデスク環境</figcaption>
 <span class="credit">Photo: THOR / CC BY 2.0</span>
 </figure>
