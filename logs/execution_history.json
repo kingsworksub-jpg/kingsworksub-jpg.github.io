@@ -1836,5 +1836,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T12:53:06Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "新規公開1件(charlie-brown-christmas-guaraldi-trio-2026)を点検: description/images/OG寸法あり、figureはH2直後で右・左・右と交互、関連記事節あり。修正対象なし(validate_post.pyはPIL不具合でこの環境では実行不可)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
