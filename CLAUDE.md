@@ -361,6 +361,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Windowsの時短はどこから始めるか、標準のショートカットとランチャーを優先度順に並べる | https://kinbro.hatenablog.com/entry/2026/10/24/201417 | 14945776032094755887 |
 | 静電容量無接点のHHKBとREALFORCE、同じ東プレのスイッチでも押下圧と配列で打ち心地が分かれる | https://kinbro.hatenablog.com/entry/2026/10/25/074552 | 14945776032094919275 |
 | Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある | https://kinbro.hatenablog.com/entry/2026/10/25/121415 | 14945776032095011623 |
+| 中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか | https://kinbro.hatenablog.com/entry/2026/10/25/201209 | 14945776032095178260 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
