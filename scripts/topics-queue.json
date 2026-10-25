@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:00:55+09:00",
+ "updated": "2026-10-25T12:14:38+09:00",
  "items": [
   {
    "category": "gear",
@@ -9773,14 +9773,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-013",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-25",
    "retry": 0,
    "claimed_at": "2026-10-25T12:00:55+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境/PC/開発/ネット"
+   "slot_label": "昼: テック/ソフト/制作環境/PC/開発/ネット",
+   "slug": "python-venv-uv-first-environment-2026",
+   "published_at": "2026-10-25T12:14:38+09:00"
   },
   {
    "category": "dev",

@@ -2383,6 +2383,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-25T07:46:05+09:00"
+  },
+  {
+   "id": "2026w43-013",
+   "category": "dev",
+   "theme": "Pythonの仮想環境はvenvかuvか、最初の1本を作る前に知っておく違い",
+   "slug": "python-venv-uv-first-environment-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/python-venv-uv-first-environment-2026/",
+   "hatena_entry": "14945776032095011623",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-25T12:14:38+09:00"
   }
  ]
 }
