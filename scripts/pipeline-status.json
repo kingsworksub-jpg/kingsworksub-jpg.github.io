@@ -1,18 +1,23 @@
 {
- "updated": "2026-10-25T23:10:53+09:00",
+ "updated": "2026-10-26T04:00:05+09:00",
  "queue": {
   "published": 118,
   "rejected": 1,
   "approved": 58,
   "in_progress": 1
  },
- "today_posts": 6,
+ "today_posts": 0,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published clear-ice-directional-freezing-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "topic-topup",
+  "label": "ネタ補充",
+  "since": "2026-10-26T04:00:05+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
