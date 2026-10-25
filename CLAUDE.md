@@ -565,6 +565,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか | https://note.com/shining_finger01/n/nb8e1c036a264 | `nb8e1c036a264` | **公開済(2026-10-22)** |
 | ジャズヴォーカル入門、歌詞より先に「間」を聴く。ビリー・ホリデイからベティ・カーターまで | https://note.com/shining_finger01/n/na9f9ae795627 | `na9f9ae795627` | **公開済(2026-10-22)** |
 | ネクタイの結び方4種は、結び目の幅をシャツの襟の開きに合わせて選ぶ | https://note.com/shining_finger01/n/nf4bf43604f12 | `nf4bf43604f12` | **公開済(2026-10-24)** |
+| 『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか。ヴィンス・ガラルディのピアノトリオと子どもの合唱 | https://note.com/shining_finger01/n/ncc219902fe94 | `ncc219902fe94` | **公開済(2026-10-25)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
