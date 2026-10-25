@@ -1,0 +1,30 @@
+{
+ "/images/mesh-wifi/repeater.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/MAGINON_WLR-510_Dual-Band_WLAN-Repeater_%2822207115714%29.jpg/1280px-MAGINON_WLR-510_Dual-Band_WLAN-Repeater_%2822207115714%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:MAGINON_WLR-510_Dual-Band_WLAN-Repeater_(22207115714).jpg",
+  "license": "CC BY 2.0",
+  "author": "I G",
+  "title": "File:MAGINON WLR-510 Dual-Band WLAN-Repeater (22207115714).jpg"
+ },
+ "/images/mesh-wifi/deco-m9.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Wi-Fi_mesh_system_Deco_M9_Plus.jpg/1280px-Wi-Fi_mesh_system_Deco_M9_Plus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Wi-Fi_mesh_system_Deco_M9_Plus.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Project Kei",
+  "title": "File:Wi-Fi mesh system Deco M9 Plus.jpg"
+ },
+ "/images/mesh-wifi/archer-be9700.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg/1280px-TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "TaurusEmerald",
+  "title": "File:TP-Link Archer BE9700 Tri-band Wi-Fi 7 Router.jpg"
+ },
+ "/images/mesh-wifi/eero.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Mesh_wifi_jun_2023.jpg/1280px-Mesh_wifi_jun_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Mesh_wifi_jun_2023.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "EEIM",
+  "title": "File:Mesh wifi jun 2023.jpg"
+ }
+}
