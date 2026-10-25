@@ -1,1987 +1,1987 @@
 {
-  "daw-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078440540,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "DAW 5本を比べる、机の上のオーケストラを誰に任せるか"
-  },
-  "hello": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "はじめまして、Studio Notesです"
-  },
-  "audio-interface-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078470431,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ"
-  },
-  "midi-keyboard-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078470419,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ"
-  },
-  "sampler-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078470402,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "サンプラー5本比較、音の欠片を誰の手に委ねるか"
-  },
-  "scotch-whisky-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078470450,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境"
-  },
-  "turntable-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078470439,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "アナログターンテーブル5台比較、針を落とすという儀式のために"
-  },
-  "scarlett-2i2-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078510345,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する"
-  },
-  "at-lp120xusb-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078691454,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル"
-  },
-  "ballantines-finest-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925486,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "バランタイン ファイネスはなぜ世界2位のスコッチになれたのか"
-  },
-  "black-nikka-clear-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925462,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ブラックニッカ クリアの軽さはどこから来るのか"
-  },
-  "budget-whisky-10choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925432,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し"
-  },
-  "cutty-sark-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925420,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "帆船の名を持つスコッチ、カティサークの軽やかさ"
-  },
-  "debut-carbon-evo-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078691593,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル"
-  },
-  "dewars-white-label-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925440,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "デュワーズ ホワイトラベルを二段熟成から読み解く"
-  },
-  "four-roses-yellow-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925392,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "10種の原酒で組み上げる、フォアローゼズ イエローの手間"
-  },
-  "jim-beam-white-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925498,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ジムビーム ホワイトが世界一売れるバーボンである理由"
-  },
-  "johnnie-walker-red-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925374,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ジョニーウォーカー レッドラベル、ブラックの弟分にあるスパイス感"
-  },
-  "rega-planar3-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078691554,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Rega Planar 3が半世紀守る「軽さと剛性」の設計思想"
-  },
-  "sony-pslx3bt-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078691636,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え"
-  },
-  "suntory-kakubin-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925412,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ハイボール文化の原点、サントリー角瓶を飲み直す"
-  },
-  "suntory-trys-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925505,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "トリスウイスキーとトリスバーの時代、いま飲む一本として"
-  },
-  "technics-sl1200mk7-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078691372,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Technics SL-1200MK7、半世紀の現場が選び続けた基準機"
-  },
-  "white-horse-fineold-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032078925366,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ホワイトホース ファインオールドに宿るラガヴーリンの個性"
-  },
-  "canada-dry-ginger-ale-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079413222,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール"
-  },
-  "crystal-spark-grape-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079352661,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計"
-  },
-  "fuji-strong-soda-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079558940,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "富士山の強炭酸水、地層が磨いた口当たり"
-  },
-  "itoen-mineral-strong-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079524762,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "伊藤園 ミネラルストロングと、シリカという小さなこだわり"
-  },
-  "kirin-lemon-sparkling-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079629572,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "キリンレモン 炭酸水が無糖で受け継ぐ1928年の透明感"
-  },
-  "mitsuya-cider-zero-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079620987,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "三ツ矢サイダーZEROは142年目に見つけたゼロの答え"
-  },
-  "oza-soda-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079242804,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "OZA SODAの改名に込められた二つの意味"
-  },
-  "wilkinson-tansan-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079085104,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ"
-  },
-  "yosa-soda-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079097508,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ヨサソーダの飲み切りサイズが正解だった理由"
-  },
-  "bodum-douro-carafe-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079920491,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形"
-  },
-  "coca-cola-zero-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079935473,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "コカ・コーラ ゼロ、罪悪感を引き算したもうひとつの黒い炭酸"
-  },
-  "crystal-spark-ramune-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079902024,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる"
-  },
-  "dodecamin-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079996485,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸"
-  },
-  "keith-ti9304-titanium-sake-cup-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079974862,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "KEITH 純チタン おちょこは、白酒のために生まれた旅する盃"
-  },
-  "nousaku-tin-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079837776,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "曲がる錫が酒をやわらげる、能作 本錫100%酒器セット"
-  },
-  "san-pellegrino-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079851655,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "サンペレグリノが世界のテーブルに選ばれる理由"
-  },
-  "sori-yanagi-seishu-glass-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032079869167,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "柳宗理の清酒グラスは、てのひらの形から生まれた"
-  },
-  "green-cola-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080069533,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ギリシャ生まれのgreen cola(グリーンコーラ)は日本の棚になじむか"
-  },
-  "hirota-glass-chirori-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080333833,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス"
-  },
-  "kiretolemon-wlemon-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080351881,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "レモン2個分の酸味に振り切った、キレートレモン Wレモン"
-  },
-  "kobe-kyoryuchi-sparkling-water-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080388905,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター"
-  },
-  "kutani-shiratsubu-tessen-guinomi-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080237666,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "九谷焼 ぐい呑み 白粒鉄仙、粒立つ白と途切れない蔓の文様"
-  },
-  "monster-pipeline-punch-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080259968,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ノースショアの波からコンビニの棚へ、モンスターエナジー パイプラインパンチ"
-  },
-  "peacock-acf38-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080283668,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "温度を止める徳利、ピーコックの真空二重構造 酒器セット"
-  },
-  "pokka-furano-hop-soda-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080215135,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ビールでもノンアルでもない、北海道富良野ホップ炭酸水という第三の選択"
-  },
-  "real-gold-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080138929,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "リアルゴールドはカフェインなしで元気を配る"
-  },
-  "sangaria-kireina-tansansui-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080296748,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "サンガリア きれいな炭酸水、名古屋発のクセのない一本"
-  },
-  "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080203720,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)"
-  },
-  "takaoka-shikki-raden-glass-sakura-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080370631,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜"
-  },
-  "toyo-sasaki-carafe-variation-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080073637,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "氷を閉じ込めて薄めない、東洋佐々木ガラス カラフェ・バリエーション"
-  },
-  "tsugaru-vidro-nebuta-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080063857,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット"
-  },
-  "arita-enka-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080490287,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "有田焼 炎華の酒器セット、黒い炎をまとう徳利とぐい呑み"
-  },
-  "canada-dry-tansan-strong-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080477449,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "カナダドライ ザ・タンサン ストロングは泡だけで勝負する"
-  },
-  "dodecamin-zero-sakebitai-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080505882,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "名前は変わっても中身は裏切らない「ドデカミンのゼロが好きだと叫びたい」"
-  },
-  "icy-spark-canada-dry-lemon-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080428751,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン"
-  },
-  "kurojoka-mino-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080433323,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "黒千代香で焼酎を直火にかける、国産美濃焼のもてなし"
-  },
-  "mitsuya-cider-original-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080416495,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "三ツ矢サイダーの透明な甘さは140年でどう守られてきたか"
-  },
-  "odate-akita-sugi-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080405656,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "秋田杉の香りをまとう日本酒、大館工芸社の酒器3点セット"
-  },
-  "otsuka-match-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080452514,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ)"
-  },
-  "toyo-sasaki-katakuchi-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080423161,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "東洋佐々木ガラスの片口 冷酒カラフェ、注ぎ口に宿る千三百年の知恵"
-  },
-  "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080467143,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花"
-  },
-  "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032080547620,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょう酒器セット"
-  },
-  "jazz-shoes-trend-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032081554718,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "バレエフラットの次はジャズシューズ、2026年の足元に響く70年代"
-  },
-  "alan-boguslavsky-stage": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Héroes del Silencioの写真から消された5人目、ギタリストAlan Boguslavskyの軌跡"
-  },
-  "hard-bop-blue-note-golden-age": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032081757676,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる"
-  },
-  "modal-jazz-challenge": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032081757708,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ"
-  },
-  "jazz-instruments-guide": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032081943034,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "リズム隊とホーンから知る、ジャズの楽器入門"
-  },
-  "jazz-masterpieces-beginner": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032081946518,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ジャズ名盤入門、最初に聴きたい10枚を時代順に"
-  },
-  "vox-cola-flavor-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032082692111,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか"
-  },
-  "cool-jazz-birth-of-the-cool": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032083085599,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代"
-  },
-  "bebop-52nd-street-nights": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032083484010,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間"
-  },
-  "anime-and-jazz": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032083816100,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所"
-  },
-  "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084075516,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く"
-  },
-  "cafe-jazz-lounge-piano-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ"
-  },
-  "jazz-festivals-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084261606,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る"
-  },
-  "jazz-style-fashion-revival-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084192917,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ピンストライプとダブルブレスト、ジャズスタイルが2026年に戻ってきた"
-  },
-  "nea-jazz-masters-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084161144,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩"
-  },
-  "statement-hat-trends-autumn-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084212027,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ミニマルから最大主義へ、秋冬2026のステートメントハット最前線"
-  },
-  "modern-spiritual-jazz-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084177549,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流"
-  },
-  "statement-hat-trend-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084308491,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "帽子が主役になる秋冬2026、ステートメントハットの選び方"
-  },
-  "jazz-style-menswear-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084291222,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Gen-Zが着こなすジャズ・メンズウェア、フォーマルと自由の新しい関係"
-  },
-  "classic-french-style-revival-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084373439,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル"
-  },
-  "scarf-styling-trend-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084343164,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "スカーフ一枚で装いが変わる、2026年のスカーフスタイリング"
-  },
-  "bw-685-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084538870,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感"
-  },
-  "cubase-pro-15-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084553828,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能"
-  },
-  "cubase-15-user-guide-book-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084553845,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる"
-  },
-  "classic-suspender-styling-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": 14945776032084657450,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー"
-  },
-  "black-friday-shopping-plan-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085112463",
-    "note_key": "n7083ae60e8fb",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ブラックフライデーの買い物計画は10月から始めたほうがいい"
-  },
-  "islay-malt-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085501583",
-    "note_key": "nc416005d7ac6",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "アイラの南北で変わる煙の色、5つのピート体験"
-  },
-  "condenser-mic-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085534809",
-    "note_key": "nc6d45a823803",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-16T13:15:54+09:00",
-    "title": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本"
-  },
-  "audacity-4-guide-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085574083",
-    "note_key": "n9511f3aef6fa",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ"
-  },
-  "jazz-listening-guide-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085623091",
-    "note_key": "n506db017a9b9",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方"
-  },
-  "home-studio-100k-budget-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032085666324",
-    "note_key": "n39143518033a",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "6畳10万円の宅録、買う順番を決めるとマイクは3番目になる"
-  },
-  "sherry-cask-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086182149",
-    "note_key": "n5c8b9915d1c1",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから"
-  },
-  "headphone-hydrolysis-parts": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086248357",
-    "note_key": "nd679877b72af",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す"
-  },
-  "ableton-live-12-session-view-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086278312",
-    "note_key": "n60fe00c14a5d",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Ableton Live 12のセッションビューが変える作曲の順番"
-  },
-  "rental-soundproofing-booth-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086344857",
-    "note_key": "n188d678db063",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段"
-  },
-  "randy-crawford-raw-silk": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086379785",
-    "note_key": "n5d91e2846a00",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか"
-  },
-  "mix-practice-1month": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086413296",
-    "note_key": "n185417280087",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ"
-  },
-  "bourbon-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086463961",
-    "note_key": "n798ebde966de",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方"
-  },
-  "launchkey-mk4-key-range": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086642903",
-    "note_key": "n83051f5f5188",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった"
-  },
-  "vocalign-7-multitrack": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086673861",
-    "note_key": "n467e0d2c62a8",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える"
-  },
-  "winter-studio-humidity": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086708379",
-    "note_key": "n82928b7a1914",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "冬の制作部屋で最初に買うのは暖房ではなく湿度計"
-  },
-  "music-theory-3month-plan": {
-    "platforms": [
-      "github",
-      "hatena",
-      "note"
-    ],
-    "hatena_entry": "14945776032086751225",
-    "note_key": "nda76ef11b9e4",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "音楽理論を3か月で一周するなら、最初から読む本は1冊だけ"
-  },
-  "taiwan-india-whisky-climate-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n497b40b8ae89",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "台湾とインドのウイスキー、熱い土地で樽は速く働く"
-  },
-  "logic-pro-mac-songwriting-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか"
-  },
-  "ear-training-one-week": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない"
-  },
-  "monitor-headphones-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032087902477",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く"
-  },
-  "one-room-streaming-setup-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032087960224",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ワンルームの狭さを活かす、生活と共存する配信デスクの配置術"
-  },
-  "fl-studio-pattern-piano-roll": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032087999491",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位"
-  },
-  "craft-cola-spice-syrup-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "nab5ccca204af",
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "クラフトコーラの原液は、割る人が最後の調合を担う"
-  },
-  "nanbu-tetsubin-kanzake-yusen": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "nb82062a6c3ce",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか"
-  },
-  "nearfield-monitors-5choice-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032088323658",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる"
-  },
-  "code-progress-1month-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める"
-  },
-  "adult-piano-learning-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "大人から鍵盤を始める、指より先に決めることがある"
-  },
-  "dtm-school-or-self-study-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "DTMスクールと独学、お金を払う価値があるのは「添削」の部分だけ"
-  },
-  "leather-gloves-lining-guide-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "革手袋はなぜ巻尺で選ぶのか、羊革と鹿革と裏地で変わる冬の手元"
-  },
-  "whisky-year-end-gift-guide-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "nd9ffa91f6394",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ウイスキーを年末に贈るなら、化粧箱の1本とアドベントカレンダーは別の買い物"
-  },
-  "urushi-sakazuki-shu-kuro": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n0a6293f2fc7d",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える"
-  },
-  "streaming-loudness-normalization-lufs": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ラウドネスノーマライズの検証メモ：-8から-16 LUFSまで4本書き出すと何が残るか"
-  },
-  "chrome-gemini-nano-4gb-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032088759442",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法"
-  },
-  "quiet-music-pc-fan-noise-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032088764263",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き"
-  },
-  "sony-ecm-ax10-spatial-mic-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-17T00:17:32+09:00",
-    "title": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか"
-  },
-  "non-alcohol-beer-5choice-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981311163,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった"
-  },
-  "cassette-tape-revival-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n9c0a04c2e3fd",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか"
-  },
-  "rme-babyface-pro-fs-deep-dive-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "RME Babyface Pro FSのドライバ安定性とSteadyClock FSがもたらす変化"
-  },
-  "universal-audio-volt-276-deep-dive-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Universal Audio Volt 276が備える76系コンプとビンテージモードの正体"
-  },
-  "tonic-water-5choice-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "トニックウォーター5本比較、割り材としての苦味を選ぶ"
-  },
-  "powershell-utf8-bom-notes": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった"
-  },
-  "ollama-vram-memory-guide-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032089192418",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる"
-  },
-  "wilkinson-ginger-ale-dry-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981373235,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方"
-  },
-  "winter-coat-5types-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981373364,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ"
-  },
-  "piano-practice-apps-3choice-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981373491,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方"
-  },
-  "akai-mpk-mini-mk4-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981382030,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "Akai MPK Mini MK4の25鍵でできること、上位機に任せること"
-  },
-  "yamaha-ag03mk2-deep-dive-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "Yamaha AG03MK2が配信と宅録をつなぐ理由、ループバックと操作性の全貌"
-  },
-  "oral-rehydration-vs-sports-drink-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "経口補水液とスポーツドリンク、電解質濃度と糖分の違いがもたらす役割"
-  },
-  "tweed-jacket-street-style-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学"
-  },
-  "whisper-model-size-japanese-benchmark-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで"
-  },
-  "windows-11-26h2-memory-daw-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-    "updated_at": "2026-10-16T12:25:01+09:00",
-    "title": "Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定"
-  },
-  "record-stylus-lifespan-guide-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981475998,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた"
-  },
-  "sodastream-terra-carbonation-guide-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981488746,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方"
-  },
-  "hammond-b3-jazz-organ-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "ne13c53a6690f",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン"
-  },
-  "halloween-songs-monster-mash-thriller-2026": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n180285a0dc9e",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年"
-  },
-  "windows-asio-wasapi-latency-troubleshooting": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "ASIOとWASAPIの音切れ、疑う順番はドライバ方式・バッファ・DPCの3段階"
-  },
-  "fender-studio-pro-8-studio-one-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032089993400",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ"
-  },
-  "waon-ear-copy-1month-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981568774,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:53+09:00",
-    "title": "WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月"
-  },
-  "google-flow-music-plugins-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032090135921",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで"
-  },
-  "shigaraki-guinomi-hiiro": {
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n693fb248a69a",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "信楽焼のぐい呑みは、なぜ土のざらつきを残したまま焼かれるのか"
-  },
-  "demucs-stem-separation-htdemucs-ft-2026": {
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "Demucsでボーカルを抜くと残響はどこへ行くか、htdemucsとhtdemucs_ftの4ステムと6ステム"
-  },
-  "desk-chair-studio-ergonomics-2026": {
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032090430709",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T19:58:56+09:00",
-    "title": "DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲"
-  },
-  "parker-blues-ear-training-1week": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": 12981659693,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:37:36+09:00",
-    "title": "ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る"
-  },
-  "loafer-derby-autumn-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": "12981672863",
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T21:36:14+09:00",
-    "title": "ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方"
-  },
-  "teenage-engineering-op1-synth-essay-2026": {
-    "title": "Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち",
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "n7e1efb971a38",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-15T23:35:50+09:00"
-  },
-  "hugo-timezone-buildfuture-notes": {
-    "title": "Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture",
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-16T12:24:58+09:00"
-  },
-  "kontakt-8-player-and-builder-2026": {
-    "title": "Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う",
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032090822856",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-16T12:25:01+09:00"
-  },
-  "turtleneck-jacket-layering-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": "12981753531",
-    "needs_manual_review": null,
-    "updated_at": "2026-10-16T17:45:00+09:00",
-    "title": "タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる"
-  },
-  "monitor-placement-room-tuning-6jo-2026": {
-    "title": "モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから",
-    "platforms": [
-      "github",
-      "hatena"
-    ],
-    "hatena_entry": "14945776032090985503",
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-16T20:45:57+09:00"
-  },
-  "canadian-whisky-rye-4choice-2026": {
-    "title": "カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける",
-    "platforms": [
-      "github",
-      "note"
-    ],
-    "hatena_entry": null,
-    "note_key": "na2cafc0c076f",
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-16T21:43:19+09:00"
-  },
-  "dither-16bit-noise-shaping-test": {
-    "title": "16bit化のディザを3通りで検証、ノイズシェーピングは総量で12dB増えて耳では9dB減る",
-    "platforms": [
-      "github"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": null,
-    "needs_manual_review": null,
-    "updated_at": "2026-10-17T00:17:13+09:00"
-  },
-  "dr-pepper-23-flavors-deep-dive-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": "12981847669",
-    "needs_manual_review": null,
-    "updated_at": "2026-10-17T17:42:00+09:00",
-    "title": "ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由"
-  },
-  "glen-check-houndstooth-pattern-mixing-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": "12981859857",
-    "needs_manual_review": null,
-    "updated_at": "2026-10-17T20:10:00+09:00",
-    "title": "グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける"
-  },
-  "can-chill-salt-ice-water-2026": {
-    "platforms": [
-      "github",
-      "ameba"
-    ],
-    "hatena_entry": null,
-    "note_key": null,
-    "ameba_entry": "12982653114",
-    "needs_manual_review": null,
-    "updated_at": "2026-10-25T17:45:00+09:00",
-    "title": "缶ビールを急いで冷やすなら冷凍庫より塩入りの氷水、数分で済む理由と塩の量"
-  }
+ "daw-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078440540,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "DAW 5本を比べる、机の上のオーケストラを誰に任せるか"
+ },
+ "hello": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "はじめまして、Studio Notesです"
+ },
+ "audio-interface-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078470431,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ"
+ },
+ "midi-keyboard-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078470419,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ"
+ },
+ "sampler-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078470402,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "サンプラー5本比較、音の欠片を誰の手に委ねるか"
+ },
+ "scotch-whisky-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078470450,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境"
+ },
+ "turntable-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078470439,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "アナログターンテーブル5台比較、針を落とすという儀式のために"
+ },
+ "scarlett-2i2-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078510345,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する"
+ },
+ "at-lp120xusb-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078691454,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル"
+ },
+ "ballantines-finest-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925486,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "バランタイン ファイネスはなぜ世界2位のスコッチになれたのか"
+ },
+ "black-nikka-clear-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925462,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ブラックニッカ クリアの軽さはどこから来るのか"
+ },
+ "budget-whisky-10choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925432,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し"
+ },
+ "cutty-sark-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925420,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "帆船の名を持つスコッチ、カティサークの軽やかさ"
+ },
+ "debut-carbon-evo-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078691593,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル"
+ },
+ "dewars-white-label-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925440,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "デュワーズ ホワイトラベルを二段熟成から読み解く"
+ },
+ "four-roses-yellow-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925392,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "10種の原酒で組み上げる、フォアローゼズ イエローの手間"
+ },
+ "jim-beam-white-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925498,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ジムビーム ホワイトが世界一売れるバーボンである理由"
+ },
+ "johnnie-walker-red-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925374,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ジョニーウォーカー レッドラベル、ブラックの弟分にあるスパイス感"
+ },
+ "rega-planar3-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078691554,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Rega Planar 3が半世紀守る「軽さと剛性」の設計思想"
+ },
+ "sony-pslx3bt-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078691636,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え"
+ },
+ "suntory-kakubin-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925412,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ハイボール文化の原点、サントリー角瓶を飲み直す"
+ },
+ "suntory-trys-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925505,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "トリスウイスキーとトリスバーの時代、いま飲む一本として"
+ },
+ "technics-sl1200mk7-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078691372,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Technics SL-1200MK7、半世紀の現場が選び続けた基準機"
+ },
+ "white-horse-fineold-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032078925366,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ホワイトホース ファインオールドに宿るラガヴーリンの個性"
+ },
+ "canada-dry-ginger-ale-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079413222,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール"
+ },
+ "crystal-spark-grape-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079352661,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計"
+ },
+ "fuji-strong-soda-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079558940,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "富士山の強炭酸水、地層が磨いた口当たり"
+ },
+ "itoen-mineral-strong-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079524762,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "伊藤園 ミネラルストロングと、シリカという小さなこだわり"
+ },
+ "kirin-lemon-sparkling-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079629572,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "キリンレモン 炭酸水が無糖で受け継ぐ1928年の透明感"
+ },
+ "mitsuya-cider-zero-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079620987,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "三ツ矢サイダーZEROは142年目に見つけたゼロの答え"
+ },
+ "oza-soda-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079242804,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "OZA SODAの改名に込められた二つの意味"
+ },
+ "wilkinson-tansan-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079085104,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ"
+ },
+ "yosa-soda-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079097508,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ヨサソーダの飲み切りサイズが正解だった理由"
+ },
+ "bodum-douro-carafe-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079920491,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形"
+ },
+ "coca-cola-zero-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079935473,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "コカ・コーラ ゼロ、罪悪感を引き算したもうひとつの黒い炭酸"
+ },
+ "crystal-spark-ramune-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079902024,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる"
+ },
+ "dodecamin-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079996485,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸"
+ },
+ "keith-ti9304-titanium-sake-cup-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079974862,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "KEITH 純チタン おちょこは、白酒のために生まれた旅する盃"
+ },
+ "nousaku-tin-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079837776,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "曲がる錫が酒をやわらげる、能作 本錫100%酒器セット"
+ },
+ "san-pellegrino-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079851655,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "サンペレグリノが世界のテーブルに選ばれる理由"
+ },
+ "sori-yanagi-seishu-glass-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032079869167,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "柳宗理の清酒グラスは、てのひらの形から生まれた"
+ },
+ "green-cola-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080069533,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ギリシャ生まれのgreen cola(グリーンコーラ)は日本の棚になじむか"
+ },
+ "hirota-glass-chirori-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080333833,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス"
+ },
+ "kiretolemon-wlemon-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080351881,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "レモン2個分の酸味に振り切った、キレートレモン Wレモン"
+ },
+ "kobe-kyoryuchi-sparkling-water-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080388905,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター"
+ },
+ "kutani-shiratsubu-tessen-guinomi-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080237666,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "九谷焼 ぐい呑み 白粒鉄仙、粒立つ白と途切れない蔓の文様"
+ },
+ "monster-pipeline-punch-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080259968,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ノースショアの波からコンビニの棚へ、モンスターエナジー パイプラインパンチ"
+ },
+ "peacock-acf38-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080283668,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "温度を止める徳利、ピーコックの真空二重構造 酒器セット"
+ },
+ "pokka-furano-hop-soda-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080215135,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ビールでもノンアルでもない、北海道富良野ホップ炭酸水という第三の選択"
+ },
+ "real-gold-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080138929,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "リアルゴールドはカフェインなしで元気を配る"
+ },
+ "sangaria-kireina-tansansui-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080296748,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "サンガリア きれいな炭酸水、名古屋発のクセのない一本"
+ },
+ "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080203720,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)"
+ },
+ "takaoka-shikki-raden-glass-sakura-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080370631,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜"
+ },
+ "toyo-sasaki-carafe-variation-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080073637,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "氷を閉じ込めて薄めない、東洋佐々木ガラス カラフェ・バリエーション"
+ },
+ "tsugaru-vidro-nebuta-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080063857,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット"
+ },
+ "arita-enka-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080490287,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "有田焼 炎華の酒器セット、黒い炎をまとう徳利とぐい呑み"
+ },
+ "canada-dry-tansan-strong-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080477449,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "カナダドライ ザ・タンサン ストロングは泡だけで勝負する"
+ },
+ "dodecamin-zero-sakebitai-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080505882,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "名前は変わっても中身は裏切らない「ドデカミンのゼロが好きだと叫びたい」"
+ },
+ "icy-spark-canada-dry-lemon-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080428751,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン"
+ },
+ "kurojoka-mino-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080433323,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "黒千代香で焼酎を直火にかける、国産美濃焼のもてなし"
+ },
+ "mitsuya-cider-original-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080416495,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "三ツ矢サイダーの透明な甘さは140年でどう守られてきたか"
+ },
+ "odate-akita-sugi-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080405656,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "秋田杉の香りをまとう日本酒、大館工芸社の酒器3点セット"
+ },
+ "otsuka-match-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080452514,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ)"
+ },
+ "toyo-sasaki-katakuchi-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080423161,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "東洋佐々木ガラスの片口 冷酒カラフェ、注ぎ口に宿る千三百年の知恵"
+ },
+ "tsugaru-vidro-katakuchi-ajisai-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080467143,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花"
+ },
+ "tsugaru-vidro-mizubasho-sake-set-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032080547620,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょう酒器セット"
+ },
+ "jazz-shoes-trend-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032081554718,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "バレエフラットの次はジャズシューズ、2026年の足元に響く70年代"
+ },
+ "alan-boguslavsky-stage": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Héroes del Silencioの写真から消された5人目、ギタリストAlan Boguslavskyの軌跡"
+ },
+ "hard-bop-blue-note-golden-age": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032081757676,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる"
+ },
+ "modal-jazz-challenge": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032081757708,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ"
+ },
+ "jazz-instruments-guide": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032081943034,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "リズム隊とホーンから知る、ジャズの楽器入門"
+ },
+ "jazz-masterpieces-beginner": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032081946518,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ジャズ名盤入門、最初に聴きたい10枚を時代順に"
+ },
+ "vox-cola-flavor-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032082692111,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか"
+ },
+ "cool-jazz-birth-of-the-cool": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032083085599,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代"
+ },
+ "bebop-52nd-street-nights": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032083484010,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間"
+ },
+ "anime-and-jazz": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032083816100,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所"
+ },
+ "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084075516,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Jon Batiste『Black Mozart』と山中千尋25周年、2026年のジャズ新作を聴く"
+ },
+ "cafe-jazz-lounge-piano-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ"
+ },
+ "jazz-festivals-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084261606,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る"
+ },
+ "jazz-style-fashion-revival-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084192917,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ピンストライプとダブルブレスト、ジャズスタイルが2026年に戻ってきた"
+ },
+ "nea-jazz-masters-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084161144,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩"
+ },
+ "statement-hat-trends-autumn-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084212027,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ミニマルから最大主義へ、秋冬2026のステートメントハット最前線"
+ },
+ "modern-spiritual-jazz-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084177549,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Kamasi WashingtonとDinner Partyが拓く、スピリチュアルジャズの新潮流"
+ },
+ "statement-hat-trend-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084308491,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "帽子が主役になる秋冬2026、ステートメントハットの選び方"
+ },
+ "jazz-style-menswear-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084291222,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Gen-Zが着こなすジャズ・メンズウェア、フォーマルと自由の新しい関係"
+ },
+ "classic-french-style-revival-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084373439,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル"
+ },
+ "scarf-styling-trend-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084343164,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "スカーフ一枚で装いが変わる、2026年のスカーフスタイリング"
+ },
+ "bw-685-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084538870,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感"
+ },
+ "cubase-pro-15-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084553828,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能"
+ },
+ "cubase-15-user-guide-book-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084553845,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる"
+ },
+ "classic-suspender-styling-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": 14945776032084657450,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー"
+ },
+ "black-friday-shopping-plan-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085112463",
+  "note_key": "n7083ae60e8fb",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ブラックフライデーの買い物計画は10月から始めたほうがいい"
+ },
+ "islay-malt-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085501583",
+  "note_key": "nc416005d7ac6",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "アイラの南北で変わる煙の色、5つのピート体験"
+ },
+ "condenser-mic-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085534809",
+  "note_key": "nc6d45a823803",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-16T13:15:54+09:00",
+  "title": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本"
+ },
+ "audacity-4-guide-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085574083",
+  "note_key": "n9511f3aef6fa",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Audacity 4、25年ぶりの全面刷新。Qtエンジンが開く編集の新しい流れ"
+ },
+ "jazz-listening-guide-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085623091",
+  "note_key": "n506db017a9b9",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方"
+ },
+ "home-studio-100k-budget-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032085666324",
+  "note_key": "n39143518033a",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "6畳10万円の宅録、買う順番を決めるとマイクは3番目になる"
+ },
+ "sherry-cask-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086182149",
+  "note_key": "n5c8b9915d1c1",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから"
+ },
+ "headphone-hydrolysis-parts": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086248357",
+  "note_key": "nd679877b72af",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す"
+ },
+ "ableton-live-12-session-view-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086278312",
+  "note_key": "n60fe00c14a5d",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Ableton Live 12のセッションビューが変える作曲の順番"
+ },
+ "rental-soundproofing-booth-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086344857",
+  "note_key": "n188d678db063",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段"
+ },
+ "randy-crawford-raw-silk": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086379785",
+  "note_key": "n5d91e2846a00",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか"
+ },
+ "mix-practice-1month": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086413296",
+  "note_key": "n185417280087",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ"
+ },
+ "bourbon-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086463961",
+  "note_key": "n798ebde966de",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方"
+ },
+ "launchkey-mk4-key-range": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086642903",
+  "note_key": "n83051f5f5188",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった"
+ },
+ "vocalign-7-multitrack": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086673861",
+  "note_key": "n467e0d2c62a8",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える"
+ },
+ "winter-studio-humidity": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086708379",
+  "note_key": "n82928b7a1914",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "冬の制作部屋で最初に買うのは暖房ではなく湿度計"
+ },
+ "music-theory-3month-plan": {
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "14945776032086751225",
+  "note_key": "nda76ef11b9e4",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "音楽理論を3か月で一周するなら、最初から読む本は1冊だけ"
+ },
+ "taiwan-india-whisky-climate-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n497b40b8ae89",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "台湾とインドのウイスキー、熱い土地で樽は速く働く"
+ },
+ "logic-pro-mac-songwriting-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか"
+ },
+ "ear-training-one-week": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない"
+ },
+ "monitor-headphones-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032087902477",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く"
+ },
+ "one-room-streaming-setup-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032087960224",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ワンルームの狭さを活かす、生活と共存する配信デスクの配置術"
+ },
+ "fl-studio-pattern-piano-roll": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032087999491",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位"
+ },
+ "craft-cola-spice-syrup-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nab5ccca204af",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "クラフトコーラの原液は、割る人が最後の調合を担う"
+ },
+ "nanbu-tetsubin-kanzake-yusen": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nb82062a6c3ce",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "南部鉄器の鉄瓶を燗の湯煎に使うと、なぜ温度が落ちにくいのか"
+ },
+ "nearfield-monitors-5choice-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032088323658",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる"
+ },
+ "code-progress-1month-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める"
+ },
+ "adult-piano-learning-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "大人から鍵盤を始める、指より先に決めることがある"
+ },
+ "dtm-school-or-self-study-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "DTMスクールと独学、お金を払う価値があるのは「添削」の部分だけ"
+ },
+ "leather-gloves-lining-guide-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "革手袋はなぜ巻尺で選ぶのか、羊革と鹿革と裏地で変わる冬の手元"
+ },
+ "whisky-year-end-gift-guide-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nd9ffa91f6394",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ウイスキーを年末に贈るなら、化粧箱の1本とアドベントカレンダーは別の買い物"
+ },
+ "urushi-sakazuki-shu-kuro": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n0a6293f2fc7d",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える"
+ },
+ "streaming-loudness-normalization-lufs": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ラウドネスノーマライズの検証メモ：-8から-16 LUFSまで4本書き出すと何が残るか"
+ },
+ "chrome-gemini-nano-4gb-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032088759442",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法"
+ },
+ "quiet-music-pc-fan-noise-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032088764263",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き"
+ },
+ "sony-ecm-ax10-spatial-mic-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T00:17:32+09:00",
+  "title": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか"
+ },
+ "non-alcohol-beer-5choice-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981311163,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった"
+ },
+ "cassette-tape-revival-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n9c0a04c2e3fd",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか"
+ },
+ "rme-babyface-pro-fs-deep-dive-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "RME Babyface Pro FSのドライバ安定性とSteadyClock FSがもたらす変化"
+ },
+ "universal-audio-volt-276-deep-dive-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Universal Audio Volt 276が備える76系コンプとビンテージモードの正体"
+ },
+ "tonic-water-5choice-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "トニックウォーター5本比較、割り材としての苦味を選ぶ"
+ },
+ "powershell-utf8-bom-notes": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった"
+ },
+ "ollama-vram-memory-guide-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032089192418",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる"
+ },
+ "wilkinson-ginger-ale-dry-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981373235,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方"
+ },
+ "winter-coat-5types-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981373364,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ"
+ },
+ "piano-practice-apps-3choice-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981373491,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方"
+ },
+ "akai-mpk-mini-mk4-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981382030,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "Akai MPK Mini MK4の25鍵でできること、上位機に任せること"
+ },
+ "yamaha-ag03mk2-deep-dive-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "Yamaha AG03MK2が配信と宅録をつなぐ理由、ループバックと操作性の全貌"
+ },
+ "oral-rehydration-vs-sports-drink-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "経口補水液とスポーツドリンク、電解質濃度と糖分の違いがもたらす役割"
+ },
+ "tweed-jacket-street-style-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学"
+ },
+ "whisper-model-size-japanese-benchmark-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで"
+ },
+ "windows-11-26h2-memory-daw-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-10-16T12:25:01+09:00",
+  "title": "Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定"
+ },
+ "record-stylus-lifespan-guide-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981475998,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた"
+ },
+ "sodastream-terra-carbonation-guide-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981488746,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方"
+ },
+ "hammond-b3-jazz-organ-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "ne13c53a6690f",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン"
+ },
+ "halloween-songs-monster-mash-thriller-2026": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n180285a0dc9e",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年"
+ },
+ "windows-asio-wasapi-latency-troubleshooting": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "ASIOとWASAPIの音切れ、疑う順番はドライバ方式・バッファ・DPCの3段階"
+ },
+ "fender-studio-pro-8-studio-one-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032089993400",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ"
+ },
+ "waon-ear-copy-1month-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981568774,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:53+09:00",
+  "title": "WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月"
+ },
+ "google-flow-music-plugins-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090135921",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで"
+ },
+ "shigaraki-guinomi-hiiro": {
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n693fb248a69a",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "信楽焼のぐい呑みは、なぜ土のざらつきを残したまま焼かれるのか"
+ },
+ "demucs-stem-separation-htdemucs-ft-2026": {
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "Demucsでボーカルを抜くと残響はどこへ行くか、htdemucsとhtdemucs_ftの4ステムと6ステム"
+ },
+ "desk-chair-studio-ergonomics-2026": {
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090430709",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T19:58:56+09:00",
+  "title": "DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲"
+ },
+ "parker-blues-ear-training-1week": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": 12981659693,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:37:36+09:00",
+  "title": "ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る"
+ },
+ "loafer-derby-autumn-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981672863",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T21:36:14+09:00",
+  "title": "ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方"
+ },
+ "teenage-engineering-op1-synth-essay-2026": {
+  "title": "Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n7e1efb971a38",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-15T23:35:50+09:00"
+ },
+ "hugo-timezone-buildfuture-notes": {
+  "title": "Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T12:24:58+09:00"
+ },
+ "kontakt-8-player-and-builder-2026": {
+  "title": "Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090822856",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T12:25:01+09:00"
+ },
+ "turtleneck-jacket-layering-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981753531",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T17:45:00+09:00",
+  "title": "タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる"
+ },
+ "monitor-placement-room-tuning-6jo-2026": {
+  "title": "モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14945776032090985503",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T20:45:57+09:00"
+ },
+ "canadian-whisky-rye-4choice-2026": {
+  "title": "カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "na2cafc0c076f",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-16T21:43:19+09:00"
+ },
+ "dither-16bit-noise-shaping-test": {
+  "title": "16bit化のディザを3通りで検証、ノイズシェーピングは総量で12dB増えて耳では9dB減る",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T00:17:13+09:00"
+ },
+ "dr-pepper-23-flavors-deep-dive-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981847669",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T17:42:00+09:00",
+  "title": "ドクターペッパーの23種類のフレーバー、薬局生まれの味がコーラと呼ばれない理由"
+ },
+ "glen-check-houndstooth-pattern-mixing-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12981859857",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-17T20:10:00+09:00",
+  "title": "グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける"
+ },
+ "can-chill-salt-ice-water-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12982653114",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-25T17:45:00+09:00",
+  "title": "缶ビールを急いで冷やすなら冷凍庫より塩入りの氷水、数分で済む理由と塩の量"
+ }
 }
