@@ -1983,5 +1983,17 @@
   "needs_manual_review": null,
   "updated_at": "2026-10-25T17:45:00+09:00",
   "title": "缶ビールを急いで冷やすなら冷凍庫より塩入りの氷水、数分で済む理由と塩の量"
+ },
+ "clear-ice-directional-freezing-2026": {
+  "platforms": [
+   "github",
+   "ameba"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": "12982684053",
+  "needs_manual_review": null,
+  "updated_at": "2026-10-25T23:10:00+09:00",
+  "title": "透明な氷は水ではなく凍る向きで決まる。保冷ボックスで上から凍らせる方向性凍結の手順"
  }
 }

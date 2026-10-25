@@ -2431,6 +2431,18 @@
    "note_key": "ncc219902fe94",
    "engine": "claude",
    "at": "2026-10-25T21:46:56+09:00"
+  },
+  {
+   "id": "2026w43-028",
+   "category": "drink-tools",
+   "theme": "家の製氷皿で透明な氷を作る、上から凍らせる方向性凍結の仕組み",
+   "slug": "clear-ice-directional-freezing-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/clear-ice-directional-freezing-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-25T23:09:57+09:00"
   }
  ]
 }
