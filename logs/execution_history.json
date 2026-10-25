@@ -1716,5 +1716,21 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T03:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "python-venv-uv-first-environment-2026",
+      "windows-shortcuts-launcher-guide-2026"
+    ],
+    "actions": [
+      "前回巡回以降の新規5記事を点検。descriptionが132字(超過)・101字(不足)の2記事を106〜114字に調整。figure配置・禁止表現・OG寸法は問題なし"
+    ],
+    "files_changed": 3,
+    "status": "完了(Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事のdescription長を110-120字に保つ"
+    ]
   }
 ]

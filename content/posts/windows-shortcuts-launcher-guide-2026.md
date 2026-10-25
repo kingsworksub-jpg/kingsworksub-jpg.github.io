@@ -1,6 +1,6 @@
 ---
 title: "Windowsの時短はどこから始めるか、標準のショートカットとランチャーを優先度順に並べる"
-description: "Windowsの時短に専用ソフトは最初いらない。Win検索、クリップボード履歴、スナップ、起動アプリの整理を優先度順に並べ、足りなくなったときのPowerToysとAutoHotkeyの出番も整理した。"
+description: "Windowsの時短に専用ソフトは最初いらない。Win検索、クリップボード履歴、スナップ、起動アプリの整理を優先度順に並べ、標準機能で足りなくなったときのPowerToysとAutoHotkeyの出番も整理した。"
 images: ["/images/og/windows-shortcuts-launcher-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

@@ -1,6 +1,6 @@
 ---
 title: "Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある"
-description: "Pythonを始めて最初に迷う仮想環境を、標準のvenvとAstralのuvで比べる。作り方と有効化、pipとの関係、Python本体の扱い、uv.lockとrequirements.txtの違い、速さの理由を順に整理し、最初の1本をどちらで作るかの目安を示した。"
+description: "Pythonで最初に迷う仮想環境を、標準のvenvとAstralのuvで比較する。作り方と有効化、pipとの関係、Python本体の扱い、uv.lockとrequirements.txtの違いを整理し、最初の1本の選び方を示す。"
 images: ["/images/og/python-venv-uv-first-environment-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
