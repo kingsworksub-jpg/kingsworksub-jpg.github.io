@@ -2407,6 +2407,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-25T17:40:31+09:00"
+  },
+  {
+   "id": "2026w43-016",
+   "category": "net",
+   "theme": "メッシュWi-Fiと中継機は何が違うのか、Wi-Fi 7ルーターで家の隅まで届かせる",
+   "slug": "mesh-wifi-vs-extender-wifi7-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/mesh-wifi-vs-extender-wifi7-guide-2026/",
+   "hatena_entry": "14945776032095178260",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-25T20:12:20+09:00"
   }
  ]
 }
