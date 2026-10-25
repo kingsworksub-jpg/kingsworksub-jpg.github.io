@@ -1875,5 +1875,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T15:53:51Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "前回ログ以降に新規記事コミットなし。全記事の禁止表現(隅から隅まで/味わい尽くす/実際に〜してみた)を再走査、該当は『おなじみの』の通常用法のみで修正不要"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
