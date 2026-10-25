@@ -2419,6 +2419,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-25T20:12:20+09:00"
+  },
+  {
+   "id": "2026w43-019",
+   "category": "jazz",
+   "theme": "『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか、ヴィンス・ガラルディのピアノトリオ",
+   "slug": "charlie-brown-christmas-guaraldi-trio-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/charlie-brown-christmas-guaraldi-trio-2026/",
+   "hatena_entry": null,
+   "note_key": "ncc219902fe94",
+   "engine": "claude",
+   "at": "2026-10-25T21:46:56+09:00"
   }
  ]
 }
