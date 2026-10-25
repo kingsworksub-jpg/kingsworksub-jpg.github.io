@@ -1862,5 +1862,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T14:53:25Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "新規公開1件(clear-ice-directional-freezing-2026)を点検: description/images/OG寸法あり、figure4枚はH2直後で左右交互、画像4点とも実在(100KB超)、関連記事節あり。修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
