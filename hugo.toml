@@ -103,7 +103,7 @@ pygmentsUseClasses = true
     url = '/categories/misc/'
     weight = 54
    [[menu.main]]
-    identifier = 'jazz'
+    identifier = 'cat-jazz'
     name = 'ジャズ・名盤・歴史'
     url = '/categories/jazz/'
     weight = 48.5
