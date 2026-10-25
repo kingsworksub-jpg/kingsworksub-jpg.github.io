@@ -1784,5 +1784,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T08:53:04Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "新規公開1件(can-chill-salt-ice-water-2026)を点検: description/images/OG寸法あり、figureは各H2直後で左右交互、タイトル構文も問題なし。修正対象なし(validate_postはPIL不具合で実行不可)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
