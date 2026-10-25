@@ -1823,5 +1823,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T11:53:39Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "新規公開1件(mesh-wifi-vs-extender-wifi7-guide-2026)を点検: description/images/OG寸法あり、figureは各H2直後で左右交互、内部リンク先も実在。修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
