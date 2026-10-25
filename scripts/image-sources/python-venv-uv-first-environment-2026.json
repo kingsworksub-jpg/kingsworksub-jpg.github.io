@@ -1,0 +1,23 @@
+{
+ "/images/py-venv-uv/rust-code.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/RustCodeOnScreen.jpg/1280px-RustCodeOnScreen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
+  "license": "CC0",
+  "author": "Slashme",
+  "title": "File:RustCodeOnScreen.jpg"
+ },
+ "/images/py-venv-uv/python-code.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Screen-python-code-matplotlib-physics-simulation.jpg/1280px-Screen-python-code-matplotlib-physics-simulation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Screen-python-code-matplotlib-physics-simulation.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "MikeRun",
+  "title": "File:Screen-python-code-matplotlib-physics-simulation.jpg"
+ },
+ "/images/py-venv-uv/programmer.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Programmer_at_work_%28Unsplash%29.jpg/1280px-Programmer_at_work_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Programmer_at_work_(Unsplash).jpg",
+  "license": "CC0",
+  "author": "Crew crew",
+  "title": "File:Programmer at work (Unsplash).jpg"
+ }
+}
