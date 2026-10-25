@@ -1927,5 +1927,20 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-25T19:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "charlie-brown-christmas-guaraldi-trio-2026"
+    ],
+    "actions": [
+      "新規4記事(can-chill-salt-ice-water/clear-ice/charlie-brown/mesh-wifi)を点検。figure配置・OG・description・末尾導線は規約準拠。charlie-brownのdescriptionが137字で長すぎたため約100字に短縮"
+    ],
+    "files_changed": 2,
+    "status": "完了(Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "全公開記事のdescription 100〜125字を維持"
+    ]
   }
 ]
