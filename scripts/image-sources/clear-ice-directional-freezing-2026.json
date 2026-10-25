@@ -1,0 +1,30 @@
+{
+ "/images/clear-ice/block.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Clear_ice.jpg/1280px-Clear_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Clear_ice.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Public class",
+  "title": "File:Clear ice.jpg"
+ },
+ "/images/clear-ice/tray.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Homemade_clear_ice_tray.jpg/1280px-Homemade_clear_ice_tray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Homemade_clear_ice_tray.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Public class",
+  "title": "File:Homemade clear ice tray.jpg"
+ },
+ "/images/clear-ice/ginkgo.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Clear_ice_with_ginkgo_leave.jpg/1280px-Clear_ice_with_ginkgo_leave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Clear_ice_with_ginkgo_leave.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Public class",
+  "title": "File:Clear ice with ginkgo leave.jpg"
+ },
+ "/images/clear-ice/cloudy.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Cloudy_ice_cubes.jpg/1280px-Cloudy_ice_cubes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Cloudy_ice_cubes.jpg",
+  "license": "CC BY 2.0",
+  "author": "liz west",
+  "title": "File:Cloudy ice cubes.jpg"
+ }
+}
