@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:30:45+09:00",
+ "updated": "2026-10-27T07:42:37+09:00",
  "items": [
   {
    "category": "gear",
@@ -10035,14 +10035,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-017",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-25",
    "retry": 0,
    "claimed_at": "2026-10-27T07:30:45+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "07:30",
-   "slot_label": "朝: テック/ソフト/制作環境/PC/開発/ネット"
+   "slot_label": "朝: テック/ソフト/制作環境/PC/開発/ネット",
+   "slug": "synology-ds225plus-photo-backup-nas-2026",
+   "published_at": "2026-10-27T07:42:37+09:00"
   },
   {
    "category": "net",

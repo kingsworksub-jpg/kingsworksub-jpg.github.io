@@ -2509,6 +2509,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-26T23:05:02+09:00"
+  },
+  {
+   "id": "2026w43-017",
+   "category": "net",
+   "theme": "NASを自宅サーバーにする、Synologyの2ベイで写真とバックアップを1か所に集める",
+   "slug": "synology-ds225plus-photo-backup-nas-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/synology-ds225plus-photo-backup-nas-2026/",
+   "hatena_entry": "14945776032095780281",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-27T07:42:37+09:00"
   }
  ]
 }
