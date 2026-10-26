@@ -364,6 +364,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか | https://kinbro.hatenablog.com/entry/2026/10/25/201209 | 14945776032095178260 |
 | 3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ | https://kinbro.hatenablog.com/entry/2026/10/26/120958 | 14945776032095445388 |
 | VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から | https://kinbro.hatenablog.com/entry/2026/10/26/201116 | 14945776032095604226 |
+| Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める | https://kinbro.hatenablog.com/entry/2026/10/27/074220 | 14945776032095780281 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
