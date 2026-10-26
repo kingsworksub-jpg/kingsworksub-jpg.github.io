@@ -1,0 +1,23 @@
+{
+ "/images/devcontainers/vscode.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/VS_code2013_v1.60.1.png/1280px-VS_code2013_v1.60.1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:VS_code2013_v1.60.1.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Pota12",
+  "title": "File:VS code2013 v1.60.1.png"
+ },
+ "/images/devcontainers/docker-start.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Starting_the_Docker_container..png/1280px-Starting_the_Docker_container..png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Starting_the_Docker_container..png",
+  "license": "CC BY-SA 4.0",
+  "author": "Alexandru.munteanu98",
+  "title": "File:Starting the Docker container..png"
+ },
+ "/images/devcontainers/containers.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Shipping_container_stacks_-_Port_of_Rotterdam_-_2014_-_2.jpg/1280px-Shipping_container_stacks_-_Port_of_Rotterdam_-_2014_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Shipping_container_stacks_-_Port_of_Rotterdam_-_2014_-_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "AgainErick",
+  "title": "File:Shipping container stacks - Port of Rotterdam - 2014 - 2.jpg"
+ }
+}
