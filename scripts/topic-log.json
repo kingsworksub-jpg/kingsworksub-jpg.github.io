@@ -2455,6 +2455,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-26T12:10:19+09:00"
+  },
+  {
+   "id": "2026w42-030",
+   "category": "drink",
+   "theme": "昔ながらのサイダー、びん入りを飲み比べる",
+   "status": "failed",
+   "reason": "run did not publish (finished); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-26T12:10:50+09:00"
   }
  ]
 }
