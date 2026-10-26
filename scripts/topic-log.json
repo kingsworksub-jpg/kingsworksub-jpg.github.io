@@ -2500,6 +2500,15 @@
    "note_key": "ne29786c689a5",
    "engine": "claude",
    "at": "2026-10-26T21:48:05+09:00"
+  },
+  {
+   "id": "2026w43-030",
+   "category": "drink-lab",
+   "theme": "ボジョレー・ヌーヴォーはなぜ軽いのか、マセラシオン・カルボニックという醸造法",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-26T23:05:02+09:00"
   }
  ]
 }
