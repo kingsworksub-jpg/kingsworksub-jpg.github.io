@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:42:37+09:00",
+ "updated": "2026-10-27T07:43:04+09:00",
  "queue": {
   "published": 123,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published synology-ds225plus-photo-backup-nas-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-10-27T07:30:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-10-27T04:00:52+09:00",
+  "at": "2026-10-27T07:43:04+09:00",
   "engine": "claude",
-  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
+  "detail": "The claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This run didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-27T07:43:04+09:00",
+   "engine": "claude",
+   "detail": "The claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This run didn't need it."
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-10-25T21:47:22+09:00",
    "engine": "claude",
    "detail": "`git pull` のとき、作業ツリーに元からあった未コミットの変更は一時退避して元に戻しています。今回の commit には自分で作ったファイルしか入れていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-25T20:12:37+09:00",
-   "engine": "claude",
-   "detail": "The research tool also showed a Google Docs connector that needs authorization in your claude.ai connector settings. This run didn't need it."
   }
  ]
 }
