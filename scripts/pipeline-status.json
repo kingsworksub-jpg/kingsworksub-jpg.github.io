@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T04:00:04+09:00",
+ "updated": "2026-10-27T04:00:52+09:00",
  "queue": {
   "published": 122,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published halloween-1978-carpenter-5-4-theme-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-10-27T04:00:04+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
-  "state": "failed",
-  "at": "2026-10-26T23:05:07+09:00",
+  "state": "finished",
+  "at": "2026-10-27T04:00:52+09:00",
   "engine": "claude",
-  "detail": "API Error: 529 Overloaded. This is a server-side issue, usually temporary — try again in a moment. If it persists, check https://status.claude.com."
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-10-27T04:00:52+09:00",
+   "engine": "claude",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-25T20:12:37+09:00",
    "engine": "claude",
    "detail": "The research tool also showed a Google Docs connector that needs authorization in your claude.ai connector settings. This run didn't need it."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-25T17:41:20+09:00",
-   "engine": "claude",
-   "detail": "- **Records:** I marked the topic published and added the Ameba entry to the CLAUDE.md table and `scripts/post-platforms.json`. My first write reformatted all of `post-platforms.json`; a follow-up commit put the formatting back, so the net change is just the new entry."
   }
  ]
 }
