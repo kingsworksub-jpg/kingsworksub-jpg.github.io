@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:48:05+09:00",
+ "updated": "2026-10-26T21:48:25+09:00",
  "queue": {
   "published": 122,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published halloween-1978-carpenter-5-4-theme-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-26T21:30:04+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-26T20:11:45+09:00",
+  "at": "2026-10-26T21:48:25+09:00",
   "engine": "claude",
-  "detail": "The claude.ai Google Docs connector needs authorization before it can be used. You can do that in its claude.ai connector settings; nothing in this run needed it."
+  "detail": "The claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-26T21:48:25+09:00",
+   "engine": "claude",
+   "detail": "The claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-25T12:14:58+09:00",
    "engine": "claude",
    "detail": "The claude.ai Google Docs connector needs authorizing in its claude.ai connector settings before it can be used. This run didn't need it."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-10-25T07:46:19+09:00",
-   "engine": "claude",
-   "detail": "The Google Docs connector also needs to be authorized in claude.ai connector settings before it can be used."
   }
  ]
 }
