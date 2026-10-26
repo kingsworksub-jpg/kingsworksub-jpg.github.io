@@ -2076,5 +2076,19 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-26T08:54:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "215記事の frontmatter(description 100-130字・images)を全件点検、問題なし",
+      "figure配置を点検。見出し直後でない11件は直後に本文が続き回り込みは成立しているため修正不要"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
