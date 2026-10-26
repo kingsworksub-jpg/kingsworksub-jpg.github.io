@@ -363,6 +363,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある | https://kinbro.hatenablog.com/entry/2026/10/25/121415 | 14945776032095011623 |
 | 中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか | https://kinbro.hatenablog.com/entry/2026/10/25/201209 | 14945776032095178260 |
 | 3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ | https://kinbro.hatenablog.com/entry/2026/10/26/120958 | 14945776032095445388 |
+| VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から | https://kinbro.hatenablog.com/entry/2026/10/26/201116 | 14945776032095604226 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
