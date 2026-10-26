@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:48:05+09:00",
+ "updated": "2026-10-26T23:00:38+09:00",
  "items": [
   {
    "category": "gear",
@@ -10819,9 +10819,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w43-030",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-25",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-10-26T23:00:38+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: ドリンク/酒分析/カクテルレシピ/ハック"
   }
  ]
 }
