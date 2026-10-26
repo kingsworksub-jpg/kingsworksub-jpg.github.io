@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:30:46+09:00",
+ "updated": "2026-10-26T17:43:18+09:00",
  "items": [
   {
    "category": "gear",
@@ -10616,14 +10616,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w43-027",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-25",
    "retry": 0,
    "claimed_at": "2026-10-26T17:30:46+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "17:00",
-   "slot_label": "夕: ドリンク/酒分析/カクテルレシピ/ツール"
+   "slot_label": "夕: ドリンク/酒分析/カクテルレシピ/ツール",
+   "slug": "hot-wine-spice-temperature-guide-2026",
+   "published_at": "2026-10-26T17:43:18+09:00"
   },
   {
    "category": "drink-tools",
