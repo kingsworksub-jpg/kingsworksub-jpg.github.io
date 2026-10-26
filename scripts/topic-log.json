@@ -2443,6 +2443,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-25T23:09:57+09:00"
+  },
+  {
+   "id": "2026w43-011",
+   "category": "pc",
+   "theme": "制作データのバックアップは3-2-1ルールで、外付けSSDとHDDとクラウドの分担",
+   "slug": "dtm-backup-3-2-1-ssd-hdd-cloud-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/",
+   "hatena_entry": "14945776032095445388",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-26T12:10:19+09:00"
   }
  ]
 }
