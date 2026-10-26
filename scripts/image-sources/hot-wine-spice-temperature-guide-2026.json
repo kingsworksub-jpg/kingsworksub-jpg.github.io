@@ -1,0 +1,37 @@
+{
+ "/images/hot-wine/spices.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Spiced_Wine_Ingredients.jpg/1280px-Spiced_Wine_Ingredients.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Spiced_Wine_Ingredients.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "VSerebrenikov",
+  "title": "File:Spiced Wine Ingredients.jpg"
+ },
+ "/images/hot-wine/pot.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Gl%C3%BChwein-Zubereitung.JPG/1280px-Gl%C3%BChwein-Zubereitung.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein-Zubereitung.JPG",
+  "license": "CC0",
+  "author": "Angela Huster",
+  "title": "File:Glühwein-Zubereitung.JPG"
+ },
+ "/images/hot-wine/glass.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mulled_wine_-_Olea_2025-12-26.jpg/1280px-Mulled_wine_-_Olea_2025-12-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Mulled_wine_-_Olea_2025-12-26.jpg",
+  "license": "CC0",
+  "author": "Andy Li",
+  "title": "File:Mulled wine - Olea 2025-12-26.jpg"
+ },
+ "/images/hot-wine/market.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gl%C3%BChwein%2C_Szent_Istv%C3%A1n_Platz_Weihnachtsmarkt%2C_2023_Lip%C3%B3tv%C3%A1ros.jpg/1280px-Gl%C3%BChwein%2C_Szent_Istv%C3%A1n_Platz_Weihnachtsmarkt%2C_2023_Lip%C3%B3tv%C3%A1ros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein,_Szent_Istv%C3%A1n_Platz_Weihnachtsmarkt,_2023_Lip%C3%B3tv%C3%A1ros.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Globetrotter19",
+  "title": "File:Glühwein, Szent István Platz Weihnachtsmarkt, 2023 Lipótváros.jpg"
+ },
+ "/images/hot-wine/feuerzangen.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Feuerzangenbowle_044-1.jpg/1280px-Feuerzangenbowle_044-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Feuerzangenbowle_044-1.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Kore Nordmann (Kore)",
+  "title": "File:Feuerzangenbowle 044-1.jpg"
+ }
+}
