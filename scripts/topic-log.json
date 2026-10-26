@@ -2476,6 +2476,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-26T17:43:18+09:00"
+  },
+  {
+   "id": "2026w43-014",
+   "category": "dev",
+   "theme": "VS CodeのDev Containersで開発環境を箱に入れる、Dockerを使う最小の手順",
+   "slug": "vscode-dev-containers-docker-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/vscode-dev-containers-docker-guide-2026/",
+   "hatena_entry": "14945776032095604226",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-26T20:11:31+09:00"
   }
  ]
 }
