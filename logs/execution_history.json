@@ -2007,5 +2007,22 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-26T03:53:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "laptop-only-dtm-portable-setup-2026",
+      "obsidian-knowledge-base-plain-text-2026"
+    ],
+    "actions": [
+      "新規公開のdtm-backup-3-2-1-ssd-hdd-cloud-2026の構造(figure左右交互・見出し直後配置・description/images)を点検し問題なし",
+      "同記事への内部リンクが無かったため、関連する既存2記事の関連記事欄に追加"
+    ],
+    "files_changed": 3,
+    "status": "完了(Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "seo-audit孤立記事数の減少"
+    ]
   }
 ]
