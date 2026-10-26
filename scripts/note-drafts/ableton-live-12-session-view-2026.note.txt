@@ -50,6 +50,8 @@ Logic Pro や Cubase、Pro Tools といった従来型のDAWでは、素材を�
 
 （出典: Photo: Gilda from London, UK / <a href="https://commons.wikimedia.org/wiki/File:Novation_Launchpad_-_Ableton_Controller.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>）
 
+Amazonで見る: https://www.amazon.co.jp/dp/B07WWZCMP5?tag=note-img-sub-22
+
 クリップを選んで画面下のクリップビューを開くと、ローンチという欄がある。ここでそのクリップの鳴り方を個別に決められる。モードは4つ用意されていて、トリガーは押した瞬間に再生が始まり、離しても止まらない。ゲートは押している間だけ鳴って、離すと止まる。トグルは押すたびに再生と停止が交互に入れ替わる。リピートは押している間、後述する量子化の間隔でクリップが繰り返し頭から鳴り直す。
 
 同じ欄にレガートという設定もある。これを有効にしたクリップは、直前にそのトラックで鳴っていたクリップの再生位置を引き継ぐ。頭から鳴り直さないので、メロディの異なるバリエーションを次々に差し替えても、小節内の位置がずれない。素材の長さや内容が大きく違う場合に音が途切れることがあり、その対策としてクリップをメモリ上に展開する設定が別に用意されている。ベロシティ欄では、MIDIノートの強さがクリップ全体の音量にどれだけ影響するかを0%から100%の間で調整できる。
@@ -73,6 +75,8 @@ Live 12 ではこれがひとつのクリップにつき2つまで設定でき�
 *クリップの起動とシーン送りを手元に割り当てた操作卓*
 
 （出典: Photo: Eric Wahlforss from Berlin, Germany / <a href="https://commons.wikimedia.org/wiki/File:AKAI_APC40_Ableton_Performance_Controller.jpg" target="_blank" rel="noopener">CC BY 2.0</a>）
+
+Amazonで見る: https://www.amazon.co.jp/dp/B00J3YYSUW?tag=note-img-sub-22
 
 テンポの違う素材を並べても成立するのは、Liveがオーディオクリップを曲のテンポに合わせて伸縮させているからだ。この処理がワープで、素材の性質に応じて6つのモードが選べる。ビーツはドラムなど打楽器向けで、音の立ち上がりを保ったまま間隔だけを詰めたり伸ばしたりする。トーンズは歌や単音楽器のように音程がはっきりした素材向け、テクスチャーはパッドや環境音のように音程の輪郭が薄い素材向けで、粒の大きさと揺らぎを手で調整できる。
 

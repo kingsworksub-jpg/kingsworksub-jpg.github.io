@@ -24,6 +24,8 @@
 
 （出典: Photo: DiscoA340 / <a href="https://commons.wikimedia.org/wiki/File:Noise_Barrier_on_I-440.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>）
 
+Amazonで見る: https://www.amazon.co.jp/dp/B0H392H9MP?tag=note-img-sub-22
+
 遮音は、空間と空間のあいだで音のエネルギーを遮る話だ。壁や床や扉といった境界を音がどれだけ通り抜けにくいかを扱う。評価にはSTCやRw、日本の建築ではD値といった等級が使われる。高速道路の脇に立っている壁を思い出すとわかりやすい。あれはコンクリートやレンガの塊で、重く、厚く、そして隙間がない。
 
 吸音は、部屋の内側で音のエネルギーを熱に変える話だ。壁にぶつかった音が跳ね返る量を減らす。評価には吸音率やNRCという指標が使われる。扱うのは「部屋の中にすでにある音」であって、「壁の向こうへ行こうとしている音」ではない。
@@ -53,6 +55,8 @@
 *無響室のくさび。低い音まで吸わせようとすると、吸音体はこの大きさになる*
 
 （出典: Photo: Togabi / <a href="https://commons.wikimedia.org/wiki/File:Anechoic_chamber-4.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>）
+
+Amazonで見る: https://www.amazon.co.jp/dp/B09GFFQ6GF?tag=note-img-sub-22
 
 吸音にも、同じくらい身も蓋もない制約がある。多孔質の吸音材が効くのは、その厚みが対象とする音の波長の4分の1程度に達してからだ。
 
@@ -90,6 +94,8 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E5%90%B8%E9%9F%B3%E6%9D%90+%E3%82
 
 （出典: Photo: Kozuch / <a href="https://commons.wikimedia.org/wiki/File:EURO_68_wooden_window_profile_with_insulated_glazing_01.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>）
 
+Amazonで見る: https://www.amazon.co.jp/dp/B0091FUPUA?tag=note-img-sub-22
+
 工事ができない前提で、何がどこまでできるのかを整理しておく。
 
 部屋の中でいちばん弱い場所はたいてい窓だ。ガラスは壁に比べて圧倒的に軽く、サッシの気密も高くない。ここに内窓を追加できれば効果は大きく、二重サッシで20デシベルから30デシベル程度の改善が見込める。ただし原状回復が必要な賃貸では、取り付け方を含めて管理会社の了解が要る。既存の窓枠に突っ張って固定するタイプなら交渉の余地はある。
@@ -109,6 +115,8 @@ Amazonで見る: https://www.amazon.co.jp/s?k=%E5%90%B8%E9%9F%B3%E6%9D%90+%E3%82
 *組み立て式ブースの内側。小窓と換気口が標準で付く*
 
 （出典: Photo: TaurusEmerald / <a href="https://commons.wikimedia.org/wiki/File:VocalBooth_Isolation_Sound_Control_Booth.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>）
+
+Amazonで見る: https://www.amazon.co.jp/dp/B0HBKBGP74?tag=note-img-sub-22
 
 部屋を改造できないなら、部屋の中に箱を置く。これが組み立て式ブースの発想だ。工事がいらないので賃貸でも導入でき、引っ越すときは分解して持っていける。
 

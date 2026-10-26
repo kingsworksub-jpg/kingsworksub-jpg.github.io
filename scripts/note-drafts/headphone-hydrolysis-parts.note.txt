@@ -52,6 +52,8 @@ Amazonで見る: https://www.amazon.co.jp/dp/B00HVLUR86?tag=note-img-sub-22
 
 （出典: Photo: Bait30 / <a href="https://commons.wikimedia.org/wiki/File:Beats_headphones_diy_repair.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>）
 
+Amazonで見る: https://www.amazon.co.jp/dp/B0GVPGKSCS?tag=note-img-sub-22
+
 パッド交換は、身構えるほどの作業ではない。多くのヘッドホンは、パッドの裏側にある柔らかい縁をハウジングの溝に押し込んで留めているだけで、接着も螺子も使っていない。外し方は、パッドの縁を指でつまんで外側へ引き上げ、溝から一箇所外れたら、そこから二、三センチずつ隣へ移りながらぐるりと一周する。力任せに一気に引っぱると縁が裂けるが、どうせ捨てるパッドなので裂けても困らない。所要時間は片側一分といったところだ。
 
 留め方には何種類かある。いま書いた溝にはめ込む方式がいちばん多く、次に樹脂のリングを爪で引っかける方式、そして少数ながら接着剤で貼り付けてある方式がある。見分け方は簡単で、縁を少し持ち上げたときに全体がすんなり動けば溝式、硬い輪郭を感じるならリング式、びくともせず糊の跡が見えるなら接着式だ。接着式だけは手強く、樹脂のヘラを隙間に差し込んで少しずつ剥がし、残った糊をきれいに落としてから新しいパッドを貼ることになる。
@@ -97,6 +99,8 @@ Amazonで見る: https://www.amazon.co.jp/dp/B00MFM9DKY?tag=note-img-sub-22
 *吊るして置くだけでも、密閉したケースにしまうより条件はよくなる*
 
 （出典: Photo: Tim Wilson / <a href="https://commons.wikimedia.org/wiki/File:The_Podcave_home_studio_update_(179160280).jpg" target="_blank" rel="noopener">CC BY 2.0</a>）
+
+Amazonで見る: https://www.amazon.co.jp/dp/B00HVLUR86?tag=note-img-sub-22
 
 純正部品にたどり着く最短の道は、メーカーのサイトにある補修部品の検索ページで型番を入れることだ。オーディオテクニカの場合、ATH-M50xで引けばイヤーパッドのHP-M50x（税込2,200円）、1.2メートルと3.0メートルの着脱ストレートコード（各1,650円）、カールコード（2,200円）、6.3ミリの変換プラグ（550円）、ポーチ（1,100円）といった具合に、部品が価格付きで一覧になる。ATH-M40x用のHP-M40xは1,650円、ATH-R70x用のHP-R70xは3,300円と、機種ごとに別の品番が割り当てられている。
 
