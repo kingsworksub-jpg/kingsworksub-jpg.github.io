@@ -1,0 +1,30 @@
+{
+ "/images/synology-nas/ds223j.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Synology_Disk_Station_DS223J_-_NAS-Server.jpg/1280px-Synology_Disk_Station_DS223J_-_NAS-Server.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Synology_Disk_Station_DS223J_-_NAS-Server.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "DYVER",
+  "title": "File:Synology Disk Station DS223J - NAS-Server.jpg"
+ },
+ "/images/synology-nas/ds213plus.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Synology_DS213%2B.jpg/1280px-Synology_DS213%2B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Synology_DS213%2B.jpg",
+  "license": "CC BY 4.0",
+  "author": "Piotr Doroszewski",
+  "title": "File:Synology DS213+.jpg"
+ },
+ "/images/synology-nas/drive-tray.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Synology_NAS_HDD_Drive_Tray.jpg/1280px-Synology_NAS_HDD_Drive_Tray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Synology_NAS_HDD_Drive_Tray.jpg",
+  "license": "CC BY 2.0",
+  "author": "Tony Webster",
+  "title": "File:Synology NAS HDD Drive Tray.jpg"
+ },
+ "/images/synology-nas/usb-hdd.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Toshiba_1_TB_External_USB_Hard_Drive.jpg/1280px-Toshiba_1_TB_External_USB_Hard_Drive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Toshiba_1_TB_External_USB_Hard_Drive.jpg",
+  "license": "Public domain",
+  "author": "Editor182 (talk)",
+  "title": "File:Toshiba 1 TB External USB Hard Drive.jpg"
+ }
+}
