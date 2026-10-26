@@ -2246,5 +2246,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-26T21:53:52Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "前回ログ以降 content/assets/layouts に変更なし。禁止表現(隅から隅まで/全機能解剖/あるレビューでは等)と description/images 欠落を全記事grepで点検、該当なし。修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
