@@ -2533,6 +2533,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-27T12:11:32+09:00"
+  },
+  {
+   "id": "2026w43-030",
+   "category": "drink-lab",
+   "theme": "ボジョレー・ヌーヴォーはなぜ軽いのか、マセラシオン・カルボニックという醸造法",
+   "slug": "beaujolais-nouveau-carbonic-maceration-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/beaujolais-nouveau-carbonic-maceration-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-27T17:47:47+09:00"
   }
  ]
 }
