@@ -1,17 +1,23 @@
 {
- "updated": "2026-10-27T23:00:15+09:00",
+ "updated": "2026-10-28T04:00:03+09:00",
  "queue": {
   "published": 126,
   "rejected": 1,
-  "approved": 51
+  "approved": 50,
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 0,
  "daily_limit": 9,
  "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published gh-cli-pull-request-terminal-guide-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "topic-topup",
+  "label": "ネタ補充",
+  "since": "2026-10-28T04:00:03+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
