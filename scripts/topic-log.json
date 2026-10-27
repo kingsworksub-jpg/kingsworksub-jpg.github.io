@@ -2521,6 +2521,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-27T07:42:37+09:00"
+  },
+  {
+   "id": "2026w43-012",
+   "category": "pc",
+   "theme": "ミニPCでDTMはできるか、Ryzen 7 7730U級で鳴らせるトラック数と音切れの境目",
+   "slug": "minipc-dtm-ryzen-7730u-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/minipc-dtm-ryzen-7730u-guide-2026/",
+   "hatena_entry": "14945776032095871739",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-27T12:11:32+09:00"
   }
  ]
 }
