@@ -366,6 +366,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から | https://kinbro.hatenablog.com/entry/2026/10/26/201116 | 14945776032095604226 |
 | Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める | https://kinbro.hatenablog.com/entry/2026/10/27/074220 | 14945776032095780281 |
 | ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く | https://kinbro.hatenablog.com/entry/2026/10/27/121118 | 14945776032095871739 |
+| GitHub CLIでプルリクエストを出す朝、CIを待つ昼、マージする夕方。ghだけで回す一日 | https://kinbro.hatenablog.com/entry/2026/10/27/200930 | 14945776032096036703 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
