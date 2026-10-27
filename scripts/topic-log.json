@@ -2545,6 +2545,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-10-27T17:47:47+09:00"
+  },
+  {
+   "id": "2026w43-015",
+   "category": "dev",
+   "theme": "GitHub CLIのghでプルリクエストをターミナルから作る、ブラウザを開かない一日の流れ",
+   "slug": "gh-cli-pull-request-terminal-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/gh-cli-pull-request-terminal-guide-2026/",
+   "hatena_entry": "14945776032096036703",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-10-27T20:09:43+09:00"
   }
  ]
 }
