@@ -1,0 +1,30 @@
+{
+ "/images/minipc-dtm/three-mini-pc.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/3_mini_PC.jpg/1280px-3_mini_PC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:3_mini_PC.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "François-Dominique",
+  "title": "File:3 mini PC.jpg"
+ },
+ "/images/minipc-dtm/nuc-back.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Intel_NUC_2820FYKH_-_Back.jpg/1280px-Intel_NUC_2820FYKH_-_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_NUC_2820FYKH_-_Back.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Namenloser Hobbyhistoriker",
+  "title": "File:Intel NUC 2820FYKH - Back.jpg"
+ },
+ "/images/minipc-dtm/cubase-render.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rendering_audio_on_Cubase%2C_%40Tom_America.jpg/1280px-Rendering_audio_on_Cubase%2C_%40Tom_America.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Rendering_audio_on_Cubase,_@Tom_America.jpg",
+  "license": "CC BY 2.0",
+  "author": "Marco Raaphorst from The Hague, The Netherlands",
+  "title": "File:Rendering audio on Cubase, @Tom America.jpg"
+ },
+ "/images/minipc-dtm/heatsink-fan.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg/1280px-Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Raimond Spekking",
+  "title": "File:Asus P5PL2 - CPU heatsink with cooling fan-5293.jpg"
+ }
+}
