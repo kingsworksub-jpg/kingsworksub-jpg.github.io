@@ -1,0 +1,23 @@
+{
+ "/images/gh-cli/codespaces.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/GitHub_Codespaces_screenshot.webp/1280px-GitHub_Codespaces_screenshot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:GitHub_Codespaces_screenshot.webp",
+  "license": "CC0",
+  "author": "Wikideas1",
+  "title": "File:GitHub Codespaces screenshot.webp"
+ },
+ "/images/gh-cli/terminal.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/GitHub_Codespaces_side_by_side_terminal.webp/1280px-GitHub_Codespaces_side_by_side_terminal.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:GitHub_Codespaces_side_by_side_terminal.webp",
+  "license": "CC0",
+  "author": "Wikideas1",
+  "title": "File:GitHub Codespaces side by side terminal.webp"
+ },
+ "/images/gh-cli/workflow.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GitHub-workflow.png/1280px-GitHub-workflow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:GitHub-workflow.png",
+  "license": "CC BY-SA 4.0",
+  "author": "G.prof",
+  "title": "File:GitHub-workflow.png"
+ }
+}
