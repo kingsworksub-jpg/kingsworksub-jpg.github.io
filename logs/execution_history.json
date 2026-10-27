@@ -2337,5 +2337,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-27T08:54:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "新規記事 beaujolais-nouveau-carbonic-maceration-2026 を点検: description/images/OG寸法あり、figureは見出し直後で左右交互、禁止表現なし。修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回。validate_post/seo-auditはPIL環境不備で実行不可)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
