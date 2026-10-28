@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:30:21+09:00",
+ "updated": "2026-10-28T17:30:25+09:00",
  "queue": {
   "published": 126,
   "rejected": 1,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published gh-cli-pull-request-terminal-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-28T17:30:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "failed",
-  "at": "2026-10-28T12:00:17+09:00",
+  "at": "2026-10-28T17:30:25+09:00",
   "engine": "claude",
   "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-10-28T17:30:25+09:00",
+   "engine": "claude",
+   "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-10-27T07:43:04+09:00",
    "engine": "claude",
    "detail": "The claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This run didn't need it."
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-10-27T04:00:52+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
   }
  ]
 }
