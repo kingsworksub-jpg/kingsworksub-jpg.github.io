@@ -2566,6 +2566,15 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-28T07:30:18+09:00"
+  },
+  {
+   "id": "2026w43-023",
+   "category": "book",
+   "theme": "積読は悪くない、読まない本が本棚で果たしている役割",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-28T17:30:21+09:00"
   }
  ]
 }
