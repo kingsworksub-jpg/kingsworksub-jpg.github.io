@@ -2575,6 +2575,24 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-28T17:30:21+09:00"
+  },
+  {
+   "id": "2026w42-039",
+   "category": "essay",
+   "theme": "ジャズ喫茶の音、スピーカー越しの夜",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-28T20:00:25+09:00"
+  },
+  {
+   "id": "2026w43-025",
+   "category": "interior",
+   "theme": "間接照明で部屋を広く見せる、天井を照らすか壁を照らすか",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-28T20:00:25+09:00"
   }
  ]
 }
