@@ -2593,6 +2593,15 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "claude",
    "at": "2026-10-28T20:00:25+09:00"
+  },
+  {
+   "id": "2026w43-018",
+   "category": "net",
+   "theme": "IPv6(IPoE)にすると夜の回線は速くなるのか、PPPoEの混雑とv6プラスの仕組み",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "claude",
+   "at": "2026-10-28T21:30:13+09:00"
   }
  ]
 }
