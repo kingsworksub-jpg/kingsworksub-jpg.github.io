@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:00:25+09:00",
+ "updated": "2026-10-28T21:30:13+09:00",
  "items": [
   {
    "category": "gear",
@@ -10120,14 +10120,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-018",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-25",
-   "retry": 1,
-   "claimed_at": "2026-10-28T00:54:51+09:00",
+   "retry": 2,
+   "claimed_at": "2026-10-28T20:08:28+09:00",
    "channel": "hatena",
    "content_dir": "tech",
-   "slot_time": "07:30",
-   "slot_label": "朝: テック/ソフト/制作環境/PC/開発/ネット",
+   "slot_time": "20:00",
+   "slot_label": "夜: テック/ソフト/制作環境/PC/開発/ネット",
    "last_error": "run did not publish (failed); cleaned up"
   },
   {
