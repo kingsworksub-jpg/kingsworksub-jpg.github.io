@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:30:02+09:00",
+ "updated": "2026-10-29T21:30:34+09:00",
  "queue": {
   "published": 126,
   "rejected": 3,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published gh-cli-pull-request-terminal-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-29T21:30:02+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "finished",
-  "at": "2026-10-29T20:00:52+09:00",
+  "at": "2026-10-29T21:30:34+09:00",
   "engine": "claude",
-  "detail": "claude.ai Google Docs コネクタは未認証です。使う場合は claude.ai のコネクタ設定から認証してください（今回の作業では使っていません）。"
+  "detail": "- **pull も失敗しています:** 作業ツリーに未コミットの変更が多数あり、`git pull --rebase origin main` が実行できませんでした。この状態が失敗の原因の一つになっている可能性があります。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-10-29T21:30:34+09:00",
+   "engine": "claude",
+   "detail": "- **pull も失敗しています:** 作業ツリーに未コミットの変更が多数あり、`git pull --rebase origin main` が実行できませんでした。この状態が失敗の原因の一つになっている可能性があります。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "投稿",
    "state": "failed",
    "at": "2026-10-28T17:30:25+09:00",
-   "engine": "claude",
-   "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-28T12:00:17+09:00",
    "engine": "claude",
    "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
   }
