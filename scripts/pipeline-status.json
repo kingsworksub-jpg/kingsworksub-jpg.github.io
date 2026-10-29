@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:00:03+09:00",
+ "updated": "2026-10-29T12:00:24+09:00",
  "queue": {
   "published": 126,
   "rejected": 3,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published gh-cli-pull-request-terminal-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-10-29T12:00:03+09:00",
-  "engine": "claude"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "failed",
-  "at": "2026-10-29T07:30:24+09:00",
+  "at": "2026-10-29T12:00:24+09:00",
   "engine": "claude",
   "detail": "You've hit your weekly limit · resets 8pm (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-10-29T12:00:24+09:00",
+   "engine": "claude",
+   "detail": "You've hit your weekly limit · resets 8pm (Asia/Tokyo)"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "ネタ補充",
    "state": "failed",
    "at": "2026-10-28T04:00:20+09:00",
-   "engine": "claude",
-   "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-10-27T23:00:15+09:00",
    "engine": "claude",
    "detail": "You've hit your weekly limit · resets Oct 29, 8pm (Asia/Tokyo)"
   }
