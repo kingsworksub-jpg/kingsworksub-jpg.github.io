@@ -2376,5 +2376,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-29T11:58:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "前回ログ以降の新規3記事(gh-cli-pull-request-terminal-guide-2026, indirect-lighting-room-2026, ipv6-ipoe-speed-2026)を点検: description/images/OG寸法あり、禁止表現なし、figure配置問題なし。修正対象なし"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
