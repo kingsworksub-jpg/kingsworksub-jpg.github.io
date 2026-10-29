@@ -2506,5 +2506,18 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-29T22:52:50Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "前回ログ以降 content/assets/layouts に変更なし。修正対象なし(seo-audit.py は環境のPIL不具合で実行不可)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正対象なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "新規公開記事が増えた段階で再点検"
+    ]
   }
 ]
