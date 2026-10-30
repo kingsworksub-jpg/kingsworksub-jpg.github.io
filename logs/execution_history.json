@@ -2632,5 +2632,23 @@
       "デプロイ後に両記事のfigure回り込み表示を確認",
       "music-theory-3month-plan等のfigure直後短文の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T08:53:10Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "minipc-dtm-ryzen-7730u-guide-2026",
+      "halloween-1978-carpenter-5-4-theme-2026"
+    ],
+    "actions": [
+      "descriptionの長さを110〜120字目安に調整(133字→短縮、99字→補足)",
+      "全223記事を機械点検: 仮ASIN・figure直後の見出し/---・最初の##前のfigureは残存なし"
+    ],
+    "files_changed": 3,
+    "status": "完了(Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "description長の逸脱記事0件を維持",
+      "外部サイト転載版の点検"
+    ]
   }
 ]
