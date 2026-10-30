@@ -78,3 +78,4 @@ scheduled_time: "18:30"
 - [ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学](/posts/tweed-jacket-street-style-2026/)
 - [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
 - [トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ](/posts/winter-coat-5types-2026/)
+- [ネクタイの結び方4種は、結び目の幅をシャツの襟の開きに合わせて選ぶ](/posts/necktie-knots-collar-guide-2026/)

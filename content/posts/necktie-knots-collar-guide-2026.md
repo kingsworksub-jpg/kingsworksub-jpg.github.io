@@ -119,5 +119,7 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
 - [グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける](/posts/glen-check-houndstooth-pattern-mixing-2026/)
+- [ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方](/posts/loafer-derby-autumn-2026/)
+- [5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー](/posts/classic-suspender-styling-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://blog.ameba.jp/)

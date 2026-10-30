@@ -141,4 +141,5 @@ scheduled_time: "17:30"
 - [グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける](/posts/glen-check-houndstooth-pattern-mixing-2026/)
 - [トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ](/posts/winter-coat-5types-2026/)
 - [コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか](/posts/corduroy-wale-width-styling-2026/)
+- [ネクタイの結び方4種は、結び目の幅をシャツの襟の開きに合わせて選ぶ](/posts/necktie-knots-collar-guide-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
