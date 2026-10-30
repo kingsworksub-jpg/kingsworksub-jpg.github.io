@@ -2936,5 +2936,28 @@
       "description 110字未満の記事 24→16本",
       "残りの記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T22:53:35Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "windows-11-26h2-memory-daw-2026",
+      "chrome-gemini-nano-4gb-2026",
+      "condenser-mic-5choice-2026",
+      "four-roses-yellow-deep-dive-2026",
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "nanbu-tetsubin-kanzake-yusen",
+      "nea-jazz-masters-2026",
+      "otsuka-match-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionが102〜103字の記事8本を110〜120字前後へ拡充"
+    ],
+    "files_changed": 9,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 16→8本",
+      "残りの記事の拡充"
+    ]
   }
 ]

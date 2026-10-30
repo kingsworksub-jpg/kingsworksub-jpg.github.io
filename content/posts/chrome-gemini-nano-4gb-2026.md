@@ -1,6 +1,6 @@
 ---
 title: "Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法"
-description: "Google Chromeが背後で約4GBのGemini Nanoモデルを自動ダウンロードしている件について解説。オンデバイスAIの役割やストレージへの影響、不要な場合の無効化手順を分かりやすく整理します。"
+description: "Google Chromeが背後で約4GBのGemini Nanoモデルを自動ダウンロードしている件について解説。オンデバイスAIの役割やストレージへの影響、不要な場合の無効化手順を分かりやすく整理します。容量不足に悩むPCの対処にも。"
 images: ["/images/og/chrome-gemini-nano-4gb-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
