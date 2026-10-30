@@ -2692,5 +2692,30 @@
       "孤立記事数の減少",
       "ファッション系記事の内部リンク網の充実"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T11:55:37Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "mesh-wifi-vs-extender-wifi7-guide-2026",
+      "dtm-backup-3-2-1-ssd-hdd-cloud-2026",
+      "github-actions-schedule-push-guide-2026",
+      "python-venv-uv-first-environment-2026",
+      "halloween-songs-monster-mash-thriller-2026",
+      "studio-lighting-eye-fatigue-guide-2026",
+      "windows-11-26h2-memory-daw-2026",
+      "vscode-dev-containers-docker-guide-2026",
+      "jazz-listening-guide-2026"
+    ],
+    "actions": [
+      "被リンク0だった8記事(ipv6-ipoe-speed/synology-ds225plus/vscode-dev-containers/gh-cli/minipc-dtm/indirect-lighting/halloween-1978/charlie-brown-christmas)へ、関連テーマの記事の関連記事欄から内部リンクを追加",
+      "description長・figure配置・禁止タイトル型・禁止表現を走査し、規約違反なしを確認(description 100〜104字の記事が約45本、110字未満だが次回以降の候補)"
+    ],
+    "files_changed": 10,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-auditは未実行)",
+    "next_kpis": [
+      "被リンク0記事数 8→0",
+      "description 110字未満の記事の拡充"
+    ]
   }
 ]

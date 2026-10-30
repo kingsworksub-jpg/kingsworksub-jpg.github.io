@@ -151,6 +151,7 @@ push 起点にしたいなら、`on` の中身を前半の例のように `push`
 定型作業を機械に任せる一番の利点は、手順が文章として残ることだと感じている。ワークフローのファイルを読めば、何をいつどの順番でやっているかが誰にでも分かる。半年後の自分にとっても、それは頼りになる段取り表になる。
 
 ## 関連記事
+- [VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から](/posts/vscode-dev-containers-docker-guide-2026/)(手元の環境をCIと揃えたいときに)
 - [git worktreeで作業フォルダをブランチの数だけ持つ備忘録](/posts/git-worktree-multiple-branches-notes/)(ブランチごとの作業フォルダでワークフローを試すとき)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

@@ -127,6 +127,7 @@ uv の紹介で必ず出てくるのが速さで、Astral は pip より10倍か
 まずは手元のどこかに練習用のフォルダーを一つ作り、片方の道具で箱を作って、部品を一つだけ入れてみてほしい。`.venv` の中をのぞいて、入れた部品がどこに置かれたかを確かめると、仮想環境という言葉が急に具体的に見えてくるはずだ。
 
 ## 関連記事
+- [VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から](/posts/vscode-dev-containers-docker-guide-2026/)(仮想環境をさらにコンテナごと分けたいときに)
 - [画像の知覚ハッシュをPythonで比べた記録、縮小では動かず左右反転で30ビット変わる](/posts/python-perceptual-hash-image-compare/)(Python で小さな検証スクリプトを書いた例)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
