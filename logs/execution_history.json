@@ -2959,5 +2959,28 @@
       "description 110字未満の記事 16→8本",
       "残りの記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T23:53:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canadian-whisky-rye-4choice-2026",
+      "crystal-spark-ramune-deep-dive-2026",
+      "dodecamin-zero-sakebitai-deep-dive-2026",
+      "luna-free-daw-limits-2026",
+      "studio-lighting-eye-fatigue-guide-2026",
+      "suntory-kakubin-deep-dive-2026",
+      "suntory-trys-deep-dive-2026",
+      "taiwan-india-whisky-climate-2026"
+    ],
+    "actions": [
+      "descriptionが110字未満だった残り8記事を110字前後へ拡充(luna-free-daw-limits-2026は既に111字で変更なし)"
+    ],
+    "files_changed": 8,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 8→0本",
+      "次回はseo-audit・内部リンク・figure配置の点検へ移行"
+    ]
   }
 ]
