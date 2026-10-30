@@ -1,6 +1,6 @@
 ---
 title: "アナログターンテーブル5台比較、針を落とすという儀式のために"
-description: "Technics SL-1200MK7、Audio-Technica AT-LP120XUSB、Rega Planar 3など5機種のターンテーブルを、セットアップ・操作性・音質などの軸で比べて選び方を示す。"
+description: "Technics SL-1200MK7、Audio-Technica AT-LP120XUSB、Rega Planar 3など5機種のターンテーブルを、セットアップ・操作性・音質などの軸で比べて自分に合う一台の選び方を示す。"
 images: ["/images/og/turntable-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

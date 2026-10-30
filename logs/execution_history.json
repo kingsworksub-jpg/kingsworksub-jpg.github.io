@@ -2890,5 +2890,28 @@
       "description 110字未満の記事 40→32本",
       "残りの記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T20:53:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "san-pellegrino-deep-dive-2026",
+      "minipc-dtm-ryzen-7730u-guide-2026",
+      "keith-ti9304-titanium-sake-cup-deep-dive-2026",
+      "jazz-listening-guide-2026",
+      "irish-whiskey-pot-still-guide-2026",
+      "hugo-timezone-buildfuture-notes",
+      "turntable-5choice-2026",
+      "toyo-sasaki-carafe-variation-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionが104〜105字の記事8本を110〜119字へ拡充"
+    ],
+    "files_changed": 9,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 32→24本",
+      "残りの104字以下の記事の拡充"
+    ]
   }
 ]

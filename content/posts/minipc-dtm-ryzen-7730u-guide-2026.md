@@ -1,6 +1,6 @@
 ---
 title: "ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く"
-description: "ミニPCでDAWを動かすと、音切れはどこから出るのか。Ryzen 7 7730UのGEEKOM A5 2027を例に、1コアの速さ、バッファと遅延、トラック数の測り方、冷却とファン音、端子の割り振りを整理する。"
+description: "ミニPCでDAWを動かすと、音切れはどこから出るのか。Ryzen 7 7730UのGEEKOM A5 2027を例に、1コアの速さ、バッファと遅延、トラック数の測り方、冷却とファン音、端子の割り振りまで順に整理して紹介する。"
 images: ["/images/og/minipc-dtm-ryzen-7730u-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
