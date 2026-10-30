@@ -5,7 +5,7 @@ draft: false
 categories: [misc]
 tags: ["DTM", "DTMスクール", "オンラインレッスン", "独学", "楽曲添削", "作曲"]
 scheduled_time: "17:30"
-description: "DTMは動画だけでどこまで独学できて、どこからスクールにお金を払う意味が出てくるのか。国内オンラインスクールの料金の型と添削の有無、海外の学び方を並べて、独学と講座の境目を具体的な目安として整理します。"
+description: "DTMは動画だけでどこまで独学できて、どこからスクールにお金を払う意味が出てくるのか。国内オンラインスクールの料金の型と添削の有無、海外の学び方を並べて、独学と講座の境目を具体的な目安として整理します。費用と時間の見積もりも添えます。"
 images: ["/images/og/dtm-school-or-self-study-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
