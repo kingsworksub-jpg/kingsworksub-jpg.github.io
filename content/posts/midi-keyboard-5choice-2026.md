@@ -1,6 +1,6 @@
 ---
 title: "MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ"
-description: "Komplete Kontrol S61 MK3、Akai MPK Mini MK4、Arturia KeyLab Essentialなど5台のMIDIキーボードを、演奏性やDAW連携などの軸で比較し選び方を示す。"
+description: "Komplete Kontrol S61 MK3、Akai MPK Mini MK4、Arturia KeyLab Essentialなど5台のMIDIキーボードを、演奏性やDAW連携などの軸で比較し自分に合う一台の選び方を整理して示す。"
 images: ["/images/og/midi-keyboard-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
