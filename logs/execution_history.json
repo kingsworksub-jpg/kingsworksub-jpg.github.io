@@ -2669,5 +2669,28 @@
       "孤立記事数の減少",
       "飲料系記事の内部リンク網の充実"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T11:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "necktie-knots-collar-guide-2026",
+      "topre-hhkb-realforce-capacitive-keyboard-2026",
+      "classic-suspender-styling-2026",
+      "turtleneck-jacket-layering-2026",
+      "corduroy-wale-width-styling-2026",
+      "windows-shortcuts-launcher-guide-2026",
+      "desk-chair-studio-ergonomics-2026"
+    ],
+    "actions": [
+      "被リンク0だったネクタイ記事とHHKB/REALFORCE記事へ、関連するファッション・PC記事の関連記事欄から内部リンクを追加",
+      "ネクタイ記事の関連記事にローファー・サスペンダー記事を追加"
+    ],
+    "files_changed": 7,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo未導入のためビルド未実行)",
+    "next_kpis": [
+      "孤立記事数の減少",
+      "ファッション系記事の内部リンク網の充実"
+    ]
   }
 ]
