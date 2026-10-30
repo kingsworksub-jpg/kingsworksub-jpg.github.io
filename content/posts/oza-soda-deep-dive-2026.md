@@ -1,6 +1,6 @@
 ---
 title: "OZA SODAの改名に込められた二つの意味"
-description: "楽天の水・ソフトドリンク部門で1位を何度も獲得してきた強炭酸水OZA SODA。もとの名前「ZAO SODA」からの改名に込められた二つの意味と、炭酸の強さ、価格までを整理した。改名の理由は記事の中で順に説明する。"
+description: "楽天の水・ソフトドリンク部門で1位を何度も獲得してきた強炭酸水OZA SODA。もとの名前「ZAO SODA」からの改名に込められた二つの意味と、炭酸の強さ、価格までを整理した。改名の理由は記事の中で順に説明するので参考にしてほしい。"
 images: ["/images/og/oza-soda-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

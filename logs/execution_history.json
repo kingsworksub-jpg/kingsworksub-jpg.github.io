@@ -2846,5 +2846,26 @@
       "description 110字未満の記事 52→46本",
       "残りの102字以上の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T18:53:37Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "craft-cola-spice-syrup-2026",
+      "oza-soda-deep-dive-2026",
+      "midi-keyboard-5choice-2026",
+      "jazz-festivals-2026",
+      "headphone-hydrolysis-parts",
+      "cutty-sark-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionが107〜108字の記事6本を110〜120字へ拡充"
+    ],
+    "files_changed": 7,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 46→40本",
+      "残りの106字以下の記事の拡充"
+    ]
   }
 ]

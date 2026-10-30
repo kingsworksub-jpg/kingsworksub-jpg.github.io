@@ -2,7 +2,7 @@
 title: "Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る"
 date: 2026-09-30
 categories: ["music"]
-description: "2026年の北米・ヨーロッパを代表するジャズフェスティバルを追う。72年目のNewportや60年目のMontreux、Atlantaなど世界7大イベントの顔ぶれと、配信で広がる音楽体験の民主化と国際化を読み解く。"
+description: "2026年の北米・ヨーロッパを代表するジャズフェスティバルを追う。72年目のNewportや60年目のMontreux、Atlantaなど世界7大イベントの顔ぶれと、配信で広がる音楽体験の民主化と国際化を読み解いていく。"
 images: ["/images/og/jazz-festivals-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
