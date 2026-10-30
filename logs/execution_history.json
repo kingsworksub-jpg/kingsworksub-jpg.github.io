@@ -2597,5 +2597,22 @@
     "next_kpis": [
       "新規公開記事が増えた段階で再点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T06:55:10Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ipv6-ipoe-speed-2026",
+      "indirect-lighting-room-2026"
+    ],
+    "actions": [
+      "仮ASIN(B000000004〜09、実在しない)のAmazonリンク6件を、アフィリエイトタグ付きのAmazonキーワード検索リンクに差し替え。リンク切れ防止"
+    ],
+    "files_changed": 3,
+    "status": "完了(Hatena/Ameba/note未巡回。両記事が転載済みなら同様の仮ASINが残っている可能性あり、ローカルで要確認)",
+    "next_kpis": [
+      "実ASINを確認できれば /dp/ 形式へ置換",
+      "両記事のはてな・Ameba・note転載版のリンク確認"
+    ]
   }
 ]

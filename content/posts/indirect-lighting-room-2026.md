@@ -15,7 +15,7 @@ scheduled_time: "21:30"
 しかし、いざ自宅に間接照明を取り入れようとして、家具の配置やランプの置き場所に悩んだ経験はないだろうか。「どこをどう照らせば、部屋が広く感じられるのだろうか」という疑問の答えは、光を当てる「面」の選び方にある。今回は、天井を照らすべきか、それとも壁を照らすべきかという永遠のテーマを軸に、空間を広く見せるための照明の科学と実践的なレイアウトについて詳しく見ていこう。
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B000000007?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22">
 <img src="/images/products/indirect-lighting-room.png" alt="間接照明とインテリアの光" width="667" height="1000" loading="lazy">
 </a>
 <figcaption>光の陰影を生み出すことで、空間に豊かな奥行きが生まれる（クリックでAmazon詳細へ）</figcaption>
@@ -30,7 +30,7 @@ scheduled_time: "21:30"
 
 ここにアッパーライトを用いて天井面を明るく照らし出すと、天井の境界線が光によって曖昧になり、実際の物理的な高低差以上に「天井が高く、部屋全体が広々とした空間」という錯覚を脳にもたらすことができる。特に、日本の一般的な賃貸住宅で見られる低めの天井や、梁（はり）が多くて圧迫感のある部屋においては、この天井照射のアプローチが抜群の効果を発揮する。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000007?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22">
 <img src="/images/products/indirect-lighting-room.png" alt="LEDフロアスタンド アッパーライト">
 <span class="product-banner-info">
 <span class="product-banner-name">LEDフロアスタンド アッパーライト</span>
@@ -46,7 +46,7 @@ scheduled_time: "21:30"
 
 狭いワンルームや4畳半〜6畳程度の限られたスペースであっても、部屋の一番長い面やコーナーに向かって間接照明の光を当てておくだけで、実際の帖数以上の開放感を得ることができる。光が壁のクロスや素材の微細な凹凸を拾い、空間全体にリズミカルな陰影のレイヤーを作り出してくれる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000008?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=LED%E3%83%86%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88%20%E8%AA%BF%E5%85%89%E8%AA%BF%E8%89%B2%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22">
 <img src="/images/products/indirect-lighting-room.png" alt="調光調色 LEDテープライト 間接照明">
 <span class="product-banner-info">
 <span class="product-banner-name">調光調色 LEDテープライト 間接照明</span>
@@ -66,7 +66,7 @@ scheduled_time: "21:30"
 
 これらを同時に点灯させてもよいし、気分に合わせて点灯する数を変えるだけでも、部屋の表情は劇的に変化する。天井の広がりと壁の奥行き、その両方をバランスよく配置することで、どんなにコンパクトな部屋であっても驚くほど開放的で居心地の良い空間に生まれ変わるのだ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000009?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%97%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22">
 <img src="/images/products/indirect-lighting-room.png" alt="コードレス テーブルランプ 間接照明">
 <span class="product-banner-info">
 <span class="product-banner-name">コードレス テーブルランプ 間接照明</span>
