@@ -1,6 +1,6 @@
 ---
 title: "LUNAは無料でどこまで使えるか。録音から書き出しまで1曲通して、お金が要る4つの地点"
-description: "Universal AudioのLUNAは無料で録音からミックス、書き出しまで1曲を通せる。トラック数の上限も透かしもない。有料のLUNA StudioやNeve Summingが要る地点を工程順に整理した。"
+description: "Universal AudioのLUNAは無料で録音からミックス、書き出しまで1曲を通せる。トラック数の上限も透かしもない。有料のLUNA StudioやNeve Summingが必要になる地点を、制作の工程順に整理した。"
 images: ["/images/og/luna-free-daw-limits-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
