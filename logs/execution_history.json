@@ -2761,5 +2761,27 @@
       "description 110字未満の記事 79→約71本",
       "残りの102〜109字の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T14:53:33Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-instruments-guide",
+      "johnnie-walker-red-deep-dive-2026",
+      "monitor-placement-room-tuning-6jo-2026",
+      "nearfield-monitors-5choice-2026",
+      "one-room-streaming-setup-2026",
+      "technics-sl1200mk7-deep-dive-2026",
+      "tonic-water-5choice-2026"
+    ],
+    "actions": [
+      "description が109字の記事7本に、記述と矛盾しない範囲で語を補い110〜119字へ拡充(jazz-instruments-guide等)。johnnie-walker-redの「隅々まで」表現を改めた"
+    ],
+    "files_changed": 8,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 71→約64本",
+      "残りの100〜108字の記事の拡充"
+    ]
   }
 ]
