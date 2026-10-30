@@ -2913,5 +2913,28 @@
       "description 110字未満の記事 32→24本",
       "残りの104字以下の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T21:54:01Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "crystal-spark-grape-deep-dive-2026",
+      "hard-bop-blue-note-golden-age",
+      "icy-spark-canada-dry-lemon-deep-dive-2026",
+      "loafer-derby-autumn-2026",
+      "modal-jazz-challenge",
+      "pokka-furano-hop-soda-deep-dive-2026",
+      "scarf-styling-trend-2026",
+      "statement-hat-trend-2026"
+    ],
+    "actions": [
+      "descriptionが102字の記事8本を110〜120字前後へ拡充"
+    ],
+    "files_changed": 9,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 24→16本",
+      "残りの記事の拡充"
+    ]
   }
 ]

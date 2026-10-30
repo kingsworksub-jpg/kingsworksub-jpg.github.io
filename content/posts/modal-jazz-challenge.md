@@ -1,6 +1,6 @@
 ---
 title: "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ"
-description: "ジャズの即興は長く「コード進行の上を走るもの」だった。1959年の『Kind of Blue』は旋法の上で語る道を開き、コルトレーンの『A Love Supreme』へ続くモーダル・ジャズの流れをたどる。"
+description: "ジャズの即興は長く「コード進行の上を走るもの」だった。1959年の『Kind of Blue』は旋法の上で語る道を開き、コルトレーンの『A Love Supreme』へ続くモーダル・ジャズの流れを名盤とともにたどる入門ガイド。"
 images: ["/images/og/modal-jazz-challenge.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
