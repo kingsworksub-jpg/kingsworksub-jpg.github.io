@@ -107,4 +107,4 @@ draft: false
 
 順番や盤は、ここに書いたとおりでなくてもかまわない。大事なのは、一週につき的を一つに絞ることと、読む本をその的に合わせることの二つだけだ。五十枚を順番に消化しようとして三枚で止まるくらいなら、五枚を六週間かけて聴き込んだほうが、結局は遠くまで行ける。
 
-**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか。ヴィンス・ガラルディのピアノトリオと子どもの合唱](/posts/charlie-brown-christmas-guaraldi-trio-2026/)

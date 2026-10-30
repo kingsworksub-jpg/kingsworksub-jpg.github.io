@@ -126,6 +126,7 @@ Windows で Dev Containers を使うと、手順どおりなのに思ったよ�
 Python の仮想環境はプロジェクトごとに部品の置き場を分ける仕組みだったが、Dev Containers はそれをもう一段広げて、処理系や OS の道具まで含めて箱に入れる仕組みだと言える。両者の違いは[Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある](/posts/python-venv-uv-first-environment-2026/)で触れた話の延長として読むと分かりやすいと思う。まずは練習用のフォルダーを一つ作り、4行の `devcontainer.json` を置いて、コンテナで開き直すところから始めてみてほしい。
 
 ## 関連記事
+- [GitHub CLIでプルリクエストを出す朝、CIを待つ昼、マージする夕方。ghだけで回す一日](/posts/gh-cli-pull-request-terminal-guide-2026/)(コンテナ内でもghで作業を完結させたいときに)
 - [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)(同じ環境を別の機械で動かす話)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
