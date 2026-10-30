@@ -2738,5 +2738,28 @@
       "description 110字未満の記事 66→60本以下",
       "kutani-shiratsubu-tessen/sori-yanagi-seishu-glass の description 拡充(未着手)"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T13:53:24Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "kutani-shiratsubu-tessen-guinomi-deep-dive-2026",
+      "sori-yanagi-seishu-glass-deep-dive-2026",
+      "2026-09-22-162404",
+      "coca-cola-zero-deep-dive-2026",
+      "daw-5choice-2026",
+      "dtm-school-or-self-study-2026",
+      "islay-malt-5choice-2026",
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "description が100〜101字の記事8本に、本文で裏付けのある要旨を補い108〜120字へ拡充"
+    ],
+    "files_changed": 9,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 79→約71本",
+      "残りの102〜109字の記事の拡充"
+    ]
   }
 ]
