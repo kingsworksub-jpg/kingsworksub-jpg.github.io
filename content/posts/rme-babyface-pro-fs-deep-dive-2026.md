@@ -1,6 +1,6 @@
 ---
 title: "RME Babyface Pro FSのドライバ安定性とSteadyClock FSがもたらす変化"
-description: "RME Babyface Pro FSが宅録からプロの現場まで信頼される理由を、安定したドライバと低レイテンシー、SteadyClock FS、マイクプリ、TotalMix FX、長期サポートの観点から整理する。"
+description: "RME Babyface Pro FSが宅録からプロの現場まで信頼される理由を、安定したドライバと低レイテンシー、SteadyClock FS、マイクプリ、TotalMix FX、長期サポート、携帯性の観点から順に整理する。"
 images: ["/images/og/rme-babyface-pro-fs-deep-dive-2026.jpg"]
 date: 2026-10-11T12:00:00+09:00
 categories: [misc]

@@ -5,7 +5,7 @@ draft: false
 categories: [misc]
 tags: ["革手袋", "ラムスキン", "ディアスキン", "手袋のサイズ", "カシミヤ裏", "Dents", "Randers Handsker", "冬の装い"]
 scheduled_time: "20:00"
-description: "革手袋はサイズを測って買う数少ない革小物です。ラムスキンとディアスキンの厚みと伸び方の違い、カシミヤ裏・ウール裏・裏なしの暖かさと指の動き、手囲いの測り方、甲の3本線の由来まで、コートに合わせる前提で整理します。"
+description: "革手袋はサイズを測って買う数少ない革小物です。ラムスキンとディアスキンの厚みと伸び方の違い、カシミヤ裏・ウール裏・裏なしの暖かさと指の動き、手囲いの測り方、甲の3本線の由来まで、コートに合わせる前提で、選び方を順に整理します。"
 images: ["/images/og/leather-gloves-lining-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

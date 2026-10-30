@@ -2867,5 +2867,28 @@
       "description 110字未満の記事 46→40本",
       "残りの106字以下の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T19:53:41Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "dodecamin-deep-dive-2026",
+      "gguf-quantization-q4-q5-guide-2026",
+      "indirect-lighting-room-2026",
+      "leather-gloves-lining-guide-2026",
+      "masu-sake-cup-hinoki-2026",
+      "rme-babyface-pro-fs-deep-dive-2026",
+      "windows-shortcuts-launcher-guide-2026"
+    ],
+    "actions": [
+      "descriptionが105〜106字の記事8本を111〜119字へ拡充"
+    ],
+    "files_changed": 9,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 40→32本",
+      "残りの記事の拡充"
+    ]
   }
 ]
