@@ -2825,5 +2825,26 @@
       "description 110字未満の記事 58→約52本",
       "残りの100〜107字の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T17:53:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "kurojoka-mino-deep-dive-2026",
+      "sangaria-kireina-tansansui-deep-dive-2026",
+      "toyo-sasaki-katakuchi-deep-dive-2026",
+      "wilkinson-ginger-ale-dry-deep-dive-2026",
+      "classic-french-style-revival-2026",
+      "cool-jazz-birth-of-the-cool"
+    ],
+    "actions": [
+      "descriptionが101〜102字の記事6本を111〜116字へ拡充"
+    ],
+    "files_changed": 7,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 52→46本",
+      "残りの102字以上の記事の拡充"
+    ]
   }
 ]

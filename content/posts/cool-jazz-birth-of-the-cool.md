@@ -1,6 +1,6 @@
 ---
 title: "Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代"
-description: "ビバップの熱が冷えた1949〜51年。Miles Davisの九人編成『Birth of the Cool』とChet Bakerの西海岸派を軸に、クール・ジャズの誕生と広がりを演奏者の足取りからたどる。"
+description: "ビバップの熱が冷えた1949〜51年。Miles Davisの九人編成『Birth of the Cool』とChet Bakerの西海岸派を軸に、クール・ジャズの誕生と広がりを、演奏者の足取りと聴きどころからたどる入門ガイド。"
 images: ["/images/og/cool-jazz-birth-of-the-cool.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
