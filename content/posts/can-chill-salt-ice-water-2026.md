@@ -147,3 +147,4 @@ scheduled_time: "17:00"
 - [note版はこちら](https://note.com/shining_finger01)
 - [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
 - [強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ](/posts/wilkinson-tansan-deep-dive-2026/)
+- [透明な氷は水ではなく凍る向きで決まる。保冷ボックスで上から凍らせる方向性凍結の手順](/posts/clear-ice-directional-freezing-2026/)

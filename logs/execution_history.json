@@ -2650,5 +2650,24 @@
       "description長の逸脱記事0件を維持",
       "外部サイト転載版の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T09:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "can-chill-salt-ice-water-2026",
+      "clear-ice-directional-freezing-2026",
+      "hot-wine-spice-temperature-guide-2026"
+    ],
+    "actions": [
+      "未巡回だった飲料ハック記事3本の構造を点検(見出し・figure配置・description長は規約内)",
+      "関連記事に内部リンクを追加: 氷水→透明氷、透明氷→ジャパニーズウイスキー蒸溜所/バーボン、ホットワイン→ボジョレー・ヌーヴォー"
+    ],
+    "files_changed": 4,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-auditは未実行)",
+    "next_kpis": [
+      "孤立記事数の減少",
+      "飲料系記事の内部リンク網の充実"
+    ]
   }
 ]

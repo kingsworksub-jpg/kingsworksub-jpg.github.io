@@ -123,3 +123,5 @@ scheduled_time: "23:00"
 - [note版はこちら](https://note.com/shining_finger01)
 - [缶ビールを急いで冷やすなら冷凍庫より塩入りの氷水、数分で済む理由と塩の量](/posts/can-chill-salt-ice-water-2026/)
 - [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
+- [ジャパニーズウイスキーの蒸溜所を7つ巡る、山崎の霧から余市の石炭の火まで](/posts/japanese-whisky-distilleries-lineup-2026/)
+- [バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方](/posts/bourbon-5choice-2026/)
