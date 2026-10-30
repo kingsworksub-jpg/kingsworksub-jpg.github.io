@@ -1,6 +1,6 @@
 ---
 title: "Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定"
-description: "Windows 11 26H2で起動直後のメモリ使用量が16GB以上の機種で1.5〜2GBほど減った理由と、8GB機で変化が小さい仕組みを解説。DAW用PCで効く部分と効かない部分、見直す設定をまとめた。"
+description: "Windows 11 26H2で起動直後のメモリ使用量が16GB以上の機種で1.5〜2GBほど減った理由と、8GB機で変化が小さい仕組みを解説。DAW用PCで効く部分と効かない部分、見直す設定を優先度順に整理してまとめた。"
 images: ["/images/og/windows-11-26h2-memory-daw-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
