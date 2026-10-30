@@ -2614,5 +2614,23 @@
       "実ASINを確認できれば /dp/ 形式へ置換",
       "両記事のはてな・Ameba・note転載版のリンク確認"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T07:54:50Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "indirect-lighting-room-2026",
+      "ipv6-ipoe-speed-2026"
+    ],
+    "actions": [
+      "アイキャッチfigureが最初の##見出しの前に置かれCLAUDE.mdのfigure配置ルール(見出し→figure→段落)に反していたため、見出し直後へ移動し本文が画像の横を回り込むようにした",
+      "仮ASIN・description長・禁止タイトル表現は全記事で問題なし"
+    ],
+    "files_changed": 3,
+    "status": "完了(hugo未導入のためビルド未確認。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "デプロイ後に両記事のfigure回り込み表示を確認",
+      "music-theory-3month-plan等のfigure直後短文の点検"
+    ]
   }
 ]

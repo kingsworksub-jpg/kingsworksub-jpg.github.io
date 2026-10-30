@@ -14,6 +14,8 @@ scheduled_time: "20:00"
 
 この現象の元凶となっているのは、回線事業者やプロバイダ側の設備、そして私たちが長年使ってきた接続方式の構造的な限界にある。今回は、夜間に回線が遅くなる本当の原因と、それを劇的に改善する「IPv6（IPoE）」および「v6プラス」などのカプセル化技術の仕組みについて、詳しく紐解いていこう。
 
+## 1. なぜ夜になると光回線が遅くなるのか？（PPPoEの構造的限界）
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Wi-Fi%207%20%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC%20IPv6%20IPoE%E5%AF%BE%E5%BF%9C&tag=nakimoto1-22">
 <img src="/images/products/ipv6-router.png" alt="高速Wi-Fiルーターとネットワーク" width="667" height="1000" loading="lazy">
@@ -21,8 +23,6 @@ scheduled_time: "20:00"
 <figcaption>次世代の接続方式に対応したルーターが、夜間のボトルネックを解消する（クリックでAmazon詳細へ）</figcaption>
 <span class="credit">Photo: SwarmCheng (CC BY-SA 4.0)</span>
 </figure>
-
-## 1. なぜ夜になると光回線が遅くなるのか？（PPPoEの構造的限界）
 
 私たちが普段何気なく使っているインターネット接続には、歴史的な経緯から大きく分けて**「PPPoE方式」**と**「IPoE方式」**という2つのルートが存在している。夜間に速度が急激に低下する現象は、ほぼ例外なく前者の「PPPoE方式」を利用している環境で発生する。
 
