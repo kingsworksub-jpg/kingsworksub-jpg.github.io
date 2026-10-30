@@ -1,6 +1,6 @@
 ---
 title: "Technics SL-1200MK7、半世紀の現場が選び続けた基準機"
-description: "Technics SL-1200MK7をダイレクトドライブ、S字トーンアーム、ピッチコントロール、接続性まで項目別に解説。DJ機とHi-Fi機の両面から評価し、実使用での弱点と価格・現行性もまとめて購入前に確認できる。"
+description: "Technics SL-1200MK7をダイレクトドライブ、S字トーンアーム、ピッチコントロール、接続性まで項目別に解説。DJ機とHi-Fi機の両面から評価し、実使用での弱点と価格・現行性もまとめて購入前にまとめて確認できる。"
 images: ["/images/og/technics-sl1200mk7-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

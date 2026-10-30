@@ -1,6 +1,6 @@
 ---
 title: "モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる"
-description: "宅録の机に置くモニタースピーカーは、低音の量よりポートの向きと置き方で鳴りが変わる。Yamaha HS5、KRK ROKIT 5 G5、ADAM T5V、Genelec 8010A、JBL 305P MkIIを比べた。"
+description: "宅録の机に置くモニタースピーカーは、低音の量よりポートの向きと置き方で鳴りが変わる。Yamaha HS5、KRK ROKIT 5 G5、ADAM T5V、Genelec 8010A、JBL 305P MkIIの5台を並べて比べた。"
 images: ["/images/og/nearfield-monitors-5choice-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
