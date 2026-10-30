@@ -15,7 +15,7 @@ scheduled_time: "20:00"
 この現象の元凶となっているのは、回線事業者やプロバイダ側の設備、そして私たちが長年使ってきた接続方式の構造的な限界にある。今回は、夜間に回線が遅くなる本当の原因と、それを劇的に改善する「IPv6（IPoE）」および「v6プラス」などのカプセル化技術の仕組みについて、詳しく紐解いていこう。
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B000000004?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/s?k=Wi-Fi%207%20%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC%20IPv6%20IPoE%E5%AF%BE%E5%BF%9C&tag=nakimoto1-22">
 <img src="/images/products/ipv6-router.png" alt="高速Wi-Fiルーターとネットワーク" width="667" height="1000" loading="lazy">
 </a>
 <figcaption>次世代の接続方式に対応したルーターが、夜間のボトルネックを解消する（クリックでAmazon詳細へ）</figcaption>
@@ -30,7 +30,7 @@ PPPoE（Point-to-Point Protocol over Ethernet）は、かつてのダイヤル�
 
 この仕組みにおける最大のボトルネックが、プロバイダ側の設備である**「網終端装置（NTE: Network Termination Equipment）」**だ。夜間は動画配信サービスの視聴、オンラインゲームの大型アップデート、SNSの利用などが一斉に集中する時間帯である。多くのユーザーが限られた少数の網終端装置を経由してインターネットへ接続しようとするため、まるで高速道路の料金所に車が殺到して大渋滞を起こすかのように、装置の処理能力が限界を迎えてしまう。これが、夜間に速度が10Mbps以下にまで落ち込む「輻輳（ふくそう）」の正体である。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000004?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=Wi-Fi%207%20%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC%20IPv6%20IPoE%E5%AF%BE%E5%BF%9C&tag=nakimoto1-22">
 <img src="/images/products/ipv6-router.png" alt="Wi-Fi 6 / 7 対応ルーター">
 <span class="product-banner-info">
 <span class="product-banner-name">Wi-Fi 6 / 7 対応ルーター</span>
@@ -46,7 +46,7 @@ IPoE方式では、従来の面倒なアカウント認証（ID・パスワー�
 
 最大の違いは、**プロバイダ側の混雑しやすい「網終端装置」を完全にバイパスする経路を通る点**にある。NGN網内の巨大で余裕のある帯域をそのまま利用してインターネットへ接続するため、夜間帯であってもトラフィックの集中による速度低下が起きにくくなる。つまり、渋滞の激しい一般道（PPPoE）を避け、専用の広大なバイパス道路（IPoE）を走るようなものなのだ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000005?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=%E3%82%AE%E3%82%AC%E3%83%93%E3%83%83%E3%83%88%20%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%83%8F%E3%83%96&tag=nakimoto1-22">
 <img src="/images/products/ipv6-switch.png" alt="ギガビットスイッチングハブ">
 <span class="product-banner-info">
 <span class="product-banner-name">ギガビットスイッチングハブ</span>
@@ -68,7 +68,7 @@ IPoE方式では、従来の面倒なアカウント認証（ID・パスワー�
 
 この仕組みにより、**「IPv4専用のサイトやサービスを見ているときでも、データ自体は混雑のない高速なIPv6（IPoE）のネットワークを通ってくる」**という理想的な環境が実現する。IPv4アドレスが枯渇している現代において、複数のユーザーで1つのIPアドレスを効率的に共有するポート変換（NAPT）の技術も統合されており、ユーザー側で特別な複雑な設定をしなくても、ルーターを接続するだけで自動的に高速化の恩恵を受けられるようになっている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000000006?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/s?k=LAN%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%20CAT6A%203m&tag=nakimoto1-22">
 <img src="/images/products/lan-cable.png" alt="カテゴリ6A LANケーブル 3m">
 <span class="product-banner-info">
 <span class="product-banner-name">カテゴリ6A LANケーブル 3m</span>
