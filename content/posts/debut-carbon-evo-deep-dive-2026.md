@@ -1,6 +1,6 @@
 ---
 title: "Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル"
-description: "Pro-Ject Debut Carbon EVOを筐体のビルド品質、ドライブ機構、トーンアーム、カートリッジ、速度切替と接続性、実使用での弱点、価格と現行性の順に掘り下げ、本格オーディオの入口としての中身を確かめる。"
+description: "Pro-Ject Debut Carbon EVOを筐体のビルド品質、ドライブ機構、トーンアーム、カートリッジ、速度切替と接続性、実使用での弱点、価格と現行性の順に掘り下げ、本格オーディオの入口としての中身を一つずつ確かめる。"
 images: ["/images/og/debut-carbon-evo-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
