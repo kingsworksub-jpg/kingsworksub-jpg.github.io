@@ -2804,5 +2804,26 @@
       "description 110字未満の記事 64→58本",
       "残りの100〜108字の記事の拡充"
     ]
+  },
+  {
+    "timestamp": "2026-10-30T16:54:16Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "yamaha-ag03mk2-deep-dive-2026",
+      "vocalign-7-multitrack",
+      "jazz-fusion-1970s-weather-report",
+      "code-progress-1month-2026",
+      "canada-dry-ginger-ale-deep-dive-2026",
+      "piano-practice-apps-3choice-2026"
+    ],
+    "actions": [
+      "descriptionが108字以下の記事6本を110〜120字へ調整。code-progress-1monthは「余すところなく徹底的に解説します」等の誇張表現を除去、canada-dry-ginger-aleは文末を整理"
+    ],
+    "files_changed": 7,
+    "status": "完了(Hatena/Ameba/note未巡回、hugo/PIL未導入のためビルド・seo-audit未実行)",
+    "next_kpis": [
+      "description 110字未満の記事 58→約52本",
+      "残りの100〜107字の記事の拡充"
+    ]
   }
 ]

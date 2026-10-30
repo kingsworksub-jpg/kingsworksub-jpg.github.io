@@ -1,6 +1,6 @@
 ---
 title: "VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える"
-description: "2026年9月に出たVocAlign 7は、ガイドと重ねた声を同じタイムラインに並べて一度に揃える。マルチトラック編集とSmartPitch、ARA 2対応と動作環境、Standard・Proの差と価格までまとめた。"
+description: "2026年9月に出たVocAlign 7は、ガイドと重ねた声を同じタイムラインに並べて一度に揃える。マルチトラック編集とSmartPitch、ARA 2対応と動作環境、Standard・Proの差と価格、導入前に確かめたい点までまとめた。"
 images: ["/images/og/vocalign-7-multitrack.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

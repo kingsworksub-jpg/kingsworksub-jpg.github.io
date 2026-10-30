@@ -1,6 +1,6 @@
 ---
 title: "1970年代のフュージョンでは、ベースが旋律を歌いシンセが低音を弾いた"
-description: "『Bitches Brew』から始まった1970年代のフュージョン。Weather ReportやReturn to Foreverで、ベースと鍵盤の役割がどう入れ替わったのかを、電気ピアノとシンセの導入からたどる。"
+description: "『Bitches Brew』から始まった1970年代のフュージョン。Weather ReportやReturn to Foreverで、ベースと鍵盤の役割がどう入れ替わったのかを、電気ピアノとシンセの導入から、聴く順序も添えてたどる。"
 images: ["/images/og/jazz-fusion-1970s-weather-report.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
