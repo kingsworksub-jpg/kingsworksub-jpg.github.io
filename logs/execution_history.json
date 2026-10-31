@@ -3296,5 +3296,22 @@
       "被リンク1本の記事(beaujolais/ipv6-ipoe/indirect-lighting)への関連づけ",
       "seo-audit環境修復"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T17:53:13Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "sampler-5choice-2026"
+    ],
+    "actions": [
+      "TAL-SamplerのfigureがBattery 4節に紛れ込んでいたのをTAL-Samplerの見出し直後へ移動(CLAUDE.mdのfigure配置ルール準拠)",
+      "古い記事のdescription長を点検: 全件100〜130字内",
+      "figureが見出し直後でない10本は直前が段落で据え置き"
+    ],
+    "files_changed": 2,
+    "status": "完了(軽微。Hatena/Ameba/note未巡回。hugo未導入のためビルド未確認)",
+    "next_kpis": [
+      "sampler記事のHatena版にも同じ崩れがあるか要確認(update-hatena-post.shで再同期)"
+    ]
   }
 ]
