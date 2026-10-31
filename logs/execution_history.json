@@ -3199,5 +3199,25 @@
     "next_kpis": [
       "「隅々まで」残存記事(7本)の導入書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T12:53:56Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "mitsuya-cider-zero-deep-dive-2026",
+      "oza-soda-deep-dive-2026",
+      "yosa-soda-deep-dive-2026",
+      "wilkinson-tansan-deep-dive-2026"
+    ],
+    "actions": [
+      "導入の「隅々まで見ていく」を撤去し内容を具体化(4本)",
+      "三ツ矢ZERO・ウィルキンソンの「という声」「評価されている」等の第三者帰属表現を筆者の主観表現に修正"
+    ],
+    "files_changed": 6,
+    "status": "完了(5本。Hatena/Ameba/note未巡回。ビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存記事(san-pellegrino, sori-yanagi-seishu-glass の2本)の導入書き換え"
+    ]
   }
 ]
