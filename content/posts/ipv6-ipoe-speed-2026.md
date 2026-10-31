@@ -84,6 +84,9 @@ IPoE方式では、従来の面倒なアカウント認証（ID・パスワー�
 
 インターネットは目に見えないインフラストラクチャだからこそ、その背後にある仕組みを知ることで、無駄なストレスから解放され、より快適でスマートなデジタルライフを手に入れることができる。
 
+
+**関連記事**: [中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか](/posts/mesh-wifi-vs-extender-wifi7-guide-2026/) · [Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める](/posts/synology-ds225plus-photo-backup-nas-2026/)
+
 ---
 
 * オリジナル記事: https://kingsworksub-jpg.github.io/posts/ipv6-ipoe-speed-2026/

@@ -3003,5 +3003,24 @@
       "内部リンク0の記事 5→0本",
       "次回は薄い初期記事(2026-09-22系)のリライト検討"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T01:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "anime-and-jazz",
+      "indirect-lighting-room-2026",
+      "ipv6-ipoe-speed-2026"
+    ],
+    "actions": [
+      "公開済み記事で関連記事リンクが無かった3本に関連記事2本ずつを追加",
+      "発見: 過去2回の実行で編集した 2026-09-22-* の5本は draft: true(非公開)で、公開サイトには反映されていない。次回は公開済み記事を優先する"
+    ],
+    "files_changed": 4,
+    "status": "完了(Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "公開記事で関連記事リンク無し(hello除く) 3→0本",
+      "次回はseo-audit・figure配置・薄い公開記事の点検"
+    ]
   }
 ]
