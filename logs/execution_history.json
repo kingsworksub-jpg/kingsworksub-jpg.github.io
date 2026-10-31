@@ -3367,5 +3367,18 @@
     "next_kpis": [
       "seo-audit環境修復"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T22:53:44Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置(見出し直後ルール)・左右交互・img属性・description長・孤立記事を全記事で点検: 修正必須の問題0(見出し直後でないfigureは冒頭リードの4本と長いセクション途中の5本のみで、本文が回り込むため許容)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "seo-audit環境修復"
+    ]
   }
 ]
