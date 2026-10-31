@@ -3313,5 +3313,20 @@
     "next_kpis": [
       "sampler記事のHatena版にも同じ崩れがあるか要確認(update-hatena-post.shで再同期)"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T18:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "description/images/禁止タイトル型/figure配置を全記事点検: 新規の問題0(figure未配置の10本は過去回で判断済み)",
+      "sampler-5choice-2026のはてな再同期案を drafts/hatena に作成"
+    ],
+    "files_changed": 2,
+    "status": "完了(軽微。seo-auditはPIL破損で実行不可、hugo未導入)",
+    "next_kpis": [
+      "seo-audit環境修復",
+      "はてなsampler記事の再同期"
+    ]
   }
 ]
