@@ -134,6 +134,8 @@ gh alias set mine 'pr list --author @me'
 ## 関連記事
 - [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)(プルリクエストで走るCIを自分で書くとき)
 - [git worktreeで作業フォルダをブランチの数だけ持つ備忘録](/posts/git-worktree-multiple-branches-notes/)(gh pr checkoutの--worktreeと組み合わせるとき)
+- [VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から](/posts/vscode-dev-containers-docker-guide-2026/)
+- [Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある](/posts/python-venv-uv-first-environment-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
