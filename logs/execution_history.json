@@ -3237,5 +3237,26 @@
     "next_kpis": [
       "「隅々まで」残存0を確認済み。次回は古い記事の見出し構造・description点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T14:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "vox-cola-flavor-deep-dive-2026",
+      "debut-carbon-evo-deep-dive-2026",
+      "dodecamin-zero-sakebitai-deep-dive-2026",
+      "otsuka-match-deep-dive-2026",
+      "peacock-acf38-sake-set-deep-dive-2026"
+    ],
+    "actions": [
+      "vox記事に混入していた韓国語「보면」を日本語に修正し、第三者の声の引用を主観表現に変更",
+      "第三者帰属表現(評価されている/という声/感想を見ていくと)を筆者の主観表現に修正(4本)"
+    ],
+    "files_changed": 6,
+    "status": "完了(5本。Hatena/Ameba/note未巡回。ビルド未確認)",
+    "next_kpis": [
+      "他記事の他言語混入チェック(ハングル検出は今回0件)",
+      "第三者帰属表現の残存確認"
+    ]
   }
 ]
