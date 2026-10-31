@@ -57,17 +57,6 @@ aliases:
 <figcaption>Battery 4<span class="credit"><a href="https://www.native-instruments.com/products/battery">Amazonで見る →</a></span></figcaption>
 </figure>
 
-
-(Amazonに単体販売の取り扱いなし)
-<figure class="photo photo--left">
-<a href="https://tal-software.com/products/tal-sampler/">
-<img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler" width="1600" height="867" loading="lazy">
-</a>
-<figcaption>TAL-Sampler<span class="credit"><a href="https://tal-software.com/products/tal-sampler/">Amazonで見る →</a></span></figcaption>
-</figure>
-
-
-
 ![Battery 4の使いやすさレーダーチャート](/images/radar/battery-4.svg)
 
 - 学習コスト 4 / 編集 4 / 制作速度 5 / 拡張性 3 / 安定性 4
@@ -80,6 +69,12 @@ aliases:
 
 ## TAL-Sampler — 小柄だが、驚くほど身のこなしが軽い
 
+<figure class="photo photo--left">
+<a href="https://tal-software.com/products/tal-sampler/">
+<img src="/images/products/tal-sampler.jpg" alt="TAL-Sampler" width="1600" height="867" loading="lazy">
+</a>
+<figcaption>TAL-Sampler<span class="credit"><a href="https://tal-software.com/products/tal-sampler/">Amazonで見る →</a></span></figcaption>
+</figure>
 
 (Amazonに単体販売の取り扱いなし)
 
