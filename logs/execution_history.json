@@ -3164,5 +3164,23 @@
     "next_kpis": [
       "「隅々まで」残存記事(約11本)の導入書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T10:53:38Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "crystal-spark-grape-deep-dive-2026",
+      "crystal-spark-ramune-deep-dive-2026"
+    ],
+    "actions": [
+      "導入・descriptionの「隅々まで見ていく」を撤去し内容を具体化",
+      "グレープ記事の第三者帰属表現(実際に飲んだ人の感想)を主観表現に修正",
+      "グレープ記事の価格節の重複figureをAmazonテキストリンクに置換"
+    ],
+    "files_changed": 3,
+    "status": "完了(2本。Hatena/Ameba/note未巡回。ビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存記事(約9本)の導入書き換え"
+    ]
   }
 ]
