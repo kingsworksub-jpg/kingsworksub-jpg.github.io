@@ -3182,5 +3182,22 @@
     "next_kpis": [
       "「隅々まで」残存記事(約9本)の導入書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T11:53:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "fuji-strong-soda-deep-dive-2026",
+      "itoen-mineral-strong-deep-dive-2026"
+    ],
+    "actions": [
+      "導入の「隅々まで見ていく」を撤去し構成を具体化",
+      "「という声」等の第三者帰属表現を筆者の主観表現に修正"
+    ],
+    "files_changed": 3,
+    "status": "完了(2本。Hatena/Ameba/note未巡回。hugo未導入のためビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存記事(7本)の導入書き換え"
+    ]
   }
 ]
