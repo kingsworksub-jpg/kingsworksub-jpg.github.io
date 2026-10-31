@@ -3110,5 +3110,23 @@
       "「隅々まで」残存記事(約17本)の導入書き換え",
       "johnnie-walker-red/kakubin/trys等の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T07:53:10Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "johnnie-walker-red-deep-dive-2026",
+      "suntory-kakubin-deep-dive-2026"
+    ],
+    "actions": [
+      "導入・descriptionの「隅々まで見ていく」を撤去し内容を具体化",
+      "「という指摘をよく見かける」等の第三者帰属表現を主観表現に修正",
+      "価格節の重複figureを削除しAmazonテキストリンクに置換"
+    ],
+    "files_changed": 3,
+    "status": "完了(2本。Hatena/Ameba/note未巡回。ローカルにhugoが無くビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存記事(約15本、炭酸飲料深掘り中心)の導入書き換え"
+    ]
   }
 ]
