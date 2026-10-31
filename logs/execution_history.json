@@ -3219,5 +3219,23 @@
     "next_kpis": [
       "「隅々まで」残存記事(san-pellegrino, sori-yanagi-seishu-glass の2本)の導入書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T13:53:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "wilkinson-tansan-deep-dive-2026",
+      "san-pellegrino-deep-dive-2026",
+      "sori-yanagi-seishu-glass-deep-dive-2026"
+    ],
+    "actions": [
+      "導入の「隅々まで見ていく」を撤去し内容を具体化(3本、残存0)",
+      "柳宗理記事の「という声」を主観的な表現に修正"
+    ],
+    "files_changed": 4,
+    "status": "完了(3本。Hatena/Ameba/note未巡回。seo-audit は PIL 不具合で実行不可、ビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存0を確認済み。次回は古い記事の見出し構造・description点検"
+    ]
   }
 ]
