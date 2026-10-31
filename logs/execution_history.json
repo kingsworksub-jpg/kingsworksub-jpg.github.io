@@ -3128,5 +3128,23 @@
     "next_kpis": [
       "「隅々まで」残存記事(約15本、炭酸飲料深掘り中心)の導入書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T08:53:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "four-roses-yellow-deep-dive-2026",
+      "suntory-trys-deep-dive-2026"
+    ],
+    "actions": [
+      "導入・descriptionの「隅々まで見ていく」を撤去し内容を具体化",
+      "「とされている」等の第三者帰属表現を主観表現に修正",
+      "価格節の重複figureを削除しAmazonテキストリンクに置換"
+    ],
+    "files_changed": 3,
+    "status": "完了(2本。Hatena/Ameba/note未巡回。ローカルにhugoが無くビルド未確認)",
+    "next_kpis": [
+      "「隅々まで」残存記事(約13本、炭酸飲料深掘り中心)の導入書き換え"
+    ]
   }
 ]
