@@ -3092,5 +3092,23 @@
       "「隅々まで見ていく」残存記事(約18本)の導入文書き換え",
       "ウイスキー深掘り残り(jim-beam/four-roses/johnnie-walker-red/kakubin/trys)の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T06:53:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jim-beam-white-deep-dive-2026"
+    ],
+    "actions": [
+      "導入の「隅々まで見ていく」を撤去し内容を具体化",
+      "出典不明の『裏ラベルに年数』『よく言われる』『複数の海外メディア』等の第三者帰属表現を主観/穏当表現に修正",
+      "同一画像の重複figureを削除し価格節にAmazonテキストリンクを追加"
+    ],
+    "files_changed": 2,
+    "status": "完了(1本のみ。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "「隅々まで」残存記事(約17本)の導入書き換え",
+      "johnnie-walker-red/kakubin/trys等の点検"
+    ]
   }
 ]
