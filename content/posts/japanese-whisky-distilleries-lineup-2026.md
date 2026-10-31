@@ -171,3 +171,4 @@ scheduled_time: "23:00"
 - [ハイボール文化の原点、サントリー角瓶を飲み直す](/posts/suntory-kakubin-deep-dive-2026/)
 - [台湾とインドのウイスキー、熱い土地で樽は速く働く](/posts/taiwan-india-whisky-climate-2026/)
 - [アイリッシュウイスキー入門。3回蒸溜は決まりではなく、ポットスチルの個性は生の大麦が作る](/posts/irish-whiskey-pot-still-guide-2026/)
+- [新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え](/posts/new-scotch-distilleries-young-whisky-2026/)

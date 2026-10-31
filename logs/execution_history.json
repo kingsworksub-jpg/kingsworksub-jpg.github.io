@@ -3380,5 +3380,20 @@
     "next_kpis": [
       "seo-audit環境修復"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T23:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "japanese-whisky-distilleries-lineup-2026"
+    ],
+    "actions": [
+      "未改善だった最後の3記事(japanese-whisky/synology-ds225plus/beaujolais)を点検: 禁止表現・description長・figure配置・OG画像は全て適合。japanese-whiskyの関連記事リンクにnew-scotch-distilleriesを追加。Hatena/Ameba/note未巡回(今回は改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "全223記事が一巡済み。次回以降は内部リンク網の強化とseo-audit環境(PIL)修復"
+    ]
   }
 ]
