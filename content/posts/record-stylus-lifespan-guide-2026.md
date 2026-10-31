@@ -135,4 +135,5 @@ MM型の交換針は、カートリッジ本体を買い直すよりずっと安
 ## 関連記事
 
 - [ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン](/posts/hammond-b3-jazz-organ-2026/)
+- [カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか](/posts/cassette-tape-revival-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)

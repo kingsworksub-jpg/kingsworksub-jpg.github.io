@@ -3258,5 +3258,23 @@
       "他記事の他言語混入チェック(ハングル検出は今回0件)",
       "第三者帰属表現の残存確認"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T15:54:48Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "record-stylus-lifespan-guide-2026"
+    ],
+    "actions": [
+      "カセット記事との相互内部リンクを追加",
+      "全223記事を点検: description/images欠落0、他言語混入0、禁止表現残存0、内部リンク切れ0、孤立記事は hello のみ",
+      "figure配置は先頭アイキャッチ以外で本文途中配置が7本あるが可読性に問題なく据え置き"
+    ],
+    "files_changed": 2,
+    "status": "完了(軽微。Hatena/Ameba/note未巡回。seo-audit は PIL 不具合で実行不可、ビルド未確認)",
+    "next_kpis": [
+      "figureが見出し直後でない記事(jazz-festivals/jazz-shoes/jazz-style-menswear等)の配置見直し",
+      "seo-audit用のPIL環境修復"
+    ]
   }
 ]
