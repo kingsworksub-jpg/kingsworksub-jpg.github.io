@@ -3276,5 +3276,25 @@
       "figureが見出し直後でない記事(jazz-festivals/jazz-shoes/jazz-style-menswear等)の配置見直し",
       "seo-audit用のPIL環境修復"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T16:54:14Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-fusion-1970s-weather-report",
+      "gh-cli-pull-request-terminal-guide-2026",
+      "streaming-loudness-normalization-lufs"
+    ],
+    "actions": [
+      "被リンクの少ない3記事の関連記事に同カテゴリの内部リンクを追加",
+      "全記事のdescription長・禁止タイトル型を点検: 問題0(長いタイトル1本のみ)",
+      "figureが本文途中にある6本は直前が段落で回り込みに支障なく据え置き"
+    ],
+    "files_changed": 4,
+    "status": "完了(軽微。Hatena/Ameba/note未巡回。hugo未導入のためビルド未確認)",
+    "next_kpis": [
+      "被リンク1本の記事(beaujolais/ipv6-ipoe/indirect-lighting)への関連づけ",
+      "seo-audit環境修復"
+    ]
   }
 ]
