@@ -3074,5 +3074,23 @@
       "ウイスキー深掘り残り8本の同様点検",
       "「隅々まで見ていく」残存記事(約20本)の導入文書き換え"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T06:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "white-horse-fineold-deep-dive-2026"
+    ],
+    "actions": [
+      "description・リードの「隅々まで見ていく」を撤去し内容を具体化",
+      "根拠の薄い『35種類以上』『2009年からキリン輸入』『2026年3月韓国展開』『1908年グランプリ』の記述を穏当な表現に修正",
+      "同一画像の重複figureを1枚に整理し、価格節にAmazonリンクを追加"
+    ],
+    "files_changed": 2,
+    "status": "完了(1本のみ。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "「隅々まで見ていく」残存記事(約18本)の導入文書き換え",
+      "ウイスキー深掘り残り(jim-beam/four-roses/johnnie-walker-red/kakubin/trys)の点検"
+    ]
   }
 ]
