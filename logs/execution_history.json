@@ -2982,5 +2982,26 @@
       "description 110字未満の記事 8→0本",
       "次回はseo-audit・内部リンク・figure配置の点検へ移行"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T00:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "2026-09-22-154310",
+      "2026-09-22-155647",
+      "2026-09-22-160948",
+      "2026-09-22-162404",
+      "2026-09-22-164455"
+    ],
+    "actions": [
+      "内部リンクが0だった初期のジャズ楽器記事5本に、質の高い関連記事2本(jazz-instruments-guide, jazz-masterpieces-beginner)への関連記事リンクを追加",
+      "禁止表現・見出し・description/images・figure配置を簡易点検(問題なし)"
+    ],
+    "files_changed": 6,
+    "status": "完了(Hatena/Ameba/note未巡回、seo-audit.pyはPIL不具合で未実行)",
+    "next_kpis": [
+      "内部リンク0の記事 5→0本",
+      "次回は薄い初期記事(2026-09-22系)のリライト検討"
+    ]
   }
 ]
