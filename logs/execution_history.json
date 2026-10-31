@@ -3341,5 +3341,18 @@
     "next_kpis": [
       "seo-audit環境修復"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T20:53:09Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "frontmatter(description/images/draft)・重複タイトル・figureタグ対の整合を全記事点検: 新規の問題0(draft 5本は2026-09-22の既存下書き)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "seo-audit環境修復"
+    ]
   }
 ]
