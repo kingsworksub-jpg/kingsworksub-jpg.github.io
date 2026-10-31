@@ -3022,5 +3022,21 @@
       "公開記事で関連記事リンク無し(hello除く) 3→0本",
       "次回はseo-audit・figure配置・薄い公開記事の点検"
     ]
+  },
+  {
+    "timestamp": "2026-10-31T03:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開218本を一括点検: description長・images・禁止表現(隅から隅まで等/実際に〜てみた)は全て問題なし",
+      "figure配置は冒頭figure(4本)と節中figure(7本)のみ。本文は図の横に流れる配置で機能上問題なく、変更せず",
+      "薄い記事(本文約2000字)はウイスキー深掘り10本(ballantines/black-nikka/cutty-sark/dewars/four-roses/jim-beam/johnnie-walker/kakubin/trys/white-horse)。事実確認リサーチが必要なため次回以降に回す"
+    ],
+    "files_changed": 1,
+    "status": "点検のみ完了(記事修正なし。Hatena/Ameba/note未巡回)",
+    "next_kpis": [
+      "ウイスキー深掘り10本のうち1〜2本を、事実確認のうえ加筆",
+      "本文2500字未満の公開記事 10→減少"
+    ]
   }
 ]
