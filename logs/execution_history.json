@@ -3492,5 +3492,18 @@
     "next_kpis": [
       "禁止表現0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T07:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現grep(2件は『してみたく』等の誤検知で問題なし)、description長90〜140字外0件、figure直後の短文/見出し配置を全記事で検査し異常なし。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "禁止表現0件維持"
+    ]
   }
 ]
