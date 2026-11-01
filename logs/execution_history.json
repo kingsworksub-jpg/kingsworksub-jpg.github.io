@@ -3477,5 +3477,20 @@
       "画像参照切れ0件維持",
       "ipv6-ipoe-speed-2026に正規の画像(fetch_image.py)を追加"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T06:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "tweed-jacket-street-style-2026"
+    ],
+    "actions": [
+      "禁止表現(実際に〜してみ)の全記事grepで1件検出し「袖を通すと」に修正。description/images欠落0件、画像参照切れは記事内コード例(sample.svg)のみで問題なし。Hatena/Ameba/note未巡回"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "禁止表現0件維持"
+    ]
   }
 ]
