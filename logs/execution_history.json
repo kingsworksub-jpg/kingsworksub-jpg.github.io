@@ -3409,5 +3409,18 @@
       "seo-audit環境(PIL)修復",
       "被リンク1本の記事への関連リンク追加"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T01:53:33Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開済み記事の被リンク数を再点検。被リンク0はdraft:trueの5本とhelloのみで公開記事に孤立なし。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "seo-audit環境(PIL)修復"
+    ]
   }
 ]
