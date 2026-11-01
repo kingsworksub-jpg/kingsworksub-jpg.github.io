@@ -3522,5 +3522,20 @@
     "next_kpis": [
       "禁止表現0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T09:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "tonic-water-5choice-2026"
+    ],
+    "actions": [
+      "禁止タイトル型(徹底比較等)・第三者引用表現・figureのlazy属性欠落を全記事検査。tonic-water-5choice-2026のdescriptionから『徹底比較』を『比較』に修正。Hatena/Ameba/note未巡回"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "禁止表現0件維持"
+    ]
   }
 ]
