@@ -3505,5 +3505,22 @@
     "next_kpis": [
       "禁止表現0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T08:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canada-dry-tansan-strong-deep-dive-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "oza-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "「実際に〜てみ」の禁止表現を筆者主観の自然な言い回しに修正(adult-piano-learning-2026は読者向け助言のため対象外)。seo-audit.pyはPIL破損のためこの環境では実行不可、代替でdescription/images/タイトル長を手動検査し異常なし。Hatena/Ameba/note未巡回"
+    ],
+    "files_changed": 4,
+    "status": "完了",
+    "next_kpis": [
+      "禁止表現0件維持"
+    ]
   }
 ]
