@@ -3550,5 +3550,18 @@
     "next_kpis": [
       "description/images/figure配置の異常0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T11:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のAmazonリンクtag欠落・figureのcredit欠落・alt欠落・description/images欠落を機械検査し異常なし(商品バナーimgのwidth無しは仕様通り)。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "tag/credit/alt/description/images の異常0件維持"
+    ]
   }
 ]
