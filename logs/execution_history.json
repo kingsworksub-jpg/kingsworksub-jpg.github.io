@@ -3682,5 +3682,18 @@
   "next_kpis": [
    "description/OG/画像パス異常0件維持"
   ]
+ },
+ {
+  "timestamp": "2026-11-01T21:52:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "禁止表現(あるレビュー/と評されて/実際に〜てみた/読み込んで)を全記事検索。sampler-5choice-2026の1件はサンプル読み込みの正当な用法で修正不要。内部リンク最少は1本(旧記事群)で、新規リンク追加は本文改変リスクがあるため次回候補。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "内部リンク1本のみの旧記事(2026-09-22-*)への関連記事リンク追加検討"
+  ]
  }
 ]
