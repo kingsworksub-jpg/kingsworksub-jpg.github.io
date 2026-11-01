@@ -3461,5 +3461,21 @@
     "next_kpis": [
       "seo-audit環境(PIL)修復"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T05:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ipv6-ipoe-speed-2026"
+    ],
+    "actions": [
+      "画像ファイル実在チェックで、リポジトリに存在しない画像(ipv6-router/ipv6-switch/lan-cable.png)を参照する壊れたfigure1個とバナー3個を検出し、削除(出典未確認の画像を捏造しないため)。画像の再取得はfetch_image.pyで要対応"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "画像参照切れ0件維持",
+      "ipv6-ipoe-speed-2026に正規の画像(fetch_image.py)を追加"
+    ]
   }
 ]
