@@ -3641,5 +3641,20 @@
     "next_kpis": [
       "description長・画像参照切れの異常0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T18:53:09Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "github-actions-schedule-push-guide-2026"
+    ],
+    "actions": [
+      "全公開記事のfigure(必須属性・配置位置)を機械検査。github-actions記事の『最初の1本を置く』節でコードブロック直後にあったfigureを見出し直後へ移動(CLAUDE.md figure配置ルール準拠)。他9件は導入部/段落内配置で回り込み上問題なく修正せず。hugo未導入のためビルド未確認。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "figure配置ルール違反の残件(段落直後配置)の整理"
+    ]
   }
 ]

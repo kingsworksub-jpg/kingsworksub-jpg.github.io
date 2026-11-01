@@ -102,6 +102,11 @@ permissions:
 
 ## 最初の1本を置く
 
+<figure class="photo photo--left">
+<a href="https://docs.github.com/ja/actions/concepts/runners/github-hosted-runners" target="_blank" rel="noopener"><img src="/images/gh-actions/server-rack.jpg" alt="データセンターの床にしゃがみ、ラックの前に置いたノートパソコンを見ながら配線を確かめる技術者の後ろ姿" width="220" height="146" loading="lazy"></a>
+<figcaption>ワークフローが動くランナーも、どこかのデータセンターに並ぶ機械の上で起動しては消えていく<span class="credit">Photo: Derrick Coetzee / <a href="https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
+</figure>
+
 ここまでの内容をまとめて、毎週月曜の朝にリポジトリ内の Python スクリプトを動かすワークフローを1本書くと、次のようになる。
 
 ```yaml
@@ -130,11 +135,6 @@ jobs:
           python-version: '3.13'
       - run: python scripts/report.py
 ```
-
-<figure class="photo photo--left">
-<a href="https://docs.github.com/ja/actions/concepts/runners/github-hosted-runners" target="_blank" rel="noopener"><img src="/images/gh-actions/server-rack.jpg" alt="データセンターの床にしゃがみ、ラックの前に置いたノートパソコンを見ながら配線を確かめる技術者の後ろ姿" width="220" height="146" loading="lazy"></a>
-<figcaption>ワークフローが動くランナーも、どこかのデータセンターに並ぶ機械の上で起動しては消えていく<span class="credit">Photo: Derrick Coetzee / <a href="https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg" target="_blank" rel="noopener">CC0</a></span></figcaption>
-</figure>
 
 手順の一つめ `actions/checkout` は、ランナーの上にリポジトリの中身を取り出すアクションで、ほぼすべてのワークフローの先頭に置く。まっさらなランナーには何もないので、これを忘れるとスクリプトが見つからずに失敗する。二つめの `actions/setup-python` は、指定した版の Python を用意する。どちらも GitHub が公式に配布しているアクションで、2026年10月時点ではどちらも v7 が最新だ。古い記事の例をそのまま写すと v3 や v4 のような古い版を指定していることがあるので、使う前に各アクションの公開ページで最新の版を確かめておくとよい。
 
