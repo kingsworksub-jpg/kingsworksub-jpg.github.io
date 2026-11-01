@@ -3602,5 +3602,18 @@
     "next_kpis": [
       "figure配置・alt欠落の異常0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T15:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事の禁止表現(隅から隅まで/味わい尽くす/実際にしてみた/あるレビューでは等)0件、description/images欠落0件、categories欠落0件を確認。tags未設定の公開記事12本は任意項目のため修正せず。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "禁止表現0件・frontmatter必須項目欠落0件維持"
+    ]
   }
 ]
