@@ -3615,5 +3615,18 @@
     "next_kpis": [
       "禁止表現0件・frontmatter必須項目欠落0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T16:52:55Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全223記事のタイトル長(70字超0件)・H2数・内部リンク有無・本文長を機械検査。異常なし(短い記事5本は draft:true の下書き)。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "タイトル長・内部リンク欠落の異常0件維持"
+    ]
   }
 ]
