@@ -3589,5 +3589,18 @@
     "next_kpis": [
       "description長・画像実在の異常0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T14:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全223記事でfigure直後の見出し/---/figure連続・alt欠落を機械検査。異常0件(awk-svg記事のimg検出は本文中のコード表記で誤検知)。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "figure配置・alt欠落の異常0件維持"
+    ]
   }
 ]
