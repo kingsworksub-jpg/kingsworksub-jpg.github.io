@@ -3563,5 +3563,18 @@
     "next_kpis": [
       "tag/credit/alt/description/images の異常0件維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T12:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現(隅から隅まで/あるレビューでは等)の再検査と、h1混入・h2不足・長すぎるタイトルを全223記事で機械検査。実害のある異常なし(sampler記事の『読み込んで』はサンプル読込の意で問題なし、h1検出はコードコメント)。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "禁止表現0件・見出し構造異常0件維持"
+    ]
   }
 ]
