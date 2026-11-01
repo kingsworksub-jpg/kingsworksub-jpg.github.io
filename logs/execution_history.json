@@ -3395,5 +3395,19 @@
     "next_kpis": [
       "全223記事が一巡済み。次回以降は内部リンク網の強化とseo-audit環境(PIL)修復"
     ]
+  },
+  {
+    "timestamp": "2026-11-01T00:53:39Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "内部リンク網を点検: 被リンク最少は1本(hello除く)で孤立記事なし。ipv6-ipoe-speed-2026はmesh-wifi記事と相互リンク済みを確認。修正不要。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "seo-audit環境(PIL)修復",
+      "被リンク1本の記事への関連リンク追加"
+    ]
   }
 ]
