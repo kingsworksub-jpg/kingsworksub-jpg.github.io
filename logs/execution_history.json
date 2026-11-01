@@ -3708,5 +3708,18 @@
   "next_kpis": [
    "内部リンク検査は絶対URL・相対URL両方を数える"
   ]
+ },
+ {
+  "timestamp": "2026-11-01T23:52:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "全公開記事のfrontmatter検査(description長80-140字・OG画像実在・禁止タイトル表現・figure直後の見出し/区切り)を実施、異常0件。seo-audit.pyは環境のPIL不具合で実行不可。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "検査異常0件の維持"
+  ]
  }
 ]
