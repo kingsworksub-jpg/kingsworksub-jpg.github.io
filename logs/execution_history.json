@@ -3760,5 +3760,18 @@
   "next_kpis": [
    "薄い深掘り記事(1,700字未満)の加筆検討"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T03:52:57Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "全223記事のfrontmatter(description長90-140字・OG画像実在)、/images参照の実在、Amazonリンクのtag付与、禁止表現を検査。異常0件。seo-audit.pyはPillow未対応のため実行不可(環境制約)。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "検査異常0件の維持"
+  ]
  }
 ]
