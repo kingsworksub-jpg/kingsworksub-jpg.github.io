@@ -24,6 +24,12 @@ Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔�
 
 ## 夏の頂点——72年目の Newport と 60年目の Montreux
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/montreux-lakeside-2026.jpg" alt="2026年モントルー・ジャズ・フェスティバル、夕暮れのレマン湖畔に集う観客" width="220" height="308" loading="lazy"></a>
+<figcaption>2026年のMontreux。夕陽のレマン湖畔に人が集う</figcaption>
+<span class="credit">Photo: Kalai Ramu / Wikimedia Commons (CC BY-SA 4.0)</span>
+</figure>
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy"></a>
 <figcaption>2025年のNewportに立つThe RootsのBlack Thought</figcaption>
@@ -39,12 +45,6 @@ Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend
 同じ7月、スイス・モントルーでは第60回を迎える「Montreux Jazz Festival」が開幕する。7月3日から18日間、ロング・ラン。250,000人以上が集う世界最大級のジャズ・フェスティバルだ。
 
 Montreux は規模だけではなく、「文化的影響力」で Newport と双璧を成している。かつて Prince、Ella Fitzgerald、Miles Davis といった巨人たちがこの地で演奏し、録音された「Live at Montreux」は歴史の証言となった。2026年、Montreux は 60周年を記念して、会場の全面改装を実施した。新しい Duplex（電子音楽用の二階建てクラブ空間）、Paloma（ビーチ・クラブ）、そして再生された Stravinski Auditorium が、旧来の「音楽の権威」を、21世紀のコンテンポラリー・カルチャー・フェスティバルへと変身させた。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/montreux-lakeside-2026.jpg" alt="2026年モントルー・ジャズ・フェスティバル、夕暮れのレマン湖畔に集う観客" width="220" height="308" loading="lazy"></a>
-<figcaption>2026年のMontreux。夕陽のレマン湖畔に人が集う</figcaption>
-<span class="credit">Photo: Kalai Ramu / Wikimedia Commons (CC BY-SA 4.0)</span>
-</figure>
 
 何より驚くべきは、Montreux の「無料プログラム」の充実だ。700以上のコンサート、DJ セット、エクスペリエンス・イベントのうち、**半分以上が無料で公開されている**。つまり、チケット代を払える人だけの祭典ではなく、スイス全土の文化的資産として機能している。22カ国から集う音楽家たち。その半分以上が「Montreux 出演がスイスでの唯一の公演」という立場になるほど、このイベントは北米と欧州を結ぶ音楽の結節点だ。
 
