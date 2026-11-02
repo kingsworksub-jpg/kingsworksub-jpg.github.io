@@ -3734,5 +3734,18 @@
   "next_kpis": [
    "検査異常0件の維持"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T01:55:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "公開記事のfigure配置(見出し直後・左右交互・width/height/alt/loading属性)を全件検査。9記事は冒頭リード画像または同一セクション内の2枚目画像で意図的配置のため修正不要と判断。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "figure配置の異常0件の維持"
+  ]
  }
 ]
