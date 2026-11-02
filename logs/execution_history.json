@@ -3799,5 +3799,18 @@
   "next_kpis": [
    "figure配置違反5件の目視確認と、セクション分割による解消"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T07:00:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "公開記事のdescription長(90-160字)・images有無・内部リンク(/posts/)の宛先・/images/参照の実在を全件検査。異常0件。figure配置違反5件は前回から継続保留(目視確認待ち)。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "検査異常0件の維持"
+  ]
  }
 ]
