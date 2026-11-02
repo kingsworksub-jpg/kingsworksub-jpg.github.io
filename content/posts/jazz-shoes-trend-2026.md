@@ -49,6 +49,11 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 
 ## 街に広がって
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/celine-ss26-suited-booted.jpg" alt="ダブルブレストのスーツにジャズシューズを合わせたセリーヌ 2026年春夏のルック" width="1600" height="2400" loading="lazy"></a>
+<figcaption>「スーツ+正装」の着こなしにも一足のジャズシューズで<span class="credit">Photo: Estrop / Getty Images</span></figcaption>
+</figure>
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/street-style-white-tee-midi.jpg" alt="白いTシャツとミディスカートにカラフルなジャズシューズを合わせたストリートスタイル" width="1600" height="2400" loading="lazy"></a>
 <figcaption>白Tシャツ×ミディスカート×ジャズシューズ — 夏の定番の組み合わせ<span class="credit">Photo: Edward Berthelot / Getty Images</span></figcaption>
@@ -57,11 +62,6 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 この流れがセレブリティたちを経て街に降りてきている。リリー・コリンズはフランス的な着こなしの定番として、マーク・ジェイコブスはジャズシューズに真っ直ぐのデニムを合わせて履いている。シャーリーズ・セロンはボッテガ・ヴェネタの一足で、ベネチア国際映画祭ではマギー・ギレンホールやエマ・コリンが足元にこの靴を選んだ。ハイストリートにも広がり、ザラやCOS、マンゴあたりなら気軽に試せる価格帯で手に入る。ダンサーたちが自前の道具として作ってきただけあって、20,000歩歩くのが前提の普段遣いにも、十分耐えてくれるはずだ。
 
 あわせ方は、穿き慣れたデニムが外れない。マーク・ジェイコブスとギャンズブールが、50年を隔ててまったく同じ組み合わせで履いているのは面白い。白いTシャツにミディスカート、あるいはフレンチリヴィエラ風の白いリネンシャツに。ダブルブレストのブレザーを羽織れば、落ち着いた大人の正装にもなる。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/celine-ss26-suited-booted.jpg" alt="ダブルブレストのスーツにジャズシューズを合わせたセリーヌ 2026年春夏のルック" width="1600" height="2400" loading="lazy"></a>
-<figcaption>「スーツ+正装」の着こなしにも一足のジャズシューズで<span class="credit">Photo: Estrop / Getty Images</span></figcaption>
-</figure>
 
 バレエフラットが履かれる前、ダンスシューズは舞台のために生まれた。そのルーツを守りながら、ジャズシューズは今、日常の靴として復活している。細くてしなやかで、それでいてちゃんと歩ける。2026年のフラットシューズを選ぶなら、まずこの一足から考えてみるのがよさそうだ。
 

@@ -15,6 +15,12 @@ ogImageHeight: 630
 
 ## ジャズスタイルの起源——音楽と装いの一体性
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
+<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった</figcaption>
+<span class="credit">Photo: Pexels / Oscar Steiner</span>
+</figure>
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/jazz-saxophone.jpg" width="240" height="320" alt="Jazz saxophonist performing" loading="lazy"></a>
 <figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある</figcaption>
@@ -25,12 +31,6 @@ ogImageHeight: 630
 ジャズの時代性を理解する上で、ファッションの役割は見落とされることが多い。だが1920年から1960年代にかけて、ジャズメンの装いは単なる流行ではなく、彼らの社会的立場と音楽的哲学を映す鏡だった。
 
 禁酒法時代のハーレムで生まれたジャズは、支配的な白人社会に対する黒人文化の主張だった。その時、ジャズメンたちはどう装ったのか。彼らは白人の上流階級が着るスーツを着た。ただし、その着こなしは異なっていた。ピンストライプは細く、シャープに。ダブルブレストは幅広く、大胆に。靴は光らせ、ハットは深くかぶった。既存のファッション言語を使いながら、それを反転させ、新しい意味を与えたのである。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
-<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった</figcaption>
-<span class="credit">Photo: Pexels / Oscar Steiner</span>
-</figure>
 
 ビバップの時代、Charlie ParkerやDizzy Gillespieが演奏していたのは、同時にこうした美学でもあった。彼らのスーツは、単なる正装ではなく、音楽の外部表現だった。激しいビバップのフレーズと同じように、細いピンストライプは極限まで引き詰められ、ダブルブレストのボタンは幾何学的な秩序を持たせられた。
 

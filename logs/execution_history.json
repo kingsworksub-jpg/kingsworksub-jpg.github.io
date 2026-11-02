@@ -3826,5 +3826,24 @@
    "検査異常0件の維持",
    "figure配置違反5件の目視確認"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T08:53:38Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [
+   "hammond-b3-jazz-organ-2026",
+   "jazz-festivals-2026",
+   "jazz-shoes-trend-2026",
+   "jazz-style-fashion-revival-2026",
+   "jazz-style-menswear-2026"
+  ],
+  "actions": [
+   "保留していたfigure配置違反5件を、CLAUDE.mdのルール(figureはセクション見出し直後・本文段落の直前)に合わせ、段落の途中にあったfigureを直前の見出し直後へ移動(本文は無変更)。hugo未導入のためビルド確認は未実施、figureの開閉数は一致を確認。冒頭リード用figure(---直後)は意図的配置として対象外。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 6,
+  "status": "完了(ビルド未確認)",
+  "next_kpis": [
+   "次回デプロイ後に5記事の回り込み表示を目視確認"
+  ]
  }
 ]
