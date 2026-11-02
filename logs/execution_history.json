@@ -3786,5 +3786,18 @@
   "next_kpis": [
    "検査異常0件の維持"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T05:52:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "全公開記事のfigure配置(見出し直後ルール)を走査。違反候補はhammond-b3-jazz-organ-2026(46行目)、jazz-festivals-2026(43行目)、jazz-shoes-trend-2026(61行目)、jazz-style-fashion-revival-2026(29行目)、jazz-style-menswear-2026(58行目)の5件で、いずれも同一セクション内2枚目の図。本文と図の対応が崩れるため移動せず保留(人の目視確認が必要)。冒頭図(frontmatter直後)3件は意図的で問題なし。dr-pepper/record-stylus-lifespanの商品バナーimgにwidth/height無しだがCSS固定サイズのため問題なし。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "figure配置違反5件の目視確認と、セクション分割による解消"
+  ]
  }
 ]
