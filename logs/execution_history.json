@@ -3990,5 +3990,21 @@
       "budget-whisky-10choice-2026の画像height=4096の確認",
       "PIL復旧後にvalidate_post/seo-audit実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-02T22:53:21Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "dewars-white-label-deep-dive-2026"
+    ],
+    "actions": [
+      "リード文がdescriptionと重複気味だったため書き直し、「飲み方の相性」「同価格帯のスコッチと比べて」を加筆(薄い深掘り記事2本目)。ビルド/validate_postは未実行。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了(一部のみ)",
+    "next_kpis": [
+      "残りの薄い深掘り記事(suntory-trys/jim-beam/johnnie-walker-red/four-roses)の加筆",
+      "PIL復旧後にvalidate_post/seo-audit実行"
+    ]
   }
 ]
