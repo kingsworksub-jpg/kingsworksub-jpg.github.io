@@ -3747,5 +3747,18 @@
   "next_kpis": [
    "figure配置の異常0件の維持"
   ]
+ },
+ {
+  "timestamp": "2026-11-02T03:00:00Z",
+  "site": "Kingsworksub (GitHub Pages)",
+  "articles_improved": [],
+  "actions": [
+   "全公開記事のH2数・内部リンク有無・本文量を点検。本文1,600〜2,500字の薄めの深掘り記事13本を確認したが、いずれも関連記事リンクあり。加筆にはリサーチが必要なため今回は見送り(候補: dewars-white-label / white-horse-fineold / suntory-trys / jim-beam-white / johnnie-walker-red の各deep-dive)。Hatena/Ameba/note未巡回(改定案なし)"
+  ],
+  "files_changed": 1,
+  "status": "完了(修正なし)",
+  "next_kpis": [
+   "薄い深掘り記事(1,700字未満)の加筆検討"
+  ]
  }
 ]
