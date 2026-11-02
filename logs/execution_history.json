@@ -3931,5 +3931,19 @@
       "PIL復旧後にseo-audit.py --check-linksを実行",
       "異常0件の維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-02T17:58:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のタイトル重複・description重複・タイトル長(60字超)を点検、違反0件。本文3000字未満の公開記事はウイスキー深掘り系(white-horse-fineold/black-nikka-clear/suntory-kakubin/four-roses-yellow/cutty-sark 各2000〜2500字)とjazz-new-albums(2828字)。事実確認の裏取り(リサーチ)が必要なため今回は修正せず、次回以降の加筆候補として記録。2026-09-22-*系の短文は draft:true で非公開。seo-audit.pyはPIL不具合で実行不可。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "薄い深掘り記事5本の加筆(リサーチ付き)",
+      "PIL復旧後にseo-audit.py --check-linksを実行"
+    ]
   }
 ]
