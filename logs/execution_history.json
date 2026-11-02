@@ -4006,5 +4006,21 @@
       "残りの薄い深掘り記事(suntory-trys/jim-beam/johnnie-walker-red/four-roses)の加筆",
       "PIL復旧後にvalidate_post/seo-audit実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-02T23:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "suntory-trys-deep-dive-2026"
+    ],
+    "actions": [
+      "リード文を書き直し、「ハイボールと水割りでの扱いやすさ」「角瓶と並べると見えること」を加筆(薄い深掘り記事3本目)。ビルド/validate_postは未実行(PIL破損)。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了(一部のみ)",
+    "next_kpis": [
+      "残りの薄い深掘り記事(jim-beam-white/johnnie-walker-red/four-roses-yellow)の加筆",
+      "PIL復旧後にvalidate_post/seo-audit実行"
+    ]
   }
 ]
