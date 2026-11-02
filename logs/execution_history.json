@@ -3887,5 +3887,21 @@
       "PIL復旧後にseo-audit.py --check-linksを実行",
       "異常0件の維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-02T12:56:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "charlie-brown-christmas-guaraldi-trio-2026"
+    ],
+    "actions": [
+      "全223記事のtitle長・description長・H2数・アフィリエイトタグを点検。唯一の超過(title68字)だったcharlie-brownを約45字に短縮(キーワードを先頭に維持)。OG画像は環境のPIL/Windowsフォント不備のため再生成できず未更新。seo-audit.pyはPIL不具合で実行不可。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "ローカルPCでog-image-generatorによりcharlie-brownのOG画像を再生成",
+      "異常0件の維持"
+    ]
   }
 ]

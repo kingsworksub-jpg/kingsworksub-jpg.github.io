@@ -1,5 +1,5 @@
 ---
-title: "『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか。ヴィンス・ガラルディのピアノトリオと子どもの合唱"
+title: "『A Charlie Brown Christmas』が毎年12月に戻る理由、ガラルディのピアノトリオと子どもの合唱"
 description: "『A Charlie Brown Christmas』の音楽は60年たった今も毎年12月にチャートへ戻る。ピアノ、ベース、ドラムだけの編成と揃いきらない子どもの合唱から、ガラルディ・トリオが季節の音になった理由をたどる。"
 images: ["/images/og/charlie-brown-christmas-guaraldi-trio-2026.jpg"]
 ogImageWidth: 1200
