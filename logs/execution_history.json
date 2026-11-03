@@ -4054,5 +4054,21 @@
       "残りの薄い深掘り記事(four-roses-yellow)の加筆",
       "ビルド可能な環境でvalidate_post/seo-audit実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-03T04:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "four-roses-yellow-deep-dive-2026"
+    ],
+    "actions": [
+      "リード文とdescriptionを書き直し、「ロック・ハイボールでの向き不向きと、ジムビームとの違い」を加筆(薄い深掘り記事6本目、一連の加筆は完了)。hugo/PIL未導入でビルド・seo-audit・validate_postは未実行。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了(一部のみ)",
+    "next_kpis": [
+      "ビルド可能な環境でvalidate_post/seo-audit実行",
+      "次回は古い記事のtitle/見出し点検へ"
+    ]
   }
 ]
