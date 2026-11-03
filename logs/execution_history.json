@@ -4022,5 +4022,21 @@
       "残りの薄い深掘り記事(jim-beam-white/johnnie-walker-red/four-roses-yellow)の加筆",
       "PIL復旧後にvalidate_post/seo-audit実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-03T00:53:13Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jim-beam-white-deep-dive-2026"
+    ],
+    "actions": [
+      "リード文を書き直し、「ハイボール・コーラ割りの作り方と向き不向き」「同価格帯のバーボンと並べると」を加筆(薄い深掘り記事4本目)。hugo未導入でビルド/validate_postは未実行。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 2,
+    "status": "完了(一部のみ)",
+    "next_kpis": [
+      "残りの薄い深掘り記事(johnnie-walker-red/four-roses-yellow)の加筆",
+      "ビルド可能な環境でvalidate_post/seo-audit実行"
+    ]
   }
 ]
