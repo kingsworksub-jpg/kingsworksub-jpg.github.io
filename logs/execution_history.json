@@ -4070,5 +4070,19 @@
       "ビルド可能な環境でvalidate_post/seo-audit実行",
       "次回は古い記事のtitle/見出し点検へ"
     ]
+  },
+  {
+    "timestamp": "2026-11-03T06:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "未点検だった2記事(beaujolais-nouveau-carbonic-maceration-2026 / synology-ds225plus-photo-backup-nas-2026)を点検: description・images・見出し構造・figure配置とも問題なし、解禁日(11/19木)も正しい。全記事のfigure配置(見出し直後ルール)を一括チェックし違反なし(アイキャッチ4件は意図的)。修正なし。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 1,
+    "status": "完了(修正なし)",
+    "next_kpis": [
+      "全記事が一巡済み。ビルド可能な環境でvalidate_post/seo-audit --check-links実行",
+      "公開から時間の経った記事の外部リンク切れ確認"
+    ]
   }
 ]
