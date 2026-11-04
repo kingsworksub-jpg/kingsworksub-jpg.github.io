@@ -14,10 +14,34 @@ X (Twitter) への投稿。はてな/note/ameba と同じ方式: Chromium の永
 
 import argparse
 import os
+import re
 import sys
 import time
 
 from playwright.sync_api import sync_playwright
+
+_URL_RE = re.compile(r"https?://\S+")
+
+
+def x_weighted_len(text):
+    """Xの実際の280字カウント方式を再現する。全角(CJK等)は2、半角は1として数え、
+    URLはt.co圧縮により実際の長さに関わらず常に23字分として数える。"""
+    text = _URL_RE.sub("x" * 23, text)
+    total = 0
+    for ch in text:
+        cp = ord(ch)
+        wide = (
+            0x1100 <= cp <= 0x115F
+            or 0x2E80 <= cp <= 0xA4CF
+            or 0xAC00 <= cp <= 0xD7A3
+            or 0xF900 <= cp <= 0xFAFF
+            or 0xFF00 <= cp <= 0xFF60
+            or 0xFFE0 <= cp <= 0xFFE6
+            or 0x1F300 <= cp <= 0x1FAFF
+            or 0x20000 <= cp <= 0x3FFFD
+        )
+        total += 2 if wide else 1
+    return total
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROFILE = os.path.join(BASE, "data", "x_user_data")
@@ -161,8 +185,13 @@ def main():
         if not text:
             print("Error: --text か --text-file のいずれかで投稿文を指定してください。")
             sys.exit(1)
-        if len(text) > 280:
-            print(f"Error: 投稿文が280文字を超えています({len(text)}文字)。")
+        weighted = x_weighted_len(text)
+        if weighted > 280:
+            print(
+                f"Error: Xの加重文字数が280を超えています(加重{weighted} / 生の文字数{len(text)})。"
+                " 全角文字は2字分、URLはt.co圧縮で23字分として数えられるため、"
+                " 日本語本文は見た目の字数より早く上限に達します。本文を短くしてください。"
+            )
             sys.exit(1)
 
         ctx = open_browser(p)
