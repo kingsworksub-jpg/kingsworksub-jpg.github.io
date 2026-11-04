@@ -83,4 +83,4 @@ Bogusflowの音楽は、どちらかというとスピリチュアルで内向�
 
 ステージを渡り歩く彼の音楽人生は、いまだに終わる気配がない。Héroes del Silencioの裏方として鳴らしたリズムギターも、自宅録音の内向的なエッセイも、ネイティブの笛の音も、弦楽四重奏の新しい組曲も。すべては、同じひとりのギタリストの声だ。カメラに映らなくても、そこに居続けた男の、静かで確かな存在感。それこそが——Alan Boguslavskyという「5人目の男」のステージなのだ。
 
-**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [バレエフラットの次はジャズシューズ、2026年の足元に響く70年代](/posts/jazz-shoes-trend-2026/)
+**関連記事**: [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [バレエフラットの次はジャズシューズ、2026年の足元に響く70年代](/posts/jazz-shoes-trend-2026/)

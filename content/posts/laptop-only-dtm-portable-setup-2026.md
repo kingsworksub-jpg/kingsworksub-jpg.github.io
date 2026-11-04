@@ -122,8 +122,8 @@ CPUの余裕が足りないときは、重い音源やエフェクトを使っ�
 ## 関連記事
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [MIDIキーボード5台比較](/posts/midi-keyboard-5choice-2026/)
-- [オーディオインターフェース5台比較](/posts/audio-interface-5choice-2026/)
+- [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/)
+- [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/)
 - [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](/posts/monitor-headphones-5choice-2026/)
 - [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - [3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ](/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/)
