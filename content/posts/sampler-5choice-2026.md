@@ -151,4 +151,4 @@ aliases:
 道具に人格はないはずなのに、使い込むほどに「こいつ、こういう性格だったのか」と気づく瞬間がある。サンプラー選びは、性能だけでなく、自分の作業スタイルに合う「相性」を見つける作業でもあるのだと思う。
 
 
-**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)
+**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](/posts/kontakt-8-player-and-builder-2026/) · [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/) · [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](/posts/fl-studio-pattern-piano-roll/)
