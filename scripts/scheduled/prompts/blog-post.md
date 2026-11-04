@@ -1,12 +1,11 @@
 # ブログ記事の投稿（キューから1件・無人実行）
 
-Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、`scripts/topic_plan.py` の
-`slots_for_date` で定義。2026-10-08、1日6投稿・時間帯別タイムテーブルに改修）無人で起動されている。各回はアクセスピークの
-30〜60分前に当たり、時間帯ごとに配信先チャンネル（github/hatena/ameba/note の4つ）と記事の性格（実用寄り/理論・エッセイ寄り）が
-決まっている。**プラットフォーム平均化ルール（2026-10-11）**: 20:00と23:00の2枠は、日付の偶数/奇数（JST）でチャンネルが
-入れ替わる（偶数日20:00=ameba・奇数日20:00=hatena、偶数日23:00=note・奇数日23:00=github）。これにより4チャンネルとも
-2日間で12枠中3枠ずつ（平均1.5記事/日）になり、特定のプラットフォームだけ投稿数が偏らないようになっている。
-実際にどのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（当日の曜日や日付から手計算しない）。
+Windows タスクスケジューラから1日9回（07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00、
+`scripts/topic_plan.py` の `slots_for_date` で定義。2026-10-22、1日9投稿・時間帯別タイムテーブルに改修）無人で起動されている。
+9枠は **hatena・ameba・note にそれぞれ3枠ずつ**で、毎日同じ配分（隔日の入れ替えはない）。**GitHub Pages はスロットを持たず、
+どのチャンネルの記事も公開と同時に必ずデプロイされる（別枠・全記事）**。各回はアクセスピークの30〜60分前に当たり、
+時間帯ごとに記事の性格（実用寄り/理論・エッセイ寄り）が決まっている。
+どのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（時刻から手計算しない）。
 人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
 
 コマンドはすべてリポジトリのルート（`C:\Users\norio\my-github-blog`）で実行する。Python は `python`。
@@ -16,28 +15,30 @@ Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:0
 
 1. `git pull --rebase origin main`
 2. `python scripts/topic_plan.py health` が **3以上**なら、連続失敗のため何もせず「停止中（連続失敗）」と出力して終了する。
-3. `python scripts/topic_plan.py today-count` が **6以上**なら「本日の上限（6記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
+3. `python scripts/topic_plan.py today-count` が **9以上**なら「本日の上限（9記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
 4. `python scripts/topic_plan.py slot` でこの回の時間帯スロット（`time` / `channel` / `label`、`categories` か `article_types` の優先条件）を確認する。
    この後の「ネタを取り出す」「チャンネル判定」「クロスリンク挿入」はこのスロット情報に沿って動く。
 
 ## 2. ネタを取り出す
 
-`python scripts/topic_plan.py claim` を実行する。内部でも同じスロット判定が働き、現在のスロットのチャンネル・優先条件に合う
-承認済みネタを優先して選ぶ（合うネタが無ければチャンネルだけ合うネタ、それも無ければ通常の優先順位にフォールバックする）。
+`python scripts/topic_plan.py claim` を実行する。内部でも同じスロット判定が働き、**現在のスロットと同じチャンネルの
+承認済みネタだけ**を選ぶ（他チャンネルのネタにはフォールバックしない。毎日3本ずつを保つため）。
 Android アプリで削除されたネタはここで自動的に除外され、アプリから追加されたネタ（`scripts/topic-requests/*.json`）はここでキューに取り込まれて最優先で選ばれる。
-- 出力が `{"empty": true}` なら、`scripts/scheduled/prompts/topic-planning.md` の手順3〜7を**1件分だけ**行ってキューに足し、もう一度 claim する。
+- 出力が `{"empty": true}` なら、今回のスロットのチャンネルに合うネタが無いということ。
+  `scripts/scheduled/prompts/topic-planning.md` の手順3〜7を**1件分だけ**行い、**必ずこのスロットのチャンネル**
+  （hatena / ameba / note）のカテゴリーでキューに足してから、もう一度 claim する。
 - 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。出力には `channel`（配信先）・`slot_time`・`slot_label`
   （今回のスロット）も含まれる。ここで一度
   `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/topic-requests && git commit -m "Claim <id>" && git push origin main`。
 - **アプリから追加されたネタ**（`source_of_idea: "user"`、`needs_research: true`）は、テーマとメモしか無い。`sources`・`images`・`keywords` は
-  このあとの手順で自分で集める。`category` が空なら、まず手順1で確認した今回のスロットのチャンネル（github/hatena/ameba/note）に合う既存カテゴリーから、
+  このあとの手順で自分で集める。`category` が空なら、手順1で確認した今回のスロットのチャンネル（hatena / ameba / note）に合う既存カテゴリーから、
   内容に合うものを選ぶ（合わなければ新カテゴリーも可）。`article_type` が空なら記事の型を決める。メモ（`angle`）はユーザーの希望なので必ず反映する。
 - **チャンネル判定**: 取り出したネタの出力に含まれる `channel` フィールドに基づき、以下の配信先を決定する。
-  - `github` → GitHub Pages へのみ投稿（はてな・ameba・note への転載はしない）
-  - `hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿
-  - `ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載
-  - `note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信
-  - `channel` フィールドが無い場合はデフォルトで `github` となる。
+  GitHub Pages はどのチャンネルでも必ずデプロイされる（別枠・全記事）ので、ここでは外部転載先だけを見る。
+  - `hatena` → はてなブログ API で全文投稿
+  - `ameba` → Ameba ブログへ全文転載
+  - `note` → note 投稿スクリプト経由で送信
+  - `github` → 外部転載はしない（`lab` / `notes` は投稿スロット外。通常は選ばれない）
 
 ## 3. リサーチ
 
@@ -60,7 +61,7 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 - 記事の型はネタの `article_type` に従う（deep-dive / comparison / theme / styling / guide）。
 - **タイトル**: CLAUDE.md の規則どおり、記事ごとに言い回しを変える。固定の型（全機能解剖／味と仕様／仕様と使い方／の現在地／徹底比較）は禁止。
   書く前に `content/posts/` の最近のタイトルを数本見て、同じ構文を続けない。
-- 文体: 素直で丁寧な一人称。他サイト・媒体名を根拠にしない。情報源や調べ方に触れない。所持に触れない。「実際に〜してみた」禁止。
+- 文体: 素直で丁寧な一人称。他サイト・媒体名を根拠にしない。情報源や調べ方に触れない。所持に触れない。「実際に〜してみた」禁止。読者がその製品・アイテムを手に入れたときの体験価値（ベネフィット）や日常の劇的な変化をエモーショナルに描き出し、自然な購買・導入意欲を高める構成とすること。
 - 本文は日本語のみ（中国語・英語の文章を混ぜない）。深掘り・テーマ記事は5,000字前後以上。見出し（##）は3つ以上。
 - frontmatter: `title` / `description`（110〜120字）/ `images: ["/images/og/<slug>.jpg"]` / `date`（**現在時刻より前**、+09:00）/
   `categories: ["<category>"]` / `tags` / `draft: false` / `scheduled_time: "<slot の time>"`（手順1で確認したこの回のスロット時刻。
@@ -90,13 +91,14 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 
 ## 5b. Amebaチャンネル専用フォーマット（channel: ameba の場合）
 
-Amebaブログは「飲料・お酒のディープノウハウメディア」として運用する。`channel: ameba` の記事は以下の標準構成とトーンに従う。
+Amebaブログは「ドリンク・飲料と酒の分析、カクテルの歴史やレシピ、ドリンク関連のツールやハック」に特化した専門ブログとして運用する。`channel: ameba` の記事は以下の標準構成とトーンに従う。
 
 ### カテゴリーと記事型の対応
-- `drink-lab`（分析・成分・比率）: 数値データ、成分表、比較実験を軸にした検証記事
-- `drink-recipe`（レシピ・割り方・ハック）: 具体的な配合比率、手順、裏技を解説する実用記事
-- `drink-tools`（ツール・ギア）: ソーダメーカー・炭酸ストッパー・氷・グラスなどの道具レビュー
-- `drink`（飲料）: 既存の深掘り記事（成分・歴史・飲み比べ）
+- `drink-lab`（分析・成分・比率）: 数値データ、成分表、アルコール度数や配合の科学的分析を軸にした検証記事
+- `drink-recipe`（歴史・レシピ・カクテル）: カクテルの歴史的背景、伝統的レシピ、具体的な配合比率を解説する実用・文化記事
+- `drink-tools`（ツール・ギア）: グラス、シェイカー、ジガー、炭酸水メーカーなどの道具やバー用品レビュー
+- `drink-hack`（ハック・裏技）: 氷の作り方、冷やし方、保存法、割り方のテクニック等のハック
+- `drink`（飲料）: 各種飲料・お酒の総合的な深掘り記事（成分・歴史・飲み比べ）
 
 ### 標準構成（テンプレート）
 1. **導入** — なぜ今このテーマか、読者が得るメリットを1〜2文で
@@ -136,24 +138,31 @@ Amebaブログは「飲料・お酒のディープノウハウメディア」と
    - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
    - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
    - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
-4. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
+4. **X (Twitter) への投稿(全チャンネル共通、2026-11-04 正式復活)**: 上記の外部転載が終わった後、GitHub Pagesの記事URL
+   (`https://kingsworksub-jpg.github.io/posts/<slug>/`)を使って自分でポスト文面を作る。
+   - 条件: 140〜200字程度。読者の興味を惹くフックを1つ。記事タイトル・核心を簡潔に。ハッシュタグ1〜2個(記事内容に合うもの)。
+     最後に改行してGitHub Pagesの記事URLを必ず入れる。全体で280字以内に収める。
+   - 誇張・煽り系の表現(「必見」「永久保存版」等の多用)は避け、他の文体ルールと同程度に抑える。
+   - 文面を一時ファイル(例 `/tmp/x-post-<slug>.txt`)に保存し、`python scripts/post-to-x.py --text-file /tmp/x-post-<slug>.txt --publish` を実行する。
+   - **失敗してもブログ公開自体は失敗にしない**: ログイン切れ・UI変更等でこのコマンドが失敗したら、エラーをログに残すだけで
+     次の手順に進む(他チャンネルの転載が終わっていれば記事公開は成功扱い。`topic_plan.py recover` の対象にしない)。
+5. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
 
-5. **クロスリンク挿入（CV誘導、手順1.4で確認した `channel`・`time` に応じて出し分ける。20:00/23:00は隔日でチャンネルが
-   変わるので、時刻ではなく `channel` の値で判定する）**: 記事の本文末尾（Amazonリンク等より後）に「## 関連記事」ブロックを
-   挿入する。目的は、昼間の記事から夜の主力記事への予告、夜の記事からの本家・他チャンネルへの回遊。
-   - `channel: github` または `channel: hatena`（＝朝・昼、および隔日の20:00がhatenaの回）: 下記の共通リンクに加えて、
-     まだ存在しない今夜の記事URLではなくプラットフォームのトップページへの「予告」行を1つ足す。例:
+6. **クロスリンク挿入（CV誘導、手順1.4で確認した `channel` に応じて出し分ける。時刻ではなく `channel` の値で判定する）**:
+   記事の本文末尾（Amazonリンク等より後）に「## 関連記事」ブロックを挿入する。目的は、日中の記事から夜の主力記事への予告、
+   夜の記事からの本家・他チャンネルへの回遊。
+   - `channel: hatena`: 下記の共通リンクに加えて、まだ存在しない記事URLではなくプラットフォームのトップページへの「予告」行を1つ足す。例:
      `- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)`
-   - `channel: ameba`（17:30、および隔日の20:00がamebaの回）: 下記の共通リンクのみでよい（予告行は不要）。
-   - `channel: note`（21:30・23:00）: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
-   共通フォーマット（自分が今回投稿するチャンネル以外へのリンクだけを載せる）:
-   ```
-   ## 関連記事
-   - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-   - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-   - [Amebaブログ版はこちら](https://blog.ameba.jp/)
-   - [note版はこちら](https://note.com/shining_finger01/n/XXXX)
-   ```
+   - `channel: ameba`: 下記の共通リンクのみでよい（予告行は不要）。
+   - `channel: note`: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
+    共通フォーマット（自分が今回投稿するチャンネル以外へのリンクだけを載せる。すべての媒体から必ず本陣であるGitHub Pagesへの強力な導線と、読者の興味を惹きつける回遊リンクを自動完備させる）:
+    ```
+    ## 関連記事・おすすめメディア
+    - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
+    - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
+    - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
+    - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+    ```
    ※ `XXXX` は実際のnote記事キーを執筆後に埋める。このステップの時点ではプレースホルダのまま残す。
    自分が今回投稿したチャンネルの行は含めない（例: 今回 `channel: ameba` ならAmebaの行は省く）。
 
