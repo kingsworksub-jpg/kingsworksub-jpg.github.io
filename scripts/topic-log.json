@@ -2643,6 +2643,18 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-04T23:23:57+09:00"
+  },
+  {
+   "id": "2026w43-007",
+   "category": "setup",
+   "theme": "Dolby Atmosを自宅で始める、7.1.4chのスピーカー12本より先にヘッドホンのバイノーラルから",
+   "slug": "dolby-atmos-headphone-binaural-start-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/dolby-atmos-headphone-binaural-start-2026/",
+   "hatena_entry": "14729835035334002930",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-05T07:50:32+09:00"
   }
  ]
 }
