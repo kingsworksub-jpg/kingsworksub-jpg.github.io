@@ -16,7 +16,7 @@ scheduled_time: "17:30"
 この記事では、レコード針がどのくらいもつのか、針圧を正しく合わせると何が変わるのか、MMとMCで交換のしかたがどう違うのか、そしてブラシ掛けなどの手入れでどこまで寿命を延ばせるのかを順に見ていく。例として、交換針が手に入りやすいOrtofonの2M Redと、Audio-TechnicaのVM95シリーズを取り上げる。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B000WMCEKK?tag=nakimoto1-22">
-<img src="/images/stylus-care/dual-ortofon-stylus.jpg" alt="Ortofonのカートリッジ">
+<img src="/images/stylus-care/dual-ortofon-stylus.jpg" alt="Ortofonのカートリッジ" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Ortofon 2M Red</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -117,7 +117,7 @@ MC型の交換は、MM型の交換針より費用も時間もかかる。音の�
 MM型の交換針は、カートリッジ本体を買い直すよりずっと安く手に入る。2M RedやVM95シリーズのように流通量の多いモデルなら、交換針の在庫も長く続きやすく、家電量販店や通販ですぐにそろう。購入するときは、型番が本体と合っているか（2M Red本体なら2M Red用か2M Blue用、VM95本体ならAT-VMN95で始まるもの）を必ず確かめたい。互換品として安く売られている針もあるが、針先の質や針圧の設計が純正と同じとは限らないので、迷ったら純正を選ぶのが安心だ。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22">
-<img src="/images/stylus-care/at95e.jpg" alt="Audio-Technica VM95シリーズ">
+<img src="/images/stylus-care/at95e.jpg" alt="Audio-Technica VM95シリーズ" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Audio-Technica AT-VM95E</span>
 <span class="product-banner-cta">Amazonで見る →</span>

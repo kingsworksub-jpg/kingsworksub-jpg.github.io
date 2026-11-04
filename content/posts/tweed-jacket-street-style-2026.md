@@ -13,13 +13,7 @@ ogImageHeight: 630
 
 秋風が冷たさを帯び、街路樹の葉が色づき始めると、ワードローブの主役として自然と手が伸びるのがツイードジャケットです。スコットランドやアイルランドの厳しい気候風土の中で誕生したこの目の粗いヘビーウェイトな紡毛生地は、高い防寒性と耐久性を誇るだけでなく、独特の素朴な風合いと豊かな表情で多くの服好きを魅了し続けています。今回は、クラシックな存在感を放つツイードジャケットを現代の街着としてスマートに着こなすための美学とスタイリングの極意を紐解きます。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B08H1P9N23?tag=nakimoto1-22">
-<img src="/images/products/four-roses-yellow.png" alt="クラシックツイードジャケット">
-<span class="product-banner-info">
-<span class="product-banner-name">クラシックツイードジャケット</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
-</a>
+[クラシックツイードジャケットをAmazonで見る →](https://www.amazon.co.jp/dp/B08H1P9N23?tag=nakimoto1-22)
 
 ## ツイードが持つ歴史的背景と生地の特性
 

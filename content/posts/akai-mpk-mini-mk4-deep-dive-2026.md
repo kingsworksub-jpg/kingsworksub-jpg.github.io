@@ -16,7 +16,7 @@ Akai ProfessionalのMPK Miniは、ノートパソコンの横に置ける小さ�
 この記事では、MK4で何が変わったのかを確かめながら、25鍵・8パッド・8ノブという限られた面積でどこまでの作業がまかなえるのか、そしてどこから先は上位機に任せたほうがいいのかの線引きを考えていく。小型コントローラーを選ぶときにいちばん迷うのは「この大きさで本当に足りるのか」という点だと思うので、そこに答えを出すことを目標にする。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22">
-<img src="/images/products/mpk-mini-mk4.png" alt="Akai Professional MPK Mini MK4">
+<img src="/images/products/mpk-mini-mk4.png" alt="Akai Professional MPK Mini MK4" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Akai Professional MPK Mini MK4</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -79,7 +79,7 @@ DAWとの連携は、Ableton Live、Logic Pro、FL Studio、Cubase、Bitwig向�
 付属ソフトとしては、Akai、AIR、Moogの音を集めたStudio Instrument Collectionが付いてきて、プリセットは1,000を超える。入門用のDAWとしてAbleton Live Liteのライセンスも同梱されている。パソコンと本体さえあれば、買ったその日に音を出して曲作りを始められる構成になっているのは、最初の1台として見たときの大きな長所だと思う。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22">
-<img src="/images/products/mpk-mini-mk4.png" alt="Akai Professional MPK Mini MK4">
+<img src="/images/products/mpk-mini-mk4.png" alt="Akai Professional MPK Mini MK4" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Akai Professional MPK Mini MK4</span>
 <span class="product-banner-cta">Amazonで見る →</span>

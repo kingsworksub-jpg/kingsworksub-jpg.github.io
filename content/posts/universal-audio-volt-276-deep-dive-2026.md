@@ -14,7 +14,7 @@ ogImageHeight: 630
 Universal AudioのVoltシリーズは、同社の伝統的なスタジオ機材のサウンドを手頃なUSBオーディオインターフェイスの形に落とし込んだ製品群として広く知られています。その中でも上位に位置するVolt 276は、上位機種譲りのアナログ回路をコンパクトな筐体に凝縮している点が大きな特徴です。近年のデスクトップミュージックや自宅からの配信、あるいは本格的なボーカルレコーディングに至るまで、音の質感にこだわりたいクリエイターの間で高い評価を得ています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B09JNY3M3C?tag=nakimoto1-22">
-<img src="/images/products/volt-276.png" alt="Universal Audio Volt 276">
+<img src="/images/products/volt-276.png" alt="Universal Audio Volt 276" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Universal Audio Volt 276</span>
 <span class="product-banner-cta">Amazonで見る →</span>
