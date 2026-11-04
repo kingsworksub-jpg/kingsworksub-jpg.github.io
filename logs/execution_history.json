@@ -4392,5 +4392,21 @@
       "次回: 他の古い記事(scotch-whisky-5choice-2026等)を点検",
       "ローカルでseo-audit --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-04T13:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "scotch-whisky-5choice-2026"
+    ],
+    "actions": [
+      "スコッチ比較記事の関連記事に、アイラ・シェリー樽・新蒸溜所の3記事への内部リンクを追加(各記事からは既に逆リンクあり)"
+    ],
+    "files_changed": 2,
+    "status": "完了",
+    "next_kpis": [
+      "次回: budget-whisky-10choice-2026 など他の古い記事を点検",
+      "ローカルでseo-audit --check-links実行"
+    ]
   }
 ]
