@@ -34,12 +34,12 @@ B-3でとくに大きかったのは、パーカッションと呼ばれる機�
 
 ## 91枚の歯車が鳴らす音、トーンホイールとドローバー
 
-<figure class="photo photo--left">
+<figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0CBRKV74N?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hammond-b3/drawbars.jpg" alt="ハモンドB-2の2段鍵盤と、鍵盤の上に並ぶ白と黒のドローバー" width="220" height="165" loading="lazy"></a>
 <figcaption>B-3の前身B-2。鍵盤の上に並ぶ白黒の引き棒がドローバー<span class="credit">Photo: CJ Sorg from Hendersonville, United States / CC BY-SA 2.0</span></figcaption>
 </figure>
 
-<figure class="photo photo--right">
+<figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0CBRKV74N?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hammond-b3/tonewheel-generator.jpg" alt="ハモンドオルガンのトーンジェネレーター内部。歯車状のトーンホイールとピックアップのコイルが並ぶ" width="220" height="166" loading="lazy"></a>
 <figcaption>トーンジェネレーターの内部。右の枠内に、歯車状のトーンホイールとピックアップが見える<span class="credit">Photo: Peterbecker2000 / CC BY-SA 4.0</span></figcaption>
 </figure>

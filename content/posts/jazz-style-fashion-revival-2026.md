@@ -50,7 +50,7 @@ ogImageHeight: 630
 
 ## 2026年のジャズスタイル復活——ラグジュアリーからストリートまで
 
-<figure class="photo photo--right">
+<figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/double-breasted-blazer.jpg" width="240" height="350" alt="Stylish double-breasted blazer" loading="lazy"></a>
 <figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する</figcaption>
 <span class="credit">Photo: Pexels / cottonbro studio</span>
@@ -79,7 +79,7 @@ ogImageHeight: 630
 
 ## 文化としての装い——なぜいま、ジャズスタイルなのか
 
-<figure class="photo photo--left">
+<figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy"></a>
 <figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
 <span class="credit">Photo: Pixabay / tylermike525</span>
