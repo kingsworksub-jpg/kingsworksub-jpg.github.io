@@ -1,0 +1,23 @@
+{
+ "/images/atmos-home/atmos-studio.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg/1280px-2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "TVN Group",
+  "title": "File:2017 03 31 Dolby Atmos Studio TVN Group.jpg"
+ },
+ "/images/atmos-home/ku100.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Georg_Neumann_Ku_100_Dummy_Head.jpg/1280px-Georg_Neumann_Ku_100_Dummy_Head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Georg_Neumann_Ku_100_Dummy_Head.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "EJ Posselius",
+  "title": "File:Georg Neumann Ku 100 Dummy Head.jpg"
+ },
+ "/images/atmos-home/airpods-pro.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/AirPods_Pro_%282nd_generation%29.jpg/1280px-AirPods_Pro_%282nd_generation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:AirPods_Pro_(2nd_generation).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Hajoon0102",
+  "title": "File:AirPods Pro (2nd generation).jpg"
+ }
+}
