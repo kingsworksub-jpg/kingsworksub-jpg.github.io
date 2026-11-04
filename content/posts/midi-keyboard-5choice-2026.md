@@ -143,4 +143,4 @@ MIDI 2.0の高解像度対応など、地味に長く進化を続けている律
 指先の好みだけは、文章だけでは伝えきれない部分も大きい。できれば楽器店で一度触ってから選んでほしい。
 
 
-**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)
+**関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Akai MPK Mini MK4の25鍵でできること、上位機に任せること](/posts/akai-mpk-mini-mk4-deep-dive-2026/) · [Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった](/posts/launchkey-mk4-key-range/) · [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)
