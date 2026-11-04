@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:56:38+09:00",
+ "updated": "2026-11-04T23:12:58+09:00",
  "items": [
   {
    "category": "gear",
@@ -7845,7 +7845,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-030",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-11-04T22:56:38+09:00",
@@ -7853,7 +7853,9 @@
    "content_dir": "culture",
    "slot_time": "23:00",
    "slot_label": "就寝前: ドリンク/酒分析/カクテルレシピ/ハック",
-   "last_error": "run did not publish (finished); cleaned up"
+   "last_error": "run did not publish (finished); cleaned up",
+   "slug": "bottled-cider-5choice-2026",
+   "published_at": "2026-11-04T23:12:58+09:00"
   },
   {
    "category": "sakeware",

@@ -2619,6 +2619,18 @@
    "status": "health-reset",
    "reason": "manual recovery",
    "at": "2026-11-04T07:32:32+09:00"
+  },
+  {
+   "id": "2026w42-030",
+   "category": "drink",
+   "theme": "昔ながらのサイダー、びん入りを飲み比べる",
+   "slug": "bottled-cider-5choice-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/bottled-cider-5choice-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-04T23:12:58+09:00"
   }
  ]
 }
