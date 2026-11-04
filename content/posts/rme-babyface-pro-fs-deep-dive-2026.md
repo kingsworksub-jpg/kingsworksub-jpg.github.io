@@ -14,7 +14,7 @@ ogImageHeight: 630
 プロフェッショナルから熱狂的な宅録ユーザーまで、数多くの音楽制作現場で「絶対に信頼できるオーディオインターフェイス」として名前が挙がるRMEのBabyface Pro FS。長年にわたって磨き上げられてきた堅牢なドライバ設計と、独自のクロック技術であるSteadyClock FSを搭載したこのモデルは、デスクトップオーディオのベンチマーク的存在として君臨し続けています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0875XSPZQ?tag=nakimoto1-22">
-<img src="/images/products/babyface-pro-fs.png" alt="RME Babyface Pro FS">
+<img src="/images/products/babyface-pro-fs.png" alt="RME Babyface Pro FS" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">RME Babyface Pro FS</span>
 <span class="product-banner-cta">Amazonで見る →</span>

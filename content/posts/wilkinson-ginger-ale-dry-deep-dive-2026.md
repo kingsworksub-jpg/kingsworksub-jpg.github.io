@@ -16,7 +16,7 @@ ogImageHeight: 630
 ラベルには「Since 1904」の文字がある。日本の炭酸飲料としてはかなり古参の部類で、長い歴史の中で「辛口」という方向性をぶらさずに売り続けてきたことになる。甘くない生姜の刺激がどこから来ているのか、一般的な甘口のジンジャーエールと何が違うのか、割り材としてはどう使えるのかを順に見ていく。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B007HV2OWW?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-ginger-ale-dry.jpg" alt="ウィルキンソン ジンジャエール辛口のペットボトル">
+<img src="/images/products/wilkinson-ginger-ale-dry.jpg" alt="ウィルキンソン ジンジャエール辛口のペットボトル" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ウィルキンソン ジンジャエール辛口</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -68,7 +68,7 @@ ogImageHeight: 630
 家で簡単なモクテルを作るときの土台としても扱いやすい。シロップやビターズを足して甘みと香りを自分で調整できるので、甘口のベースよりも味の設計の自由度が高い。甘さをどれだけ足すかを自分でコントロールしたい人にとっては、最初から甘い飲み物をベースにするより、辛口を土台にして必要な分だけ甘みを足していくほうが、狙った味にたどり着きやすいと思う。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B007HV2OWW?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-ginger-ale-dry.jpg" alt="ウィルキンソン ジンジャエール辛口のペットボトル">
+<img src="/images/products/wilkinson-ginger-ale-dry.jpg" alt="ウィルキンソン ジンジャエール辛口のペットボトル" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ウィルキンソン ジンジャエール辛口</span>
 <span class="product-banner-cta">Amazonで見る →</span>

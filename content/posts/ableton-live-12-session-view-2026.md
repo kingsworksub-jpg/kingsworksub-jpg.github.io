@@ -111,7 +111,7 @@ Live には Intro、Standard、Suite の3種類がある。差は主に数の制
 動作環境も確認しておきたい。Windows は 10 の 22H2 以降または 11 で、CPU が AVX2 という命令セットに対応している必要がある。世代の古いマシンではこの条件で弾かれることがあるので、中古機や長く使っている機械に入れる場合は先に確認しておくと安全だ。macOS は 11.7.10 以降、メモリは8GBから。本体の導入に8GB、付属音源をすべて入れると76GBほどの空き容量を使う。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">
-<img src="/images/products/ableton-live.png" alt="Ableton Live 12 Suite">
+<img src="/images/products/ableton-live.png" alt="Ableton Live 12 Suite" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Ableton Live 12 Suite</span>
 <span class="product-banner-cta">Amazonで見る →</span>

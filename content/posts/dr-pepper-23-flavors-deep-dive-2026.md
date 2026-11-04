@@ -16,7 +16,7 @@ scheduled_time: "17:30"
 缶には「AUTHENTIC BLEND OF 23 FLAVORS」と書かれている。23種類のフレーバーをブレンドした、という意味だが、これを読んでも味の想像はまったくつかない。23という数字は具体的なのに、その中身は何ひとつ明かされていないからだ。説明のようでいて、実は説明になっていない。この記事では、その「説明になっていない味」の正体を、生まれた場所、原材料表示、コーラとの違い、そして日本で売れている場所の偏りから順に考えていく。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22">
-<img src="/images/dr-pepper/can.jpg" alt="ドクターペッパーの缶">
+<img src="/images/dr-pepper/can.jpg" alt="ドクターペッパーの缶" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ドクターペッパー 350ml缶×24本</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -100,7 +100,7 @@ scheduled_time: "17:30"
 割り材として使うなら、バーボンとの組み合わせが無理なく決まる。バーボンのバニラやキャラメルの香りが、ドクターペッパーのアーモンドやチェリーの香りと自然につながって、コーラで割るよりも甘く丸い一杯になる。ラム酒やアマレットとも相性がよく、少量のレモンを搾ると甘さが引き締まる。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22">
-<img src="/images/dr-pepper/can.jpg" alt="ドクターペッパーの缶">
+<img src="/images/dr-pepper/can.jpg" alt="ドクターペッパーの缶" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ドクターペッパー 350ml缶×24本</span>
 <span class="product-banner-cta">Amazonで見る →</span>

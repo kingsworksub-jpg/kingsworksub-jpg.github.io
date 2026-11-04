@@ -14,7 +14,7 @@ ogImageHeight: 630
 ライブ配信、ゲーム実況、リモート会議、そして本格的な音楽制作（DTM）に至るまで、現代のデスクトップオーディオにおいてYamahaのAGシリーズはその代名詞とも言える存在です。初代モデルからさらに進化を遂げた「Yamaha AG03MK2」は、配信者にとってのかゆいところに手が届く機能を満載しつつ、オーディオインターフェイスとしての基本性能を大幅に高めたことで、今なお絶大な支持を集め続けています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B09W92H2D9?tag=nakimoto1-22">
-<img src="/images/products/ag03mk2.png" alt="Yamaha AG03MK2">
+<img src="/images/products/ag03mk2.png" alt="Yamaha AG03MK2" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Yamaha AG03MK2</span>
 <span class="product-banner-cta">Amazonで見る →</span>
