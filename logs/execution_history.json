@@ -4242,5 +4242,24 @@
     "next_kpis": [
       "ローカルでseo-audit --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-04T00:53:06Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hammond-b3-jazz-organ-2026",
+      "jazz-festivals-2026",
+      "jazz-shoes-trend-2026",
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "figureの左右配置が連続して同側になっていた4記事を、同一記事内で左右交互(CLAUDE.mdルール6)になるようphoto--left/rightを入れ替え。Hatena/Ameba/note未巡回(改定案なし)"
+    ],
+    "files_changed": 5,
+    "status": "完了",
+    "next_kpis": [
+      "ローカルでseo-audit --check-links実行",
+      "残る12件のfigure位置指摘(---直後・同セクション連続)は意図的なものとして保留"
+    ]
   }
 ]

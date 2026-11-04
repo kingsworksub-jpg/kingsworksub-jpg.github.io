@@ -49,12 +49,12 @@ tags: ["ジャズシューズ", "トレンド", "セリーヌ", "レペット", 
 
 ## 街に広がって
 
-<figure class="photo photo--left">
+<figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/celine-ss26-suited-booted.jpg" alt="ダブルブレストのスーツにジャズシューズを合わせたセリーヌ 2026年春夏のルック" width="1600" height="2400" loading="lazy"></a>
 <figcaption>「スーツ+正装」の着こなしにも一足のジャズシューズで<span class="credit">Photo: Estrop / Getty Images</span></figcaption>
 </figure>
 
-<figure class="photo photo--right">
+<figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00R96RYBQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-shoes/street-style-white-tee-midi.jpg" alt="白いTシャツとミディスカートにカラフルなジャズシューズを合わせたストリートスタイル" width="1600" height="2400" loading="lazy"></a>
 <figcaption>白Tシャツ×ミディスカート×ジャズシューズ — 夏の定番の組み合わせ<span class="credit">Photo: Edward Berthelot / Getty Images</span></figcaption>
 </figure>

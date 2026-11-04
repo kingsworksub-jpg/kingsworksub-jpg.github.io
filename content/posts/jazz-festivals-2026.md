@@ -50,7 +50,7 @@ Montreux は規模だけではなく、「文化的影響力」で Newport と�
 
 ## 夏の横広がり——San Francisco、New Orleans、Detroit の三様式
 
-<figure class="photo photo--right">
+<figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0000026PH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/new-orleans-jazz-fest-crowd.jpg" alt="ニューオーリンズ・ジャズ＆ヘリテッジ・フェスティバルのコンゴ・スクエア・ステージ前の観客" width="220" height="146" loading="lazy"></a>
 <figcaption>New Orleans Jazz Fest、Congo Squareステージ前の熱気</figcaption>
 <span class="credit">Photo: thepipe26 / Wikimedia Commons (CC BY 2.0)</span>
