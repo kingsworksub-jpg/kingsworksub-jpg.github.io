@@ -193,23 +193,19 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。PPP同期を止めるなら
   `Disable-ScheduledTask -TaskName blog-ppp-reconcile`。
 
-## 自動続続タスク: 海外ジャズ記事のXポスト(……**2026-09-29 完全削除**、再開禁止)
+## 自動継続タスク: 海外ジャズ記事のXポスト(2026-09-29 完全削除・再開せず)
 
-ユーザー指示: 既にバランド自動化じゃないとして、完全に要ないとして「宏全に実行しないと判断し、3時間前に以下を全部停止し、コードも削除した。
+ジャズ記事限定で個別にXへポストしていた旧タスク。Windowsタスクスケジューラの`KingsWork-X-Jazz`を`Unregister-ScheduledTask`で削除し、`scripts/x-autopost/`ディレクトリ全体(`poster.py`/`post_jazz_tweet.py`/`jazz-posted.json`等)も削除した。**この個別タスクは再開していない**。
 
-- **Windowsタスクシューラーの`KingsWork-X-Jazz`を`Unregister-ScheduledTask`で削除済み**。再登録は`scripts/scheduled/register-tasks.ps1`に`KingsWork-Blog-Drink`のみを残している。
-- **`scripts/x-autopost/`ディレクトリ全体を削除**。`poster.py`/`post_jazz_tweet.py`/`jazz-posted.json`(ジャズポスト用)と、前回のフログプランスト(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`/`README.md`)、更に確認済みの若干の口道レストファイル(`amazon_search_fetch.py`/`parse_amazon_html.py`/`fetch_carbonation.py`/`fetch_sakeware.py`/`fetch_bodum_image.py`)をまとめ除外。
-- **Pythonヴィンツュークルートの位置を`scripts/x-autopost/.venv/`から`scripts/.venv/`に移動**。`extract-post-html.sh`のPython取得先と`の`allowedTools`はこの新パスに更新済み。なお、`pyautogui`/`pygetwindow`/`pyperclip`/`feedparser`は无要になったが、実装は`playwright`と`greenlet`/`pyee`のみで十分。
-- **以降のこのセクションは全部復徑引用**(旧チュートプロクト‘ハートバンナーの修正’の`fix-hatena-banners.py`使用コマンドなど)。X自動化を使用していた記述は下記の「Python自前パイプラインによるX自動投稿」の章のから御除されている。
-- **このセクションの再開しない**。ヘードフドのログヨードトと相拥して以下が残っている。
+ただし、これとは別物として、**ブログ記事公開に連動する汎用のX投稿は2026-11-04にユーザー指示で正式復活した**。下記「拡散投稿」表のXの行、および「X (Twitter) への投稿」節を参照。
 
 ## 拡散投稿(SNS/ブログサイトへの転載)
 
-記事を公開するたびに、この表の「有効」な投稿先へ自動投稿する運用にする(2026-09-17〜検討開始)。SNSは記事へのリンク+一言、ブログサイトは記事本文そのものを転載する。**2026-09-27、記事公開に伴うXへの自動投稿は廃止した**(下表のXの行はブログフローの一部ではなくなった)。
+記事を公開するたびに、この表の「有効」な投稿先へ自動投稿する運用にする(2026-09-17〜検討開始)。SNSは記事へのリンク+一言、ブログサイトは記事本文そのものを転載する。**2026-09-27に廃止・2026-09-29に実装も削除したXへの自動投稿は、2026-11-04にユーザー指示で正式復活した**(下表のXの行、および下記「X (Twitter) への投稿」参照)。
 
 | 媒体 | 投稿内容 | 自動化 | 必要な準備 | 状態 |
 |---|---|---|---|---|
-| X (Twitter) | — | — | — | **完全媳殈(2026-09-29、ユーザー指示)**。記事公開に伴うX自動投稿は2026-09-27に媳殈し、海外ジャズ記事のXポスト(`KingsWork-X-Jazz`)も2026-09-29にタスク削除・コード別除。相関するコードとトラフステックはすべて削除済み。取材方法の履歴は「はてなブログ→X自動投稿パイプライン」の章に移した。 |
+| X (Twitter) | 記事へのリンク+一言(キラーポスト文面) | **公式APIなし**(無料枠では投稿不可のため使わない)。`scripts/post-to-x.py` + Playwright で、note/amebaと同じ**Chromium永続プロファイルにログイン状態を保存し、投稿エディタへのキー入力だけ自動化する**方式(2026-11-04実装) | Xアカウントでの手動ログイン(`python scripts/post-to-x.py --login`、1回のみ) | **有効(2026-11-04、ユーザー指示で正式復活)** — 記事公開ごとに、ブログ本体へのリンク付きの短い紹介文を自動投稿する。下記「X (Twitter) への投稿」参照 |
 | Threads | リンク+一言 | Threads API(Meta)で可能、無料 | Meta for Developersでアプリ作成、Threads/Instagramアカウント連携、アクセストークン取得(ユーザー本人が登録) | 未着手 |
 | はてなブログ | 記事本文を転載(タイトル・本文・出典として元記事へのリンクを添える) | 公式AtomPub APIで可能(WSSE認証)。GitHub Actions連携の実装例も多数あり安定 | はてなID作成、対象のはてなブログ開設、ブログ詳細設定からAtomPub用APIキー取得 | **環境構築済み(2026-09-16)** — 下記参照 |
 | Facebook Page | リンク+一言 | Graph APIで可能 | Facebook Page作成 + Meta for Developersでアプリ作成、アクセストークン取得 | 優先度低・保留 |
@@ -219,6 +215,25 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 **セキュリティ上の注意**: このリポジトリ(`kingsworksub-jpg/kingsworksub-jpg.github.io`)は公開リポジトリ。APIキー・アクセストークンの類は**絶対にコード/コミットに直書きしない**。ローカル実行時は環境変数、GitHub Actionsで動かす場合はリポジトリの Encrypted Secrets を使うこと。
 
 **進め方**: ユーザーが各媒体のアカウント作成・アプリ登録・トークン発行を行い、そのトークンをClaude Codeに渡す→Claude Code側で投稿スクリプト(`scripts/post-to-*.sh` 想定、curlでAPI叩く)を作成・実行する分担。アカウント登録そのものは代行できない(本人確認・支払い情報・規約同意が必要なため)。
+
+### X (Twitter) への投稿(2026-11-04 正式復活)
+
+**経緯**: 2026-09-27に廃止・2026-09-29に実装も含めて完全削除していたが、2026-11-04にユーザー指示で正式復活した。
+X公式APIは無料枠では投稿できないため使わない。note/amebaと同じ**Chromium永続プロファイル方式**(Playwright)で、
+ブラウザ操作による投稿を行う。
+
+- スクリプト: `scripts/post-to-x.py`。プロファイルは `data/x_user_data/`(gitignore対象、cookieが含まれる)。
+- **ログイン初期化(1回のみ)**: `python scripts/post-to-x.py --login`。ブラウザが開くので手動でログインする。
+- **投稿**: `python scripts/post-to-x.py --text-file <投稿文のファイル> --publish`。`--publish` を付けないとドライラン
+  (入力まで行い投稿ボタンは押さない)。
+- **投稿文はこのスクリプト自身は作らない**。ブログ公開パイプライン(`scripts/scheduled/prompts/blog-post.md` 手順7-4)側で、
+  記事タイトル・GitHub Pagesの記事URLから140〜200字程度(ハッシュタグ含め280字以内)のポスト文面をその場で作り、
+  一時ファイルに保存してこのスクリプトに渡す。
+- **運用ルール**: 全チャンネル共通(hatena/ameba/note どの記事でも)、外部転載が終わった後にXへも投稿する。
+  **X投稿が失敗してもブログ公開自体は失敗扱いにしない**(ログイン切れ・UI変更等はログに残すだけで次に進む。
+  `topic_plan.py recover` の対象にはしない)。
+- 公開済み記事ごとのX投稿URLを記録する専用の表は現時点では作っていない(はてな/noteのような全文転載ではなく、
+  リンク付きの短い紹介ポストのため)。
 
 ### はてなブログ連携(構築済み)
 
@@ -607,14 +622,12 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 8. **削除済み記事キーの API 応答(2026-09-29 実測)**: 削除しても `GET /api/v3/notes/<key>` は HTTP 200 を返し、返りの `status` が **`deleted`** になる(`is_published: false`)。**404 にはならないので、削除判定は「一覧に現れるか」で行う**。
 
 
-### はてなブログ→X自動投稿パイプライン(……**2026-09-29 完全削除**、再開禁止)
+### はてなブログ→X自動投稿パイプライン(旧版、2026-09-29 完全削除。2026-11-04に別実装で再構築済み)
 
-Xに自動投稿する様組は已終了。以下は履歴で、コードとタスクはすべて削除済み。
-
-- **削除したファイル**: `scripts/x-autopost/` 全体。ジャズポスト用(`poster.py`/`post_jazz_tweet.py`/`jazz-posted.json`)、前回のフログプランスト(`db.py`/`feed_check.py`/`generate.py`/`scraper.py`/`main.py`/`seed_baseline.py`/`README.md`/`posts.db`/`requirements.txt`)、更に確認済みの口道レストファイル(`amazon_search_fetch.py`/`parse_amazon_html.py`/`fetch_carbonation.py`/`fetch_sakeware.py`/`fetch_bodum_image.py`)。
-- **Pythonヴィンツュクルルートは`scripts/.venv/`に移動**。これは `post-to-note.py`(プレイツョード)と `extract-post-html.sh`(ハテナバンナー入れ)が使うので**残すない**。需要なバッケージは `playwright`/`greenlet`/`pyee` のみ。
-- **引き済み元**: バランカーの裁っ紙と `run-claude-task.ps1` の `allowedTools`。
-- **本章と同じことを求めてはこそそ**。X API 料金、Bot検知の困るなど、`pyautogui`/`pyperclip` でのOS入力シマュレーションなど、Claude クロードの模型選び(ハイカュ)など、Windows の cp932/`python` スタブの問題などは、**全部別紐として仍あるもので、利用する際には参照するだけ**。
+ジャズ記事限定のRSS監視型パイプライン(`scripts/x-autopost/`、`poster.py`/`feed_check.py`/`generate.py`/`scraper.py`等)。
+X API利用やOS入力シミュレーション(`pyautogui`/`pyperclip`)を使う旧実装で、2026-09-29にディレクトリ全体を削除した。
+**この旧実装は再構築していない**。2026-11-04に復活したX連携は、note/amebaと同じPlaywrightのブラウザ操作方式による
+別実装(`scripts/post-to-x.py`、上記「X (Twitter) への投稿」節を参照)で、この旧パイプラインとは無関係。
 
 ## デプロイの仕組み
 
