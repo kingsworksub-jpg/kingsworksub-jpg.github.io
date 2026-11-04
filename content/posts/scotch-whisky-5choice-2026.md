@@ -152,3 +152,6 @@ aliases:
 ## 関連記事
 
 - [アイリッシュウイスキー入門。3回蒸溜は決まりではなく、ポットスチルの個性は生の大麦が作る](/posts/irish-whiskey-pot-still-guide-2026/)
+- [アイラの南北で変わる煙の色、5つのピート体験](/posts/islay-malt-5choice-2026/)
+- [シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから](/posts/sherry-cask-5choice-2026/)
+- [新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え](/posts/new-scotch-distilleries-young-whisky-2026/)
