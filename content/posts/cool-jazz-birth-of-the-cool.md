@@ -94,5 +94,5 @@ cool jazz は長い間、软弱で退屈という偏見にさらされていた�
 
 この10年の前半に、重要な出来事が起きている。ミントンの日曜の jam session から 52nd Street の夜へ散った、時間の流れ。あの側の物語は [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/) に置いてある。
 
-**関連記事**: [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/) · [モーダルジャズという挑戦 — 『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)
+**関連記事**: [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/) · [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/) · [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](/posts/hard-bop-blue-note-golden-age/) · [ジャズ名盤入門、最初に聴きたい10枚を時代順に](/posts/jazz-masterpieces-beginner/) · [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)
 

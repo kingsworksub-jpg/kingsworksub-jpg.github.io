@@ -4408,5 +4408,51 @@
       "次回: budget-whisky-10choice-2026 など他の古い記事を点検",
       "ローカルでseo-audit --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-04T13:53:36Z",
+    "site": "Kingsworksub",
+    "articles_improved": [
+      "jazz-shoes-trend-2026",
+      "jazz-listening-guide-2026",
+      "gh-cli-pull-request-terminal-guide-2026",
+      "cubase-pro-15-deep-dive-2026",
+      "record-stylus-lifespan-guide-2026",
+      "windows-asio-wasapi-latency-troubleshooting",
+      "dtm-school-or-self-study-2026",
+      "jazz-instruments-guide",
+      "bebop-52nd-street-nights",
+      "jazz-masterpieces-beginner",
+      "alan-boguslavsky-stage",
+      "cool-jazz-birth-of-the-cool",
+      "github-actions-schedule-push-guide-2026",
+      "hard-bop-blue-note-golden-age",
+      "laptop-only-dtm-portable-setup-2026"
+    ],
+    "actions": [
+      "内部リンクのアンカー文言を改題後の現行タイトルに統一(旧「 — 」形式や旧題の残りを修正、22箇所)",
+      "description/images/figure配置/禁止表現の簡易監査は問題なし",
+      "hugo・PIL未導入のためビルド/seo-auditは未実行(リンク文言のみの変更)"
+    ],
+    "files_changed": [
+      "content/posts/jazz-shoes-trend-2026.md",
+      "content/posts/jazz-listening-guide-2026.md",
+      "content/posts/gh-cli-pull-request-terminal-guide-2026.md",
+      "content/posts/cubase-pro-15-deep-dive-2026.md",
+      "content/posts/record-stylus-lifespan-guide-2026.md",
+      "content/posts/windows-asio-wasapi-latency-troubleshooting.md",
+      "content/posts/dtm-school-or-self-study-2026.md",
+      "content/posts/jazz-instruments-guide.md",
+      "content/posts/bebop-52nd-street-nights.md",
+      "content/posts/jazz-masterpieces-beginner.md",
+      "content/posts/alan-boguslavsky-stage.md",
+      "content/posts/cool-jazz-birth-of-the-cool.md",
+      "content/posts/github-actions-schedule-push-guide-2026.md",
+      "content/posts/hard-bop-blue-note-golden-age.md",
+      "content/posts/laptop-only-dtm-portable-setup-2026.md"
+    ],
+    "next_kpis": [
+      "内部リンク文言とリンク先タイトルの不一致が0件のまま維持されること(残る意図的な短縮アンカーは除く)"
+    ]
   }
 ]

@@ -152,7 +152,7 @@ push 起点にしたいなら、`on` の中身を前半の例のように `push`
 
 ## 関連記事
 - [VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から](/posts/vscode-dev-containers-docker-guide-2026/)(手元の環境をCIと揃えたいときに)
-- [git worktreeで作業フォルダをブランチの数だけ持つ備忘録](/posts/git-worktree-multiple-branches-notes/)(ブランチごとの作業フォルダでワークフローを試すとき)
+- [git worktreeで作業フォルダをブランチの数だけ持つ、stashと切り替えをやめるための備忘録](/posts/git-worktree-multiple-branches-notes/)(ブランチごとの作業フォルダでワークフローを試すとき)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
