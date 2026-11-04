@@ -4375,5 +4375,22 @@
       "2周目次回: turntable-5choice-2026 から点検",
       "ローカルでseo-audit --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-04T11:53:41Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "turntable-5choice-2026",
+      "cassette-tape-revival-2026"
+    ],
+    "actions": [
+      "ターンテーブル比較記事の関連記事にカセットテープ復活記事を追加し、カセット記事の関連記事から比較記事への双方向リンクを追加"
+    ],
+    "files_changed": 3,
+    "status": "完了",
+    "next_kpis": [
+      "次回: 他の古い記事(scotch-whisky-5choice-2026等)を点検",
+      "ローカルでseo-audit --check-links実行"
+    ]
   }
 ]
