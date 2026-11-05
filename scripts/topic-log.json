@@ -2777,6 +2777,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "opencode",
    "at": "2026-11-05T21:32:16+09:00"
+  },
+  {
+   "id": "2026w41-014",
+   "category": "whisky",
+   "theme": "Compass Boxが『10年物』とだけ書いた理由、スコッチの年数表示のルール",
+   "slug": "compass-box-10-year-age-statement-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/compass-box-10-year-age-statement-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-05T23:22:04+09:00"
   }
  ]
 }
