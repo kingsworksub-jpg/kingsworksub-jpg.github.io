@@ -1,0 +1,23 @@
+{
+ "/images/ubol-mv3/chrome-win11.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Google_Chrome_on_Windows_11.png/1280px-Google_Chrome_on_Windows_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Google_Chrome_on_Windows_11.png",
+  "license": "Public domain",
+  "author": "Megamanfan3",
+  "title": "File:Google Chrome on Windows 11.png"
+ },
+ "/images/ubol-mv3/ubo-firefox.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Screenshot_of_the_uBlock_Origin_UI_on_Firefox.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Screenshot_of_the_uBlock_Origin_UI_on_Firefox.png",
+  "license": "GPLv3",
+  "author": "Raymond Hill (gorhill) - developer",
+  "title": "File:Screenshot of the uBlock Origin UI on Firefox.png"
+ },
+ "/images/ubol-mv3/chrome-web-store.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png/1280px-Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Screen_Shot_of_the_Wikipedia_browser_extension_in_the_Google_Chrome_web_store.png",
+  "license": "CC BY-SA 4.0",
+  "author": "AHollender (WMF)",
+  "title": "File:Screen Shot of the Wikipedia browser extension in the Google Chrome web store.png"
+ }
+}
