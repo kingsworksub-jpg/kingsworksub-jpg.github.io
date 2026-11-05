@@ -4799,5 +4799,23 @@
     "next_kpis": [
       "本文内の内部リンク0件記事の解消"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T22:53:21Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "vertigo-dolly-zoom-hitchcock-2026"
+    ],
+    "actions": [
+      "内部リンクが最少(1件)だった最新記事の関連記事欄に、映像×音楽の関連としてanime-and-jazzへのリンクを追加",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/vertigo-dolly-zoom-hitchcock-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク2件未満の記事の解消"
+    ]
   }
 ]
