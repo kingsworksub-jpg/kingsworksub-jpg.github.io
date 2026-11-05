@@ -2736,6 +2736,18 @@
    "status": "platform_added",
    "reason": "note",
    "at": "2026-11-05T19:22:38+09:00"
+  },
+  {
+   "id": "2026w43-004",
+   "category": "software",
+   "theme": "iZotope Ozone 12のマスタリングアシスタント、提案を受け入れる前に聴くべき3か所",
+   "slug": "izotope-ozone-12-master-assistant-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/izotope-ozone-12-master-assistant-2026/",
+   "hatena_entry": "14729835035334292749",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-05T20:16:37+09:00"
   }
  ]
 }
