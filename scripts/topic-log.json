@@ -2768,6 +2768,15 @@
    "status": "rejected",
    "reason": "既にnoteに公開済み(n49455d90c9ca, 2026-10-28)。再投稿すると重複するため",
    "at": "2026-11-05T21:31:06+09:00"
+  },
+  {
+   "id": "2026w43-024",
+   "category": "book",
+   "theme": "チャンドラー『ロング・グッドバイ』を村上春樹訳と清水俊二訳で読み比べる",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "opencode",
+   "at": "2026-11-05T21:32:16+09:00"
   }
  ]
 }
