@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:20:03+09:00",
+ "updated": "2026-11-05T22:20:19+09:00",
  "queue": {
   "published": 134,
   "rejected": 4,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published highball-bubbles-soda-ice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-05T22:20:03+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "failed",
-  "at": "2026-11-05T22:01:47+09:00",
+  "at": "2026-11-05T22:20:19+09:00",
   "engine": "opencode",
   "detail": "You've hit your session limit · resets 10:50pm (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "failed",
+   "at": "2026-11-05T22:20:19+09:00",
+   "engine": "opencode",
+   "detail": "You've hit your session limit · resets 10:50pm (Asia/Tokyo)"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-05T20:19:03+09:00",
    "engine": "opencode",
    "detail": "最後のコマンドが終了コード2を返しましたが、残りの一時ファイルを確認するための `ls` で、該当ファイルが1つもなかったときに出るものです。一時ファイルはすべて削除済みです。指示どおり、コミットとpushはしていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-05T20:17:07+09:00",
-   "engine": "opencode",
-   "detail": "`CLAUDE.md` already had 89 lines of uncommitted changes from other work. I committed only my new row in the Hatena table and left those 89 lines uncommitted in your working copy."
   }
  ]
 }
