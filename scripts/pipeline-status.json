@@ -1,18 +1,22 @@
 {
- "updated": "2026-11-05T21:15:28+09:00",
+ "updated": "2026-11-05T21:30:01+09:00",
  "queue": {
-  "published": 133,
+  "published": 134,
   "rejected": 3,
-  "approved": 41,
-  "in_progress": 1
+  "approved": 41
  },
  "today_posts": 6,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published izotope-ozone-12-master-assistant-2026",
+ "last_result": "published highball-bubbles-soda-ice-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-11-05T21:30:01+09:00",
+  "engine": "opencode"
+ },
  "last_run": {
   "job": "x-reply",
   "label": "x-reply",
