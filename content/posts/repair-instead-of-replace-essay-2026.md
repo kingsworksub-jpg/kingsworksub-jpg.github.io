@@ -103,4 +103,4 @@ scheduled_time: "23:00"
 - [加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す](/posts/headphone-hydrolysis-parts/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

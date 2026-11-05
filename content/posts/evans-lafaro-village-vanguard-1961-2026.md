@@ -118,5 +118,6 @@ scheduled_time: "14:30"
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [ジャズ名盤入門、最初に聴きたい10枚を時代順に](https://kingsworksub-jpg.github.io/posts/jazz-masterpieces-beginner/)
 - [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](https://kingsworksub-jpg.github.io/posts/modal-jazz-challenge/)
+- [Miles Davis『Birth of the Cool』からChet Bakerの西海岸へ、クール・ジャズの時代](https://kingsworksub-jpg.github.io/posts/cool-jazz-birth-of-the-cool/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
