@@ -1623,14 +1623,15 @@
  },
  "winter-coat-5types-2026": {
   "platforms": [
+   "ameba",
    "github",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
-  "note_key": null,
+  "note_key": "n587c48215338",
   "ameba_entry": 12981373364,
   "needs_manual_review": null,
-  "updated_at": "2026-10-15T21:36:53+09:00",
+  "updated_at": "2026-11-05T19:22:38+09:00",
   "title": "トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ"
  },
  "piano-practice-apps-3choice-2026": {
