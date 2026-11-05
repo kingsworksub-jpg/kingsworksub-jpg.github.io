@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-05T12:00:55+09:00",
+ "updated": "2026-11-05T12:14:32+09:00",
  "queue": {
-  "published": 129,
+  "published": 130,
   "rejected": 3,
-  "approved": 45,
-  "in_progress": 1
+  "approved": 45
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published dolby-atmos-headphone-binaural-start-2026",
+ "last_result": "published chrome-mv3-ublock-origin-lite-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
