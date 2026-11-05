@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:00:02+09:00",
+ "updated": "2026-11-05T19:22:52+09:00",
  "queue": {
   "published": 132,
   "rejected": 3,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-05T19:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-05T18:45:36+09:00",
+  "at": "2026-11-05T19:22:52+09:00",
   "engine": "opencode",
-  "detail": "最後のコマンドが終了コード2で終わっていますが、これは一時ファイルが残っていないかを確かめた `ls` が「該当なし」を返したためです。フォローとDMの処理自体は正常に終わっています。"
+  "detail": "{'slugs': 7, 'added': 5, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-05T19:22:52+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 7, 'added': 5, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -98,14 +101,6 @@
    "at": "2026-11-04T23:24:09+09:00",
    "engine": "opencode",
    "detail": "The topic is marked complete in the queue. I committed only the files I created, and the other uncommitted changes that were already in the working tree are untouched."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-04T23:13:11+09:00",
-   "engine": "opencode",
-   "detail": "- **Your uncommitted files:** before claiming, I stashed your uncommitted changes to `scripts/topics-queue.json` and `scripts/topic-log.json` as `stash@{0}` ('pre-blogpost-2300 dirty queue/log'), with copies in the scratchpad. They marked two posts as published (sider-comparison-2026, chrome-manifes"
   }
  ]
 }
