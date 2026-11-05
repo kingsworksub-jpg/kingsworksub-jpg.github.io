@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:22:04+09:00",
+ "updated": "2026-11-05T23:22:56+09:00",
  "queue": {
   "published": 135,
   "rejected": 4,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published compass-box-10-year-age-statement-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-05T23:00:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
-  "state": "failed",
-  "at": "2026-11-05T22:45:12+09:00",
+  "state": "finished",
+  "at": "2026-11-05T23:22:56+09:00",
   "engine": "opencode",
-  "detail": "You've hit your session limit · resets 10:50pm (Asia/Tokyo)"
+  "detail": "The claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used. This run didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-05T23:22:56+09:00",
+   "engine": "opencode",
+   "detail": "The claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used. This run didn't need it."
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-05T20:51:55+09:00",
    "engine": "opencode",
    "detail": "I deleted the temporary DM text files. As the instructions say, I made no commit or push."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-05T20:30:23+09:00",
-   "engine": "opencode",
-   "detail": "I ran the reply check: there were no unhandled replies to your posts on X, so nothing was replied to or skipped. The check doesn't change anything, and the instructions say there's no commit or push for this task."
   }
  ]
 }
