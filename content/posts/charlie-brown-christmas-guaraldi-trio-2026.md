@@ -108,4 +108,4 @@ scheduled_time: "21:30"
 - [「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所](https://kingsworksub-jpg.github.io/posts/anime-and-jazz/)
 - [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](https://kingsworksub-jpg.github.io/posts/jazz-listening-guide-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

@@ -125,4 +125,4 @@ scheduled_time: "21:30"
 - [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](/posts/nousaku-tin-sake-set-deep-dive-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

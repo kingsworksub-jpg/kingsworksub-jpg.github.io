@@ -74,5 +74,5 @@ GGUFのファイル名に刻まれた数字の意味を理解し、自分のPC�
 - [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)
 - [Google Flow MusicのVST3/AU書き出し、言葉で作れるのはシンセとエフェクトまで](/posts/google-flow-music-plugins-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - [note版はこちら](https://note.com/shining_finger01)

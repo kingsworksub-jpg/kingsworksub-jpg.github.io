@@ -104,4 +104,4 @@ scheduled_time: "18:30"
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [5拍子のピアノが30万ドルの映画を救った。ジョン・カーペンター『ハロウィン』(1978)のテーマ曲](https://kingsworksub-jpg.github.io/posts/halloween-1978-carpenter-5-4-theme-2026/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)

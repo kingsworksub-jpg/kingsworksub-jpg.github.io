@@ -122,4 +122,4 @@ scheduled_time: "21:30"
 - [ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方](/posts/loafer-derby-autumn-2026/)
 - [5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー](/posts/classic-suspender-styling-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版はこちら](https://blog.ameba.jp/)
+- [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)

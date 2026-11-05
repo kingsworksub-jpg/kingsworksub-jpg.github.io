@@ -4686,5 +4686,35 @@
     "next_kpis": [
       "内部リンク切れ・tag欠落・画像欠落0件を維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T15:54:22Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "charlie-brown-christmas-guaraldi-trio-2026",
+      "evans-lafaro-village-vanguard-1961-2026",
+      "gguf-quantization-q4-q5-guide-2026",
+      "halloween-1978-carpenter-5-4-theme-2026",
+      "necktie-knots-collar-guide-2026",
+      "repair-instead-of-replace-essay-2026",
+      "suzu-chirori-kanzake-2026",
+      "vertigo-dolly-zoom-hitchcock-2026",
+      "yojohan-dtm-bedside-desk-2026"
+    ],
+    "actions": [
+      "関連記事欄のAmebaリンクが汎用トップ(blog.ameba.jp)になっていた9記事を、本ブログ https://ameblo.jp/sfd0501/ に修正",
+      "Evans記事の関連記事にクール・ジャズ記事への内部リンクを1件追加",
+      "未巡回の8記事のfigure配置・見出し構造・description/images・回遊リンクを点検(問題なし)",
+      "Hatena/Ameba/noteの改定案は今回なし",
+      "seo-audit.pyは環境のPIL不具合で実行不可"
+    ],
+    "files_changed": [
+      "content/posts/ (9記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "blog.ameba.jp 汎用リンク0件を維持",
+      "内部リンク切れ0件を維持"
+    ]
   }
 ]
