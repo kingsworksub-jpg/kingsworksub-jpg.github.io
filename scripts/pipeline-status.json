@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T15:15:02+09:00",
+ "updated": "2026-11-05T15:15:47+09:00",
  "queue": {
   "published": 131,
   "rejected": 3,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published evans-lafaro-village-vanguard-1961-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-05T15:15:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-05T14:45:08+09:00",
+  "at": "2026-11-05T15:15:47+09:00",
   "engine": "opencode",
-  "detail": "The Google Docs connector needs to be re-authorized in your claude.ai connector settings before it can be used. This run didn't need it."
+  "detail": "Separately, the claude.ai Google Docs connector needs authorization in your claude.ai connector settings. This task doesn't use it, but it won't work anywhere until you do that."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-05T15:15:47+09:00",
+   "engine": "opencode",
+   "detail": "Separately, the claude.ai Google Docs connector needs authorization in your claude.ai connector settings. This task doesn't use it, but it won't work anywhere until you do that."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "投稿",
    "state": "failed",
    "at": "2026-11-04T17:30:07+09:00",
-   "engine": "opencode",
-   "detail": "launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-11-04T12:00:07+09:00",
    "engine": "opencode",
    "detail": "launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
   }
