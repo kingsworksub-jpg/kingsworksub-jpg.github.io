@@ -4747,5 +4747,21 @@
     "next_kpis": [
       "内部リンク切れ0件・禁止表現0件を維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T19:52:47Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開済み全記事のimg(alt/loading)・本文h1混入を走査。検出3件はいずれもコード例/インラインコード内の誤検知で修正不要",
+      "記事修正なし。Hatena/Ameba/noteの改定案は今回なし",
+      "seo-audit.pyは環境のPIL不具合で実行不可"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "img属性不備0件・h1混入0件を維持"
+    ]
   }
 ]
