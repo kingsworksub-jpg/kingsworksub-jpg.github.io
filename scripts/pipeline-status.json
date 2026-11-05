@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:17:11+09:00",
+ "updated": "2026-11-05T20:19:03+09:00",
  "queue": {
   "published": 133,
   "rejected": 3,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published izotope-ozone-12-master-assistant-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-05T20:17:11+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-05T20:17:07+09:00",
+  "at": "2026-11-05T20:19:03+09:00",
   "engine": "opencode",
-  "detail": "`CLAUDE.md` already had 89 lines of uncommitted changes from other work. I committed only my new row in the Hatena table and left those 89 lines uncommitted in your working copy."
+  "detail": "最後のコマンドが終了コード2を返しましたが、残りの一時ファイルを確認するための `ls` で、該当ファイルが1つもなかったときに出るものです。一時ファイルはすべて削除済みです。指示どおり、コミットとpushはしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-05T20:19:03+09:00",
+   "engine": "opencode",
+   "detail": "最後のコマンドが終了コード2を返しましたが、残りの一時ファイルを確認するための `ls` で、該当ファイルが1つもなかったときに出るものです。一時ファイルはすべて削除済みです。指示どおり、コミットとpushはしていません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-11-05T14:45:08+09:00",
    "engine": "opencode",
    "detail": "The Google Docs connector needs to be re-authorized in your claude.ai connector settings before it can be used. This run didn't need it."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-05T12:15:04+09:00",
-   "engine": "opencode",
-   "detail": "The claude.ai Google Docs connector isn't authorized; it can't be used until you allow it in the claude.ai connector settings. This run didn't need it."
   }
  ]
 }
