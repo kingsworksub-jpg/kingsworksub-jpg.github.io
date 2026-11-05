@@ -384,6 +384,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | GitHub CLIでプルリクエストを出す朝、CIを待つ昼、マージする夕方。ghだけで回す一日 | https://kinbro.hatenablog.com/entry/2026/10/27/200930 | 14945776032096036703 |
 | Dolby Atmosを自宅で始めるなら、7.1.4chの12本より先にヘッドホンのバイノーラルから | https://kinbro.hatenablog.com/entry/2026/11/05/074835 | 14729835035334002930 |
 | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能 | https://kinbro.hatenablog.com/entry/2026/11/05/121349 | 14729835035334077701 |
+| Ozone 12のマスタリングアシスタントは提案まで。受け入れる前に聴く低域・音量・ステレオ幅の3か所 | https://kinbro.hatenablog.com/entry/2026/11/05/201603 | 14729835035334292749 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

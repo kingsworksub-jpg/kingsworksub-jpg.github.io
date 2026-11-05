@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-05T20:00:32+09:00",
+ "updated": "2026-11-05T20:16:37+09:00",
  "queue": {
-  "published": 132,
+  "published": 133,
   "rejected": 3,
   "approved": 41,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
+ "last_result": "published izotope-ozone-12-master-assistant-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
