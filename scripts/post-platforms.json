@@ -1856,14 +1856,15 @@
  },
  "loafer-derby-autumn-2026": {
   "platforms": [
+   "ameba",
    "github",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
-  "note_key": null,
+  "note_key": "ne7bd0b627324",
   "ameba_entry": "12981672863",
   "needs_manual_review": null,
-  "updated_at": "2026-10-15T21:36:14+09:00",
+  "updated_at": "2026-11-05T19:10:41+09:00",
   "title": "ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方"
  },
  "teenage-engineering-op1-synth-essay-2026": {
