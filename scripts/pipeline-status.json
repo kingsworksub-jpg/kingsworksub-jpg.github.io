@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:43:14+09:00",
+ "updated": "2026-11-05T18:43:18+09:00",
  "queue": {
   "published": 132,
   "rejected": 3,
@@ -12,7 +12,12 @@
  "pending_requests": 0,
  "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "x-follow-dm",
+  "label": "x-follow-dm",
+  "since": "2026-11-05T18:43:18+09:00",
+  "engine": "opencode"
+ },
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
