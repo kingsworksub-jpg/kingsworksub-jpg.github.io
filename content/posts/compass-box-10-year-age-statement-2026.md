@@ -1,5 +1,5 @@
 ---
-title: "Compass Boxの「10年物」はなぜ全部が10年なのか、スコッチの年数表示は最も若い原酒で決まる"
+title: "Compass Boxの「10年物」はなぜ全部10年か、スコッチの年数は最も若い原酒で決まる"
 description: "Compass Boxが2026年に出した『This is a 10-Year-Old Whisky』は原酒がすべて10年熟成。最も若い原酒の年数しか書けないスコッチの規則と2015年の騒動、50.5%の加水の目安を数字で整理する。"
 images: ["/images/og/compass-box-10-year-age-statement-2026.jpg"]
 ogImageWidth: 1200
