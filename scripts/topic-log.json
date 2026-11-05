@@ -2655,6 +2655,18 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-05T07:50:32+09:00"
+  },
+  {
+   "id": "2026w43-001",
+   "category": "tech",
+   "theme": "Chromeの拡張機能はManifest V3でどう変わったか、uBlock Origin Liteで広告ブロックはどこまで効くか",
+   "slug": "chrome-mv3-ublock-origin-lite-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/chrome-mv3-ublock-origin-lite-2026/",
+   "hatena_entry": "14729835035334077701",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-05T12:14:32+09:00"
   }
  ]
 }
