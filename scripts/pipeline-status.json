@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:42:53+09:00",
+ "updated": "2026-11-05T18:43:14+09:00",
  "queue": {
   "published": 132,
   "rejected": 3,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-11-05T18:30:01+09:00",
-  "engine": "opencode"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-11-05T17:11:58+09:00",
+  "state": "finished",
+  "at": "2026-11-05T18:43:14+09:00",
   "engine": "opencode",
-  "detail": "You've hit your session limit · resets 5:50pm (Asia/Tokyo)"
+  "detail": "- **Engine setting:** `topic_plan.py status` reports `engine=opencode`, but CLAUDE.md says the opencode/big-pickle rotation was dropped on 2026-10-02. This run used Claude Code anyway, so you may want to check that setting."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-05T18:43:14+09:00",
+   "engine": "opencode",
+   "detail": "- **Engine setting:** `topic_plan.py status` reports `engine=opencode`, but CLAUDE.md says the opencode/big-pickle rotation was dropped on 2026-10-02. This run used Claude Code anyway, so you may want to check that setting."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -96,14 +99,6 @@
    "label": "投稿",
    "state": "failed",
    "at": "2026-11-04T21:30:13+09:00",
-   "engine": "opencode",
-   "detail": "launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-11-04T20:00:08+09:00",
    "engine": "opencode",
    "detail": "launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
   }
