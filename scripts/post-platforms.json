@@ -1681,13 +1681,14 @@
  },
  "tweed-jacket-street-style-2026": {
   "platforms": [
-   "github"
+   "github",
+   "note"
   ],
   "hatena_entry": null,
-  "note_key": null,
+  "note_key": "n2090980aa28e",
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-10-15T21:36:14+09:00",
+  "needs_manual_review": null,
+  "updated_at": "2026-11-05T19:18:42+09:00",
   "title": "ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学"
  },
  "whisper-model-size-japanese-benchmark-2026": {
