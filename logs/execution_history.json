@@ -4671,5 +4671,20 @@
     "next_kpis": [
       "figure配置・必須frontmatter欠落0件を維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T14:53:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全232記事の内部リンク切れ・アフィリエイトtag欠落・参照画像欠落を点検。問題なし(awk-svg-radar-chart-notesのsample.svgはコードブロック内の例示で対象外)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク切れ・tag欠落・画像欠落0件を維持"
+    ]
   }
 ]
