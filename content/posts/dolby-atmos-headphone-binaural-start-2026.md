@@ -115,6 +115,8 @@ Logic Proはこの違いに備えて、モニターに使うレンダラーを�
 - [モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから](/posts/monitor-placement-room-tuning-6jo-2026/)(スピーカーを足す前に、いまの2本を整える)
 - [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/)
 - [Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能](/posts/cubase-pro-15-deep-dive-2026/)
+- [Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか](/posts/logic-pro-mac-songwriting-2026/)
+- [ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか](/posts/sony-ecm-ax10-spatial-mic-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)

@@ -4817,5 +4817,24 @@
     "next_kpis": [
       "内部リンク2件未満の記事の解消"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T23:52:53Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "dolby-atmos-headphone-binaural-start-2026"
+    ],
+    "actions": [
+      "未巡回だった新着3記事(dolby-atmos/ozone-12/digital-performer-12)のfigure配置・description・見出しを点検し不備なし",
+      "dolby-atmos記事の関連記事にLogic Pro記事と空間オーディオ録音記事へのリンクを追加(内部リンク4→6)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/dolby-atmos-headphone-binaural-start-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク4件以下の記事の解消"
+    ]
   }
 ]
