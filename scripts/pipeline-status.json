@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:45:02+09:00",
+ "updated": "2026-11-05T19:45:48+09:00",
  "queue": {
   "published": 132,
   "rejected": 3,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-05T19:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-05T19:24:46+09:00",
+  "at": "2026-11-05T19:45:48+09:00",
   "engine": "opencode",
-  "detail": "The two undelivered DMs are expected, not failures: those accounts only take DMs from people who know their X number. I didn't skip anyone as spam, since none of the names or handles clearly looked like spam. The temporary message files are deleted, and the prompt says no commit is needed."
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-05T19:45:48+09:00",
+   "engine": "opencode",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -98,14 +101,6 @@
    "at": "2026-11-05T07:50:58+09:00",
    "engine": "opencode",
    "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. Nothing in this run needed it."
-  },
-  {
-   "job": "topic-topup",
-   "label": "ネタ補充",
-   "state": "finished",
-   "at": "2026-11-05T04:00:47+09:00",
-   "engine": "opencode",
-   "detail": "承認済みのネタが47件あり、補充の基準（16件未満）を上回っているため、今回のtopupでは何も追加していません。ファイルの変更やコミットもありません。"
   }
  ]
 }
