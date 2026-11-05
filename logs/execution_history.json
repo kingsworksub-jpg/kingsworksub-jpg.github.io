@@ -4732,5 +4732,20 @@
     "next_kpis": [
       "上記点検の指摘0件を維持"
     ]
+  },
+  {
+    "timestamp": "2026-11-05T17:52:55Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "内部リンク切れ・禁止表現(隅から隅まで/全機能解剖/実際に〜してみた)を全記事で走査、0件。薄い記事5本は全てdraft:trueの非公開で対象外",
+      "記事修正なし。Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク切れ0件・禁止表現0件を維持"
+    ]
   }
 ]
