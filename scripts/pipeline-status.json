@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T03:00:04+09:00",
+ "updated": "2026-11-06T03:01:42+09:00",
  "queue": {
   "published": 135,
   "rejected": 4,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published compass-box-10-year-age-statement-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-06T03:00:04+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-06T02:51:44+09:00",
+  "at": "2026-11-06T03:01:42+09:00",
   "engine": "opencode",
-  "detail": "Unrelated to this task: the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used."
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-06T03:01:42+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T00:37:16+09:00",
    "engine": "opencode",
    "detail": "The claude.ai Google Docs connector needs authorization before its tools will work. You can do that in your claude.ai connector settings. Nothing in this run used it."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-06T00:15:33+09:00",
-   "engine": "opencode",
-   "detail": "X の返信チェックを実行したところ、未処理の返信は0件でした。そのため、今回は返信も既読化（スキップ）もしていません。手順書どおり、コミットや push もしていません。"
   }
  ]
 }
