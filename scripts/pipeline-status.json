@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-05T18:30:31+09:00",
+ "updated": "2026-11-05T18:42:53+09:00",
  "queue": {
-  "published": 131,
+  "published": 132,
   "rejected": 3,
   "approved": 42,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published evans-lafaro-village-vanguard-1961-2026",
+ "last_result": "published vertigo-dolly-zoom-hitchcock-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

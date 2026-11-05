@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:30:31+09:00",
+ "updated": "2026-11-05T18:42:53+09:00",
  "items": [
   {
    "category": "gear",
@@ -10413,14 +10413,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-022",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-25",
    "retry": 0,
    "claimed_at": "2026-11-05T18:30:31+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "18:30",
-   "slot_label": "夜: 音楽/ファッション/エッセイ/映画/読書/住まい"
+   "slot_label": "夜: 音楽/ファッション/エッセイ/映画/読書/住まい",
+   "slug": "vertigo-dolly-zoom-hitchcock-2026",
+   "published_at": "2026-11-05T18:42:53+09:00"
   },
   {
    "category": "book",
