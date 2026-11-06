@@ -1,0 +1,30 @@
+{
+ "/images/bgm-focus/satie.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Erik_Satie_-_BNF1.jpeg/1280px-Erik_Satie_-_BNF1.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Erik_Satie_-_BNF1.jpeg",
+  "license": "Public domain",
+  "author": "Unattributed",
+  "title": "File:Erik Satie - BNF1.jpeg"
+ },
+ "/images/bgm-focus/eno.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Brian_Eno_%28Prague%2C_2017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Brian_Eno_(Prague,_2017).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Jindřich Nosek (NoJin)",
+  "title": "File:Brian Eno (Prague, 2017).jpg"
+ },
+ "/images/bgm-focus/laptop-headphones.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Laptop_With_Headphones_At_The_Gstreamer_2018_Hackfest_%28257698667%29.jpeg/1280px-Laptop_With_Headphones_At_The_Gstreamer_2018_Hackfest_%28257698667%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Laptop_With_Headphones_At_The_Gstreamer_2018_Hackfest_(257698667).jpeg",
+  "license": "CC BY-SA 3.0",
+  "author": "Oliver Propst",
+  "title": "File:Laptop With Headphones At The Gstreamer 2018 Hackfest (257698667).jpeg"
+ },
+ "/images/bgm-focus/lp-record.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/12in-Vinyl-LP-Record-Angle.jpg/1280px-12in-Vinyl-LP-Record-Angle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:12in-Vinyl-LP-Record-Angle.jpg",
+  "license": "Public domain",
+  "author": "Evan-Amos",
+  "title": "File:12in-Vinyl-LP-Record-Angle.jpg"
+ }
+}
