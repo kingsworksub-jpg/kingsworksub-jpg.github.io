@@ -2890,6 +2890,15 @@
    "note_key": "n2d03c336a9af",
    "engine": "opencode",
    "at": "2026-11-06T21:46:21+09:00"
+  },
+  {
+   "id": "2026w43-009",
+   "category": "setup",
+   "theme": "モニターアームでディスプレイを浮かせる、スピーカーの反射と机の奥行きを取り戻す",
+   "status": "failed",
+   "reason": "run did not publish (finished); cleaned up",
+   "engine": "opencode",
+   "at": "2026-11-06T21:46:57+09:00"
   }
  ]
 }
