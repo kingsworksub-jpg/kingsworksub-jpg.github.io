@@ -137,6 +137,8 @@ scheduled_time: "09:30"
 - [薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える](/posts/satsuma-kiriko-guinomi-bokashi-2026/)
 - [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
 - [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](/posts/suzu-chirori-kanzake-2026/)
+- [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/)
+- [枡で日本酒を冷やで飲む理由、江戸の量り売りの道具が祝いの器になるまで](/posts/masu-sake-cup-hinoki-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
