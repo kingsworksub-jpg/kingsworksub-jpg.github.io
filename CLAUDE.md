@@ -599,6 +599,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 積読は悪くない、読まない本が本棚で果たしている役割 | https://note.com/shining_finger01/n/n49455d90c9ca | `n49455d90c9ca` | **公開済(2026-10-28)** |
 | ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日 | https://note.com/shining_finger01/n/nf415df0d93c2 | `nf415df0d93c2` | **公開済(2026-11-05)** |
 | ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした | https://note.com/shining_finger01/n/n7842c49e3a33 | `n7842c49e3a33` | **公開済(2026-11-05)** |
+| ジャズ喫茶で黙って聴いた大きな音、スピーカーの前の1時間が残していったもの | https://note.com/shining_finger01/n/nfb01bce8ca20 | `nfb01bce8ca20` | **公開済(2026-11-06・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
