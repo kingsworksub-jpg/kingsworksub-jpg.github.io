@@ -2845,6 +2845,18 @@
    "status": "rejected",
    "reason": "前日公開の highball-bubbles-soda-ice-2026 と比率・炭酸・氷の内容が重複",
    "at": "2026-11-06T17:00:58+09:00"
+  },
+  {
+   "id": "2026w42-032",
+   "category": "sakeware",
+   "theme": "備前焼のぐい呑み、釉薬を使わない焼きが味を丸くする",
+   "slug": "bizen-guinomi-yakishime-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/bizen-guinomi-yakishime-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-06T17:11:41+09:00"
   }
  ]
 }
