@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T04:00:01+09:00",
+ "updated": "2026-11-07T04:01:32+09:00",
  "queue": {
   "published": 142,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published background-music-focus-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-07T04:00:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-07T03:36:41+09:00",
+  "at": "2026-11-07T04:01:32+09:00",
   "engine": "opencode",
-  "detail": "The temporary message files are deleted, and nothing was committed, as the instructions say. The 2 skipped accounts will show up as candidates again next run, which the instructions expect."
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-07T04:01:32+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T01:21:41+09:00",
    "engine": "opencode",
    "detail": "なお、claude.aiのGoogle Docsコネクタが未認証です。今回の作業には関係ありませんが、使う場合はclaude.aiのコネクタ設定から認証してください。"
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-07T01:02:27+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
