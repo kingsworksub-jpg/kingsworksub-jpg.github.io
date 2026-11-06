@@ -388,6 +388,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | Digital Performer 12のチャンクは、映画1本分のキューを1つのファイルに収める | https://kinbro.hatenablog.com/entry/2026/11/06/074520 | 14729835035334470164 |
 | Melodyne 5のピッチ補正、ノートの切れ目を直してから音程を揃える3つの手順 | https://kinbro.hatenablog.com/entry/2026/11/06/121643 | 14729835035334603901 |
 | デスク裏の配線整理はケーブルトレーから。電源と信号の通り道を分けて、雑音と埃を減らす | https://kinbro.hatenablog.com/entry/2026/11/06/201519 | 14729835035334775155 |
+| パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから | https://kinbro.hatenablog.com/entry/2026/11/07/074227 | 14729835035334961267 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

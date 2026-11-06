@@ -2899,6 +2899,18 @@
    "reason": "run did not publish (finished); cleaned up",
    "engine": "opencode",
    "at": "2026-11-06T21:46:57+09:00"
+  },
+  {
+   "id": "2026w43-002",
+   "category": "tech",
+   "theme": "パスワード流出に気づいたら、Have I Been Pwnedで確かめてから変える順番",
+   "slug": "hibp-password-breach-check-order-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/hibp-password-breach-check-order-2026/",
+   "hatena_entry": "14729835035334961267",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-07T07:43:03+09:00"
   }
  ]
 }
