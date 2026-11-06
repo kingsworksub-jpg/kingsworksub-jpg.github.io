@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:16:36+09:00",
+ "updated": "2026-11-06T20:19:00+09:00",
  "queue": {
   "published": 141,
   "rejected": 5,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published desk-cable-tray-power-signal-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-06T20:16:36+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-06T20:16:30+09:00",
+  "at": "2026-11-06T20:19:00+09:00",
   "engine": "opencode",
-  "detail": "ほかに、Google DocsのMCP接続が未認証です。使う場合は、claude.aiのコネクタ設定で認証が必要です。"
+  "detail": "指示どおり、コミットとpushはしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-06T20:19:00+09:00",
+   "engine": "opencode",
+   "detail": "指示どおり、コミットとpushはしていません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-11-06T18:01:32+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-06T17:51:33+09:00",
-   "engine": "opencode",
-   "detail": "- **Cleanup:** the temporary message files are deleted, and as the task instructions say, I didn't commit or push anything."
   }
  ]
 }
