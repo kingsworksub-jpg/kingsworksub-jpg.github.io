@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T09:45:26+09:00",
+ "updated": "2026-11-06T12:00:36+09:00",
  "items": [
   {
    "category": "gear",
@@ -9411,9 +9411,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-006",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-25",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-06T12:00:36+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境/PC/開発/ネット"
   },
   {
    "category": "setup",
