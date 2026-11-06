@@ -32,6 +32,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 def check(slug: str) -> list[str]:
     p = os.path.join(ROOT, "content", "posts", slug + ".md")
     if not os.path.exists(p):
+        # channel: note の記事は Hugo 対象外の content/note-only/ に置く（2026-11-06〜）
+        p = os.path.join(ROOT, "content", "note-only", slug + ".md")
+    if not os.path.exists(p):
         return [f"記事ファイルが無い: {p}"]
     s = open(p, encoding="utf-8-sig").read().replace("\r\n", "\n")
     m = re.match(r"---\n(.*?)\n---\n(.*)", s, re.S)
