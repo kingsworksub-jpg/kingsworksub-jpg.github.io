@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-06T12:00:36+09:00",
+ "updated": "2026-11-06T12:17:16+09:00",
  "queue": {
-  "published": 137,
+  "published": 138,
   "rejected": 4,
-  "approved": 36,
-  "in_progress": 1
+  "approved": 36
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published edo-kiriko-guinomi-cut-patterns-2026",
+ "last_result": "published melodyne-5-pitch-correction-basics-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

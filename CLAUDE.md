@@ -386,6 +386,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能 | https://kinbro.hatenablog.com/entry/2026/11/05/121349 | 14729835035334077701 |
 | Ozone 12のマスタリングアシスタントは提案まで。受け入れる前に聴く低域・音量・ステレオ幅の3か所 | https://kinbro.hatenablog.com/entry/2026/11/05/201603 | 14729835035334292749 |
 | Digital Performer 12のチャンクは、映画1本分のキューを1つのファイルに収める | https://kinbro.hatenablog.com/entry/2026/11/06/074520 | 14729835035334470164 |
+| Melodyne 5のピッチ補正、ノートの切れ目を直してから音程を揃える3つの手順 | https://kinbro.hatenablog.com/entry/2026/11/06/121643 | 14729835035334603901 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
