@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:12:06+09:00",
+ "updated": "2026-11-06T17:15:06+09:00",
  "queue": {
   "published": 140,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bizen-guinomi-yakishime-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-06T17:12:06+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-06T17:12:02+09:00",
+  "at": "2026-11-06T17:15:06+09:00",
   "engine": "opencode",
-  "detail": "The topic is marked complete, and I added a row to the Ameba table in CLAUDE.md. CLAUDE.md already had uncommitted edits before this run, so I committed only my new row; those earlier edits are still uncommitted in your working copy."
+  "detail": "All temporary DM text files are deleted. Nothing was committed, as the procedure says."
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-06T17:15:06+09:00",
+   "engine": "opencode",
+   "detail": "All temporary DM text files are deleted. Nothing was committed, as the procedure says."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T14:51:51+09:00",
    "engine": "opencode",
    "detail": "- **後片付け:** DM文面の一時ファイルは3つとも削除しました。手順書のとおり、コミットとpushはしていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-06T14:45:49+09:00",
-   "engine": "opencode",
-   "detail": "**I made a mistake with `CLAUDE.md`:** while adding the table row, a script I wrote emptied the file and wiped your uncommitted changes. I rebuilt it from the latest Claude backup (12:18 today) plus the one edit made after that (the note-only section at 14:32, replayed from the session log). The unc"
   }
  ]
 }
