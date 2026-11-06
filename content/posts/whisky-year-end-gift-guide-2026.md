@@ -134,6 +134,7 @@ scheduled_time: "21:30"
 
 ## 関連記事
 
+- [Compass Boxの「10年物」はなぜ全部10年か、スコッチの年数は最も若い原酒で決まる](/posts/compass-box-10-year-age-statement-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し](https://kingsworksub-jpg.github.io/posts/budget-whisky-10choice-2026/)
 - [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)

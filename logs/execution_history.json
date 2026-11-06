@@ -4917,5 +4917,33 @@
       "未改善記事は全消化。次回は古い記事から再巡回",
       "seo-audit.pyはPIL環境不備で未実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T05:53:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "chrome-gemini-nano-4gb-2026",
+      "hammond-b3-jazz-organ-2026",
+      "whisky-year-end-gift-guide-2026",
+      "cubase-pro-15-deep-dive-2026",
+      "home-mocktail-soda-syrup-2026"
+    ],
+    "actions": [
+      "内部リンク監査: 被リンク0の新着7記事を特定、うち6記事への被リンクを関連の近い既存記事の関連記事欄に追加",
+      "壊れた内部リンクは0件を確認",
+      "hugo未インストールのためビルド確認は未実施(リスト追記のみ)"
+    ],
+    "files_changed": [
+      "content/posts/chrome-gemini-nano-4gb-2026.md",
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "content/posts/whisky-year-end-gift-guide-2026.md",
+      "content/posts/cubase-pro-15-deep-dive-2026.md",
+      "content/posts/home-mocktail-soda-syrup-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る被リンク0: bottled-cider-5choice-2026, vertigo-dolly-zoom-hitchcock-2026",
+      "新着記事の被リンク数を継続監視"
+    ]
   }
 ]

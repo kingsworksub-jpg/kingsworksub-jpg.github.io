@@ -116,6 +116,7 @@ B-3の音を語るとき、オルガン本体と同じくらい重要なのが�
 
 ## 関連記事
 
+- [ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日](/posts/evans-lafaro-village-vanguard-1961-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [アート・ブレイキーとブルー・ノート黄金時代、ハードバップの熱を名盤でたどる](https://kingsworksub-jpg.github.io/posts/hard-bop-blue-note-golden-age/)
 - [ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る](/posts/parker-blues-ear-training-1week/)

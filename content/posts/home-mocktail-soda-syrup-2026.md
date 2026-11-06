@@ -162,6 +162,7 @@ scheduled_time: "17:30"
 
 ## 関連記事
 
+- [ハイボールの泡は注ぐ前に決まっている。炭酸水の強さ、液温、氷の表面で変わる口当たり](/posts/highball-bubbles-soda-ice-2026/)
 - [トニックウォーター5本比較、割り材としての苦味を選ぶ](/posts/tonic-water-5choice-2026/)
 - [ウィルキンソン ジンジャエール辛口が1904年から守る、生姜の辛さの出し方](/posts/wilkinson-ginger-ale-dry-deep-dive-2026/)
 - [ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった](/posts/non-alcohol-beer-5choice-2026/)
