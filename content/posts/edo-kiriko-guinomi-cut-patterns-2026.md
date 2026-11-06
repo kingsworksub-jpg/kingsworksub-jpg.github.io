@@ -142,3 +142,4 @@ scheduled_time: "09:30"
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
+- [備前焼のぐい呑みに釉薬がない理由と、酒がまろやかになると言われる仕組み](/posts/bizen-guinomi-yakishime-2026/)
