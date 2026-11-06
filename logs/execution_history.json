@@ -5062,5 +5062,22 @@
     "next_kpis": [
       "次回は記事末尾のAmazonリンク・まとめ表リンクのtag付与と画像altの具体性を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T12:54:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "Amazonリンクのtag=nakimoto1-22付与漏れ・別タグ混入を全記事で点検: 違反0",
+      "画像alt空/極端に短いものを点検: 違反0",
+      "修正対象なしのため記事変更なし",
+      "外部3サイトは改善案なし(ドラフト未作成)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回は未使用ASINの実在性・figure配置(見出し直後)ルールの違反を点検"
+    ]
   }
 ]
