@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:30:47+09:00",
+ "updated": "2026-11-06T21:46:21+09:00",
  "items": [
   {
    "category": "gear",
@@ -8473,7 +8473,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-040",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-11-06T21:30:47+09:00",
@@ -8481,7 +8481,9 @@
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "background-music-focus-listening-2026",
+   "published_at": "2026-11-06T21:46:21+09:00"
   },
   {
    "category": "essay",
