@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T07:45:02+09:00",
+ "updated": "2026-11-07T07:45:46+09:00",
  "queue": {
   "published": 143,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published hibp-password-breach-check-order-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-07T07:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-07T07:43:39+09:00",
+  "at": "2026-11-07T07:45:46+09:00",
   "engine": "opencode",
-  "detail": "The Claude Docs MCP connector reported that it isn't authorized. This run didn't need it, but you can connect it in your claude.ai connector settings if you want it later."
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-07T07:45:46+09:00",
+   "engine": "opencode",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T05:30:42+09:00",
    "engine": "opencode",
    "detail": "The claude.ai Google Docs connector also reported that it needs authorization. This task doesn't use it, but it won't work until you authorize it in your claude.ai connector settings."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T05:06:40+09:00",
-   "engine": "opencode",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ]
 }
