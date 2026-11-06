@@ -5095,5 +5095,21 @@
     "next_kpis": [
       "次回はdescription長(110〜120字)とog画像参照の欠落を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T14:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "description長(90〜140字)とog画像参照(frontmatter記載・実ファイル存在)を公開記事全件で点検: 違反0",
+      "修正対象なしのため記事変更なし",
+      "外部3サイトは改善案なし(ドラフト未作成)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回はfrontmatterのtitle長・タイトル構文の重複(直近記事との型被り)を点検"
+    ]
   }
 ]
