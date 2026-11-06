@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:45:01+09:00",
+ "updated": "2026-11-06T19:45:49+09:00",
  "queue": {
   "published": 140,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bizen-guinomi-yakishime-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-06T19:45:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-06T19:22:13+09:00",
+  "at": "2026-11-06T19:45:49+09:00",
   "engine": "opencode",
-  "detail": "1つ気になる点があります。3件目と4件目のフォローバックは同時に実行していて、同じブラウザのログイン情報（`data/x_user_data/`）を2つの処理が同時に使っていました。今回はどちらも成功しましたが、無人実行では1件ずつ順番に処理するほうが安全です。"
+  "detail": "この作業とは関係ありませんが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-06T19:45:49+09:00",
+   "engine": "opencode",
+   "detail": "この作業とは関係ありませんが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T17:30:42+09:00",
    "engine": "opencode",
    "detail": "ご案内: claude.ai の Google Docs コネクタが未認証のため、このセッションでは使えません。今回の作業には関係ありませんが、使うときは claude.ai のコネクタ設定から認証してください。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-06T17:15:06+09:00",
-   "engine": "opencode",
-   "detail": "All temporary DM text files are deleted. Nothing was committed, as the procedure says."
   }
  ]
 }
