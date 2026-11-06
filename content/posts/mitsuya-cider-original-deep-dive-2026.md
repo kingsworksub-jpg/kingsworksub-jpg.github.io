@@ -64,4 +64,4 @@ Amazon.co.jpでは缶250ml×20本が1,500円前後、1本あたり75〜80円ほ�
 140年前の鉱泉水から始まったブランドが、今も変わらず「甘くて爽やかな透明炭酸」という立ち位置を守り続けているのは、なかなか珍しいことだと思う。強炭酸や無糖系が増えている中で、あえて昔ながらの甘さのある通常版を選ぶのも、たまには悪くない選択肢だ。
 
 
-**関連記事**: [三ツ矢サイダーZEROは142年目に見つけたゼロの答え](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる](/posts/crystal-spark-ramune-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの改名に込められた二つの意味](/posts/oza-soda-deep-dive-2026/)
+**関連記事**: [びんのサイダーはなぜ懐かしい味がするのか。5本の甘さと香りを比べる](/posts/bottled-cider-5choice-2026/) · [三ツ矢サイダーZEROは142年目に見つけたゼロの答え](/posts/mitsuya-cider-zero-deep-dive-2026/) · [CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる](/posts/crystal-spark-ramune-deep-dive-2026/) · [香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計](/posts/crystal-spark-grape-deep-dive-2026/) · [OZA SODAの改名に込められた二つの意味](/posts/oza-soda-deep-dive-2026/)

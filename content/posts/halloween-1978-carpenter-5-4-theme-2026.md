@@ -104,5 +104,6 @@ scheduled_time: "21:30"
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [ハロウィンの定番曲、1962年の「Monster Mash」から「Thriller」までの21年](https://kingsworksub-jpg.github.io/posts/halloween-songs-monster-mash-thriller-2026/)
 - [『Oxygène』50周年盤が11月に出る。ジャールが自宅で重ねたシンセの音を、宅録の原点として聴き直す](https://kingsworksub-jpg.github.io/posts/jarre-oxygene-50th-2026/)
+- [ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした](https://kingsworksub-jpg.github.io/posts/vertigo-dolly-zoom-hitchcock-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
