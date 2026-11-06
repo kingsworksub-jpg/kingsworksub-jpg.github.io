@@ -5127,5 +5127,28 @@
     "next_kpis": [
       "次回は内部リンク(孤立記事)と、古い記事の見出し構造(H2欠落)を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T21:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "edo-kiriko-guinomi-cut-patterns-2026",
+      "shigaraki-guinomi-hiiro",
+      "yojohan-dtm-bedside-desk-2026"
+    ],
+    "actions": [
+      "内部リンク網を点検: 237記事中、公開済みの孤立記事は2件(bizen-guinomi-yakishime-2026、desk-cable-tray-power-signal-2026)。draft/hello除く",
+      "備前焼記事への導線を江戸切子・信楽焼の関連記事欄に、ケーブルトレー記事への導線を4畳半DTM記事の関連記事欄に追加",
+      "H2欠落の記事は0"
+    ],
+    "files_changed": [
+      "content/posts/edo-kiriko-guinomi-cut-patterns-2026.md",
+      "content/posts/shigaraki-guinomi-hiiro.md",
+      "content/posts/yojohan-dtm-bedside-desk-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事0の維持。次回は古い記事のfigure配置(見出し直後ルール)を点検"
+    ]
   }
 ]
