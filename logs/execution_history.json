@@ -4895,5 +4895,27 @@
     "next_kpis": [
       "内部リンクの少ない新着記事の継続点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T04:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "bottled-cider-5choice-2026",
+      "melodyne-5-pitch-correction-basics-2026",
+      "satsuma-kiriko-guinomi-bokashi-2026"
+    ],
+    "actions": [
+      "3記事のfigure配置・alt/寸法/クレジットを点検し規約準拠を確認",
+      "関連記事に内部リンクを追加(孤立しやすい新規記事への回遊を補強)"
+    ],
+    "files_changed": [
+      "content/posts/bottled-cider-5choice-2026.md",
+      "content/posts/melodyne-5-pitch-correction-basics-2026.md",
+      "content/posts/satsuma-kiriko-guinomi-bokashi-2026.md"
+    ],
+    "next_kpis": [
+      "未改善記事は全消化。次回は古い記事から再巡回",
+      "seo-audit.pyはPIL環境不備で未実行"
+    ]
   }
 ]
