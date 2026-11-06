@@ -103,6 +103,7 @@ Master Assistantは、白紙の状態からマスタリングを始めなくて�
 - [ラウドネスノーマライズの検証メモ：-8から-16 LUFSまで4本書き出すと何が残るか](/posts/streaming-loudness-normalization-lufs/)(音量の目標を決めるときに)
 - [サイドチェイン・コンプでキックとベースを譲り合わせる、リリースはテンポから逆算する](/posts/sidechain-kick-bass-guide-2026/)(低域はミックスの段階で整えておくと楽になる)
 - [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+- [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)
 - [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](/posts/monitor-headphones-5choice-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
