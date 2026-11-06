@@ -2813,6 +2813,18 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-06T09:45:26+09:00"
+  },
+  {
+   "id": "2026w43-006",
+   "category": "software",
+   "theme": "Melodyne 5のピッチ補正、ノートを切る・つなぐ・揃えるの基本",
+   "slug": "melodyne-5-pitch-correction-basics-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/melodyne-5-pitch-correction-basics-2026/",
+   "hatena_entry": "14729835035334603901",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-06T12:17:16+09:00"
   }
  ]
 }
