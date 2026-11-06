@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:17:16+09:00",
+ "updated": "2026-11-06T12:17:51+09:00",
  "queue": {
   "published": 138,
   "rejected": 4,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published melodyne-5-pitch-correction-basics-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-06T12:00:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-06T11:52:19+09:00",
+  "at": "2026-11-06T12:17:51+09:00",
   "engine": "opencode",
-  "detail": "別件で、claude.ai の Google Docs コネクタが未認証です。今回の作業には関係ありませんが、使うときは claude.ai のコネクタ設定から認証してください。"
+  "detail": "**CLAUDE.md:** It already had 89 lines of uncommitted edits that weren't mine. I committed only the new row in the Hatena table and left those edits uncommitted in the working tree."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-06T12:17:51+09:00",
+   "engine": "opencode",
+   "detail": "**CLAUDE.md:** It already had 89 lines of uncommitted edits that weren't mine. I committed only the new row in the Hatena table and left those edits uncommitted in the working tree."
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T09:48:15+09:00",
    "engine": "opencode",
    "detail": "The claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-06T09:45:57+09:00",
-   "engine": "opencode",
-   "detail": "ネタ（2026w42-031）は公開済みとして記録し、CLAUDE.md のAmeba表にも1行追記しました。CLAUDE.md にはもともとコミットされていない変更が89行（Xの返信・フォローバック機能とAmebaの不具合修正の説明）あったため、コミットしたのは自分の1行だけです。この89行は作業ツリーにそのまま残っています。"
   }
  ]
 }
