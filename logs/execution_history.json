@@ -5008,5 +5008,23 @@
     "next_kpis": [
       "次回はH2/H3構造と内部リンク密度の点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T09:53:48Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全236記事のH2構造・内部リンク密度を点検: 内部リンク0本の記事0件",
+      "H2が3未満の3件は hello.md(挨拶記事・許容)と draft:true の2件(2026-09-22-*、非公開)のため修正不要",
+      "Amazonリンクのtag欠落0件・禁止表現(隅から隅まで/実際に〜してみた等)0件",
+      "修正対象なしのため記事変更なし",
+      "外部3サイトは改善案なし(ドラフト未作成)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回はfigureのalt/credit品質と画像実寸の点検"
+    ]
   }
 ]
