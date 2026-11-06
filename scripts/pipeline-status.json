@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T00:35:01+09:00",
+ "updated": "2026-11-07T00:37:20+09:00",
  "queue": {
   "published": 142,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published background-music-focus-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-07T00:35:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-07T00:15:58+09:00",
+  "at": "2026-11-07T00:37:20+09:00",
   "engine": "opencode",
-  "detail": "Separately, the claude.ai Google Docs connector isn't authorized, and this run didn't need it. If you want it available, authorize it in your claude.ai connector settings."
+  "detail": "DMの一時ファイルは3件とも削除済みです。手順書のとおり、コミットとpushはしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-07T00:37:20+09:00",
+   "engine": "opencode",
+   "detail": "DMの一時ファイルは3件とも削除済みです。手順書のとおり、コミットとpushはしていません。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T22:22:11+09:00",
    "engine": "opencode",
    "detail": "The claude.ai Google Docs connector isn't authorized, so it can't be used until you connect it in your claude.ai connector settings. This task didn't need it."
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-06T22:02:18+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
