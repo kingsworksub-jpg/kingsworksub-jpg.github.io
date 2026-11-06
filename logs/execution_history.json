@@ -5079,5 +5079,21 @@
     "next_kpis": [
       "次回は未使用ASINの実在性・figure配置(見出し直後)ルールの違反を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T13:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置ルール(見出し直後・直後に短文/見出しを置かない)を全237記事で機械点検: 要確認10件はいずれも誤検出(アイキャッチ直前のfrontmatter、改行区切りの同一段落、回り込み後に引用が続く構成)で修正不要",
+      "seo-audit.pyはこの環境のPIL不具合(_imaging import error)で実行不可のため未実施",
+      "外部3サイトは改善案なし(ドラフト未作成)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回はdescription長(110〜120字)とog画像参照の欠落を点検"
+    ]
   }
 ]
