@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:00:03+09:00",
+ "updated": "2026-11-06T11:01:34+09:00",
  "queue": {
   "published": 137,
   "rejected": 4,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published edo-kiriko-guinomi-cut-patterns-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-06T11:00:03+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-06T10:45:34+09:00",
+  "at": "2026-11-06T11:01:34+09:00",
   "engine": "opencode",
-  "detail": "`post-to-x.py --check-replies` は `@100labjtvn` としてログインを確認できましたが、未処理の返信は0件（`[]`）でした。そのため、返信もスキップも行っていません。この作業ではコミットも不要です。"
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-06T11:01:34+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T08:51:45+09:00",
    "engine": "opencode",
    "detail": "DMの文面は「フォローありがとうございます。これからよろしくお願いします。」です。一時的に作った文面のファイルは削除しました。手順書のとおり、コミットやpushはしていません。"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-06T08:30:35+09:00",
-   "engine": "opencode",
-   "detail": "未処理のXへの返信はありませんでした。`--check-replies` を実行したところ、アカウント @100labjtvn に新しい返信はなく、空の結果 `[]` が返りました。手順どおり、今回は返信も既読処理もしていません。コミットやpushも不要です。"
   }
  ]
 }
