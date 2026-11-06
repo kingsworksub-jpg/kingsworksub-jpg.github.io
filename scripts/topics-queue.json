@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:15:51+09:00",
+ "updated": "2026-11-06T21:30:47+09:00",
  "items": [
   {
    "category": "gear",
@@ -8473,14 +8473,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-040",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
    "retry": 1,
-   "claimed_at": "2026-11-06T18:30:38+09:00",
+   "claimed_at": "2026-11-06T21:30:47+09:00",
    "channel": "note",
    "content_dir": "culture",
-   "slot_time": "18:30",
-   "slot_label": "夜: 音楽/ファッション/エッセイ/映画/読書/住まい",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい",
    "last_error": "run did not publish (failed); cleaned up"
   },
   {
