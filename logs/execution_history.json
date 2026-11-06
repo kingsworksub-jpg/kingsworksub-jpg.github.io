@@ -4945,5 +4945,34 @@
       "残る被リンク0: bottled-cider-5choice-2026, vertigo-dolly-zoom-hitchcock-2026",
       "新着記事の被リンク数を継続監視"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T06:54:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "bottled-cider-5choice-2026",
+      "vertigo-dolly-zoom-hitchcock-2026",
+      "ramune-5choice-2026",
+      "mitsuya-cider-original-deep-dive-2026",
+      "halloween-1978-carpenter-5-4-theme-2026",
+      "evans-lafaro-village-vanguard-1961-2026"
+    ],
+    "actions": [
+      "被リンク0だった2記事(びんサイダー比較・めまい)に、関連の近い既存記事の関連記事欄から内部リンクを追加",
+      "これで被リンク0は実質helloのみ",
+      "外部3サイトは今回改善案なし(ドラフト未作成)",
+      "hugo未導入のためビルド確認は未実施(リンク行追記のみ)"
+    ],
+    "files_changed": [
+      "content/posts/ramune-5choice-2026.md",
+      "content/posts/mitsuya-cider-original-deep-dive-2026.md",
+      "content/posts/halloween-1978-carpenter-5-4-theme-2026.md",
+      "content/posts/evans-lafaro-village-vanguard-1961-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "被リンク0記事の再計測",
+      "次回は古い記事のH2構造・figure配置を点検"
+    ]
   }
 ]
