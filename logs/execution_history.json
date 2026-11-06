@@ -5150,5 +5150,30 @@
     "next_kpis": [
       "孤立記事0の維持。次回は古い記事のfigure配置(見出し直後ルール)を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T23:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-style-fashion-revival-2026",
+      "jazz-shoes-trend-2026",
+      "jazz-festivals-2026",
+      "hammond-b3-jazz-organ-2026"
+    ],
+    "actions": [
+      "figure配置を点検: 公開記事のうち8件で「見出し直後にfigureが2枚連続」等の逸脱を検出",
+      "上記4件は2枚目のfigureを本文2段落後へ移動し、各figureの横に本文が回り込むよう修正(本文は無変更)",
+      "残り(modal-jazz-challenge, hard-bop-blue-note-golden-age, cool-jazz-birth-of-the-cool, alan-boguslavsky-stage)は figure直後が見出し/区切りのパターンで未対応"
+    ],
+    "files_changed": [
+      "content/posts/jazz-style-fashion-revival-2026.md",
+      "content/posts/jazz-shoes-trend-2026.md",
+      "content/posts/jazz-festivals-2026.md",
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "未対応4件のfigure配置を修正(状態: 一部未完了)"
+    ]
   }
 ]

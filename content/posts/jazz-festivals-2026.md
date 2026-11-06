@@ -30,15 +30,15 @@ Stephanie Mills、El DeBarge、Nelly & Ashanti、Robin Thicke——現れる顔�
 <span class="credit">Photo: Kalai Ramu / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
+7月31日からニューポート。ロードアイランド州、フォート・アダムス州立公園の岬を舞台にした「Newport Jazz Festival」は、今年で72周年を迎える。日本からするとあまり実感がないかもしれないが、ロック、R&B、フォーク、音楽文化全般において、Newport は「現代音楽の実験場」だった。1963年のフォーク・フェスティバルで Bob Dylan が電気ギターを持ち込んだあの場所。その Newport が、2026年に何をしているか。
+
+Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend たちを配置しながら、Jon Batiste、Thundercat、Robert Glasper、Joshua Redman といった中核メンバーたちが一堂に集う。ここまでなら「いつもの Newport」だ。だが 2026年の Newport の発表を見ていると、Vulfpeck、Snarky Puppy、Lake Street Dive といった、ジャズと呼ぶには「そっちの方が大きい」という種族が現れる。公式な表現は「boundary-pushing, genre-defying」——「境界を超える、ジャンルを定義し直す」。
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-festivals-2026/newport-black-thought-2025.jpg" alt="2025年ニューポート・ジャズ・フェスティバルで歌うThe RootsのBlack Thought" width="220" height="168" loading="lazy"></a>
 <figcaption>2025年のNewportに立つThe RootsのBlack Thought</figcaption>
 <span class="credit">Photo: Vbrunophotog / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
-
-7月31日からニューポート。ロードアイランド州、フォート・アダムス州立公園の岬を舞台にした「Newport Jazz Festival」は、今年で72周年を迎える。日本からするとあまり実感がないかもしれないが、ロック、R&B、フォーク、音楽文化全般において、Newport は「現代音楽の実験場」だった。1963年のフォーク・フェスティバルで Bob Dylan が電気ギターを持ち込んだあの場所。その Newport が、2026年に何をしているか。
-
-Herbie Hancock、Charles Lloyd、Wynton Marsalis——ジャズの living legend たちを配置しながら、Jon Batiste、Thundercat、Robert Glasper、Joshua Redman といった中核メンバーたちが一堂に集う。ここまでなら「いつもの Newport」だ。だが 2026年の Newport の発表を見ていると、Vulfpeck、Snarky Puppy、Lake Street Dive といった、ジャズと呼ぶには「そっちの方が大きい」という種族が現れる。公式な表現は「boundary-pushing, genre-defying」——「境界を超える、ジャンルを定義し直す」。
 
 つまり、Newport は「ジャズ・フェスティバル」から「音楽の未来を示す祭典」へと、アイデンティティを拡張している。Arlo Parks、Celeste、Little Simz といったイギリスの若いアーティストたちも並んでいる。72年の歴史の中で、最も多様な、最も今的な音たちが Newport に集中している。
 
