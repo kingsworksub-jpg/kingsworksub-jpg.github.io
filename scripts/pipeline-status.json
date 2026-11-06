@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:32:18+09:00",
+ "updated": "2026-11-06T18:32:22+09:00",
  "queue": {
   "published": 140,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bizen-guinomi-yakishime-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-06T18:30:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
-  "state": "finished",
-  "at": "2026-11-06T18:15:41+09:00",
+  "state": "failed",
+  "at": "2026-11-06T18:32:22+09:00",
   "engine": "opencode",
-  "detail": "なお、この非対話セッションでは claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。"
+  "detail": "You've hit your session limit · resets 6:50pm (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-11-06T18:32:22+09:00",
+   "engine": "opencode",
+   "detail": "You've hit your session limit · resets 6:50pm (Asia/Tokyo)"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T16:02:29+09:00",
    "engine": "opencode",
    "detail": "I ran `python scripts/post-to-x.py --check-replies` (logged in as @100labjtvn) and it returned `[]`: there are no new replies to answer. So I posted nothing, skipped nothing and changed no state, which is what the prompt says to do when the list is empty."
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-06T16:01:33+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
