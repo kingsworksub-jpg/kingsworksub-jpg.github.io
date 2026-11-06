@@ -101,6 +101,8 @@ Digital Performer 12の新機能を並べると、Atmos、ステム分離、ア�
 - [Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能](/posts/cubase-pro-15-deep-dive-2026/)
 - [Dolby Atmosを自宅で始めるなら、7.1.4chの12本より先にヘッドホンのバイノーラルから](/posts/dolby-atmos-headphone-binaural-start-2026/)
 - [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](/posts/kontakt-8-player-and-builder-2026/)
+- [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/)
+- [Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか](/posts/logic-pro-mac-songwriting-2026/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
