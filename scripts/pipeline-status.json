@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:45:44+09:00",
+ "updated": "2026-11-06T23:00:01+09:00",
  "queue": {
   "published": 142,
   "rejected": 5,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published background-music-focus-listening-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-11-06T23:00:01+09:00",
+  "engine": "opencode"
+ },
  "last_run": {
   "job": "x-reply",
   "label": "x-reply",
