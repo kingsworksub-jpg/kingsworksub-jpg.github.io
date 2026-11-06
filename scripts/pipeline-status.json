@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-06T21:30:47+09:00",
+ "updated": "2026-11-06T21:46:21+09:00",
  "queue": {
-  "published": 141,
+  "published": 142,
   "rejected": 5,
   "approved": 30,
-  "in_progress": 2
+  "in_progress": 1
  },
  "today_posts": 5,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published desk-cable-tray-power-signal-2026",
+ "last_result": "published background-music-focus-listening-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
