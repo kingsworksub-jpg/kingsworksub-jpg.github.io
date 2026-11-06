@@ -5111,5 +5111,21 @@
     "next_kpis": [
       "次回はfrontmatterのtitle長・タイトル構文の重複(直近記事との型被り)を点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-06T20:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開237記事のtitleを点検: 廃止済みの型(隅から隅まで/味わい尽くす/全機能解剖/徹底比較/の現在地)の使用0、直近12本は構文が重複せず良好。60字超は1件のみ(chrome-mv3-ublock-origin-lite-2026、キーワードは先頭にあり修正不要)",
+      "修正対象なしのため記事変更なし",
+      "外部3サイトは改善案なし(ドラフト未作成)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回は内部リンク(孤立記事)と、古い記事の見出し構造(H2欠落)を点検"
+    ]
   }
 ]
