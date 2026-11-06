@@ -128,6 +128,8 @@ ARAに対応していないDAWでは、プラグインを挿したトラック�
 ## 関連記事
 
 - [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
+- [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+- [ACE Studioの140を超える声に、打ち込んだメロディと歌詞を渡して歌わせる](/posts/ace-studio-ai-vocal-synthesis-2026/)
 - [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/)
 - [コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本](/posts/condenser-mic-5choice-2026/)
 - [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)

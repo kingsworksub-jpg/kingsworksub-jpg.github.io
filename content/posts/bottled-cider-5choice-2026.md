@@ -185,6 +185,7 @@ scheduled_time: "23:00"
 
 - [ラムネはびんと缶で何が変わるのか。ビー玉の栓とねじ蓋で5本を比べる](/posts/ramune-5choice-2026/)
 - [三ツ矢サイダーの透明な甘さは140年でどう守られてきたか](/posts/mitsuya-cider-original-deep-dive-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
 - [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)

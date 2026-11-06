@@ -128,6 +128,7 @@ scheduled_time: "23:00"
 - [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/)
 - [ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NEBUTA 酒器セット](/posts/tsugaru-vidro-nebuta-sake-set-deep-dive-2026/)
 - [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
+- [魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる](/posts/edo-kiriko-guinomi-cut-patterns-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
