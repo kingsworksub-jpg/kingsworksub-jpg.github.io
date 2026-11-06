@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:00:02+09:00",
+ "updated": "2026-11-06T19:00:42+09:00",
  "queue": {
   "published": 140,
   "rejected": 5,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published bizen-guinomi-yakishime-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-06T19:00:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
-  "state": "failed",
-  "at": "2026-11-06T18:35:11+09:00",
+  "state": "finished",
+  "at": "2026-11-06T19:00:42+09:00",
   "engine": "opencode",
-  "detail": "You've hit your session limit · resets 6:50pm (Asia/Tokyo)"
+  "detail": "この実行には関係しませんが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-06T19:00:42+09:00",
+   "engine": "opencode",
+   "detail": "この実行には関係しませんが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-06T16:45:42+09:00",
    "engine": "opencode",
    "detail": "Separately, the claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This run didn't need it."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-06T16:21:34+09:00",
-   "engine": "opencode",
-   "detail": "DMが届かなかった2件は相手側の設定によるもので、エラーではありません。@deaetakiseki75 は記録を残さない仕組みのため、次回の実行でもまた候補に出てきます。DMの文面を入れた一時ファイルは削除済みで、手順書の指示どおりコミットはしていません。"
   }
  ]
 }
