@@ -21,6 +21,10 @@ ogImageHeight: 630
 <span class="credit">Photo: Pexels / Oscar Steiner</span>
 </figure>
 
+2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
+
+現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/jazz-saxophone.jpg" width="240" height="320" alt="Jazz saxophonist performing" loading="lazy"></a>
 <figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある</figcaption>
@@ -84,10 +88,6 @@ ogImageHeight: 630
 <figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
 <span class="credit">Photo: Pixabay / tylermike525</span>
 </figure>
-
-2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
-
-現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
 
 ジャズスタイルは、この両立を可能にする。ピンストライプの細い線は、最小限の情報で最大限の表現力を生み出す。ダブルブレストの重ねられたボタンは、シンプルなシルエットの中に複雑性を隠し持つ。シャープな靴の輝きは、派手ではないが、確実に主張している。
 
