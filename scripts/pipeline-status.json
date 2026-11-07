@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:20:02+09:00",
+ "updated": "2026-11-07T13:23:14+09:00",
  "queue": {
   "published": 144,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published monitor-arm-vesa-desk-depth-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-07T13:20:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-07T13:02:36+09:00",
+  "at": "2026-11-07T13:23:14+09:00",
   "engine": "opencode",
-  "detail": "The claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't use it."
+  "detail": "- DM文面の一時ファイルはすべて削除しました。指示文のとおり、コミットとpushはしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-07T13:23:14+09:00",
+   "engine": "opencode",
+   "detail": "- DM文面の一時ファイルはすべて削除しました。指示文のとおり、コミットとpushはしていません。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T11:01:32+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-07T10:45:42+09:00",
-   "engine": "opencode",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
   }
  ]
 }
