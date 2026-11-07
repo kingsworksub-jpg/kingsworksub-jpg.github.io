@@ -2964,6 +2964,15 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-07T17:19:31+09:00"
+  },
+  {
+   "id": "2026w40-061",
+   "category": "music",
+   "theme": "日本のジャズ、渡辺貞夫から現在までの系譜",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "opencode",
+   "at": "2026-11-07T18:35:02+09:00"
   }
  ]
 }
