@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:16:38+09:00",
+ "updated": "2026-11-07T20:19:11+09:00",
  "queue": {
   "published": 147,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published lm-studio-ollama-gui-api-server-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-07T20:16:38+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-07T20:16:34+09:00",
+  "at": "2026-11-07T20:19:11+09:00",
   "engine": "opencode",
-  "detail": "- **Uncommitted CLAUDE.md edits:** CLAUDE.md already had about 130 lines of uncommitted changes that aren't mine. I committed only my one table row and left those changes as they were."
+  "detail": "@robertbemvpdg は状態を記録していないので、次回もまた候補に出ます。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-07T20:19:11+09:00",
+   "engine": "opencode",
+   "detail": "@robertbemvpdg は状態を記録していないので、次回もまた候補に出ます。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T18:01:34+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T17:52:18+09:00",
-   "engine": "opencode",
-   "detail": "ほかに1点、claude.ai の Google Docs コネクターが未認証になっています。今回の作業には関係ありませんが、使うときは claude.ai のコネクター設定から認証してください。"
   }
  ]
 }
