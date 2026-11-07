@@ -1,6 +1,6 @@
 ---
 title: "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか"
-description: "ソニーがスマホ用USB-Cマイク「ECM-AX10」を発表した。球状に並べた4基の無指向性カプセルでアンビソニックス・バイノーラル・ステレオを録り分け、Eclipsa Audio認証も取得している。仕様と録り方の注意点、向く用途と限界を整理した。"
+description: "ソニーがスマホ用USB-Cマイク「ECM-AX10」を発表した。球状に並べた4基の無指向性カプセルでアンビソニックス・バイノーラル・ステレオを録り分け、Eclipsa Audio認証も取得。仕様と録り方の注意点、向く用途を整理した。"
 images: ["/images/og/sony-ecm-ax10-spatial-mic-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

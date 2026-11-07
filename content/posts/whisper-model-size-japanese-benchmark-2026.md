@@ -1,6 +1,6 @@
 ---
 title: "Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで"
-description: "Whisperのtinyからlarge-v3、large-v3-turboまでを、日本語の文字誤り率と必要なVRAM、速度で並べた検証メモ。faster-whisperとwhisper.cppの差と、日本語で起きやすい誤認識の対策もまとめた。"
+description: "Whisperのtinyからlarge-v3、large-v3-turboまでを、日本語の文字誤り率と必要なVRAM、速度で並べた検証メモ。faster-whisperとwhisper.cppの差、日本語で起きやすい誤認識の対策もまとめた。"
 images: ["/images/og/whisper-model-size-japanese-benchmark-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

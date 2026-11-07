@@ -1,6 +1,6 @@
 ---
 title: "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方"
-description: "炭酸水メーカーのソーダストリームTERRAとE-TERRAを、押す回数とボタンで決まる炭酸の強さ、60Lガスシリンダーの交換費用、1リットルあたり約43円の単価、ハイボールや割り材に使うときのコツまで数字で整理し、手動と電動の選び方をまとめました。"
+description: "炭酸水メーカーのソーダストリームTERRAとE-TERRAを、押す回数で決まる炭酸の強さ、60Lガスシリンダーの交換費用、1リットル約43円の単価、ハイボールや割り材のコツまで数字で整理し、手動と電動の選び方をまとめた。"
 images: ["/images/og/sodastream-terra-carbonation-guide-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
