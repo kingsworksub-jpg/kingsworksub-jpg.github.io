@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:44:51+09:00",
+ "updated": "2026-11-07T14:45:35+09:00",
  "queue": {
   "published": 145,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ecm-records-silence-recording-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-07T14:30:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-07T14:06:47+09:00",
+  "at": "2026-11-07T14:45:35+09:00",
   "engine": "opencode",
-  "detail": "The two failed DMs were blocked by the recipients' own settings, which the task instructions say to ignore. I deleted all the temporary DM text files. Nothing was committed or pushed, as the instructions require."
+  "detail": "- **未確認の事実は本文から外した**: チック・コリアの『Return to Forever』（1972）がECMから出たかどうかで、私の認識とリサーチ結果が食い違ったため触れていません。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-07T14:45:35+09:00",
+   "engine": "opencode",
+   "detail": "- **未確認の事実は本文から外した**: チック・コリアの『Return to Forever』（1972）がECMから出たかどうかで、私の認識とリサーチ結果が食い違ったため触れていません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T12:14:37+09:00",
    "engine": "opencode",
    "detail": "- I ran `topic_plan.py complete` and pushed the record commit. `CLAUDE.md` already had about 130 lines of uncommitted edits that weren't mine, so I committed only my one new row in the Hatena table and left your other edits as they were."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T11:51:46+09:00",
-   "engine": "opencode",
-   "detail": "The claude.ai Google Docs connector is waiting to be authorized, but this task didn't need it. You can authorize it in your claude.ai connector settings if you want to use it later."
   }
  ]
 }
