@@ -1,0 +1,30 @@
+{
+ "/images/monitor-arm/arm-stand.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Monitor_arm_stand_%281%29.jpg/1280px-Monitor_arm_stand_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Monitor_arm_stand_(1).jpg",
+  "license": "CC BY 2.0",
+  "author": "Ben Scholzen",
+  "title": "File:Monitor arm stand (1).jpg"
+ },
+ "/images/monitor-arm/dual-monitor.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg/1280px-Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Dual_monitor_setup_in_a_gaming_room_with_keyboard_and_mouse_in_focus.jpg",
+  "license": "CC BY 2.0",
+  "author": "Shixart1985",
+  "title": "File:Dual monitor setup in a gaming room with keyboard and mouse in focus.jpg"
+ },
+ "/images/monitor-arm/desk-setup.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Desk_Setup_%28Unsplash%29.jpg/1280px-Desk_Setup_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Desk_Setup_(Unsplash).jpg",
+  "license": "CC0",
+  "author": "Luke Chesser lukechesser",
+  "title": "File:Desk Setup (Unsplash).jpg"
+ },
+ "/images/monitor-arm/ultrawide-arm.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ultra-wide_display_with_VESA_arm_-_2.jpg/1280px-Ultra-wide_display_with_VESA_arm_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ultra-wide_display_with_VESA_arm_-_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Kyu3a",
+  "title": "File:Ultra-wide display with VESA arm - 2.jpg"
+ }
+}
