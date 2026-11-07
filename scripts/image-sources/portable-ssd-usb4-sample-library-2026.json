@@ -1,0 +1,30 @@
+{
+ "/images/portable-ssd/sandisk-extreme.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg/1280px-SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "ITEagle Europe - Sebastiaan Broekhoven",
+  "title": "File:SanDisk Extreme Portable SSD 1 TB - front view.jpg"
+ },
+ "/images/portable-ssd/t7-shield.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/SAMSUNG_PROTABLE_SSD_T7_SHIELD_4TB_FRONT_SIDE.jpg/1280px-SAMSUNG_PROTABLE_SSD_T7_SHIELD_4TB_FRONT_SIDE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_PROTABLE_SSD_T7_SHIELD_4TB_FRONT_SIDE.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Dinkun Chen",
+  "title": "File:SAMSUNG PROTABLE SSD T7 SHIELD 4TB FRONT SIDE.jpg"
+ },
+ "/images/portable-ssd/usb-c-cable.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bad_USB-C_cable.agr.jpg/1280px-Bad_USB-C_cable.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Bad_USB-C_cable.agr.jpg",
+  "license": "CC BY 4.0",
+  "author": "ArnoldReinhold",
+  "title": "File:Bad USB-C cable.agr.jpg"
+ },
+ "/images/portable-ssd/macbook-ports.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/MacBook_Air_13-inch%2C_SD_card_slot%2C_USB_3.0_port%2C_Thunderbolt_port.jpg/1280px-MacBook_Air_13-inch%2C_SD_card_slot%2C_USB_3.0_port%2C_Thunderbolt_port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:MacBook_Air_13-inch,_SD_card_slot,_USB_3.0_port,_Thunderbolt_port.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mk2010",
+  "title": "File:MacBook Air 13-inch, SD card slot, USB 3.0 port, Thunderbolt port.jpg"
+ }
+}
