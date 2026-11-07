@@ -1,0 +1,30 @@
+{
+ "/images/lm-studio/ollama-terminal.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ollama-running-llama3-in-linux.png/1280px-Ollama-running-llama3-in-linux.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Ollama-running-llama3-in-linux.png",
+  "license": "CC BY 4.0",
+  "author": "MGeog2022",
+  "title": "File:Ollama-running-llama3-in-linux.png"
+ },
+ "/images/lm-studio/mac-mini-m4.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Mac_mini_2024_M4.jpg/1280px-Mac_mini_2024_M4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Mac_mini_2024_M4.jpg",
+  "license": "CC BY 4.0",
+  "author": "Seasider53",
+  "title": "File:Mac mini 2024 M4.jpg"
+ },
+ "/images/lm-studio/rtx4070.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2023_Gigabyte_GeForce_RTX_4070_Aero_OC_12GB_%281%29.jpg/1280px-2023_Gigabyte_GeForce_RTX_4070_Aero_OC_12GB_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:2023_Gigabyte_GeForce_RTX_4070_Aero_OC_12GB_(1).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Jacek Halicki",
+  "title": "File:2023 Gigabyte GeForce RTX 4070 Aero OC 12GB (1).jpg"
+ },
+ "/images/lm-studio/open-webui.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/OllamaOpenwebuiInizio.png/1280px-OllamaOpenwebuiInizio.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:OllamaOpenwebuiInizio.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Mattruffoni",
+  "title": "File:OllamaOpenwebuiInizio.png"
+ }
+}
