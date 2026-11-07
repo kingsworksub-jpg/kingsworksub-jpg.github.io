@@ -1,0 +1,30 @@
+{
+ "/images/japan-jazz/watanabe.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Sadao_Watanabe_jazz_musician_2.jpg/1280px-Sadao_Watanabe_jazz_musician_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Sadao_Watanabe_jazz_musician_2.jpg",
+  "license": "CC BY 2.0",
+  "author": "srgpicker",
+  "title": "File:Sadao Watanabe jazz musician 2.jpg"
+ },
+ "/images/japan-jazz/akiyoshi-1953.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Akiyoshi_Toshiko_1953.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Akiyoshi_Toshiko_1953.jpg",
+  "license": "Public domain",
+  "author": "朝日新聞社",
+  "title": "File:Akiyoshi Toshiko 1953.jpg"
+ },
+ "/images/japan-jazz/yamashita.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Yosuke_Yamashita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Yosuke_Yamashita.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Daniel Shen Taipei, Taiwan",
+  "title": "File:Yosuke Yamashita.jpg"
+ },
+ "/images/japan-jazz/hiromi.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Hiromi_Uehara_-_Jazz_na_Starowce_-_1.jpg/1280px-Hiromi_Uehara_-_Jazz_na_Starowce_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Hiromi_Uehara_-_Jazz_na_Starowce_-_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Robert Drózd",
+  "title": "File:Hiromi Uehara - Jazz na Starowce - 1.jpg"
+ }
+}
