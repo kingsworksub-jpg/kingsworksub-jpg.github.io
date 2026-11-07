@@ -2919,6 +2919,15 @@
    "status": "rejected",
    "reason": "既存記事 edo-kiriko-guinomi-cut-patterns-2026 が文様の種類・工程・冷酒を扱い済みで内容が重複",
    "at": "2026-11-07T09:31:00+09:00"
+  },
+  {
+   "id": "2026w42-001",
+   "category": "gear",
+   "theme": "宅録のダイナミックマイク5本、スピーチと歌を1本でまかなう",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "opencode",
+   "at": "2026-11-07T09:34:51+09:00"
   }
  ]
 }
