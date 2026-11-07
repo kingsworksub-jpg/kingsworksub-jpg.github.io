@@ -1,0 +1,37 @@
+{
+ "/images/dynamic-mic/sm58.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Microphone_%28Shure_SM58%29_%284900485245%29.jpg/1280px-Microphone_%28Shure_SM58%29_%284900485245%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Microphone_(Shure_SM58)_(4900485245).jpg",
+  "license": "CC BY 2.0",
+  "author": "Marcel Grieder from Switzerland",
+  "title": "File:Microphone (Shure SM58) (4900485245).jpg"
+ },
+ "/images/dynamic-mic/mv7.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Shure_MV7_microphone.jpg/1280px-Shure_MV7_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Shure_MV7_microphone.jpg",
+  "license": "CC BY 2.0",
+  "author": "Panos Sakalakis",
+  "title": "File:Shure MV7 microphone.jpg"
+ },
+ "/images/dynamic-mic/md421.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Sennheiser_MD_421_ks01.jpg/1280px-Sennheiser_MD_421_ks01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Sennheiser_MD_421_ks01.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Kreuzschnabel",
+  "title": "File:Sennheiser MD 421 ks01.jpg"
+ },
+ "/images/dynamic-mic/sm7b.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Shure_SM7.jpg/1280px-Shure_SM7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Shure_SM7.jpg",
+  "license": "CC0",
+  "author": "The Midnite Wolf",
+  "title": "File:Shure SM7.jpg"
+ },
+ "/images/dynamic-mic/re20.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/EV_RE20_voiceover_booth.jpg/1280px-EV_RE20_voiceover_booth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:EV_RE20_voiceover_booth.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Binksternet",
+  "title": "File:EV RE20 voiceover booth.jpg"
+ }
+}
