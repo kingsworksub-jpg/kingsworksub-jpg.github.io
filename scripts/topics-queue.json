@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:02:15+09:00",
+ "updated": "2026-11-07T23:04:36+09:00",
  "items": [
   {
    "category": "gear",
@@ -6935,14 +6935,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-014",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-18",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-07T23:02:15+09:00",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "23:00",
-   "slot_label": "就寝前: ドリンク/酒分析/カクテルレシピ/ハック"
+   "slot_label": "就寝前: ドリンク/酒分析/カクテルレシピ/ハック",
+   "last_error": "run did not publish (failed); cleaned up"
   },
   {
    "category": "learning",

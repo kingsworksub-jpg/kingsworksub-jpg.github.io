@@ -2997,6 +2997,15 @@
    "note_key": "n5cd1fd7d0bce",
    "engine": "opencode",
    "at": "2026-11-07T21:48:02+09:00"
+  },
+  {
+   "id": "2026w42-014",
+   "category": "learning",
+   "theme": "メトロノームでリズム感をつくる、練習の設計",
+   "status": "failed",
+   "reason": "run did not publish (failed); cleaned up",
+   "engine": "opencode",
+   "at": "2026-11-07T23:04:36+09:00"
   }
  ]
 }
