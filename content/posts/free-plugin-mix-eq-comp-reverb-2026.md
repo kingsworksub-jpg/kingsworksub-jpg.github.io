@@ -1,6 +1,6 @@
 ---
 title: "無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ"
-description: "有料プラグインに手を出す前に、無料の定番3本でミックスがどこまで仕上がるかを整理する。EQはTDR Nova、コンプはKlanghelm DC1A、リバーブはTAL-Reverb-4。挿す順番と設定の出発点、無料では届かない場所まで順に見ていく。"
+description: "有料プラグインに手を出す前に、無料の定番3本でミックスがどこまで仕上がるかを整理する。EQはTDR Nova、コンプはKlanghelm DC1A、リバーブはTAL-Reverb-4。挿す順番と設定の出発点、無料の限界まで順に見る。"
 images: ["/images/og/free-plugin-mix-eq-comp-reverb-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

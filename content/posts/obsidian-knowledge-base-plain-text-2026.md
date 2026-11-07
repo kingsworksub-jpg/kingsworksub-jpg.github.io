@@ -1,6 +1,6 @@
 ---
 title: "Obsidianのメモはただのテキストファイル。10年後も開ける知識の置き場を作る"
-description: "Obsidianは、メモを手元のフォルダにMarkdownのテキストファイルとして保存するアプリだ。保存の形式がなぜ大事なのか、リンクとバックリンクで知識を育てる運用、ルーマンのツェッテルカステンから借りる考え方、同期と移行の注意点を順に整理する。"
+description: "Obsidianは、メモを手元のフォルダにMarkdownのテキストファイルとして保存するアプリだ。保存形式がなぜ大事か、リンクとバックリンクで知識を育てる運用、ルーマンのツェッテルカステンから借りる考え方、同期と移行の注意点を整理する。"
 images: ["/images/og/obsidian-knowledge-base-plain-text-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

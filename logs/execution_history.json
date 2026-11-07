@@ -5384,5 +5384,37 @@
       "規約外descriptionは残り約18記事(121〜124字が中心)",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T13:53:30Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "free-plugin-mix-eq-comp-reverb-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
+      "laptop-only-dtm-portable-setup-2026",
+      "mitsuya-cider-zero-deep-dive-2026",
+      "nanbu-tetsubin-kanzake-yusen",
+      "nousaku-tin-sake-set-deep-dive-2026",
+      "obsidian-knowledge-base-plain-text-2026",
+      "quiet-music-pc-fan-noise-2026"
+    ],
+    "actions": [
+      "description規約(110〜120字)外の8記事を規約内に調整(121〜124字→112〜119字)"
+    ],
+    "files_changed": [
+      "content/posts/free-plugin-mix-eq-comp-reverb-2026.md",
+      "content/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026.md",
+      "content/posts/laptop-only-dtm-portable-setup-2026.md",
+      "content/posts/mitsuya-cider-zero-deep-dive-2026.md",
+      "content/posts/nanbu-tetsubin-kanzake-yusen.md",
+      "content/posts/nousaku-tin-sake-set-deep-dive-2026.md",
+      "content/posts/obsidian-knowledge-base-plain-text-2026.md",
+      "content/posts/quiet-music-pc-fan-noise-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "規約外descriptionは残り10記事(121〜124字が中心)",
+      "Hugoビルド未実施"
+    ]
   }
 ]
