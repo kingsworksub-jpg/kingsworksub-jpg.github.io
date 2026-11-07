@@ -30,13 +30,7 @@ scheduled_time: "21:30"
 
 ここにアッパーライトを用いて天井面を明るく照らし出すと、天井の境界線が光によって曖昧になり、実際の物理的な高低差以上に「天井が高く、部屋全体が広々とした空間」という錯覚を脳にもたらすことができる。特に、日本の一般的な賃貸住宅で見られる低めの天井や、梁（はり）が多くて圧迫感のある部屋においては、この天井照射のアプローチが抜群の効果を発揮する。
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22">
-<img src="/images/products/indirect-lighting-room.png" alt="LEDフロアスタンド アッパーライト" loading="lazy">
-<span class="product-banner-info">
-<span class="product-banner-name">LEDフロアスタンド アッパーライト</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
-</a>
+🛒 [LEDフロアスタンド アッパーライトをAmazonで探す](https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22)
 
 ## 2. 壁を照らすと「奥行きと広がり」が生まれるウォールウォッシュ
 
@@ -46,13 +40,7 @@ scheduled_time: "21:30"
 
 狭いワンルームや4畳半〜6畳程度の限られたスペースであっても、部屋の一番長い面やコーナーに向かって間接照明の光を当てておくだけで、実際の帖数以上の開放感を得ることができる。光が壁のクロスや素材の微細な凹凸を拾い、空間全体にリズミカルな陰影のレイヤーを作り出してくれる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=LED%E3%83%86%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88%20%E8%AA%BF%E5%85%89%E8%AA%BF%E8%89%B2%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22">
-<img src="/images/products/indirect-lighting-room.png" alt="調光調色 LEDテープライト 間接照明" loading="lazy">
-<span class="product-banner-info">
-<span class="product-banner-name">調光調色 LEDテープライト 間接照明</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
-</a>
+🛒 [調光調色 LEDテープライト 間接照明をAmazonで探す](https://www.amazon.co.jp/s?k=LED%E3%83%86%E3%83%BC%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88%20%E8%AA%BF%E5%85%89%E8%AA%BF%E8%89%B2%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22)
 
 ## 3. 賃貸でも工事不要！天井と壁を組み合わせるレイアウト術
 
@@ -66,13 +54,7 @@ scheduled_time: "21:30"
 
 これらを同時に点灯させてもよいし、気分に合わせて点灯する数を変えるだけでも、部屋の表情は劇的に変化する。天井の広がりと壁の奥行き、その両方をバランスよく配置することで、どんなにコンパクトな部屋であっても驚くほど開放的で居心地の良い空間に生まれ変わるのだ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%97%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22">
-<img src="/images/products/indirect-lighting-room.png" alt="コードレス テーブルランプ 間接照明" loading="lazy">
-<span class="product-banner-info">
-<span class="product-banner-name">コードレス テーブルランプ 間接照明</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
-</a>
+🛒 [コードレス テーブルランプ 間接照明をAmazonで探す](https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%97%20%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&tag=nakimoto1-22)
 
 ---
 

@@ -5214,5 +5214,23 @@
       "indirect-lighting-room-2026が同一画像を3商品で使い回し→商品別画像の差し替えを検討(未完了)",
       "hugoビルドは環境に無く未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T01:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "indirect-lighting-room-2026"
+    ],
+    "actions": [
+      "同一のライフスタイル写真を3つの別商品バナーに使い回していたため、バナーを商品名のテキストリンク(Amazon検索)に置換し誤解を招く表示を解消"
+    ],
+    "files_changed": [
+      "content/posts/indirect-lighting-room-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hatena/ameba/noteの改善案は今回未作成",
+      "Hugoビルドは環境に無く未実施"
+    ]
   }
 ]
