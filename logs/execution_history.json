@@ -5483,5 +5483,21 @@
       "次回: figure配置が見出し直後でない8記事(jazz-shoes-trend-2026 等)の修正",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T17:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfront matter監査(description長90-140字・images実在・ogImage寸法)を241本で実施、不備なし(下書き5件の寸法欠落のみ・対象外)",
+      "前回候補のジャズ系figure8記事を精査: 冒頭figureは後続段落が回り込み、節途中のfigureも左右交互で本文が回り込むため実害なしと判断し未修正"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回: 古い記事(音楽系)のタイトル構文・内部リンク点検",
+      "Hugoビルド未実施"
+    ]
   }
 ]
