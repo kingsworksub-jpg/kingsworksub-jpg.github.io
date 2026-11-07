@@ -132,6 +132,7 @@ ACアダプターは、タップに直接差すと隣の口をふさいでしま
 
 ## 関連記事・おすすめメディア
 - [電源タップを替えてもハムノイズが消えない理由、機材と家電のコンセントの分け方](/posts/power-strip-hum-noise-guide-2026/)
+- [モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか](/posts/monitor-arm-vesa-desk-depth-2026/)
 - [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

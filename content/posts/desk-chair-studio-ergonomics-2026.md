@@ -111,6 +111,7 @@ DTMの机で特に悩ましいのが、MIDIキーボードの置き場所だ。4
 - [静電容量無接点のHHKBとREALFORCE、同じ東プレのスイッチでも押下圧と配列で打ち心地が分かれる](/posts/topre-hhkb-realforce-capacitive-keyboard-2026/)(キーボードから手を離さない、という点でのつながりで)
 - [スタジオの照明、モニターの見え方と目の疲れ — 画面と手元の明るさを作る](/posts/studio-lighting-eye-fatigue-guide-2026/)
 - [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
+- [モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか](/posts/monitor-arm-vesa-desk-depth-2026/)
 - [モニタースピーカーの置き方、6畳なら机を短い壁に向けるところから](/posts/monitor-placement-room-tuning-6jo-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
