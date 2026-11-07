@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:17:29+09:00",
+ "updated": "2026-11-08T03:18:10+09:00",
  "queue": {
   "published": 148,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published japanese-jazz-sadao-watanabe-lineage-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-08T03:17:29+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "topic-planning",
-  "label": "ネタ会議",
   "state": "finished",
-  "at": "2026-11-08T03:17:25+09:00",
+  "at": "2026-11-08T03:18:10+09:00",
   "engine": "opencode",
-  "detail": "- **Google Docs:** the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This run didn't need it."
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-08T03:18:10+09:00",
+   "engine": "opencode",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
+  },
   {
    "job": "topic-planning",
    "label": "ネタ会議",
@@ -97,14 +100,6 @@
    "at": "2026-11-08T01:01:34+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "failed",
-   "at": "2026-11-08T00:35:12+09:00",
-   "engine": "opencode",
-   "detail": "You've hit your session limit · resets 12:50am (Asia/Tokyo)"
   }
  ]
 }
