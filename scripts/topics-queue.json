@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T07:43:03+09:00",
+ "updated": "2026-11-07T09:30:38+09:00",
  "items": [
   {
    "category": "gear",
@@ -2688,9 +2688,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-045",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-07T09:30:38+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "09:30",
+   "slot_label": "午前: ドリンク/酒分析/カクテルレシピ/ツール"
   },
   {
    "category": "sakeware",
