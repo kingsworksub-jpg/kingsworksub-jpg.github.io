@@ -391,6 +391,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから | https://kinbro.hatenablog.com/entry/2026/11/07/074227 | 14729835035334961267 |
 | モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか | https://kinbro.hatenablog.com/entry/2026/11/07/121324 | 14729835035335047053 |
 | LM StudioとOllamaは何が違うのか、モデルを画面で選ぶ手軽さと1234番ポートのAPI | https://kinbro.hatenablog.com/entry/2026/11/07/201403 | 14729835035335212934 |
+| ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか、10Gbpsと40Gbpsで変わるもの | https://kinbro.hatenablog.com/entry/2026/11/08/074245 | 14729835035335377633 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

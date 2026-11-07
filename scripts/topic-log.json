@@ -3006,6 +3006,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "opencode",
    "at": "2026-11-07T23:04:36+09:00"
+  },
+  {
+   "id": "2026w45-001",
+   "category": "pc",
+   "theme": "ポータブルSSDの選び方、USB 3.2 Gen2とUSB4で音源ライブラリの読み込みはどこまで変わるか",
+   "slug": "portable-ssd-usb4-sample-library-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/portable-ssd-usb4-sample-library-2026/",
+   "hatena_entry": "14729835035335377633",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-08T07:44:00+09:00"
   }
  ]
 }
