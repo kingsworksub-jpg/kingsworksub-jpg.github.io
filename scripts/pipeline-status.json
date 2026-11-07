@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:50:02+09:00",
+ "updated": "2026-11-07T14:51:52+09:00",
  "queue": {
   "published": 145,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ecm-records-silence-recording-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-07T14:50:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-07T14:45:35+09:00",
+  "at": "2026-11-07T14:51:52+09:00",
   "engine": "opencode",
-  "detail": "- **未確認の事実は本文から外した**: チック・コリアの『Return to Forever』（1972）がECMから出たかどうかで、私の認識とリサーチ結果が食い違ったため触れていません。"
+  "detail": "なお、claude.ai の Google Docs コネクタは認証されていないため、claude.ai のコネクタ設定で認証するまでは使えません。今回の作業には関係ありません。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-07T14:51:52+09:00",
+   "engine": "opencode",
+   "detail": "なお、claude.ai の Google Docs コネクタは認証されていないため、claude.ai のコネクタ設定で認証するまでは使えません。今回の作業には関係ありません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T12:15:29+09:00",
    "engine": "opencode",
    "detail": "X に新しい返信はありませんでした。`--check-replies` を実行したところ、自分のアカウント（@100labjtvn）は正しく認識され、未処理の返信は0件でした。指示文どおりそのまま終了したので、返信・スキップ・コミットはどれも行っていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-07T12:14:37+09:00",
-   "engine": "opencode",
-   "detail": "- I ran `topic_plan.py complete` and pushed the record commit. `CLAUDE.md` already had about 130 lines of uncommitted edits that weren't mine, so I committed only my one new row in the Hatena table and left your other edits as they were."
   }
  ]
 }
