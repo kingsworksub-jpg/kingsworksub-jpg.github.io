@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:00:40+09:00",
+ "updated": "2026-11-07T12:14:01+09:00",
  "items": [
   {
    "category": "gear",
@@ -9649,7 +9649,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-009",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-25",
    "retry": 1,
    "claimed_at": "2026-11-07T12:00:40+09:00",
@@ -9657,7 +9657,9 @@
    "content_dir": "reviews",
    "slot_time": "12:00",
    "slot_label": "昼: テック/ソフト/制作環境/PC/開発/ネット",
-   "last_error": "run did not publish (finished); cleaned up"
+   "last_error": "run did not publish (finished); cleaned up",
+   "slug": "monitor-arm-vesa-desk-depth-2026",
+   "published_at": "2026-11-07T12:14:01+09:00"
   },
   {
    "category": "pc",

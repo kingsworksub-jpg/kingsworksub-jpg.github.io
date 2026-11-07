@@ -2928,6 +2928,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "opencode",
    "at": "2026-11-07T09:34:51+09:00"
+  },
+  {
+   "id": "2026w43-009",
+   "category": "setup",
+   "theme": "モニターアームでディスプレイを浮かせる、スピーカーの反射と机の奥行きを取り戻す",
+   "slug": "monitor-arm-vesa-desk-depth-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/monitor-arm-vesa-desk-depth-2026/",
+   "hatena_entry": "14729835035335047053",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-07T12:14:01+09:00"
   }
  ]
 }
