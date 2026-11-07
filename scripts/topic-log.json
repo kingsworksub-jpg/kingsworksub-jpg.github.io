@@ -2911,6 +2911,14 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-07T07:43:03+09:00"
+  },
+  {
+   "id": "2026w40-045",
+   "category": "sakeware",
+   "theme": "江戸切子の冷酒グラス、カットが口当たりを変える",
+   "status": "rejected",
+   "reason": "既存記事 edo-kiriko-guinomi-cut-patterns-2026 が文様の種類・工程・冷酒を扱い済みで内容が重複",
+   "at": "2026-11-07T09:31:00+09:00"
   }
  ]
 }

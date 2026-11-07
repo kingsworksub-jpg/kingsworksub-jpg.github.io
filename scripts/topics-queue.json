@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T09:30:38+09:00",
+ "updated": "2026-11-07T09:31:00+09:00",
  "items": [
   {
    "category": "gear",
@@ -2688,14 +2688,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-045",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-10-01",
    "retry": 0,
    "claimed_at": "2026-11-07T09:30:38+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "09:30",
-   "slot_label": "午前: ドリンク/酒分析/カクテルレシピ/ツール"
+   "slot_label": "午前: ドリンク/酒分析/カクテルレシピ/ツール",
+   "last_error": "既存記事 edo-kiriko-guinomi-cut-patterns-2026 が文様の種類・工程・冷酒を扱い済みで内容が重複"
   },
   {
    "category": "sakeware",
@@ -6147,9 +6148,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-001",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-07T09:31:00+09:00",
+   "channel": "ameba",
+   "content_dir": "reviews",
+   "slot_time": "09:30",
+   "slot_label": "午前: ドリンク/酒分析/カクテルレシピ/ツール"
   },
   {
    "category": "gear",
