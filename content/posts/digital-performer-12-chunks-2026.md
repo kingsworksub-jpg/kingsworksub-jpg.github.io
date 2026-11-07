@@ -1,6 +1,6 @@
 ---
 title: "Digital Performer 12のチャンクは、映画1本分のキューを1つのファイルに収める"
-description: "MOTU Digital Performer 12を、劇伴の作曲家が手放さない理由であるチャンクから読み解く。シーケンス・V-Rack・ソングの3種類の使い分け、映像に合わせる道具、Atmosやステム分離など12の新機能、価格と動作環境まで整理する。"
+description: "MOTU Digital Performer 12を、劇伴の作曲家が手放さない理由のチャンクから読み解く。シーケンス・V-Rack・ソングの使い分け、映像に合わせる道具、Atmosやステム分離など12の新機能、価格と動作環境まで整理する。"
 images: ["/images/og/digital-performer-12-chunks-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
