@@ -607,6 +607,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした | https://note.com/shining_finger01/n/n7842c49e3a33 | `n7842c49e3a33` | **公開済(2026-11-05)** |
 | 作業中のBGMで、耳は何を聞き流しているのか。歌詞が邪魔をする理由とサティの家具の音楽 | https://note.com/shining_finger01/n/n2d03c336a9af | `n2d03c336a9af` | **公開済(2026-11-06・note専用)** |
 | ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学 | https://note.com/shining_finger01/n/nf03086ef5afb | `nf03086ef5afb` | **公開済(2026-11-07・note専用)** |
+| 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏子・渡辺貞夫から上原ひろみまで | https://note.com/shining_finger01/n/n5cd1fd7d0bce | `n5cd1fd7d0bce` | **公開済(2026-11-07・note専用)** |
 | ジャズ喫茶で黙って聴いた大きな音、スピーカーの前の1時間が残していったもの | https://note.com/shining_finger01/n/nfb01bce8ca20 | `nfb01bce8ca20` | **公開済(2026-11-06・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
