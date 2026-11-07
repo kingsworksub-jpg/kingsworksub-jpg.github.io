@@ -1,6 +1,6 @@
 ---
 title: "uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能"
-description: "Chrome 138でMV2拡張が止まり、2026年6月のChrome 150で最後の抜け道も閉じた。後継のuBlock Origin Liteが4つのモードで止められるもの、止められないもの、規則数の上限、Firefoxへ移る判断まで整理する。"
+description: "Chrome 138でMV2拡張が止まり、2026年6月のChrome 150で最後の抜け道も閉じた。後継のuBlock Origin Liteが4つのモードで止められるもの、止められないもの、規則数の上限、Firefoxへ移る判断を整理。"
 images: ["/images/og/chrome-mv3-ublock-origin-lite-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

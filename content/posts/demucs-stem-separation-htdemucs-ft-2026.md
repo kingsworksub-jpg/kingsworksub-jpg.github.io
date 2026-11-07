@@ -1,6 +1,6 @@
 ---
 title: "Demucsでボーカルを抜くと残響はどこへ行くか、htdemucsとhtdemucs_ftの4ステムと6ステム"
-description: "音源分離のDemucsで、htdemucs・htdemucs_ft・htdemucs_6sの違いを、公表されている楽器ごとの分離精度と処理時間で整理した検証メモ。残響やにじみが残る場所と、元のリポジトリがアーカイブされた後の入手先もまとめた。"
+description: "音源分離のDemucsで、htdemucs・htdemucs_ft・htdemucs_6sの違いを、公表されている楽器ごとの分離精度と処理時間で整理した検証メモ。残響やにじみが残る場所と、リポジトリがアーカイブされた後の入手先もまとめた。"
 images: ["/images/og/demucs-stem-separation-htdemucs-ft-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

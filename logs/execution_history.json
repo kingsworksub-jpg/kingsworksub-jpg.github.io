@@ -5327,5 +5327,34 @@
       "規約外descriptionは残り約28記事(121〜124字が中心)",
       "Hugoビルド未実施・未完了あり"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T11:54:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "alan-boguslavsky-stage",
+      "ballantines-finest-deep-dive-2026",
+      "cassette-tape-revival-2026",
+      "chrome-mv3-ublock-origin-lite-2026",
+      "demucs-stem-separation-htdemucs-ft-2026",
+      "dtm-backup-3-2-1-ssd-hdd-cloud-2026"
+    ],
+    "actions": [
+      "description規約(110〜120字)外の6記事を規約内に調整(124/124/122/123/121/122字→119/112前後/110/120/119/116字)",
+      "seo-audit.pyはPIL破損で実行不可のため独自スクリプトで走査"
+    ],
+    "files_changed": [
+      "content/posts/alan-boguslavsky-stage.md",
+      "content/posts/ballantines-finest-deep-dive-2026.md",
+      "content/posts/cassette-tape-revival-2026.md",
+      "content/posts/chrome-mv3-ublock-origin-lite-2026.md",
+      "content/posts/demucs-stem-separation-htdemucs-ft-2026.md",
+      "content/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "規約外descriptionは残り約24記事(121〜124字が中心)",
+      "Hugoビルド未実施・未完了あり"
+    ]
   }
 ]
