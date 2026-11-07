@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:02:12+09:00",
+ "updated": "2026-11-07T17:19:31+09:00",
  "items": [
   {
    "category": "gear",
@@ -6148,7 +6148,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-001",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-11-07T17:02:12+09:00",
@@ -6156,7 +6156,9 @@
    "content_dir": "reviews",
    "slot_time": "17:00",
    "slot_label": "夕: ドリンク/酒分析/カクテルレシピ/ツール",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "dynamic-mic-5choice-2026",
+   "published_at": "2026-11-07T17:19:31+09:00"
   },
   {
    "category": "gear",
