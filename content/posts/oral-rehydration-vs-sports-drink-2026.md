@@ -14,7 +14,6 @@ ogImageHeight: 630
 汗をたくさんかく季節や体調を崩したとき、水分とミネラルの補給として真っ先に思い浮かぶのが「スポーツドリンク」と「経口補水液」です。どちらも水分と電解質を効率よく補給できる優れた飲み物ですが、その成分設計や浸透圧、そして想定されている「飲むべきシーン」には明確な違いがあります。なんとなくのイメージで選んでしまうと、期待したほどの効果が得られなかったり、体に余計な負担をかけてしまったりすることがあります。今回は両者の決定的な違いを詳しく紐解きます。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B001V7QN7O?tag=nakimoto1-22">
-<img src="/images/products/itoen-mineral-strong.png" alt="OS-1 経口補水液" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">OS-1 経口補水液</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -59,10 +58,9 @@ ogImageHeight: 630
 スポーツドリンクと経口補水液の最も大きな違いは、ナトリウムと糖分の比率（電解質バランス）にあります。スポーツドリンクは「おいしく飲める味」を考慮して糖分が比較的多く含まれており、日常的な運動による脱水を防ぐためにバランスよく作られています。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B001TWE9VS?tag=nakimoto1-22">
-<img src="/images/products/real-gold.png" alt="ポカリスエット スポーツドリンク" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ポカリスエット スポーツドリンク</span>
-<span class="product-banner-cta">Amazon for View →</span>
+<span class="product-banner-cta">Amazonで見る →</span>
 </span>
 </a>
 
