@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:00:02+09:00",
+ "updated": "2026-11-07T19:01:41+09:00",
  "queue": {
   "published": 146,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published dynamic-mic-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-07T19:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
-  "state": "failed",
-  "at": "2026-11-07T18:35:20+09:00",
+  "state": "finished",
+  "at": "2026-11-07T19:01:41+09:00",
   "engine": "opencode",
-  "detail": "You've hit your session limit · resets 7:50pm (Asia/Tokyo)"
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-07T19:01:41+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T16:45:40+09:00",
    "engine": "opencode",
    "detail": "途中で出た案内も1件お伝えします。claude.ai の Google Docs コネクターが未認証になっています。今回の作業には関係ありませんが、使う場合は claude.ai のコネクター設定で認証してください。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T16:21:41+09:00",
-   "engine": "opencode",
-   "detail": "- **後片付け:** DM文面を保存した一時ファイルは削除済みです。手順書どおり、commit・pushはしていません。"
   }
  ]
 }
