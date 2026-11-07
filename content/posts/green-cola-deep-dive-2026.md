@@ -1,6 +1,6 @@
 ---
 title: "ギリシャ生まれのgreen cola(グリーンコーラ)は日本の棚になじむか"
-description: "黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚に紛れ込んだ見慣れないパッケージが、アサヒ飲料の「green cola(グリーンコーラ)」だ。"
+description: "黒いボトルに緑の筆記体ロゴ、ラベルの隅にはギリシャの国旗と「BORN IN GREECE, BOTTLED IN JAPAN」の一文。コンビニのコーラ棚で見かける、アサヒ飲料「green cola(グリーンコーラ)」の味と価格を見ていく。"
 images: ["/images/og/green-cola-deep-dive-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
