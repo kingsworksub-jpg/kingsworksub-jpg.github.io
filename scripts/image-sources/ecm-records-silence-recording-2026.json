@@ -1,0 +1,23 @@
+{
+ "/images/ecm-silence/jarrett.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Keith_Jarrett-commons.jpg/1280px-Keith_Jarrett-commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Keith_Jarrett-commons.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Olivier Bruchez",
+  "title": "File:Keith Jarrett-commons.jpg"
+ },
+ "/images/ecm-silence/garbarek-1971.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Jan-Garbarek-1971.jpg/1280px-Jan-Garbarek-1971.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Jan-Garbarek-1971.jpg",
+  "license": "Public domain",
+  "author": "Jarmo Hietaranta / Lehtikuva",
+  "title": "File:Jan-Garbarek-1971.jpg"
+ },
+ "/images/ecm-silence/part.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Arvo_P%C3%A4rt%2C_2011.jpg/1280px-Arvo_P%C3%A4rt%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Arvo_P%C3%A4rt,_2011.jpg",
+  "license": "CC BY 2.0",
+  "author": "Estonian Foreign Ministry",
+  "title": "File:Arvo Pärt, 2011.jpg"
+ }
+}
