@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:04:36+09:00",
+ "updated": "2026-11-08T03:16:52+09:00",
  "items": [
   {
    "category": "gear",
@@ -11047,6 +11047,1906 @@
    "last_error": "run did not publish (failed); cleaned up",
    "slug": "beaujolais-nouveau-carbonic-maceration-2026",
    "published_at": "2026-10-27T17:47:47+09:00"
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "ポータブルSSDの選び方、USB 3.2 Gen2とUSB4で音源ライブラリの読み込みはどこまで変わるか",
+   "angle": "10Gbps(実効約1,000MB/s)と40Gbps(実効約3,000MB/s)の規格差が、数百GBのサンプル音源を外付けに置いたときの読み込み時間にどう出るか。ケーブルとPC側ポートの対応も含め、買う前に確かめる順番を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ポータブルSSD 選び方",
+    "USB4 SSD 速度"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://tech-insider.org/sandisk-usb4-vs-20gbps-portable-ssd-2026/",
+    "https://blog.usro.net/2024/09/usb4-vs-usb-3-2-vs-thunderbolt-4-understanding-the-differences-and-choosing-the-best-option/",
+    "https://forums.tomshardware.com/threads/crucial-x10-portable-ssd-4tb-review-20-gbps-up-to-8tb.3881197/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Portable_SSD_T5%2C_Oosterflank%2C_Rotterdam_%282020%29.jpg/960px-Samsung_Portable_SSD_T5%2C_Oosterflank%2C_Rotterdam_%282020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Samsung_Portable_SSD_T5,_Oosterflank,_Rotterdam_(2020).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - ©"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg/960px-SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "ITEagle Europe - Sebastiaan Broekhoven"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 16,
+    "season": 9,
+    "demand": 9,
+    "amazon": 9,
+    "total": 84
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-001",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "制作PCにUPSを付ける、停電と瞬停で録音データを失わないための容量の見積もり",
+   "angle": "常時商用・ラインインタラクティブ・常時インバーターの3方式の切替時間の違いと、PCとオーディオインターフェースの消費電力からVA/W(力率約0.6)を見積もる手順。冬の雷や瞬停への備えとして。",
+   "article_type": "guide",
+   "keywords": [
+    "UPS 選び方 PC",
+    "無停電電源装置 容量 計算"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.wiltronics.com.au/wiltronics-knowledge-base/ups-buying-guide-australia-how-to-choose-the-right-ups/",
+    "https://apc.estorewale.com/blog/how-to-choose-the-right-ups-va-rating-for-your-home-or-office-2026-guide/",
+    "https://hackingpc.pages.dev/hardware-builds/ups-guide-pc-power-protection"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/MGE_Uninterruptible_Power_Supply_at_NERSC.jpg/960px-MGE_Uninterruptible_Power_Supply_at_NERSC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:MGE_Uninterruptible_Power_Supply_at_NERSC.jpg",
+     "license": "CC0",
+     "author": "Derrick Coetzee from Berkeley, CA, USA"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/UPS_-_uninterruptible_power_supply.JPG/960px-UPS_-_uninterruptible_power_supply.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:UPS_-_uninterruptible_power_supply.JPG",
+     "license": "CC BY-SA 4.0",
+     "author": "Work With Sounds"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 14,
+    "season": 9,
+    "demand": 7,
+    "amazon": 9,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-002",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "USB-Cドッキングステーション、ノートPCにケーブル1本で給電と映像と有線LANをつなぐ",
+   "angle": "USB PD(最大100W)の給電、DisplayPort Alt Modeの映像、有線LANを1本で受けるための条件。ノートPC側のUSB-Cポートが何に対応しているかを先に確かめる手順を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "USB-C ドッキングステーション 選び方",
+    "USB PD 映像出力"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.cdw.com/product/c2g-usb-c-docking-station-triple-display-docking-station-with-hdmi-dp/7349306/",
+    "https://eu.shi.com/product/45909393/C2G-USB-C-11-in-1-Hybrid-DisplayLink-and-DP-Alt-Mode-Triple-4K-Docking-Station-with-HDMI,-DisplayPort,-Ethernet,-USB,-3.5mm-Audio-and-Power-Delivery-up-to-100W/",
+    "https://blog.usro.net/2024/09/usb4-vs-usb-3-2-vs-thunderbolt-4-understanding-the-differences-and-choosing-the-best-option/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Delock_87772_%281%29.jpg/960px-Delock_87772_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Delock_87772_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Reise Reise"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Delock_87772_%282%29.jpg/960px-Delock_87772_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Delock_87772_(2).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Reise Reise"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 15,
+    "season": 6,
+    "demand": 8,
+    "amazon": 9,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-003",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "DDR5メモリ32GBと64GB、DAWのサンプル音源で増設が効く場面と効かない場面",
+   "angle": "メモリ不足がDAWで何を起こすかを、サンプル音源のプリロードとディスクストリーミングの仕組みから説明。32GBで足りる編成と、オーケストラ音源のテンプレートで64GBが要る編成を分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM メモリ 32GB 64GB",
+    "DDR5 増設 DAW"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://beatsyncpro.ai/blog/best-ram-music-production-2026",
+    "https://evezone.evetech.co.za/deep-dives/32gb-ddr5-vs-64gb-ddr5-the-real-difference-for-sa-buyers-in-2026/",
+    "https://ramlatencycalculator-3ro.pages.dev/articles/audio-production-ram.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ramaxel_16_GB_DDR5-5600_SO-DIMM_memory_module.jpg/960px-Ramaxel_16_GB_DDR5-5600_SO-DIMM_memory_module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ramaxel_16_GB_DDR5-5600_SO-DIMM_memory_module.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "ITEagle Europe - Sebastiaan Broekhoven"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SK_Hynix_DDR5_form_factors.jpg/960px-SK_Hynix_DDR5_form_factors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:SK_Hynix_DDR5_form_factors.jpg",
+     "license": "CC BY 4.0",
+     "author": "4300streetcar"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 17,
+    "images": 15,
+    "season": 6,
+    "demand": 9,
+    "amazon": 9,
+    "total": 77
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-004",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "正規表現の最初の一歩、VS Codeの検索と置換で覚える",
+   "angle": "VS Codeの置換(Ctrl+H)で正規表現モードを入れ、. * + ? [] () の6つとキャプチャの$1で実際に置換しながら覚える。テキスト整形の定型作業を減らす入口として。",
+   "article_type": "guide",
+   "keywords": [
+    "正規表現 入門",
+    "VS Code 置換 正規表現"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://flaviocopes.com/vscode-search-replace-regex/",
+    "https://www.educative.io/answers/regex-search-and-replace-with-vs-code",
+    "https://dev.to/scooperdev/regex-search-and-replace-with-vs-code-4911"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Regex_in_text-editor.png/960px-Regex_in_text-editor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Regex_in_text-editor.png",
+     "license": "CC BY-SA 3.0",
+     "author": "Wereldburger758"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Regular_expression_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Regular_expression_example.png",
+     "license": "CC0",
+     "author": "Belbury"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 13,
+    "season": 6,
+    "demand": 9,
+    "amazon": 3,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-005",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "TypeScriptの最初の一歩、JavaScriptに型を付けると何が変わるか",
+   "angle": "既存のJavaScriptに型注釈を足すと、エディタの補完と実行前のエラー検出がどう変わるか。tsconfigの最小設定と、anyに逃げない書き方を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "TypeScript 入門",
+    "TypeScript JavaScript 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "https://dev.to/limaleandro1999/introduction-to-typescript-adding-types-to-javascript-821",
+    "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/960px-Typescript_logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Typescript_logo_2020.svg",
+     "license": "Public domain",
+     "author": "™/®Microsoft"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/JavaScript_Code_Logo.svg/960px-JavaScript_Code_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:JavaScript_Code_Logo.svg",
+     "license": "Public domain",
+     "author": "Chipthrasher"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 13,
+    "season": 6,
+    "demand": 9,
+    "amazon": 3,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-006",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "Gitで失敗を取り消す、reset・revert・restoreの使い分け",
+   "angle": "コミット前・コミット後・push後で取り消し方が変わる理由を、作業ツリー・ステージ・履歴の3層で説明し、resetとrevertとrestoreを場面別に使い分ける。",
+   "article_type": "guide",
+   "keywords": [
+    "git 取り消し reset revert",
+    "git restore 使い方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.deployhq.com/git/reverting-commits",
+    "https://makandracards.com/makandra/608919-git-restore-vs-reset-for-reverting-previous-revisions",
+    "https://runcloud.io/blog/git-reset-to-revert-previous-commit"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/960px-Git-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Git-logo.svg",
+     "license": "CC BY 3.0",
+     "author": "Jason Long"
+    },
+    {
+     "url": "https://live.staticflickr.com/5110/5571391880_2d4df61cd6_b.jpg",
+     "page": "https://www.flickr.com/photos/52095154@N00/5571391880",
+     "license": "BY-SA 2.0",
+     "author": "txenoo"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 20,
+    "images": 13,
+    "season": 6,
+    "demand": 10,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-007",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "SQLiteで個人のデータを管理する、Excelの表から1ファイルのデータベースへ",
+   "angle": "CSVをsqlite3の.importで取り込み、SELECTとGROUP BYで集計するまで。サーバーが要らない1ファイルのデータベースを、表計算の次の道具として使う。",
+   "article_type": "guide",
+   "keywords": [
+    "SQLite 入門",
+    "SQLite CSV インポート"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.sqlitetutorial.net/sqlite-import-csv/",
+    "https://coddy.tech/docs/sqlite/import-csv",
+    "https://www.sqlite.org/cli.html"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/SQLite3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:SQLite3.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Максим Пе"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/SQLite_Architecture.svg/960px-SQLite_Architecture.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:SQLite_Architecture.svg",
+     "license": "Public domain",
+     "author": "SQLite code authors, and representatives of the companies th"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 13,
+    "season": 6,
+    "demand": 8,
+    "amazon": 3,
+    "total": 73
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-008",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "Pi-holeで家中の広告とトラッカーをDNSで止める、Raspberry Piで作る手順",
+   "angle": "Raspberry PiにPi-holeを入れ、ルーターのDNS設定を向けるだけで家中の端末の広告とトラッカーを止める。ブラウザ拡張では止められないテレビやスマート家電への効き方と、誤ブロックの外し方。",
+   "article_type": "guide",
+   "keywords": [
+    "Pi-hole 設定",
+    "Raspberry Pi 広告ブロック"
+   ],
+   "subjects": [
+    {
+     "name": "Raspberry Pi 5",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://isc.sans.edu/diary/24690",
+    "https://pimylifeup.com/raspberry-pi-pi-hole/",
+    "https://raspberry.tips/en/raspberrypi-tutorials/pi-hole-raspberry-pi"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/960px-Raspberry_Pi_4_Model_B_-_Side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Laserlicht"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Raspberry_Pi_1%2C_Pi_400_and_Pi_5.jpg/960px-Raspberry_Pi_1%2C_Pi_400_and_Pi_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_1,_Pi_400_and_Pi_5.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "SimonWaldherr"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 15,
+    "season": 6,
+    "demand": 8,
+    "amazon": 9,
+    "total": 81
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-009",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "家庭用ルーターのセキュリティ設定、初期パスワードとファームウェア更新とWPSを見直す",
+   "angle": "家庭用ルーターで最初に見直す3点、管理画面の初期パスワード・ファームウェアの自動更新・WPSの無効化。サポートの切れた古いルーターを使い続けるかの判断基準も示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ルーター セキュリティ 設定",
+    "ルーター 初期パスワード 変更"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://fightcybercrime.org/blog/7-essential-steps-to-secure-your-home-router-from-hackers/",
+    "https://www.networkworld.com/article/953109/how-to-secure-your-router-and-home-network-2.html",
+    "https://securitytips.substack.com/p/how-to-secure-your-home-router"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/ASUS_Wi-Fi_ROUTER_TUF_6500.jpg/960px-ASUS_Wi-Fi_ROUTER_TUF_6500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ASUS_Wi-Fi_ROUTER_TUF_6500.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Dinkun Chen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/ELECOM_WRC-300FEBK_WPS_WiFi_router_2.jpg/960px-ELECOM_WRC-300FEBK_WPS_WiFi_router_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ELECOM_WRC-300FEBK_WPS_WiFi_router_2.jpg",
+     "license": "CC0",
+     "author": "Syced"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 14,
+    "season": 6,
+    "demand": 9,
+    "amazon": 7,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-010",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "ゲストWi-Fiで来客とIoT機器を分ける、家庭のネットワークを区切る理由",
+   "angle": "ゲストSSIDで来客とスマート家電を本体のネットワークから切り離すと何が守られるか。年末年始の来客前に設定しておく手順として。",
+   "article_type": "guide",
+   "keywords": [
+    "ゲストWi-Fi 設定",
+    "IoT ネットワーク 分離"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://protonvpn.com/blog/guest-networks",
+    "https://www.glofiber.com/en/blog/how-to-create-a-guest-wifi-network",
+    "https://www.bitdefender.com/en-gb/blog/hotforsecurity/home-wi-fi-safe-its-not"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Home_wifi.jpg/960px-Home_wifi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Home_wifi.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mrbeastmodeallday"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/TP-Link_TL-WR740N_router_HS1.jpg/960px-TP-Link_TL-WR740N_router_HS1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:TP-Link_TL-WR740N_router_HS1.jpg",
+     "license": "CC BY 4.0",
+     "author": "Hayden Schiff"
+    }
+   ],
+   "season": "年末年始",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 14,
+    "season": 10,
+    "demand": 7,
+    "amazon": 6,
+    "total": 79
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-011",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "LANケーブルのカテゴリ、Cat6とCat6Aは10ギガで何が違うのか",
+   "angle": "Cat6(250MHz、10GBASE-Tは55mまで)とCat6A(500MHz、100mまで)の違い。宅内配線で10ギガを狙うとき、どのケーブルを選べば足りるかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "LANケーブル カテゴリ 違い",
+    "Cat6 Cat6A 10ギガ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://community.fs.com/blog/should-we-use-cat6-or-cat6a-for-10gbase-t.html",
+    "https://www.cablinginstall.com/cable/article/14167810/cat-6a-cabling-benefits-cautions-and-usecases",
+    "https://network-switch.com/blogs/networking/cat6-vs-cat6a-vs-cat7-vs-cat8-cabling-2026"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CAT6CABLE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:CAT6CABLE.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Miketsukunibito"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/CAT6_twisted_pair.JPG/960px-CAT6_twisted_pair.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:CAT6_twisted_pair.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Agott"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 19,
+    "images": 14,
+    "season": 6,
+    "demand": 9,
+    "amazon": 9,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-012",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Cubase 16の新機能、楽器のレイヤーとスペクトラルAudioWarpで変わる編集",
+   "angle": "2026年11月4日に出たCubase 16の、インストゥルメントのスタック、スペクトラルAudioWarp、歌声合成のOmnivocal Basic、MIDI 2.0の拡張を、15から何が変わったかという視点で整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Cubase 16 新機能",
+    "Cubase 16 アップデート"
+   ],
+   "subjects": [
+    {
+     "name": "Steinberg Cubase Pro 16",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.production-expert.com/production-expert-1/steinberg-cubase-16-adds-instrument-stacks-six-stem-separation-and-omnivocal-basic",
+    "https://musictech.com/news/gear/steinberg-cubase-16/",
+    "https://www.synthtopia.com/content/2026/11/04/cubase-16-adds-instrument-layering-spectral-audiowarp-expanded-midi-2-0-support/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rendering_audio_on_Cubase%2C_%40Tom_America.jpg/960px-Rendering_audio_on_Cubase%2C_%40Tom_America.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rendering_audio_on_Cubase,_@Tom_America.jpg",
+     "license": "CC BY 2.0",
+     "author": "Marco Raaphorst from The Hague, The Netherlands"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cubase_6_feature_collage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Cubase_6_feature_collage.png",
+     "license": "CC BY-SA 3.0",
+     "author": "Steinberg Media Technologies GmbH"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 12,
+    "season": 12,
+    "demand": 10,
+    "amazon": 8,
+    "total": 82
+   },
+   "source_of_idea": "news",
+   "id": "2026w45-013",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Logic Pro 13のAIアシスタント、言葉で頼める操作とドラムキットの分離",
+   "angle": "Logic Pro 13で入ったAIアシスタントに言葉で頼める操作の範囲と、ドラムを6つのパートに分けるスプリッターを整理する。12からの変更点と、Macの要件にも触れる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Logic Pro 13 新機能",
+    "Logic Pro AIアシスタント"
+   ],
+   "subjects": [
+    {
+     "name": "Apple Logic Pro 13",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-tech/apple-goes-all-in-on-ai-with-logic-pro-13-introducing-an-intelligent-assistant-that-can-control-your-daw",
+    "https://www.gearnews.com/apple-logic-pro-studio/",
+    "https://sleepfreaks-dtm.com/for-advance-logic/logic-pro-13/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Logicpro-icon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Logicpro-icon.png",
+     "license": "Public domain",
+     "author": "Unknown authorUnknown author"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ventana_principal_de_Logic_Pro_X.png/960px-Ventana_principal_de_Logic_Pro_X.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ventana_principal_de_Logic_Pro_X.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Reguart Josemaria"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 12,
+    "season": 12,
+    "demand": 10,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "news",
+   "id": "2026w45-014",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "RC-20 Retro Color v2、約10年ぶりの刷新でローファイの質感はどう変わったか",
+   "angle": "テープの揺れ・ノイズ・歪みを足すXLN AudioのRC-20が、2026年11月にv2として約10年ぶりに新しくなった。加わったEchoとVarispeedなど、何が変わり何が残ったかと、ミックスでの使いどころ。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "RC-20 Retro Color v2",
+    "ローファイ プラグイン"
+   ],
+   "subjects": [
+    {
+     "name": "XLN Audio RC-20 Retro Color v2",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.xlnaudio.com/release_notes",
+    "https://www.pluginboutique.com/products/18184-RC-20-Retro-Color-v2",
+    "https://www.dtmstation.com/archives/80969.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/DAT_%26_Compact_Cassette_hor.jpg/960px-DAT_%26_Compact_Cassette_hor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DAT_%26_Compact_Cassette_hor.jpg",
+     "license": "CC0",
+     "author": "Inpriva"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Altec_RS124_compressor_%281960s%29%2C_Abbey_Road_Studios.jpg/960px-Altec_RS124_compressor_%281960s%29%2C_Abbey_Road_Studios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Altec_RS124_compressor_(1960s),_Abbey_Road_Studios.jpg",
+     "license": "CC BY 2.0",
+     "author": "Josephenus P. Riley"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 16,
+    "images": 11,
+    "season": 12,
+    "demand": 8,
+    "amazon": 0,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w45-015",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "年末に制作環境を棚卸しする、使っていない機材とプラグインを来年の計画に変える",
+   "angle": "1年使わなかった機材とプラグインを書き出し、売る・譲る・残すを決める。Native InstrumentsやiZotopeのライセンス譲渡の条件も確かめ、来年の予算に回す手順。",
+   "article_type": "guide",
+   "keywords": [
+    "DTM 機材 整理",
+    "プラグイン ライセンス 譲渡"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://support.native-instruments.com/support/solutions/articles/69000879192-how-to-request-a-license-transfer-id-for-your-ni-product",
+    "https://www.production-expert.com/production-expert-1/where-to-sell-your-studio-gear-and-what-itll-cost-you",
+    "https://reverb.com"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Dai_Stanton%27s_home_studio.jpg/960px-Dai_Stanton%27s_home_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dai_Stanton%27s_home_studio.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Dai Stanton"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Tawalker%27s_home_studio_gear_%282007%29.jpg/960px-Tawalker%27s_home_studio_gear_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tawalker%27s_home_studio_gear_(2007).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tim Walker"
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 22,
+    "verifiable": 17,
+    "images": 14,
+    "season": 14,
+    "demand": 7,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-016",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "アンプを鳴らせない部屋のギター録音、アンプシミュレーターへの配線",
+   "angle": "ギターをオーディオインターフェースのHi-Z入力につなぎ、アンプシミュレーターで鳴らす。-12〜-6dBFSを目安にしたゲインの取り方とレイテンシー、リアンプ用にDIを素で録っておく理由。",
+   "article_type": "guide",
+   "keywords": [
+    "ギター 録音 アンプシミュレーター",
+    "Hi-Z 入力 ギター"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.uaudio.com/blogs/ua/how-to-record-electric-guitar-at-home-complete-setup-guide",
+    "https://www.uaudio.com/blogs/ua/recording-guitar-direct",
+    "https://violetrecording.com/how-to-record-di-guitar/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Guitar_cable_on_amplifier_closeup.jpg/960px-Guitar_cable_on_amplifier_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Guitar_cable_on_amplifier_closeup.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/00_Fender_Frontman_15G_guitar_Amplifier.jpg/960px-00_Fender_Frontman_15G_guitar_Amplifier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:00_Fender_Frontman_15G_guitar_Amplifier.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elmschrat"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 14,
+    "season": 6,
+    "demand": 8,
+    "amazon": 8,
+    "total": 76
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-017",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "狭いデスクにMIDIキーボードを置く、キーボードスライダーと二段デスクの寸法",
+   "angle": "49鍵(幅約85cm)と61鍵(約95cm)の寸法を並べ、キーボードスライダー・二段デスク・スタンド横置きの3つの置き方を比べる。PCのキーボードと鍵盤の共存の仕方。",
+   "article_type": "guide",
+   "keywords": [
+    "MIDIキーボード 置き場所",
+    "DTM デスク 二段"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://prodjunkies.com/?p=2853",
+    "https://www.thomann.co.uk/korg_microkey_49_mkii.htm",
+    "https://violetrecording.com/gear/49-key-midi-keyboard/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/IRig_Keys_vs_Line_6_Mobile_Keys_49.jpg/960px-IRig_Keys_vs_Line_6_Mobile_Keys_49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:IRig_Keys_vs_Line_6_Mobile_Keys_49.jpg",
+     "license": "CC BY 2.0",
+     "author": "Flickr: Mark Turnauckas"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Keyboad_%26_gear_rack_%28RC1%29_-_Korg_Electribe_MX%2C_Korg_Monotribe_Ver.2%2C_Korg_Volca_beats%2C_PC_keyboard_%26_LCD_monitors_-_Doomsday_Studio_%282015-04-03_21.56.23_by_Klara_Kopf%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Keyboad_%26_gear_rack_(RC1)_-_Korg_Electribe_MX,_Korg_Monotribe_Ver.2,_Korg_Volca_beats,_PC_keyboard_%26_LCD_monitors_-_Doomsday_Studio_(2015-04-03_21.56.23_by_Klara_Kopf).jpg",
+     "license": "CC BY 2.0",
+     "author": "Klara Kopf from Essen, Germany"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 17,
+    "images": 13,
+    "season": 6,
+    "demand": 8,
+    "amazon": 9,
+    "total": 74
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-018",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "パスキーでパスワードを手放す、スマホの指紋と顔でログインする仕組み",
+   "angle": "パスキーがパスワードと違ってフィッシングに強い理由をFIDO2の公開鍵の仕組みから説明し、Google・Apple・Microsoftアカウントで有効にする手順と、機種変更時の扱い。",
+   "article_type": "guide",
+   "keywords": [
+    "パスキー とは",
+    "パスキー 設定"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.loginradius.com/learn/ciam/modern-authentication/passkeys-fido2-authentication",
+    "https://www.akamai.com/glossary/what-is-a-fido-passkey",
+    "https://supertokens.com/blog/what-is-fido"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg/960px-Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Ilya Plekhanov"
+    },
+    {
+     "url": "https://live.staticflickr.com/7459/13467356055_443a23585b_b.jpg",
+     "page": "https://www.flickr.com/photos/65265630@N03/13467356055",
+     "license": "BY 2.0",
+     "author": "Janitors"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 12,
+    "season": 6,
+    "demand": 10,
+    "amazon": 0,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-019",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "二段階認証アプリを機種変更で移すとき、Google AuthenticatorとMicrosoft Authenticatorの移行手順",
+   "angle": "機種変更で二段階認証のコードを失わないために、Google Authenticatorのエクスポートとクラウド同期、Microsoft Authenticatorのバックアップを、旧端末があるうちに済ませる手順。",
+   "article_type": "guide",
+   "keywords": [
+    "Google Authenticator 機種変更",
+    "二段階認証 移行"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://petri.com/google-authenticator-back-up-2fa-codes-cloud/",
+    "https://www.bleepingcomputer.com/news/google/google-authenticator-now-backs-up-your-2fa-codes-to-the-cloud",
+    "https://www.ghacks.net/?p=192860"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Two-factor_authentication_on_Wikimedia_-_enabled.png/960px-Two-factor_authentication_on_Wikimedia_-_enabled.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Two-factor_authentication_on_Wikimedia_-_enabled.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Wikimedia Foundation"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Two-factor_authentication_on_Wikimedia_-_enabling_a_security_key.png/960px-Two-factor_authentication_on_Wikimedia_-_enabling_a_security_key.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Two-factor_authentication_on_Wikimedia_-_enabling_a_security_key.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Wikimedia Foundation"
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 12,
+    "season": 8,
+    "demand": 10,
+    "amazon": 0,
+    "total": 73
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-020",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-lab",
+   "new_category": null,
+   "theme": "日本酒のしぼりたてはなぜ冬に出るのか、寒造りと火入れをしない新酒",
+   "angle": "冬に仕込む寒造りと、搾ってすぐ火入れせずに出す生酒の仕組みから、しぼりたてが11月から春先の店頭に並ぶ理由と、ガス感や香りの出方を説明する。",
+   "article_type": "theme",
+   "keywords": [
+    "しぼりたて 日本酒",
+    "日本酒 新酒 時期"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://palateproject.co/blogs/post/the-first-sake-of-the-year-hatsushibori-shiboritate-and-arabashiri",
+    "https://www.truesake.com/blogs/january-2026/seasonal-sake-winter-released-namas-are-on-the-snowy-shelves",
+    "https://japanese-wiki-corpus.github.io/culture/Kanzukuri"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/DAISHICHI_SAKE_BREWERY.JPG/960px-DAISHICHI_SAKE_BREWERY.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DAISHICHI_SAKE_BREWERY.JPG",
+     "license": "CC0",
+     "author": "妖精書士"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kakeya_sakagura_01.jpg/960px-Kakeya_sakagura_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kakeya_sakagura_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "KASEI"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 15,
+    "season": 14,
+    "demand": 8,
+    "amazon": 6,
+    "total": 85
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-021",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "ホット・バタード・ラム、バターと黒砂糖で作る冬のカクテル",
+   "angle": "バターと黒砂糖とスパイスを練ったバッターをラムとお湯で溶く、冬のホットカクテル。バッターを作り置きする配合と、植民地時代のニューイングランドからトレーダー・ヴィックまでの来歴。",
+   "article_type": "guide",
+   "keywords": [
+    "ホットバタードラム 作り方",
+    "冬 ホットカクテル"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://blog.thenibble.com/2022/01/17/hot-buttered-rum-recipe-the-history-of-the-drink/",
+    "https://www.saveur.com/article/Wine-and-Drink/Hot-Buttered-Rum",
+    "https://www.aimeemars.com/hot-buttered-rum/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Hot_Buttered_Rum.jpg/960px-Hot_Buttered_Rum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hot_Buttered_Rum.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Visitor7"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hot_buttered_rum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Hot_buttered_rum.jpg",
+     "license": "CC BY 2.0",
+     "author": "urban.houstonian"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 16,
+    "season": 14,
+    "demand": 7,
+    "amazon": 7,
+    "total": 86
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-022",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "エッグノッグの作り方、卵と牛乳とラムで作るクリスマスの飲み物",
+   "angle": "卵・牛乳・生クリーム・砂糖に、ラムやブランデーを合わせるエッグノッグ。71℃まで加熱するカスタード式で生卵の心配を避ける手順と、クリスマスの飲み物になった経緯。",
+   "article_type": "guide",
+   "keywords": [
+    "エッグノッグ 作り方",
+    "クリスマス 飲み物"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://extension.usu.edu/news_sections/home_family_and_food/safe-eggnog",
+    "https://www.canr.msu.edu/news/eggnog_recipe_with_no_risk_of_salmonella",
+    "https://www.egginfo.co.uk/recipes/eggnog"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Eggnog.jpg/960px-Eggnog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Eggnog.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Konstantin Ryabitsev from Montréal, Canada"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Eggnog_at_Patrona_-_December_2023_-_Sarah_Stierch_01.jpg/960px-Eggnog_at_Patrona_-_December_2023_-_Sarah_Stierch_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Eggnog_at_Patrona_-_December_2023_-_Sarah_Stierch_01.jpg",
+     "license": "CC BY 4.0",
+     "author": "Missvain"
+    }
+   ],
+   "season": "12月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 18,
+    "images": 16,
+    "season": 15,
+    "demand": 7,
+    "amazon": 6,
+    "total": 86
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-023",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "スペイサイドのモルト入門、スペイ川沿いに蒸溜所が集まった理由",
+   "angle": "約50の蒸溜所がスコッチの生産量の約半分を担うスペイサイド。水と大麦と、密造の時代から1823年の酒税法改正までの歴史から、華やかで甘い味の傾向を読み解く。",
+   "article_type": "theme",
+   "keywords": [
+    "スペイサイド ウイスキー",
+    "スペイサイド モルト おすすめ"
+   ],
+   "subjects": [
+    {
+     "name": "The Glenlivet 12年",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Speyside_single_malt",
+    "https://www.whiskyadvocate.com/speyside-single-malt-scotch-center",
+    "https://www.scotchwhiskyexperience.co.uk/whisky-month-speyside/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Dalmunach_Distillery_from_the_Speyside_Way_-_geograph.org.uk_-_5542656.jpg/960px-The_Dalmunach_Distillery_from_the_Speyside_Way_-_geograph.org.uk_-_5542656.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Dalmunach_Distillery_from_the_Speyside_Way_-_geograph.org.uk_-_5542656.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Dave Kelly"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/River_Spey_at_Kincraig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:River_Spey_at_Kincraig.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Graeme Churchard"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 16,
+    "season": 6,
+    "demand": 8,
+    "amazon": 10,
+    "total": 83
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-024",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ホット専用ペットボトルはなぜ温められるのか、オレンジキャップの容器の工夫",
+   "angle": "ホット販売に耐えるペットボトルは、1982年に日本で生まれた耐熱PETの技術と、内圧への強さ、酸素を通しにくい層で普通のボトルと違う。オレンジのキャップが目印になった経緯とあわせて。",
+   "article_type": "theme",
+   "keywords": [
+    "ホット ペットボトル オレンジキャップ",
+    "ホット専用 ペットボトル 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.toyo-seikan.co.jp/e/product/beverage/petbottle/heatproofbottle",
+    "https://www.healthcarepackaging.com/home/article/13327104/new-blowmolding-process-for-heatset-pet-bottles",
+    "https://soranews24.com/2022/11/07/asahi-now-sells-hot-bottled-water-in-japan-as-an-alternative-to-coffee-or-tea/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Bottle_4.jpg/960px-Bottle_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle_4.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Petyrbotlon"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Hot_Drink_Cans_in_Japan.jpg/960px-Hot_Drink_Cans_in_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hot_Drink_Cans_in_Japan.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Al Abut"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 25,
+    "verifiable": 15,
+    "images": 13,
+    "season": 14,
+    "demand": 7,
+    "amazon": 5,
+    "total": 79
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-025",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "萩焼のぐい呑み、使うほど色が変わる萩の七化け",
+   "angle": "柔らかい土と貫入に酒や茶が染みて、使うほど色が変わる萩焼。七化けと呼ばれる変化の仕組みと、一楽二萩三唐津と並び称された背景、使い始めの目止めと手入れ。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "萩焼 ぐい呑み",
+    "萩の七化け"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hagi_ware",
+    "https://www.uk.emb-japan.go.jp/JAPANUKEvent/event/2022/202209/07-JF-SevenTransformationsHagiWare.html",
+    "https://en.japantravel.com/yamaguchi/the-road-to-hagi-yaki/65429"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hagi-yaki_Yuu_Okada_IMG_4621.jpg/960px-Hagi-yaki_Yuu_Okada_IMG_4621.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hagi-yaki_Yuu_Okada_IMG_4621.jpg",
+     "license": "CC BY 2.0",
+     "author": "Kyle McDonald from Brooklyn, New York, USA"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Demonhagi_Oni-Hagi_av_Shibuya_Deishi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Demonhagi_Oni-Hagi_av_Shibuya_Deishi.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "SK10DPB"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 16,
+    "season": 6,
+    "demand": 7,
+    "amazon": 8,
+    "total": 78
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-026",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "温度調節できる電気ケトル、お茶とコーヒーとお湯割りで温度を変える",
+   "angle": "緑茶は70〜80℃、コーヒーは90〜96℃、焼酎のお湯割りは先にお湯を入れて70℃前後。温度調節ケトルで飲み物ごとに湯温を変えると何が変わるか。",
+   "article_type": "guide",
+   "keywords": [
+    "温度調節 電気ケトル",
+    "お湯割り 温度"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://moyamatcha.com/en/how-to-brew-green-tea/",
+    "https://thefragrantleaf.com/green-tea-brewing-tips",
+    "https://electrickettlesguide-com2.pages.dev/best-variable-temperature-kettles"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Electric_kettle_phillips_white.JPG/960px-Electric_kettle_phillips_white.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Electric_kettle_phillips_white.JPG",
+     "license": "Public domain",
+     "author": "Rafa"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2023_Czajnik_elektryczny_Bosch_%281%29.jpg/960px-2023_Czajnik_elektryczny_Bosch_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_Bosch_(1).jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Jacek Halicki"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 14,
+    "season": 13,
+    "demand": 8,
+    "amazon": 10,
+    "total": 85
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-027",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "シェイカーの3ピースとボストン、家で振るならどちらか",
+   "angle": "ストレーナー付きの3ピース(コブラー)と、ティンを2つ組むボストンシェイカー。容量・冷え方・洗いやすさ・漏れにくさを比べ、家で最初の1本を選ぶ。",
+   "article_type": "comparison",
+   "keywords": [
+    "シェイカー 3ピース ボストン 違い",
+    "カクテル シェイカー おすすめ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://cocktail-society.com/barkeeping/tools/cocktail-shaker/different-types-cocktail-shakers/",
+    "https://www.scotsman.com/recommended/whats-the-best-cocktail-shaker-for-home-use-the-best-cocktail-shakers-for-mixologists-of-every-skill-level-3357440",
+    "https://www.rollingstone.com/product-recommendations/lifestyle/best-cocktail-shaker-sets-988122/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cocktail_shaker%2C_open.jpg/960px-Cocktail_shaker%2C_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cocktail_shaker,_open.jpg",
+     "license": "CC BY 4.0",
+     "author": "SKopp"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cocktail_shaker-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Cocktail_shaker-01.jpg",
+     "license": "CC BY 2.0",
+     "author": "Dinner Series"
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 15,
+    "season": 9,
+    "demand": 7,
+    "amazon": 9,
+    "total": 81
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-028",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "飲み残しのワインを保存する、栓と冷蔵で何日もつか",
+   "angle": "開けたワインが酸化で変わっていく速さを、赤・白(冷蔵で3〜5日)・スパークリング(1〜3日)で分け、真空ポンプ栓と冷蔵でどこまでもたせられるかを示す。年末年始の飲み残しに。",
+   "article_type": "guide",
+   "keywords": [
+    "ワイン 開栓後 何日",
+    "ワイン 保存 方法"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.tastingtable.com/2258429/leftover-wine-refrigerated-explained/",
+    "https://www.winespectator.com/articles/46144",
+    "https://blog.goodpairdays.com/everythingyouneedtoknowaboutstoringunfinishedbottlesofwine"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Rolhas_de_Corti%C3%A7a_Natural_-_Cork_stopper_for_a_wine_bottle.jpg/960px-Rolhas_de_Corti%C3%A7a_Natural_-_Cork_stopper_for_a_wine_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rolhas_de_Corti%C3%A7a_Natural_-_Cork_stopper_for_a_wine_bottle.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Hudson C. S. de Souza"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Wine_bottle_corks%2C_Rostov-on-Don%2C_Russia.jpg/960px-Wine_bottle_corks%2C_Rostov-on-Don%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Wine_bottle_corks,_Rostov-on-Don,_Russia.jpg",
+     "license": "CC BY 4.0",
+     "author": "Vyacheslav Argenberg"
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 15,
+    "season": 11,
+    "demand": 9,
+    "amazon": 8,
+    "total": 84
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-029",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "和らぎ水の飲み方、日本酒の合間に水を挟む理由",
+   "angle": "日本酒の合間に飲む水、和らぎ水。酒と同じかそれ以上の量の水を挟むと、酔い方と味の感じ方がどう変わるか。忘年会シーズンの飲み方として。",
+   "article_type": "guide",
+   "keywords": [
+    "和らぎ水 とは",
+    "日本酒 チェイサー"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.sake-times.com/learn/the-sake-chaser-yawaragi-mizu",
+    "https://www.nada-ken.com/main/en/?p=206",
+    "https://sakenowa.com"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Glass_of_water%2C_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Glass_of_water,_detail.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mia Gaitanidis"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Glass_of_water_on_vintage_sheet.jpg/960px-Glass_of_water_on_vintage_sheet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Glass_of_water_on_vintage_sheet.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Zmrob25"
+    }
+   ],
+   "season": "12月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 16,
+    "images": 12,
+    "season": 14,
+    "demand": 7,
+    "amazon": 3,
+    "total": 76
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-030",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "マフラーの巻き方4種、厚みと長さでコートの襟元に合わせる",
+   "angle": "ひと巻き・パリジャンノット・垂らし・リバースドレープの4種を、マフラーの厚みと長さ、コートの襟の形で選び分ける。",
+   "article_type": "styling",
+   "keywords": [
+    "マフラー 巻き方 メンズ",
+    "マフラー コート 合わせ方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.realmenrealstyle.com/scarf-parisian-knot-infographic/",
+    "https://www.primermagazine.com/2026/learn/scarf-knots",
+    "https://hespokestyle.com/how-to-tie-a-scarf-men/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Alpaca_wool_scarf.JPG/960px-Alpaca_wool_scarf.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Alpaca_wool_scarf.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Deryck Chan"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Purple_heather_pure_wool_infinity_scarf.jpg/960px-Purple_heather_pure_wool_infinity_scarf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Purple_heather_pure_wool_infinity_scarf.jpg",
+     "license": "CC BY 2.0",
+     "author": "smittenkittenorig"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 16,
+    "images": 13,
+    "season": 15,
+    "demand": 9,
+    "amazon": 8,
+    "total": 85
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-031",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "エラ・フィッツジェラルド『Ella Wishes You a Swinging Christmas』、1960年のクリスマス・ジャズ",
+   "angle": "1960年の夏にVerveで録られた、エラのクリスマス盤。フランク・デヴォルのオーケストラ編曲と、季節のスタンダードをスウィングさせる歌い方を、曲ごとに聴いていく。",
+   "article_type": "theme",
+   "keywords": [
+    "エラ・フィッツジェラルド クリスマス",
+    "ジャズ クリスマス アルバム"
+   ],
+   "subjects": [
+    {
+     "name": "Ella Wishes You a Swinging Christmas",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ella_Wishes_You_a_Swinging_Christmas",
+    "https://www.nypl.org/research/research-catalog/bib/b16156350",
+    "https://shop.ellafitzgerald.com/collections/womens-history-month/products/ella-fitzgerald-ella-wishes-you-a-swinging-christmas-verve-acoustic-sounds-series-lp"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg/960px-Ella_Fitzgerald_%28Gottlieb_02871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_(Gottlieb_02871).jpg",
+     "license": "Public domain",
+     "author": "William P. Gottlieb"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Ella_Fitzgerald_1962.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Ella_Fitzgerald_1962.JPG",
+     "license": "Public domain",
+     "author": "Lewin/Kaufman/Schwartz, Public Relations, Beverly Hills"
+    }
+   ],
+   "season": "12月",
+   "score": {
+    "novelty": 22,
+    "verifiable": 18,
+    "images": 16,
+    "season": 15,
+    "demand": 7,
+    "amazon": 8,
+    "total": 86
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-032",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "年賀状じまいの時代に手紙を書く、届くまでの時間をやりとりする",
+   "angle": "はがきが85円になり、年賀状の配達数が過去最少を更新するなかで、手紙を書くことに何が残るか。即時に届かない時間そのものをやりとりするという見方から。",
+   "article_type": "theme",
+   "keywords": [
+    "年賀状じまい",
+    "手紙 書く 意味"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://tokyotreat.com/blog/new-year-card-deliveries-drop-to-a-record-low-in-japan",
+    "https://japantimes.co.jp/news/2024/06/14/japan/japan-post-october-postage-hike",
+    "https://jref.com/threads/number-of-2025-nengaj%C5%8D-drops-by-a-third.738804/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Handwritten_Letter_of_Resignation.jpg/960px-Handwritten_Letter_of_Resignation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Handwritten_Letter_of_Resignation.jpg",
+     "license": "CC BY 2.0",
+     "author": "CIPHR Connect"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Handwritten_letter_by_Wilbur_Underhill_Jr._-_Envelope.jpg/960px-Handwritten_letter_by_Wilbur_Underhill_Jr._-_Envelope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Handwritten_letter_by_Wilbur_Underhill_Jr._-_Envelope.jpg",
+     "license": "Public domain",
+     "author": "Wilbur Underhill Jr."
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 24,
+    "verifiable": 16,
+    "images": 12,
+    "season": 15,
+    "demand": 7,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-033",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "年末の大掃除で捨てられない取扱説明書と箱、モノの来歴を残すということ",
+   "angle": "12月13日の煤払いに始まる大掃除のたびに迷う、取扱説明書と元箱。売るときの価値という実利と、モノがどこから来たかを手元に残しておきたい気持ちのあいだを考える。",
+   "article_type": "theme",
+   "keywords": [
+    "大掃除 取扱説明書 捨てる",
+    "元箱 捨てられない"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.nippon.com/en/guide-to-japan/cs00054/susuharai-sweeping-away-the-soot-at-the-end-of-the-year.html",
+    "https://www.tokyoweekender.com/?p=280916",
+    "https://hiraganatimes.com/japan-savvy/year-end-cleaning"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Casio_fx-7000G_Box%26Manual.JPG/960px-Casio_fx-7000G_Box%26Manual.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Casio_fx-7000G_Box%26Manual.JPG",
+     "license": "Public domain",
+     "author": "ML5 at English Wikipedia"
+    },
+    {
+     "url": "https://live.staticflickr.com/7346/13112014814_3ec7bf39d6_b.jpg",
+     "page": "https://www.flickr.com/photos/98627683@N00/13112014814",
+     "license": "BY-SA 2.0",
+     "author": "bochalla"
+    }
+   ],
+   "season": "年末",
+   "score": {
+    "novelty": 24,
+    "verifiable": 14,
+    "images": 12,
+    "season": 15,
+    "demand": 6,
+    "amazon": 2,
+    "total": 73
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-034",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "『素晴らしき哉、人生！』はなぜクリスマス映画になったのか、著作権切れとテレビ放送",
+   "angle": "1946年の公開時は興行で振るわなかったキャプラの映画が、1974年の著作権更新漏れでテレビ局が自由に流せるようになり、毎年12月の定番になった経緯を追う。",
+   "article_type": "theme",
+   "keywords": [
+    "素晴らしき哉、人生! クリスマス",
+    "クリスマス映画 名作"
+   ],
+   "subjects": [
+    {
+     "name": "It's a Wonderful Life (1946)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.mintz.com/insights-center/viewpoints/2015-12-when-quirk-copyright-law-creates-christmas-classic-its-0",
+    "https://www.plagiarismtoday.com/2013/12/05/wonderful-copyright-life/",
+    "https://www.slate.com/articles/news_and_politics/explainer/1999/12/why_wonderful_life_comes_but_once_a_year.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg/960px-It%27s_a_Wonderful_Life_%281946_poster%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:It%27s_a_Wonderful_Life_(1946_poster).jpeg",
+     "license": "Public domain",
+     "author": "\"Copyright 1946 RKO Radio Pictures Inc.\""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/James_Stewart_It%27s_a_Wonderful_Life_Still.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:James_Stewart_It%27s_a_Wonderful_Life_Still.jpg",
+     "license": "Public domain",
+     "author": "Liberty Films"
+    }
+   ],
+   "season": "12月",
+   "score": {
+    "novelty": 25,
+    "verifiable": 18,
+    "images": 17,
+    "season": 15,
+    "demand": 7,
+    "amazon": 7,
+    "total": 89
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-035",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "小津安二郎のローアングル、畳に座った目の高さのカメラ",
+   "angle": "『東京物語』などで低い位置に据えたカメラ。畳に座った人の目の高さという説明と、動かないカメラと正面の切り返しが作る小津の画面を読む。",
+   "article_type": "theme",
+   "keywords": [
+    "小津安二郎 ローアングル",
+    "東京物語 撮影"
+   ],
+   "subjects": [
+    {
+     "name": "『東京物語』(1953)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.wasshoimagazine.org/blog/curiosities-of-the-japanese-culture/tatami-shot",
+    "https://production-gcp.moma.org/explore/inside_out/2012/07/10/yasujiro-ozus-tokyo-story/",
+    "https://www.rogerebert.com/?p=48462"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Yasujiro_Ozu_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Yasujiro_Ozu_01.jpg",
+     "license": "Public domain",
+     "author": "Unknown authorUnknown author"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Yasujiro_Ozu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Yasujiro_Ozu.jpg",
+     "license": "Public domain",
+     "author": "Unknown authorUnknown author"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 25,
+    "verifiable": 18,
+    "images": 16,
+    "season": 6,
+    "demand": 7,
+    "amazon": 7,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-036",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "ディケンズ『クリスマス・キャロル』、1843年に自費出版された中編が祝日の形を変えた",
+   "angle": "1843年12月19日、ディケンズが自費で出した中編は、クリスマスイブまでに初版が売り切れた。家族で祝う宴や施しの習慣を広めた物語の背景と、いま読むなら訳書をどう選ぶか。",
+   "article_type": "theme",
+   "keywords": [
+    "クリスマス・キャロル ディケンズ",
+    "クリスマス キャロル あらすじ"
+   ],
+   "subjects": [
+    {
+     "name": "『クリスマス・キャロル』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/A_Christmas_Carol",
+    "https://www.fox29.com/news/on-this-day-in-history-december-19-1843-charles-dickens-publishes-a-christmas-carol",
+    "https://panmacmillan.com/blogs/history/this-week-in-history-charles-dickens-a-christmas-c"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Marley%27s_Ghost_-_A_Christmas_Carol_%281843%29%2C_opposite_25_-_BL.jpg/960px-Marley%27s_Ghost_-_A_Christmas_Carol_%281843%29%2C_opposite_25_-_BL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost_-_A_Christmas_Carol_(1843),_opposite_25_-_BL.jpg",
+     "license": "Public domain",
+     "author": "John Leech"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Charles_Dickens-A_Christmas_Carol-Title_page-First_edition_1843.jpg/960px-Charles_Dickens-A_Christmas_Carol-Title_page-First_edition_1843.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Charles_Dickens-A_Christmas_Carol-Title_page-First_edition_1843.jpg",
+     "license": "Public domain",
+     "author": "John Leech"
+    }
+   ],
+   "season": "12月",
+   "score": {
+    "novelty": 25,
+    "verifiable": 18,
+    "images": 17,
+    "season": 15,
+    "demand": 7,
+    "amazon": 9,
+    "total": 91
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-037",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "カーテンで窓の寒さを止める、厚手と裏地と丈で変わる断熱",
+   "angle": "冬の暖房の熱は窓から多く逃げる。厚手の生地・断熱裏地・床までの丈・カーテンボックスで、窓辺の冷気をどこまで止められるかを整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "カーテン 断熱 冬",
+    "窓 寒さ対策"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://courses.ems.psu.edu/egee102/book/export/html/2433",
+    "https://www.bobvila.com/articles/how-to-insulate-windows.md",
+    "https://monroe.cce.cornell.edu/resources/energy-saving-window-treatment"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Curtains_in_the_doors.jpg/960px-Curtains_in_the_doors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Curtains_in_the_doors.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Vijay Kumar Soren"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Detail_z%C3%A1v%C4%9Bsu_%28001%29.JPG/960px-Detail_z%C3%A1v%C4%9Bsu_%28001%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Detail_z%C3%A1v%C4%9Bsu_(001).JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Juan de Vojníkov"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 13,
+    "season": 15,
+    "demand": 9,
+    "amazon": 8,
+    "total": 86
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-038",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "ラグの素材で冬の床の冷たさが変わる、ウールと綿とポリエステル",
+   "angle": "フローリングの冷たさを和らげるラグを、ウール・綿・ポリエステルの保温性と手入れで比べ、下敷きの断熱シートと組み合わせる。",
+   "article_type": "comparison",
+   "keywords": [
+    "ラグ 素材 冬",
+    "ウールラグ 暖かい"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.lanyspace.com/blogs/blog/wool-vs-polyester-vs-polypropylene-rug",
+    "https://garvee.com/blogs/trending-now/the-best-materials-for-rugs-pros-and-cons-explained",
+    "https://nordicknots.com/eu/a-warmer-winter"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rug%2C_floor_%28AM_6295-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Rug,_floor_(AM_6295-1).jpg",
+     "license": "CC BY 4.0",
+     "author": "Unknown authorUnknown author"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rug%2C_floor_%28AM_6295-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Rug,_floor_(AM_6295-2).jpg",
+     "license": "CC BY 4.0",
+     "author": "Unknown authorUnknown author"
+    }
+   ],
+   "season": "冬",
+   "score": {
+    "novelty": 24,
+    "verifiable": 15,
+    "images": 14,
+    "season": 15,
+    "demand": 8,
+    "amazon": 8,
+    "total": 84
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w45-039",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『魔女の宅急便』の街、ストックホルムとヴィスビーがコリコの町になるまで",
+   "angle": "海と坂と時計台のあるコリコの町に、ストックホルムの旧市街とゴットランド島のヴィスビーがどう取り入れられたか。ロケハンの記録と実際の街並みを並べる。",
+   "article_type": "theme",
+   "keywords": [
+    "魔女の宅急便 モデル 街",
+    "ヴィスビー 魔女の宅急便"
+   ],
+   "subjects": [
+    {
+     "name": "『魔女の宅急便』(1989)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.nausicaa.net/wiki/Kiki's_Delivery_Service_(FAQ)",
+    "https://characterdesignreferences.com/art-of-animation-2/kikis-delivery-service",
+    "https://am.animatedviews.com/KikisDeliveryService.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Sweden%2C_Gotland%2C_Visby%2C_Visby_City_Wall%2C_Entrance_To_Old_Town_Visby_150628-25.jpg/960px-Sweden%2C_Gotland%2C_Visby%2C_Visby_City_Wall%2C_Entrance_To_Old_Town_Visby_150628-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sweden,_Gotland,_Visby,_Visby_City_Wall,_Entrance_To_Old_Town_Visby_150628-25.jpg",
+     "license": "CC BY 4.0",
+     "author": "Richardmaackphotography"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Alley_in_Gamla_Stan%2C_Stockholm.jpg/960px-Alley_in_Gamla_Stan%2C_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Alley_in_Gamla_Stan,_Stockholm.jpg",
+     "license": "CC BY 4.0",
+     "author": "OleNeitzel"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 25,
+    "verifiable": 17,
+    "images": 16,
+    "season": 6,
+    "demand": 9,
+    "amazon": 7,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w45-040",
+   "status": "approved",
+   "created": "2026-11-08",
+   "retry": 0
   }
  ]
 }
