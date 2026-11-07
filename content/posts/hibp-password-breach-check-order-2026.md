@@ -1,6 +1,6 @@
 ---
 title: "パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから"
-description: "パスワード流出の知らせを受けたら、慌てて全部を変える前にHave I Been Pwnedで漏れた範囲を確かめる。メールアドレス検索とPwned Passwordsの読み方、使い回した先を変える順番、2段階認証とログイン中の端末の片付けまでを整理した。"
+description: "パスワード流出の知らせを受けたら、全部を変える前にHave I Been Pwnedで漏れた範囲を確かめる。メール検索とPwned Passwordsの読み方、変える順番、2段階認証とログイン端末の片付けまでを整理した。"
 images: ["/images/og/hibp-password-breach-check-order-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630
