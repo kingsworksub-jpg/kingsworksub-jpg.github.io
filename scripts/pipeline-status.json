@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:45:02+09:00",
+ "updated": "2026-11-07T22:45:43+09:00",
  "queue": {
   "published": 148,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published japanese-jazz-sadao-watanabe-lineage-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-07T22:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-07T22:22:18+09:00",
+  "at": "2026-11-07T22:45:43+09:00",
   "engine": "opencode",
-  "detail": "The claude.ai Google Docs connector needs authorizing before it can be used. You can do that in your claude.ai connector settings. This task didn't use it."
+  "detail": "別件ですが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。今回の作業には影響ありません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-07T22:45:43+09:00",
+   "engine": "opencode",
+   "detail": "別件ですが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。今回の作業には影響ありません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T20:30:44+09:00",
    "engine": "opencode",
    "detail": "別件ですが、claude.ai の Google Docs コネクタが未認証です。このタスクでは使いませんが、使う場合は claude.ai のコネクタ設定から認証してください。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T20:19:11+09:00",
-   "engine": "opencode",
-   "detail": "@robertbemvpdg は状態を記録していないので、次回もまた候補に出ます。"
   }
  ]
 }
