@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:30:02+09:00",
+ "updated": "2026-11-07T23:30:12+09:00",
  "queue": {
   "published": 148,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published japanese-jazz-sadao-watanabe-lineage-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-07T23:30:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "failed",
-  "at": "2026-11-07T23:05:11+09:00",
+  "at": "2026-11-07T23:30:12+09:00",
   "engine": "opencode",
   "detail": "You've hit your session limit · resets 12:50am (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "failed",
+   "at": "2026-11-07T23:30:12+09:00",
+   "engine": "opencode",
+   "detail": "You've hit your session limit · resets 12:50am (Asia/Tokyo)"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T21:48:42+09:00",
    "engine": "opencode",
    "detail": "The topic is marked published in the queue, and both commits ('Add …' and 'Record …') are pushed."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-07T21:15:42+09:00",
-   "engine": "opencode",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't need it."
   }
  ]
 }
