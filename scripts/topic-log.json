@@ -2973,6 +2973,18 @@
    "reason": "run did not publish (failed); cleaned up",
    "engine": "opencode",
    "at": "2026-11-07T18:35:02+09:00"
+  },
+  {
+   "id": "2026w43-003",
+   "category": "tech",
+   "theme": "LM StudioでローカルLLMを動かす、Ollamaとの違いはGUIと内蔵APIサーバー",
+   "slug": "lm-studio-ollama-gui-api-server-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/lm-studio-ollama-gui-api-server-2026/",
+   "hatena_entry": "14729835035335212934",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-07T20:15:56+09:00"
   }
  ]
 }
