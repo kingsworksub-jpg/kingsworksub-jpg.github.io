@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-07T14:30:40+09:00",
+ "updated": "2026-11-07T14:44:51+09:00",
  "queue": {
-  "published": 144,
+  "published": 145,
   "rejected": 6,
-  "approved": 27,
-  "in_progress": 1
+  "approved": 27
  },
  "today_posts": 2,
  "daily_limit": 9,
  "engine_today": "opencode",
  "pending_requests": 0,
- "last_result": "published monitor-arm-vesa-desk-depth-2026",
+ "last_result": "published ecm-records-silence-recording-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
