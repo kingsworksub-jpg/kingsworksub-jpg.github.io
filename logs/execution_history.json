@@ -5416,5 +5416,42 @@
       "規約外descriptionは残り10記事(121〜124字が中心)",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T15:54:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "highball-bubbles-soda-ice-2026",
+      "real-gold-deep-dive-2026",
+      "satsuma-kiriko-guinomi-bokashi-2026",
+      "sidechain-kick-bass-guide-2026",
+      "sodastream-terra-carbonation-guide-2026",
+      "sony-ecm-ax10-spatial-mic-2026",
+      "streaming-loudness-normalization-lufs",
+      "whisper-model-size-japanese-benchmark-2026",
+      "wilkinson-tansan-deep-dive-2026",
+      "yosa-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "description規約(110〜120字)外の残り10記事を規約内に調整(121〜124字→110〜120字)。全241記事でdescription規約違反0を確認"
+    ],
+    "files_changed": [
+      "content/posts/highball-bubbles-soda-ice-2026.md",
+      "content/posts/real-gold-deep-dive-2026.md",
+      "content/posts/satsuma-kiriko-guinomi-bokashi-2026.md",
+      "content/posts/sidechain-kick-bass-guide-2026.md",
+      "content/posts/sodastream-terra-carbonation-guide-2026.md",
+      "content/posts/sony-ecm-ax10-spatial-mic-2026.md",
+      "content/posts/streaming-loudness-normalization-lufs.md",
+      "content/posts/whisper-model-size-japanese-benchmark-2026.md",
+      "content/posts/wilkinson-tansan-deep-dive-2026.md",
+      "content/posts/yosa-soda-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "description規約外は0記事",
+      "次回は seo-audit.py --check-links による内部リンク・孤立記事の点検",
+      "Hugoビルド未実施"
+    ]
   }
 ]
