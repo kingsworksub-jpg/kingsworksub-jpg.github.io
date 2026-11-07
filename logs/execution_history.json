@@ -5193,5 +5193,26 @@
     "next_kpis": [
       "未対応4件は解消。次回はfigure直後が30文字未満の短文になっていないか、およびdescription長(110〜120字)の点検"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T00:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "oral-rehydration-vs-sports-drink-2026"
+    ],
+    "actions": [
+      "figure直後の短文・description長を全記事走査: 問題なし(複数行段落の誤検知のみ)",
+      "oral-rehydration記事のバナー画像が別商品(OS-1にミネラルストロング、ポカリにリアルゴールド)の写真だったため誤画像を削除",
+      "『Amazon for View →』の誤表記を『Amazonで見る →』に修正",
+      "seo-audit.pyはPIL破損で実行不可(環境要因)のため簡易スクリプトで代替"
+    ],
+    "files_changed": [
+      "content/posts/oral-rehydration-vs-sports-drink-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "indirect-lighting-room-2026が同一画像を3商品で使い回し→商品別画像の差し替えを検討(未完了)",
+      "hugoビルドは環境に無く未実施"
+    ]
   }
 ]
