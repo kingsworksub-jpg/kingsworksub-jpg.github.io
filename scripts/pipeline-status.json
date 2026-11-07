@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:19:31+09:00",
+ "updated": "2026-11-07T17:20:08+09:00",
  "queue": {
   "published": 146,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published dynamic-mic-5choice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-07T17:01:36+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-07T17:01:32+09:00",
+  "at": "2026-11-07T17:20:08+09:00",
   "engine": "opencode",
-  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  "detail": "The claude.ai Google Docs connector needs authorization in its claude.ai connector settings before it can be used. This run didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-07T17:20:08+09:00",
+   "engine": "opencode",
+   "detail": "The claude.ai Google Docs connector needs authorization in its claude.ai connector settings before it can be used. This run didn't need it."
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T14:51:52+09:00",
    "engine": "opencode",
    "detail": "なお、claude.ai の Google Docs コネクタは認証されていないため、claude.ai のコネクタ設定で認証するまでは使えません。今回の作業には関係ありません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-07T14:45:35+09:00",
-   "engine": "opencode",
-   "detail": "- **未確認の事実は本文から外した**: チック・コリアの『Return to Forever』（1972）がECMから出たかどうかで、私の認識とリサーチ結果が食い違ったため触れていません。"
   }
  ]
 }
