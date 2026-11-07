@@ -5453,5 +5453,35 @@
       "次回は seo-audit.py --check-links による内部リンク・孤立記事の点検",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T16:53:35Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "condenser-mic-5choice-2026",
+      "desk-cable-tray-power-signal-2026",
+      "desk-chair-studio-ergonomics-2026",
+      "monitor-placement-room-tuning-6jo-2026",
+      "ollama-vram-memory-guide-2026",
+      "password-manager-migration-guide-2026"
+    ],
+    "actions": [
+      "被リンク0だった新着4記事(lm-studio-ollama-gui-api-server-2026 / hibp-password-breach-check-order-2026 / dynamic-mic-5choice-2026 / monitor-arm-vesa-desk-depth-2026)へ、関連既存記事から内部リンクを追加し孤立記事を解消",
+      "PILが壊れていて seo-audit.py は実行不可のため簡易監査で代替。figure配置が見出し直後でないジャズ系8記事を検出(未修正・次回候補)"
+    ],
+    "files_changed": [
+      "content/posts/condenser-mic-5choice-2026.md",
+      "content/posts/desk-cable-tray-power-signal-2026.md",
+      "content/posts/desk-chair-studio-ergonomics-2026.md",
+      "content/posts/monitor-placement-room-tuning-6jo-2026.md",
+      "content/posts/ollama-vram-memory-guide-2026.md",
+      "content/posts/password-manager-migration-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事は hello のみ",
+      "次回: figure配置が見出し直後でない8記事(jazz-shoes-trend-2026 等)の修正",
+      "Hugoビルド未実施"
+    ]
   }
 ]

@@ -158,5 +158,5 @@ Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に
 
 **最後に、透明感を最優先にするなら、Neumann TLM 102**。高級機だが、音質での妥協がない。ほかの機材は手頃にそろえ、マイクにだけ予算をかけるという考え方にもよく合う。
 
-**関連記事**: [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](/posts/home-studio-100k-budget-2026/) · [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](/posts/monitor-headphones-5choice-2026/) · [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)
+**関連記事**: [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](/posts/home-studio-100k-budget-2026/) · [モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く](/posts/monitor-headphones-5choice-2026/) · [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/) · [ダイナミックマイク5本比較、話し声も歌も1本で録るなら必要なゲインから選ぶ](/posts/dynamic-mic-5choice-2026/)
 - [ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか](/posts/sony-ecm-ax10-spatial-mic-2026/)

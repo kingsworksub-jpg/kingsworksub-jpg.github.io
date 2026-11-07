@@ -107,6 +107,7 @@ VRAMの目安を一つだけ覚えておくなら、「8GBで8B、12GBから16GB
 
 ## 関連記事
 - [ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの](/posts/gguf-quantization-q4-q5-guide-2026/)
+- [LM StudioとOllamaは何が違うのか、モデルを画面で選ぶ手軽さと1234番ポートのAPI](/posts/lm-studio-ollama-gui-api-server-2026/)
 - [Whisperの日本語文字起こしはどのサイズから実用になるか、tinyからlarge-v3-turboまで](/posts/whisper-model-size-japanese-benchmark-2026/)
 - [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
