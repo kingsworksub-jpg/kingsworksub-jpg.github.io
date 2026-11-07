@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:00:01+09:00",
+ "updated": "2026-11-07T17:01:32+09:00",
  "queue": {
   "published": 145,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ecm-records-silence-recording-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-07T17:00:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-07T16:45:40+09:00",
+  "at": "2026-11-07T17:01:32+09:00",
   "engine": "opencode",
-  "detail": "途中で出た案内も1件お伝えします。claude.ai の Google Docs コネクターが未認証になっています。今回の作業には関係ありませんが、使う場合は claude.ai のコネクター設定で認証してください。"
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-07T17:01:32+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-07T14:45:35+09:00",
    "engine": "opencode",
    "detail": "- **未確認の事実は本文から外した**: チック・コリアの『Return to Forever』（1972）がECMから出たかどうかで、私の認識とリサーチ結果が食い違ったため触れていません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-07T14:06:47+09:00",
-   "engine": "opencode",
-   "detail": "The two failed DMs were blocked by the recipients' own settings, which the task instructions say to ignore. I deleted all the temporary DM text files. Nothing was committed or pushed, as the instructions require."
   }
  ]
 }
