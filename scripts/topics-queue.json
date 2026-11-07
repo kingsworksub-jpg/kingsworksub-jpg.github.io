@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:30:44+09:00",
+ "updated": "2026-11-07T21:48:02+09:00",
  "items": [
   {
    "category": "gear",
@@ -3589,7 +3589,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-061",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 1,
    "claimed_at": "2026-11-07T21:30:44+09:00",
@@ -3597,7 +3597,9 @@
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "japanese-jazz-sadao-watanabe-lineage-2026",
+   "published_at": "2026-11-07T21:48:02+09:00"
   },
   {
    "category": "music",
