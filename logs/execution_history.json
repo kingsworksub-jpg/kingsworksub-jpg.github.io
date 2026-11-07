@@ -5516,5 +5516,21 @@
       "次回: ファッション・ウイスキー系の古い記事のdescription/見出し構造点検",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T19:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "ウイスキー・ファッション系記事の見出し構造(H2数・H1重複・H2前のH3)を点検、問題なし",
+      "文体ルール違反表現(実際に〜てみた/あるレビューでは/隅から隅まで等)の全記事grep、0件。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回: drafts未作成のhatena/ameba/note改善案の対象選定",
+      "Hugoビルド未実施"
+    ]
   }
 ]
