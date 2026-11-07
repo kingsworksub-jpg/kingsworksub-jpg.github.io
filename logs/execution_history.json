@@ -5356,5 +5356,33 @@
       "規約外descriptionは残り約24記事(121〜124字が中心)",
       "Hugoビルド未実施・未完了あり"
     ]
+  },
+  {
+    "timestamp": "2026-11-07T12:53:53Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "four-roses-yellow-deep-dive-2026",
+      "green-cola-deep-dive-2026",
+      "itoen-mineral-strong-deep-dive-2026",
+      "johnnie-walker-red-deep-dive-2026",
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "white-horse-fineold-deep-dive-2026"
+    ],
+    "actions": [
+      "description規約(110〜120字)外の6記事を規約内に調整(123/123/122/123/121/124字→111/119/111/111/112/114字)"
+    ],
+    "files_changed": [
+      "content/posts/four-roses-yellow-deep-dive-2026.md",
+      "content/posts/green-cola-deep-dive-2026.md",
+      "content/posts/itoen-mineral-strong-deep-dive-2026.md",
+      "content/posts/johnnie-walker-red-deep-dive-2026.md",
+      "content/posts/kirin-lemon-sparkling-deep-dive-2026.md",
+      "content/posts/white-horse-fineold-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "規約外descriptionは残り約18記事(121〜124字が中心)",
+      "Hugoビルド未実施"
+    ]
   }
 ]
