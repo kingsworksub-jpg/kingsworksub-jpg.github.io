@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:00:02+09:00",
+ "updated": "2026-11-08T15:01:32+09:00",
  "queue": {
   "published": 149,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published portable-ssd-usb4-sample-library-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-08T15:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
-  "state": "failed",
-  "at": "2026-11-08T14:50:12+09:00",
+  "state": "finished",
+  "at": "2026-11-08T15:01:32+09:00",
   "engine": "opencode",
-  "detail": "You've hit your weekly limit · resets Nov 12, 8pm (Asia/Tokyo)"
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-08T15:01:32+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-08T13:01:32+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "failed",
-   "at": "2026-11-08T12:35:12+09:00",
-   "engine": "opencode",
-   "detail": "You've hit your weekly limit · resets Nov 12, 8pm (Asia/Tokyo)"
   }
  ]
 }
