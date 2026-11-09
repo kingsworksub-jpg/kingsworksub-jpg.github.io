@@ -3036,6 +3036,18 @@
    "reason": "opus failed (failed); recovering before opencode fallback",
    "engine": "opencode",
    "at": "2026-11-09T20:00:12+09:00"
+  },
+  {
+   "id": "2026w45-006",
+   "category": "dev",
+   "theme": "TypeScriptの最初の一歩、JavaScriptに型を付けると何が変わるか",
+   "slug": "typescript-first-step-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/typescript-first-step-2026/",
+   "hatena_entry": "14729835035336090943",
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-09T20:31:11+09:00"
   }
  ]
 }
