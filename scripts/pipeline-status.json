@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T19:50:26+09:00",
+ "updated": "2026-11-09T19:50:32+09:00",
  "queue": {
   "published": 149,
   "rejected": 6,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published portable-ssd-usb4-sample-library-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-11-09T19:50:14+09:00",
-  "engine": "opencode"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
   "state": "failed",
-  "at": "2026-11-09T19:46:56+09:00",
+  "at": "2026-11-09T19:50:32+09:00",
   "engine": "opencode",
   "detail": "opencode fallback launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-11-09T19:50:32+09:00",
+   "engine": "opencode",
+   "detail": "opencode fallback launch error: このコマンドは、次のエラーのため実行できません: %1 は有効な Win32 アプリケーションではありません。。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "x-follow-dm",
    "state": "failed",
    "at": "2026-11-09T18:35:12+09:00",
-   "engine": "opencode",
-   "detail": "You've hit your weekly limit · resets Nov 12, 8pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-11-09T18:30:13+09:00",
    "engine": "opencode",
    "detail": "You've hit your weekly limit · resets Nov 12, 8pm (Asia/Tokyo)"
   }
