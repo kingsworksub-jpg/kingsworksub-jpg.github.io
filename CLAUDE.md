@@ -76,8 +76,14 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   `pc`=PC・周辺機器、`dev`=開発・プログラミング、`net`=ネット・自宅サーバーは2026-10-22追加）
 - `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-lab` / `drink-recipe` / `drink-tools` / `drink-hack` / `whisky` / `sakeware` / `gear` / `learning`。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
-- `channel: note` → GitHub Pages へサマリーを生成し、note 投稿スクリプト経由で送信（`jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
-  `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加）
+- `channel: note` → **GitHub Pages には投稿しない。note のみに投稿**（2026-11-06、ユーザー指示で GitHub Pages 分離）。
+  **他プラットフォームへの転載なし・有料記事対応** — note では記事を有料化できるため、同じ記事を はてな/Ameba に転載しない。
+  記事は `content/note-only/` フォルダに保管し、Hugo ビルドから除外される（`hugo.toml` の `ignoreFiles`）。
+  投稿は `scripts/post-to-note.py` で Playwright 自動化。アカウントログインは `data/note_user_data/`(gitignore対象)に保存。
+  **X (Twitter) への投稿も行う**（2026-11-06追加） — note の実際の記事URL（`https://note.com/shining_finger01/n/<key>`）を使う。
+  クロスリンク（「関連記事」ブロック）は他プラットフォームの記事一覧のみ（note の同じ記事へのリンクは避ける）。
+  カテゴリー: `jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
+  `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加。
 
 ### 1日9枠のプラットフォーム配分（2026-10-22、ユーザー指示「ameba/note/hatena に均等に毎日3本ずつ、github は別枠で全記事」）
 
@@ -189,6 +195,11 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
       `run-claude-task.ps1` と同じミューテックス `Local\kingsworksub-blog-x-jobs` を共有するが Claude Code は起動しない）。
       **登録時は Disabled**（`register-tasks.ps1` を実行しても有効にはならない）。`Start-ScheduledTask -TaskName
       blog-ppp-reconcile` で数回クリーンに動くのを確認してから `Enable-ScheduledTask` で有効化する。
+      **不具合(2026-11-05発覚)**: `register-tasks.ps1` の `RepetitionDuration` に `[TimeSpan]::MaxValue` を渡すと
+      Task SchedulerのXMLスキーマが受け付けない長さ(`P99999999DT23H59M59S`)になり `Register-ScheduledTask` がエラー終了していた。
+      このエラーは`$ErrorActionPreference = "Stop"`でスクリプト全体を止めるため、**このタスク自体がこれまで一度も実際には
+      登録されていなかった**(上記の説明は意図のみで、実在を確認していなかった)。`New-TimeSpan -Days 3650`(10年)に変更して修正、
+      実際に登録できることを確認済み。「無期限」を表現したいときに`[TimeSpan]::MaxValue`は使わないこと。
 - **停止方法**: 「止めて」と言われたら `Disable-ScheduledTask -TaskName blog-automation-task`（ネタ会議は止めなくてよい）。
   カテゴリー単位で止めるなら category-plan.json の weight を 0 にする。PPP同期を止めるなら
   `Disable-ScheduledTask -TaskName blog-ppp-reconcile`。
@@ -234,6 +245,100 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   `topic_plan.py recover` の対象にはしない)。
 - 公開済み記事ごとのX投稿URLを記録する専用の表は現時点では作っていない(はてな/noteのような全文転載ではなく、
   リンク付きの短い紹介ポストのため)。
+
+**自分の投稿への返信に応答する機能(2026-11-05、ユーザー指示で追加)**:
+- `post-to-x.py --check-replies` が `https://x.com/notifications/mentions` を開き、自分宛の通知のうち
+  本文のあるツイート(いいね・フォロー等は除外)を自分自身の発言を除いてJSONで列挙する(状態は変更しない)。
+  未処理かどうかは `data/x-replies-state.json`(`handled_ids`、gitignore対象の`data/`配下でgit管理外)で判定する。
+- `--reply-to <tweet_id> --text-file <file> --publish` でそのツイートに実際に返信し、成功したら
+  `handled_ids` に追加する(以後`--check-replies`に出てこなくなる)。`--skip <tweet_id>` は返信せずに
+  既読扱いにするためのコマンド(スパム・荒らし等を無視する用途)。
+- 返信文はこのスクリプト自身は作らない。無人実行用の指示文は `scripts/scheduled/prompts/x-reply.md`
+  (タスク名 `blog-x-reply-task`、45分おき、`scripts/scheduled/register-tasks.ps1`)。1回の実行で返信するのは
+  最大5件(スパム判定回避)。元の返信の言語に合わせ、CLAUDE.mdの「文体」ルール(煽り・誇張の禁止)に従って短く書く。
+- **タスクは登録時 Disabled**(`blog-ppp-reconcile` と同じ方針): 通知ページのスクレイピング(`article[data-testid="tweet"]`
+  等のセレクタ)は実際のXの画面でまだ検証していない。有効化前に `Start-ScheduledTask -TaskName blog-x-reply-task` を
+  数回動かしてログを確認するか、`post-to-x.py --check-replies` と `--reply-to ... --text-file ...`(`--publish`無しでドライラン)
+  を手動で試してから `Enable-ScheduledTask -TaskName blog-x-reply-task` で有効化すること。
+  - **実機テスト(2026-11-05)**: `--check-replies` は実際のX上で動作確認済み(自分のアカウント `@100labjtvn` を正しく認識、
+    未処理の返信を正しく列挙)。同日、実際に溜まっていた未返信8件のうち、宣伝・勧誘目的の3件を `--skip` で既読化し、
+    残り5件に `--reply-to ... --publish` で実際に返信済み(すべて成功)。
+
+**新規フォロワーへのフォローバック+お礼DM機能(2026-11-05、ユーザー指示で追加)**:
+- `post-to-x.py --check-new-followers` が自分のフォロワーページ(`https://x.com/<自分のハンドル>/followers`)を
+  開き、`[data-testid="UserCell"]` の行のうち「フォロー」ボタン(`data-testid` 末尾が `-follow`)が出ている
+  =まだフォローバックしていないユーザーをJSONで列挙する。フォローバック済みかどうかの判定はXの実際の状態
+  (ボタンの表示)そのものを使うため、返信機能と違って**専用の状態ファイルは無い**(フォローバックした瞬間に
+  リストから自然に消える)。
+- `--follow-back <handle> --publish` はフォローバックのみ、`--send-dm <handle> --text-file ... --publish` はDM送信のみ、
+  `--welcome <handle> --text-file ... --publish` はフォローバック+お礼DM送信を一括実行する。
+  **`--follow-back`/`--welcome` は `--publish` を付けないとドライラン**(フォローボタンを実際には押さない。
+  2026-11-05、`--welcome`のドライランで実際にフォローしてしまうバグを発見・修正した)。
+  DM送信は相手のDM受信設定が制限されていると失敗する(後述)が、これはエラーではなく
+  「DMを送れないだけでフォローバックは成立している」状態として扱う。
+- **DM暗号化パスコード(2026-11-05対応)**: Xの新しいメッセージ暗号化機能で、このアカウントは
+  パスコード(ユーザーが設定した4桁PIN)がかかっている。DM関連ページを開くと `x.com/i/chat/pin/recovery`
+  に飛ばされ、4つの数字入力欄(`<input type="text" inputmode="numeric" maxlength="1">`を4つ)が出る。
+  `post-to-x.py` の `send_dm()` はこの画面を自動検知し、`.secrets/x.env`(gitignore対象、`.secrets/hatena.env`
+  と同じ置き場所)の `X_DM_PASSCODE` を1桁ずつ `fill()` して自動解除する(`load_dm_passcode()` /
+  `unlock_dm_passcode()`)。パスコードはユーザー本人がXの設定画面で実際に設定したものを伝えてもらい、
+  このファイルに保存する(推測や代行設定はしない)。一度解除するとそのプロファイル(`data/x_user_data/`)では
+  以後も解除状態が保持される(実測)。
+- **DMが送れない2パターン(どちらも相手側の設定、2026-11-05実機テストで確認)**:
+  1. 「認証を受けて…」モーダル(`div[role="dialog"]`、文言に「認証」を含む): 相手がDM受信を
+     認証済み(X Premium)アカウントのみに制限している。`reason: "recipient_requires_verified_sender"`。
+  2. 「@handleさんの受信トレイは閉じられています。相手のXナンバーが分かっている場合は…」
+     (モーダルではなく本文エリアに直接表示され、**`page.inner_text("body")` では拾えない**ため
+     `page.get_by_text(...)` で検出する必要があった): 相手がDM受信をXナンバー限定にしている。
+     `reason: "recipient_inbox_closed"`。
+  実際に3人の新規フォロワーでテストしたところ、1人は上記1、1人は上記2、1人(`oja_project`)は
+  どちらにも該当せず実際にDM送信まで成功した。**新規フォロワーへのDMが届く割合は相手の設定次第で、
+  半分以上失敗するのが正常**(エラーではない)。
+- **DM入力欄・送信ボタンの実際のセレクタ(2026-11-05実機確認、憶測で変えないこと)**:
+  入力欄は `textarea[data-testid="dm-composer-textarea"]`(`div[role="textbox"]`ではない)、送信ボタンは
+  `button[data-testid="dm-composer-send-button"]`(キャメルケースの`dmComposerSendButton`ではない)。
+- お礼DMの文面はこのスクリプト自身は作らない。無人実行用の指示文は `scripts/scheduled/prompts/x-follow-dm.md`
+  (タスク名 `blog-x-follow-task`、45分おき、`scripts/scheduled/register-tasks.ps1`)。1回の実行で処理するのは
+  最大5件(スパム判定回避)。スパム・ボットらしいフォロワーは何もしない(状態ファイルが無いため、次回また候補に出るが
+  実害は無い)。
+- **タスクは登録時 Disabled**(他のXタスクと同じ方針): 知らないユーザーへの自動フォロー・自動DMはX自身の
+  スパム/不正利用検知が特に警戒する種類の挙動なので、`post-to-x.py --check-new-followers` や `--welcome ...`
+  (`--publish`無しでドライラン)を手動で試してから有効化すること。
+- **実機テスト(2026-11-05)**: `--check-new-followers` は実際のX上で動作確認済み。実際に溜まっていた新規フォロワー
+  3人のうち、`tekitounix` は実フォローバック成功(DM未テスト)、`sin_clav` はDM拒否(Xナンバー限定)を正しく検知、
+  `oja_project` はフォローバック+DM送信の両方が実際に成功した。
+
+### X (Twitter) 相互フォロー管理（2026-11-06 新規実装）
+
+**機能**: 自分がフォローしているが相手からフォローされていないアカウントを自動でアンフォロー。相手がフォローしている場合は絶対にアンフォローしない（安全策）。
+
+- **スクリプト**: `scripts/x-unfollow-non-mutual.py` — Playwright でブラウザ自動操作。X API は有料プランが必要なため使用不可。
+- **実行間隔**: 毎日 00:00（日本時間）
+- **1回の処理数**: 100〜150 件のランダム（`--limit N` で上書き可）。古くフォローした順。アカウント制限リスクを下げるため 500 から引き下げ（2026-11-07）
+- **安全策（3重チェック、1つでも該当すればスキップ）**:
+  1. フォロワー一覧（`/{me}/followers` + `/verified_followers`）を全件取得し、プロフィールのフォロワー数と照合。3件超の取りこぼしがあれば処理全体を中止
+  2. フォロー中一覧のセルに「フォローされています」表示がある
+  3. アンフォロー直前、相手プロフィールに `[data-testid="userFollowIndicator"]` がある
+- **注意**: `/home/following` は「@home」という別アカウントのページ。一覧取得は必ず `/{自分のハンドル}/following`、UserCell は `primaryColumn` 内に限定（サイドバーの「おすすめユーザー」を拾うため）。「フォロー中」ボタンは自分→相手の状態で、相互判定には使えない
+- **ログ**: `data/x-unfollow-log.jsonl` に JSONL 形式で記録（タイムスタンプ・アクション・ハンドル・理由）
+- **使い方**:
+  ```bash
+  python scripts/x-unfollow-non-mutual.py              # 本番実行
+  python scripts/x-unfollow-non-mutual.py --dry-run   # ドライラン（確認のみ）
+  ```
+- **⚠️ サブスク提供アカウント**: プロフィールの `[data-testid$="-unfollow"]` ボタンが「購入する～@handle」（月額課金）になる（例: @elonmusk, @SHIHEILIN）。「…」メニューにもフォロー解除がない。ボタンは aria-label が `フォロー中 @handle` と完全一致する場合だけ押し、確認ダイアログも「フォロー解除」文言を確認してから押す。それ以外は `skip_subscription_button` / `skip_button_mismatch`（2026-11-07 初回本番で購入シートを開いてしまった。購入は未確定）
+- **成功判定**: 同じユーザーIDの `{id}-follow` ボタンに変わったことで判定（ページ下部の「おすすめユーザー」の -follow ボタンに誤反応した前例あり）
+- **排他制御**: `data/x_user_data` は他の X ジョブと共有。`Local\kingsworksub-blog-x-jobs` ミューテックスを一覧取得時に1回、以降は15件ごとに取り直し（その都度ブラウザを閉じ、20〜40秒空けて他ジョブに譲る）。ロックなしで走らせると他ジョブ起動時にプロフィールが取り合いになり `skip_not_loaded` が連発する（2026-11-07 初回本番で発生）
+- **タスク登録**（`blog-x-unfollow-task`、管理者権限不要、ログ `scripts/scheduled/logs/x-unfollow.log`）:
+  ```powershell
+  & 'scripts/schedule-unfollow.ps1'
+  ```
+- **動作フロー**:
+  1. X ログイン確認・自分のハンドル取得
+  2. フォロワー全件取得 → フォロワー数と照合
+  3. フォロー中全件取得 → フォロワーに含まれないものを候補化（`data/x-unfollow-candidates.json`）
+  4. 候補のプロフィールで最終確認 → 「フォロー中」ボタン → 確認ダイアログ → 「フォロー」に戻ったことを検証
+  5. ログに記録。失敗が5回連続したらレート制限とみなして中断
 
 ### はてなブログ連携(構築済み)
 
@@ -392,6 +497,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか | https://kinbro.hatenablog.com/entry/2026/11/07/121324 | 14729835035335047053 |
 | LM StudioとOllamaは何が違うのか、モデルを画面で選ぶ手軽さと1234番ポートのAPI | https://kinbro.hatenablog.com/entry/2026/11/07/201403 | 14729835035335212934 |
 | ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか、10Gbpsと40Gbpsで変わるもの | https://kinbro.hatenablog.com/entry/2026/11/08/074245 | 14729835035335377633 |
+| TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から | https://kinbro.hatenablog.com/entry/2026/11/09/202911 | 14729835035336090943 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
@@ -442,6 +548,26 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   ことがある**(2026-10-12に実際に発生。`data/ameba_fail.png` のスクリーンショットでブログ管理の記事一覧に投稿済みとして
   表示されていた)。スクリプトが失敗を報告したら、**再投稿する前に `data/ameba_fail.png` と記事一覧(`srventrylist.do`)を
   確認し、実際に投稿済みでないか確かめること**(重複投稿を避けるため)。
+- **「投稿する」「カバーなしで投稿する」が synthetic click に反応しなくなった不具合(2026-11-05実測 → 同日修正)**:
+  ある時点からAmeba側の挙動が変わり、`locator.click()`(force click含む)では「投稿する」を押しても
+  「カバーを設定してみましょう」モーダルが開くだけで、そのモーダルの「カバーなしで投稿する」を押しても
+  何も起きず(ポップアップも開かず、記事も作成されない)同じモーダルが延々再提示される状態になった
+  (最大8回クリックしても進まないことを確認)。**実際の投稿送信を起こしていたのは「カバーなしで投稿する」
+  のクリックそのものだったが、合成クリックイベントではその送信が発火しなかった**。noteの「投稿する」ボタン
+  (下記「noteエディタの仕様」参照)と同じ問題で、修正も同じ: `page.mouse.move()`→`down()`→`up()` による
+  実座標クリック(`_mouse_click()`)に変更。さらに、どちらのクリック(「投稿する」本体か、モーダルを閉じる
+  クリックか)が実際の送信になるか事前にはわからないため、`click_submit_and_check()` は**毎回のクリックを
+  `ctx.expect_page()` で包んで**ポップアップの有無を確認するループに変更した(以前は「投稿する」の最初の
+  クリックだけを`expect_page`で包んでいたため、本当の送信クリックがモーダル側だった場合にポップアップを
+  取りこぼしていた)。
+- **Amazon検索フォールバックリンクが`<figure>`内の画像を包んでいると変換漏れする不具合(2026-11-05実測 → 同日修正)**:
+  `convert_amazon_links_to_pick()`は、ASINが取れない(検索フォールバック`/s?k=...`等の)Amazonリンクを
+  プレーンテキスト化して取り除く設計だが、旧実装は`parent.nodeName !== 'FIGURE'`の条件により**`<figure>`
+  (商品写真)内の画像を包んでいるリンクだけは除去対象から除外**していた。該当商品の写真に検索フォールバック
+  リンクが付いている記事(ASINが特定できなかった複数商品を含む記事)では、生の`amazon.co.jp`リンクが本文に
+  残ったまま投稿され、Amebaの「リンクを削除するかAmeba Pickリンクに差し替えて投稿を行ってください」エラーで
+  投稿が毎回拒否されていた。`FIGURE`判定の条件を削除し、親要素の種類に関わらず常にリンクを除去(アンラップ)
+  するよう修正。
 - **画像回り込みがモバイルで崩れる不具合(2026-10-11、ユーザーがスマホのスクショで報告 → 同日中に修正)**: Ameba は保存時に
   `<img>` を自前の遅延読み込みコンポーネントへ自動的に置き換える(`src` をプレースホルダーSVGにし、実URLを`data-src`へ)。
   このときの表示モード(`data-amb-layout`)は、**こちらが付けたインラインCSS(`float:left;width:220px`)ではなく、
@@ -479,6 +605,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | 透明な氷は水ではなく凍る向きで決まる。保冷ボックスで上から凍らせる方向性凍結の手順 | https://ameblo.jp/sfd0501/entry-12982684053.html | 12982684053 |
 | ホットワインの鍋は何℃で火から下ろすか。70℃の理由とシナモン・クローブ・オレンジの配合 | https://ameblo.jp/sfd0501/entry-12982760061.html | 12982760061 |
 | ボジョレー・ヌーヴォーが軽い理由、ぶどうの粒の中で始まるマセラシオン・カルボニック | https://ameblo.jp/sfd0501/entry-12982860591.html | 12982860591 |
+| びんのサイダーはなぜ懐かしい味がするのか。三ツ矢・有馬・養老など5本の甘さと香りを比べる | https://ameblo.jp/sfd0501/entry-12983634709.html | 12983634709 |
+| 薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える | https://ameblo.jp/sfd0501/entry-12983635394.html | 12983635394 |
 | Compass Boxの「10年物」はなぜ全部10年か、スコッチの年数は最も若い原酒で決まる | https://ameblo.jp/sfd0501/entry-12983708433.html | 12983708433 |
 | 魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる | https://ameblo.jp/sfd0501/entry-12983734526.html | 12983734526 |
 | 備前焼のぐい呑みに釉薬がない理由と、酒がまろやかになると言われる仕組み | https://ameblo.jp/sfd0501/entry-12983768235.html | 12983768235 |
@@ -606,10 +734,10 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 積読は悪くない、読まない本が本棚で果たしている役割 | https://note.com/shining_finger01/n/n49455d90c9ca | `n49455d90c9ca` | **公開済(2026-10-28)** |
 | ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日 | https://note.com/shining_finger01/n/nf415df0d93c2 | `nf415df0d93c2` | **公開済(2026-11-05)** |
 | ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした | https://note.com/shining_finger01/n/n7842c49e3a33 | `n7842c49e3a33` | **公開済(2026-11-05)** |
+| ジャズ喫茶で黙って聴いた大きな音、スピーカーの前の1時間が残していったもの | https://note.com/shining_finger01/n/nfb01bce8ca20 | `nfb01bce8ca20` | **公開済(2026-11-06・note専用)** |
 | 作業中のBGMで、耳は何を聞き流しているのか。歌詞が邪魔をする理由とサティの家具の音楽 | https://note.com/shining_finger01/n/n2d03c336a9af | `n2d03c336a9af` | **公開済(2026-11-06・note専用)** |
 | ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学 | https://note.com/shining_finger01/n/nf03086ef5afb | `nf03086ef5afb` | **公開済(2026-11-07・note専用)** |
 | 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏子・渡辺貞夫から上原ひろみまで | https://note.com/shining_finger01/n/n5cd1fd7d0bce | `n5cd1fd7d0bce` | **公開済(2026-11-07・note専用)** |
-| ジャズ喫茶で黙って聴いた大きな音、スピーカーの前の1時間が残していったもの | https://note.com/shining_finger01/n/nfb01bce8ca20 | `nfb01bce8ca20` | **公開済(2026-11-06・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
