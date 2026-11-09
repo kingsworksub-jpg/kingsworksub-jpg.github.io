@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T02:30:03+09:00",
+ "updated": "2026-11-10T02:50:14+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-10T02:30:03+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "timeout",
-  "at": "2026-11-10T02:27:06+09:00",
+  "at": "2026-11-10T02:50:14+09:00",
   "engine": "opencode",
   "detail": "opencode fallback timed out after 20 min"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "timeout",
+   "at": "2026-11-10T02:50:14+09:00",
+   "engine": "opencode",
+   "detail": "opencode fallback timed out after 20 min"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-10T00:00:20+09:00",
    "engine": "opencode",
    "detail": "opencode fallback timed out after 60 min"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-09T22:45:48+09:00",
-   "engine": "opencode",
-   "detail": "`--check-replies` が `[]` を返しました（アカウント `@100labjtvn`、未処理の返信なし）。指示どおり何もせず終了します。"
   }
  ]
 }
