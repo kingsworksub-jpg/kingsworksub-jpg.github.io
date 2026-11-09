@@ -3048,6 +3048,15 @@
    "note_key": null,
    "engine": "opencode",
    "at": "2026-11-09T20:31:11+09:00"
+  },
+  {
+   "id": "2026w42-041",
+   "category": "essay",
+   "theme": "引っ越しとレコード、モノを運ぶ",
+   "status": "failed",
+   "reason": "opus failed (failed); recovering before opencode fallback",
+   "engine": "opencode",
+   "at": "2026-11-09T23:00:13+09:00"
   }
  ]
 }
