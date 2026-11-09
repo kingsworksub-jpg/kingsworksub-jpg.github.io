@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:45:02+09:00",
+ "updated": "2026-11-10T02:05:12+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-10T01:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "timeout",
-  "at": "2026-11-10T01:42:47+09:00",
+  "at": "2026-11-10T02:05:12+09:00",
   "engine": "opencode",
   "detail": "opencode fallback timed out after 20 min"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "timeout",
+   "at": "2026-11-10T02:05:12+09:00",
+   "engine": "opencode",
+   "detail": "opencode fallback timed out after 20 min"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-09T22:03:08+09:00",
    "engine": "opencode",
    "detail": "opencode exit code 1"
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-09T22:01:35+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
