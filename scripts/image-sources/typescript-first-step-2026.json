@@ -1,0 +1,23 @@
+{
+ "/images/typescript-first-step/ts-logo.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1280px-Typescript_logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Typescript_logo_2020.svg",
+  "license": "Public domain",
+  "author": "™/®Microsoft",
+  "title": "File:Typescript logo 2020.svg"
+ },
+ "/images/typescript-first-step/vscode.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/VS_Code_Screenshot.png/1280px-VS_Code_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:VS_Code_Screenshot.png",
+  "license": "CC0",
+  "author": "Cycling2",
+  "title": "File:VS Code Screenshot.png"
+ },
+ "/images/typescript-first-step/code-screen.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS_code_on_a_screen_%28Unsplash%29.jpg/1280px-CSS_code_on_a_screen_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg",
+  "license": "CC0",
+  "author": "Sai Kiran Anagani _imkiran",
+  "title": "File:CSS code on a screen (Unsplash).jpg"
+ }
+}
