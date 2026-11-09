@@ -3027,6 +3027,15 @@
    "reason": "opus failed (failed); recovering before opencode fallback",
    "engine": "opencode",
    "at": "2026-11-09T19:50:26+09:00"
+  },
+  {
+   "id": "2026w45-005",
+   "category": "dev",
+   "theme": "正規表現の最初の一歩、VS Codeの検索と置換で覚える",
+   "status": "failed",
+   "reason": "opus failed (failed); recovering before opencode fallback",
+   "engine": "opencode",
+   "at": "2026-11-09T20:00:12+09:00"
   }
  ]
 }
