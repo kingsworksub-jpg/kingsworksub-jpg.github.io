@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:31:11+09:00",
+ "updated": "2026-11-09T20:32:18+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
-  "job": "blog-post",
-  "label": "投稿",
-  "since": "2026-11-09T20:00:02+09:00",
-  "engine": "opencode"
- },
+ "current_job": null,
  "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "state": "failed",
-  "at": "2026-11-09T19:51:40+09:00",
+  "state": "finished",
+  "at": "2026-11-09T20:32:18+09:00",
   "engine": "opencode",
-  "detail": "opencode exit code 1"
+  "detail": "- 記事「TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から」(dev / 20:00枠)。実ブラウザ検査OK、X投稿も完了。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-09T20:32:18+09:00",
+   "engine": "opencode",
+   "detail": "- 記事「TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から」(dev / 20:00枠)。実ブラウザ検査OK、X投稿も完了。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-09T19:01:45+09:00",
    "engine": "opencode",
    "detail": "You've hit your weekly limit · resets Nov 12, 8pm (Asia/Tokyo)"
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-09T19:01:31+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
