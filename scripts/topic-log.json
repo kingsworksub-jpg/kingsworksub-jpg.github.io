@@ -3057,6 +3057,15 @@
    "reason": "opus failed (failed); recovering before opencode fallback",
    "engine": "opencode",
    "at": "2026-11-09T23:00:13+09:00"
+  },
+  {
+   "id": "2026w45-009",
+   "category": "net",
+   "theme": "Pi-holeで家中の広告とトラッカーをDNSで止める、Raspberry Piで作る手順",
+   "status": "failed",
+   "reason": "opus failed (failed); recovering before opencode fallback",
+   "engine": "opencode",
+   "at": "2026-11-10T12:00:13+09:00"
   }
  ]
 }
