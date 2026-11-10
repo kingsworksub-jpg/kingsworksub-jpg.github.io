@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:50:02+09:00",
+ "updated": "2026-11-10T11:51:27+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-10T11:50:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "failed",
-  "at": "2026-11-10T11:36:18+09:00",
+  "at": "2026-11-10T11:51:27+09:00",
   "engine": "opencode",
   "detail": "opencode exit code 1"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "failed",
+   "at": "2026-11-10T11:51:27+09:00",
+   "engine": "opencode",
+   "detail": "opencode exit code 1"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -98,14 +101,6 @@
    "at": "2026-11-10T09:37:58+09:00",
    "engine": "opencode",
    "detail": "初回実行時は別のXジョブがブラウザプロファイルを掴んでいたため起動に失敗しましたが、空くのを待って再実行し、未処理の返信が0件であることを確認しました。`--skip`・返信・状態変更は行っていません。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "timeout",
-   "at": "2026-11-10T08:43:05+09:00",
-   "engine": "opencode",
-   "detail": "opencode fallback timed out after 60 min"
   }
  ]
 }
