@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T08:43:09+09:00",
+ "updated": "2026-11-10T09:00:04+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -12,9 +12,9 @@
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
  "current_job": {
-  "job": "x-reply",
-  "label": "x-reply",
-  "since": "2026-11-10T08:43:09+09:00",
+  "job": "x-follow-dm",
+  "label": "x-follow-dm",
+  "since": "2026-11-10T09:00:04+09:00",
   "engine": "opencode"
  },
  "last_run": {
