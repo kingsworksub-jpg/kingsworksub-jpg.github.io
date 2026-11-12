@@ -5566,5 +5566,22 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T15:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全243記事のfrontmatter(description長110-120字前後/images/draft)と本文中の/images参照の実在を機械チェック: 欠落・不整合0件(draft:trueは既知の5件のみ)",
+      "前回指摘のfigure中途配置(typescript-first-step-2026, jazz-festivals-2026)を再確認: 直後が本文段落で回り込みは機能しており変更不要と判断",
+      "修正対象なし。drafts配下への改定案も作成せず"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
