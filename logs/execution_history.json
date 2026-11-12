@@ -5599,5 +5599,21 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T17:53:51Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "seo-audit.pyはクラウド環境のPIL不具合で実行不可。代替で全記事のdescription長(90-140字)とfigure直後の短文/見出し配置を機械チェック",
+      "検出6件はいずれも複数行の段落または意図的な注記(Amazon取扱なし)で問題なし。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
