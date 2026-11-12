@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:35:01+09:00",
+ "updated": "2026-11-12T21:36:41+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-12T21:35:01+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-12T21:31:10+09:00",
+  "at": "2026-11-12T21:36:41+09:00",
   "engine": "opencode",
-  "detail": "原因に対処したあと、`python scripts/topic_plan.py health-reset --reason '...'` を実行すると投稿が再開します。なお、作業ツリーに未コミットの変更が残っているため、冒頭の `git pull --rebase` も失敗しました。"
+  "detail": "The 5 skipped accounts will show up again next run, since nothing records that they were skipped. I deleted the temporary message files, and per the instructions nothing was committed or pushed."
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-12T21:36:41+09:00",
+   "engine": "opencode",
+   "detail": "The 5 skipped accounts will show up again next run, since nothing records that they were skipped. I deleted the temporary message files, and per the instructions nothing was committed or pushed."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -95,14 +98,6 @@
    "label": "x-reply",
    "state": "failed",
    "at": "2026-11-12T19:45:13+09:00",
-   "engine": "opencode",
-   "detail": "opencode exit code 1"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "failed",
-   "at": "2026-11-12T19:20:13+09:00",
    "engine": "opencode",
    "detail": "opencode exit code 1"
   }
