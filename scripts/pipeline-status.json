@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:45:02+09:00",
+ "updated": "2026-11-13T07:45:45+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-13T07:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-13T07:30:42+09:00",
+  "at": "2026-11-13T07:45:45+09:00",
   "engine": "opencode",
-  "detail": "- 投稿を再開するには、まず失敗の原因に対処し、そのあと `python scripts/topic_plan.py health-reset --reason ...` で停止を解除する必要があります。"
+  "detail": "Separately, the claude.ai Google Docs connector isn't authorized yet. You can connect it in your claude.ai connector settings, but this task doesn't need it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-13T07:45:45+09:00",
+   "engine": "opencode",
+   "detail": "Separately, the claude.ai Google Docs connector isn't authorized yet. You can connect it in your claude.ai connector settings, but this task doesn't need it."
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T05:31:04+09:00",
    "engine": "opencode",
    "detail": "The claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't use it."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-13T05:07:24+09:00",
-   "engine": "opencode",
-   "detail": "The claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used."
   }
  ]
 }
