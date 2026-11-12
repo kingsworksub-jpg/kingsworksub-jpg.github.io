@@ -5661,5 +5661,21 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T21:53:20Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "内部リンク切れ(/posts/配下)・H2数・タイトル長を全243記事で点検: 切れリンク0件、H2不足はhello.mdのみ(サンプル記事)、タイトル最長62字。修正対象なし",
+      "seo-audit.pyはPIL環境不備で実行不可(クラウド環境)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
