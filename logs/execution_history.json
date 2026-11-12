@@ -5549,5 +5549,22 @@
       "次回: ローカルで seo-audit.py --check-links を実行し結果を確認",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T14:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全figure(photo)の配置・lazy・alt属性を全243記事で点検。リード画像(フロントマター直後)は仕様どおり。見出し直後でない配置は10件(jazz-festivals-2026, typescript-first-step-2026, hammond-b3-jazz-organ-2026, jazz-shoes-trend-2026, jazz-style-fashion-revival-2026)だが、いずれも直後が本文段落で回り込みは機能するため変更せず",
+      "禁止表現(隅から隅まで/味わい尽くす/実際に〜てみた/あるレビューでは)0件。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "次回: figureが段落の途中にある上記5記事のうち、見出し直後へ移す優先度を検討",
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
