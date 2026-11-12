@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T02:30:10+09:00",
+ "updated": "2026-11-13T02:30:48+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-13T02:30:10+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-13T02:07:17+09:00",
+  "at": "2026-11-13T02:30:48+09:00",
   "engine": "opencode",
-  "detail": "**Unrelated note:** the claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This task didn't need it."
+  "detail": "指示文のルールに従い、ここで終了しています。返信もスキップも行わず、コミットや push もしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-13T02:30:48+09:00",
+   "engine": "opencode",
+   "detail": "指示文のルールに従い、ここで終了しています。返信もスキップも行わず、コミットや push もしていません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T00:01:34+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-12T23:51:46+09:00",
-   "engine": "opencode",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ]
 }
