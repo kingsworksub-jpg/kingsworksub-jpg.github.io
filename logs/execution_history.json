@@ -5677,5 +5677,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-12T22:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置ルール(左右交互・直後に見出し/---/短文なし)、OG画像ファイル存在、本文img参照切れ、ogImageWidth有無を全243記事で点検: 違反0件(ogImageWidth欠落はdraft:trueの5本のみで公開影響なし)。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
