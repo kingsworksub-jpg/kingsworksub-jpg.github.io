@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:00:02+09:00",
+ "updated": "2026-11-12T20:01:10+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-12T20:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
-  "state": "failed",
-  "at": "2026-11-12T19:45:13+09:00",
+  "state": "finished",
+  "at": "2026-11-12T20:01:10+09:00",
   "engine": "opencode",
-  "detail": "opencode exit code 1"
+  "detail": "- 冒頭の `git pull --rebase origin main` も失敗しています。作業ツリーに、まだコミットしていない変更（`hugo.toml`・`topic_plan.py`・`run-claude-task.ps1` など）があるためです。次回もそのままだと、この最初の手順で同じように止まります。今回の失敗の一因かもしれませんが、確認はしていません。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-12T20:01:10+09:00",
+   "engine": "opencode",
+   "detail": "- 冒頭の `git pull --rebase origin main` も失敗しています。作業ツリーに、まだコミットしていない変更（`hugo.toml`・`topic_plan.py`・`run-claude-task.ps1` など）があるためです。次回もそのままだと、この最初の手順で同じように止まります。今回の失敗の一因かもしれませんが、確認はしていません。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -95,14 +98,6 @@
    "label": "x-follow-dm",
    "state": "failed",
    "at": "2026-11-12T17:50:14+09:00",
-   "engine": "opencode",
-   "detail": "opencode exit code 1"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "failed",
-   "at": "2026-11-12T17:30:13+09:00",
    "engine": "opencode",
    "detail": "opencode exit code 1"
   }
