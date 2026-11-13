@@ -65,4 +65,4 @@ aliases:
 金属の道具をあえてガラスに置き換えることで、温度の移ろいそのものが見える酒器になった。燗と冷や、季節によって使い分けられる一本を、食卓の主役に据えてみるのも悪くないと思う。
 
 
-**関連記事**: [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)
+**関連記事**: [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/) · [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/) · [錫のちろりで燗をつける。陶器の徳利より熱を速く渡す、大阪浪華錫器の酒器](/posts/suzu-chirori-kanzake-2026/)

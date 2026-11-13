@@ -78,4 +78,4 @@ aliases:
 底に沈んだ富士山に酒を注いだ瞬間だけ、この盃は完成する。ただ眺めて美しいだけでなく、使うたびに違う表情を見せてくれるところが、この一杯を手元に置いておきたくなる理由なのだと思う。
 
 
-**関連記事**: [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/)
+**関連記事**: [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/) · [貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜](/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026/) · [魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる](/posts/edo-kiriko-guinomi-cut-patterns-2026/) · [薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える](/posts/satsuma-kiriko-guinomi-bokashi-2026/)

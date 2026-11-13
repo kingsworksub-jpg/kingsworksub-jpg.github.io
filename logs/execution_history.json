@@ -5989,5 +5989,29 @@
       "turntable系・whisky系の古い記事にも後発記事リンク追加要否",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T21:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hirota-glass-chirori-deep-dive-2026",
+      "tajima-glass-kinpaku-fuji-sakura-deep-dive-2026",
+      "takaoka-shikki-raden-glass-sakura-deep-dive-2026",
+      "sori-yanagi-seishu-glass-deep-dive-2026"
+    ],
+    "actions": [
+      "内部リンクが最少(2本)だった酒器深掘り4記事の関連記事に、後発の燗酒温度・錫ちろり・江戸/薩摩切子・枡記事への導線を各2本追加(スラグ実在確認済み)"
+    ],
+    "files_changed": [
+      "content/posts/hirota-glass-chirori-deep-dive-2026.md",
+      "content/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026.md",
+      "content/posts/takaoka-shikki-raden-glass-sakura-deep-dive-2026.md",
+      "content/posts/sori-yanagi-seishu-glass-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残りの酒器深掘り(toyo-sasaki/tsugaru-vidro系・9/22記事)にも同様の導線追加要否",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]

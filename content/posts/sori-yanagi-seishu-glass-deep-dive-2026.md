@@ -70,4 +70,4 @@ aliases:
 飾り気を削ぎ落としながら、日本酒という飲み物の輪郭だけはしっかり残す。そのバランス感覚こそが、このグラスが半世紀以上も棚から下ろされずにいる理由なのだろう。値段の手頃さも含めて、日々の晩酌に添える一客としてちょうどいい器だと思う。
 
 
-**関連記事**: [氷を閉じ込めて薄めない、東洋佐々木ガラス カラフェ・バリエーション](/posts/toyo-sasaki-carafe-variation-deep-dive-2026/) · [東洋佐々木ガラスの片口 冷酒カラフェ、注ぎ口に宿る千三百年の知恵](/posts/toyo-sasaki-katakuchi-deep-dive-2026/)
+**関連記事**: [氷を閉じ込めて薄めない、東洋佐々木ガラス カラフェ・バリエーション](/posts/toyo-sasaki-carafe-variation-deep-dive-2026/) · [東洋佐々木ガラスの片口 冷酒カラフェ、注ぎ口に宿る千三百年の知恵](/posts/toyo-sasaki-katakuchi-deep-dive-2026/) · [枡で日本酒を冷やで飲む理由、江戸の量り売りの道具が祝いの器になるまで](/posts/masu-sake-cup-hinoki-2026/) · [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
