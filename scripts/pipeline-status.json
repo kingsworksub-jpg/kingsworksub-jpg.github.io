@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T04:00:03+09:00",
+ "updated": "2026-11-14T04:01:34+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-14T04:00:03+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-14T03:35:55+09:00",
+  "at": "2026-11-14T04:01:34+09:00",
   "engine": "opencode",
-  "detail": "There's no record of skipped accounts, so these will show up again on the next run and get the same judgment. Nothing needed committing or pushing, and no temporary files were created."
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-14T04:01:34+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T01:21:35+09:00",
    "engine": "opencode",
    "detail": "These 9 will show up as candidates again next run, which the task instructions say is fine. I deleted the temporary DM text files, and nothing needed committing."
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-14T01:02:41+09:00",
-   "engine": "opencode",
-   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
   }
  ]
 }
