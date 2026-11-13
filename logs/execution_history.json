@@ -5840,5 +5840,20 @@
     "next_kpis": [
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T11:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置(見出し直後ルール)を公開全記事で点検: 逸脱9件(導入部4件・本文途中5件)。いずれも直後の段落が回り込む位置で表示崩れなし、写真の再配置は文脈を壊すリスクがあるため修正せず記録のみ(alan-boguslavsky-stage, hammond-b3-jazz-organ-2026, jazz-festivals-2026, jazz-shoes-trend-2026, jazz-style-fashion-revival-2026, typescript-first-step-2026ほか)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "figure逸脱9件の手動確認"
+    ]
   }
 ]
