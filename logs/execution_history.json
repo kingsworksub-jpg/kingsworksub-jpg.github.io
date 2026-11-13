@@ -5737,5 +5737,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T02:53:20Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全243記事の内部リンク(/posts/*)・画像参照(/images/*)の実在、description/images frontmatter欠落を点検: 破損0件。修正対象なし(seo-audit.pyはPIL不具合でこの環境では実行不可)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
