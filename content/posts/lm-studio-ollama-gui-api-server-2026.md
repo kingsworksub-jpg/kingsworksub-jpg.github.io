@@ -124,6 +124,7 @@ Ollamaに向いているのは、PCを起動したら常にモデルが待ち受
 - [OllamaのVRAM目安は「パラメータ数×0.6GB」から、制作PCで7Bから70Bまでを見積もる](/posts/ollama-vram-memory-guide-2026/)
 - [ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの](/posts/gguf-quantization-q4-q5-guide-2026/)
 - [Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法](/posts/chrome-gemini-nano-4gb-2026/)
+- [Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める](/posts/synology-ds225plus-photo-backup-nas-2026/)(自宅に常時動かす機器を置く発想として)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)

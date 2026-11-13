@@ -217,6 +217,8 @@ JavaScriptに型を足すと、エディタの補完が正確になり、実行�
 
 ## 関連記事・おすすめメディア
 
+- [GitHub CLIでプルリクエストを出す朝、CIを待つ昼、マージする夕方](/posts/gh-cli-pull-request-terminal-guide-2026/)
+- [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)

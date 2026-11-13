@@ -6013,5 +6013,32 @@
       "残りの酒器深掘り(toyo-sasaki/tsugaru-vidro系・9/22記事)にも同様の導線追加要否",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T22:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "dynamic-mic-5choice-2026",
+      "lm-studio-ollama-gui-api-server-2026",
+      "monitor-arm-vesa-desk-depth-2026",
+      "portable-ssd-usb4-sample-library-2026",
+      "typescript-first-step-2026"
+    ],
+    "actions": [
+      "未着手だった最後の5記事の関連記事に、実在スラグを確認した上で内部リンクを1〜2本ずつ追加(計7本)。これで content/posts の全記事が一巡"
+    ],
+    "files_changed": [
+      "content/posts/dynamic-mic-5choice-2026.md",
+      "content/posts/lm-studio-ollama-gui-api-server-2026.md",
+      "content/posts/monitor-arm-vesa-desk-depth-2026.md",
+      "content/posts/portable-ssd-usb4-sample-library-2026.md",
+      "content/posts/typescript-first-step-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hugoがこの環境に無くビルド未確認(リンク先スラグはlsで確認済)",
+      "ローカルでseo-audit.py --check-links実行",
+      "次回以降は閲覧数・孤立記事ベースで再選定"
+    ]
   }
 ]

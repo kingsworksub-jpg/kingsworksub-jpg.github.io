@@ -113,6 +113,7 @@ USB-Cのケーブルは、どれも同じ形のコネクターをしているが
 - [ノートPC1台でDTMを続けるなら、据え置きから持ち出すのは4つだけ](/posts/laptop-only-dtm-portable-setup-2026/)(ポータブルSSDを持ち出す環境づくりとして)
 - [3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ](/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/)(外付けに置いたライブラリの守り方として)
 - [ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く](/posts/minipc-dtm-ryzen-7730u-guide-2026/)(ポートの少ない小型PCでの外付けストレージの考え方につながる)
+- [Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める](/posts/synology-ds225plus-photo-backup-nas-2026/)(外付けSSDとは別に、家の中へ置く大容量ストレージとして)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版(ドリンク・酒の科学とレシピ)はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
