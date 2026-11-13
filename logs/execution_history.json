@@ -5885,5 +5885,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "薄い深掘り記事の加筆要否判断"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T16:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigure配置規則(figure直後の見出し/---/figure連続、左右同側の連続)を全記事で点検: 違反0件。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り記事の加筆要否判断"
+    ]
   }
 ]
