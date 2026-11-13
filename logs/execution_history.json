@@ -5767,5 +5767,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T06:54:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現(隅から隅まで/全機能解剖/実際に〜してみた/あるレビューでは/いつもの軸)、description長(80-150字外)、h1混入、og寸法欠落を全記事で点検: 違反0件(og寸法欠落5件は全てdraft:trueで対象外)。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
