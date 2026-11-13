@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:45:02+09:00",
+ "updated": "2026-11-13T22:45:41+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-13T22:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-13T22:22:51+09:00",
+  "at": "2026-11-13T22:45:41+09:00",
   "engine": "opencode",
-  "detail": "DM用の一時ファイルは3件とも削除しました。手順書のとおり、コミットとpushはしていません。"
+  "detail": "今回の実行では返信しませんでした。`python scripts/post-to-x.py --check-replies` が空の配列 `[]` を返したためです（アカウント `@100labjtvn`）。指示に従ってここで終了しました。投稿・既読化（スキップ）・ファイルの変更はしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-13T22:45:41+09:00",
+   "engine": "opencode",
+   "detail": "今回の実行では返信しませんでした。`python scripts/post-to-x.py --check-replies` が空の配列 `[]` を返したためです（アカウント `@100labjtvn`）。指示に従ってここで終了しました。投稿・既読化（スキップ）・ファイルの変更はしていません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T20:30:50+09:00",
    "engine": "opencode",
    "detail": "`x-reply.md` の対応とは別件ですが、claude.ai の Google Docs コネクタが認証されていないため、claude.ai のコネクタ設定で認可するまで使えません。今回の作業には影響ありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-13T20:06:19+09:00",
-   "engine": "opencode",
-   "detail": "Separately, the claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ]
 }
