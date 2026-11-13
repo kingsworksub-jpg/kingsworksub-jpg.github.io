@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:01:19+09:00",
+ "updated": "2026-11-13T23:02:48+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-13T23:01:19+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-13T23:01:15+09:00",
+  "at": "2026-11-13T23:02:48+09:00",
   "engine": "opencode",
-  "detail": "`git pull --rebase` は、手元にコミットされていない変更があったため失敗しました。そのままにしてあります。どの回がなぜ失敗したかは確認できていません。原因に対処してから `python scripts/topic_plan.py health-reset --reason '...'` を実行すれば、自動投稿が再開します。"
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-13T23:02:48+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T21:01:33+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-13T20:51:41+09:00",
-   "engine": "opencode",
-   "detail": "I ran the two welcome commands at the same time, even though they share one browser login profile. Both worked, but future runs should do them one at a time. I deleted the temporary message files afterwards. Nothing was committed, since the task doesn't call for it."
   }
  ]
 }
