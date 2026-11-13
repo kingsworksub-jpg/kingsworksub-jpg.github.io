@@ -101,6 +101,7 @@ HDDが壊れやすいかというと、そこまで神経質になる必要は�
 - [Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める](/posts/synology-ds225plus-photo-backup-nas-2026/)(家の中に置くコピーをNASでまとめる方法として)
 - [パスワードマネージャーを乗り換えると、CSVに乗らずに置いていかれるもの](/posts/password-manager-migration-guide-2026/)(大事なデータを特定のサービスに閉じ込めない、という考え方つながりで)
 - [Obsidianのメモはただのテキストファイル。10年後も開ける知識の置き場を作る](/posts/obsidian-knowledge-base-plain-text-2026/)(長く残すデータの置き方として)
+- [ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか、10Gbpsと40Gbpsで変わるもの](/posts/portable-ssd-usb4-sample-library-2026/)(持ち出し用ストレージの速度と、コピーの置き場を考えるときに)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)

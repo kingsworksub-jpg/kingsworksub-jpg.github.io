@@ -6040,5 +6040,29 @@
       "ローカルでseo-audit.py --check-links実行",
       "次回以降は閲覧数・孤立記事ベースで再選定"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T00:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "dtm-backup-3-2-1-ssd-hdd-cloud-2026",
+      "synology-ds225plus-photo-backup-nas-2026",
+      "vscode-dev-containers-docker-guide-2026",
+      "python-venv-uv-first-environment-2026"
+    ],
+    "actions": [
+      "被リンク0〜1だった公開記事(portable-ssd-usb4-sample-library-2026 / typescript-first-step-2026 / ipv6-ipoe-speed-2026)への内部リンクを関連記事欄に計5本追加。frontmatter(description/images)・figure交互配置・figure直後の短文チェックは全記事で問題なし"
+    ],
+    "files_changed": [
+      "content/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026.md",
+      "content/posts/synology-ds225plus-photo-backup-nas-2026.md",
+      "content/posts/vscode-dev-containers-docker-guide-2026.md",
+      "content/posts/python-venv-uv-first-environment-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはこの環境でPIL不具合のため未実行(ローカルで実行)",
+      "残る被リンク0はdraft:trueの2026-09-22-*(ジャズ楽器の重複下書き5本)のみ。公開/削除はユーザー判断"
+    ]
   }
 ]

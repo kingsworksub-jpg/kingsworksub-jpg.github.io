@@ -128,6 +128,7 @@ Python の仮想環境はプロジェクトごとに部品の置き場を分け�
 ## 関連記事
 - [GitHub CLIでプルリクエストを出す朝、CIを待つ昼、マージする夕方。ghだけで回す一日](/posts/gh-cli-pull-request-terminal-guide-2026/)(コンテナ内でもghで作業を完結させたいときに)
 - [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)(同じ環境を別の機械で動かす話)
+- [TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から](/posts/typescript-first-step-2026/)(開発環境ができたあと、最初に書く言語を決めるときに)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)

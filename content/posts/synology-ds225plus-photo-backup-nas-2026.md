@@ -118,6 +118,8 @@ QuickConnectは、Synologyのサーバーを中継役にして、外からNASへ
 ## 関連記事
 - [3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ](/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/)(バックアップを3つ・2種類の媒体・1つは家の外に置く考え方として)
 - [中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか](/posts/mesh-wifi-vs-extender-wifi7-guide-2026/)(家のネットワークを整えるという点でのつながりで)
+- [ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか、10Gbpsと40Gbpsで変わるもの](/posts/portable-ssd-usb4-sample-library-2026/)(NASとは別に、手元で速く読み書きできる外付けストレージを選ぶときに)
+- [IPv6(IPoE)にすると夜の回線は速くなるのか、PPPoEの混雑とv6プラスの仕組み](/posts/ipv6-ipoe-speed-2026/)(外出先からNASにつなぐとき、回線の速さが効いてくるので)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)

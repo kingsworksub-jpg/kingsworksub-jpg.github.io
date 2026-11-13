@@ -129,6 +129,7 @@ uv の紹介で必ず出てくるのが速さで、Astral は pip より10倍か
 ## 関連記事
 - [VS CodeのDev ContainersでPCを汚さない開発環境を作る、devcontainer.jsonは4行から](/posts/vscode-dev-containers-docker-guide-2026/)(仮想環境をさらにコンテナごと分けたいときに)
 - [画像の知覚ハッシュをPythonで比べた記録、縮小では動かず左右反転で30ビット変わる](/posts/python-perceptual-hash-image-compare/)(Python で小さな検証スクリプトを書いた例)
+- [TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から](/posts/typescript-first-step-2026/)(Python以外の言語でも、環境を分けて始める考え方は共通なので)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
