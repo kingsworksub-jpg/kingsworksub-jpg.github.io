@@ -5826,5 +5826,19 @@
     "next_kpis": [
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T10:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "img属性(loading/alt)・figureクラス・images frontmatter・ogImageWidthを点検: 違反は下書き5件のog寸法欠落のみ(公開対象外)。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
