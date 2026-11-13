@@ -5797,5 +5797,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T08:53:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のタイトル禁止型(隅から隅まで/味わい尽くす/全機能解剖/徹底比較/の現在地)、description欠落、禁止表現(あるレビューでは/実際に〜してみた等)を再点検: 違反0件(sampler-5choice-2026の『読み込んで』はサンプル操作の正当な用法で誤検知)。seo-audit.pyはPIL破損でこの環境では実行不可。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
