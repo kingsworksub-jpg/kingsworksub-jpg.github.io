@@ -5855,5 +5855,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "figure逸脱9件の手動確認"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T13:48:39Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "description長・禁止タイトル句・h1重複・内部リンク有無・alt空を公開243記事で点検: 違反0件(h1/imgnoaltはコードブロック内コメントと複数行属性の誤検知)。seo-audit.pyはPIL破損のためクラウド環境で実行不可。ウイスキー深掘り系の薄い記事(本文約1800〜2500字)10数本は、追加リサーチなしでの加筆は事実誤認リスクがあるため修正せず記録のみ"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(suntory-kakubin, ballantines-finest等)の加筆要否をローカルで判断",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
