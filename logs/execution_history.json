@@ -5722,5 +5722,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T01:53:43Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigure属性(width/height/alt/lazy/figcaption)を全件点検: 欠落0件。見出し直後以外の配置10件はアイキャッチ(冒頭)または節内の段落後配置で、本文が回り込むため修正不要と判断。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
