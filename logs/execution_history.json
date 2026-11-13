@@ -5782,5 +5782,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T07:54:37Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開238記事のfigure配置(見出し直後ルール・alt/loading属性)、内部リンク有無(/posts/へのリンク0本の記事=0件)、見出し階層(h1混入/段飛ばし/h2なし=0件)を点検。figure位置の指摘24件はいずれも冒頭figure(前文直前)またはh3直後・長文段落直前で本文が回り込む配置のため許容。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
