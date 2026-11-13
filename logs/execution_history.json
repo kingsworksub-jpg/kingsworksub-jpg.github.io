@@ -5945,5 +5945,26 @@
       "途中配置figure5件の見出し直後への移動要否判断",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T19:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "audio-interface-5choice-2026",
+      "scarlett-2i2-deep-dive-2026"
+    ],
+    "actions": [
+      "古い機材記事の関連記事ブロックに、後発のcondenser-mic-5choice-2026・dynamic-mic-5choice-2026への内部リンクを追加(宅録導線の回遊強化)",
+      "seo-audit.pyはPIL不具合、hugoも未導入のためローカル検証不可(リンク先スラグの実在は確認済み)"
+    ],
+    "files_changed": [
+      "content/posts/audio-interface-5choice-2026.md",
+      "content/posts/scarlett-2i2-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "他の古い記事(sampler/midi-keyboard等)にも後発記事への内部リンク追加要否",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
