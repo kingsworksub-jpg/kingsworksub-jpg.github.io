@@ -75,4 +75,4 @@ Amazonでの価格は9,900円。同じ万華鏡シリーズの中では、桜柄
 伝統的な螺鈿は表側から眺めて楽しむものだったが、この盃は酒を注ぐという行為そのものが装飾を完成させる仕掛けになっている。400年続く産地の技術を、記念品ではなく日常の一杯に落とし込んだ工夫として、じっくり眺めてみる価値のある一本だと思う。
 
 
-**関連記事**: [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/) · [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/)
+**関連記事**: [廣田硝子のちろりで燗をつける、大正の灯りを写した耐熱ガラス](/posts/hirota-glass-chirori-deep-dive-2026/) · [盃の底に紅と金の富士山、田島硝子 金箔富士 冷酒杯(桜)](/posts/tajima-glass-kinpaku-fuji-sakura-deep-dive-2026/) · [魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる](/posts/edo-kiriko-guinomi-cut-patterns-2026/) · [薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える](/posts/satsuma-kiriko-guinomi-bokashi-2026/)
