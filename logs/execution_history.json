@@ -5752,5 +5752,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "Hugoビルド未実施"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T03:53:21Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "Amazon /dp/ リンクのアフィリエイトタグ(nakimoto1-22)欠落を全記事で点検: /dp/リンクを含む211記事すべてタグ付き、欠落0件。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "Hugoビルド未実施"
+    ]
   }
 ]
