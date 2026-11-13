@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:00:02+09:00",
+ "updated": "2026-11-13T23:01:15+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-13T23:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-13T22:45:41+09:00",
+  "at": "2026-11-13T23:01:15+09:00",
   "engine": "opencode",
-  "detail": "今回の実行では返信しませんでした。`python scripts/post-to-x.py --check-replies` が空の配列 `[]` を返したためです（アカウント `@100labjtvn`）。指示に従ってここで終了しました。投稿・既読化（スキップ）・ファイルの変更はしていません。"
+  "detail": "`git pull --rebase` は、手元にコミットされていない変更があったため失敗しました。そのままにしてあります。どの回がなぜ失敗したかは確認できていません。原因に対処してから `python scripts/topic_plan.py health-reset --reason '...'` を実行すれば、自動投稿が再開します。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-13T23:01:15+09:00",
+   "engine": "opencode",
+   "detail": "`git pull --rebase` は、手元にコミットされていない変更があったため失敗しました。そのままにしてあります。どの回がなぜ失敗したかは確認できていません。原因に対処してから `python scripts/topic_plan.py health-reset --reason '...'` を実行すれば、自動投稿が再開します。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T20:51:41+09:00",
    "engine": "opencode",
    "detail": "I ran the two welcome commands at the same time, even though they share one browser login profile. Both worked, but future runs should do them one at a time. I deleted the temporary message files afterwards. Nothing was committed, since the task doesn't call for it."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-13T20:30:50+09:00",
-   "engine": "opencode",
-   "detail": "`x-reply.md` の対応とは別件ですが、claude.ai の Google Docs コネクタが認証されていないため、claude.ai のコネクタ設定で認可するまで使えません。今回の作業には影響ありません。"
   }
  ]
 }
