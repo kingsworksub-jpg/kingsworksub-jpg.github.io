@@ -171,6 +171,8 @@ RE20は、アメリカのElectro-Voiceが1968年から作り続けている放�
 - [コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本](/posts/condenser-mic-5choice-2026/)
 - [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](/posts/home-studio-100k-budget-2026/)
 - [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
+- [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台](/posts/audio-interface-5choice-2026/)
+- [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)

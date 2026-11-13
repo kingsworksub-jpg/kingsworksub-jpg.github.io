@@ -126,6 +126,7 @@ scheduled_time: "12:00"
 - [DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲](/posts/desk-chair-studio-ergonomics-2026/)
 - [映像編集とDTMを1つの机で兼ねるなら、画面は縦に積んでスピーカーを外へ逃がす](/posts/video-music-shared-desk-2026/)
 - [デスク裏の配線整理はケーブルトレーから。電源と信号の通り道を分けて、雑音と埃を減らす](/posts/desk-cable-tray-power-signal-2026/)
+- [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
