@@ -5930,5 +5930,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "長いタイトル1件の短縮要否判断"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T18:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事全件のfigure配置(見出し直後ルール)を点検: 見出し直後でないのは冒頭リード用4件(alan-boguslavsky-stage等、意図的)と本文中の途中配置5件(hammond-b3-jazz-organ-2026, jazz-festivals-2026, jazz-shoes-trend-2026, jazz-style-fashion-revival-2026, typescript-first-step-2026)。段落の周り込みは成立しているため修正せず。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "途中配置figure5件の見出し直後への移動要否判断",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
