@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T00:04:59+09:00",
+ "updated": "2026-11-14T00:06:31+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-14T00:04:59+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-13T23:52:06+09:00",
+  "at": "2026-11-14T00:06:31+09:00",
   "engine": "opencode",
-  "detail": "All the temporary DM text files are deleted. The task file says no commit or push is needed, so I didn't make one."
+  "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-14T00:06:31+09:00",
+   "engine": "opencode",
+   "detail": "{'slugs': 6, 'added': 0, 'removed': 0, 'errors': 6, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T22:00:47+09:00",
    "engine": "opencode",
    "detail": "`--check-replies` を実行しました（アカウント @100labjtvn）。未処理の返信は0件（`[]`）でした。指示文の手順どおり、返信もスキップもせずに終了しています。コミットや push もしていません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-13T21:37:01+09:00",
-   "engine": "opencode",
-   "detail": "Nothing is recorded for skipped accounts, so these 6 will show up again on the next run. That's how the instructions say it should work. The temporary message files are deleted, and nothing needed to be committed."
   }
  ]
 }
