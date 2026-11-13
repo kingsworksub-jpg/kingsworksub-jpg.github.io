@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:00:02+09:00",
+ "updated": "2026-11-13T22:00:47+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-13T22:00:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-13T21:37:01+09:00",
+  "at": "2026-11-13T22:00:47+09:00",
   "engine": "opencode",
-  "detail": "Nothing is recorded for skipped accounts, so these 6 will show up again on the next run. That's how the instructions say it should work. The temporary message files are deleted, and nothing needed to be committed."
+  "detail": "`--check-replies` を実行しました（アカウント @100labjtvn）。未処理の返信は0件（`[]`）でした。指示文の手順どおり、返信もスキップもせずに終了しています。コミットや push もしていません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-13T22:00:47+09:00",
+   "engine": "opencode",
+   "detail": "`--check-replies` を実行しました（アカウント @100labjtvn）。未処理の返信は0件（`[]`）でした。指示文の手順どおり、返信もスキップもせずに終了しています。コミットや push もしていません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-13T20:00:49+09:00",
    "engine": "opencode",
    "detail": "別件ですが、claude.ai の Google Docs 連携は認証されていないため使えません。使う場合は claude.ai のコネクタ設定で認証してください。"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-13T19:45:50+09:00",
-   "engine": "opencode",
-   "detail": "別件ですが、claude.ai の Google Docs 連携が未認証です。claude.ai のコネクタ設定から認証するまで使えません。今回の作業には影響ありません。"
   }
  ]
 }
