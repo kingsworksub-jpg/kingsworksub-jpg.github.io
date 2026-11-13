@@ -5915,5 +5915,20 @@
       "ローカルでseo-audit.py --check-links実行",
       "薄い深掘り記事の加筆要否判断"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T17:53:38Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事全件のfrontmatter(description長/images/OG画像実在/H2数/タイトル重複)とimgのwidth/height/alt属性を点検: 違反0件。タイトル62字のchrome-mv3-ublock-origin-lite-2026は公開済みでhatena同期が絡むため据え置き。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "長いタイトル1件の短縮要否判断"
+    ]
   }
 ]
