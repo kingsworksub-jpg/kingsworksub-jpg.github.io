@@ -5870,5 +5870,20 @@
       "薄い深掘り記事(suntory-kakubin, ballantines-finest等)の加筆要否をローカルで判断",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-13T15:45:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "frontmatter(description/images/OG画像実在)と公開記事の内部リンク・/images参照切れを全記事で点検: 公開記事の違反0件(指摘は2026-09-22の draft:true 5本のみで非公開のため対象外)。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り記事の加筆要否判断"
+    ]
   }
 ]
