@@ -6214,5 +6214,23 @@
     "next_kpis": [
       "薄い旧深掘り記事(kakubin/ballantines/black-nikka/cutty-sark/dewars)のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T12:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hot-pet-bottle-orange-cap-2026"
+    ],
+    "actions": [
+      "全公開記事を機械検査(description長110〜120字、figure左右交替、figure直後の見出し/区切り線)。description139字の1件を約120字に短縮"
+    ],
+    "files_changed": [
+      "content/posts/hot-pet-bottle-orange-cap-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "検査で指摘0件を維持",
+      "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
