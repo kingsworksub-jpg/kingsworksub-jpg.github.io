@@ -2871,5 +2871,16 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-14T17:50:06+09:00"
+ },
+ "hot-pet-bottle-orange-cap-2026": {
+  "title": "オレンジのキャップだけがホットケースに並ぶ。ホット用ペットボトルが温められる理由",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T21:00:09+09:00"
  }
 }
