@@ -3083,6 +3083,18 @@
    "status": "health-reset",
    "reason": "連続失敗3件(11-09〜11-11)を確認し再開。実行エンジンはopencode",
    "at": "2026-11-14T16:34:34+09:00"
+  },
+  {
+   "id": "2026w45-021",
+   "category": "drink-lab",
+   "theme": "日本酒のしぼりたてはなぜ冬に出るのか、寒造りと火入れをしない新酒",
+   "slug": "shiboritate-sake-winter-namazake-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/shiboritate-sake-winter-namazake-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "opencode",
+   "at": "2026-11-14T16:59:41+09:00"
   }
  ]
 }
