@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-14T20:00:59+09:00",
+ "updated": "2026-11-14T20:14:48+09:00",
  "queue": {
-  "published": 152,
+  "published": 153,
   "rejected": 7,
-  "approved": 58,
-  "in_progress": 1
+  "approved": 58
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published hot-buttered-rum-batter-guide-2026",
+ "last_result": "published hot-pet-bottle-orange-cap-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

@@ -3161,6 +3161,18 @@
    "status": "platform_removed",
    "reason": "note",
    "at": "2026-11-14T18:15:56+09:00"
+  },
+  {
+   "id": "2026w45-025",
+   "category": "drink",
+   "theme": "ホット専用ペットボトルはなぜ温められるのか、オレンジキャップの容器の工夫",
+   "slug": "hot-pet-bottle-orange-cap-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/hot-pet-bottle-orange-cap-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-14T20:14:48+09:00"
   }
  ]
 }
