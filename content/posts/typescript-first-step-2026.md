@@ -30,6 +30,11 @@ JavaScriptのファイルを開いて `user.` と打ったとき、エディタ�
 
 ## 型注釈は、書かなくても効くところから始まる
 
+<figure class="photo photo--right">
+<img src="/images/typescript-first-step/code-screen.jpg" alt="暗い画面に、色分けされたソースコードが斜めに映っている" width="220" height="147" loading="lazy">
+<figcaption>型の情報は、補完や警告の材料としてエディタの中に常駐する。ファイルを保存するたびにコンパイラが全体を見直す<span class="credit">Photo: Sai Kiran Anagani _imkiran / CC0</span></figcaption>
+</figure>
+
 TypeScriptの型は、すべてを自分で書くものではない。右辺の値から明らかなときは、コンパイラが型を推測してくれる。これを型推論と呼ぶ。
 
 ```ts
@@ -47,11 +52,6 @@ function withTax(price: number, rate = 0.1): number {
 ```
 
 引数に型を書いておくと、呼び出す側で文字列を渡したときにエラーになる。戻り値の型は書かなくても推論されるが、チームで読むコードでは書いておくほうが意図が伝わる。`strict` を有効にすると、型を書いていない引数は暗黙の `any` としてエラーになる。最初のうちはこのエラーがうるさく感じるかもしれないが、どの引数に型を付ければよいかを教えてくれていると思えばよい。
-
-<figure class="photo photo--right">
-<img src="/images/typescript-first-step/code-screen.jpg" alt="暗い画面に、色分けされたソースコードが斜めに映っている" width="220" height="147" loading="lazy">
-<figcaption>型の情報は、補完や警告の材料としてエディタの中に常駐する。ファイルを保存するたびにコンパイラが全体を見直す<span class="credit">Photo: Sai Kiran Anagani _imkiran / CC0</span></figcaption>
-</figure>
 
 TypeScriptのコードは、そのままではブラウザもNode.jsも読めない。`tsc` でJavaScriptに変換する必要がある。プロジェクトに導入するときは、開発用の依存として `typescript` を入れ、`npx tsc` を実行する。TypeScript 7では、この `tsc` がGoで書かれたネイティブの実行ファイルになっていて、大規模なプロジェクトでも待ち時間がかなり短くなった。エディタ側も、従来の独自プロトコルからLSPに移り、VS Codeとのやり取りが標準的な形になっている。
 
@@ -94,6 +94,11 @@ TypeScriptのコードは、そのままではブラウザもNode.jsも読めな
 
 ## 型の書き方は、まず4つ覚えれば足りる
 
+<figure class="photo photo--left">
+<img src="/images/typescript-first-step/ts-logo.png" alt="青い角丸の四角に、白い文字で TS と書かれた TypeScript のロゴ" width="220" height="220" loading="lazy">
+<figcaption>型はビルドのときに取り除かれ、残るのはJavaScriptになる。だから導入しても実行環境を選ばない<span class="credit">Image: ™/®Microsoft / Public domain</span></figcaption>
+</figure>
+
 型の表現は無数にあるように見えるが、日常的によく使うのは4つだ。オブジェクトの形を表す `interface` と `type`、複数の型のどれかを表すユニオン、省略できるプロパティ、そして型を後から受け取るジェネリクスである。
 
 ```ts
@@ -120,11 +125,6 @@ const num = first([1, 2, 3]);    // number | undefined
 ```
 
 `<T>` の部分が型の受け口で、呼び出すときに渡した配列から中身の型が決まる。ライブラリの型定義に出てくる `<T>` は、この仕組みだと思って読めばよい。
-
-<figure class="photo photo--left">
-<img src="/images/typescript-first-step/ts-logo.png" alt="青い角丸の四角に、白い文字で TS と書かれた TypeScript のロゴ" width="220" height="220" loading="lazy">
-<figcaption>型はビルドのときに取り除かれ、残るのはJavaScriptになる。だから導入しても実行環境を選ばない<span class="credit">Image: ™/®Microsoft / Public domain</span></figcaption>
-</figure>
 
 TypeScriptの型は「構造的部分型」と呼ばれる考え方で判定される。名前が違っても、持っているプロパティの形が合っていれば同じ型として扱われる。これは柔軟で便利だが、意図しないオブジェクトを受け入れてしまうこともある。とくにオブジェクトのリテラルを直接渡したときだけは、余計なプロパティを警戒してエラーにする「余剰プロパティチェック」が働く。変数に入れてから渡すとそのチェックは外れるので、挙動が違って見えることがある。この違いを知っておくと、なぜ片方だけ通るのかで悩まずに済む。
 
