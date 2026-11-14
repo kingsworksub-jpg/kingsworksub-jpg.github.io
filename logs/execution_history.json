@@ -6341,5 +6341,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "ローカルで seo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T19:52:58Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全246記事でfigure直後の見出し/区切り線(配置ルール違反)を検査し違反0件。修正対象なし。seo-audit.pyはPIL不具合で実行不可のまま"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
