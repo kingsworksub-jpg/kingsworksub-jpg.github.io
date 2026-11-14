@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T04:00:15+09:00",
+ "updated": "2026-11-15T04:01:16+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-11-15T04:00:15+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-15T04:00:11+09:00",
+  "at": "2026-11-15T04:01:16+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorised in your claude.ai connector settings before it can be used. This task didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-11-15T04:01:16+09:00",
+   "engine": "claude",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorised in your claude.ai connector settings before it can be used. This task didn't need it."
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-15T01:45:54+09:00",
    "engine": "claude",
    "detail": "Two connectors need authorizing before they'll work: claude.ai Google Docs (in your claude.ai connector settings) and unity-mcp, which was still connecting during this run. Neither is needed for the X reply task."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-15T01:21:50+09:00",
-   "engine": "claude",
-   "detail": "I ran the two follow-backs at the same time, which the instructions don't allow for: they share one browser login profile. Both finished cleanly, but future runs should do them one at a time."
   }
  ]
 }
