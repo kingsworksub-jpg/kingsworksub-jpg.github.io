@@ -6102,5 +6102,25 @@
       "ballantinesは同一画像を2つのfigureで使い回し(要検討)",
       "hugo/seo-audit未実行(ローカルで確認)"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T01:54:07Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "typescript-first-step-2026"
+    ],
+    "actions": [
+      "figureが段落途中に置かれていた2箇所を、CLAUDE.mdルール(見出し直後・本文段落の直前)に合わせて「型注釈は…」「型の書き方は…」のH2直後へ移動(左右交互は維持)",
+      "全243記事を機械点検: description/images欠落・禁止表現・H2不足は本文の薄い旧テスト記事3本のみ。他の図版位置のズレは導入部/H3配下で許容範囲"
+    ],
+    "files_changed": [
+      "content/posts/typescript-first-step-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはPIL不整合でこの環境では実行不可(ローカルで確認)",
+      "hugo未導入のためビルド未確認",
+      "薄い深掘り記事のリライト(要リサーチ)は未着手"
+    ]
   }
 ]
