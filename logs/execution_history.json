@@ -6289,5 +6289,27 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "chrome-mv3記事タイトルの短縮はPPP同期と合わせて検討"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T16:53:30Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canada-dry-ginger-ale-deep-dive-2026",
+      "crystal-spark-ramune-deep-dive-2026",
+      "kobe-kyoryuchi-sparkling-water-deep-dive-2026"
+    ],
+    "actions": [
+      "CLAUDE.md禁止の『実際に◯◯してみた』型の言い回し(実際に飲んでみると…)を3記事から削除。禁止表現・description/images欠落の全記事検査では他に違反なし"
+    ],
+    "files_changed": [
+      "content/posts/canada-dry-ginger-ale-deep-dive-2026.md",
+      "content/posts/crystal-spark-ramune-deep-dive-2026.md",
+      "content/posts/kobe-kyoryuchi-sparkling-water-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "はてな側の同3記事は update-hatena-post.sh で再同期が必要"
+    ]
   }
 ]
