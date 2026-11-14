@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:45:14+09:00",
+ "updated": "2026-11-15T01:45:54+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-15T01:45:14+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-15T01:21:50+09:00",
+  "at": "2026-11-15T01:45:54+09:00",
   "engine": "claude",
-  "detail": "I ran the two follow-backs at the same time, which the instructions don't allow for: they share one browser login profile. Both finished cleanly, but future runs should do them one at a time."
+  "detail": "Two connectors need authorizing before they'll work: claude.ai Google Docs (in your claude.ai connector settings) and unity-mcp, which was still connecting during this run. Neither is needed for the X reply task."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-15T01:45:54+09:00",
+   "engine": "claude",
+   "detail": "Two connectors need authorizing before they'll work: claude.ai Google Docs (in your claude.ai connector settings) and unity-mcp, which was still connecting during this run. Neither is needed for the X reply task."
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -95,14 +98,6 @@
    "label": "x-follow-dm",
    "state": "failed",
    "at": "2026-11-14T23:05:11+09:00",
-   "engine": "claude",
-   "detail": "You've hit your session limit · resets 11:50pm (Asia/Tokyo)"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "failed",
-   "at": "2026-11-14T23:00:28+09:00",
    "engine": "claude",
    "detail": "You've hit your session limit · resets 11:50pm (Asia/Tokyo)"
   }
