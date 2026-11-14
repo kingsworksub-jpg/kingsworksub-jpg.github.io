@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:00:02+09:00",
+ "updated": "2026-11-15T00:00:49+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-15T00:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-14T23:52:38+09:00",
+  "at": "2026-11-15T00:00:49+09:00",
   "engine": "claude",
-  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-15T00:00:49+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T22:00:14+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-14T21:53:38+09:00",
-   "engine": "claude",
-   "detail": "作業中に `blog-post.md` へ Amazon の商品リンク導線のルール(5c)が追加されました。今回は商品を扱わない記事なので当てはめていません。作業を始める前から変更されていた `scripts/post-to-x.py` には手を付けず、未コミットのまま残してあります。"
   }
  ]
 }
