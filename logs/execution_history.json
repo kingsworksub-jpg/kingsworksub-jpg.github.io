@@ -6064,5 +6064,43 @@
       "seo-audit.pyはこの環境でPIL不具合のため未実行(ローカルで実行)",
       "残る被リンク0はdraft:trueの2026-09-22-*(ジャズ楽器の重複下書き5本)のみ。公開/削除はユーザー判断"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T00:53:59Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ballantines-finest-deep-dive-2026",
+      "black-nikka-clear-deep-dive-2026",
+      "suntory-kakubin-deep-dive-2026",
+      "cutty-sark-deep-dive-2026",
+      "dewars-white-label-deep-dive-2026",
+      "four-roses-yellow-deep-dive-2026",
+      "jim-beam-white-deep-dive-2026",
+      "johnnie-walker-red-deep-dive-2026",
+      "suntory-trys-deep-dive-2026",
+      "white-horse-fineold-deep-dive-2026"
+    ],
+    "actions": [
+      "ウイスキー深掘り10本は結びの段落が見出しなしで本文末尾に浮いていたため『## まとめ』見出しを追加(H2構造の整理)。frontmatter/figure交互配置は全公開記事で問題なし",
+      "本文2,500字未満の薄い記事は上記10本+jazz新作記事(2026-jazz-new-albums-...)+crystal-spark/itoen等。事実裏付けのリサーチが必要なため今回は未着手(未完了)"
+    ],
+    "files_changed": [
+      "content/posts/ballantines-finest-deep-dive-2026.md",
+      "content/posts/black-nikka-clear-deep-dive-2026.md",
+      "content/posts/suntory-kakubin-deep-dive-2026.md",
+      "content/posts/cutty-sark-deep-dive-2026.md",
+      "content/posts/dewars-white-label-deep-dive-2026.md",
+      "content/posts/four-roses-yellow-deep-dive-2026.md",
+      "content/posts/jim-beam-white-deep-dive-2026.md",
+      "content/posts/johnnie-walker-red-deep-dive-2026.md",
+      "content/posts/suntory-trys-deep-dive-2026.md",
+      "content/posts/white-horse-fineold-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(約15本)のリライトは要リサーチ。次回以降の候補",
+      "ballantinesは同一画像を2つのfigureで使い回し(要検討)",
+      "hugo/seo-audit未実行(ローカルで確認)"
+    ]
   }
 ]
