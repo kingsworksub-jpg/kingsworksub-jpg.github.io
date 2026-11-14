@@ -6311,5 +6311,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "はてな側の同3記事は update-hatena-post.sh で再同期が必要"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T18:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全246記事の description/images 欠落・禁止表現(実際に/してみた/隅から隅まで等)を再検査し違反0件。未巡回だった当日公開2記事(shiboritate-sake-winter-namazake-2026, hot-buttered-rum-batter-guide-2026)はfigure配置・画像実在・見出し構造とも問題なしのため無修正。seo-audit.pyはこの環境のPIL不具合で実行不可"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
