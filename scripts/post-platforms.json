@@ -1787,14 +1787,13 @@
  },
  "waon-ear-copy-1month-2026": {
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12981568774,
-  "needs_manual_review": "reconcile error: ameba delete failed: 履歴', 'ブログカスタマイズ', 'オンラインレッスン', 'アメトピ掲載', 'デザインの設定', 'Amebaプレミアム', '設定・管理', '会員登録情報', '二段階認証', '1月', '2月', '3月', '4月', '6月', '7月', '8月', '9月', '10月', '11月', '12月', '古い順', '「頑張る」のは、",
-  "updated_at": "2026-11-14T17:55:40+09:00",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-14T17:57:25+09:00",
   "title": "WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月"
  },
  "google-flow-music-plugins-2026": {
