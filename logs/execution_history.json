@@ -6246,5 +6246,19 @@
     "next_kpis": [
       "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T13:53:20Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現(隅から隅まで/味わい尽くす/全機能解剖/実際に〜してみた/あるレビューでは/と評されている)を全記事で検査、該当0件"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
