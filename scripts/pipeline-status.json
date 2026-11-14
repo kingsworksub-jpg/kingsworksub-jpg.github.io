@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:20:12+09:00",
+ "updated": "2026-11-14T22:22:42+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-14T22:20:12+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-14T22:01:31+09:00",
+  "at": "2026-11-14T22:22:42+09:00",
   "engine": "claude",
-  "detail": "返信もスキップもしていません。手順書に従い、コミットや push もしていません。"
+  "detail": "このセッションでは claude.ai の Google Docs コネクタが未認証です。このタスクには関係ありませんが、使うには claude.ai のコネクタ設定で認証が必要です。"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-14T22:22:42+09:00",
+   "engine": "claude",
+   "detail": "このセッションでは claude.ai の Google Docs コネクタが未認証です。このタスクには関係ありませんが、使うには claude.ai のコネクタ設定で認証が必要です。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T20:15:06+09:00",
    "engine": "claude",
    "detail": "The Google Docs connector also needs authorizing in your claude.ai connector settings; it wasn't needed for this run."
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-14T20:00:11+09:00",
-   "engine": "claude",
-   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
   }
  ]
 }
