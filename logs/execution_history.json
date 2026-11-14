@@ -6274,5 +6274,20 @@
     "next_kpis": [
       "旧ウイスキー深掘り10本の加筆(要リサーチ)"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T15:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置(見出し直後/直後の短文)・description長(90-130字)・OG画像実在・H2数・タイトル長を全公開記事で機械検査。実害のある違反0件(先頭アイキャッチfigureと比較記事の『Amazon非取扱』注記は意図的配置、h1検出はコードブロック内コメントの誤検知)。chrome-mv3-ublock-origin-liteのタイトル62字のみ長めだがはてなと同期済みのため変更せず"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "chrome-mv3記事タイトルの短縮はPPP同期と合わせて検討"
+    ]
   }
 ]
