@@ -6232,5 +6232,19 @@
       "検査で指摘0件を維持",
       "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T12:53:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のdescription/images欠落と内部リンク無し記事を検査、指摘0件。seo-auditはPIL環境不備で実行不可のため手動検査"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
