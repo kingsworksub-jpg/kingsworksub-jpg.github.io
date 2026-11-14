@@ -6200,5 +6200,19 @@
     "next_kpis": [
       "薄い旧記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T10:53:08Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "下書き除外の公開記事を機械検査(description欠落・img alt欠落・figure直後の見出し/区切り線・極端に短い本文)。alt欠落2件は本文中のコード記述の誤検知で実害なし。薄い記事は旧深掘り数本のみでリサーチ要のため見送り"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い旧深掘り記事(kakubin/ballantines/black-nikka/cutty-sark/dewars)のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
