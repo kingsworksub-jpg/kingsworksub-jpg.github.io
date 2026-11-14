@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:52:39+09:00",
+ "updated": "2026-11-15T03:21:06+09:00",
  "items": [
   {
    "category": "gear",
@@ -13007,6 +13007,382 @@
    "id": "2026w45-040",
    "status": "approved",
    "created": "2026-11-08",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "YubiKeyなどの物理セキュリティキー、USBに挿して触れるだけの二段階認証と予備の1本",
+   "angle": "スマホの認証アプリやパスキーとは別に、鍵そのものを持ち歩くFIDO2セキュリティキーの仕組みを説明する。YubiKey 5シリーズの型の選び方、ファームウェア5.7で100件に増えたパスキー保存数、2本目を登録しておく理由まで。フィッシングに強い認証を自分で用意したい人向け。",
+   "article_type": "guide",
+   "keywords": [
+    "YubiKey 使い方",
+    "セキュリティキー 二段階認証",
+    "FIDO2 パスキー 物理キー"
+   ],
+   "subjects": [
+    {
+     "name": "YubiKey 5C NFC",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "YubiKey 5 NFC",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://docs.yubico.com/hardware/yubikey/yk-tech-manual/yk5-intro.html",
+    "https://docs.yubico.com/hardware/yubikey/yk-tech-manual/yk5-firmware-5.7.html",
+    "https://yubico.com/blog/backup-recovery-plan",
+    "https://www.yubico.com/blog/the-road-to-cyber-resilience-yubikey-partners-and-integrations-are-cornerstones-to-phishing-resistance-in-2026/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/YubiKey_5C_NFC.jpg/960px-YubiKey_5C_NFC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:YubiKey_5C_NFC.jpg",
+     "license": "CC BY 4.0",
+     "author": "Daniel Aleksandersen"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Black_YubiKey_08.jpg/960px-Black_YubiKey_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_YubiKey_08.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Jonathan Molina"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 18,
+    "images": 19,
+    "season": 4,
+    "demand": 7,
+    "amazon": 7,
+    "total": 74
+   },
+   "source_of_idea": "search",
+   "id": "2026w46-001",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "ウイスキーに水を数滴たらすと香りが開く理由、グアイアコールと45%の境目",
+   "angle": "2017年のScientific Reportsの分子シミュレーション研究を手がかりに、加水でスモーキーな香り成分グアイアコールが液面に集まる仕組みを説明する。カスクストレングスへの水の足し方(数滴ずつ、常温の軟水)まで、家で試せる形にまとめる。",
+   "article_type": "theme",
+   "keywords": [
+    "ウイスキー 加水 香り",
+    "ウイスキー 水 数滴 理由",
+    "カスクストレングス 飲み方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.nature.com/articles/s41598-017-06423-5",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5561096/",
+    "https://www.npr.org/sections/thetwo-way/2017/08/17/543902701/",
+    "https://edition.cnn.com/2017/08/17/health/whiskey-water-taste-study/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Glencairn_Glasses_and_Water_Jug.jpg/960px-Glencairn_Glasses_and_Water_Jug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Glencairn_Glasses_and_Water_Jug.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lord van Tasm"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Glencairn_whisky_glass_and_lights.jpg/960px-Glencairn_whisky_glass_and_lights.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Glencairn_whisky_glass_and_lights.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Trogain"
+    }
+   ],
+   "season": "通年(冬の家飲み)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 5,
+    "total": 82
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w46-002",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "唐津焼のぐい呑み、絵唐津・斑唐津・朝鮮唐津で変わる土と釉の表情",
+   "angle": "「備前の徳利、唐津のぐい呑み」と言われる唐津焼を、鉄絵の絵唐津、藁灰釉の斑唐津、黒白の釉を掛け分ける朝鮮唐津の3つで見分ける。朝鮮半島から来た陶工と登り窯、1988年の伝統的工芸品指定、近代に広まった「一楽二萩三唐津」の成り立ちにも触れる。",
+   "article_type": "theme",
+   "keywords": [
+    "唐津焼 ぐい呑み",
+    "絵唐津 斑唐津 違い",
+    "唐津焼 特徴"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Karatsu_ware",
+    "https://turuta.jp/blog/archives/552",
+    "https://tougeiky.org/chosen-karatsu/",
+    "https://www.kurodatoen.co.jp/exhibition/202309010905_add/",
+    "https://en.thebecos.com/blogs/column/karatsu-ware-guide-japanese-ceramics-pottery/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sake_bottle%2C_Karatsu_ware%2C_Chosen_karatsu_type%2C_Edo_period%2C_1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08897.jpg/960px-Sake_bottle%2C_Karatsu_ware%2C_Chosen_karatsu_type%2C_Edo_period%2C_1600s_AD%2C_ceramic_-_Tokyo_National_Museum_-_Ueno_Park%2C_Tokyo%2C_Japan_-_DSC08897.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sake_bottle,_Karatsu_ware,_Chosen_karatsu_type,_Edo_period,_1600s_AD,_ceramic_-_Tokyo_National_Museum_-_Ueno_Park,_Tokyo,_Japan_-_DSC08897.jpg",
+     "license": "CC0",
+     "author": "Daderot"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Iwao_Karatsu-ware_tea_bowl.jpg/960px-Iwao_Karatsu-ware_tea_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Iwao_Karatsu-ware_tea_bowl.jpg",
+     "license": "CC0",
+     "author": "Daderot"
+    }
+   ],
+   "season": "通年(冬の燗酒)",
+   "score": {
+    "novelty": 20,
+    "verifiable": 18,
+    "images": 19,
+    "season": 7,
+    "demand": 6,
+    "amazon": 5,
+    "total": 75
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w46-003",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "セロニアス・モンクの「間違って聞こえる音」、短2度のぶつかりと沈黙の置き方",
+   "angle": "ミスタッチのように聞こえるモンクの短2度・全音音階の駆け上がり・休符の長さを、『Genius of Modern Music』『Brilliant Corners』(1957年発売)『Monk's Dream』の具体的な曲で聴き分ける。ミントンズ・プレイハウスのハウスピアニスト時代と1964年のTIME誌の表紙まで。",
+   "article_type": "theme",
+   "keywords": [
+    "セロニアス・モンク 聴き方",
+    "モンク 不協和音",
+    "Brilliant Corners"
+   ],
+   "subjects": [
+    {
+     "name": "Thelonious Monk『Brilliant Corners』",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Thelonious Monk『Monk's Dream』",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.uvm.edu/~dfeurzei/music/RightMistakes.pdf",
+    "https://en.wikipedia.org/wiki/Brilliant_Corners",
+    "https://www.britannica.com/biography/Thelonious-Monk",
+    "https://content.time.com/time/magazine/article/0,9171,873808,00.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Nachtconcert_van_Thelonious_Monk_in_het_Concertgebouw%2C_Bestanddeelnr_912-3526.jpg/960px-Nachtconcert_van_Thelonious_Monk_in_het_Concertgebouw%2C_Bestanddeelnr_912-3526.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nachtconcert_van_Thelonious_Monk_in_het_Concertgebouw,_Bestanddeelnr_912-3526.jpg",
+     "license": "CC0",
+     "author": "Anefo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Thelonious_Monk,_Minton%27s_Playhouse,_New_York,_N.Y.,_ca._Sept._1947_(William_P._Gottlieb_06211).jpg",
+     "license": "Public domain",
+     "author": "William P. Gottlieb"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 23,
+    "verifiable": 18,
+    "images": 20,
+    "season": 4,
+    "demand": 7,
+    "amazon": 7,
+    "total": 79
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w46-004",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "ペットボトルの炭酸キープキャップは効くのか、空気で加圧しても炭酸が抜ける理由",
+   "angle": "ポンプで空気を押し込むキャップは、ボトルを硬くしても炭酸ガスの分圧はほとんど上げない。ヘンリーの法則から仕組みを説明し、実際に気が抜けにくくする方法(冷やす・空間を減らす・早めに飲み切る)と、キャップが役に立つ場面を分けて書く。",
+   "article_type": "guide",
+   "keywords": [
+    "炭酸キープキャップ 効果",
+    "炭酸 抜けない 方法 ペットボトル",
+    "炭酸キーパー"
+   ],
+   "subjects": [
+    {
+     "name": "ポンプ式炭酸キープキャップ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.mcgill.ca/oss/article/controversial-science-quirky-science/letting-fizz-out-fizz-keeper",
+    "https://en.wikipedia.org/wiki/Fizz-Keeper",
+    "https://www.gizmodo.jp/article/amazon-aozora-soda/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Carbonation_Caps_With_Fittings_%282011-10-08_by_Kevin_B_3%29.jpg/960px-Carbonation_Caps_With_Fittings_%282011-10-08_by_Kevin_B_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Carbonation_Caps_With_Fittings_(2011-10-08_by_Kevin_B_3).jpg",
+     "license": "CC BY 2.0",
+     "author": "Kevin B 3"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plastic_Bottle_Cap.JPG/960px-Plastic_Bottle_Cap.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Plastic_Bottle_Cap.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "J.smith"
+    }
+   ],
+   "season": "冬(忘年会・家飲みの炭酸割り)",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 15,
+    "season": 9,
+    "demand": 8,
+    "amazon": 7,
+    "total": 79
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w46-005",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "年末の第九はなぜ日本の12月に集まったのか、1918年の板東俘虜収容所から1万人の合唱まで",
+   "angle": "ベートーヴェンの交響曲第9番が日本で初めて全曲演奏された1918年の板東俘虜収容所(徳島県鳴門市)から、ローゼンストックによる1940年代の放送と戦後の12月公演、1983年に始まった大阪の「サントリー1万人の第九」までをたどる。12月に定着した理由は諸説あることも含めて整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "第九 年末 なぜ",
+    "第九 日本 初演 板東",
+    "1万人の第九"
+   ],
+   "subjects": [
+    {
+     "name": "ベートーヴェン 交響曲第9番",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.jacar.go.jp/english/newsletter/newsletter_026e/newsletter_026e.html",
+    "https://en.wikipedia.org/wiki/Joseph_Rosenstock",
+    "https://www.nippon.com/en/views/b02401/",
+    "https://www.nationalgeographic.com/travel/article/what-will-holiday-sing-alongs-look-like-in-2020-/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ninth_Symphony_original.png/960px-Ninth_Symphony_original.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ninth_Symphony_original.png",
+     "license": "Public domain",
+     "author": "Ludwig van Beethoven"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_NHK_All-Japan_School_Choir_Competition._%2830161282068%29.jpg/960px-The_NHK_All-Japan_School_Choir_Competition._%2830161282068%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:The_NHK_All-Japan_School_Choir_Competition._(30161282068).jpg",
+     "license": "CC BY 2.0",
+     "author": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN"
+    }
+   ],
+   "season": "12月(年末)",
+   "score": {
+    "novelty": 24,
+    "verifiable": 17,
+    "images": 17,
+    "season": 15,
+    "demand": 9,
+    "amazon": 5,
+    "total": 87
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w46-006",
+   "status": "approved",
+   "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "テクニカラーの3本のフィルム、『オズの魔法使』のカンザスが色づく扉の場面",
+   "angle": "プリズムで光を赤・緑・青に分けて3本の白黒ネガに記録した3ストリップ方式のテクニカラーと、染料転写のプリントを説明する。『オズの魔法使』(1939)の撮影現場が強い照明で38℃に達したこと、セピアからカラーへ切り替わる扉の場面、銀の靴がルビーの靴に変わった理由まで。",
+   "article_type": "theme",
+   "keywords": [
+    "テクニカラー 仕組み",
+    "オズの魔法使 カラー",
+    "3ストリップ テクニカラー"
+   ],
+   "subjects": [
+    {
+     "name": "『オズの魔法使』(1939)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Technicolor",
+    "https://faroutmagazine.co.uk/story-behind-the-wizard-of-oz-technicolor-dream/",
+    "https://en.wikipedia.org/wiki/Natalie_Kalmus",
+    "https://filmdaft.com/what-is-technicolor-definition-technology-and-film-examples/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/3-strip_Technicolor_camera.jpg/960px-3-strip_Technicolor_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:3-strip_Technicolor_camera.jpg",
+     "license": "CC BY 2.0",
+     "author": "Marcin Wichary from San Francisco, U.S.A."
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Filmmuseum_Berlin_-_Technicolor_Three-Color_Camera.jpg/960px-Filmmuseum_Berlin_-_Technicolor_Three-Color_Camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Filmmuseum_Berlin_-_Technicolor_Three-Color_Camera.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "SunOfErat"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 20,
+    "season": 4,
+    "demand": 7,
+    "amazon": 6,
+    "total": 80
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w46-007",
+   "status": "approved",
+   "created": "2026-11-15",
    "retry": 0
   }
  ]
