@@ -2882,5 +2882,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-14T21:00:09+09:00"
+ },
+ "free-jazz-harmony-meter-listening-2026": {
+  "title": "フリージャズ、和声と拍から降りた先に何が残るか",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "nb598edf8f0df",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-14T22:00:09+09:00"
  }
 }
