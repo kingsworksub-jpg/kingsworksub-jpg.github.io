@@ -1,0 +1,23 @@
+{
+ "/images/hugo-build/gopher-tools.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Go_gopher_pencil_wrench.jpg/1280px-Go_gopher_pencil_wrench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Go_gopher_pencil_wrench.jpg",
+  "license": "CC BY 3.0",
+  "author": "Renee French",
+  "title": "File:Go gopher pencil wrench.jpg"
+ },
+ "/images/hugo-build/stopwatch.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Analog_stopwatch.jpg/1280px-Analog_stopwatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Analog_stopwatch.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Al Riaz Uddin",
+  "title": "File:Analog stopwatch.jpg"
+ },
+ "/images/hugo-build/nvme-ssd.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Samsung_960_EVO_NVME_M.2_SSD_by_Daniel_Aleksandersen.jpg/1280px-Samsung_960_EVO_NVME_M.2_SSD_by_Daniel_Aleksandersen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Samsung_960_EVO_NVME_M.2_SSD_by_Daniel_Aleksandersen.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Daniel Aleksandersen",
+  "title": "File:Samsung 960 EVO NVME M.2 SSD by Daniel Aleksandersen.jpg"
+ }
+}
