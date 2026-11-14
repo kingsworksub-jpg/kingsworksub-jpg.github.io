@@ -6138,5 +6138,20 @@
       "薄い深掘り記事のリライト(要リサーチ)は未着手",
       "ローカルでseo-audit --check-links実行を推奨"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T03:53:39Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "直近の点検結果を再確認。本文が薄い記事は2026-09-22-*.md系の旧テスト記事5本とhello.mdのみで、リライトには新規リサーチが必要なため今回は未着手。他に修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い旧テスト記事のリライトまたは非公開化の判断(ユーザー確認推奨)",
+      "seo-audit.pyはPIL不整合で実行不可"
+    ]
   }
 ]
