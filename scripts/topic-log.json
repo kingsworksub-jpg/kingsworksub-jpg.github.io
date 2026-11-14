@@ -3134,6 +3134,15 @@
    "status": "platform_removed",
    "reason": "ameba",
    "at": "2026-11-14T17:57:19+09:00"
+  },
+  {
+   "id": "ppp-waon-ear-copy-1month-2026",
+   "category": "",
+   "theme": "WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月",
+   "slug": "waon-ear-copy-1month-2026",
+   "status": "platform_removed",
+   "reason": "ameba",
+   "at": "2026-11-14T17:57:25+09:00"
   }
  ]
 }
