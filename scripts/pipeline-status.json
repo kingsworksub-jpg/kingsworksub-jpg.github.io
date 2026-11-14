@@ -1,31 +1,34 @@
 {
- "updated": "2026-11-14T18:30:02+09:00",
+ "updated": "2026-11-14T18:31:08+09:00",
  "queue": {
   "published": 152,
   "rejected": 7,
   "approved": 59
  },
  "today_posts": 2,
- "daily_limit": 9,
- "engine_today": "opencode",
+ "daily_limit": 6,
+ "engine_today": "claude",
  "pending_requests": 0,
  "last_result": "published hot-buttered-rum-batter-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-14T18:30:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
-  "state": "finished",
-  "at": "2026-11-14T18:15:43+09:00",
-  "engine": "opencode",
-  "detail": "別件ですが、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。今回の作業では使っていません。"
+  "state": "failed",
+  "at": "2026-11-14T18:31:08+09:00",
+  "engine": "claude",
+  "detail": "opencode exit code 1"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "failed",
+   "at": "2026-11-14T18:31:08+09:00",
+   "engine": "claude",
+   "detail": "opencode exit code 1"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T16:45:43+09:00",
    "engine": "opencode",
    "detail": "今回の作業とは関係ありませんが、claude.ai の Google Docs コネクタは認証が必要です。claude.ai のコネクタ設定で認証するまで使えません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-14T16:21:40+09:00",
-   "engine": "opencode",
-   "detail": "The claude.ai Google Docs connector still needs authorization in your claude.ai connector settings. This task didn't need it."
   }
  ]
 }
