@@ -6356,5 +6356,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "ローカルで seo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T22:53:37Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全246記事でOG画像実在・本文内画像実在・CTAプレースホルダ残り・アソシエイトタグ欠落を検査。違反なし(OG寸法欠落5件は draft:true の下書きのみで公開影響なし)。修正対象なし。seo-audit.py/og_dimensions.pyはPIL不具合で実行不可のまま"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
