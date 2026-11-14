@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:45:02+09:00",
+ "updated": "2026-11-14T10:45:43+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published typescript-first-step-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-14T10:45:02+09:00",
-  "engine": "opencode"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-14T10:21:55+09:00",
+  "at": "2026-11-14T10:45:43+09:00",
   "engine": "opencode",
-  "detail": "Unrelated to this task: the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used."
+  "detail": "新しい返信は0件でした（`--check-replies` の結果が `[]`）。手順どおり、返信もスキップも行わずに終了しました。コミットやpushも必要ありません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-14T10:45:43+09:00",
+   "engine": "opencode",
+   "detail": "新しい返信は0件でした（`--check-replies` の結果が `[]`）。手順どおり、返信もスキップも行わずに終了しました。コミットやpushも必要ありません。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T08:30:30+09:00",
    "engine": "opencode",
    "detail": "未処理の返信はありませんでした。`post-to-x.py --check-replies` を実行したところ、`@100labjtvn` として正しく認識された上で空の配列 `[]` が返りました。手順書のとおり、返信もスキップもせずに終了しています。コミットも不要です。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-14T08:07:14+09:00",
-   "engine": "opencode",
-   "detail": "The temporary DM text files are deleted. Nothing was committed or pushed, since the prompt says that isn't needed."
   }
  ]
 }
