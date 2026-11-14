@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:14:48+09:00",
+ "updated": "2026-11-14T20:15:06+09:00",
  "queue": {
   "published": 153,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published hot-pet-bottle-orange-cap-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-14T20:00:15+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-14T20:00:11+09:00",
+  "at": "2026-11-14T20:15:06+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "The Google Docs connector also needs authorizing in your claude.ai connector settings; it wasn't needed for this run."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-14T20:15:06+09:00",
+   "engine": "claude",
+   "detail": "The Google Docs connector also needs authorizing in your claude.ai connector settings; it wasn't needed for this run."
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T18:00:48+09:00",
    "engine": "opencode",
    "detail": "{'slugs': 2, 'added': 0, 'removed': 0, 'errors': 2, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-14T17:53:25+09:00",
-   "engine": "opencode",
-   "detail": "ほかに、Google Docs の連携がまだ認証されていません。使うには claude.ai のコネクタ設定で許可が必要です。今回の作業には関係ありません。"
   }
  ]
 }
