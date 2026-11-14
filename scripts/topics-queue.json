@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:59:41+09:00",
+ "updated": "2026-11-14T17:02:13+09:00",
  "items": [
   {
    "category": "gear",
@@ -12120,9 +12120,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-022",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-14T17:02:13+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "17:00",
+   "slot_label": "夕: ドリンク/酒分析/カクテルレシピ/ツール"
   },
   {
    "category": "drink-recipe",
