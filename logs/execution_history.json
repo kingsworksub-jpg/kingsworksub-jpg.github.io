@@ -6153,5 +6153,23 @@
       "薄い旧テスト記事のリライトまたは非公開化の判断(ユーザー確認推奨)",
       "seo-audit.pyはPIL不整合で実行不可"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T04:53:33Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全243記事を機械点検(description長・禁止表現・figure配置)。禁止の導入句は無し、「実際に」は感覚描写で許容範囲",
+      "figure配置のズレ(hammond-b3/jazz-festivals/jazz-shoes-trend)は段落直前配置で本文が回り込むため修正見送り",
+      "slug 2026-09-22-* はdraft:trueの旧テスト記事で対象外",
+      "改善に値する差分が無く、無理な書き換えはしなかった(未完了ではなく見送り)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはPIL不整合でこの環境では実行不可(ローカルで確認)",
+      "薄い記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
