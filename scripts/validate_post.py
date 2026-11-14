@@ -91,6 +91,8 @@ def check(slug: str) -> list[str]:
     for b in BANNED_BODY:
         if re.search(b, body):
             errs.append(f"禁止表現: {b}")
+    if re.search(r"\[(?:CTA_BLOCK|TEXT_LINK|SUB_LINK):", body):
+        errs.append("CVRプレースホルダーが未解決（[CTA_BLOCK: ...] / [TEXT_LINK: ...] / [SUB_LINK: ...] を実リンクに置き換えること）")
     if len(re.findall(r"(?m)^## ", body)) < 3:
         errs.append("見出し（##）が3つ未満")
 

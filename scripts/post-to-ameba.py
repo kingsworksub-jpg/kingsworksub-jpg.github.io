@@ -20,8 +20,10 @@ Ameba には投稿用の公開 API が無いため、Chromium/Edge の永続プ�
     属性)に作り替える — Ameba側のJSがページ表示時にこれを実際の追跡リンクに解決する(2026-10-11実機確認: クリックで
     `amazon.co.jp/dp/{ASIN}?...&tag=amebablog_st1-22` に遷移。Amebaの共有Associatesタグによる按分)。
     画像の直後に「（※画像からAmazonの詳細・購入ページへ移動します）」という小さな注記も挿入する。
-    ASINが無い/画像を包んでいないAmazonリンク(検索リンクのフォールバック、キャプション内の文字リンク、
-    まとめ表など)はリンクだけ外す(今まで通り)。
+    ASINが無いAmazonリンク(検索リンクのフォールバック、キャプション内の文字リンク、
+    まとめ表など)はリンクだけ外す(今まで通り)。ASINがあるテキストリンクは、
+    Ameba Pickのテキストリンク形式(`class="pickCreative"` + `href=""` + data属性)に
+    変換する(2026-11-14、コンバージョン率改善プランA)。
   - 公開URL: https://ameblo.jp/sfd0501/entry-{entry_id}.html (ブログID "sfd0501")
 
 使い方:
@@ -33,6 +35,9 @@ Ameba には投稿用の公開 API が無いため、Chromium/Edge の永続プ�
 
   # 記事を公開
   python scripts/post-to-ameba.py --slug <slug> --publish
+
+  # CVR最適化(CTA/テキストリンクの自動挿入)を無効にして公開
+  python scripts/post-to-ameba.py --slug <slug> --publish --no-cvr
 """
 import argparse
 import os
@@ -49,6 +54,7 @@ from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from affiliate_tag import rewrite_for  # noqa: E402
+from cvr_optimize import optimize as cvr_optimize  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -165,8 +171,13 @@ def shrink_figure_img_attrs(html, target_width=AMEBA_FIGURE_IMG_WIDTH):
     return FIGURE_RE.sub(fix_figure, html)
 
 
-def render_body_html(slug):
-    """Hugo で記事をレンダリングし、本文の HTML を返す(はてな用変換も適用)。"""
+def render_body_html(slug, cvr=True):
+    """Hugo で記事をレンダリングし、本文の HTML を返す(はてな用変換も適用)。
+
+    cvr=True(既定) のとき、Ameba 向けにコンバージョン率改善プランA
+    (scripts/cvr_optimize.py)を適用する。既存の figure・画像 URL・リンクは
+    変更せず、CTA ブロックとテキストリンクだけを挿入する。
+    """
     build = tempfile.mkdtemp(prefix="ameba-build-")
     try:
         subprocess.run(
@@ -177,6 +188,13 @@ def render_body_html(slug):
         if not os.path.exists(post):
             raise RuntimeError(f"rendered post not found: {post} (slug={slug})")
         body = extract_post_content(post)
+
+        if cvr:
+            body, changes = cvr_optimize(body, platform="ameba")
+            for c in changes:
+                print(f"CVR: {c}")
+            if not changes:
+                print("CVR: 追加の導線最適化はありません")
 
         py = None
         for cand in (
@@ -295,12 +313,18 @@ def convert_amazon_links_to_pick(page):
     Any other amazon.co.jp link (search-fallback `/s?k=`, or a plain text link with no ASIN,
     e.g. the "Amazonで見る →" caption credit or the summary table) can't be turned into a
     pickCreative card, so it's just unwrapped (kept as plain text) like before.
+
+    Text-only links that DO carry an ASIN (the CTA block / text links that
+    scripts/cvr_optimize.py adds after each product image) are rebuilt as Ameba Pick
+    *text* links (`pickCreative` + `href=""` + data attributes) instead of being stripped.
+    That is the same hydration mechanism as the image cards; verify one click on a live
+    page after changing this.
     """
     counts = page.evaluate(
         """(disclaimer) => {
             const ed = window.CKEDITOR.instances['amebloeditor'];
             const doc = ed.document.$;
-            let picked = 0, stripped = 0;
+            let picked = 0, textPicked = 0, stripped = 0;
             doc.querySelectorAll('a[href*="amazon.co.jp"]').forEach(a => {
                 const m = a.href.match(/amazon\\.co\\.jp\\/dp\\/([A-Z0-9]{10})/);
                 const img = a.querySelector('img');
@@ -322,6 +346,18 @@ def convert_amazon_links_to_pick(page):
                         a.parentNode.insertBefore(p, a.nextSibling);
                     }
                     picked++;
+                } else if (m) {
+                    // ASIN付きのテキストリンク → Ameba Pickのテキストリンク形式
+                    const cls = a.getAttribute('class') || '';
+                    a.setAttribute('class', (cls ? cls + ' ' : '') + 'pickCreative');
+                    a.setAttribute('data-df-item-id', m[1]);
+                    a.setAttribute('data-item-id', 'AZ000001');
+                    a.setAttribute('href', '');
+                    a.removeAttribute('data-cke-saved-href');
+                    a.setAttribute('target', '_blank');
+                    a.setAttribute('rel', 'noopener');
+                    a.removeAttribute('sponsored');
+                    textPicked++;
                 } else {
                     const parent = a.parentNode;
                     if (parent && parent.nodeName !== 'FIGURE') {
@@ -368,12 +404,14 @@ def convert_amazon_links_to_pick(page):
             }
 
             ed.updateElement();
-            return {picked, stripped};
+            return {picked, textPicked, stripped};
         }""",
         AMEBA_PICK_DISCLAIMER,
     )
     if counts["picked"]:
         print(f"Amazon画像リンクを{counts['picked']}件 Ameba Pick形式に変換しました。")
+    if counts["textPicked"]:
+        print(f"Amazonテキストリンクを{counts['textPicked']}件 Ameba Pick形式(テキスト)に変換しました。")
     if counts["stripped"]:
         print(f"ASIN無しのAmazonリンクを{counts['stripped']}件除去しました(Ameba Pick未対応)。")
 
@@ -577,7 +615,7 @@ def delete_entry(entry_id, expected_title):
     # 404 confirmed — deletion verified.
 
 
-def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_id=None):
+def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_id=None, cvr=True):
     """共通処理: タイトル入力 → 本文setData → Amazonリンクのpick変換 → 投稿。
     新規投稿(srventryinsertinput.do)と既存記事の更新(srventryupdateinput.do)の
     どちらでも、ページ遷移後にCKEditorインスタンスが準備できていれば同じ流れで使える。
@@ -613,7 +651,7 @@ def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_i
     page.fill('input[name="entry_title"]', title)
     print(f"タイトル入力: {title}")
 
-    body = render_body_html(slug)
+    body = render_body_html(slug, cvr=cvr)
     print(f"本文HTML: {len(body)} chars")
     page.wait_for_function(
         "window.CKEDITOR && window.CKEDITOR.instances && window.CKEDITOR.instances['amebloeditor']",
@@ -684,7 +722,7 @@ def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_i
             print(f"公開URL: https://ameblo.jp/sfd0501/entry-{eid}.html")
 
 
-def fill_editor_and_submit(slug, publish):
+def fill_editor_and_submit(slug, publish, cvr=True):
     with sync_playwright() as p:
         ctx = open_browser(p)
         page = ctx.new_page()
@@ -698,11 +736,11 @@ def fill_editor_and_submit(slug, publish):
             ctx.close()
             sys.exit(1)
 
-        _fill_and_submit(page, ctx, slug, publish)
+        _fill_and_submit(page, ctx, slug, publish, cvr=cvr)
         ctx.close()
 
 
-def update_existing_entry(entry_id, slug, expect_title):
+def update_existing_entry(entry_id, slug, expect_title, cvr=True):
     """既存の公開済みAmeba記事(entry_id)を、記事のレンダリング結果で上書きして再公開する。
 
     2026-10-23: Amazonアフィリエイトリンクのタグをameba-img-sub-22に書き換えるため追加。
@@ -724,7 +762,7 @@ def update_existing_entry(entry_id, slug, expect_title):
             ctx.close()
             sys.exit(1)
 
-        _fill_and_submit(page, ctx, slug, True, expect_title=expect_title, expect_entry_id=entry_id)
+        _fill_and_submit(page, ctx, slug, True, expect_title=expect_title, expect_entry_id=entry_id, cvr=cvr)
         ctx.close()
 
 
@@ -737,7 +775,11 @@ def main():
     parser.add_argument("--delete-entry", help="削除する公開済み記事の entry_id")
     parser.add_argument("--expect-title", help="--delete-entry/--update-entry 使用時、操作前に照合するタイトル(必須・誤操作防止)")
     parser.add_argument("--update-entry", help="既存記事(entry_id)を本文で上書きして再公開する")
+    parser.add_argument("--no-cvr", action="store_true",
+                        help="コンバージョン率改善プランA (CTA/テキストリンクの自動挿入) を適用しない")
     args = parser.parse_args()
+
+    cvr = not args.no_cvr
 
     os.makedirs(PROFILE, exist_ok=True)
 
@@ -756,7 +798,7 @@ def main():
         if not args.slug:
             print("Error: --slug <slug> is required.")
             sys.exit(1)
-        update_existing_entry(args.update_entry, args.slug, args.expect_title)
+        update_existing_entry(args.update_entry, args.slug, args.expect_title, cvr=cvr)
         return
 
     with sync_playwright() as p:
@@ -769,7 +811,7 @@ def main():
         if not os.path.exists(os.path.join(POSTS, f"{args.slug}.md")):
             print(f"Error: Post file not found: {os.path.join(POSTS, args.slug + '.md')}")
             sys.exit(1)
-    fill_editor_and_submit(args.slug, args.publish)
+    fill_editor_and_submit(args.slug, args.publish, cvr=cvr)
 
 
 if __name__ == "__main__":

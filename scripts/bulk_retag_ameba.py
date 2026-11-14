@@ -81,7 +81,7 @@ def main():
 
         proc = subprocess.run(
             [sys.executable, "scripts/post-to-ameba.py", "--update-entry", entry_id,
-             "--slug", slug, "--expect-title", title],
+             "--slug", slug, "--expect-title", title, "--no-cvr"],
             cwd=BASE, capture_output=True, text=True, encoding="utf-8", errors="replace",
             timeout=400,
         )

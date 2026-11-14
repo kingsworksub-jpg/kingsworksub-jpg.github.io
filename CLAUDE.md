@@ -532,6 +532,20 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
     (`img[src*="stat.amebame.com"][src*="amazon"]` で特定すること。単に `img[src*="amazon"]` だと「お気に入り」欄の
     商品サムネイルに誤爆する)→「アイテムを探す」で検索UIは開くが、アカウントの状態(お気に入り件数など)によって
     タイルの位置や挙動が変わりクリックが不安定。**上記のAPI直叩きのほうが確実**。
+  - **CVR最適化（コンバージョン率改善プランA、2026-11-14）**: `scripts/post-to-ameba.py` は投稿本文を組み立てる際に
+    `scripts/cvr_optimize.py` の `optimize()` を通す（`--no-cvr` で無効化）。記事の figure・画像URL・既存リンク・
+    文体には触れず、次の要素だけをHTMLに挿入する（冪等・`data-cvr` 属性で重複挿入を防ぐ）。
+    1. 導入文の直後と `## まとめ` の末尾に、記事内の商品画像＋ASINを使った CTA ブロック（`.cvr-cta-block`）
+    2. Amazon商品画像リンクの直後にテキストリンク（`.cvr-text-link`、最大6本）
+    3. 価格（`◯円`＋「価格/定価/実売」等）に触れた段落の直後に実売価格の確認を促す注記（1回だけ）
+    4. まとめCTAの直前に、サイズ・設置・保証・ランニングコスト等の不安を先回りする短い段落
+    - 書き手（`scripts/scheduled/prompts/blog-post.md` の 5c）は実リンクを書くのが原則。`[CTA_BLOCK: 商品名]` /
+      `[TEXT_LINK: 表示文 | キーワード]` / `[SUB_LINK: 関連商品名]` を残した場合は `cvr_optimize.py` が解決するが、
+      公開Markdownに残すと GitHub Pages にそのまま出るため `validate_post.py` が NG にする。
+    - **Ameba では ASIN付きのテキストリンクも Ameba Pick のテキストリンク形式に変換する**（`convert_amazon_links_to_pick()`）。
+      検索リンク（`/s?k=`）は ASIN が取れないため従来どおりリンクだけ外れるので、CTA・消耗品リンクにも実在ASINを使う。
+      Pick テキストリンクのクリック解決は、次回投稿時に実機で1件確認すること（画像カードと同じ `pickCreative` 機構）。
+    - 単体で試す: `python scripts/cvr_optimize.py --platform ameba --json < in.html`（プランAのJSON形式で出力）。
 - **モーダルに注意**: ログイン直後やPick登録直後は、エディタを開くたびに「編集途中の記事があります」「AmebaPickからのお知らせ」
   等の `<dialog open>` 要素が毎回出てクリックを妨げる。`dismiss_dialogs()` が開いているダイアログのボタンを順番に押し、
   無ければ Escape で閉じる。
