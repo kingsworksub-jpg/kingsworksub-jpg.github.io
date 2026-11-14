@@ -6186,5 +6186,19 @@
       "seo-audit.pyはPIL不整合で実行不可(ローカルで確認)",
       "薄い旧記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T08:53:12Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止タイトル句(隅から隅まで/全機能解剖等)・禁止導入句・description欠落を全記事grep。該当は文脈上問題ない1件のみ。改修対象なしで見送り"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い旧記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
