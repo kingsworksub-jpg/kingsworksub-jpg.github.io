@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T17:12:33+09:00",
+ "updated": "2026-11-14T20:00:59+09:00",
  "items": [
   {
    "category": "gear",
@@ -12271,9 +12271,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-025",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-14T20:00:59+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "20:00",
+   "slot_label": "夜: ファッション/飲料"
   },
   {
    "category": "sakeware",
