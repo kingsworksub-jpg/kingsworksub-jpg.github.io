@@ -1792,8 +1792,8 @@
   "hatena_entry": null,
   "note_key": null,
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-11-14T17:57:25+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T18:00:09+09:00",
   "title": "WaoNの自動耳コピは答え合わせに使う、ベースからメロディまで耳で取る1か月"
  },
  "google-flow-music-plugins-2026": {
@@ -1863,8 +1863,8 @@
   "hatena_entry": null,
   "note_key": "ne7bd0b627324",
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-11-14T17:57:13+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T18:00:09+09:00",
   "title": "ローファーかダービーか。紐一本で変わる秋の装いの幅と、靴下の合わせ方"
  },
  "teenage-engineering-op1-synth-essay-2026": {
@@ -1910,8 +1910,8 @@
   "hatena_entry": null,
   "note_key": "nbc6ce891adf1",
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-11-14T17:57:19+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T18:00:09+09:00",
   "title": "タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる"
  },
  "monitor-placement-room-tuning-6jo-2026": {
@@ -1969,8 +1969,8 @@
   "hatena_entry": null,
   "note_key": "ncd5dbee6c5be",
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-11-14T17:57:07+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T18:00:09+09:00",
   "title": "グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける"
  },
  "can-chill-salt-ice-water-2026": {
