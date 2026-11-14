@@ -3152,6 +3152,15 @@
    "status": "platform_removed",
    "reason": "ameba",
    "at": "2026-11-14T18:02:11+09:00"
+  },
+  {
+   "id": "ppp-condenser-mic-5choice-2026",
+   "category": "",
+   "theme": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本",
+   "slug": "condenser-mic-5choice-2026",
+   "status": "platform_removed",
+   "reason": "note",
+   "at": "2026-11-14T18:15:56+09:00"
   }
  ]
 }
