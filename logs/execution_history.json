@@ -6171,5 +6171,20 @@
       "seo-audit.pyはPIL不整合でこの環境では実行不可(ローカルで確認)",
       "薄い記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T05:53:04Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のdescription長(80-140字)・og画像の存在・本文内画像パスの実在を全件機械検査。問題0件。改修対象なしのため見送り"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはPIL不整合で実行不可(ローカルで確認)",
+      "薄い旧記事のリライトはリサーチ要のため未着手"
+    ]
   }
 ]
