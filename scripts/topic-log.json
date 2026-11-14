@@ -3173,6 +3173,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-14T20:14:48+09:00"
+  },
+  {
+   "id": "2026w40-062",
+   "category": "music",
+   "theme": "フリージャズ、和声と拍から降りた先に何が残るか",
+   "slug": "free-jazz-harmony-meter-listening-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/free-jazz-harmony-meter-listening-2026/",
+   "hatena_entry": null,
+   "note_key": "nb598edf8f0df",
+   "engine": "claude",
+   "at": "2026-11-14T21:52:39+09:00"
   }
  ]
 }

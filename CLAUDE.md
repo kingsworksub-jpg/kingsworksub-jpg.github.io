@@ -754,6 +754,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | 作業中のBGMで、耳は何を聞き流しているのか。歌詞が邪魔をする理由とサティの家具の音楽 | https://note.com/shining_finger01/n/n2d03c336a9af | `n2d03c336a9af` | **公開済(2026-11-06・note専用)** |
 | ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学 | https://note.com/shining_finger01/n/nf03086ef5afb | `nf03086ef5afb` | **公開済(2026-11-07・note専用)** |
 | 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏子・渡辺貞夫から上原ひろみまで | https://note.com/shining_finger01/n/n5cd1fd7d0bce | `n5cd1fd7d0bce` | **公開済(2026-11-07・note専用)** |
+| フリージャズの聴き方、オーネット・コールマンが手放した和音と拍のあとに残るもの | https://note.com/shining_finger01/n/nb598edf8f0df | `nb598edf8f0df` | **公開済(2026-11-14・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
