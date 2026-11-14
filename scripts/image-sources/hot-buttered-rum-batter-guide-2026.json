@@ -1,0 +1,30 @@
+{
+ "/images/hot-buttered-rum/hbr-mug.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hot_buttered_rum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Hot_buttered_rum.jpg",
+  "license": "CC BY 2.0",
+  "author": "urban.houstonian",
+  "title": "File:Hot buttered rum.jpg"
+ },
+ "/images/hot-buttered-rum/brown-sugar.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Brown_sugar_examples.JPG/1280px-Brown_sugar_examples.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Brown_sugar_examples.JPG",
+  "license": "CC BY-SA 4.0",
+  "author": "Moe Rubenzahl",
+  "title": "File:Brown sugar examples.JPG"
+ },
+ "/images/hot-buttered-rum/appleton-rum.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Appleton_Estate_V-X_Jamaica_Rum-with_glass.jpg/1280px-Appleton_Estate_V-X_Jamaica_Rum-with_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Appleton_Estate_V-X_Jamaica_Rum-with_glass.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Nebrot",
+  "title": "File:Appleton Estate V-X Jamaica Rum-with glass.jpg"
+ },
+ "/images/hot-buttered-rum/mount-gay-pot-still.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/PotStill-MountGayRumDistillery-March12-09.jpg/1280px-PotStill-MountGayRumDistillery-March12-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:PotStill-MountGayRumDistillery-March12-09.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Captmondo",
+  "title": "File:PotStill-MountGayRumDistillery-March12-09.jpg"
+ }
+}
