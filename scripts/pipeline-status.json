@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:52:39+09:00",
+ "updated": "2026-11-14T21:53:38+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-14T21:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-14T21:15:44+09:00",
+  "at": "2026-11-14T21:53:38+09:00",
   "engine": "claude",
-  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task didn't need it."
+  "detail": "作業中に `blog-post.md` へ Amazon の商品リンク導線のルール(5c)が追加されました。今回は商品を扱わない記事なので当てはめていません。作業を始める前から変更されていた `scripts/post-to-x.py` には手を付けず、未コミットのまま残してあります。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-14T21:53:38+09:00",
+   "engine": "claude",
+   "detail": "作業中に `blog-post.md` へ Amazon の商品リンク導線のルール(5c)が追加されました。今回は商品を扱わない記事なので当てはめていません。作業を始める前から変更されていた `scripts/post-to-x.py` には手を付けず、未コミットのまま残してあります。"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-14T19:20:54+09:00",
    "engine": "claude",
    "detail": "- If you have the 2026-11-05 version of `post-to-x.py` somewhere else (another machine, a backup, or an earlier session's working copy), restoring it would fix both tasks. Otherwise I can re-implement the features in an interactive session where you can watch the first dry runs."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-14T19:02:04+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used."
   }
  ]
 }
