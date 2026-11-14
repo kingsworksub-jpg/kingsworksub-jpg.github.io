@@ -21,7 +21,9 @@ Ameba には投稿用の公開 API が無いため、Chromium/Edge の永続プ�
     `amazon.co.jp/dp/{ASIN}?...&tag=amebablog_st1-22` に遷移。Amebaの共有Associatesタグによる按分)。
     画像の直後に「（※画像からAmazonの詳細・購入ページへ移動します）」という小さな注記も挿入する。
     ASINが無いAmazonリンク(検索リンクのフォールバック、キャプション内の文字リンク、
-    まとめ表など)はリンクだけ外す(今まで通り)。ASINがあるテキストリンクは、
+    まとめ表など)はリンクだけ外す(今まで通り)。figure の中の検索リンクも外すが、
+    その figure には `data-pick-skip` を付けて、ASINの自動割当(下記)が別商品の
+    ASINを誤って貼らないようにする(2026-11-14)。ASINがあるテキストリンクは、
     Ameba Pickのテキストリンク形式(`class="pickCreative"` + `href=""` + data属性)に
     変換する(2026-11-14、コンバージョン率改善プランA)。
   - 公開URL: https://ameblo.jp/sfd0501/entry-{entry_id}.html (ブログID "sfd0501")
@@ -359,8 +361,14 @@ def convert_amazon_links_to_pick(page):
                     a.removeAttribute('sponsored');
                     textPicked++;
                 } else {
+                    // ASINの無いAmazonリンク(検索フォールバックの /s?k= など)は
+                    // Amebaが生リンクを拒否するため必ず外す。figure の中だった場合は
+                    // 「リンク無しfigure」として印を付け、下のASIN自動割当が
+                    // 別商品のASINを誤って貼らないようにする(2026-11-14)。
                     const parent = a.parentNode;
-                    if (parent && parent.nodeName !== 'FIGURE') {
+                    if (parent) {
+                        const fig = a.closest ? a.closest('figure') : null;
+                        if (fig) fig.setAttribute('data-pick-skip', '1');
                         while (a.firstChild) parent.insertBefore(a.firstChild, a);
                         parent.removeChild(a);
                         stripped++;
@@ -379,6 +387,7 @@ def convert_amazon_links_to_pick(page):
             if (allAsins.length > 0) {
                 let asinIdx = 0;
                 doc.querySelectorAll('figure.photo').forEach(fig => {
+                    if (fig.getAttribute('data-pick-skip') === '1') return;
                     const img = fig.querySelector('img');
                     const existingA = fig.querySelector('a');
                     if (img && !existingA && asinIdx < allAsins.length) {

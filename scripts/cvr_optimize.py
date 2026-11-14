@@ -59,6 +59,7 @@ ALT_RE = re.compile(r'\balt="([^"]*)"')
 CAPTION_RE = re.compile(r"<figcaption\b[^>]*>(.*?)</figcaption>", re.S)
 CREDIT_RE = re.compile(r'<span class="credit".*?</span>', re.S)
 TAG_RE = re.compile(r"<[^>]+>")
+HEADING_RE = re.compile(r"<h([23])\b[^>]*>(.*?)</h\1>", re.S)
 
 PLACEHOLDER_RE = re.compile(
     r"\[(CTA_BLOCK|TEXT_LINK|SUB_LINK):\s*([^\]\n]+?)\s*\]"
@@ -135,13 +136,82 @@ def _first_img(fragment: str):
     return m.group(1), (alt.group(1) if alt else "")
 
 
+def _clean_heading(fragment: str) -> str:
+    """見出しの文字列から Hugo のアンカー記号(#)などを落とす。"""
+    text = _strip_tags(fragment)
+    return re.sub(r"[\s#]+$", "", text).strip()
+
+
+PARTICLE_END = re.compile(r"(は|が|を|に|へ|と|で|も|の|や|から|まで)$")
+VERB_END = re.compile(
+    r"(する|した|して|している|なる|なった|変わる|変わった|変えた|使う|使える|選ぶ|選んだ|"
+    r"見る|見た|できる|できない|いう|言える|思う|感じる|感じた|しまう|くれる|あげる|"
+    r"もらう|おく|いる|ある|ない|たい|やすい|にくい)$"
+)
+# ひらがなで終わる「る/う」は動詞とみなす(「使い分ける」「変わる」など)
+VOWEL_VERB_END = re.compile(r"[ぁ-ん](る|う)$")
+
+
+def _name_like(segment: str) -> bool:
+    """見出しの一部が「商品名」として使えそうか(文の断片や動詞句を弾く)。"""
+    if not segment or len(segment) > 30:
+        return False
+    return not (
+        PARTICLE_END.search(segment)
+        or VERB_END.search(segment)
+        or VOWEL_VERB_END.search(segment)
+    )
+
+
+def _product_name(caption: str, heading: str, alt: str, asin: str) -> str:
+    """CTAカードの見出しに使う商品名を決める。
+
+    既存記事の figcaption は「写真の説明文」であることが多く(例:「冷蔵ケースに
+    並ぶ三ツ矢サイダーのびん。三本の矢羽根の…」)、そのまま商品名にすると
+    カードが不自然になる。そこで
+      1. 短い figcaption(句点なし) → そのまま商品名
+      2. 直前の見出しの「商品名らしい部分」(読点・ダッシュで区切った前半。
+         「押す回数で強さが変わる、手動のTERRA」のように前半が説明句なら
+         英字を含む後半を使う)
+      3. figcaption の第一文
+    の順に使う。
+    """
+    cap = (caption or "").strip()
+    if cap and "。" not in cap and len(cap) <= 30:
+        return cap
+
+    if heading:
+        segs = [s.strip() for s in re.split(r"[、,]\s*|\s+[—–]\s+|\s+-\s+", heading) if s.strip()]
+        usable = [s for s in segs if _name_like(s)]
+        if usable:
+            if segs and _name_like(segs[0]):
+                # 「ボタンひとつで3段階、電動のE-TERRA」のような見出しでは、
+                # 英字の型番を含む後半のほうが商品名として確からしい。
+                upper = [s for s in usable if re.search(r"[A-Z]{3,}", s)]
+                if upper and not re.search(r"[A-Za-z]", segs[0]):
+                    return upper[0]
+                return segs[0]
+            latin = [s for s in usable if re.search(r"[A-Za-z]{2,}", s)]
+            return latin[0] if latin else usable[0]
+
+    first = cap.split("。")[0].strip()
+    if first and len(first) <= 24:
+        return first
+    if heading and len(heading) <= 30:
+        return heading
+    return (alt or "").strip()[:24] or asin
+
+
 def collect_products(body: str):
     """図版の Amazon リンクから (ASIN, 画像URL, 商品名, キャプション) を集める。
 
     既存の <figure> の中身(画像URL・alt・キャプション)は変更せず、参照するだけ。
+    商品名は直前の見出しも手がかりにする(CTAカードの見出し用)。
     """
+    heads = [(m.start(), _clean_heading(m.group(2))) for m in HEADING_RE.finditer(body)]
     products = []
-    for fig in FIGURE_RE.findall(body):
+    for fm in FIGURE_RE.finditer(body):
+        fig = fm.group(0)
         a = ANCHOR_RE.search(fig)
         if not a:
             continue
@@ -150,13 +220,19 @@ def collect_products(body: str):
             continue
         img = _first_img(a.group(2)) or _first_img(fig)
         caption = _caption_of(fig)
-        name = caption or (img[1] if img else "") or asin_m.group(1)
+        heading = ""
+        for pos, text in heads:
+            if pos >= fm.start():
+                break
+            heading = text
+        asin = asin_m.group(1)
         products.append({
-            "asin": asin_m.group(1),
+            "asin": asin,
             "img": img[0] if img else "",
             "alt": img[1] if img else "",
             "caption": caption,
-            "name": name,
+            "heading": heading,
+            "name": _product_name(caption, heading, img[1] if img else "", asin),
         })
     return products
 
@@ -170,10 +246,10 @@ def _find_product(products, hint: str):
         for p in products:
             if p["asin"] == hint_m.group(1):
                 return p
-        return {"asin": hint_m.group(1), "img": "", "alt": "", "caption": "", "name": hint}
+        return {"asin": hint_m.group(1), "img": "", "alt": "", "caption": "", "heading": "", "name": hint}
     key = re.sub(r"\s+", "", hint)
     for p in products:
-        hay = re.sub(r"\s+", "", f"{p['name']} {p['caption']} {p['alt']}")
+        hay = re.sub(r"\s+", "", f"{p['name']} {p.get('heading', '')} {p['caption']} {p['alt']}")
         if key and (key in hay or hay in key):
             return p
     return None
@@ -369,7 +445,7 @@ def _insert_summary_cta(body: str, products, tag: str) -> tuple[str, str | None]
     if not products or ASSURANCE_MARK in body:
         return body, None
     pos = _summary_point(body)
-    block = "\n" + _assurance() + "\n" + _cta_block(products[-1], tag, lead="購入前の最終チェック") + "\n"
+    block = "\n" + _assurance() + "\n" + _cta_block(products[0], tag, lead="購入前の最終チェック") + "\n"
     return body[:pos] + block + body[pos:], \
         "まとめに購入前の不安を解消する補足とCTAブロックを追加"
 
