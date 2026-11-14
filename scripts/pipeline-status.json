@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T04:45:02+09:00",
+ "updated": "2026-11-15T04:45:12+09:00",
  "queue": {
   "published": 154,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published free-jazz-harmony-meter-listening-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-15T04:45:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "failed",
-  "at": "2026-11-15T04:20:16+09:00",
+  "at": "2026-11-15T04:45:12+09:00",
   "engine": "claude",
   "detail": "You've hit your session limit · resets 4:50am (Asia/Tokyo)"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "failed",
+   "at": "2026-11-15T04:45:12+09:00",
+   "engine": "claude",
+   "detail": "You've hit your session limit · resets 4:50am (Asia/Tokyo)"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-15T02:30:53+09:00",
    "engine": "claude",
    "detail": "`scripts/post-to-x.py --check-replies` を実行したところ、アカウント `@100labjtvn` を正しく認識し、未処理の返信は0件（空配列）でした。返信もスキップもしていないので、`data/x-replies-state.json` も変わっていません。手順書どおり、コミットや push もしていません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-15T02:07:33+09:00",
-   "engine": "claude",
-   "detail": "The temporary DM files are deleted. As the instructions say, nothing was committed or pushed."
   }
  ]
 }
