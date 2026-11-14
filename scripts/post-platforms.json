@@ -2895,5 +2895,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-14T22:00:09+09:00"
+ },
+ "hugo-build-time-measure-2026": {
+  "title": "Hugoのビルド時間を測ったら、95秒のうちページの描画は1.3秒だった",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-15T08:04:30+09:00"
  }
 }
