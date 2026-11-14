@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T18:01:51+09:00",
+ "updated": "2026-11-14T16:51:06+09:00",
  "items": [
   {
    "category": "gear",
@@ -12066,10 +12066,10 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-021",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
    "retry": 1,
-   "claimed_at": "2026-11-11T17:07:21+09:00",
+   "claimed_at": "2026-11-14T16:51:06+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "17:00",

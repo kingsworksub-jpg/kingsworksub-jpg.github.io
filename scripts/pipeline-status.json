@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-14T16:50:27+09:00",
+ "updated": "2026-11-14T16:51:06+09:00",
  "queue": {
   "published": 150,
   "rejected": 7,
-  "approved": 61
+  "approved": 60,
+  "in_progress": 1
  },
  "today_posts": 0,
  "daily_limit": 9,
