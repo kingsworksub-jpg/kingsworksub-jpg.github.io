@@ -1117,14 +1117,13 @@
  "condenser-mic-5choice-2026": {
   "platforms": [
    "github",
-   "hatena",
-   "note"
+   "hatena"
   ],
   "hatena_entry": "14945776032085534809",
-  "note_key": "nc6d45a823803",
+  "note_key": null,
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-11-14T18:15:37+09:00",
+  "needs_manual_review": null,
+  "updated_at": "2026-11-14T18:15:56+09:00",
   "title": "コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本"
  },
  "audacity-4-guide-2026": {
