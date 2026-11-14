@@ -1629,8 +1629,8 @@
   "hatena_entry": null,
   "note_key": "n587c48215338",
   "ameba_entry": null,
-  "needs_manual_review": null,
-  "updated_at": "2026-11-14T18:02:11+09:00",
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-14T18:14:51+09:00",
   "title": "トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ"
  },
  "piano-practice-apps-3choice-2026": {
