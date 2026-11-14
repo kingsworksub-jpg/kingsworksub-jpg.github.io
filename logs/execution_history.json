@@ -6371,5 +6371,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "ローカルで seo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T23:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事で禁止タイトル表現(隅から隅まで/味わい尽くす/全機能解剖)・禁止文体(実際に〜してみた/あるレビューでは)・description長(90〜140字外)を検査し違反0件。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
