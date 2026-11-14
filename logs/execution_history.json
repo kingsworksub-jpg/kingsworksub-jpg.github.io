@@ -6260,5 +6260,19 @@
     "next_kpis": [
       "薄い旧深掘り記事のリライトはリサーチ要のため未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-14T14:53:22Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事の本文量と内部リンク有無を検査。内部リンク無し記事0件。最短はsuntory-kakubin等の旧ウイスキー深掘り(約1.8〜2.1千字)でリサーチ要のため未着手"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)"
+    ]
   }
 ]
