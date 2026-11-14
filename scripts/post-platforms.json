@@ -1624,14 +1624,13 @@
  "winter-coat-5types-2026": {
   "platforms": [
    "github",
-   "note",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
   "note_key": "n587c48215338",
-  "ameba_entry": 12981373364,
-  "needs_manual_review": "reconcile error: ameba delete failed: -debugging-pipe about:blank - <launched> pid=22456 - [pid=22456][out] �����̃u���E�U�[ �Z�b�V�����ŊJ���Ă��܂��B - [pid=22456] <gracefully close start> - [pid=22456] <kill> - [pid=22",
-  "updated_at": "2026-11-14T18:00:44+09:00",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-14T18:02:11+09:00",
   "title": "トレンチからピーコートまで、秋冬のコート5型を肩のラインで選ぶ"
  },
  "piano-practice-apps-3choice-2026": {
