@@ -2906,5 +2906,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-15T08:04:30+09:00"
+ },
+ "powershell-import-csv-aggregate-notes": {
+  "title": "PowerShellのImport-Csvで集計すると、なぜ「12」が「7」より下に並ぶのか",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-15T10:00:06+09:00"
  }
 }
