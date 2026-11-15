@@ -6624,5 +6624,20 @@
       "ローカルでseo-audit.py --check-links を実行",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T19:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "本文内の内部リンク(/posts/...)を全記事で検査、リンク切れ0件。hello.mdの紹介文は現行方針(ジャンル不問)に更新済みで修正不要。最短の公開記事はballantines-finest-deep-dive-2026(約4400字)で加筆にはリサーチが必要なため未着手。記事の変更なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links を実行",
+      "薄い深掘り記事の加筆(要リサーチ・未完了)"
+    ]
   }
 ]
