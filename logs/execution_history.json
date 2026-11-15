@@ -6594,5 +6594,20 @@
       "ローカルでseo-audit.py --check-links を実行",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T17:53:34Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigureルールを全件スクリプト検査(左右交替・figcaption・lazy・figure直後の見出し/---)。逸脱は商品バナーimgのみで仕様どおり、修正不要。記事の変更なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links を実行",
+      "薄い深掘り記事の加筆(要リサーチ・未完了)"
+    ]
   }
 ]
