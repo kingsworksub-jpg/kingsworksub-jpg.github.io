@@ -6386,5 +6386,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "ローカルで seo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T00:53:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開済み全記事のfigure属性(alt/width/height/lazy/figcaption/credit)・description・images欠落を検査し欠落0件。figure位置が見出し直後でない記事8件を確認したが、うち4件はfrontmatter直後のアイキャッチ、4件(hammond-b3/jazz-festivals/jazz-shoes/jazz-style-fashion-revival)は導入部の段落直前で本文が回り込むため実害なしと判断。修正対象なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー深掘り10本の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
