@@ -6401,5 +6401,20 @@
       "旧ウイスキー深掘り10本の加筆(要リサーチ)",
       "ローカルで seo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T01:53:08Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "seo-audit.pyはPIL不具合でクラウド環境では実行不可。代替で全243記事の内部リンク有無・本文量を検査:内部リンク0件の記事なし。本文が薄い記事はballantines-finest/black-nikka-clear/itoen-mineral-strong/cutty-sark/suntory-kakubin等(約1,100〜1,400字)。事実確認が要る加筆のためこの回は未着手(未完了)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(ballantines-finest等)の加筆(要リサーチ)",
+      "ローカルで seo-audit.py --check-links を実行"
+    ]
   }
 ]
