@@ -1,0 +1,30 @@
+{
+ "/images/cubase-16/cubase-screen-render.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rendering_audio_on_Cubase%2C_%40Tom_America.jpg/1280px-Rendering_audio_on_Cubase%2C_%40Tom_America.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Rendering_audio_on_Cubase,_@Tom_America.jpg",
+  "license": "CC BY 2.0",
+  "author": "Marco Raaphorst from The Hague, The Netherlands",
+  "title": "File:Rendering audio on Cubase, @Tom America.jpg"
+ },
+ "/images/cubase-16/cc121-control-surface.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Steinberg_CC121_Cubase_control_surface_and_M-Audio_Oxygen_MIDI_keyboard_controller_%282013-03-02_by_martinezdj%29.jpg/1280px-Steinberg_CC121_Cubase_control_surface_and_M-Audio_Oxygen_MIDI_keyboard_controller_%282013-03-02_by_martinezdj%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Steinberg_CC121_Cubase_control_surface_and_M-Audio_Oxygen_MIDI_keyboard_controller_(2013-03-02_by_martinezdj).jpg",
+  "license": "CC0",
+  "author": "martinezdj",
+  "title": "File:Steinberg CC121 Cubase control surface and M-Audio Oxygen MIDI keyboard controller (2013-03-02 by martinezdj).jpg"
+ },
+ "/images/cubase-16/spectrogram.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/9/94/Audio_spectrogram_sonic_visualiser.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Audio_spectrogram_sonic_visualiser.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Sagenat2",
+  "title": "File:Audio spectrogram sonic visualiser.png"
+ },
+ "/images/cubase-16/minilab3-keys.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Arturia_Minilab3.jpg/1280px-Arturia_Minilab3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Arturia_Minilab3.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Leo Ronert",
+  "title": "File:Arturia Minilab3.jpg"
+ }
+}
