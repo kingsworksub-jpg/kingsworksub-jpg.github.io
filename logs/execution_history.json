@@ -6431,5 +6431,20 @@
       "薄い深掘り記事の加筆(要リサーチ)",
       "ローカルでseo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T04:53:12Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のfigure属性(width/height/alt/loading/figcaption)を検査し欠落0件。セクション途中の2枚目以降のfigureはテキストが回り込むため問題なしと判断。修正対象なし。薄い深掘り記事の加筆は要リサーチのため未着手(未完了)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事の加筆(要リサーチ)",
+      "ローカルでseo-audit.py --check-links を実行"
+    ]
   }
 ]
