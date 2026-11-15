@@ -18,7 +18,7 @@ scheduled_time: "17:30"
 この記事では、テンポを上げる前に何をしておくと「自分の中に拍がある」状態に近づけるのかを、4週間の練習手順としてまとめる。細かく割る、クリックを裏へ移す、クリックを間引く、録音で確かめる。この順番で進めると、メトロノームを止めたあとも体が拍を刻み続けるようになっていく。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07J6H3BTP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/metronome/korg-ma2.jpg" alt="KORG MA-2 メトロノーム">
+<img src="/images/metronome/korg-ma2.jpg" alt="KORG MA-2 メトロノーム" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">KORG MA-2 メトロノーム（ブラック・レッド）</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -162,7 +162,7 @@ DB-90には内蔵マイクで自分の演奏のタイミングを判定する「
 1日15分ほどの練習なので、いつもの曲の練習の前に足すだけで始められる。小さな専用機なら譜面台の端に置けるし、MA-2なら単4電池2本で動き、重さも70g足らずなので、置き場所や手間を心配する必要もあまりない。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07J6H3BTP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/metronome/korg-ma2.jpg" alt="KORG MA-2 メトロノーム">
+<img src="/images/metronome/korg-ma2.jpg" alt="KORG MA-2 メトロノーム" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">KORG MA-2（4週間の練習を1台でこなせる小型メトロノーム）</span>
 <span class="product-banner-cta">Amazonで見る →</span>

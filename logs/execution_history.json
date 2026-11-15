@@ -6521,5 +6521,33 @@
       "薄い深掘り記事(角瓶等、本文2000字前後)の加筆(要リサーチ)",
       "ローカルでseo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T13:54:25Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "wilkinson-ginger-ale-dry-deep-dive-2026",
+      "cubase-16-new-features-2026",
+      "dr-pepper-23-flavors-deep-dive-2026",
+      "yamaha-ag03mk2-deep-dive-2026",
+      "record-stylus-lifespan-guide-2026",
+      "max-for-live-device-guide-2026",
+      "akai-mpk-mini-mk4-deep-dive-2026",
+      "universal-audio-volt-276-deep-dive-2026",
+      "rme-babyface-pro-fs-deep-dive-2026",
+      "ableton-live-12-session-view-2026",
+      "metronome-rhythm-practice-2026"
+    ],
+    "actions": [
+      "frontmatter/タイトル/禁止表現/画像存在を再検査し逸脱0件。商品バナー(.product-banner)内のimgにwidth/height属性が無かった16箇所へ、CSS固定サイズ(120x120)に合わせた属性を追加しレイアウトシフトを防止"
+    ],
+    "files_changed": [
+      "content/posts/ (上記11記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事の加筆(要リサーチ・未完了)",
+      "ローカルでseo-audit.py --check-links を実行(この環境ではPIL不具合で不可)"
+    ]
   }
 ]
