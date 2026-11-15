@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:00:52+09:00",
+ "updated": "2026-11-15T12:14:05+09:00",
  "items": [
   {
    "category": "gear",
@@ -11707,14 +11707,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w45-013",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-15T12:00:52+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "cubase-16-new-features-2026",
+   "published_at": "2026-11-15T12:14:05+09:00"
   },
   {
    "category": "software",

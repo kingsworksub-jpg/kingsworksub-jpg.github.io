@@ -498,6 +498,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | LM StudioとOllamaは何が違うのか、モデルを画面で選ぶ手軽さと1234番ポートのAPI | https://kinbro.hatenablog.com/entry/2026/11/07/201403 | 14729835035335212934 |
 | ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか、10Gbpsと40Gbpsで変わるもの | https://kinbro.hatenablog.com/entry/2026/11/08/074245 | 14729835035335377633 |
 | TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から | https://kinbro.hatenablog.com/entry/2026/11/09/202911 | 14729835035336090943 |
+| Cubase 16の新機能は「重ねる」と「分ける」。8層のインストゥルメントスタックと6分割のステム分離 | https://kinbro.hatenablog.com/entry/2026/11/15/121329 | 14729835035338648309 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 

@@ -3209,6 +3209,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-15T09:40:13+09:00"
+  },
+  {
+   "id": "2026w45-013",
+   "category": "software",
+   "theme": "Cubase 16の新機能、楽器のレイヤーとスペクトラルAudioWarpで変わる編集",
+   "slug": "cubase-16-new-features-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/cubase-16-new-features-2026/",
+   "hatena_entry": "14729835035338648309",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-15T12:14:05+09:00"
   }
  ]
 }

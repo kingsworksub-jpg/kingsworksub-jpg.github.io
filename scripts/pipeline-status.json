@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-15T12:00:53+09:00",
+ "updated": "2026-11-15T12:14:05+09:00",
  "queue": {
-  "published": 156,
+  "published": 157,
   "rejected": 7,
-  "approved": 61,
-  "in_progress": 1
+  "approved": 61
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published powershell-import-csv-aggregate-notes",
+ "last_result": "published cubase-16-new-features-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
