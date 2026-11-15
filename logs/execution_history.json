@@ -6506,5 +6506,20 @@
       "薄い深掘り記事の加筆(要リサーチ)",
       "ローカルでseo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T11:53:34Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事の内部リンク(/posts/<slug>/)の実在を検査し破損0件。description長・H2数・本文長を検査し、薄い記事は09-22の draft:true 5本(非公開)と深掘り系のみで公開記事の修正対象なし。seo-audit.pyはこの環境のPIL不具合で実行不可。薄い深掘り記事の加筆は要リサーチのため未着手(未完了)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(角瓶等、本文2000字前後)の加筆(要リサーチ)",
+      "ローカルでseo-audit.py --check-links を実行"
+    ]
   }
 ]
