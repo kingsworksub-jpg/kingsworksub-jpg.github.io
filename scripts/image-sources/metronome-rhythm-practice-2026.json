@@ -1,0 +1,23 @@
+{
+ "/images/metronome/maelzel.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Metronome_MET_215848.jpg/1280px-Metronome_MET_215848.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Metronome_MET_215848.jpg",
+  "license": "CC0",
+  "author": "Johann Nepomuk Maelzel",
+  "title": "File:Metronome MET 215848.jpg"
+ },
+ "/images/metronome/korg-ma2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Korg_MA-2_Digital_Metronome_%28Front_and_Side%29.jpg/1280px-Korg_MA-2_Digital_Metronome_%28Front_and_Side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Korg_MA-2_Digital_Metronome_(Front_and_Side).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Multicherry",
+  "title": "File:Korg MA-2 Digital Metronome (Front and Side).jpg"
+ },
+ "/images/metronome/wittner-taktell.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Metronome_Wittner_Taktell.jpg/1280px-Metronome_Wittner_Taktell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Metronome_Wittner_Taktell.jpg",
+  "license": "CC0",
+  "author": "Benoît Prieur",
+  "title": "File:Metronome Wittner Taktell.jpg"
+ }
+}
