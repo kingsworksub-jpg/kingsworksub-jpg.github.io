@@ -1,0 +1,30 @@
+{
+ "/images/ps-csv/example-csv.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Example_CSV_file.png/1280px-Example_CSV_file.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Example_CSV_file.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Belbury",
+  "title": "File:Example CSV file.png"
+ },
+ "/images/ps-csv/ps-window.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/20231209_12_55_13-Neofetch_PowerShell_crop.png/1280px-20231209_12_55_13-Neofetch_PowerShell_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:20231209_12_55_13-Neofetch_PowerShell_crop.png",
+  "license": "MIT",
+  "author": "Neofetch: Dylan Araps * Windows Terminal/Windows PowerShell: Microsoft Corporati",
+  "title": "File:20231209 12 55 13-Neofetch PowerShell crop.png"
+ },
+ "/images/ps-csv/csv-import-wizard.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/7/7d/LibreOffice_6.4_import_CSV_file_wizard.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:LibreOffice_6.4_import_CSV_file_wizard.png",
+  "license": "CC0",
+  "author": "Valerio Bozzolan",
+  "title": "File:LibreOffice 6.4 import CSV file wizard.png"
+ },
+ "/images/ps-csv/sum-formula.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/SUM_formula_in_LibreOffice_Calc.png/1280px-SUM_formula_in_LibreOffice_Calc.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SUM_formula_in_LibreOffice_Calc.png",
+  "license": "CC0",
+  "author": "Arlo Barnes",
+  "title": "File:SUM formula in LibreOffice Calc.png"
+ }
+}
