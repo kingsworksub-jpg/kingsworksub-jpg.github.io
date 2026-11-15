@@ -2917,5 +2917,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-15T10:00:06+09:00"
+ },
+ "cubase-16-new-features-2026": {
+  "title": "Cubase 16の新機能は「重ねる」と「分ける」。8層のインストゥルメントスタックと6分割のステム分離",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14729835035338648309",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-15T13:00:09+09:00"
  }
 }
