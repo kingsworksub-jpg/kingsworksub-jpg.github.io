@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:00:12+09:00",
+ "updated": "2026-11-16T02:00:21+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published metronome-rhythm-practice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-16T02:00:12+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-16T01:45:30+09:00",
+  "at": "2026-11-16T02:00:21+09:00",
   "engine": "claude",
-  "detail": "X の新しい返信はありませんでした。`--check-replies` は空の配列 `[]` を返しています（アカウント `@100labjtvn`）。手順書どおり、返信もスキップもせずに終了しました。コミットや push はしていません。"
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-16T02:00:21+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-15T23:30:29+09:00",
    "engine": "claude",
    "detail": "`python scripts/post-to-x.py --check-replies` は自分のアカウント（`@100labjtvn`）を認識し、結果は空配列 `[]` でした。未処理の返信がないため、返信も `--skip` もしていません。手順書のとおり、コミットや push も不要です。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-15T23:06:59+09:00",
-   "engine": "claude",
-   "detail": "なお、claude.ai の Google Docs コネクタは認証されていないので、claude.ai のコネクタ設定で許可するまで使えません。今回の作業には関係ありません。"
   }
  ],
  "engine_post": "claude",
