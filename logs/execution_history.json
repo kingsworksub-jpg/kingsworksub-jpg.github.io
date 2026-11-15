@@ -6654,5 +6654,20 @@
       "ローカルでseo-audit.py --check-links を実行",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T21:53:35Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全250記事のfigure(alt/credit/lazy/figcaption)とH2数を検査。逸脱は下書き(draft:true)の2026-09-22-154310/164455(H2が2つ)とhello.mdのみで公開記事は問題なし。記事の変更なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links を実行",
+      "薄い深掘り記事の加筆(要リサーチ・未完了)"
+    ]
   }
 ]
