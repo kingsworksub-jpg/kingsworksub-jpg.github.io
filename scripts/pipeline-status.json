@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:15:01+09:00",
+ "updated": "2026-11-16T06:15:45+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published metronome-rhythm-practice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-16T06:15:01+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-16T06:00:17+09:00",
+  "at": "2026-11-16T06:15:45+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't use it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-16T06:15:45+09:00",
+   "engine": "claude",
+   "detail": "Separately, the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This task doesn't use it."
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T04:00:54+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-16T04:00:40+09:00",
-   "engine": "claude",
-   "detail": "X の未処理の返信は0件でした（`--check-replies` の結果が `[]`、アカウントは @100labjtvn）。返信・既読化はどちらも行わず、手順どおりここで終了しています。この作業ではコミットも push もしていません。"
   }
  ],
  "engine_post": "claude",
