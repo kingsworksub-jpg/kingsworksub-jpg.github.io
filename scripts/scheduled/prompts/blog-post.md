@@ -1,9 +1,10 @@
 # ブログ記事の投稿（キューから1件・無人実行）
 
-Windows タスクスケジューラから1日9回（07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00、
-`scripts/topic_plan.py` の `slots_for_date` で定義。2026-10-22、1日9投稿・時間帯別タイムテーブルに改修）無人で起動されている。
-9枠は **hatena・ameba・note にそれぞれ3枠ずつ**で、毎日同じ配分（隔日の入れ替えはない）。**GitHub Pages はスロットを持たず、
-どのチャンネルの記事も公開と同時に必ずデプロイされる（別枠・全記事）**。各回はアクセスピークの30〜60分前に当たり、
+Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、
+`scripts/topic_plan.py` の `slots_for_date` で定義。固定4枠＋20:00/23:00 の隔日入替）無人で起動されている。
+各回のチャンネルは決まっており、20:00 と 23:00 は偶数日・奇数日で入れ替わる（表は `CLAUDE.md` のタイムテーブル）。
+`channel: note` の記事は `content/note-only/` に置くため GitHub Pages には載らない。それ以外のチャンネルは
+公開と同時に GitHub Pages へデプロイされる。各回はアクセスピークの30〜60分前に当たり、
 時間帯ごとに記事の性格（実用寄り/理論・エッセイ寄り）が決まっている。
 どのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（時刻から手計算しない）。
 人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
@@ -15,7 +16,7 @@ Windows タスクスケジューラから1日9回（07:30 / 09:30 / 12:00 / 14:3
 
 1. `git pull --rebase origin main`
 2. `python scripts/topic_plan.py health` が **3以上**なら、連続失敗のため何もせず「停止中（連続失敗）」と出力して終了する。
-3. `python scripts/topic_plan.py today-count` が **9以上**なら「本日の上限（9記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
+3. `python scripts/topic_plan.py today-count` が **6以上**なら「本日の上限（6記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
 4. `python scripts/topic_plan.py slot` でこの回の時間帯スロット（`time` / `channel` / `label`、`categories` か `article_types` の優先条件）を確認する。
    この後の「ネタを取り出す」「チャンネル判定」「クロスリンク挿入」はこのスロット情報に沿って動く。
 
@@ -51,118 +52,112 @@ Web 検索は**必ずサブエージェントに任せる**。Agent ツールを
 - 事実が確かめられない・題材が存在しない・既存記事と同じ内容だと分かったら、
   `python scripts/topic_plan.py reject <id> --reason "<理由>"` → 手順2からやり直す（やり直しは1回の実行で2回まで）。
 
-## 4. 執筆
+## 4. 執筆（生成は opencode / DeepSeek V4.1 に委任）
 
-- **本文は日本語だけで書く**。韓国語・中国語・英語の文や単語を混ぜない（製品名・固有名詞の英字は可）。書き終えたらすぐに
-  `python scripts/validate_post.py <slug>` を実行し、NG の箇所だけを直す。1文ずつ置換スクリプトで直すような細かい修正を何十回も繰り返さず、
-  崩れた段落は段落ごと書き直す。
+**記事の生成（本文・タイトル・frontmatter・画像の選定と配置・X投稿文）は自分で書かない。** `scripts/oc_generate.py` が
+opencode の `deepseek-v4.1-flash-free` を呼んで作る。Claude Code の仕事は「ブリーフ（調査結果と画像候補）を用意する」
+「生成結果を読んで確かめる」「選ばれた画像を取得して目視する」「公開する」の4つ。
 
-- `content/posts/<slug>.md`（slug は英小文字とハイフン）。カテゴリーはネタの `category`（1つだけ）。
-- 記事の型はネタの `article_type` に従う（deep-dive / comparison / theme / styling / guide）。
-- **タイトル**: CLAUDE.md の規則どおり、記事ごとに言い回しを変える。固定の型（全機能解剖／味と仕様／仕様と使い方／の現在地／徹底比較）は禁止。
-  書く前に `content/posts/` の最近のタイトルを数本見て、同じ構文を続けない。
-- 文体: 素直で丁寧な一人称。他サイト・媒体名を根拠にしない。情報源や調べ方に触れない。所持に触れない。「実際に〜してみた」禁止。読者がその製品・アイテムを手に入れたときの体験価値（ベネフィット）や日常の劇的な変化をエモーショナルに描き出し、自然な購買・導入意欲を高める構成とすること。
-- 本文は日本語のみ（中国語・英語の文章を混ぜない）。深掘り・テーマ記事は5,000字前後以上。見出し（##）は3つ以上。
-- frontmatter: `title` / `description`（110〜120字）/ `images: ["/images/og/<slug>.jpg"]` / `date`（**現在時刻より前**、+09:00）/
-  `categories: ["<category>"]` / `tags` / `draft: false` / `scheduled_time: "<slot の time>"`（手順1で確認したこの回のスロット時刻。
-  例 `"20:00"`。公開は即時だが、どの時間帯枠で書かれた記事かを記録する）。
-- 新カテゴリー（ネタの `new_category` あり）なら、`category-plan.json`・`hugo.toml` の `[menu]`・`layouts/index.html` の `CATEGORY_LABELS` に追加する。
+1. **ブリーフを作る**（`/tmp/<slug>-brief.json`）。次のキーを必ず入れる。
+   - `slug`（英小文字とハイフン）/ `slot_time`（手順1のスロット時刻）/ `channel`（手順2で決めた配信先）/ `category`（ネタの category、1つ）/
+     `article_type` / `theme` / `angle` / `target_chars`（深掘り・テーマ記事は 5000）/ `image_dir`（`images/<slug-短縮>`）
+   - `date`: JST の現在時刻を秒まで。`python -c "import datetime as d;print(d.datetime.now(d.timezone(d.timedelta(hours=9))).isoformat(timespec='seconds'))"`
+   - `research`: 手順3で集めた事実の要点（出典URL付き）。**ここに無い事実は記事に入らない**ので、渡し漏れに注意する。
+   - `recent_titles`: 直近のタイトル3〜5本（同じ構文を続けさせない）。
+   - `image_candidates`: `python scripts/topic_plan.py images "<検索語>" --n 6` の出力に `id`（c1, c2…）と `credit` を足したもの。
+     NC/ND と Amazon の商品画像は除く。`credit` は author があれば `Photo: <author> / <license>`、無ければ `Image: <title> / <license>`。
+   - `products`: ASIN を確認できた製品だけ `{"name": "...", "asin": "...", "note": "..."}`。
+   - `channel_notes`: チャンネル固有の注記（Ameba はカテゴリーと使える ASIN、note は制約など）。Ameba の標準構成・トーンは
+     `oc_generate.py` が `channel: ameba` のとき自動で足すので、ここに書き写さなくてよい。
+   - カテゴリーが新規（`new_category`）なら、**生成前に** `category-plan.json`・`hugo.toml` の `[menu]`・`layouts/index.html` の
+     `CATEGORY_LABELS` に追加する（`validate_post.py` が未登録カテゴリーを NG にする）。
+2. **生成する**（Bash ツールのタイムアウトは 600000 ms を指定する）。
+   ```
+   python scripts/oc_generate.py article --brief /tmp/<slug>-brief.json \
+     --article-out content/posts/<slug>.md --meta-out /tmp/<slug>-meta.json \
+     --keep-raw /tmp/<slug>-raw
+   ```
+   - `channel: note` の記事は `--article-out content/note-only/<slug>.md`。
+   - 内部で `validate_post.py` と同じ検査（本文3500字以上、description 90〜140字、`##`3つ以上、figure 2〜6枚、credit、
+     Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出して終了する。
+   - 失敗したら、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
+     3回とも通らなければ `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` で終了する。**自分で本文を書き直さない。**
+3. **生成物を読む**。事実が `research` からはみ出していないか、日本語以外の文字が混ざっていないか、導入→見出し→まとめの流れが
+   通っているかを確認する。直したい点は手で書き換えず、ブリーフか `channel_notes` に反映して再生成する
+   （誤字脱字レベルの1〜2箇所だけは直接直してよい）。
+4. frontmatter は生成物のまま使う。`meta.json` の `title`・`x_post`・`figures` は手順5・6・7で使う。
 
-## 5. 画像
+## 5. 画像（選定・配置は生成物、取得と目視はここで行う）
 
-- ネタの `images` を出発点に、記事に合う画像を2〜5枚（比較記事は製品ごとに1枚）。候補は `python scripts/topic_plan.py images "<検索語>"`。
-  非商用（NC）・改変禁止（ND）・Amazon の商品画像は使わない。
-- **画像は必ず `python scripts/fetch_image.py <slug> images/<slug-短縮>/<名前>.jpg "<File:Commonsのファイル名 か URL>"` で取得する**
-  （Commons 以外は `--page <出典ページ> --license <ライセンス> --author <作者>` を付ける）。出典が `scripts/image-sources/<slug>.json` に記録され、
-  validate_post.py が出典から取り直して同じ画像か照合する。出力の `credit` をそのまま `<span class="credit">` に使う。
-- **画像を自分で作らない**。Python（PIL 等）・SVG・awk などで絵・図形・グラデーション・ロゴ風画像・地図風画像を描いて代用することは禁止
-  （例外はレーダーチャートだけ。必ず `scripts/radar-chart.awk` で、記事に書いた点数から作る）。
-  2026-10-03 に、モデルが本物の画像を探しきれず、格子模様・白紙・乱数データの「画像」を作って公開する事故が起きた。
-- 取得した画像は**1枚ずつ Read で開いて目で確認**し、題材そのもの（その製品・その場所）が写っているかを確かめる。ファイル名と中身が違うことがある。
-- 実在の画像が2枚そろわない、製品の写真が見つからない場合は、**画像を作らずに** `python scripts/topic_plan.py fail <id> --reason "画像が見つからない"` で終了する。
-- 配置は CLAUDE.md の回り込みルール（`<figure class="photo photo--left|right">`、見出しの直後、左右交互、幅220、figcaption と credit 必須）。
-  クレジットは必ず `<span class="credit">CC / Public domain / Image: / Photo: / 撮影: など の具体的なクレジット情報</span>` の形式で。
-- Amazon で扱いのある製品は、画像を `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む
-  （**画像をクリックするとその製品の Amazon ページが開くこと**。**ASIN はできるだけ実際の商品ページから確認して使う**
-  （`channel: ameba` の記事は `/dp/<ASIN>` 形式でないと post-to-ameba.py が Ameba Pick リンクに変換できない — 検索リンク
-  フォールバックのままだと Ameba 版はリンクなしの画像になる）。ASIN がどうしても分からなければ
-  `https://www.amazon.co.jp/s?k=<製品名>&tag=nakimoto1-22`）。Amazon に無いもの（無料ソフト等）は公式サイトへのリンクで包む。
+- どの画像をどこに置くかは `meta.json` の `figures` が答え。各 figure の `local_path` が記事の `<img src="/...">` と一致し、
+  `url` / `page` / `license` / `author` / `credit` に候補の出典が入っている。
+- **画像は必ず `python scripts/fetch_image.py <slug> <local_path> "<url か File:...>"` で取得する**（`<local_path>` の先頭 `/` は外す）。
+  Commons 以外は `--page <出典ページ> --license <ライセンス> --author <作者>` を付ける。出典は `scripts/image-sources/<slug>.json` に残り、
+  `validate_post.py` が出典から取り直して同じ画像か照合する。
+- 取得した画像は**1枚ずつ Read で開いて目視**し、題材そのもの（その製品・その場所）が写っているかを確かめる。
+  ファイル名と中身が違うことがある。合わない候補は `image_candidates` から外して手順4を再実行する（**自分で画像を作らない**）。
+- 実在の画像が2枚そろわない、製品の写真が見つからない場合は、**画像を作らずに**
+  `python scripts/topic_plan.py fail <id> --reason "画像が見つからない"` で終了する。
+- クレジットは `fetch_image.py` が出力した文字列を正とし、記事の `<span class="credit">` と食い違っていたら記事側をその文字列に合わせる。
+- Amazon の条件は従来どおり。画像は `<a href="https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">` で包む
+  （**Ameba は `/dp/<ASIN>` 形式でないと post-to-ameba.py が Ameba Pick に変換できない**）。ASIN を確認できなかった製品は
+  生成時に検索リンクになっているので、実在 ASIN が分かったら該当 figure とテキストリンクだけを置換する。
+- 配置・回り込みの形式（`figure class="photo photo--left|right"`、見出し直後、左右交互、幅220、figcaption と credit）は
+  生成側の検査で担保されている。崩れている箇所だけ、figure の位置を直す。
 - 公開後、`curl` の 200 だけで済ませない。`python scripts/check_live_page.py <slug>` で実ブラウザ表示を確認する（画像が全部表示され、figure がリンク付きか）。
 
 ## 5b. Amebaチャンネル専用フォーマット（channel: ameba の場合）
 
-Amebaブログは「ドリンク・飲料と酒の分析、カクテルの歴史やレシピ、ドリンク関連のツールやハック」に特化した専門ブログとして運用する。`channel: ameba` の記事は以下の標準構成とトーンに従う。
+Amebaブログは「ドリンク・飲料と酒の分析、カクテルの歴史やレシピ、ドリンク関連のツールやハック」に特化した専門ブログとして運用する。
+標準構成（導入 → 結論・要約データ → 詳細検証 → 実践・レシピ → まとめ）とトーン、drink-lab / drink-recipe / drink-tools /
+drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `AMEBA_NOTES` に移した**。`channel: ameba` のときは
+生成プロンプトに自動で入るので、ここに書き写す必要はない。
 
-### カテゴリーと記事型の対応
-- `drink-lab`（分析・成分・比率）: 数値データ、成分表、アルコール度数や配合の科学的分析を軸にした検証記事
-- `drink-recipe`（歴史・レシピ・カクテル）: カクテルの歴史的背景、伝統的レシピ、具体的な配合比率を解説する実用・文化記事
-- `drink-tools`（ツール・ギア）: グラス、シェイカー、ジガー、炭酸水メーカーなどの道具やバー用品レビュー
-- `drink-hack`（ハック・裏技）: 氷の作り方、冷やし方、保存法、割り方のテクニック等のハック
-- `drink`（飲料）: 各種飲料・お酒の総合的な深掘り記事（成分・歴史・飲み比べ）
-
-### 標準構成（テンプレート）
-1. **導入** — なぜ今このテーマか、読者が得るメリットを1〜2文で
-2. **結論・要約データ** — 記事の核心を数値や比較表で先に示す（例: 「糖質は1本あたりXg、コーラのY%」）
-3. **詳細検証・解説** — 成分表の読み方、比率の科学、実験結果、歴史的背景を論理的に展開
-4. **実践・レシピ** — 具体的な配合比率、手順、温度・炭酸の条件を再現可能な形で
-5. **まとめ・関連ツール** — 結論の再提示と、関連するツールや派生レシピへの言及
-
-### トーン＆マナー
-- **論理的かつ分かりやすい**: 感覚ではなく数値と根拠で語る。「〜と感じた」より「〜という結果になった」
-- **親しみやすさ**: 難しい成分名はカタカナと併記（例: カフェイン（caffeine））。専門用語の直後に一言解説
-- **再現性**: レシピは「目安」ではなく「この比率・この温度・この時間」と具体的に
-- **禁止事項**: 過度な煽り、根拠のない「最強」「絶対」、他社製品への不当な比較・貶め
-- **数字の扱い**: 成分値は成分表や公式データに基づく。不明な場合は「推定」「目安」と明記
+Claude Code が渡すもの・確かめること:
+- ブリーフの `category` を drink-* のいずれかにする（ネタの category が別なら、内容に合う drink-* を選ぶ）。
+- `channel_notes` に、使ってよい ASIN（`/dp/<ASIN>` 形式）と、数値・レシピで必ず入れてほしい条件を書く。
+  検索リンク（`/s?k=`）は Ameba Pick に変換されないため、分かる ASIN は必ずここで渡す。
+- 生成後、記事のカテゴリーが drink-* になっていること、Amazon リンクが `/dp/<ASIN>?tag=nakimoto1-22` になっていることを確認する。
 
 ## 5c. CVR最適化（コンバージョン率改善プランA、2026-11-14）
 
-Amazon アソシエイトの成約と読了率を上げるため、記事執筆時に次の導線を必ず入れる
-（`コンバージョン率改善プランA.md` の処理ルールをこのパイプライン向けに具体化したもの）。
-既存の `<figure>`・画像URL・アフィリエイトパラメータ（`aid=...` 等）・内部リンク・文体は
-絶対に削除・改変しない。挿入するのは「リンクと短い補足」だけ。
+冒頭CTA、figure 直後と商品解説直後のテキストリンク、消耗品リンク、価格注記、まとめ前の不安解消、スマホで読める段落長の
+6点は、`scripts/oc_generate.py` の `RULES` に生成条件として入っている（`コンバージョン率改善プランA.md` をパイプライン向けに
+具体化したもの）。Claude Code は生成後に次の点だけ確認する。
 
-1. **冒頭CTA**: 導入文の直後に、メイン商品の画像＋「Amazonで見る →」の CTA ブロックを置く。
-   既存の figure と同じ画像・ASIN を使った `.product-banner` 形式でよい（新しい画像は作らない）。
-2. **商品ごとのテキストリンク**: 画像リンクだけの figure の直後、および各商品のメリット解説の
-   直後に、`[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22)`
-   のようなテキストリンクを1本置く。
-3. **消耗品・関連アクセサリ**: コスト解説や使い方・メンテナンス解説のパートに、
-   交換パーツ・専用ボトル・シロップ・手入れ用品などリピート購入される商品への
-   テキストリンクを自然に1本入れる（例: `[交換用フィルターをAmazonで確認する](...)`）。
-4. **価格のクリックインセンティブ**: 定価・参考価格を書いた段落の直後に、
-   「※現在の実売価格やタイムセール・ポイント還元の状況は、以下のAmazonリンクからご確認ください。」
-   を1回だけ添える（同じ記事に繰り返さない）。
-5. **購入直前の不安解消**: `## まとめ` の最後の CTA 直前に、サイズ感・設置場所・保証・
-   ランニングコスト・メンテナンスの手間のうち関係するものを1〜2文で先回りして払拭する。
-6. **スマホでの視認性**: 長い段落は2〜3文で改行し、比較ポイントやスペック差は
-   箇条書きか Markdown の表に整理する。1段落を極端に長くしない。
+1. **冒頭CTA**: 導入文の直後に、メイン商品の画像＋「Amazonで見る →」の CTA ブロックがある。
+2. **商品ごとのテキストリンク**: figure の直後、および各商品のメリット解説の直後に
+   `https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22` のテキストリンクがある。
+3. **消耗品・関連アクセサリ**: 交換パーツ・専用ボトル・シロップ・手入れ用品などへのテキストリンクが1本ある。
+4. **価格のクリックインセンティブ**: 価格に触れた段落の直後に
+   「※現在の実売価格やセール状況は下のリンクからご確認ください。」が1回だけある（繰り返していない）。
+5. **購入直前の不安解消**: `## まとめ` の直前に、サイズ・設置・保証・ランニングコスト・手入れの不安を1〜2文で払拭している。
+6. **プレースホルダー**: `[CTA_BLOCK: …]` / `[TEXT_LINK: …]` / `[SUB_LINK: …]` が残っていない（`validate_post.py` も NG にする）。
+
+足りない場合は手で段落を足さず、`channel_notes` に「〜が無い」と書いて手順4を再実行する。
 
 **Ameba（`channel: ameba`）の追加ルール**:
-- 投稿スクリプト `scripts/post-to-ameba.py` が `scripts/cvr_optimize.py` を通し、冒頭CTA・
-  画像リンク直後のテキストリンク・価格注記・まとめの不安解消＋CTA を**書き漏らしがあれば自動で補う**
-  （`--no-cvr` で無効化できる）。ただし自動挿入は補助であり、上の1〜6を本文に書くのが原則。
-- Ameba は Amazon の生リンクを許可しない。画像リンクは Ameba Pick の商品カードに、
-  ASIN付きのテキストリンクは Ameba Pick のテキストリンクに変換される。
-  **検索リンク（`/s?k=`）は変換できずリンクが外れる**ため、CTA・消耗品リンクにも
-  必ず実在の ASIN を使う（`https://www.amazon.co.jp/dp/<ASIN>?tag=nakimoto1-22`）。
-- 書き途中のメモとして `[CTA_BLOCK: 商品名]` / `[TEXT_LINK: 表示文 | キーワード]` /
-  `[SUB_LINK: 関連商品名]` を置いてもよいが、**公開する Markdown には残さない**
-  （GitHub Pages にそのまま表示される。`validate_post.py` が未解決プレースホルダーを NG にする）。
+- 投稿スクリプト `scripts/post-to-ameba.py` が `scripts/cvr_optimize.py` を通し、書き漏らしがあれば自動で補う
+  （`--no-cvr` で無効化できる）。自動挿入は補助なので、生成側で上の1〜6を満たしておく。
+- Ameba は Amazon の生リンクを許可しない。画像リンクは Ameba Pick の商品カードに、ASIN 付きのテキストリンクは
+  Ameba Pick のテキストリンクに変換される。**検索リンク（`/s?k=`）は変換できずリンクが外れる**ため、ASIN は `channel_notes` で渡す。
 - 投稿後、Ameba 側の CTA を1つ実際にクリックし、Amazon 商品ページへ遷移することを確認する
   （Pick テキストリンクの実機確認を兼ねる）。
 
 ## 6. 仕上げと検査
 
 1. OGP 画像: `python -c "import importlib.util as u;s=u.spec_from_file_location('og','scripts/og-image-generator.py');m=u.module_from_spec(s);s.loader.exec_module(m);m.render('<タイトル>','<category>','kingsworksub-jpg',m.OUT/'<slug>.jpg')"`
+   （`<タイトル>` は frontmatter か `/tmp/<slug>-meta.json` の `title`、`<category>` はブリーフの category）
 2. `python scripts/og_dimensions.py`
-3. **`python scripts/validate_post.py <slug>`** — NG が出たら直して再実行する。2回直しても通らなければ、作った記事・画像を削除し、
+3. **`python scripts/validate_post.py <slug>`** — NG が出たら、その理由を `channel_notes` に足して手順4を再実行する
+   （画像の欠け・OGP・カテゴリー登録は手順5・6で直す）。生成のやり直しは2回まで。それでも通らなければ、作った記事・画像を削除し、
    `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` を実行して終了する（公開しない）。
 4. `hugo --minify` でビルドし、`public/posts/<slug>/index.html` ができていることを確認する。
 5. **チャンネル判定**: `python scripts/topic_plan.py claim` の出力JSONに含まれる `channel` フィールドを確認する。その結果に応じて以下の配信先を決定する。
    - `channel: github` → はてな・ameba・note への転載は行わない（GitHub Pages へのみデプロイ）
    - `channel: hatena` → はてなブログへ全文投稿
    - `channel: ameba` → Amebaブログへ全文転載
-   - `channel: note` → GitHub Pages へサマリー掲載し、note へ投稿（note 実行前にサマリー生成）
+   - `channel: note` → GitHub Pages には載せず、note のみに投稿（`content/note-only/` の本文を変換して送る）
 6. クロスリンク挿入: 記事の最後に「関連記事」ブロックを挿入する（手順7.5のスロット別フォーマットを参照）。
 
 ## 7. 公開
@@ -176,15 +171,15 @@ Amazon アソシエイトの成約と読了率を上げるため、記事執筆�
    - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
    - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
 4. **X (Twitter) への投稿(全チャンネル共通、2026-11-04 正式復活)**: 上記の外部転載が終わった後、GitHub Pagesの記事URL
-   (`https://kingsworksub-jpg.github.io/posts/<slug>/`)を使って自分でポスト文面を作る。
-   - **文字数の注意**: Xの280字はASCII以外(日本語等)を2字分として数える加重カウントで、URLは実際の長さに関わらずt.co圧縮で
-     常に23字分として数えられる。日本語主体の文章では見た目の字数よりずっと早く上限に達するため、**本文(日本語部分)は
-     100字前後(最大110字程度)を目安にする**(リンク23字分+ハッシュタグ分を差し引いた残りの予算で逆算した値)。
-   - 条件: 読者の興味を惹くフックを1つ。記事タイトル・核心を簡潔に。ハッシュタグ1〜2個(記事内容に合うもの)。
-     最後に改行してGitHub Pagesの記事URLを必ず入れる。`python scripts/post-to-x.py` は加重文字数で280字超を検知して
-     エラーにするので、超えたら本文を削って短くする。
+   (`https://kingsworksub-jpg.github.io/posts/<slug>/`)を入れて投稿する。文面は手で作らず **`meta.json` の `x_post`** を使う。
+   - `x_post` は生成時に「日本語本文100字前後＋改行＋記事URL＋ハッシュタグ1〜2個」で作られ、重み付き280字以内を検査済み
+     （日本語などASCII以外は2字、URLはt.co圧縮で23字換算）。`/tmp/x-post-<slug>.txt` に書き出し、URLとハッシュタグが入っているか確認する。
+   - `channel: note` は記事URLが note 側になるため、`x_post` の GitHub Pages URL を投稿後の note 記事URL
+     （`https://note.com/shining_finger01/n/<key>`）に差し替える。差し替えで280字を超えるなら次の `text` で作り直す。
+   - 280字を超える・内容が記事とずれている場合は、`/tmp/x-fix-<slug>.txt` に「次の文を280字相当以内に短くしてください。本文だけ返す」と
+     元の文面を書いて `python scripts/oc_generate.py text --instruction /tmp/x-fix-<slug>.txt --out /tmp/x-post-<slug>.txt` で作り直す。
    - 誇張・煽り系の表現(「必見」「永久保存版」等の多用)は避け、他の文体ルールと同程度に抑える。
-   - 文面を一時ファイル(例 `/tmp/x-post-<slug>.txt`)に保存し、`python scripts/post-to-x.py --text-file /tmp/x-post-<slug>.txt --publish` を実行する。
+   - `python scripts/post-to-x.py --text-file /tmp/x-post-<slug>.txt --publish` を実行する（加重文字数で280字超を検知してエラーにする）。
    - **失敗してもブログ公開自体は失敗にしない**: ログイン切れ・UI変更等でこのコマンドが失敗したら、エラーをログに残すだけで
      次の手順に進む(他チャンネルの転載が終わっていれば記事公開は成功扱い。`topic_plan.py recover` の対象にしない)。
 5. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。

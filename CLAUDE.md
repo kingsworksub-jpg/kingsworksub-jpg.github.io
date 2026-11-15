@@ -23,14 +23,14 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う（2026-11-15、ユーザー指示でネタ会議パートを全面的に opencode 化）。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**記事本文の生成には使わない**（ネタ会議＝本文を書かない工程のみ opencode）。ローカルの Ollama も使わない。新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う。さらに 2026-11-15、**投稿の「生成」だけを opencode の DeepSeek V4.1（`opencode/deepseek-v4.1-flash-free`）に委任**した。記事本文・タイトル・frontmatter・画像の選定と配置・X投稿文は `scripts/oc_generate.py` が生成し、Claude Code は「進行（claim・リサーチ・検査・公開）」と「画像の取得・目視確認・クレジット」を担当する。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**big-pickle は記事本文の生成には今も使わない**。DeepSeek V4.1 の出力は `oc_generate.py` の検査（本文3500字以上・description 90〜140字・`##`3つ以上・figure・credit・Amazonタグ・X投稿280字）を通ったものだけを受け取り、その後に `validate_post.py` と画像の目視確認を通す。ローカルの Ollama も使わない。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
 1. **お題を受け取る**: ユーザーから「このキーワード/ジャンルで書いて」と指示が来る(例: 「ヘッドホンで」「サンプラーで」「ウイスキーで」)。ロードマップ(下記)に候補があればそこから拾ってもよいが、基本は都度指示待ち。
 2. **リサーチ**: そのお題について、**最低15サイト以上**の情報源を横断して調べる。**海外(英語)サイトを優先的に含める**こと — 日本語ソースだけで済ませない。「5製品比較」形式(下記)にする場合は、対象ごとにAgent(general-purpose)を並列起動して1対象あたり8〜10サイト(合計50サイト以上)調べさせるのが実績のあるやり方。単発テーマ記事(比較形式でない)でも、15サイト以上は必ず確保する。
 3. **事実確認**: リサーチ中に「trendingとして名指しされた対象が実在しない/旧バージョンだった」というケースが何度も発生している(Battery 5が未発売、Studio One→Fender Studio Pro改名、UR22C→URX22C改名、PS-LX310BT生産終了など)。挙げられた対象は鵜呑みにせず、現行かどうかを都度確認する。
-4. **執筆**: 日本語記事として仕上げる。文体・引用形式は下記「文体」セクションの指定に従う。
+4. **執筆（生成）**: `python scripts/oc_generate.py article --brief <brief.json> …` で opencode の DeepSeek V4.1 に委任する（ブリーフの必須キー、再実行の上限、出力の確認方法は `scripts/scheduled/prompts/blog-post.md` の手順4）。文体・禁止事項は下記「文体」セクションと `oc_generate.py` の `RULES` に反映済み。
 5. **カテゴリ付け**: 既存カテゴリ(`hugo.toml` の `[menu]`)に合うものがあればそれを使う。無理に既存カテゴリに押し込めず、既存カテゴリの延長で自然に追加できるなら新カテゴリを切ってよい(ウイスキーで前例あり)。記事が増えてきたら、カテゴリ構成全体を見直すタイミングを都度検討すること(固定的に考えない)。
 6. **画像レイアウト(2026-09-23、ユーザー指示)**: 記事本文に写真や図を載せる場合は、**センター詰めの独立画像ではなく、文章が画像の周りを回り込む新聞・雑誌風のレイアウト**にする。実装は `<figure class="photo photo--left">`(画像が左、本文が右に回り込む)と `<figure class="photo photo--right">`(その逆)を使い分け、**同じ記事内では左右を交互に配置**して雑誌の見開きのようなリズムを作る。スタイルは `assets/css/extended/figures.css` で定義済み(画像の縦幅は`max-height: 420px`上限(2026-09-27改訂。当初は`100px`で画面上の画像が極端に小さかったため、新規記事にも同じルールを継承させること)・横幅`min(34%, 220px)`以下・キャプションは新聞カットライン風・見出しでフロート解除・スマホでは中央寄せに解除)。**回り込む本文の1行幅は10文字(=約180px)を下回らせない**こと。同セクション内で左右それぞれのフロート画像(左右に向かい合う2枚)が縦に重なると、その間の本文は `コンテンツ幅(720px)−画像幅×2−margin(48px)` に潰れるため、画像幅は220px以下に抑える(現行CSSの制約。将来コンテンツ幅を変えるときは、向かい合う2枚の間に最低180px残るよう画像幅上限を再計算すること)。段落は画像の周りで行が1〜2文字だけになったり、極端に短い行が飛び出したりしないよう、**文章量を見て段落の切れ目を調整する**(画像付きは本文量が多めの段落に置き、画像の直後で段落が終わらないよう前後の段落でバランスを取る)。`width`/`height`/`alt`/`loading="lazy"` と `<figcaption>`(写真の説明)・`<span class="credit">`(撮影・出典クレジット)は省略しない。はてなブログにはサイトCSSが効かないが、`scripts/extract-post-html.sh` が `scripts/hatena_figures.py` を通して figure にインラインの float を付けるので、**はてなでも回り込みが再現される(2026-10-01〜)**。note は float 非対応のため縦積み(既知の挙動でOK)。**figure の配置位置(2026-09-25、ユーザー指示・全面適用済み)**: float はブロック境界(直前の段落の下・`---`や見出しの前)に置くと横にテキストが流れない。**figure は必ずセクション見出し(`##`)の直後、そのセクションの本文段落の直前に置く**(見出し → figure → 段落 の順で、段落のテキストが必ず画像の横を回り込む)。figure の直後に見出し・`---`・画像のみ・30文字未満の短文を置かない(アイキャッチ直後のレーダーチャート等、意図的な画像連続はOK)。
 7. **収益化リンク**: 該当する場合はAmazonアフィリエイトリンクを付与(下記「マネタイズ状況」参照)。Amazonに無ければ公式サイトへの通常リンクにする。
@@ -65,7 +65,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 自動投稿パイプライン（2026-10-01 全面改修 → 2026-10-08 タイムテーブル改修、ユーザー指示）
 
-**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**9記事まで**（手動投稿も含む）。
+**ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**6記事まで**（手動投稿も含む）。
 旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
 プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
@@ -85,42 +85,39 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   カテゴリー: `jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
   `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加。
 
-### 1日9枠のプラットフォーム配分（2026-10-22、ユーザー指示「ameba/note/hatena に均等に毎日3本ずつ、github は別枠で全記事」）
+### 1日6枠のプラットフォーム配分（2026-10-08 改修 → 2026-10-22 調整）
 
-投稿スロットは9枠で、**hatena 3本・ameba 3本・note 3本を毎日固定**（隔日の入れ替えは廃止）。GitHub Pages はスロットを
-持たず、9本すべてが公開と同時に自動デプロイされる別枠の扱い。`scripts/topic_plan.py` の `SLOTS` が定義で、`claim()` は
-**スロットと同じチャンネルの承認済みネタだけ**を選ぶ（他チャンネルへのフォールバックなし）。これにより各外部プラットフォームは
-毎日ちょうど3本になる。キューの該当チャンネルが尽きた場合は `claim` が `{"empty": true}` を返し、投稿ジョブがその場で
-同じチャンネルのネタを1件補充する。カテゴリー単位の均等配分(`allocate`/`priorities`)はチャンネル内で機能する。
+投稿スロットは6枠。固定4枠（07:30 github / 12:00 hatena / 17:30 ameba / 21:30 note）に加え、20:00 と 23:00 は
+偶数日と奇数日でチャンネルを入れ替える（偶数日: 20:00 ameba・23:00 note / 奇数日: 20:00 hatena・23:00 github）。
+2日周期で4チャンネルが均等になる。定義は `scripts/topic_plan.py` の `SLOTS_FIXED` / `SLOTS_SWAP_EVEN_DAY` /
+`SLOTS_SWAP_ODD_DAY`（`topic_plan.py slot` で現在時刻に最も近いスロットを取得できる。**作業前に必ずこのコマンドで確認すること**）。
+`claim()` は**スロットと同じチャンネルの承認済みネタだけ**を選ぶ（他チャンネルへのフォールバックなし）。キューの該当チャンネルが
+尽きた場合は `claim` が `{"empty": true}` を返し、投稿ジョブがその場で同じチャンネルのネタを1件補充する。カテゴリー単位の
+均等配分(`allocate`/`priorities`)はチャンネル内で機能する。
 
-### 1日9投稿タイムテーブル（2026-10-22、9枠・3プラットフォーム均等に改修）
-
-各スロットは配信チャンネルを固定し、同じチャンネルでも時間帯で記事の性格を変える。定義は `scripts/topic_plan.py` の
-`SLOTS`（`topic_plan.py slot` で現在時刻に最も近いスロットを取得できる。**作業前に必ずこのコマンドで確認すること**）。
+### 1日6投稿タイムテーブル
 
 | 順序 | 時刻 | 想定読者行動 | チャンネル | 優先する記事の性格 |
 |---|---|---|---|---|
-| 1本目 | 07:30 | 朝の通勤・始業前 | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
-| 2本目 | 09:30 | 午前の休憩 | ameba | ドリンク・酒分析・カクテルレシピ・ツール（drink系/whisky/sakeware） |
-| 3本目 | 12:00 | 昼休み | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
-| 4本目 | 14:30 | 午後の休憩 | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
-| 5本目 | 17:00 | 退勤・帰宅移動 | ameba | ドリンク・酒分析・カクテルレシピ・ツール（drink系/whisky/sakeware） |
-| 6本目 | 18:30 | 帰宅後 | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
-| 7本目 | 20:00 | 夕食後 | hatena | テック・ソフト・制作環境・PC・開発・ネット（tech/software/setup/pc/dev/net） |
-| 8本目 | 21:30 | 【最大ピーク】在宅リラックス | note | 音楽・ファッション・エッセイ・映画・読書・住まい（jazz/music/fashion/essay/film/book/interior） |
-| 9本目 | 23:00 | 就寝前 | ameba | ドリンク・酒分析・カクテルレシピ・ハック（drink系/whisky/sakeware） |
+| 1本目 | 07:30 | 朝の通勤・始業前 | github | 検証メモ・個人備忘録（lab / notes） |
+| 2本目 | 12:00 | 昼休み | hatena | テック・ソフト・制作環境（tech / software / setup） |
+| 3本目 | 17:30 | 退勤・帰宅移動 | ameba | 機材レビュー・学習体験談（gear / learning） |
+| 4本目 | 20:00 | 夕食後 | ameba / hatena（隔日） | ファッション・飲料 / テック・ソフト・制作環境 |
+| 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note | ウイスキー・音楽・酒器（whisky / music / sakeware） |
+| 6本目 | 23:00 | 就寝前 | note / github（隔日） | カルチャーエッセイ / 検証メモ・備忘録 |
 
-**CV（回遊・収益）誘導**: `channel: hatena` の回（07:30・12:00・20:00）は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
-`channel: note` の回（14:30・18:30・21:30）は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
+**CV（回遊・収益）誘導**: `channel: hatena` の回は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
+`channel: note` の回は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
 （具体的な記事URLは執筆時点でまだ存在しないため、プラットフォームのトップページへリンクする）。`channel: ameba` は共通リンクのみ。
 各記事の frontmatter には、どのスロットで書かれたかを示す `scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は
 `scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
-  - `blog-automation-task`: 投稿。毎日 07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00 の9回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。エンジンは Claude Code
+  - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻＋隔日入替、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。エンジンは Claude Code
   - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）。エンジンは opencode（big-pickle）
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）。エンジンは opencode（big-pickle）
-- **実行エンジン**: 投稿は Claude Code、ネタ会議・補充は opencode（big-pickle）。`run-claude-task.ps1` は `-Engine claude|opencode` で切り替える（`Invoke-Claude` / `Invoke-OpenCode`）。opencode 側は `opencode run --model opencode/big-pickle --agent build --auto` を実行する。タスク登録は `register-tasks.ps1` を再実行して反映する。
+- **実行エンジン**: 投稿の進行は Claude Code、ネタ会議・補充は opencode（big-pickle）。`run-claude-task.ps1` は `-Engine claude|opencode` で切り替える（`Invoke-Claude` / `Invoke-OpenCode`）。opencode 側は `opencode run --model opencode/big-pickle --agent build --auto` を実行する。
+  **投稿の生成だけ**は Claude Code から `python scripts/oc_generate.py` を呼び、opencode の `opencode/deepseek-v4.1-flash-free`（`--agent build --auto --archived --standalone`）で本文・タイトル・frontmatter・画像の選定と配置・X投稿文を作る（2026-11-15、ユーザー指示）。タスク登録は `register-tasks.ps1` を再実行して反映する。
 - **Web 検索の担当（2026-10-05 → 2026-11-15 改訂、ユーザー指示）**:
   - **投稿（blog-post）**: Web 検索は必ず Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）に任せ、メイン（opus）は WebSearch / WebFetch を直接呼ばない。
   - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode（big-pickle）で動くので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
