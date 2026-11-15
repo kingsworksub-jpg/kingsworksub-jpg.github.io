@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:30:52+09:00",
+ "updated": "2026-11-15T09:40:13+09:00",
  "items": [
   {
    "category": "gear",
@@ -9005,14 +9005,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-048",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-11-15T09:30:52+09:00",
    "channel": "github",
    "content_dir": "tech",
    "slot_time": "07:30",
-   "slot_label": "朝: 検証メモ/個人備忘録"
+   "slot_label": "朝: 検証メモ/個人備忘録",
+   "slug": "powershell-import-csv-aggregate-notes",
+   "published_at": "2026-11-15T09:40:13+09:00"
   },
   {
    "category": "notes",

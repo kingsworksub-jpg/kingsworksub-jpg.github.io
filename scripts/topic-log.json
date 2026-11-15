@@ -3197,6 +3197,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-15T08:04:08+09:00"
+  },
+  {
+   "id": "2026w42-048",
+   "category": "notes",
+   "theme": "PowerShellでCSVを集計する、Import-Csvの基本",
+   "slug": "powershell-import-csv-aggregate-notes",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/powershell-import-csv-aggregate-notes/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-15T09:40:13+09:00"
   }
  ]
 }
