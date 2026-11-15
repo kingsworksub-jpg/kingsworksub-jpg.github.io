@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:45:01+09:00",
+ "updated": "2026-11-16T04:45:30+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published metronome-rhythm-practice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-16T04:45:01+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-16T04:21:52+09:00",
+  "at": "2026-11-16T04:45:30+09:00",
   "engine": "claude",
-  "detail": "The Google Docs connector also needs authorising in your claude.ai connector settings before it can be used, though this task didn't need it."
+  "detail": "なお、claude.ai の Google Docs 連携は認証されていないため、今は使えません。今回の作業には関係ありません。使うときは claude.ai のコネクタ設定で認証してください。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-16T04:45:30+09:00",
+   "engine": "claude",
+   "detail": "なお、claude.ai の Google Docs 連携は認証されていないため、今は使えません。今回の作業には関係ありません。使うときは claude.ai のコネクタ設定で認証してください。"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T02:30:50+09:00",
    "engine": "claude",
    "detail": "未処理の返信はなかったので、手順どおり何もせずに終了しました。`post-to-x.py --check-replies` は `@100labjtvn` として正常にログインして実行でき、結果は空の配列 `[]` でした。返信もスキップもファイル変更もしておらず、コミットも不要です。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-16T02:07:20+09:00",
-   "engine": "claude",
-   "detail": "The Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ],
  "engine_post": "claude",
