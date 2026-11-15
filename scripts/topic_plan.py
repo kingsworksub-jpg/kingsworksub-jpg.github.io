@@ -161,9 +161,14 @@ def post_date(p) -> dt.date | None:
         return None
 
 
-def engine_for(day: dt.date) -> str:
-    """Every job runs on Claude Code (the daily big-pickle alternation was dropped on 2026-10-02)."""
-    return "claude"
+TOPIC_JOBS = {"topic-planning", "topic-topup"}
+ENGINE_POST = "claude"      # blog-post (article bodies) always runs on Claude Code
+ENGINE_TOPIC = "big-pickle"  # topic meeting / top-up run on opencode big-pickle
+
+
+def engine_for(day: dt.date, job: str | None = None) -> str:
+    """Engine that runs a job: the topic meeting / top-up run on opencode big-pickle, everything else on Claude Code."""
+    return ENGINE_TOPIC if job in TOPIC_JOBS else ENGINE_POST
 
 
 def categories():
@@ -320,7 +325,9 @@ def write_status(extra=None):
         counts[it["status"]] = counts.get(it["status"], 0) + 1
     pending = len(glob.glob(os.path.join(REQUESTS, "*.json")))
     st.update({"updated": now().isoformat(timespec="seconds"), "queue": counts, "pending_requests": pending,
-               "today_posts": today_count(), "daily_limit": POSTS_PER_DAY, "engine_today": engine_for(now().date())})
+               "today_posts": today_count(), "daily_limit": POSTS_PER_DAY,
+               # engine_today is kept for older clients; engine_post / engine_topic drive the split display.
+               "engine_today": ENGINE_POST, "engine_post": ENGINE_POST, "engine_topic": ENGINE_TOPIC})
     if extra:
         st.update(extra)
     save(STATUS_FILE, st)
@@ -335,11 +342,11 @@ def run_status(job, state, detail=""):
     at = now().isoformat(timespec="seconds")
     label = JOB_LABELS.get(job, job)
     if state == "started":
-        extra = {"current_job": {"job": job, "label": label, "since": at, "engine": engine_for(now().date())}}
+        extra = {"current_job": {"job": job, "label": label, "since": at, "engine": engine_for(now().date(), job)}}
     else:
         extra = {"current_job": None,
                  "last_run": {"job": job, "label": label, "state": state, "at": at,
-                              "engine": engine_for(now().date()), "detail": detail[:300]}}
+                              "engine": engine_for(now().date(), job), "detail": detail[:300]}}
         runs = st.get("recent_runs", [])
         runs.insert(0, extra["last_run"])
         extra["recent_runs"] = runs[:10]
@@ -766,12 +773,13 @@ def main():
         counts = {}
         for it in q["items"]:
             counts[it["status"]] = counts.get(it["status"], 0) + 1
-        data = {"engine_today": engine_for(now().date()), "today_posts": today_count(), "daily_limit": POSTS_PER_DAY,
+        data = {"engine_today": ENGINE_POST, "engine_post": ENGINE_POST, "engine_topic": ENGINE_TOPIC,
+                "today_posts": today_count(), "daily_limit": POSTS_PER_DAY,
                 "queue": counts, "consecutive_failures": health(), "priorities": priorities()}
         if a.json:
             print(json.dumps(data, ensure_ascii=False, indent=1))
         else:
-            print(f"engine={data['engine_today']} today={data['today_posts']}/{POSTS_PER_DAY} queue={counts} failures={data['consecutive_failures']}")
+            print(f"engine_post={data['engine_post']} engine_topic={data['engine_topic']} today={data['today_posts']}/{POSTS_PER_DAY} queue={counts} failures={data['consecutive_failures']}")
             for r in data["priorities"]:
                 print(f"  {r['id']:10} pri={r['priority']:<6} share={r['share']:<6} target={r['target']:<6} last={r['days_since']}d total={r['total']}")
     elif a.cmd == "allocate":

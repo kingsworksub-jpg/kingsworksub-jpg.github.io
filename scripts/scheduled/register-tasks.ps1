@@ -8,15 +8,16 @@
 #   blog-topic-planning  : weekly topic meeting, Sunday 03:00, refills the queue to 64 topics
 #   blog-topic-topup     : daily 04:00, refills only when fewer than 16 approved topics remain
 # All three share the mutex in run-claude-task.ps1, so they never run at the same time.
-# All jobs run on Claude Code (run-claude-task.ps1).
+# Engines (run-claude-task.ps1 -Engine): blog-post runs on Claude Code; blog-topic-planning and
+# blog-topic-topup run on opencode big-pickle (2026-11-15, user instruction).
 
 $ErrorActionPreference = "Stop"
 $runner = Join-Path $PSScriptRoot "run-claude-task.ps1"
 $syncRunner = Join-Path $PSScriptRoot "run-platform-sync.ps1"
 $user = "$env:USERDOMAIN\$env:USERNAME"
 
-function Register-Job($taskName, $jobName, $prompt, $trigger, $timeoutMin, $lockWaitMin, $limitMin) {
-    $argStr = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$runner`" -Name $jobName -Prompt `"$prompt`" -TimeoutMin $timeoutMin -LockWaitMin $lockWaitMin"
+function Register-Job($taskName, $jobName, $prompt, $trigger, $timeoutMin, $lockWaitMin, $limitMin, $engine = "claude") {
+    $argStr = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$runner`" -Name $jobName -Prompt `"$prompt`" -Engine $engine -TimeoutMin $timeoutMin -LockWaitMin $lockWaitMin"
     $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument $argStr
     $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
         -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes $limitMin)
@@ -45,12 +46,14 @@ $postTriggers = $postTimes | ForEach-Object { New-ScheduledTaskTrigger -Daily -A
 Register-Job "blog-automation-task" "blog-post" "Read scripts/scheduled/prompts/blog-post.md and carry it out exactly." $postTriggers 60 20 80
 
 $weekly = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At "03:00"
-Register-Job "blog-topic-planning" "topic-planning" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: weekly" $weekly 150 30 170
+Register-Job "blog-topic-planning" "topic-planning" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: weekly" $weekly 150 30 170 "opencode"
 
 $topup = New-ScheduledTaskTrigger -Daily -At "04:00"
-Register-Job "blog-topic-topup" "topic-topup" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: topup" $topup 120 30 140
+Register-Job "blog-topic-topup" "topic-topup" "Read scripts/scheduled/prompts/topic-planning.md and carry it out exactly. Mode: topup" $topup 120 30 140 "opencode"
 
 # PPP reconciliation: applies platform changes requested from the netaManager app. Hourly (not
 # 15-30 min) to keep mutex contention with the 6 daily posting slots low -- see run-platform-sync.ps1.
-$pppSync = New-ScheduledTaskTrigger -Once -At "00:00" -RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration ([TimeSpan]::MaxValue)
+# The repetition duration must be a plain 10-year span: [TimeSpan]::MaxValue formats to
+# P99999999DT23H59M59S, which Register-ScheduledTask rejects as out of range (HRESULT 0x80041318).
+$pppSync = New-ScheduledTaskTrigger -Once -At "00:00" -RepetitionInterval (New-TimeSpan -Hours 1) -RepetitionDuration (New-TimeSpan -Days 3650)
 Register-SyncJob "blog-ppp-reconcile" $pppSync 10 30

@@ -448,7 +448,7 @@ private fun StatusCard(s: PipelineStatus, snap: Snapshot) {
         colors = CardDefaults.cardColors(containerColor = Color(0xFFEFF5F8)),
     ) {
         Column(Modifier.padding(12.dp)) {
-            Text("今日の投稿 ${s.todayPosts} / ${s.dailyLimit}　・　今日のモデル: ${engineName(s.engineToday)}", fontWeight = FontWeight.Bold)
+            Text("今日の投稿 ${s.todayPosts} / ${s.dailyLimit}　・　投稿: ${engineName(s.enginePost)}　・　ネタ会議: ${engineName(s.engineTopic)}", fontWeight = FontWeight.Bold)
             if (s.consecutiveFailures >= 3) {
                 Text("連続失敗 ${s.consecutiveFailures} 回のため自動投稿は停止中です", color = Color(0xFFB3261E))
             } else if (s.consecutiveFailures > 0) {

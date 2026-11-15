@@ -23,7 +23,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 改訂、ユーザー指示)**: 自動投稿（ネタ会議・補充・投稿）は**すべて Claude Code で行う**。2026-10-01 から試した opencode big-pickle との日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため**廃止**した。ローカルの Ollama も使わない。新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う（2026-11-15、ユーザー指示でネタ会議パートを全面的に opencode 化）。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**記事本文の生成には使わない**（ネタ会議＝本文を書かない工程のみ opencode）。ローカルの Ollama も使わない。新しい記事は `scripts/validate_post.py` の検査に通ったものだけ公開する。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
@@ -117,13 +117,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 `scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
-  - `blog-automation-task`: 投稿。毎日 07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00 の9回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`
-  - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）
-  - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）
-- **実行エンジン**: すべて Claude Code（`run-claude-task.ps1`）。big-pickle との日替わりは 2026-10-02 に廃止（上記「記事生成モデルの方針」）。
-- **Web 検索はサブエージェント（Haiku 4.5）に限定（2026-10-05、ユーザー指示）**: 投稿・ネタ会議とも、Web 検索は必ず Agent（general-purpose、`model: "haiku"`）に任せ、
-  メイン（opus）は WebSearch / WebFetch を直接呼ばない。調査量は**5サイト以上**（旧10サイト）。サブエージェントは調査のみで、ファイル・画像・ASIN には触らせない
-  （2026-10-03 の Haiku による画像偽造事故の再発防止）。指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`。
+  - `blog-automation-task`: 投稿。毎日 07:30 / 09:30 / 12:00 / 14:30 / 17:00 / 18:30 / 20:00 / 21:30 / 23:00 の9回（固定時刻、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。エンジンは Claude Code
+  - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）。エンジンは opencode（big-pickle）
+  - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）。エンジンは opencode（big-pickle）
+- **実行エンジン**: 投稿は Claude Code、ネタ会議・補充は opencode（big-pickle）。`run-claude-task.ps1` は `-Engine claude|opencode` で切り替える（`Invoke-Claude` / `Invoke-OpenCode`）。opencode 側は `opencode run --model opencode/big-pickle --agent build --auto` を実行する。タスク登録は `register-tasks.ps1` を再実行して反映する。
+- **Web 検索の担当（2026-10-05 → 2026-11-15 改訂、ユーザー指示）**:
+  - **投稿（blog-post）**: Web 検索は必ず Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）に任せ、メイン（opus）は WebSearch / WebFetch を直接呼ばない。
+  - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode（big-pickle）で動くので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
+  - 調査量は**5サイト以上**（旧10サイト）。投稿の調査サブエージェントは調査のみで、ファイル・画像・ASIN には触らせない（2026-10-03 の Haiku による画像偽造事故の再発防止）。
+  - 指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`。
 - **失敗した回の後片付け（2026-10-02）**: 投稿の回で記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録 のいずれかなら、
   `run-claude-task.ps1` が `topic_plan.py recover` を実行する（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）。
   連続失敗で止まったときは、原因に対処してから `topic_plan.py health-reset --reason ...` で解除する。指定のネタを優先したいときは queue の項目に `"pinned": true`。
