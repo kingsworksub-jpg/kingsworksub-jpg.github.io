@@ -3251,6 +3251,15 @@
    "reason": "run did not publish (finished); cleaned up",
    "engine": "claude",
    "at": "2026-11-15T20:00:38+09:00"
+  },
+  {
+   "id": "2026w42-045",
+   "category": "lab",
+   "theme": "PowerShellからCLIを無人で定期実行する",
+   "status": "failed",
+   "reason": "oc_generate: opencode deepseek-v4.1-flash-free returned 'Free usage limit reached' (no article generated)",
+   "engine": "claude",
+   "at": "2026-11-16T07:35:42+09:00"
   }
  ]
 }

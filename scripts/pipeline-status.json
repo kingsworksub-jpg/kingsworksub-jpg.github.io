@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-16T07:31:12+09:00",
+ "updated": "2026-11-16T07:35:42+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
-  "approved": 59,
-  "in_progress": 1
+  "approved": 60
  },
  "today_posts": 0,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published metronome-rhythm-practice-2026",
- "consecutive_failures": 0,
+ "last_result": "failed 2026w42-045: oc_generate: opencode deepseek-v4.1-flash-free returned 'Free usage limit reached' (no article generated)",
+ "consecutive_failures": 3,
  "current_job": {
   "job": "blog-post",
   "label": "投稿",
