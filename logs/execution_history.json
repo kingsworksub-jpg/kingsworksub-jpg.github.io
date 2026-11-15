@@ -6491,5 +6491,20 @@
       "薄い深掘り記事の加筆(要リサーチ)",
       "ローカルでseo-audit.py --check-links を実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T10:52:58Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のfrontmatter必須項目(title/date/description/images)、figure直後の見出し/区切り線、禁止タイトル表現を検査し逸脱0件。修正対象なし。薄い深掘り記事の加筆は要リサーチのため未着手(未完了)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事の加筆(要リサーチ)",
+      "ローカルでseo-audit.py --check-links を実行"
+    ]
   }
 ]
