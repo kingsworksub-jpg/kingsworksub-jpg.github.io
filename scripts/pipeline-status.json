@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T17:00:57+09:00",
+ "updated": "2026-11-15T17:16:19+09:00",
  "queue": {
-  "published": 157,
+  "published": 158,
   "rejected": 7,
   "approved": 59,
-  "in_progress": 2
+  "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published cubase-16-new-features-2026",
+ "last_result": "published metronome-rhythm-practice-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
