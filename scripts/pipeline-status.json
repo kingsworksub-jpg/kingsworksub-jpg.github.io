@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:05:02+09:00",
+ "updated": "2026-11-16T05:06:55+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published metronome-rhythm-practice-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-16T05:05:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-16T05:00:12+09:00",
+  "at": "2026-11-16T05:06:55+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "I ran the three follow-back commands at the same time instead of one by one. They all completed normally, but they shared the same X browser login data, so later runs should do them one at a time."
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-16T05:06:55+09:00",
+   "engine": "claude",
+   "detail": "I ran the three follow-back commands at the same time instead of one by one. They all completed normally, but they shared the same X browser login data, so later runs should do them one at a time."
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T03:00:12+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-16T02:52:43+09:00",
-   "engine": "claude",
-   "detail": "**念のため確認してほしい点**: 5人とも「相手がDM受信をXナンバー限定にしている」と判定されました。手順書ではこれをエラーとしては扱いませんが、11/5のテストでは3人中1人にDMが届いていたので、全員そろってこの判定になるのは不自然です。Xの画面が変わって、この判定が誤って出ている可能性があります。今回の結果からは本当の制限か誤判定か区別できないので、どれか1人の画面を開いて確かめるか、DMを受け付けている相手に `--send-dm` をドライランで試すと切り分けられます。"
   }
  ],
  "engine_post": "claude",
