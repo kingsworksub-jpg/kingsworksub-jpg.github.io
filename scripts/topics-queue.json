@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:00:38+09:00",
+ "updated": "2026-11-16T07:31:11+09:00",
  "items": [
   {
    "category": "gear",
@@ -8834,9 +8834,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-045",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-16T07:31:11+09:00",
+   "channel": "github",
+   "content_dir": "tech",
+   "slot_time": "07:30",
+   "slot_label": "朝: 検証メモ/個人備忘録"
   },
   {
    "category": "notes",
