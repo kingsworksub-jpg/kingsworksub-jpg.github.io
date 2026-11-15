@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:00:02+09:00",
+ "updated": "2026-11-15T09:00:12+09:00",
  "queue": {
   "published": 155,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published hugo-build-time-measure-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-15T09:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-15T08:52:24+09:00",
+  "at": "2026-11-15T09:00:12+09:00",
   "engine": "claude",
-  "detail": "一時ファイルは削除済みです。指示文どおり、commit や push はしていません。"
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-15T09:00:12+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-15T06:38:24+09:00",
    "engine": "claude",
    "detail": "なお、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定で認証してください（今回の作業には関係ありません）。"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-15T06:15:43+09:00",
-   "engine": "claude",
-   "detail": "実行しましたが、未対応の返信は0件でした。`--check-replies` はアカウント `@100labjtvn` として正常に動き、空の結果（`[]`）を返しました。手順書のとおり、返信もスキップもせずに終了しています。何も変更していないので、コミットや push もしていません。"
   }
  ]
 }
