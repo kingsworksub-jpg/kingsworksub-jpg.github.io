@@ -3233,6 +3233,24 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-15T17:16:19+09:00"
+  },
+  {
+   "id": "2026w42-002",
+   "category": "gear",
+   "theme": "オーディオインターフェースのマイクプリアンプ、ゲインを上げて音は変わるか",
+   "status": "failed",
+   "reason": "run did not publish (finished); cleaned up",
+   "engine": "claude",
+   "at": "2026-11-15T20:00:38+09:00"
+  },
+  {
+   "id": "2026w45-016",
+   "category": "setup",
+   "theme": "年末に制作環境を棚卸しする、使っていない機材とプラグインを来年の計画に変える",
+   "status": "failed",
+   "reason": "run did not publish (finished); cleaned up",
+   "engine": "claude",
+   "at": "2026-11-15T20:00:38+09:00"
   }
  ]
 }
