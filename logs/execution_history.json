@@ -6549,5 +6549,20 @@
       "薄い深掘り記事の加筆(要リサーチ・未完了)",
       "ローカルでseo-audit.py --check-links を実行(この環境ではPIL不具合で不可)"
     ]
+  },
+  {
+    "timestamp": "2026-11-15T14:53:38Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全250記事を再点検: description長(80-140字)・img属性・H2数・figure左右交互・figure直後の短文/見出しを検査。未巡回4記事(hot-buttered-rum-batter-guide-2026, hugo-build-time-measure-2026, powershell-import-csv-aggregate-notes, shiboritate-sake-winter-namazake-2026)も逸脱0件。figure直後の短文はanime-and-jazz/music-theory-3month-plan/daw・sampler比較記事の4件のみで、リスト導入文・バナー注記のため意図的と判断し修正せず。記事の変更なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事の加筆(要リサーチ・未完了)",
+      "ローカルでseo-audit.py --check-links を実行"
+    ]
   }
 ]
