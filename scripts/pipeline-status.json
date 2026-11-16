@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:45:02+09:00",
+ "updated": "2026-11-16T19:45:40+09:00",
  "queue": {
   "published": 160,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published chord-progression-learning-order-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-16T19:45:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-16T19:21:30+09:00",
+  "at": "2026-11-16T19:45:40+09:00",
   "engine": "claude",
-  "detail": "もう1点、Google Docsのコネクタが未認証です。使う場合は、claude.aiのコネクタ設定から認証してください。"
+  "detail": "One thing outside the routine: the claude.ai Google Docs connector needs authorizing in your claude.ai connector settings, and it won't work until you do. This task doesn't use it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-16T19:45:40+09:00",
+   "engine": "claude",
+   "detail": "One thing outside the routine: the claude.ai Google Docs connector needs authorizing in your claude.ai connector settings, and it won't work until you do. This task doesn't use it."
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T17:00:12+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-16T16:45:41+09:00",
-   "engine": "claude",
-   "detail": "- 起動時点で作業ツリーに未コミットの変更が多数ありました（`scripts/oc_generate.py`、`scripts/post-to-x.py` など）。今回の作業では触っていません。"
   }
  ],
  "engine_post": "claude",
