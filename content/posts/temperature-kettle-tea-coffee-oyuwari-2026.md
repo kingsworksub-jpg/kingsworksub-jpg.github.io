@@ -13,16 +13,16 @@ scheduled_time: "20:00"
 
 ## 湯温を変えると、同じ茶葉から出てくる成分が変わる
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0BR3P96P9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/temp-kettle/kettle-main.jpg" alt="温度調節機能付き電気ケトルの例" width="220" height="266" loading="lazy"></a>
+<figcaption>電気ケトル本体の例<span class="credit">Photo: Jacek Halicki / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 日本茶の淹れ方には「煎茶は70〜80℃、玉露は55〜60℃」という目安があります。これは好みの話ではなく、湯温によって抽出される成分の量とバランスが変わるためです。
 
 煎茶を中温（160〜175°F、約70〜80℃）で淹れると、渋み・苦みのもとになるカテキンと、甘み・うま味のもとになるテアニンなどのアミノ酸のバランスがよく出ます。湯温が高いほどカフェインは多く抽出されて渋く強い味になり、低温ではカフェインの抽出が少なく穏やかな味になります。
 
 つまり温度は「味の強さ」を決めるつまみです。茶葉の量、湯量、抽出時間が同じでも、湯温だけを変えれば別の飲み物になります。ここを毎回そろえられるかどうかが、一杯の再現性を分けます。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0BR3P96P9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/temp-kettle/kettle-main.jpg" alt="温度調節機能付き電気ケトルの例" width="220" height="266" loading="lazy"></a>
-<figcaption>電気ケトル本体の例<span class="credit">Photo: Jacek Halicki / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 **山善 温度調節機能付き電気ケトル EGL-C1281（0.8L・50〜100℃を1℃単位）**
 
@@ -86,12 +86,12 @@ scheduled_time: "20:00"
 
 ### バルミューダ MoonKettle：30分保温と0.9L
 
-50〜100℃を1℃単位で設定でき、KEEPボタンで30分間保温できます。容量は最大0.9L、最小0.3L、定格消費電力1200Wです。少量から沸かせるため、1〜2杯分だけ湯を使う場面でも無駄が少ない設計になっています。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0DYG9Z9NY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/temp-kettle/white-kettle.jpg" alt="白い電気ケトル" width="220" height="274" loading="lazy"></a>
 <figcaption>保温時間は機種ごとに異なる<span class="credit">Photo: Rafa / Public domain</span></figcaption>
 </figure>
+
+50〜100℃を1℃単位で設定でき、KEEPボタンで30分間保温できます。容量は最大0.9L、最小0.3L、定格消費電力1200Wです。少量から沸かせるため、1〜2杯分だけ湯を使う場面でも無駄が少ない設計になっています。
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0DYG9Z9NY?tag=nakimoto1-22)
 
@@ -107,12 +107,12 @@ scheduled_time: "20:00"
 
 ### Fellow Stagg EKG PRO：グースネックとHOLDモード
 
-初代のStagg EKGはメーカー廃盤で、現在は後継機のStagg EKG PROが販売されています。グースネックの細い注ぎ口、設定温度と現在温度を両方表示するディスプレイ、設定温度を保つHOLDモードを持ちます。注ぎの繊細さを優先する構成です。
-
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00CWXTEVY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/temp-kettle/pour-over-kettle.jpg" alt="細口ケトルでハンドドリップする様子" width="220" height="330" loading="lazy"></a>
 <figcaption>細口ノズルは注ぐ位置を決めやすい<span class="credit">Photo: HungryHuy / CC BY 2.0</span></figcaption>
 </figure>
+
+初代のStagg EKGはメーカー廃盤で、現在は後継機のStagg EKG PROが販売されています。グースネックの細い注ぎ口、設定温度と現在温度を両方表示するディスプレイ、設定温度を保つHOLDモードを持ちます。注ぎの繊細さを優先する構成です。
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B00CWXTEVY?tag=nakimoto1-22)
 
@@ -164,14 +164,14 @@ SCAの基準に沿うなら90〜96℃（195〜205°F）です。この帯を外�
 
 ## 温度計があると設定値と仕上がりを確かめられる
 
-ケトルの表示はあくまで設定温度で、カップに注いだ後の温度は少し下がります。とくに小さな器に注ぐお湯割りでは、器を温めるかどうかでも結果が変わります。
-
-タニタの料理用温度計 TT-508N のような関連アクセサリがあると、ケトルの設定と湯温、お湯割りの仕上がり40〜45℃を数値で確認できます。温度を扱う道具では、設定値と実際の値のずれを把握しておくことが、再現性の土台になります。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07CZ61DDS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/temp-kettle/shochu-glass.jpg" alt="焼酎のグラス" width="220" height="176" loading="lazy"></a>
 <figcaption>仕上がり温度は温度計で確かめると再現しやすい<span class="credit">Photo: https://publicdomainq.net/shochu-japanese-liquor-0014762/ / CC0</span></figcaption>
 </figure>
+
+ケトルの表示はあくまで設定温度で、カップに注いだ後の温度は少し下がります。とくに小さな器に注ぐお湯割りでは、器を温めるかどうかでも結果が変わります。
+
+タニタの料理用温度計 TT-508N のような関連アクセサリがあると、ケトルの設定と湯温、お湯割りの仕上がり40〜45℃を数値で確認できます。温度を扱う道具では、設定値と実際の値のずれを把握しておくことが、再現性の土台になります。
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B07CZ61DDS?tag=nakimoto1-22)
 

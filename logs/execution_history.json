@@ -6889,5 +6889,27 @@
       "ウイスキー深掘り14本の加筆(リサーチ要・未着手)",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T15:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "chord-progression-learning-order-2026",
+      "temperature-kettle-tea-coffee-oyuwari-2026"
+    ],
+    "actions": [
+      "figureを段落途中から該当セクション見出し直後へ移動(CLAUDE.md 画像レイアウト規則に準拠、左右交互は維持)",
+      "同規則の未対応が残る記事: alan-boguslavsky-stage, cool-jazz-birth-of-the-cool, hammond-b3-jazz-organ-2026, hard-bop-blue-note-golden-age, jazz-festivals-2026, jazz-shoes-trend-2026, jazz-style-fashion-revival-2026, modal-jazz-challenge(見出し前の---直後等で要個別判断・未着手)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/chord-progression-learning-order-2026.md",
+      "content/posts/temperature-kettle-tea-coffee-oyuwari-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り8記事のfigure配置修正",
+      "hugoビルドはこの環境で不可、ローカルで確認"
+    ]
   }
 ]

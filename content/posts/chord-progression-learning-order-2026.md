@@ -45,6 +45,11 @@ scheduled_time: "17:30"
 
 ## 前提: 度数と3つの機能を先に置く
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/c-major-scale-keyboard.jpg" alt="鍵盤上にハ長調の音階を示した図" width="220" height="55" loading="lazy"></a>
+<figcaption>ハ長調の音階と鍵盤の位置。度数を指の位置に結びつける<span class="credit">Photo: Guypeter4 / CC0</span></figcaption>
+</figure>
+
 コード進行の理論では、ダイアトニックコードの機能をトニック、サブドミナント、ドミナントの3つに分類します。トニックは落ち着く場所、サブドミナントはそこから離れる場所、ドミナントは解決を求める場所です。
 
 この3つは、曲のどこにいても現在地を示してくれます。トニックにいれば安定、サブドミナントにいれば移動中、ドミナントにいれば戻る直前、という具合です。コード名を追うのではなく、この状態の移り変わりを追うのが聴き取りの近道になります。
@@ -54,11 +59,6 @@ scheduled_time: "17:30"
 耳で覚えるときは、ベースの動きに注目します。順次進行か跳躍か、上行か下行かだけでも、進行の種類はかなり絞れます。viは暗く聞こえるトニックの代理で、V→Iは強く解決する、という2点も判断材料になります。
 
 機能の並びには、おおまかな流れがあります。トニックから離れてサブドミナントへ向かい、ドミナントを経てトニックへ戻る、という往復です。この往復を意識すると、4つの進行の違いは「どこを省略し、どこを繰り返すか」の差として整理できます。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/c-major-scale-keyboard.jpg" alt="鍵盤上にハ長調の音階を示した図" width="220" height="55" loading="lazy"></a>
-<figcaption>ハ長調の音階と鍵盤の位置。度数を指の位置に結びつける<span class="credit">Photo: Guypeter4 / CC0</span></figcaption>
-</figure>
 
 用語の意味を都度調べ直すのが負担なら、入門用の教科書を1冊、辞書代わりに置いておく方法があります。よくわかる音楽理論の教科書（秋山公良、CDつき）は、音源と用語を往復しながら確認する用途に向いています。→ [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/4636903676?tag=nakimoto1-22)
 
@@ -88,6 +88,11 @@ I–V–vi–IVは、西洋のポップミュージック全般で幅広く使�
 
 ## 3つ目: 12小節ブルースは、3コードで12小節
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/twelve-bar-blues-in-c.jpg" alt="ハ長調の12小節ブルースのコード配置を示した譜面" width="220" height="137" loading="lazy"></a>
+<figcaption>12小節ブルースの標準形。I・IV・Vの配置を小節番号で追う<span class="credit">Photo: Hyacinth at English Wikipedia / Public domain</span></figcaption>
+</figure>
+
 12小節ブルース（Twelve-bar blues）は、I、IV、Vの3つのコードを基本として12小節のサイクルを繰り返すブルースの基礎構造です。コードの数を増やすのではなく、同じ3つを配置で覚える点がこれまでと異なります。
 
 標準形は、1〜4小節がI、5〜6小節がIV、7〜8小節がI、9小節がV、10小節がIV、11〜12小節がI（ターンアラウンド）です。ハ長調ではC7・F7・G7のようにドミナントセブンスで弾くことが多く、2小節目をIVにするクイックチェンジという変形もあります。
@@ -95,11 +100,6 @@ I–V–vi–IVは、西洋のポップミュージック全般で幅広く使�
 コードが3つしかないため、間違えても「崩れた」と分かりやすいのも利点です。逆に、配置を覚えてしまえば、12小節のどこにいても次に何が来るかを予測できます。
 
 12小節を数えながら弾く練習は、小節という時間の単位を体に入れる作業でもあります。コード進行を「点」ではなく「長さ」として捉えられるようになると、曲の構成を読むのが楽になります。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/twelve-bar-blues-in-c.jpg" alt="ハ長調の12小節ブルースのコード配置を示した譜面" width="220" height="137" loading="lazy"></a>
-<figcaption>12小節ブルースの標準形。I・IV・Vの配置を小節番号で追う<span class="credit">Photo: Hyacinth at English Wikipedia / Public domain</span></figcaption>
-</figure>
 
 耳で確かめる段階では、鍵盤があると配置の確認が速くなります。Akai Professional MPK Mini IVは25鍵のMIDIキーボードで、コード／スケールモードを内蔵しています。→ [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22)
 
@@ -153,6 +153,11 @@ ii–V–Iは、曲の中で何度も出てくる小さな部品として使わ�
 
 ## 次の一歩: カノン進行と王道進行
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0GFC6KXX9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/pachelbel-canon-page1.jpg" alt="パッヘルベルのカノンの手書き楽譜の1ページ" width="220" height="182" loading="lazy"></a>
+<figcaption>カノンの楽譜。8小節の反復構造を目で追う<span class="credit">Photo: Johann Pachelbel (music), Anon. (this manuscript copy), Staatsbibliothek zu Berl / Public domain</span></figcaption>
+</figure>
+
 4つが一周できたら、次の2つを足します。1つ目はパッヘルベルのカノンの進行で、I–V–vi–iii–IV–I–IV–V、ニ長調ではD–A–Bm–F#m–G–D–G–Aです。作曲年は1680〜1706年の間とされ、正確には分かっていません。
 
 2つ目は日本の王道進行で、IV–V–iii–vi、ハ長調ではF–G–Em–Amです。セブンス付きならIVmaj7–V7–iiim7–vimとなり、J-POPやアニメソングに多く見られます。2023年のMusic Theory Spectrum誌の論文が、日本のヒット曲での多さを扱いました。
@@ -160,11 +165,6 @@ ii–V–Iは、曲の中で何度も出てくる小さな部品として使わ�
 カノン進行は8つのコードを含むため、4つずつに区切って聴くと理解が早まります。王道進行はIV始まりで、トニックから始まらない点がこれまでの4つと大きく異なります。
 
 この2つに共通するのは、viやiiiといったトニック代理を経由する点です。4つ目のii–V–Iで終止を学んだあとであれば、経由するコードの役割が読み取りやすくなります。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0GFC6KXX9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/pachelbel-canon-page1.jpg" alt="パッヘルベルのカノンの手書き楽譜の1ページ" width="220" height="182" loading="lazy"></a>
-<figcaption>カノンの楽譜。8小節の反復構造を目で追う<span class="credit">Photo: Johann Pachelbel (music), Anon. (this manuscript copy), Staatsbibliothek zu Berl / Public domain</span></figcaption>
-</figure>
 
 聴いた進行を書き留める段階では、紙の五線譜が手放せません。nijimomo 五線譜ノート 大譜表 A4 50枚は、度数とコード名を並べて書き込む用途に向いています。→ [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0GFC6KXX9?tag=nakimoto1-22)
 
