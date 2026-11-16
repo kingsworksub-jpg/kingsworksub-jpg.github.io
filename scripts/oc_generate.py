@@ -36,6 +36,7 @@ import json
 import os
 import re
 import shutil
+import signal
 import subprocess
 import sys
 import tempfile
@@ -148,6 +149,27 @@ def find_opencode() -> str:
     die("opencode CLI not found on PATH (looked for 'opencode' and " + FALLBACK_EXE + ")")
 
 
+def kill_tree(proc: subprocess.Popen) -> None:
+    """Kill opencode and its children.
+
+    On Windows ``opencode`` is a .CMD shim that starts node.exe; killing only
+    the shim leaves the node process (and its private server) running, which
+    kept the 2026-11-16 flint run stuck after the timeout.  taskkill /T takes
+    the whole tree down.
+    """
+    if os.name == "nt":
+        try:
+            subprocess.run(["taskkill", "/F", "/T", "/PID", str(proc.pid)],
+                           capture_output=True, timeout=30)
+        except (OSError, subprocess.SubprocessError):
+            pass
+        return
+    try:
+        os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+    except (OSError, ProcessLookupError):
+        pass
+
+
 def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
     exe = find_opencode()
     # The message is piped on stdin: the Windows opencode.CMD shim truncates a
@@ -161,13 +183,22 @@ def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
     env["PWD"] = cwd
     env["OLDPWD"] = cwd
     try:
-        proc = subprocess.run(cmd, cwd=cwd, env=env, input=prompt, capture_output=True,
-                              encoding="utf-8", errors="replace", timeout=timeout)
-    except subprocess.TimeoutExpired:
-        die(f"opencode timed out after {timeout}s")
+        proc = subprocess.Popen(cmd, cwd=cwd, env=env, stdin=subprocess.PIPE,
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                encoding="utf-8", errors="replace",
+                                start_new_session=(os.name != "nt"))
     except OSError as exc:
         die(f"failed to launch opencode: {exc}")
-    return proc.returncode, proc.stdout or "", proc.stderr or ""
+    try:
+        stdout, stderr = proc.communicate(input=prompt, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        kill_tree(proc)
+        try:
+            proc.communicate(timeout=15)
+        except subprocess.TimeoutExpired:
+            pass
+        die(f"opencode ({MODEL}) timed out after {timeout}s; process tree killed")
+    return proc.returncode, stdout or "", stderr or ""
 
 
 def strip_fences(text: str) -> str:
