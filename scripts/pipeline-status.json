@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:45:30+09:00",
+ "updated": "2026-11-17T07:46:14+09:00",
  "queue": {
   "published": 163,
   "rejected": 8,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published powershell-task-scheduler-lock-log-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-17T07:45:30+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-17T07:45:24+09:00",
+  "at": "2026-11-17T07:46:14+09:00",
   "engine": "claude",
-  "detail": "Separately, `og_dimensions.py` reported that `tsundoku-antilibrary-2026.md` has no OG image; that's unrelated to this post."
+  "detail": "別件ですが、claude.ai の Google Docs コネクタが未承認になっています。使う場合は claude.ai のコネクタ設定から承認してください。今回の作業には関係ありません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-17T07:46:14+09:00",
+   "engine": "claude",
+   "detail": "別件ですが、claude.ai の Google Docs コネクタが未承認になっています。使う場合は claude.ai のコネクタ設定から承認してください。今回の作業には関係ありません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T05:31:02+09:00",
    "engine": "claude",
    "detail": "別件として、claude.ai の Google Docs コネクタが未認証です。使う場合は claude.ai のコネクタ設定から認証してください。このタスクには関係ありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-17T05:06:55+09:00",
-   "engine": "claude",
-   "detail": "I deleted the temporary message files. The four skipped accounts will show up again next run, which is expected because nothing records them."
   }
  ],
  "engine_post": "claude",
