@@ -6839,5 +6839,21 @@
       "ウイスキー深掘り10本の加筆は要リサーチで未着手",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T10:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のfigure配置を点検。見出し直後でないfigureが12件(うち4件はアイキャッチ直後のhr前、他は段落の間)。いずれも直後の段落が回り込むため表示崩れはなく、今回は修正せず",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figureが段落間にある記事(chord-progression-learning-order-2026, hammond-b3-jazz-organ-2026, jazz-festivals-2026等)を見出し直後へ移す是非を検討",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
