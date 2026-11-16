@@ -6752,5 +6752,24 @@
       "全記事点検済みのため次回は古い記事の本文リライト/内部リンク密度を再評価",
       "seo-audit.pyはPIL不具合でこの環境では未実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T04:53:26Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hello"
+    ],
+    "actions": [
+      "全250記事の内部リンク数・description長を再点検。問題なし。唯一の孤立記事helloに入口リンク3本を追加(hugo未導入のためビルド未実行)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/hello.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事0件(ローカルseo-audit.pyで確認)",
+      "薄い記事の加筆は要リサーチで未着手"
+    ]
   }
 ]
