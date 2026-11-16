@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:11:40+09:00",
+ "updated": "2026-11-16T22:12:01+09:00",
  "queue": {
   "published": 162,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published daiku-december-japan-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-16T21:30:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-16T21:17:08+09:00",
+  "at": "2026-11-16T22:12:01+09:00",
   "engine": "claude",
-  "detail": "Separately, the session reported that the claude.ai Google Docs connector needs authorization. It isn't used for this task, but it stays unavailable until you authorize it in your claude.ai connector settings."
+  "detail": "`convert-to-note.py` and `og_dimensions.py` will hit the same gap on every note-slot run until they're taught to read `content/note-only/`."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-16T22:12:01+09:00",
+   "engine": "claude",
+   "detail": "`convert-to-note.py` and `og_dimensions.py` will hit the same gap on every note-slot run until they're taught to read `content/note-only/`."
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T19:00:34+09:00",
    "engine": "claude",
    "detail": "`python scripts/post-to-x.py --check-replies` で確認したところ、@100labjtvn への新しい返信は0件でした。手順書どおり、何もせずに終了しました。返信もスキップもしておらず、ファイルの変更やコミットもありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-16T18:36:39+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ],
  "engine_post": "claude",
