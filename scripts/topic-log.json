@@ -3313,6 +3313,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-16T20:29:13+09:00"
+  },
+  {
+   "id": "2026w46-006",
+   "category": "music",
+   "theme": "年末の第九はなぜ日本の12月に集まったのか、1918年の板東俘虜収容所から1万人の合唱まで",
+   "slug": "daiku-december-japan-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/daiku-december-japan-2026/",
+   "hatena_entry": null,
+   "note_key": "na48ef4b73c19",
+   "engine": "claude",
+   "at": "2026-11-16T22:11:39+09:00"
   }
  ]
 }

@@ -349,10 +349,12 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - **タスク**: `blog-x-following-reply-task`、登録スクリプト `scripts/schedule-following-reply.ps1`、ログ `scripts/scheduled/logs/x-following-reply.log`。
   タスク自体は**1日1回（06:10）＋ログオン時に常駐プロセスを起動するだけ**で、実際の実行間隔はPython側が決める。
   固定45分間隔は機械的でbot検知されやすいため、2026-11-16にユーザー指示でランダム化した。
-  - 日中（07:00-22:59）: 20〜50分のランダム
+  - 日中（07:00-22:59）: 18〜45分のランダム
   - 深夜（23:00-06:59）: 80〜150分のランダム
   - 8%の確率でさらに1.4〜1.9倍に間隔を伸ばす（連続実行に見せない）
-  - 合計で **1日約30サイクル（日中26・深夜4）**、返信は1サイクル最大1件・1日最大30件
+  - 合計で **1日約33サイクル（深夜4）**。他のXジョブ（ブログ投稿・返信・いいね）がロックを持つ時間帯は
+    サイクルをスキップし、3〜8分後に再試行するため、実効では1日30サイクル前後になる。
+    返信は1サイクル最大1件・1日最大30件
   実行は `scripts/scheduled/run-following-reply.ps1` → `x-following-reply.py --loop --publish`。
   他Xタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
   ```powershell
@@ -379,7 +381,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   `[data-testid="tweetTextarea_0"]` → `[data-testid="tweetButton"]` → モーダルが閉じたら成功。
   **背景のインライン入力欄と取り違えないよう、必ずダイアログ内を探すこと**（2026-11-16 にこれで詰まった）。
 - **排他制御**: `data/x_user_data` を他のXジョブと共有するため、`Local\kingsworksub-blog-x-jobs` ミューテックスを
-  スクリプト自身が1サイクルごとに取得（10秒待ち）し、取れなければそのサイクルをスキップする。
+  スクリプト自身が1サイクルごとに取得（`X_MUTEX_WAIT_SEC`、既定120秒待ち）し、取れなければそのサイクルを
+  スキップして数分後に再試行する（x-auto-like の1サイクルは数十秒なので、待てばほぼ通る）。
   異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
 - **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大30件（`X_MAX_REPLIES_PER_DAY`）。候補収集は最大12件（`X_SCAN_LIMIT`）。
   環境変数で上書き可（`X_MAX_REPLIES_PER_DAY` / `X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
@@ -820,6 +823,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学 | https://note.com/shining_finger01/n/nf03086ef5afb | `nf03086ef5afb` | **公開済(2026-11-07・note専用)** |
 | 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏子・渡辺貞夫から上原ひろみまで | https://note.com/shining_finger01/n/n5cd1fd7d0bce | `n5cd1fd7d0bce` | **公開済(2026-11-07・note専用)** |
 | フリージャズの聴き方、オーネット・コールマンが手放した和音と拍のあとに残るもの | https://note.com/shining_finger01/n/nb598edf8f0df | `nb598edf8f0df` | **公開済(2026-11-14・note専用)** |
+| 12月に第九が鳴るまで、1918年の徳島から1万人の合唱へ | https://note.com/shining_finger01/n/na48ef4b73c19 | `na48ef4b73c19` | **公開済(2026-11-16・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
 - `convert-to-note.py` は figure のクレジットが `<figcaption>` の内側・直後どちらでも画像を拾う(以前は直後にある形式の図版を丸ごと削除していた)。画像を `<a href="https://www.amazon...">` で包んだ図版は、画像の後に `Amazonで見る: URL` の行を足す(note は画像にリンクを付けられないため)。
