@@ -3334,6 +3334,14 @@
    "reason": "oc_generate: opencode deepseek-v4.1-flash-free 'Free usage limit reached' (3 attempts)",
    "engine": "claude",
    "at": "2026-11-16T23:04:27+09:00"
+  },
+  {
+   "id": "",
+   "category": "",
+   "theme": "",
+   "status": "health-reset",
+   "reason": "model switched from deepseek to gemini due to free usage limit",
+   "at": "2026-11-17T07:24:01+09:00"
   }
  ]
 }
