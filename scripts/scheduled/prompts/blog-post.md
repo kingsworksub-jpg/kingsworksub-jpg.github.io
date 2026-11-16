@@ -48,15 +48,16 @@ Android アプリで削除されたネタはここで自動的に除外され、
 
 1. 次のどちらかのポリシーで実行する（`<slug>` はまだ無ければ claim した `id` でよい）。
    - 製品・機材・ソフト・飲料など実在確認が主: `--source-policy official`
-   - 音楽・エッセイ・文化・歴史など: `--source-policy any`
+   - 音楽・エッセイ・文化・歴史・学習・理論など: `--source-policy any`
    ```
    python scripts/oc_research.py --theme "<theme>" --angle "<angle>" --category "<category>" \
      --sources "<url1>,<url2>" --source-policy <official|any> \
      --out /tmp/<slug>-research.json
    ```
    出力は `facts`（出典URL付き）・`entities`（current / discontinued / unverified）・`numbers`・`unverified`・
-   `sources_checked` のJSON。終了コードが0で、facts 5件以上・出典URLの到達確認・言語混入チェックを通ったものだけを使う。
-2. **失敗時のフォールバック**: 終了コードが0以外、facts が5件未満、出典が怪しい、内容が薄い場合は、
+   `sources_checked` のJSON。終了コードが0で、facts 4件以上・出典URLの到達確認・言語混入チェックを通ったものだけを使う。
+   実行ログは `scripts/scheduled/logs/oc-research.log` に残る（失敗理由の確認に使う）。
+2. **失敗時のフォールバック**: 終了コードが0以外、facts が4件未満、出典が怪しい、内容が薄い場合は、
    従来どおり Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"`（Haiku 4.5）で起動する。
    - 依頼内容: ネタの `sources` から始めて、合計5サイト以上（英語の情報源を優先）を調べる。製品・人物・作品が実在し現在の情報であることを確かめる。
    - 返してもらうもの: 調べた事実の要点（出典URL付き）、現行モデル・最新版かどうか、確かめられなかった点。

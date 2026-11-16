@@ -13,7 +13,7 @@ Usage:
     python scripts/oc_research.py --brief /tmp/<slug>-brief.json --out ...
 
 Exit code is 0 only when the returned JSON passes the checks below:
-  - facts >= --min-facts (default 5) and sources_checked >= --min-sources (5)
+  - facts >= --min-facts (default 4) and sources_checked >= --min-sources (5)
   - every fact has an http(s) source_url
   - sources include an official source (--source-policy official; the default) or
     an official/reference source (--source-policy any, for culture topics)
@@ -40,6 +40,8 @@ MODEL = os.environ.get("OC_RESEARCH_MODEL", "google/gemini-3.5-flash-lite")
 AGENT = "build"
 DEFAULT_TIMEOUT = int(os.environ.get("OC_RESEARCH_TIMEOUT", "300"))
 FALLBACK_EXE = r"C:\Users\norio\AppData\Roaming\npm\opencode.cmd"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEFAULT_LOG = os.path.join(REPO_ROOT, "scripts", "scheduled", "logs", "oc-research.log")
 LANG_MIX = re.compile(r"[\u0400-\u04FF\u0E00-\u0E7F\uAC00-\uD7AF]")  # Cyrillic, Thai, Hangul
 
 PROMPT = """\
@@ -55,10 +57,11 @@ PROMPT = """\
 
 ## ルール
 - 合計 {min_sources} サイト以上を調べる。英語圏の情報源を優先する。
+- facts は {min_facts} 件以上（可能なら6件以上）作る。1つの事実につき1つの出典URLを付ける。
 - {official_rule}
 - 製品・人物・作品が実在し、現在の情報か（現行モデルか、生産終了していないか）を確認する。
 - 数値（価格・寸法・発売日・スペック）は、出典URLがあるものだけ書く。
-- 確認できなかった点は unverified に書く。推測で埋めない。
+- 確認できなかった点は unverified に書く。推測で埋めない。空欄を恐れず、事実だけを書く。
 - sources_checked には、実際に開けて内容を確認したURLだけを書く。
 - type は official（メーカー・主催者の公式）、reference（Wikipedia・事典・公的機関）、review（レビュー）、news（ニュース）、other から選ぶ。
 - 出力する文字列は日本語にする（製品名・URL・固有名詞の英字は可）。
@@ -94,6 +97,18 @@ def die(msg: str) -> "NoReturn":
 def read_text(path: str) -> str:
     with open(path, encoding="utf-8-sig") as fh:
         return fh.read()
+
+
+def log_event(path: str, msg: str) -> None:
+    if not path:
+        return
+    try:
+        os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+        stamp = dt.datetime.now().isoformat(timespec="seconds")
+        with open(path, "a", encoding="utf-8", newline="\n") as fh:
+            fh.write(f"[{stamp}] {msg}\n")
+    except OSError as exc:
+        print(f"oc_research: log write failed: {exc}", file=sys.stderr)
 
 
 def find_opencode() -> str:
@@ -263,14 +278,18 @@ def build_prompt(args: argparse.Namespace) -> str:
     return PROMPT.format(theme=args.theme, angle=args.angle or "指定なし",
                          category=args.category or "指定なし", sources=sources,
                          subjects=subjects, min_sources=args.min_sources,
-                         official_rule=official_rule)
+                         min_facts=args.min_facts, official_rule=official_rule)
 
 
 def research(args: argparse.Namespace) -> dict:
     prompt = build_prompt(args)
     last_errs: list[str] = []
     last_text = ""
-    for attempt in range(1, args.retries + 2):
+    attempts = args.retries + 1
+    log_event(args.log, f"start model={MODEL} policy={args.source_policy} "
+                        f"min_facts={args.min_facts} min_sources={args.min_sources} "
+                        f"sources={len(args.sources)} theme={args.theme!r} out={args.out}")
+    for attempt in range(1, attempts + 1):
         scratch = tempfile.mkdtemp(prefix="oc-research-")
         try:
             rc, stdout, stderr = run_opencode(prompt, scratch, args.timeout)
@@ -293,14 +312,19 @@ def research(args: argparse.Namespace) -> dict:
                     obj["model"] = MODEL
                     obj["researched_at"] = dt.datetime.now(
                         dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
+                    nf, ns = len(obj.get("facts", [])), len(obj.get("sources_checked", []))
+                    log_event(args.log, f"attempt {attempt}/{attempts} ok facts={nf} sources={ns}")
+                    log_event(args.log, f"result=ok facts={nf} sources={ns}")
                     return obj
-        if attempt <= args.retries:
-            print(f"oc_research: attempt {attempt} failed; retrying: {'; '.join(last_errs)}",
+        log_event(args.log, f"attempt {attempt}/{attempts} fail: {'; '.join(last_errs)}")
+        if attempt < attempts:
+            print(f"oc_research: attempt {attempt}/{attempts} failed; retrying: {'; '.join(last_errs)}",
                   file=sys.stderr)
             prompt += ("\n\n## 前回の出力の問題（必ず直す）\n- "
                        + "\n- ".join(last_errs)
-                       + "\nJSON だけを返し直してください。\n")
+                       + f"\nJSON だけを返し直してください。facts は{args.min_facts}件以上必要です。\n")
     snippet = last_text[-400:].replace("\n", " ")
+    log_event(args.log, f"result=fail after {attempts} attempts: {'; '.join(last_errs)}")
     die("research failed after retries:\n  - " + "\n  - ".join(last_errs)
         + f"\n  last_text={snippet!r}")
 
@@ -318,15 +342,17 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--sources", default="", help="comma-separated starting URLs")
     ap.add_argument("--subjects", default="", help="comma-separated comparison targets")
     ap.add_argument("--min-sources", type=int, default=5)
-    ap.add_argument("--min-facts", type=int, default=5)
+    ap.add_argument("--min-facts", type=int, default=4)
     ap.add_argument("--source-policy", choices=("official", "any"), default="official",
                     help="official: 公式サイト必須 / any: 公式または一次資料")
     ap.add_argument("--check-urls", dest="check_urls", action="store_true", default=True,
                     help="check source URLs and fail on 404/410/connection errors (default)")
     ap.add_argument("--no-check-urls", dest="check_urls", action="store_false")
-    ap.add_argument("--retries", type=int, default=2)
+    ap.add_argument("--retries", type=int, default=3)
     ap.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT)
     ap.add_argument("--out", help="write JSON here instead of stdout")
+    ap.add_argument("--log", default=DEFAULT_LOG, help="append run log here (default: scripts/scheduled/logs/oc-research.log)")
+    ap.add_argument("--no-log", dest="log", action="store_const", const="", default=DEFAULT_LOG)
     args = ap.parse_args(argv)
 
     if args.brief:

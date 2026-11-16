@@ -120,7 +120,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   **投稿の生成だけ**は Claude Code から `python scripts/oc_generate.py` を呼び、opencode の `opencode/deepseek-v4.1-flash-free`（`--agent build --auto --archived --standalone`）で本文・タイトル・frontmatter・画像の選定と配置・X投稿文を作る（2026-11-15、ユーザー指示）。タスク登録は `register-tasks.ps1` を再実行して反映する。
 - **Web 検索の担当（2026-10-05 → 2026-11-15 → 2026-11-16 改訂、ユーザー指示）**:
   - **投稿（blog-post）**: リサーチは `python scripts/oc_research.py`（opencode / `google/gemini-3.5-flash-lite`）を第一候補にする。メイン（opus）は WebSearch / WebFetch を直接呼ばない。
-    失敗時（終了コード非0、facts 5件未満、出典が怪しい）のみ、Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）へフォールバックする。
+    失敗時（終了コード非0、facts 4件未満、出典が怪しい）のみ、Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）へフォールバックする。実行ログは `scripts/scheduled/logs/oc-research.log`。
   - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode（big-pickle）で動くので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
   - 調査量は**5サイト以上**（旧10サイト）。投稿の調査は読み取り専用で、ファイル・画像・ASIN には触らせない（2026-10-03 の Haiku による画像偽造事故の再発防止）。
   - 指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`、実装は `scripts/oc_research.py`。
