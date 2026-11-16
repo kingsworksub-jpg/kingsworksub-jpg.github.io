@@ -2952,5 +2952,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-16T15:00:10+09:00"
+ },
+ "chord-progression-learning-order-2026": {
+  "title": "コード進行は4つから覚える、度数と機能で耳を分ける学習の順番",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-16T19:00:46+09:00"
  }
 }
