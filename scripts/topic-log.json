@@ -3277,6 +3277,18 @@
    "reason": "run did not publish (timeout); cleaned up",
    "engine": "claude",
    "at": "2026-11-16T13:00:23+09:00"
+  },
+  {
+   "id": "2026w45-016",
+   "category": "setup",
+   "theme": "年末に制作環境を棚卸しする、使っていない機材とプラグインを来年の計画に変える",
+   "slug": "studio-gear-year-end-inventory-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/studio-gear-year-end-inventory-2026/",
+   "hatena_entry": "14729835035339177824",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-16T14:27:58+09:00"
   }
  ]
 }
