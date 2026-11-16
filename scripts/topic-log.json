@@ -3260,6 +3260,14 @@
    "reason": "oc_generate: opencode deepseek-v4.1-flash-free returned 'Free usage limit reached' (no article generated)",
    "engine": "claude",
    "at": "2026-11-16T07:35:42+09:00"
+  },
+  {
+   "id": "",
+   "category": "",
+   "theme": "",
+   "status": "health-reset",
+   "reason": "reset after investigating 3 failed post runs (2026w42-002,2026w45-016,2026w42-045)",
+   "at": "2026-11-16T11:42:42+09:00"
   }
  ]
 }
