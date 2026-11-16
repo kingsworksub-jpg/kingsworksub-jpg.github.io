@@ -18,7 +18,7 @@ scheduled_time: "12:00"
 この記事では、機材とプラグインを書き出して台帳を作り、売る・譲る・残すの3つに分け、ライセンスの譲渡条件を確かめて、実際に手放すまでの順番をまとめる。最後に、浮いた予算を来年の計画へどうつなげるかを考える。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B08P4CN4YC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/gear-inventory/portable-ssd.jpg" alt="SanDisk Extreme Portable SSD">
+<img src="/images/gear-inventory/portable-ssd.jpg" alt="SanDisk Extreme Portable SSD" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">SanDisk Extreme Portable SSD（手放す前のデータ退避に）</span>
 <span class="product-banner-cta">Amazonで見る →</span>
@@ -155,7 +155,7 @@ Native Instrumentsのグループは、2026年に大きく形が変わった。�
 外付けSSDを1台用意しても、置き場所に困ることはほとんどない。手のひらに収まる大きさで、机の引き出しにそのまま入る。電源もUSBケーブル1本でとれるので、使うときだけつなげばいい。プロジェクトの書き出しを置いておくだけなら、1TBあればしばらくは足りるはずだ。
 
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B08P4CN4YC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/gear-inventory/portable-ssd.jpg" alt="SanDisk Extreme Portable SSD">
+<img src="/images/gear-inventory/portable-ssd.jpg" alt="SanDisk Extreme Portable SSD" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">SanDisk Extreme Portable SSD</span>
 <span class="product-banner-cta">Amazonで見る →</span>

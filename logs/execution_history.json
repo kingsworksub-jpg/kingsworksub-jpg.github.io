@@ -6947,5 +6947,26 @@
       "ローカルでseo-audit.py --check-links実行",
       "前回保留の2枚目figure配置の方針決定"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T17:53:34Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "studio-gear-year-end-inventory-2026"
+    ],
+    "actions": [
+      "全公開記事のimg属性(alt/width/loading)・figure直後の見出し/---を点検",
+      "studio-gear-year-end-inventory-2026のproduct-banner画像2箇所にwidth/height=120を追加(レイアウトシフト防止、他記事のバナーと統一)",
+      "他の指摘(cubase-16・metronomeのバナー)はバナー側120x120指定済みで問題なし",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/studio-gear-year-end-inventory-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "2枚目figure配置の方針決定(前回から保留)"
+    ]
   }
 ]
