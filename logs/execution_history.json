@@ -6787,5 +6787,21 @@
       "ウイスキー深掘り10本(特に ballantines-finest/suntory-kakubin)は未完了: 要リサーチで加筆",
       "次回以降は内容の事実確認・古い情報の更新を重点に"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T06:54:23Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事の description/images 欠落・H2不足・figure直後の見出し・禁止表現(隅から隅まで/全機能解剖/実際に〜てみた等)を一括lint。違反0件で修正なし(seo-audit.pyはPIL不具合でこの環境では実行不可)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ウイスキー深掘り10本の加筆は要リサーチで未着手",
+      "ローカルPCでseo-audit.py --check-linksを実行し外部リンク切れを確認"
+    ]
   }
 ]
