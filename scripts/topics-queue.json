@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:00:23+09:00",
+ "updated": "2026-11-16T14:04:51+09:00",
  "items": [
   {
    "category": "gear",
@@ -11872,12 +11872,13 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-016",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "claimed_at": "2026-11-16T14:10:00+09:00"
   },
   {
    "category": "setup",
@@ -13099,7 +13100,6 @@
    "status": "approved",
    "created": "2026-11-15",
    "retry": 1,
-   "claimed_at": "2026-11-16T12:01:12+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
