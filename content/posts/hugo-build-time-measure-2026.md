@@ -130,7 +130,7 @@ HugoはGo言語で書かれた静的サイトジェネレーターで、2013年�
 - [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)
 - [画像の知覚ハッシュをPythonで比べた記録、縮小では動かず左右反転で30ビット変わる](/posts/python-perceptual-hash-image-compare/)
 - [PowerShell 5.1がBOMなしUTF-8の.ps1を読み違えるとき、消えるのは引用符と改行だった](/posts/powershell-utf8-bom-notes/)
-- [Hugoの記事が「未来の記事」として静かに消える、timeZoneとbuildFutureの落とし穴](/posts/hugo-timezone-buildfuture-notes/)
+- [Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture](/posts/hugo-timezone-buildfuture-notes/)
 - [ポータブルSSDをUSB4にすると音源の読み込みは速くなるのか](/posts/portable-ssd-usb4-sample-library-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
