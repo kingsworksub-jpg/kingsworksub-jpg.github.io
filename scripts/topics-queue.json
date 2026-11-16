@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:31:25+09:00",
+ "updated": "2026-11-16T18:25:02+09:00",
  "items": [
   {
    "category": "gear",
@@ -7008,14 +7008,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-015",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 0,
    "claimed_at": "2026-11-16T17:31:25+09:00",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "slug": "chord-progression-learning-order-2026",
+   "published_at": "2026-11-16T18:25:02+09:00"
   },
   {
    "category": "learning",
