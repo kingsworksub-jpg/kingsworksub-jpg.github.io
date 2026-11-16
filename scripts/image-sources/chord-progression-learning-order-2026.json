@@ -1,0 +1,30 @@
+{
+ "/images/chord-order/primary-triads-in-c.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Primary_triads_in_C.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Primary_triads_in_C.png",
+  "license": "CC BY-SA 3.0",
+  "author": "Hyacinth (talk) using Sibelius 5.",
+  "title": "File:Primary triads in C.png"
+ },
+ "/images/chord-order/c-major-scale-keyboard.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/C_Major_Scale_on_Musical_Keyboard.svg/1280px-C_Major_Scale_on_Musical_Keyboard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:C_Major_Scale_on_Musical_Keyboard.svg",
+  "license": "CC0",
+  "author": "Guypeter4",
+  "title": "File:C Major Scale on Musical Keyboard.svg"
+ },
+ "/images/chord-order/twelve-bar-blues-in-c.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Twelve_bar_blues_in_C.png/1280px-Twelve_bar_blues_in_C.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Twelve_bar_blues_in_C.png",
+  "license": "Public domain",
+  "author": "Hyacinth at English Wikipedia",
+  "title": "File:Twelve bar blues in C.png"
+ },
+ "/images/chord-order/pachelbel-canon-page1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pachelbel%27s_Canon_-_Mus.MS_16481-8_Page_1.jpg/1280px-Pachelbel%27s_Canon_-_Mus.MS_16481-8_Page_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Pachelbel%27s_Canon_-_Mus.MS_16481-8_Page_1.jpg",
+  "license": "Public domain",
+  "author": "Johann Pachelbel (music), Anon. (this manuscript copy), Staatsbibliothek zu Berl",
+  "title": "File:Pachelbel's Canon - Mus.MS 16481-8 Page 1.jpg"
+ }
+}
