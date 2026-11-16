@@ -6855,5 +6855,23 @@
       "figureが段落間にある記事(chord-progression-learning-order-2026, hammond-b3-jazz-organ-2026, jazz-festivals-2026等)を見出し直後へ移す是非を検討",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T11:54:45Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "content/posts全記事を点検(description長・本文長・H2数・内部リンク)。実質的な問題は下書き6本(draft:true)とウイスキー深掘り約14本の本文短さ(1.8〜2.5k字)のみ",
+      "関連記事ブロックの重複は検出されず(誤検知を確認)",
+      "seo-audit.pyはPIL破損でこの環境では実行不可",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ウイスキー深掘り14本(ballantines/suntory-kakubin等)の加筆はリサーチ要で未着手",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
