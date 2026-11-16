@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:00:23+09:00",
+ "updated": "2026-11-16T13:00:27+09:00",
  "queue": {
   "published": 158,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "recovered: cleared 3 failed post runs (2026w42-002, 2026w45-016, 2026w42-045); topics reset to approved",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-16T12:00:16+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
-  "state": "finished",
-  "at": "2026-11-16T12:00:12+09:00",
+  "state": "timeout",
+  "at": "2026-11-16T13:00:27+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "timed out after 60 min"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "timeout",
+   "at": "2026-11-16T13:00:27+09:00",
+   "engine": "claude",
+   "detail": "timed out after 60 min"
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T10:00:34+09:00",
    "engine": "claude",
    "detail": "なお、claude.ai の Google Docs 連携が未認証になっています。この無人セッションでは認証できず、claude.ai のコネクタ設定で許可するまで使えません。今回の作業はこの連携を使わないので影響はありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-16T09:36:54+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector needs authorization before it can be used. You can do that in claude.ai's connector settings. This task didn't need it."
   }
  ],
  "engine_post": "claude",
