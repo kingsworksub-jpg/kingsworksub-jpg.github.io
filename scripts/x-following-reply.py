@@ -19,6 +19,10 @@ X (Twitter) で自分がフォローしているユーザー（Following）の�
    （元の投稿 → 自分の返信 → 相手の返信）をLLMに渡して続きを返す。
    プロフィールの「返信」タブを開くため、確認は一定間隔
    （X_FOLLOWUP_INTERVAL_MIN、既定30分）で行う。
+7. 実行間隔は固定にせず、日中は短め（20〜50分）・深夜は長め（80〜150分）の
+   ランダムにして、1日トータルで約30サイクル（深夜は4回程度）にする。
+   固定間隔の機械的なパターンを避けるため。`--loop` で常駐させ、
+   Windowsタスクスケジューラからは1日1回起動する（run-following-reply.ps1）。
 """
 
 import argparse
@@ -53,13 +57,20 @@ INIT_SCRIPT = (
 MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
 MUTEX_WAIT_MS = 10000
 
-MAX_REPLIES_PER_DAY = 20
+MAX_REPLIES_PER_DAY = int(os.environ.get("X_MAX_REPLIES_PER_DAY", "30"))
 CYCLE_SLEEP_RANGE = (120, 240)
 
-# 1サイクルでタイムラインから読みに行く投稿の数 / まとめてLLMに投げる数 / 実際に返信する数
+# 1サイクルでタイムラインから読みに行く投稿の数 / まとめてLLMに投げる数 / 実際に返信する数。
+# 1日に何度も回すため、1サイクルで返信するのは1件だけにして時間帯に分散させる。
 SCAN_LIMIT = int(os.environ.get("X_SCAN_LIMIT", "12"))
-BATCH_SIZE = int(os.environ.get("X_BATCH_SIZE", "5"))
-POST_PER_CYCLE = int(os.environ.get("X_POST_PER_CYCLE", "3"))
+BATCH_SIZE = int(os.environ.get("X_BATCH_SIZE", "3"))
+POST_PER_CYCLE = int(os.environ.get("X_POST_PER_CYCLE", "1"))
+
+# サイクル間隔。固定45分だと機械的なので、日中は短め・深夜は長めのランダムにする
+# （1日トータルで約28〜30サイクル、うち深夜は4回程度）。
+DAY_INTERVAL_MIN = (20, 50)      # 07:00-22:59
+NIGHT_INTERVAL_MIN = (80, 150)   # 23:00-06:59
+LONG_REST_PROB = 0.08            # たまに長めに間を空ける（機械的な連続実行に見せない）
 
 # 返信に値すると判断するための最低文字数。これ未満は文脈が取れないため返信しない。
 MIN_MEANINGFUL_LEN = 18
@@ -928,9 +939,22 @@ class _Tee:
                 pass
 
 
+def cycle_wait_seconds(now=None):
+    """次のサイクルまでの待ち時間。日中は短く、深夜は長く、毎回ランダムに散らす。"""
+    now = now or datetime.datetime.now()
+    if 7 <= now.hour < 23:
+        minutes = random.uniform(*DAY_INTERVAL_MIN)
+    else:
+        minutes = random.uniform(*NIGHT_INTERVAL_MIN)
+    if random.random() < LONG_REST_PROB:
+        minutes *= random.uniform(1.4, 1.9)
+    return minutes * 60
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--publish", action="store_true", help="実際に返信を投稿する")
+    parser.add_argument("--loop", action="store_true",
+                        help="ランダム間隔で回り続ける（無人実行用。Ctrl+Cで終了）")
     parser.add_argument("--ignore-lock", action="store_true",
                         help="他のXジョブが動いていても実行する（ドライラン専用・--publishとは併用不可）")
     parser.add_argument("--log-file", default="",
@@ -939,9 +963,33 @@ if __name__ == "__main__":
 
     if args.log_file:
         os.makedirs(os.path.dirname(os.path.abspath(args.log_file)), exist_ok=True)
-        _log = open(args.log_file, "a", encoding="utf-8", newline="\n")
+        # buffering=1（行バッファ）: --loop で常駐させると、プロセス終了までログが
+        # 書かれない（ブロックバッファのまま）ため、1行ごとに流す。
+        _log = open(args.log_file, "a", encoding="utf-8", newline="\n", buffering=1)
         sys.stdout = _Tee(sys.stdout, _log)
         sys.stderr = _Tee(sys.stderr, _log)
-        print(f"\n===== {datetime.datetime.now().isoformat(timespec='seconds')} =====")
 
-    run_following_reply_cycle(publish=args.publish, ignore_lock=args.ignore_lock)
+    if not args.loop:
+        print(f"\n===== {datetime.datetime.now().isoformat(timespec='seconds')} =====")
+        run_following_reply_cycle(publish=args.publish, ignore_lock=args.ignore_lock)
+        sys.exit(0)
+
+    print(f"\n===== ループ開始 {datetime.datetime.now().isoformat(timespec='seconds')} =====")
+    while True:
+        print(f"\n===== {datetime.datetime.now().isoformat(timespec='seconds')} =====")
+        try:
+            run_following_reply_cycle(publish=args.publish, ignore_lock=args.ignore_lock)
+        except KeyboardInterrupt:
+            print("[i] Ctrl+C を受けたため終了します。")
+            break
+        except Exception as e:
+            # 1サイクルの失敗でループを止めない（ブラウザの一時的な不調など）
+            print(f"[!] サイクルが異常終了しました: {e}")
+        wait = cycle_wait_seconds()
+        nxt = datetime.datetime.now() + datetime.timedelta(seconds=wait)
+        print(f"[i] 次回は {nxt.strftime('%m/%d %H:%M')} 頃に実行します（{int(wait // 60)}分後）")
+        try:
+            time.sleep(wait)
+        except KeyboardInterrupt:
+            print("[i] Ctrl+C を受けたため終了します。")
+            break

@@ -346,18 +346,27 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 さらに、**自分の返信に相手から返信が来た場合はそれを最優先**で拾い、会話の続きとして返信する。
 
 - **スクリプト**: `scripts/x-following-reply.py`（収集・投稿・状態管理）/ `scripts/x_llm.py`（返信文の生成）。
-- **タスク**: `blog-x-following-reply-task`、45分おき、登録スクリプト `scripts/schedule-following-reply.ps1`、ログ `scripts/scheduled/logs/x-following-reply.log`。
-  他のXタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
+- **タスク**: `blog-x-following-reply-task`、登録スクリプト `scripts/schedule-following-reply.ps1`、ログ `scripts/scheduled/logs/x-following-reply.log`。
+  タスク自体は**1日1回（06:10）＋ログオン時に常駐プロセスを起動するだけ**で、実際の実行間隔はPython側が決める。
+  固定45分間隔は機械的でbot検知されやすいため、2026-11-16にユーザー指示でランダム化した。
+  - 日中（07:00-22:59）: 20〜50分のランダム
+  - 深夜（23:00-06:59）: 80〜150分のランダム
+  - 8%の確率でさらに1.4〜1.9倍に間隔を伸ばす（連続実行に見せない）
+  - 合計で **1日約30サイクル（日中26・深夜4）**、返信は1サイクル最大1件・1日最大30件
+  実行は `scripts/scheduled/run-following-reply.ps1` → `x-following-reply.py --loop --publish`。
+  他Xタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
   ```powershell
-  & 'scripts/schedule-following-reply.ps1'          # 登録/更新
-  Disable-ScheduledTask -TaskName blog-x-following-reply-task   # 一時停止
-  Enable-ScheduledTask  -TaskName blog-x-following-reply-task   # 再開
+  & 'scripts/schedule-following-reply.ps1'                      # 登録/更新
+  Stop-ScheduledTask    -TaskName blog-x-following-reply-task   # ループを今すぐ止める
+  Disable-ScheduledTask -TaskName blog-x-following-reply-task   # 恒久的に止める（ログオン時の再開も止まる）
   ```
+  `--loop` はプロセスが生きている間ずっと回る。PC再起動やクラッシュで死んでも、ログオン時と毎日06:10の
+  トリガーで復帰する（`MultipleInstances=IgnoreNew` なので二重起動しない）。
 - **モデルのフォールバックチェーン**（`scripts/x_llm.py`、B方式=LLMが返信全文を書く）:
   1. opencode `google/gemini-3.5-flash-lite`（メイン）
   2. opencode `opencode/longcat-2.5-free`（無料の保険）
   3. claude code `haiku`
-- **バッチ生成**: 候補を最大5件まとめて1回のLLM呼び出しに渡す。opencode CLI は1回あたり約8,000トークンの固定オーバーヘッドがあるため、1件ずつ呼ぶより安い。
+- **バッチ生成**: 候補を最大3件まとめて1回のLLM呼び出しに渡す。opencode CLI は1回あたり約8,000トークンの固定オーバーヘッドがあるため、1件ずつ呼ぶより安い。
   モデルは各候補について「返信する/しない」も判断し、`null` を返した投稿は返信しない（宣伝・告知・文脈不明は返信しない）。
 - **引用禁止（絶対ルール）**: 投稿本文の言い回しをなぞる返信は機械的に破棄する。空白・記号を除いた上で6文字以上の共通部分文字列があれば `quotes_source()` が弾く。
 - **会話の続き（返信への返信）**: プロフィールの「返信」タブを開き、直近の自分の返信5件のスレッドを読む。
@@ -372,18 +381,22 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - **排他制御**: `data/x_user_data` を他のXジョブと共有するため、`Local\kingsworksub-blog-x-jobs` ミューテックスを
   スクリプト自身が1サイクルごとに取得（10秒待ち）し、取れなければそのサイクルをスキップする。
   異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
-- **ペース制御**: 1サイクルで返信するのは最大3件（`X_POST_PER_CYCLE`）、1日最大20件。候補収集は最大12件（`X_SCAN_LIMIT`）。
-  環境変数で上書き可（`X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
+- **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大30件（`X_MAX_REPLIES_PER_DAY`）。候補収集は最大12件（`X_SCAN_LIMIT`）。
+  環境変数で上書き可（`X_MAX_REPLIES_PER_DAY` / `X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
   `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN`）。
+  1サイクル1件に抑えているのは、1日の返信を時間帯に分散させるため（まとめて3件返すと前半に偏る）。
 - **使い方**:
   ```bash
-  python scripts/x-following-reply.py                    # ドライラン（生成だけ・投稿しない）
-  python scripts/x-following-reply.py --publish          # 実際に返信する
+  python scripts/x-following-reply.py                    # 1サイクルだけドライラン（生成だけ・投稿しない）
+  python scripts/x-following-reply.py --publish          # 1サイクルだけ実際に返信する
+  python scripts/x-following-reply.py --loop --publish   # ランダム間隔で回り続ける（無人実行用）
   python scripts/x-following-reply.py --log-file <path>  # 標準出力をUTF-8でファイルにも追記（無人実行用）
   python scripts/x-following-reply.py --ignore-lock      # 他ジョブ実行中でも強制（ドライラン専用、--publishと併用不可）
   ```
-- **実機検証（2026-11-16）**: 本番投稿を2件実行し、X上に正しい相手への返信として存在することを確認済み。
+- **実機検証（2026-11-16）**: 本番投稿を4件実行し、X上に正しい相手への返信として存在することを確認済み。
   会話の続き検出・文脈付き生成・引用禁止チェック（実際に1件破棄）も実データで動作確認済み。
+  メディア付きツイートはタイムスタンプがリンクにならず `_status_id` が空になるため、パーマリンクからの
+  フォールバックを実装済み（これが無いと「対象ツイートの要素が見つからない」で投稿に失敗する）。
 
 ### はてなブログ連携(構築済み)
 
