@@ -2986,5 +2986,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-16T23:04:53+09:00"
+ },
+ "powershell-task-scheduler-lock-log-2026": {
+  "title": "WindowsタスクスケジューラでPowerShell CLIを無人定期実行する：ロック制御とログ記録の検証メモ",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-17T08:00:07+09:00"
  }
 }
