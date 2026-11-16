@@ -2974,5 +2974,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-16T21:00:11+09:00"
+ },
+ "daiku-december-japan-2026": {
+  "title": "年末の第九はなぜ日本の12月に集まったのか、1918年の板東俘虜収容所から1万人の合唱まで",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "na48ef4b73c19",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-16T23:04:53+09:00"
  }
 }
