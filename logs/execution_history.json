@@ -6873,5 +6873,21 @@
       "ウイスキー深掘り14本(ballantines/suntory-kakubin等)の加筆はリサーチ要で未着手",
       "ローカルでseo-audit.py --check-links実行"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T13:56:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開済み全記事のfrontmatter(description/images/categories、description長80〜160字)を点検し、問題0件。修正なし",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ウイスキー深掘り14本の加筆(リサーチ要・未着手)",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
