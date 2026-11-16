@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:29:13+09:00",
+ "updated": "2026-11-16T20:29:31+09:00",
  "queue": {
   "published": 161,
   "rejected": 7,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published temperature-kettle-tea-coffee-oyuwari-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-16T20:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-16T19:45:40+09:00",
+  "at": "2026-11-16T20:29:31+09:00",
   "engine": "claude",
-  "detail": "One thing outside the routine: the claude.ai Google Docs connector needs authorizing in your claude.ai connector settings, and it won't work until you do. This task doesn't use it."
+  "detail": "- **Generation timed out once**: the first run hit the 540-second limit. The rerun with a 1200-second limit succeeded."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-16T20:29:31+09:00",
+   "engine": "claude",
+   "detail": "- **Generation timed out once**: the first run hit the 540-second limit. The rerun with a 1200-second limit succeeded."
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-16T17:06:40+09:00",
    "engine": "claude",
    "detail": "The claude.ai Google Docs connector needs authorization before it can be used. You can do that in the claude.ai connector settings. This task didn't need it."
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-16T17:00:12+09:00",
-   "engine": "claude",
-   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
   }
  ],
  "engine_post": "claude",
