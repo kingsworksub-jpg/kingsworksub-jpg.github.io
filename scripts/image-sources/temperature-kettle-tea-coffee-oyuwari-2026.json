@@ -1,0 +1,30 @@
+{
+ "/images/temp-kettle/kettle-main.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2023_Czajnik_elektryczny_Bosch_%281%29.jpg/1280px-2023_Czajnik_elektryczny_Bosch_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_Bosch_(1).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Jacek Halicki",
+  "title": "File:2023 Czajnik elektryczny Bosch (1).jpg"
+ },
+ "/images/temp-kettle/white-kettle.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/1/15/Electric_kettle_phillips_white.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Electric_kettle_phillips_white.JPG",
+  "license": "Public domain",
+  "author": "Rafa",
+  "title": "File:Electric kettle phillips white.JPG"
+ },
+ "/images/temp-kettle/pour-over-kettle.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/3/32/Brewing_pour_over_coffee_with_kettle_and_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Brewing_pour_over_coffee_with_kettle_and_scale.jpg",
+  "license": "CC BY 2.0",
+  "author": "HungryHuy",
+  "title": "File:Brewing pour over coffee with kettle and scale.jpg"
+ },
+ "/images/temp-kettle/shochu-glass.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Shochu_001.jpg/1280px-Shochu_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Shochu_001.jpg",
+  "license": "CC0",
+  "author": "https://publicdomainq.net/shochu-japanese-liquor-0014762/",
+  "title": "File:Shochu 001.jpg"
+ }
+}
