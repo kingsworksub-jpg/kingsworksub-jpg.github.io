@@ -2963,5 +2963,16 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-16T19:00:46+09:00"
+ },
+ "temperature-kettle-tea-coffee-oyuwari-2026": {
+  "title": "70℃と90℃を使い分ける。温度調節ケトルでお茶・コーヒー・焼酎お湯割りの湯温を設計する",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-16T21:00:11+09:00"
  }
 }
