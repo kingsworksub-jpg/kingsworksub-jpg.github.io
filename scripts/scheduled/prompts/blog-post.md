@@ -41,16 +41,30 @@ Android アプリで削除されたネタはここで自動的に除外され、
   - `note` → note 投稿スクリプト経由で送信
   - `github` → 外部転載はしない（`lab` / `notes` は投稿スロット外。通常は選ばれない）
 
-## 3. リサーチ
+## 3. リサーチ（gemini 第一候補、失敗時は Claude Haiku）
 
-Web 検索は**必ずサブエージェントに任せる**。Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"`（Haiku 4.5）で起動し、
-自分では WebSearch / WebFetch を呼ばない。比較記事など対象が複数あるときは、対象ごとに並列で起動してよい。
-- 依頼内容: ネタの `sources` から始めて、合計5サイト以上（英語の情報源を優先）を調べる。製品・人物・作品が実在し現在の情報であることを確かめる。
-- 返してもらうもの: 調べた事実の要点（出典URL付き）、現行モデル・最新版かどうか、確かめられなかった点。
-- サブエージェントには調査だけをさせ、ファイルの作成・編集、画像の取得や作成はさせない（記事・画像・ASIN は自分で扱う）。
-- 返ってきた内容で事実が食い違う・あいまいな点は、記事に書く前に追加のサブエージェントで確かめ直す。
-- 事実が確かめられない・題材が存在しない・既存記事と同じ内容だと分かったら、
-  `python scripts/topic_plan.py reject <id> --reason "<理由>"` → 手順2からやり直す（やり直しは1回の実行で2回まで）。
+リサーチは `python scripts/oc_research.py`（opencode / `google/gemini-3.5-flash-lite`）を第一候補にする。
+メインで WebSearch / WebFetch を直接呼ばない。比較記事など対象が複数あるときは、対象ごとに並列で実行してよい。
+
+1. 次のどちらかのポリシーで実行する（`<slug>` はまだ無ければ claim した `id` でよい）。
+   - 製品・機材・ソフト・飲料など実在確認が主: `--source-policy official`
+   - 音楽・エッセイ・文化・歴史など: `--source-policy any`
+   ```
+   python scripts/oc_research.py --theme "<theme>" --angle "<angle>" --category "<category>" \
+     --sources "<url1>,<url2>" --source-policy <official|any> \
+     --out /tmp/<slug>-research.json
+   ```
+   出力は `facts`（出典URL付き）・`entities`（current / discontinued / unverified）・`numbers`・`unverified`・
+   `sources_checked` のJSON。終了コードが0で、facts 5件以上・出典URLの到達確認・言語混入チェックを通ったものだけを使う。
+2. **失敗時のフォールバック**: 終了コードが0以外、facts が5件未満、出典が怪しい、内容が薄い場合は、
+   従来どおり Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"`（Haiku 4.5）で起動する。
+   - 依頼内容: ネタの `sources` から始めて、合計5サイト以上（英語の情報源を優先）を調べる。製品・人物・作品が実在し現在の情報であることを確かめる。
+   - 返してもらうもの: 調べた事実の要点（出典URL付き）、現行モデル・最新版かどうか、確かめられなかった点。
+   - サブエージェントには調査だけをさせ、ファイルの作成・編集、画像の取得や作成はさせない（記事・画像・ASIN は自分で扱う）。
+3. 結果を読み、事実が食い違う・あいまいな点は、追加で `oc_research.py` を狭いテーマで再実行するか Agent（haiku）で確かめ直す。
+   **JSON／サブエージェント結果に無い事実を記事に書かせない**（手順4の `research` に転記する）。
+4. 事実が確かめられない・題材が存在しない・既存記事と同じ内容だと分かったら、
+   `python scripts/topic_plan.py reject <id> --reason "<理由>"` → 手順2からやり直す（やり直しは1回の実行で2回まで）。
 
 ## 4. 執筆（生成は opencode / DeepSeek V4.1 に委任）
 
@@ -62,7 +76,8 @@ opencode の `deepseek-v4.1-flash-free` を呼んで作る。Claude Code の仕�
    - `slug`（英小文字とハイフン）/ `slot_time`（手順1のスロット時刻）/ `channel`（手順2で決めた配信先）/ `category`（ネタの category、1つ）/
      `article_type` / `theme` / `angle` / `target_chars`（深掘り・テーマ記事は 5000）/ `image_dir`（`images/<slug-短縮>`）
    - `date`: JST の現在時刻を秒まで。`python -c "import datetime as d;print(d.datetime.now(d.timezone(d.timedelta(hours=9))).isoformat(timespec='seconds'))"`
-   - `research`: 手順3で集めた事実の要点（出典URL付き）。**ここに無い事実は記事に入らない**ので、渡し漏れに注意する。
+   - `research`: 手順3で集めた事実の要点（出典URL付き）。`oc_research.py` の `facts` / `numbers` / `unverified` を
+     そのまま転記する（フォールバック時はサブエージェントの結果）。**ここに無い事実は記事に入らない**ので、渡し漏れに注意する。
    - `recent_titles`: 直近のタイトル3〜5本（同じ構文を続けさせない）。
    - `image_candidates`: `python scripts/topic_plan.py images "<検索語>" --n 6` の出力に `id`（c1, c2…）と `credit` を足したもの。
      NC/ND と Amazon の商品画像は除く。`credit` は author があれば `Photo: <author> / <license>`、無ければ `Image: <title> / <license>`。

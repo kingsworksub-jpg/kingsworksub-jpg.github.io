@@ -23,7 +23,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う。さらに 2026-11-15、**投稿の「生成」だけを opencode の DeepSeek V4.1（`opencode/deepseek-v4.1-flash-free`）に委任**した。記事本文・タイトル・frontmatter・画像の選定と配置・X投稿文は `scripts/oc_generate.py` が生成し、Claude Code は「進行（claim・リサーチ・検査・公開）」と「画像の取得・目視確認・クレジット」を担当する。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**big-pickle は記事本文の生成には今も使わない**。DeepSeek V4.1 の出力は `oc_generate.py` の検査（本文3500字以上・description 90〜140字・`##`3つ以上・figure・credit・Amazonタグ・X投稿280字）を通ったものだけを受け取り、その後に `validate_post.py` と画像の目視確認を通す。ローカルの Ollama も使わない。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う。さらに 2026-11-15、**投稿の「生成」だけを opencode の DeepSeek V4.1（`opencode/deepseek-v4.1-flash-free`）に委任**した。記事本文・タイトル・frontmatter・画像の選定と配置・X投稿文は `scripts/oc_generate.py` が生成し、Claude Code は「進行（claim・リサーチの指示と検収・検査・公開）」と「画像の取得・目視確認・クレジット」を担当する。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**big-pickle は記事本文の生成には今も使わない**。DeepSeek V4.1 の出力は `oc_generate.py` の検査（本文3500字以上・description 90〜140字・`##`3つ以上・figure・credit・Amazonタグ・X投稿280字）を通ったものだけを受け取り、その後に `validate_post.py` と画像の目視確認を通す。ローカルの Ollama も使わない。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
@@ -118,11 +118,12 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）。エンジンは opencode（big-pickle）
 - **実行エンジン**: 投稿の進行は Claude Code、ネタ会議・補充は opencode（big-pickle）。`run-claude-task.ps1` は `-Engine claude|opencode` で切り替える（`Invoke-Claude` / `Invoke-OpenCode`）。opencode 側は `opencode run --model opencode/big-pickle --agent build --auto` を実行する。
   **投稿の生成だけ**は Claude Code から `python scripts/oc_generate.py` を呼び、opencode の `opencode/deepseek-v4.1-flash-free`（`--agent build --auto --archived --standalone`）で本文・タイトル・frontmatter・画像の選定と配置・X投稿文を作る（2026-11-15、ユーザー指示）。タスク登録は `register-tasks.ps1` を再実行して反映する。
-- **Web 検索の担当（2026-10-05 → 2026-11-15 改訂、ユーザー指示）**:
-  - **投稿（blog-post）**: Web 検索は必ず Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）に任せ、メイン（opus）は WebSearch / WebFetch を直接呼ばない。
+- **Web 検索の担当（2026-10-05 → 2026-11-15 → 2026-11-16 改訂、ユーザー指示）**:
+  - **投稿（blog-post）**: リサーチは `python scripts/oc_research.py`（opencode / `google/gemini-3.5-flash-lite`）を第一候補にする。メイン（opus）は WebSearch / WebFetch を直接呼ばない。
+    失敗時（終了コード非0、facts 5件未満、出典が怪しい）のみ、Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）へフォールバックする。
   - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode（big-pickle）で動くので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
-  - 調査量は**5サイト以上**（旧10サイト）。投稿の調査サブエージェントは調査のみで、ファイル・画像・ASIN には触らせない（2026-10-03 の Haiku による画像偽造事故の再発防止）。
-  - 指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`。
+  - 調査量は**5サイト以上**（旧10サイト）。投稿の調査は読み取り専用で、ファイル・画像・ASIN には触らせない（2026-10-03 の Haiku による画像偽造事故の再発防止）。
+  - 指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`、実装は `scripts/oc_research.py`。
 - **失敗した回の後片付け（2026-10-02）**: 投稿の回で記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録 のいずれかなら、
   `run-claude-task.ps1` が `topic_plan.py recover` を実行する（その回の push されていない commit・書きかけの記事と画像を取り消し、投稿中のネタを失敗としてキューに戻す）。
   連続失敗で止まったときは、原因に対処してから `topic_plan.py health-reset --reason ...` で解除する。指定のネタを優先したいときは queue の項目に `"pinned": true`。
