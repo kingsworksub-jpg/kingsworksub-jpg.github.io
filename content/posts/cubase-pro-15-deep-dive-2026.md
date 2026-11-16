@@ -177,3 +177,4 @@ MIDIシーケンサーとしての長い歴史に、Doricoの楽譜技術が加�
 - [Kontakt 8は、買った音源を鳴らす人と楽器を組む人で見える画面が違う](/posts/kontakt-8-player-and-builder-2026/) — エクスプレッションマップで鳴らすオーケストラ音源の側から読む
 - [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/) — 楽譜として書き出す前に押さえておきたい理論の順番
 - [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/) — 楽譜機能を持つもう一つのDAWとの比較に
+- [Cubase 16の新機能は「重ねる」と「分ける」。8層のインストゥルメントスタックと6分割のステム分離](/posts/cubase-16-new-features-2026/) — 15の次の世代で変わった点

@@ -6684,5 +6684,31 @@
       "ローカルでseo-audit.py --check-links を実行",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T01:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "cubase-pro-15-deep-dive-2026",
+      "cubase-15-user-guide-book-2026",
+      "masu-sake-cup-hinoki-2026",
+      "hot-wine-spice-temperature-guide-2026",
+      "mix-practice-1month"
+    ],
+    "actions": [
+      "内部リンクの入らない孤立記事5件(cubase-16/shiboritate/hot-pet/metronome等)を検出し、関連する既存記事の関連記事欄に内部リンクを追加。seo-audit.pyはPIL不具合でこの環境では実行不可(独自スクリプトで検査)"
+    ],
+    "files_changed": [
+      "content/posts/cubase-pro-15-deep-dive-2026.md",
+      "content/posts/cubase-15-user-guide-book-2026.md",
+      "content/posts/masu-sake-cup-hinoki-2026.md",
+      "content/posts/hot-wine-spice-temperature-guide-2026.md",
+      "content/posts/mix-practice-1month.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事は残り hugo-build-time-measure-2026 / powershell-import-csv-aggregate-notes(関連記事なしの技術メモ)",
+      "薄い深掘り記事の加筆(要リサーチ・未完了)"
+    ]
   }
 ]

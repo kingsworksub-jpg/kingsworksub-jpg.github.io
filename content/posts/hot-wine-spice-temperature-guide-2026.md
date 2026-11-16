@@ -153,3 +153,4 @@ scheduled_time: "17:00"
 - [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
 - [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
 - [ボジョレー・ヌーヴォーが軽い理由、ぶどうの粒の中で始まるマセラシオン・カルボニック](/posts/beaujolais-nouveau-carbonic-maceration-2026/)
+- [オレンジのキャップだけがホットケースに並ぶ。ホット用ペットボトルが温められる理由](/posts/hot-pet-bottle-orange-cap-2026/)

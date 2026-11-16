@@ -129,3 +129,4 @@ scheduled_time: "23:00"
 - [note版はこちら](https://note.com/shining_finger01)
 - [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
 - [漆の盃で燗を飲む夜、輪島塗の朱と黒が口当たりを変える](/posts/urushi-sakazuki-shu-kuro/)
+- [しぼりたての日本酒は11月から春までしか並ばない。寒造りと火入れ0回の生酒を数字で読む](/posts/shiboritate-sake-winter-namazake-2026/)
