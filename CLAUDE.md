@@ -340,6 +340,51 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   4. 候補のプロフィールで最終確認 → 「フォロー中」ボタン → 確認ダイアログ → 「フォロー」に戻ったことを検証
   5. ログに記録。失敗が5回連続したらレート制限とみなして中断
 
+### X (Twitter) フォロー中タイムラインへの自動返信（2026-11-16 新規実装）
+
+**機能**: 自分がフォローしているアカウントの新着投稿を巡回し、内容を理解した上でシンプル・丁寧・爽やかな返信を自動投稿する。
+さらに、**自分の返信に相手から返信が来た場合はそれを最優先**で拾い、会話の続きとして返信する。
+
+- **スクリプト**: `scripts/x-following-reply.py`（収集・投稿・状態管理）/ `scripts/x_llm.py`（返信文の生成）。
+- **タスク**: `blog-x-following-reply-task`、45分おき、登録スクリプト `scripts/schedule-following-reply.ps1`、ログ `scripts/scheduled/logs/x-following-reply.log`。
+  他のXタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
+  ```powershell
+  & 'scripts/schedule-following-reply.ps1'          # 登録/更新
+  Disable-ScheduledTask -TaskName blog-x-following-reply-task   # 一時停止
+  Enable-ScheduledTask  -TaskName blog-x-following-reply-task   # 再開
+  ```
+- **モデルのフォールバックチェーン**（`scripts/x_llm.py`、B方式=LLMが返信全文を書く）:
+  1. opencode `google/gemini-3.5-flash-lite`（メイン）
+  2. opencode `opencode/longcat-2.5-free`（無料の保険）
+  3. claude code `haiku`
+- **バッチ生成**: 候補を最大5件まとめて1回のLLM呼び出しに渡す。opencode CLI は1回あたり約8,000トークンの固定オーバーヘッドがあるため、1件ずつ呼ぶより安い。
+  モデルは各候補について「返信する/しない」も判断し、`null` を返した投稿は返信しない（宣伝・告知・文脈不明は返信しない）。
+- **引用禁止（絶対ルール）**: 投稿本文の言い回しをなぞる返信は機械的に破棄する。空白・記号を除いた上で6文字以上の共通部分文字列があれば `quotes_source()` が弾く。
+- **会話の続き（返信への返信）**: プロフィールの「返信」タブを開き、直近の自分の返信5件のスレッドを読む。
+  検出した相手の返信は、`元の投稿 → 自分の返信 → 相手の返信` を文脈としてLLMに渡し、バッチの先頭（＝先に投稿）に積む。
+  このタブ巡回は重いので `X_FOLLOWUP_INTERVAL_MIN`（既定30分）に1回だけ実行する。
+- **二重返信の防止**: `data/x-following-reply-state.json`（git管理外）の `replied_ids` / `seen_ids` に加え、
+  通知ベースの既存ジョブ `blog-x-reply-task` と **`data/x-replies-state.json` の `handled_ids` を双方向で共有**する。
+  どちらのジョブが返信しても、もう片方は同じ投稿・返信に反応しない。`seen_ids` は800件を超えると古い順に間引く。
+- **投稿経路**: ツイートURL（`https://x.com/i/status/<id>`）を開く → `[data-testid="reply"]` → `[role="dialog"]` 内の
+  `[data-testid="tweetTextarea_0"]` → `[data-testid="tweetButton"]` → モーダルが閉じたら成功。
+  **背景のインライン入力欄と取り違えないよう、必ずダイアログ内を探すこと**（2026-11-16 にこれで詰まった）。
+- **排他制御**: `data/x_user_data` を他のXジョブと共有するため、`Local\kingsworksub-blog-x-jobs` ミューテックスを
+  スクリプト自身が1サイクルごとに取得（10秒待ち）し、取れなければそのサイクルをスキップする。
+  異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
+- **ペース制御**: 1サイクルで返信するのは最大3件（`X_POST_PER_CYCLE`）、1日最大20件。候補収集は最大12件（`X_SCAN_LIMIT`）。
+  環境変数で上書き可（`X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
+  `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN`）。
+- **使い方**:
+  ```bash
+  python scripts/x-following-reply.py                    # ドライラン（生成だけ・投稿しない）
+  python scripts/x-following-reply.py --publish          # 実際に返信する
+  python scripts/x-following-reply.py --log-file <path>  # 標準出力をUTF-8でファイルにも追記（無人実行用）
+  python scripts/x-following-reply.py --ignore-lock      # 他ジョブ実行中でも強制（ドライラン専用、--publishと併用不可）
+  ```
+- **実機検証（2026-11-16）**: 本番投稿を2件実行し、X上に正しい相手への返信として存在することを確認済み。
+  会話の続き検出・文脈付き生成・引用禁止チェック（実際に1件破棄）も実データで動作確認済み。
+
 ### はてなブログ連携(構築済み)
 
 - 認証情報: `.secrets/hatena.env`(gitに含まれない。`HATENA_ID` `HATENA_BLOG_DOMAIN` `HATENA_API_KEY` を定義)。新しいセッションでは `source .secrets/hatena.env` してから使う。ファイルが無い場合はユーザーにはてなブログの詳細設定→AtomPubのAPIキーを再度聞くこと。
