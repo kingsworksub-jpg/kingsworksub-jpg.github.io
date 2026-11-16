@@ -6710,5 +6710,25 @@
       "孤立記事は残り hugo-build-time-measure-2026 / powershell-import-csv-aggregate-notes(関連記事なしの技術メモ)",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T02:53:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hugo-timezone-buildfuture-notes",
+      "powershell-utf8-bom-notes"
+    ],
+    "actions": [
+      "孤立していた hugo-build-time-measure-2026 と powershell-import-csv-aggregate-notes への内部リンクを、関連する技術メモの関連記事欄に追加(hugoビルドはこの環境に未導入のため未実行)"
+    ],
+    "files_changed": [
+      "content/posts/hugo-timezone-buildfuture-notes.md",
+      "content/posts/powershell-utf8-bom-notes.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事0件になったかseo-audit.pyで確認(ローカル)",
+      "薄い深掘り記事の加筆(要リサーチ・未完了)"
+    ]
   }
 ]

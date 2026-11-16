@@ -149,4 +149,5 @@ Select-String -Path .\*.ps1 -Pattern '[^\x00-\x7F]'
 - [Windowsのシンボリックリンクをmklinkで作る、ジャンクションとの違いとrmdirで消す理由](/posts/windows-symbolic-link-mklink-notes/)
 - [git worktreeで作業フォルダをブランチの数だけ持つ、stashと切り替えをやめるための備忘録](/posts/git-worktree-multiple-branches-notes/)
 - [Hugoで当日の記事が朝9時まで出ない。日付をUTCで読むtimeZoneの既定とbuildFuture](/posts/hugo-timezone-buildfuture-notes/)
+- [PowerShellのImport-Csvで集計すると、なぜ「12」が「7」より下に並ぶのか](/posts/powershell-import-csv-aggregate-notes/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
