@@ -1,0 +1,23 @@
+{
+ "/images/pwsh-task-scheduler/c1.jpg": {
+  "download": "https://live.staticflickr.com/2721/4305814503_9a0a12ff0d_b.jpg",
+  "page": "https://www.flickr.com/photos/54032868@N00/4305814503",
+  "license": "CC BY 2.0",
+  "author": "tommybart2000",
+  "title": ""
+ },
+ "/images/pwsh-task-scheduler/c2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/6/67/Afw_scheduler-task-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Afw_scheduler-task-en.png",
+  "license": "CC BY-SA 3.0",
+  "author": "AIMP",
+  "title": "File:Afw scheduler-task-en.png"
+ },
+ "/images/pwsh-task-scheduler/c3.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/PowerShell_Core_7.1.5_with_Windows_Terminal.png/1280px-PowerShell_Core_7.1.5_with_Windows_Terminal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:PowerShell_Core_7.1.5_with_Windows_Terminal.png",
+  "license": "MIT",
+  "author": "Microsoft Corporation",
+  "title": "File:PowerShell Core 7.1.5 with Windows Terminal.png"
+ }
+}
