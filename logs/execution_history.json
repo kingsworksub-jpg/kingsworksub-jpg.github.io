@@ -6911,5 +6911,22 @@
       "残り8記事のfigure配置修正",
       "hugoビルドはこの環境で不可、ローカルで確認"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T16:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置を全記事スキャン: 見出し直後でないfigureは9件。うち4件(alan-boguslavsky-stage, cool-jazz-birth-of-the-cool, hard-bop-blue-note-golden-age, modal-jazz-challenge)は冒頭アイキャッチ(frontmatter直後)で意図的配置のため対象外",
+      "残り5件(chord-progression-learning-order-2026, hammond-b3-jazz-organ-2026, jazz-festivals-2026, jazz-shoes-trend-2026, jazz-style-fashion-revival-2026)は同一セクション内の2枚目figure。文脈に合うfigureの無い別セクションへ動かすと内容不一致になるため今回は修正せず(未完了・判断保留)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "2枚目figureを図の内容に合う見出し直下の無figureセクションへ移すか、ルール側で許容するか決定",
+      "ローカルでseo-audit.py --check-links実行"
+    ]
   }
 ]
