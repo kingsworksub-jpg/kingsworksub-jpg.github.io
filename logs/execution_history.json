@@ -7040,5 +7040,21 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "修正なし(点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-16T23:53:34Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のfigure配置(見出し直後・直後に見出し/---が来ない)を機械点検。該当10件はアイキャッチ(導入前)か2枚目以降の図で意図的配置のため修正不要と判断",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "修正なし(点検のみ)"
   }
 ]
