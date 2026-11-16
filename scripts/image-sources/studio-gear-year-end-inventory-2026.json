@@ -1,0 +1,23 @@
+{
+ "/images/gear-inventory/home-studio.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dai_Stanton%27s_home_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Dai_Stanton%27s_home_studio.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Dai Stanton",
+  "title": "File:Dai Stanton's home studio.jpg"
+ },
+ "/images/gear-inventory/studio-gear-2007.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Tawalker%27s_home_studio_gear_%282007%29.jpg/1280px-Tawalker%27s_home_studio_gear_%282007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Tawalker%27s_home_studio_gear_(2007).jpg",
+  "license": "CC BY 2.0",
+  "author": "Tim Walker",
+  "title": "File:Tawalker's home studio gear (2007).jpg"
+ },
+ "/images/gear-inventory/portable-ssd.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg/1280px-SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:SanDisk_Extreme_Portable_SSD_1_TB_-_front_view.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "ITEagle Europe - Sebastiaan Broekhoven",
+  "title": "File:SanDisk Extreme Portable SSD 1 TB - front view.jpg"
+ }
+}
