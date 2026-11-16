@@ -3342,6 +3342,18 @@
    "status": "health-reset",
    "reason": "model switched from deepseek to gemini due to free usage limit",
    "at": "2026-11-17T07:24:01+09:00"
+  },
+  {
+   "id": "2026w42-045",
+   "category": "lab",
+   "theme": "PowerShellからCLIを無人で定期実行する",
+   "slug": "powershell-task-scheduler-lock-log-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/powershell-task-scheduler-lock-log-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-17T07:45:05+09:00"
   }
  ]
 }
