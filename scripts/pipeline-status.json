@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:01:03+09:00",
+ "updated": "2026-11-17T04:01:10+09:00",
  "queue": {
   "published": 162,
   "rejected": 8,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "failed 2026w42-041: oc_generate: opencode deepseek-v4.1-flash-free 'Free usage limit reached' (3 attempts)",
  "consecutive_failures": 1,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-11-17T04:01:03+09:00",
-  "engine": "big-pickle"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
-  "state": "finished",
-  "at": "2026-11-17T04:00:58+09:00",
-  "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "state": "failed",
+  "at": "2026-11-17T04:01:10+09:00",
+  "engine": "big-pickle",
+  "detail": "exit code 1"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "failed",
+   "at": "2026-11-17T04:01:10+09:00",
+   "engine": "big-pickle",
+   "detail": "exit code 1"
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T02:00:12+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-17T01:45:45+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector is waiting for authorization. You can approve it in your claude.ai connector settings. This task doesn't use it."
   }
  ],
  "engine_post": "claude",
