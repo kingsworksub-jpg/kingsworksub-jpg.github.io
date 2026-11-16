@@ -7004,5 +7004,24 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "修正なし(点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-16T20:52:57Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のH2数・本文長・タイトル長・禁止タイトル句を機械点検。新規の問題なし",
+      "本文2500字未満は旧深掘りシリーズ(2026-09公開)のみで、大規模リライトは1回の範囲を超えるため見送り",
+      "seo-audit.pyはPIL破損で当環境では実行不可",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "旧深掘り記事の増補リライト要否の判断"
+    ],
+    "status": "修正なし(点検のみ)"
   }
 ]
