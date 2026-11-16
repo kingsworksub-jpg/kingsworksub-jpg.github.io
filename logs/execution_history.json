@@ -7023,5 +7023,22 @@
       "旧深掘り記事の増補リライト要否の判断"
     ],
     "status": "修正なし(点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-16T22:53:44Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "description長・OG画像実在・内部リンク先スラッグ・/images参照の実在を全記事で機械点検、問題なし(draft 5件のみ対象外)",
+      "seo-audit.pyはPIL破損で当環境では実行不可",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "修正なし(点検のみ)"
   }
 ]
