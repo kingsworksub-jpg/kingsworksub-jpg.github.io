@@ -6771,5 +6771,21 @@
       "孤立記事0件(ローカルseo-audit.pyで確認)",
       "薄い記事の加筆は要リサーチで未着手"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T05:54:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全251記事を再点検(description長90-140字・images・禁止表現・本文長)。公開記事の違反なし。短い記事は下書き(draft:true)5本と加筆に海外リサーチが要るウイスキー深掘り(1,800〜2,500字)のみ。深掘り記事は関連記事リンク済みのため修正なし",
+      "Hatena/Ameba/noteの改定案は今回なし(改定が必要な根拠を得られず)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ウイスキー深掘り10本(特に ballantines-finest/suntory-kakubin)は未完了: 要リサーチで加筆",
+      "次回以降は内容の事実確認・古い情報の更新を重点に"
+    ]
   }
 ]
