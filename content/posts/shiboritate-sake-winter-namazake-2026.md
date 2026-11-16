@@ -120,4 +120,5 @@ scheduled_time: "17:00"
 - [はてなブログ版(最新コラム)はこちら](https://kinbro.hatenablog.com/)
 - [note版(厳選ノウハウ・裏側)はこちら](https://note.com/shining_finger01)
 - [燗酒の温度は5℃刻みで名前が変わる。湯煎・電子レンジ・酒燗器でどこまで狙えるか](/posts/kanzake-temperature-shukanki-2026/)
+- [枡で日本酒を冷やで飲む理由、江戸の量り売りの道具が祝いの器になるまで](/posts/masu-sake-cup-hinoki-2026/)
 - [ボジョレー・ヌーヴォーが軽い理由、ぶどうの粒の中で始まるマセラシオン・カルボニック](/posts/beaujolais-nouveau-carbonic-maceration-2026/)

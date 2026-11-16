@@ -6730,5 +6730,27 @@
       "孤立記事0件になったかseo-audit.pyで確認(ローカル)",
       "薄い深掘り記事の加筆(要リサーチ・未完了)"
     ]
+  },
+  {
+    "timestamp": "2026-11-16T03:53:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "shiboritate-sake-winter-namazake-2026",
+      "hugo-build-time-measure-2026",
+      "hot-buttered-rum-batter-guide-2026",
+      "powershell-import-csv-aggregate-notes"
+    ],
+    "actions": [
+      "4記事を点検(figure配置・左右交互・description長・禁止表現)。構造上の問題なし",
+      "日本酒記事に枡の記事、Hugo記事にtimeZone記事への内部リンクを追加"
+    ],
+    "files_changed": [
+      "content/posts/shiboritate-sake-winter-namazake-2026.md",
+      "content/posts/hugo-build-time-measure-2026.md"
+    ],
+    "next_kpis": [
+      "全記事点検済みのため次回は古い記事の本文リライト/内部リンク密度を再評価",
+      "seo-audit.pyはPIL不具合でこの環境では未実行"
+    ]
   }
 ]
