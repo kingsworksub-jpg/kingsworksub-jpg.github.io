@@ -6987,5 +6987,22 @@
       "2枚目figure配置の方針決定(保留)"
     ],
     "status": "修正なし(点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-16T19:52:58Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure直後の見出し/---・description/images欠落を全記事で機械点検、問題なし",
+      "seo-audit.pyはPIL破損で当環境では実行不可",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "修正なし(点検のみ)"
   }
 ]
