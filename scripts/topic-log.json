@@ -3389,6 +3389,14 @@
    "reason": "oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達",
    "engine": "claude",
    "at": "2026-11-17T20:06:13+09:00"
+  },
+  {
+   "id": "2026w40-060",
+   "category": "music",
+   "theme": "ECMというレーベルの音、残響を楽器として扱う",
+   "status": "rejected",
+   "reason": "既存記事 ecm-records-silence-recording-2026 と同じ内容（ECMの残響美学・Eicher）",
+   "at": "2026-11-17T21:31:00+09:00"
   }
  ]
 }

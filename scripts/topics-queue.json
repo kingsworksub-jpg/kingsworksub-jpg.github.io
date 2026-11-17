@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:06:13+09:00",
+ "updated": "2026-11-17T21:31:00+09:00",
  "items": [
   {
    "category": "gear",
@@ -3476,9 +3476,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-060",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-17T21:30:51+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "既存記事 ecm-records-silence-recording-2026 と同じ内容（ECMの残響美学・Eicher）"
   },
   {
    "category": "music",
@@ -3748,9 +3754,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-064",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-17T21:31:00+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
   },
   {
    "category": "gear",
