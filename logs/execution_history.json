@@ -7240,5 +7240,35 @@
       "figure配置違反記事の順次修正(残り約16本)"
     ],
     "status": "完了(軽微修正)"
+  },
+  {
+    "timestamp": "2026-11-17T09:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hammond-b3-jazz-organ-2026",
+      "jazz-festivals-2026",
+      "jazz-shoes-trend-2026",
+      "jazz-style-fashion-revival-2026",
+      "powershell-task-scheduler-lock-log-2026"
+    ],
+    "actions": [
+      "段落途中にあったfigureをセクション見出し(##)直後へ移動(CLAUDE.mdの配置ルール準拠)",
+      "chord-progression-learning-order-2026 と yubikey-...は導入部(見出し前)のfigureで移動先なし、次回判断",
+      "比較記事(5choice系)のレーダーチャート直後figureは意図的配置のため対象外",
+      "hugoがこの環境に無くビルド未確認(markdownの位置移動のみ)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "content/posts/jazz-festivals-2026.md",
+      "content/posts/jazz-shoes-trend-2026.md",
+      "content/posts/jazz-style-fashion-revival-2026.md",
+      "content/posts/powershell-task-scheduler-lock-log-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残るfigure配置: alan-boguslavsky-stage, cool-jazz-birth-of-the-cool, hard-bop-blue-note-golden-age, modal-jazz-challenge(導入部figure), music-theory-3month-plan(段落短)"
+    ],
+    "status": "完了(軽微修正)"
   }
 ]
