@@ -33,24 +33,12 @@ aliases:
 1920年代の禁酒法時代、密造酒(ムーンシャイン)特有の粗い風味をごまかすミキサーとして、隠れ酒場(スピークイージー)で重宝されたという歴史がある。この時期に定着した「お酒を割る」という文化的な立ち位置が、そのまま現代のモスコミュールやハイボールの割材需要にまでつながっていると考えると、なかなか感慨深いブランドだ。
 
 ## 味の方向性とウィルキンソンとの違い
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
-</a>
-<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 原材料はジンジャーエキス・炭酸・香料が中心で、生の生姜そのものは使われていない(すりおろし生姜入りの辛口版「プレミアジンジャーエール」という派生商品は別に存在する)。「甘すぎない、すっきりしたおいしさ」というのが公式の訴求で、甘さは控えめで飲みやすい部類に入ると思う。
 
 よく比較されるウィルキンソン ジンジャエールは、生姜というよりも唐辛子的な刺激すら感じるくらい辛口で色も濃いのに対し、カナダドライは相対的に甘口でマイルド。この二本が「ジンジャーエールの二大定番」として飲み比べられることが多いのも納得の、はっきりした住み分けだと感じる。
 
 ## 価格・入手性
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
-<img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
-</a>
-<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22)で確認したい。
 
 160ml缶×30本のケースで、実勢価格はAmazon.co.jpで1,700円台。楽天市場では店舗により1,600円台〜2,400円台と幅がある。160ml缶のほか250ml缶、350ml缶、500ml PET、1.5L PETまで容量展開は幅広い。
 

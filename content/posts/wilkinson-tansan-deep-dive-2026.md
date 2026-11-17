@@ -33,13 +33,6 @@ aliases:
 
 ## 強炭酸という個性
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
-</a>
-<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 公式ではガス圧6容と明記されていて、キャッチコピーも「刺激、強め。」。原材料は炭酸水のみ(水と炭酸ガス)で、無糖・カロリーゼロ。余計な甘みが一切ない分、口に含んだ瞬間の刺激がダイレクトに来る設計だと感じる。
 
 クセのないクリアな味わいという印象はその通りだと思う。炭酸の強さの感じ方には個人差があり、物足りなく感じる人もいるかもしれないが、国内の炭酸水の中では強めの部類に入る一本だと思う。
@@ -54,12 +47,7 @@ aliases:
 
 ## 価格・入手性
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
-<img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
-</a>
-<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22)で確認したい。
 
 500ml×24本のケースで、Amazon.co.jpの通常価格は2,500円前後、クーポン適用時は1,800円台まで下がることもある。楽天市場では1,700円台からの出品も見られ、コンビニでの単品価格は500mlあたり160〜170円程度が目安になる。
 

@@ -33,25 +33,13 @@ Amazon.co.jp限定販売のこのラベルレス仕様は、通常の小売店�
 
 ## シリカ入りという選び方
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">
-<img src="/images/products/itoen-mineral-strong.png" alt="伊藤園 ミネラルストロング" width="455" height="1043" loading="lazy">
-</a>
-<figcaption>伊藤園 ミネラルストロング<span class="credit"><a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 無糖・無香料でクセのない味わいながら、シリカという成分の入った炭酸水を選ぶ理由がある人には刺さる設計だと思う。カリウムやカルシウム、マグネシウムも微量含まれているようで、ただの炭酸水ではなく「ミネラルを摂りながら炭酸を楽しむ」という立ち位置を明確に打ち出している一本だ。
 
 炭酸の強さは、トップクラスに強いと感じる場面もあれば、思ったより中程度だと感じる場面もあった。この手の体感は温度や飲み方で変わりやすいので、あくまで一つの目安として見てほしい。ちなみに姉妹品としてレモン味やビタミン4種入りの「ビタミンSTRONG」も展開されている。
 
 ## 価格・入手性
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">
-<img src="/images/products/itoen-mineral-strong.png" alt="伊藤園 ミネラルストロング" width="455" height="1043" loading="lazy">
-</a>
-<figcaption>伊藤園 ミネラルストロング<span class="credit"><a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22)で確認したい。
 
 500ml×24本のケースで、実勢価格はAmazon.co.jpで1,300円台〜1,700円台と、セールやクーポンの有無で差が大きい。Amazon.co.jp限定商品のため、他のECサイトに出回っているものは非公式な第三者出品である可能性が高く、購入は基本的にAmazon.co.jpで完結させるのが安心だと思う。
 

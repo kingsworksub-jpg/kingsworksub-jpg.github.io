@@ -75,13 +75,6 @@ VOX の容器はボトルの多層構造が効いている。瓶を断ち切る�
 一方で瓶を一度でも開けると状況は変わる。開閉ごとに炭酸が失われていく。2〜3回開閉したあたりで最初の強い刺激はほぼ感じられなくなる、という指摘もある。かなり高い「強炭酸」の期待値を持ち込むと、飲み切らずに置いておく使い方では期待が減ることを覚悟しておきたい。
 
 ## コーラフレーバーは、水に香りを付けただけ
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22">
-<img src="/images/products/vox-cola-flavor.jpg" alt="VOX 強炭酸水 コーラフレーバー 500ml×24本" width="900" height="900" loading="lazy">
-</a>
-<figcaption>コーラフレーバーのボトルはオレンジベース。他の4種は別の色で揃っている<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>
-</figure>
-
 ここがVOX コーラフレーバーの核心だ。**糖分がない**。品名は「炭酸飲料」、原材料名は「ナチュラルミネラルウォーター／炭酸、香料」。
 
 栄養成分表示（100ml あたり）はエネルギー 0kcal、タンパク質 0g、脂質 0g、炭水化物 0g、食塩相当量 0g で、**すべてゼロ**。ゼロカロリーのコーラのような人工甘味料による甘さはどこにもない。
@@ -123,12 +116,7 @@ Amazon 詳細ページには 4.1 評価が 2,700 件以上集まっている。�
 ---
 
 ## まとめ
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22">
-<img src="/images/products/vox-cola-flavor.jpg" alt="VOX 強炭酸水 コーラフレーバー 500ml×24本" width="900" height="900" loading="lazy">
-</a>
-<figcaption>香りを付けただけ、という単純さが骨格にある<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22)で確認したい。
 
 飲料の種類としては珍しい「無糖のコーラ」という存在だ。糖もカロリーもゼロなのに、鼻の奥ではコーラの記憶を引き出す —— という表現で尽きる。
 

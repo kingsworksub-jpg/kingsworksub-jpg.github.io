@@ -7314,5 +7314,45 @@
       "ローカルでhugoビルドとseo-audit実行を推奨"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-17T12:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canada-dry-ginger-ale-deep-dive-2026",
+      "fuji-strong-soda-deep-dive-2026",
+      "itoen-mineral-strong-deep-dive-2026",
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "mitsuya-cider-zero-deep-dive-2026",
+      "nousaku-tin-sake-set-deep-dive-2026",
+      "oza-soda-deep-dive-2026",
+      "vox-cola-flavor-deep-dive-2026",
+      "wilkinson-tansan-deep-dive-2026",
+      "yosa-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "同一商品画像のfigureが1記事内に3回繰り返されていた深掘り記事10本で、2回目以降の重複figureを削除(1枚目のみ残す)",
+      "価格・入手性にAmazon販売ページへのテキストリンクを補い、収益導線を維持",
+      "重複figureを持つ公開記事はまだ約41本残存(次回以降に持ち越し)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/canada-dry-ginger-ale-deep-dive-2026.md",
+      "content/posts/fuji-strong-soda-deep-dive-2026.md",
+      "content/posts/itoen-mineral-strong-deep-dive-2026.md",
+      "content/posts/kirin-lemon-sparkling-deep-dive-2026.md",
+      "content/posts/mitsuya-cider-zero-deep-dive-2026.md",
+      "content/posts/nousaku-tin-sake-set-deep-dive-2026.md",
+      "content/posts/oza-soda-deep-dive-2026.md",
+      "content/posts/vox-cola-flavor-deep-dive-2026.md",
+      "content/posts/wilkinson-tansan-deep-dive-2026.md",
+      "content/posts/yosa-soda-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "重複figure記事数 51→約41",
+      "ローカルでhugo --minifyとseo-audit実行を推奨"
+    ],
+    "status": "完了(一部持ち越し)"
   }
 ]

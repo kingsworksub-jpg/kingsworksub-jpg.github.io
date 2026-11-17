@@ -33,13 +33,6 @@ aliases:
 
 ## 142年の歴史を背負う一本
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">
-<img src="/images/products/mitsuya-cider-zero.jpg" alt="三ツ矢サイダーZERO" width="700" height="1776" loading="lazy">
-</a>
-<figcaption>三ツ矢サイダーZERO<span class="credit"><a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 三ツ矢サイダーの起源は1884年、兵庫県川辺郡多田村(現・川西市)の炭酸鉱泉水「平野水」にさかのぼる。英国人化学者ウィリアム・ガウランドがこの鉱泉を「理想的」と分析したことがきっかけで商品化され、1897年には皇室御用達にも指定されたという記録が残っている。
 
 「三ツ矢」というブランド名は、平安時代の武将・源満仲が住吉大社の神託に従って三本の矢を放ち、矢の落ちた場所に居城を築いたという伝説に由来するとされている。「日本最古のサイダー」という通説は厳密には事実と異なるようだが、現存するブランドの中では最古級であることは間違いなく、それだけの歴史を背負った上でカロリーゼロ版まで作っているという事実に、ブランドの本気度を感じる。
@@ -50,12 +43,7 @@ aliases:
 
 ## 価格・入手性
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">
-<img src="/images/products/mitsuya-cider-zero.jpg" alt="三ツ矢サイダーZERO" width="700" height="1776" loading="lazy">
-</a>
-<figcaption>三ツ矢サイダーZERO<span class="credit"><a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22)で確認したい。
 
 250ml缶×20本のケースで、実勢価格はAmazon.co.jpで1,400円台。楽天やその他ECサイトでは1,300円台〜2,000円台と店舗によって幅がある。250ml缶のほか500mlペットボトル、1.5Lペットボトルの展開もある。
 

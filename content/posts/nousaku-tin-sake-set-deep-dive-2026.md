@@ -29,13 +29,6 @@ aliases:
 その結果生まれたのが、手で曲げて形を変えられるほど柔らかい金属という、他に類を見ない特性だ。手のひらで押して器の形を変えられる「KAGO」シリーズが看板商品になっているのも、この「柔らかさを弱点ではなく個性にする」という発想から来ている。今回取り上げるぐい呑み・片口セットも、同じ本錫100%の系譜にある器だ。
 
 ## 片口とぐい呑み、それぞれの実力
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">
-<img src="/images/products/nousaku-tin-sake-set.jpg" alt="能作 本錫100%酒器セット" width="700" height="700" loading="lazy">
-</a>
-<figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
 片口小はH55×W128×D77mmほど、容量は195cc前後。ぐい呑みは1個あたり90cc前後で、手に収まるサイズ感になっている。どちらも化粧箱入りで、贈り物として渡しても恥ずかしくない仕立てだ。
 
 能作の直販サイトでは片口小の単品や、片口小にぐい呑み2個を組み合わせたセットが定番として並んでいて、今回のような「片口1個+ぐい呑み1個」という組み合わせは、正規取扱店が独自に組み替えた構成のようだ。中身自体は能作の本錫100%シリーズそのものなので、素材や作りに対する不安はない。
@@ -53,12 +46,7 @@ aliases:
 ただ、味がまろやかになるという部分は科学的に完全に立証された話ではなく、あくまで長年語り継がれてきた経験則に近い。個人的には、金属特有のひんやりした口当たりと軽い清涼感が、冷酒をきりっと引き締めてくれる感じが気に入っている。過度な期待はせず、素材の面白さとして楽しむくらいがちょうどいいと思う。
 
 ## 価格・現行性
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">
-<img src="/images/products/nousaku-tin-sake-set.jpg" alt="能作 本錫100%酒器セット" width="700" height="700" loading="lazy">
-</a>
-<figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
+最新の価格と在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22)で確認したい。
 
 実勢価格はAmazon.co.jpで11,000円台。能作の直販サイトでは、片口小単体が7,000円台、片口小+ぐい呑み2個のセットが14,000円台〜と、価格帯は近い。錆びにくく変形しにくいという錫の性質になぞらえて、結婚10周年を祝う「錫婚式」の贈り物として能作自身が紹介しているくらいで、還暦祝いや退職祝いの品としてもよく選ばれているブランドだ。
 
