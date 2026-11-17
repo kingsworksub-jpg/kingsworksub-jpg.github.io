@@ -7056,5 +7056,24 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "修正なし(点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-17T00:53:55Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現(隅から隅まで/あるレビューでは/実際に〜してみた等)・description欠落・未解決CTAプレースホルダを全記事で機械点検、問題なし(dtm-school-or-self-study-2026の「目を通して」は講師の添削の意味で適正)",
+      "description長90-140字・内部リンク0件記事なし(249記事)を確認",
+      "最短記事(hello除くballantines等の旧深掘り)は内部リンク済み。増補リライトは事実確認が必要なためローカル判断に回す",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "旧ウイスキー/炭酸深掘り(本文1,100〜1,500字)の増補リライト要否",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "修正なし(点検のみ)"
   }
 ]
