@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T05:50:08+09:00",
+ "updated": "2026-11-18T05:52:19+09:00",
  "queue": {
   "published": 166,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published playwright-persistent-profile-login-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
-  "since": "2026-11-18T05:50:08+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-18T05:31:02+09:00",
+  "at": "2026-11-18T05:52:19+09:00",
   "engine": "claude",
-  "detail": "ひとつ別件です。claude.ai の Google Docs コネクタが未認証のため、このセッションでは使えません。このタスクには影響しませんが、使うときは claude.ai のコネクタ設定から認証してください。"
+  "detail": "As the instructions say, I didn't commit or push anything."
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "x-follow-dm",
+   "state": "finished",
+   "at": "2026-11-18T05:52:19+09:00",
+   "engine": "claude",
+   "detail": "As the instructions say, I didn't commit or push anything."
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-18T03:38:13+09:00",
    "engine": "claude",
    "detail": "**Connectors:** the claude.ai Google Docs connector needs to be authorized in your claude.ai connector settings before it can be used. This routine doesn't need it."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-18T03:15:38+09:00",
-   "engine": "claude",
-   "detail": "**ほかに気づいたこと：** claude.ai の Google Docs コネクターが未認証です。今回の作業には必要ありませんが、使うときは claude.ai のコネクター設定から認証してください。"
   }
  ],
  "engine_post": "claude",
