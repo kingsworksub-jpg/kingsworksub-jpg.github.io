@@ -7548,5 +7548,26 @@
       "内部リンク0本の他記事(mic-preamp以外の旧記事)への関連記事追加を継続"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-17T21:53:14Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "yubikey-security-key-backup-guide-2026"
+    ],
+    "actions": [
+      "内部リンク0本だった唯一の記事(YubiKey)に、関連既存記事3本への「あわせて読みたい」を追加",
+      "全258公開記事のdescription長(90〜140字)・images有無を点検: 問題なし。H2が3未満はhello.md/nea-jazz-masters-2026(有料記事の無料部分)のみで意図的",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/yubikey-security-key-backup-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の記事数=0を維持",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了"
   }
 ]
