@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T03:38:13+09:00",
+ "updated": "2026-11-18T04:00:10+09:00",
  "queue": {
   "published": 166,
   "rejected": 9,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published playwright-persistent-profile-login-notes",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "x-reply",
+  "label": "x-reply",
+  "since": "2026-11-18T04:00:10+09:00",
+  "engine": "claude"
+ },
  "last_run": {
   "job": "x-follow-dm",
   "label": "x-follow-dm",
