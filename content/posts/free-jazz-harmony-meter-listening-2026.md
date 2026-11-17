@@ -8,6 +8,7 @@ date: 2026-11-14T21:30:00+09:00
 categories: ["music"]
 tags: ["フリージャズ", "オーネット・コールマン", "セシル・テイラー", "アルバート・アイラー", "ジャズ名盤", "ジャズの聴き方"]
 draft: false
+aliases: ["/note-only/free-jazz-harmony-meter-listening-2026/"]
 scheduled_time: "21:30"
 ---
 

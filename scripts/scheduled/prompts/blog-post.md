@@ -3,7 +3,8 @@
 Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、
 `scripts/topic_plan.py` の `slots_for_date` で定義。固定4枠＋20:00/23:00 の隔日入替）無人で起動されている。
 各回のチャンネルは決まっており、20:00 と 23:00 は偶数日・奇数日で入れ替わる（表は `CLAUDE.md` のタイムテーブル）。
-`channel: note` の記事は `content/note-only/` に置くため GitHub Pages には載らない。それ以外のチャンネルは
+`channel: note` の記事も `content/posts/` に置き、公開と同時に GitHub Pages へデプロイされる（2026-11-17〜）。
+note の無料記事は GitHub Pages にも全文、有料記事は無料部分＋「続きは note で読む」CTA を載せる。それ以外のチャンネルも
 公開と同時に GitHub Pages へデプロイされる。各回はアクセスピークの30〜60分前に当たり、
 時間帯ごとに記事の性格（実用寄り/理論・エッセイ寄り）が決まっている。
 どのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（時刻から手計算しない）。
@@ -93,7 +94,7 @@ opencode の `deepseek-v4.1-flash-free` を呼んで作る。Claude Code の仕�
      --article-out content/posts/<slug>.md --meta-out /tmp/<slug>-meta.json \
      --keep-raw /tmp/<slug>-raw
    ```
-   - `channel: note` の記事は `--article-out content/note-only/<slug>.md`。
+   - 全チャンネル共通で `content/posts/<slug>.md` に出力する（`content/note-only/` は廃止）。
    - 内部で `validate_post.py` と同じ検査（本文3500字以上、description 90〜140字、`##`3つ以上、figure 2〜6枚、credit、
      Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出して終了する。
    - 失敗したら、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
@@ -173,7 +174,7 @@ Claude Code が渡すもの・確かめること:
    - `channel: github` → はてな・ameba・note への転載は行わない（GitHub Pages へのみデプロイ）
    - `channel: hatena` → はてなブログへ全文投稿
    - `channel: ameba` → Amebaブログへ全文転載
-   - `channel: note` → GitHub Pages には載せず、note のみに投稿（`content/note-only/` の本文を変換して送る）
+   - `channel: note` → GitHub Pages へ公開（無料は全文 / 有料は無料部分＋CTA）し、note にも投稿（`content/posts/` の本文を変換して送る）
 6. クロスリンク挿入: 記事の最後に「関連記事」ブロックを挿入する（手順7.5のスロット別フォーマットを参照）。
 
 ## 7. 公開
@@ -185,6 +186,9 @@ Claude Code が渡すもの・確かめること:
    - `channel: github` → 外部転送スキップ
    - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
    - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
+     - 有料記事は note エディタで有料ラインと価格を設定したあと、`python scripts/note_sync.py sync` →
+       `python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check` を実行する。
+       詳細は `CLAUDE.md` の「有料記事の扱い」。有料記事は GitHub Pages を先に公開しない（全文が一瞬公開されるため）。
    - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
 4. **X (Twitter) への投稿(全チャンネル共通、2026-11-04 正式復活)**: 上記の外部転載が終わった後、GitHub Pagesの記事URL
    (`https://kingsworksub-jpg.github.io/posts/<slug>/`)を入れて投稿する。文面は手で作らず **`meta.json` の `x_post`** を使う。

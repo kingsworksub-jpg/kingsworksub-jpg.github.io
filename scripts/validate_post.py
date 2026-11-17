@@ -25,15 +25,41 @@ SIMPLIFIED = set("们这说刚价么还让给开关头见问题实现经电动�
 BANNED_TITLE = ["を全機能解剖", "の味と仕様", "の仕様と使い方", "の現在地 — ", "徹底比較", "隅から隅まで", "味わい尽くす", "五番勝負"]
 BANNED_BODY = [r"実際に.{0,12}してみた", "あるレビューでは", "海外フォーラムでは", "と評されている", "隅から隅まで",
                "味わい尽くす", "の転載です", "エージェント", "自動生成", "読み込んで"]
+MIN_TEASER = 800
+CTA_RE = re.compile(r"<!-- note-paywall-cta:start -->.*?<!-- note-paywall-cta:end -->", re.S)
 
 sys.stdout.reconfigure(encoding="utf-8")
 
 
+def _note_index() -> dict:
+    """scripts/note-index.json の slug → note 情報（有料を優先）。"""
+    p = os.path.join(ROOT, "scripts", "note-index.json")
+    if not os.path.exists(p):
+        return {}
+    try:
+        notes = json.load(open(p, encoding="utf-8")).get("notes", [])
+    except Exception:
+        return {}
+    out = {}
+    for n in notes:
+        s = n.get("slug")
+        if not s:
+            continue
+        old = out.get(s)
+        if (old is None
+                or (n.get("price", 0) > 0 and old.get("price", 0) == 0)
+                or (n.get("price", 0) > 0 and old.get("price", 0) > 0
+                    and (n.get("publish_at") or "") > (old.get("publish_at") or ""))):
+            out[s] = n
+    return out
+
+
+def _norm_text(s: str) -> str:
+    return re.sub(r"[\s\u3000]+", "", s or "")
+
+
 def check(slug: str) -> list[str]:
     p = os.path.join(ROOT, "content", "posts", slug + ".md")
-    if not os.path.exists(p):
-        # channel: note の記事は Hugo 対象外の content/note-only/ に置く（2026-11-06〜）
-        p = os.path.join(ROOT, "content", "note-only", slug + ".md")
     if not os.path.exists(p):
         return [f"記事ファイルが無い: {p}"]
     s = open(p, encoding="utf-8-sig").read().replace("\r\n", "\n")
@@ -79,22 +105,61 @@ def check(slug: str) -> list[str]:
     if not og or not os.path.exists(os.path.join(ROOT, "static", og.group(1).lstrip("/"))):
         errs.append("OGP画像（images:）が無い")
 
-    text = re.sub(r"<[^>]+>|!\[[^\]]*\]\([^)]*\)|\[([^\]]*)\]\([^)]*\)|[#|*`>-]", r"\1", body)
+    note_rec = _note_index().get(slug)
+    note_paid = field("note_paid").strip().lower() in ("true", "yes", "1")
+    has_cta = bool(CTA_RE.search(body))
+    content_body = CTA_RE.sub("", body) if has_cta else body
+    text = re.sub(r"<[^>]+>|!\[[^\]]*\]\([^)]*\)|\[([^\]]*)\]\([^)]*\)|[#|*`>-]", r"\1", content_body)
     plain = re.sub(r"\s+", "", text)
-    if len(plain) < MIN_BODY:
-        errs.append(f"本文が短い（{len(plain)}字 < {MIN_BODY}字）")
+
+    if note_rec is not None:
+        if note_rec.get("price", 0) > 0:
+            # note 側は有料。GitHub Pages は無料部分＋CTA でなければならない。
+            if not note_paid:
+                errs.append(f"note は有料（{note_rec['price']}円）なのに note_paid: true が無い")
+            if field("note_key") != note_rec.get("key"):
+                errs.append(f"note_key が note 側と不一致（{field('note_key')!r} != {note_rec.get('key')!r}）")
+            if field("note_url").rstrip("/") != (note_rec.get("url") or "").rstrip("/"):
+                errs.append("note_url が note 側と不一致")
+            if field("note_price").strip() != str(note_rec.get("price")):
+                errs.append("note_price が note 側と不一致")
+            if not has_cta:
+                errs.append("有料記事なのに CTA（<!-- note-paywall-cta:start -->）が無い")
+            pf = note_rec.get("paid_from") or ""
+            if pf and _norm_text(pf) in _norm_text(content_body):
+                errs.append(f"有料部分の見出しが GitHub Pages 側に残っている: {pf!r}")
+            if not os.path.exists(os.path.join(ROOT, "scripts", "note-full", slug + ".md")):
+                errs.append(f"有料記事の全文退避が無い: scripts/note-full/{slug}.md")
+            if len(plain) < MIN_TEASER:
+                errs.append(f"無料部分が短い（{len(plain)}字 < {MIN_TEASER}字）")
+        else:
+            # note 側は無料。GitHub Pages にも全文が載っている必要がある。
+            if note_paid:
+                errs.append("note は無料なのに note_paid: true になっている")
+            if has_cta:
+                errs.append("note は無料なのに有料 CTA が入っている（全文を掲載する）")
+            note_chars = int(note_rec.get("body_chars") or 0)
+            if note_chars and len(plain) < note_chars * 0.85:
+                errs.append(f"本文が note より短い（記事 {len(plain)}字 / note {note_chars}字）。無料記事は全文を掲載する")
+    elif note_paid or has_cta:
+        errs.append("note-index.json に無いのに有料設定（note_paid / CTA）がある。`python scripts/note_sync.py sync` を実行")
+
+    minimum = MIN_TEASER if note_paid else MIN_BODY
+    if len(plain) < minimum:
+        errs.append(f"本文が短い（{len(plain)}字 < {minimum}字）")
     zh = [ch for ch in plain if ch in SIMPLIFIED]
     if len(zh) >= 3:
         errs.append(f"中国語の簡体字が混入: {''.join(sorted(set(zh)))[:20]}")
     if re.search(r"[\u0400-\u04FF\u0E00-\u0E7F\uAC00-\uD7AF]", plain):
         errs.append("日本語以外の文字（キリル・タイ・ハングル）が混入")
     for b in BANNED_BODY:
-        if re.search(b, body):
+        if re.search(b, content_body):
             errs.append(f"禁止表現: {b}")
-    if re.search(r"\[(?:CTA_BLOCK|TEXT_LINK|SUB_LINK):", body):
+    if re.search(r"\[(?:CTA_BLOCK|TEXT_LINK|SUB_LINK):", content_body):
         errs.append("CVRプレースホルダーが未解決（[CTA_BLOCK: ...] / [TEXT_LINK: ...] / [SUB_LINK: ...] を実リンクに置き換えること）")
-    if len(re.findall(r"(?m)^## ", body)) < 3:
-        errs.append("見出し（##）が3つ未満")
+    min_headings = 1 if note_paid else 3
+    if len(re.findall(r"(?m)^## ", content_body)) < min_headings:
+        errs.append(f"見出し（##）が{min_headings}つ未満")
 
     figs = re.findall(r'<figure class="photo photo--(?:left|right)">(.*?)</figure>', body, re.S)
     if not figs:

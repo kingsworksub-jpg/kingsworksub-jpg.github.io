@@ -1094,7 +1094,20 @@ def list_drafts():
     if not os.path.isdir(DRAFTS):
         print(f"note ドラフトがありません: {DRAFTS}")
         return []
-    return sorted(f for f in os.listdir(DRAFTS) if f.endswith(".note.txt"))
+    out = sorted(f for f in os.listdir(DRAFTS) if f.endswith(".note.txt"))
+    paid = os.path.join(DRAFTS, "paid")
+    if os.path.isdir(paid):
+        out += sorted("paid/" + f for f in os.listdir(paid) if f.endswith(".note.txt"))
+    return out
+
+
+def draft_path(slug):
+    """slug のドラフトを探す。有料記事の下書きは paid/ にある。"""
+    for sub in ("", "paid"):
+        cand = os.path.join(DRAFTS, sub, slug + ".note.txt")
+        if os.path.exists(cand):
+            return cand
+    return os.path.join(DRAFTS, slug + ".note.txt")
 
 
 def post_one(p, path, args):
@@ -1258,7 +1271,7 @@ def main():
             if not args.slug:
                 print("[error] --edit-key には --slug が必須です")
                 sys.exit(1)
-            cand = os.path.join(DRAFTS, args.slug + ".note.txt")
+            cand = draft_path(args.slug)
             if not os.path.exists(cand):
                 print(f"ドラフトが見つかりません: {cand}")
                 sys.exit(1)
@@ -1270,7 +1283,7 @@ def main():
         if args.all:
             targets = [os.path.join(DRAFTS, f) for f in list_drafts()]
         elif args.slug:
-            cand = os.path.join(DRAFTS, args.slug + ".note.txt")
+            cand = draft_path(args.slug)
             if not os.path.exists(cand):
                 print(f"ドラフトが見つかりません: {cand}")
                 print("利用可能:")

@@ -76,13 +76,21 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   `pc`=PC・周辺機器、`dev`=開発・プログラミング、`net`=ネット・自宅サーバーは2026-10-22追加）
 - `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-lab` / `drink-recipe` / `drink-tools` / `drink-hack` / `whisky` / `sakeware` / `gear` / `learning`。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
-- `channel: note` → **GitHub Pages には投稿しない。note のみに投稿**（2026-11-06、ユーザー指示で GitHub Pages 分離）。
-  **他プラットフォームへの転載なし・有料記事対応** — note では記事を有料化できるため、同じ記事を はてな/Ameba に転載しない。
-  記事は `content/note-only/` フォルダに保管し、Hugo ビルドから除外される（`hugo.toml` の `ignoreFiles`）。
-  投稿は `scripts/post-to-note.py` で Playwright 自動化。アカウントログインは `data/note_user_data/`(gitignore対象)に保存。
-  **X (Twitter) への投稿も行う**（2026-11-06追加） — note の実際の記事URL（`https://note.com/shining_finger01/n/<key>`）を使う。
-  クロスリンク（「関連記事」ブロック）は他プラットフォームの記事一覧のみ（note の同じ記事へのリンクは避ける）。
-  カテゴリー: `jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
+- `channel: note` → **GitHub Pages をベースに、note にも投稿**（2026-11-17、方針変更）。
+  - **無料記事**: GitHub Pages に全文、note にも全文を掲載する。
+  - **有料記事**: GitHub Pages には**無料部分だけ**を掲載し、有料部分の先頭に「続きは note で読む」CTA を置く。
+    全文は note にのみ置き、再投稿・再変換用に `scripts/note-full/<slug>.md` へ退避する。
+  - 有料/無料の判定と有料部分の境界は **note 側の API（`price` / `separator` / `body`）を正**とする。
+    記事側の推測・手書きマーカーを正にしない（有料部分の漏洩防止）。
+  - 記事は他のチャンネルと同じく `content/posts/<slug>.md` に置く（`content/note-only/` は 2026-11-17 廃止）。
+  - 投稿後の同期・検査:
+    `python scripts/note_sync.py sync` →（有料のみ）`python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check`
+  - **有料ラインの設定だけは note エディタで手動**（note に公開 API が無いため）。`convert-to-note.py` が下書きの
+    `# 公開設定` に、有料ラインを置く見出しと価格を出力する。
+  - 投稿は `scripts/post-to-note.py` で Playwright 自動化。アカウントログインは `data/note_user_data/`(gitignore対象)に保存。
+  - **X (Twitter) への投稿も行う**（2026-11-06追加） — note の実際の記事URL（`https://note.com/shining_finger01/n/<key>`）を使う。
+  - クロスリンク（「関連記事」ブロック）は他プラットフォームの記事一覧のみ（note の同じ記事へのリンクは避ける）。
+  - カテゴリー: `jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
   `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加。
 
 ### 1日6枠のプラットフォーム配分（2026-10-08 改修 → 2026-10-22 調整）
@@ -712,6 +720,18 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
 - 変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
 - 投稿・公開: `python scripts/post-to-note.py --slug <slug> --publish`（`publish_note()` が2段実行し、APIで公開を検証して公開URLを返す）
+- **有料記事の扱い（2026-11-17〜）**:
+  - note 側で有料ラインを設定したら、必ず `python scripts/note_sync.py sync` で `scripts/note-index.json` を更新する。
+    この index が「どの記事が有料か」「有料部分がどこからか」の正本になる。
+  - 続いて `python scripts/note_sync.py apply --slug <slug>` を実行する。記事の全文は `scripts/note-full/<slug>.md` に退避され、
+    `content/posts/<slug>.md` は **frontmatter＋無料部分＋CTA** に書き換わる。note の区切りと記事の見出しが一致しない場合は、
+    書き換えずにエラーで止まる（有料部分を推測で切らない）。
+  - `python scripts/note_sync.py check` が 0 件になることを確認する。`validate_post.py` も同じ index を見て、
+    有料記事の CTA 欠落・有料見出しの残存・無料記事の本文不足を NG にする。
+  - **公開順序（有料記事）**: 記事を `content/posts/` に書く（必要なら `draft: true`）→ note へ全文投稿 → note で有料ラインと価格を設定
+    → `note_sync.py sync` → `note_sync.py apply` → `draft: false` → `hugo --minify` → commit/push。
+    先に GitHub Pages を公開すると、有料部分が一瞬公開されるので注意する。
+  - 既存の有料記事は 2026-11-17 に `nea-jazz-masters-2026`（200円）へ適用済み。以降の有料記事も同じ手順を必ず通す。
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
   - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
 - **本文冒頭に GitHub Pages の元記事を「オリジナル記事」として必ず貼る（2026-10-05、ユーザー指示・全記事に適用）**。`convert-to-note.py` が本文の先頭に `オリジナル記事: https://kingsworksub-jpg.github.io/posts/<slug>/` を自動で出力し、`post-to-note.py` が URL を `<a>` リンクとして貼り付ける（note は入力した URL を自動リンクしないため `ORIGINAL_LINE_RE` → `paste_link()`）。末尾の `元記事（ブログ）:` 行も同様にリンク化される。手動で note 記事を作る・直す場合も冒頭のこの行を省かないこと

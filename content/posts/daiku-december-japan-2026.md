@@ -8,6 +8,7 @@ date: "2026-11-16T21:35:17+09:00"
 categories: ["music"]
 tags: ["ベートーヴェン", "第九"]
 draft: false
+aliases: ["/note-only/daiku-december-japan-2026/"]
 scheduled_time: "21:30"
 ---
 

@@ -1,0 +1,70 @@
+/* 有料 note 記事のティーザー（無料部分の末尾に置く CTA）。
+   方針: 無料部分は note と同一、ここから先は note の有料記事へ。 */
+.note-cta {
+    margin: 2.2rem 0 2rem;
+    padding: 1.55rem 1.4rem 1.4rem;
+    border: 1px solid var(--border);
+    border-left: 4px solid #d4a017;
+    border-radius: 10px;
+    background: var(--entry);
+    text-align: center;
+}
+
+.note-cta__eyebrow {
+    margin: 0 0 0.55rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #a97b00;
+}
+
+.note-cta__lead {
+    margin: 0 auto 1.05rem;
+    max-width: 34rem;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.75;
+    color: var(--primary);
+}
+
+.note-cta__button {
+    display: inline-block;
+    padding: 0.78rem 1.55rem;
+    border-radius: 999px;
+    background: #d4a017;
+    color: #1b1b1b !important;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.16);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.note-cta__button:hover {
+    background: #e6b32a;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+}
+
+.note-cta__note {
+    margin: 0.85rem auto 0;
+    max-width: 32rem;
+    font-size: 0.76rem;
+    line-height: 1.6;
+    color: var(--secondary);
+}
+
+@media (max-width: 480px) {
+    .note-cta {
+        padding: 1.3rem 1rem 1.2rem;
+    }
+
+    .note-cta__lead {
+        font-size: 0.96rem;
+    }
+
+    .note-cta__button {
+        display: block;
+    }
+}

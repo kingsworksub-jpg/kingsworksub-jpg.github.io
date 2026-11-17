@@ -25,7 +25,10 @@ from affiliate_tag import rewrite_for  # noqa: E402
 
 BASE = r"C:\Users\norio\my-github-blog"
 POSTS = os.path.join(BASE, "content", "posts")
+NOTE_FULL = os.path.join(BASE, "scripts", "note-full")
 SITE = "https://kingsworksub-jpg.github.io"
+CTA_RE = re.compile(r"<!-- note-paywall-cta:start -->.*?<!-- note-paywall-cta:end -->", re.S)
+PAYWALL_MARKER = "<!-- note-paywall -->"
 
 
 def parse_front_matter(text):
@@ -193,6 +196,35 @@ def main():
         text = f.read()
 
     meta, body = parse_front_matter(text)
+    paid = str(meta.get("note_paid", "")).strip().lower() in ("true", "yes", "1")
+    paywall_from = meta.get("note_paid_from", "")
+    price = meta.get("note_price", "")
+
+    # 有料記事の GitHub Pages 版は「無料部分＋CTA」なので、note には退避した全文を使う。
+    full_src = os.path.join(NOTE_FULL, slug + ".md")
+    if paid:
+        if os.path.exists(full_src):
+            src = full_src
+            with io.open(src, encoding="utf-8") as f:
+                text = f.read()
+            full_meta, body = parse_front_matter(text)
+            for k in ("title", "description", "tags", "categories"):
+                if full_meta.get(k):
+                    meta[k] = full_meta[k]
+        else:
+            print("有料記事ですが全文の退避がありません: %s" % full_src)
+            print("先に scripts/note_sync.py apply を実行するか、note-full に全文を置いてください。")
+            sys.exit(1)
+
+    # CTA は note には不要。マーカーは公開後に note_sync.py apply で使う。
+    body = CTA_RE.sub("", body)
+    marker_at = body.find(PAYWALL_MARKER)
+    if marker_at != -1:
+        after = body[marker_at + len(PAYWALL_MARKER):]
+        m = re.search(r"(?m)^##\s+(.+)$", after)
+        if m and not paywall_from:
+            paywall_from = m.group(1).strip()
+        body = body.replace(PAYWALL_MARKER, "")
     body = clean_body(body)
 
     # front matter の description は本文冒頭の書き出しと重複することがある。
@@ -211,6 +243,14 @@ def main():
     lines.append("# タグ（1行にまとめて貼り付け）")
     lines.append(" ".join("#%s" % normalize_tag(t) for t in tags))
     lines.append("")
+    if paid or paywall_from:
+        lines.append("# 公開設定")
+        lines.append("この記事は note の有料記事です。エディタで「%s」の直前に有料ラインを置き、価格を %s 円に設定してください。"
+                     % (paywall_from or "(有料部分の先頭見出し)", price or "(note で設定)"))
+        lines.append("公開後に `python scripts/note_sync.py sync` と "
+                     "`python scripts/note_sync.py apply --slug %s` を実行すると、"
+                     "GitHub Pages が無料部分＋CTA に揃います。" % slug)
+        lines.append("")
     lines.append("# 本文（ここから貼り付け）")
     lines.append("")
     # 冒頭に GitHub Pages の元記事をオリジナル記事として貼る（2026-10-05、ユーザー指示）
@@ -233,7 +273,9 @@ def main():
         if not os.path.isabs(out):
             out = os.path.join(BASE, out)
     else:
-        out = os.path.join(BASE, "scripts", "note-drafts", slug + ".note.txt")
+        # 有料記事の下書きは全文を含むため、公開リポジトリに入れない paid/ に置く。
+        sub = "paid" if (paid or paywall_from) else ""
+        out = os.path.join(BASE, "scripts", "note-drafts", sub, slug + ".note.txt")
         os.makedirs(os.path.dirname(out), exist_ok=True)
 
     with io.open(out, "w", encoding="utf-8", newline="\n") as f:
@@ -245,6 +287,9 @@ def main():
     print("タグ: %s" % " ".join("#%s" % normalize_tag(t) for t in tags))
     print("本文の文字数: 約 %d" % len(plain.replace("\n", "")))
     print("元記事URL: %s" % url)
+    if paid or paywall_from:
+        print("有料記事: note エディタで「%s」の直前に有料ラインを置いてください。"
+              % (paywall_from or "(有料部分の先頭見出し)"))
 
 
 if __name__ == "__main__":

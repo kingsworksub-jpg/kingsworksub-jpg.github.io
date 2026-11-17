@@ -8,6 +8,7 @@ date: 2026-11-07T14:30:00+09:00
 categories: ["music"]
 tags: ["ECM", "マンフレート・アイヒャー", "キース・ジャレット", "ヤン・ガルバレク", "アルヴォ・ペルト", "ジャズ録音", "ジャズ名盤", "残響"]
 draft: false
+aliases: ["/note-only/ecm-records-silence-recording-2026/"]
 scheduled_time: "14:30"
 ---
 

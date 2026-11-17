@@ -727,7 +727,9 @@
    "slug": "nea-jazz-masters-2026",
    "status": "published",
    "at": "2026-09-30",
-   "engine": "legacy"
+   "engine": "legacy",
+   "note_key": "n681e210bb68b",
+   "note_price": 200
   },
   {
    "id": "post-statement-hat-trends-autumn-2026",

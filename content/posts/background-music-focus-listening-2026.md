@@ -8,6 +8,7 @@ date: 2026-11-06T21:30:00+09:00
 categories: ["essay"]
 tags: ["作業用BGM", "ながら聴き", "集中", "環境音楽", "エリック・サティ", "ブライアン・イーノ", "モーツァルト効果", "lofi"]
 draft: false
+aliases: ["/note-only/background-music-focus-listening-2026/"]
 scheduled_time: "21:30"
 ---
 

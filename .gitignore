@@ -18,6 +18,10 @@ data/x_user_data/
 # ネタ会議の一時ファイル
 scripts/.topic-candidates.json
 
+# 有料 note 記事の全文（GitHub Pages には無料部分だけを載せる。公開リポジトリに入れない）
+scripts/note-full/
+scripts/note-drafts/paid/
+
 # アフィリエイトタグ一括置換(2026-10-23)の作業用一時ファイル
 scripts/_tmp_*
 scripts/_retag_*

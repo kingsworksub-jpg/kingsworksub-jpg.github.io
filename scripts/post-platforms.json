@@ -959,13 +959,14 @@
  "nea-jazz-masters-2026": {
   "platforms": [
    "github",
-   "hatena"
+   "hatena",
+   "note"
   ],
   "hatena_entry": 14945776032084161144,
-  "note_key": null,
+  "note_key": "n681e210bb68b",
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-10-15T21:36:14+09:00",
+  "needs_manual_review": null,
+  "updated_at": "2026-11-17T13:06:31+09:00",
   "title": "NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩"
  },
  "statement-hat-trends-autumn-2026": {

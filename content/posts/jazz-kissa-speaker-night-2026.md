@@ -8,6 +8,7 @@ date: 2026-11-06T14:30:00+09:00
 categories: ["essay"]
 tags: ["ジャズ喫茶", "ジャズ", "スピーカー", "JBL", "ちぐさ", "ベイシー", "レコード", "リスニングバー"]
 draft: false
+aliases: ["/note-only/jazz-kissa-speaker-night-2026/"]
 scheduled_time: "14:30"
 ---
 

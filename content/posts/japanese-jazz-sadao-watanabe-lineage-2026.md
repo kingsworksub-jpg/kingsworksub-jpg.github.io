@@ -8,6 +8,7 @@ date: 2026-11-07T21:30:00+09:00
 categories: ["music"]
 tags: ["日本のジャズ", "渡辺貞夫", "秋吉敏子", "山下洋輔", "菊地雅章", "上原ひろみ", "ジャズ名盤", "BLUE GIANT"]
 draft: false
+aliases: ["/note-only/japanese-jazz-sadao-watanabe-lineage-2026/"]
 scheduled_time: "21:30"
 ---
 
