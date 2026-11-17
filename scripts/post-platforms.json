@@ -2997,5 +2997,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-17T08:00:07+09:00"
+ },
+ "yubikey-security-key-backup-guide-2026": {
+  "title": "物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予備キーの重要性",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14729835035339743974",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-17T13:01:22+09:00"
  }
 }
