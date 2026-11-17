@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:17:03+09:00",
+ "updated": "2026-11-17T23:17:23+09:00",
  "queue": {
   "published": 166,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published playwright-persistent-profile-login-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-17T23:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-17T22:46:25+09:00",
+  "at": "2026-11-17T23:17:23+09:00",
   "engine": "claude",
-  "detail": "Separately, the claude.ai Google Docs connector needs authorization before it can be used. You can do that in the claude.ai connector settings. This task didn't need it."
+  "detail": "The claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used; nothing in this run needed it."
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-17T23:17:23+09:00",
+   "engine": "claude",
+   "detail": "The claude.ai Google Docs connector needs authorizing in your claude.ai connector settings before it can be used; nothing in this run needed it."
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T20:51:58+09:00",
    "engine": "claude",
    "detail": "The skipped accounts will appear as candidates again next run, which the procedure allows. I deleted the temporary DM text files. No commit or push was needed."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-17T20:30:31+09:00",
-   "engine": "claude",
-   "detail": "未処理の返信はなかった（`--check-replies` が `[]` を返した）ので、返信もスキップもしていません。指示文どおり、ここで終了しました。"
   }
  ],
  "engine_post": "claude",
