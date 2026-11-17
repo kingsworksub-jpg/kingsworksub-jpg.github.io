@@ -7288,5 +7288,31 @@
       "環境にPIL/hugoが無く監査・ビルド未実施。ローカルで seo-audit.py --check-links を実行して確認"
     ],
     "status": "完了(修正なし・点検のみ)"
+  },
+  {
+    "timestamp": "2026-11-17T11:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hammond-b3-jazz-organ-2026",
+      "jazz-festivals-2026",
+      "jazz-shoes-trend-2026",
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "全記事のfigure左右交互ルールを走査し、同方向が連続していた4記事のphoto--left/rightを交互に修正",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "content/posts/jazz-festivals-2026.md",
+      "content/posts/jazz-shoes-trend-2026.md",
+      "content/posts/jazz-style-fashion-revival-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figure交互ルール違反0件(今回の走査基準)",
+      "ローカルでhugoビルドとseo-audit実行を推奨"
+    ],
+    "status": "完了"
   }
 ]
