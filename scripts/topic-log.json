@@ -3418,6 +3418,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-17T23:17:03+09:00"
+  },
+  {
+   "id": "2026w42-050",
+   "category": "notes",
+   "theme": "画像を一括で圧縮するスクリプト、Pillowで書く",
+   "slug": "pillow-batch-image-compress-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/pillow-batch-image-compress-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-18T07:42:34+09:00"
   }
  ]
 }
