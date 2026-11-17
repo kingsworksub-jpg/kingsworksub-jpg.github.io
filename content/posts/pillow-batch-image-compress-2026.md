@@ -180,6 +180,11 @@ def batch_compress_images(input_dir: str, output_dir: str):
 
 この実装を取り入れることで、数千枚規模の画像群を処理する際でも、エラーで止まることなく安全にバッチ処理を完結させることができます。Pillowの豊富なAPIを活用した堅牢なスクリプト設計は、日々の開発やデータ整理の効率を大きく高めてくれます。
 
+## あわせて読みたい
+- [画像の知覚ハッシュをPythonで比べた記録、縮小では動かず左右反転で30ビット変わる](/posts/python-perceptual-hash-image-compare/)：Pillowで縮小した画像が同一と判定されるかを確かめた検証メモ
+- [Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある](/posts/python-venv-uv-first-environment-2026/)：Pillowを入れる環境をどう分けるかの整理
+- [Hugoのビルド時間を測ったら、95秒のうちページの描画は1.3秒だった](/posts/hugo-build-time-measure-2026/)：画像を軽くしたあと、サイト全体のビルドで何が効くかを測った記録
+
 ## 関連記事・おすすめメディア
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)

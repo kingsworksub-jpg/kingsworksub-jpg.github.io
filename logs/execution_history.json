@@ -7569,5 +7569,26 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-17T22:53:06Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "pillow-batch-image-compress-2026"
+    ],
+    "actions": [
+      "内部リンク0本だったPillow記事に関連既存記事3本の「あわせて読みたい」を追加",
+      "全記事走査: 内部リンク0本・figure直後に見出し/区切りの記事は他になし",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/pillow-batch-image-compress-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の記事数=0を維持",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了"
   }
 ]
