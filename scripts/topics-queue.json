@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:45:05+09:00",
+ "updated": "2026-11-17T12:00:51+09:00",
  "items": [
   {
    "category": "gear",
@@ -12959,14 +12959,15 @@
    },
    "source_of_idea": "search",
    "id": "2026w46-001",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-15",
    "retry": 1,
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
    "slot_label": "昼: テック/ソフト/制作環境",
-   "last_error": "run did not publish (timeout); cleaned up"
+   "last_error": "run did not publish (timeout); cleaned up",
+   "claimed_at": "2026-11-17T12:00:51+09:00"
   },
   {
    "category": "whisky",
