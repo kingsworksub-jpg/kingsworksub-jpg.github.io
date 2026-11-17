@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T03:15:03+09:00",
+ "updated": "2026-11-18T03:15:38+09:00",
  "queue": {
   "published": 166,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published playwright-persistent-profile-login-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-18T03:15:03+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "ppp-reconcile",
-  "label": "プラットフォーム同期",
   "state": "finished",
-  "at": "2026-11-18T03:00:11+09:00",
+  "at": "2026-11-18T03:15:38+09:00",
   "engine": "claude",
-  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  "detail": "**ほかに気づいたこと：** claude.ai の Google Docs コネクターが未認証です。今回の作業には必要ありませんが、使うときは claude.ai のコネクター設定から認証してください。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-18T03:15:38+09:00",
+   "engine": "claude",
+   "detail": "**ほかに気づいたこと：** claude.ai の Google Docs コネクターが未認証です。今回の作業には必要ありませんが、使うときは claude.ai のコネクター設定から認証してください。"
+  },
   {
    "job": "ppp-reconcile",
    "label": "プラットフォーム同期",
@@ -97,14 +100,6 @@
    "at": "2026-11-18T01:00:31+09:00",
    "engine": "claude",
    "detail": "この作業では何も変更していないので、commit や push はしていません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-18T00:37:17+09:00",
-   "engine": "claude",
-   "detail": "Nothing records skips, so these 5 will come up again next run, which is expected. The temporary message files are deleted. Per the task instructions, I didn't commit or push anything."
   }
  ],
  "engine_post": "claude",
