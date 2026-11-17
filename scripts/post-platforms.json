@@ -3032,5 +3032,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-18T00:05:15+09:00"
+ },
+ "pillow-batch-image-compress-2026": {
+  "title": "PythonとPillowで画像を効率的に一括圧縮するスクリプトの実装と例外処理のポイント",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-18T08:00:07+09:00"
  }
 }
