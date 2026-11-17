@@ -1,0 +1,16 @@
+{
+ "/images/pw-profile/Chromium_Browser.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Chromium_Browser.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Chromium_Browser.png",
+  "license": "BSD",
+  "author": "Chromium Team",
+  "title": "File:Chromium Browser.png"
+ },
+ "/images/pw-profile/Cookies_in_Firefox_3.0.PNG": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Cookies_in_Firefox_3.0.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:Cookies_in_Firefox_3.0.PNG",
+  "license": "CC BY-SA 4.0",
+  "author": "Mozilla Foundation",
+  "title": "File:Cookies in Firefox 3.0.PNG"
+ }
+}
