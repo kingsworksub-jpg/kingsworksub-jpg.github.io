@@ -1,10 +1,13 @@
 ---
 title: "コルトレーン『Giant Steps』は3つのコードでできている。1週間で耳に入れる練習表"
-description: "コルトレーン『Giant Steps』の難所は、3つの調が長3度で滑るコード進行。ガイドトーンから16分のランまで、1週間の練習表で順に耳と指に入れる。"
+description: "コルトレーン『Giant Steps』の難所は、3つの調が長3度で滑るコード進行。ガイドトーンから16分のランまで、1週間の練習表で順に耳と指に入れる。速さの正体が目標音の密度だと気づけるよう、日ごとのメトロノーム設定と崩れたときの戻し方まで具体的に示す。"
 date: 2026-11-18
 lastmod: 2026-11-18
 tags: ["jazz", "john-coltrane", "giant-steps", "ear-training"]
 categories: ["music"]
+images: ["/images/og/ear-training-one-week.jpg"]
+ogImageWidth: 1200
+ogImageHeight: 630
 slug: "coltrane-giant-steps-ear-training-1week"
 draft: false
 note_paid: true
@@ -38,6 +41,12 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 - Gbmaj7 → （Bmaj7 に戻る）
 
 ここで B・G・Eb の3つのメジャーが軸で、間に入るドミナント（D7・Bb7・A7…）が次の調へ滑らせる役割を担っている。まずはメトロノームを ♩=56 にして、ルート音だけを1小節ずつ歌う。B → G → Eb → D → Bb → Gb。声に出せない場合は、ピアノの低音で同じ音を叩いてもよい。
+
+<figure class="photo photo--left">
+<img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy">
+<figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム</figcaption>
+<span class="credit">Photo: Wikimedia Commons</span>
+</figure>
 
 いわゆる「コルトレーン・チェンジ」と呼ばれる動きも、この3つの調が長3度で接続しているだけだと気づく。暗記する前に、まず声で覚える。これが1日目のすべて。
 
