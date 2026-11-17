@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:15:40+09:00",
+ "updated": "2026-11-17T17:31:42+09:00",
  "items": [
   {
    "category": "gear",
@@ -6137,12 +6137,13 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-002",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-18",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "claimed_at": "2026-11-17T17:31:42+09:00"
   },
   {
    "category": "gear",
