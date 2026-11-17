@@ -7120,5 +7120,26 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了(軽微修正)"
+  },
+  {
+    "timestamp": "2026-11-17T04:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hello"
+    ],
+    "actions": [
+      "全255ファイルのdescription長・H2数・OG画像実在・本文量を機械点検(draft/旧型の短い深掘り記事のみ該当、公開記事に致命的問題なし)",
+      "helloのdescriptionで「はじめて訪れた人」が重複していた箇所を整理(SEO用要旨を明確化)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/hello.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ウイスキー深掘り10本(本文1800〜2500字)の拡充を次回以降の候補とする",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了(軽微修正)"
   }
 ]
