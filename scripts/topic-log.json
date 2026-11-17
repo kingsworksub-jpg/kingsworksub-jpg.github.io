@@ -3368,6 +3368,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-17T12:15:40+09:00"
+  },
+  {
+   "id": "2026w42-002",
+   "category": "gear",
+   "theme": "オーディオインターフェースのマイクプリアンプ、ゲインを上げて音は変わるか",
+   "slug": "mic-preamp-gain-compare-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/mic-preamp-gain-compare-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-17T17:47:32+09:00"
   }
  ]
 }
