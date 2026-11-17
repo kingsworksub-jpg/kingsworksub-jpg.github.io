@@ -19,8 +19,8 @@ X (Twitter) で自分がフォローしているユーザー（Following）の�
    （元の投稿 → 自分の返信 → 相手の返信）をLLMに渡して続きを返す。
    プロフィールの「返信」タブを開くため、確認は一定間隔
    （X_FOLLOWUP_INTERVAL_MIN、既定30分）で行う。
-7. 実行間隔は固定にせず、日中は短め（20〜50分）・深夜は長め（80〜150分）の
-   ランダムにして、1日トータルで約30サイクル（深夜は4回程度）にする。
+7. 実行間隔は固定にせず、日中は短め（18〜45分）・深夜は長め（80〜150分）の
+   ランダムにして、1日トータルで約30〜33サイクル（深夜は4回程度）にする。
    固定間隔の機械的なパターンを避けるため。`--loop` で常駐させ、
    Windowsタスクスケジューラからは1日1回起動する（run-following-reply.ps1）。
 """
@@ -55,7 +55,9 @@ INIT_SCRIPT = (
 )
 
 MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
-MUTEX_WAIT_MS = 10000
+# 他のXジョブ（特に1〜2分間隔で回る x-auto-like）が数十秒でロックを離すことが多いので、
+# すぐ諦めず少し待つ。長く待っても取れない場合はサイクルをスキップして数分後に再試行する。
+MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "120")) * 1000)
 
 MAX_REPLIES_PER_DAY = int(os.environ.get("X_MAX_REPLIES_PER_DAY", "30"))
 CYCLE_SLEEP_RANGE = (120, 240)
@@ -67,8 +69,9 @@ BATCH_SIZE = int(os.environ.get("X_BATCH_SIZE", "3"))
 POST_PER_CYCLE = int(os.environ.get("X_POST_PER_CYCLE", "1"))
 
 # サイクル間隔。固定45分だと機械的なので、日中は短め・深夜は長めのランダムにする
-# （1日トータルで約28〜30サイクル、うち深夜は4回程度）。
-DAY_INTERVAL_MIN = (20, 50)      # 07:00-22:59
+# （1日トータルで約33サイクル、うち深夜は4回程度。他のXジョブがロックを
+#  持つ時間帯は自動でスキップし、数分後に再試行する）。
+DAY_INTERVAL_MIN = (18, 45)      # 07:00-22:59
 NIGHT_INTERVAL_MIN = (80, 150)   # 23:00-06:59
 LONG_REST_PROB = 0.08            # たまに長めに間を空ける（機械的な連続実行に見せない）
 
@@ -796,24 +799,25 @@ def collect_candidates(page, state, own_handle, limit):
     return candidates
 
 def run_following_reply_cycle(publish=False, ignore_lock=False):
+    """1サイクル実行する。戻り値は "done" / "lock"（他ジョブ実行中）/ "cap"（本日の上限）。"""
     if ignore_lock:
         if publish:
             print("[!] --ignore-lock と --publish は同時に使えません（本番ジョブとの二重投稿を防ぐため）")
-            return
+            return "done"
         print("[!] --ignore-lock: 他のXジョブが動いていても強制実行します（ドライラン専用）")
         mutex = None
     else:
         mutex = acquire_mutex()
         if not mutex:
             print("[!] 他のX自動化ジョブが実行中のため、今回のサイクルをスキップします。")
-            return
+            return "lock"
 
     state = load_state()
     load_replies_state_ids(refresh=True)
     if replies_today(state) >= MAX_REPLIES_PER_DAY:
         print(f"[i] 本日の自動返信上限({MAX_REPLIES_PER_DAY}件)に達しました。")
         release_mutex(mutex)
-        return
+        return "cap"
 
     print("[*] X フォロー中タイムラインの巡回と自動返信サイクルを開始します...")
     with sync_playwright() as p:
@@ -860,7 +864,7 @@ def run_following_reply_cycle(publish=False, ignore_lock=False):
             candidates = list(uniq.values())
             if not candidates:
                 print("[i] 返信に値する投稿が見つからなかったため終了します。")
-                return
+                return "done"
 
             print(f"\n[*] {len(candidates)}件をまとめてLLMに投げます（B方式・バッチ生成）")
             replies, log, declined = x_llm.generate_replies(candidates)
@@ -918,6 +922,8 @@ def run_following_reply_cycle(publish=False, ignore_lock=False):
             ctx.close()
             kill_stale_browser()
             release_mutex(mutex)
+    return "done"
+
 class _Tee:
     """標準出力をコンソールとログファイルの両方に流す（UTF-8で書く）。"""
 
@@ -977,15 +983,29 @@ if __name__ == "__main__":
     print(f"\n===== ループ開始 {datetime.datetime.now().isoformat(timespec='seconds')} =====")
     while True:
         print(f"\n===== {datetime.datetime.now().isoformat(timespec='seconds')} =====")
+        status = "done"
         try:
-            run_following_reply_cycle(publish=args.publish, ignore_lock=args.ignore_lock)
+            status = run_following_reply_cycle(publish=args.publish, ignore_lock=args.ignore_lock)
         except KeyboardInterrupt:
             print("[i] Ctrl+C を受けたため終了します。")
             break
         except Exception as e:
             # 1サイクルの失敗でループを止めない（ブラウザの一時的な不調など）
             print(f"[!] サイクルが異常終了しました: {e}")
-        wait = cycle_wait_seconds()
+
+        if status == "lock":
+            # 他のXジョブとぶつかっただけなので、間隔を空けず数分後に再挑戦する
+            wait = random.uniform(3, 8) * 60
+        elif status == "cap":
+            # 本日の上限に達したら、翌日の0時台まで待つ
+            now = datetime.datetime.now()
+            nxt_day = (now + datetime.timedelta(days=1)).replace(
+                hour=0, minute=random.randint(2, 9), second=0, microsecond=0
+            )
+            wait = max(60, (nxt_day - now).total_seconds())
+        else:
+            wait = cycle_wait_seconds()
+
         nxt = datetime.datetime.now() + datetime.timedelta(seconds=wait)
         print(f"[i] 次回は {nxt.strftime('%m/%d %H:%M')} 頃に実行します（{int(wait // 60)}分後）")
         try:
