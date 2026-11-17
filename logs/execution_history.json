@@ -7218,5 +7218,27 @@
       "短い深掘り記事(5000字未満)の棚卸しと次の拡充対象の選定"
     ],
     "status": "完了(軽微修正)"
+  },
+  {
+    "timestamp": "2026-11-17T08:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "yubikey-security-key-backup-guide-2026"
+    ],
+    "actions": [
+      "figureを見出し(##)直後・本文段落の直前へ移動(CLAUDE.mdの配置ルール準拠。左→右→左の交互配置を維持)",
+      "簡易監査(description長・images・H2数)は公開記事で問題なし(nea-jazz-mastersは有料記事の無料部分のため対象外)",
+      "seo-audit.pyはPIL破損でこの環境では実行不可",
+      "figure未配置違反が残る記事: condenser-mic-5choice-2026, mic-preamp-gain-compare-2026, jazz-instruments-guide, statement-hat-trends-autumn-2026, temperature-kettle-tea-coffee-oyuwari-2026 ほか(次回以降に順次修正)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/yubikey-security-key-backup-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figure配置違反記事の順次修正(残り約16本)"
+    ],
+    "status": "完了(軽微修正)"
   }
 ]
