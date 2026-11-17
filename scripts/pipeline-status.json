@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:01:12+09:00",
+ "updated": "2026-11-17T13:01:26+09:00",
  "queue": {
   "published": 164,
   "rejected": 8,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published yubikey-security-key-backup-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-17T13:01:12+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "x-reply",
   "state": "finished",
-  "at": "2026-11-17T13:01:06+09:00",
+  "at": "2026-11-17T13:01:26+09:00",
   "engine": "claude",
-  "detail": "なお、この実行とは関係ありませんが、claude.ai の Google Docs コネクターが未認証の状態です。使う場合は claude.ai のコネクター設定から認証してください。"
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-17T13:01:26+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "x-reply",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T10:45:52+09:00",
    "engine": "claude",
    "detail": "I ran the reply check (`python scripts/post-to-x.py --check-replies`) as @100labjtvn and it found no new replies (`[]`). Per the instructions I stopped there, so nothing was replied to or skipped. The instructions also say no commit or push is needed."
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-17T10:21:40+09:00",
-   "engine": "claude",
-   "detail": "Separately, the claude.ai Google Docs connector needs authorization in your claude.ai connector settings before it can be used. This task didn't need it."
   }
  ],
  "engine_post": "claude",
