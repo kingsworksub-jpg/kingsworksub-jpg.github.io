@@ -7100,5 +7100,25 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了(軽微修正)"
+  },
+  {
+    "timestamp": "2026-11-17T03:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "powershell-task-scheduler-lock-log-2026"
+    ],
+    "actions": [
+      "全254記事のdescription長・figure直後が見出しの配置違反を機械点検、違反1件のみ検出",
+      "powershell-task-scheduler-lock-log-2026のfigureを導入文と見出しの間から「## 1.」直下へ移動(回り込み再現)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/powershell-task-scheduler-lock-log-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了(軽微修正)"
   }
 ]
