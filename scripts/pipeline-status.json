@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-17T20:00:56+09:00",
+ "updated": "2026-11-17T20:06:13+09:00",
  "queue": {
   "published": 165,
   "rejected": 8,
-  "approved": 51,
-  "in_progress": 1
+  "approved": 52
  },
  "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "claude",
  "pending_requests": 0,
- "last_result": "published mic-preamp-gain-compare-2026",
- "consecutive_failures": 0,
+ "last_result": "failed 2026w45-014: oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達",
+ "consecutive_failures": 1,
  "current_job": {
   "job": "blog-post",
   "label": "投稿",
