@@ -3354,6 +3354,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-17T07:45:05+09:00"
+  },
+  {
+   "id": "2026w46-001",
+   "category": "tech",
+   "theme": "YubiKeyなどの物理セキュリティキー、USBに挿して触れるだけの二段階認証と予備の1本",
+   "slug": "yubikey-security-key-backup-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/yubikey-security-key-backup-guide-2026/",
+   "hatena_entry": "14729835035339743974",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-17T12:15:40+09:00"
   }
  ]
 }

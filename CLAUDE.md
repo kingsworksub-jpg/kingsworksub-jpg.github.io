@@ -561,6 +561,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から | https://kinbro.hatenablog.com/entry/2026/11/09/202911 | 14729835035336090943 |
 | Cubase 16の新機能は「重ねる」と「分ける」。8層のインストゥルメントスタックと6分割のステム分離 | https://kinbro.hatenablog.com/entry/2026/11/15/121329 | 14729835035338648309 |
 | 年末のDTM機材とプラグインの棚卸し | https://kinbro.hatenablog.com/entry/2026/11/16/142653 | 14729835035339177824 |
+| 物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予備キーの重要性 | https://kinbro.hatenablog.com/entry/2026/11/17/121500 | 14729835035339743974 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
