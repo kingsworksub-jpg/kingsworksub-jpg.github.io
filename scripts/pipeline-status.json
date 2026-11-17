@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:01:42+09:00",
+ "updated": "2026-11-18T04:01:51+09:00",
  "queue": {
   "published": 166,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published playwright-persistent-profile-login-notes",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-18T04:01:42+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "topic-topup",
-  "label": "ネタ補充",
   "state": "finished",
-  "at": "2026-11-18T04:01:38+09:00",
-  "engine": "big-pickle",
-  "detail": "（Mode: topup — キュー `approved` 50件 ≥ 16件のため、補充せず終了しました。`sync-skips` / `ingest-requests` はいずれも 0 件で、リポジトリへの変更はありません。）"
+  "at": "2026-11-18T04:01:51+09:00",
+  "engine": "claude",
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-18T04:01:51+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "topic-topup",
    "label": "ネタ補充",
@@ -97,14 +100,6 @@
    "at": "2026-11-18T02:00:15+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-18T01:45:31+09:00",
-   "engine": "claude",
-   "detail": "未処理の返信は0件（`--check-replies` が `[]` を返した）だったので、x-reply.md の指示どおり何もせずに終了しました。返信もスキップも行っていません。"
   }
  ],
  "engine_post": "claude",
