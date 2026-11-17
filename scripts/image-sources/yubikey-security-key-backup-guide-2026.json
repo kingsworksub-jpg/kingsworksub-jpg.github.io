@@ -1,0 +1,23 @@
+{
+ "/images/yubikey/YubiKey_5C_NFC.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/YubiKey_5C_NFC.jpg/1280px-YubiKey_5C_NFC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:YubiKey_5C_NFC.jpg",
+  "license": "CC BY 4.0",
+  "author": "Daniel Aleksandersen",
+  "title": "File:YubiKey 5C NFC.jpg"
+ },
+ "/images/yubikey/YubiKey_5_NFC.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/ce/YubiKey_5_NFC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:YubiKey_5_NFC.png",
+  "license": "CC BY-SA 4.0",
+  "author": "FelixLadd",
+  "title": "File:YubiKey 5 NFC.png"
+ },
+ "/images/yubikey/YubiKey_5C_NFC_front.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/YubiKey_5C_NFC_bare_frontish.jpg/1280px-YubiKey_5C_NFC_bare_frontish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:YubiKey_5C_NFC_bare_frontish.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Addshore",
+  "title": "File:YubiKey 5C NFC bare frontish.jpg"
+ }
+}
