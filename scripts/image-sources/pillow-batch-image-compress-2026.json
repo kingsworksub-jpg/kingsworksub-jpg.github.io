@@ -1,0 +1,23 @@
+{
+ "/images/pillow-compress/01_JPEG_JPG_compression_image_quality_degradation_-_comparison_of_photo_quality_and_file_size_saved_with_different_quality_settings.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/cf/01_JPEG_JPG_compression_image_quality_degradation_-_comparison_of_photo_quality_and_file_size_saved_with_different_quality_settings.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:01_JPEG_JPG_compression_image_quality_degradation_-_comparison_of_photo_quality_and_file_size_saved_with_different_quality_settings.png",
+  "license": "CC BY 3.0",
+  "author": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+  "title": "File:01 JPEG JPG compression image quality degradation - comparison of photo quality and file size saved with different quality settings.png"
+ },
+ "/images/pillow-compress/JPEG_compression_Example.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/b/b2/JPEG_compression_Example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:JPEG_compression_Example.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "JJ Harrison, side-by-side comparison by Ibrahim.ID",
+  "title": "File:JPEG compression Example.jpg"
+ },
+ "/images/pillow-compress/format-size-comparison.png": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png/1280px-Test_-_image_size_comparison_%28Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Test_-_image_size_comparison_(Jpeg_vs_Png_vs_Jpeg_XL_vs_Heic).png",
+  "license": "CC BY 4.0",
+  "author": "LucaLindholm",
+  "title": "File:Test - image size comparison (Jpeg vs Png vs Jpeg XL vs Heic).png"
+ }
+}
