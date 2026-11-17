@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:31:00+09:00",
+ "updated": "2026-11-17T21:37:18+09:00",
  "items": [
   {
    "category": "gear",
@@ -3754,14 +3754,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-064",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-01",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-17T21:31:00+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
-   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "run did not publish (failed); cleaned up"
   },
   {
    "category": "gear",
