@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:00:02+09:00",
+ "updated": "2026-11-17T21:00:12+09:00",
  "queue": {
   "published": 165,
   "rejected": 8,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "failed 2026w45-014: oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達",
  "consecutive_failures": 1,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-17T21:00:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
   "state": "finished",
-  "at": "2026-11-17T20:51:58+09:00",
+  "at": "2026-11-17T21:00:12+09:00",
   "engine": "claude",
-  "detail": "The skipped accounts will appear as candidates again next run, which the procedure allows. I deleted the temporary DM text files. No commit or push was needed."
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-17T21:00:12+09:00",
+   "engine": "claude",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T18:36:40+09:00",
    "engine": "claude",
    "detail": "The Google Docs connector also needs authorizing in your claude.ai connector settings; it wasn't needed for this task."
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-17T18:15:42+09:00",
-   "engine": "claude",
-   "detail": "x-reply.md の手順どおりに実行しました。`post-to-x.py --check-replies` は、アカウント @100labjtvn 宛ての未処理の返信がないことを示しました（結果は `[]`）。そのため、返信もスキップも行わずに終了しています。指示文にあるとおり、コミットや push もしていません。"
   }
  ],
  "engine_post": "claude",
