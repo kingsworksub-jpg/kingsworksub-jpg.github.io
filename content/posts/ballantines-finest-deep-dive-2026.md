@@ -44,15 +44,8 @@ aliases:
 ハイボールにするなら、氷を詰めたグラスにウイスキー1に対して炭酸3〜4の割合で注ぎ、混ぜすぎずに1回だけ軽く持ち上げるくらいが香りを残しやすい。ストレートやロックでは余韻の短さが目立つので、このボトルは炭酸や水割りで甘い香りを伸ばす飲み方が合っていると思う。
 
 ## 価格
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
-<img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
-</a>
-<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。
+実勢価格は700mlで1,300〜2,300円程度と幅があり、店舗によってかなり差が出やすい印象。まとめ買いや業務用の1,750mlボトルを選ぶと単価はさらに下がる。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22)で確認できる。
 
 
 ---

@@ -46,15 +46,8 @@ aliases:
 度数が37%と低めなので、水割りは1:2〜1:2.5ほどでも味がぼやけにくい。常温に近い水でゆっくり割ると、蜂蜜のような甘さがほんのり立ってくる。ロックは氷が溶けるにつれて軽さが際立つので、最初の一口は少し濃いめ、後半は水っぽくなる変化を楽しむくらいの気持ちが向いている。ストレートで飲むと刺激は穏やかな反面、余韻が短く物足りなく感じやすい。初めて試すなら、まずハイボールか水割りから入るのが無難だと思う。
 
 ## 価格・入手性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
-<img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
-</a>
-<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。
+メーカー参考小売価格は990円(税別)、実勢はネット最安値で700円台から、店舗によっては1,200円台まで幅がある。700ml瓶のほか180ml缶や1,800ml紙パック、2,700ml・4,000mlのペットボトルまで揃っており、飲む量に合わせて選べるのも地味にありがたい。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22)で確認できる。
 
 
 ---

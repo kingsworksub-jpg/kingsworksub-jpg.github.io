@@ -45,14 +45,7 @@ aliases:
 甘さの強いコーラ割りより、レモンピールを添えた軽い飲み方のほうがこの味を活かせる、というのが個人的な印象だ。
 
 ## 価格・入手性の注意点
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
-<img src="/images/products/cutty-sark.jpg" alt="カティサーク" width="480" height="2013" loading="lazy">
-</a>
-<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
-実勢価格は700mlで1,150円前後から見つかることもあれば、店舗によっては3,000円を超えることもあり、この10本の中でも価格差がかなり大きい部類。並行輸入や小規模な出品の影響とみられ、買う前に楽天や酒販系ECサイトで一度価格を比較しておいた方が安心だと感じる。
+実勢価格は700mlで1,150円前後から見つかることもあれば、店舗によっては3,000円を超えることもあり、この10本の中でも価格差がかなり大きい部類。並行輸入や小規模な出品の影響とみられ、買う前に楽天や酒販系ECサイトで一度価格を比較しておいた方が安心だと感じる。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22)で確認できる。
 
 なお上級グレードだった12年デラックスやストームは終売済みで、現行ラインナップはオリジナル(700ml/1000ml)が中心になっている。
 

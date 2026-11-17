@@ -41,15 +41,8 @@ Wレモンという名前の通り、通常のキレートレモンよりレモ�
 
 
 ## どんな場面で飲むか
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
-<img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン" width="596" height="596" loading="lazy">
-</a>
-<figcaption>キレートレモン Wレモン 炭酸飲料 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-仕事や勉強の合間のリフレッシュ、運動後の一息、体調がすぐれない時のビタミン補給といった場面で選ばれることが多いブランドだ。焼酎やウォッカの割り材として使う飲み方への言及も目につき、酸味の強さがそのまま割り材としての個性になっている。「女性のココロとカラダの疲れに」という訴求も一貫して打ち出されており、疲労回復や気分転換の飲料というポジションを長年守り続けている。
+仕事や勉強の合間のリフレッシュ、運動後の一息、体調がすぐれない時のビタミン補給といった場面で選ばれることが多いブランドだ。焼酎やウォッカの割り材として使う飲み方への言及も目につき、酸味の強さがそのまま割り材としての個性になっている。「女性のココロとカラダの疲れに」という訴求も一貫して打ち出されており、疲労回復や気分転換の飲料というポジションを長年守り続けている。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22)で確認できる。
 
 ## パッケージと容量
 

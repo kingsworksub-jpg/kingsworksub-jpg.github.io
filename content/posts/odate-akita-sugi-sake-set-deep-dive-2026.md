@@ -51,14 +51,7 @@ aliases:
 
 ## 使い方と手入れの注意点
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
-<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" width="550" height="366" loading="lazy">
-</a>
-<figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
-洗い方は、使用後に洗剤とスポンジで洗い、乾いた布で水気を拭き取ってからしっかり乾燥させるのが基本になる。曲げわっぱ全般に言えることだが、電子レンジと食器洗浄機は使えない。急激な乾燥や直射日光も木を反らせたり割れの原因になったりするので、風通しの良い場所で自然乾燥させるのが無難だ。
+洗い方は、使用後に洗剤とスポンジで洗い、乾いた布で水気を拭き取ってからしっかり乾燥させるのが基本になる。曲げわっぱ全般に言えることだが、電子レンジと食器洗浄機は使えない。急激な乾燥や直射日光も木を反らせたり割れの原因になったりするので、風通しの良い場所で自然乾燥させるのが無難だ。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22)で確認できる。
 
 熱燗にも冷酒にも使える器だが、徳利自体を直火にかけることは想定されていない。燗をつけるときは別の容器でお酒を温めてから、この徳利に移して注ぐという使い方になる。焼酎にも使えるが、個人的には香りの強い純米酒や本醸造あたりの日本酒との相性のほうが好みに合っている。
 

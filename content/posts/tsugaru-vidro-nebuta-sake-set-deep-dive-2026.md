@@ -51,15 +51,8 @@ NEBUTAシリーズは、その名の通り青森ねぶた祭りをモチーフ�
 
 
 ## アデリアというブランドの中での位置づけ
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
-<img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
-</a>
-<figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-「アデリア(ADERIA)」は石塚硝子株式会社とそのグループ会社が展開するガラス食器ブランドで、津軽びいどろの指定工場でもある。つまり津軽びいどろは、アデリアという大きなブランドの中の一系統という位置づけになる。シリーズは季節の情景を色ガラスで表現した「四季」、11色を揃える「にほんの色」など幅広く、NEBUTAは祭りと夏をテーマにした一群という立ち位置だ。同じ産地・同じ製法でも、シリーズによって表現したい情景が違うというのが、このブランドの奥行きだと思う。
+「アデリア(ADERIA)」は石塚硝子株式会社とそのグループ会社が展開するガラス食器ブランドで、津軽びいどろの指定工場でもある。つまり津軽びいどろは、アデリアという大きなブランドの中の一系統という位置づけになる。シリーズは季節の情景を色ガラスで表現した「四季」、11色を揃える「にほんの色」など幅広く、NEBUTAは祭りと夏をテーマにした一群という立ち位置だ。同じ産地・同じ製法でも、シリーズによって表現したい情景が違うというのが、このブランドの奥行きだと思う。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22)で確認できる。
 
 ## 6,600円という価格を、他のご当地ガラスと比べてみる
 

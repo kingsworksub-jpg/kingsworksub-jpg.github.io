@@ -67,15 +67,8 @@ aliases:
 
 
 ## サイズ・価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
-<img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット" width="1280" height="960" loading="lazy">
-</a>
-<figcaption>国産美濃焼 黒千代香 2合セット<span class="credit"><a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-本体の容量はおよそ400cc(2合相当)、付属のおちょこ2客はそれぞれ40〜50cc程度と、家庭で夫婦や2人で使うのにちょうどいいサイズに設計されている。手作りの陶器らしく、釉薬のムラやダレが個体ごとに出る場合がある旨の注記もあり、その一点物感もこの手の器の楽しみのひとつだと思う。
+本体の容量はおよそ400cc(2合相当)、付属のおちょこ2客はそれぞれ40〜50cc程度と、家庭で夫婦や2人で使うのにちょうどいいサイズに設計されている。手作りの陶器らしく、釉薬のムラやダレが個体ごとに出る場合がある旨の注記もあり、その一点物感もこの手の器の楽しみのひとつだと思う。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22)で確認できる。
 
 価格は3,000円台後半から4,000円台後半とサイトによって幅があるが、複数の通販サイトで現在も継続して取り扱われていて、生産終了を示すような情報は見当たらなかった。本場・鹿児島の黒薩摩の黒千代香に比べればかなり手頃な価格帯で、焼酎の「前割り+直火燗」という様式を試してみる入り口としては、ちょうどいい選択肢になっている。
 

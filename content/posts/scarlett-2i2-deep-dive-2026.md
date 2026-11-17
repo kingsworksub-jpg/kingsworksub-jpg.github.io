@@ -65,15 +65,8 @@ USB-C接続、USB 2.0のバスパワー駆動(消費900mA)。電源が不安定�
 
 
 ## 価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
-<img src="/images/products/scarlett-2i2-4gen.png" alt="Focusrite Scarlett 2i2 4th Gen" width="1280" height="1280" loading="lazy">
-</a>
-<figcaption>Focusrite Scarlett 2i2 4th Gen<span class="credit"><a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-2026年9月時点でも4th Genが現行の最新世代で、5th Genの発表は確認できなかった。国内実売はおよそ28,300円〜29,000円。エントリー機としては、機能を詰め込みすぎではないかと心配になるくらいの内容である。
+2026年9月時点でも4th Genが現行の最新世代で、5th Genの発表は確認できなかった。国内実売はおよそ28,300円〜29,000円。エントリー機としては、機能を詰め込みすぎではないかと心配になるくらいの内容である。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)で確認できる。
 
 ---
 

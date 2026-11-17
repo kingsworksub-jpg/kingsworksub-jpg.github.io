@@ -53,15 +53,8 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 
 
 ## 価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
-<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
-</a>
-<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相まって448ドル前後まで値上がりしている。後継のPS-LX3BTは2026年2月のCESで発表され、希望小売価格は299ポンド/299ユーロ/469豪ドル(おおよそ401ドル相当)。日本国内はオープン価格で、実売はおよそ29,800円(最安値)〜38,560〜41,000円、主要な販売店ではおよそ34,470円あたりに価格が集まっている。PS-LX310BTからの変更点は、チャコールグレーの新デザインとカラーアクセント、ボタン・ダイヤルの見直し、切り替え式フォノステージの改良、BluetoothコーデックのaptXからaptX Adaptiveへの強化、球状針から楕円針へのアップグレード、電源入力のUSB-C化など多岐にわたる。
+PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相まって448ドル前後まで値上がりしている。後継のPS-LX3BTは2026年2月のCESで発表され、希望小売価格は299ポンド/299ユーロ/469豪ドル(おおよそ401ドル相当)。日本国内はオープン価格で、実売はおよそ29,800円(最安値)〜38,560〜41,000円、主要な販売店ではおよそ34,470円あたりに価格が集まっている。PS-LX310BTからの変更点は、チャコールグレーの新デザインとカラーアクセント、ボタン・ダイヤルの見直し、切り替え式フォノステージの改良、BluetoothコーデックのaptXからaptX Adaptiveへの強化、球状針から楕円針へのアップグレード、電源入力のUSB-C化など多岐にわたる。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22)で確認できる。
 
 競合という観点では、Sonyは2026年ラインナップ(PS-LX3BTと、100ドルほど高いPS-LX5BT)を「初めてレコードを聴く人にも、こだわりのあるリスナーにも」向けた製品として打ち出しているが、レビュー側の受け止めはやや厳しく、実質的にはAudio-Technica AT-LP60XBTやAT-LP120XBTのような、カジュアル・初心者向けオールインワン機同士の競争の中に位置づけられている。ビルド品質や解像感ではAudio-Technica勢に勝る場面もあるが、価格対価値という点では他の廉価Bluetoothターンテーブルに押され気味、というのが率直な評価のようだ。
 

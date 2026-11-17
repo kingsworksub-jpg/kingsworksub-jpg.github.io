@@ -57,15 +57,8 @@ DOUROという名前は、ポルトガルのドウロ渓谷から取られてい
 
 
 ## 価格と購入先 — 今も現行のラインナップ
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
-<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" width="1200" height="1200" loading="lazy">
-</a>
-<figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-型番12132-10のDOUROは、BODUM公式サイト(日本・英国・米国・ドイツ・スイス・デンマークの各リージョン)に現在も掲載されており、生産終了の様子はない。価格は販路によって幅があり、日本の雑貨系ECサイトではおよそ2,000円台、海外のデザインストアでは20ドル台からという例が見つかった。Amazonでも取り扱いがあり、単品のカラフェとして購入できる。
+型番12132-10のDOUROは、BODUM公式サイト(日本・英国・米国・ドイツ・スイス・デンマークの各リージョン)に現在も掲載されており、生産終了の様子はない。価格は販路によって幅があり、日本の雑貨系ECサイトではおよそ2,000円台、海外のデザインストアでは20ドル台からという例が見つかった。Amazonでも取り扱いがあり、単品のカラフェとして購入できる。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22)で確認できる。
 
 DOUROシリーズには同じ溝模様をまとったお猪口サイズのグラスや二重壁タイプのタンブラーなど、サイズ違い・器種違いのラインナップが揃っている。徳利と揃いの盃を合わせて選ぶのも面白そうだ。
 

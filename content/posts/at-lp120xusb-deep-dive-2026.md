@@ -61,15 +61,8 @@ USB-B端子を備え、16bit/44.1〜48kHzでのUSB出力に対応。付属の無
 
 
 ## 価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
-<img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
-</a>
-<figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-日本国内では、Bluetooth出力を追加した実質的な後継機「AT-LP120XBT-USB」が主力として展開されており、価格は55,000〜59,400円前後。無印の「AT-LP120XUSB」(Bluetooth無し)は北米・欧州市場が中心のSKUで、国内では単体の正規流通があまり見当たらない。購入時はどちらのバリエーションが手元に届くのか、販売ページで確認しておくと安心だ。シリーズ累計では、2025年8月時点で全世界1,000万台以上(原文ママの資料では約100万台という表記もある)を売り上げているとされ、生産終了の兆候はない。米国での価格は発売時299ドルから、現在は399〜449ドル程度まで上がっている。
+日本国内では、Bluetooth出力を追加した実質的な後継機「AT-LP120XBT-USB」が主力として展開されており、価格は55,000〜59,400円前後。無印の「AT-LP120XUSB」(Bluetooth無し)は北米・欧州市場が中心のSKUで、国内では単体の正規流通があまり見当たらない。購入時はどちらのバリエーションが手元に届くのか、販売ページで確認しておくと安心だ。シリーズ累計では、2025年8月時点で全世界1,000万台以上(原文ママの資料では約100万台という表記もある)を売り上げているとされ、生産終了の兆候はない。米国での価格は発売時299ドルから、現在は399〜449ドル程度まで上がっている。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22)で確認できる。
 
 競合という観点では、Technics SL-1200MK7に対しては「同じダイレクトドライブ構造とDJ的な操作感を、およそ3分の1の価格で」という立ち位置になる。Fluance RT81と比べると振動耐性ではRT81に軍配が上がるが、ダイレクトドライブや78回転対応はAT-LP120XUSB側の強みだ。U-Turn Orbit Plus(実売400ドル前後)と比べると、Orbitの方が本体の作り込みやトーンアームの解像感で勝る一方、内蔵プリアンプ・USB出力・78回転対応といった機能の総合力ではAT-LP120XUSBに分があると感じる。
 

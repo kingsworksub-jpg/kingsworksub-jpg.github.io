@@ -51,15 +51,8 @@ aliases:
 
 
 ## 電子レンジ・食洗機はNG — 手洗いが基本
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
-<img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
-</a>
-<figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-金彩や粒の盛り上げを施した九谷焼は、電子レンジやオーブンでの使用ができない。金属を含む絵具が火花を発する原因になるためで、これは上絵付けの器全般に共通する注意点になる。食洗機についても、洗剤や高温の水流、他の食器との接触で色落ちや剥落が進みやすいため、基本的には避けたほうがいい。
+金彩や粒の盛り上げを施した九谷焼は、電子レンジやオーブンでの使用ができない。金属を含む絵具が火花を発する原因になるためで、これは上絵付けの器全般に共通する注意点になる。食洗機についても、洗剤や高温の水流、他の食器との接触で色落ちや剥落が進みやすいため、基本的には避けたほうがいい。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22)で確認できる。
 
 お手入れは柔らかいスポンジと中性洗剤でやさしく洗うのが基本で、クレンザーやナイロンたわしは金彩や粒模様を傷める原因になるので使わないほうがいい。白粒と金彩を重ねたこの手の意匠は、普通の上絵付け以上に凹凸や摩耗に気を遣う必要があると思うので、手洗いだけは徹底したい一本だ。
 

@@ -45,15 +45,8 @@ aliases:
 
 
 ## パッケージ展開と価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
-<img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
-</a>
-<figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-現行のラインナップは缶が160ml・190ml・250mlの3サイズ、加えてPETボトルの「ビタミンローヤルパワー」490mlがある。自動販売機やコンビニでの単品価格はおおむね130円前後、まとめ買いの160ml×30本ケースならAmazonや価格.comで1,500円前後から見つかる。2025年4月にパッケージを刷新したばかりということもあり、生産終了や取り扱い縮小の気配はまったくなく、コンビニ・スーパー・自販機のいずれでも安定して手に入る。
+現行のラインナップは缶が160ml・190ml・250mlの3サイズ、加えてPETボトルの「ビタミンローヤルパワー」490mlがある。自動販売機やコンビニでの単品価格はおおむね130円前後、まとめ買いの160ml×30本ケースならAmazonや価格.comで1,500円前後から見つかる。2025年4月にパッケージを刷新したばかりということもあり、生産終了や取り扱い縮小の気配はまったくなく、コンビニ・スーパー・自販機のいずれでも安定して手に入る。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22)で確認できる。
 
 海外に目を向けると、北米の日本食品専門通販サイトでも「Japanese non-caffeinated energy drink」として一定数取り扱われている。カフェインが入っていないという特徴は、海外のエナジードリンク文化(カフェイン・タウリン多めが主流)の中では逆にユニークな個性として紹介されることが多いようだ。
 

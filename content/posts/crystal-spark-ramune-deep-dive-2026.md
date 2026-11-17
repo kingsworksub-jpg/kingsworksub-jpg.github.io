@@ -39,15 +39,8 @@ CRYSTAL SPARKはアイリスオーヤマグループの食品会社アイリス�
 
 
 ## 割材としての立ち位置と、価格・入手性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-ramune.jpg" alt="CRYSTAL SPARK ラムネ" width="700" height="700" loading="lazy">
-</a>
-<figcaption>CRYSTAL SPARK ラムネ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-パッケージには割り材としての用途がはっきり書かれていて、無糖・無果汁だからこそチューハイやサワーの割材にもそのまま使いやすい。ラムネ味のサワーというのも、考えてみればコンビニの棚に並んでいそうな組み合わせで、家庭で再現できるのは地味に嬉しいポイントだと思う。
+パッケージには割り材としての用途がはっきり書かれていて、無糖・無果汁だからこそチューハイやサワーの割材にもそのまま使いやすい。ラムネ味のサワーというのも、考えてみればコンビニの棚に並んでいそうな組み合わせで、家庭で再現できるのは地味に嬉しいポイントだと思う。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0DVGK6GH1?tag=nakimoto1-22)で確認できる。
 
 価格は500ml×24本のケースでAmazonの通常時1,500円台〜、セール時には1,300円を切ることもあるようで、3,000円という上限には全く届かない手頃さだ。楽天やYahoo!ショッピング、アイリスプラザの公式通販でも扱いがあり、2026年9月時点で販売は続いている。定番フレーバーに昇格した経緯もあり、グレープソーダのような季節限定終了のリスクは今のところ気にしなくてよさそうだ。
 

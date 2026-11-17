@@ -33,14 +33,7 @@ aliases:
 
 ## 香りで満足させる設計思想
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
-<img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
-</a>
-<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
-
-強炭酸を謳っているが、具体的なガス圧の数値は公開されていない。開栓時に勢いよく吹き出すことがあるという注意書きがあるくらいなので、刺激自体はしっかりある部類だと思う。
+強炭酸を謳っているが、具体的なガス圧の数値は公開されていない。開栓時に勢いよく吹き出すことがあるという注意書きがあるくらいなので、刺激自体はしっかりある部類だと思う。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22)で確認できる。
 
 味の甘さよりも香りの再現に重心を置いた設計は、糖質を気にする人でも満足感を得やすいように意図されているのだと思う。飲んだ瞬間の甘さは弱く、香りだけが先に立つ。この香り先行の設計は狙いどおりに機能していると感じた。
 

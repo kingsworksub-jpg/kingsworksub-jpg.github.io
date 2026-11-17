@@ -65,15 +65,8 @@ Technics自身は「DJ Equipment」「DJシリーズ」としてこの製品を�
 
 
 ## 価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
-<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
-</a>
-<figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-2026年時点で、シルバー(SL-1200MK7-S)が135,800円前後、ブラック(SL-1200MK7-K)が139,800円前後、店舗によっては149,800円という価格帯。jp.technics.comを見る限り、2026年時点でもTechnicsのDJシリーズにおける現行モデルであり、後継機は確認できなかった。全黒仕様の「SL-1210MK7」や50周年記念限定モデル「SL-1200M7L」は別ラインとして併存しているが、いずれも標準モデルのMK7を置き換えるものではない。
+2026年時点で、シルバー(SL-1200MK7-S)が135,800円前後、ブラック(SL-1200MK7-K)が139,800円前後、店舗によっては149,800円という価格帯。jp.technics.comを見る限り、2026年時点でもTechnicsのDJシリーズにおける現行モデルであり、後継機は確認できなかった。全黒仕様の「SL-1210MK7」や50周年記念限定モデル「SL-1200M7L」は別ラインとして併存しているが、いずれも標準モデルのMK7を置き換えるものではない。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22)で確認できる。
 
 競合であるAudio-Technica AT-LP120XUSBやPioneer PLX-500(いずれも300ドル前後)と比べると、SL-1200MK7はプレミアム・リファレンス機という立ち位置にある。PLX-500はプラッター重量やピッチスライダーの位置、スタート/ストップの感触まで、Technicsを基準に設計された「SL-1200系譜への意図的な入り口」という性格が強く、AT-LP120XUSBについてもビルド品質の面ではSL-1200MK7のようなプレミアム機にはまだ及ばないと感じる。中堅からトップクラスの現場で活動するDJたちが今もSL-1200MK7を選び続けているという事実こそが、この製品が「対抗する製品」というより「基準そのもの」として扱われている理由なのだと思う。
 

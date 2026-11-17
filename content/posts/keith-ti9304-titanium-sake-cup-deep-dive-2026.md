@@ -57,15 +57,8 @@ Ti9304は単層(シングルウォール)構造なので、熱いお酒を注げ
 
 
 ## 価格と入手性 — 並行輸入の可能性も踏まえて
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
-<img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
-</a>
-<figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-KEITH公式サイトではTi9304は現行商品として販売されており、生産終了の様子はない。価格は米国の公式ストアで19ドル前後、Amazon.co.jpでは3,000円前後で取り扱われている。前述の通り日本の正規代理店の取扱リストには含まれていないため、国内で流通している分は並行輸入品とみて差し支えないだろう。正規保証や日本語サポートを重視するなら、その点は割り引いて考えた方がいい。
+KEITH公式サイトではTi9304は現行商品として販売されており、生産終了の様子はない。価格は米国の公式ストアで19ドル前後、Amazon.co.jpでは3,000円前後で取り扱われている。前述の通り日本の正規代理店の取扱リストには含まれていないため、国内で流通している分は並行輸入品とみて差し支えないだろう。正規保証や日本語サポートを重視するなら、その点は割り引いて考えた方がいい。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22)で確認できる。
 
 同ブランドには角型のチタンスキットルなど、同じ質感でまとめられる酒器周辺のアイテムも揃っている。おちょこ単体で試してみて気に入ったら、携行用のフラスコを合わせるのも面白そうだ。
 

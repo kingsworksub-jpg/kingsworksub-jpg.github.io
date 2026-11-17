@@ -55,15 +55,8 @@ MDF製プラッターベースにグロス/サテン塗装を施した筐体で�
 
 
 ## 価格・現行性
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
-<img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
-</a>
-<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
-</figure>
 
-
-米国での発売時価格は499ドルで、後の生産分では599ドルまで値上がりしている。ただし2026年時点で確認する限り、このDebut Carbon EVOはすでに現行ラインナップから外れており、Pro-Ject公式サイトでは後継モデル「Debut EVO 2」が現行機として案内されている。Debut EVO 2では、Ortofon製の新カートリッジ「Pick It MM EVO」、スチールからアルミへ変更されたプラッター、上位機Debut Pro譲りのトーンアーム・ベアリングブロックなどが採用されているという。日本国内でも、正規輸入代理店の現行ラインナップに「Debut Carbon EVO」の名前は見当たらず、Amazon.co.jpなどで流通しているのは並行輸入品(実売145,500〜175,300円前後)が中心のようだ。購入を検討する場合は、手に入るのが旧モデルの並行輸入品なのか、後継のDebut EVO 2なのかを確認しておいた方がよさそうだ。
+米国での発売時価格は499ドルで、後の生産分では599ドルまで値上がりしている。ただし2026年時点で確認する限り、このDebut Carbon EVOはすでに現行ラインナップから外れており、Pro-Ject公式サイトでは後継モデル「Debut EVO 2」が現行機として案内されている。Debut EVO 2では、Ortofon製の新カートリッジ「Pick It MM EVO」、スチールからアルミへ変更されたプラッター、上位機Debut Pro譲りのトーンアーム・ベアリングブロックなどが採用されているという。日本国内でも、正規輸入代理店の現行ラインナップに「Debut Carbon EVO」の名前は見当たらず、Amazon.co.jpなどで流通しているのは並行輸入品(実売145,500〜175,300円前後)が中心のようだ。購入を検討する場合は、手に入るのが旧モデルの並行輸入品なのか、後継のDebut EVO 2なのかを確認しておいた方がよさそうだ。価格や在庫は[Amazonの販売ページ](https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22)で確認できる。
 
 競合という観点では、Rega Planar 3と並んで「オーディオファイル入門機」の定番格として扱われることが多い。サイズはRegaより一回り小さく(幅で32mm、厚みで40mm、重量でおよそ400g小さい)、音の傾向もRegaの分析的な性格に対してこちらはやや落ち着いた温かみのある鳴り方だと評されることが多い。Audio-Technica AT-LP120XUSBのようなUSB出力・内蔵プリアンプ・ピッチコントロールを備えた便利機能重視の製品とは対照的に、Debut Carbon EVOはそうした便利機能をあえて省き、音質そのものに振り切った設計だと言える。
 
