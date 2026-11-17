@@ -18,7 +18,7 @@ SteinbergのCubase 16が、2026年11月4日に発表と同時に公開された�
 この記事では、15を使っている人が「16で何が変わるのか」を判断できるように、新機能を一つずつ見ていく。15のスコアエディターや15で入った機能については「[Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能](/posts/cubase-pro-15-deep-dive-2026/)」で詳しく書いたので、あわせて読むと流れがつかみやすいと思う。
 
 <a class="product-banner" href="https://www.amazon.co.jp/s?k=Cubase+Pro+16&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/cubase-16/cubase-screen-render.jpg" alt="Cubase Pro 16" width="120" height="120">
+<img src="/images/cubase-16/cubase-screen-render.jpg" alt="Cubase Pro 16" width="120" height="120" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Steinberg Cubase Pro 16</span>
 <span class="product-banner-cta">Amazonで見る →</span>
