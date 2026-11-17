@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:45:02+09:00",
+ "updated": "2026-11-17T22:46:25+09:00",
  "queue": {
   "published": 165,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "failed 2026w45-014: oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達",
  "consecutive_failures": 1,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "x-reply",
-  "since": "2026-11-17T22:45:02+09:00",
-  "engine": "claude"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "x-follow-dm",
-  "state": "failed",
-  "at": "2026-11-17T22:20:11+09:00",
+  "state": "finished",
+  "at": "2026-11-17T22:46:25+09:00",
   "engine": "claude",
-  "detail": "You've hit your session limit · resets 10:30pm (Asia/Tokyo)"
+  "detail": "Separately, the claude.ai Google Docs connector needs authorization before it can be used. You can do that in the claude.ai connector settings. This task didn't need it."
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "x-reply",
+   "state": "finished",
+   "at": "2026-11-17T22:46:25+09:00",
+   "engine": "claude",
+   "detail": "Separately, the claude.ai Google Docs connector needs authorization before it can be used. You can do that in the claude.ai connector settings. This task didn't need it."
+  },
   {
    "job": "x-follow-dm",
    "label": "x-follow-dm",
@@ -97,14 +100,6 @@
    "at": "2026-11-17T20:30:31+09:00",
    "engine": "claude",
    "detail": "未処理の返信はなかった（`--check-replies` が `[]` を返した）ので、返信もスキップもしていません。指示文どおり、ここで終了しました。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "x-follow-dm",
-   "state": "finished",
-   "at": "2026-11-17T20:10:01+09:00",
-   "engine": "claude",
-   "detail": "When I rechecked the list at the end, 3 newer followers had appeared (@bandits2374, @kei1919xxx, @c0xfphrcgm39pgp). The next run will pick them up. All temporary DM text files are deleted, and nothing was committed or pushed, as the instructions specify."
   }
  ],
  "engine_post": "claude",
