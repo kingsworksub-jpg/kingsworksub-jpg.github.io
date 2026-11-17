@@ -108,6 +108,14 @@ scheduled_time: "21:30"
 
 ---
 
+## あわせて読みたい
+
+- [2026年のカフェジャズとラウンジピアノ](/posts/cafe-jazz-lounge-piano-2026/)
+- [ECMレーベルが録った「沈黙の次に美しい音」](/posts/ecm-records-silence-recording-2026/)
+- [ジャズ喫茶で黙って聴いた大きな音](/posts/jazz-kissa-speaker-night-2026/)
+
+---
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

@@ -7516,5 +7516,37 @@
       "簡体字混入の定期検査(vox-cola本文の他箇所は今回確認済み)"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-17T20:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-kissa-speaker-night-2026",
+      "ecm-records-silence-recording-2026",
+      "free-jazz-harmony-meter-listening-2026",
+      "japanese-jazz-sadao-watanabe-lineage-2026",
+      "background-music-focus-listening-2026",
+      "daiku-december-japan-2026"
+    ],
+    "actions": [
+      "内部リンクが0本だった直近の音楽・エッセイ6記事の末尾に「あわせて読みたい」(関連する既存記事への内部リンク3本)を追加し、内部リンク網・回遊を強化",
+      "figure配置(見出し直後・左右交互・直後段落30字以上)とdescription長・images有無を未処理7記事で点検: 問題なし",
+      "seo-audit.pyはPillow(_imaging)が環境で壊れており実行不可のため簡易スクリプトで代替(未完了: ローカルで--check-links実行が必要)",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/jazz-kissa-speaker-night-2026.md",
+      "content/posts/ecm-records-silence-recording-2026.md",
+      "content/posts/free-jazz-harmony-meter-listening-2026.md",
+      "content/posts/japanese-jazz-sadao-watanabe-lineage-2026.md",
+      "content/posts/background-music-focus-listening-2026.md",
+      "content/posts/daiku-december-japan-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行し孤立記事数の減少を確認",
+      "内部リンク0本の他記事(mic-preamp以外の旧記事)への関連記事追加を継続"
+    ],
+    "status": "完了"
   }
 ]

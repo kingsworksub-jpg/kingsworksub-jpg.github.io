@@ -124,6 +124,14 @@ scheduled_time: "21:30"
 
 ---
 
+## あわせて読みたい
+
+- [モーダルジャズという挑戦](/posts/modal-jazz-challenge/)
+- [ECMレーベルが録った「沈黙の次に美しい音」](/posts/ecm-records-silence-recording-2026/)
+- [ジャズの名盤リストはなぜ続かないのか](/posts/jazz-listening-guide-2026/)
+
+---
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

@@ -141,6 +141,14 @@ scheduled_time: "21:30"
 
 ---
 
+## あわせて読みたい
+
+- [『A Charlie Brown Christmas』が毎年12月に戻る理由](/posts/charlie-brown-christmas-guaraldi-trio-2026/)
+- [ジャズの名盤リストはなぜ続かないのか](/posts/jazz-listening-guide-2026/)
+- [ハモンドB-3の左手はベースを弾く](/posts/hammond-b3-jazz-organ-2026/)
+
+---
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

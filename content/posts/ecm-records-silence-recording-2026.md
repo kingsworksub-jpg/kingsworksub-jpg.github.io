@@ -105,6 +105,14 @@ ECMの盤は、ながら聴きでも心地よく流れていく。けれど、�
 
 ---
 
+## あわせて読みたい
+
+- [ジャズ喫茶で黙って聴いた大きな音](/posts/jazz-kissa-speaker-night-2026/)
+- [フリージャズの聴き方](/posts/free-jazz-harmony-meter-listening-2026/)
+- [ビル・エヴァンス・トリオの1961年6月25日](/posts/evans-lafaro-village-vanguard-1961-2026/)
+
+---
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

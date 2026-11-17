@@ -94,6 +94,14 @@ scheduled_time: "14:30"
 
 ---
 
+## あわせて読みたい
+
+- [モニタースピーカー5台比較](/posts/nearfield-monitors-5choice-2026/)
+- [ECMレーベルが録った「沈黙の次に美しい音」](/posts/ecm-records-silence-recording-2026/)
+- [フリージャズの聴き方](/posts/free-jazz-harmony-meter-listening-2026/)
+
+---
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
