@@ -7473,5 +7473,27 @@
       "ローカルで seo-audit.py --check-links を実行して破損リンク数を確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-17T18:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "vox-cola-flavor-deep-dive-2026"
+    ],
+    "actions": [
+      "descriptionに混入していた中国語表記「自主品牌」を「自社ブランド」に修正",
+      "全記事を禁止表現(隅から隅まで/あるレビューでは/実際に〜てみた/CTAプレースホルダ残り)で検査: 該当なし",
+      "figure配置・description長の簡易監査: 新規の問題なし(h3直下のfigureは仕様内)",
+      "Hatena/Ameba/noteの改定案は今回なし(descriptionのみの修正で外部本文に影響なし)"
+    ],
+    "files_changed": [
+      "content/posts/vox-cola-flavor-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "他言語混入の定期検査(簡体字語彙: 品牌・质量等)"
+    ],
+    "status": "完了"
   }
 ]
