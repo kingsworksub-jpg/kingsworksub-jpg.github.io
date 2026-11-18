@@ -7686,5 +7686,27 @@
       "残る内部リンク少数記事: mic-preamp-gain-compare-2026"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-18T04:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "coltrane-giant-steps-ear-training-1week"
+    ],
+    "actions": [
+      "全266記事の内部リンク数を走査し、0本だったのはcoltrane記事のみと判明(前回候補のmic-preamp-gain-compare-2026は内部リンク3本で問題なし)",
+      "coltrane記事の有料CTA後に、同テーマのジャズ記事への内部リンク3本の「関連記事」節を追加",
+      "description長(80〜150字)の逸脱は0件",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/coltrane-giant-steps-ear-training-1week.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の記事は0になる見込み",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了"
   }
 ]

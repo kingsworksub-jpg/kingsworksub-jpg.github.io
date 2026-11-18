@@ -62,3 +62,9 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 <p class="note-cta__note">note の無料部分はこのページと同じ内容です。購入すると note で全文が読めます。</p>
 </aside>
 <!-- note-paywall-cta:end -->
+
+## 関連記事
+
+- [モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ](/posts/modal-jazz-challenge/)
+- [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/)
+- [リズム隊とホーンから知る、ジャズの楽器入門](/posts/jazz-instruments-guide/)
