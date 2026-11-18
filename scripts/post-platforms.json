@@ -3043,5 +3043,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-18T08:00:07+09:00"
+ },
+ "logic-pro-13-ai-assistant-drum-split-2026": {
+  "title": "Logic Pro 13登場：AIアシスタントと6分割Stem Splitterで音楽制作はどう変わるか",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14729835035340266960",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-18T13:00:25+09:00"
  }
 }
