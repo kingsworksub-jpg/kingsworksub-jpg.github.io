@@ -7727,5 +7727,23 @@
       "本文の部分リライト候補を探す(古い記事から)"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T06:53:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開261記事を走査: description長の逸脱0件、内部リンク0本の記事0件、タイトル最長62字で許容範囲",
+      "本文が薄い候補を特定(ballantines-finest-deep-dive-2026 約1.7k字、itoen-mineral-strong-deep-dive-2026、yosa-soda-deep-dive-2026、fuji-strong-soda-deep-dive-2026、black-nikka-clear-deep-dive-2026)。事実確認のリサーチなしの加筆は誤情報のリスクがあるため今回は見送り、次回以降の部分リライト候補とする",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り5本のリサーチ付き加筆",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
