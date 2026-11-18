@@ -7665,5 +7665,26 @@
       "ローカルでhugo --minifyとseo-audit.py実行"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-18T04:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "logic-pro-13-ai-assistant-drum-split-2026"
+    ],
+    "actions": [
+      "内部リンクが0本だったため、関連記事の節を同テーマの内部リンク4本に差し替え(無関係な飲料向けAmebaリンクを除去)",
+      "description/images全記事の走査で欠落0件を確認",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/logic-pro-13-ai-assistant-drum-split-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行(この環境はPIL不可でseo-audit未実行)",
+      "残る内部リンク少数記事: mic-preamp-gain-compare-2026"
+    ],
+    "status": "完了"
   }
 ]

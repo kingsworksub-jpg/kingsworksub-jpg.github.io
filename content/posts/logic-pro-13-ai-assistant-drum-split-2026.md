@@ -73,9 +73,10 @@ Logic Pro 13で大幅に進化を遂げた機能の一つが、オーディオ�
 
 Logic Pro 13は、無料アップデートでありながら、インテリジェントアシスタントや6分割のStem Splitter、そして刷新された統合ブラウザといった強力な機能群を導入し、DTMのワークフローを大きく前進させました。Apple siliconとmacOS 27、そしてApple Creator Studioのサブスクリプションが必要になるなど利用条件は明確に定められていますが、日々のセッション操作やオーディオ編集の手間を効率化したいクリエイターにとって見逃せない内容となっています。導入を検討される際は、お使いのMacの環境やコスト面をしっかりと確認した上で、ぜひ新しい音楽制作の形を体験してみてください。
 
-## 関連記事・おすすめメディア
+## 関連記事
 
-- [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
-- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [Cubase 16の新機能は「重ねる」と「分ける」。8層のインストゥルメントスタックと6分割のステム分離](/posts/cubase-16-new-features-2026/) — 同じ「ステム分離」を別のDAWで比べる
+- [Demucsでボーカルを抜くと残響はどこへ行くか、htdemucsとhtdemucs_ftの4ステムと6ステム](/posts/demucs-stem-separation-htdemucs-ft-2026/) — Stem Splitterの仕組みに近い分離モデルの話
+- [Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで](/posts/logic-pro-drummer-workflow-2026/) — ドラムトラックの作り方
+- [Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか](/posts/logic-pro-mac-songwriting-2026/) — 前バージョンでできること
+- [Studio Notes トップページ](https://kingsworksub-jpg.github.io/)
