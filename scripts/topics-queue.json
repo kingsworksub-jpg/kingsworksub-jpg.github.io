@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:14:07+09:00",
+ "updated": "2026-11-18T21:31:05+09:00",
  "items": [
   {
    "category": "gear",
@@ -3754,10 +3754,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-064",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-10-01",
    "retry": 1,
-   "claimed_at": "2026-11-17T21:31:00+09:00",
+   "claimed_at": "2026-11-18T21:31:05+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
