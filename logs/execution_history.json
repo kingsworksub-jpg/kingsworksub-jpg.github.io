@@ -7982,5 +7982,22 @@
       "薄い深掘り記事のリサーチ付き加筆"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T21:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全268記事でfigure直後に見出し/---が来る配置違反を点検、0件",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り記事のリサーチ付き加筆"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
