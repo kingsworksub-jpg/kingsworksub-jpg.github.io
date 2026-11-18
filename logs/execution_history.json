@@ -7783,5 +7783,23 @@
       "薄い深掘り5本のリサーチ付き加筆"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T10:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全記事のfigure属性(width/height/alt/loading/figcaption)を点検、欠落0",
+      "事実確認リサーチ無しの加筆は見送り",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り5本のリサーチ付き加筆"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
