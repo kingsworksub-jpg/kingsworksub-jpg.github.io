@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:00:58+09:00",
+ "updated": "2026-11-18T23:24:09+09:00",
  "items": [
   {
    "category": "gear",
@@ -12597,14 +12597,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-033",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-18T23:00:58+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "nengajou-jimai-letter-time",
+   "published_at": "2026-11-18T23:24:09+09:00"
   },
   {
    "category": "essay",
