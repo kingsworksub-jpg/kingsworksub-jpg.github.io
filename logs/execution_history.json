@@ -7910,5 +7910,23 @@
       "薄い深掘り5本のリサーチ付き加筆"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T16:52:57Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のfigure配置を点検。導入部のfigureが6本(本文が直後に続くため回り込みは成立)のみで修正不要",
+      "seo-auditはクラウド環境のPIL不具合で実行不可",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り5本のリサーチ付き加筆"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
