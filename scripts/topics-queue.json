@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:48:30+09:00",
+ "updated": "2026-11-18T23:00:58+09:00",
  "items": [
   {
    "category": "gear",
@@ -12597,9 +12597,14 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-033",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-18T23:00:58+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ"
   },
   {
    "category": "essay",
