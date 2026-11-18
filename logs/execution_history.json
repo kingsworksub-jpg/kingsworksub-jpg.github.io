@@ -7872,5 +7872,26 @@
       "薄い深掘り5本のリサーチ付き加筆"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T14:53:37Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "nengajou-jimai-letter-time"
+    ],
+    "actions": [
+      "figureを各##見出しの直後(本文段落の直前)へ移動し、回り込みルールに準拠させた",
+      "未巡回の新着3本(2026w40-064/mic-preamp-gain-compare-2026/playwright-persistent-profile-login-notes)は禁止表現・CTAプレースホルダー・figure配置とも問題なし",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/nengajou-jimai-letter-time.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り5本のリサーチ付き加筆"
+    ],
+    "status": "完了"
   }
 ]

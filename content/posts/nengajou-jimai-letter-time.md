@@ -23,16 +23,16 @@ scheduled_time: "23:00"
 
 ## 年賀状じまいが映し出すメディアの交代劇
 
+<figure class="photo photo--left">
+<a href="https://commons.wikimedia.org/wiki/File:Balaji_Vishwanath%27s_handwritten_letter_01.jpg" target="_blank" rel="noopener"><img src="/images/nengajou-jimai/handwritten-letter-01.jpg" alt="手書きの文字が並ぶ古い書簡" width="220" height="150" loading="lazy"></a>
+<figcaption>文字の筆跡には書いた人の時間と呼吸が宿る<span class="credit">Image: Balaji Vishwanath's handwritten letter 01.jpg / Public domain</span></figcaption>
+</figure>
+
 年賀状じまいという言葉が広く定着した背景には、社会のデジタル化とコスト意識の高まりという現実的な要因があります。SNSやメッセージアプリが日常に浸透した現在、年に一度だけ紙面を借りて近況を知らせる必要性はかつてほど高くありません。
 
 さらに2024年10月にはがき料金が85円となったことで、送る相手や枚数を改めて見直す大きなきっかけが生まれました。一通ごとの重みが増すなかで、長年の慣例として続けてきた一斉の挨拶を整理する判断は極めて自然な流れといえます。
 
 ここで注目したいのは、年賀状の減少がそのまま人間関係の希薄化を意味するわけではないという点です。新年の挨拶という役割をデジタルの連絡網へ譲り渡したことで、人とつながるためのメディアの役割分担が静かに組み替わりつつあります。
-
-<figure class="photo photo--left">
-<a href="https://commons.wikimedia.org/wiki/File:Balaji_Vishwanath%27s_handwritten_letter_01.jpg" target="_blank" rel="noopener"><img src="/images/nengajou-jimai/handwritten-letter-01.jpg" alt="手書きの文字が並ぶ古い書簡" width="220" height="150" loading="lazy"></a>
-<figcaption>文字の筆跡には書いた人の時間と呼吸が宿る<span class="credit">Image: Balaji Vishwanath's handwritten letter 01.jpg / Public domain</span></figcaption>
-</figure>
 
 かつては疎遠になった相手の所在を確かめ、お互いの無事を伝え合う手段がはがきに限られていました。しかし今は日常の細かな出来事をいつでも共有できるため、定型文を並べるだけの年始の挨拶は本来の役目を終えつつあるのです。
 
@@ -82,14 +82,14 @@ SNSやチャットは即時性とコストの軽さに優れ、日々の細か�
 
 ## 「相手のために割いた時間」が物質になる瞬間
 
-手書きの文字や物理的な手紙が特別な意味を帯びるのは、そこに「相手のために割いた時間」が目に見える形で刻まれるからです。デジタルのテキストは何度でも書き直せて跡が残りませんが、紙の上には迷いや丁寧さがそのまま筆跡として定着します。
-
-机に向かい、どの紙を選ぶか考え、ペンを走らせて一文字ずつ形をつくっていく作業には、どうしても一定の時間が必要です。効率を基準にすれば遠回りに見えるその工程こそが、受け取る側にとっては言葉以上の贈り物として受け止められます。
-
 <figure class="photo photo--right">
 <a href="https://commons.wikimedia.org/wiki/File:Handwritten_Letter_of_Resignation.jpg" target="_blank" rel="noopener"><img src="/images/nengajou-jimai/handwritten-letter-02.jpg" alt="手書きで綴られた手紙の紙面" width="220" height="150" loading="lazy"></a>
 <figcaption>便箋に向き合う静かな手間が言葉に重みを与える<span class="credit">Photo: CIPHR Connect / CC BY 2.0</span></figcaption>
 </figure>
+
+手書きの文字や物理的な手紙が特別な意味を帯びるのは、そこに「相手のために割いた時間」が目に見える形で刻まれるからです。デジタルのテキストは何度でも書き直せて跡が残りませんが、紙の上には迷いや丁寧さがそのまま筆跡として定着します。
+
+机に向かい、どの紙を選ぶか考え、ペンを走らせて一文字ずつ形をつくっていく作業には、どうしても一定の時間が必要です。効率を基準にすれば遠回りに見えるその工程こそが、受け取る側にとっては言葉以上の贈り物として受け止められます。
 
 さらに、手紙には読み返すための物理的な場所が伴います。通知の流れに押し流されて消えてしまう画面上のメッセージとは異なり、机の引き出しや本棚の片隅に留まり続け、思い出したときに何度でも触れ直すことができます。
 
