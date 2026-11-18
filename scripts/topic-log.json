@@ -3477,6 +3477,18 @@
    "status": "health-reset",
    "reason": "X DM set/dict crash fixed; article generation moved to 1-request mode with hydrogen/preview/iceman and stronger length rules (verified end-to-end)",
    "at": "2026-11-18T21:15:26+09:00"
+  },
+  {
+   "id": "2026w40-064",
+   "category": "music",
+   "theme": "映画の中のジャズ、実録と創作のあいだ",
+   "slug": "2026w40-064",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/2026w40-064/",
+   "hatena_entry": null,
+   "note_key": "n129c69a8a1ad",
+   "engine": "gemini",
+   "at": "2026-11-18T21:48:30+09:00"
   }
  ]
 }

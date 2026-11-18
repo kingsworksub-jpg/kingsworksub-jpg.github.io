@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:31:05+09:00",
+ "updated": "2026-11-18T21:48:30+09:00",
  "items": [
   {
    "category": "gear",
@@ -3754,7 +3754,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w40-064",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-01",
    "retry": 1,
    "claimed_at": "2026-11-18T21:31:05+09:00",
@@ -3762,7 +3762,9 @@
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
-   "last_error": "run did not publish (failed); cleaned up"
+   "last_error": "run did not publish (failed); cleaned up",
+   "slug": "2026w40-064",
+   "published_at": "2026-11-18T21:48:30+09:00"
   },
   {
    "category": "gear",
