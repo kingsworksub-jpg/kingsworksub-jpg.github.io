@@ -3442,6 +3442,15 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-18T12:15:01+09:00"
+  },
+  {
+   "id": "2026w42-016",
+   "category": "learning",
+   "theme": "譜読みを1か月で、大人から始める",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-18T17:55:33+09:00"
   }
  ]
 }
