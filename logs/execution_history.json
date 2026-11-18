@@ -7708,5 +7708,24 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-18T05:53:45Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全266記事を走査: images/description欠落0件、figure配置ルール違反は2件のみで、いずれも導入文直後のfigureで直後に本文が続くため回り込みは機能しており修正不要",
+      "内部リンク最少の酒器深掘り5本は関連記事ブロックを既に持つことを確認(追加不要)",
+      "2026-09-22-*系の薄い記事はdraft: true(非公開)のため対象外",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "本文の部分リライト候補を探す(古い記事から)"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
