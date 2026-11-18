@@ -31,6 +31,12 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 
 ## 1日目 — 進行を3つの調に分割する
 
+<figure class="photo photo--left">
+<img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy">
+<figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム</figcaption>
+<span class="credit">Photo: Wikimedia Commons</span>
+</figure>
+
 タイトル曲のコードは、次の6小節が基本単位だ（冒頭）。
 
 - Bmaj7 → D7
@@ -41,12 +47,6 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 - Gbmaj7 → （Bmaj7 に戻る）
 
 ここで B・G・Eb の3つのメジャーが軸で、間に入るドミナント（D7・Bb7・A7…）が次の調へ滑らせる役割を担っている。まずはメトロノームを ♩=56 にして、ルート音だけを1小節ずつ歌う。B → G → Eb → D → Bb → Gb。声に出せない場合は、ピアノの低音で同じ音を叩いてもよい。
-
-<figure class="photo photo--left">
-<img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy">
-<figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム</figcaption>
-<span class="credit">Photo: Wikimedia Commons</span>
-</figure>
 
 いわゆる「コルトレーン・チェンジ」と呼ばれる動きも、この3つの調が長3度で接続しているだけだと気づく。暗記する前に、まず声で覚える。これが1日目のすべて。
 

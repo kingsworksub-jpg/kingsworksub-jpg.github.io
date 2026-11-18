@@ -7645,5 +7645,25 @@
       "ローカルでseo-audit.py --check-links実行(hugoはこの環境に無くビルド未確認)"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-18T02:53:30Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "coltrane-giant-steps-ear-training-1week"
+    ],
+    "actions": [
+      "figure配置ルール(見出し直後)の違反を全記事で走査し7件検出。うち導入部の自然な配置を除く1件(coltrane記事の「1日目」節)のfigureをH2直後へ移動",
+      "Hatena/Ameba/noteの改定案は今回なし"
+    ],
+    "files_changed": [
+      "content/posts/coltrane-giant-steps-ear-training-1week.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る導入部figure(chord-progression-learning-order-2026, yubikey-security-key-backup-guide-2026)は問題なしと判断",
+      "ローカルでhugo --minifyとseo-audit.py実行"
+    ],
+    "status": "完了"
   }
 ]
