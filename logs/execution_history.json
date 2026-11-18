@@ -7855,5 +7855,22 @@
       "薄い深掘り5本のリサーチ付き加筆"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T13:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のfigure配置(見出し直後ルール)とimages frontmatterを点検、h2直後でない配置はh3配下かリード文内のみで実問題0",
+      "修正対象なし、Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit.py --check-links実行",
+      "薄い深掘り5本のリサーチ付き加筆"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
