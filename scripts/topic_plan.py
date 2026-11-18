@@ -1,12 +1,12 @@
 """Topic planning helper for the automated blog pipeline.
 
-Holds the deterministic parts so the planning / posting jobs (Claude Code or opencode
-only has to do the creative work:
+Holds the deterministic parts so the planning / posting jobs (opencode only) can focus
+on the creative work:
 
   status [--json]            category priorities, queue counts, today's posts, today's engine
   allocate N                 split N new topics across categories by priority
   today-count                number of published posts dated today (JST), manual posts included
-  engine                     model used by the jobs (always "claude" since 2026-10-02)
+  engine                     per-job engine (blog-post/X = gemini, topic = big-pickle, ppp = none)
   slot                       the fixed daily time-slot nearest to now (channel + content preference; see slots_for_date)
   similar TEXT               closest existing posts / queued / logged topics (2-gram Jaccard)
   add FILE                   add candidate topics (JSON list) to the queue after a duplicate check
@@ -162,13 +162,23 @@ def post_date(p) -> dt.date | None:
 
 
 TOPIC_JOBS = {"topic-planning", "topic-topup"}
-ENGINE_POST = "claude"      # blog-post (article bodies) always runs on Claude Code
+X_JOBS = {"x-reply", "x-follow-dm", "x-following-reply"}
+NON_LLM_JOBS = {"ppp-reconcile"}
+ENGINE_POST = "gemini"      # blog-post orchestration runs on opencode / gemini-3.5-flash#high
 ENGINE_TOPIC = "big-pickle"  # topic meeting / top-up run on opencode big-pickle
+ENGINE_X = "gemini"          # X reply / thank-you DM: x_llm.py via opencode (free models)
+ENGINE_NONE = "none"         # deterministic jobs (PPP sync) do not use an LLM
 
 
 def engine_for(day: dt.date, job: str | None = None) -> str:
-    """Engine that runs a job: the topic meeting / top-up run on opencode big-pickle, everything else on Claude Code."""
-    return ENGINE_TOPIC if job in TOPIC_JOBS else ENGINE_POST
+    """Engine that runs a job: topic jobs on big-pickle, other LLM jobs on Gemini, deterministic jobs on none."""
+    if job in TOPIC_JOBS:
+        return ENGINE_TOPIC
+    if job in X_JOBS:
+        return ENGINE_X
+    if job in NON_LLM_JOBS:
+        return ENGINE_NONE
+    return ENGINE_POST
 
 
 def categories():
@@ -334,7 +344,9 @@ def write_status(extra=None):
 
 
 JOB_LABELS = {"blog-post": "投稿", "topic-planning": "ネタ会議", "topic-topup": "ネタ補充",
-              "ppp-reconcile": "プラットフォーム同期"}
+              "ppp-reconcile": "プラットフォーム同期",
+              "x-reply": "X返信", "x-follow-dm": "Xフォローお礼DM",
+              "x-following-reply": "Xフォロー中リプライ"}
 
 
 def run_status(job, state, detail=""):

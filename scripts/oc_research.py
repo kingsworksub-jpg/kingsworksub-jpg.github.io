@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Research a blog topic with opencode (gemini-3.5-flash-lite).
+"""Research a blog topic with opencode using a 4-stage model chain.
 
-This replaces the Claude Code research subagent for the posting job.  It is
+This replaces the old Claude Code research subagent for the posting job.  It is
 read-only: opencode runs in a scratch directory, uses websearch/webfetch, and
-returns one JSON object.  The caller (Claude Code) still decides whether to
-accept the result, reject the topic, or fall back to the existing subagent.
+returns one JSON object.  Models are tried in order until one passes validation:
+gemini-3.5-flash-lite -> gemini-3.5-flash#high -> deepseek-v4.1-flash-free ->
+longcat-2.5-free.  --model pins a single model (e.g. for a narrow retry).
 
 Usage:
     python scripts/oc_research.py --theme "<theme>" --angle "<angle>" \
@@ -20,7 +21,7 @@ Exit code is 0 only when the returned JSON passes the checks below:
   - source URLs are reachable (404/410/connection errors fail; bot blocks pass)
   - no Hangul / Cyrillic / Thai characters in any string (language mix guard)
 On failure a diagnostic goes to stderr and the exit code is non-zero, so the
-posting job can fall back to the Claude subagent or retry.
+posting job can retry with a stronger model or reject the topic.
 """
 from __future__ import annotations
 
@@ -36,7 +37,10 @@ import tempfile
 import urllib.error
 import urllib.request
 
-MODEL = os.environ.get("OC_RESEARCH_MODEL", "google/gemini-3.5-flash-lite")
+from model_chains import RESEARCH_CHAIN, resolve_chain
+
+MODEL_CHAIN = resolve_chain(RESEARCH_CHAIN, "OC_RESEARCH_MODEL_CHAIN", "OC_RESEARCH_MODEL")
+MODEL = MODEL_CHAIN[0]  # backwards-compatible alias for logs/callers
 AGENT = "build"
 DEFAULT_TIMEOUT = int(os.environ.get("OC_RESEARCH_TIMEOUT", "300"))
 FALLBACK_EXE = r"C:\Users\norio\AppData\Roaming\npm\opencode.cmd"
@@ -117,14 +121,16 @@ def find_opencode() -> str:
         return exe
     if os.path.exists(FALLBACK_EXE):
         return FALLBACK_EXE
-    die("opencode CLI not found on PATH (looked for 'opencode' and " + FALLBACK_EXE + ")")
+    return ""
 
 
-def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
+def run_opencode(prompt: str, cwd: str, timeout: int, model: str) -> tuple[int, str, str]:
     exe = find_opencode()
+    if not exe:
+        return 127, "", f"opencode CLI not found (looked for 'opencode' and {FALLBACK_EXE})"
     # Pipe the prompt on stdin: the Windows opencode.CMD shim truncates a
     # multi-line argument at the first newline.
-    cmd = [exe, "run", "--standalone", "--model", MODEL, "--agent", AGENT,
+    cmd = [exe, "run", "--standalone", "--model", model, "--agent", AGENT,
            "--auto", "--archived", "--format", "json", "--title", "blog research"]
     env = dict(os.environ)
     env["PWD"] = cwd
@@ -133,9 +139,9 @@ def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
         proc = subprocess.run(cmd, cwd=cwd, env=env, input=prompt, capture_output=True,
                               encoding="utf-8", errors="replace", timeout=timeout)
     except subprocess.TimeoutExpired:
-        die(f"opencode timed out after {timeout}s")
+        return 124, "", f"opencode ({model}) timed out after {timeout}s"
     except OSError as exc:
-        die(f"failed to launch opencode: {exc}")
+        return 127, "", f"failed to launch opencode ({model}): {exc}"
     return proc.returncode, proc.stdout or "", proc.stderr or ""
 
 
@@ -283,49 +289,56 @@ def build_prompt(args: argparse.Namespace) -> str:
 
 def research(args: argparse.Namespace) -> dict:
     prompt = build_prompt(args)
-    last_errs: list[str] = []
+    all_errs: list[str] = []
     last_text = ""
     attempts = args.retries + 1
-    log_event(args.log, f"start model={MODEL} policy={args.source_policy} "
-                        f"min_facts={args.min_facts} min_sources={args.min_sources} "
-                        f"sources={len(args.sources)} theme={args.theme!r} out={args.out}")
+    chain = [args.model] if args.model else MODEL_CHAIN
+    log_event(args.log, f"start models={' -> '.join(chain)} attempts={attempts} "
+                        f"policy={args.source_policy} min_facts={args.min_facts} "
+                        f"min_sources={args.min_sources} sources={len(args.sources)} "
+                        f"theme={args.theme!r} out={args.out}")
     for attempt in range(1, attempts + 1):
+        model = chain[min(attempt - 1, len(chain) - 1)]
         scratch = tempfile.mkdtemp(prefix="oc-research-")
         try:
-            rc, stdout, stderr = run_opencode(prompt, scratch, args.timeout)
+            rc, stdout, stderr = run_opencode(prompt, scratch, args.timeout, model)
         finally:
             shutil.rmtree(scratch, ignore_errors=True)
         last_text = extract_final_text(stdout)
-        if not last_text:
-            tail = (stderr or "").strip().splitlines()
-            last_errs = [f"出力が空（exit {rc}）: {tail[-1] if tail else 'no stderr'}"]
+        tail = (stderr or "").strip().splitlines()
+        if rc != 0:
+            errs = [f"exit {rc}: {tail[-1] if tail else 'no stderr'}"]
+        elif not last_text:
+            errs = [f"出力が空（exit {rc}）: {tail[-1] if tail else 'no stderr'}"]
         else:
             try:
                 obj = extract_json(last_text)
             except (json.JSONDecodeError, ValueError) as exc:
-                last_errs = [f"JSON を解析できない: {exc}"]
+                errs = [f"JSON を解析できない: {exc}"]
             else:
-                last_errs = validate(obj, args.min_facts, args.min_sources, args.source_policy)
-                if not last_errs and args.check_urls:
-                    last_errs = check_urls(obj)
-                if not last_errs:
-                    obj["model"] = MODEL
+                errs = validate(obj, args.min_facts, args.min_sources, args.source_policy)
+                if not errs and args.check_urls:
+                    errs = check_urls(obj)
+                if not errs:
+                    obj["model"] = model
                     obj["researched_at"] = dt.datetime.now(
                         dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
                     nf, ns = len(obj.get("facts", [])), len(obj.get("sources_checked", []))
-                    log_event(args.log, f"attempt {attempt}/{attempts} ok facts={nf} sources={ns}")
-                    log_event(args.log, f"result=ok facts={nf} sources={ns}")
+                    log_event(args.log, f"attempt {attempt}/{attempts} ok model={model} facts={nf} sources={ns}")
+                    log_event(args.log, f"result=ok model={model} facts={nf} sources={ns}")
                     return obj
-        log_event(args.log, f"attempt {attempt}/{attempts} fail: {'; '.join(last_errs)}")
+        all_errs.append(f"{model}: {'; '.join(errs)}")
+        next_model = chain[min(attempt, len(chain) - 1)]
+        log_event(args.log, f"attempt {attempt}/{attempts} fail model={model}: {'; '.join(errs)}")
         if attempt < attempts:
-            print(f"oc_research: attempt {attempt}/{attempts} failed; retrying: {'; '.join(last_errs)}",
-                  file=sys.stderr)
+            print(f"oc_research: attempt {attempt}/{attempts} failed on {model}; next={next_model}: "
+                  + "; ".join(errs), file=sys.stderr)
             prompt += ("\n\n## 前回の出力の問題（必ず直す）\n- "
-                       + "\n- ".join(last_errs)
+                       + "\n- ".join(errs)
                        + f"\nJSON だけを返し直してください。facts は{args.min_facts}件以上必要です。\n")
     snippet = last_text[-400:].replace("\n", " ")
-    log_event(args.log, f"result=fail after {attempts} attempts: {'; '.join(last_errs)}")
-    die("research failed after retries:\n  - " + "\n  - ".join(last_errs)
+    log_event(args.log, f"result=fail after {attempts} attempts: {'; '.join(all_errs)}")
+    die("research failed after model chain:\n  - " + "\n  - ".join(all_errs)
         + f"\n  last_text={snippet!r}")
 
 
@@ -334,7 +347,9 @@ def main(argv: list[str]) -> int:
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
 
-    ap = argparse.ArgumentParser(description="Research a blog topic with opencode (gemini flash lite)")
+    ap = argparse.ArgumentParser(description="Research a blog topic with opencode (4-stage model chain)")
+    ap.add_argument("--model", default=None,
+                    help="pin one provider/model#variant instead of trying the 4-stage chain")
     ap.add_argument("--brief", help="brief JSON with theme/angle/category/sources/subjects")
     ap.add_argument("--theme")
     ap.add_argument("--angle")

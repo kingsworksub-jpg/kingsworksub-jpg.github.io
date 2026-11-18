@@ -23,14 +23,21 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 ## 基本ルーティン(記事生成プロセス)
 
-**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 改訂、ユーザー指示)**: **投稿（blog-post）は Claude Code**、**ネタ会議・補充（topic-planning / topic-topup）は opencode（big-pickle）** で行う。さらに 2026-11-15、**投稿の「生成」だけを opencode の DeepSeek V4.1（`opencode/deepseek-v4.1-flash-free`）に委任**した。記事本文・タイトル・frontmatter・画像の選定と配置・X投稿文は `scripts/oc_generate.py` が生成し、Claude Code は「進行（claim・リサーチの指示と検収・検査・公開）」と「画像の取得・目視確認・クレジット」を担当する。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**big-pickle は記事本文の生成には今も使わない**。DeepSeek V4.1 の出力は `oc_generate.py` の検査（本文3500字以上・description 90〜140字・`##`3つ以上・figure・credit・Amazonタグ・X投稿280字）を通ったものだけを受け取り、その後に `validate_post.py` と画像の目視確認を通す。ローカルの Ollama も使わない。
+**記事生成モデルの方針(2026-09-24 → 2026-10-01 → 2026-10-02 → 2026-11-15 → 2026-11-18 → 2026-11-18 4段化 改訂、ユーザー指示)**: blog 系・X 系の**すべての LLM 処理を4段モデルチェーン**にする（トークン制限・レート制限で1モデルが失敗しても自動で次のモデルへ移る）。チェーン定義は `scripts/model_chains.py` に集約した。
+- 投稿オーケストレーション: `google/gemini-3.5-flash#high` → `google/gemini-3.5-flash-lite` → `opencode/deepseek-v4.1-flash-free` → `opencode/longcat-2.5-free`
+- ネタ会議・補充: `opencode/big-pickle` → `google/gemini-3.5-flash-lite` → `google/gemini-3.5-flash#high` → `opencode/deepseek-v4.1-flash-free`
+- リサーチ: `google/gemini-3.5-flash-lite` → `google/gemini-3.5-flash#high` → `opencode/deepseek-v4.1-flash-free` → `opencode/longcat-2.5-free`
+- 記事本文・X投稿文: `google/gemini-3.5-flash-lite` → `opencode/deepseek-v4.1-flash-free` → `google/gemini-3.5-flash#high` → `opencode/longcat-2.5-free`
+- X系（返信・お礼DM・フォロー中リプライ）: 既存の `x_llm.py` 4段チェーンを維持。
+
+2026-11-18 に投稿ジョブのオーケストレーション（claim・リサーチの指示と検収・検査・公開・画像の取得と目視確認）を Claude Code から opencode へ移行した。2026-10-01 に試した投稿の opencode big-pickle 日替わりは、2026-10-02 に big-pickle が担当した記事をすべて失敗した（日本語本文への中国語・韓国語・意味のない英字の混入、公開していないのに完了と報告）ため、**big-pickle はネタ会議の第1候補のみに限定し、記事本文・リサーチには使わない**。生成結果は `oc_generate.py` の検査（本文3500字以上・description 90〜140字・`##`3つ以上・figure・credit・Amazonタグ・X投稿280字）を通ったものだけを受け取り、その後に `validate_post.py` と画像の目視確認を通す。Claude Code とローカルの Ollama は自動投稿フローでは使わない。
 
 新しい記事を作るときの標準フロー。ジャンル・キーワードはユーザーがその都度指定する。
 
 1. **お題を受け取る**: ユーザーから「このキーワード/ジャンルで書いて」と指示が来る(例: 「ヘッドホンで」「サンプラーで」「ウイスキーで」)。ロードマップ(下記)に候補があればそこから拾ってもよいが、基本は都度指示待ち。
-2. **リサーチ**: そのお題について、**最低15サイト以上**の情報源を横断して調べる。**海外(英語)サイトを優先的に含める**こと — 日本語ソースだけで済ませない。「5製品比較」形式(下記)にする場合は、対象ごとにAgent(general-purpose)を並列起動して1対象あたり8〜10サイト(合計50サイト以上)調べさせるのが実績のあるやり方。単発テーマ記事(比較形式でない)でも、15サイト以上は必ず確保する。
+2. **リサーチ**: そのお題について、**最低15サイト以上**の情報源を横断して調べる。**海外(英語)サイトを優先的に含める**こと — 日本語ソースだけで済ませない。「5製品比較」形式(下記)にする場合は、対象ごとに `scripts/oc_research.py` を実行して1対象あたり8〜10サイト(合計50サイト以上)調べるのが実績のあるやり方。単発テーマ記事(比較形式でない)でも、15サイト以上は必ず確保する。
 3. **事実確認**: リサーチ中に「trendingとして名指しされた対象が実在しない/旧バージョンだった」というケースが何度も発生している(Battery 5が未発売、Studio One→Fender Studio Pro改名、UR22C→URX22C改名、PS-LX310BT生産終了など)。挙げられた対象は鵜呑みにせず、現行かどうかを都度確認する。
-4. **執筆（生成）**: `python scripts/oc_generate.py article --brief <brief.json> …` で opencode の DeepSeek V4.1 に委任する（ブリーフの必須キー、再実行の上限、出力の確認方法は `scripts/scheduled/prompts/blog-post.md` の手順4）。文体・禁止事項は下記「文体」セクションと `oc_generate.py` の `RULES` に反映済み。
+4. **執筆（生成）**: `python scripts/oc_generate.py article --brief <brief.json> …` で opencode の4段チェーンに委任する（既定は `google/gemini-3.5-flash-lite` 開始。チェーンは `OC_GENERATE_MODEL_CHAIN` / `--models` で上書き、`OC_GENERATE_MODEL` / `--model` で第1候補のみ変更可。検査に通った最初のモデルを採用し、全段失敗時のみ手動再実行）。ブリーフの必須キー、再実行の上限、出力の確認方法は `scripts/scheduled/prompts/blog-post.md` の手順4。文体・禁止事項は下記「文体」セクションと `oc_generate.py` の `RULES` に反映済み。
 5. **カテゴリ付け**: 既存カテゴリ(`hugo.toml` の `[menu]`)に合うものがあればそれを使う。無理に既存カテゴリに押し込めず、既存カテゴリの延長で自然に追加できるなら新カテゴリを切ってよい(ウイスキーで前例あり)。記事が増えてきたら、カテゴリ構成全体を見直すタイミングを都度検討すること(固定的に考えない)。
 6. **画像レイアウト(2026-09-23、ユーザー指示)**: 記事本文に写真や図を載せる場合は、**センター詰めの独立画像ではなく、文章が画像の周りを回り込む新聞・雑誌風のレイアウト**にする。実装は `<figure class="photo photo--left">`(画像が左、本文が右に回り込む)と `<figure class="photo photo--right">`(その逆)を使い分け、**同じ記事内では左右を交互に配置**して雑誌の見開きのようなリズムを作る。スタイルは `assets/css/extended/figures.css` で定義済み(画像の縦幅は`max-height: 420px`上限(2026-09-27改訂。当初は`100px`で画面上の画像が極端に小さかったため、新規記事にも同じルールを継承させること)・横幅`min(34%, 220px)`以下・キャプションは新聞カットライン風・見出しでフロート解除・スマホでは中央寄せに解除)。**回り込む本文の1行幅は10文字(=約180px)を下回らせない**こと。同セクション内で左右それぞれのフロート画像(左右に向かい合う2枚)が縦に重なると、その間の本文は `コンテンツ幅(720px)−画像幅×2−margin(48px)` に潰れるため、画像幅は220px以下に抑える(現行CSSの制約。将来コンテンツ幅を変えるときは、向かい合う2枚の間に最低180px残るよう画像幅上限を再計算すること)。段落は画像の周りで行が1〜2文字だけになったり、極端に短い行が飛び出したりしないよう、**文章量を見て段落の切れ目を調整する**(画像付きは本文量が多めの段落に置き、画像の直後で段落が終わらないよう前後の段落でバランスを取る)。`width`/`height`/`alt`/`loading="lazy"` と `<figcaption>`(写真の説明)・`<span class="credit">`(撮影・出典クレジット)は省略しない。はてなブログにはサイトCSSが効かないが、`scripts/extract-post-html.sh` が `scripts/hatena_figures.py` を通して figure にインラインの float を付けるので、**はてなでも回り込みが再現される(2026-10-01〜)**。note は float 非対応のため縦積み(既知の挙動でOK)。**figure の配置位置(2026-09-25、ユーザー指示・全面適用済み)**: float はブロック境界(直前の段落の下・`---`や見出しの前)に置くと横にテキストが流れない。**figure は必ずセクション見出し(`##`)の直後、そのセクションの本文段落の直前に置く**(見出し → figure → 段落 の順で、段落のテキストが必ず画像の横を回り込む)。figure の直後に見出し・`---`・画像のみ・30文字未満の短文を置かない(アイキャッチ直後のレーダーチャート等、意図的な画像連続はOK)。
 7. **収益化リンク**: 該当する場合はAmazonアフィリエイトリンクを付与(下記「マネタイズ状況」参照)。Amazonに無ければ公式サイトへの通常リンクにする。
@@ -121,15 +128,15 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 `scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
-  - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻＋隔日入替、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。エンジンは Claude Code
-  - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）。エンジンは opencode（big-pickle）
-  - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）。エンジンは opencode（big-pickle）
-- **実行エンジン**: 投稿の進行は Claude Code、ネタ会議・補充は opencode（big-pickle）。`run-claude-task.ps1` は `-Engine claude|opencode` で切り替える（`Invoke-Claude` / `Invoke-OpenCode`）。opencode 側は `opencode run --model opencode/big-pickle --agent build --auto` を実行する。
-  **投稿の生成だけ**は Claude Code から `python scripts/oc_generate.py` を呼び、opencode の `opencode/deepseek-v4.1-flash-free`（`--agent build --auto --archived --standalone`）で本文・タイトル・frontmatter・画像の選定と配置・X投稿文を作る（2026-11-15、ユーザー指示）。タスク登録は `register-tasks.ps1` を再実行して反映する。
+  - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻＋隔日入替、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。`-Model` は `google/gemini-3.5-flash#high`、`-FallbackModels` は gemini-lite / deepseek-free / longcat-free。
+  - `blog-topic-planning`: ネタ会議。毎週日曜 03:00。承認済みを64件まで補充。指示文 `topic-planning.md`（Mode: weekly）。`-Model` は `opencode/big-pickle`、`-FallbackModels` は gemini-lite / gemini-high / deepseek-free。
+  - `blog-topic-topup`: 毎日 04:00。承認済みが16件未満のときだけ64件まで補充（Mode: topup）。モデルチェーンはネタ会議と同じ。
+- **実行エンジン（2026-11-18 改訂、同日4段化）**: 3つとも Claude Code を起動せず、`run-claude-task.ps1`（ファイル名は互換維持）が `-Model`（第1候補）＋`-FallbackModels`（セミコロン区切りの第2〜4候補）を受け取り、`opencode run --agent build --auto --archived` をステージ順に実行する。失敗ステージの後は `topic_plan.py recover` で後片付けしてから次のモデルへ進み、`finished`（意図的な reject / 日次上限）は再試行しない。試行ログは `scripts/scheduled/logs/` に残る。
+  **投稿の生成・リサーチ・X投稿文の修正**はジョブから `oc_generate.py` / `oc_research.py` を呼び、それぞれが4段チェーンを自動で回す（`oc_generate.py` は `--agent build --auto --archived --standalone`）。タスク登録は `register-tasks.ps1` を再実行して反映する（再登録後 `blog-ppp-reconcile` を再有効化すること）。
 - **Web 検索の担当（2026-10-05 → 2026-11-15 → 2026-11-16 改訂、ユーザー指示）**:
-  - **投稿（blog-post）**: リサーチは `python scripts/oc_research.py`（opencode / `google/gemini-3.5-flash-lite`）を第一候補にする。メイン（opus）は WebSearch / WebFetch を直接呼ばない。
-    失敗時（終了コード非0、facts 4件未満、出典が怪しい）のみ、Claude Code のサブエージェント（Agent、general-purpose、`model: "haiku"`）へフォールバックする。実行ログは `scripts/scheduled/logs/oc-research.log`。
-  - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode（big-pickle）で動くので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
+  - **投稿（blog-post）**: リサーチは `python scripts/oc_research.py` に任せる。メインの投稿ジョブ（`google/gemini-3.5-flash#high`）は WebSearch / WebFetch を直接呼ばない。
+    `oc_research.py` は exit code・空出力・JSON解析・facts/source数・URL到達・言語混入を検査し、失敗したら自動的に次のモデルへ切り替える（4Attempts、`--retries 3` が既定）。`--model` は単一モデル固定用（狭い深掘り）で、通常は指定しない。実行ログは `scripts/scheduled/logs/oc-research.log`。
+  - **ネタ会議（topic-planning / topic-topup）**: 会議自体が opencode で動く（第1候補 `big-pickle`、失敗時は gemini-lite / gemini-high / deepseek-free へ自動切替）ので、Web 検索はそのエージェント自身の websearch / webfetch を使う（外部の調査ツールは使わない）。
   - 調査量は**5サイト以上**（旧10サイト）。投稿の調査は読み取り専用で、ファイル・画像・ASIN には触らせない（2026-10-03 の Haiku による画像偽造事故の再発防止）。
   - 指示文は `prompts/blog-post.md` の「3. リサーチ」と `prompts/topic-planning.md`、実装は `scripts/oc_research.py`。
 - **失敗した回の後片付け（2026-10-02）**: 投稿の回で記事が増えず、かつ 失敗／時間切れ／ネタを投稿中のまま放置／失敗を記録 のいずれかなら、
@@ -144,7 +151,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 - **画像の偽造事故と対策（2026-10-03）**: 対話セッションで `/model haiku` に切り替えた影響で、`--model` を指定していなかった自動投稿3本
   （islay-malt / condenser-mic / audacity-4）が Haiku で動き、本物の画像の代わりに格子模様・白紙・乱数データ・グラデーションの「画像」と
   ダミーのレーダーチャート、存在しない ASIN を作って公開した（検査は 15KB 以上かどうかしか見ていなかった）。対策:
-  - `run-claude-task.ps1` は常に `--model opus` を渡す（会話中の `/model` に左右されない）。
+  - `run-claude-task.ps1` は常に `-Model` と `-FallbackModels` を渡す（会話中の `/model` に左右されない）。第1候補は投稿が `google/gemini-3.5-flash#high`、ネタ会議・補充が `opencode/big-pickle`。big-pickle はネタ会議のみで本文生成には使わない。
   - 画像は必ず `scripts/fetch_image.py <slug> <dest> <Commonsのファイル名|URL>` で取得する。出典が `scripts/image-sources/<slug>.json` に残り、
     `validate_post.py` が出典から取り直して知覚ハッシュで照合する。デコード不可・小さい・色数が少ない・質感が無い画像、
     radar-chart.awk 以外の SVG、figure の使い回し、Amazon 記事で画像がアソシエイトリンクで包まれていない場合も NG。
@@ -233,7 +240,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 **セキュリティ上の注意**: このリポジトリ(`kingsworksub-jpg/kingsworksub-jpg.github.io`)は公開リポジトリ。APIキー・アクセストークンの類は**絶対にコード/コミットに直書きしない**。ローカル実行時は環境変数、GitHub Actionsで動かす場合はリポジトリの Encrypted Secrets を使うこと。
 
-**進め方**: ユーザーが各媒体のアカウント作成・アプリ登録・トークン発行を行い、そのトークンをClaude Codeに渡す→Claude Code側で投稿スクリプト(`scripts/post-to-*.sh` 想定、curlでAPI叩く)を作成・実行する分担。アカウント登録そのものは代行できない(本人確認・支払い情報・規約同意が必要なため)。
+**進め方**: ユーザーが各媒体のアカウント作成・アプリ登録・トークン発行を行い、そのトークンをローカルの実行エージェント（opencode）に渡す→opencode側で投稿スクリプト(`scripts/post-to-*.sh` 想定、curlでAPI叩く)を作成・実行する分担。アカウント登録そのものは代行できない(本人確認・支払い情報・規約同意が必要なため)。
 
 ### X (Twitter) への投稿(2026-11-04 正式復活)
 
@@ -261,13 +268,15 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - `--reply-to <tweet_id> --text-file <file> --publish` でそのツイートに実際に返信し、成功したら
   `handled_ids` に追加する(以後`--check-replies`に出てこなくなる)。`--skip <tweet_id>` は返信せずに
   既読扱いにするためのコマンド(スパム・荒らし等を無視する用途)。
-- 返信文はこのスクリプト自身は作らない。無人実行用の指示文は `scripts/scheduled/prompts/x-reply.md`
-  (タスク名 `blog-x-reply-task`、45分おき、`scripts/scheduled/register-tasks.ps1`)。1回の実行で返信するのは
-  最大5件(スパム判定回避)。元の返信の言語に合わせ、CLAUDE.mdの「文体」ルール(煽り・誇張の禁止)に従って短く書く。
-- **タスクは登録時 Disabled**(`blog-ppp-reconcile` と同じ方針): 通知ページのスクレイピング(`article[data-testid="tweet"]`
-  等のセレクタ)は実際のXの画面でまだ検証していない。有効化前に `Start-ScheduledTask -TaskName blog-x-reply-task` を
-  数回動かしてログを確認するか、`post-to-x.py --check-replies` と `--reply-to ... --text-file ...`(`--publish`無しでドライラン)
-  を手動で試してから `Enable-ScheduledTask -TaskName blog-x-reply-task` で有効化すること。
+- **返信文の生成は2026-11-18にGemini化した**(Claude Code は使わない)。`post-to-x.py --auto-replies` が
+  `x_llm.py:generate_mention_replies()` で未処理の返信をまとめて `google/gemini-3.5-flash-lite`
+  (opencode 無料枠、失敗時は longcat/iceman/flint にフォールバック)に投げ、返信文または `null`(スキップ判断)を
+  得てそのまま返信/既読化まで行う。文体ルールは `scripts/scheduled/prompts/x-reply.md` と同じ内容を
+  `x_llm.py:build_mention_prompt()` に移植済みで、旧プロンプトは参考用に残している。
+  1回の実行で処理するのは最大5件(`--max` で変更可、スパム判定回避)。
+- タスク名は `blog-x-reply-task` のまま、登録スクリプトは `scripts/schedule-x-tasks.ps1`、
+  実行ファイルは `scripts/scheduled/run-x-reply.ps1`(00:15開始・45分おき)。旧 `run-claude-task.ps1 -Name x-reply`
+  は使わない。`run-x-reply.ps1 -DryRun` なら生成と画面操作だけ行い、投稿も状態変更もしない。
   - **実機テスト(2026-11-05)**: `--check-replies` は実際のX上で動作確認済み(自分のアカウント `@100labjtvn` を正しく認識、
     未処理の返信を正しく列挙)。同日、実際に溜まっていた未返信8件のうち、宣伝・勧誘目的の3件を `--skip` で既読化し、
     残り5件に `--reply-to ... --publish` で実際に返信済み(すべて成功)。
@@ -305,13 +314,22 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - **DM入力欄・送信ボタンの実際のセレクタ(2026-11-05実機確認、憶測で変えないこと)**:
   入力欄は `textarea[data-testid="dm-composer-textarea"]`(`div[role="textbox"]`ではない)、送信ボタンは
   `button[data-testid="dm-composer-send-button"]`(キャメルケースの`dmComposerSendButton`ではない)。
-- お礼DMの文面はこのスクリプト自身は作らない。無人実行用の指示文は `scripts/scheduled/prompts/x-follow-dm.md`
-  (タスク名 `blog-x-follow-task`、45分おき、`scripts/scheduled/register-tasks.ps1`)。1回の実行で処理するのは
-  最大5件(スパム判定回避)。スパム・ボットらしいフォロワーは何もしない(状態ファイルが無いため、次回また候補に出るが
-  実害は無い)。
-- **タスクは登録時 Disabled**(他のXタスクと同じ方針): 知らないユーザーへの自動フォロー・自動DMはX自身の
-  スパム/不正利用検知が特に警戒する種類の挙動なので、`post-to-x.py --check-new-followers` や `--welcome ...`
-  (`--publish`無しでドライラン)を手動で試してから有効化すること。
+- **お礼DM文の生成も2026-11-18にGemini化した**(Claude Code は使わない)。`post-to-x.py --auto-welcome` が
+  `x_llm.py:generate_welcome_dms()` で新規フォロワーをまとめて生成し、スパム/ボットと判断した人以外に
+  フォローバック+お礼DMを行う。文体ルールは `scripts/scheduled/prompts/x-follow-dm.md` と同じ内容を
+  `x_llm.py:build_welcome_prompt()` に移植済みで、旧プロンプトは参考用に残している。
+  1回の実行で処理するのは最大5件(`--max` で変更可、スパム判定回避)。スパム・ボットらしいフォロワーは
+  何もしない(状態ファイルが無いため、次回また候補に出るが実害は無い)。
+- タスク名は `blog-x-follow-task` のまま、登録スクリプトは `scripts/schedule-x-tasks.ps1`、
+  実行ファイルは `scripts/scheduled/run-x-follow-dm.ps1`(00:35開始・45分おき)。旧 `run-claude-task.ps1 -Name x-follow-dm`
+  は使わない。`run-x-follow-dm.ps1 -DryRun` なら生成と画面操作だけ行い、フォロー/DMはしない。
+- **お礼DMの文体(2026-11-17、ユーザー指示で改修)**: 「これからよろしくお願いします」「今後ともよろしくお願いいたします」
+  のような関係継続を強く求める挨拶は、初対面の相手に重く構えさせるため禁止。1〜2文・30〜50字の敬体で、
+  「フォローへの感謝 + 相手の投稿を楽しみにしている等の軽い一言」だけを書き、返信を促す質問で終わらせない。
+  宣伝・リンク・長文・絵文字3個以上も禁止(絵文字は0〜1個)。具体例は上記プロンプト内に記載。
+- **自動フォロー/DMはX側のスパム検知が警戒する挙動**なので、設定変更後はまず
+  `powershell -NoProfile -ExecutionPolicy Bypass -File scripts\scheduled\run-x-follow-dm.ps1 -DryRun`
+  でログを確認してから通常実行する(`--publish` 無しのドライランではフォローもDMもしない)。
 - **実機テスト(2026-11-05)**: `--check-new-followers` は実際のX上で動作確認済み。実際に溜まっていた新規フォロワー
   3人のうち、`tekitounix` は実フォローバック成功(DM未テスト)、`sin_clav` はDM拒否(Xナンバー限定)を正しく検知、
   `oja_project` はフォローバック+DM送信の両方が実際に成功した。
@@ -372,17 +390,32 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   ```
   `--loop` はプロセスが生きている間ずっと回る。PC再起動やクラッシュで死んでも、ログオン時と毎日06:10の
   トリガーで復帰する（`MultipleInstances=IgnoreNew` なので二重起動しない）。
-- **モデルのフォールバックチェーン**（`scripts/x_llm.py`、B方式=LLMが返信全文を書く）:
+- **モデルのフォールバックチェーン**（`scripts/x_llm.py`、B方式=LLMが返信全文を書く。すべて opencode の無料枠、Claude Code は使わない）:
   1. opencode `google/gemini-3.5-flash-lite`（メイン）
-  2. opencode `opencode/longcat-2.5-free`（無料の保険）
-  3. claude code `haiku`
+  2. opencode `opencode/longcat-2.5-free`
+  3. opencode `opencode/iceman-free`
+  4. opencode `opencode/flint-40b-free`
 - **バッチ生成**: 候補を最大3件まとめて1回のLLM呼び出しに渡す。opencode CLI は1回あたり約8,000トークンの固定オーバーヘッドがあるため、1件ずつ呼ぶより安い。
   モデルは各候補について「返信する/しない」も判断し、`null` を返した投稿は返信しない（宣伝・告知・文脈不明は返信しない）。
 - **引用禁止（絶対ルール）**: 投稿本文の言い回しをなぞる返信は機械的に破棄する。空白・記号を除いた上で6文字以上の共通部分文字列があれば `quotes_source()` が弾く。
 - **会話の続き（返信への返信）**: プロフィールの「返信」タブを開き、直近の自分の返信5件のスレッドを読む。
   検出した相手の返信は、`元の投稿 → 自分の返信 → 相手の返信` を文脈としてLLMに渡し、バッチの先頭（＝先に投稿）に積む。
   このタブ巡回は重いので `X_FOLLOWUP_INTERVAL_MIN`（既定30分）に1回だけ実行する。
-- **二重返信の防止**: `data/x-following-reply-state.json`（git管理外）の `replied_ids` / `seen_ids` に加え、
+- **会話の着地＝熱量が下がったら「いいね」だけ（2026-11-17 追加）**: 会話の続きは `conversation_heat()` で
+  相手の返信の熱量を採点する（長文・質問・感嘆符・絵文字・熱意のある語で上がり、相槌・御礼だけの短文で下がる）。
+  - 一度でもこちらが返信した会話（`our_replies >= X_FOLLOWUP_SETTLE_MIN_TURNS`、既定1）で、熱量が
+    `X_FOLLOWUP_SETTLE_HEAT`（既定0）以下になったら、その会話を `settled` にして以降は返信しない。
+  - 「ありがとうございます」「なるほど」「参考になりました」等、相槌・御礼だけの返信は初回でも畳む
+    （返信を重ねても会話が広がらないため）。
+  - settled な会話に新しい返信が来たら、そのツイートの `[data-testid="like"]` を押して **いいねだけ** を送る。
+    上限は `X_FOLLOWUP_MAX_LIKES_PER_DAY`（既定12件/日）。いいねしたIDは `data/x-replies-state.json` の
+    `handled_ids` にも入れるため、通知ベースの `blog-x-reply-task` も同じ返信に反応しない。
+  - 会話状態は `data/x-following-reply-state.json` の `conversations`（ルート投稿ID＋相手handle単位）に保持し、
+    `settled` / `our_replies` / `thread_ids` / `liked_ids` を追跡する。300件を超えると更新の古い順に間引く。
+  - **注意**: 一度 settled になった会話は、その後相手が長文の質問を返してきても返信しない（「それ以降は
+    返信を控えて良いねだけ」という仕様）。仕様を戻すときは `conversations` の該当エントリを消すか、
+    `settled` を `false` にすれば再評価される。
+- **二重返信の防止**: `data/x-following-reply-state.json`（git管理外）の `replied_ids` / `seen_ids` / `liked_ids` に加え、
   通知ベースの既存ジョブ `blog-x-reply-task` と **`data/x-replies-state.json` の `handled_ids` を双方向で共有**する。
   どちらのジョブが返信しても、もう片方は同じ投稿・返信に反応しない。`seen_ids` は800件を超えると古い順に間引く。
 - **投稿経路**: ツイートURL（`https://x.com/i/status/<id>`）を開く → `[data-testid="reply"]` → `[role="dialog"]` 内の
@@ -394,7 +427,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
 - **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大30件（`X_MAX_REPLIES_PER_DAY`）。候補収集は最大12件（`X_SCAN_LIMIT`）。
   環境変数で上書き可（`X_MAX_REPLIES_PER_DAY` / `X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
-  `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN`）。
+  `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN` /
+  `X_FOLLOWUP_SETTLE_MIN_TURNS` / `X_FOLLOWUP_SETTLE_HEAT` / `X_FOLLOWUP_MAX_LIKES_PER_DAY`）。
   1サイクル1件に抑えているのは、1日の返信を時間帯に分散させるため（まとめて3件返すと前半に偏る）。
 - **使い方**:
   ```bash
@@ -938,11 +972,11 @@ X API利用やOS入力シミュレーション(`pyautogui`/`pyperclip`)を使う
 - `suntory-kakubin-deep-dive-2026.md` / `black-nikka-clear-deep-dive-2026.md` / `suntory-trys-deep-dive-2026.md` / `jim-beam-white-deep-dive-2026.md` / `four-roses-yellow-deep-dive-2026.md` / `ballantines-finest-deep-dive-2026.md` / `cutty-sark-deep-dive-2026.md` / `white-horse-fineold-deep-dive-2026.md` / `dewars-white-label-deep-dive-2026.md` / `johnnie-walker-red-deep-dive-2026.md` — `budget-whisky-10choice-2026.md` 特集10本の深掘り(2026-09-17、リスト記事と同時に執筆)。**タイトルは「全機能解剖」ではなく「{製品名}の味と仕様 — {サブタイトル}」にする**(ウイスキーに「機能」は無いため)。新ジャンルでは対象の性質に合わせてこの部分の語彙も調整してよい。**2026-09-29に「隅から隅まで味わい尽くす」形式からは一括で撤退済み(下記タイトル規則7番)**。
 - **ニッカ フロム・ザ・バレルはリサーチ済みだが不採用**: 2026-09-17時点で実勢価格が値上がりし500mlで4,000〜6,000円台まで高騰していたため、「安価」を謳う本リストの趣旨と合わず、代わりにジョニーウォーカー レッドラベルを採用した。同様の「トレンドで名前が挙がったが実際に調べたら前提と合わなかった」ケースなので、対象を機械的に採用せず、リサーチ結果を見て都度取捨選択すること。
 
-**2026-09-17、ユーザー指示「比較記事で特集している製品それぞれの詳細レビュー記事を書いて」**: 比較記事1本につき、特集製品ぶんの単発深掘り記事(「記事の型その2」フォーマット)を追加で書く、というパターンが発生した。今後も同様の指示があれば、対象の比較記事から製品名・ASIN・画像パスをそのまま流用し、各製品にAgent(general-purpose)を並列起動して個別に深掘りリサーチ(最低10サイト)した上で執筆する。画像・ASINは使い回すため新規ダウンロードは不要。
+**2026-09-17、ユーザー指示「比較記事で特集している製品それぞれの詳細レビュー記事を書いて」**: 比較記事1本につき、特集製品ぶんの単発深掘り記事(「記事の型その2」フォーマット)を追加で書く、というパターンが発生した。今後も同様の指示があれば、対象の比較記事から製品名・ASIN・画像パスをそのまま流用し、各製品について `scripts/oc_research.py --min-sources 10` を実行して個別に深掘りリサーチした上で執筆する。画像・ASINは使い回すため新規ダウンロードは不要。
 
 各記事は共通のフォーマットで作っている:
 
-1. **リサーチ**: 5製品それぞれについて、Agent(general-purpose)を並列起動して最低8〜10サイトずつ(合計50サイト以上)調査させる。日本語DTM/レビューブログ、海外フォーラム(KVR/Gearspace/Reddit等)、公式サイトを横断。各エージェントに軸別スコア(1〜5)・引用可能な一言(出典URL付き)・トレンド情報を構造化して返させる。
+1. **リサーチ**: 5製品それぞれについて、`scripts/oc_research.py --min-sources 10` を実行して最低8〜10サイトずつ(合計50サイト以上)調査する。日本語DTM/レビューブログ、海外フォーラム(KVR/Gearspace/Reddit等)、公式サイトを横断し、各製品の `facts`（出典URL付き）・`entities`（現行/廃盤/未確認）・`unverified` を構造化して得る。
 2. **評価軸(5軸)は製品カテゴリに合わせて設計し直すこと**。ソフトウェアの軸をハードウェアにそのまま流用しない(過去にこれをやって「学習コスト」「制作速度」がターンテーブル記事で不自然と指摘されたことがある)。
    - ソフトウェア(DAW/サンプラー): 学習コスト / 打ち込み・編集 / 制作速度 / 拡張性 / 安定性
    - ハードウェア全般: 学習コスト→**セットアップ**、安定性→**耐久性** に読み替える
@@ -1013,7 +1047,7 @@ X API利用やOS入力シミュレーション(`pyautogui`/`pyperclip`)を使う
 
 これまで作った記事は「ロードマップ」セクション内の「単発の製品深掘り記事」一覧を参照。
 
-1. **リサーチ**: 対象1製品につきAgent(general-purpose)を1体起動し、最低10サイト以上を調査させる。比較記事のときと同様、海外(英語)ソースを優先的に含める。比較記事からの追加執筆であれば、製品名・ASIN・商品画像パス(`static/images/products/`)は使い回してよく、新規ダウンロードは不要。
+1. **リサーチ**: 対象1製品につき `scripts/oc_research.py --min-sources 10` を実行し、最低10サイト以上を調査する。比較記事のときと同様、海外(英語)ソースを優先的に含める。比較記事からの追加執筆であれば、製品名・ASIN・商品画像パス(`static/images/products/`)は使い回してよく、新規ダウンロードは不要。
 2. **見出し構成**: 5軸評価やレーダーチャートは使わない(1製品のみのため比較の意味がない)。代わりに、製品の側面ごとに見出しを切る(例: 筐体・外観、駆動方式、操作系、接続性、価格・現行性など、対象に応じて自由に設計する)。
 3. **アフィリエイト画像リンク(2026-09-18再改訂)**: 記事全体に**2箇所**分散して配置する(3箇所→2箇所に変更。目安は「序文直後」と「価格・現行性など購入判断に近いセクションの前後」の2箇所)。**デザインも変更**: 型その1で使っている`.product-links`(画像のみのフルワイドリンク)ではなく、**固定サイズの横長バナー型リンク**`.product-banner`(`assets/css/extended/product-links.css`で定義、幅468px×高さ120px固定、左に商品写真・右に商品名+「Amazonで見る」CTAテキスト)を使う。型その1(5/10製品比較記事)の`.product-links`は従来通り画像のみのフルワイドリンクのまま変更しない——**この変更は型その2(単発深掘り記事)限定**。マークアップ:
    ```html

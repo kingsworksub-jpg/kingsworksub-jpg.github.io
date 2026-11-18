@@ -10,8 +10,8 @@ X (Twitter) で自分がフォローしているユーザー（Following）の�
    必要に応じてweb検索のスニペットを踏まえて返信文を生成する。
 4. 返信文はB方式（LLMが全文生成）。モデルのフォールバックチェーンは x_llm.py:
    - メイン: opencode / google/gemini-3.5-flash-lite
-   - フォールバック1: opencode / opencode/longcat-2.5-free（無料）
-   - フォールバック2: claude code / haiku
+   - フォールバック1〜3: opencode / longcat-2.5-free, iceman-free, flint-40b-free（すべて無料）
+   - Claude Code は使わない（クレジット消費を避けるため）。
 5. トークン節約のため、候補ツイートを1回のLLM呼び出しにまとめる（バッチ生成）。
    opencode CLI は1回あたり約8kトークンの固定オーバーヘッドがあるため、
    1件ずつ呼ぶよりバッチの方が安い。
@@ -19,7 +19,10 @@ X (Twitter) で自分がフォローしているユーザー（Following）の�
    （元の投稿 → 自分の返信 → 相手の返信）をLLMに渡して続きを返す。
    プロフィールの「返信」タブを開くため、確認は一定間隔
    （X_FOLLOWUP_INTERVAL_MIN、既定30分）で行う。
-7. 実行間隔は固定にせず、日中は短め（18〜45分）・深夜は長め（80〜150分）の
+7. 会話が落ち着いたら返信を重ねない。相手の返信が相槌・御礼だけで熱量が下がって
+   いる場合、または一度やり取りした後の低熱量な返信は、返信せずに「いいね」だけを
+   送って会話を畳む（同じ会話では以降もいいねのみ）。判定は conversation_heat()。
+8. 実行間隔は固定にせず、日中は短め（18〜45分）・深夜は長め（80〜150分）の
    ランダムにして、1日トータルで約30〜33サイクル（深夜は4回程度）にする。
    固定間隔の機械的なパターンを避けるため。`--loop` で常駐させ、
    Windowsタスクスケジューラからは1日1回起動する（run-following-reply.ps1）。
@@ -89,6 +92,49 @@ FOLLOWUP_CHECK_INTERVAL_MIN = int(os.environ.get("X_FOLLOWUP_INTERVAL_MIN", "30"
 FOLLOWUP_SCAN_REPLIES = int(os.environ.get("X_FOLLOWUP_SCAN_REPLIES", "5"))
 FOLLOWUP_MAX = int(os.environ.get("X_FOLLOWUP_MAX", "3"))
 FOLLOWUP_MIN_LEN = int(os.environ.get("X_FOLLOWUP_MIN_LEN", "2"))
+
+# 会話の熱量が下がったら返信を止めて「いいね」だけで畳む。
+# - 一度でもこちらが返信している会話（our_replies >= MIN_TURNS）で、
+#   熱量がしきい値以下になったら、その会話は以降 settled（返信しない）。
+# - 相槌・御礼だけの返信は、初回でも返信を重ねずいいねだけにする。
+FOLLOWUP_SETTLE_MIN_TURNS = int(os.environ.get("X_FOLLOWUP_SETTLE_MIN_TURNS", "1"))
+FOLLOWUP_SETTLE_HEAT = int(os.environ.get("X_FOLLOWUP_SETTLE_HEAT", "0"))
+FOLLOWUP_MAX_LIKES_PER_DAY = int(
+    os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "12")
+)
+
+# 相手の返信が「会話を広げる気力」をまだ持っているかを見るための語彙。
+# 質問・感嘆・絵文字・熱意のある語が増えるほど熱量が高いとみなす。
+HOT_WORDS_PATTERN = re.compile(
+    r"最高|すごい|嬉しい|楽しい|大好き|熱い|めっちゃ|本当に|感動|泣け|震え|"
+    r"気になる|知りたい|教えて|面白い|興味|たまらない|やばい"
+)
+QUESTION_PATTERN = re.compile(
+    r"[?？]|(?:かな|ですか|ますか|でしょうか|どう|なに|何|どこ|いつ|誰|なぜ)",
+    re.I,
+)
+EMOJI_PATTERN = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF]")
+
+# 会話を畳むきっかけになる、相槌・御礼だけの短文。
+LOW_ENERGY_PREFIX = re.compile(
+    r"^(?:ありがと|ありがとう|どうも|感謝|なるほど|そうですね|そうなんですね|"
+    r"たしかに|確かに|ですよね|そうそう|了解|承知|オッケー|ok|"
+    r"いいですね|素敵ですね|よかったです|お疲れ|おつかれ|おやすみ|"
+    r"また|では|じゃあ|失礼|いえいえ|とんでも|こちらこそ|"
+    r"勉強になり|参考になり|為になり|笑|草|w+)",
+    re.I,
+)
+LOW_ENERGY_ONLY = re.compile(
+    r"^(?:ありがと(?:う(?:ございます|ございました)?)?|どうも|なるほど|"
+    r"そうですね|そうなんですね|たしかに|確かに|ですよね|そうそう|"
+    r"了解(?:です)?|承知(?:しました)?|オッケー|ok|いいですね|素敵ですね|"
+    r"よかったです|お疲れ(?:さま)?(?:です)?|おつかれ(?:さま)?|"
+    r"いえいえ|とんでも(?:ない)?|こちらこそ|"
+    r"勉強になり(?:ました)?|参考になり(?:ました)?|為になり(?:ました)?|"
+    r"笑|草|w+)"
+    r"[\s。．.!！?？、,，~〜ー…wｗ]*$",
+    re.I,
+)
 
 # 宣伝・告知は会話にならないので返信対象から外す。
 PROMO_PATTERN = re.compile(
@@ -336,6 +382,9 @@ def save_state(state):
 def today_key():
     return datetime.date.today().isoformat()
 
+def _now_iso():
+    return datetime.datetime.now().isoformat(timespec="seconds")
+
 def replies_today(state):
     return state.get("daily_counts", {}).get(today_key(), 0)
 
@@ -394,6 +443,127 @@ def already_handled(state, tweet_id):
     return (tweet_id in state.get("replied_ids", {})
             or tweet_id in state.get("seen_ids", {})
             or tweet_id in load_replies_state_ids())
+
+def likes_today(state):
+    return state.setdefault("like_daily_counts", {}).get(today_key(), 0)
+
+def record_like(state, tweet_id, conv=None, count=True):
+    """会話の締めくくりとして送ったいいねを記録する。"""
+    state.setdefault("liked_ids", {})[tweet_id] = _now_iso()
+    if count:
+        day = today_key()
+        counts = state.setdefault("like_daily_counts", {})
+        counts[day] = counts.get(day, 0) + 1
+    if conv is not None:
+        liked = conv.setdefault("liked_ids", [])
+        if tweet_id not in liked:
+            liked.append(tweet_id)
+        conv["updated_at"] = _now_iso()
+    save_state(state)
+    # 通知ベースの x-reply ジョブが、畳んだ会話に返信しないよう既読を共有する
+    add_replies_state_id(tweet_id)
+
+def conversation_heat(text):
+    """相手の返信の「熱量」をざっくり点数化する。
+
+    長文・質問・感嘆符・絵文字・熱意のある語が多いほど高く、相槌や御礼だけの
+    短文は低くなる。外部APIを呼ばず、返信のたびに即決できる軽量な判定。
+    """
+    t = (text or "").strip()
+    if not t:
+        return -10
+    heat = 0
+    n = len(t)
+    if n >= 90:
+        heat += 3
+    elif n >= 50:
+        heat += 2
+    elif n >= 25:
+        heat += 1
+    elif n < 12:
+        heat -= 2
+    elif n < 18:
+        heat -= 1
+    if QUESTION_PATTERN.search(t):
+        heat += 2
+    heat += min(t.count("!") + t.count("！"), 2)
+    if EMOJI_PATTERN.search(t):
+        heat += 1
+    if HOT_WORDS_PATTERN.search(t):
+        heat += 1
+    plain = re.sub(r"\s+", "", EMOJI_PATTERN.sub("", t))
+    if LOW_ENERGY_ONLY.fullmatch(plain):
+        heat -= 4
+    elif LOW_ENERGY_PREFIX.match(plain):
+        heat -= 2
+    return heat
+
+def should_settle_conversation(text, our_replies):
+    """この返信を最後に、返信をやめて「いいね」だけにするべきか判断する。
+
+    - 相槌・御礼だけの返信は、会話の初回でも畳む（返信を重ねても意味がないため）。
+    - 一度やり取りした会話で熱量がしきい値以下なら畳む。
+    戻り値は (畳むか, 熱量)。
+    """
+    plain = re.sub(r"\s+", "", EMOJI_PATTERN.sub("", text or ""))
+    heat = conversation_heat(text)
+    if LOW_ENERGY_ONLY.fullmatch(plain):
+        return True, heat
+    if our_replies >= FOLLOWUP_SETTLE_MIN_TURNS and heat <= FOLLOWUP_SETTLE_HEAT:
+        return True, heat
+    return False, heat
+
+def _conversation_key(root_id, handle):
+    return f"{root_id}:{(handle or 'unknown').lower()}"
+
+def find_conversation(state, thread_ids, handle):
+    """祖先ID・自分の返信IDのどれかが一致する会話状態を探す（相手ごと）。"""
+    handle = (handle or "").lower()
+    ids = set(thread_ids)
+    for key, conv in state.get("conversations", {}).items():
+        if (conv.get("handle") or "").lower() != handle:
+            continue
+        if ids & set(conv.get("thread_ids") or []):
+            return key, conv
+    return None, None
+
+def register_conversation(state, info, our_reply_id, followup):
+    """会話（相手ごと）の状態を取得または作成し、今回の返信IDを紐づける。"""
+    handle = (followup.get("handle") or "").lower()
+    ancestor_ids = [a["id"] for a in info.get("ancestors", []) if a.get("id")]
+    thread_ids = ancestor_ids + [our_reply_id]
+    key, conv = find_conversation(state, thread_ids, handle)
+    root_id = ancestor_ids[0] if ancestor_ids else our_reply_id
+    if conv is None:
+        key = _conversation_key(root_id, handle)
+        conv = {
+            "root_id": root_id,
+            "handle": handle,
+            "thread_ids": [],
+            "our_replies": 0,
+            "settled": False,
+            "settled_at": "",
+            "last_heat": None,
+            "followup_ids": [],
+            "liked_ids": [],
+            "created_at": _now_iso(),
+        }
+        state.setdefault("conversations", {})[key] = conv
+    for tid in thread_ids + [followup["id"]]:
+        if tid and tid not in conv["thread_ids"]:
+            conv["thread_ids"].append(tid)
+    if followup["id"] not in conv["followup_ids"]:
+        conv["followup_ids"].append(followup["id"])
+    conv["updated_at"] = _now_iso()
+    return key, conv
+
+def prune_conversations(state, keep=300):
+    """会話状態が増えすぎないよう、更新の古いものから間引く。"""
+    convs = state.get("conversations") or {}
+    if len(convs) <= keep:
+        return
+    ordered = sorted(convs.items(), key=lambda kv: kv[1].get("updated_at") or "")
+    state["conversations"] = dict(ordered[-keep:])
 
 def simple_web_search(query):
     """簡易的な検索補助。DuckDuckGoのスニペットから背景情報の要約を取得する。
@@ -551,6 +721,17 @@ def read_thread(page, our_reply_id, own_handle):
         return None
 
     parent = articles.nth(main_idx - 1) if main_idx > 0 else None
+    # 祖先（元の投稿→…→自分の返信）を保持し、会話を1つのスレッドとして
+    # 追跡できるようにする。Xは返信ページに祖先を並べるので先頭がルート。
+    ancestors = []
+    for i in range(main_idx):
+        elem = articles.nth(i)
+        aid = _status_id(elem)
+        if aid:
+            ancestors.append({
+                "id": aid, "author": _author_name(elem),
+                "handle": _author_handle(elem),
+            })
     followups = []
     for i in range(main_idx + 1, total):
         elem = articles.nth(i)
@@ -565,13 +746,14 @@ def read_thread(page, our_reply_id, own_handle):
             continue
         followups.append({
             "id": sid, "author": _author_name(elem), "text": text,
-            "handle": _author_handle(elem),
+            "handle": _author_handle(elem), "elem": elem,
         })
 
     return {
         "our_text": _tweet_text(articles.nth(main_idx)).strip(),
         "parent_author": _author_name(parent) if parent else "",
         "parent_text": _tweet_text(parent).strip() if parent else "",
+        "ancestors": ancestors,
         "followups": followups,
     }
 
@@ -582,11 +764,45 @@ def _clean_context(text, limit=300):
     t = re.sub(r"\s+", " ", t).strip()
     return t[:limit]
 
-def scan_my_reply_followups(page, state, own_handle, limit):
+def like_article(article):
+    """article 内のいいねボタンを押す。戻り値は (成功したか, 理由)。"""
+    try:
+        # 既にいいね済みなら、二重に押さず成功扱いにする
+        if article.locator('[data-testid="unlike"]').count() > 0:
+            return True, "already"
+        btn = article.locator('[data-testid="like"]').first
+        if btn.count() == 0:
+            return False, "いいねボタンが見つからない"
+        btn.scroll_into_view_if_needed(timeout=3000)
+        time.sleep(0.5)
+        btn.click()
+        time.sleep(1.5)
+        if article.locator('[data-testid="unlike"]').count() > 0:
+            return True, ""
+        return False, "クリック後もいいね状態にならない"
+    except Exception as e:
+        return False, f"いいね中にエラー: {e}"
+
+def like_tweet(page, tweet_id, elem=None):
+    """指定ツイートにいいねする。スレッド巡回中なら取得済みの article を渡せる。"""
+    try:
+        article = elem
+        if article is None:
+            article = _open_status_article(page, tweet_id)
+        if article is None:
+            return False, "対象ツイートの要素が見つからない"
+        return like_article(article)
+    except Exception as e:
+        return False, f"いいね処理に失敗: {e}"
+
+def scan_my_reply_followups(page, state, own_handle, limit, publish=False):
     """自分の返信に返信が来ていないか確認し、会話の続きを返信候補として返す。
 
     プロフィールの「返信」タブを開くため、負荷を考えて一定間隔でしか実行しない。
     見つけた候補は、元の投稿→自分の返信→相手の返信という文脈付きで返す。
+
+    相手の文章の熱量が下がって会話が落ち着いた場合は、返信候補にせず
+    「いいね」だけを送る。一度畳んだ会話は settled として、以降もいいねのみ。
     """
     if not own_handle:
         return []
@@ -622,6 +838,7 @@ def scan_my_reply_followups(page, state, own_handle, limit):
     print(f"[*] 直近の自分の返信: {len(my_replies)}件を確認")
 
     found = []
+    like_limit_hit = False
     for sid in my_replies:
         page.goto(f"https://x.com/i/status/{sid}",
                   wait_until="domcontentloaded", timeout=25000)
@@ -633,9 +850,47 @@ def scan_my_reply_followups(page, state, own_handle, limit):
         for fu in info["followups"]:
             if already_handled(state, fu["id"]):
                 continue
+            if fu["id"] in state.get("liked_ids", {}):
+                continue
             if len(fu["text"]) < FOLLOWUP_MIN_LEN:
                 mark_seen(state, fu["id"])
                 continue
+
+            conv_key, conv = register_conversation(state, info, sid, fu)
+            if not conv.get("settled"):
+                settle, heat = should_settle_conversation(
+                    fu["text"], int(conv.get("our_replies") or 0)
+                )
+                conv["last_heat"] = heat
+                if settle:
+                    conv["settled"] = True
+                    conv["settled_at"] = _now_iso()
+                    print(f"[i] 会話が落ち着いたため以降はいいねのみ: "
+                          f"@{fu['author']} (熱量 {heat})")
+                save_state(state)
+
+            if conv.get("settled"):
+                if likes_today(state) >= FOLLOWUP_MAX_LIKES_PER_DAY:
+                    print(f"[i] 会話の締めくくりいいねが本日の上限"
+                          f"({FOLLOWUP_MAX_LIKES_PER_DAY}件)に達しました")
+                    like_limit_hit = True
+                    break
+                if not publish:
+                    print(f"[like] ドライラン: いいねのみ送ります "
+                          f"@{fu['author']} (ID: {fu['id']}, 熱量 {conv.get('last_heat')})")
+                    continue
+                ok, err = like_tweet(page, fu["id"], fu.get("elem"))
+                if ok:
+                    record_like(state, fu["id"], conv, count=(err != "already"))
+                    mark_seen(state, fu["id"])
+                    note = "（既にいいね済み）" if err == "already" else ""
+                    print(f"[✓] いいねのみ送信しました @{fu['author']} "
+                          f"(ID: {fu['id']}){note}")
+                else:
+                    # 失敗時は seen にせず、次の巡回で再試行する
+                    print(f"[!] いいねに失敗: {err}")
+                continue
+
             context = (
                 "これは自分(@{own})の返信に対して相手から届いた返信です。会話の続きとして自然に返してください。\n"
                 "元の投稿(@{pa}): {pt}\n自分の返信: {ot}\n相手の返信: {ft}\n"
@@ -649,12 +904,18 @@ def scan_my_reply_followups(page, state, own_handle, limit):
             found.append({
                 "id": fu["id"], "author": fu["author"], "text": fu["text"],
                 "topic": topic_desc(fu["text"]), "context": context,
-                "priority": True,
+                "priority": True, "conv_key": conv_key,
                 "url": f"https://x.com/i/status/{fu['id']}",
             })
-            print(f"[+] 会話の続き: @{fu['author']} (ID: {fu['id']})")
+            print(f"[+] 会話の続き: @{fu['author']} (ID: {fu['id']}, 熱量 {conv.get('last_heat')})")
             if len(found) >= limit:
+                prune_conversations(state)
+                save_state(state)
                 return found
+        if like_limit_hit:
+            break
+    prune_conversations(state)
+    save_state(state)
     return found
 
 def _open_status_article(page, tweet_id):
@@ -837,9 +1098,12 @@ def run_following_reply_cycle(publish=False, ignore_lock=False):
 
             candidates = []
             # 要件: 自分の返信に返信が来ていれば、それを最優先で拾う。
+            # 熱量が下がって会話が落ち着いている場合は、返信せずいいねだけを送る。
             if own_handle:
                 try:
-                    candidates = scan_my_reply_followups(page, state, own_handle, FOLLOWUP_MAX)
+                    candidates = scan_my_reply_followups(
+                        page, state, own_handle, FOLLOWUP_MAX, publish=publish
+                    )
                 except Exception as e:
                     print(f"[!] 返信への返信チェックでエラー: {e}")
 
@@ -910,6 +1174,13 @@ def run_following_reply_cycle(publish=False, ignore_lock=False):
                 ok, err = post_reply(page, c["id"], reply_text)
                 if ok:
                     record_reply(state, c["id"])
+                    conv = (state.get("conversations") or {}).get(c.get("conv_key"))
+                    if conv is not None:
+                        # この会話で何回返信したかを数え、次の返信の熱量判定に使う
+                        conv["our_replies"] = int(conv.get("our_replies") or 0) + 1
+                        conv["last_replied_at"] = _now_iso()
+                        conv["updated_at"] = conv["last_replied_at"]
+                        save_state(state)
                     posted += 1
                     print(f"    [✓] 返信を投稿しました ({posted}/{POST_PER_CYCLE})")
                 else:

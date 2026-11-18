@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-"""Generate blog *content* with opencode (DeepSeek V4.1) for the posting job.
+"""Generate blog *content* with opencode using a 4-stage model chain.
 
-The posting job is still orchestrated by Claude Code (claim, research, image
-fetching, validation, publishing).  Only the generation work is delegated here:
-the article body, title, frontmatter, image selection + placement, and the X
-post text.  Claude Code writes the brief, calls this helper, then fetches the
-chosen images and verifies them visually.
+The posting job is orchestrated by opencode (google/gemini-3.5-flash#high), which handles claim,
+research, image fetching, validation and publishing.  Only the generation work is delegated here:
+the article body, title, frontmatter, image selection + placement, and the X post text.  The caller
+writes the brief, calls this helper, then fetches the chosen images and verifies them visually.
+Claude Code is not involved.
 
 Usage:
     python scripts/oc_generate.py article --brief <brief.json> \
@@ -24,7 +24,7 @@ and may contain:
     products (list of {name, asin, note}), channel_notes (extra instructions)
 
 Each image candidate: {id, source, title, url, page, license, author, credit,
-size}.  Claude Code derives them from `python scripts/topic_plan.py images`.
+size}.  The caller derives them from `python scripts/topic_plan.py images`.
 
 Exit code is 0 on success; on failure a diagnostic goes to stderr and the code
 is non-zero, so the posting job can retry or mark the topic failed.
@@ -41,7 +41,10 @@ import subprocess
 import sys
 import tempfile
 
-MODEL = os.environ.get("OC_GENERATE_MODEL", "opencode/deepseek-v4.1-flash-free")
+from model_chains import GENERATE_CHAIN, resolve_chain, split_models
+
+MODEL_CHAIN = resolve_chain(GENERATE_CHAIN, "OC_GENERATE_MODEL_CHAIN", "OC_GENERATE_MODEL")
+MODEL = MODEL_CHAIN[0]  # backwards-compatible alias for logs/callers
 AGENT = "build"
 DEFAULT_TIMEOUT = int(os.environ.get("OC_GENERATE_TIMEOUT", "540"))
 FALLBACK_EXE = r"C:\Users\norio\AppData\Roaming\npm\opencode.cmd"
@@ -146,7 +149,7 @@ def find_opencode() -> str:
         return exe
     if os.path.exists(FALLBACK_EXE):
         return FALLBACK_EXE
-    die("opencode CLI not found on PATH (looked for 'opencode' and " + FALLBACK_EXE + ")")
+    return ""
 
 
 def kill_tree(proc: subprocess.Popen) -> None:
@@ -170,14 +173,16 @@ def kill_tree(proc: subprocess.Popen) -> None:
         pass
 
 
-def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
+def run_opencode(prompt: str, cwd: str, timeout: int, model: str) -> tuple[int, str, str]:
     exe = find_opencode()
+    if not exe:
+        return 127, "", f"opencode CLI not found (looked for 'opencode' and {FALLBACK_EXE})"
     # The message is piped on stdin: the Windows opencode.CMD shim truncates a
     # multi-line argument at the first newline.
     # --standalone runs a private server; PWD/OLDPWD must point at cwd too, or
     # opencode inherits Git Bash's PWD and writes its files into that directory
     # instead of the scratch directory.
-    cmd = [exe, "run", "--standalone", "--model", MODEL, "--agent", AGENT, "--auto", "--archived",
+    cmd = [exe, "run", "--standalone", "--model", model, "--agent", AGENT, "--auto", "--archived",
            "--format", "json", "--title", "blog generation"]
     env = dict(os.environ)
     env["PWD"] = cwd
@@ -188,7 +193,7 @@ def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
                                 encoding="utf-8", errors="replace",
                                 start_new_session=(os.name != "nt"))
     except OSError as exc:
-        die(f"failed to launch opencode: {exc}")
+        return 127, "", f"failed to launch opencode ({model}): {exc}"
     try:
         stdout, stderr = proc.communicate(input=prompt, timeout=timeout)
     except subprocess.TimeoutExpired:
@@ -197,7 +202,7 @@ def run_opencode(prompt: str, cwd: str, timeout: int) -> tuple[int, str, str]:
             proc.communicate(timeout=15)
         except subprocess.TimeoutExpired:
             pass
-        die(f"opencode ({MODEL}) timed out after {timeout}s; process tree killed")
+        return 124, "", f"opencode ({model}) timed out after {timeout}s; process tree killed"
     return proc.returncode, stdout or "", stderr or ""
 
 
@@ -337,6 +342,15 @@ def build_prompt(brief: dict) -> str:
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n")
 
 
+def resolve_for_args(args: argparse.Namespace) -> list[str]:
+    """--model pins one model, --models replaces the whole chain, otherwise use the default."""
+    if getattr(args, "models", None):
+        return split_models(args.models) or MODEL_CHAIN
+    if getattr(args, "model", None):
+        return [args.model]
+    return MODEL_CHAIN
+
+
 def cmd_article(args: argparse.Namespace) -> int:
     brief = json.loads(read_text(args.brief))
     for key in ("slug", "date", "slot_time", "channel", "category", "article_type",
@@ -346,64 +360,100 @@ def cmd_article(args: argparse.Namespace) -> int:
     if not brief["image_candidates"]:
         die("brief の image_candidates が空（先に topic_plan.py images で候補を集める）")
 
+    chain = resolve_for_args(args)
     prompt = build_prompt(brief)
+    all_errs: list[str] = []
 
-    scratch = tempfile.mkdtemp(prefix="oc-generate-")
-    try:
-        rc, stdout, stderr = run_opencode(prompt, scratch, DEFAULT_TIMEOUT)
-        art_path = os.path.join(scratch, "article.md")
-        meta_path = os.path.join(scratch, "meta.json")
-        if not os.path.exists(art_path) or not os.path.exists(meta_path):
-            files = sorted(os.listdir(scratch))
-            snippet = extract_final_text(stdout)[-500:]
+    for stage, model in enumerate(chain, 1):
+        scratch = tempfile.mkdtemp(prefix="oc-generate-")
+        try:
+            rc, stdout, stderr = run_opencode(prompt, scratch, DEFAULT_TIMEOUT, model)
+            art_path = os.path.join(scratch, "article.md")
+            meta_path = os.path.join(scratch, "meta.json")
             tail = (stderr or "").strip().splitlines()
             detail = tail[-1] if tail else f"exit {rc}"
-            die(f"生成物が無い（article.md / meta.json 未作成）: files={files} "
-                f"text_tail={snippet!r} stderr={detail}")
-        article = read_text(art_path).replace("\r\n", "\n")
-        meta = json.loads(strip_fences(read_text(meta_path)))
-        errs = validate(article, meta, brief)
-        if errs:
-            if args.keep_raw:
-                os.makedirs(args.keep_raw, exist_ok=True)
-                shutil.copy2(art_path, os.path.join(args.keep_raw, "article.md"))
-                shutil.copy2(meta_path, os.path.join(args.keep_raw, "meta.json"))
-                print(f"oc_generate: raw output kept in {args.keep_raw}", file=sys.stderr)
-            die("生成結果が検査に通らない:\n  - " + "\n  - ".join(errs))
-        enrich(meta, brief)
-    finally:
-        shutil.rmtree(scratch, ignore_errors=True)
+            if rc != 0:
+                errs = [f"exit {rc}: {detail}"]
+            elif not os.path.exists(art_path) or not os.path.exists(meta_path):
+                files = sorted(os.listdir(scratch))
+                snippet = extract_final_text(stdout)[-500:]
+                errs = [f"生成物が無い（article.md / meta.json 未作成）: files={files} "
+                        f"text_tail={snippet!r} stderr={detail}"]
+            else:
+                article = read_text(art_path).replace("\r\n", "\n")
+                try:
+                    meta = json.loads(strip_fences(read_text(meta_path)))
+                except (json.JSONDecodeError, ValueError) as exc:
+                    errs = [f"meta.json を解析できない: {exc}"]
+                else:
+                    if not isinstance(meta, dict):
+                        errs = ["meta.json が JSON オブジェクトではない"]
+                    else:
+                        errs = validate(article, meta, brief)
+                    if not errs:
+                        enrich(meta, brief)
+                        os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
+                        with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
+                            fh.write(article.rstrip() + "\n")
+                        with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
+                            json.dump(meta, fh, ensure_ascii=False, indent=1)
+                            fh.write("\n")
+                        print(f"oc_generate: ok stage={stage}/{len(chain)} model={model} "
+                              f"title={meta.get('title','')!r} figures={len(meta.get('figures',[]))} "
+                              f"x={weighted_len(str(meta.get('x_post','')))}", file=sys.stderr)
+                        return 0
+                    if args.keep_raw:
+                        os.makedirs(args.keep_raw, exist_ok=True)
+                        shutil.copy2(art_path, os.path.join(args.keep_raw, "article.md"))
+                        shutil.copy2(meta_path, os.path.join(args.keep_raw, "meta.json"))
+                        print(f"oc_generate: raw output kept in {args.keep_raw} "
+                              f"(stage {stage} model={model})", file=sys.stderr)
+        finally:
+            shutil.rmtree(scratch, ignore_errors=True)
 
-    os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
-    with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
-        fh.write(article.rstrip() + "\n")
-    with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
-        json.dump(meta, fh, ensure_ascii=False, indent=1)
-        fh.write("\n")
-    print(f"oc_generate: ok title={meta.get('title','')!r} figures={len(meta.get('figures',[]))} "
-          f"x={weighted_len(str(meta.get('x_post','')))}", file=sys.stderr)
-    return 0
+        all_errs.append(f"stage {stage} {model}: " + "; ".join(errs))
+        next_model = chain[stage] if stage < len(chain) else "none"
+        print(f"oc_generate: stage {stage}/{len(chain)} failed on {model}; "
+              f"next={next_model}: " + "; ".join(errs), file=sys.stderr)
+
+    die("all generate stages failed:\n  - " + "\n  - ".join(all_errs))
 
 
 def cmd_text(args: argparse.Namespace) -> int:
     instruction = read_text(args.instruction).strip()
     if not instruction:
         die("instruction が空")
-    scratch = tempfile.mkdtemp(prefix="oc-generate-text-")
-    try:
-        rc, stdout, stderr = run_opencode(instruction, scratch, DEFAULT_TIMEOUT)
-    finally:
-        shutil.rmtree(scratch, ignore_errors=True)
-    text = extract_final_text(stdout)
-    if not text:
+    chain = resolve_for_args(args)
+    all_errs: list[str] = []
+
+    for stage, model in enumerate(chain, 1):
+        scratch = tempfile.mkdtemp(prefix="oc-generate-text-")
+        try:
+            rc, stdout, stderr = run_opencode(instruction, scratch, DEFAULT_TIMEOUT, model)
+        finally:
+            shutil.rmtree(scratch, ignore_errors=True)
+        text = extract_final_text(stdout)
         tail = (stderr or "").strip().splitlines()
-        die(f"テキスト出力が空: {tail[-1] if tail else f'exit {rc}'}")
-    if args.out:
-        with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write(text.rstrip() + "\n")
-    else:
-        print(text)
-    return 0
+        detail = tail[-1] if tail else f"exit {rc}"
+        if rc != 0:
+            errs = [f"exit {rc}: {detail}"]
+        elif not text:
+            errs = [f"テキスト出力が空: {detail}"]
+        else:
+            if args.out:
+                with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
+                    fh.write(text.rstrip() + "\n")
+            else:
+                print(text)
+            print(f"oc_generate: text ok stage={stage}/{len(chain)} model={model}", file=sys.stderr)
+            return 0
+
+        all_errs.append(f"stage {stage} {model}: " + "; ".join(errs))
+        next_model = chain[stage] if stage < len(chain) else "none"
+        print(f"oc_generate: text stage {stage}/{len(chain)} failed on {model}; "
+              f"next={next_model}: " + "; ".join(errs), file=sys.stderr)
+
+    die("all text stages failed:\n  - " + "\n  - ".join(all_errs))
 
 
 def extract_final_text(stdout: str) -> str:
@@ -431,7 +481,7 @@ def main(argv: list[str]) -> int:
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
 
-    ap = argparse.ArgumentParser(description="Generate blog content with opencode (DeepSeek V4.1)")
+    ap = argparse.ArgumentParser(description="Generate blog content with opencode (4-stage model chain)")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     a = sub.add_parser("article", help="write article.md + meta.json from a brief")
@@ -439,11 +489,15 @@ def main(argv: list[str]) -> int:
     a.add_argument("--article-out", required=True)
     a.add_argument("--meta-out", required=True)
     a.add_argument("--keep-raw", help="copy raw article.md/meta.json here if validation fails")
+    a.add_argument("--model", help="pin one provider/model#variant instead of the 4-stage chain")
+    a.add_argument("--models", help="semicolon/comma separated model chain override (stage 1 first)")
     a.set_defaults(func=cmd_article)
 
     t = sub.add_parser("text", help="return the model's final text (e.g. fix an X post)")
     t.add_argument("--instruction", required=True)
     t.add_argument("--out")
+    t.add_argument("--model", help="pin one provider/model#variant instead of the 4-stage chain")
+    t.add_argument("--models", help="semicolon/comma separated model chain override (stage 1 first)")
     t.set_defaults(func=cmd_text)
 
     args = ap.parse_args(argv)

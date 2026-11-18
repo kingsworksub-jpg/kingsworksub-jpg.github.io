@@ -42,10 +42,14 @@ Android アプリで削除されたネタはここで自動的に除外され、
   - `note` → note 投稿スクリプト経由で送信
   - `github` → 外部転載はしない（`lab` / `notes` は投稿スロット外。通常は選ばれない）
 
-## 3. リサーチ（gemini 第一候補、失敗時は Claude Haiku）
+## 3. リサーチ（4段モデルチェーンを自動切替）
 
-リサーチは `python scripts/oc_research.py`（opencode / `google/gemini-3.5-flash-lite`）を第一候補にする。
-メインで WebSearch / WebFetch を直接呼ばない。比較記事など対象が複数あるときは、対象ごとに並列で実行してよい。
+リサーチは `python scripts/oc_research.py` に任せる。メインで WebSearch / WebFetch を直接呼ばない。
+比較記事など対象が複数あるときは、対象ごとに並列で実行してよい。
+`oc_research.py` は既定で4つのモデルを順に試し、最初に検査を通った結果を返す:
+`google/gemini-3.5-flash-lite` → `google/gemini-3.5-flash#high` → `opencode/deepseek-v4.1-flash-free` → `opencode/longcat-2.5-free`。
+各 attempt で exit code・空出力・JSON解析・facts/source数・URL到達・言語混入を検査し、失敗したら次のモデルへ進む（`--retries 3` が既定＝4 Attempts）。
+`--model` は単一モデルに固定したい場合（狭い深掘りなど）だけ使う。
 
 1. 次のどちらかのポリシーで実行する（`<slug>` はまだ無ければ claim した `id` でよい）。
    - 製品・機材・ソフト・飲料など実在確認が主: `--source-policy official`
@@ -58,20 +62,26 @@ Android アプリで削除されたネタはここで自動的に除外され、
    出力は `facts`（出典URL付き）・`entities`（current / discontinued / unverified）・`numbers`・`unverified`・
    `sources_checked` のJSON。終了コードが0で、facts 4件以上・出典URLの到達確認・言語混入チェックを通ったものだけを使う。
    実行ログは `scripts/scheduled/logs/oc-research.log` に残る（失敗理由の確認に使う）。
-2. **失敗時のフォールバック**: 終了コードが0以外、facts が4件未満、出典が怪しい、内容が薄い場合は、
-   従来どおり Agent ツールを `subagent_type: "general-purpose"`、`model: "haiku"`（Haiku 4.5）で起動する。
-   - 依頼内容: ネタの `sources` から始めて、合計5サイト以上（英語の情報源を優先）を調べる。製品・人物・作品が実在し現在の情報であることを確かめる。
-   - 返してもらうもの: 調べた事実の要点（出典URL付き）、現行モデル・最新版かどうか、確かめられなかった点。
-   - サブエージェントには調査だけをさせ、ファイルの作成・編集、画像の取得や作成はさせない（記事・画像・ASIN は自分で扱う）。
-3. 結果を読み、事実が食い違う・あいまいな点は、追加で `oc_research.py` を狭いテーマで再実行するか Agent（haiku）で確かめ直す。
-   **JSON／サブエージェント結果に無い事実を記事に書かせない**（手順4の `research` に転記する）。
+2. **失敗時のフォールバックは自動**: 終了コードが0以外、facts が4件未満、出典が怪しい、内容が薄い場合は、
+   `oc_research.py` が自分で次のモデルへ切り替えて再実行する。**手動での再実行は不要**（Claude のサブエージェントは使わない）。
+   4モデルすべて失敗したときだけ、ログ `scripts/scheduled/logs/oc-research.log` の理由を確認し、必要なら
+   `--min-facts` や `--source-policy` を見直して同じコマンドを1回だけ再実行する。
+   - `oc_research.py` は読み取り専用（ファイル作成・画像取得・ASIN の書き換えはしない）。
+   - 再実行も失敗したら、手順4の前に `python scripts/topic_plan.py reject <id> --reason "<理由>"` で終了する。
+3. 結果を読み、事実が食い違う・あいまいな点は、追加で `oc_research.py` を
+   `--model "google/gemini-3.5-flash#high"` かつ狭いテーマで再実行して確かめる（単一モデル固定の深掘り用）。
+   **`research` JSON に無い事実は記事に書かせない**（手順4の `research` に転記する）。
 4. 事実が確かめられない・題材が存在しない・既存記事と同じ内容だと分かったら、
    `python scripts/topic_plan.py reject <id> --reason "<理由>"` → 手順2からやり直す（やり直しは1回の実行で2回まで）。
 
-## 4. 執筆（生成は opencode / DeepSeek V4.1 に委任）
+## 4. 執筆（生成は opencode の4段モデルチェーンに委任）
 
 **記事の生成（本文・タイトル・frontmatter・画像の選定と配置・X投稿文）は自分で書かない。** `scripts/oc_generate.py` が
-opencode の `deepseek-v4.1-flash-free` を呼んで作る。Claude Code の仕事は「ブリーフ（調査結果と画像候補）を用意する」
+opencode で4つのモデルを順に試し、最初に検査を通ったものを使う:
+`google/gemini-3.5-flash-lite` → `opencode/deepseek-v4.1-flash-free` → `google/gemini-3.5-flash#high` → `opencode/longcat-2.5-free`。
+`big-pickle` は本文生成には絶対に使わない（2026-10-02 の言語混入・未公開完了報告事故）。
+`OC_GENERATE_MODEL` / `--model` で単一モデル固定、`--models` でチェーン丸ごと上書きできるが、通常は指定しない。
+このジョブ自身（opencode / `google/gemini-3.5-flash#high`）の仕事は「ブリーフ（調査結果と画像候補）を用意する」
 「生成結果を読んで確かめる」「選ばれた画像を取得して目視する」「公開する」の4つ。
 
 1. **ブリーフを作る**（`/tmp/<slug>-brief.json`）。次のキーを必ず入れる。
@@ -96,9 +106,10 @@ opencode の `deepseek-v4.1-flash-free` を呼んで作る。Claude Code の仕�
    ```
    - 全チャンネル共通で `content/posts/<slug>.md` に出力する（`content/note-only/` は廃止）。
    - 内部で `validate_post.py` と同じ検査（本文3500字以上、description 90〜140字、`##`3つ以上、figure 2〜6枚、credit、
-     Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出して終了する。
-   - 失敗したら、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
-     3回とも通らなければ `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` で終了する。**自分で本文を書き直さない。**
+     Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出し、
+     **自動的に次のモデルへ切り替えて**再生成する（4段すべて試す）。各段の成否は stderr に残る。
+   - 4段すべて失敗した場合のみ、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
+     それでも通らなければ `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` で終了する。**自分で本文を書き直さない。**
 3. **生成物を読む**。事実が `research` からはみ出していないか、日本語以外の文字が混ざっていないか、導入→見出し→まとめの流れが
    通っているかを確認する。直したい点は手で書き換えず、ブリーフか `channel_notes` に反映して再生成する
    （誤字脱字レベルの1〜2箇所だけは直接直してよい）。
@@ -130,7 +141,7 @@ Amebaブログは「ドリンク・飲料と酒の分析、カクテルの歴史
 drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `AMEBA_NOTES` に移した**。`channel: ameba` のときは
 生成プロンプトに自動で入るので、ここに書き写す必要はない。
 
-Claude Code が渡すもの・確かめること:
+このジョブが渡すもの・確かめること:
 - ブリーフの `category` を drink-* のいずれかにする（ネタの category が別なら、内容に合う drink-* を選ぶ）。
 - `channel_notes` に、使ってよい ASIN（`/dp/<ASIN>` 形式）と、数値・レシピで必ず入れてほしい条件を書く。
   検索リンク（`/s?k=`）は Ameba Pick に変換されないため、分かる ASIN は必ずここで渡す。
@@ -140,7 +151,7 @@ Claude Code が渡すもの・確かめること:
 
 冒頭CTA、figure 直後と商品解説直後のテキストリンク、消耗品リンク、価格注記、まとめ前の不安解消、スマホで読める段落長の
 6点は、`scripts/oc_generate.py` の `RULES` に生成条件として入っている（`コンバージョン率改善プランA.md` をパイプライン向けに
-具体化したもの）。Claude Code は生成後に次の点だけ確認する。
+具体化したもの）。このジョブは生成後に次の点だけ確認する。
 
 1. **冒頭CTA**: 導入文の直後に、メイン商品の画像＋「Amazonで見る →」の CTA ブロックがある。
 2. **商品ごとのテキストリンク**: figure の直後、および各商品のメリット解説の直後に
@@ -197,7 +208,8 @@ Claude Code が渡すもの・確かめること:
    - `channel: note` は記事URLが note 側になるため、`x_post` の GitHub Pages URL を投稿後の note 記事URL
      （`https://note.com/shining_finger01/n/<key>`）に差し替える。差し替えで280字を超えるなら次の `text` で作り直す。
    - 280字を超える・内容が記事とずれている場合は、`/tmp/x-fix-<slug>.txt` に「次の文を280字相当以内に短くしてください。本文だけ返す」と
-     元の文面を書いて `python scripts/oc_generate.py text --instruction /tmp/x-fix-<slug>.txt --out /tmp/x-post-<slug>.txt` で作り直す。
+     元の文面を書いて `python scripts/oc_generate.py text --instruction /tmp/x-fix-<slug>.txt --out /tmp/x-post-<slug>.txt` で作り直す
+     （`text` も4段モデルチェーンを順に試すので、失敗時は手動再実行不要）。
    - 誇張・煽り系の表現(「必見」「永久保存版」等の多用)は避け、他の文体ルールと同程度に抑える。
    - `python scripts/post-to-x.py --text-file /tmp/x-post-<slug>.txt --publish` を実行する（加重文字数で280字超を検知してエラーにする）。
    - **失敗してもブログ公開自体は失敗にしない**: ログイン切れ・UI変更等でこのコマンドが失敗したら、エラーをログに残すだけで

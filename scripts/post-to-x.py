@@ -4,10 +4,12 @@ X (Twitter) への投稿、自分の投稿に来た返信への応答、新規�
 はてな/note/ameba と同じ方式: Chromium の永続プロファイルにログイン状態を保存し、
 投稿エディタへのキー入力だけをブラウザ操作で自動化する。
 
-投稿文・返信文・DM文はこのスクリプトでは作らない(--text / --text-file で渡された文面をそのまま使う)。
+投稿文はこのスクリプトでは作らない(--text / --text-file で渡された文面をそのまま使う)。
 新規投稿の文面はブログ公開パイプライン側(blog-post.md)が記事タイトル・リンクから作る。
-返信の文面は x-reply パイプライン側(prompts/x-reply.md)が --check-replies の結果から作る。
-フォロー御礼DMの文面は x-follow-dm パイプライン側(prompts/x-follow-dm.md)が --check-new-followers の結果から作る。
+返信文・お礼DM文は、従来は Claude Code タスク(prompts/x-reply.md / prompts/x-follow-dm.md)が
+作っていたが、現在は x_llm.py 経由の Gemini(opencode 無料枠)がバッチ生成する。
+--auto-replies / --auto-welcome は「候補取得 → LLM生成 → 返信/スキップ or フォロバ+DM」を
+1プロセスで完結させるモードで、scheduled/run-x-reply.ps1 / run-x-follow-dm.ps1 から呼ばれる。
 
 使い方:
   python scripts/post-to-x.py --login                            初回ログイン(1回のみ、手動)
@@ -20,6 +22,8 @@ X (Twitter) への投稿、自分の投稿に来た返信への応答、新規�
   python scripts/post-to-x.py --follow-back <handle> --publish    そのユーザーをフォローバックのみする(--publish無しはドライラン)
   python scripts/post-to-x.py --send-dm <handle> --text-file <path> --publish  そのユーザーにDMを送る
   python scripts/post-to-x.py --welcome <handle> --text-file <path> --publish  フォローバック+お礼DMを一括実行
+  python scripts/post-to-x.py --auto-replies [--max 5] [--publish] 新規返信をGeminiで返信/スキップ
+  python scripts/post-to-x.py --auto-welcome [--max 5] [--publish] 新規フォロワーにフォロバ+お礼DM
 """
 
 import argparse
@@ -30,6 +34,8 @@ import sys
 import time
 
 from playwright.sync_api import sync_playwright
+
+import x_llm  # 返信文/お礼DM文の生成（opencode 経由の無料モデル）
 
 _URL_RE = re.compile(r"https?://\S+")
 
@@ -658,6 +664,169 @@ def _resolve_text(args, flag_desc):
     return text
 
 
+def _retry_collect(label, fn, attempts=2):
+    """Xのページ読み込みが時々タイムアウトするため、候補取得だけ再試行する。"""
+    for attempt in range(1, attempts + 1):
+        try:
+            return fn()
+        except Exception as exc:
+            print(f"[!] {label}の取得失敗 ({attempt}/{attempts}): {exc}")
+            if attempt == attempts:
+                raise
+    return []
+
+
+def _lookup_keyed(mapping, key):
+    """LLM出力のキーは大文字小文字が揺れることがあるため、緩やかに照合する。"""
+    if key in mapping:
+        return mapping[key]
+    lowered = str(key).lower()
+    for k, v in mapping.items():
+        if str(k).lower() == lowered:
+            return v
+    return None
+
+
+def _mark_handled(tweet_id, publish):
+    """返信済み/スキップを状態ファイルに記録する。ドライランでは状態を触らない。"""
+    if not publish:
+        return False
+    state = load_state()
+    if tweet_id not in state["handled_ids"]:
+        state["handled_ids"].append(tweet_id)
+    save_state(state)
+    return True
+
+
+def run_auto_replies(p, publish, max_items):
+    """新規返信の取得→Gemini生成→返信/スキップを1プロセスで行う。"""
+    state = load_state()
+    ctx = open_browser(p)
+    try:
+        replies = _retry_collect("新規返信", lambda: list_new_replies(ctx, state))
+    finally:
+        ctx.close()
+
+    if not replies:
+        print("[i] 未処理の新規返信はありません。")
+        return
+
+    # 古い方から優先（通知一覧は新しいものが先に並ぶため末尾を取る）。
+    batch = replies[-max_items:]
+    print(f"[*] {len(batch)}件の返信文を生成します。")
+    texts, log, declined = x_llm.generate_mention_replies([
+        {"id": it["tweet_id"], "author": it["author"], "text": it["text"]}
+        for it in batch
+    ])
+    for line in log:
+        print("    " + line)
+    if not texts and not declined:
+        print("[!] 返信文を生成できませんでした。状態は変更せず次回に委譲します。")
+        return
+
+    posted = skipped = failed = 0
+    ctx = open_browser(p)
+    try:
+        for it in batch:
+            tweet_id = it["tweet_id"]
+            if _lookup_keyed(declined, tweet_id) is not None:
+                print(f"[i] {tweet_id}: スパム/無回答と判断したためスキップします。")
+                _mark_handled(tweet_id, publish)
+                skipped += 1
+                continue
+            text = _lookup_keyed(texts, tweet_id)
+            if not text:
+                print(f"[!] {tweet_id}: 生成結果が無いため次回に委譲します。")
+                failed += 1
+                continue
+            weighted = x_weighted_len(text)
+            if weighted > 280:
+                print(f"[!] {tweet_id}: 生成文が加重{weighted}字で上限超えのため投稿しません。")
+                failed += 1
+                continue
+            try:
+                result = reply_to_tweet(ctx, tweet_id, text, publish)
+            except Exception as exc:
+                print(f"[!] {tweet_id} への返信に失敗しました: {exc}")
+                failed += 1
+                continue
+            if result.get("posted"):
+                _mark_handled(tweet_id, publish)
+                print(f"[✓] {tweet_id} に返信しました。")
+                posted += 1
+            else:
+                print(f"[i] {tweet_id}: ドライランのため返信しませんでした。")
+    finally:
+        ctx.close()
+    print(f"[done] 返信: {posted}件 / スキップ: {skipped}件 / 見送り: {failed}件")
+
+
+def run_auto_welcome(p, publish, max_items):
+    """新規フォロワーの取得→Gemini生成→フォロバ+お礼DMを1プロセスで行う。"""
+    ctx = open_browser(p)
+    try:
+        followers = _retry_collect("新規フォロワー", lambda: list_new_followers(ctx))
+    finally:
+        ctx.close()
+
+    if not followers:
+        print("[i] 未フォローバックの新規フォロワーはありません。")
+        return
+
+    batch = followers[:max_items]
+    print(f"[*] {len(batch)}人分のお礼DM文を生成します。")
+    texts, log, declined = x_llm.generate_welcome_dms([
+        {"handle": it["handle"], "name": it.get("name") or it["handle"]}
+        for it in batch
+    ])
+    for line in log:
+        print("    " + line)
+    if not texts and not declined:
+        print("[!] DM文を生成できませんでした。フォロー/DMは行わず次回に委譲します。")
+        return
+
+    welcomed = skipped = failed = 0
+    ctx = open_browser(p)
+    try:
+        for it in batch:
+            handle = it["handle"]
+            if _lookup_keyed(declined, handle) is not None:
+                print(f"[i] @{handle}: スパム/ボットと判断したためスキップします。")
+                skipped += 1
+                continue
+            text = _lookup_keyed(texts, handle)
+            if not text:
+                print(f"[!] @{handle}: 生成結果が無いため次回に委譲します。")
+                failed += 1
+                continue
+            weighted = x_weighted_len(text)
+            if weighted > 280:
+                print(f"[!] @{handle}: 生成文が加重{weighted}字で上限超えのため送信しません。")
+                failed += 1
+                continue
+            try:
+                follow_result = follow_back(ctx, handle, publish)
+                dm_result = send_dm(ctx, handle, text, publish)
+            except Exception as exc:
+                print(f"[!] @{handle} のフォロバ/DMに失敗しました: {exc}")
+                failed += 1
+                continue
+            if follow_result.get("followed"):
+                print(f"[✓] @{handle} をフォローバックしました。")
+            if dm_result.get("sent"):
+                print(f"[✓] @{handle} へのDM送信完了。")
+                welcomed += 1
+            elif dm_result.get("reason"):
+                # 相手側のDM受信設定で送れないだけ。フォロバ自体は成立しているため成功扱い。
+                print(f"[i] @{handle}: DMは送れませんでした({dm_result['reason']})。")
+                welcomed += 1
+            else:
+                print(f"[i] @{handle}: ドライランのためDMは送信しませんでした。")
+    finally:
+        ctx.close()
+    print(f"[done] フォロバ+DM: {welcomed}件 / スキップ: {skipped}件 / 見送り: {failed}件")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--login", action="store_true", help="初回ログインのみ")
@@ -699,6 +868,22 @@ def main():
         help="指定したハンドルをフォローバックし、続けてお礼のDMを送る(--follow-back + --send-dm)。"
         " --text/--text-file と組み合わせて使う",
     )
+    parser.add_argument(
+        "--auto-replies",
+        action="store_true",
+        help="新規返信を取得し、Geminiが返信文/スキップを判断して実行する(Claude Code は使わない)",
+    )
+    parser.add_argument(
+        "--auto-welcome",
+        action="store_true",
+        help="新規フォロワーを取得し、Geminiがお礼DM文を作ってフォロバ+DMする(Claude Code は使わない)",
+    )
+    parser.add_argument(
+        "--max",
+        type=int,
+        default=5,
+        help="--auto-replies / --auto-welcome で1回に処理する最大件数(既定5)",
+    )
     args = parser.parse_args()
 
     try:
@@ -709,6 +894,14 @@ def main():
     with sync_playwright() as p:
         if args.login:
             do_login(p)
+            return
+
+        if args.auto_replies:
+            run_auto_replies(p, args.publish, max(1, args.max))
+            return
+
+        if args.auto_welcome:
+            run_auto_welcome(p, args.publish, max(1, args.max))
             return
 
         if args.skip:
