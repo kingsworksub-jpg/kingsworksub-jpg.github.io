@@ -3451,6 +3451,15 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-18T17:55:33+09:00"
+  },
+  {
+   "id": "2026w42-016",
+   "category": "learning",
+   "theme": "譜読みを1か月で、大人から始める",
+   "status": "failed",
+   "reason": "oc_generate failed across all models",
+   "engine": "gemini",
+   "at": "2026-11-18T18:10:55+09:00"
   }
  ]
 }
