@@ -10,8 +10,12 @@ note の無料記事は GitHub Pages にも全文、有料記事は無料部分�
 どのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（時刻から手計算しない）。
 人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
 
-コマンドはすべてリポジトリのルート（`C:\Users\norio\my-github-blog`）で実行する。Python は `python`。
+コマンドはすべてリポジトリのルート（`C:/Users/norio/my-github-blog`）で実行する。Python は `python`。
 ルールの詳細は `CLAUDE.md`（文体・禁止事項・タイトル・画像・アフィリエイト・はてな・note の節）にある。**作業前に必ず読む。**
+
+**Bash ツールに渡すパスは必ず `/` 区切りで書く。** `C:\Users\...` のようにバックスラッシュを渡すと bash が `\` を消し、
+`C:Usersnorio...` のような存在しないパスになって `FileNotFoundError` になる（`/tmp/...` はそのまま使ってよい）。
+Write ツールで作ったファイルを Bash で使うときも、同じ `/` 区切りのパスを渡すこと。
 
 ## 1. 開始前の確認
 

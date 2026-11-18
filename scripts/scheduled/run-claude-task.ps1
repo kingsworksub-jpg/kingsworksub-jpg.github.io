@@ -125,6 +125,11 @@ try {
 
     Set-Location $repo
     $env:PYTHONIOENCODING = "utf-8"
+    # Generation must use the documented chain in scripts/model_chains.py. A stale
+    # user-level override (OC_GENERATE_MODEL=...lite was left set) silently made every
+    # post start on the weakest model; clear both escape hatches for scheduled runs.
+    $env:OC_GENERATE_MODEL = ""
+    $env:OC_GENERATE_MODEL_CHAIN = ""
     Publish-Status "started" ""
 
     $isPost = ($Name -eq "blog-post")
@@ -136,6 +141,7 @@ try {
     }
 
     $attemptLog = @()
+    $published = $false
     for ($i = 1; $i -le $modelChain.Count; $i++) {
         $attemptModel = $modelChain[$i - 1]
         Write-Log "attempt $i/$($modelChain.Count) model=$attemptModel"
@@ -155,7 +161,15 @@ try {
             }
         }
         # A clean finish (including an intentional reject / daily-limit exit) is not retried.
-        if ($res.state -eq "finished" -or $published) { break }
+        # A publish is success even when the agent's last turn failed (e.g. a per-minute
+        # rate limit after topic_plan complete); the post is already live.
+        if ($res.state -eq "finished" -or $published) {
+            if ($published -and $res.state -ne "finished") {
+                Write-Log "published during stage $i ($attemptModel) despite exit state=$($res.state); recording success"
+                $final = @{ state = "finished"; detail = ($attemptLog -join " | ") }
+            }
+            break
+        }
     }
     $final = @{ state = $final.state; detail = ($attemptLog -join " | ") }
 }

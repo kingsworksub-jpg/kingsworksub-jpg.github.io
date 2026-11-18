@@ -429,12 +429,29 @@ def _check_and_write(article: str, meta, brief: dict, args: argparse.Namespace,
     if errs:
         return errs
     enrich(meta, brief)
-    os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
-    with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
-        fh.write(article.rstrip() + "\n")
-    with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
-        json.dump(meta, fh, ensure_ascii=False, indent=1)
-        fh.write("\n")
+    meta_dir = os.path.dirname(os.path.abspath(args.meta_out))
+    if not os.path.isdir(meta_dir):
+        # Don't mkdir a bogus path such as C:/Users/norio/AppDataLocal/Temp: the
+        # caller would then read meta from the path it meant and find nothing.
+        return [f"meta_out のディレクトリが存在しない: {args.meta_out}（Bash ではパスを / 区切りで渡す）"]
+    wrote_article = False
+    try:
+        os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
+        with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
+            json.dump(meta, fh, ensure_ascii=False, indent=1)
+            fh.write("\n")
+        with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
+            wrote_article = True
+            fh.write(article.rstrip() + "\n")
+    except OSError as exc:
+        # A mangled output path must not abort the whole chain or leave a half-written
+        # post behind; report it so the next model can retry.
+        if wrote_article:
+            try:
+                os.remove(args.article_out)
+            except OSError:
+                pass
+        return [f"出力先に書き込めない: {exc}（Bash ではパスを / 区切りで渡す）"]
     print(f"oc_generate: ok attempt={stage}/{total} model={model} mode={mode} "
           f"title={meta.get('title','')!r} figures={len(meta.get('figures',[]))} "
           f"x={weighted_len(str(meta.get('x_post','')))}", file=sys.stderr)
@@ -442,6 +459,13 @@ def _check_and_write(article: str, meta, brief: dict, args: argparse.Namespace,
 
 
 def cmd_article(args: argparse.Namespace) -> int:
+    if os.name == "nt":
+        # Accept paths that reach us with literal backslashes (PowerShell quoting);
+        # bash strips them before Python sees the argument.
+        for name in ("brief", "article_out", "meta_out", "keep_raw"):
+            value = getattr(args, name, None)
+            if isinstance(value, str):
+                setattr(args, name, value.replace("\\", "/"))
     brief = json.loads(read_text(args.brief))
     for key in ("slug", "date", "slot_time", "channel", "category", "article_type",
                 "theme", "target_chars", "research", "image_dir", "image_candidates"):
