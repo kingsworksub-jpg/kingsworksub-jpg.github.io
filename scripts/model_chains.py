@@ -38,11 +38,14 @@ RESEARCH_CHAIN = [
 ]
 
 # Article body / title / frontmatter / X post text: generate-only, validated by oc_generate.py.
+# oc_generate runs one request per model (oneshot mode), so a ~20/day preview model is
+# viable for 6 posts a day.  Verified 2026-11-18: hydrogen 6417 chars, preview 4506,
+# iceman 4257 (agentic).  flash-lite is the high-quota last resort.
 GENERATE_CHAIN = [
+    "google/gemini-4-hydrogen",
+    "google/gemini-3-flash-preview",
+    "opencode/iceman-free",
     "google/gemini-3.5-flash-lite",
-    "opencode/deepseek-v4.1-flash-free",
-    "google/gemini-3.5-flash#high",
-    "opencode/longcat-2.5-free",
 ]
 
 

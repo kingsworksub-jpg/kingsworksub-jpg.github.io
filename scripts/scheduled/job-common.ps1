@@ -72,6 +72,10 @@ function Invoke-WithJobLock {
 
         Set-Location $Repo
         $env:PYTHONIOENCODING = "utf-8"
+        # PowerShell 5.1 decodes a native command's stdout with the console code page
+        # (Shift-JIS on this machine) while Python emits UTF-8.  Without this the
+        # captured job log and the status detail turn into mojibake.
+        [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
         Publish-JobStatus $Repo $Log $Name "started" ""
         try {
             $final = & $Body

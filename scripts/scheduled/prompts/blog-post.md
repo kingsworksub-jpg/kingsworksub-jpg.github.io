@@ -78,7 +78,9 @@ Android アプリで削除されたネタはここで自動的に除外され、
 
 **記事の生成（本文・タイトル・frontmatter・画像の選定と配置・X投稿文）は自分で書かない。** `scripts/oc_generate.py` が
 opencode で4つのモデルを順に試し、最初に検査を通ったものを使う:
-`google/gemini-3.5-flash-lite` → `opencode/deepseek-v4.1-flash-free` → `google/gemini-3.5-flash#high` → `opencode/longcat-2.5-free`。
+`google/gemini-4-hydrogen` → `google/gemini-3-flash-preview` → `opencode/iceman-free` → `google/gemini-3.5-flash-lite`。
+既定は1モデル1リクエストの単発モード（`--agent plan`。ファイルを作らせず、最終回答に記事と meta を出させる）で、
+無料枠のリクエストを消費しない。`--mode agentic` にすると従来どおりモデルがファイルを書く。
 `big-pickle` は本文生成には絶対に使わない（2026-10-02 の言語混入・未公開完了報告事故）。
 `OC_GENERATE_MODEL` / `--model` で単一モデル固定、`--models` でチェーン丸ごと上書きできるが、通常は指定しない。
 このジョブ自身（opencode / `google/gemini-3.5-flash#high`）の仕事は「ブリーフ（調査結果と画像候補）を用意する」

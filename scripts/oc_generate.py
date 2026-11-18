@@ -12,10 +12,14 @@ Usage:
         --article-out <content/posts/slug.md> --meta-out <meta.json>
     python scripts/oc_generate.py text --instruction <file> [--out <file>]
 
-The article mode runs opencode in a scratch directory.  The model writes
-article.md and meta.json there; this script validates them against the same
-rules as scripts/validate_post.py, enriches the figures with the candidate
-metadata, and writes the two output files.
+The article mode runs opencode in a scratch directory.  By default it uses
+single-response mode (`--agent plan`): the model returns article.md and meta.json
+inline in one request, which avoids burning a free-tier model's tiny request
+budget on an agent tool loop.  If a model refuses the inline format, `--mode auto`
+retries that model agentically; `--mode agentic` uses only the old behaviour where
+the model writes the two files itself.  Either way this script validates them
+against the same rules as scripts/validate_post.py, enriches the figures with the
+candidate metadata, and writes the two output files.
 
 The brief (JSON) must contain:
     slug, date, slot_time, channel, category, article_type, theme, angle,
@@ -46,6 +50,9 @@ from model_chains import GENERATE_CHAIN, resolve_chain, split_models
 MODEL_CHAIN = resolve_chain(GENERATE_CHAIN, "OC_GENERATE_MODEL_CHAIN", "OC_GENERATE_MODEL")
 MODEL = MODEL_CHAIN[0]  # backwards-compatible alias for logs/callers
 AGENT = "build"
+# Single-request mode uses the read-only plan agent: no file writes, no tool loop,
+# so a free-tier model spends one request instead of one per agent step.
+ONESHOT_AGENT = "plan"
 DEFAULT_TIMEOUT = int(os.environ.get("OC_GENERATE_TIMEOUT", "540"))
 FALLBACK_EXE = r"C:\Users\norio\AppData\Roaming\npm\opencode.cmd"
 MIN_BODY = 3500          # must match validate_post.MIN_BODY
@@ -54,21 +61,53 @@ MAX_FIGURES = 6
 MIN_DESC, MAX_DESC = 90, 140
 X_MAX_WEIGHT = 280
 
-RULES = """\
+RULES_INTRO_AGENTIC = """\
 あなたは日本語の専門ブログ記事を執筆するプロのライターです。
 与えられたブリーフだけを根拠に、記事を1本完成させてください。作業ディレクトリに
   article.md  … frontmatter + 本文（Markdown）
   meta.json   … タイトル等のメタ情報
 の2ファイルだけを作成してください。他のファイルは作らないでください。
+"""
+
+RULES_INTRO_ONESHOT = """\
+あなたは日本語の専門ブログ記事を執筆するプロのライターです。
+このセッションは読み取り専用のプランモードで動いており、ファイルは作成できません。作成する必要もありません。
+ツールは使わず、与えられたブリーフだけを根拠に記事を1本完成させ、最終回答に記事とメタ情報を直接出力してください。
+「ファイルを作れないので実行できません」と断らず、必ずテキストで記事全文を出力してください。
+出力形式はこの指示の末尾のとおり厳守してください。
+"""
+
+ONESHOT_OUTPUT = """\
+
+## 出力形式（厳守）
+最終回答に、次の2ブロックだけを出力してください。前置き・後書き・コードフェンスは付けない。
+記事本文は絶対に省略せず、frontmatter から最後の一文まで全文を書く。
+
+===ARTICLE===
+（article.md の内容。--- の frontmatter から始める）
+===META===
+（meta.json の内容。JSONのみ）
+===END===
+"""
+
+RULES_BODY = """\
 
 ## 守るルール
 - 日本語だけで書く（製品名・固有名詞の英字は可）。中国語・韓国語・キリル文字・タイ文字を混ぜない。
 - ブリーフの research に無い事実を作らない。推測や体験談を捏造しない。「実際に〜してみた」と書かない。
 - 次の語句は使わない: あるレビューでは / 海外フォーラムでは / と評されている / 隅から隅まで / 味わい尽くす / の転載です / エージェント / 自動生成 / 読み込んで。
 - Web検索・コマンド実行・画像の取得や生成はしない。画像はブリーフの image_candidates だけを使う。
-- 本文は target_chars 字以上（既定5000字）。見出し `##` を3つ以上入れる。1段落は2〜3文で改行する。
+- 1段落は2〜3文で改行する。
 - タイトルは言い回しを毎回変える。次の型・語は禁止: を全機能解剖 / の味と仕様 / の仕様と使い方 / の現在地 — / 徹底比較 / 隅から隅まで / 味わい尽くす / 五番勝負。
 - description は110〜120字（必ず90〜140字に収める）。
+
+## 長さの作り方（最重要）
+- 本文は target_chars 字以上（既定5000字）。これは下限であり、下回った記事は不合格になる。
+- `##` 見出しを 7〜9 個並べる。導入（見出しなし）と `## まとめ` も本文に含める。
+- 各 `##` 見出しの直下に 3〜5 段落、各段落は100〜150字。1見出しあたり 500〜700字を目安にする。
+- 合計が足りないときは、同じ話を薄く引き延ばさず、比較表・具体的な手順・数値・「よくある失敗と回避策」・
+  「どんな人に向くか」・「使うほど変化する点」などの節を足して情報量で厚みを出す。
+- 出力する前に本文の文字数を概算する。target_chars に届いていなければ、足りない節を書き足してから出力する。
 
 ## article.md の形式
 先頭に次の frontmatter を置く（slug・date・category・slot_time はブリーフの値をそのまま使う）:
@@ -118,6 +157,8 @@ scheduled_time: "<ブリーフの slot_time>"
 - x_post は X 用。日本語本文100字前後＋改行＋記事URL（https://kingsworksub-jpg.github.io/posts/<slug>/）＋ハッシュタグ1〜2個。
   280字相当（日本語は1字2、URLは23字換算）を超えないこと。
 """
+
+RULES = RULES_INTRO_AGENTIC + RULES_BODY
 
 
 AMEBA_NOTES = """\
@@ -173,7 +214,8 @@ def kill_tree(proc: subprocess.Popen) -> None:
         pass
 
 
-def run_opencode(prompt: str, cwd: str, timeout: int, model: str) -> tuple[int, str, str]:
+def run_opencode(prompt: str, cwd: str, timeout: int, model: str,
+                 agent: str = AGENT) -> tuple[int, str, str]:
     exe = find_opencode()
     if not exe:
         return 127, "", f"opencode CLI not found (looked for 'opencode' and {FALLBACK_EXE})"
@@ -182,7 +224,7 @@ def run_opencode(prompt: str, cwd: str, timeout: int, model: str) -> tuple[int, 
     # --standalone runs a private server; PWD/OLDPWD must point at cwd too, or
     # opencode inherits Git Bash's PWD and writes its files into that directory
     # instead of the scratch directory.
-    cmd = [exe, "run", "--standalone", "--model", model, "--agent", AGENT, "--auto", "--archived",
+    cmd = [exe, "run", "--standalone", "--model", model, "--agent", agent, "--auto", "--archived",
            "--format", "json", "--title", "blog generation"]
     env = dict(os.environ)
     env["PWD"] = cwd
@@ -342,6 +384,33 @@ def build_prompt(brief: dict) -> str:
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n")
 
 
+def build_oneshot_prompt(brief: dict) -> str:
+    """Same brief, but ask for the two files inline in one response."""
+    notes = str(brief.get("channel_notes") or "なし")
+    if brief.get("channel") == "ameba":
+        notes += "\n" + AMEBA_NOTES
+    return (RULES_INTRO_ONESHOT + RULES_BODY
+            + "\n## 追加指示（チャンネル別）\n" + notes + "\n"
+            + "\n## ブリーフ（この内容だけを根拠にする）\n"
+            + json.dumps(brief, ensure_ascii=False, indent=1) + "\n"
+            + ONESHOT_OUTPUT)
+
+
+BLOCK_RE = re.compile(r"===ARTICLE===\s*(.*?)\s*===META===\s*(.*?)\s*(?:===END===|$)", re.S)
+
+
+def parse_blocks(text: str) -> tuple[str, str] | None:
+    """Split a single-response article into (article_markdown, meta_json_text)."""
+    m = BLOCK_RE.search(text)
+    if not m:
+        return None
+    article = strip_fences(m.group(1))
+    meta_raw = strip_fences(m.group(2))
+    # A model occasionally keeps the trailing ===END=== marker inside the JSON.
+    meta_raw = re.sub(r"\s*===END===\s*$", "", meta_raw)
+    return article, meta_raw
+
+
 def resolve_for_args(args: argparse.Namespace) -> list[str]:
     """--model pins one model, --models replaces the whole chain, otherwise use the default."""
     if getattr(args, "models", None):
@@ -349,6 +418,27 @@ def resolve_for_args(args: argparse.Namespace) -> list[str]:
     if getattr(args, "model", None):
         return [args.model]
     return MODEL_CHAIN
+
+
+def _check_and_write(article: str, meta, brief: dict, args: argparse.Namespace,
+                     stage: int, total: int, model: str, mode: str = "") -> list[str]:
+    """Validate and, when clean, write the article/meta outputs. Returns errors."""
+    if not isinstance(meta, dict):
+        return ["meta が JSON オブジェクトではない"]
+    errs = validate(article, meta, brief)
+    if errs:
+        return errs
+    enrich(meta, brief)
+    os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
+    with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(article.rstrip() + "\n")
+    with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
+    print(f"oc_generate: ok attempt={stage}/{total} model={model} mode={mode} "
+          f"title={meta.get('title','')!r} figures={len(meta.get('figures',[]))} "
+          f"x={weighted_len(str(meta.get('x_post','')))}", file=sys.stderr)
+    return []
 
 
 def cmd_article(args: argparse.Namespace) -> int:
@@ -361,59 +451,87 @@ def cmd_article(args: argparse.Namespace) -> int:
         die("brief の image_candidates が空（先に topic_plan.py images で候補を集める）")
 
     chain = resolve_for_args(args)
-    prompt = build_prompt(brief)
+    mode_arg = getattr(args, "mode", "auto")
     all_errs: list[str] = []
 
-    for stage, model in enumerate(chain, 1):
+    # "auto" starts with the cheap single-request mode.  If a model refuses the
+    # inline format (some flash-lite models answer "I cannot create files in plan
+    # mode"), retry that same model in agentic mode before moving down the chain.
+    plan: list[tuple[str, str]] = [
+        (model, "agentic" if mode_arg == "agentic" else "oneshot") for model in chain
+    ]
+    pos = 0
+    while pos < len(plan):
+        model, mode = plan[pos]
+        pos += 1
+        oneshot = mode == "oneshot"
+        prompt = build_oneshot_prompt(brief) if oneshot else build_prompt(brief)
+        agent = ONESHOT_AGENT if oneshot else AGENT
         scratch = tempfile.mkdtemp(prefix="oc-generate-")
+        article = meta = None
+        refused_format = False
         try:
-            rc, stdout, stderr = run_opencode(prompt, scratch, DEFAULT_TIMEOUT, model)
-            art_path = os.path.join(scratch, "article.md")
-            meta_path = os.path.join(scratch, "meta.json")
+            rc, stdout, stderr = run_opencode(prompt, scratch, DEFAULT_TIMEOUT, model, agent=agent)
             tail = (stderr or "").strip().splitlines()
-            detail = tail[-1] if tail else f"exit {rc}"
+            detail = extract_error(stdout) or (tail[-1] if tail else f"exit {rc}")
             if rc != 0:
                 errs = [f"exit {rc}: {detail}"]
-            elif not os.path.exists(art_path) or not os.path.exists(meta_path):
-                files = sorted(os.listdir(scratch))
-                snippet = extract_final_text(stdout)[-500:]
-                errs = [f"生成物が無い（article.md / meta.json 未作成）: files={files} "
-                        f"text_tail={snippet!r} stderr={detail}"]
-            else:
-                article = read_text(art_path).replace("\r\n", "\n")
-                try:
-                    meta = json.loads(strip_fences(read_text(meta_path)))
-                except (json.JSONDecodeError, ValueError) as exc:
-                    errs = [f"meta.json を解析できない: {exc}"]
+            elif oneshot:
+                text = extract_final_text(stdout)
+                parsed = parse_blocks(text)
+                if not parsed:
+                    refused_format = True
+                    errs = [f"出力に ARTICLE/META ブロックが無い（本文が途中で切れた可能性）: "
+                            f"text_len={len(text)} text_tail={text[-400:]!r} stderr={detail}"]
                 else:
-                    if not isinstance(meta, dict):
-                        errs = ["meta.json が JSON オブジェクトではない"]
+                    article, meta_raw = parsed
+                    try:
+                        meta = json.loads(meta_raw)
+                    except (json.JSONDecodeError, ValueError) as exc:
+                        errs = [f"meta を解析できない: {exc}: {meta_raw[:200]!r}"]
                     else:
-                        errs = validate(article, meta, brief)
-                    if not errs:
-                        enrich(meta, brief)
-                        os.makedirs(os.path.dirname(os.path.abspath(args.article_out)), exist_ok=True)
-                        with open(args.article_out, "w", encoding="utf-8", newline="\n") as fh:
-                            fh.write(article.rstrip() + "\n")
-                        with open(args.meta_out, "w", encoding="utf-8", newline="\n") as fh:
-                            json.dump(meta, fh, ensure_ascii=False, indent=1)
-                            fh.write("\n")
-                        print(f"oc_generate: ok stage={stage}/{len(chain)} model={model} "
-                              f"title={meta.get('title','')!r} figures={len(meta.get('figures',[]))} "
-                              f"x={weighted_len(str(meta.get('x_post','')))}", file=sys.stderr)
-                        return 0
-                    if args.keep_raw:
-                        os.makedirs(args.keep_raw, exist_ok=True)
-                        shutil.copy2(art_path, os.path.join(args.keep_raw, "article.md"))
-                        shutil.copy2(meta_path, os.path.join(args.keep_raw, "meta.json"))
-                        print(f"oc_generate: raw output kept in {args.keep_raw} "
-                              f"(stage {stage} model={model})", file=sys.stderr)
+                        errs = _check_and_write(article, meta, brief, args, pos, len(plan), model, mode)
+                        if not errs:
+                            return 0
+            else:
+                art_path = os.path.join(scratch, "article.md")
+                meta_path = os.path.join(scratch, "meta.json")
+                if not os.path.exists(art_path) or not os.path.exists(meta_path):
+                    files = sorted(os.listdir(scratch))
+                    snippet = extract_final_text(stdout)[-500:]
+                    errs = [f"生成物が無い（article.md / meta.json 未作成）: files={files} "
+                            f"text_tail={snippet!r} stderr={detail}"]
+                else:
+                    article = read_text(art_path).replace("\r\n", "\n")
+                    try:
+                        meta = json.loads(strip_fences(read_text(meta_path)))
+                    except (json.JSONDecodeError, ValueError) as exc:
+                        errs = [f"meta.json を解析できない: {exc}"]
+                    else:
+                        errs = _check_and_write(article, meta, brief, args, pos, len(plan), model, mode)
+                        if not errs:
+                            return 0
         finally:
             shutil.rmtree(scratch, ignore_errors=True)
 
-        all_errs.append(f"stage {stage} {model}: " + "; ".join(errs))
-        next_model = chain[stage] if stage < len(chain) else "none"
-        print(f"oc_generate: stage {stage}/{len(chain)} failed on {model}; "
+        if getattr(args, "keep_raw", None) and article is not None:
+            os.makedirs(args.keep_raw, exist_ok=True)
+            with open(os.path.join(args.keep_raw, "article.md"), "w", encoding="utf-8", newline="\n") as fh:
+                fh.write(article.rstrip() + "\n")
+            if meta is not None:
+                with open(os.path.join(args.keep_raw, "meta.json"), "w", encoding="utf-8", newline="\n") as fh:
+                    json.dump(meta, fh, ensure_ascii=False, indent=1)
+                    fh.write("\n")
+            print(f"oc_generate: raw output kept in {args.keep_raw} "
+                  f"(attempt {pos} model={model} mode={mode})", file=sys.stderr)
+
+        all_errs.append(f"{model} ({mode}): " + "; ".join(errs))
+        if refused_format and mode_arg == "auto":
+            plan.insert(pos, (model, "agentic"))
+            print(f"oc_generate: {model} did not return the inline format; "
+                  f"retrying the same model in agentic mode", file=sys.stderr)
+        next_model = f"{plan[pos][0]} ({plan[pos][1]})" if pos < len(plan) else "none"
+        print(f"oc_generate: attempt {pos}/{len(plan)} failed on {model} ({mode}); "
               f"next={next_model}: " + "; ".join(errs), file=sys.stderr)
 
     die("all generate stages failed:\n  - " + "\n  - ".join(all_errs))
@@ -434,7 +552,7 @@ def cmd_text(args: argparse.Namespace) -> int:
             shutil.rmtree(scratch, ignore_errors=True)
         text = extract_final_text(stdout)
         tail = (stderr or "").strip().splitlines()
-        detail = tail[-1] if tail else f"exit {rc}"
+        detail = extract_error(stdout) or (tail[-1] if tail else f"exit {rc}")
         if rc != 0:
             errs = [f"exit {rc}: {detail}"]
         elif not text:
@@ -476,6 +594,38 @@ def extract_final_text(stdout: str) -> str:
     return "\n".join(by_message[order[-1]]).strip() if order else ""
 
 
+def extract_error(stdout: str) -> str:
+    """Pull the provider error out of `opencode --format json` output.
+
+    With `--format json` the CLI reports failures as an `error` event on stdout,
+    not stderr, so `tail[-1]` used to produce the useless "exit 1: exit 1".
+    This keeps the actionable part (quota / free-limit / auth) in the job log
+    and in pipeline-status.json.
+    """
+    message = ""
+    for line in stdout.splitlines():
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if event.get("type") != "error":
+            continue
+        err = event.get("error") or {}
+        msg = str(err.get("message") or "").strip()
+        body = (err.get("response") or {}).get("body")
+        if body:
+            try:
+                parsed = json.loads(body) if isinstance(body, str) else body
+                inner = (parsed.get("error") or {}) if isinstance(parsed, dict) else {}
+                msg = str(inner.get("message") or msg).strip()
+            except (json.JSONDecodeError, AttributeError):
+                pass
+        status = err.get("status")
+        if msg:
+            message = f"{msg} (status {status})" if status else msg
+    return message
+
+
 def main(argv: list[str]) -> int:
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
@@ -489,6 +639,9 @@ def main(argv: list[str]) -> int:
     a.add_argument("--article-out", required=True)
     a.add_argument("--meta-out", required=True)
     a.add_argument("--keep-raw", help="copy raw article.md/meta.json here if validation fails")
+    a.add_argument("--mode", choices=("auto", "oneshot", "agentic"), default="auto",
+                   help="auto: one response, then agentic retry if the model refuses the format "
+                        "(default); oneshot: one response only; agentic: model writes files")
     a.add_argument("--model", help="pin one provider/model#variant instead of the 4-stage chain")
     a.add_argument("--models", help="semicolon/comma separated model chain override (stage 1 first)")
     a.set_defaults(func=cmd_article)

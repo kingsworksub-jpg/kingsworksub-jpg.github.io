@@ -687,6 +687,16 @@ def _lookup_keyed(mapping, key):
     return None
 
 
+def _is_declined(declined, key):
+    """x_llm が返す「スキップと判断した id の集合」を大文字小文字を無視して照合する。
+
+    2026-11-18: x_llm.generate_* の第3戻り値は dict ではなく set になったため、
+    dict 前提の _lookup_keyed() に渡すと AttributeError でジョブ全体が落ちていた。
+    """
+    lowered = str(key).lower()
+    return any(str(k).lower() == lowered for k in declined)
+
+
 def _mark_handled(tweet_id, publish):
     """返信済み/スキップを状態ファイルに記録する。ドライランでは状態を触らない。"""
     if not publish:
@@ -729,7 +739,7 @@ def run_auto_replies(p, publish, max_items):
     try:
         for it in batch:
             tweet_id = it["tweet_id"]
-            if _lookup_keyed(declined, tweet_id) is not None:
+            if _is_declined(declined, tweet_id):
                 print(f"[i] {tweet_id}: スパム/無回答と判断したためスキップします。")
                 _mark_handled(tweet_id, publish)
                 skipped += 1
@@ -790,7 +800,7 @@ def run_auto_welcome(p, publish, max_items):
     try:
         for it in batch:
             handle = it["handle"]
-            if _lookup_keyed(declined, handle) is not None:
+            if _is_declined(declined, handle):
                 print(f"[i] @{handle}: スパム/ボットと判断したためスキップします。")
                 skipped += 1
                 continue
