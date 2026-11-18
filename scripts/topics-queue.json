@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:01:55+09:00",
+ "updated": "2026-11-18T20:14:07+09:00",
  "items": [
   {
    "category": "gear",
@@ -12399,14 +12399,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-029",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-11-08",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-18T20:01:55+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "20:00",
-   "slot_label": "夜: ファッション/飲料"
+   "slot_label": "夜: ファッション/飲料",
+   "last_error": "oc_generate failed across all models"
   },
   {
    "category": "drink-hack",

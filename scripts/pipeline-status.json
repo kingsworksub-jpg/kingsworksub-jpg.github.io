@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-18T20:01:55+09:00",
+ "updated": "2026-11-18T20:14:08+09:00",
  "queue": {
   "published": 168,
   "rejected": 10,
-  "approved": 46,
-  "in_progress": 1
+  "approved": 47
  },
  "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "failed 2026w42-016: oc_generate failed across all models",
- "consecutive_failures": 2,
+ "last_result": "failed 2026w45-029: oc_generate failed across all models",
+ "consecutive_failures": 3,
  "current_job": {
   "job": "blog-post",
   "label": "投稿",

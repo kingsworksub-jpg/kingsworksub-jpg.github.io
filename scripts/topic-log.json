@@ -3460,6 +3460,15 @@
    "reason": "oc_generate failed across all models",
    "engine": "gemini",
    "at": "2026-11-18T18:10:55+09:00"
+  },
+  {
+   "id": "2026w45-029",
+   "category": "drink-hack",
+   "theme": "飲み残しのワインを保存する、栓と冷蔵で何日もつか",
+   "status": "failed",
+   "reason": "oc_generate failed across all models",
+   "engine": "gemini",
+   "at": "2026-11-18T20:14:07+09:00"
   }
  ]
 }
