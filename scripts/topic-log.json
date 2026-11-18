@@ -3430,6 +3430,18 @@
    "note_key": null,
    "engine": "claude",
    "at": "2026-11-18T07:42:34+09:00"
+  },
+  {
+   "id": "2026w45-014",
+   "category": "software",
+   "theme": "Logic Pro 13のAIアシスタント、言葉で頼める操作とドラムキットの分離",
+   "slug": "logic-pro-13-ai-assistant-drum-split-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/logic-pro-13-ai-assistant-drum-split-2026/",
+   "hatena_entry": "14729835035340266960",
+   "note_key": null,
+   "engine": "claude",
+   "at": "2026-11-18T12:15:01+09:00"
   }
  ]
 }

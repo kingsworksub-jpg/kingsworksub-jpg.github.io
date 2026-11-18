@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:00:55+09:00",
+ "updated": "2026-11-18T12:15:01+09:00",
  "items": [
   {
    "category": "gear",
@@ -11653,7 +11653,7 @@
    },
    "source_of_idea": "news",
    "id": "2026w45-014",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 1,
    "claimed_at": "2026-11-18T12:00:55+09:00",
@@ -11661,7 +11661,9 @@
    "content_dir": "tech",
    "slot_time": "12:00",
    "slot_label": "昼: テック/ソフト/制作環境",
-   "last_error": "oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達"
+   "last_error": "oc_generate: 3回中2回目のみ検査通過したが事実誤り(本体要件をmacOS 27と記載・research外のiPad/タッチ機能を捏造)。3回目は本文3468字・figure1枚でNG。再生成上限到達",
+   "slug": "logic-pro-13-ai-assistant-drum-split-2026",
+   "published_at": "2026-11-18T12:15:01+09:00"
   },
   {
    "category": "software",
