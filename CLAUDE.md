@@ -880,6 +880,7 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 | ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学 | https://note.com/shining_finger01/n/nf03086ef5afb | `nf03086ef5afb` | **公開済(2026-11-07・note専用)** |
 | 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏子・渡辺貞夫から上原ひろみまで | https://note.com/shining_finger01/n/n5cd1fd7d0bce | `n5cd1fd7d0bce` | **公開済(2026-11-07・note専用)** |
 | フリージャズの聴き方、オーネット・コールマンが手放した和音と拍のあとに残るもの | https://note.com/shining_finger01/n/nb598edf8f0df | `nb598edf8f0df` | **公開済(2026-11-14・note専用)** |
+| 銀幕に息づく即興の輪郭――『Round Midnight』『Bird』『Whiplash』に見る実録と創作の境界 | https://note.com/shining_finger01/n/n129c69a8a1ad | `n129c69a8a1ad` | **公開済(2026-11-18・note専用)** |
 | 12月に第九が鳴るまで、1918年の徳島から1万人の合唱へ | https://note.com/shining_finger01/n/na48ef4b73c19 | `na48ef4b73c19` | **公開済(2026-11-16・note専用)** |
 
 **変換・投稿の追加仕様(2026-10-01)**:
