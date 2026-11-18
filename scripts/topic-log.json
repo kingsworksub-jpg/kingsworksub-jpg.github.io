@@ -3469,6 +3469,14 @@
    "reason": "oc_generate failed across all models",
    "engine": "gemini",
    "at": "2026-11-18T20:14:07+09:00"
+  },
+  {
+   "id": "",
+   "category": "",
+   "theme": "",
+   "status": "health-reset",
+   "reason": "X DM set/dict crash fixed; article generation moved to 1-request mode with hydrogen/preview/iceman and stronger length rules (verified end-to-end)",
+   "at": "2026-11-18T21:15:26+09:00"
   }
  ]
 }
