@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:35:25+09:00",
+ "updated": "2026-11-18T13:00:02+09:00",
  "queue": {
   "published": 168,
   "rejected": 9,
@@ -7,11 +7,16 @@
  },
  "today_posts": 3,
  "daily_limit": 6,
- "engine_today": "claude",
+ "engine_today": "gemini",
  "pending_requests": 0,
  "last_result": "published logic-pro-13-ai-assistant-drum-split-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "x-reply",
+  "label": "X返信",
+  "since": "2026-11-18T13:00:02+09:00",
+  "engine": "gemini"
+ },
  "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
@@ -102,6 +107,6 @@
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
   }
  ],
- "engine_post": "claude",
+ "engine_post": "gemini",
  "engine_topic": "big-pickle"
 }
