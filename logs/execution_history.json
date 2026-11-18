@@ -7625,5 +7625,25 @@
       "次回は公開済み記事の本文リライト候補(deep-diveシリーズの本文量2000字前後)を検討"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-18T01:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hello"
+    ],
+    "actions": [
+      "禁止表現(隅から隅まで/全機能解剖/あるレビューでは等)を全記事で走査し0件を確認",
+      "最も内部リンクの少ない自己紹介記事helloに、代表記事5本への「読み始めの入口」節を追加"
+    ],
+    "files_changed": [
+      "content/posts/hello.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hello記事からの内部リンク流入",
+      "ローカルでseo-audit.py --check-links実行(hugoはこの環境に無くビルド未確認)"
+    ],
+    "status": "完了"
   }
 ]

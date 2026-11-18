@@ -34,3 +34,11 @@ draft: false
 - 機材選びなら [DAW 5本の比較](/posts/daw-5choice-2026/)
 - ウイスキーなら [スコッチウイスキー5本](/posts/scotch-whisky-5choice-2026/)
 - 音楽なら [ジャズ名盤の聴き方](/posts/jazz-listening-guide-2026/)
+
+## はじめて訪れた方へ、読み始めの入口
+
+扱うテーマが広いので、気になる分野から入れるように代表的な記事を挙げておく。
+
+- 制作環境を整えたい方は、[DAW 5本の比較](/posts/daw-5choice-2026/)と[オーディオインターフェース5台の比較](/posts/audio-interface-5choice-2026/)から。
+- お酒の話が読みたい方は、[スコッチウイスキー5本の飲み比べ](/posts/scotch-whisky-5choice-2026/)と[千円台の安ウイスキー10本](/posts/budget-whisky-10choice-2026/)から。
+- 音楽の話なら、[ジャズの楽器入門](/posts/jazz-instruments-guide/)が最初の一本にちょうどよい。
