@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:35:02+09:00",
+ "updated": "2026-11-18T12:35:25+09:00",
  "queue": {
   "published": 168,
   "rejected": 9,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published logic-pro-13-ai-assistant-drum-split-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
-  "since": "2026-11-18T12:35:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
-  "state": "finished",
-  "at": "2026-11-18T12:15:46+09:00",
+  "state": "failed",
+  "at": "2026-11-18T12:35:25+09:00",
   "engine": "gemini",
-  "detail": "[i] 譛ｪ蜃ｦ逅・・譁ｰ隕剰ｿ比ｿ｡縺ｯ縺ゅｊ縺ｾ縺帙ｓ縲・"
+  "detail": "exit code 1:     [笨転 gemini-3.5-flash-lite: 4莉ｶDM逕滓・ / 1莉ｶ縺ｯ繧ｹ繧ｭ繝・・縺ｨ蛻､譁ｭ"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "Xフォローお礼DM",
+   "state": "failed",
+   "at": "2026-11-18T12:35:25+09:00",
+   "engine": "gemini",
+   "detail": "exit code 1:     [笨転 gemini-3.5-flash-lite: 4莉ｶDM逕滓・ / 1莉ｶ縺ｯ繧ｹ繧ｭ繝・・縺ｨ蛻､譁ｭ"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-18T10:00:59+09:00",
    "engine": "claude",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "x-reply",
-   "state": "finished",
-   "at": "2026-11-18T10:00:45+09:00",
-   "engine": "claude",
-   "detail": "claude.ai の Google Docs コネクタが未認証です。今回の作業には関係ありませんが、使う場合は claude.ai のコネクタ設定から認証してください。"
   }
  ],
  "engine_post": "claude",
