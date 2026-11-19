@@ -21,6 +21,14 @@ data/google_sc_profile/
 data/google_sc_edge_profile/
 data/search-console-probe/
 
+# 認証情報・セッション（絶対にコミットしない）
+data/google-service-account.json
+data/amazon_storage_state.json
+data/amazon_storage_state.b64
+data/amazon_keepalive_test.json
+data/amazon_keepalive_status.json
+data/amazon-keepalive.log
+
 # ネタ会議の一時ファイル
 scripts/.topic-candidates.json
 
