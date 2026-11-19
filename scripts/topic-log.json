@@ -3552,6 +3552,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-19T20:16:15+09:00"
+  },
+  {
+   "id": "2026w40-059",
+   "category": "music",
+   "theme": "ジャズ喫茶という聴き方、店のスピーカーで盤を聴く文化",
+   "slug": "jazz-kissa-culture-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/jazz-kissa-culture-2026/",
+   "hatena_entry": null,
+   "note_key": "n2fc016fc18e3",
+   "engine": "gemini",
+   "at": "2026-11-19T21:50:42+09:00"
   }
  ]
 }
