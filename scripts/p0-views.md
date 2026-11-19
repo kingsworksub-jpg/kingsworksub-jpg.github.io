@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-19 21:53 JST
+- 生成: 2026-11-19 22:11 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
 - 対象記事: **269本** / 公開Markdown 269本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,193** / Amazonリンクあり記事: **223本**
+- 合計ビュー: **3,196** / Amazonリンクあり記事: **223本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -27,8 +27,8 @@
 | `piano-practice-apps-3choice-2026` | flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方 | 77 | 1 | 0 | 1 | P1候補 |
 | `sony-pslx3bt-deep-dive-2026` | Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答 | 66 | 1 | 0 | 1 | P1候補 |
 | `bodum-douro-carafe-deep-dive-2026` | BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形 | 65 | 1 | 0 | 1 | P1候補 |
+| `budget-whisky-10choice-2026` | 千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し | 55 | 10 | 0 | 10 | P1候補 |
 | `odate-akita-sugi-sake-set-deep-dive-2026` | 秋田杉の香りをまとう日本酒、大館工芸社の酒器3点セット | 54 | 1 | 0 | 1 | P1候補 |
-| `budget-whisky-10choice-2026` | 千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し | 53 | 10 | 0 | 10 | P1候補 |
 | `canned-coffee-5choice-2026` | 缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線 | 52 | 5 | 0 | 5 | P1候補 |
 | `sodastream-terra-carbonation-guide-2026` | 炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さ | 45 | 4 | 0 | 4 | P1候補 |
 | `turntable-5choice-2026` | アナログターンテーブル5台比較、針を落とすという儀式のために | 41 | 5 | 0 | 5 | P1候補 |
@@ -152,8 +152,8 @@
 | 1 | `piano-practice-apps-3choice-2026` | 77 | 1 | P1候補 |
 | 2 | `sony-pslx3bt-deep-dive-2026` | 66 | 1 | P1候補 |
 | 3 | `bodum-douro-carafe-deep-dive-2026` | 65 | 1 | P1候補 |
-| 4 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | 1 | P1候補 |
-| 5 | `budget-whisky-10choice-2026` | 53 | 10 | P1候補 |
+| 4 | `budget-whisky-10choice-2026` | 55 | 10 | P1候補 |
+| 5 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | 1 | P1候補 |
 | 6 | `canned-coffee-5choice-2026` | 52 | 5 | P1候補 |
 | 7 | `sodastream-terra-carbonation-guide-2026` | 45 | 4 | P1候補 |
 | 8 | `turntable-5choice-2026` | 41 | 5 | P1候補 |

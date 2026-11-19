@@ -1,0 +1,46 @@
+name: Weekly SEO report (P5)
+
+on:
+  schedule:
+    # 毎週月曜 06:00 JST = 日曜 21:00 UTC
+    - cron: '0 21 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "p5-weekly"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate weekly report
+        run: python scripts/p5-weekly.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/p0-views.md scripts/p0-views.json \
+                  scripts/p5-weekly.md scripts/p5-weekly.json scripts/p5-snapshot.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: weekly SEO report (P5)"
+            git push
+          fi
