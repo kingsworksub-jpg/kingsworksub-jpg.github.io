@@ -53,5 +53,5 @@
     "nakimoto1-22"
   ],
   "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-  "last_collected_at": "2026-11-20T08:16:14+09:00"
+  "last_collected_at": "2026-11-20T08:28:23+09:00"
 }
