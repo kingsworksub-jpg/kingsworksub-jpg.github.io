@@ -8103,5 +8103,32 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T05:54:12Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "dynamic-mic-5choice-2026",
+      "music-theory-3month-plan",
+      "parker-blues-ear-training-1week"
+    ],
+    "actions": [
+      "内部リンクが0本の孤立記事17件を検出(seo-auditはこの環境でPIL不具合のため手動集計)",
+      "関連の古い3記事から孤立2記事(mic-preamp-gain-compare-2026 / chord-progression-learning-order-2026)へ内部リンクを追加",
+      "hugoがこの環境に無くビルド未確認(markdownリンク1行追加のみ)",
+      "残りの孤立記事は次回以降に対応",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/dynamic-mic-5choice-2026.md",
+      "content/posts/music-theory-3month-plan.md",
+      "content/posts/parker-blues-ear-training-1week.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事17件→15件",
+      "ローカルでseo-audit.py --check-links実行"
+    ],
+    "status": "完了(一部のみ・孤立記事は残り15件)"
   }
 ]

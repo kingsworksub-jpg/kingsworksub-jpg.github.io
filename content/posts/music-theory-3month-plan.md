@@ -258,3 +258,4 @@ V/V から V に戻るという構造なので覚えやすい。
 - [コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める](/posts/code-progress-1month-2026/)
 - [flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方](/posts/piano-practice-apps-3choice-2026/)
 - [DTMスクールと独学、お金を払う価値があるのは「添削」の部分だけ](/posts/dtm-school-or-self-study-2026/)
+- [コード進行は4つから覚える、度数と機能で耳を分ける学習の順番](/posts/chord-progression-learning-order-2026/)

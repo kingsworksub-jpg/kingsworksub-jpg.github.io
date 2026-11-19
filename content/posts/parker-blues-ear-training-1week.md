@@ -112,3 +112,4 @@ scheduled_time: "17:30"
 - [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](/posts/jazz-listening-guide-2026/)
 - [耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない](/posts/ear-training-one-week/)
 - [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/)
+- [コード進行は4つから覚える、度数と機能で耳を分ける学習の順番](/posts/chord-progression-learning-order-2026/)

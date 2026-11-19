@@ -173,6 +173,7 @@ RE20は、アメリカのElectro-Voiceが1968年から作り続けている放�
 - [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
 - [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台](/posts/audio-interface-5choice-2026/)
 - [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
+- [マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する](/posts/mic-preamp-gain-compare-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
