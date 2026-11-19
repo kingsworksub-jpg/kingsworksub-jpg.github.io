@@ -10,6 +10,7 @@ X (Twitter) への投稿、自分の投稿に来た返信への応答、新規�
 作っていたが、現在は x_llm.py 経由の Gemini(opencode 無料枠)がバッチ生成する。
 --auto-replies / --auto-welcome は「候補取得 → LLM生成 → 返信/スキップ or フォロバ+DM」を
 1プロセスで完結させるモードで、scheduled/run-x-reply.ps1 / run-x-follow-dm.ps1 から呼ばれる。
+--auto-welcome --no-dm は LLM を呼ばずフォローバックだけを行う(2026-11-19〜、無差別DMの停止)。
 
 使い方:
   python scripts/post-to-x.py --login                            初回ログイン(1回のみ、手動)
@@ -23,10 +24,11 @@ X (Twitter) への投稿、自分の投稿に来た返信への応答、新規�
   python scripts/post-to-x.py --send-dm <handle> --text-file <path> --publish  そのユーザーにDMを送る
   python scripts/post-to-x.py --welcome <handle> --text-file <path> --publish  フォローバック+お礼DMを一括実行
   python scripts/post-to-x.py --auto-replies [--max 5] [--publish] 新規返信をGeminiで返信/スキップ
-  python scripts/post-to-x.py --auto-welcome [--max 5] [--publish] 新規フォロワーにフォロバ+お礼DM
+  python scripts/post-to-x.py --auto-welcome [--max 5] [--publish] [--no-dm] 新規フォロワーにフォロバ(+お礼DM)
 """
 
 import argparse
+import datetime
 import json
 import os
 import re
@@ -71,6 +73,8 @@ LOGIN_TIMEOUT = 600  # 手動ログインを待つ秒数
 MAX_REPLY_CANDIDATES = 20  # 1回の --check-replies で返す新規返信の上限
 MAX_FOLLOWER_CANDIDATES = 20  # 1回の --check-new-followers で返す新規フォロワーの上限
 MAX_FOLLOWER_SCROLLS = 6  # フォロワーリストを読み込むためスクロールする回数
+# 2026-11-19: Xの仮ラベル(リーチ制限)を受けて自動返信を1日5件に制限。
+MAX_AUTO_REPLIES_PER_DAY = int(os.environ.get("X_MAX_AUTO_REPLIES_PER_DAY", "5"))
 
 INIT_SCRIPT = (
     "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
@@ -304,6 +308,20 @@ def save_state(state):
     os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def today_key():
+    return datetime.date.today().isoformat()
+
+
+def replies_today(state):
+    return state.get("daily_counts", {}).get(today_key(), 0)
+
+
+def _record_reply(state):
+    day = today_key()
+    counts = state.setdefault("daily_counts", {})
+    counts[day] = counts.get(day, 0) + 1
 
 
 def get_own_handle(page):
@@ -697,13 +715,15 @@ def _is_declined(declined, key):
     return any(str(k).lower() == lowered for k in declined)
 
 
-def _mark_handled(tweet_id, publish):
+def _mark_handled(tweet_id, publish, count_reply=False):
     """返信済み/スキップを状態ファイルに記録する。ドライランでは状態を触らない。"""
     if not publish:
         return False
     state = load_state()
     if tweet_id not in state["handled_ids"]:
         state["handled_ids"].append(tweet_id)
+    if count_reply:
+        _record_reply(state)
     save_state(state)
     return True
 
@@ -711,6 +731,10 @@ def _mark_handled(tweet_id, publish):
 def run_auto_replies(p, publish, max_items):
     """新規返信の取得→Gemini生成→返信/スキップを1プロセスで行う。"""
     state = load_state()
+    used = replies_today(state)
+    if used >= MAX_AUTO_REPLIES_PER_DAY:
+        print(f"[i] 本日の自動返信上限({MAX_AUTO_REPLIES_PER_DAY}件)に達しました。")
+        return
     ctx = open_browser(p)
     try:
         replies = _retry_collect("新規返信", lambda: list_new_replies(ctx, state))
@@ -722,7 +746,9 @@ def run_auto_replies(p, publish, max_items):
         return
 
     # 古い方から優先（通知一覧は新しいものが先に並ぶため末尾を取る）。
-    batch = replies[-max_items:]
+    # 1日の残り枠を超えないよう、バッチも残数で切る。
+    remaining = MAX_AUTO_REPLIES_PER_DAY - used
+    batch = replies[-min(max_items, remaining):]
     print(f"[*] {len(batch)}件の返信文を生成します。")
     texts, log, declined = x_llm.generate_mention_replies([
         {"id": it["tweet_id"], "author": it["author"], "text": it["text"]}
@@ -761,7 +787,7 @@ def run_auto_replies(p, publish, max_items):
                 failed += 1
                 continue
             if result.get("posted"):
-                _mark_handled(tweet_id, publish)
+                _mark_handled(tweet_id, publish, count_reply=True)
                 print(f"[✓] {tweet_id} に返信しました。")
                 posted += 1
             else:
@@ -771,8 +797,12 @@ def run_auto_replies(p, publish, max_items):
     print(f"[done] 返信: {posted}件 / スキップ: {skipped}件 / 見送り: {failed}件")
 
 
-def run_auto_welcome(p, publish, max_items):
-    """新規フォロワーの取得→Gemini生成→フォロバ+お礼DMを1プロセスで行う。"""
+def run_auto_welcome(p, publish, max_items, no_dm=False):
+    """新規フォロワーの取得→Gemini生成→フォロバ+お礼DMを1プロセスで行う。
+
+    no_dm=True のときは LLM を呼ばず、フォローバックだけを行う
+    (2026-11-19: Xの仮ラベル(リーチ制限)を受けて、無差別なお礼DMを停止した)。
+    """
     ctx = open_browser(p)
     try:
         followers = _retry_collect("新規フォロワー", lambda: list_new_followers(ctx))
@@ -784,6 +814,32 @@ def run_auto_welcome(p, publish, max_items):
         return
 
     batch = followers[:max_items]
+
+    if no_dm:
+        followed = failed = 0
+        ctx = open_browser(p)
+        try:
+            for it in batch:
+                handle = it["handle"]
+                try:
+                    result = follow_back(ctx, handle, publish)
+                except Exception as exc:
+                    print(f"[!] @{handle} のフォロバに失敗しました: {exc}")
+                    failed += 1
+                    continue
+                if result.get("followed"):
+                    print(f"[✓] @{handle} をフォローバックしました。")
+                    followed += 1
+                elif result.get("reason"):
+                    print(f"[i] @{handle}: フォロバできませんでした({result['reason']})。")
+                    failed += 1
+                else:
+                    print(f"[i] @{handle}: ドライランのためフォロバしませんでした。")
+        finally:
+            ctx.close()
+        print(f"[done] フォロバのみ: {followed}件 / 見送り: {failed}件")
+        return
+
     print(f"[*] {len(batch)}人分のお礼DM文を生成します。")
     texts, log, declined = x_llm.generate_welcome_dms([
         {"handle": it["handle"], "name": it.get("name") or it["handle"]}
@@ -894,6 +950,11 @@ def main():
         default=5,
         help="--auto-replies / --auto-welcome で1回に処理する最大件数(既定5)",
     )
+    parser.add_argument(
+        "--no-dm",
+        action="store_true",
+        help="--auto-welcome でお礼DMを送らず、フォローバックだけを行う",
+    )
     args = parser.parse_args()
 
     try:
@@ -911,7 +972,7 @@ def main():
             return
 
         if args.auto_welcome:
-            run_auto_welcome(p, args.publish, max(1, args.max))
+            run_auto_welcome(p, args.publish, max(1, args.max), no_dm=args.no_dm)
             return
 
         if args.skip:

@@ -6,12 +6,13 @@ param(
 
 # Keep this file ASCII-only (see job-common.ps1).
 #
-# Windows Task Scheduler entry point for x-follow-dm: follow back new followers and send a short
-# thank-you DM. Replaces the old run-claude-task.ps1 -Name x-follow-dm job. The DM text is now
-# generated inside post-to-x.py --auto-welcome via x_llm.py (opencode / free models, no Claude Code),
-# so this script only supplies the shared cross-job mutex, logging and status-push plumbing.
+# Windows Task Scheduler entry point for x-follow-dm: follow back new followers.
+# Replaces the old run-claude-task.ps1 -Name x-follow-dm job. The DM text used to be generated
+# inside post-to-x.py --auto-welcome via x_llm.py, but since 2026-11-19 (X temporary reach label)
+# the scheduled job passes --no-dm and only follows back, so no LLM call happens here.
+# This script supplies the shared cross-job mutex, logging and status-push plumbing.
 #
-# -DryRun still calls the LLM and opens X, but does not follow, send DMs or change any state.
+# -DryRun still opens X, but does not follow or change any state.
 
 $ErrorActionPreference = "Continue"
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -30,7 +31,7 @@ Invoke-WithJobLock -Repo $repo -Log $log -Name $name -LockWaitMin $LockWaitMin -
     Set-Location $repo
     $env:PYTHONIOENCODING = "utf-8"
 
-    $pyArgs = @("scripts/post-to-x.py", "--auto-welcome", "--max", "$Max")
+    $pyArgs = @("scripts/post-to-x.py", "--auto-welcome", "--max", "$Max", "--no-dm")
     if (-not $DryRun) { $pyArgs += "--publish" }
 
     $outFile = Join-Path $logDir "$name-$stamp.out.tmp"

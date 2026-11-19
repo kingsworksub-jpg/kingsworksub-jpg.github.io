@@ -274,6 +274,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   得てそのまま返信/既読化まで行う。文体ルールは `scripts/scheduled/prompts/x-reply.md` と同じ内容を
   `x_llm.py:build_mention_prompt()` に移植済みで、旧プロンプトは参考用に残している。
   1回の実行で処理するのは最大5件(`--max` で変更可、スパム判定回避)。
+  さらに2026-11-19以降は**1日5件の日次上限**(`X_MAX_AUTO_REPLIES_PER_DAY`)を持ち、
+  上限に達するとその日は返信しない(`data/x-replies-state.json` の `daily_counts` で記録)。
 - タスク名は `blog-x-reply-task` のまま、登録スクリプトは `scripts/schedule-x-tasks.ps1`、
   実行ファイルは `scripts/scheduled/run-x-reply.ps1`(00:15開始・45分おき)。旧 `run-claude-task.ps1 -Name x-reply`
   は使わない。`run-x-reply.ps1 -DryRun` なら生成と画面操作だけ行い、投稿も状態変更もしない。
@@ -323,6 +325,10 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - タスク名は `blog-x-follow-task` のまま、登録スクリプトは `scripts/schedule-x-tasks.ps1`、
   実行ファイルは `scripts/scheduled/run-x-follow-dm.ps1`(00:35開始・45分おき)。旧 `run-claude-task.ps1 -Name x-follow-dm`
   は使わない。`run-x-follow-dm.ps1 -DryRun` なら生成と画面操作だけ行い、フォロー/DMはしない。
+- **2026-11-19: Xの「仮ラベル」(アカウント単位のリーチ制限)を受けて、スケジュール実行は
+  `--auto-welcome --no-dm` に変更した**。LLMによるお礼DM文の生成もDM送信も行わず、フォローバックだけを行う
+  (`run-x-follow-dm.ps1` が常に `--no-dm` を渡す)。手動でDMを送りたい場合だけ `--auto-welcome` を
+  `--no-dm` なしで直接実行する。無差別な定型DMはスパム判定の加点要素になるため、制限解除まで再開しない。
 - **お礼DMの文体(2026-11-17、ユーザー指示で改修)**: 「これからよろしくお願いします」「今後ともよろしくお願いいたします」
   のような関係継続を強く求める挨拶は、初対面の相手に重く構えさせるため禁止。1〜2文・30〜50字の敬体で、
   「フォローへの感謝 + 相手の投稿を楽しみにしている等の軽い一言」だけを書き、返信を促す質問で終わらせない。
@@ -334,13 +340,34 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   3人のうち、`tekitounix` は実フォローバック成功(DM未テスト)、`sin_clav` はDM拒否(Xナンバー限定)を正しく検知、
   `oja_project` はフォローバック+DM送信の両方が実際に成功した。
 
+### X 自動化のレート制限（2026-11-19、仮ラベル対応）
+
+2026-11-19、Xから「リーチに影響を与える可能性がある仮ラベルが追加されました」と通知された
+（アカウント単位のリーチ制限。個別投稿への措置ではない）。原因は特定の1投稿ではなく、
+自動いいね150件/日・アンフォロー100〜150件/日・自動返信26〜28件/日・45分ごとのお礼DMという
+**合計の行動量**がスパム／プラットフォーム操作判定に触れた可能性が高い。同日、以下のとおり引き下げた
+（停止はせず上限だけ下げる方針、ユーザー選択）。
+
+| 行動 | 変更前 | 変更後 | 設定箇所 |
+|---|---|---|---|
+| 自動いいね | 150件/日・60〜120秒間隔 | 30件/日・180〜300秒間隔 | `scripts/x-auto-like.py` `X_MAX_LIKES_PER_DAY` |
+| 非相互アンフォロー | 100〜150件/日・15件ごとに20〜40秒 | 5〜10件/日・5件ごとに60〜120秒 | `scripts/x-unfollow-non-mutual.py` `DEFAULT_LIMIT_RANGE` |
+| 通知ベースの自動返信 | 5件/実行（日次上限なし） | 5件/実行 + 5件/日 | `scripts/post-to-x.py` `X_MAX_AUTO_REPLIES_PER_DAY` |
+| フォロー中TLへの返信 | 30件/日 | 5件/日 | `scripts/x-following-reply.py` `X_MAX_REPLIES_PER_DAY` |
+| 会話の着地いいね | 12件/日 | 3件/日 | `scripts/x-following-reply.py` `X_FOLLOWUP_MAX_LIKES_PER_DAY` |
+| 新規フォロワーへのお礼DM | フォロバ+DM | フォロバのみ（`--no-dm`） | `scripts/scheduled/run-x-follow-dm.ps1` |
+
+制限の解除後もこの水準を基本とし、戻す場合も段階的に上げる。Xの通知画面から「審査を依頼」できる。
+解除の判断は最低24〜72時間、実行ログ（`data/x-likes-state.json` / `data/x-unfollow-log.jsonl` /
+`data/x-replies-state.json` / `data/x-following-reply-state.json`）で実績を確認してから行う。
+
 ### X (Twitter) 相互フォロー管理（2026-11-06 新規実装）
 
 **機能**: 自分がフォローしているが相手からフォローされていないアカウントを自動でアンフォロー。相手がフォローしている場合は絶対にアンフォローしない（安全策）。
 
 - **スクリプト**: `scripts/x-unfollow-non-mutual.py` — Playwright でブラウザ自動操作。X API は有料プランが必要なため使用不可。
 - **実行間隔**: 毎日 00:00（日本時間）
-- **1回の処理数**: 100〜150 件のランダム（`--limit N` で上書き可）。古くフォローした順。アカウント制限リスクを下げるため 500 から引き下げ（2026-11-07）
+- **1回の処理数**: 5〜10 件のランダム（`--limit N` で上書き可）。古くフォローした順。アカウント制限リスクを下げるため 500 → 100〜150（2026-11-07）→ 5〜10（2026-11-19、Xの仮ラベルを受けて）
 - **安全策（3重チェック、1つでも該当すればスキップ）**:
   1. フォロワー一覧（`/{me}/followers` + `/verified_followers`）を全件取得し、プロフィールのフォロワー数と照合。3件超の取りこぼしがあれば処理全体を中止
   2. フォロー中一覧のセルに「フォローされています」表示がある
@@ -380,7 +407,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   - 8%の確率でさらに1.4〜1.9倍に間隔を伸ばす（連続実行に見せない）
   - 合計で **1日約33サイクル（深夜4）**。他のXジョブ（ブログ投稿・返信・いいね）がロックを持つ時間帯は
     サイクルをスキップし、3〜8分後に再試行するため、実効では1日30サイクル前後になる。
-    返信は1サイクル最大1件・1日最大30件
+    返信は1サイクル最大1件・1日最大5件（2026-11-19、Xの仮ラベルを受けて30→5）
   実行は `scripts/scheduled/run-following-reply.ps1` → `x-following-reply.py --loop --publish`。
   他Xタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
   ```powershell
@@ -408,7 +435,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   - 「ありがとうございます」「なるほど」「参考になりました」等、相槌・御礼だけの返信は初回でも畳む
     （返信を重ねても会話が広がらないため）。
   - settled な会話に新しい返信が来たら、そのツイートの `[data-testid="like"]` を押して **いいねだけ** を送る。
-    上限は `X_FOLLOWUP_MAX_LIKES_PER_DAY`（既定12件/日）。いいねしたIDは `data/x-replies-state.json` の
+    上限は `X_FOLLOWUP_MAX_LIKES_PER_DAY`（既定3件/日、2026-11-19に12→3）。いいねしたIDは `data/x-replies-state.json` の
     `handled_ids` にも入れるため、通知ベースの `blog-x-reply-task` も同じ返信に反応しない。
   - 会話状態は `data/x-following-reply-state.json` の `conversations`（ルート投稿ID＋相手handle単位）に保持し、
     `settled` / `our_replies` / `thread_ids` / `liked_ids` を追跡する。300件を超えると更新の古い順に間引く。
@@ -425,7 +452,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   スクリプト自身が1サイクルごとに取得（`X_MUTEX_WAIT_SEC`、既定120秒待ち）し、取れなければそのサイクルを
   スキップして数分後に再試行する（x-auto-like の1サイクルは数十秒なので、待てばほぼ通る）。
   異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
-- **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大30件（`X_MAX_REPLIES_PER_DAY`）。候補収集は最大12件（`X_SCAN_LIMIT`）。
+- **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大5件（`X_MAX_REPLIES_PER_DAY`、2026-11-19に30→5）。候補収集は最大12件（`X_SCAN_LIMIT`）。
   環境変数で上書き可（`X_MAX_REPLIES_PER_DAY` / `X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
   `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN` /
   `X_FOLLOWUP_SETTLE_MIN_TURNS` / `X_FOLLOWUP_SETTLE_HEAT` / `X_FOLLOWUP_MAX_LIKES_PER_DAY`）。

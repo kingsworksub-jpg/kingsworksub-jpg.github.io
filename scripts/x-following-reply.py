@@ -62,7 +62,8 @@ MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
 # すぐ諦めず少し待つ。長く待っても取れない場合はサイクルをスキップして数分後に再試行する。
 MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "120")) * 1000)
 
-MAX_REPLIES_PER_DAY = int(os.environ.get("X_MAX_REPLIES_PER_DAY", "30"))
+# 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 30 → 5 に引き下げた。
+MAX_REPLIES_PER_DAY = int(os.environ.get("X_MAX_REPLIES_PER_DAY", "5"))
 CYCLE_SLEEP_RANGE = (120, 240)
 
 # 1サイクルでタイムラインから読みに行く投稿の数 / まとめてLLMに投げる数 / 実際に返信する数。
@@ -100,7 +101,8 @@ FOLLOWUP_MIN_LEN = int(os.environ.get("X_FOLLOWUP_MIN_LEN", "2"))
 FOLLOWUP_SETTLE_MIN_TURNS = int(os.environ.get("X_FOLLOWUP_SETTLE_MIN_TURNS", "1"))
 FOLLOWUP_SETTLE_HEAT = int(os.environ.get("X_FOLLOWUP_SETTLE_HEAT", "0"))
 FOLLOWUP_MAX_LIKES_PER_DAY = int(
-    os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "12")
+    # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 12 → 3 に引き下げた。
+    os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "3")
 )
 
 # 相手の返信が「会話を広げる気力」をまだ持っているかを見るための語彙。
