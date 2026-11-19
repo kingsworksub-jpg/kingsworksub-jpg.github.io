@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:13:33+09:00",
+  "generated_at": "2026-11-19T22:14:03+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -1865,15 +1865,6 @@
       "search_links": 0,
       "amazon_links": 3
     },
-    "scarf-knots-guide": {
-      "slug": "scarf-knots-guide",
-      "title": "コートの襟元とマフラーの厚み・長さで選び分ける、基本の巻き方4種の論理",
-      "date": "2026-11-19T07:32:29+09:00",
-      "views": 0,
-      "asins": 1,
-      "search_links": 2,
-      "amazon_links": 3
-    },
     "scarf-styling-trend-2026": {
       "slug": "scarf-styling-trend-2026",
       "title": "スカーフ一枚で装いが変わる、2026年のスカーフスタイリング",
@@ -2170,15 +2161,6 @@
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
-    },
-    "tsundoku-antilibrary-2026": {
-      "slug": "tsundoku-antilibrary-2026",
-      "title": "積読は悪くない、読まない本が本棚で果たしている役割",
-      "date": "2026-10-28T14:30:00+09:00",
-      "views": 0,
-      "asins": 0,
-      "search_links": 0,
-      "amazon_links": 0
     },
     "turntable-5choice-2026": {
       "slug": "turntable-5choice-2026",
