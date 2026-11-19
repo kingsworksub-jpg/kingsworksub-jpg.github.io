@@ -3114,5 +3114,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-19T22:00:12+09:00"
+ },
+ "wine-preservation-guide": {
+  "title": "飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n588aacee6ada",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-20T00:00:10+09:00"
  }
 }
