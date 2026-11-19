@@ -357,6 +357,9 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | 会話の着地いいね | 12件/日 | 3件/日 | `scripts/x-following-reply.py` `X_FOLLOWUP_MAX_LIKES_PER_DAY` |
 | 新規フォロワーへのお礼DM | フォロバ+DM | フォロバのみ（`--no-dm`） | `scripts/scheduled/run-x-follow-dm.ps1` |
 
+通知ベース（`post-to-x.py --auto-replies`）とフォロー中TL（`x-following-reply.py`）の返信は
+`data/x-replies-state.json` の `daily_counts` を共有し、**2ジョブ合計で5件/日**とする。
+
 制限の解除後もこの水準を基本とし、戻す場合も段階的に上げる。Xの通知画面から「審査を依頼」できる。
 解除の判断は最低24〜72時間、実行ログ（`data/x-likes-state.json` / `data/x-unfollow-log.jsonl` /
 `data/x-replies-state.json` / `data/x-following-reply-state.json`）で実績を確認してから行う。
