@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:17:38+09:00",
+ "updated": "2026-11-19T20:18:23+09:00",
  "queue": {
   "published": 172,
   "rejected": 10,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published rc-20-retro-color-v2",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
-  "since": "2026-11-19T20:17:38+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-19T20:17:34+09:00",
+  "at": "2026-11-19T20:18:23+09:00",
   "engine": "gemini",
-  "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=failed: exit code 1 | stage3 opencode/deepseek-v4.1-flash-free=finished: - X投稿・画像目視・OGP・validate_post・実ブラウザ確認まで完了、記録もコミット済み。"
+  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "Xフォローお礼DM",
+   "state": "finished",
+   "at": "2026-11-19T20:18:23+09:00",
+   "engine": "gemini",
+   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-19T17:50:27+09:00",
    "engine": "gemini",
    "detail": "exit code 1:  visible"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-19T17:46:30+09:00",
-   "engine": "gemini",
-   "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **公開URL**: https://kingsworksub-jpg.github.io/posts/daw-keyboard-shortcuts-workflow-order/"
   }
  ],
  "engine_post": "gemini",
