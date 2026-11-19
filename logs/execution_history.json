@@ -8422,5 +8422,31 @@
       "PIL修復後に seo-audit.py --check-links を実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-19T22:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "indirect-lighting-room-2026",
+      "ipv6-ipoe-speed-2026",
+      "tsundoku-antilibrary-2026"
+    ],
+    "actions": [
+      "note変換由来の自己参照フッター『オリジナル記事: 自記事URL』(公開ページに不要)を3記事から削除",
+      "tsundoku-antilibrary-2026(内部リンク0)に関連記事2本を追加",
+      "seo-audit.py をvenv+pillowで実行: broken=0, orphans=9, big_images=53",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/indirect-lighting-room-2026.md",
+      "content/posts/ipv6-ipoe-speed-2026.md",
+      "content/posts/tsundoku-antilibrary-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事9本・big_images53件の個別対応",
+      "vox-cola-flavor-deep-dive-2026の内部リンク追加"
+    ],
+    "status": "完了"
   }
 ]

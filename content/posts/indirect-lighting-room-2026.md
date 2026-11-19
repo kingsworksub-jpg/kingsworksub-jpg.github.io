@@ -66,7 +66,3 @@ scheduled_time: "21:30"
 
 
 **関連記事**: [スタジオの照明、モニターの見え方と目の疲れ — 画面と手元の明るさを作る](/posts/studio-lighting-eye-fatigue-guide-2026/) · [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
-
----
-
-* オリジナル記事: https://kingsworksub-jpg.github.io/posts/indirect-lighting-room-2026/

@@ -84,4 +84,7 @@ scheduled_time: "14:30"
 
 ---
 
-* オリジナル記事: https://kingsworksub-jpg.github.io/posts/tsundoku-antilibrary-2026/
+## 関連記事
+
+- [作業中のBGMで、耳は何を聞き流しているのか。歌詞が邪魔をする理由とサティの家具の音楽](/posts/background-music-focus-listening-2026/)
+- [修理して使うか、買い替えるか。直す道を選んだとき諦めるものと手元に残るもの](/posts/repair-instead-of-replace-essay-2026/)
