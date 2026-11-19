@@ -387,8 +387,37 @@ def today_key():
 def _now_iso():
     return datetime.datetime.now().isoformat(timespec="seconds")
 
+
+def shared_daily_counts():
+    """blog-x-reply-task(post-to-x.py) と共有する今日の返信数。"""
+    try:
+        with open(REPLIES_STATE_PATH, encoding="utf-8") as f:
+            data = json.load(f) or {}
+        counts = data.get("daily_counts")
+        return counts if isinstance(counts, dict) else {}
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return {}
+
+
 def replies_today(state):
-    return state.get("daily_counts", {}).get(today_key(), 0)
+    # 2つの返信ジョブ合計で1日の上限を守るため、data/x-replies-state.json の
+    # daily_counts を唯一のカウンタとして読む（2026-11-19）。
+    return shared_daily_counts().get(today_key(), 0)
+
+
+def _increment_shared_daily_count():
+    try:
+        data = {}
+        if os.path.exists(REPLIES_STATE_PATH):
+            with open(REPLIES_STATE_PATH, encoding="utf-8") as f:
+                data = json.load(f) or {}
+        counts = data.setdefault("daily_counts", {})
+        counts[today_key()] = counts.get(today_key(), 0) + 1
+        with open(REPLIES_STATE_PATH, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except (OSError, json.JSONDecodeError):
+        pass
+
 
 def record_reply(state, tweet_id):
     state.setdefault("replied_ids", {})[tweet_id] = datetime.datetime.now().isoformat(
@@ -398,6 +427,7 @@ def record_reply(state, tweet_id):
     state.setdefault("daily_counts", {})
     state["daily_counts"][day] = state["daily_counts"].get(day, 0) + 1
     save_state(state)
+    _increment_shared_daily_count()
     # 通知ベースの x-reply ジョブも同じ相手に返信しないよう、既読を共有する
     add_replies_state_id(tweet_id)
 
