@@ -1,0 +1,6 @@
+# 週次SEO自動化 (P5) 用
+# GA4 カスタム定義の登録 + Search Console データ取得 + Amazon レポート回収
+google-analytics-admin>=0.25.0
+google-api-python-client>=2.100.0
+google-auth>=2.0.0
+playwright>=1.40.0
