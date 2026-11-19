@@ -72,8 +72,13 @@ def setup_ga4(cred) -> None:
         from google.analytics.admin import AnalyticsAdminServiceClient
         try:
             from google.analytics.admin.types import CustomDimension, DimensionScope
+            from google.analytics.admin.types import DataRetentionSettings
         except ImportError:
-            from google.analytics.admin_v1alpha.types import CustomDimension, DimensionScope
+            from google.analytics.admin_v1alpha.types import CustomDimension
+            from google.analytics.admin_v1alpha.types import DataRetentionSettings
+
+            # このバージョンでは DimensionScope は CustomDimension のネスト enum。
+            DimensionScope = CustomDimension.DimensionScope
     except ImportError as exc:
         print(f"SKIP: google-analytics-admin が未インストールです ({exc})", flush=True)
         return
@@ -97,6 +102,20 @@ def setup_ga4(cred) -> None:
                 ),
             )
             print(f"  GA4: 作成 {display} ({parameter})", flush=True)
+
+        # データ保持期間を14ヶ月にする（既定2ヶ月だと週次データが消える）
+        retention_name = client.data_retention_settings_path(prop)
+        settings = client.get_data_retention_settings(name=retention_name)
+        fourteen = DataRetentionSettings.RetentionDuration.FOURTEEN_MONTHS
+        if settings.event_data_retention != fourteen:
+            settings.event_data_retention = fourteen
+            client.update_data_retention_settings(
+                data_retention_settings=settings,
+                update_mask={"paths": ["event_data_retention"]},
+            )
+            print("  GA4: データ保持期間を14ヶ月に設定", flush=True)
+        else:
+            print("  GA4: データ保持期間は既に14ヶ月", flush=True)
     except Exception as exc:
         print(f"WARN: GA4カスタム定義の登録に失敗しました ({exc})", flush=True)
 
