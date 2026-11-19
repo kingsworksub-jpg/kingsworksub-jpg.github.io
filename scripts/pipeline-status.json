@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:26:11+09:00",
+ "updated": "2026-11-19T23:27:51+09:00",
  "queue": {
   "published": 174,
   "rejected": 10,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published wine-preservation-guide",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-19T23:00:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-19T22:45:07+09:00",
+  "at": "2026-11-19T23:27:51+09:00",
   "engine": "gemini",
-  "detail": "[i] 本日の自動返信上限(5件)に達しました。"
+  "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: ブログ記事「飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方」の作成、GitHub Pages への公開、note への投稿、X（Twitter）へのシェア、およびキューの状態更新をすべて正常に完了しました。"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-19T23:27:51+09:00",
+   "engine": "gemini",
+   "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: ブログ記事「飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方」の作成、GitHub Pages への公開、note への投稿、X（Twitter）へのシェア、およびキューの状態更新をすべて正常に完了しました。"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-19T20:30:07+09:00",
    "engine": "gemini",
    "detail": "[i] 本日の自動返信上限(5件)に達しました。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-19T20:18:23+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
