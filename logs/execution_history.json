@@ -8287,5 +8287,25 @@
       "同種の切れた<img>/CTAブロック破損が他記事にないか、cvr_optimize出力の定期チェック"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T14:53:59Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "modal-jazz-challenge"
+    ],
+    "actions": [
+      "前回復元後も残っていた導入部CTAブロックの断片(途切れたimg属性+余分な</a></div>)を削除し、div/aタグの開閉を一致させた",
+      "公開済み全記事のdiv/a/figure/span開閉・description長・images・H2数を機械チェック: 他に問題なし(awk記事のimg検出は本文中の説明文で誤検知)",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/modal-jazz-challenge.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hugoビルドはこの環境に無く未確認。次回以降もタグ開閉の機械チェックを継続"
+    ],
+    "status": "完了"
   }
 ]

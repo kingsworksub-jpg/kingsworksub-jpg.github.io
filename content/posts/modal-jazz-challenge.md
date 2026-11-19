@@ -30,14 +30,6 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 
 <p class="cvr-text-link" data-cvr="text-B00D1B8R9G"><a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1964年、ヘルシンキで演奏するマイルス・デイヴィスの実売価格・レビューをAmazonで確認する →</a></p>
 
--helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" loading="lazy">
-<span class="product-banner-info">
-<span class="product-banner-name">1964年、ヘルシンキで演奏するマイルス・デイヴィス</span>
-<span class="product-banner-cta">Amazonで見る →</span>
-</span>
-</a>
-</div>
-
 ## コード進行を捨てる、という発想
 
 モーダル・ジャズとは何か。もっとも簡単に言えば、曲の骨格を「コードの移り変わり」ではなく、「スケール(音階)の風船」で作る方法だ。たとえばソリストにドリア旋法という、ある特定のふくらみを持つ音階をひとつ渡し、その上を延々と歩かせる。「ドリア旋法」といっても、ピアノの白鍵だけを使い、レの音から並べた音階——暗く翳りながら、わずかな透明感も混ざる、その風船の上で、ソリストはコードの縛りから解放されて、音を息のように吐き出していく。
