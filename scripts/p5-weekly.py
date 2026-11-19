@@ -81,7 +81,7 @@ def render(views: dict, prev: dict, amazon: dict, now: str) -> tuple[str, dict]:
     rows.sort(key=lambda r: r["views"], reverse=True)
 
     total = sum(r["views"] for r in rows)
-    total_prev = sum(prev.values()) if prev else 0
+    total_prev = sum(v for k, v in prev.items() if k != "_date") if prev else 0
     gainers = sorted(rows, key=lambda r: r["delta"], reverse=True)[:10]
 
     next_candidates = [

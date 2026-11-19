@@ -1,8 +1,8 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-19 22:10 JST
-- 記事数: **269本** / 合計ビュー: **3,196**（初回スナップショット）
-- 比較元: なし
+- 生成: 2026-11-19 22:12 JST
+- 記事数: **269本** / 合計ビュー: **3,196**（前回比 **+0**）
+- 比較元: 2026-11-19
 
 ## Amazon アソシエイト（前回回収値のまま）
 
@@ -24,16 +24,16 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `piano-practice-apps-3choice-2026` | 77 | +77 |
-| `sony-pslx3bt-deep-dive-2026` | 66 | +66 |
-| `bodum-douro-carafe-deep-dive-2026` | 65 | +65 |
-| `budget-whisky-10choice-2026` | 55 | +55 |
-| `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +54 |
-| `canned-coffee-5choice-2026` | 52 | +52 |
-| `sodastream-terra-carbonation-guide-2026` | 45 | +45 |
-| `turntable-5choice-2026` | 41 | +41 |
-| `record-stylus-lifespan-guide-2026` | 39 | +39 |
-| `modal-jazz-challenge` | 38 | +38 |
+| `piano-practice-apps-3choice-2026` | 77 | +0 |
+| `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
+| `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
+| `budget-whisky-10choice-2026` | 55 | +0 |
+| `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +0 |
+| `canned-coffee-5choice-2026` | 52 | +0 |
+| `sodastream-terra-carbonation-guide-2026` | 45 | +0 |
+| `turntable-5choice-2026` | 41 | +0 |
+| `record-stylus-lifespan-guide-2026` | 39 | +0 |
+| `modal-jazz-challenge` | 38 | +0 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 
