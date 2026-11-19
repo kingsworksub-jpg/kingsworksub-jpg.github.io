@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-19 23:08 JST
+- 生成: 2026-11-20 07:56 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
-- 対象記事: **269本** / 公開Markdown 269本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,198** / Amazonリンクあり記事: **223本**
+- 対象記事: **270本** / 公開Markdown 270本（取得失敗 0本・未閲覧=0含む）
+- 合計ビュー: **3,202** / Amazonリンクあり記事: **224本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -95,9 +95,9 @@
 | `tweed-jacket-street-style-2026` | ツイードジャケットの着こなし、目の粗いヘビーウェイト生地を街でまとう美学 | 15 | 1 | 0 | 1 | - |
 | `cutty-sark-deep-dive-2026` | 帆船の名を持つスコッチ、カティサークの軽やかさ | 14 | 1 | 0 | 1 | - |
 | `debut-carbon-evo-deep-dive-2026` | Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル | 14 | 1 | 0 | 1 | - |
+| `edo-kiriko-guinomi-cut-patterns-2026` | 魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる | 14 | 4 | 0 | 4 | - |
 | `leather-gloves-lining-guide-2026` | 革手袋はなぜ巻尺で選ぶのか、羊革と鹿革と裏地で変わる冬の手元 | 14 | 0 | 3 | 3 | 検索リンクのみ |
 | `corduroy-wale-width-styling-2026` | コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか | 13 | 2 | 0 | 2 | - |
-| `edo-kiriko-guinomi-cut-patterns-2026` | 魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる | 13 | 4 | 0 | 4 | - |
 | `free-plugin-mix-eq-comp-reverb-2026` | 無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ | 13 | 0 | 0 | 0 | 商品リンクなし |
 | `kobe-kyoryuchi-sparkling-water-deep-dive-2026` | 190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター | 13 | 1 | 0 | 1 | - |
 | `mix-practice-1month` | ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ | 13 | 4 | 1 | 5 | - |
@@ -127,12 +127,14 @@
 | `classic-french-style-revival-2026` | ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル | 10 | 3 | 0 | 3 | - |
 | `classic-suspender-styling-2026` | 5つのアイテムで組むクラシックスタイル：ライトブルーのシャツとブラウンのサスペンダー | 10 | 0 | 5 | 5 | 検索リンクのみ |
 | `crystal-spark-ramune-deep-dive-2026` | CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる | 10 | 1 | 0 | 1 | - |
+| `cubase-15-user-guide-book-2026` | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | 10 | 1 | 0 | 1 | - |
 | `ear-training-one-week` | 耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない | 10 | 1 | 3 | 4 | - |
 | `jazz-fusion-1970s-weather-report` | 1970年代のフュージョンでは、ベースが旋律を歌いシンセが低音を弾いた | 10 | 2 | 2 | 4 | - |
 | `mic-preamp-gain-compare-2026` | マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する | 10 | 4 | 0 | 4 | - |
 | `new-scotch-distilleries-young-whisky-2026` | 新しいスコッチ蒸溜所は12年を待たずに何を売るのか、ハリス島とウルフバーンの答え | 10 | 0 | 0 | 0 | 商品リンクなし |
 | `one-room-streaming-setup-2026` | ワンルームの狭さを活かす、生活と共存する配信デスクの配置術 | 10 | 2 | 0 | 2 | - |
 | `rental-soundproofing-booth-2026` | 賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段 | 10 | 4 | 2 | 6 | - |
+| `sangaria-kireina-tansansui-deep-dive-2026` | サンガリア きれいな炭酸水、名古屋発のクセのない一本 | 10 | 1 | 0 | 1 | - |
 | `satsuma-kiriko-guinomi-bokashi-2026` | 薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える | 10 | 3 | 0 | 3 | - |
 | `synology-ds225plus-photo-backup-nas-2026` | Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバック | 10 | 1 | 3 | 4 | - |
 | `vocalign-7-multitrack` | VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える | 10 | 0 | 0 | 0 | 商品リンクなし |
@@ -142,8 +144,6 @@
 | `akai-mpk-mini-mk4-deep-dive-2026` | Akai MPK Mini MK4の25鍵でできること、上位機に任せること | 9 | 1 | 0 | 1 | - |
 | `black-friday-shopping-plan-2026` | ブラックフライデーの買い物計画は10月から始めたほうがいい | 9 | 4 | 0 | 4 | - |
 | `canadian-whisky-rye-4choice-2026` | カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける | 9 | 2 | 3 | 5 | - |
-| `cassette-tape-revival-2026` | カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか | 9 | 1 | 2 | 3 | - |
-| `cubase-15-user-guide-book-2026` | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | 9 | 1 | 0 | 1 | - |
 
 ## P1 候補（ビュー上位 × Amazonリンクあり・最大30本）
 

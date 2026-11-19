@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:08:43+09:00",
+  "generated_at": "2026-11-20T07:56:37+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -456,7 +456,7 @@
       "slug": "cubase-15-user-guide-book-2026",
       "title": "『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる",
       "date": "2026-10-01T09:15:00+09:00",
-      "views": 9,
+      "views": 10,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -663,7 +663,7 @@
       "slug": "edo-kiriko-guinomi-cut-patterns-2026",
       "title": "魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる",
       "date": "2026-11-06T09:30:00+09:00",
-      "views": 13,
+      "views": 14,
       "asins": 4,
       "search_links": 0,
       "amazon_links": 4
@@ -1536,7 +1536,7 @@
       "slug": "non-alcohol-beer-5choice-2026",
       "title": "ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった",
       "date": "2026-10-11T20:00:00+09:00",
-      "views": 3,
+      "views": 4,
       "asins": 6,
       "search_links": 0,
       "amazon_links": 6
@@ -1851,7 +1851,7 @@
       "slug": "sangaria-kireina-tansansui-deep-dive-2026",
       "title": "サンガリア きれいな炭酸水、名古屋発のクセのない一本",
       "date": "2026-09-20",
-      "views": 9,
+      "views": 10,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -2368,6 +2368,15 @@
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
+    },
+    "wine-preservation-guide": {
+      "slug": "wine-preservation-guide",
+      "title": "飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方",
+      "date": "2026-11-19T23:02:52+09:00",
+      "views": 0,
+      "asins": 2,
+      "search_links": 1,
+      "amazon_links": 3
     },
     "winter-coat-5types-2026": {
       "slug": "winter-coat-5types-2026",

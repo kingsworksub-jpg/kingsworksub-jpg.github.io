@@ -1,14 +1,35 @@
 {
-  "generated_at": "2026-11-19 23:08 JST",
-  "total_views": 3198,
-  "previous_total": 3197,
+  "generated_at": "2026-11-20 07:56 JST",
+  "total_views": 3202,
+  "previous_total": 3198,
   "gainers": [
     {
-      "slug": "satsuma-kiriko-guinomi-bokashi-2026",
-      "title": "薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える",
+      "slug": "edo-kiriko-guinomi-cut-patterns-2026",
+      "title": "魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる",
+      "views": 14,
+      "delta": 1,
+      "amazon_links": 4
+    },
+    {
+      "slug": "cubase-15-user-guide-book-2026",
+      "title": "『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる",
       "views": 10,
       "delta": 1,
-      "amazon_links": 3
+      "amazon_links": 1
+    },
+    {
+      "slug": "sangaria-kireina-tansansui-deep-dive-2026",
+      "title": "サンガリア きれいな炭酸水、名古屋発のクセのない一本",
+      "views": 10,
+      "delta": 1,
+      "amazon_links": 1
+    },
+    {
+      "slug": "non-alcohol-beer-5choice-2026",
+      "title": "ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった",
+      "views": 4,
+      "delta": 1,
+      "amazon_links": 6
     },
     {
       "slug": "piano-practice-apps-3choice-2026",
@@ -49,27 +70,6 @@
       "slug": "canned-coffee-5choice-2026",
       "title": "缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線",
       "views": 52,
-      "delta": 0,
-      "amazon_links": 5
-    },
-    {
-      "slug": "sodastream-terra-carbonation-guide-2026",
-      "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方",
-      "views": 45,
-      "delta": 0,
-      "amazon_links": 4
-    },
-    {
-      "slug": "turntable-5choice-2026",
-      "title": "アナログターンテーブル5台比較、針を落とすという儀式のために",
-      "views": 41,
-      "delta": 0,
-      "amazon_links": 5
-    },
-    {
-      "slug": "record-stylus-lifespan-guide-2026",
-      "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた",
-      "views": 39,
       "delta": 0,
       "amazon_links": 5
     }
