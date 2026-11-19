@@ -14,6 +14,12 @@ scripts/indexing/credentials*.json
 data/note_user_data/
 data/ameba_user_data/
 data/x_user_data/
+data/amazon_search_profile/
+data/amazon_associates_profile/
+data/amazon-associates-probe/
+data/google_sc_profile/
+data/google_sc_edge_profile/
+data/search-console-probe/
 
 # ネタ会議の一時ファイル
 scripts/.topic-candidates.json

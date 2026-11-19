@@ -73,3 +73,51 @@
     font-weight: 600;
     color: #E8590C;
 }
+
+/* P1 CVR backfill (plan A) */
+.cvr-cta-block {
+    margin: 1.6rem auto;
+    padding: 1rem 1.1rem 0.4rem;
+    max-width: 520px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--entry);
+}
+
+.cvr-cta-title {
+    margin: 0 0 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--content);
+}
+
+.cvr-text-link {
+    margin: 0.4rem 0 1.4rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.cvr-text-link a {
+    color: #c2410c;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #f0b892;
+}
+
+.cvr-price-note {
+    margin: 0.5rem 0 1.3rem;
+    font-size: 0.82rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+.cvr-assurance {
+    margin: 1.2rem 0;
+    padding: 0.7rem 1rem;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--content);
+    background: var(--entry);
+    border-left: 3px solid #c2410c;
+    border-radius: 0 8px 8px 0;
+}

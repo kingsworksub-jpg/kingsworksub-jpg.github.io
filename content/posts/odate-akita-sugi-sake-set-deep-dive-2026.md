@@ -12,11 +12,20 @@ aliases:
 - /old_posts/odate-akita-sugi-sake-set-deep-dive-2026/
 ---
 
-
 酒器といえばガラスや陶磁器、金属を思い浮かべることが多いが、木でできた徳利とお猪口もある。秋田県大館市の大館工芸社が作る「秋田杉 酒器3点セット」を、順に見ていく。
 
-
 ---
+
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
+<img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">大館工芸社 秋田杉 酒器3点セット</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
 
 ## 大館曲げわっぱという産地 — 武士の副業から国指定の伝統工芸へ
 <figure class="photo photo--left">
@@ -26,6 +35,7 @@ aliases:
 <figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B00DGN94GY"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">大館工芸社 秋田杉 酒器3点セットの実売価格・レビューをAmazonで確認する →</a></p>
 
 秋田県大館市に伝わる曲げわっぱの起源は平安時代まで遡るとも言われているが、産業として本格的に発展したのは17世紀後半、大館城主・佐竹西家が下級武士の副業として奨励したのがきっかけだったらしい。樹齢200〜300年という天然秋田杉の資源に恵まれた土地柄が、この工芸を支えてきた土台になっている。1980年には経済産業大臣指定の伝統的工芸品にも指定され、今も大館の地場産業として続いている。
 
@@ -55,6 +65,8 @@ aliases:
 
 熱燗にも冷酒にも使える器だが、徳利自体を直火にかけることは想定されていない。燗をつけるときは別の容器でお酒を温めてから、この徳利に移して注ぐという使い方になる。焼酎にも使えるが、個人的には香りの強い純米酒や本醸造あたりの日本酒との相性のほうが好みに合っている。
 
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
+
 ## 価格帯・現行性について
 
 Amazonでの価格は5,500円前後。大館工芸社の公式オンラインストアでも同一仕様(徳利小・ぐい呑み2個・化粧箱入り)の酒器セットが同じ価格帯で扱われており、単品のぐい呑みが1個880円程度で流通していることを考えると、セットとしての割引がしっかり効いた価格設定になっている。楽天やYahoo!ショッピングでも同ブランドの酒器・ぐい呑みの取り扱いが続いており、現行品として問題なく入手できる状態だ。
@@ -65,5 +77,6 @@ Amazonでの価格は5,500円前後。大館工芸社の公式オンラインス
 
 ガラスや陶磁器の酒器が「光」や「艶」で魅せるのに対して、この杉の酒器は木目と手触り、そして温度の保ち方でじわじわと存在感を出してくる。派手さはないぶん、晩酌の道具として長く使い込んでいくのに向いている一本だと思う。
 
-
 **関連記事**: [有田焼 炎華の酒器セット、黒い炎をまとう徳利とぐい呑み](/posts/arita-enka-sake-set-deep-dive-2026/) · [黒千代香で焼酎を直火にかける、国産美濃焼のもてなし](/posts/kurojoka-mino-deep-dive-2026/) · [九谷焼 ぐい呑み 白粒鉄仙、粒立つ白と途切れない蔓の文様](/posts/kutani-shiratsubu-tessen-guinomi-deep-dive-2026/)
+
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>

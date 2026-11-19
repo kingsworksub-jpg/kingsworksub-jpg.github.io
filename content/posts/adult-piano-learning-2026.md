@@ -14,12 +14,25 @@ ogImageHeight: 630
 
 鍵盤に向かう前に決めておくべき目標と、大人ならではの効率的な独習のアプローチについて整理していく。
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">
+<img src="/images/piano/practice.jpg" alt="ピアノの練習風景" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">ピアノの練習風景</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## 鍵盤は「演奏する道具」ではなく「思考する道具」
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/piano/practice.jpg" alt="ピアノの練習風景" width="800" height="531" loading="lazy"></a>
 <figcaption>鍵盤を前にしたとき、指を鍛えることよりもコードとスケールの関係を視覚的に理解することが優先される。<span class="credit">Photo: zaui/Scott Catron / CC BY-SA 2.0</span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">ピアノの練習風景の実売価格・レビューをAmazonで確認する →</a></p>
 
 音楽制作を行う者にとって、鍵盤楽器はステージで華麗なソロを弾くための専用機材というよりも、頭の中にあるコード進行やメロディを素早く視覚化し、DAWのピアノロールに落とし込むためのインターフェースに近い。
 
@@ -90,6 +103,8 @@ DAWの録音ボタンを押して自分の演奏を一度キャプチャし、�
 また、継続する上で強力な支えとなるのが、日々の練習記録をつけることだ。どのコード進行が弾けたか、どのリズムでつまずいたかをノートやデジタルメモに書き留めておくだけで、自分の成長が可視化され、モチベーションの維持に大きく寄与する。小さな成功体験の積み重ねが、確実な技術向上へとつながっていく。
 
 小さなコードの響きに耳を傾け、その心地よさを楽しむ余裕を持つこと。それこそが、大人が長く音楽を続けていくための最大の秘訣なのだ。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 

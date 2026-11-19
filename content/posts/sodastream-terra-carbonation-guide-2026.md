@@ -15,6 +15,19 @@ scheduled_time: "20:00"
 
 炭酸水メーカーが市販品と決定的に違うのは、まさにこの点だと思う。値段が安くなることやゴミが減ることもうれしいが、いちばん大きいのは、ガスの強さを自分の手で決められることだ。この記事では、国内で手に入りやすいソーダストリームの手動モデル「TERRA(テラ)」と電動モデル「E-TERRA(E-テラ)」を例に、強さの決め方、ガスシリンダーの費用、1リットルあたりの単価、割り材として使うときの勘どころを順に整理していく。
 
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>
+
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22">
+<img src="/images/sodastream/machine-bottle.jpg" alt="ソーダストリームの本体と専用ボトル" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">ソーダストリームの本体と専用ボトル</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## 押す回数で強さが変わる、手動のTERRA
 
 <figure class="photo photo--left">
@@ -24,6 +37,8 @@ scheduled_time: "20:00"
 <figcaption>ソーダストリームの旧モデルと専用ボトル。本体上部のボタンを押してガスを注ぐ構造はTERRAも同じ(クリックでTERRAのAmazonページへ)</figcaption>
 <span class="credit">Photo: Meaghan O'Malley / CC BY 2.0</span>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0DLKBRS4Z"><a href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22">ソーダストリームの本体と専用ボトルの実売価格・レビューをAmazonで確認する →</a></p>
 
 TERRAは電源を使わない手動式の炭酸水メーカーで、公式の税込価格は14,850円。スターターキットには本体、60リットル分のガスシリンダー1本、専用ボトル(1リットルと0.5リットルが1本ずつ)が入っている。コンセントのいらない機械なので、キッチンのどこに置いてもよく、停電時やキャンプ先でも使える気軽さがある。
 
@@ -43,6 +58,8 @@ TERRAは電源を使わない手動式の炭酸水メーカーで、公式の税
 <span class="credit">Photo: Wassersprudler.de / CC BY-SA 4.0</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0C781JTWG"><a href="https://www.amazon.co.jp/dp/B0C781JTWG?tag=nakimoto1-22">キッチンに並んだ2台のソーダストリームとガラスのカラフェの実売価格・レビューをAmazonで確認する →</a></p>
+
 E-TERRAはTERRAの電動版で、公式の税込価格は24,200円。2023年6月に国内で発売された。本体の前面には泡のマークが1つ、2つ、3つと描かれたボタンが並んでいて、左から弱め、標準、強めの3段階に対応している。好みの強さのボタンを押すと、あとは機械が決まった量のガスを注入し、終わるとボタンの点滅で知らせてくれる。電源はACアダプターで、電池では動かない。
 
 E-TERRAのいちばんの価値は、毎回同じ強さを再現できることだと感じる。家族の誰が操作しても、強めのボタンを押せば強めの炭酸ができる。手動式のように押す時間や回数を数える必要がないので、料理をしながら片手間に作るような場面でも失敗しにくい。
@@ -58,6 +75,8 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 <figcaption>炭酸ガスのボンベと圧力計。ソーダストリームのシリンダーも、中身は高圧で詰められた二酸化炭素だ</figcaption>
 <span class="credit">Photo: Kevin B 3 / CC BY 2.0</span>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B07BS1HJG5"><a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22">炭酸ガスボンベとレギュレーター、炭酸水のボトルの実売価格・レビューをAmazonで確認する →</a></p>
 
 炭酸水メーカーのランニングコストは、ほぼガスシリンダー代だけで決まる。現行のTERRAとE-TERRAは、ピンク色のレバーで差し込む「クイックコネクト」方式のシリンダーを使う。1本で作れる炭酸水の量は60リットルが目安だ。
 
@@ -89,6 +108,8 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 <span class="credit">Photo: N509FZ / CC BY-SA 4.0</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B09MQJ5XWR"><a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22">ジョッキに注がれた氷入りのハイボールの実売価格・レビューをAmazonで確認する →</a></p>
+
 自分で強さを決められる利点がいちばん生きるのは、ハイボールやサワーの割り材として使うときだ。グラスに氷を入れ、ウイスキーを注ぎ、そこへ炭酸水を足していくと、氷にぶつかるたび、ウイスキーと混ざるたびにガスが抜ける。グラスに入った時点では、ボトルで感じた刺激より一段弱くなっていると考えたほうがいい。
 
 そこで、割り材にする日は普段より強めに作っておく。TERRAなら5回押し、E-TERRAなら泡3つのボタンを選び、ウイスキー1に対して炭酸水3〜4の割合で、氷に直接当てないようグラスの縁から静かに注ぐ。マドラーで底から1回だけ持ち上げるように混ぜれば、強めに作った炭酸の刺激がちょうどよく残る。
@@ -104,6 +125,8 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 家族みんなで使う家庭や、毎回同じ仕上がりを求める人、押す回数を数える手間を省きたい人にはE-TERRAが合う。差額の9,350円は、毎日の小さな手間を省く対価だと考えると、決して高すぎる値段ではないと思う。
 
 どちらを選んでも、ガスシリンダーは共通のクイックコネクト方式で、1リットルあたりのガス代は同じだ。ランニングコストに差は出ないので、本体の操作感と置き場所だけで決めて構わない。市販の強炭酸水の「決められた強さ」に少しでも物足りなさを感じたことがあるなら、その日の気分や料理に合わせて強さを変えられる生活は、思っている以上に楽しいものになるはずだ。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## 関連記事
 

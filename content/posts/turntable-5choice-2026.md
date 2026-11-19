@@ -12,7 +12,6 @@ aliases:
 - /old_posts/turntable-5choice-2026/
 ---
 
-
 各メーカーは「アナログの温かみを、あなたの部屋に」と謳う。2026年現在よく名前が挙がる5機種——**Technics SL-1200MK7**、**Audio-Technica AT-LP120XUSB**、**Rega Planar 3**、**Pro-Ject Debut Carbon EVO**、**Sony PS-LX310BT**——を比較していく。
 
 (補足: Pro-Ject Debut Carbon EVOは後継機「Debut EVO 2」に、Sony PS-LX310BTは後継機「PS-LX3BT/LX5BT」にそれぞれ世代交代が進んでいる。ただし設計思想を色濃く受け継いだ直系モデルであり、中古・並行流通も含めて依然よく語られているため、今回はこの2機種を対象にした。)
@@ -29,6 +28,17 @@ aliases:
 
 ---
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Technics SL-1200MK7</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## Technics SL-1200MK7 — 玄人が黙って選ぶ定番
 
 <figure class="photo photo--left">
@@ -37,6 +47,8 @@ aliases:
 </a>
 <figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B07S2JY9DH"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Technics SL-1200MK7の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Technics SL-1200MK7の使いやすさレーダーチャート](/images/radar/sl-1200mk7.svg)
 
@@ -57,6 +69,8 @@ aliases:
 <figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B07RDYH9S7"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">AT-LP120XUSBの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![AT-LP120XUSBの使いやすさレーダーチャート](/images/radar/at-lp120xusb.svg)
 
 - セットアップ 3 / 操作性 3 / 音質 4 / 拡張性 5 / 耐久性 4
@@ -75,6 +89,8 @@ aliases:
 </a>
 <figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B01HPZTS6E"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Rega Planar 3の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Rega Planar 3の使いやすさレーダーチャート](/images/radar/rega-planar3.svg)
 
@@ -95,6 +111,8 @@ aliases:
 <figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B08FRL1KMH"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Pro-Ject Debut Carbon EVOの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![Pro-Ject Debut Carbon EVOの使いやすさレーダーチャート](/images/radar/debut-carbon-evo.svg)
 
 - セットアップ 4 / 操作性 4 / 音質 4 / 拡張性 5 / 耐久性 4
@@ -114,6 +132,8 @@ aliases:
 <figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
+
 (PS-LX310BTは生産終了のため、直系の後継機を案内)
 
 ![Sony PS-LX310BTの使いやすさレーダーチャート](/images/radar/ps-lx310bt.svg)
@@ -125,6 +145,8 @@ aliases:
 音質については正直に書いておきたい。ぼやけた音で、聞いているうちに疲れると感じた。上位機と比べると解像感では見劣りする。引き換えにヘッドシェルの脱着に対応しておらず、カートリッジ本体の交換もできない。スタートストップのスイッチの操作感やアームが動く時の音も、価格なりにチープだと思う。凝り性には物足りないが、「レコードという体験」の入り口としては、これほど間口の広い一台もない。
 
 ---
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 
@@ -147,6 +169,5 @@ aliases:
 - **とにかく気軽にレコードを鳴らしたいだけの人** → Sony PS-LX310BT
 
 針を落とすまでの手間と、鳴った音への愛着は、たいてい比例するように思う。手間をかけた分だけ、その音に対する愛着も自然と増していく気がする。それでも、良い音は良い音である。手間を楽しめるかどうかが、この五本を選ぶときの一番の分かれ目だと思う。
-
 
 **関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [Pro-Ject Debut Carbon EVOは気配りの効いた優等生ターンテーブル](/posts/debut-carbon-evo-deep-dive-2026/) · [Rega Planar 3が半世紀守る「軽さと剛性」の設計思想](/posts/rega-planar3-deep-dive-2026/) · [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/) · [カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか](/posts/cassette-tape-revival-2026/)

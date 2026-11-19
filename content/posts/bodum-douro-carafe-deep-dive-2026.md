@@ -12,11 +12,20 @@ aliases:
 - /old_posts/bodum-douro-carafe-deep-dive-2026/
 ---
 
-
 北欧というよりは中欧寄りのブランドだが、店頭で見かけるとつい「北欧デザイン」と呼びたくなる佇まい。BODUM(ボダム)のカラフェ「DOURO(ドウロ)」を、日本酒の徳利として使う前提で見ていく。
 
-
 ---
+
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
+<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">BODUM DOURO 徳利/カラフェ 360ml</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
 
 ## デンマークのガラス輸入商から始まったブランド
 <figure class="photo photo--left">
@@ -26,6 +35,7 @@ aliases:
 <figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B09LH94YWS"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">BODUM DOURO 徳利/カラフェ 360mlの実売価格・レビューをAmazonで確認する →</a></p>
 
 BODUMは1944年、デンマーク・コペンハーゲンでPeter Bodumが興した会社だ。最初はガラス製品の輸入業だったというのが面白いところで、そこからバキュームコーヒーメーカーに出会ったのをきっかけに自社デザインへと舵を切っていく。1958年に発売した「SANTOS」が世界的な評価を得て、ブランドの名を一気に広めた。
 
@@ -55,6 +65,7 @@ DOUROという名前は、ポルトガルのドウロ渓谷から取られてい
 
 実用面での違いは手入れのしやすさだ。食洗機にそのまま放り込める気軽さは、繊細な絵付けが施された陶器の徳利にはなかなか真似できない。北欧的というよりは中欧的な、装飾を削ぎ落としたミニマルな見た目も含めて、和洋どちらの食卓にも馴染む懐の深さがこの器の魅力だと感じる。
 
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## 価格と購入先 — 今も現行のラインナップ
 
@@ -66,5 +77,6 @@ DOUROシリーズには同じ溝模様をまとったお猪口サイズのグラ
 
 コーヒー器具のイメージが強いBODUMだが、ガラスの扱いにルーツを持つブランドだけあって、日本酒の徳利という異色の使い方にもきちんと説得力がある。ぶどう畑の溝模様越しに冷酒を注ぐ、という組み合わせの妙を楽しむための一本だと思う。
 
-
 **関連記事**: [KEITH 純チタン おちょこは、白酒のために生まれた旅する盃](/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/) · [温度を止める徳利、ピーコックの真空二重構造 酒器セット](/posts/peacock-acf38-sake-set-deep-dive-2026/) · [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](/posts/nousaku-tin-sake-set-deep-dive-2026/)
+
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>

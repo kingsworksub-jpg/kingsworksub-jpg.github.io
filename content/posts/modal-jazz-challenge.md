@@ -10,13 +10,27 @@ categories: ["music"]
 tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", "A Love Supreme"]
 ---
 
-
 <figure class="photo photo--left">
   <a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy"></a>
   <figcaption>1964年、ヘルシンキのステージでトランペットを手にしたマイルス・デイヴィス。モーダル・ジャズは、この男の「次の一手」から始まった<span class="credit">Photo: Reijo Koskinen / Lehtikuva（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
 ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。ところが1959年、この当たり前を、まるごとひっくり返すアルバムが現れる。マイルス・デイヴィス『Kind of Blue』。コード進行を捨てて、旋法——モードの上でじっくりと語るという、それまで誰もやらなかった賭けに出たのが、モーダル・ジャズの挑戦だった。
+
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22">
+<img src="/images/modal-jazz/miles-davis-1964
+
+<p class="cvr-text-link" data-cvr="text-B00D1B8R9G"><a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22">1964年、ヘルシンキで演奏するマイルス・デイヴィスの実売価格・レビューをAmazonで確認する →</a></p>
+
+-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">1964年、ヘルシンキで演奏するマイルス・デイヴィス</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
 
 ## コード進行を捨てる、という発想
 
@@ -30,6 +44,8 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
   <a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/john-coltrane-playing-sax.jpg" alt="サックスを演奏するジョン・コルトレーンの宣材写真" width="1024" height="1259" loading="lazy"></a>
   <figcaption>『Kind of Blue』のセッションから4年後に、自らの組曲『A Love Supreme』を録音したジョン・コルトレーン。モーダルという空気は、彼の祈りを運んだ<span class="credit">Photo: Impulse! Records（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0018RWD6I"><a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22">サックスを演奏するジョン・コルトレーンの宣材写真の実売価格・レビューをAmazonで確認する →</a></p>
 
 1959年3月2日と4月22日。ニューヨークの30番街スタジオで、マイルスは録音する。そろえた顔ぶれは、テナーにジョン・コルトレーン、アルトにキャノンボール・アダレイ、ピアノにビル・エヴァンズ(一部の曲ではウィントン・ケリー)、ベースにポール・チェンバース、ドラムにジミー・コブ。エヴァンズは後に、この「音符の束」を渡されたときの胸弾みを思い出している。楽譜すらほとんどなく、マイルスは各曲のモードをひとつずつメンバーに伝え、あとは「その上で自由に鳴らせ」と言った。
 
@@ -56,7 +72,11 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
   <figcaption>『Kind of Blue』の「もうひとりの主役」ビル・エヴァンズ。彼の抒情的なピアノが、モーダル・ジャズに叙情の体温を注いだ<span class="credit">Photo: Steve Schapiro（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B003YOMN68"><a href="https://www.amazon.co.jp/dp/B003YOMN68?tag=nakimoto1-22">1961年の宣材写真に写るビル・エヴァンズの実売価格・レビューをAmazonで確認する →</a></p>
+
 モーダル・ジャズの物語を語るうえで、ビル・エヴァンズを外すわけにはいかない。彼は『Kind of Blue』のセッションに、正式な場が設けられる前から立ち会っていたと言われるほどの参加者だ。彼のピアノは、当時のハード・バップにはなかった叙情性——言葉にできないものをそのまま鍵盤の上でつまみ上げるような、繊細で私的な響きを、モーダルという空間の上に徹底して乗せた。「私の音楽は、私自身の精神の表現だ——私の信仰、私の知識、私の存在」。これはジョン・コルトレーンの言葉だが、エヴァンズの感受性にも通じる何かがある。彼はやがてソロ・トリオという形態で、モーダル以降の抒情を極めていく。1960年代にはいまだ多くのミュージシャンを苦しめていた薬物から、ようやく抜け出した彼のピアノは、いっそう透明だった。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## おわりに — 沈黙が許された音楽
 

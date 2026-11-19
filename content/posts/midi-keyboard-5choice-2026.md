@@ -12,7 +12,6 @@ aliases:
 - /old_posts/midi-keyboard-5choice-2026/
 ---
 
-
 各メーカーは「これで演奏も制作も別次元になる」と謳う。2026年現在のトレンド機5台——**Komplete Kontrol S61 MK3**、**Akai MPK Mini MK4**、**Arturia KeyLab Essential mk3**、**Novation Launchkey MK4**、**Roland A-88MKII**——を比較していく。
 
 軸は、鍵盤という「触れる道具」の性格に合わせて次の5つに整理した。
@@ -25,6 +24,17 @@ aliases:
 
 ---
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22">
+<img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Komplete Kontrol S61 MK3</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## Komplete Kontrol S61 MK3 — 画面が導く、迷いのない秀才
 
 <figure class="photo photo--left">
@@ -33,6 +43,8 @@ aliases:
 </a>
 <figcaption>Komplete Kontrol S61 MK3<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0CH3XCMB7"><a href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22">Komplete Kontrol S61 MK3の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Komplete Kontrol S61 MK3の使いやすさレーダーチャート](/images/radar/komplete-kontrol-s61-mk3.svg)
 
@@ -53,6 +65,8 @@ aliases:
 <figcaption>Akai MPK Mini MK4<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0FT3N7TK1"><a href="https://www.amazon.co.jp/dp/B0FT3N7TK1?tag=nakimoto1-22">Akai MPK Mini MK4の実売価格・レビューをAmazonで確認する →</a></p>
+
 ![Akai MPK Mini MK4の使いやすさレーダーチャート](/images/radar/mpk-mini-mk4.svg)
 
 - セットアップ 4 / 演奏性 3 / DAW連携 4 / 拡張性 4 / 耐久性 3
@@ -71,6 +85,8 @@ aliases:
 </a>
 <figcaption>Arturia KeyLab Essential mk3<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0CCJ8KT15"><a href="https://www.amazon.co.jp/dp/B0CCJ8KT15?tag=nakimoto1-22">Arturia KeyLab Essential mk3の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Arturia KeyLab Essential mk3の使いやすさレーダーチャート](/images/radar/keylab-essential-mk3.svg)
 
@@ -91,6 +107,8 @@ USB接続一発でDAWと手を繋いでしまう気配りの良さは、五本�
 <figcaption>Novation Launchkey MK4<span class="credit"><a href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0D6YXHYCX"><a href="https://www.amazon.co.jp/dp/B0D6YXHYCX?tag=nakimoto1-22">Novation Launchkey MK4の実売価格・レビューをAmazonで確認する →</a></p>
+
 ![Novation Launchkey MK4の使いやすさレーダーチャート](/images/radar/launchkey-mk4.svg)
 
 - セットアップ 4 / 演奏性 4 / DAW連携 5 / 拡張性 4 / 耐久性 3
@@ -110,6 +128,8 @@ Ableton Liveユーザーにとっては、ほとんど専用機と言ってい�
 <figcaption>Roland A-88MKII<span class="credit"><a href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0844YWVGP"><a href="https://www.amazon.co.jp/dp/B0844YWVGP?tag=nakimoto1-22">Roland A-88MKIIの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![Roland A-88MKIIの使いやすさレーダーチャート](/images/radar/a-88mkii.svg)
 
 - セットアップ 3 / 演奏性 4 / DAW連携 4 / 拡張性 3 / 耐久性 4
@@ -119,6 +139,8 @@ Ableton Liveユーザーにとっては、ほとんど専用機と言ってい�
 MIDI 2.0の高解像度対応など、地味に長く進化を続けている律儀さも美点だ。ただしメモリースロットが8つしかない点ははっきり言って貧弱だと感じたし、拡張性の面では物足りなさが残る。派手さはないが、寡黙に長く働いてくれる頼れる存在だと思う。
 
 ---
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 
@@ -141,6 +163,5 @@ MIDI 2.0の高解像度対応など、地味に長く進化を続けている律
 - **本格的なピアノタッチで長く使いたい人** → Roland A-88MKII
 
 指先の好みだけは、文章だけでは伝えきれない部分も大きい。できれば楽器店で一度触ってから選んでほしい。
-
 
 **関連記事**: [DAW 5本を比べる、机の上のオーケストラを誰に任せるか](/posts/daw-5choice-2026/) · [サンプラー5本比較、音の欠片を誰の手に委ねるか](/posts/sampler-5choice-2026/) · [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/) · [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Akai MPK Mini MK4の25鍵でできること、上位機に任せること](/posts/akai-mpk-mini-mk4-deep-dive-2026/) · [Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった](/posts/launchkey-mk4-key-range/) · [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/) · [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](/posts/home-studio-100k-budget-2026/)

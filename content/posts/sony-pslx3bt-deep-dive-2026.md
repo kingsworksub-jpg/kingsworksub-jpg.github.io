@@ -12,11 +12,20 @@ aliases:
 - /old_posts/sony-pslx3bt-deep-dive-2026/
 ---
 
-
 Sonyは、このシリーズを「初めてレコードに触れる人から、こだわりのあるリスナーまで」応えるオールインワン機と位置づけている。その言葉に見合う中身なのか、現行モデルのPS-LX3BT(2026年2月発表、旧モデルPS-LX310BTの後継)を順に見ていく。
 
-
 ---
+
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Sony PS-LX3BT</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
 
 ## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
@@ -26,6 +35,7 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 <figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
 
 サイズは430×117×366mm、重量3.5kg。旧モデルのPS-LX310BTが黒一色だったのに対し、PS-LX3BTはチャコールグレーの本体にグリーンのスタートボタン、イエローのアクセントが入ったカートリッジという、思い切ったカラーリングに変わった。アルミダイキャスト製のプラッターと新設計のダイナミックバランス・トーンアームを備えるが、それ以外の筐体はプラスチックが中心。ボタン類の押し心地はやや安っぽく感じ、価格帯を考えると質感はそれなりに割り切られている印象だ。
 
@@ -51,6 +61,7 @@ PS-LX310BTはBluetooth 4.2でSBC・aptXコーデックに対応していたの�
 
 弱点としては、プラスチックが目立つ筐体の質感がスペック(アルミプラッター・アーム)に見合っていないと感じられる点、カートリッジのアップグレード経路が無く、Sony純正のスタイラス交換に縛られる点。PS-LX3BTについては、価格の高さが最大の弱点として挙げられることが多い。より安く、より選択肢の多いBluetoothターンテーブルが増えている市場において、この価格でこのモデルを積極的に勧めにくい、という厳しい評価も見られた。
 
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## 価格・現行性
 
@@ -62,5 +73,6 @@ PS-LX310BTはすでに生産終了しており、流通在庫は品薄も相ま�
 
 一台のターンテーブルをここまで丁寧に見たのは初めてで、比較記事とは違う面白さがあった。「何も考えずにレコードを鳴らしたい」というニーズに全振りした設計は、割り切りの潔さとして評価できると思う。ただし価格については、後継機になるたびに競合との比較がシビアになっていく市場の厳しさを感じさせる一台でもある。
 
-
 **関連記事**: [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/) · [Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテーブル](/posts/at-lp120xusb-deep-dive-2026/) · [Technics SL-1200MK7、半世紀の現場が選び続けた基準機](/posts/technics-sl1200mk7-deep-dive-2026/) · [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
+
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>

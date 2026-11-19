@@ -12,7 +12,6 @@ aliases:
 - /old_posts/budget-whisky-10choice-2026/
 ---
 
-
 高級シングルモルトの話ばかりしていると忘れそうになるが、毎日のグラスを支えているのは大抵、千円台のボトルだ。**サントリー角瓶**、**ブラックニッカ クリア**、**トリスウイスキー**、**ジムビーム ホワイト**、**フォアローゼズ イエロー**、**バランタイン ファイネス**、**カティサーク**、**ホワイトホース ファインオールド**、**デュワーズ ホワイトラベル**、**ジョニーウォーカー レッドラベル**——どれもスーパーや酒屋で普通に買える、いわゆる「デイリーユース」の定番10本を並べてみる。
 
 評価軸はこう置いた。
@@ -27,6 +26,17 @@ aliases:
 
 ---
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">サントリー角瓶</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## サントリー角瓶 — ハイボールの原点にして王道
 
 <figure class="photo photo--left">
@@ -35,6 +45,8 @@ aliases:
 </a>
 <figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B001TZ1RCK"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">サントリー角瓶の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![サントリー角瓶の使いやすさレーダーチャート](/images/radar/suntory-kakubin.svg)
 
@@ -55,6 +67,8 @@ aliases:
 <figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B005VZYNJS"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">ブラックニッカ クリアの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![ブラックニッカ クリアの使いやすさレーダーチャート](/images/radar/black-nikka-clear.svg)
 
 - 飲みやすさ 5 / 複雑さ 1 / コスパ 5 / 汎用性 4 / 入手性 5
@@ -73,6 +87,8 @@ aliases:
 </a>
 <figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B013WEDT4O"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">トリスウイスキーの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![トリスウイスキーの使いやすさレーダーチャート](/images/radar/suntory-trys.svg)
 
@@ -93,6 +109,8 @@ aliases:
 <figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B01M0QSOAP"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">ジムビーム ホワイトの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![ジムビーム ホワイトの使いやすさレーダーチャート](/images/radar/jim-beam-white.svg)
 
 - 飲みやすさ 4 / 複雑さ 2 / コスパ 4 / 汎用性 4 / 入手性 4
@@ -112,6 +130,8 @@ aliases:
 <figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B01GJFPQOE"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">フォアローゼズ イエローの実売価格・レビューをAmazonで確認する →</a></p>
+
 ![フォアローゼズ イエローの使いやすさレーダーチャート](/images/radar/four-roses-yellow.svg)
 
 - 飲みやすさ 4 / 複雑さ 3 / コスパ 4 / 汎用性 3 / 入手性 4
@@ -130,6 +150,8 @@ aliases:
 </a>
 <figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B01M03CPLI"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">バランタイン ファイネスの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![バランタイン ファイネスの使いやすさレーダーチャート](/images/radar/ballantines-finest.svg)
 
@@ -217,6 +239,8 @@ aliases:
 
 ---
 
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
+
 ## まとめ
 
 | ウイスキー | 飲みやすさ | 味わいの複雑さ | コスパ | 飲み方の幅 | 入手安定性 |
@@ -245,6 +269,5 @@ aliases:
 高いウイスキーが必ずしも「正解」とは限らない。むしろ千円台のボトルたちの方が、毎日の晩酌という土俵では圧倒的に打席数が多い分、作り手の技術や哲学がシビアに問われている気がする。今日の一杯も、良いものでありますように。
 
 飲酒は20歳になってから、節度を持って。
-
 
 **関連記事**: [バランタイン ファイネスはなぜ世界2位のスコッチになれたのか](/posts/ballantines-finest-deep-dive-2026/) · [ブラックニッカ クリアの軽さはどこから来るのか](/posts/black-nikka-clear-deep-dive-2026/) · [帆船の名を持つスコッチ、カティサークの軽やかさ](/posts/cutty-sark-deep-dive-2026/) · [デュワーズ ホワイトラベルを二段熟成から読み解く](/posts/dewars-white-label-deep-dive-2026/) · [10種の原酒で組み上げる、フォアローゼズ イエローの手間](/posts/four-roses-yellow-deep-dive-2026/) · [ジムビーム ホワイトが世界一売れるバーボンである理由](/posts/jim-beam-white-deep-dive-2026/) · [ジョニーウォーカー レッドラベル、ブラックの弟分にあるスパイス感](/posts/johnnie-walker-red-deep-dive-2026/) · [ハイボール文化の原点、サントリー角瓶を飲み直す](/posts/suntory-kakubin-deep-dive-2026/) · [トリスウイスキーとトリスバーの時代、いま飲む一本として](/posts/suntory-trys-deep-dive-2026/) · [ホワイトホース ファインオールドに宿るラガヴーリンの個性](/posts/white-horse-fineold-deep-dive-2026/) · [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](/posts/scotch-whisky-5choice-2026/)

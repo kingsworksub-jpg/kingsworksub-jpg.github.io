@@ -15,6 +15,17 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 
 3つとも年額1.5〜2万円台というだいたい同じ価格帯に収まっているが、中身は似ているようでかなり違う。音をどうやって判定しているか、楽譜をどう見せるか、そして「正しく弾くまで待ってくれるか」という機能の有無が、続けやすさを大きく左右する。この3つを軸に、DTMでの打ち込みに鍵盤感覚を活かしたい人向けに整理していく。
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">
+<img src="/images/piano-apps/digital-piano-sheet.jpg" alt="譜面を立てた電子ピアノの鍵盤" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">譜面を立てた電子ピアノの鍵盤</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## 音の判定方法 — マイクか、MIDIか
 
 <figure class="photo photo--left">
@@ -22,6 +33,8 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 <figcaption>練習アプリの判定精度は、内蔵マイクで聴き取るか、MIDI接続で直接信号を受け取るかで変わる</figcaption>
 <span class="credit">Photo: Morn / CC BY-SA 4.0</span>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">譜面を立てた電子ピアノの鍵盤の実売価格・レビューをAmazonで確認する →</a></p>
 
 3つのアプリはいずれも、弾いた音をリアルタイムで聴き取り、合っているかどうかを判定しながら進む仕組みを持っている。ただし、その判定方法には違いがある。
 
@@ -39,6 +52,8 @@ Simply Piano は「MusicSense」という独自の音響認識エンジンでマ
 <span class="credit">Photo: Pianomangeorge / CC BY-SA 4.0</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">譜面台に楽譜を乗せた木目調の電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
+
 楽譜の見せ方も、3つのアプリでアプローチがかなり違う。flowkey は画面を上下に分割し、上に実際のピアニストが弾く手元の映像、下に五線譜を同時に表示する構成で、曲のアレンジそのものを本格的な譜面で追いたい人向けに作られている。Skoove は五線譜とビジュアルフィードバックを組み合わせ、レッスンの初日から譜読みに慣れさせる設計になっている。
 
 Simply Piano は、五線譜の読譜力そのものよりも、ゲーム感覚で続けられることを重視した見せ方で、クラシックから現代のポップス、ディズニー作品の楽曲まで、ゲーミフィケーションされた譜面で進んでいく。五線譜をきちんと読めるようになりたいのか、とにかく挫折せず弾けるようになりたいのかで、向いているアプリが変わってくる。
@@ -53,6 +68,8 @@ DTMでの打ち込みを見据えるなら、五線譜をきちんと追えるfl
 <span class="credit">Photo: Scott Ritchie / CC BY 2.0</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">88鍵フルサイズのハンマーアクション電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
+
 独学でいちばん挫折しやすいのが、「曲のテンポについていけず、間違った音のまま先に進んでしまう」場面だ。この点で明確な差があるのが flowkey の「Wait Mode」で、正しい音を弾くまで曲の進行が自動で一時停止し、自分のペースで一音ずつ確実に押さえていける。初心者がまず正確な指使いを身につける段階では、この機能の有無がかなり大きい。
 
 Simply Piano と Skoove については、同様の名称を持つ専用機能は今回の調査では確認できなかった。両アプリともテンポを落として練習するモードは備えているはずだが、「間違えたら待ってくれる」という挙動まで含めて厳密に同じかどうかは、実際にアプリを触って確認したほうが確実だ。正確な指使いをじっくり身につけたい人は、この機能の有無を基準に選ぶといいと思う。
@@ -62,6 +79,8 @@ Simply Piano と Skoove については、同様の名称を持つ専用機能�
 3つとも年額契約が基本で、Simply Piano は年額119〜150ドル程度、Skoove は年額149.99ドル、flowkey は通常年額119.88ドル程度(複数年プランの割引が使えることもある)という水準だ。為替レートによって日本円の負担感は変わるが、おおむね月1,500〜2,000円前後の感覚になる。いずれも無料で一部のレッスンを試せる期間が用意されていることが多いので、契約前に実際の判定精度や操作感を確かめておきたい。
 
 対応するレッスン曲のジャンルにも違いがある。Skoove はクラシックからジャズ、ポップス、アニメ・映画音楽まで800曲以上を揃えており、幅広いジャンルを試したい人に向いている。flowkey はクラシック、ポップス、ロック、映画・TV音楽を中心に、原曲に近いアレンジで弾ける曲が多い。Simply Piano はクラシックと現代的なポップス、ディズニー作品が中心で、誰もが知っている曲を弾けるようになる楽しさを重視した選曲になっている。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 
@@ -87,3 +106,5 @@ Simply Piano と Skoove については、同様の名称を持つ専用機能�
 - [コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める](/posts/code-progress-1month-2026/)
 
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
+
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>

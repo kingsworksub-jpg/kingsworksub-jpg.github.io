@@ -10,6 +10,17 @@ ogImageHeight: 630
 draft: false
 ---
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22">
+<img src="/images/condenser-mic/at2020.jpg" alt="Audio-Technica AT2020" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Audio-Technica AT2020</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## 導入
 
 宅録を始めるなら、マイク選びが最初の分岐点だ。ダイナミックマイクと違い、コンデンサーマイクは**電源（48V ファントム電源）を必要とする**ため、つなぐ機材の条件も確認が要る。また、指向性（単一指向性か広い感度か）、周波数特性、インピーダンスなどの違いで、録音に映る「空間感」や「音の表情」が大きく変わる。
@@ -39,6 +50,8 @@ draft: false
 <figcaption>Audio-Technica AT2020<span class="credit">Image: Audio-Technica / <a href="https://www.audio-technica.co.jp/product/AT2020" target="_blank" rel="noopener">公式サイト</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0006H92QK"><a href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22">Audio-Technica AT2020の実売価格・レビューをAmazonで確認する →</a></p>
+
 AT2020 は宅録の入門機として、ここ20年不動の位置にある。単一指向性（カーディオイド）で、スピーカーやバウンスした音を拾いにくく、ボーカル録音に適している。48V ファントム電源が必須だが、ほぼすべてのオーディオインターフェイスが対応しているため、セットアップの手間は最小限だ。
 
 周波数特性は 20Hz 〜 20kHz で標準的。インピーダンス 100Ω という低インピーダンス設計のため、長いマイクケーブルでも扱いやすい。付属するのはスタンドマウントだけなので、ショックマウントやポップフィルターは必要に応じて買い足すことになるが、それを含めても5本の中でいちばん手頃に始められる。
@@ -57,6 +70,8 @@ AT2020 は宅録の入門機として、ここ20年不動の位置にある。�
 </a>
 <figcaption>RODE NT1-A の振動板（NT1 シリーズの旧モデル）<span class="credit">Photo: ElooKoN / <a href="https://commons.wikimedia.org/wiki/File:Rode_NT1-A_Diaphragm.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0BQHHZ1QQ"><a href="https://www.amazon.co.jp/dp/B0BQHHZ1QQ?tag=nakimoto1-22">RODE NT1 5th Generationの実売価格・レビューをAmazonで確認する →</a></p>
 
 RODE NT1 5th Generation は、2023 年 2 月に発表された NT1 の最新世代だ。単一指向性のカーディオイドで、AT2020 と用途は似ているが、**ノイズフロアの低さ**に加えて、XLR と USB-C の両方で接続できる点が大きな違いになる。
 
@@ -79,6 +94,8 @@ RODE はマイク修理の対応が手厚く、不具合があった場合のサ
 <figcaption>AKG C214（H85 ショックマウント付き）<span class="credit">Photo: Lucasbosch / <a href="https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B003SO5OZQ"><a href="https://www.amazon.co.jp/dp/B003SO5OZQ?tag=nakimoto1-22">AKG C214の実売価格・レビューをAmazonで確認する →</a></p>
+
 AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モデル。周波数特性は 20Hz 〜 20kHz で、中高域にほどよい張りがあり、ボーカルが前に出てくる。全金属のダイキャストボディで、スタジオでの酷使を前提にした作りだ。
 
 48V ファントム電源対応。インピーダンス 200Ω。H85 ショックマウント、ウインドスクリーン、金属ケースが付属するので、ポップフィルター以外はすぐにそろう。
@@ -99,6 +116,8 @@ AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モ�
 </a>
 <figcaption>Neumann TLM 102（リフレクションフィルターと組み合わせた例）<span class="credit">Photo: Alice Wiegand / <a href="https://commons.wikimedia.org/wiki/File:Neumann_TLM_102ni.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B01M63NR80"><a href="https://www.amazon.co.jp/dp/B01M63NR80?tag=nakimoto1-22">Neumann TLM 102の実売価格・レビューをAmazonで確認する →</a></p>
 
 Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ごろ」なモデルだが、実際には高級機の部類だ。単一指向性のカーディオイドで、周波数特性は 20Hz 〜 20kHz。特筆すべきは、**非常にニュートラルで透明感のある音質**である。
 
@@ -121,6 +140,8 @@ Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ご�
 <figcaption>Aston Origin とポップフィルター<span class="credit">Photo: Bizzarle / <a href="https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B019RVU0C0"><a href="https://www.amazon.co.jp/dp/B019RVU0C0?tag=nakimoto1-22">Aston Originの実売価格・レビューをAmazonで確認する →</a></p>
+
 Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に発売したモデル。**最大の特徴は、マイク本体に内蔵されたポップフィルターだ**。波形のようなヘッドの内側にメッシュが仕込まれていて、別途ポップフィルターを用意しなくても破裂音を抑えられる。
 
 単一指向性のカーディオイドで、周波数特性は 20Hz 〜 20kHz。ボーカルが突き抜けすぎず、まろやかに録音される傾向がある。48V ファントム電源対応。マイク本体には PAD（−10dB 減衰スイッチ）と FILTER（80Hz ハイパスフィルター）が搭載されており、ゲイン調整と低域カット処理ができる。
@@ -134,6 +155,8 @@ Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に
 ![Aston Origin レーダーチャート](/images/radar/aston-origin.svg)
 
 - セットアップ 5 / 操作性 4 / マイク立ち上げ 5 / 拡張性 2 / 耐久性 4
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 

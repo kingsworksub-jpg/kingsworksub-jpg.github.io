@@ -15,12 +15,25 @@ DTMの学び方を調べ始めると、無料の解説動画、数千円の動�
 
 私の考えでは、この境目は「何を学ぶか」ではなく「自分の曲を誰かに聴いてもらう必要があるか」で決まる。DAWの操作や音楽理論の知識は動画と本で十分に身につく。お金を払う価値がはっきり出てくるのは、自分の曲のどこが悪いのかを指摘してもらう部分、つまり添削だ。この記事では、動画で足りる部分と人に見てもらわないと止まる部分を分けたうえで、国内のオンラインスクールの料金体系と添削の有無を軸に、独学との線の引き方を整理していく。
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22">
+<img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Cubaseの画面と楽譜、鍵盤に向かう制作者</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## 動画で足りるのは「操作」と「知識」
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" width="1000" height="659" loading="lazy"></a>
 <figcaption>DAWの操作や書き出しの手順は、画面を見ながら覚えるのがいちばん早い。<span class="credit">Photo: Marco Raaphorst from The Hague, The Netherlands / CC BY 2.0</span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-4845641461"><a href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22">Cubaseの画面と楽譜、鍵盤に向かう制作者の実売価格・レビューをAmazonで確認する →</a></p>
 
 DAWの基本操作は、動画との相性がとても良い分野だ。トラックの作り方、ピアノロールへの打ち込み、プラグインの挿し方、オーディオの書き出しといった手順は、画面の動きをそのまま真似できる動画のほうが文字の解説より圧倒的に分かりやすい。国内には無料で読める解説記事や動画が大量にあり、主要なDAWであれば操作で困ったときに答えが見つからないことはまずない。英語圏まで含めれば、ほぼすべての機能に誰かの解説がある。
 
@@ -34,6 +47,8 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 <a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dtm-school/daw-mixing.jpg" alt="夜の自宅スタジオに並ぶモニターとMIDIキーボード" width="1000" height="678" loading="lazy"></a>
 <figcaption>夜の自宅スタジオ。ひとりで作業していると、自分の音の欠点にはなかなか気づけない。<span class="credit">Photo: Mooganic / CC BY 2.0</span></figcaption>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B00CDJ8GDE"><a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22">夜の自宅スタジオに並ぶモニターとMIDIキーボードの実売価格・レビューをAmazonで確認する →</a></p>
 
 独学で手が止まる場面は、だいたい決まっている。ひとつは、ループは作れるのに曲として最後まで仕上がらないこと。もうひとつは、完成させた曲がなんとなく素人っぽく聴こえるのに、どこを直せばいいのか分からないことだ。動画を何本見ても、そこに映っているのは他人の曲であって自分の曲ではない。一般論としての「低音を整理しよう」は理解できても、自分の曲のどの楽器のどの帯域が濁っているのかは、教えてもらわないとなかなか分からない。
 
@@ -72,6 +87,10 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 <figcaption>機材の前で説明を受ける見学者。人から直接教わると、手順の理由まで伝わりやすい。<span class="credit">Photo: W.carter / CC BY-SA 4.0</span></figcaption>
 </figure>
 
+<p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>
+
+<p class="cvr-text-link" data-cvr="text-B000CZ0R42"><a href="https://www.amazon.co.jp/dp/B000CZ0R42?tag=nakimoto1-22">録音機材の前で身振りを交えて説明する人物の実売価格・レビューをAmazonで確認する →</a></p>
+
 英語圏の音楽制作の学び方を見ると、知識と添削を分けて買う考え方がはっきりしている。大学レベルの講座をオンラインで無料聴講できる仕組みがあり、動画と読み物は無料で、課題の採点と修了証が欲しい人だけが1講座あたり数十ドルを払う、という形が定着している。大学のオンライン課程は、講師が課題に目を通してくれる代わりに、修了証の取得に数千ドル規模の費用がかかる。知識は安く、人の時間は高い、という値段の付き方がそのまま見える。
 
 その中間にあるのが、動画の定額講座に、講師が受講生のミックスを生配信で聴いて講評する時間を組み合わせた形だ。Produce Like A Proの「Feedback Friday」はその代表で、受講生が送ったミックスを講師が配信の中で聴き、どこを直せばいいかをその場で話していく。イギリスのPoint Blank Music Schoolのオンライン課程では、提出した曲に講師が個別の解説動画を返す仕組みを売りにしている。さらに、1曲だけ送ってプロのエンジニアに文書で講評してもらう単発の有料サービスも複数あり、1回あたり1万円台から3万円程度で利用できる。
@@ -87,6 +106,8 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 すでに数曲を仕上げていて、なんとなく物足りないのに原因が分からない人は、毎月のレッスンよりも1回払いのレッスンや単発の添削が向いている。自分の曲を1曲持ち込み、どこが一番の問題かを指摘してもらうだけで、次の数曲の方向がはっきりする。添削を受けたら、その指摘を次の曲で直せたかを自分で確かめ、また数か月後に聴いてもらう。この間隔で十分に効果があると感じている。
 
 どの段階でも共通して言えるのは、レッスンの前に自分の曲を用意しておくことだ。手ぶらで受けるレッスンは、どうしても一般的な説明に終わってしまう。曲が未完成でも、聴いてもらえる形にまとめて持っていくだけで、同じ料金で得られる中身が大きく変わる。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## まとめ
 

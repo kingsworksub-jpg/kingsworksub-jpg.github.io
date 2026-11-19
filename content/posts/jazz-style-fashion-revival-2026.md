@@ -13,6 +13,17 @@ ogImageHeight: 630
 
 その美学が、いま再び注目を集めている。2026年のファッションシーンでは、ラグジュアリーブランドからストリートウェアまで、あらゆるレベルでジャズに由来するスタイル要素が復活している。80年代のファッション史を振り返り、90年代のヒップホップがジャズをサンプリングしたように、現代のデザイナーたちはジャズスタイルという古い美学から新しい表現を生み出そうとしている。
 
+<div class="cvr-cta-block" data-cvr="cta-intro">
+<p class="cvr-cta-title">まずはこの一本から</p>
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22">
+<img src="/images/jazz-fashion/jazz-saxophone.jpg" alt="Jazz saxophonist performing" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Jazz saxophonist performing</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
+
 ## ジャズスタイルの起源——音楽と装いの一体性
 
 <figure class="photo photo--right">
@@ -21,16 +32,19 @@ ogImageHeight: 630
 <span class="credit">Photo: Unsplash / Jens Thekkeveettil</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
 <figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった</figcaption>
 <span class="credit">Photo: Pexels / Oscar Steiner</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
+
 2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
 
 現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
-
 
 ジャズの時代性を理解する上で、ファッションの役割は見落とされることが多い。だが1920年から1960年代にかけて、ジャズメンの装いは単なる流行ではなく、彼らの社会的立場と音楽的哲学を映す鏡だった。
 
@@ -60,6 +74,7 @@ ogImageHeight: 630
 <span class="credit">Photo: Pexels / cottonbro studio</span>
 </figure>
 
+<p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
 
 2026年現在、ジャズスタイルが再び脚光を浴びるのは、単なる懐古趣味ではない。現代のファッションシーンが、ある種の「精度回帰」を求めているからである。
 
@@ -88,6 +103,8 @@ ogImageHeight: 630
 <figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
 <span class="credit">Photo: Pixabay / tylermike525</span>
 </figure>
+
+<p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>
 
 ジャズスタイルは、この両立を可能にする。ピンストライプの細い線は、最小限の情報で最大限の表現力を生み出す。ダブルブレストの重ねられたボタンは、シンプルなシルエットの中に複雑性を隠し持つ。シャープな靴の輝きは、派手ではないが、確実に主張している。
 
@@ -118,6 +135,8 @@ ogImageHeight: 630
 ジャズメンたちが何度も何度もビバップのフレーズを反復し、その中から新しい音を生み出したように、現代のデザイナーたちもピンストライプとダブルブレストという「古いフレーズ」を現代に反復している。その反復の中から、新しい何かが生まれるのを待っている。
 
 足元のシャープな靴で床を叩き、胸に輝くピンストライプを光らせながら、誰もが自分のペースで、自分の音を刻んでいく——それがいま、ジャズスタイルが約束しているものなのだろう。
+
+<p class="cvr-assurance" data-cvr="assurance">サイズ感や設置場所、保証、ランニングコストやメンテナンスの手間まで含めて判断したい場合は、商品ページの仕様欄とレビューが参考になる。付属品と返品条件もあわせて確認しておけば、届いてから困ることはない。</p>
 
 ## 関連記事
 - [ゲンスブールの系譜を継ぐ、2026年のクラシック・フレンチスタイル](/posts/classic-french-style-revival-2026/)
