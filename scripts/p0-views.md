@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-19 22:14 JST
+- 生成: 2026-11-19 22:50 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
 - 対象記事: **267本** / 公開Markdown 267本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,196** / Amazonリンクあり記事: **222本**
+- 合計ビュー: **3,197** / Amazonリンクあり記事: **222本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -27,7 +27,7 @@
 | `piano-practice-apps-3choice-2026` | flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方 | 77 | 1 | 0 | 1 | P1候補 |
 | `sony-pslx3bt-deep-dive-2026` | Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答 | 66 | 1 | 0 | 1 | P1候補 |
 | `bodum-douro-carafe-deep-dive-2026` | BODUM DOUROを徳利として使う、ドウロ渓谷のぶどう畑を写した形 | 65 | 1 | 0 | 1 | P1候補 |
-| `budget-whisky-10choice-2026` | 千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し | 55 | 10 | 0 | 10 | P1候補 |
+| `budget-whisky-10choice-2026` | 千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し | 56 | 10 | 0 | 10 | P1候補 |
 | `odate-akita-sugi-sake-set-deep-dive-2026` | 秋田杉の香りをまとう日本酒、大館工芸社の酒器3点セット | 54 | 1 | 0 | 1 | P1候補 |
 | `canned-coffee-5choice-2026` | 缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線 | 52 | 5 | 0 | 5 | P1候補 |
 | `sodastream-terra-carbonation-guide-2026` | 炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さ | 45 | 4 | 0 | 4 | P1候補 |
@@ -114,7 +114,7 @@
 | `peacock-acf38-sake-set-deep-dive-2026` | 温度を止める徳利、ピーコックの真空二重構造 酒器セット | 12 | 1 | 0 | 1 | - |
 | `sherry-cask-5choice-2026` | シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから | 12 | 2 | 15 | 17 | - |
 | `tsugaru-vidro-katakuchi-ajisai-deep-dive-2026` | 津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花 | 12 | 1 | 0 | 1 | - |
-| `vertigo-dolly-zoom-hitchcock-2026` | ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした | 12 | 0 | 4 | 4 | 検索リンクのみ |
+| `vertigo-dolly-zoom-hitchcock-2026` | ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした | 12 | 1 | 0 | 1 | - |
 | `white-horse-fineold-deep-dive-2026` | ホワイトホース ファインオールドに宿るラガヴーリンの個性 | 12 | 1 | 0 | 1 | - |
 | `cubase-pro-15-deep-dive-2026` | Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15 | 11 | 1 | 0 | 1 | - |
 | `dodecamin-deep-dive-2026` | ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸 | 11 | 1 | 0 | 1 | - |
@@ -140,7 +140,7 @@
 | `yubikey-security-key-backup-guide-2026` | 物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予 | 10 | 3 | 0 | 3 | - |
 | `akai-mpk-mini-mk4-deep-dive-2026` | Akai MPK Mini MK4の25鍵でできること、上位機に任せること | 9 | 1 | 0 | 1 | - |
 | `black-friday-shopping-plan-2026` | ブラックフライデーの買い物計画は10月から始めたほうがいい | 9 | 4 | 0 | 4 | - |
-| `canadian-whisky-rye-4choice-2026` | カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける | 9 | 0 | 10 | 10 | 検索リンクのみ |
+| `canadian-whisky-rye-4choice-2026` | カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける | 9 | 2 | 3 | 5 | - |
 | `cassette-tape-revival-2026` | カセットテープはなぜ、すり減る媒体のまま店に戻ってきたのか | 9 | 1 | 2 | 3 | - |
 | `cubase-15-user-guide-book-2026` | 『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる | 9 | 1 | 0 | 1 | - |
 | `headphone-hydrolysis-parts` | 加水分解でベタつくヘッドホンを、純正パーツ2点で現役に戻す | 9 | 3 | 0 | 3 | - |
@@ -152,7 +152,7 @@
 | 1 | `piano-practice-apps-3choice-2026` | 77 | 1 | P1候補 |
 | 2 | `sony-pslx3bt-deep-dive-2026` | 66 | 1 | P1候補 |
 | 3 | `bodum-douro-carafe-deep-dive-2026` | 65 | 1 | P1候補 |
-| 4 | `budget-whisky-10choice-2026` | 55 | 10 | P1候補 |
+| 4 | `budget-whisky-10choice-2026` | 56 | 10 | P1候補 |
 | 5 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | 1 | P1候補 |
 | 6 | `canned-coffee-5choice-2026` | 52 | 5 | P1候補 |
 | 7 | `sodastream-terra-carbonation-guide-2026` | 45 | 4 | P1候補 |

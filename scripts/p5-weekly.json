@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-11-19 22:13 JST",
-  "total_views": 3196,
+  "generated_at": "2026-11-19 22:50 JST",
+  "total_views": 3197,
   "previous_total": 3196,
   "gainers": [
+    {
+      "slug": "budget-whisky-10choice-2026",
+      "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し",
+      "views": 56,
+      "delta": 1,
+      "amazon_links": 10
+    },
     {
       "slug": "piano-practice-apps-3choice-2026",
       "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方",
@@ -23,13 +30,6 @@
       "views": 65,
       "delta": 0,
       "amazon_links": 1
-    },
-    {
-      "slug": "budget-whisky-10choice-2026",
-      "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し",
-      "views": 55,
-      "delta": 0,
-      "amazon_links": 10
     },
     {
       "slug": "odate-akita-sugi-sake-set-deep-dive-2026",

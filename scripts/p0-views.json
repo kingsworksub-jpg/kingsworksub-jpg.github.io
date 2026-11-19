@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:14:03+09:00",
+  "generated_at": "2026-11-19T22:50:48+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -222,7 +222,7 @@
       "slug": "budget-whisky-10choice-2026",
       "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し",
       "date": "2026-09-17",
-      "views": 55,
+      "views": 56,
       "asins": 10,
       "search_links": 0,
       "amazon_links": 10
@@ -277,9 +277,9 @@
       "title": "カナディアンウイスキー4本、ライ麦が少なくても「ライ」と呼ばれる造りを飲み分ける",
       "date": "2026-10-16T21:30:00+09:00",
       "views": 9,
-      "asins": 0,
-      "search_links": 10,
-      "amazon_links": 10
+      "asins": 2,
+      "search_links": 3,
+      "amazon_links": 5
     },
     "canned-coffee-5choice-2026": {
       "slug": "canned-coffee-5choice-2026",
@@ -2221,9 +2221,9 @@
       "title": "ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした",
       "date": "2026-11-05T18:30:00+09:00",
       "views": 12,
-      "asins": 0,
-      "search_links": 4,
-      "amazon_links": 4
+      "asins": 1,
+      "search_links": 0,
+      "amazon_links": 1
     },
     "video-music-shared-desk-2026": {
       "slug": "video-music-shared-desk-2026",
