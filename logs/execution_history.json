@@ -8352,5 +8352,26 @@
       "全記事巡回済みのため、次回以降は古い記事から再点検。hugoビルドはこの環境に無く未確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T17:53:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-kissa-culture-2026"
+    ],
+    "actions": [
+      "jazz-kissa-culture-2026: ogImageWidth/Height(1200x630)を追加",
+      "全275記事を機械チェック(description長・images・OG寸法・H2数・figure配置/開閉): 他は公開記事に問題なし(draft:trueの2026-09-22系は対象外)",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/jazz-kissa-culture-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "公開記事のOG寸法欠落0件の継続確認",
+      "nea-jazz-masters-2026はH2が1つのみ(有料部分退避のため想定内)"
+    ],
+    "status": "完了"
   }
 ]
