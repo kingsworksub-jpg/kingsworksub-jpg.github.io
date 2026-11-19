@@ -137,3 +137,5 @@ scheduled_time: "21:30"
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
+
+映像の中のジャズ即興については、[ジャズ映画3本の実録と創作の境界](/posts/2026w40-064/)でも触れています。

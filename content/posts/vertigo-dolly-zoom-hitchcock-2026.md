@@ -106,3 +106,5 @@ scheduled_time: "18:30"
 - [「Tank!」から佐世保の喫茶店まで、アニメーションとジャズが出会う場所](https://kingsworksub-jpg.github.io/posts/anime-and-jazz/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
+
+映画とジャズの関係をもっと辿るなら、[『Round Midnight』『Bird』『Whiplash』に見る実録と創作の境界](/posts/2026w40-064/)も。
