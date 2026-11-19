@@ -21,6 +21,11 @@ scheduled_time: "20:00"
 
 ## v1から何が残り、v2で何が変わったのか
 
+<figure class="photo photo--left">
+<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c1-cassette-vhs.jpg" alt="テープ機材の例：VHSテープやカセットテープなどの磁気メディア" width="220" height="150" loading="lazy"></a>
+<figcaption>テープ機材の例：VHSやカセットなど磁気テープメディアが持つ経年変化のイメージ<span class="credit">Photo: Jacek Halicki / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 RC-20 Retro Colorが長く使われてきた理由のひとつは、ノイズやピッチの揺れ、サチュレーション、空間の響きといった要素を6つのモジュールに整理した明快なインターフェースにあります。v2でも、Wobble、Distort、Digital、Space、Lossといった基本となる質感づくりのモジュール群はそのまま継承されており、従来の操作感を失わずに音色を構築できる土台が残されています。
 
 そのうえでv2では、質感を加えるだけでなく「音を時間軸やデジタル領域で作り変える」ための要素が大きく強化されました。代表的な追加要素は、フィードバック内にエフェクトを組み込める「Echo」モジュール、テンポ同期で再生速度を落とせる「Varispeed」機能、そしてLossモジュール内に新設された「Codec」モードの3つです。
@@ -35,11 +40,6 @@ RC-20 Retro Colorが長く使われてきた理由のひとつは、ノイズや
 | Lossモジュールの表現 | ドロップアウト等のテープ劣化表現 | MP3風の劣化・パケットロス・フォルマントシフトを扱うCodecモードを追加 |
 | シグナルフロー | 固定された接続順 | ドラッグ操作によるモジュール並び替えに対応 |
 | 過去環境との互換 | — | v1とは別プラグインとして導入され、既存環境を保持 |
-
-<figure class="photo photo--left">
-<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c1-cassette-vhs.jpg" alt="テープ機材の例：VHSテープやカセットテープなどの磁気メディア" width="220" height="150" loading="lazy"></a>
-<figcaption>テープ機材の例：VHSやカセットなど磁気テープメディアが持つ経年変化のイメージ<span class="credit">Photo: Jacek Halicki / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 このように並べてみると、v2は単にプリセットや歪みの種類を増やしたアップデートではないことがわかります。ローファイという枠組みを保ちながら、ディレイの反響や再生速度の操作、シグナルチェーンの組み替えまでをひとつのプラグイン内で完結させる方向へ舵を切っています。
 
@@ -57,16 +57,16 @@ v2で新たに加わった「Echo」モジュールは、従来のSpaceモジュ
 
 ## テンポ同期でハーフタイム感を作るVarispeed機能
 
+<figure class="photo photo--right">
+<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c2-dat-cassette.jpg" alt="テープ機材の例：DATカセットとコンパクトカセットテープ" width="220" height="150" loading="lazy"></a>
+<figcaption>テープ機材の例：デジタルテープであるDATとコンパクトカセットのメディア比較<span class="credit">Photo: Inpriva / CC0</span></figcaption>
+</figure>
+
 もうひとつの大きな新要素である「Varispeed」は、音源の再生速度を1/2、1/4、1/8へと落としながら、ホストとなるDAWのテンポと同期させられる機能です。テープマシンの回転速度を遅くしたときに生じるピッチの低下と時間の引き伸ばしを、楽曲の拍感から外れることなく適用できる点が特徴となっています。
 
 従来の制作環境でハーフタイム的な処理を行う場合、オーディオ素材を一度書き出してタイムストレッチやピッチシフトを施すか、専用のタイム系エフェクトを併用する手間がかかっていました。Varispeedがプラグイン内に組み込まれたことで、MIDIで鳴らしているシンセやループ素材の音色を崩さずに、リアルタイムで速度感の対比を作れるようになります。
 
 特に注目したいのは、1/2だけでなく1/4や1/8といったさらに遅い倍率まで選択できる点です。1/2で重厚なハーフスピードの空気感を作るだけでなく、1/4や1/8まで落とすことで、元のフレーズが持っていたアタックや旋律を別のテクスチャや環境音のような響きへと変化させる使い方も視野に入ります。
-
-<figure class="photo photo--right">
-<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c2-dat-cassette.jpg" alt="テープ機材の例：DATカセットとコンパクトカセットテープ" width="220" height="150" loading="lazy"></a>
-<figcaption>テープ機材の例：デジタルテープであるDATとコンパクトカセットのメディア比較<span class="credit">Photo: Inpriva / CC0</span></figcaption>
-</figure>
 
 また、速度を落とす処理とWobbleやDistort、Echoといった他のモジュールを同時に組み合わせられる点も見逃せません。速度が半分になったことで伸びた減衰音に対して歪みや揺れが乗るため、単に音を低く遅くするのとは異なる、密度の高いローファイ表現へ直結します。
 
@@ -84,16 +84,16 @@ MP3風の圧縮劣化では、高域の倍音やステレオ感に独特の金�
 
 ## モジュール並び替えとv1プロジェクト共存の設計
 
+<figure class="photo photo--left">
+<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c3-studer-b67.jpg" alt="テープ機材の例：スタジオ用オープンリールテープレコーダーStuder B67" width="220" height="150" loading="lazy"></a>
+<figcaption>テープ機材の例：スタジオで用いられてきたオープンリール機のハードウェア外観<span class="credit">Photo: Robert Taylor / CC BY 2.0</span></figcaption>
+</figure>
+
 v2の仕様を確認するうえで、新機能の追加と同じくらい実務的な価値が高いのが「モジュールの並び替え」と「v1との共存仕様」です。Wobble、Distort、Digital、Space、Lossといった各モジュールは、ドラッグ操作によって接続順を自在に組み替えられるようになりました。
 
 エフェクトの順番が変わると最終的な出音が大きく変化するのは、ミックスの基本原理のひとつです。たとえば、Distortの後ろにSpaceやEchoを置けば歪んだ音に対して澄んだ残響がかかりますが、順番を逆にしてSpaceやEchoの後ろにDistortを配置すれば、残響音ごと歪んで密度の高い壁のようなサウンドになります。
 
 同様に、Wobbleによるピッチの揺れをEchoの前段に置くか後段に置くかによって、反響音全体が一緒に揺れるのか、反響のたびに揺れが複雑に重なり合うのかが変わってきます。v1では別のプラグインを前後に挿し分ける必要があったルーティングの工夫を、RC-20の画面内だけで完結できるようになった点は大きな進化です。
-
-<figure class="photo photo--left">
-<a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c3-studer-b67.jpg" alt="テープ機材の例：スタジオ用オープンリールテープレコーダーStuder B67" width="220" height="150" loading="lazy"></a>
-<figcaption>テープ機材の例：スタジオで用いられてきたオープンリール機のハードウェア外観<span class="credit">Photo: Robert Taylor / CC BY 2.0</span></figcaption>
-</figure>
 
 そして、制作環境を守るうえで重要なのが、v2がv1とは別個のプラグインとしてインストールされる仕様です。DAW上で過去のセッションファイルを開いた際、v1で組んだトラックはそのままv1のプラグインが読み込まれ、意図せず音が変化したりパラメーターがリセットされたりするトラブルを防げます。
 
@@ -113,14 +113,14 @@ v2の仕様を確認するうえで、新機能の追加と同じくらい実務
 
 ### ボーカルでの距離感演出とデジタル劣化
 
-ボーカルでは、曲中のメインフレーズではなく、コーラスやイントロ、間奏の掛け合いといった特定の場面で距離感を作る用途に馴染みやすいです。Echoモジュールを使えば、語尾の反響が繰り返されるたびにLossやDistortの質感を取り込みながら奥へ引っ込んでいくため、メインボーカルの帯域とぶつかりにくい処理ができます。
-
-さらに、Codecモードを活用してパケットロスやMP3風の圧縮劣化、フォルマントシフトを掛け合わせれば、電話越しや無線、低ビットレートのボイスメッセージのようなキャラクター作りも一台でこなせます。モジュールの並び替えによって、Codecで質感を削ったあとにSpaceやEchoで空間へ広げる流れも直感的に作れます。
-
 <figure class="photo photo--right">
 <a href="https://www.pluginboutique.com/product/2-Effects/44-Saturation/18184-RC-20-Retro-Color-v2" target="_blank" rel="noopener nofollow"><img src="/images/rc-20-v2/c4-revox-b77.jpg" alt="テープ機材の例：アナログオープンリールデッキRevox B77 MK II" width="220" height="150" loading="lazy"></a>
 <figcaption>テープ機材の例：2トラックのオープンリールレコーダーが持つアナログ回路のイメージ<span class="credit">Photo: Norbert Schnitzler / CC BY-SA 3.0</span></figcaption>
 </figure>
+
+ボーカルでは、曲中のメインフレーズではなく、コーラスやイントロ、間奏の掛け合いといった特定の場面で距離感を作る用途に馴染みやすいです。Echoモジュールを使えば、語尾の反響が繰り返されるたびにLossやDistortの質感を取り込みながら奥へ引っ込んでいくため、メインボーカルの帯域とぶつかりにくい処理ができます。
+
+さらに、Codecモードを活用してパケットロスやMP3風の圧縮劣化、フォルマントシフトを掛け合わせれば、電話越しや無線、低ビットレートのボイスメッセージのようなキャラクター作りも一台でこなせます。モジュールの並び替えによって、Codecで質感を削ったあとにSpaceやEchoで空間へ広げる流れも直感的に作れます。
 
 ### シンセやメロディループの加工
 

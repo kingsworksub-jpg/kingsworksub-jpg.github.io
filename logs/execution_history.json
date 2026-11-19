@@ -8226,5 +8226,26 @@
       "孤立記事 0件を目標(次回seo-audit要確認)"
     ],
     "status": "完了(一部のみ)"
+  },
+  {
+    "timestamp": "2026-11-19T11:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "rc-20-retro-color-v2"
+    ],
+    "actions": [
+      "figure4枚を段落途中からセクション見出し直後へ移動(CLAUDE.md配置ルール準拠)",
+      "全266記事のdescription長/images/H2数/figure配置を簡易スキャン: 他は意図的な導入部figureのみ",
+      "seo-audit.pyはPIL不具合で未実行、hugo未導入のためビルド確認不可",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/rc-20-retro-color-v2.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "daw-keyboard-shortcuts-workflow-order のfigure位置(段落途中2枚)を次回確認"
+    ],
+    "status": "完了(一部のみ)"
   }
 ]
