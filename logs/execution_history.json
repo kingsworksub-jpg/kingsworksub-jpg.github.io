@@ -8307,5 +8307,27 @@
       "hugoビルドはこの環境に無く未確認。次回以降もタグ開閉の機械チェックを継続"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T15:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-kissa-culture-2026",
+      "tsundoku-antilibrary-2026"
+    ],
+    "actions": [
+      "figureがセクション見出しの直前にあり本文が回り込まない配置(CLAUDE.md違反)を、見出し→figure→段落の順に修正(jazz-kissa 2箇所、tsundoku 1箇所)",
+      "未改善記事のdescription長/images/H2数/CTAマーカー/div・figure開閉を機械チェック: 他に問題なし",
+      "Hatena/Ameba/noteの改定案なし。seo-audit.pyはPIL不具合で未実行"
+    ],
+    "files_changed": [
+      "content/posts/jazz-kissa-culture-2026.md",
+      "content/posts/tsundoku-antilibrary-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figure直後に見出しが来る配置が全記事で0件であることの継続確認"
+    ],
+    "status": "完了"
   }
 ]
