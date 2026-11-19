@@ -20,7 +20,13 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/modal-jazz/miles-davis-1964
+<img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy">
+<span class="product-banner-info">
+<span class="product-banner-name">Miles Davis『Kind of Blue』</span>
+<span class="product-banner-cta">Amazonで見る →</span>
+</span>
+</a>
+</div>
 
 <p class="cvr-text-link" data-cvr="text-B00D1B8R9G"><a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1964年、ヘルシンキで演奏するマイルス・デイヴィスの実売価格・レビューをAmazonで確認する →</a></p>
 

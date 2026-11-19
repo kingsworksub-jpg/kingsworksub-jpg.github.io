@@ -8267,5 +8267,25 @@
       "導入部figureが3記事で段落直後配置: 次回、導入段落後でも回り込みが成立しているか確認"
     ],
     "status": "完了(一部のみ)"
+  },
+  {
+    "timestamp": "2026-11-19T13:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "modal-jazz-challenge"
+    ],
+    "actions": [
+      "導入部CTAブロックの<img>タグが途中で切れて壊れていた(後続HTMLが吸い込まれる)のを、同記事内の正規バナーマークアップで復元",
+      "全記事のdescription長/images/H2数・内部リンク・画像ファイル存在を機械チェック: 他に問題なし(2026-09-22の2記事はdraft、nea-jazz-mastersは有料記事の無料部分で意図的)",
+      "seo-audit.pyはPIL不具合で未実行。Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/modal-jazz-challenge.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "同種の切れた<img>/CTAブロック破損が他記事にないか、cvr_optimize出力の定期チェック"
+    ],
+    "status": "完了"
   }
 ]
