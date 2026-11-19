@@ -20,7 +20,7 @@ scheduled_time: "18:30"
 ## 1958年のサンフランシスコと、高所恐怖症の元刑事
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%81%E3%81%BE%E3%81%84+%E3%83%92%E3%83%83%E3%83%81%E3%82%B3%E3%83%83%E3%82%AF+Blu-ray&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B00AZQZ35Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/vertigo/poster.jpg" alt="オレンジ色の地に白い螺旋が渦を巻き、その中心を黒い人影が落ちていく『めまい』のポスター" width="220" height="341" loading="lazy">
 </a>
 <figcaption>ソール・バスがデザインした『めまい』のポスター。渦の中を落ちていく人影が、物語の芯をそのまま絵にしている<span class="credit">Photo: Saul Bass / Public domain</span></figcaption>
@@ -37,7 +37,7 @@ scheduled_time: "18:30"
 ## 酔った夜の感覚を、長い年月をかけて映像にした
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%81%E3%81%BE%E3%81%84+%E3%83%92%E3%83%83%E3%83%81%E3%82%B3%E3%83%83%E3%82%AF+Blu-ray&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B00AZQZ35Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/vertigo/hitchcock-novak.jpg" alt="撮影現場で椅子に座り、ベッドに横たわるキム・ノヴァクに身ぶりをまじえて話しかけるヒッチコック" width="220" height="176" loading="lazy">
 </a>
 <figcaption>撮影の合間にキム・ノヴァクへ指示を出すヒッチコック。宣伝用に撮られた現場写真<span class="credit">Photo: Paramount Pictures / Public domain</span></figcaption>
@@ -54,7 +54,7 @@ scheduled_time: "18:30"
 ## 引きながら寄ると、なぜ床が伸びて見えるのか
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%81%E3%81%BE%E3%81%84+%E3%83%92%E3%83%83%E3%83%81%E3%82%B3%E3%83%83%E3%82%AF+Blu-ray&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B00AZQZ35Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/vertigo/mission-san-juan-bautista.jpg" alt="白い壁にアーチが並び、木の梁の天井からシャンデリアが下がる、奥へまっすぐ伸びる伝道所の聖堂内部" width="220" height="146" loading="lazy">
 </a>
 <figcaption>サン・フアン・バウティスタ伝道所の聖堂内部。『めまい』の後半の舞台になった。奥へ向かう線が、遠近感の手がかりになる<span class="credit">Photo: Ligocsicnarf89 / CC BY 4.0</span></figcaption>
@@ -75,7 +75,7 @@ scheduled_time: "18:30"
 ## 恐怖を伝える「型」として受け継がれる
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%81%E3%81%BE%E3%81%84+%E3%83%92%E3%83%83%E3%83%81%E3%82%B3%E3%83%83%E3%82%AF+Blu-ray&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B00AZQZ35Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/vertigo/stewart-novak.jpg" alt="ソファの背にもたれるキム・ノヴァクを、後ろからジェームズ・スチュアートが抱き寄せている白黒の宣伝写真" width="220" height="297" loading="lazy">
 </a>
 <figcaption>『めまい』の宣伝用スチル。キム・ノヴァクとジェームズ・スチュアート<span class="credit">Photo: Paramount Pictures / Public domain</span></figcaption>

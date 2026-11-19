@@ -20,7 +20,7 @@ scheduled_time: "21:30"
 ## ライ麦の比率に下限がないのに、なぜ「ライ」なのか
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96+12%E5%B9%B4&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B07P6ZPZ6C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/canadian-whisky/aged-canadian.jpg" alt="カナディアンクラブ クラシック12年のボトル" width="700" height="650" loading="lazy">
 </a>
 <figcaption>カナディアンクラブの12年。ラベルには「カナディアン・ウイスキー」とだけある<span class="credit">Photo: User SElephant on zh.wikipedia / <a href="https://commons.wikimedia.org/wiki/File:Aged_Canadian_Whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
@@ -61,10 +61,10 @@ scheduled_time: "21:30"
 ## カナディアンクラブ、樽に入れる前に混ぜるという例外
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96+700ml&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B07P6ZPZ6C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/canadian-whisky/canadian-club.jpg" alt="カナディアンクラブ 1858 オリジナルのボトル" width="617" height="1000" loading="lazy">
 </a>
-<figcaption>首に創業年の1858が入ったカナディアンクラブの定番ボトル<span class="credit">Photo: Chris Woodrich / <a href="https://commons.wikimedia.org/wiki/File:Canadian_Club_1.14L,_Canada_(obverse),_2026-03-11.jpg" target="_blank" rel="noopener">CC BY 4.0</a> / <a href="https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96+700ml&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>首に創業年の1858が入ったカナディアンクラブの定番ボトル<span class="credit">Photo: Chris Woodrich / <a href="https://commons.wikimedia.org/wiki/File:Canadian_Club_1.14L,_Canada_(obverse),_2026-03-11.jpg" target="_blank" rel="noopener">CC BY 4.0</a> / <a href="https://www.amazon.co.jp/dp/B07P6ZPZ6C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 カナダのウイスキーと聞いて、日本でまず思い浮かぶのはこの銘柄だろう。ハイラム・ウォーカーが1858年、デトロイト川を挟んでアメリカと向かい合うオンタリオ州ウォーカーヴィルで蒸溜所を開いたのが始まりで、いまはサントリーの傘下にある。日本でもサントリーが扱っていて、700mlの定番品はどこの酒屋でも見かける。
@@ -84,10 +84,10 @@ scheduled_time: "21:30"
 ## クラウンローヤル、王室の訪問のために組まれた50の原酒
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%A4%E3%83%AB+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
+<a href="https://www.amazon.co.jp/dp/B0918YX5JQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/canadian-whisky/crown-royal-cask16.jpg" alt="クラウンローヤル カスクNo.16のボトルとグラス" width="750" height="1000" loading="lazy">
 </a>
-<figcaption>コニャック樽で仕上げた派生品のカスクNo.16。王冠の意匠は定番品と共通<span class="credit">Photo: Flickr user: @joefoodie / <a href="https://commons.wikimedia.org/wiki/File:Crown_Royal_Cask_No._16_whiskey.jpg" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%A4%E3%83%AB+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>コニャック樽で仕上げた派生品のカスクNo.16。王冠の意匠は定番品と共通<span class="credit">Photo: Flickr user: @joefoodie / <a href="https://commons.wikimedia.org/wiki/File:Crown_Royal_Cask_No._16_whiskey.jpg" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/dp/B0918YX5JQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 1939年、イギリス国王ジョージ6世と王妃がカナダを訪れることになった。君主がカナダの地を踏むのはこれが初めてで、当時のシーグラム社はこの訪問のために特別なウイスキーを用意した。それがクラウンローヤルの始まりである。王冠をかたどったボトルを紫の布袋に収めるという演出も、このときから続いている。贈り物として設計された酒らしい、華やかな出自だと思う。
@@ -166,8 +166,8 @@ scheduled_time: "21:30"
 
 | 銘柄 | 軽さ | ライ麦のスパイス | 甘さの厚み | 割っての伸び | 日本での入手性 |
 |---|---|---|---|---|---|
-| [カナディアンクラブ](https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96+700ml&tag=nakimoto1-22) | 5 | 2 | 3 | 5 | 5 |
-| [クラウンローヤル デラックス](https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%A4%E3%83%AB+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22) | 4 | 2 | 4 | 4 | 3 |
+| [カナディアンクラブ](https://www.amazon.co.jp/dp/B07P6ZPZ6C?tag=nakimoto1-22) | 5 | 2 | 3 | 5 | 5 |
+| [クラウンローヤル デラックス](https://www.amazon.co.jp/dp/B0918YX5JQ?tag=nakimoto1-22) | 4 | 2 | 4 | 4 | 3 |
 | [ロット40](https://www.amazon.co.jp/s?k=Lot+No.40+%E3%83%A9%E3%82%A4+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22) | 2 | 5 | 3 | 4 | 2 |
 | [アルバータ・プレミアム](https://albertadistillers.com/our-brands/alberta-premium) | 4 | 4 | 2 | 4 | 1 |
 

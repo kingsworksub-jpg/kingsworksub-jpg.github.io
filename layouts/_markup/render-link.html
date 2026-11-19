@@ -1,0 +1,2 @@
+{{- $isAmazon := findRE `amazon\.co\.jp` .Destination -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isAmazon }} target="_blank" rel="noopener sponsored nofollow"{{ end }}>{{ .Text | safeHTML }}</a>

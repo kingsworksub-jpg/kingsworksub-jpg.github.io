@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-11-19",
+  "source": "scripts/amazon_search.py (実ブラウザ・Amazon.co.jp検索結果)",
+  "note": "商品が特定できたクエリのみ。Lot No.40 は Amazon.co.jp に該当商品が見つからず検索リンクのまま。",
+  "mappings": [
+    {
+      "slug": "vertigo-dolly-zoom-hitchcock-2026",
+      "query": "めまい ヒッチコック Blu-ray",
+      "asin": "B00AZQZ35Q",
+      "title": "めまい [Blu-ray]",
+      "price": "￥1,400"
+    },
+    {
+      "slug": "canadian-whisky-rye-4choice-2026",
+      "query": "カナディアンクラブ 12年",
+      "asin": "B07P6ZPZ6C",
+      "title": "カナディアンクラブ 12年 クラシック 正規品 40度 700ml",
+      "price": "￥1,990"
+    },
+    {
+      "slug": "canadian-whisky-rye-4choice-2026",
+      "query": "カナディアンクラブ 700ml",
+      "asin": "B07P6ZPZ6C",
+      "title": "カナディアンクラブ 12年 クラシック 正規品 40度 700ml",
+      "price": "￥1,990"
+    },
+    {
+      "slug": "canadian-whisky-rye-4choice-2026",
+      "query": "クラウンローヤル ウイスキー",
+      "asin": "B0918YX5JQ",
+      "title": "クラウン ローヤル 40% 750ml [並行輸入品]",
+      "price": "￥3,131"
+    }
+  ]
+}
