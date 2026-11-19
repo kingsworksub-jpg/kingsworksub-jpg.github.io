@@ -8247,5 +8247,25 @@
       "daw-keyboard-shortcuts-workflow-order のfigure位置(段落途中2枚)を次回確認"
     ],
     "status": "完了(一部のみ)"
+  },
+  {
+    "timestamp": "2026-11-19T12:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "daw-keyboard-shortcuts-workflow-order"
+    ],
+    "actions": [
+      "前回持ち越しのfigure(ステップ2節で段落末尾にあったもの)を見出し直後へ移動",
+      "全記事のfigure位置を再スキャン: 残りは導入部figureのみ(chord-progression-learning-order-2026 / yubikey-security-key-backup-guide-2026 / daw-keyboard-shortcuts導入部、意図的と判断)",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/daw-keyboard-shortcuts-workflow-order.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "導入部figureが3記事で段落直後配置: 次回、導入段落後でも回り込みが成立しているか確認"
+    ],
+    "status": "完了(一部のみ)"
   }
 ]

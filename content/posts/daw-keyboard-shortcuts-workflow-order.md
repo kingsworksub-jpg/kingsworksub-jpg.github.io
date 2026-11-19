@@ -67,16 +67,16 @@ Ableton LiveやLogic ProのようなDAWでは、トランスポート操作（�
 
 ## 【ステップ2】編集の核になる「分割・複製」とズーム・ツール切り替え
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08XN3Z66F?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/daw-shortcuts/backlit-keyboard-2.jpg" alt="編集操作に使うキーボードのキー配列" width="220" height="150" loading="lazy"></a>
+<figcaption>ショートカット操作の拠点となるキーボード配列<span class="credit">Photo: Oboy2009 / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 再生や録音、取り消しの操作が意識せずにできるようになったら、次の段階としてオーディオやMIDIのデータを整える編集系のショートカットへ進みます。ここで中心になるのが、分割（Split / スプリット）と複製（Duplicate / デュプリケート）です。
 
 録音したフレーズの前後の無音部分を切り落としたり、特定の小節だけを切り出して並べ替えたりする作業では、分割が頻繁に登場します。メニューからハサミのアイコンを選んでクリックし、また選択ツールに戻すという手順をキーボードだけで完結できれば、手元の負担は大きく軽くなります。
 
 そして、切り出したフレーズや打ち込んだパターンを後ろの拍や小節へ並べていくときに活躍するのが複製です。コピーしてから貼り付け先へ再生ヘッドを移動し、さらにペーストするという複数工程を1アクションにまとめられるため、曲の構成を組み立てる速度が格段に上がります。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B08XN3Z66F?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/daw-shortcuts/backlit-keyboard-2.jpg" alt="編集操作に使うキーボードのキー配列" width="220" height="150" loading="lazy"></a>
-<figcaption>ショートカット操作の拠点となるキーボード配列<span class="credit">Photo: Oboy2009 / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B08XN3Z66F?tag=nakimoto1-22)
 
