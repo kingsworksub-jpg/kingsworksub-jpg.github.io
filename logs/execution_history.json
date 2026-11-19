@@ -8448,5 +8448,27 @@
       "vox-cola-flavor-deep-dive-2026の内部リンク追加"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T23:53:34Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "scarf-knots-guide",
+      "2026w40-064"
+    ],
+    "actions": [
+      "内部リンク0本だった2記事に関連記事リンクを追加(scarf-knots-guide: 3本、2026w40-064: 2本)",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/scarf-knots-guide.md",
+      "content/posts/2026w40-064.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事の継続的な解消",
+      "vox-cola-flavor-deep-dive-2026の内部リンク追加"
+    ],
+    "status": "完了"
   }
 ]
