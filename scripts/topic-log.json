@@ -3510,6 +3510,15 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-19T12:00:13+09:00"
+  },
+  {
+   "id": "2026w45-017",
+   "category": "setup",
+   "theme": "アンプを鳴らせない部屋のギター録音、アンプシミュレーターへの配線",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-19T17:32:01+09:00"
   }
  ]
 }

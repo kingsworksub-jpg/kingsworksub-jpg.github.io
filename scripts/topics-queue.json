@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:00:27+09:00",
+ "updated": "2026-11-19T17:32:01+09:00",
  "items": [
   {
    "category": "gear",
@@ -11818,14 +11818,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-017",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-11-08",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-19T12:00:27+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "setup",
