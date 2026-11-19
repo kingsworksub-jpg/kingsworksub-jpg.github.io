@@ -3540,6 +3540,18 @@
    "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-19T20:07:47+09:00"
+  },
+  {
+   "id": "2026w45-015",
+   "category": "software",
+   "theme": "RC-20 Retro Color v2、約10年ぶりの刷新でローファイの質感はどう変わったか",
+   "slug": "rc-20-retro-color-v2",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/rc-20-retro-color-v2/",
+   "hatena_entry": "14729835035340959257",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-19T20:16:15+09:00"
   }
  ]
 }

@@ -638,6 +638,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | 年末のDTM機材とプラグインの棚卸し | https://kinbro.hatenablog.com/entry/2026/11/16/142653 | 14729835035339177824 |
 | 物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予備キーの重要性 | https://kinbro.hatenablog.com/entry/2026/11/17/121500 | 14729835035339743974 |
 | Logic Pro 13登場：AIアシスタントと6分割Stem Splitterで音楽制作はどう変わるか | https://kinbro.hatenablog.com/entry/2026/11/18/121402 | 14729835035340266960 |
+| 10年ぶりの刷新となったRC-20 Retro Color v2、EchoとVarispeedが広げるローファイ処理 | https://kinbro.hatenablog.com/entry/2026/11/19/201510 | 14729835035340959257 |
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
