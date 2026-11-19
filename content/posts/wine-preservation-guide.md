@@ -3,6 +3,8 @@ title: "飲み残しワインは何日もつ？赤・白・スパークリング
 description: "開栓後のワインは酸素に触れると風味が変化します。赤・白ワインの冷蔵保存3〜5日、スパークリングワインの1〜3日という目安を整理し、真空ポンプや専用ストッパーを使って年末年始の飲み残しを適切に保つ具体的な手順と注意点を解説します。"
 images: ["/images/og/wine-preservation-guide.jpg"]
 date: "2026-11-19T23:02:52+09:00"
+ogImageWidth: 1200
+ogImageHeight: 630
 categories: ["drink-hack"]
 tags: ["ワイン保存", "酒ハック"]
 draft: false
@@ -66,12 +68,12 @@ scheduled_time: "23:00"
 
 ## 赤・白ワインを3〜5日もたせる実践手順と真空ポンプの使い方
 
-赤ワインと白ワインのスティルワインを冷蔵保存で3〜5日もたせるには、道具の有無にかかわらず開栓後から保管に至るまでの手順を手早く正確にこなすことが大切です。以下のステップに沿って処置を行うことで、無用な酸化を最小限に食い止められます。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=ワインセーバー&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wine-preservation-guide/wine2.jpg" alt="赤ワインのボトル" width="220" height="150" loading="lazy"></a>
 <figcaption>赤ワインも白ワインと同様に開栓後は栓をして冷蔵保管するのが基本<span class="credit">Photo: Agne27 / CC BY-SA 3.0</span></figcaption>
 </figure>
+
+赤ワインと白ワインのスティルワインを冷蔵保存で3〜5日もたせるには、道具の有無にかかわらず開栓後から保管に至るまでの手順を手早く正確にこなすことが大切です。以下のステップに沿って処置を行うことで、無用な酸化を最小限に食い止められます。
 
 [ワインセーバー 真空ポンプをAmazonで詳しく確認する](https://www.amazon.co.jp/dp/B00004S1DB?tag=nakimoto1-22)
 

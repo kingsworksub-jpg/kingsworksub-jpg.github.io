@@ -1,6 +1,6 @@
 ---
 title: "Playwrightの永続プロファイルを活用したログイン保持手法と運用時の注意点"
-description: "Playwrightのlaunch_persistent_contextを用いてログイン状態を維持し、自動化処理を効率化するための保存先選定や競合回避、運用時の注意点を詳細に解説する個人備忘録。"
+description: "Playwrightのlaunch_persistent_contextを用いてログイン状態を維持し、自動化処理を効率化するための保存先選定や競合回避、運用時の注意点を詳細に解説する個人備忘録。Chrome 136以降の制限や複数ジョブでの競合対策も整理する。"
 images: ["/images/og/playwright-persistent-profile-login-notes.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

@@ -8329,5 +8329,28 @@
       "figure直後に見出しが来る配置が全記事で0件であることの継続確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-19T16:53:21Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "wine-preservation-guide",
+      "playwright-persistent-profile-login-notes"
+    ],
+    "actions": [
+      "wine-preservation-guide: 見出し直後に figure を置く配置へ修正、ogImageWidth/Height を追加",
+      "playwright-persistent-profile-login-notes: description を97字→110字前後へ拡充",
+      "未改善だった残り5記事のタグ開閉・description・images・H2数を機械チェック: 他に問題なし。これで全記事が巡回済み",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/wine-preservation-guide.md",
+      "content/posts/playwright-persistent-profile-login-notes.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "全記事巡回済みのため、次回以降は古い記事から再点検。hugoビルドはこの環境に無く未確認"
+    ],
+    "status": "完了"
   }
 ]
