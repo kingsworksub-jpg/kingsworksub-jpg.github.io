@@ -3519,6 +3519,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-19T17:32:01+09:00"
+  },
+  {
+   "id": "2026w42-017",
+   "category": "learning",
+   "theme": "DAWのショートカットを覚える順番",
+   "slug": "daw-keyboard-shortcuts-workflow-order",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/daw-keyboard-shortcuts-workflow-order/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-19T17:46:21+09:00"
   }
  ]
 }
