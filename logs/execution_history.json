@@ -8176,5 +8176,29 @@
       "孤立記事13件→約5件(残: logic-pro-13, nengajou, 2026w40-064, pillow-batch, playwright-persistent-profile, hello)"
     ],
     "status": "完了(一部のみ)"
+  },
+  {
+    "timestamp": "2026-11-19T08:53:49Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "logic-pro-drummer-workflow-2026",
+      "python-venv-uv-first-environment-2026",
+      "python-perceptual-hash-image-compare",
+      "angels-share-evaporation-essay-2026"
+    ],
+    "actions": [
+      "孤立記事4件(logic-pro-13/pillow-batch/playwright-persistent-profile/nengajou)への内部リンクを関連記事末尾に追加",
+      "全記事のdescription/images欠落チェック: 欠落なし",
+      "seo-audit.pyはPIL不具合で未実行",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/(上記4記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事 残り: 2026w40-064, hello"
+    ],
+    "status": "完了(一部のみ)"
   }
 ]

@@ -83,3 +83,4 @@ Drummer機能の真骨頂は、内蔵エンジンによって構築された演�
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [note版はこちら](https://note.com/shining_finger01)
 - [Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか](/posts/logic-pro-mac-songwriting-2026/)
+- [Logic Pro 13登場：AIアシスタントと6分割Stem Splitterで音楽制作はどう変わるか](/posts/logic-pro-13-ai-assistant-drum-split-2026/)

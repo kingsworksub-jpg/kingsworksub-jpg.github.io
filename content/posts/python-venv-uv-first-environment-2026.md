@@ -133,3 +133,4 @@ uv の紹介で必ず出てくるのが速さで、Astral は pip より10倍か
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [PythonとPillowで画像を効率的に一括圧縮するスクリプトの実装と例外処理のポイント](/posts/pillow-batch-image-compress-2026/)

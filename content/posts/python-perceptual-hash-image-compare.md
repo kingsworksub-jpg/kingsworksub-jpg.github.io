@@ -149,3 +149,4 @@ print(imagehash.phash(a) - imagehash.phash(b))   # 0〜64
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)
+- [Playwrightの永続プロファイルを活用したログイン保持手法と運用時の注意点](/posts/playwright-persistent-profile-login-notes/)

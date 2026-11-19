@@ -100,3 +100,5 @@ scheduled_time: "23:00"
 - [シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから](https://kingsworksub-jpg.github.io/posts/sherry-cask-5choice-2026/)
 - [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](https://kingsworksub-jpg.github.io/posts/scotch-whisky-5choice-2026/)
 - [アイリッシュウイスキー入門。3回蒸溜は決まりではなく、ポットスチルの個性は生の大麦が作る](https://kingsworksub-jpg.github.io/posts/irish-whiskey-pot-still-guide-2026/)
+
+関連記事: [修理して使うか、買い替えるか](/posts/repair-instead-of-replace-essay-2026/) · [届くまでの時間をやりとりする――年賀状じまいと、85円の手紙に残る余白](/posts/nengajou-jimai-letter-time/)
