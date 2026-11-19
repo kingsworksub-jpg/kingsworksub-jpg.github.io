@@ -102,7 +102,7 @@ def setup_ga4(cred) -> None:
 
 
 def fetch_search_console(cred) -> None:
-    site = os.environ.get("SC_SITE_URL", "https://kingsworksub-jpg.github.io/").strip()
+    site = (os.environ.get("SC_SITE_URL") or "https://kingsworksub-jpg.github.io/").strip()
     try:
         from googleapiclient.discovery import build
     except ImportError as exc:

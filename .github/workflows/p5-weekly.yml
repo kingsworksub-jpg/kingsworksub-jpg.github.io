@@ -20,7 +20,7 @@ defaults:
 env:
   GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
   GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
-  SC_SITE_URL: ${{ secrets.SC_SITE_URL }}
+  SC_SITE_URL: ${{ secrets.SC_SITE_URL || 'https://kingsworksub-jpg.github.io/' }}
   AMAZON_STORAGE_STATE_B64: ${{ secrets.AMAZON_STORAGE_STATE_B64 }}
 
 jobs:
