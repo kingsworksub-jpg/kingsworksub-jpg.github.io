@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-19T23:00:59+09:00",
+ "updated": "2026-11-19T23:26:11+09:00",
  "queue": {
-  "published": 173,
+  "published": 174,
   "rejected": 10,
-  "approved": 41,
-  "in_progress": 1
+  "approved": 41
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published jazz-kissa-culture-2026",
+ "last_result": "published wine-preservation-guide",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

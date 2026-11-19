@@ -3564,6 +3564,18 @@
    "note_key": "n2fc016fc18e3",
    "engine": "gemini",
    "at": "2026-11-19T21:50:42+09:00"
+  },
+  {
+   "id": "2026w45-029",
+   "category": "drink-hack",
+   "theme": "飲み残しのワインを保存する、栓と冷蔵で何日もつか",
+   "slug": "wine-preservation-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/wine-preservation-guide/",
+   "hatena_entry": null,
+   "note_key": "n588aacee6ada",
+   "engine": "gemini",
+   "at": "2026-11-19T23:26:11+09:00"
   }
  ]
 }
