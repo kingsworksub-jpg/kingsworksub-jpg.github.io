@@ -113,3 +113,4 @@ scheduled_time: "17:30"
 - [耳コピの1週間で伸びるのは速さで、届く範囲はまだ広がらない](/posts/ear-training-one-week/)
 - [Charlie ParkerとDizzy Gillespie、ビバップが生まれた1940年代ニューヨークの5年間](/posts/bebop-52nd-street-nights/)
 - [コード進行は4つから覚える、度数と機能で耳を分ける学習の順番](/posts/chord-progression-learning-order-2026/)
+- [コルトレーン『Giant Steps』は3つのコードでできている。1週間で耳に入れる練習表](/posts/coltrane-giant-steps-ear-training-1week/)

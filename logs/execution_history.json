@@ -8148,5 +8148,33 @@
       "seo-auditは環境のPIL不具合で未実行(次回確認)",
       "未巡回記事は2026w40-064等のfigure配置は規約適合を確認済み"
     ]
+  },
+  {
+    "timestamp": "2026-11-19T07:54:03Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "modal-jazz-challenge",
+      "jazz-listening-guide-2026",
+      "parker-blues-ear-training-1week",
+      "hot-wine-spice-temperature-guide-2026",
+      "laptop-only-dtm-portable-setup-2026",
+      "yojohan-dtm-bedside-desk-2026",
+      "jazz-kissa-speaker-night-2026",
+      "jazz-festivals-2026"
+    ],
+    "actions": [
+      "内部リンクが0本の孤立記事13件を手動集計",
+      "関連する既存8記事の関連記事欄へ、孤立8記事(coltrane-giant-steps/japanese-jazz-sadao/temperature-kettle/studio-gear-year-end/guitar-recording-amp-sim/background-music/daiku-december等)へのリンクを追加",
+      "hugo未導入のためビルド未確認(markdownリンク追加のみ)",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/(上記8記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事13件→約5件(残: logic-pro-13, nengajou, 2026w40-064, pillow-batch, playwright-persistent-profile, hello)"
+    ],
+    "status": "完了(一部のみ)"
   }
 ]

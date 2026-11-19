@@ -121,3 +121,4 @@ scheduled_time: "20:00"
 - [冬の制作部屋で最初に買うのは暖房ではなく湿度計](/posts/winter-studio-humidity/)
 - [ノートPC1台でDTMを続けるなら、据え置きから持ち出すのは4つだけ](/posts/laptop-only-dtm-portable-setup-2026/)
 - [デスク裏の配線整理はケーブルトレーから。電源と信号の通り道を分けて、雑音と埃を減らす](/posts/desk-cable-tray-power-signal-2026/)
+- [アンプを鳴らせない部屋のギター録音：Hi-Z接続・ゲイン設定・DIリアンプの基本](/posts/guitar-recording-amp-sim-setup/)

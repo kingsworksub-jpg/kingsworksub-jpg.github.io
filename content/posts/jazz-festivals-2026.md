@@ -108,3 +108,4 @@ Kamasi Washington が saxophone を握りしめ、Esperanza Spalding が bass �
 
 - [2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ](/posts/cafe-jazz-lounge-piano-2026/)
 - [NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシェンの光彩](/posts/nea-jazz-masters-2026/)
+- [12月に第九が鳴るまで、1918年の徳島から1万人の合唱へ](/posts/daiku-december-japan-2026/)

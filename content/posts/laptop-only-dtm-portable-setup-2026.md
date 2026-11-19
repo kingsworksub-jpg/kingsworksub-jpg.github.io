@@ -128,3 +128,5 @@ CPUの余裕が足りないときは、重い音源やエフェクトを使っ�
 - [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
 - [3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ](/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/)
 - [Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)
+- [年末のDTM機材とプラグインの棚卸し、1年触らなかったものから売る・譲る・残すを決める](/posts/studio-gear-year-end-inventory-2026/)
+- [アンプを鳴らせない部屋のギター録音：Hi-Z接続・ゲイン設定・DIリアンプの基本](/posts/guitar-recording-amp-sim-setup/)
