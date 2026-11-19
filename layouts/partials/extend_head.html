@@ -5,6 +5,66 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ZL0DCF6JXB');
+
+/* P4: 記事別アフィリエイト計測。リンク先URLに ascsubtag を付け、
+   GA4 へ affiliate_click イベントを送る（既存リンク・本文は変更しない）。 */
+(function () {
+  function articleSlug() {
+    var m = location.pathname.match(/\/posts\/([^\/]+)\//);
+    return m ? m[1] : '';
+  }
+  function addAscsubtag() {
+    var slug = articleSlug();
+    if (!slug) return;
+    var links = document.querySelectorAll('a[href*="amazon.co.jp"]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      var href = a.getAttribute('href') || '';
+      if (!href) continue;
+      try {
+        var u = new URL(href, location.href);
+        if (u.hostname.indexOf('amazon.co.jp') === -1) continue;
+        if (!u.searchParams.has('ascsubtag')) {
+          u.searchParams.set('ascsubtag', 'kingsworksub-jpg-' + slug);
+          a.setAttribute('href', u.toString());
+        }
+      } catch (e) { /* 不正URLはそのまま */ }
+    }
+  }
+  function linkSource(a) {
+    var box = a.closest ? a.closest('.cvr-cta-block, .cvr-text-link, figure, table') : null;
+    if (!box) return 'other';
+    if (box.classList && box.classList.contains('cvr-cta-block')) return 'cta_intro';
+    if (box.classList && box.classList.contains('cvr-text-link')) return 'cvr_text_link';
+    if (box.tagName === 'FIGURE') return 'figure';
+    if (box.tagName === 'TABLE') return 'summary_table';
+    return 'other';
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    addAscsubtag();
+    document.addEventListener('click', function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href*="amazon.co.jp"]') : null;
+      if (!a) return;
+      var href = a.href || '';
+      var asin = (href.match(/amazon\.co\.jp\/(?:dp|gp\/product)\/([A-Z0-9]{10})/) || [])[1] || '';
+      var tag = (href.match(/[?&]tag=([^&]+)/) || [])[1] || '';
+      var sub = (href.match(/[?&]ascsubtag=([^&]+)/) || [])[1] || '';
+      if (typeof gtag === 'function') {
+        gtag('event', 'affiliate_click', {
+          article_slug: articleSlug(),
+          link_source: linkSource(a),
+          link_type: asin ? 'product' : 'search',
+          asin: asin,
+          tracking_id: tag,
+          ascsubtag: sub,
+          link_url: href.slice(0, 500),
+          page_path: location.pathname,
+          transport_type: 'beacon'
+        });
+      }
+    }, true);
+  });
+})();
 </script>
 {{- end }}
 {{- with .Params.ogImageWidth }}
