@@ -15,16 +15,16 @@ scheduled_time: "12:00"
 
 ただし、ただケーブルをつないでプラグインを立ち上げるだけでは、音がこもったり、音割れや演奏の遅れが起きたりして思うように弾けません。本記事では、機材のつなぎ方から適切なゲイン管理、レイテンシーを抑えるバッファー設定、さらにミックスの自由度を高めるDI録音とリアンプの手順まで順を追って解説します。
 
+## 1. Hi-Z入力につなぐ理由と通常のライン入力との違い
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Universal+Audio+Volt+276&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/guitar-recording/recording-equipment.jpg" alt="オーディオインターフェースや録音機材が並んだデスク環境" width="220" height="150" loading="lazy"></a>
 <figcaption>自宅録音向けのデスクトップ機材構成例<span class="credit">Photo: andrew pilling / CC BY-SA 2.0</span></figcaption>
 </figure>
 
-[Universal Audio Volt 276をAmazonで見る →](https://www.amazon.co.jp/dp/B09JNY39Q7?tag=nakimoto1-22)
-
-## 1. Hi-Z入力につなぐ理由と通常のライン入力との違い
-
 エレキギターをオーディオインターフェースへ直接つなぐ際、まず確認すべきなのが「Hi-Z（ハイ・ゼット）入力」や「INST（インストゥルメント）入力」の有無です。ギターのピックアップから出力される信号は高インピーダンスという電気的な性質を持っており、受け手となる機器側にもそれに合った高い入力インピーダンスが求められます。
+
+[Universal Audio Volt 276をAmazonで見る →](https://www.amazon.co.jp/dp/B09JNY39Q7?tag=nakimoto1-22)
 
 もしHi-Zに対応していない通常のライン入力やマイク入力へギターをそのまま接続すると、インピーダンスの不整合が起きてしまいます。その結果、ギター本来のきらびやかな高音域が削られたり、輪郭がぼやけて音の芯が細くなる「音痩せ」が発生したりするため、後からアンプシミュレーターで歪ませても抜けの良い音になりません。
 
@@ -77,14 +77,12 @@ Hi-Z入力を使用することで、ピックアップの特性に合わせた�
 
 ## 5. リアンプ用にクリーンなDI信号を素で録っておくメリット
 
-アンプシミュレーターを使う自宅録音でぜひ取り入れたいのが、加工されていない生のクリーンギター信号（DIトラック）をそのまま録音しておく運用です。DAW上でアンプシミュレーターをインサートして音を聴きながら演奏しても、トラックに記録される波形自体を素のクリーン信号にしておけば、後から何度でも音色を差し替えられます。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B004W8X748?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/guitar-recording/home-studio.jpg" alt="自宅スタジオでのギター録音およびモニタリング環境" width="220" height="150" loading="lazy"></a>
 <figcaption>アンプシミュレーターとDIを活用した自宅スタジオ環境<span class="credit">Photo: Dai Stanton / CC BY-SA 2.0</span></figcaption>
 </figure>
 
-[Classic Pro DIWDの価格とレビューをAmazonで見る](https://www.amazon.co.jp/dp/B004W8X748?tag=nakimoto1-22)
+アンプシミュレーターを使う自宅録音でぜひ取り入れたいのが、加工されていない生のクリーンギター信号（DIトラック）をそのまま録音しておく運用です。DAW上でアンプシミュレーターをインサートして音を聴きながら演奏しても、トラックに記録される波形自体を素のクリーン信号にしておけば、後から何度でも音色を差し替えられます。
 
 さらに本格的な環境を整える場合、ダイレクトボックス（DI）を活用してクリーンなDI信号を確実に確保する方法が有効です。たとえば「Classic Pro DIWD ダイレクトボックス」のようなパッシブDIを用意しておけば、リアンプやクリーンなDI録音において安定した信号分岐や入力処理が行えるようになります。
 

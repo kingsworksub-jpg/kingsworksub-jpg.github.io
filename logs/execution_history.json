@@ -8130,5 +8130,23 @@
       "ローカルでseo-audit.py --check-links実行"
     ],
     "status": "完了(一部のみ・孤立記事は残り15件)"
+  },
+  {
+    "timestamp": "2026-11-19T06:54:14Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "guitar-recording-amp-sim-setup"
+    ],
+    "actions": [
+      "figure配置をCLAUDE.md規則に合わせ、見出し(##1・##5)直後へ移動",
+      "Amazonリンクの重複(DIWD)を整理"
+    ],
+    "files_changed": [
+      "content/posts/guitar-recording-amp-sim-setup.md"
+    ],
+    "next_kpis": [
+      "seo-auditは環境のPIL不具合で未実行(次回確認)",
+      "未巡回記事は2026w40-064等のfigure配置は規約適合を確認済み"
+    ]
   }
 ]
