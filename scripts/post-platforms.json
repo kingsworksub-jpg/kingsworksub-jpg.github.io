@@ -3090,5 +3090,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-19T18:00:11+09:00"
+ },
+ "rc-20-retro-color-v2": {
+  "title": "10年ぶりの刷新となったRC-20 Retro Color v2、EchoとVarispeedが広げるローファイ処理",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14729835035340959257",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-19T21:00:11+09:00"
  }
 }
