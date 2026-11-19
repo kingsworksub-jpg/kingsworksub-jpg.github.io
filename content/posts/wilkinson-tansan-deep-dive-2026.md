@@ -20,10 +20,10 @@ aliases:
 
 ## 発祥は宝塚の天然炭酸鉱泉
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/wilkinson-tansan.jpg" alt="ウィルキンソン タンサン" width="700" height="2151" loading="lazy">
 </a>
-<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ウィルキンソン タンサン<span class="credit"><a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

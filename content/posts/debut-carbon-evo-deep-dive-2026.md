@@ -20,10 +20,10 @@ Pro-Jectは、Debutシリーズを「本格オーディオへの、いちばん�
 
 ## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
 </a>
-<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

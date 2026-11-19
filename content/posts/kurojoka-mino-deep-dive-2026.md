@@ -20,10 +20,10 @@ aliases:
 
 ## 「黒千代香」という名前の由来
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kurojoka-mino-2go-set.jpg" alt="国産美濃焼 黒千代香 2合セット" width="1280" height="960" loading="lazy">
 </a>
-<figcaption>国産美濃焼 黒千代香 2合セット<span class="credit"><a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>国産美濃焼 黒千代香 2合セット<span class="credit"><a href="https://www.amazon.co.jp/dp/B002T3IKIU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

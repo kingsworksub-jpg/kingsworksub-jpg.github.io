@@ -20,10 +20,10 @@ aliases:
 
 ## ポッカサッポロという製造元と、25年続くブランド
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kiretolemon-wlemon.jpg" alt="キレートレモン Wレモン" width="596" height="596" loading="lazy">
 </a>
-<figcaption>キレートレモン Wレモン 炭酸飲料 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>キレートレモン Wレモン 炭酸飲料 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09RSP32SR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

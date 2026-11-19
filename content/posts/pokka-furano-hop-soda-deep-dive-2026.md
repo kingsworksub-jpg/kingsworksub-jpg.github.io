@@ -18,10 +18,10 @@ aliases:
 
 ## ポッカとサッポロ、ふたつの飲料事業が合流してできた一本
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/pokka-furano-hop-soda.jpg" alt="北海道富良野ホップ炭酸水" width="1040" height="1040" loading="lazy">
 </a>
-<figcaption>ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ポッカサッポロ 北海道富良野ホップ炭酸水 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CP79814S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 この製品を作っているポッカサッポロフード&ビバレッジは、その名の通り「ポッカ」と「サッポロ」が合流してできた会社だ。缶コーヒーやジュースでおなじみのポッカコーポレーションを、ビール大手のサッポロホールディングスが2011年に子会社化し、2013年にサッポロ飲料・ポッカコーポレーション・北海道ポッカコーポレーションが合併してポッカサッポロフード&ビバレッジが発足している。

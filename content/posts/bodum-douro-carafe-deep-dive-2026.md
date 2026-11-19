@@ -18,7 +18,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">BODUM DOURO 徳利/カラフェ 360ml</span>
@@ -29,13 +29,13 @@ aliases:
 
 ## デンマークのガラス輸入商から始まったブランド
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" width="1200" height="1200" loading="lazy">
 </a>
-<figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>BODUM(ボダム) DOURO 徳利/カラフェ 360ml(12132-10)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B09LH94YWS"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22">BODUM DOURO 徳利/カラフェ 360mlの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B09LH94YWS"><a href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">BODUM DOURO 徳利/カラフェ 360mlの実売価格・レビューをAmazonで確認する →</a></p>
 
 BODUMは1944年、デンマーク・コペンハーゲンでPeter Bodumが興した会社だ。最初はガラス製品の輸入業だったというのが面白いところで、そこからバキュームコーヒーメーカーに出会ったのをきっかけに自社デザインへと舵を切っていく。1958年に発売した「SANTOS」が世界的な評価を得て、ブランドの名を一気に広めた。
 

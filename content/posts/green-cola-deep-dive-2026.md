@@ -18,10 +18,10 @@ aliases:
 
 ## ギリシャ生まれのブランドが日本に来た経緯
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/green-cola.jpg" alt="green cola(グリーンコーラ)" width="1351" height="4199" loading="lazy">
 </a>
-<figcaption>green cola(グリーンコーラ) 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>green cola(グリーンコーラ) 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0H75QM1RZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 「green cola」は2012年にギリシャで生まれたブランドで、すでに世界50カ国以上で売られているという。アサヒ飲料が国際的な食品見本市でこのブランドを見つけ、日本向けにライセンス契約を結んで持ち込んだのが今回の展開の経緯だ。2026年5月12日にまず東京・埼玉・千葉・神奈川のコンビニ限定で先行発売し、同年8月4日に全国のコンビニ・スーパーへと販路を広げている。

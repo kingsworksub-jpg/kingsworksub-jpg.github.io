@@ -7,6 +7,7 @@
   - はてなブログ: hatena-img-sub-22
   - note:         note-img-sub-22
   - Ameba:        ameba-img-sub-22
+  - X:            x-img-22
 
 amazon.co.jp への URL に含まれる tag= の値だけを対象に書き換える(他ドメインの
 クエリパラメータに誤爆しないよう、amazon.co.jp を含むURL文字列に限定してマッチする)。
@@ -29,6 +30,7 @@ TAGS = {
     "hatena": "hatena-img-sub-22",
     "note": "note-img-sub-22",
     "ameba": "ameba-img-sub-22",
+    "x": "x-img-22",
 }
 
 # amazon.co.jp を含む URL 全体にマッチ(href="..."・Markdown リンクの (...)・生URLのいずれでも

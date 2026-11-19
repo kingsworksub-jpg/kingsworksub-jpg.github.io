@@ -20,10 +20,10 @@ aliases:
 
 ## 1996年生まれ、もう30年選手のロングセラー
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/otsuka-match.jpg" alt="大塚食品 MATCH マッチ 500ml×24本" width="400" height="440" loading="lazy">
 </a>
-<figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>大塚食品 MATCH マッチ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08XPC1N8Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -116,7 +116,7 @@ def _intro_cta(p: dict) -> str:
     return (
         '<div class="cvr-cta-block" data-cvr="cta-intro">\n'
         '<p class="cvr-cta-title">まずはこの一本から</p>\n'
-        f'<a class="product-banner" href="{p["url"]}">{img}\n'
+        f'<a class="product-banner" href="{p["url"]}" target="_blank" rel="noopener sponsored nofollow">{img}\n'
         '<span class="product-banner-info">\n'
         f'<span class="product-banner-name">{p["name"]}</span>\n'
         '<span class="product-banner-cta">Amazonで見る →</span>\n'
@@ -129,7 +129,7 @@ def _intro_cta(p: dict) -> str:
 def _text_link(p: dict) -> str:
     return (
         f'<p class="cvr-text-link" data-cvr="text-{p["asin"]}">'
-        f'<a href="{p["url"]}">{p["name"]}の実売価格・レビューをAmazonで確認する →</a>'
+        f'<a href="{p["url"]}" target="_blank" rel="noopener sponsored nofollow">{p["name"]}の実売価格・レビューをAmazonで確認する →</a>'
         "</p>"
     )
 

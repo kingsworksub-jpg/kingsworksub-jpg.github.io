@@ -20,10 +20,10 @@ aliases:
 
 ## 漁業用の浮き玉から始まったガラス工芸
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/tsugaru-vidro-nebuta-sake-set.jpg" alt="アデリア 津軽びいどろ NEBUTA 酒器セット" width="1600" height="1600" loading="lazy">
 </a>
-<figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>アデリア(ADERIA) 津軽びいどろ NEBUTA 酒器セット(FS71551)<span class="credit"><a href="https://www.amazon.co.jp/dp/B019DM82EQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

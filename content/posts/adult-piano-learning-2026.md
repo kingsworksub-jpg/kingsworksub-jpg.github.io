@@ -16,7 +16,7 @@ ogImageHeight: 630
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/piano/practice.jpg" alt="ピアノの練習風景" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ピアノの練習風景</span>
@@ -32,7 +32,7 @@ ogImageHeight: 630
 <figcaption>鍵盤を前にしたとき、指を鍛えることよりもコードとスケールの関係を視覚的に理解することが優先される。<span class="credit">Photo: zaui/Scott Catron / CC BY-SA 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">ピアノの練習風景の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ピアノの練習風景の実売価格・レビューをAmazonで確認する →</a></p>
 
 音楽制作を行う者にとって、鍵盤楽器はステージで華麗なソロを弾くための専用機材というよりも、頭の中にあるコード進行やメロディを素早く視覚化し、DAWのピアノロールに落とし込むためのインターフェースに近い。
 

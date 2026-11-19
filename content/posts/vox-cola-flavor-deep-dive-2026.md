@@ -30,7 +30,7 @@ VOX ブランドはこの体制で2016年に始まった。Sports・Music・Fash
 
 ## 5.0GV は業界でどのあたりの位置なのか
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01HGFBZ2I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/vox-cola-flavor.jpg" alt="VOX 強炭酸水 コーラフレーバー 500ml×24本" width="900" height="900" loading="lazy">
 </a>
 <figcaption>VOX 強炭酸水 コーラフレーバー 500ml×24本<span class="credit">画像提供：<a href="https://mall.folda.com/products/vox-001">FOLDA公式オンラインモール</a></span></figcaption>

@@ -18,10 +18,10 @@ aliases:
 
 ## 高岡が育てた、曲がる金属
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/nousaku-tin-sake-set.jpg" alt="能作 本錫100%酒器セット" width="700" height="700" loading="lazy">
 </a>
-<figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>能作 本錫100%酒器セット(ぐい呑み・片口小)<span class="credit"><a href="https://www.amazon.co.jp/dp/B01N24OSZT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 能作の創業は1916年。高岡銅器という400年続く鋳物産地で、仏具や茶道具、花瓶を手がける工房として始まった会社だ。転機になったのは2003年、世界初とうたう「100%純錫」のテーブルウェアラインを立ち上げたこと。普通、錫の器はアンチモンや銅などを混ぜた合金にして硬さを持たせるものだが、能作はあえて硬化材を一切加えず、純度100%に近い錫のまま鋳造する道を選んだ。

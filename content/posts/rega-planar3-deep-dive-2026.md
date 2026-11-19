@@ -20,10 +20,10 @@ Regaは、Planarシリーズを「質量ではなく、軽さと剛性で音楽�
 
 ## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3" width="1600" height="800" loading="lazy">
 </a>
-<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

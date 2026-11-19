@@ -30,7 +30,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Technics SL-1200MK7</span>
@@ -42,13 +42,13 @@ aliases:
 ## Technics SL-1200MK7 — 玄人が黙って選ぶ定番
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
 </a>
-<figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Technics SL-1200MK7<span class="credit"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07S2JY9DH"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22">Technics SL-1200MK7の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07S2JY9DH"><a href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Technics SL-1200MK7の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Technics SL-1200MK7の使いやすさレーダーチャート](/images/radar/sl-1200mk7.svg)
 
@@ -63,13 +63,13 @@ aliases:
 ## Audio-Technica AT-LP120XUSB — 良くも悪くも「普通」に強い
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/at-lp120xusb.png" alt="AT-LP120XUSB" width="600" height="600" loading="lazy">
 </a>
-<figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>AT-LP120XUSB<span class="credit"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07RDYH9S7"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22">AT-LP120XUSBの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07RDYH9S7"><a href="https://www.amazon.co.jp/dp/B07RDYH9S7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">AT-LP120XUSBの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![AT-LP120XUSBの使いやすさレーダーチャート](/images/radar/at-lp120xusb.svg)
 
@@ -84,13 +84,13 @@ aliases:
 ## Rega Planar 3 — 英国紳士の、静かな完成度
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/rega-planar3.jpg" alt="Rega Planar 3" width="1600" height="800" loading="lazy">
 </a>
-<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Rega Planar 3<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B01HPZTS6E"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22">Rega Planar 3の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B01HPZTS6E"><a href="https://www.amazon.co.jp/dp/B01HPZTS6E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Rega Planar 3の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Rega Planar 3の使いやすさレーダーチャート](/images/radar/rega-planar3.svg)
 
@@ -105,13 +105,13 @@ aliases:
 ## Pro-Ject Debut Carbon EVO — 気配りの効いた優等生
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/debut-carbon-evo.jpg" alt="Pro-Ject Debut Carbon EVO" width="1600" height="1068" loading="lazy">
 </a>
-<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Pro-Ject Debut Carbon EVO<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B08FRL1KMH"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22">Pro-Ject Debut Carbon EVOの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B08FRL1KMH"><a href="https://www.amazon.co.jp/dp/B08FRL1KMH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Pro-Ject Debut Carbon EVOの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Pro-Ject Debut Carbon EVOの使いやすさレーダーチャート](/images/radar/debut-carbon-evo.svg)
 
@@ -126,13 +126,13 @@ aliases:
 ## Sony PS-LX310BT — とにかく気軽に鳴らしたい人へ
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
 </a>
-<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
 
 (PS-LX310BTは生産終了のため、直系の後継機を案内)
 

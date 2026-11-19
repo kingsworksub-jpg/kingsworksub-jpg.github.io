@@ -20,10 +20,10 @@ aliases:
 
 ## 富士山麓の地層が磨いた水
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/fuji-strong-soda.png" alt="富士山の強炭酸水" width="600" height="600" loading="lazy">
 </a>
-<figcaption>富士山の強炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>富士山の強炭酸水<span class="credit"><a href="https://www.amazon.co.jp/dp/B09LCRNQT4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

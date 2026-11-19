@@ -20,10 +20,10 @@ aliases:
 
 ## 浮き玉づくりから食卓の器へ
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/tsugaru-vidro-katakuchi-ajisai.jpg" alt="津軽びいどろ 片口あじさい 250ml" width="1600" height="1600" loading="lazy">
 </a>
-<figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>アデリア(ADERIA) 津軽びいどろ 片口 あじさい 250ml(F71403)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00PXL3Z76?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

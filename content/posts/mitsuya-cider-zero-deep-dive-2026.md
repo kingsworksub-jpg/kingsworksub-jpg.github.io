@@ -20,10 +20,10 @@ aliases:
 
 ## 名前が示す通りの改称
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/mitsuya-cider-zero.jpg" alt="三ツ矢サイダーZERO" width="700" height="1776" loading="lazy">
 </a>
-<figcaption>三ツ矢サイダーZERO<span class="credit"><a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>三ツ矢サイダーZERO<span class="credit"><a href="https://www.amazon.co.jp/dp/B01B2NN7MG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

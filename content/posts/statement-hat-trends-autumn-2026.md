@@ -13,7 +13,7 @@ draft: false
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/hat-trends-autumn/wide-brim-hat-backlit.jpg" alt="逆光の中、つば広の帽子を被った女性のモノクロ写真" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">逆光の中、つば広の帽子を被った女性のモノクロ写真</span>
@@ -40,7 +40,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 <span class="credit">Photo: Toni Hukkanen / Unsplash (CC0)</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DK8CTWY9"><a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22">逆光の中、つば広の帽子を被った女性のモノクロ写真の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DK8CTWY9"><a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">逆光の中、つば広の帽子を被った女性のモノクロ写真の実売価格・レビューをAmazonで確認する →</a></p>
 
 最も直球的なステートメントハット。ウールやフェルトを張った堂々たるシルエット。高く立った王冠部分、カチッと張った縁取り——一度かぶれば、周囲の視線が自動的にそこに吸収される。
 
@@ -63,7 +63,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 <span class="credit">Photo: Capuniverse / Wikimedia Commons (CC BY-SA 4.0)</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0B3XCDF9Z"><a href="https://www.amazon.co.jp/dp/B0B3XCDF9Z?tag=nakimoto1-22">8枚はぎのベーカーボーイキャップを被った男性の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0B3XCDF9Z"><a href="https://www.amazon.co.jp/dp/B0B3XCDF9Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">8枚はぎのベーカーボーイキャップを被った男性の実売価格・レビューをAmazonで確認する →</a></p>
 
 帽子とアートの境界線を曖昧にするデザイン群。ウシャンカの影響を受けた大型ファートリム付き、幾何学的なフォルム、グラフィック要素やタイポグラフィを施したステートメント・ビーニー。Fashion Week のランウェイから生まれたこれらのピースは、「日常着」というより「宣言」だ。
 
@@ -100,7 +100,7 @@ Fashion Week のランウェイから社会へ、その波紋が広がってい�
 <span class="credit">Photo: Brooke Cagle / Unsplash (CC0)</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DK8CTWY9"><a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22">淡いニットに黒のつば広帽を合わせた女性の後ろ姿の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DK8CTWY9"><a href="https://www.amazon.co.jp/dp/B0DK8CTWY9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">淡いニットに黒のつば広帽を合わせた女性の後ろ姿の実売価格・レビューをAmazonで確認する →</a></p>
 
 オーバーサイズの帽子やテクスチャード・デザインを選んだら、他の要素はそれを支援する脇役に回す。シンプルで、ラインの美しいトップスとボトムスが理想的。帽子の形状とテクスチャーに視線が集中するように、全体を整える。
 

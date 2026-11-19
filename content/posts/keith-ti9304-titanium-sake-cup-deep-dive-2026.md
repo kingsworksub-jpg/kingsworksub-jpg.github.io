@@ -20,10 +20,10 @@ aliases:
 
 ## 金型製造から始まったチタン専業ブランド
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/keith-ti9304-sake-cup.jpg" alt="KEITH 純チタン おちょこ 酒器 2個セット Ti9304" width="800" height="800" loading="lazy">
 </a>
-<figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>KEITH 純チタン おちょこ 酒器 2個セット(Ti9304)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0HG4PGR4Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

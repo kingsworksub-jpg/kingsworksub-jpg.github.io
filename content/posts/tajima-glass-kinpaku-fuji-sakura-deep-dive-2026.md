@@ -20,10 +20,10 @@ aliases:
 
 ## 「被せ硝子」という二重構造
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/tajima-glass-fuji-sakura.png" alt="田島硝子 金箔富士 冷酒杯(桜)" width="1200" height="1200" loading="lazy">
 </a>
-<figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>田島硝子 金箔富士 冷酒杯(桜)<span class="credit"><a href="https://www.amazon.co.jp/dp/B088K6V7KV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

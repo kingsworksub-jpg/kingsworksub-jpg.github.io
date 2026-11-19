@@ -20,7 +20,7 @@ tags: ["菅野よう子", "カウボーイビバップ", "坂道のアポロン"
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/anime-jazz/satchmo-carnegie-hall-1947.jpg" alt="1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…</span>
@@ -36,7 +36,7 @@ tags: ["菅野よう子", "カウボーイビバップ", "坂道のアポロン"
   <figcaption>1947年2月、ニューヨーク・カーネギーホール。マイクに口をつける Louis Armstrong<span class="credit">Photo: William P. Gottlieb / Library of Congress（パブリックドメイン）</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00FW67HVC"><a href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22">1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00FW67HVC"><a href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…の実売価格・レビューをAmazonで確認する →</a></p>
 
 『カウボーイビバップ』の制作記録は、確かな数字の並びで組み立てることができます。テレビ東京での放送は1998年4月3日に始まりました。演出は渡辺信一郎、シリーズ構成は信本敬子、キャラクターデザイン兼作画指導は川元利浩。音楽は菅野よう子で、音楽プロデューサー佐々木史朗と太田敏明。アニメーション制作はサンライズです。
 
@@ -57,7 +57,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
   <figcaption>2010年7月2日、Anime Expo 2010 のステージで演奏する菅野よう子と中嶋美嘉<span class="credit">Photo: Dennis Amith / CC BY-SA 2.0 / Wikimedia Commons</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B009W67NI0"><a href="https://www.amazon.co.jp/dp/B009W67NI0?tag=nakimoto1-22">2010年のステージで演奏する菅野よう子と中嶋美嘉の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B009W67NI0"><a href="https://www.amazon.co.jp/dp/B009W67NI0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">2010年のステージで演奏する菅野よう子と中嶋美嘉の実売価格・レビューをAmazonで確認する →</a></p>
 
 彼女のジャズ観は、穏やかではありません。こう語っています。
 
@@ -92,7 +92,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
   <figcaption>1945年9月、終戦直後の佐世保市街<span class="credit">Photo: U.S. Navy（パブリックドメイン）</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-4868310054"><a href="https://www.amazon.co.jp/dp/4868310054?tag=nakimoto1-22">1945年9月、叩き壊された佐世保の市街を望むの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-4868310054"><a href="https://www.amazon.co.jp/dp/4868310054?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1945年9月、叩き壊された佐世保の市街を望むの実売価格・レビューをAmazonで確認する →</a></p>
 
 2012年4月12日から6月28日まで、フジテレビのノイタミナで12話が放送された『坂道のアポロン』は、制作がMAPPAと手塚プロダクション。監督と絵コンテ・演出は渡辺信一郎、音楽は菅野よう子。原作は小玉ユキの漫画で、2007年11月号から2012年3月号まで月刊フラワーズに連載され、全9巻です。
 
@@ -117,7 +117,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
   <figcaption>1981年6月26日の Art Blakey<span class="credit">Photo: Bernard Gotfryd / Library of Congress（パブリックドメイン）</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00000I8UF"><a href="https://www.amazon.co.jp/dp/B00000I8UF?tag=nakimoto1-22">1981年6月26日のArt Blakeyの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00000I8UF"><a href="https://www.amazon.co.jp/dp/B00000I8UF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1981年6月26日のArt Blakeyの実売価格・レビューをAmazonで確認する →</a></p>
 
 アニメの音楽は、2012年4月25日にエピックレコードジャパンから発売されました。全24曲です。
 
@@ -132,7 +132,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
   <figcaption>1963年10月26日、アムステルダム・スキッホル空港に到着した John Coltrane<span class="credit">Photo: Hugo van Gelderen / Anefo（CC0）</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0018RWD6I"><a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22">1963年10月26日、アムステルダムのスキッホル空港に着いたJoh…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0018RWD6I"><a href="https://www.amazon.co.jp/dp/B0018RWD6I?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1963年10月26日、アムステルダムのスキッホル空港に着いたJoh…の実売価格・レビューをAmazonで確認する →</a></p>
 
 24曲のうち、実在するジャズの曲として並んでいるのは11曲です。
 
@@ -157,7 +157,7 @@ van Gelder は1949年に自宅の居間で録音を始め、1959年に新しい�
   <figcaption>2024年、東京・南青山の Blue Note 前の通り<span class="credit">Photo: Kazuhisa OTSUBO / CC BY 2.0 / Wikimedia Commons</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00000AVOZ"><a href="https://www.amazon.co.jp/dp/B00000AVOZ?tag=nakimoto1-22">2024年、東京のBlue Noteの前の通りの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00000AVOZ"><a href="https://www.amazon.co.jp/dp/B00000AVOZ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">2024年、東京のBlue Noteの前の通りの実売価格・レビューをAmazonで確認する →</a></p>
 
 東京都港区南青山のBlue Note Tokyoは、1988年11月に開業しました。日本のジャズはここから、大きな会場で聴く時代に入ります。
 

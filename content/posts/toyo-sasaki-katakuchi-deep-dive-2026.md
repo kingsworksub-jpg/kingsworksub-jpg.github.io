@@ -20,10 +20,10 @@ aliases:
 
 ## そもそも「片口」とは何なのか
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/toyo-sasaki-katakuchi-b40601.jpg" alt="東洋佐々木ガラス 片口 冷酒カラフェ 日本製 240ml" width="610" height="920" loading="lazy">
 </a>
-<figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>東洋佐々木ガラス 片口 冷酒カラフェ 240ml<span class="credit"><a href="https://www.amazon.co.jp/dp/B00J3IENRG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -20,10 +20,10 @@ aliases:
 
 ## 始まりは兵庫の鉱泉水だった
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/mitsuya-cider-original.png" alt="アサヒ飲料 三ツ矢サイダー 缶250ml×20本" width="125" height="280" loading="lazy">
 </a>
-<figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>アサヒ飲料 三ツ矢サイダー 缶250ml×20本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004P6HUNA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

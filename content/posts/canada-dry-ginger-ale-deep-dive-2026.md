@@ -18,10 +18,10 @@ aliases:
 
 ## 「ペール」ジンジャーエールという発明
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/canada-dry-ginger-ale.png" alt="カナダドライ ジンジャーエール" width="730" height="940" loading="lazy">
 </a>
-<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>カナダドライ ジンジャーエール<span class="credit"><a href="https://www.amazon.co.jp/dp/B00158V46K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 1904年、カナダ・オンタリオ州の薬剤師ジョン・J・マクローリンが、シャンパンのようなドライな味わいと洗練さを目指して開発したのが始まりだ。当時主流だったジンジャーエールはカラメル色素で色付けされた濃厚な甘口だったが、マクローリンが作ったのは色の薄い(pale)、すっきりとした辛口タイプ。この違いが「ペールジンジャーエール」という呼び名の由来になっている。妻モードが考案したという「シャンパンのようなジンジャーエール」というキャッチコピーも、なかなか気の利いた売り文句だと思う。

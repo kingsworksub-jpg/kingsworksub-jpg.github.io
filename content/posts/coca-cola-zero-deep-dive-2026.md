@@ -18,10 +18,10 @@ aliases:
 
 ## 「ゼロシュガー」ではなく「ゼロ」のまま
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/coca-cola-zero.png" alt="コカ・コーラ ゼロ" width="730" height="940" loading="lazy">
 </a>
-<figcaption>コカ・コーラ ゼロ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>コカ・コーラ ゼロ 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B004Y9IZDC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 パッケージのラベル上部には大きく「ZERO SUGAR」の文字が躍っているが、日本での正式な商品名は今も「コカ・コーラ ゼロ」のままだ。アメリカ本国では2017年に「Coca-Cola Zero」から「Coca-Cola Zero Sugar」へと名称そのものが変わっているが、日本はそこまで踏み込まず、ラベル表記としてZERO SUGARの文字を大きく扱うにとどめている。通販サイトなどで「ゼロシュガー」という商品名表記を見かけることがあるのはこのラベルの影響で、中身を指す言葉としては間違っていないものの、正式なブランド名としては「コカ・コーラ ゼロ」が今も現役だ。

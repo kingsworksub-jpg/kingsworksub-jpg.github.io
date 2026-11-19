@@ -20,10 +20,10 @@ aliases:
 
 ## 無果汁・無糖という設計
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/crystal-spark-grape.jpg" alt="CRYSTAL SPARK グレープソーダ" width="700" height="700" loading="lazy">
 </a>
-<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>CRYSTAL SPARK グレープソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GN2DJKK4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

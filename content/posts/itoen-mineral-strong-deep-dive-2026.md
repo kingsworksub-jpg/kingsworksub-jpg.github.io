@@ -20,10 +20,10 @@ aliases:
 
 ## 「ミネラル」の正体はシリカ
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/itoen-mineral-strong.png" alt="伊藤園 ミネラルストロング" width="455" height="1043" loading="lazy">
 </a>
-<figcaption>伊藤園 ミネラルストロング<span class="credit"><a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>伊藤園 ミネラルストロング<span class="credit"><a href="https://www.amazon.co.jp/dp/B09QX3PG25?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

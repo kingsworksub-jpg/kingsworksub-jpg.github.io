@@ -15,7 +15,7 @@ ogImageHeight: 630
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/jazz-fashion/jazz-saxophone.jpg" alt="Jazz saxophonist performing" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Jazz saxophonist performing</span>
@@ -32,7 +32,7 @@ ogImageHeight: 630
 <span class="credit">Photo: Unsplash / Jens Thekkeveettil</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
@@ -40,7 +40,7 @@ ogImageHeight: 630
 <span class="credit">Photo: Pexels / Oscar Steiner</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
 
 2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
 
@@ -74,7 +74,7 @@ ogImageHeight: 630
 <span class="credit">Photo: Pexels / cottonbro studio</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
 
 2026年現在、ジャズスタイルが再び脚光を浴びるのは、単なる懐古趣味ではない。現代のファッションシーンが、ある種の「精度回帰」を求めているからである。
 
@@ -104,7 +104,7 @@ ogImageHeight: 630
 <span class="credit">Photo: Pixabay / tylermike525</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>
 
 ジャズスタイルは、この両立を可能にする。ピンストライプの細い線は、最小限の情報で最大限の表現力を生み出す。ダブルブレストの重ねられたボタンは、シンプルなシルエットの中に複雑性を隠し持つ。シャープな靴の輝きは、派手ではないが、確実に主張している。
 

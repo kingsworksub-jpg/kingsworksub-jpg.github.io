@@ -20,10 +20,10 @@ aliases:
 
 ## ラガヴーリンという核
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド" width="1048" height="4096" loading="lazy">
 </a>
-<figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -28,7 +28,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">サントリー角瓶</span>
@@ -40,13 +40,13 @@ aliases:
 ## サントリー角瓶 — ハイボールの原点にして王道
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
 </a>
-<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B001TZ1RCK"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">サントリー角瓶の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B001TZ1RCK"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">サントリー角瓶の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![サントリー角瓶の使いやすさレーダーチャート](/images/radar/suntory-kakubin.svg)
 
@@ -61,13 +61,13 @@ aliases:
 ## ブラックニッカ クリア — とにかく軽く、とにかく安い
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
 </a>
-<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B005VZYNJS"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">ブラックニッカ クリアの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B005VZYNJS"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ブラックニッカ クリアの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![ブラックニッカ クリアの使いやすさレーダーチャート](/images/radar/black-nikka-clear.svg)
 
@@ -82,13 +82,13 @@ aliases:
 ## トリスウイスキー — 「トリスバー」から続く庶民の相棒
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
 </a>
-<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B013WEDT4O"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">トリスウイスキーの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B013WEDT4O"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">トリスウイスキーの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![トリスウイスキーの使いやすさレーダーチャート](/images/radar/suntory-trys.svg)
 
@@ -103,13 +103,13 @@ aliases:
 ## ジムビーム ホワイト — 世界一売れているバーボンの実力
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/jim-beam-white.jpg" alt="ジムビーム ホワイト" width="1024" height="1024" loading="lazy">
 </a>
-<figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ジムビーム ホワイト<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B01M0QSOAP"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22">ジムビーム ホワイトの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B01M0QSOAP"><a href="https://www.amazon.co.jp/dp/B01M0QSOAP?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ジムビーム ホワイトの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![ジムビーム ホワイトの使いやすさレーダーチャート](/images/radar/jim-beam-white.svg)
 
@@ -124,13 +124,13 @@ aliases:
 ## フォアローゼズ イエロー — 手間のかかったやさしさ
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー" width="712" height="1350" loading="lazy">
 </a>
-<figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B01GJFPQOE"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">フォアローゼズ イエローの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B01GJFPQOE"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">フォアローゼズ イエローの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![フォアローゼズ イエローの使いやすさレーダーチャート](/images/radar/four-roses-yellow.svg)
 
@@ -145,13 +145,13 @@ aliases:
 ## バランタイン ファイネス — 世界2位の売上を支える隙のなさ
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
 </a>
-<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B01M03CPLI"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">バランタイン ファイネスの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B01M03CPLI"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">バランタイン ファイネスの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![バランタイン ファイネスの使いやすさレーダーチャート](/images/radar/ballantines-finest.svg)
 
@@ -166,10 +166,10 @@ aliases:
 ## カティサーク — 淡い色に軽い飲み口、船の名を冠した一本
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/cutty-sark.jpg" alt="カティサーク" width="480" height="2013" loading="lazy">
 </a>
-<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![カティサークの使いやすさレーダーチャート](/images/radar/cutty-sark.svg)
@@ -185,10 +185,10 @@ aliases:
 ## ホワイトホース ファインオールド — ラガヴーリン譲りの、ほのかな個性
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/white-horse-fineold.webp" alt="ホワイトホース ファインオールド" width="1048" height="4096" loading="lazy">
 </a>
-<figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ホワイトホース ファインオールド<span class="credit"><a href="https://www.amazon.co.jp/dp/B003DTXIOU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![ホワイトホース ファインオールドの使いやすさレーダーチャート](/images/radar/white-horse-fineold.svg)
@@ -204,10 +204,10 @@ aliases:
 ## デュワーズ ホワイトラベル — 二度熟成が生む、まろやかさ
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル" width="249" height="1024" loading="lazy">
 </a>
-<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![デュワーズ ホワイトラベルの使いやすさレーダーチャート](/images/radar/dewars-white-label.svg)
@@ -223,10 +223,10 @@ aliases:
 ## ジョニーウォーカー レッドラベル — スパイシーさで攻める、ブラックの弟分
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
 </a>
-<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![ジョニーウォーカー レッドラベルの使いやすさレーダーチャート](/images/radar/johnnie-walker-red.svg)

@@ -18,7 +18,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">大館工芸社 秋田杉 酒器3点セット</span>
@@ -29,13 +29,13 @@ aliases:
 
 ## 大館曲げわっぱという産地 — 武士の副業から国指定の伝統工芸へ
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/odate-akita-sugi-sake-set.jpg" alt="大館工芸社 秋田杉 酒器3点セット" width="550" height="366" loading="lazy">
 </a>
-<figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>大館工芸社 秋田杉 酒器3点セット(徳利・お猪口2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00DGN94GY"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22">大館工芸社 秋田杉 酒器3点セットの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00DGN94GY"><a href="https://www.amazon.co.jp/dp/B00DGN94GY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">大館工芸社 秋田杉 酒器3点セットの実売価格・レビューをAmazonで確認する →</a></p>
 
 秋田県大館市に伝わる曲げわっぱの起源は平安時代まで遡るとも言われているが、産業として本格的に発展したのは17世紀後半、大館城主・佐竹西家が下級武士の副業として奨励したのがきっかけだったらしい。樹齢200〜300年という天然秋田杉の資源に恵まれた土地柄が、この工芸を支えてきた土台になっている。1980年には経済産業大臣指定の伝統的工芸品にも指定され、今も大館の地場産業として続いている。
 

@@ -30,7 +30,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kontakt-8.png" alt="Kontakt 8" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Kontakt 8</span>
@@ -42,13 +42,13 @@ aliases:
 ## Kontakt 8 — 業界標準という名の、重い荷物
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kontakt-8.png" alt="Kontakt 8" width="1200" height="444" loading="lazy">
 </a>
-<figcaption>Kontakt 8<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Kontakt 8<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DPDL5DSY"><a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22">Kontakt 8の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DPDL5DSY"><a href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Kontakt 8の実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Kontakt 8の使いやすさレーダーチャート](/images/radar/kontakt-8.svg)
 
@@ -124,13 +124,13 @@ aliases:
 ## Serato Sample — 出会って30秒、迷う暇を与えない身軽さ
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/serato-sample.png" alt="Serato Sample" width="1200" height="800" loading="lazy">
 </a>
-<figcaption>Serato Sample<span class="credit"><a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Serato Sample<span class="credit"><a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B075D5GGXY"><a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22">Serato Sampleの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B075D5GGXY"><a href="https://www.amazon.co.jp/dp/B075D5GGXY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Serato Sampleの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Serato Sampleの使いやすさレーダーチャート](/images/radar/serato-sample.svg)
 

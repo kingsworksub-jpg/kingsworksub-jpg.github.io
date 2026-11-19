@@ -20,10 +20,10 @@ aliases:
 
 ## ブレンド構成
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ballantines-finest.jpg" alt="バランタイン ファイネス" width="600" height="900" loading="lazy">
 </a>
-<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>バランタイン ファイネス<span class="credit"><a href="https://www.amazon.co.jp/dp/B01M03CPLI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

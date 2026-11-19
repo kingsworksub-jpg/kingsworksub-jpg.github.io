@@ -20,10 +20,10 @@ aliases:
 
 ## 高岡漆器という産地 — 城下町から始まった400年
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/takaoka-raden-glass-sakura.jpg" alt="高岡漆器 螺鈿ガラス 金杯(万華鏡)桜" width="800" height="764" loading="lazy">
 </a>
-<figcaption>高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>高岡漆器 螺鈿ガラス 金杯(万華鏡) 桜(貝入)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09Y3DHRS6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

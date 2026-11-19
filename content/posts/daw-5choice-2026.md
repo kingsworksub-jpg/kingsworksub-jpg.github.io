@@ -28,7 +28,7 @@ aliases:
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/fl-studio.png" alt="FL Studio" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">FL Studio</span>
@@ -61,13 +61,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 ## FL Studio — やんちゃで自由奔放な発想型
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/fl-studio.png" alt="FL Studio" width="96" height="96" loading="lazy">
 </a>
-<figcaption>FL Studio<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>FL Studio<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0BYP17KS7"><a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22">FL Studioの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0BYP17KS7"><a href="https://www.amazon.co.jp/dp/B0BYP17KS7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">FL Studioの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![FL Studioの使いやすさレーダーチャート](/images/radar/fl-studio.svg)
 
@@ -82,13 +82,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 ## Ableton Live — 二つの顔を持つ、峠の先の景色
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ableton-live.png" alt="Ableton Live" width="1680" height="945" loading="lazy">
 </a>
-<figcaption>Ableton Live<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Ableton Live<span class="credit"><a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0CYHNLY74"><a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">Ableton Liveの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0CYHNLY74"><a href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Ableton Liveの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Ableton Liveの使いやすさレーダーチャート](/images/radar/ableton-live.svg)
 
@@ -103,13 +103,13 @@ Apple謹製、Macでしか動かないという制約は、正直かなり不便
 ## Cubase — 生真面目な職人気質
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/cubase.jpg" alt="Cubase" width="1600" height="900" loading="lazy">
 </a>
-<figcaption>Cubase<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Cubase<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GLPPZD3J"><a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22">Cubaseの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GLPPZD3J"><a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Cubaseの実売価格・レビューをAmazonで確認する →</a></p>
 
 ![Cubaseの使いやすさレーダーチャート](/images/radar/cubase.svg)
 

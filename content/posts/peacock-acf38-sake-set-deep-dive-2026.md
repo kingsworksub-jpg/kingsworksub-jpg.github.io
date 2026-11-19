@@ -20,10 +20,10 @@ aliases:
 
 ## 徳利は真空、おちょこは中空 — ステンレス2枚の間に仕込まれた仕掛け
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/peacock-acf38-sake-set.jpg" alt="ピーコック 酒器セット ACF-38" width="1080" height="1080" loading="lazy">
 </a>
-<figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ピーコック 酒器セット ACF-38<span class="credit"><a href="https://www.amazon.co.jp/dp/B09DKNGKQD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

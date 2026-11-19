@@ -20,10 +20,10 @@ aliases:
 
 ## 「冷却スパーク技術」というアイデア
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/icy-spark-canada-dry-lemon.png" alt="コカ・コーラ アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本" width="730" height="940" loading="lazy">
 </a>
-<figcaption>アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>アイシー・スパーク from カナダドライ レモン ラベルレス 430mlPET×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B09TVVN918?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

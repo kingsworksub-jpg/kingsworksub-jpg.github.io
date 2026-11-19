@@ -20,10 +20,10 @@ aliases:
 
 ## 名前の由来はハワイの伝説的な波
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/monster-pipeline-punch.png" alt="モンスターエナジー パイプラインパンチ" width="350" height="180" loading="lazy">
 </a>
-<figcaption>モンスターエナジー パイプラインパンチ 355ml×12本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>モンスターエナジー パイプラインパンチ 355ml×12本<span class="credit"><a href="https://www.amazon.co.jp/dp/B0BTZT7BYF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

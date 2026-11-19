@@ -17,7 +17,7 @@ DTMの学び方を調べ始めると、無料の解説動画、数千円の動�
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Cubaseの画面と楽譜、鍵盤に向かう制作者</span>
@@ -33,7 +33,7 @@ DTMの学び方を調べ始めると、無料の解説動画、数千円の動�
 <figcaption>DAWの操作や書き出しの手順は、画面を見ながら覚えるのがいちばん早い。<span class="credit">Photo: Marco Raaphorst from The Hague, The Netherlands / CC BY 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-4845641461"><a href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22">Cubaseの画面と楽譜、鍵盤に向かう制作者の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-4845641461"><a href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Cubaseの画面と楽譜、鍵盤に向かう制作者の実売価格・レビューをAmazonで確認する →</a></p>
 
 DAWの基本操作は、動画との相性がとても良い分野だ。トラックの作り方、ピアノロールへの打ち込み、プラグインの挿し方、オーディオの書き出しといった手順は、画面の動きをそのまま真似できる動画のほうが文字の解説より圧倒的に分かりやすい。国内には無料で読める解説記事や動画が大量にあり、主要なDAWであれば操作で困ったときに答えが見つからないことはまずない。英語圏まで含めれば、ほぼすべての機能に誰かの解説がある。
 
@@ -48,7 +48,7 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 <figcaption>夜の自宅スタジオ。ひとりで作業していると、自分の音の欠点にはなかなか気づけない。<span class="credit">Photo: Mooganic / CC BY 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00CDJ8GDE"><a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22">夜の自宅スタジオに並ぶモニターとMIDIキーボードの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00CDJ8GDE"><a href="https://www.amazon.co.jp/dp/B00CDJ8GDE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">夜の自宅スタジオに並ぶモニターとMIDIキーボードの実売価格・レビューをAmazonで確認する →</a></p>
 
 独学で手が止まる場面は、だいたい決まっている。ひとつは、ループは作れるのに曲として最後まで仕上がらないこと。もうひとつは、完成させた曲がなんとなく素人っぽく聴こえるのに、どこを直せばいいのか分からないことだ。動画を何本見ても、そこに映っているのは他人の曲であって自分の曲ではない。一般論としての「低音を整理しよう」は理解できても、自分の曲のどの楽器のどの帯域が濁っているのかは、教えてもらわないとなかなか分からない。
 
@@ -89,7 +89,7 @@ DAWの基本操作は、動画との相性がとても良い分野だ。トラ�
 
 <p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>
 
-<p class="cvr-text-link" data-cvr="text-B000CZ0R42"><a href="https://www.amazon.co.jp/dp/B000CZ0R42?tag=nakimoto1-22">録音機材の前で身振りを交えて説明する人物の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B000CZ0R42"><a href="https://www.amazon.co.jp/dp/B000CZ0R42?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">録音機材の前で身振りを交えて説明する人物の実売価格・レビューをAmazonで確認する →</a></p>
 
 英語圏の音楽制作の学び方を見ると、知識と添削を分けて買う考え方がはっきりしている。大学レベルの講座をオンラインで無料聴講できる仕組みがあり、動画と読み物は無料で、課題の採点と修了証が欲しい人だけが1講座あたり数十ドルを払う、という形が定着している。大学のオンライン課程は、講師が課題に目を通してくれる代わりに、修了証の取得に数千ドル規模の費用がかかる。知識は安く、人の時間は高い、という値段の付き方がそのまま見える。
 

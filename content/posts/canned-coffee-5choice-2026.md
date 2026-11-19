@@ -19,7 +19,7 @@ scheduled_time: "17:30"
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/canned-coffee-5/sangaria-black.jpg" alt="サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…</span>
@@ -70,7 +70,7 @@ scheduled_time: "17:30"
 <figcaption>サンガリアの185g缶の無糖ブラック。写真は以前の「コクと香りのクオリティコーヒー」名義のパッケージ<span class="credit">Photo: Dmz2000 / <a href="https://commons.wikimedia.org/wiki/File:Can_of_Sangaria_Quality_Coffee_Black.png" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DWMNQY2Y"><a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22">サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DWMNQY2Y"><a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…の実売価格・レビューをAmazonで確認する →</a></p>
 
 甘さの段階のいちばん下に置くのは、大阪のサンガリアが出している185g缶の無糖ブラックだ。いまの棚では「ブレンドコーヒー ブラック」という名前で並んでいる。原材料の欄に書かれているのは「コーヒー」の一語だけで、砂糖もミルクも香料も入っていない。
 
@@ -93,7 +93,7 @@ scheduled_time: "17:30"
 <figcaption>以前のデザインのファイア 挽きたて微糖。帯に「低カロリー 100g当たり17kcal」とある。現行品の表示は15kcal<span class="credit">Photo: Bryan Ochalla / <a href="https://www.flickr.com/photos/58246614@N00/2743647316" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/dp/B07HKDLRXW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07HKDLRXW"><a href="https://www.amazon.co.jp/dp/B07HKDLRXW?tag=nakimoto1-22">キリン ファイア 挽きたて微糖の缶。金色の缶に挽きたて微糖の大きな文…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07HKDLRXW"><a href="https://www.amazon.co.jp/dp/B07HKDLRXW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">キリン ファイア 挽きたて微糖の缶。金色の缶に挽きたて微糖の大きな文…の実売価格・レビューをAmazonで確認する →</a></p>
 
 微糖の代表として選んだのは、キリンのファイア 挽きたて微糖だ。名前のとおり「挽きたて」を看板にしていて、写真の缶には「豆を挽いてから18時間以内に抽出」と書かれている。挽いた豆は時間とともに香りが抜けていくので、抽出までの時間を短くして香りを缶に閉じ込めよう、という考え方だ。
 
@@ -116,7 +116,7 @@ scheduled_time: "17:30"
 <figcaption>以前のデザインのワンダ モーニングショット。缶の下に「コーヒー」の表示がある<span class="credit">Photo: Bryan Ochalla / <a href="https://www.flickr.com/photos/58246614@N00/2780800836" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/dp/B00J3JC02U?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00J3JC02U"><a href="https://www.amazon.co.jp/dp/B00J3JC02U?tag=nakimoto1-22">アサヒ ワンダ モーニングショットの赤い缶。朝日のマークとコーヒーの…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00J3JC02U"><a href="https://www.amazon.co.jp/dp/B00J3JC02U?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">アサヒ ワンダ モーニングショットの赤い缶。朝日のマークとコーヒーの…の実売価格・レビューをAmazonで確認する →</a></p>
 
 3本目は、砂糖をふつうに使った加糖の缶コーヒーから、アサヒのワンダ モーニングショットを選んだ。2002年に「朝専用」をうたって登場した銘柄で、赤い缶と朝日のマークはいまも変わらず自販機の定番になっている。
 
@@ -141,7 +141,7 @@ scheduled_time: "17:30"
 
 <p class="cvr-price-note" data-cvr="price">※記載した価格は参考だ。現在の実売価格やタイムセール・ポイント還元の状況は、Amazonリンクから確認してほしい。</p>
 
-<p class="cvr-text-link" data-cvr="text-B0090W0S06"><a href="https://www.amazon.co.jp/dp/B0090W0S06?tag=nakimoto1-22">サントリー ボス カフェオレの白い缶。北海道産生クリームの赤い帯の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0090W0S06"><a href="https://www.amazon.co.jp/dp/B0090W0S06?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">サントリー ボス カフェオレの白い缶。北海道産生クリームの赤い帯の実売価格・レビューをAmazonで確認する →</a></p>
 
 4本目は、ミルクを主役にしたカフェオレの段階から、サントリーのボス カフェオレを選んだ。ボスは1992年に始まったブランドで、パイプをくわえた男性のロゴとともに、カフェオレは長くブランドの柱になってきた。缶の赤い帯には「北海道産生クリーム」と大きく書かれている。
 
@@ -164,7 +164,7 @@ scheduled_time: "17:30"
 <figcaption>黄色と黒の縞模様が目印のマックスコーヒー。「練乳入り」「コーヒー飲料」の表示が並ぶ<span class="credit">Photo: MisakiSakura3 / <a href="https://commons.wikimedia.org/wiki/File:Georgia_Max_Coffee.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://www.amazon.co.jp/dp/B001SESCBG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B001SESCBG"><a href="https://www.amazon.co.jp/dp/B001SESCBG?tag=nakimoto1-22">ジョージア マックスコーヒーの黄色い缶。練乳入りとコーヒー飲料の表示の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B001SESCBG"><a href="https://www.amazon.co.jp/dp/B001SESCBG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ジョージア マックスコーヒーの黄色い缶。練乳入りとコーヒー飲料の表示の実売価格・レビューをAmazonで確認する →</a></p>
 
 甘さの段階のいちばん上に置くのは、ジョージアのマックスコーヒーだ。1975年に千葉・茨城・栃木の限られた地域で売り出された缶コーヒーで、長いあいだ「千葉のご当地コーヒー」として知られてきた。いまは全国で買えるようになり、250g缶のほか500mlのペットボトルもある。
 

@@ -38,10 +38,10 @@ scheduled_time: "21:30"
 ## Kavalan Classic — 台湾の亜熱帯が育てた、トロピカルな入門
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kavalan-classic.jpg" alt="Kavalan Classic" width="750" height="1000" loading="lazy">
 </a>
-<figcaption>Kavalan Classic<span class="credit">Photo: othree / CC BY 2.0 <a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Kavalan Classic<span class="credit">Photo: othree / CC BY 2.0 <a href="https://www.amazon.co.jp/dp/B007A9JLMM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 カバランのスタンダードボトルであり、世界に台湾ウイスキーの名を知らしめた旗艦銘柄が「Kavalan Classic」だ。アルコール度数は飲みやすい40%に調整されており、年数表示のないノンエイジ（NAS）としてリリースされている。バーボン樽とシェリー樽を主軸にした複数の樽のヴァッティングで構成されている。
@@ -78,10 +78,10 @@ scheduled_time: "21:30"
 ## Amrut Fusion — インドの乾燥が育てた、スパイシーな融合
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/amrut-fusion.jpg" alt="Amrut Fusion" width="750" height="1000" loading="lazy">
 </a>
-<figcaption>Amrut Fusion<span class="credit">Photo: Vikrambj / CC BY-SA 3.0 <a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Amrut Fusion<span class="credit">Photo: Vikrambj / CC BY-SA 3.0 <a href="https://www.amazon.co.jp/dp/B009R1NX0M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 インドのウイスキーといえば、かつては廃糖蜜（モラセス）を原料にした安価なスピリッツが主流だった時代があった。そのイメージを根底から覆し、世界最高峰のシングルモルトとしての地位を確立した立役者が、バンガロールのアムルット蒸溜所が放つ「Amrut Fusion」だ。

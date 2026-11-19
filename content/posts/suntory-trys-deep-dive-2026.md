@@ -20,10 +20,10 @@ aliases:
 
 ## 名称変更の経緯
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/suntory-trys.jpg" alt="トリスウイスキー" width="1024" height="1024" loading="lazy">
 </a>
-<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>トリスウイスキー<span class="credit"><a href="https://www.amazon.co.jp/dp/B013WEDT4O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -20,10 +20,10 @@ aliases:
 
 ## 富永貿易という会社と、「神戸居留地」ブランド
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kobe-kyoryuchi-sparkling-water.jpg" alt="神戸居留地 スパークリングウォーター 強炭酸水 プレーン 缶190ml" width="800" height="800" loading="lazy">
 </a>
-<figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>神戸居留地 スパークリングウォーター 強炭酸水 プレーン 190ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B005MVQPBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

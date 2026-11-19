@@ -20,10 +20,10 @@ aliases:
 
 ## 有田焼という産地 — 日本の磁器はここから始まった
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/arita-enka-sake-set.jpg" alt="有田焼 炎華 酒器セット(徳利・ぐい呑み2個)" width="1200" height="1200" loading="lazy">
 </a>
-<figcaption>有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>有田焼 炎華 酒器セット(徳利1個・ぐい呑み2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B09SBJRVJJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

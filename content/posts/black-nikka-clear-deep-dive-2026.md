@@ -20,10 +20,10 @@ aliases:
 
 ## 原酒構成とブランドの位置づけ
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/black-nikka-clear.png" alt="ブラックニッカ クリア" width="728" height="1260" loading="lazy">
 </a>
-<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ブラックニッカ クリア<span class="credit"><a href="https://www.amazon.co.jp/dp/B005VZYNJS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

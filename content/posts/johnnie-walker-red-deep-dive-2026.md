@@ -20,10 +20,10 @@ aliases:
 
 ## ブレンド構成とブラックとの違い
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/johnnie-walker-red.jpg" alt="ジョニーウォーカー レッドラベル" width="800" height="800" loading="lazy">
 </a>
-<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ジョニーウォーカー レッドラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B015KXFDPI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

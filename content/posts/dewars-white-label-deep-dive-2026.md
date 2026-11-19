@@ -20,10 +20,10 @@ aliases:
 
 ## ダブルエイジングという製法
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/dewars-white-label.jpg" alt="デュワーズ ホワイトラベル" width="249" height="1024" loading="lazy">
 </a>
-<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>デュワーズ ホワイトラベル<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1UEA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

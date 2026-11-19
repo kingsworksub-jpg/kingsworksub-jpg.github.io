@@ -20,10 +20,10 @@ aliases:
 
 ## 改名に込められた二重の意味
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/oza-soda.jpg" alt="OZA SODA" width="600" height="600" loading="lazy">
 </a>
-<figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>OZA SODA<span class="credit"><a href="https://www.amazon.co.jp/dp/B0DLMKR2VB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

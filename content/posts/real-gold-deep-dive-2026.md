@@ -20,10 +20,10 @@ aliases:
 
 ## 1981年発売、40年以上続くロングセラー
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/real-gold.png" alt="リアルゴールド" width="730" height="940" loading="lazy">
 </a>
-<figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>リアルゴールド 160ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B00371XUQA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

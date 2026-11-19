@@ -17,7 +17,7 @@ scheduled_time: "21:30"
 ## 1. 天井を照らすと「天井が高く、空間が開放的」になる理由
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/indirect-lighting-room.png" alt="間接照明とインテリアの光" width="667" height="1000" loading="lazy">
 </a>
 <figcaption>光の陰影を生み出すことで、空間に豊かな奥行きが生まれる（クリックでAmazon詳細へ）</figcaption>

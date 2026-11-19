@@ -20,10 +20,10 @@ aliases:
 
 ## 水芭蕉が湖畔に咲くように
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/tsugaru-vidro-mizubasho-sake-set.jpg" alt="津軽びいどろ みずばしょう酒器セット(徳利・盃2個)" width="1600" height="1600" loading="lazy">
 </a>
-<figcaption>津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>津軽びいどろ みずばしょう酒器セット(徳利1個・盃2個)<span class="credit"><a href="https://www.amazon.co.jp/dp/B08FCCKDD9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

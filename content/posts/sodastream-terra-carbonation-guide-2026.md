@@ -19,7 +19,7 @@ scheduled_time: "20:00"
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sodastream/machine-bottle.jpg" alt="ソーダストリームの本体と専用ボトル" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ソーダストリームの本体と専用ボトル</span>
@@ -38,7 +38,7 @@ scheduled_time: "20:00"
 <span class="credit">Photo: Meaghan O'Malley / CC BY 2.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DLKBRS4Z"><a href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22">ソーダストリームの本体と専用ボトルの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DLKBRS4Z"><a href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ソーダストリームの本体と専用ボトルの実売価格・レビューをAmazonで確認する →</a></p>
 
 TERRAは電源を使わない手動式の炭酸水メーカーで、公式の税込価格は14,850円。スターターキットには本体、60リットル分のガスシリンダー1本、専用ボトル(1リットルと0.5リットルが1本ずつ)が入っている。コンセントのいらない機械なので、キッチンのどこに置いてもよく、停電時やキャンプ先でも使える気軽さがある。
 
@@ -58,7 +58,7 @@ TERRAは電源を使わない手動式の炭酸水メーカーで、公式の税
 <span class="credit">Photo: Wassersprudler.de / CC BY-SA 4.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0C781JTWG"><a href="https://www.amazon.co.jp/dp/B0C781JTWG?tag=nakimoto1-22">キッチンに並んだ2台のソーダストリームとガラスのカラフェの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0C781JTWG"><a href="https://www.amazon.co.jp/dp/B0C781JTWG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">キッチンに並んだ2台のソーダストリームとガラスのカラフェの実売価格・レビューをAmazonで確認する →</a></p>
 
 E-TERRAはTERRAの電動版で、公式の税込価格は24,200円。2023年6月に国内で発売された。本体の前面には泡のマークが1つ、2つ、3つと描かれたボタンが並んでいて、左から弱め、標準、強めの3段階に対応している。好みの強さのボタンを押すと、あとは機械が決まった量のガスを注入し、終わるとボタンの点滅で知らせてくれる。電源はACアダプターで、電池では動かない。
 
@@ -76,7 +76,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 <span class="credit">Photo: Kevin B 3 / CC BY 2.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07BS1HJG5"><a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22">炭酸ガスボンベとレギュレーター、炭酸水のボトルの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07BS1HJG5"><a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">炭酸ガスボンベとレギュレーター、炭酸水のボトルの実売価格・レビューをAmazonで確認する →</a></p>
 
 炭酸水メーカーのランニングコストは、ほぼガスシリンダー代だけで決まる。現行のTERRAとE-TERRAは、ピンク色のレバーで差し込む「クイックコネクト」方式のシリンダーを使う。1本で作れる炭酸水の量は60リットルが目安だ。
 
@@ -108,7 +108,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 <span class="credit">Photo: N509FZ / CC BY-SA 4.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B09MQJ5XWR"><a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22">ジョッキに注がれた氷入りのハイボールの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B09MQJ5XWR"><a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ジョッキに注がれた氷入りのハイボールの実売価格・レビューをAmazonで確認する →</a></p>
 
 自分で強さを決められる利点がいちばん生きるのは、ハイボールやサワーの割り材として使うときだ。グラスに氷を入れ、ウイスキーを注ぎ、そこへ炭酸水を足していくと、氷にぶつかるたび、ウイスキーと混ざるたびにガスが抜ける。グラスに入った時点では、ボトルで感じた刺激より一段弱くなっていると考えたほうがいい。
 

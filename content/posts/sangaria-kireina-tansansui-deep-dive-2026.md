@@ -20,10 +20,10 @@ aliases:
 
 ## サンガリアという会社の立ち位置
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/sangaria-kireina-tansansui.jpg" alt="サンガリア きれいな炭酸水" width="108" height="135" loading="lazy">
 </a>
-<figcaption>サンガリア きれいな炭酸水 185ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>サンガリア きれいな炭酸水 185ml×30本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07R94DPM4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

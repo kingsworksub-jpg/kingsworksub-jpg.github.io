@@ -18,10 +18,10 @@ aliases:
 
 ## ブレンドの設計思想
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/cutty-sark.jpg" alt="カティサーク" width="480" height="2013" loading="lazy">
 </a>
-<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>カティサーク<span class="credit"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 発売当初のブレンドはスペイサイドのグレンロセス蒸溜所と結びつけて語られることが多い。ただしブランドは2010年にBerry Bros & Ruddから仏La Martiniquaise社へ移っており、現在の製造体制は発売当時と同じではない。モルトとグレーンの比率は非公開だが、モルト約3割・グレーン約7割という、グレーン比率がかなり高めの構成が定説のように語られている。グレーン主体で原価を抑えつつ、軽やかな飲み口を作るという設計思想が透けて見える一本だ。アルコール度数は40%(オリジナル)。

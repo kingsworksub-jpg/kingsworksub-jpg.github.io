@@ -17,7 +17,7 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/piano-apps/digital-piano-sheet.jpg" alt="譜面を立てた電子ピアノの鍵盤" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">譜面を立てた電子ピアノの鍵盤</span>
@@ -34,7 +34,7 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 <span class="credit">Photo: Morn / CC BY-SA 4.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">譜面を立てた電子ピアノの鍵盤の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">譜面を立てた電子ピアノの鍵盤の実売価格・レビューをAmazonで確認する →</a></p>
 
 3つのアプリはいずれも、弾いた音をリアルタイムで聴き取り、合っているかどうかを判定しながら進む仕組みを持っている。ただし、その判定方法には違いがある。
 
@@ -52,7 +52,7 @@ Simply Piano は「MusicSense」という独自の音響認識エンジンでマ
 <span class="credit">Photo: Pianomangeorge / CC BY-SA 4.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">譜面台に楽譜を乗せた木目調の電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">譜面台に楽譜を乗せた木目調の電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
 
 楽譜の見せ方も、3つのアプリでアプローチがかなり違う。flowkey は画面を上下に分割し、上に実際のピアニストが弾く手元の映像、下に五線譜を同時に表示する構成で、曲のアレンジそのものを本格的な譜面で追いたい人向けに作られている。Skoove は五線譜とビジュアルフィードバックを組み合わせ、レッスンの初日から譜読みに慣れさせる設計になっている。
 
@@ -68,7 +68,7 @@ DTMでの打ち込みを見据えるなら、五線譜をきちんと追えるfl
 <span class="credit">Photo: Scott Ritchie / CC BY 2.0</span>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22">88鍵フルサイズのハンマーアクション電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">88鍵フルサイズのハンマーアクション電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
 
 独学でいちばん挫折しやすいのが、「曲のテンポについていけず、間違った音のまま先に進んでしまう」場面だ。この点で明確な差があるのが flowkey の「Wait Mode」で、正しい音を弾くまで曲の進行が自動で一時停止し、自分のペースで一音ずつ確実に押さえていける。初心者がまず正確な指使いを身につける段階では、この機能の有無がかなり大きい。
 

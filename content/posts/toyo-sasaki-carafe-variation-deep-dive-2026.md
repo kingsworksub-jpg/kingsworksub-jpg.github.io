@@ -20,10 +20,10 @@ aliases:
 
 ## 氷を入れるのに、酒には触れさせない
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/toyo-sasaki-carafe-variation.jpg" alt="東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml" width="550" height="550" loading="lazy">
 </a>
-<figcaption>東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml(61048DV)<span class="credit"><a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>東洋佐々木ガラス カラフェ・バリエーション 徳利(氷ポケット付)360ml(61048DV)<span class="credit"><a href="https://www.amazon.co.jp/dp/B002ORKHHI?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

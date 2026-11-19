@@ -20,10 +20,10 @@ aliases:
 
 ## 九谷焼という産地 — 加賀の色絵磁器
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/kutani-shiratsubu-tessen-guinomi.jpg" alt="和座の蔵 九谷焼 ぐい呑み 白粒鉄仙" width="710" height="710" loading="lazy">
 </a>
-<figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>和座の蔵 九谷焼 ぐい呑み 白粒鉄仙<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FL7DZZHM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

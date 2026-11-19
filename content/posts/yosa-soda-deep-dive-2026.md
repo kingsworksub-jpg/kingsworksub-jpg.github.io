@@ -20,10 +20,10 @@ aliases:
 
 ## 190ml缶という設計思想
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/yosa-soda.jpg" alt="ヨサソーダ" width="580" height="580" loading="lazy">
 </a>
-<figcaption>ヨサソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>ヨサソーダ<span class="credit"><a href="https://www.amazon.co.jp/dp/B01HHPFXUM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

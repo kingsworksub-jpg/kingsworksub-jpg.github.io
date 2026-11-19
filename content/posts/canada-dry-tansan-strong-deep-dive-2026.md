@@ -20,10 +20,10 @@ aliases:
 
 ## カナダドライというブランドの出自
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/canada-dry-tansan-strong.png" alt="カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本" width="396" height="1125" loading="lazy">
 </a>
-<figcaption>カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>カナダドライ ザ・タンサン ストロング ラベルレス 430ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B08CDYX378?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -12,7 +12,7 @@ draft: false
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/condenser-mic/at2020.jpg" alt="Audio-Technica AT2020" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Audio-Technica AT2020</span>
@@ -50,7 +50,7 @@ draft: false
 <figcaption>Audio-Technica AT2020<span class="credit">Image: Audio-Technica / <a href="https://www.audio-technica.co.jp/product/AT2020" target="_blank" rel="noopener">公式サイト</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0006H92QK"><a href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22">Audio-Technica AT2020の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0006H92QK"><a href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Audio-Technica AT2020の実売価格・レビューをAmazonで確認する →</a></p>
 
 AT2020 は宅録の入門機として、ここ20年不動の位置にある。単一指向性（カーディオイド）で、スピーカーやバウンスした音を拾いにくく、ボーカル録音に適している。48V ファントム電源が必須だが、ほぼすべてのオーディオインターフェイスが対応しているため、セットアップの手間は最小限だ。
 
@@ -71,7 +71,7 @@ AT2020 は宅録の入門機として、ここ20年不動の位置にある。�
 <figcaption>RODE NT1-A の振動板（NT1 シリーズの旧モデル）<span class="credit">Photo: ElooKoN / <a href="https://commons.wikimedia.org/wiki/File:Rode_NT1-A_Diaphragm.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0BQHHZ1QQ"><a href="https://www.amazon.co.jp/dp/B0BQHHZ1QQ?tag=nakimoto1-22">RODE NT1 5th Generationの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0BQHHZ1QQ"><a href="https://www.amazon.co.jp/dp/B0BQHHZ1QQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">RODE NT1 5th Generationの実売価格・レビューをAmazonで確認する →</a></p>
 
 RODE NT1 5th Generation は、2023 年 2 月に発表された NT1 の最新世代だ。単一指向性のカーディオイドで、AT2020 と用途は似ているが、**ノイズフロアの低さ**に加えて、XLR と USB-C の両方で接続できる点が大きな違いになる。
 
@@ -94,7 +94,7 @@ RODE はマイク修理の対応が手厚く、不具合があった場合のサ
 <figcaption>AKG C214（H85 ショックマウント付き）<span class="credit">Photo: Lucasbosch / <a href="https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B003SO5OZQ"><a href="https://www.amazon.co.jp/dp/B003SO5OZQ?tag=nakimoto1-22">AKG C214の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B003SO5OZQ"><a href="https://www.amazon.co.jp/dp/B003SO5OZQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">AKG C214の実売価格・レビューをAmazonで確認する →</a></p>
 
 AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モデル。周波数特性は 20Hz 〜 20kHz で、中高域にほどよい張りがあり、ボーカルが前に出てくる。全金属のダイキャストボディで、スタジオでの酷使を前提にした作りだ。
 
@@ -117,7 +117,7 @@ AKG C214 は、プロ仕様マイク C414 の流れをくむ単一指向性モ�
 <figcaption>Neumann TLM 102（リフレクションフィルターと組み合わせた例）<span class="credit">Photo: Alice Wiegand / <a href="https://commons.wikimedia.org/wiki/File:Neumann_TLM_102ni.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B01M63NR80"><a href="https://www.amazon.co.jp/dp/B01M63NR80?tag=nakimoto1-22">Neumann TLM 102の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B01M63NR80"><a href="https://www.amazon.co.jp/dp/B01M63NR80?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Neumann TLM 102の実売価格・レビューをAmazonで確認する →</a></p>
 
 Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ごろ」なモデルだが、実際には高級機の部類だ。単一指向性のカーディオイドで、周波数特性は 20Hz 〜 20kHz。特筆すべきは、**非常にニュートラルで透明感のある音質**である。
 
@@ -140,7 +140,7 @@ Neumann TLM 102 は、ドイツの老舗 Neumann の中では「小型で手ご�
 <figcaption>Aston Origin とポップフィルター<span class="credit">Photo: Bizzarle / <a href="https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B019RVU0C0"><a href="https://www.amazon.co.jp/dp/B019RVU0C0?tag=nakimoto1-22">Aston Originの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B019RVU0C0"><a href="https://www.amazon.co.jp/dp/B019RVU0C0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Aston Originの実売価格・レビューをAmazonで確認する →</a></p>
 
 Aston Origin は、イギリスのメーカー Aston Microphones が 2015 年に発売したモデル。**最大の特徴は、マイク本体に内蔵されたポップフィルターだ**。波形のようなヘッドの内側にメッシュが仕込まれていて、別途ポップフィルターを用意しなくても破裂音を抑えられる。
 

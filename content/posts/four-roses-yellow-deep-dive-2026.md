@@ -20,10 +20,10 @@ aliases:
 
 ## 10種類の原酒というこだわり
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/four-roses-yellow.png" alt="フォアローゼズ イエロー" width="712" height="1350" loading="lazy">
 </a>
-<figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>フォアローゼズ イエロー<span class="credit"><a href="https://www.amazon.co.jp/dp/B01GJFPQOE?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

@@ -15,7 +15,7 @@ scheduled_time: "17:30"
 
 この記事では、レコード針がどのくらいもつのか、針圧を正しく合わせると何が変わるのか、MMとMCで交換のしかたがどう違うのか、そしてブラシ掛けなどの手入れでどこまで寿命を延ばせるのかを順に見ていく。例として、交換針が手に入りやすいOrtofonの2M Redと、Audio-TechnicaのVM95シリーズを取り上げる。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000WMCEKK?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B000WMCEKK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/stylus-care/dual-ortofon-stylus.jpg" alt="Ortofonのカートリッジ" loading="lazy" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">Ortofon 2M Red</span>
@@ -25,7 +25,7 @@ scheduled_time: "17:30"
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B000X8CC2S?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B000X8CC2S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/stylus-care/stylus-closeup.jpg" alt="MMカートリッジの交換針とカンチレバーの先端を横から写した接写" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">MMカートリッジの交換針とカンチレバーの先端を横から写した接写</span>
@@ -43,7 +43,7 @@ scheduled_time: "17:30"
 <figcaption>カートリッジの先端から下へ伸びる細い棒がカンチレバー。その先の小さなダイヤモンドが溝に触れる唯一の部分だ。<span class="credit">Photo: Heje / CC BY 3.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B000X8CC2S"><a href="https://www.amazon.co.jp/dp/B000X8CC2S?tag=nakimoto1-22">MMカートリッジの交換針とカンチレバーの先端を横から写した接写の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B000X8CC2S"><a href="https://www.amazon.co.jp/dp/B000X8CC2S?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">MMカートリッジの交換針とカンチレバーの先端を横から写した接写の実売価格・レビューをAmazonで確認する →</a></p>
 
 レコード針の寿命について、Ortofonは「きちんと手入れをすれば、性能を落とさずに最大で1,000時間ほど使える」という目安を示している。スクラッチや頭出しのために盤を前後に動かすDJの使い方では、針先への負担が大きいので500時間ほどが上限とされる。どちらも「時間」で数えているのがポイントで、何枚聴いたか、何年使ったかではなく、針先が溝の中を走った時間の合計で考える。
 
@@ -60,7 +60,7 @@ scheduled_time: "17:30"
 <figcaption>トーンアームの後ろに付く丸い重りがカウンターウェイト。手前の目盛り付きの道具は天秤式の針圧計。<span class="credit">Photo: Jacques from Cape Town, South Africa / CC BY 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0772GM8SG"><a href="https://www.amazon.co.jp/dp/B0772GM8SG?tag=nakimoto1-22">カウンターウェイト付きのトーンアームと、手前に置かれた針圧計の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0772GM8SG"><a href="https://www.amazon.co.jp/dp/B0772GM8SG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">カウンターウェイト付きのトーンアームと、手前に置かれた針圧計の実売価格・レビューをAmazonで確認する →</a></p>
 
 針圧とは、針先がレコードを押さえつける力のことで、グラム（g）で表す。カートリッジごとに適正な範囲が決まっていて、たとえばOrtofon 2M Redは1.8gが推奨値で、1.6gから2.0gが許容範囲。Audio-TechnicaのVM95シリーズは、どの針先でも2.0gが標準で、1.8gから2.2gが範囲になっている。
 
@@ -79,7 +79,7 @@ scheduled_time: "17:30"
 <figcaption>上がOrtofonのカートリッジ（2M Black）、下が針圧を量る小さな計り、左は本体の水平を確かめる水準器。<span class="credit">Photo: Audiotecna Música / CC0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B00D8RTQMA"><a href="https://www.amazon.co.jp/dp/B00D8RTQMA?tag=nakimoto1-22">Ortofonのカートリッジと針圧計、水準器がレコードの上に並んだ様…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B00D8RTQMA"><a href="https://www.amazon.co.jp/dp/B00D8RTQMA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Ortofonのカートリッジと針圧計、水準器がレコードの上に並んだ様…の実売価格・レビューをAmazonで確認する →</a></p>
 
 多くのターンテーブルは、カウンターウェイトに目盛りが付いていて、それを回すだけで針圧を合わせられるようになっている。手順は次のとおりだ。まず、アンチスケーティング（インサイドフォースキャンセラー）のつまみをゼロにし、針先のカバーを外す。次に、トーンアームを持ち上げてアームレストから外し、カウンターウェイトを前後に回して、アームが宙に浮いたまま水平に止まる位置を探す。ここが「針圧ゼロ」の状態になる。
 
@@ -104,7 +104,7 @@ scheduled_time: "17:30"
 <figcaption>VM95シリーズの前身にあたるAT95E。緑色の部分が交換針で、前へ引き抜くだけで外れる。<span class="credit">Photo: Federico Ettlin from Montevideo, Uruguay / CC BY 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B07JXD79Q1"><a href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22">ヘッドシェルに取り付けられたAudio-Technica AT95E…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B07JXD79Q1"><a href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ヘッドシェルに取り付けられたAudio-Technica AT95E…の実売価格・レビューをAmazonで確認する →</a></p>
 
 交換のしかたは、カートリッジの発電方式で大きく違う。MM（ムービングマグネット）型は、針先側に小さな磁石が付いていて、本体側のコイルで音の信号を作る。このため、針先とカンチレバーと磁石をひとまとめにした「交換針」が本体から抜き差しできるようになっていて、自分で簡単に取り替えられる。カートリッジをヘッドシェルから外す必要もなく、古い針を前へまっすぐ引き抜き、新しい針を差し込むだけで済む。配線も針圧の調整もそのままなので、作業は数分で終わる。
 
@@ -123,7 +123,7 @@ MC型の交換は、MM型の交換針より費用も時間もかかる。音の�
 <figcaption>針先を覆う透明なカバー。再生しないときは付けておくと、不意にぶつけて折るのを防げる。<span class="credit">Photo: Jacques from Cape Town, South Africa / CC BY 2.0</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B000WMCEKK"><a href="https://www.amazon.co.jp/dp/B000WMCEKK?tag=nakimoto1-22">透明な針カバーを付けたままレコードの上に下りたOrtofonのカート…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B000WMCEKK"><a href="https://www.amazon.co.jp/dp/B000WMCEKK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">透明な針カバーを付けたままレコードの上に下りたOrtofonのカート…の実売価格・レビューをAmazonで確認する →</a></p>
 
 手入れで寿命をどこまで延ばせるかというと、正直なところ「減るのを止める」ことはできない。ダイヤモンドといえども、塩化ビニールの溝と擦れ合ううちに必ず削れる。手入れでできるのは、余計な減り方をさせないこと、つまり目安の時間まできちんと使い切れるようにすることだ。
 
@@ -137,7 +137,7 @@ MC型の交換は、MM型の交換針より費用も時間もかかる。音の�
 
 MM型の交換針は、カートリッジ本体を買い直すよりずっと安く手に入る。2M RedやVM95シリーズのように流通量の多いモデルなら、交換針の在庫も長く続きやすく、家電量販店や通販ですぐにそろう。購入するときは、型番が本体と合っているか（2M Red本体なら2M Red用か2M Blue用、VM95本体ならAT-VMN95で始まるもの）を必ず確かめたい。互換品として安く売られている針もあるが、針先の質や針圧の設計が純正と同じとは限らないので、迷ったら純正を選ぶのが安心だ。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/stylus-care/at95e.jpg" alt="Audio-Technica VM95シリーズ" loading="lazy" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">Audio-Technica AT-VM95E</span>

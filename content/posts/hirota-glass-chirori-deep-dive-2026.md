@@ -20,10 +20,10 @@ aliases:
 
 ## そもそも「ちろり」とは何なのか
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/hirota-glass-chirori-kb.jpg" alt="廣田硝子 ちろり 青 中子付き" width="600" height="700" loading="lazy">
 </a>
-<figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>廣田硝子 ちろり 青 中子付き<span class="credit"><a href="https://www.amazon.co.jp/dp/B099MVGMQ2?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

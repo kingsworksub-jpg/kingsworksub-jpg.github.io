@@ -20,10 +20,10 @@ aliases:
 
 ## 日本酒造組合中央会からの、ひとつの依頼
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/sori-yanagi-seishu-glass.jpg" alt="柳宗理デザイン 清酒グラス" width="1061" height="1061" loading="lazy">
 </a>
-<figcaption>柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>柳宗理デザイン 清酒グラス 125ml(東洋佐々木硝子)<span class="credit"><a href="https://www.amazon.co.jp/dp/B0G41NTDJK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 

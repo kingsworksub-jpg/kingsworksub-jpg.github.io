@@ -28,10 +28,10 @@ aliases:
 ## Focusrite Scarlett 2i2(4th Gen) — 優等生な新人
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/scarlett-2i2-4gen.png" alt="Scarlett 2i2 4th Gen" width="1280" height="1280" loading="lazy">
 </a>
-<figcaption>Scarlett 2i2 4th Gen<span class="credit"><a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Scarlett 2i2 4th Gen<span class="credit"><a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![Scarlett 2i2 4th Genの使いやすさレーダーチャート](/images/radar/scarlett-2i2-4gen.svg)
@@ -47,10 +47,10 @@ aliases:
 ## Universal Audio Volt 276 — 気取らない本格派
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/volt-276.png" alt="Universal Audio Volt 276" width="1200" height="942" loading="lazy">
 </a>
-<figcaption>Universal Audio Volt 276<span class="credit"><a href="https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Universal Audio Volt 276<span class="credit"><a href="https://www.amazon.co.jp/dp/B09HT38D1T?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![Universal Audio Volt 276の使いやすさレーダーチャート](/images/radar/volt-276.svg)
@@ -66,10 +66,10 @@ VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感�
 ## RME Babyface Pro FS — 無口だが、裏切らない職人
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/babyface-pro-fs.png" alt="RME Babyface Pro FS" width="1000" height="522" loading="lazy">
 </a>
-<figcaption>RME Babyface Pro FS<span class="credit"><a href="https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>RME Babyface Pro FS<span class="credit"><a href="https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![RME Babyface Pro FSの使いやすさレーダーチャート](/images/radar/babyface-pro-fs.svg)
@@ -85,10 +85,10 @@ VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感�
 ## Yamaha AG03MK2 — 配信界のスタンダード
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ag03mk2.png" alt="Yamaha AG03MK2" width="1200" height="628" loading="lazy">
 </a>
-<figcaption>Yamaha AG03MK2<span class="credit"><a href="https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Yamaha AG03MK2<span class="credit"><a href="https://www.amazon.co.jp/dp/B09VFF9L5P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![Yamaha AG03MK2の使いやすさレーダーチャート](/images/radar/ag03mk2.svg)
@@ -104,10 +104,10 @@ VINTAGEボタンひとつで、往年の真空管コンプレッサーの質感�
 ## YAMAHA URX22C(旧Steinberg UR22C) — 名前が変わった、頼れる相棒
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/urx22c.png" alt="YAMAHA URX22C" width="960" height="504" loading="lazy">
 </a>
-<figcaption>YAMAHA URX22C<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>YAMAHA URX22C<span class="credit"><a href="https://www.amazon.co.jp/dp/B0FTLY42KJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 ![URX22Cの使いやすさレーダーチャート](/images/radar/urx22c.svg)

@@ -18,10 +18,10 @@ aliases:
 
 ## ボトルデザインと原酒構成
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
 </a>
-<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>サントリー角瓶<span class="credit"><a href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 六角形の鼈甲柄ボトルが「角瓶」の愛称の由来になっていて、発売から90年近く経った今も基本デザインは大きく変わっていない。中身は山崎蒸溜所・白州蒸溜所のモルト原酒と、知多蒸溜所のグレーン原酒をブレンドしたもの。自社で3つの蒸溜所を持ち、原酒を垂直統合的に調達できるというのがサントリーの強みで、角瓶の価格と品質のバランスはこの体制に支えられていると感じる。

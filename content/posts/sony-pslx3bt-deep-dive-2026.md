@@ -18,7 +18,7 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Sony PS-LX3BT</span>
@@ -29,13 +29,13 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 
 ## 筐体・外観・ビルド品質
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
 </a>
-<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>Sony PS-LX3BT<span class="credit"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0GGLJ6PQ1"><a href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Sony PS-LX3BTの実売価格・レビューをAmazonで確認する →</a></p>
 
 サイズは430×117×366mm、重量3.5kg。旧モデルのPS-LX310BTが黒一色だったのに対し、PS-LX3BTはチャコールグレーの本体にグリーンのスタートボタン、イエローのアクセントが入ったカートリッジという、思い切ったカラーリングに変わった。アルミダイキャスト製のプラッターと新設計のダイナミックバランス・トーンアームを備えるが、それ以外の筐体はプラスチックが中心。ボタン類の押し心地はやや安っぽく感じ、価格帯を考えると質感はそれなりに割り切られている印象だ。
 

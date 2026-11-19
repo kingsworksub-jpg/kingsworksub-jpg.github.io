@@ -42,7 +42,7 @@ Max for Live のデバイスには、オーディオエフェクト、MIDIエフ
 
 なお、Max for Live が使えるのは Live 12 の3つのエディションのうち Suite だけだ。Intro と Standard には含まれておらず、追加料金で足す仕組みも今はない。2026年10月時点の直販価格は Intro が14,800円、Standard が49,800円、Suite が89,800円で、下位版からの差額アップグレードも用意されている。
 
-<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22">
+<a class="product-banner" href="https://www.amazon.co.jp/dp/B0CYHNLY74?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/ableton-live.png" alt="Ableton Live 12 Suite" loading="lazy" width="120" height="120">
 <span class="product-banner-info">
 <span class="product-banner-name">Ableton Live 12 Suite</span>

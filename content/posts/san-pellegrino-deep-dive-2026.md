@@ -20,10 +20,10 @@ aliases:
 
 ## アルプスの麓、地下400メートルから
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">
+<a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/san-pellegrino.png" alt="サンペレグリノ" width="1000" height="667" loading="lazy">
 </a>
-<figcaption>サンペレグリノ 炭酸水 PET 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22">Amazonで見る →</a></span></figcaption>
+<figcaption>サンペレグリノ 炭酸水 PET 500ml×24本<span class="credit"><a href="https://www.amazon.co.jp/dp/B07HB1Z4GQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
 
