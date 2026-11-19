@@ -1,6 +1,6 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-20 07:56 JST
+- 生成: 2026-11-20 08:16 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
 - 対象記事: **270本** / 公開Markdown 270本（取得失敗 0本・未閲覧=0含む）
 - 合計ビュー: **3,202** / Amazonリンクあり記事: **224本**
@@ -10,8 +10,8 @@
 
 ## Amazon アソシエイト（サイト全体・実数値）
 
-- period: Oct 20 2026 〜 Nov 18 2026 / 過去30日間
-- clicks: 220
+- period: Oct 21 2026 〜 Nov 19 2026 / 過去30日間
+- clicks: 223
 - orders: 0
 - cvr: 0.00%
 - revenue: 0

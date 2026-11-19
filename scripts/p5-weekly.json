@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-11-20 07:56 JST",
+  "generated_at": "2026-11-20 08:16 JST",
   "total_views": 3202,
-  "previous_total": 3198,
+  "previous_total": 3202,
   "gainers": [
-    {
-      "slug": "edo-kiriko-guinomi-cut-patterns-2026",
-      "title": "魚子・矢来・菊繋ぎ、江戸切子のぐい呑みはカットの名前で光り方が変わる",
-      "views": 14,
-      "delta": 1,
-      "amazon_links": 4
-    },
-    {
-      "slug": "cubase-15-user-guide-book-2026",
-      "title": "『CUBASE 15 & 15 PRO ユーザーガイド』を手元に、4週間で1曲を仕上げる",
-      "views": 10,
-      "delta": 1,
-      "amazon_links": 1
-    },
-    {
-      "slug": "sangaria-kireina-tansansui-deep-dive-2026",
-      "title": "サンガリア きれいな炭酸水、名古屋発のクセのない一本",
-      "views": 10,
-      "delta": 1,
-      "amazon_links": 1
-    },
-    {
-      "slug": "non-alcohol-beer-5choice-2026",
-      "title": "ノンアルコールビール5本、ゼロカロリーをうたうのは2本だけだった",
-      "views": 4,
-      "delta": 1,
-      "amazon_links": 6
-    },
     {
       "slug": "piano-practice-apps-3choice-2026",
       "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方",
@@ -72,6 +44,34 @@
       "views": 52,
       "delta": 0,
       "amazon_links": 5
+    },
+    {
+      "slug": "sodastream-terra-carbonation-guide-2026",
+      "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方",
+      "views": 45,
+      "delta": 0,
+      "amazon_links": 4
+    },
+    {
+      "slug": "turntable-5choice-2026",
+      "title": "アナログターンテーブル5台比較、針を落とすという儀式のために",
+      "views": 41,
+      "delta": 0,
+      "amazon_links": 5
+    },
+    {
+      "slug": "record-stylus-lifespan-guide-2026",
+      "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた",
+      "views": 39,
+      "delta": 0,
+      "amazon_links": 5
+    },
+    {
+      "slug": "modal-jazz-challenge",
+      "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ",
+      "views": 38,
+      "delta": 0,
+      "amazon_links": 3
     }
   ],
   "next_candidates": [
@@ -290,9 +290,9 @@
   ],
   "amazon": {
     "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
-    "period": "Oct 20 2026 〜 Nov 18 2026 / 過去30日間",
-    "last_updated": "Nov 19 2026 10:38 JST",
-    "clicks": 220,
+    "period": "Oct 21 2026 〜 Nov 19 2026 / 過去30日間",
+    "last_updated": "Nov 20 2026 01:50 JST",
+    "clicks": 223,
     "orders": 0,
     "revenue": 0,
     "commission": 0,
@@ -343,6 +343,6 @@
       "nakimoto1-22"
     ],
     "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-    "last_collected_at": "2026-11-19T23:08:39+09:00"
+    "last_collected_at": "2026-11-20T08:16:14+09:00"
   }
 }

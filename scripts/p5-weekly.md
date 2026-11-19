@@ -1,13 +1,13 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 07:56 JST
-- 記事数: **270本** / 合計ビュー: **3,202**（前回比 **+4**）
-- 比較元: 2026-11-19
+- 生成: 2026-11-20 08:16 JST
+- 記事数: **270本** / 合計ビュー: **3,202**（前回比 **+0**）
+- 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
 
-- period: Oct 20 2026 〜 Nov 18 2026 / 過去30日間
-- clicks: 220
+- period: Oct 21 2026 〜 Nov 19 2026 / 過去30日間
+- clicks: 223
 - orders: 0
 - cvr: 0.00%
 - revenue: 0
@@ -24,16 +24,16 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `edo-kiriko-guinomi-cut-patterns-2026` | 14 | +1 |
-| `cubase-15-user-guide-book-2026` | 10 | +1 |
-| `sangaria-kireina-tansansui-deep-dive-2026` | 10 | +1 |
-| `non-alcohol-beer-5choice-2026` | 4 | +1 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
 | `budget-whisky-10choice-2026` | 56 | +0 |
 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +0 |
 | `canned-coffee-5choice-2026` | 52 | +0 |
+| `sodastream-terra-carbonation-guide-2026` | 45 | +0 |
+| `turntable-5choice-2026` | 41 | +0 |
+| `record-stylus-lifespan-guide-2026` | 39 | +0 |
+| `modal-jazz-challenge` | 38 | +0 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 

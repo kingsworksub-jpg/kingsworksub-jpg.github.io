@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T07:56:33+09:00",
+  "generated_at": "2026-11-20T08:16:15+09:00",
   "source_csv": "scripts/p0-sc.csv",
   "encoding": "utf-8-sig",
   "per_page": {
@@ -2512,9 +2512,9 @@
   },
   "amazon": {
     "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
-    "period": "Oct 20 2026 〜 Nov 18 2026 / 過去30日間",
-    "last_updated": "Nov 19 2026 10:38 JST",
-    "clicks": 220,
+    "period": "Oct 21 2026 〜 Nov 19 2026 / 過去30日間",
+    "last_updated": "Nov 20 2026 01:50 JST",
+    "clicks": 223,
     "orders": 0,
     "revenue": 0,
     "commission": 0,
@@ -2565,6 +2565,6 @@
       "nakimoto1-22"
     ],
     "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-    "last_collected_at": "2026-11-19T23:08:39+09:00"
+    "last_collected_at": "2026-11-20T08:16:14+09:00"
   }
 }
