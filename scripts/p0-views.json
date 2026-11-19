@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:50:48+09:00",
+  "generated_at": "2026-11-19T23:08:43+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -1860,9 +1860,18 @@
       "slug": "satsuma-kiriko-guinomi-bokashi-2026",
       "title": "薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える",
       "date": "2026-11-04T23:00:00+09:00",
-      "views": 9,
+      "views": 10,
       "asins": 3,
       "search_links": 0,
+      "amazon_links": 3
+    },
+    "scarf-knots-guide": {
+      "slug": "scarf-knots-guide",
+      "title": "コートの襟元とマフラーの厚み・長さで選び分ける、基本の巻き方4種の論理",
+      "date": "2026-11-19T07:32:29+09:00",
+      "views": 0,
+      "asins": 1,
+      "search_links": 2,
       "amazon_links": 3
     },
     "scarf-styling-trend-2026": {
@@ -2162,6 +2171,15 @@
       "search_links": 0,
       "amazon_links": 1
     },
+    "tsundoku-antilibrary-2026": {
+      "slug": "tsundoku-antilibrary-2026",
+      "title": "積読は悪くない、読まない本が本棚で果たしている役割",
+      "date": "2026-10-28T14:30:00+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 0,
+      "amazon_links": 0
+    },
     "turntable-5choice-2026": {
       "slug": "turntable-5choice-2026",
       "title": "アナログターンテーブル5台比較、針を落とすという儀式のために",
@@ -2407,9 +2425,9 @@
     }
   },
   "amazon": {
-    "_comment": "アソシエイト・セントラル レポートサマリーから回収した実数値（2026-11-19 21:07）。",
-    "period": "2026-10-20 〜 2026-11-18 / 過去30日間",
-    "last_updated": "2026-11-19 10:38 JST",
+    "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
+    "period": "Oct 20 2026 〜 Nov 18 2026 / 過去30日間",
+    "last_updated": "Nov 19 2026 10:38 JST",
     "clicks": 220,
     "orders": 0,
     "revenue": 0,
@@ -2460,7 +2478,8 @@
       "ameba-img-sub-22",
       "nakimoto1-22"
     ],
-    "note": "レポートのグループ分けは「トラッキングID」を選べるが、今回のサマリーは「すべて」集計。媒体別を取る場合はUIでフィルタ変更が必要。コード側 affiliate_tag.py の TAGS は4つしか登録していないが、管理画面には x-img-22 も存在する。"
+    "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
+    "last_collected_at": "2026-11-19T23:08:39+09:00"
   },
   "errors": 0
 }

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-19 22:50 JST",
-  "total_views": 3197,
-  "previous_total": 3196,
+  "generated_at": "2026-11-19 23:08 JST",
+  "total_views": 3198,
+  "previous_total": 3197,
   "gainers": [
     {
-      "slug": "budget-whisky-10choice-2026",
-      "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し",
-      "views": 56,
+      "slug": "satsuma-kiriko-guinomi-bokashi-2026",
+      "title": "薩摩切子のぐい呑みは色ガラスが約3mm。削って生まれる「ぼかし」が冷酒の色を変える",
+      "views": 10,
       "delta": 1,
-      "amazon_links": 10
+      "amazon_links": 3
     },
     {
       "slug": "piano-practice-apps-3choice-2026",
@@ -30,6 +30,13 @@
       "views": 65,
       "delta": 0,
       "amazon_links": 1
+    },
+    {
+      "slug": "budget-whisky-10choice-2026",
+      "title": "千円台の安ウイスキー10本、ハイボールにも水割りにも合う相棒探し",
+      "views": 56,
+      "delta": 0,
+      "amazon_links": 10
     },
     {
       "slug": "odate-akita-sugi-sake-set-deep-dive-2026",
@@ -65,13 +72,6 @@
       "views": 39,
       "delta": 0,
       "amazon_links": 5
-    },
-    {
-      "slug": "modal-jazz-challenge",
-      "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ",
-      "views": 38,
-      "delta": 0,
-      "amazon_links": 3
     }
   ],
   "next_candidates": [
@@ -289,9 +289,9 @@
     }
   ],
   "amazon": {
-    "_comment": "アソシエイト・セントラル レポートサマリーから回収した実数値（2026-11-19 21:07）。",
-    "period": "2026-10-20 〜 2026-11-18 / 過去30日間",
-    "last_updated": "2026-11-19 10:38 JST",
+    "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
+    "period": "Oct 20 2026 〜 Nov 18 2026 / 過去30日間",
+    "last_updated": "Nov 19 2026 10:38 JST",
     "clicks": 220,
     "orders": 0,
     "revenue": 0,
@@ -342,6 +342,7 @@
       "ameba-img-sub-22",
       "nakimoto1-22"
     ],
-    "note": "レポートのグループ分けは「トラッキングID」を選べるが、今回のサマリーは「すべて」集計。媒体別を取る場合はUIでフィルタ変更が必要。コード側 affiliate_tag.py の TAGS は4つしか登録していないが、管理画面には x-img-22 も存在する。"
+    "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
+    "last_collected_at": "2026-11-19T23:08:39+09:00"
   }
 }

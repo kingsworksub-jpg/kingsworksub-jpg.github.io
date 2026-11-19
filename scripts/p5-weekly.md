@@ -1,12 +1,12 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-19 22:50 JST
-- 記事数: **267本** / 合計ビュー: **3,197**（前回比 **+1**）
+- 生成: 2026-11-19 23:08 JST
+- 記事数: **269本** / 合計ビュー: **3,198**（前回比 **+1**）
 - 比較元: 2026-11-19
 
 ## Amazon アソシエイト（前回回収値のまま）
 
-- period: 2026-10-20 〜 2026-11-18 / 過去30日間
+- period: Oct 20 2026 〜 Nov 18 2026 / 過去30日間
 - clicks: 220
 - orders: 0
 - cvr: 0.00%
@@ -24,16 +24,16 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `budget-whisky-10choice-2026` | 56 | +1 |
+| `satsuma-kiriko-guinomi-bokashi-2026` | 10 | +1 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
+| `budget-whisky-10choice-2026` | 56 | +0 |
 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +0 |
 | `canned-coffee-5choice-2026` | 52 | +0 |
 | `sodastream-terra-carbonation-guide-2026` | 45 | +0 |
 | `turntable-5choice-2026` | 41 | +0 |
 | `record-stylus-lifespan-guide-2026` | 39 | +0 |
-| `modal-jazz-challenge` | 38 | +0 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 

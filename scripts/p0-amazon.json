@@ -1,7 +1,7 @@
 {
-  "_comment": "アソシエイト・セントラル レポートサマリーから回収した実数値（2026-11-19 21:07）。",
-  "period": "2026-10-20 〜 2026-11-18 / 過去30日間",
-  "last_updated": "2026-11-19 10:38 JST",
+  "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
+  "period": "Oct 20 2026 〜 Nov 18 2026 / 過去30日間",
+  "last_updated": "Nov 19 2026 10:38 JST",
   "clicks": 220,
   "orders": 0,
   "revenue": 0,
@@ -14,12 +14,44 @@
   "report_url": "https://affiliate.amazon.co.jp/p/reporting/earnings",
   "tracking_id_filter": "すべて（国: JP / StoreID: nakimoto1-22）",
   "by_tracking_id": {
-    "nakimoto1-22": {"clicks": null, "orders": null, "revenue": null, "cvr": null},
-    "hatena-img-sub-22": {"clicks": null, "orders": null, "revenue": null, "cvr": null},
-    "note-img-sub-22": {"clicks": null, "orders": null, "revenue": null, "cvr": null},
-    "ameba-img-sub-22": {"clicks": null, "orders": null, "revenue": null, "cvr": null},
-    "x-img-22": {"clicks": null, "orders": null, "revenue": null, "cvr": null}
+    "nakimoto1-22": {
+      "clicks": null,
+      "orders": null,
+      "revenue": null,
+      "cvr": null
+    },
+    "hatena-img-sub-22": {
+      "clicks": null,
+      "orders": null,
+      "revenue": null,
+      "cvr": null
+    },
+    "note-img-sub-22": {
+      "clicks": null,
+      "orders": null,
+      "revenue": null,
+      "cvr": null
+    },
+    "ameba-img-sub-22": {
+      "clicks": null,
+      "orders": null,
+      "revenue": null,
+      "cvr": null
+    },
+    "x-img-22": {
+      "clicks": null,
+      "orders": null,
+      "revenue": null,
+      "cvr": null
+    }
   },
-  "tracking_ids_in_dashboard": ["x-img-22", "hatena-img-sub-22", "note-img-sub-22", "ameba-img-sub-22", "nakimoto1-22"],
-  "note": "レポートのグループ分けは「トラッキングID」を選べるが、今回のサマリーは「すべて」集計。媒体別を取る場合はUIでフィルタ変更が必要。コード側 affiliate_tag.py の TAGS は4つしか登録していないが、管理画面には x-img-22 も存在する。"
+  "tracking_ids_in_dashboard": [
+    "x-img-22",
+    "hatena-img-sub-22",
+    "note-img-sub-22",
+    "ameba-img-sub-22",
+    "nakimoto1-22"
+  ],
+  "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
+  "last_collected_at": "2026-11-19T23:08:39+09:00"
 }
