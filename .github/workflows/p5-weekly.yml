@@ -80,7 +80,21 @@ jobs:
           done
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: weekly SEO report (P5) - auto data collection"
-            git push
+            exit 0
           fi
+          git commit -m "chore: weekly SEO report (P5) - auto data collection"
+
+          # 他の自動化と push が競合してもワークフロー全体は失敗させない
+          for i in 1 2 3; do
+            if ! git pull --rebase origin main; then
+              git rebase --abort 2>/dev/null || true
+              echo "WARN: rebase に失敗したため push をスキップします"
+              exit 0
+            fi
+            if git push; then
+              echo "OK: pushed"
+              exit 0
+            fi
+            echo "WARN: push 失敗 (${i}/3)、再試行します"
+          done
+          echo "WARN: push できませんでした。次回実行時に反映されます"
