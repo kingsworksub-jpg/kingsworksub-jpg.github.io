@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T08:28:28+09:00",
+  "generated_at": "2026-11-20T12:37:17+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -742,7 +742,7 @@
     },
     "gguf-quantization-q4-q5-guide-2026": {
       "slug": "gguf-quantization-q4-q5-guide-2026",
-      "title": "ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの",
+      "title": "GGUFのQ4_K_MとQ8_0を比較 — ローカルLLMの量子化で削れるもの、残るもの",
       "date": "2026-10-22T12:00:00+09:00",
       "views": 8,
       "asins": 1,
@@ -794,9 +794,18 @@
       "search_links": 3,
       "amazon_links": 3
     },
+    "google-microsoft-authenticator-migration-guide": {
+      "slug": "google-microsoft-authenticator-migration-guide",
+      "title": "機種変更で失敗しない二段階認証アプリの移行ガイド｜Google・Microsoft両対応",
+      "date": "2026-11-20T12:02:21+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 0,
+      "amazon_links": 0
+    },
     "green-cola-deep-dive-2026": {
       "slug": "green-cola-deep-dive-2026",
-      "title": "ギリシャ生まれのgreen cola(グリーンコーラ)は日本の棚になじむか",
+      "title": "グリーンコーラ（green cola）とは — 成分・価格・味を他ゼロコーラと比較",
       "date": "2026-09-20",
       "views": 12,
       "asins": 1,
@@ -1048,7 +1057,7 @@
     },
     "jazz-festivals-2026": {
       "slug": "jazz-festivals-2026",
-      "title": "Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを巡る",
+      "title": "2026年のジャズフェスティバル — Newport、Montreux、New Orleansの日程と見どころ",
       "date": "2026-09-30",
       "views": 17,
       "asins": 2,
@@ -1417,7 +1426,7 @@
     },
     "modal-jazz-challenge": {
       "slug": "modal-jazz-challenge",
-      "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ",
+      "title": "モーダル・ジャズ入門 — Kind of BlueからA Love Supremeへ、コードを手放した即興の流れ",
       "date": "2026-09-24T10:00:00+09:00",
       "views": 38,
       "asins": 3,
@@ -1786,7 +1795,7 @@
     },
     "record-stylus-lifespan-guide-2026": {
       "slug": "record-stylus-lifespan-guide-2026",
-      "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた",
+      "title": "レコード針の寿命と交換時期 — 1,000時間の目安、針圧、MM/MCの違い",
       "date": "2026-10-13T17:30:00+09:00",
       "views": 39,
       "asins": 5,
@@ -2056,9 +2065,9 @@
     },
     "taiwan-india-whisky-climate-2026": {
       "slug": "taiwan-india-whisky-climate-2026",
-      "title": "台湾とインドのウイスキー、熱い土地で樽は速く働く",
+      "title": "台湾とインドのウイスキー比較 — 気候が熟成を加速させる理由と3本の選び方",
       "date": "2026-10-08",
-      "views": 19,
+      "views": 22,
       "asins": 3,
       "search_links": 0,
       "amazon_links": 3

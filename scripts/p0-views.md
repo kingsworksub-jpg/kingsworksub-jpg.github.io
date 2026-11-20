@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-20 08:28 JST
+- 生成: 2026-11-20 12:37 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
-- 対象記事: **270本** / 公開Markdown 270本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,202** / Amazonリンクあり記事: **224本**
+- 対象記事: **271本** / 公開Markdown 271本（取得失敗 0本・未閲覧=0含む）
+- 合計ビュー: **3,205** / Amazonリンクあり記事: **224本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -32,8 +32,8 @@
 | `canned-coffee-5choice-2026` | 缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線 | 52 | 5 | 0 | 5 | P1候補 |
 | `sodastream-terra-carbonation-guide-2026` | 炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さ | 45 | 4 | 0 | 4 | P1候補 |
 | `turntable-5choice-2026` | アナログターンテーブル5台比較、針を落とすという儀式のために | 41 | 5 | 0 | 5 | P1候補 |
-| `record-stylus-lifespan-guide-2026` | レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた | 39 | 5 | 0 | 5 | P1候補 |
-| `modal-jazz-challenge` | モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme | 38 | 3 | 0 | 3 | P1候補 |
+| `record-stylus-lifespan-guide-2026` | レコード針の寿命と交換時期 — 1,000時間の目安、針圧、MM/MCの違い | 39 | 5 | 0 | 5 | P1候補 |
+| `modal-jazz-challenge` | モーダル・ジャズ入門 — Kind of BlueからA Love Supremeへ、コ | 38 | 3 | 0 | 3 | P1候補 |
 | `condenser-mic-5choice-2026` | コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本 | 37 | 5 | 0 | 5 | P1候補 |
 | `sampler-5choice-2026` | サンプラー5本比較、音の欠片を誰の手に委ねるか | 37 | 2 | 0 | 2 | P1候補 |
 | `statement-hat-trends-autumn-2026` | ミニマルから最大主義へ、秋冬2026のステートメントハット最前線 | 37 | 2 | 0 | 2 | P1候補 |
@@ -64,6 +64,7 @@
 | `bourbon-5choice-2026` | バーボン5本、甘さを決めるのはライ麦の比率と樽の焼き方 | 22 | 6 | 0 | 6 | - |
 | `crystal-spark-grape-deep-dive-2026` | 香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計 | 22 | 1 | 0 | 1 | - |
 | `digital-performer-12-chunks-2026` | Digital Performer 12のチャンクは、映画1本分のキューを1つのファイル | 22 | 0 | 0 | 0 | 商品リンクなし |
+| `taiwan-india-whisky-climate-2026` | 台湾とインドのウイスキー比較 — 気候が熟成を加速させる理由と3本の選び方 | 22 | 3 | 0 | 3 | - |
 | `hammond-b3-jazz-organ-2026` | ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン | 21 | 2 | 2 | 4 | - |
 | `at-lp120xusb-deep-dive-2026` | Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテ | 20 | 1 | 0 | 1 | - |
 | `chrome-mv3-ublock-origin-lite-2026` | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のC | 20 | 0 | 0 | 0 | 商品リンクなし |
@@ -73,13 +74,12 @@
 | `launchkey-mk4-key-range` | Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった | 19 | 7 | 1 | 8 | - |
 | `monitor-headphones-5choice-2026` | モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く | 19 | 1 | 15 | 16 | - |
 | `rega-planar3-deep-dive-2026` | Rega Planar 3が半世紀守る「軽さと剛性」の設計思想 | 19 | 1 | 0 | 1 | - |
-| `taiwan-india-whisky-climate-2026` | 台湾とインドのウイスキー、熱い土地で樽は速く働く | 19 | 3 | 0 | 3 | - |
 | `alan-boguslavsky-stage` | Héroes del Silencioの写真から消された5人目、ギタリストAlan Bo | 18 | 2 | 0 | 2 | - |
 | `ballantines-finest-deep-dive-2026` | バランタイン ファイネスはなぜ世界2位のスコッチになれたのか | 18 | 1 | 0 | 1 | - |
 | `hello` | はじめまして、Studio Notesです | 18 | 0 | 0 | 0 | 商品リンクなし |
 | `logic-pro-mac-songwriting-2026` | Logic Pro 12は3万円の買い切りで、どこまで一人で曲を作れるのか | 18 | 0 | 0 | 0 | 商品リンクなし |
 | `four-roses-yellow-deep-dive-2026` | 10種の原酒で組み上げる、フォアローゼズ イエローの手間 | 17 | 1 | 0 | 1 | - |
-| `jazz-festivals-2026` | Newportは72年目、Montreuxは60年目。2026年のジャズフェスティバルを | 17 | 2 | 0 | 2 | - |
+| `jazz-festivals-2026` | 2026年のジャズフェスティバル — Newport、Montreux、New Orle | 17 | 2 | 0 | 2 | - |
 | `mitsuya-cider-original-deep-dive-2026` | 三ツ矢サイダーの透明な甘さは140年でどう守られてきたか | 17 | 1 | 0 | 1 | - |
 | `nea-jazz-masters-2026` | NEAジャズマスターズ2026、カルメン・ランディとアイルト・モレイラ、パトリス・ラッシ | 17 | 1 | 0 | 1 | - |
 | `sori-yanagi-seishu-glass-deep-dive-2026` | 柳宗理の清酒グラスは、てのひらの形から生まれた | 17 | 1 | 0 | 1 | - |
@@ -106,7 +106,7 @@
 | `black-nikka-clear-deep-dive-2026` | ブラックニッカ クリアの軽さはどこから来るのか | 12 | 1 | 0 | 1 | - |
 | `desk-chair-studio-ergonomics-2026` | DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲 | 12 | 3 | 1 | 4 | - |
 | `dewars-white-label-deep-dive-2026` | デュワーズ ホワイトラベルを二段熟成から読み解く | 12 | 1 | 0 | 1 | - |
-| `green-cola-deep-dive-2026` | ギリシャ生まれのgreen cola(グリーンコーラ)は日本の棚になじむか | 12 | 1 | 0 | 1 | - |
+| `green-cola-deep-dive-2026` | グリーンコーラ（green cola）とは — 成分・価格・味を他ゼロコーラと比較 | 12 | 1 | 0 | 1 | - |
 | `jim-beam-white-deep-dive-2026` | ジムビーム ホワイトが世界一売れるバーボンである理由 | 12 | 1 | 0 | 1 | - |
 | `keith-ti9304-titanium-sake-cup-deep-dive-2026` | KEITH 純チタン おちょこは、白酒のために生まれた旅する盃 | 12 | 1 | 0 | 1 | - |
 | `music-theory-3month-plan` | 音楽理論を3か月で一周するなら、最初から読む本は1冊だけ | 12 | 2 | 3 | 5 | - |

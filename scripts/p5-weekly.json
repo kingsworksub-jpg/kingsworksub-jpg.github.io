@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-11-20 08:28 JST",
-  "total_views": 3202,
+  "generated_at": "2026-11-20 12:37 JST",
+  "total_views": 3205,
   "previous_total": 3202,
   "gainers": [
+    {
+      "slug": "taiwan-india-whisky-climate-2026",
+      "title": "台湾とインドのウイスキー比較 — 気候が熟成を加速させる理由と3本の選び方",
+      "views": 22,
+      "delta": 3,
+      "amazon_links": 3
+    },
     {
       "slug": "piano-practice-apps-3choice-2026",
       "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方",
@@ -61,17 +68,10 @@
     },
     {
       "slug": "record-stylus-lifespan-guide-2026",
-      "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた",
+      "title": "レコード針の寿命と交換時期 — 1,000時間の目安、針圧、MM/MCの違い",
       "views": 39,
       "delta": 0,
       "amazon_links": 5
-    },
-    {
-      "slug": "modal-jazz-challenge",
-      "title": "モーダルジャズという挑戦、『Kind of Blue』から『A Love Supreme』へ",
-      "views": 38,
-      "delta": 0,
-      "amazon_links": 3
     }
   ],
   "next_candidates": [

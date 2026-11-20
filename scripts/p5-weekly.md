@@ -1,7 +1,7 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 08:28 JST
-- 記事数: **270本** / 合計ビュー: **3,202**（前回比 **+0**）
+- 生成: 2026-11-20 12:37 JST
+- 記事数: **271本** / 合計ビュー: **3,205**（前回比 **+3**）
 - 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
@@ -24,6 +24,7 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
+| `taiwan-india-whisky-climate-2026` | 22 | +3 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
@@ -33,7 +34,6 @@
 | `sodastream-terra-carbonation-guide-2026` | 45 | +0 |
 | `turntable-5choice-2026` | 41 | +0 |
 | `record-stylus-lifespan-guide-2026` | 39 | +0 |
-| `modal-jazz-challenge` | 38 | +0 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 
