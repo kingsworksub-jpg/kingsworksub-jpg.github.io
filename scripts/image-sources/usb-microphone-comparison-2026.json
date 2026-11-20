@@ -1,0 +1,30 @@
+{
+ "/images/usb-mic/mic1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Studio_microphone_with_pop-shield_crop.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Studio_microphone_with_pop-shield_crop.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Galak76",
+  "title": ""
+ },
+ "/images/usb-mic/mic2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AKG_C214_Condenser_microphone.jpg/960px-AKG_C214_Condenser_microphone.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Lucasbosch",
+  "title": ""
+ },
+ "/images/usb-mic/c1-studio-microphone.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Studio_microphone_with_pop-shield_crop.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Studio_microphone_with_pop-shield_crop.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Galak76",
+  "title": ""
+ },
+ "/images/usb-mic/c2-condenser-microphone.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AKG_C214_Condenser_microphone.jpg/960px-AKG_C214_Condenser_microphone.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Lucasbosch",
+  "title": ""
+ }
+}
