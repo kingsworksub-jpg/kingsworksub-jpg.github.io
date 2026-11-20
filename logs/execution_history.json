@@ -8655,5 +8655,26 @@
       "hello の孤立解消"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T04:53:08Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-shoes-trend-2026"
+    ],
+    "actions": [
+      "向かい合う左右figureが連続して本文幅が潰れる配置を解消(2枚目をセクション内の2段落目の前へ移動)",
+      "figure連続はhammond-b3-jazz-organ-2026/jazz-festivals-2026にも残存(次回対応)",
+      "seo-audit.pyはPIL不具合のため未実行・ビルド未検証",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/jazz-shoes-trend-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hammond-b3/jazz-festivalsのfigure連続の解消"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
