@@ -3627,6 +3627,15 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-20T20:10:58+09:00"
+  },
+  {
+   "id": "2026w45-040",
+   "category": "anime",
+   "theme": "『魔女の宅急便』の街、ストックホルムとヴィスビーがコリコの町になるまで",
+   "status": "failed",
+   "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-20T21:41:14+09:00"
   }
  ]
 }
