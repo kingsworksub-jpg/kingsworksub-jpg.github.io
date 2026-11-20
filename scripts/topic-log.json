@@ -3615,6 +3615,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-20T17:50:39+09:00"
+  },
+  {
+   "id": "2026w45-023",
+   "category": "drink-recipe",
+   "theme": "エッグノッグの作り方、卵と牛乳とラムで作るクリスマスの飲み物",
+   "slug": "eggnog-recipe-safety-history",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/eggnog-recipe-safety-history/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-20T20:10:58+09:00"
   }
  ]
 }

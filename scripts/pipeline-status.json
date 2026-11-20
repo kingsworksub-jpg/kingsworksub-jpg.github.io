@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-20T20:02:09+09:00",
+ "updated": "2026-11-20T20:10:58+09:00",
  "queue": {
-  "published": 175,
+  "published": 176,
   "rejected": 10,
-  "approved": 39,
-  "in_progress": 1
+  "approved": 39
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published usb-microphone-comparison-2026",
+ "last_result": "published eggnog-recipe-safety-history",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
