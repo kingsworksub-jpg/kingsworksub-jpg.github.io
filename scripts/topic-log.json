@@ -3603,6 +3603,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-20T17:36:40+09:00"
+  },
+  {
+   "id": "2026w42-003",
+   "category": "gear",
+   "theme": "USBマイク5本比較、配信と宅録で選ぶなら",
+   "slug": "usb-microphone-comparison-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/usb-microphone-comparison-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-20T17:50:39+09:00"
   }
  ]
 }

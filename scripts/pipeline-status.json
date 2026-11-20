@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-20T17:37:25+09:00",
+ "updated": "2026-11-20T17:50:39+09:00",
  "queue": {
-  "published": 174,
+  "published": 175,
   "rejected": 10,
-  "approved": 40,
-  "in_progress": 1
+  "approved": 40
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published wine-preservation-guide",
+ "last_result": "published usb-microphone-comparison-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:37:25+09:00",
+ "updated": "2026-11-20T17:50:39+09:00",
  "items": [
   {
    "category": "gear",
@@ -6219,7 +6219,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-003",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-10-18",
    "retry": 1,
    "claimed_at": "2026-11-20T17:37:25+09:00",
@@ -6227,7 +6227,9 @@
    "content_dir": "reviews",
    "slot_time": "17:30",
    "slot_label": "夕: 機材レビュー/学習体験談",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "slug": "usb-microphone-comparison-2026",
+   "published_at": "2026-11-20T17:50:39+09:00"
   },
   {
    "category": "gear",
