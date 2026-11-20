@@ -8930,5 +8930,21 @@
       "外部リンク切れ・seo-audit・hugoビルドはローカルPCで確認"
     ],
     "status": "完了(修正なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T18:53:43Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全278記事のfrontmatter(description長・images)・H2数・figure直後の見出しを再点検。指摘はnea-jazz-masters-2026のH2<2のみで、有料記事の無料部分のみ掲載という仕様のため修正不要"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "異常なし",
+      "外部リンク切れ・seo-audit・hugoビルドはローカルPCで確認"
+    ],
+    "status": "完了(修正なし・ビルド未検証)"
   }
 ]
