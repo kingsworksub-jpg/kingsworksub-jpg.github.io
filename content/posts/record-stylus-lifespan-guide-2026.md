@@ -126,15 +126,6 @@ scheduled_time: "17:30"
 
 ## レコード針 交換の違い — MMは針だけ、MCは本体ごと
 
-交換針を選ぶ前に、まずカートリッジの発電方式を確認したい。MMとMCでは「替えるもの」そのものが違うからだ。
-
-| 方式 | 針の交換 | 費用・手間 | 代表例 | 向いている人 |
-|---|---|---|---|---|
-| MM（ムービングマグネット） | 交換針だけを自分で抜き差し | 数千〜1万円程度、数分で完了 | Ortofon 2M Red、Audio-Technica VM95 | 気軽に針を替えたい人、音の変化も試したい人 |
-| MC（ムービングコイル） | 針だけは替えられず、本体を交換サービスへ | 高額で時間もかかる | Ortofon / Audio-Technica のMCモデル | 音質を優先し、手間を引き受けられる人 |
-
-
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/stylus-care/at95e.jpg" alt="ヘッドシェルに取り付けられたAudio-Technica AT95Eの緑色の交換針" width="220" height="147" loading="lazy">
@@ -143,6 +134,14 @@ scheduled_time: "17:30"
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B07JXD79Q1"><a href="https://www.amazon.co.jp/dp/B07JXD79Q1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ヘッドシェルに取り付けられたAudio-Technica AT95E…の実売価格・レビューをAmazonで確認する →</a></p>
+
+交換針を選ぶ前に、まずカートリッジの発電方式を確認したい。MMとMCでは「替えるもの」そのものが違うからだ。
+
+| 方式 | 針の交換 | 費用・手間 | 代表例 | 向いている人 |
+|---|---|---|---|---|
+| MM（ムービングマグネット） | 交換針だけを自分で抜き差し | 数千〜1万円程度、数分で完了 | Ortofon 2M Red、Audio-Technica VM95 | 気軽に針を替えたい人、音の変化も試したい人 |
+| MC（ムービングコイル） | 針だけは替えられず、本体を交換サービスへ | 高額で時間もかかる | Ortofon / Audio-Technica のMCモデル | 音質を優先し、手間を引き受けられる人 |
+
 
 交換のしかたは、カートリッジの発電方式で大きく違う。MM（ムービングマグネット）型は、針先側に小さな磁石が付いていて、本体側のコイルで音の信号を作る。このため、針先とカンチレバーと磁石をひとまとめにした「交換針」が本体から抜き差しできるようになっていて、自分で簡単に取り替えられる。カートリッジをヘッドシェルから外す必要もなく、古い針を前へまっすぐ引き抜き、新しい針を差し込むだけで済む。配線も針圧の調整もそのままなので、作業は数分で終わる。
 

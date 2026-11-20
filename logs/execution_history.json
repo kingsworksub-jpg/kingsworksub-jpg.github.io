@@ -8522,5 +8522,27 @@
       "big_images 53件の個別対応"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-20T02:53:58Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "record-stylus-lifespan-guide-2026"
+    ],
+    "actions": [
+      "figureをMM/MC交換の見出し直後に移動(表の後に置かれ回り込まなかったためCLAUDE.mdのfigure配置ルールに準拠)",
+      "簡易監査: description/images/H2数の欠落は公開記事で0件(h2不足は下書き2本とnote有料記事のみ)",
+      "seo-audit.pyはPIL不具合とhugo未導入のため未実行・ビルド確認は省略",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/record-stylus-lifespan-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "fig-not-after-h2 の残り約12記事(導入段落後のfigureは許容、表・リスト後のものを優先確認)",
+      "hello の孤立解消"
+    ],
+    "status": "完了(一部のみ・ビルド未検証)"
   }
 ]
