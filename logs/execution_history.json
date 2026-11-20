@@ -8855,5 +8855,32 @@
       "hugo未導入のためビルド未検証"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T14:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "google-microsoft-authenticator-migration-guide",
+      "usb-microphone-comparison-2026",
+      "yubikey-security-key-backup-guide-2026",
+      "hibp-password-breach-check-order-2026",
+      "condenser-mic-5choice-2026",
+      "dynamic-mic-5choice-2026"
+    ],
+    "actions": [
+      "孤立記事2本(認証アプリ移行ガイド・USBマイク比較)への被リンクを関連テーマ記事4本に追加(6周目)"
+    ],
+    "files_changed": [
+      "content/posts/yubikey-security-key-backup-guide-2026.md",
+      "content/posts/hibp-password-breach-check-order-2026.md",
+      "content/posts/condenser-mic-5choice-2026.md",
+      "content/posts/dynamic-mic-5choice-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "被リンク0は hello(自己紹介ページ・対象外)のみ",
+      "hugo未導入のためビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

@@ -106,6 +106,7 @@ Have I Been Pwned(略してHIBP)は、オーストラリアのセキュリティ
 
 ## 関連記事・おすすめメディア
 - [パスワードマネージャーを乗り換えると、CSVに乗らずに置いていかれるもの](/posts/password-manager-migration-guide-2026/)
+- [機種変更で失敗しない二段階認証アプリの移行ガイド｜Google・Microsoft両対応](/posts/google-microsoft-authenticator-migration-guide/)
 - [uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能](/posts/chrome-mv3-ublock-origin-lite-2026/)
 - [Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法](/posts/chrome-gemini-nano-4gb-2026/)
 - 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)

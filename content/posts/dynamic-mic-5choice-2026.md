@@ -172,6 +172,7 @@ RE20は、アメリカのElectro-Voiceが1968年から作り続けている放�
 - [6畳10万円の宅録、買う順番を決めるとマイクは3番目になる](/posts/home-studio-100k-budget-2026/)
 - [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)
 - [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台](/posts/audio-interface-5choice-2026/)
+- [USBマイク5タイプ比較、配信と宅録で指向性と付属ソフトから選ぶ基準](/posts/usb-microphone-comparison-2026/)
 - [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
 - [マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する](/posts/mic-preamp-gain-compare-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

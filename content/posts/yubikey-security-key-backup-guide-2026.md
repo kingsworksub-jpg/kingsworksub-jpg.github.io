@@ -83,6 +83,7 @@ YubiKey 5シリーズのファームウェア5.7以降では、FIDO2のパスキ
 
 - [パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから](/posts/hibp-password-breach-check-order-2026/)
 - [パスワードマネージャーを乗り換えると、CSVに乗らずに置いていかれるもの](/posts/password-manager-migration-guide-2026/)
+- [機種変更で失敗しない二段階認証アプリの移行ガイド｜Google・Microsoft両対応](/posts/google-microsoft-authenticator-migration-guide/)
 - [3-2-1バックアップをDTMに当てはめる。録った音はクラウドへ、サンプルは手元のHDDへ](/posts/dtm-backup-3-2-1-ssd-hdd-cloud-2026/)
 
 ## 関連記事・おすすめメディア
