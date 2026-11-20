@@ -1,15 +1,16 @@
 {
-  "total_zero_imp": 250,
+  "total_zero_imp": 251,
   "counts_by_class": {
     "未インデックス（未検出）": 240,
     "未インデックス（クロール済み）": 2,
-    "インデックス済み・クエリ無し": 8
+    "インデックス済み・クエリ無し": 8,
+    "未検査": 1
   },
   "counts_by_priority": {
     "P1": 47,
     "P2": 8,
     "P3": 8,
-    "保留": 187,
+    "保留": 188,
     "P4": 0
   },
   "rows": [
@@ -545,8 +546,8 @@
           "shared": [
             "cola"
           ],
-          "imp": 10,
-          "score": 13.3
+          "imp": 12,
+          "score": 14.0
         },
         {
           "slug": "mitsuya-cider-zero-deep-dive-2026",
@@ -746,8 +747,8 @@
           "shared": [
             "cola"
           ],
-          "imp": 10,
-          "score": 13.3
+          "imp": 12,
+          "score": 14.0
         }
       ]
     },
@@ -1323,8 +1324,8 @@
           "shared": [
             "cola"
           ],
-          "imp": 10,
-          "score": 13.3
+          "imp": 12,
+          "score": 14.0
         }
       ]
     },
@@ -4006,6 +4007,19 @@
       "link_sources": []
     },
     {
+      "slug": "usb-microphone-comparison-2026",
+      "title": "USBマイク5タイプ比較、配信と宅録で指向性と付属ソフトから選ぶ基準",
+      "date": "2026-11-20T17:39:53+09:00",
+      "class": "未検査",
+      "priority": "保留",
+      "asin": 6,
+      "search_link": 2,
+      "verdict": "",
+      "coverage": "",
+      "last_crawl": "",
+      "link_sources": []
+    },
+    {
       "slug": "vertigo-dolly-zoom-hitchcock-2026",
       "title": "ヒッチコック『めまい』のドリーズーム、引きながら寄るカメラが鐘楼の吹き抜けを伸ばした",
       "date": "2026-11-05T18:30:00+09:00",
@@ -4180,8 +4194,8 @@
       "date": "2026-11-19T23:02:52+09:00",
       "class": "未インデックス（未検出）",
       "priority": "保留",
-      "asin": 7,
-      "search_link": 1,
+      "asin": 6,
+      "search_link": 0,
       "verdict": "NEUTRAL",
       "coverage": "URL is unknown to Google",
       "last_crawl": "",

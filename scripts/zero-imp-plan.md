@@ -1,10 +1,10 @@
 # ゼロIMP記事 分類と内部リンク／URL検査計画
 
-- 生成: 2026-11-20 12:49 JST
+- 生成: 2026-11-20 18:44 JST
 - 基準: 直近30日 page単位 SC（`scripts/p0-sc.csv`）に載らない公開記事
-- 対象: **250本** / 公開記事 271本（IMPあり 21本）
+- 対象: **251本** / 公開記事 272本（IMPあり 21本）
 - URL検査: `scripts/sc-inspect-articles.py` / 結果 `data/sc-inspection-results.json`
-- sitemap.xml 収録: 271/271件（未収録でも検索に出ない原因にはならない）
+- sitemap.xml 収録: 272/272件（未収録でも検索に出ない原因にはならない）
 
 ## 分類内訳
 
@@ -13,6 +13,7 @@
 | 未インデックス（未検出） | 240 |
 | インデックス済み・クエリ無し | 8 |
 | 未インデックス（クロール済み） | 2 |
+| 未検査 | 1 |
 
 | 優先度 | 件数 | 意味 |
 |---|---:|---|
@@ -20,13 +21,14 @@
 | P2 | 8 | 未インデックス＋内部リンク候補あり |
 | P3 | 8 | インデックス済みだがクエリ無し（内部リンクで再活性化） |
 | P4 | 0 | 対象外（noindex / リダイレクト / 404） |
-| 保留 | 187 | 未インデックスだが関連リンク元候補なし（別途カテゴリ導線が必要） |
+| 保留 | 188 | 未インデックスだが関連リンク元候補なし（別途カテゴリ導線が必要） |
 
 ## 対応方針
 
 1. P1/P2 の記事へ、IMPのある上位記事から内部リンクを1〜2本追加する（下表の `link_sources` を参照）。
-2. 内部リンク追加後、Search Console のURL検査で「インデックスに送信」を手動実行する。
-   - Indexing API は `GOOGLE_INDEXING_CREDENTIALS` 未登録のため自動通知は無効。
+2. 内部リンク追加後、Indexing API で自動通知する（手動 operation 不要）。
+   - `python scripts/indexing/notify_changed.py --from-plan --limit 30`
+   - 週次 Workflow `p5-weekly.yml` でも P1/P2 上位30件を自動送信する。
 3. P3 はタイトル／description を page 単位の近縁記事に寄せてから内部リンクを追加する。
 4. P4 は sitemap と `aliases` を見直し、必要なら noindex を外す。
 
@@ -56,7 +58,7 @@
 |  | `jazz-style-fashion-revival-2026` | jazz | 7 |
 | `nea-jazz-masters-2026` | `jazz-festivals-2026` | jazz | 21 |
 |  | `jazz-style-fashion-revival-2026` | jazz | 7 |
-| `coca-cola-zero-deep-dive-2026` | `green-cola-deep-dive-2026` | cola | 10 |
+| `coca-cola-zero-deep-dive-2026` | `green-cola-deep-dive-2026` | cola | 12 |
 |  | `mitsuya-cider-zero-deep-dive-2026` | zero | 2 |
 | `sony-ecm-ax10-spatial-mic-2026` | `sony-pslx3bt-deep-dive-2026` | sony | 23 |
 |  | `condenser-mic-5choice-2026` | mic | 8 |
@@ -67,7 +69,7 @@
 | `budget-whisky-10choice-2026` | `taiwan-india-whisky-climate-2026` | whisky | 6 |
 | `canadian-whisky-rye-4choice-2026` | `taiwan-india-whisky-climate-2026` | whisky | 6 |
 | `classic-french-style-revival-2026` | `jazz-style-fashion-revival-2026` | style | 7 |
-| `craft-cola-spice-syrup-2026` | `green-cola-deep-dive-2026` | cola | 10 |
+| `craft-cola-spice-syrup-2026` | `green-cola-deep-dive-2026` | cola | 12 |
 | `crystal-spark-ramune-deep-dive-2026` | `crystal-spark-grape-deep-dive-2026` | crystal, spark | 2 |
 | `dodecamin-zero-sakebitai-deep-dive-2026` | `mitsuya-cider-zero-deep-dive-2026` | zero | 2 |
 | `dynamic-mic-5choice-2026` | `condenser-mic-5choice-2026` | mic | 8 |
@@ -79,10 +81,12 @@
 | `japanese-whisky-distilleries-lineup-2026` | `taiwan-india-whisky-climate-2026` | whisky | 6 |
 | `keith-ti9304-titanium-sake-cup-deep-dive-2026` | `arita-enka-sake-set-deep-dive-2026` | sake | 1 |
 
-## URL検査送信計画（P1/P2 上位30件）
+## Indexing API 自動送信計画（P1/P2 上位30件）
 
 1. 上記の内部リンクを追加して公開を待つ。
-2. Search Console → URL検査 に以下のURLを1件ずつ入力し、「インデックスに送信」を実行する。
+2. 送信は `scripts/indexing/notify_changed.py --from-plan` が自動実行する。
+   - 認証: Secret `GOOGLE_INDEXING_CREDENTIALS_JSON`
+   - 権限: サービスアカウントを Search Console の「所有者」に設定済み
 
 | # | URL | 分類 |
 |---:|---|---|
@@ -132,7 +136,7 @@
 | P1 | `jazz-vocal-phrasing-guide-2026` / ジャズヴォーカル入門、歌詞より先に「間」を聴く。ビリー・ | 未インデックス（未検出） | `jazz-festivals-2026`(21), `jazz-style-fashion-revival-2026`(7) | 0/4 |
 | P1 | `modern-spiritual-jazz-2026` / Kamasi WashingtonとDinner Par | 未インデックス（未検出） | `jazz-festivals-2026`(21), `jazz-style-fashion-revival-2026`(7) | 3/0 |
 | P1 | `nea-jazz-masters-2026` / NEAジャズマスターズ2026、カルメン・ランディとアイ | 未インデックス（未検出） | `jazz-festivals-2026`(21), `jazz-style-fashion-revival-2026`(7) | 1/0 |
-| P1 | `coca-cola-zero-deep-dive-2026` / コカ・コーラ ゼロ、罪悪感を引き算したもうひとつの黒い炭 | 未インデックス（未検出） | `green-cola-deep-dive-2026`(10), `mitsuya-cider-zero-deep-dive-2026`(2) | 3/0 |
+| P1 | `coca-cola-zero-deep-dive-2026` / コカ・コーラ ゼロ、罪悪感を引き算したもうひとつの黒い炭 | 未インデックス（未検出） | `green-cola-deep-dive-2026`(12), `mitsuya-cider-zero-deep-dive-2026`(2) | 3/0 |
 | P1 | `sony-ecm-ax10-spatial-mic-2026` / ソニーECM-AX10は、スマホを空間オーディオの録音機 | 未インデックス（未検出） | `sony-pslx3bt-deep-dive-2026`(23), `condenser-mic-5choice-2026`(8) | 1/3 |
 | P1 | `statement-hat-trend-2026` / 帽子が主役になる秋冬2026、ステートメントハットの選び | 未インデックス（未検出） | `statement-hat-trends-autumn-2026`(4), `jazz-shoes-trend-2026`(2) | 2/0 |
 | P1 | `adult-piano-learning-2026` / 大人から鍵盤を始める、指より先に決めることがある | 未インデックス（未検出） | `piano-practice-apps-3choice-2026`(11) | 3/0 |
@@ -140,7 +144,7 @@
 | P1 | `budget-whisky-10choice-2026` / 千円台の安ウイスキー10本、ハイボールにも水割りにも合う | 未インデックス（クロール済み） | `taiwan-india-whisky-climate-2026`(6) | 37/0 |
 | P1 | `canadian-whisky-rye-4choice-2026` / カナディアンウイスキー4本、ライ麦が少なくても「ライ」と | 未インデックス（未検出） | `taiwan-india-whisky-climate-2026`(6) | 7/3 |
 | P1 | `classic-french-style-revival-2026` / ゲンスブールの系譜を継ぐ、2026年のクラシック・フレン | 未インデックス（未検出） | `jazz-style-fashion-revival-2026`(7) | 4/0 |
-| P1 | `craft-cola-spice-syrup-2026` / クラフトコーラの原液は、割る人が最後の調合を担う | 未インデックス（未検出） | `green-cola-deep-dive-2026`(10) | 2/2 |
+| P1 | `craft-cola-spice-syrup-2026` / クラフトコーラの原液は、割る人が最後の調合を担う | 未インデックス（未検出） | `green-cola-deep-dive-2026`(12) | 2/2 |
 | P1 | `crystal-spark-ramune-deep-dive-2026` / CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶 | 未インデックス（未検出） | `crystal-spark-grape-deep-dive-2026`(2) | 3/0 |
 | P1 | `dodecamin-zero-sakebitai-deep-dive-2026` / 名前は変わっても中身は裏切らない「ドデカミンのゼロが好き | 未インデックス（未検出） | `mitsuya-cider-zero-deep-dive-2026`(2) | 3/0 |
 | P1 | `dynamic-mic-5choice-2026` / ダイナミックマイク5本比較、話し声も歌も1本で録るなら必 | 未インデックス（未検出） | `condenser-mic-5choice-2026`(8) | 10/0 |
@@ -166,7 +170,7 @@
 | P1 | `tsugaru-vidro-mizubasho-sake-set-deep-dive-2026` / 湿地に咲く白い花を青いガラスに、津軽びいどろ みずばしょ | 未インデックス（未検出） | `arita-enka-sake-set-deep-dive-2026`(1) | 3/0 |
 | P1 | `tsugaru-vidro-nebuta-sake-set-deep-dive-2026` / ねぶたの夜を盃に閉じ込める、アデリア 津軽びいどろ NE | 未インデックス（未検出） | `arita-enka-sake-set-deep-dive-2026`(1) | 3/0 |
 | P1 | `tweed-jacket-street-style-2026` / ツイードジャケットの着こなし、目の粗いヘビーウェイト生地 | 未インデックス（未検出） | `jazz-style-fashion-revival-2026`(7) | 2/0 |
-| P1 | `vox-cola-flavor-deep-dive-2026` / VOX 強炭酸水 コーラフレーバーは香りだけのコーラにな | 未インデックス（未検出） | `green-cola-deep-dive-2026`(10) | 2/0 |
+| P1 | `vox-cola-flavor-deep-dive-2026` / VOX 強炭酸水 コーラフレーバーは香りだけのコーラにな | 未インデックス（未検出） | `green-cola-deep-dive-2026`(12) | 2/0 |
 | P1 | `whisky-year-end-gift-guide-2026` / ウイスキーを年末に贈るなら、化粧箱の1本とアドベントカレ | 未インデックス（未検出） | `taiwan-india-whisky-climate-2026`(6) | 0/6 |
 | P2 | `free-jazz-harmony-meter-listening-2026` / フリージャズの聴き方、オーネット・コールマンが手放した和 | 未インデックス（未検出） | `jazz-festivals-2026`(21), `jazz-style-fashion-revival-2026`(7) | 0/0 |
 | P2 | `japanese-jazz-sadao-watanabe-lineage-2026` / 日本のジャズは輸入盤のコピーからどう抜け出したか、秋吉敏 | 未インデックス（未検出） | `jazz-festivals-2026`(21), `jazz-style-fashion-revival-2026`(7) | 0/0 |
