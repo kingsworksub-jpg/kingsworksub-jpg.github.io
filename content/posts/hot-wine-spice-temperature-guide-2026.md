@@ -155,3 +155,4 @@ scheduled_time: "17:00"
 - [ボジョレー・ヌーヴォーが軽い理由、ぶどうの粒の中で始まるマセラシオン・カルボニック](/posts/beaujolais-nouveau-carbonic-maceration-2026/)
 - [オレンジのキャップだけがホットケースに並ぶ。ホット用ペットボトルが温められる理由](/posts/hot-pet-bottle-orange-cap-2026/)
 - [70℃と90℃を使い分ける。温度調節ケトルでお茶・コーヒー・焼酎お湯割りの湯温を設計する](/posts/temperature-kettle-tea-coffee-oyuwari-2026/)
+- [飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方](/posts/wine-preservation-guide/)

@@ -8499,5 +8499,28 @@
       "big_images53件の個別対応"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-20T01:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-kissa-speaker-night-2026",
+      "hot-wine-spice-temperature-guide-2026"
+    ],
+    "actions": [
+      "孤立記事2本(jazz-kissa-culture-2026, wine-preservation-guide)への被リンクを関連記事セクションに追加",
+      "seo-audit: posts=270 orphans=3(修正前) big_images=53 broken=0",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/jazz-kissa-speaker-night-2026.md",
+      "content/posts/hot-wine-spice-temperature-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事 3→1(hello のみ)",
+      "big_images 53件の個別対応"
+    ],
+    "status": "完了"
   }
 ]

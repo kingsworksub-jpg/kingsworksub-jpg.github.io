@@ -108,3 +108,4 @@ scheduled_time: "14:30"
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
 - [作業中のBGMで、耳は何を聞き流しているのか。歌詞が邪魔をする理由とサティの家具の音楽](/posts/background-music-focus-listening-2026/)
+- [大きな音を他者と聴く――日本のジャズ喫茶が育てた「場」と流儀](/posts/jazz-kissa-culture-2026/)
