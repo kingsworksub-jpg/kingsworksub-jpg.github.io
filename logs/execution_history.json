@@ -8983,5 +8983,21 @@
       "hugoビルド・seo-auditはローカルで確認"
     ],
     "status": "一部完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T21:53:16Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全278記事を静的点検: description/images欠落・禁止型タイトル・CTAマーカー残存・figure直後の見出し/区切り・img属性欠落を確認。該当なし",
+      "『してみた』5件は自然な用法で禁止パターン(実際に〜してみた)に非該当のため修正せず"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit・hugoビルドはローカルPCで確認"
+    ],
+    "status": "完了(修正なし・ビルド未検証)"
   }
 ]
