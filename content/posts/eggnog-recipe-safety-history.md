@@ -151,6 +151,9 @@ scheduled_time: "20:00"
 ぜひ今年の冬は、基本の配合比率と安全な温度管理をベースに、マイヤーズラムや香り高いナツメグを組み合わせた本格的なエッグノッグで、穏やかなひとときを過ごしてみてください。
 
 ## 関連記事・おすすめメディア
+- [ホット・バタード・ラムの作り方、バター115gと黒砂糖100gで練る8杯分のバッター](/posts/hot-buttered-rum-batter-guide-2026/)：同じラム酒ベースの冬の温かい一杯
+- [ホットワインの鍋は何℃で火から下ろすか。70℃の理由とシナモン・クローブ・オレンジの配合](/posts/hot-wine-spice-temperature-guide-2026/)：スパイスと温度管理の考え方
+- [『A Charlie Brown Christmas』が毎年12月に戻る理由](/posts/charlie-brown-christmas-guaraldi-trio-2026/)：飲みながら聴きたいクリスマスのジャズ
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)

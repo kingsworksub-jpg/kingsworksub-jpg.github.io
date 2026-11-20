@@ -147,3 +147,4 @@ scheduled_time: "17:00"
 - [note版(厳選ノウハウ・裏側)はこちら](https://note.com/shining_finger01)
 - [ホットワインの鍋は何℃で火から下ろすか。70℃の理由とシナモン・クローブ・オレンジの配合](/posts/hot-wine-spice-temperature-guide-2026/)
 - [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [71℃カスタード式で作る安全なエッグノッグ：クリスマスの伝統飲料の起源と再現レシピ](/posts/eggnog-recipe-safety-history/)：同じ冬のラム酒ドリンク、卵を使う場合の安全温度

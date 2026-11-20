@@ -8831,5 +8831,29 @@
       "hugo・PIL環境不備のためビルド/seo-audit未実行"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T12:58:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "eggnog-recipe-safety-history",
+      "hot-buttered-rum-batter-guide-2026",
+      "hot-wine-spice-temperature-guide-2026"
+    ],
+    "actions": [
+      "エッグノッグ記事の壊れたnoteリンク(n/XXXX)をnoteトップに修正",
+      "エッグノッグ記事に関連既存記事3本、ホット・バタード・ラム/ホットワイン記事から同記事への被リンクを追加(5周目: 孤立記事の解消)"
+    ],
+    "files_changed": [
+      "content/posts/eggnog-recipe-safety-history.md",
+      "content/posts/hot-buttered-rum-batter-guide-2026.md",
+      "content/posts/hot-wine-spice-temperature-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る被リンク0: hello, usb-microphone-comparison-2026, google-microsoft-authenticator-migration-guide",
+      "hugo未導入のためビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
