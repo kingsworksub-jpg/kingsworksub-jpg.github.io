@@ -8,6 +8,9 @@ GitHub Actions は Windows の暗号化クッキー(DPAPI)を読めないため�
     python scripts/amazon-session-export.py --profile          # 既存プロファイルから（ログイン不要）
     python scripts/amazon-session-export.py                    # 新規ログイン（ブラウザが開く）
     python scripts/amazon-session-export.py --update-secret    # ログイン後に Secret も自動更新（推奨）
+    python scripts/amazon-session-export.py --chrome-profile --update-secret
+        # 普段使っている Chrome の Cookie をコピーしてセッションを取り出す（GUI操作不要）
+        # 事前に Chrome を完全終了させ、Amazon にログイン済みにしておくこと
     → data/amazon_storage_state.json と .b64 ができる
     → --update-secret を付けると gh で `AMAZON_STORAGE_STATE_B64` を直接更新する
 
@@ -20,8 +23,10 @@ import argparse
 import base64
 import io
 import os
+import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from urllib.parse import urlparse
 
@@ -35,6 +40,9 @@ OUT_B64 = os.path.join(ROOT, "data", "amazon_storage_state.b64")
 PROFILE = os.path.join(ROOT, "data", "amazon_associates_profile")
 HOME = "https://affiliate.amazon.co.jp/home"
 SECRET_NAME = "AMAZON_STORAGE_STATE_B64"
+CHROME_USER_DATA = os.path.join(
+    os.environ.get("LOCALAPPDATA", ""), "Google", "Chrome", "User Data"
+)
 
 
 def is_associates(page) -> bool:
@@ -78,57 +86,114 @@ def secret_updated_at() -> str:
         return ""
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--profile",
-        action="store_true",
-        help="既存のログイン済み永続プロファイルから storage_state を書き出す（ログイン不要）",
-    )
-    parser.add_argument(
-        "--update-secret",
-        action="store_true",
-        help="書き出した storage_state で GitHub Secret を自動更新する（gh CLI 認証が必要）",
-    )
-    args = parser.parse_args()
-    os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
+def export_from_chrome() -> bool:
+    """Chrome のプロファイルを一時コピーし、ログイン済みセッションを storage_state に保存する。"""
+    if not os.path.isdir(CHROME_USER_DATA):
+        print(f"Chrome のプロファイルが見つかりません: {CHROME_USER_DATA}", flush=True)
+        return False
+    tmp = tempfile.mkdtemp(prefix="amazon-chrome-profile-")
+    try:
+        copies = [
+            ("Local State", "Local State"),
+            (os.path.join("Default", "Preferences"), os.path.join("Default", "Preferences")),
+            (os.path.join("Default", "Network", "Cookies"), os.path.join("Default", "Network", "Cookies")),
+        ]
+        for src_rel, dst_rel in copies:
+            src = os.path.join(CHROME_USER_DATA, src_rel)
+            dst = os.path.join(tmp, dst_rel)
+            if not os.path.exists(src):
+                continue
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            with io.open(src, "rb") as f_in, io.open(dst, "wb") as f_out:
+                f_out.write(f_in.read())
+        if not os.path.exists(os.path.join(tmp, "Default", "Network", "Cookies")):
+            print("Chrome の Cookie を読み取れませんでした。Chrome を完全に終了してください。", flush=True)
+            return False
 
-    with sync_playwright() as p:
-        if args.profile:
-            if not os.path.isdir(PROFILE):
-                print(f"プロファイルが見つかりません: {PROFILE}", flush=True)
-                return 1
+        with sync_playwright() as p:
             ctx = p.chromium.launch_persistent_context(
-                PROFILE,
+                tmp,
+                channel="chrome",
                 headless=True,
                 viewport={"width": 1440, "height": 1000},
                 locale="ja-JP",
             )
-            page = ctx.pages[0] if ctx.pages else ctx.new_page()
-            page.goto(HOME, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(3000)
-            if not is_associates(page):
-                print("保存済みセッションが切れています。--profile なしで再ログインしてください。", flush=True)
-                ctx.close()
-                return 1
-            ctx.storage_state(path=OUT_JSON)
-            ctx.close()
-        else:
-            browser = p.chromium.launch(headless=False, args=["--start-maximized"])
-            ctx = browser.new_context(viewport={"width": 1440, "height": 1000}, locale="ja-JP")
-            page = ctx.new_page()
-            page.goto(HOME, wait_until="domcontentloaded", timeout=60000)
-            print("ブラウザで Amazon にログインしてください（最大10分待ちます）。", flush=True)
-            deadline = time.time() + 600
-            while time.time() < deadline and not is_associates(page):
+            try:
+                page = ctx.pages[0] if ctx.pages else ctx.new_page()
+                page.goto(HOME, wait_until="domcontentloaded", timeout=60000)
                 page.wait_for_timeout(3000)
-            if not is_associates(page):
-                print("ログインを検出できませんでした。再実行してください。", flush=True)
+                if not is_associates(page):
+                    print(
+                        f"Chrome のセッションが切れています (URL={page.url}, title={page.title()})。"
+                        "Chrome で Amazon にログインしてから再実行してください。",
+                        flush=True,
+                    )
+                    return False
+                ctx.storage_state(path=OUT_JSON)
+                return True
+            finally:
+                ctx.close()
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--profile", action="store_true",
+        help="既存のログイン済み永続プロファイルから storage_state を書き出す（ログイン不要）",
+    )
+    parser.add_argument(
+        "--update-secret", action="store_true",
+        help="書き出した storage_state で GitHub Secret を自動更新する（gh CLI 認証が必要）",
+    )
+    parser.add_argument(
+        "--chrome-profile", action="store_true",
+        help="普段使っている Chrome の Cookie をコピーしてセッションを取り出す（要・Chrome終了）",
+    )
+    args = parser.parse_args()
+    os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
+
+    if args.chrome_profile:
+        if not export_from_chrome():
+            return 1
+    elif args.profile:
+        if not os.path.isdir(PROFILE):
+            print(f"プロファイルが見つかりません: {PROFILE}", flush=True)
+            return 1
+        with sync_playwright() as p:
+            ctx = p.chromium.launch_persistent_context(
+                PROFILE, headless=True,
+                viewport={"width": 1440, "height": 1000}, locale="ja-JP",
+            )
+            try:
+                page = ctx.pages[0] if ctx.pages else ctx.new_page()
+                page.goto(HOME, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(3000)
+                if not is_associates(page):
+                    print("保存済みセッションが切れています。再ログインが必要です。", flush=True)
+                    return 1
+                ctx.storage_state(path=OUT_JSON)
+            finally:
+                ctx.close()
+    else:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=False, args=["--start-maximized"])
+            try:
+                ctx = browser.new_context(viewport={"width": 1440, "height": 1000}, locale="ja-JP")
+                page = ctx.new_page()
+                page.goto(HOME, wait_until="domcontentloaded", timeout=60000)
+                print("ブラウザで Amazon にログインしてください（最大10分待ちます）。", flush=True)
+                deadline = time.time() + 600
+                while time.time() < deadline and not is_associates(page):
+                    page.wait_for_timeout(3000)
+                if not is_associates(page):
+                    print("ログインを検出できませんでした。再実行してください。", flush=True)
+                    return 1
+                page.wait_for_timeout(1500)
+                ctx.storage_state(path=OUT_JSON)
+            finally:
                 browser.close()
-                return 1
-            page.wait_for_timeout(1500)
-            ctx.storage_state(path=OUT_JSON)
-            browser.close()
 
     with io.open(OUT_JSON, "rb") as fh:
         encoded = base64.b64encode(fh.read()).decode("ascii")
