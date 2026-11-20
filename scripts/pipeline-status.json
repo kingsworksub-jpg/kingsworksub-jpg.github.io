@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:02:48+09:00",
+ "updated": "2026-11-20T22:02:53+09:00",
  "queue": {
   "published": 176,
   "rejected": 11,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published eggnog-recipe-safety-history",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "X返信",
-  "since": "2026-11-20T22:02:48+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-20T22:02:43+09:00",
+  "at": "2026-11-20T22:02:53+09:00",
   "engine": "gemini",
-  "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=failed: exit code 1 | stage3 opencode/deepseek-v4.1-flash-free=failed: exit code 1 | stage4 opencode/longcat-2.5-free=failed: Now I'll build the brief for the generation step."
+  "detail": "[i] 本日の自動返信上限(5件)に達しました。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "X返信",
+   "state": "finished",
+   "at": "2026-11-20T22:02:53+09:00",
+   "engine": "gemini",
+   "detail": "[i] 本日の自動返信上限(5件)に達しました。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -98,14 +101,6 @@
    "at": "2026-11-20T19:20:35+09:00",
    "engine": "gemini",
    "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-20T19:00:20+09:00",
-   "engine": "none",
-   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
   }
  ],
  "engine_post": "gemini",
