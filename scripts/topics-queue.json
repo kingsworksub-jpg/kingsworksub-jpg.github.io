@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:42:00+09:00",
+ "updated": "2026-11-20T23:00:15+09:00",
  "items": [
   {
    "category": "gear",
@@ -10742,14 +10742,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-026",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-25",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-20T21:42:00+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
-   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "drink-recipe",

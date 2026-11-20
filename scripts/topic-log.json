@@ -3636,6 +3636,15 @@
    "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-20T21:41:14+09:00"
+  },
+  {
+   "id": "2026w43-026",
+   "category": "anime",
+   "theme": "『AKIRA』のネオ東京、セル画の手描き背景とバイクの光の尾",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-20T23:00:15+09:00"
   }
  ]
 }
