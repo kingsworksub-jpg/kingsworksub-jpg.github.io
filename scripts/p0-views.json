@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:09:27+09:00",
+  "generated_at": "2026-11-20T18:46:01+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -330,7 +330,7 @@
       "slug": "chrome-mv3-ublock-origin-lite-2026",
       "title": "uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能",
       "date": "2026-11-05T11:50:00+09:00",
-      "views": 20,
+      "views": 21,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -681,7 +681,7 @@
       "slug": "evans-lafaro-village-vanguard-1961-2026",
       "title": "ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日",
       "date": "2026-11-05T14:30:00+09:00",
-      "views": 5,
+      "views": 6,
       "asins": 1,
       "search_links": 1,
       "amazon_links": 2
@@ -1392,7 +1392,7 @@
       "slug": "minipc-dtm-ryzen-7730u-guide-2026",
       "title": "ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く",
       "date": "2026-10-27T12:00:00+09:00",
-      "views": 8,
+      "views": 9,
       "asins": 0,
       "search_links": 2,
       "amazon_links": 2
@@ -1446,7 +1446,7 @@
       "slug": "monitor-arm-vesa-desk-depth-2026",
       "title": "モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか",
       "date": "2026-11-07T12:00:00+09:00",
-      "views": 7,
+      "views": 8,
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
@@ -1923,7 +1923,7 @@
       "slug": "shiboritate-sake-winter-namazake-2026",
       "title": "しぼりたての日本酒は11月から春までしか並ばない。寒造りと火入れ0回の生酒を数字で読む",
       "date": "2026-11-14T16:50:00+09:00",
-      "views": 6,
+      "views": 7,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -2506,7 +2506,7 @@
       "nakimoto1-22"
     ],
     "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-    "last_collected_at": "2026-11-20T18:09:21+09:00"
+    "last_collected_at": "2026-11-20T18:45:57+09:00"
   },
   "errors": 0
 }

@@ -1,7 +1,7 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 18:09 JST
-- 記事数: **272本** / 合計ビュー: **3,212**（前回比 **+6**）
+- 生成: 2026-11-20 18:45 JST
+- 記事数: **272本** / 合計ビュー: **3,217**（前回比 **+5**）
 - 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
@@ -47,11 +47,11 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `usb-microphone-comparison-2026` | 2 | +2 |
-| `monitor-headphones-5choice-2026` | 20 | +1 |
-| `otsuka-match-deep-dive-2026` | 13 | +1 |
-| `hugo-build-time-measure-2026` | 6 | +1 |
-| `hot-buttered-rum-batter-guide-2026` | 5 | +1 |
+| `chrome-mv3-ublock-origin-lite-2026` | 21 | +1 |
+| `minipc-dtm-ryzen-7730u-guide-2026` | 9 | +1 |
+| `monitor-arm-vesa-desk-depth-2026` | 8 | +1 |
+| `shiboritate-sake-winter-namazake-2026` | 7 | +1 |
+| `evans-lafaro-village-vanguard-1961-2026` | 6 | +1 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
@@ -88,7 +88,7 @@
 | slug | ビュー |
 |---|---:|
 | `digital-performer-12-chunks-2026` | 22 |
-| `chrome-mv3-ublock-origin-lite-2026` | 20 |
+| `chrome-mv3-ublock-origin-lite-2026` | 21 |
 | `hello` | 18 |
 | `logic-pro-mac-songwriting-2026` | 18 |
 | `free-plugin-mix-eq-comp-reverb-2026` | 13 |

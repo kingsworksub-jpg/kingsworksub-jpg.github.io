@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-20 18:09 JST
+- 生成: 2026-11-20 18:46 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
 - 対象記事: **272本** / 公開Markdown 272本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,212** / Amazonリンクあり記事: **225本**
+- 合計ビュー: **3,217** / Amazonリンクあり記事: **225本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -65,9 +65,9 @@
 | `crystal-spark-grape-deep-dive-2026` | 香りだけで満足できるか？CRYSTAL SPARK グレープソーダの無糖設計 | 22 | 1 | 0 | 1 | - |
 | `digital-performer-12-chunks-2026` | Digital Performer 12のチャンクは、映画1本分のキューを1つのファイル | 22 | 0 | 0 | 0 | 商品リンクなし |
 | `taiwan-india-whisky-climate-2026` | 台湾とインドのウイスキー比較 — 気候が熟成を加速させる理由と3本の選び方 | 22 | 3 | 0 | 3 | - |
+| `chrome-mv3-ublock-origin-lite-2026` | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のC | 21 | 0 | 0 | 0 | 商品リンクなし |
 | `hammond-b3-jazz-organ-2026` | ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン | 21 | 2 | 2 | 4 | - |
 | `at-lp120xusb-deep-dive-2026` | Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテ | 20 | 1 | 0 | 1 | - |
-| `chrome-mv3-ublock-origin-lite-2026` | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のC | 20 | 0 | 0 | 0 | 商品リンクなし |
 | `monitor-headphones-5choice-2026` | モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く | 20 | 1 | 15 | 16 | - |
 | `vox-cola-flavor-deep-dive-2026` | VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか | 20 | 1 | 0 | 1 | - |
 | `wilkinson-tansan-deep-dive-2026` | 強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ | 20 | 1 | 0 | 1 | - |
@@ -185,7 +185,7 @@
 | slug | ビュー |
 |---|---:|
 | `digital-performer-12-chunks-2026` | 22 |
-| `chrome-mv3-ublock-origin-lite-2026` | 20 |
+| `chrome-mv3-ublock-origin-lite-2026` | 21 |
 | `hello` | 18 |
 | `logic-pro-mac-songwriting-2026` | 18 |
 | `free-plugin-mix-eq-comp-reverb-2026` | 13 |
@@ -199,10 +199,10 @@
 | `beaujolais-nouveau-carbonic-maceration-2026` | 7 |
 | `demucs-stem-separation-htdemucs-ft-2026` | 7 |
 | `fl-studio-pattern-piano-roll` | 7 |
+| `shiboritate-sake-winter-namazake-2026` | 7 |
 | `can-chill-salt-ice-water-2026` | 6 |
 | `gh-cli-pull-request-terminal-guide-2026` | 6 |
 | `github-actions-schedule-push-guide-2026` | 6 |
-| `shiboritate-sake-winter-namazake-2026` | 6 |
 | `vscode-dev-containers-docker-guide-2026` | 6 |
 
 ## 次のアクション

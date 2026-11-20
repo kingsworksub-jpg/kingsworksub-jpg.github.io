@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-11-20 18:09 JST",
-  "total_views": 3212,
-  "previous_total": 3206,
+  "generated_at": "2026-11-20 18:45 JST",
+  "total_views": 3217,
+  "previous_total": 3212,
   "gainers": [
     {
-      "slug": "usb-microphone-comparison-2026",
-      "title": "USBマイク5タイプ比較、配信と宅録で指向性と付属ソフトから選ぶ基準",
-      "views": 2,
-      "delta": 2,
-      "amazon_links": 4
-    },
-    {
-      "slug": "monitor-headphones-5choice-2026",
-      "title": "モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く",
-      "views": 20,
+      "slug": "chrome-mv3-ublock-origin-lite-2026",
+      "title": "uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能",
+      "views": 21,
       "delta": 1,
-      "amazon_links": 16
+      "amazon_links": 0
     },
     {
-      "slug": "otsuka-match-deep-dive-2026",
-      "title": "部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ)",
-      "views": 13,
-      "delta": 1,
-      "amazon_links": 1
-    },
-    {
-      "slug": "hugo-build-time-measure-2026",
-      "title": "Hugoのビルド時間を測ったら、95秒のうちページの描画は1.3秒だった",
-      "views": 6,
+      "slug": "minipc-dtm-ryzen-7730u-guide-2026",
+      "title": "ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く",
+      "views": 9,
       "delta": 1,
       "amazon_links": 2
     },
     {
-      "slug": "hot-buttered-rum-batter-guide-2026",
-      "title": "ホット・バタード・ラムの作り方、バター115gと黒砂糖100gで練る8杯分のバッター",
-      "views": 5,
+      "slug": "monitor-arm-vesa-desk-depth-2026",
+      "title": "モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか",
+      "views": 8,
       "delta": 1,
-      "amazon_links": 1
+      "amazon_links": 2
+    },
+    {
+      "slug": "shiboritate-sake-winter-namazake-2026",
+      "title": "しぼりたての日本酒は11月から春までしか並ばない。寒造りと火入れ0回の生酒を数字で読む",
+      "views": 7,
+      "delta": 1,
+      "amazon_links": 0
+    },
+    {
+      "slug": "evans-lafaro-village-vanguard-1961-2026",
+      "title": "ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日",
+      "views": 6,
+      "delta": 1,
+      "amazon_links": 2
     },
     {
       "slug": "piano-practice-apps-3choice-2026",
@@ -227,8 +227,8 @@
     {
       "slug": "chrome-mv3-ublock-origin-lite-2026",
       "title": "uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能",
-      "views": 20,
-      "delta": 0,
+      "views": 21,
+      "delta": 1,
       "amazon_links": 0
     },
     {
@@ -343,7 +343,7 @@
       "nakimoto1-22"
     ],
     "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-    "last_collected_at": "2026-11-20T18:09:21+09:00"
+    "last_collected_at": "2026-11-20T18:45:57+09:00"
   },
   "ga4": {
     "property_id": "555729014",
