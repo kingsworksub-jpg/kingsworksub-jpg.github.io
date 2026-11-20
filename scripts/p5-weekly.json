@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-11-20 12:53 JST",
-  "total_views": 3206,
-  "previous_total": 3205,
+  "generated_at": "2026-11-20 18:09 JST",
+  "total_views": 3212,
+  "previous_total": 3206,
   "gainers": [
     {
-      "slug": "takaoka-shikki-raden-glass-sakura-deep-dive-2026",
-      "title": "貝殻の虹色を酒で呼び覚ます、高岡漆器 螺鈿ガラス 金杯(万華鏡)桜",
-      "views": 8,
+      "slug": "usb-microphone-comparison-2026",
+      "title": "USBマイク5タイプ比較、配信と宅録で指向性と付属ソフトから選ぶ基準",
+      "views": 2,
+      "delta": 2,
+      "amazon_links": 4
+    },
+    {
+      "slug": "monitor-headphones-5choice-2026",
+      "title": "モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く",
+      "views": 20,
+      "delta": 1,
+      "amazon_links": 16
+    },
+    {
+      "slug": "otsuka-match-deep-dive-2026",
+      "title": "部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ)",
+      "views": 13,
+      "delta": 1,
+      "amazon_links": 1
+    },
+    {
+      "slug": "hugo-build-time-measure-2026",
+      "title": "Hugoのビルド時間を測ったら、95秒のうちページの描画は1.3秒だった",
+      "views": 6,
+      "delta": 1,
+      "amazon_links": 2
+    },
+    {
+      "slug": "hot-buttered-rum-batter-guide-2026",
+      "title": "ホット・バタード・ラムの作り方、バター115gと黒砂糖100gで練る8杯分のバッター",
+      "views": 5,
       "delta": 1,
       "amazon_links": 1
     },
@@ -44,34 +72,6 @@
       "views": 54,
       "delta": 0,
       "amazon_links": 1
-    },
-    {
-      "slug": "canned-coffee-5choice-2026",
-      "title": "缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線",
-      "views": 52,
-      "delta": 0,
-      "amazon_links": 5
-    },
-    {
-      "slug": "sodastream-terra-carbonation-guide-2026",
-      "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方",
-      "views": 45,
-      "delta": 0,
-      "amazon_links": 4
-    },
-    {
-      "slug": "turntable-5choice-2026",
-      "title": "アナログターンテーブル5台比較、針を落とすという儀式のために",
-      "views": 41,
-      "delta": 0,
-      "amazon_links": 5
-    },
-    {
-      "slug": "record-stylus-lifespan-guide-2026",
-      "title": "レコード針の寿命と交換時期 — 1,000時間の目安、針圧、MM/MCの違い",
-      "views": 39,
-      "delta": 0,
-      "amazon_links": 5
     }
   ],
   "next_candidates": [
@@ -291,7 +291,7 @@
   "amazon": {
     "_comment": "アソシエイト・セントラル レポートサマリーから自動回収した実数値。",
     "period": "Oct 21 2026 〜 Nov 19 2026 / 過去30日間",
-    "last_updated": "Nov 20 2026 01:50 JST",
+    "last_updated": "Nov 20 2026 10:38 JST",
     "clicks": 223,
     "orders": 0,
     "revenue": 0,
@@ -343,7 +343,7 @@
       "nakimoto1-22"
     ],
     "note": "GitHub Actions が毎週自動取得。媒体別はUIフィルタ変更が必要。コード側 affiliate_tag.py の TAGS には5つ（X含む）を登録済み。",
-    "last_collected_at": "2026-11-20T08:28:23+09:00"
+    "last_collected_at": "2026-11-20T18:09:21+09:00"
   },
   "ga4": {
     "property_id": "555729014",

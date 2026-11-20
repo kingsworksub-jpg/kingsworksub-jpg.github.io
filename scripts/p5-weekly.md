@@ -1,7 +1,7 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 12:53 JST
-- 記事数: **271本** / 合計ビュー: **3,206**（前回比 **+1**）
+- 生成: 2026-11-20 18:09 JST
+- 記事数: **272本** / 合計ビュー: **3,212**（前回比 **+6**）
 - 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
@@ -47,16 +47,16 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `takaoka-shikki-raden-glass-sakura-deep-dive-2026` | 8 | +1 |
+| `usb-microphone-comparison-2026` | 2 | +2 |
+| `monitor-headphones-5choice-2026` | 20 | +1 |
+| `otsuka-match-deep-dive-2026` | 13 | +1 |
+| `hugo-build-time-measure-2026` | 6 | +1 |
+| `hot-buttered-rum-batter-guide-2026` | 5 | +1 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
 | `budget-whisky-10choice-2026` | 56 | +0 |
 | `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +0 |
-| `canned-coffee-5choice-2026` | 52 | +0 |
-| `sodastream-terra-carbonation-guide-2026` | 45 | +0 |
-| `turntable-5choice-2026` | 41 | +0 |
-| `record-stylus-lifespan-guide-2026` | 39 | +0 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 

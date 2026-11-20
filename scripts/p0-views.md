@@ -1,9 +1,9 @@
 # P0 数値サマリ（サイト内ビュー × Amazon）
 
-- 生成: 2026-11-20 12:53 JST
+- 生成: 2026-11-20 18:09 JST
 - ビュー取得元: countapi `kingsworksub-jpg-studionotes-<slug>`（累計・公開後通し）
-- 対象記事: **271本** / 公開Markdown 271本（取得失敗 0本・未閲覧=0含む）
-- 合計ビュー: **3,206** / Amazonリンクあり記事: **224本**
+- 対象記事: **272本** / 公開Markdown 272本（取得失敗 0本・未閲覧=0含む）
+- 合計ビュー: **3,212** / Amazonリンクあり記事: **225本**
 
 > Search Console は初期設定直後で過去データが無いため、記事別の並びはサイト自身のビュー数を使用。
 > インプレッション／検索クエリ／平均順位はSCにデータが溜まってから追加する。
@@ -68,11 +68,11 @@
 | `hammond-b3-jazz-organ-2026` | ハモンドB-3の左手はベースを弾く。ジミー・スミスが変えたジャズオルガン | 21 | 2 | 2 | 4 | - |
 | `at-lp120xusb-deep-dive-2026` | Audio-Technica AT-LP120XUSBは録音までこなす一台三役のターンテ | 20 | 1 | 0 | 1 | - |
 | `chrome-mv3-ublock-origin-lite-2026` | uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のC | 20 | 0 | 0 | 0 | 商品リンクなし |
+| `monitor-headphones-5choice-2026` | モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く | 20 | 1 | 15 | 16 | - |
 | `vox-cola-flavor-deep-dive-2026` | VOX 強炭酸水 コーラフレーバーは香りだけのコーラになれるか | 20 | 1 | 0 | 1 | - |
 | `wilkinson-tansan-deep-dive-2026` | 強炭酸の元祖、ウィルキンソン タンサンが教えるシンプルさ | 20 | 1 | 0 | 1 | - |
 | `jazz-masterpieces-beginner` | ジャズ名盤入門、最初に聴きたい10枚を時代順に | 19 | 4 | 0 | 4 | - |
 | `launchkey-mk4-key-range` | Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった | 19 | 7 | 1 | 8 | - |
-| `monitor-headphones-5choice-2026` | モニターヘッドホン5台比較、録りでは耳を塞ぎ、ミックスでは耳を開く | 19 | 1 | 15 | 16 | - |
 | `rega-planar3-deep-dive-2026` | Rega Planar 3が半世紀守る「軽さと剛性」の設計思想 | 19 | 1 | 0 | 1 | - |
 | `alan-boguslavsky-stage` | Héroes del Silencioの写真から消された5人目、ギタリストAlan Bo | 18 | 2 | 0 | 2 | - |
 | `ballantines-finest-deep-dive-2026` | バランタイン ファイネスはなぜ世界2位のスコッチになれたのか | 18 | 1 | 0 | 1 | - |
@@ -101,6 +101,7 @@
 | `free-plugin-mix-eq-comp-reverb-2026` | 無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ | 13 | 0 | 0 | 0 | 商品リンクなし |
 | `kobe-kyoryuchi-sparkling-water-deep-dive-2026` | 190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター | 13 | 1 | 0 | 1 | - |
 | `mix-practice-1month` | ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ | 13 | 4 | 1 | 5 | - |
+| `otsuka-match-deep-dive-2026` | 部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ) | 13 | 1 | 0 | 1 | - |
 | `san-pellegrino-deep-dive-2026` | サンペレグリノが世界のテーブルに選ばれる理由 | 13 | 1 | 0 | 1 | - |
 | `suntory-trys-deep-dive-2026` | トリスウイスキーとトリスバーの時代、いま飲む一本として | 13 | 1 | 0 | 1 | - |
 | `black-nikka-clear-deep-dive-2026` | ブラックニッカ クリアの軽さはどこから来るのか | 12 | 1 | 0 | 1 | - |
@@ -110,7 +111,6 @@
 | `jim-beam-white-deep-dive-2026` | ジムビーム ホワイトが世界一売れるバーボンである理由 | 12 | 1 | 0 | 1 | - |
 | `keith-ti9304-titanium-sake-cup-deep-dive-2026` | KEITH 純チタン おちょこは、白酒のために生まれた旅する盃 | 12 | 1 | 0 | 1 | - |
 | `music-theory-3month-plan` | 音楽理論を3か月で一周するなら、最初から読む本は1冊だけ | 12 | 2 | 3 | 5 | - |
-| `otsuka-match-deep-dive-2026` | 部活帰りの喉が覚えている黄色い一本、大塚食品 MATCH(マッチ) | 12 | 1 | 0 | 1 | - |
 | `peacock-acf38-sake-set-deep-dive-2026` | 温度を止める徳利、ピーコックの真空二重構造 酒器セット | 12 | 1 | 0 | 1 | - |
 | `sherry-cask-5choice-2026` | シェリー樽のスコッチを5本選ぶなら、オロロソとペドロヒメネスの違いから | 12 | 2 | 15 | 17 | - |
 | `tsugaru-vidro-katakuchi-ajisai-deep-dive-2026` | 津軽びいどろ 片口あじさいに写した龍飛崎の紫陽花 | 12 | 1 | 0 | 1 | - |
