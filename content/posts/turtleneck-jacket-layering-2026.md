@@ -21,8 +21,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B0BJYY98RV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/turtleneck-jacket/lichtenstein.jpg" width="220" height="293" alt="細い編み目のタートルネックの上にヘリンボーンのツイードジャケットを着た男性の白黒写真" loading="lazy">
 </a>
-<figcaption>1967年、アムステルダム市立美術館での展覧会に立つロイ・リキテンスタイン。目の詰んだタートルネックにヘリンボーンのジャケットという、いまでも通用する組み合わせ(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Eric Koch for Anefo / CC BY-SA 3.0</span>
+<figcaption>1967年、アムステルダム市立美術館での展覧会に立つロイ・リキテンスタイン。目の詰んだタートルネックにヘリンボーンのジャケットという、いまでも通用する組み合わせ(クリックでAmazonへ)<span class="credit">Photo: Eric Koch for Anefo / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 シャツとネクタイの組み合わせは、首元に「襟の角」と「結び目」という2つの山をつくる。ジャケットの下襟はその山を両側から挟むように開いていて、視線は自然と結び目に集まる。スーツの首元が引き締まって見えるのは、この縦に重なった要素がきちんと中心に揃っているからだ。
@@ -37,8 +36,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B07Z4LJ636?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/turtleneck-jacket/seaman-jumper.jpg" width="220" height="351" alt="ハンガーに掛けられた生成り色の厚手のロールネックセーター。腹部に大きなポケットが付いている" loading="lazy">
 </a>
-<figcaption>船乗り用に編まれた厚手のロールネック。風を防ぐための高い首と、手を温める大きなポケットに仕事着の出自が残る(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Peter Ellis at English Wikipedia / CC BY-SA 2.5</span>
+<figcaption>船乗り用に編まれた厚手のロールネック。風を防ぐための高い首と、手を温める大きなポケットに仕事着の出自が残る(クリックでAmazonへ)<span class="credit">Photo: Peter Ellis at English Wikipedia / CC BY-SA 2.5</span></figcaption>
 </figure>
 
 タートルネックはもともと、身なりを整えるための服ではなかった。19世紀の終わりごろには、漁師や船乗り、港や工場で働く人たち、それにスポーツ選手が着る実用の服として広まっていた。海の上で首から入り込む風を防ぎ、ボタンや襟のような引っかかる部品を持たない。写真の船乗り用のセーターも、首は高く、編み目は太く、腹には手を温めるための大きなポケットが付いている。動きやすさと暖かさだけを考えて作られた形だ。
@@ -55,8 +53,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B0DGP9SH9F?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/turtleneck-jacket/rollneck-knit.jpg" width="220" height="249" alt="杢グレーの中厚手のタートルネックセーターを正面から写した写真。編み目の粒が表面に見えている" loading="lazy">
 </a>
-<figcaption>編み目の粒がはっきり見える中厚手のタートルネック。1枚で着るなら温かいが、ジャケットの下では腕と肩に厚みがたまりやすい(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Joan Rocaguinard / CC BY-SA 3.0</span>
+<figcaption>編み目の粒がはっきり見える中厚手のタートルネック。1枚で着るなら温かいが、ジャケットの下では腕と肩に厚みがたまりやすい(クリックでAmazonへ)<span class="credit">Photo: Joan Rocaguinard / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 ニットの厚さや編み目の細かさを表すのがゲージという数字だ。編み機の針床に、1インチ(約2.54センチ)あたり何本の針が並んでいるかを示している。針が多いほど1本1本の糸は細く、編み目は小さく、生地は薄くなめらかになる。数字が大きいほど細かい、と覚えておけばよい。
@@ -83,8 +80,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B0FF83KHJC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/turtleneck-jacket/corduroy.jpg" width="220" height="147" alt="生成り色の細い編みのタートルネックに、紺色のコーデュロイジャケットを羽織った男性の写真" loading="lazy">
 </a>
-<figcaption>生成りの細いタートルネックに紺のコーデュロイ。下襟が胸の中ほどまで開き、ニットの面がほどよく見えている(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Elarionne / CC BY-SA 4.0</span>
+<figcaption>生成りの細いタートルネックに紺のコーデュロイ。下襟が胸の中ほどまで開き、ニットの面がほどよく見えている(クリックでAmazonへ)<span class="credit">Photo: Elarionne / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 首の形が決まったら、次はジャケットの襟を見る。タートルネックと合わせるときに効いてくるのは、下襟がどこから開き始め、どれくらいの角度で広がっているかだ。この開きの大きさが、そのまま首元からのぞくニットの面積になる。
@@ -103,8 +99,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B08M39M9TH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/turtleneck-jacket/leather.jpg" width="220" height="276" alt="キャメル色の太いリブ編みのタートルネックに、黒い革のジャケットを合わせた男性の写真" loading="lazy">
 </a>
-<figcaption>キャメルの太いリブ編みに黒の革ジャケット。厚手のニットは、テーラードよりも革やコートと合わせたほうが自然に収まる(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Everwest / CC BY 4.0</span>
+<figcaption>キャメルの太いリブ編みに黒の革ジャケット。厚手のニットは、テーラードよりも革やコートと合わせたほうが自然に収まる(クリックでAmazonへ)<span class="credit">Photo: Everwest / CC BY 4.0</span></figcaption>
 </figure>
 
 タートルネックとジャケットの色合わせは、細かな配色理論よりも先に、ニットを上着より明るくするか、暗くするかを決めると考えやすい。

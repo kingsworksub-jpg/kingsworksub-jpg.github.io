@@ -27,8 +27,7 @@ Universal AudioのVoltシリーズは、同社の伝統的なスタジオ機材�
 <a href="https://www.amazon.co.jp/dp/B09JNY3M3C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/universal-audio-volt-276/interface.jpg" alt="スタジオ機材と接続されたオーディオインターフェイス" width="960" height="640" loading="lazy">
 </a>
-<figcaption>スタジオの機材環境とオーディオインターフェイスの組み合わせ</figcaption>
-<span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span>
+<figcaption>スタジオの機材環境とオーディオインターフェイスの組み合わせ<span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 

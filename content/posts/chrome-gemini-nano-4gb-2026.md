@@ -19,8 +19,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0FD9V3LJ8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chrome-gemini/chrome1.jpg" alt="Google Chromeの画面イメージ" width="1000" height="591" loading="lazy"></a>
-<figcaption>ブラウザのバックグラウンドで動作するAI機能</figcaption>
-<span class="credit">Photo: Megamanfan3 / Public domain</span>
+<figcaption>ブラウザのバックグラウンドで動作するAI機能<span class="credit">Photo: Megamanfan3 / Public domain</span></figcaption>
 </figure>
 
 Googleは近年、OSやブラウザ、さまざまなアプリケーションに自社のAIである「Gemini」シリーズを深く統合する戦略を強力に推進している。その中でも「Gemini Nano」は、クラウドサーバーへデータを送信することなく、スマートフォンやパソコンといった個人のデバイス（エンドポイント）上で直接軽量なAI処理を実行するために設計されたモデルである。
@@ -33,8 +32,7 @@ ChromeブラウザがこのGemini Nanoを自動ダウンロードする背景に
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08KGGPTYH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chrome-gemini/chrome2.jpg" alt="Chromeの機能拡張と画面分割" width="1000" height="529" loading="lazy"></a>
-<figcaption>ブラウザの機能拡張とリソース消費</figcaption>
-<span class="credit">Photo: TealComet / CC0</span>
+<figcaption>ブラウザの機能拡張とリソース消費<span class="credit">Photo: TealComet / CC0</span></figcaption>
 </figure>
 
 オンデバイスAIの最大のメリットは、プライバシーの保護と応答速度の速さにある。入力したテキストや閲覧しているページのデータが外部のサーバーに送信されないため、機密性の高い情報や個人的な文章を扱う際にも安心してAIの恩恵を受けられる。また、ネットワークの混雑状況に左右されず、瞬時に結果が返ってくる点も大きな強みだ。

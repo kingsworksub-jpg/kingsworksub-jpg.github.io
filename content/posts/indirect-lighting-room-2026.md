@@ -20,8 +20,7 @@ scheduled_time: "21:30"
 <a href="https://www.amazon.co.jp/s?k=LED%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%A2%E3%83%83%E3%83%91%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/indirect-lighting-room.png" alt="間接照明とインテリアの光" width="667" height="1000" loading="lazy">
 </a>
-<figcaption>光の陰影を生み出すことで、空間に豊かな奥行きが生まれる（クリックでAmazon詳細へ）</figcaption>
-<span class="credit">Photo: Habrylwicz & Kailer (Public Domain)</span>
+<figcaption>光の陰影を生み出すことで、空間に豊かな奥行きが生まれる（クリックでAmazon詳細へ）<span class="credit">Photo: Habrylwicz & Kailer (Public Domain)</span></figcaption>
 </figure>
 
 まず検討したいのが、光を天井に向けて放つ「アッパーライト（天井照射）」の手法だ。フロアスタンドやスポットライトの光源を上向きに角度を調整し、白い天井クロスに直接光をぶつけて反射させることで、部屋全体をふんわりとした間接光で満たすことができる。

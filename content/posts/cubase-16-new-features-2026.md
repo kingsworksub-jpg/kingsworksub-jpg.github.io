@@ -29,8 +29,7 @@ SteinbergのCubase 16が、2026年11月4日に発表と同時に公開された�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=Cubase+Pro+16&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-16/cubase-screen-render.jpg" width="220" height="145" alt="2台のモニターにCubaseのプロジェクト画面を映し、手前に楽譜とMIDIキーボードを置いた制作机" loading="lazy"></a>
-<figcaption>2画面でCubaseを開いた制作机。16では編集の手数を減らす改良が多い（クリックでAmazonの検索結果へ）</figcaption>
-<span class="credit">Photo: Marco Raaphorst from The Hague, The Netherlands / CC BY 2.0</span>
+<figcaption>2画面でCubaseを開いた制作机。16では編集の手数を減らす改良が多い（クリックでAmazonの検索結果へ）<span class="credit">Photo: Marco Raaphorst from The Hague, The Netherlands / CC BY 2.0</span></figcaption>
 </figure>
 
 最初に、16で加わった主な機能と、それがどのエディションで使えるかをまとめておく。Cubaseのエディションは上からPro、Artist、Elementsの3つ。上位のエディションほど使える機能が増える。
@@ -57,8 +56,7 @@ SteinbergのCubase 16が、2026年11月4日に発表と同時に公開された�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Arturia+MiniLab+3&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-16/minilab3-keys.jpg" width="220" height="147" alt="パッドが色とりどりに光るArturia MiniLab 3と、奥に置かれたモニタースピーカーとヘッドホン" loading="lazy"></a>
-<figcaption>小さな鍵盤1台からでも、スタックを使えば厚い音色を弾ける（クリックでAmazonの検索結果へ）</figcaption>
-<span class="credit">Photo: Leo Ronert / CC BY-SA 4.0</span>
+<figcaption>小さな鍵盤1台からでも、スタックを使えば厚い音色を弾ける（クリックでAmazonの検索結果へ）<span class="credit">Photo: Leo Ronert / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 インストゥルメントスタックは、複数の音源を重ねて、ひとつの楽器として演奏できるようにする機能だ。重ねられるのは最大8レイヤー。VSTインストゥルメントだけでなく、サンプラートラックやドラムトラックも同じスタックに入れられる。他社製のVSTインストゥルメントも使える。
@@ -89,8 +87,7 @@ SteinbergのCubase 16が、2026年11月4日に発表と同時に公開された�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=Cubase+Pro+16&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-16/spectrogram.jpg" width="220" height="114" alt="黒い背景に、周波数ごとの音の強さが青・赤・黄色で描かれたスペクトログラム" loading="lazy"></a>
-<figcaption>周波数ごとの音の成分を描いたスペクトログラム。スペクトラル系の処理は、この成分単位で音を扱う（クリックでAmazonの検索結果へ）</figcaption>
-<span class="credit">Photo: Sagenat2 / CC BY-SA 4.0</span>
+<figcaption>周波数ごとの音の成分を描いたスペクトログラム。スペクトラル系の処理は、この成分単位で音を扱う（クリックでAmazonの検索結果へ）<span class="credit">Photo: Sagenat2 / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 AudioWarpは、オーディオのテンポやピッチを変えるCubaseの機能だ。従来のアルゴリズムは、テンポを少し合わせる、半音だけ上げる、といった自然な範囲の調整を得意にしてきた。声の質感（フォルマント）を保ち、ピッチを上げても声がアニメのキャラクターのように甲高くなりにくい作りになっている。
@@ -115,8 +112,7 @@ Omnivocalは、ヤマハの歌声合成技術を使った音源だ。15ではベ
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Cubase+Pro+16&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-16/cc121-control-surface.jpg" width="220" height="147" alt="銀色のMIDIキーボードの隣に置かれた、つまみとボタンが並ぶSteinbergのコントローラーCC121" loading="lazy"></a>
-<figcaption>MIDIキーボードとSteinbergのCC121。16ではノートごとの表現を扱うMIDI 2.0の対応が広がった（クリックでAmazonの検索結果へ）</figcaption>
-<span class="credit">Photo: martinezdj / CC0</span>
+<figcaption>MIDIキーボードとSteinbergのCC121。16ではノートごとの表現を扱うMIDI 2.0の対応が広がった（クリックでAmazonの検索結果へ）<span class="credit">Photo: martinezdj / CC0</span></figcaption>
 </figure>
 
 MIDI 2.0への対応は15から始まっていたが、16ではさらに範囲が広がった。中心になるのは、**ノートごとのコントローラー**だ。従来のMIDIでは、ピッチベンドやモジュレーションはチャンネル全体にかかるので、和音の中の1音だけを揺らすことはできなかった。ノートごとのコントローラーを使うと、和音のそれぞれの音に、別々の表情を付けられる。

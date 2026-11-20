@@ -21,8 +21,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%88%E3%83%AC%E3%83%B3%E3%83%81%E3%82%B3%E3%83%BC%E3%83%88+%E3%83%99%E3%83%BC%E3%82%B8%E3%83%A5&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/coat-5types/trench.jpg" width="220" height="165" alt="ベージュのトレンチコートを着た親子が歩道を歩いている様子" loading="lazy">
 </a>
-<figcaption>ベルトと複数のストラップが軍用コートの名残をとどめるトレンチコート(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: musicisentropy / CC BY-SA 2.0</span>
+<figcaption>ベルトと複数のストラップが軍用コートの名残をとどめるトレンチコート(クリックでAmazonへ)<span class="credit">Photo: musicisentropy / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 トレンチコートの起源は、19世紀末にトーマス・バーバリーが開発した撥水性の高いギャバジン素材にさかのぼる。第一次世界大戦の塹壕戦で、イギリス陸軍の将校用コートとして正式に採用されたのが「トレンチコート」という名前の由来だ。肩のエポーレット(階級章を留める肩章)、銃の反動を受け止めるガンフラップ、雨を防ぐストームフラップなど、軍服由来の実用的なディテールが今も残っている。
@@ -37,8 +36,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%81%E3%82%A7%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B3%E3%83%BC%E3%83%88+%E3%83%99%E3%83%AB%E3%83%99%E3%83%83%E3%83%88%E3%82%AB%E3%83%A9%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/coat-5types/chesterfield.jpg" width="220" height="305" alt="20世紀初頭のチェスターフィールドコートを着た紳士のイラスト" loading="lazy">
 </a>
-<figcaption>ベルベットのカラーとダークトーンの生地が特徴のチェスターフィールドコート(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Unknown author / Public domain</span>
+<figcaption>ベルベットのカラーとダークトーンの生地が特徴のチェスターフィールドコート(クリックでAmazonへ)<span class="credit">Photo: Unknown author / Public domain</span></figcaption>
 </figure>
 
 チェスターフィールドコートは、19世紀半ばのイギリス貴族、第6代チェスターフィールド伯爵の名を冠したコートだ。それまでの装飾過多なリージェンシー様式の服装から、よりシンプルで機能的なビクトリア様式への転換期に生まれ、1920〜60年代にかけて紳士の正装コートの定番として定着した。
@@ -53,8 +51,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%90%E3%83%AB%E3%83%9E%E3%82%AB%E3%83%BC%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%88+%E3%83%A9%E3%82%B0%E3%83%A9%E3%83%B3%E8%A2%96&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/coat-5types/balmacaan.jpg" width="220" height="293" alt="シンプルな襟のバルマカーンコートがハンガーに掛けられている" loading="lazy">
 </a>
-<figcaption>装飾を削ぎ落としたシンプルな襟もとが特徴のバルマカーンコート(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: 神奈義忠 / CC BY-SA 3.0</span>
+<figcaption>装飾を削ぎ落としたシンプルな襟もとが特徴のバルマカーンコート(クリックでAmazonへ)<span class="credit">Photo: 神奈義忠 / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 バルマカーンコートは、19世紀後半のスコットランド、インバーネス近郊のバルマカーンという地名が由来とされるコートだ。ふくらはぎまで届くロング丈と、プロイセン風の立ち襟、大きなスラッシュポケットを特徴とし、ツイードやギャバジンといった実用的な生地で作られることが多い。
@@ -69,8 +66,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%80%E3%83%83%E3%83%95%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88+%E3%82%A6%E3%83%BC%E3%83%AB&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/coat-5types/duffle.jpg" width="220" height="293" alt="グレーのウールダッフルコートがハンガーに掛けられ、トグルボタンが見える" loading="lazy">
 </a>
-<figcaption>革ひもとトグルで留める独特の前立てがダッフルコートの目印(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Peachyeung316 / CC BY-SA 4.0</span>
+<figcaption>革ひもとトグルで留める独特の前立てがダッフルコートの目印(クリックでAmazonへ)<span class="credit">Photo: Peachyeung316 / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 ダッフルコートは、1850年代にイギリスの製造業者ジョン・パートリッジが開発し、1890年代にイギリス海軍が採用したのが始まりとされる。第二次世界大戦中、フィールドマーシャル・バーナード・モンゴメリーが愛用したことから「モンティコート」という愛称でも知られるようになった。
@@ -85,8 +81,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%94%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%88+%E3%83%8D%E3%82%A4%E3%83%93%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/coat-5types/peacoat.jpg" width="220" height="334" alt="ネイビーのダブルブレストのピーコートを着用している様子" loading="lazy">
 </a>
-<figcaption>錨のボタンとダブルの前立てが特徴のピーコート(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Kris Karlov / CC0</span>
+<figcaption>錨のボタンとダブルの前立てが特徴のピーコート(クリックでAmazonへ)<span class="credit">Photo: Kris Karlov / CC0</span></figcaption>
 </figure>
 
 ピーコートの起源はさらに古く、17世紀のオランダの船員服にさかのぼる。「pij」という粗い厚手の布を指すオランダ語が名前の由来とされ、1857年にイギリス海軍が水兵用の制服として正式採用したことで広まった。前立てをダブルブレストにしたのは、甲板上のロープや作業具がボタンに引っかかりにくいようにという実用上の理由からだ。

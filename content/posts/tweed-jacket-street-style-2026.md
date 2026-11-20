@@ -21,8 +21,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B08H1P9N23?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/fashion/tweed.jpg" alt="クラシックなテーラードスタイル" width="960" height="720" loading="lazy">
 </a>
-<figcaption>クラシックなテーラードスタイル</figcaption>
-<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
+<figcaption>クラシックなテーラードスタイル<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 

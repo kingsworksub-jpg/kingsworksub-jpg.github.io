@@ -26,8 +26,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%A9%E3%82%A4%E3%83%88%E3%83%96%E3%83%AB%E3%83%BC+%E7%84%A1%E5%9C%B0+%E9%95%B7%E8%A2%96+%E3%83%89%E3%83%AC%E3%82%B9%E3%82%B7%E3%83%A3%E3%83%84+%E3%83%AC%E3%82%AE%E3%83%A5%E3%83%A9%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC+%E3%82%B9%E3%83%AA%E3%83%A0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/classic-suspender-style/light-blue-dress-shirt.jpg" width="220" height="327" alt="畳まれたライトブルーの無地ドレスシャツ" loading="lazy"></a>
-<figcaption>土台はライトブルーの無地ドレスシャツ（クリックでAmazonへ）</figcaption>
-<span class="credit">Photo: Ser Amantio di Nicolao / Wikimedia Commons (CC BY-SA 4.0)</span>
+<figcaption>土台はライトブルーの無地ドレスシャツ（クリックでAmazonへ）<span class="credit">Photo: Ser Amantio di Nicolao / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 装いの土台になるのが、ライトブルーの無地のドレスシャツだ。襟はレギュラーカラーを選びたい。ネクタイを締めたときに襟の開きが自然で、細身のネクタイともバランスがとりやすい。ボタンダウンでもカジュアルに寄せられるが、ハットやサスペンダーのクラシックな雰囲気には、レギュラーカラーのほうが素直に合うと思う。
@@ -40,8 +39,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+Y%E5%9E%8B+%E3%82%B5%E3%82%B9%E3%83%9A%E3%83%B3%E3%83%80%E3%83%BC+%E3%83%80%E3%83%BC%E3%82%AF%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3+35mm+%E5%B9%85%E5%BA%83+%E6%9C%AC%E9%9D%A9+%E3%83%AC%E3%82%B6%E3%83%BC+%E3%82%AF%E3%83%AA%E3%83%83%E3%83%97&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/classic-suspender-style/y-back-suspenders.jpg" width="220" height="237" alt="白いシャツにダークカラーのY型サスペンダーを合わせ、腕を組む男性" loading="lazy"></a>
-<figcaption>2本の縦のラインが、上半身を引き締める</figcaption>
-<span class="credit">Photo: Pixel.la / Wikimedia Commons (CC0)</span>
+<figcaption>2本の縦のラインが、上半身を引き締める<span class="credit">Photo: Pixel.la / Wikimedia Commons (CC0)</span></figcaption>
 </figure>
 
 この装いの主役が、ダークブラウンのY型サスペンダーだ。背中側で1本にまとまる「Y型」は、肩から落ちにくく、背中のシルエットもすっきりする。後ろで交差する「X型」よりもクラシックで、シャツ1枚で着る場面にも向いていると思う。
@@ -54,8 +52,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%A4+%E3%83%80%E3%83%BC%E3%82%AF%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3+%E7%84%A1%E5%9C%B0+5cm+%E7%B4%B0%E8%BA%AB+%E3%83%9E%E3%83%83%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/classic-suspender-style/brown-slim-tie.jpg" width="220" height="245" alt="ブラウン系のネクタイの結び目に手をかける男性" loading="lazy"></a>
-<figcaption>サスペンダーと同じブラウンでそろえるのがコツ</figcaption>
-<span class="credit">Photo: Ben Rosett / Unsplash (CC0)</span>
+<figcaption>サスペンダーと同じブラウンでそろえるのがコツ<span class="credit">Photo: Ben Rosett / Unsplash (CC0)</span></figcaption>
 </figure>
 
 ネクタイは、サスペンダーと同じダークブラウンの無地を選ぶ。色をそろえることで、首元から腰までの縦のラインが一本につながり、まとまりが生まれる。柄物を選ぶと視線が散りやすいので、このスタイルでは無地がいちばん合うと思う。
@@ -68,8 +65,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E9%BB%92+%E3%82%B9%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9+%E3%83%8E%E3%83%BC%E3%82%BF%E3%83%83%E3%82%AF+%E3%82%B9%E3%83%AA%E3%83%A0+%E3%83%86%E3%83%BC%E3%83%91%E3%83%BC%E3%83%89+%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%AC%E3%82%B9+%E7%B4%B0%E8%BA%AB&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/classic-suspender-style/black-tapered-slacks.jpg" width="220" height="356" alt="黒の細身テーパードパンツにブーツを合わせて座る男性" loading="lazy"></a>
-<figcaption>裾に向かって細くなるテーパードが軽快</figcaption>
-<span class="credit">Photo: Brooke Cagle / Unsplash (CC0)</span>
+<figcaption>裾に向かって細くなるテーパードが軽快<span class="credit">Photo: Brooke Cagle / Unsplash (CC0)</span></figcaption>
 </figure>
 
 ボトムスは黒のスラックスで、全体をきりっと引き締める。シルエットは、腰まわりにわずかなゆとりがあり、裾に向かって細くなる**スリムテーパード**を選びたい。上半身にサスペンダーとネクタイの縦のラインがあるぶん、下半身もすっきりさせると、全身のバランスが整う。
@@ -82,8 +78,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%B3%E3%82%BA+%E3%83%95%E3%82%A7%E3%83%89%E3%83%A9%E3%83%8F%E3%83%83%E3%83%88+%E3%83%80%E3%83%BC%E3%82%AF%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3+%E4%B8%AD%E6%8A%98%E3%82%8C+%E5%B9%85%E5%BA%83+%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF+%E3%82%A6%E3%83%BC%E3%83%AB&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/classic-suspender-style/dark-brown-felt-fedora.jpg" width="220" height="124" alt="ダークブラウンのウールフェルトの中折れハット" loading="lazy"></a>
-<figcaption>ダークブラウンのウールフェルトの中折れハット</figcaption>
-<span class="credit">Photo: Knox Hat Company / Wikimedia Commons (Public domain)</span>
+<figcaption>ダークブラウンのウールフェルトの中折れハット<span class="credit">Photo: Knox Hat Company / Wikimedia Commons (Public domain)</span></figcaption>
 </figure>
 
 最後に、ダークブラウンの中折れハット（フェドラハット）をのせて仕上げる。頭頂部に折り目の入ったクラウンと、適度なツバを持つ中折れハットは、このスタイルの「ジャズエイジらしさ」をいちばんはっきり表してくれるアイテムだ。色をサスペンダー、ネクタイと同じダークブラウンでそろえると、頭の先から腰まで、ブラウンのアクセントが上下にリズムよく並ぶ。

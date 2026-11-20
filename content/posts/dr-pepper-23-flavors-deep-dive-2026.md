@@ -29,8 +29,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/dr-pepper/can.jpg" width="220" height="330" alt="ドクターペッパーの缶。23 FLAVORSの丸いロゴが入っている" loading="lazy">
 </a>
-<figcaption>缶の下半分に「23」の丸いマーク。数字は誇らしげだが、中身の一覧はどこにも書かれていない(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: DYVER / CC BY-SA 4.0</span>
+<figcaption>缶の下半分に「23」の丸いマーク。数字は誇らしげだが、中身の一覧はどこにも書かれていない(クリックでAmazonへ)<span class="credit">Photo: DYVER / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 ドクターペッパーを作っている会社は、23種類のフレーバーでできていることは認めている。けれども、その23種類が何なのかは公表していない。レシピは企業秘密で、アメリカの原材料表示でも香りの部分は「天然香料および人工香料」とひとまとめに書かれているだけだ。日本で売られている缶の原材料表示も同じで、果糖ぶどう糖液糖、炭酸、カラメル色素、香料、酸味料、保存料、カフェインと並ぶうち、味の個性を決めているはずの部分は「香料」の二文字に収まっている。
@@ -45,8 +44,7 @@ scheduled_time: "17:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/museum-2016.jpg" width="220" height="147" alt="テキサス州ウェーコのドクターペッパー博物館の外観。黄色いれんがの建物" loading="lazy"></a>
-<figcaption>ウェーコにあるドクターペッパー博物館。1906年に建てられた瓶詰め工場の建物を使っている</figcaption>
-<span class="credit">Photo: Michael Barera / CC BY-SA 4.0</span>
+<figcaption>ウェーコにあるドクターペッパー博物館。1906年に建てられた瓶詰め工場の建物を使っている<span class="credit">Photo: Michael Barera / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 ドクターペッパーが生まれたのは1885年、テキサス州ウェーコの「モリソンズ・オールド・コーナー・ドラッグストア」という薬局だった。考案したのは、そこで働いていた薬剤師のチャールズ・アルダートン。当時の薬局にはソーダファウンテンがあり、薬剤師がシロップと炭酸水を混ぜて客に出すのはごく普通のことだった。アルダートンは店の香料を組み合わせて、果実のシロップのような香りが残る新しい飲み物を作り、店主のウェイド・モリソンがそれを売り出した。
@@ -59,8 +57,7 @@ scheduled_time: "17:30"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/museum.jpg" width="220" height="147" alt="博物館内に再現されたオールド・コーナー・ドラッグストアの店構え" loading="lazy"></a>
-<figcaption>博物館の中に再現された「オールド・コーナー・ドラッグストア」。ここのソーダファウンテンが出発点だった</figcaption>
-<span class="credit">Photo: Larry D. Moore / CC BY 4.0</span>
+<figcaption>博物館の中に再現された「オールド・コーナー・ドラッグストア」。ここのソーダファウンテンが出発点だった<span class="credit">Photo: Larry D. Moore / CC BY 4.0</span></figcaption>
 </figure>
 
 ウェーコの薬局の名物だった飲み物は、1904年のセントルイス万国博覧会をきっかけに全米へ広がっていく。会社が成長した20世紀前半には、少し変わった広告が打たれた。「10時、2時、4時に、ひと口の食事を」という意味の標語で、人の血糖値は午前10時半、午後2時半、4時半ごろに下がるという大学の研究を下敷きにしたものだ。瓶の首には時計の文字盤に10・2・4の数字を配したマークが入り、この時計のロゴは1970年代まで看板や納屋の壁に描かれていた。
@@ -81,8 +78,7 @@ scheduled_time: "17:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B001DDOIBU?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/dr-pepper/cans.jpg" width="220" height="185" alt="棚に並ぶドクターペッパーの缶。チェリー、クリームソーダ、ストロベリーなど複数の味" loading="lazy"></a>
-<figcaption>アメリカで売られている派生フレーバーの缶。日本の売り場で見かけるのは、ほぼ定番とダイエットの二種類に限られる</figcaption>
-<span class="credit">Photo: Jeanne à vélo / CC BY-SA 4.0</span>
+<figcaption>アメリカで売られている派生フレーバーの缶。日本の売り場で見かけるのは、ほぼ定番とダイエットの二種類に限られる<span class="credit">Photo: Jeanne à vélo / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 日本にドクターペッパーが入ってきたのは1973年で、東京のコカ・コーラの瓶詰め会社との共同事業として始まった。ところが翌年に砂糖の値段が跳ね上がったこともあって、出だしはかなり苦戦したらしい。その後も全国区の定番にはならず、今でもよく見かけるのは首都圏と沖縄、それに東海地方の一部が中心だ。関西では一度売り出されたものの、数年で姿を消したという話も残っている。

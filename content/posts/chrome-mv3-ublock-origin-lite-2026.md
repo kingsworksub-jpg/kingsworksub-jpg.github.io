@@ -19,8 +19,7 @@ scheduled_time: "12:00"
 
 <figure class="photo photo--left">
 <a href="https://www.google.com/chrome/" target="_blank" rel="noopener"><img src="/images/ubol-mv3/chrome-win11.jpg" alt="Windows 11で開いたGoogle Chromeの画面" width="1000" height="591" loading="lazy"></a>
-<figcaption>Windows 11上のGoogle Chrome。拡張機能の土台は2025年にManifest V3へ一本化された</figcaption>
-<span class="credit">Photo: Megamanfan3 / Public domain</span>
+<figcaption>Windows 11上のGoogle Chrome。拡張機能の土台は2025年にManifest V3へ一本化された<span class="credit">Photo: Megamanfan3 / Public domain</span></figcaption>
 </figure>
 
 Manifest V2の終わりは、一度に来たわけではなく段階を踏んで進んだ。Chromeの安定版でV2の拡張機能を無効にする動きが始まったのは2024年10月で、利用者ごとに少しずつ対象が広がっていった。この時点ではまだ、拡張機能の管理画面から自分で有効に戻すことができた。2025年3月末には全チャンネルの全利用者で既定が無効になり、2025年7月のChrome 138で、利用者が自分で再び有効にする道がなくなった。企業向けに用意されていた「ExtensionManifestV2Availability」というポリシーも、続くChrome 139で廃止され、管理者が会社のPCでV2を延命させる方法も使えなくなった。
@@ -43,8 +42,7 @@ V3の「declarativeNetRequest」では、拡張機能はあらかじめ「この
 
 <figure class="photo photo--right">
 <a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh" target="_blank" rel="noopener"><img src="/images/ubol-mv3/chrome-web-store.jpg" alt="Chromeウェブストアの拡張機能ページの画面" width="1000" height="685" loading="lazy"></a>
-<figcaption>Chromeウェブストアの拡張機能ページ。uBOLもここから追加する</figcaption>
-<span class="credit">Photo: AHollender (WMF) / CC BY-SA 4.0</span>
+<figcaption>Chromeウェブストアの拡張機能ページ。uBOLもここから追加する<span class="credit">Photo: AHollender (WMF) / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 uBOLを入れてツールバーのアイコンを押すと、いま見ているサイトに対するフィルタリングの強さを4段階から選べるようになっている。この4段階の違いを理解しておくと、uBOLとの付き合い方がぐっと楽になる。
@@ -69,8 +67,7 @@ uBOLは入れた直後から動くが、日本語のサイトを中心に見る�
 
 <figure class="photo photo--left">
 <a href="https://addons.mozilla.org/firefox/addon/ublock-origin/" target="_blank" rel="noopener"><img src="/images/ubol-mv3/ubo-firefox.jpg" alt="Firefoxで動く元のuBlock Originのポップアップ画面" width="254" height="431" loading="lazy"></a>
-<figcaption>Firefoxで動く元のuBlock Origin。下段に並ぶ詳細なツールはuBOLには引き継がれていない</figcaption>
-<span class="credit">Photo: Raymond Hill (gorhill) - developer / GPLv3</span>
+<figcaption>Firefoxで動く元のuBlock Origin。下段に並ぶ詳細なツールはuBOLには引き継がれていない<span class="credit">Photo: Raymond Hill (gorhill) - developer / GPLv3</span></figcaption>
 </figure>
 
 uBOLで変わらず手に入るのは、広告と追跡の通信を止めること、空いた広告枠を隠すこと、サイトごとに強さを変えることの3つだ。普通にニュースを読み、買い物をし、動画を見るという使い方なら、この3つで日常の不満はほとんど解消される。むしろ、拡張機能が常に裏で通信を見張っていた元の版に比べて、ブラウザ側で判断が完結するぶん、メモリの使い方は軽くなる。ノートPCでタブを大量に開く人には、ここは素直にうれしい変化だと思う。

@@ -27,8 +27,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B09W92H2D9?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/yamaha-ag03mk2/mixer.jpg" alt="配信・宅録用のオーディオミキサー環境" width="960" height="640" loading="lazy">
 </a>
-<figcaption>配信・宅録用のオーディオミキサー環境</figcaption>
-<span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span>
+<figcaption>配信・宅録用のオーディオミキサー環境<span class="credit">Photo: Fritz CLEON / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 

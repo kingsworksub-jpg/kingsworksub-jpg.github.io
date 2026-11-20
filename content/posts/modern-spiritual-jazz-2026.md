@@ -24,8 +24,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07CBYKNH4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/kamasi-washington-live.jpg" alt="Saxophonist performing on stage" width="220" height="146" loading="lazy"></a>
-<figcaption>Jazz saxophonist in passionate performance</figcaption>
-<span class="credit">Photo: Pexels / cottonbro</span>
+<figcaption>Jazz saxophonist in passionate performance<span class="credit">Photo: Pexels / cottonbro</span></figcaption>
 </figure>
 
 スピリチュアルジャズを説明する際、多くの人は「スタイルではなくアプローチだ」と言う。それは正確だ。1960年代の John Coltrane『A Love Supreme』に源を遡る、黒人アーティストたちの精神的・社会的解放への営みが、2020年代でどう響いているかという問題だからだ。
@@ -38,8 +37,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B074DYKBFN?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/dinner-party-album.jpg" alt="Jazz vinyl records" width="220" height="220" loading="lazy"></a>
-<figcaption>Classic jazz records and vinyl culture</figcaption>
-<span class="credit">Photo: Pexels / Volker Thimm</span>
+<figcaption>Classic jazz records and vinyl culture<span class="credit">Photo: Pexels / Volker Thimm</span></figcaption>
 </figure>
 
 2020年、ジャズシーンを揺さぶったのは Robert Glasper（キーボード）、Terrace Martin（サックス）、Kamasi Washington（サックス）、そして 9th Wonder（ヒップホップ・プロデューサー）という4人の共同プロジェクト Dinner Party だった。
@@ -62,8 +60,7 @@ Robert Glasper『Black Radio』（2012）は Billboard 200 で#15、ジャズチ
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modern-jazz/spiritual-jazz-festival.jpg" alt="Jazz band performing on stage" width="220" height="146" loading="lazy"></a>
-<figcaption>Contemporary jazz ensemble performing live</figcaption>
-<span class="credit">Photo: Pexels / Cottonbro Studio</span>
+<figcaption>Contemporary jazz ensemble performing live<span class="credit">Photo: Pexels / Cottonbro Studio</span></figcaption>
 </figure>
 
 2026年のジャズは、スピリチュアル・ムーブメントなしには語れない。

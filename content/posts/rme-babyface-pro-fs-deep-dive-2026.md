@@ -27,8 +27,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B0875XSPZQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/rme-babyface-pro-fs/interface.jpg" alt="プロフェッショナル向けオーディオ機器の接続イメージ" width="960" height="388" loading="lazy">
 </a>
-<figcaption>プロフェッショナル向けオーディオ機器の接続イメージ</figcaption>
-<span class="credit">Photo: Musicproducer / CC BY-SA 4.0</span>
+<figcaption>プロフェッショナル向けオーディオ機器の接続イメージ<span class="credit">Photo: Musicproducer / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 

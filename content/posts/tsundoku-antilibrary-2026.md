@@ -18,8 +18,7 @@ scheduled_time: "14:30"
 
 <figure class="photo photo--left">
 <img src="/images/products/tsundoku-antilibrary-book.png" alt="本棚に並ぶ古書の背表紙" width="667" height="1000" loading="lazy">
-<figcaption>本棚の未読本は、まだ見ぬ知の世界への扉である</figcaption>
-<span class="credit">Photo: Roman Eisele (CC BY-SA 4.0)</span>
+<figcaption>本棚の未読本は、まだ見ぬ知の世界への扉である<span class="credit">Photo: Roman Eisele (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 イタリアの哲学者ウンベルト・エーコは、生前自宅に3万冊を超える膨大な蔵書を抱えていたことで知られている。彼が自宅に人を招いたとき、知的な好奇心旺盛な訪問客のほとんどは、その圧倒的な本の数に圧倒されてこう尋ねたという。「この中の本を、すべて読まれたのですか？」と。

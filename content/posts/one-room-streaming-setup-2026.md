@@ -19,8 +19,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0DSJJMRFL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/one-room-streaming-setup/studio1.jpg" alt="ベッドルーム兼用のスタジオ空間" width="1000" height="665" loading="lazy"></a>
-<figcaption>限られた空間でのデスク配置例</figcaption>
-<span class="credit">Photo: Gerald Moore / CC BY 2.0</span>
+<figcaption>限られた空間でのデスク配置例<span class="credit">Photo: Gerald Moore / CC BY 2.0</span></figcaption>
 </figure>
 
 ワンルームでのレイアウトにおいて、まず意識すべきなのは床面積ではなく「垂直方向（縦の空間）」の活用だ。一般的なデスクスタンド付きのモニターやスピーカーをそのまま置くスタイルでは、それだけでデスクの大部分が埋まってしまう。食事や通常のPC作業、そして配信という複数の用途を1つのデスクでこなすためには、卓上の占有面積をいかに減らすかが鍵になる。
@@ -33,8 +32,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09NHSLTK3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/one-room-streaming-setup/studio2.jpg" alt="ホームスタジオのデスク周り" width="1000" height="750" loading="lazy"></a>
-<figcaption>機材とケーブルを整理したデスク環境</figcaption>
-<span class="credit">Photo: THOR / CC BY 2.0</span>
+<figcaption>機材とケーブルを整理したデスク環境<span class="credit">Photo: THOR / CC BY 2.0</span></figcaption>
 </figure>
 
 配信に欠かせないコンデンサーマイクやダイナミックマイクだが、卓上スタンドで常時立てておくと、普段の書類作業やノートPCの操作時に非常に邪魔になる。さらに、マイクケーブルやオーディオI/OのUSBケーブルが床やデスクの上に散乱していると、掃除の妨げになるだけでなく、部屋全体の印象も散らかって見えやすい。

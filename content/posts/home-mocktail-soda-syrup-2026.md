@@ -41,8 +41,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B01CNBT7NY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/mocktail/mojito.jpg" width="220" height="292" alt="ミントの枝とライムが入ったバージン・モヒートと、隣に置かれたオレンジ色のジュース" loading="lazy">
 </a>
-<figcaption>手前がミントとライムのバージン・モヒート。氷と葉を詰め込んでから炭酸水を注ぐ(クリックで炭酸水のAmazonページへ)</figcaption>
-<span class="credit">Photo: Aditijuneja2023 / CC BY-SA 4.0</span>
+<figcaption>手前がミントとライムのバージン・モヒート。氷と葉を詰め込んでから炭酸水を注ぐ(クリックで炭酸水のAmazonページへ)<span class="credit">Photo: Aditijuneja2023 / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 最初の一杯は、モクテルの代表格ともいえるバージン・モヒートにしたい。キューバ生まれのモヒートから、ラムだけを抜いた飲み物だ。材料はライム、ミント、シロップ、炭酸水の4つで、どれもスーパーで手に入る。
@@ -63,8 +62,7 @@ scheduled_time: "17:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GCRJFQSD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mocktail/muddling.jpg" width="220" height="147" alt="金属のカップの中で、桃とミントの葉をマドラーで押しつぶしているところ" loading="lazy"></a>
-<figcaption>桃とミントをマドラーで押しているところ。葉は軽く押すだけで、細かくちぎらない</figcaption>
-<span class="credit">Photo: Dinner Series / CC BY 2.0</span>
+<figcaption>桃とミントをマドラーで押しているところ。葉は軽く押すだけで、細かくちぎらない<span class="credit">Photo: Dinner Series / CC BY 2.0</span></figcaption>
 </figure>
 
 ハーブや果物をグラスの中で押しつぶす作業は、カクテルの世界ではマドルと呼ばれる。専用のマドラーがあると楽だが、木のすりこぎや、木べらの柄の端でも代わりになる。金属のスプーンは葉を切ってしまいやすいので、使うなら背の丸いところで押すようにしたい。
@@ -79,8 +77,7 @@ scheduled_time: "17:30"
 <a href="https://www.amazon.co.jp/dp/B007HV2OWW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/mocktail/shirley-temple.jpg" width="220" height="293" alt="氷が浮かんだ赤いシャーリー・テンプルのグラスと2本のストロー" loading="lazy">
 </a>
-<figcaption>グレナデンの赤がグラスの底に沈んだシャーリー・テンプル(クリックでジンジャーエール辛口のAmazonページへ)</figcaption>
-<span class="credit">Photo: Marie from Malang, East Java, Indonesia / CC BY-SA 2.0</span>
+<figcaption>グレナデンの赤がグラスの底に沈んだシャーリー・テンプル(クリックでジンジャーエール辛口のAmazonページへ)<span class="credit">Photo: Marie from Malang, East Java, Indonesia / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 子役として人気を集めた女優の名前が付いたシャーリー・テンプルは、もともと子どもがお酒の席で飲めるように作られた飲み物だといわれている。ジンジャーエールにグレナデンシロップを落とすだけの簡単さで、赤い色がグラスの底からゆっくり広がっていく様子がかわいらしい。
@@ -100,8 +97,7 @@ scheduled_time: "17:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B000MJQO04?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/mocktail/elderflower.jpg" width="220" height="293" alt="乾燥レモンの薄切りを添えた、淡い黄色のりんごとエルダーフラワーのフィズ" loading="lazy"></a>
-<figcaption>りんごとエルダーフラワーのフィズ。淡い色と花の香りで、食事にも合わせやすい</figcaption>
-<span class="credit">Photo: Andy Li / CC0</span>
+<figcaption>りんごとエルダーフラワーのフィズ。淡い色と花の香りで、食事にも合わせやすい<span class="credit">Photo: Andy Li / CC0</span></figcaption>
 </figure>
 
 残りの4杯は、ここまでの考え方を応用したものだ。どれも「甘さと酸味を同量、そこへ炭酸を3〜5倍」という骨組みから大きく外れていない。

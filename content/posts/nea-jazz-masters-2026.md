@@ -27,8 +27,7 @@ NEA Jazz Masters — National Endowment for the Arts が毎年、ジャズの歴
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00LP830LM?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/nea-2026/vintage-microphone.jpg" alt="ヴィンテージの放送用マイク" width="220" height="330" loading="lazy"></a>
-<figcaption>自作曲150以上。自分の言葉で歌い続けた50年（イメージ）</figcaption>
-<span class="credit">Photo: Fourandsixty / Wikimedia Commons (CC BY-SA 4.0)</span>
+<figcaption>自作曲150以上。自分の言葉で歌い続けた50年（イメージ）<span class="credit">Photo: Fourandsixty / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 1985年のデビュー・アルバム『Good Morning Kiss』は、ジャズ・チャートを23週間走り続けた。しかし、この女性シンガーの本当の力は、150以上の自作曲を手がける作曲家としての側面にあった。ジャズ・ヴォーカル界の多くが標準曲(スタンダード)を唄うなか、ランディは自分の言葉、自分の音で何十年も曲を書き続けてきたのだ。

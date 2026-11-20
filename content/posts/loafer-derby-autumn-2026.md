@@ -21,8 +21,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0CS36DX4C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/loafer-derby/derby-captoe.jpg" width="220" height="130" alt="茶色の表革で作られたキャップトゥの外羽根式ダービーシューズを真横から見た写真" loading="lazy">
 </a>
-<figcaption>羽根の部分が甲の革の上に乗っているのが外羽根式、つまりダービーの目印(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Wikipedia-ce / CC0</span>
+<figcaption>羽根の部分が甲の革の上に乗っているのが外羽根式、つまりダービーの目印(クリックでAmazonへ)<span class="credit">Photo: Wikipedia-ce / CC0</span></figcaption>
 </figure>
 
 革靴の格を大まかに並べると、いちばん改まっているのが内羽根式のオックスフォード、その次が外羽根式のダービー、さらにモンクストラップをはさんで、いちばんくだけた位置にローファーが来る。冠婚葬祭やきちんとした商談の場ではオックスフォード、普段のスーツやジャケパンならダービー、休日や柔らかい仕立ての服ならローファー、というのが基本の考え方だと思う。
@@ -37,8 +36,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B075K33LK4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/loafer-derby/penny.jpg" width="220" height="144" alt="ブラウンの表革のペニーローファーをシューツリーを入れた状態で真横から見た写真" loading="lazy">
 </a>
-<figcaption>甲のストラップに切れ込みのあるペニーローファー。積み上げた革のヒールとレザーソールが端正な横顔を作る(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Wikipedia-ce / CC0</span>
+<figcaption>甲のストラップに切れ込みのあるペニーローファー。積み上げた革のヒールとレザーソールが端正な横顔を作る(クリックでAmazonへ)<span class="credit">Photo: Wikipedia-ce / CC0</span></figcaption>
 </figure>
 
 ローファーの原型は、ノルウェー西部のアウルランという村の靴職人、ニルス・グレゴリウッソン・トヴェランゲルが作ったスリッポンにさかのぼる。彼はアメリカで靴作りを学んだあと故郷に戻り、地元の漁師が履いていた紐の無い靴と、アメリカ先住民のモカシンの縫い方を組み合わせた。1930年ごろに生まれたこの靴は、のちに「アウルランシューズ」と呼ばれるようになる。
@@ -53,8 +51,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B000W033CA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/loafer-derby/blucher-grenson.jpg" width="220" height="255" alt="シボ革のブラウンのプレーントゥ・ダービーを斜め上から見た写真。羽根が左右に分かれている" loading="lazy">
 </a>
-<figcaption>装飾の無いプレーントゥのダービー。外羽根が甲の上で左右に開き、紐で締め具合を調整できる(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Rainer Ersfeld / CC BY-SA 2.5</span>
+<figcaption>装飾の無いプレーントゥのダービー。外羽根が甲の上で左右に開き、紐で締め具合を調整できる(クリックでAmazonへ)<span class="credit">Photo: Rainer Ersfeld / CC BY-SA 2.5</span></figcaption>
 </figure>
 
 ダービーの成り立ちにはいくつかの説がある。もっともよく知られているのは、ナポレオン戦争の時代にプロイセンの元帥ゲプハルト・レベレヒト・フォン・ブリュッヘルが、兵士の足に合わせやすいよう羽根を甲の上に重ねたブーツを作らせたという話だ。アメリカで外羽根式の靴を「ブラッチャー」と呼ぶのは、この元帥の名前に由来している。イギリスでの「ダービー」という呼び名については、甲の高いダービー伯爵のために作られたという説や、19世紀の狩猟用の靴から来たという説があり、はっきりとは定まっていない。
@@ -69,8 +66,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B01N1EXCZC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/loafer-derby/derby-suede.jpg" width="220" height="130" alt="こげ茶のスエードのウイングチップ・ダービーを真横から見た写真。厚めのラバーソールが付いている" loading="lazy">
 </a>
-<figcaption>スエードに厚手のラバーソールを合わせたダービー。ソールの厚みが増すほど足元はカジュアルに寄る(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Wikipedia-ce / CC0</span>
+<figcaption>スエードに厚手のラバーソールを合わせたダービー。ソールの厚みが増すほど足元はカジュアルに寄る(クリックでAmazonへ)<span class="credit">Photo: Wikipedia-ce / CC0</span></figcaption>
 </figure>
 
 ローファーとダービーを履き分けるとき、紐の有無と同じくらい効いてくるのがソールの厚みだ。靴を真横から見たときのソールの厚さは、そのまま足元の「重さ」になり、どんな太さ・素材のパンツと釣り合うかを決める。
@@ -89,8 +85,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0DNXKJT7Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/loafer-derby/tods.jpg" width="220" height="165" alt="ベージュのスエードのタッセルローファーが2足並んでいる写真。中敷きにブランドのロゴがある" loading="lazy">
 </a>
-<figcaption>柔らかいスエードのタッセルローファー。明るい色のローファーほど、靴下の色が目に入りやすい(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Peachyeung316 / CC BY-SA 4.0</span>
+<figcaption>柔らかいスエードのタッセルローファー。明るい色のローファーほど、靴下の色が目に入りやすい(クリックでAmazonへ)<span class="credit">Photo: Peachyeung316 / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 靴下の色合わせでいちばん基本になるのは、靴ではなくパンツの色に合わせるという考え方だ。グレーのフランネルにはチャコールの靴下、ネイビーのスラックスにはネイビーの靴下、というように、裾から靴までを一続きに見せると脚が長く見え、靴そのものの形もきれいに浮かび上がる。ダービーでもローファーでも、迷ったらまずこの合わせ方に戻ればよい。

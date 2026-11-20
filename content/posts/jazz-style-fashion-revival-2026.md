@@ -28,16 +28,14 @@ ogImageHeight: 630
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/jazz-saxophone.jpg" width="240" height="320" alt="Jazz saxophonist performing" loading="lazy"></a>
-<figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある</figcaption>
-<span class="credit">Photo: Unsplash / Jens Thekkeveettil</span>
+<figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある<span class="credit">Photo: Unsplash / Jens Thekkeveettil</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
-<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった</figcaption>
-<span class="credit">Photo: Pexels / Oscar Steiner</span>
+<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった<span class="credit">Photo: Pexels / Oscar Steiner</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
@@ -70,8 +68,7 @@ ogImageHeight: 630
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/double-breasted-blazer.jpg" width="240" height="350" alt="Stylish double-breasted blazer" loading="lazy"></a>
-<figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する</figcaption>
-<span class="credit">Photo: Pexels / cottonbro studio</span>
+<figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する<span class="credit">Photo: Pexels / cottonbro studio</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
@@ -100,8 +97,7 @@ ogImageHeight: 630
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/oxford-shoes.jpg" width="240" height="180" alt="Polished oxford dress shoes" loading="lazy"></a>
-<figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ</figcaption>
-<span class="credit">Photo: Pixabay / tylermike525</span>
+<figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ<span class="credit">Photo: Pixabay / tylermike525</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>

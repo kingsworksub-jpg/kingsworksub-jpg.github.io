@@ -13,8 +13,7 @@ ogImageHeight: 630
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/luxury-scarf-dior.jpg" width="220" height="280" alt="Luxury Dior scarf folded in presentation box" loading="lazy"></a>
-<figcaption>ラグジュアリーブランドのスカーフ。スカーフが完全なトップピースとして機能する</figcaption>
-<span class="credit">Photo: Pexels / Melike B</span>
+<figcaption>ラグジュアリーブランドのスカーフ。スカーフが完全なトップピースとして機能する<span class="credit">Photo: Pexels / Melike B</span></figcaption>
 </figure>
 
 ここ数シーズン、ファッション誌の表紙を飾るのはスカーフだ。2026年、Vogue、Harper's Bazaar、Who What Wear といった主要なメディアが「スカーフの年」と宣言し、それは単なるスローガンではなく、ランウェイと街中での圧倒的な存在感に支えられている。
@@ -29,8 +28,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-styling-neck.jpg" width="220" height="300" alt="Woman wearing scarf around neck with elegant styling" loading="lazy"></a>
-<figcaption>首元のスカーフスタイリング。同じスカーフが身体の異なる部位で異なる役割を果たす</figcaption>
-<span class="credit">Photo: Pexels / Fashion</span>
+<figcaption>首元のスカーフスタイリング。同じスカーフが身体の異なる部位で異なる役割を果たす<span class="credit">Photo: Pexels / Fashion</span></figcaption>
 </figure>
 
 スカーフの現在地を理解するには、その「多角性」に注目する必要がある。
@@ -47,8 +45,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-colorful.jpg" width="220" height="310" alt="Colorful scarf in Y2K fashion style" loading="lazy"></a>
-<figcaption>多彩な色彩のスカーフがアスコットのように首に巻かれるY2K風のスタイリング</figcaption>
-<span class="credit">Photo: Pexels / Fashion</span>
+<figcaption>多彩な色彩のスカーフがアスコットのように首に巻かれるY2K風のスタイリング<span class="credit">Photo: Pexels / Fashion</span></figcaption>
 </figure>
 
 2000年代の美学が 2026 年に帰ってきた。それは単なるノスタルジアではなく、ジェン・Z が過去の形式を現在の文脈で再解釈する過程である。
@@ -61,8 +58,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/silk-texture-coral.jpg" width="220" height="290" alt="Silk scarf texture in coral and pink tones" loading="lazy"></a>
-<figcaption>単一素材から複合テクスチャへ。シルクの深みあるテクスチャが秋冬2026年の特徴</figcaption>
-<span class="credit">Photo: Pexels / Julie Aagaard</span>
+<figcaption>単一素材から複合テクスチャへ。シルクの深みあるテクスチャが秋冬2026年の特徴<span class="credit">Photo: Pexels / Julie Aagaard</span></figcaption>
 </figure>
 
 2025年は「ミュート」の年だった。淡い色、明るすぎない調子——ミニマリズムが美徳とされていた。だが 2026 年、その反動が起きている。
@@ -89,8 +85,7 @@ Hermès が春夏2026年コレクションで発表した「ブラ・スカー�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B08V4MXNJV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-trend/scarf-diy-creative.jpg" width="220" height="310" alt="Creative DIY scarf styling experiment" loading="lazy"></a>
-<figcaption>同じスカーフが複数の結び方で異なる表情を見せる。DIY スタイリングの実験場としてのスカーフ</figcaption>
-<span class="credit">Photo: Pexels / Fashion & Styling</span>
+<figcaption>同じスカーフが複数の結び方で異なる表情を見せる。DIY スタイリングの実験場としてのスカーフ<span class="credit">Photo: Pexels / Fashion & Styling</span></figcaption>
 </figure>
 
 

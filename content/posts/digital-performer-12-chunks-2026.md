@@ -21,8 +21,7 @@ DP12で何が変わったのかを並べる前に、まずチャンクがどう�
 
 <figure class="photo photo--right">
 <img src="/images/digital-performer-12/giacchino.jpg" alt="赤いドレスの女性と並んで笑顔を見せるスーツ姿の作曲家マイケル・ジアッキーノ" width="777" height="1000" loading="lazy">
-<figcaption>作曲家マイケル・ジアッキーノ(右)。キャリアを通じてDigital Performerで劇伴を書いてきた</figcaption>
-<span class="credit">Photo: Cristiano Del Riccio / CC BY-SA 2.0</span>
+<figcaption>作曲家マイケル・ジアッキーノ(右)。キャリアを通じてDigital Performerで劇伴を書いてきた<span class="credit">Photo: Cristiano Del Riccio / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 Digital Performerの出発点は、1985年にMacintosh向けに出たMIDIシーケンサー「Performer」にある。1990年にオーディオを扱えるようになったところで、名前に「Digital」が付いた。長いあいだMac専用のソフトで、Windowsでも動くようになったのは2012年のバージョン8から。Logic ProやCubase、Pro Toolsといった名前に比べると、日本の宅録の世界ではあまり話題にのぼらないDAWかもしれない。
@@ -35,8 +34,7 @@ Digital Performerの出発点は、1985年にMacintosh向けに出たMIDIシー�
 
 <figure class="photo photo--left">
 <a href="https://motu.com/en-us/products/software/dp/" target="_blank" rel="noopener"><img src="/images/digital-performer-12/motu-interfaces.jpg" alt="青いパネルのMOTU 828と黒いパネルの2408mk3、2台のラックマウント型オーディオインターフェース" width="1000" height="495" loading="lazy"></a>
-<figcaption>MOTUはソフトと並んでオーディオインターフェースも作ってきた。手前が2408mk3、奥が828</figcaption>
-<span class="credit">Photo: Ashley Pomeroy / CC BY-SA 4.0</span>
+<figcaption>MOTUはソフトと並んでオーディオインターフェースも作ってきた。手前が2408mk3、奥が828<span class="credit">Photo: Ashley Pomeroy / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 Digital Performerのプロジェクトを開くと、チャンクの一覧が並ぶ。チャンクには3つの種類があり、それぞれ役割がはっきり分かれている。
@@ -61,8 +59,7 @@ Digital Performerのプロジェクトを開くと、チャンクの一覧が並
 
 <figure class="photo photo--right">
 <a href="https://motu.com/en-us/products/software/dp/" target="_blank" rel="noopener"><img src="/images/digital-performer-12/motu-pcix-424.jpg" alt="MOTU PCI-424と印字されたチップとDSPを載せた緑色のPCI拡張カード" width="1000" height="768" loading="lazy"></a>
-<figcaption>2004年製のMOTU PCI-424。DSPを積んだ拡張カードで音声を処理していた時代の製品</figcaption>
-<span class="credit">Photo: Ashley Pomeroy / CC BY-SA 4.0</span>
+<figcaption>2004年製のMOTU PCI-424。DSPを積んだ拡張カードで音声を処理していた時代の製品<span class="credit">Photo: Ashley Pomeroy / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 チャンクと並んで、Digital Performerが劇伴の作曲家に選ばれてきたもうひとつの理由が、映像を見ながら書くための道具がひととおり揃っていることだ。ムービーウィンドウに映像を読み込むと、再生位置と映像がフレーム単位で連動する。ウィンドウは単独で浮かせることも、メインの画面の中に組み込むこともできる。時間の表示は小節と拍だけでなく、時・分・秒・フレームのタイムコードやフレーム数でも切り替えられる。

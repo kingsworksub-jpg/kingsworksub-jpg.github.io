@@ -43,8 +43,7 @@ Depop、Vestiaire Collectiveといった二次販売プラットフォーム、T
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00005B4D4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/duke-ellington-django-1946.jpg" alt="ピアノに向かうジャンゴ・ラインハルトと、ストライプタイにスーツ姿のデューク・エリントン（1946年）" width="220" height="270" loading="lazy"></a>
-<figcaption>デューク・エリントン（右）とジャンゴ・ラインハルト。1946年、ニューヨーク</figcaption>
-<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
+<figcaption>デューク・エリントン（右）とジャンゴ・ラインハルト。1946年、ニューヨーク<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span></figcaption>
 </figure>
 
 Duke Ellingtonの時代、スーツはより緩くなった。裾が広いトラウザーズ、ダブルブレストジャケット、フェドーラハット。洗練と余裕が共存する形だ。ジャズ音楽が登場人物たちの職業であり、彼らはその職業を「見た目で表現する」必要があった。聴衆に訴えかけるのが、音楽だけではなかったからだ。
@@ -53,8 +52,7 @@ Duke Ellingtonの時代、スーツはより緩くなった。裾が広いトラ
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/dizzy-gillespie-pinstripe-1946.jpg" alt="ピンストライプのスーツでトランペットを手に笑うディジー・ガレスピー（1946年）" width="220" height="293" loading="lazy"></a>
-<figcaption>ピンストライプのスーツを着たディジー・ガレスピー。1946年、52丁目のFamous Door</figcaption>
-<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span>
+<figcaption>ピンストライプのスーツを着たディジー・ガレスピー。1946年、52丁目のFamous Door<span class="credit">Photo: William P. Gottlieb / Library of Congress (Public domain)</span></figcaption>
 </figure>
 
 1930年代、スウィングミュージックが隆盛になると、ゾートスーツが現れた。誇張された比率、巨大なジャケット、高くウエストの上がったワイドレッグトラウザーズ。これは、アフリカ系アメリカ人、ラテン系、イタリア系のコミュニティでの「反抗」であり、支配的な白人文化への異議申し立てだった。
@@ -109,8 +107,7 @@ Prada、Saint Laurent、Hugo Bossといったメジャーブランドが2025年�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B001H9NS8E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-menswear/penny-loafers-denim.jpg" alt="ロールアップしたデニムと白ソックスに合わせたブラウンのペニーローファー" width="220" height="293" loading="lazy"></a>
-<figcaption>デニムに白ソックス、足元はペニーローファー</figcaption>
-<span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span>
+<figcaption>デニムに白ソックス、足元はペニーローファー<span class="credit">Photo: Dave Is Killa / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 ピンストライプやダブルブレストと同じくらい重要な変化が、靴にも起きている。

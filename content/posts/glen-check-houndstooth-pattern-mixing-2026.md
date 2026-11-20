@@ -21,8 +21,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B09P9T3T9P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/glen-houndstooth/cashin-coat.jpg" width="220" height="293" alt="白と黒の大きな千鳥格子柄のウールに、黒い革の縁取りとベルトを付けたコート" loading="lazy">
 </a>
-<figcaption>1968年、アメリカのデザイナー、ボニー・カシンのコート。ひとつの柄が手のひらほどもある大柄の千鳥格子は、遠くからでも柄として目に飛び込んでくる(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Photographer for Rhode Island School of Design Museum of Art / CC0</span>
+<figcaption>1968年、アメリカのデザイナー、ボニー・カシンのコート。ひとつの柄が手のひらほどもある大柄の千鳥格子は、遠くからでも柄として目に飛び込んでくる(クリックでAmazonへ)<span class="credit">Photo: Photographer for Rhode Island School of Design Museum of Art / CC0</span></figcaption>
 </figure>
 
 千鳥格子は、英語ではハウンドトゥース(猟犬の歯)、フランスではピエ・ド・プール(雌鶏の足)と呼ばれる。尖った角が連なる形を、日本では千鳥が群れて飛ぶ姿に、英語圏では犬の歯に見立てたわけだ。呼び名は違っても、指しているのは同じ柄になる。
@@ -39,8 +38,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0FLK7R4N6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/glen-houndstooth/glen-fabric.jpg" width="220" height="165" alt="灰色と黒のグレンチェックの生地の接写。千鳥格子が並ぶ区画と細かな縞の区画が交互に並んでいる" loading="lazy">
 </a>
-<figcaption>グレンチェックの生地を近くで見ると、左下には千鳥格子がそのまま並び、右上には細かな縞の区画がある。この2種類の区画が交互に組み合わさって大きな格子をつくる(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Garik 11 / CC BY-SA 3.0</span>
+<figcaption>グレンチェックの生地を近くで見ると、左下には千鳥格子がそのまま並び、右上には細かな縞の区画がある。この2種類の区画が交互に組み合わさって大きな格子をつくる(クリックでAmazonへ)<span class="credit">Photo: Garik 11 / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 グレンチェックは、遠目には細い線で区切られた大きな格子に見える。ところが生地に顔を近づけると、写真のように区画ごとに柄が違っている。濃い糸と薄い糸を4本ずつ交互に並べた区画には千鳥格子が現れ、2本ずつ交互に並べた区画には細かな縞や小さな格子が現れる。この2種類の区画が縦横に交互に並ぶことで、大きな格子の輪郭が浮かび上がる仕組みだ。
@@ -57,8 +55,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0FL1P1F29?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/glen-houndstooth/kilgour-suit.jpg" width="220" height="293" alt="灰色がかった茶色の細かなグレンチェックの三つ揃いスーツ。上着はトルソーに着せられ、ベストとズボンが横に掛けてある" loading="lazy">
 </a>
-<figcaption>1959年、ロンドンのテーラー、キルガー・フレンチ・アンド・スタンベリーが仕立てたグレン・アーカートチェックの三つ揃い。格子がごく細かく、少し離れると灰茶の無地に近く見える(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Staff photographer, RISD Museum of Art / CC0</span>
+<figcaption>1959年、ロンドンのテーラー、キルガー・フレンチ・アンド・スタンベリーが仕立てたグレン・アーカートチェックの三つ揃い。格子がごく細かく、少し離れると灰茶の無地に近く見える(クリックでAmazonへ)<span class="credit">Photo: Staff photographer, RISD Museum of Art / CC0</span></figcaption>
 </figure>
 
 グレンチェックの名前は、スコットランド北部インヴァネスシャーの谷、グレン・アーカートに由来する。1840年代、この地の領地を持っていたシーフィールド伯爵夫人が、領地で働く猟場の番人たちの服をこの柄の毛織物で仕立てさせたのが始まりとされる。もともとは、特定の土地で働く人たちの所属を示すための、いわば制服の柄だった。正式には「グレン・アーカートチェック」と呼ばれ、写真のスーツもその名前で記録されている。
@@ -73,8 +70,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0DJK69P7M?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/glen-houndstooth/tweed-tie.jpg" width="220" height="341" alt="眼鏡をかけた年配の男性の白黒写真。細かな千鳥格子のツイードジャケットに、柄の入ったネクタイを締めている" loading="lazy">
 </a>
-<figcaption>細かな千鳥格子のツイードジャケットに、柄の入ったネクタイ。上着の柄は顔の近くでも織り目の質感に見え、ネクタイの柄のほうが先に目に入る(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: Geoff Charles / CC BY-SA 4.0</span>
+<figcaption>細かな千鳥格子のツイードジャケットに、柄の入ったネクタイ。上着の柄は顔の近くでも織り目の質感に見え、ネクタイの柄のほうが先に目に入る(クリックでAmazonへ)<span class="credit">Photo: Geoff Charles / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 柄の大きさを考えるときは、ひとつの柄がくり返す幅、つまり同じ形がもう一度現れるまでの長さを見る。千鳥格子なら尖った形ひとつ分、グレンチェックなら大きな格子ひと升分だ。この幅によって、柄はおおまかに3つの段階に分けられる。
@@ -97,8 +93,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B00D67AXAG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/glen-houndstooth/glen-db-suit.jpg" width="220" height="314" alt="灰色と黒の大柄グレンチェックのダブルのスーツに、縞のシャツ、格子柄のネクタイ、白いポケットチーフを合わせたトルソー" loading="lazy">
 </a>
-<figcaption>大柄のグレンチェックのダブルに、縞のシャツと四角い格子のネクタイ。柄は3つ重なっているが、色は黒と灰色と白の3色に収まり、胸元の白いチーフが無地の休み場所になっている(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: BNTailor / CC BY-SA 4.0</span>
+<figcaption>大柄のグレンチェックのダブルに、縞のシャツと四角い格子のネクタイ。柄は3つ重なっているが、色は黒と灰色と白の3色に収まり、胸元の白いチーフが無地の休み場所になっている(クリックでAmazonへ)<span class="credit">Photo: BNTailor / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 大きさの段階がきちんと離れていても、色が多すぎると柄合わせは崩れる。柄の数より、柄の中に使われている色の数のほうが、見た目のまとまりに効いてくるからだ。

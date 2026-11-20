@@ -21,8 +21,7 @@ Melodyneは、録音した声を音符の粒に分けて画面に並べ、その
 
 <figure class="photo photo--left">
 <a href="https://www.celemony.com/en/melodyne/what-is-melodyne" target="_blank" rel="noopener"><img src="/images/melodyne-5/melodyne-studio-4.jpg" alt="縦に音名、横に小節が並ぶ編集画面に、赤と黄色の細長い粒が音の高さごとに配置されたMelodyneの画面" width="1000" height="713" loading="lazy"></a>
-<figcaption>Melodyne studio 4の編集画面。粒の一つひとつがノートで、中を通る細い線が実際のピッチの動きを表す。5でも見え方の基本は同じ</figcaption>
-<span class="credit">Image: OnCue / CC BY-SA 4.0</span>
+<figcaption>Melodyne studio 4の編集画面。粒の一つひとつがノートで、中を通る細い線が実際のピッチの動きを表す。5でも見え方の基本は同じ<span class="credit">Image: OnCue / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 音声ファイルをMelodyneに渡すと、最初に解析が走る。声の高さと長さを読み取り、縦軸に音名、横軸に時間をとった画面の上に、ブロブと呼ばれる粒として並べていく。ブロブの縦の位置がそのノートの平均的な音の高さ、横の長さが発音の長さ、太さが音量を表している。ブロブの中を細い線が通っているのは、実際のピッチが時々刻々どう動いたかを描いたものだ。
@@ -35,8 +34,7 @@ Melodyneは、録音した声を音符の粒に分けて画面に並べ、その
 
 <figure class="photo photo--right">
 <img src="/images/melodyne-5/singer-recording.jpg" alt="ヘッドホンを着けてポップガード付きのマイクの前に立ち、こちらを見下ろす男性" width="749" height="1000" loading="lazy">
-<figcaption>一息で歌ったフレーズの中にも、音の高さが変わる場所はいくつもある。その切れ目をどこに置くかで、あとの補正の結果が変わる</figcaption>
-<span class="credit">Photo: Borisgrey96 / CC BY 4.0</span>
+<figcaption>一息で歌ったフレーズの中にも、音の高さが変わる場所はいくつもある。その切れ目をどこに置くかで、あとの補正の結果が変わる<span class="credit">Photo: Borisgrey96 / CC BY 4.0</span></figcaption>
 </figure>
 
 ピッチ補正というと、すぐに音程を動かす作業を思い浮かべがちだ。けれどMelodyneで最初に手をかけるべきなのは、ノートの切れ目のほうだと思う。Melodyneの補正はノート単位で働く。一つのブロブの中に二つの音の高さが混ざっていると、そのブロブの「平均の高さ」はどちらの音でもない中途半端な位置になり、そこを基準に揃えても、どちらの音も正しくならない。
@@ -61,8 +59,7 @@ Melodyneは、録音した声を音符の粒に分けて画面に並べ、その
 
 <figure class="photo photo--left">
 <img src="/images/melodyne-5/studio-microphone.jpg" alt="録音スタジオの天井の下、スタンドに取り付けられた細身のコンデンサーマイク" width="667" height="1000" loading="lazy">
-<figcaption>録った声に残る小さな揺れは、マイクの前にいた時間の記録でもある。どこまで残すかを決めるのが補正の仕事になる</figcaption>
-<span class="credit">Photo: Shixart1985 / CC BY 2.0</span>
+<figcaption>録った声に残る小さな揺れは、マイクの前にいた時間の記録でもある。どこまで残すかを決めるのが補正の仕事になる<span class="credit">Photo: Shixart1985 / CC BY 2.0</span></figcaption>
 </figure>
 
 外れた音が多い場合は、一音ずつ直していくと時間がかかる。そのためにあるのが「ピッチを修正」のマクロで、選んだノートの音程をまとめて補正してくれる。開くとスライダーが二本並んでいて、それぞれ0%から100%の範囲で効き具合を決められる。
@@ -91,8 +88,7 @@ Melodyneは、録音した声を音符の粒に分けて画面に並べ、その
 
 <figure class="photo photo--right">
 <img src="/images/melodyne-5/producer-session.jpg" alt="赤い吸音パネルの部屋で、ヘッドホンを両手で押さえながら大型のマイクに向かって笑う女性シンガー" width="1000" height="666" loading="lazy">
-<figcaption>音程が揃ったあとは、子音の強さや一語ごとの音量が気になってくる。仕上げの段階で手を入れるのはそのあたりだ</figcaption>
-<span class="credit">Photo: Edwinhuits / CC BY-SA 4.0</span>
+<figcaption>音程が揃ったあとは、子音の強さや一語ごとの音量が気になってくる。仕上げの段階で手を入れるのはそのあたりだ<span class="credit">Photo: Edwinhuits / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 音程を揃え終えると、今度は音程以外のところが耳につくようになる。Melodyne 5では、このあたりを仕上げるための道具も増えた。

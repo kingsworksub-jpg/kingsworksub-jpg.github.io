@@ -29,8 +29,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B007HV2OWW?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/products/wilkinson-ginger-ale-dry.jpg" width="220" height="637" alt="ウィルキンソン ジンジャエール辛口のペットボトル" loading="lazy">
 </a>
-<figcaption>緑のラベルに「DRY GINGER ALE」と大きく書かれたボトル(クリックでAmazonへ)</figcaption>
-<span class="credit">Photo: アサヒ飲料 / official product image</span>
+<figcaption>緑のラベルに「DRY GINGER ALE」と大きく書かれたボトル(クリックでAmazonへ)<span class="credit">Photo: アサヒ飲料 / official product image</span></figcaption>
 </figure>
 
 ウィルキンソン辛口の刺激は、生姜エキスの配合量と、強めに効かせた炭酸の組み合わせから来ている。一口含むと、喉の奥でピリッとした感覚が立ち上がり、鼻に抜ける生姜の香りが長く残る。甘さをほとんど感じないので、炭酸が抜けた後も「清涼飲料水を飲んだ」という満足感より「薬草か何かを飲んだ」ような、やや硬質な読後感がある。
@@ -45,8 +44,7 @@ ogImageHeight: 630
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0CST5H886?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wilkinson-ginger-ale/glass.jpg" width="220" height="124" alt="複数のグラスに注がれた琥珀色のジンジャーエール" loading="lazy"></a>
-<figcaption>甘口タイプは氷と合わせてゆっくり飲む設計、辛口タイプは刺激そのものを味わう設計という違いがある</figcaption>
-<span class="credit">Photo: Geoprofi Lars / CC BY-SA 4.0</span>
+<figcaption>甘口タイプは氷と合わせてゆっくり飲む設計、辛口タイプは刺激そのものを味わう設計という違いがある<span class="credit">Photo: Geoprofi Lars / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 一般的によく見かける甘口のジンジャーエールは、ほどよい甘さと軽い生姜の香りを両立させた、誰にでも飲みやすいバランスで作られている。氷をたっぷり入れたグラスにゆっくり注ぎ、炭酸が少しずつ和らぎながら甘さと香りを楽しむ、という飲み方に向いている設計だ。
@@ -79,8 +77,7 @@ ogImageHeight: 630
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B002XCV3MC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wilkinson-ginger-ale/bottle.jpg" width="220" height="330" alt="甘さを抑えた辛口系ジンジャーエールのボトル" loading="lazy"></a>
-<figcaption>甘口と辛口を分けて展開するのは、日本だけでなく英語圏のジンジャーエール文化にも共通する発想だ</figcaption>
-<span class="credit">Photo: Fitz's Bottling Company / Public domain</span>
+<figcaption>甘口と辛口を分けて展開するのは、日本だけでなく英語圏のジンジャーエール文化にも共通する発想だ<span class="credit">Photo: Fitz's Bottling Company / Public domain</span></figcaption>
 </figure>
 
 ウィルキンソン辛口は、アサヒ飲料が展開するウィルキンソンブランドの中でも長く定番として扱われてきた商品で、500mlペットボトルを中心に、コンビニやスーパーで通年手に入る。炭酸水のタンサンやトニックウォーターと並ぶロングセラーの一角として、現在も継続して販売されている現行品だ。24本入りのケース販売もあり、割り材として常備したい人にも買いやすい。

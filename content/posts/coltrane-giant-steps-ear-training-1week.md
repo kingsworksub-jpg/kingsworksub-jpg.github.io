@@ -33,8 +33,7 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 
 <figure class="photo photo--left">
 <img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy">
-<figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム</figcaption>
-<span class="credit">Photo: Wikimedia Commons</span>
+<figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム<span class="credit">Photo: Wikimedia Commons</span></figcaption>
 </figure>
 
 タイトル曲のコードは、次の6小節が基本単位だ（冒頭）。まずはこの6小節だけを、メトロノームに合わせてゆっくり弾き、コードの根音が3度ずつ跳ぶ動きを耳に覚えさせる。

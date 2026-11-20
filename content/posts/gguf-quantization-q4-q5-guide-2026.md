@@ -22,8 +22,7 @@ GGUFとは、モデルの重みに加えてメタデータやトークナイザ�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0F4XC69KL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/tech/server1.jpg" alt="サーバー室のイメージ" width="1000" height="750" loading="lazy"></a>
-<figcaption>ローカルLLMの運用において、メモリ容量とハードウェアの制約を最適化する量子化は不可欠な技術である。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span>
+<figcaption>ローカルLLMの運用において、メモリ容量とハードウェアの制約を最適化する量子化は不可欠な技術である。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 もともと、オリジナルの大規模言語モデルはFP16（16ビット浮動小数点）やBF16といった高い精度で学習・保存されている。これは1つのパラメータにつき16ビット（2バイト）のメモリを消費することを意味し、例えば70億（7B）パラメータのモデルであれば、単純計算で約14GBのVRAMやRAMが必要になる。これでは一般的なコンシューマー向けのGPUやノートPCでは到底太刀打ちできない。
@@ -60,8 +59,7 @@ GGUFにおける量子化方式（Q-type）は、単にすべての数値を一�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0F4XC69KL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/tech/server2.jpg" alt="サーバーラックの様子" width="1000" height="750" loading="lazy"></a>
-<figcaption>限られたVRAMのなかで最高のパフォーマンスを引き出すため、適切な量子化モデルの選択が重要となる。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span>
+<figcaption>限られたVRAMのなかで最高のパフォーマンスを引き出すため、適切な量子化モデルの選択が重要となる。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 それでは、ビット数を削ることでモデルの賢さ（精度）はどの程度損なわれるのだろうか。これを測る指標として広く使われているのが「困惑度（Perplexity / PPL）」である。困惑度は、モデルが次に続く単語をどれほど確信を持って予測できるかを示すもので、値が低いほどオリジナル（FP16）に近い高い精度を維持していることを意味する。

@@ -19,8 +19,7 @@ scheduled_time: "20:00"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0FM3NXDVN?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/setup/light1.jpg" alt="照明器具のイメージ" width="857" height="1000" loading="lazy"></a>
-<figcaption>適切なデスク照明は、手元の視認性を高めながらモニター画面への不快な映り込みを防いでくれる。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span>
+<figcaption>適切なデスク照明は、手元の視認性を高めながらモニター画面への不快な映り込みを防いでくれる。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 デスク周りの照明として近年定番となっているのが、ディスプレイの上部に引っかけて使用する「モニター掛け式ライト（バーライト）」だ。この種のライトの最大のメリットは、独自の光学設計によって光がモニター画面に直接反射（グレア）せず、キーボード周辺の手元だけを均一に照らし出せる点にある。
@@ -65,8 +64,7 @@ scheduled_time: "20:00"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0C1MJ83V3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/setup/light2.jpg" alt="別の照明器具" width="1000" height="750" loading="lazy"></a>
-<figcaption>光源が直接視界に入らないよう配慮し、フリッカーフリーな電源回路を選ぶことが長時間の快適性を生む。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span>
+<figcaption>光源が直接視界に入らないよう配慮し、フリッカーフリーな電源回路を選ぶことが長時間の快適性を生む。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 実際にスタジオやデスクに照明を配置する際は、いくつかのポイントを押さえておく必要がある。

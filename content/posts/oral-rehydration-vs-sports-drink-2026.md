@@ -26,8 +26,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B001V7QN7O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/hydration/bottle.jpg" alt="水分補給用のボトルドリンク" width="960" height="720" loading="lazy">
 </a>
-<figcaption>水分補給用のボトルドリンク</figcaption>
-<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
+<figcaption>水分補給用のボトルドリンク<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 

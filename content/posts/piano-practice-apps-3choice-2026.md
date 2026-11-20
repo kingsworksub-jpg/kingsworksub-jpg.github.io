@@ -30,8 +30,7 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/piano-apps/digital-piano-sheet.jpg" width="220" height="169" alt="譜面を立てた電子ピアノの鍵盤" loading="lazy"></a>
-<figcaption>練習アプリの判定精度は、内蔵マイクで聴き取るか、MIDI接続で直接信号を受け取るかで変わる</figcaption>
-<span class="credit">Photo: Morn / CC BY-SA 4.0</span>
+<figcaption>練習アプリの判定精度は、内蔵マイクで聴き取るか、MIDI接続で直接信号を受け取るかで変わる<span class="credit">Photo: Morn / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">譜面を立てた電子ピアノの鍵盤の実売価格・レビューをAmazonで確認する →</a></p>
@@ -48,8 +47,7 @@ Simply Piano は「MusicSense」という独自の音響認識エンジンでマ
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/piano-apps/digital-piano.jpg" width="220" height="220" alt="譜面台に楽譜を乗せた木目調の電子ピアノ" loading="lazy"></a>
-<figcaption>五線譜を正面から見せるか、鍵盤の位置をそのまま示すかでアプリの性格が分かれる</figcaption>
-<span class="credit">Photo: Pianomangeorge / CC BY-SA 4.0</span>
+<figcaption>五線譜を正面から見せるか、鍵盤の位置をそのまま示すかでアプリの性格が分かれる<span class="credit">Photo: Pianomangeorge / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">譜面台に楽譜を乗せた木目調の電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>
@@ -64,8 +62,7 @@ DTMでの打ち込みを見据えるなら、五線譜をきちんと追えるfl
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/piano-apps/hammer-action-88key.jpg" width="220" height="160" alt="88鍵フルサイズのハンマーアクション電子ピアノ" loading="lazy"></a>
-<figcaption>正しい音を弾くまで曲が先に進まない「待ってくれるモード」は、独学の挫折を防ぐ重要な機能</figcaption>
-<span class="credit">Photo: Scott Ritchie / CC BY 2.0</span>
+<figcaption>正しい音を弾くまで曲が先に進まない「待ってくれるモード」は、独学の挫折を防ぐ重要な機能<span class="credit">Photo: Scott Ritchie / CC BY 2.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B07MH391ZF"><a href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">88鍵フルサイズのハンマーアクション電子ピアノの実売価格・レビューをAmazonで確認する →</a></p>

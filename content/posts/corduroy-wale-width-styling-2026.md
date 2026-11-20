@@ -27,8 +27,7 @@ scheduled_time: "18:30"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0F8HW8KP6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/corduroy/style1.jpg" alt="コーデュロイのコーディネート例" width="667" height="1000" loading="lazy"></a>
-<figcaption>太畝のコーデュロイが持つ独特の立体感と存在感は、秋冬のスタイリングに温かみを与えてくれる。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span>
+<figcaption>太畝のコーデュロイが持つ独特の立体感と存在感は、秋冬のスタイリングに温かみを与えてくれる。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 1インチあたりの畝の数が少ない「太畝（ワイドウェール）」は、コーデュロイ特有の凹凸感が非常に強く、視覚的にも触覚的にも重厚なボリュームを感じさせる。この太畝が持つ最大の魅力は、英国クラシックやカントリー、さらにはワークウェアに通じる武骨な温かみにある。
@@ -41,8 +40,7 @@ scheduled_time: "18:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0HJH26XY8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/corduroy/style2.jpg" alt="コーデュロイのパンツスタイル" width="1000" height="750" loading="lazy"></a>
-<figcaption>細畝のコーデュロイは一見すると無地のような繊細さがあり、きれいめなスタイルに馴染む。</figcaption>
-<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span>
+<figcaption>細畝のコーデュロイは一見すると無地のような繊細さがあり、きれいめなスタイルに馴染む。<span class="credit">Photo: Wikimedia Commons user / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 一方で、1インチあたりの畝が多い「細畝（ピンウェール）」は、遠目にはコーデュロイと分からないほどなめらかな表面感を持ち、上品でクリーンな佇まいを演出する。光の当たり方で繊細な光沢が生まれ、ベルベットやサテンのようなドレッシーな雰囲気を漂わせるのが特徴だ。

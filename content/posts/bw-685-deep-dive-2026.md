@@ -43,8 +43,7 @@ Bowers & Wilkins（B&W）の685は、2007年に600シリーズの一員として
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B003U970B0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bw-685/bw-685-on-stand.jpg" width="220" height="352" alt="スタンドに載せたBowers & Wilkins 685（ブラックアッシュ）。上部にシルバーのツイーター、中央に黄色いケブラーコーン、下部にFlowport" loading="lazy"></a>
-<figcaption>ブラックアッシュの685をスタンドに載せたところ（クリックでAmazonの商品ページへ）</figcaption>
-<span class="credit">Photo: bibendum84 / Flickr (CC BY-SA 2.0)</span>
+<figcaption>ブラックアッシュの685をスタンドに載せたところ（クリックでAmazonの商品ページへ）<span class="credit">Photo: bibendum84 / Flickr (CC BY-SA 2.0)</span></figcaption>
 </figure>
 
 キャビネットは15mm厚のMDFで、フロントバッフルだけ22mmと厚くしてある。内容積は約15リットル、内部には補強材が1本入る。7.0kgという重さは、このサイズのブックシェルフとしては標準的からやや重め。持ち上げると、見た目より中身が詰まっている印象を受ける。ブラックアッシュの木目調シートは落ち着いた質感で、黒いバッフルと一体に見えるため、部屋の中で主張しすぎないのが気に入っている。一方で、天板や側面の仕上げは価格相応で、高級機のような突板や塗装の艶を期待すると少し物足りないかもしれない。
@@ -57,8 +56,7 @@ Bowers & Wilkins（B&W）の685は、2007年に600シリーズの一員として
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B003U970B0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bw-685/bw-685-tweeter.jpg" width="220" height="146" alt="Bowers & Wilkins 685のツイーター。ロゴ入りのシルバープレートに収まった25mmアルミドーム" loading="lazy"></a>
-<figcaption>ロゴ入りプレートに収まった25mmアルミドーム・ツイーター</figcaption>
-<span class="credit">Photo: Derrick Noh / Wikimedia Commons (CC BY 2.0)</span>
+<figcaption>ロゴ入りプレートに収まった25mmアルミドーム・ツイーター<span class="credit">Photo: Derrick Noh / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 
 685のツイーターは25mmのアルミドームで、B&Wがノーチラス・チューブ・ローディングと呼ぶ構造を採り入れている。ドームは前に音を出すと同時に、背面にも同じだけの音を出している。この背面の音がキャビネット内で反射してドームに戻ってくると、振動板の動きを乱して音を濁らせてしまう。そこでドームの後ろにテーパー状のチューブを設け、背面に出た音をチューブの奥で吸収して消してしまう、というのがこの技術の考え方だ。もともとはB&Wの象徴である巻貝型スピーカー、ノーチラスの開発から生まれたもので、それをエントリークラスにまで降ろしてきたところに、このブランドらしさを感じる。
@@ -71,8 +69,7 @@ Bowers & Wilkins（B&W）の685は、2007年に600シリーズの一員として
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B003U970B0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bw-685/bw-685-kevlar-woofer.jpg" width="220" height="220" alt="Bowers & Wilkins 685の165mmウーファー。黄色い織りケブラーのコーンと黒いセンターキャップ" loading="lazy"></a>
-<figcaption>織り目がはっきり見える、165mmの黄色いケブラーコーン</figcaption>
-<span class="credit">Photo: Derrick Noh / Wikimedia Commons (CC BY 2.0)</span>
+<figcaption>織り目がはっきり見える、165mmの黄色いケブラーコーン<span class="credit">Photo: Derrick Noh / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 
 B&Wと聞いて多くの人が思い浮かべるのが、この黄色いウーファーだろう。685の165mmウーファーは、防弾チョッキにも使われるアラミド繊維、ケブラーを織って作ったコーンを使っている。ケブラーは軽くて丈夫なうえ、織物にすることでコーンの表面で振動が一様に伝わりにくくなる。紙や樹脂のコーンでは、ある周波数でコーン全体が同じ形でたわむ「分割振動」が起きて音にピークが出やすいが、織りケブラーではその振動が網目で分散され、特定の音だけが目立つクセが出にくい。上位機から長く受け継がれてきた素材で、685にもそのまま採用されている。

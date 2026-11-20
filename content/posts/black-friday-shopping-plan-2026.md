@@ -18,8 +18,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/black-friday-sign-rotterdam.jpg" width="220" height="124" alt="路上に置かれた「BLACK FRIDAY SALE」と書かれた黒い立て看板と、その奥の衣料品のラック" loading="lazy"></a>
-<figcaption>街頭に出るセールの立て看板。11月の恒例になって久しい</figcaption>
-<span class="credit">Photo: Donald Trung Quoc Don / Wikimedia Commons (CC BY-SA 4.0)</span>
+<figcaption>街頭に出るセールの立て看板。11月の恒例になって久しい<span class="credit">Photo: Donald Trung Quoc Don / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 ブラックフライデーはアメリカの感謝祭の翌日にあたる。感謝祭は11月の第4木曜日なので、2026年は11月26日が感謝祭、**11月27日(金)がブラックフライデー、11月30日(月)がサイバーマンデー**ということになる。ここまでは暦の計算で確定する話だ。
@@ -36,8 +35,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09NHSLTK3?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/home-studio-cluttered.jpg" width="220" height="146" alt="機材とケーブルが棚いっぱいに積み上がった狭い自宅スタジオ。キーボード2台とミキサー、マイクが並ぶ" loading="lazy"></a>
-<figcaption>増やし続けた結果の部屋。足りないものより、使っていないものが先に目につく</figcaption>
-<span class="credit">Photo: Dai Stanton / Wikimedia Commons (CC BY-SA 2.0)</span>
+<figcaption>増やし続けた結果の部屋。足りないものより、使っていないものが先に目につく<span class="credit">Photo: Dai Stanton / Wikimedia Commons (CC BY-SA 2.0)</span></figcaption>
 </figure>
 
 計画の出発点は値札ではなく、自分の環境のほうだ。この順番を逆にすると、安くなっているものの中から欲しい理由を後付けで探すことになる。先にやるべきは、いま制作が止まる場所、やり直しが発生する場所、面倒で避けている作業を思い出して、箇条書きにすることだと思う。
@@ -56,8 +54,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0CJ54Q7YX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/desk-monitors-interface.jpg" width="220" height="152" alt="左右にモニタースピーカーを置いた制作机。中央にディスプレイ、下段にオーディオインターフェイスとヘッドホンが並ぶ" loading="lazy"></a>
-<figcaption>よく使うものほど値引き率は小さい、という関係になりやすい</figcaption>
-<span class="credit">Photo: andrew pilling / Wikimedia Commons (CC BY-SA 2.0)</span>
+<figcaption>よく使うものほど値引き率は小さい、という関係になりやすい<span class="credit">Photo: andrew pilling / Wikimedia Commons (CC BY-SA 2.0)</span></figcaption>
 </figure>
 
 同じ「セール」でも、分野によって下がり方はまるで違う。ここを頭に入れておくと、待つべきものと待っても無駄なものを事前に仕分けられる。過去数年の傾向をざっくり整理すると、おおむね次のようになる。
@@ -89,8 +86,7 @@ DAWも性格が割れている。Logic Proは一度も値引きされたこと�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09Z2S9FSX?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/bf-plan/black-friday-crowd-nyc.jpg" width="220" height="146" alt="ブラックフライデーの朝、店舗前の歩道を埋め尽くす大勢の買い物客" loading="lazy"></a>
-<figcaption>数字が大きいほど冷静さが要る、というのは実店舗でも通販でも同じ</figcaption>
-<span class="credit">Photo: JoeInQueens / Wikimedia Commons (CC BY 2.0)</span>
+<figcaption>数字が大きいほど冷静さが要る、というのは実店舗でも通販でも同じ<span class="credit">Photo: JoeInQueens / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 
 表示されている割引率は、そのまま受け取ると二重に裏切られる。ひとつは比較の土台のほう、もうひとつは還元の形のほうだ。

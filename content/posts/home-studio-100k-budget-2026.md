@@ -18,8 +18,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0CSLDLKZJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/home-recording-setup.jpg" width="220" height="146" alt="ノートパソコンの横に小型のレコーダーとマイク、イヤホンが置かれた簡素な録音環境" loading="lazy"></a>
-<figcaption>最小構成の録音机。足りないものを数えるより、何が要らないかを決めるほうが早い</figcaption>
-<span class="credit">Photo: Subhashish Panigrahi / CC BY-SA 4.0</span>
+<figcaption>最小構成の録音机。足りないものを数えるより、何が要らないかを決めるほうが早い<span class="credit">Photo: Subhashish Panigrahi / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 10万円は、宅録の予算としては中途半端な額だと思う。全部をそこそこの品質で揃えるには足りないし、一点豪華主義でマイクだけを良くしても、その音を受け止める側が貧弱なら意味がない。だから配分を決める作業そのものが、この予算帯の本体になる。
@@ -34,8 +33,7 @@ draft: false
 <a href="https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/home-studio-100k/scarlett-2i2.jpg" width="220" height="330" alt="赤い筐体のFocusrite Scarlett 2i2オーディオインターフェイスと、同梱のコンデンサーマイク・ヘッドホン・ケーブル一式" loading="lazy">
 </a>
-<figcaption>インターフェイスにマイクとヘッドホンを足したセット売り。入口を1本通すのに必要なものがここに揃う</figcaption>
-<span class="credit">Photo: Matt Vanacoro / CC BY 2.0</span>
+<figcaption>インターフェイスにマイクとヘッドホンを足したセット売り。入口を1本通すのに必要なものがここに揃う<span class="credit">Photo: Matt Vanacoro / CC BY 2.0</span></figcaption>
 </figure>
 
 最初に押さえるのはオーディオインターフェイスだ。マイクをパソコンに繋ぐための箱、と言ってしまえばそれまでだが、この箱が持っている機能は想像より多い。マイクを動かすためのファンタム電源、小さな信号を扱える大きさまで持ち上げるプリアンプ、アナログをデジタルに変換する部分、そして録音中の自分の声を遅れなく返すダイレクトモニタリング。どれか一つでも欠けると、録音という作業が成立しないか、成立しても気持ちよく進まない。
@@ -52,8 +50,7 @@ draft: false
 <a href="https://www.amazon.co.jp/dp/B000AJIF4E?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/home-studio-100k/mdr-7506.jpg" width="220" height="147" alt="黒いSony MDR-7506密閉型ヘッドホンと、カールコード、金メッキの標準プラグ" loading="lazy">
 </a>
-<figcaption>MDR-7506。カールコードと折りたたみ機構は録音現場の都合に合わせた設計になっている</figcaption>
-<span class="credit">Photo: Ashley Pomeroy / CC BY 4.0</span>
+<figcaption>MDR-7506。カールコードと折りたたみ機構は録音現場の都合に合わせた設計になっている<span class="credit">Photo: Ashley Pomeroy / CC BY 4.0</span></figcaption>
 </figure>
 
 2番目にヘッドホンを置くのは、6畳という条件があるからだ。スピーカーで音を聴くという行為は、スピーカーから直接届く音と、壁や天井で跳ね返ってきた音を、まとめて耳に入れることを意味している。狭い部屋ほど跳ね返りが早く強く戻ってくるので、鳴っている音とは違う音を聴きながら判断することになる。ヘッドホンはこの経路を丸ごと省略してくれる。
@@ -70,8 +67,7 @@ draft: false
 <a href="https://www.amazon.co.jp/dp/B0006H92QK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/home-studio-100k/at2020.jpg" width="220" height="331" alt="小型の卓上三脚スタンドに載せられたAudio-Technica AT2020系のコンデンサーマイク" loading="lazy">
 </a>
-<figcaption>卓上の小さな三脚に載せたところ。この高さだと座った姿勢の口に届かず、机の振動も拾いやすい</figcaption>
-<span class="credit">Photo: Lokal_Profil / CC BY-SA 4.0</span>
+<figcaption>卓上の小さな三脚に載せたところ。この高さだと座った姿勢の口に届かず、机の振動も拾いやすい<span class="credit">Photo: Lokal_Profil / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 ようやくマイクだ。3番目に置いたのは軽視しているからではなく、前の2つが決まらないとマイクを選べないからだ。ファンタム電源が無ければコンデンサーマイクは動かないし、ゲインが足りないインターフェイスに感度の低いダイナミックマイクを繋ぐと、ノイズまみれの小さな音しか録れない。マイクは単体で選ぶものではなく、組み合わせで選ぶものだと思っている。
@@ -86,8 +82,7 @@ draft: false
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B09DP2VWHV?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/mic-stand.jpg" width="220" height="302" alt="三脚ベースのブーム式マイクスタンド。アームが斜めに伸び、先端にショックマウントが付いている" loading="lazy"></a>
-<figcaption>ブーム式のスタンド。角度と高さが自由になることが、音の安定に直結する</figcaption>
-<span class="credit">Photo: Bubba73 (Jud McCranie) / CC BY-SA 3.0</span>
+<figcaption>ブーム式のスタンド。角度と高さが自由になることが、音の安定に直結する<span class="credit">Photo: Bubba73 (Jud McCranie) / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 ここを節約すると、上の3つで積み上げたものが全部ぼやける。マイクが正しい高さと角度に来ないと、どれだけ良いマイクでも口元の音を素直に拾えないからだ。付属の卓上三脚は、置き場所としては便利だが、座った姿勢の口の位置には届かない。結果として顔を下に向けて歌うことになり、声の出方そのものが変わってしまう。
@@ -126,8 +121,7 @@ draft: false
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09CV3XR3F?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-studio-100k/mic-popfilter-reflection.jpg" width="220" height="147" alt="ポップガードとショックマウントを装着したコンデンサーマイクと、その背後に立てられた半円形のリフレクションフィルター" loading="lazy"></a>
-<figcaption>ポップガードとリフレクションフィルターの組み合わせ。部屋ではなくマイクの周囲だけを囲う発想</figcaption>
-<span class="credit">Photo: Tim Sheerman-Chase / CC BY 2.0</span>
+<figcaption>ポップガードとリフレクションフィルターの組み合わせ。部屋ではなくマイクの周囲だけを囲う発想<span class="credit">Photo: Tim Sheerman-Chase / CC BY 2.0</span></figcaption>
 </figure>
 
 最初に区別しておきたいことがある。遮音と吸音は別物だ。遮音は音が境界をまたぐのを止める話で、質量と気密と絶縁——つまり重い材料、隙間を塞ぐこと、振動が構造を伝わらないようにすること——が必要になる。工事の領域で、費用も桁が違う。一方の吸音は部屋の中で音が跳ね返るのを減らす話で、安く始められるが、外に漏れる音も入ってくる音もまったく減らさない。吸音材を壁に貼って「防音した」と言えないのはこのためだ。

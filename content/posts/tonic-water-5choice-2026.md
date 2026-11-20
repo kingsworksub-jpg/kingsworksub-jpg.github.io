@@ -26,8 +26,7 @@ ogImageHeight: 630
 <a href="https://www.amazon.co.jp/dp/B078WZJ23P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/tonic-water/bottle.jpg" alt="トニックウォーターのボトルとグラス" width="960" height="720" loading="lazy">
 </a>
-<figcaption>グラスに注がれるトニックウォーターの清涼感</figcaption>
-<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span>
+<figcaption>グラスに注がれるトニックウォーターの清涼感<span class="credit">Photo: Joseph Blosser / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 

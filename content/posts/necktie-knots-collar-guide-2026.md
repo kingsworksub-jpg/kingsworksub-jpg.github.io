@@ -27,8 +27,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%A4+%E3%82%B7%E3%83%AB%E3%82%AF+%E7%84%A1%E5%9C%B0&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/necktie-knots/fourinhand.jpg" alt="プレーンノットで結んだ無地のシルクのネクタイ" width="667" height="1000" loading="lazy"></a>
-<figcaption>プレーンノット。結び目は縦に長く、左右がわずかに非対称になる。</figcaption>
-<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span>
+<figcaption>プレーンノット。結び目は縦に長く、左右がわずかに非対称になる。<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span></figcaption>
 </figure>
 
 英語ではフォア・イン・ハンドと呼ばれる結び方で、名前は19世紀後半のロンドンにあった馬車の愛好家の集まり、フォア・イン・ハンド・クラブに由来するという説がよく知られている。4頭立ての馬車を操る御者の手綱さばきから来たという説もあるが、どちらにしても、100年以上にわたって男性の首元を支えてきたいちばん基本の結び方だ。
@@ -43,8 +42,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%A4+%E3%82%B7%E3%83%AB%E3%82%AF+%E7%84%A1%E5%9C%B0&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/necktie-knots/halfwindsor.jpg" alt="セミウィンザーノットで結んだ無地のシルクのネクタイ" width="750" height="1000" loading="lazy"></a>
-<figcaption>セミウィンザーノット。プレーンノットより幅が出て、逆三角形に近づく。</figcaption>
-<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span>
+<figcaption>セミウィンザーノット。プレーンノットより幅が出て、逆三角形に近づく。<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span></figcaption>
 </figure>
 
 ハーフウィンザーとも呼ばれ、名前のとおり後で紹介するウィンザーノットの手順を片側だけに省略した結び方だ。考案者ははっきりしないが、背広が仕事着として定着した20世紀の半ば以降に広まったとされる。日本でも、会社勤めの人がいちばん多く使っている結び方の一つだと思う。
@@ -59,8 +57,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%A4+%E3%82%B7%E3%83%AB%E3%82%AF+%E7%84%A1%E5%9C%B0&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/necktie-knots/windsor.jpg" alt="ウィンザーノットで結んだ無地のシルクのネクタイ" width="750" height="1000" loading="lazy"></a>
-<figcaption>ウィンザーノット。両側に巻きつけるので、横幅のある大きな三角形になる。</figcaption>
-<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span>
+<figcaption>ウィンザーノット。両側に巻きつけるので、横幅のある大きな三角形になる。<span class="credit">Photo: Pumbaa80 / CC BY-SA 2.5（Wikimedia Commons）</span></figcaption>
 </figure>
 
 名前は、1930年代に英国王の座を退いたウィンザー公にちなんでいる。ただ、ウィンザー公本人がこの結び方をしていたわけではないらしい。公の首元の大きな結び目は、芯地を厚くした特注のネクタイをプレーンノットで結んで作っていたもので、普通の厚みのネクタイで同じ見た目を再現しようとして考え出されたのがウィンザーノットだ、という話が伝わっている。名前と実際の由来がずれているところも含めて、ネクタイらしい逸話だと思う。
@@ -75,8 +72,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--right">
 <img src="/images/necktie-knots/pratt.jpg" alt="プラットノットで結んだ青いネクタイ" width="512" height="384" loading="lazy">
-<figcaption>プラットノット。大きさはセミウィンザーに近く、形は左右対称に整う。</figcaption>
-<span class="credit">Photo: CommieKarlovy / CC0（Wikimedia Commons）</span>
+<figcaption>プラットノット。大きさはセミウィンザーに近く、形は左右対称に整う。<span class="credit">Photo: CommieKarlovy / CC0（Wikimedia Commons）</span></figcaption>
 </figure>
 
 4種の中ではいちばん新しく、知名度も低めの結び方だ。考案したのはアメリカ商工会議所に勤めていたジェリー・プラットという人物で、1980年代の終わりにミネアポリスのテレビ局でニュースを読んでいたドン・シェルビーが番組で締めて広まった。そのため、シェルビーノットという別名もある。
@@ -91,8 +87,7 @@ scheduled_time: "21:30"
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%A4+%E3%82%B7%E3%83%AB%E3%82%AF+%E7%84%A1%E5%9C%B0&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/necktie-knots/dimple.jpg" alt="結び目の下にくぼみを作ったネクタイ" width="1000" height="1000" loading="lazy"></a>
-<figcaption>結び目のすぐ下にできたくぼみ（ディンプル）。光の当たり方で立体感が生まれる。</figcaption>
-<span class="credit">Photo: Wikimedia Commons / CC BY 2.5</span>
+<figcaption>結び目のすぐ下にできたくぼみ（ディンプル）。光の当たり方で立体感が生まれる。<span class="credit">Photo: Wikimedia Commons / CC BY 2.5</span></figcaption>
 </figure>
 
 どの結び方を選んでも、仕上がりの印象を最後に左右するのは、結び目の真下に作るくぼみ、ディンプルだ。結び目を締める直前に、大剣の中央を人差し指で軽く押し込み、両脇を親指と中指でつまんで谷折りの形を作る。そのまま指を添えて結び目を上へ締め上げると、くぼみが固定される。

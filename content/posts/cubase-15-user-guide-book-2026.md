@@ -67,8 +67,7 @@ Cubase Pro 15そのものの機能、とくにスコアエディターについ�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0HKLG721P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-15-guide/cubase-score-sheets-desk.jpg" width="220" height="145" alt="2台のモニターにCubaseを表示し、手書きの書き込みがある楽譜とMIDIキーボードを前に作業する人" loading="lazy"></a>
-<figcaption>楽譜とCubaseを行き来しながらの作業（クリックで本書のAmazonページへ）</figcaption>
-<span class="credit">Photo: Marco Raaphorst / Wikimedia Commons (CC BY 2.0)</span>
+<figcaption>楽譜とCubaseを行き来しながらの作業（クリックで本書のAmazonページへ）<span class="credit">Photo: Marco Raaphorst / Wikimedia Commons (CC BY 2.0)</span></figcaption>
 </figure>
 
 本書が掲げている学習内容には、スコアエディターをはじめとする楽譜機能や、Pro限定のエクスプレッションマップは含まれていない。録音からマスタリングまでの「1曲を仕上げる流れ」に焦点を絞った本なので、楽譜を作りたい人は、その部分を別の資料で補う必要がある。
@@ -87,8 +86,7 @@ Cubase Pro 15そのものの機能、とくにスコアエディターについ�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0HKLG721P?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-15-guide/clavinova-cubase-home-studio.jpg" width="220" height="165" alt="電子ピアノの横にノートパソコンでCubaseを開き、譜面台に楽譜、上にマイクを置いた自宅の録音環境" loading="lazy"></a>
-<figcaption>電子ピアノとノートPCで組んだ、自宅の制作環境</figcaption>
-<span class="credit">Photo: Tibule / Wikimedia Commons (CC BY-SA 4.0)</span>
+<figcaption>電子ピアノとノートPCで組んだ、自宅の制作環境<span class="credit">Photo: Tibule / Wikimedia Commons (CC BY-SA 4.0)</span></figcaption>
 </figure>
 
 解説書は、読むだけでは身につかない。いちばん効果が高いのは、Cubaseを開いた状態で本書を横に置き、自分の曲を1曲作りながら、その工程にあたる部分を読んでいく使い方だと思う。ここでは、本書の構成に沿って、4週間で1曲を完成させる進め方を考えていく。

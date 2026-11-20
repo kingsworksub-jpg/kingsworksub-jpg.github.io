@@ -34,8 +34,7 @@ scheduled_time: "20:00"
 <a href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sodastream/machine-bottle.jpg" width="220" height="293" alt="ソーダストリームの本体と専用ボトル" loading="lazy">
 </a>
-<figcaption>ソーダストリームの旧モデルと専用ボトル。本体上部のボタンを押してガスを注ぐ構造はTERRAも同じ(クリックでTERRAのAmazonページへ)</figcaption>
-<span class="credit">Photo: Meaghan O'Malley / CC BY 2.0</span>
+<figcaption>ソーダストリームの旧モデルと専用ボトル。本体上部のボタンを押してガスを注ぐ構造はTERRAも同じ(クリックでTERRAのAmazonページへ)<span class="credit">Photo: Meaghan O'Malley / CC BY 2.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B0DLKBRS4Z"><a href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ソーダストリームの本体と専用ボトルの実売価格・レビューをAmazonで確認する →</a></p>
@@ -54,8 +53,7 @@ TERRAは電源を使わない手動式の炭酸水メーカーで、公式の税
 <a href="https://www.amazon.co.jp/dp/B0C781JTWG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sodastream/crystal.jpg" width="220" height="165" alt="キッチンに並んだ2台のソーダストリームとガラスのカラフェ" loading="lazy">
 </a>
-<figcaption>キッチンカウンターに並んだソーダストリーム。家電として置いておくなら、色と高さも選ぶ基準になる(クリックでE-TERRAのAmazonページへ)</figcaption>
-<span class="credit">Photo: Wassersprudler.de / CC BY-SA 4.0</span>
+<figcaption>キッチンカウンターに並んだソーダストリーム。家電として置いておくなら、色と高さも選ぶ基準になる(クリックでE-TERRAのAmazonページへ)<span class="credit">Photo: Wassersprudler.de / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B0C781JTWG"><a href="https://www.amazon.co.jp/dp/B0C781JTWG?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">キッチンに並んだ2台のソーダストリームとガラスのカラフェの実売価格・レビューをAmazonで確認する →</a></p>
@@ -72,8 +70,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sodastream/cylinder.jpg" width="220" height="165" alt="炭酸ガスボンベとレギュレーター、炭酸水のボトル" loading="lazy"></a>
-<figcaption>炭酸ガスのボンベと圧力計。ソーダストリームのシリンダーも、中身は高圧で詰められた二酸化炭素だ</figcaption>
-<span class="credit">Photo: Kevin B 3 / CC BY 2.0</span>
+<figcaption>炭酸ガスのボンベと圧力計。ソーダストリームのシリンダーも、中身は高圧で詰められた二酸化炭素だ<span class="credit">Photo: Kevin B 3 / CC BY 2.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B07BS1HJG5"><a href="https://www.amazon.co.jp/dp/B07BS1HJG5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">炭酸ガスボンベとレギュレーター、炭酸水のボトルの実売価格・レビューをAmazonで確認する →</a></p>
@@ -104,8 +101,7 @@ E-TERRAのいちばんの価値は、毎回同じ強さを再現できること�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/sodastream/highball.jpg" width="220" height="147" alt="ジョッキに注がれた氷入りのハイボール" loading="lazy"></a>
-<figcaption>ジョッキで出される氷入りのハイボール。ウイスキーと氷に注ぐ過程で、炭酸は思った以上に抜けていく</figcaption>
-<span class="credit">Photo: N509FZ / CC BY-SA 4.0</span>
+<figcaption>ジョッキで出される氷入りのハイボール。ウイスキーと氷に注ぐ過程で、炭酸は思った以上に抜けていく<span class="credit">Photo: N509FZ / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 <p class="cvr-text-link" data-cvr="text-B09MQJ5XWR"><a href="https://www.amazon.co.jp/dp/B09MQJ5XWR?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ジョッキに注がれた氷入りのハイボールの実売価格・レビューをAmazonで確認する →</a></p>

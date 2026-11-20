@@ -19,8 +19,7 @@ scheduled_time: "20:00"
 
 <figure class="photo photo--left">
 <a href="https://www.izotope.com/en/products/ozone.html" target="_blank" rel="noopener"><img src="/images/ozone12/studio-mastering.jpg" alt="アナログのテープレコーダーとモニタースピーカーが並ぶマスタリングスタジオ" width="1000" height="555" loading="lazy"></a>
-<figcaption>マスタリングスタジオの作業席。Ozoneはこの部屋の機材の役割をプラグインの中にまとめている</figcaption>
-<span class="credit">Photo: Giuliano Radiciotti / CC BY-SA 4.0</span>
+<figcaption>マスタリングスタジオの作業席。Ozoneはこの部屋の機材の役割をプラグインの中にまとめている<span class="credit">Photo: Giuliano Radiciotti / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 Ozone 12は2025年9月に登場した、iZotopeのマスタリング用プラグインの最新版だ。2026年11月の時点でも、これが現行のバージョンになっている。目玉として加わったのは3つのモジュールで、完成した2ミックスの中からボーカルやベース、ドラムといった要素ごとにEQをかけられる「Stem EQ」、低域の量と押し出しを専用に整える「Bass Control」、潰れすぎた音源のアタックを機械学習で取り戻す「Unlimiter」がそれにあたる。最終段の音量を決めるMaximizerにも、新しいリミッターの方式「IRC 5」が加わった。
@@ -47,8 +46,7 @@ Ozoneには、この錯覚を避けるための「Gain Match」という機能�
 
 <figure class="photo photo--right">
 <a href="https://www.izotope.com/en/products/ozone.html" target="_blank" rel="noopener"><img src="/images/ozone12/jvc-mastering-room.jpg" alt="大型のモニタースピーカーが並ぶJVCマスタリングセンターの部屋" width="1000" height="664" loading="lazy"></a>
-<figcaption>JVCマスタリングセンター(横浜)の一室。低域を判断するために、大きなスピーカーと整えられた部屋が用意されている</figcaption>
-<span class="credit">Photo: JacoTen from Tokyo, Japan / CC BY-SA 2.0</span>
+<figcaption>JVCマスタリングセンター(横浜)の一室。低域を判断するために、大きなスピーカーと整えられた部屋が用意されている<span class="credit">Photo: JacoTen from Tokyo, Japan / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 最初に聴くのは低域だ。マスタリングで低域が難しいのは、部屋と再生機器の影響をいちばん強く受ける帯域だからだ。写真のような専用の部屋なら、低い音までまっすぐ聴こえるように整えられている。一方で、6畳の部屋の机の上に置いた小さなモニタースピーカーでは、ある帯域は膨らみ、別の帯域はほとんど聞こえない、ということが普通に起こる。アシスタントは曲そのものを解析しているので部屋の影響は受けないが、こちらがその結果を正しく聴けていないと、良し悪しの判断ができない。
@@ -73,8 +71,7 @@ Advancedには、潰れすぎた音源のアタックを取り戻すUnlimiterも
 
 <figure class="photo photo--left">
 <a href="https://www.izotope.com/en/products/ozone.html" target="_blank" rel="noopener"><img src="/images/ozone12/sae-mastering.jpg" alt="アナログ機材のラックとモニタースピーカーが並ぶSAE Masteringの作業席" width="1000" height="748" loading="lazy"></a>
-<figcaption>アリゾナ州フェニックスのSAE Masteringの作業席。左右のスピーカーの中央に座って、音の広がりを確かめる</figcaption>
-<span class="credit">Photo: VACANT FEVER / CC BY-SA 2.0</span>
+<figcaption>アリゾナ州フェニックスのSAE Masteringの作業席。左右のスピーカーの中央に座って、音の広がりを確かめる<span class="credit">Photo: VACANT FEVER / CC BY-SA 2.0</span></figcaption>
 </figure>
 
 最後はステレオ幅だ。アシスタントが目標に合わせて広がりを調整すると、曲によっては左右がぐっと開き、音が部屋いっぱいに広がったように聞こえる。この変化はわかりやすく気持ちがいいので、つい受け入れたくなる。ただ、広げすぎた音は、スマートフォンのスピーカーやお店のBGMのように、左右の音がまとめて鳴る環境で、ボーカルやギターが急に引っ込んだり、音の一部が消えたように聞こえたりすることがある。

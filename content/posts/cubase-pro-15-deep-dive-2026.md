@@ -34,8 +34,7 @@ Cubaseのエディションは、上からPro、Artist、Elementsの3つ（ほ�
 
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-pro-15/score-editor-dorico-engine.jpg" width="220" height="118" alt="Cubaseのスコアエディター。ピアノの大譜表にAndante teneramenteの楽曲が浄書されている画面" loading="lazy"></a>
-<figcaption>Doricoの技術で描かれるCubaseのスコアエディター（クリックでAmazonの商品ページへ）</figcaption>
-<span class="credit">Image: Steinberg</span>
+<figcaption>Doricoの技術で描かれるCubaseのスコアエディター（クリックでAmazonの商品ページへ）<span class="credit">Image: Steinberg</span></figcaption>
 </figure>
 
 Cubaseのスコアエディターは、Cubase 14で約30年ぶりに作り直された。土台になっているのは、Steinbergの楽譜作成ソフトDoricoの技術で、DoricoがMIDIファイルを読み込むときに使っている「採譜（トランスクリプション）エンジン」と同じものが、Cubaseの中で動いている。MIDIの演奏データから、拍子や調、声部の分かれ方を判断して、読みやすい楽譜を自動で組み上げてくれる仕組みだ。
@@ -132,8 +131,7 @@ Cubaseで曲を作って音を詰めたあと、出版や本番用の細かな�
 
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GLPPZD3J?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cubase-pro-15/cubase-15-studio.jpg" width="220" height="124" alt="大きなモニターにCubase 15のプロジェクト画面を表示し、MIDIキーボードの前で作業する女性" loading="lazy"></a>
-<figcaption>Cubase 15で制作するスタジオの風景</figcaption>
-<span class="credit">Image: Steinberg</span>
+<figcaption>Cubase 15で制作するスタジオの風景<span class="credit">Image: Steinberg</span></figcaption>
 </figure>
 
 スコアエディター以外で、制作の手触りが大きく変わったと感じたのは、ステム分離とメロディック・パターンシーケンサーの2つだ。ステム分離は、既存の音源からボーカルやドラムを抜き出せるので、リファレンス曲の分析やリミックスの素材づくりに重宝する。分離の精度は専用のツールにはまだ一歩譲る印象だが、DAWの中で完結できる手軽さは大きい。
