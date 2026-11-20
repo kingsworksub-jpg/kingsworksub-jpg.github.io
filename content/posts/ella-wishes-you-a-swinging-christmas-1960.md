@@ -143,4 +143,8 @@ scheduled_time: "07:30"
 [関連アクセサリー：レコードクリーナーをAmazonで見る](https://www.amazon.co.jp/s?k=レコードクリーナー&tag=nakimoto1-22)
 
 歴史的名盤として保証された品質と、エラの親しみやすい人柄が同居した本作は、初心者からマニアまで誰にでも自信を持って推奨できます。一度再生ボタンを押せば、そこには時代を超えた最高のホリデーが広がっています。
-## 関連記事・おすすめメディア\n- [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)\n- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)\n- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+
+## 関連記事
+
+- [『A Charlie Brown Christmas』はなぜ毎年12月に戻ってくるのか](/posts/charlie-brown-christmas-guaraldi-trio-2026/)
+- [ジャズヴォーカル入門、歌詞より先に「間」を聴く](/posts/jazz-vocal-phrasing-guide-2026/)

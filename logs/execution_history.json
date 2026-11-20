@@ -9037,5 +9037,25 @@
       "未対応: nea-jazz-masters-2026 はH2が1つ(有料記事の無料部分のため意図的)"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T23:30:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ella-wishes-you-a-swinging-christmas-1960"
+    ],
+    "actions": [
+      "末尾見出しに混入していたリテラル\\nと、note URLのプレースホルダー(n/XXXX)・無関係なトップページ宛リンクを削除し、関連記事セクションを内部リンク2本(charlie-brown-christmas-guaraldi-trio-2026 / jazz-vocal-phrasing-guide-2026)に作り直し"
+    ],
+    "files_changed": [
+      "content/posts/ella-wishes-you-a-swinging-christmas-1960.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事の解消(内部リンク0→2)",
+      "hugo/PILがこのクラウド環境に無くビルド・seo-audit未実行",
+      "他記事に同種の\\n混入・XXXXプレースホルダーは無し(grep確認)"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
