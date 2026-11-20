@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:31:17+09:00",
+ "updated": "2026-11-21T07:44:42+09:00",
  "items": [
   {
    "category": "gear",
@@ -12614,14 +12614,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-032",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-21T07:31:17+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "07:30",
-   "slot_label": "朝: 検証メモ/個人備忘録"
+   "slot_label": "朝: 検証メモ/個人備忘録",
+   "slug": "ella-wishes-you-a-swinging-christmas-1960",
+   "published_at": "2026-11-21T07:44:42+09:00"
   },
   {
    "category": "essay",

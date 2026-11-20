@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-21T07:31:17+09:00",
+ "updated": "2026-11-21T07:44:42+09:00",
  "queue": {
-  "published": 177,
+  "published": 178,
   "rejected": 11,
-  "approved": 36,
-  "in_progress": 1
+  "approved": 36
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published 2026w45-034",
+ "last_result": "published ella-wishes-you-a-swinging-christmas-1960",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
