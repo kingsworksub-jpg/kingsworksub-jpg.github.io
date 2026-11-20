@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:37:10+09:00",
+  "generated_at": "2026-11-20T12:53:14+09:00",
   "source_csv": "scripts/p0-sc.csv",
   "source_query_csv": "scripts/p0-sc-queries.csv",
   "aggregate_unit": "page",

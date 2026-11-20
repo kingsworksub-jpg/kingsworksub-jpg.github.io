@@ -1,7 +1,7 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 12:37 JST
-- 記事数: **271本** / 合計ビュー: **3,205**（前回比 **+3**）
+- 生成: 2026-11-20 12:53 JST
+- 記事数: **271本** / 合計ビュー: **3,206**（前回比 **+1**）
 - 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
@@ -14,6 +14,29 @@
 - approval_status: 直近30日で注文0件。180日以内3件の本承認には至っていない可能性が高い（管理画面に明示表示なし）
 - 更新: `python scripts/amazon-associates-probe.py --collect-only`（ローカルのみ）
 
+## GA4（Data API 実数値・直近30日）
+
+- screenPageViews: **2311**
+- activeUsers: **1861**
+- eventCount: **7285**
+- sessions: **2049**
+- keyEvents: **0**
+- ブログ記事のみ (`/posts/`): pageviews **405** / activeUsers **332**
+- affiliate_click イベント: 0 件
+
+| pagePath | pageviews | activeUsers |
+|---|---:|---:|
+| `/sfd0501/` | 448 | 263 |
+| `/` | 107 | 47 |
+| `/sfd0501/entrylist.html` | 21 | 17 |
+| `/sfd0501/entry-12983785056.html` | 18 | 15 |
+| `/posts/digital-performer-12-chunks-2026/` | 16 | 14 |
+| `/sfd0501/page-2.html` | 13 | 7 |
+| `/sfd0501/entry-12983859634.html` | 11 | 10 |
+| `/entry/2026/10/14/121304` | 9 | 8 |
+| `/posts/odate-akita-sugi-sake-set-deep-dive-2026/` | 9 | 9 |
+| `/sfd0501/entry-12982392252.html` | 9 | 7 |
+
 ## P4 計測の確認チェック
 
 - [ ] GA4 カスタム定義に `article_slug` / `link_source` / `asin` / `ascsubtag` を登録済みか
@@ -24,7 +47,7 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `taiwan-india-whisky-climate-2026` | 22 | +3 |
+| `takaoka-shikki-raden-glass-sakura-deep-dive-2026` | 8 | +1 |
 | `piano-practice-apps-3choice-2026` | 77 | +0 |
 | `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
 | `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
