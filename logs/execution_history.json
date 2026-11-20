@@ -8764,5 +8764,28 @@
       "seo-audit.pyはローカルPCで --check-links を実行して確認"
     ],
     "status": "完了(修正対象なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T09:53:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "guitar-recording-amp-sim-setup",
+      "daw-keyboard-shortcuts-workflow-order",
+      "nengajou-jimai-letter-time"
+    ],
+    "actions": [
+      "内部リンク0本だった記事のうち3本に、関連既存記事3本ずつへの「あわせて読みたい」セクションを追加(2周目: 内部リンク強化)"
+    ],
+    "files_changed": [
+      "content/posts/guitar-recording-amp-sim-setup.md",
+      "content/posts/daw-keyboard-shortcuts-workflow-order.md",
+      "content/posts/nengajou-jimai-letter-time.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の残り5記事(rc-20-retro-color-v2等)に同様に追加",
+      "hugo未導入のためビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
