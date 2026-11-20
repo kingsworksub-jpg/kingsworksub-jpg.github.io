@@ -52,11 +52,14 @@ jobs:
       - name: Amazon associate report
         run: python scripts/amazon-report-fetch.py
 
-      # 3. SC + Amazon を1枚に集約（CSVが無い場合はスキップ）
+      # 3. SC(page単位) + Amazon を1枚に集約（CSVが無い場合はスキップ）
       - name: Aggregate P0 metrics
         run: |
           if [ -f scripts/p0-sc.csv ]; then
-            python scripts/p0-metrics.py --sc scripts/p0-sc.csv --amazon scripts/p0-amazon.json
+            python scripts/p0-metrics.py \
+              --sc scripts/p0-sc.csv \
+              --queries scripts/p0-sc-queries.csv \
+              --amazon scripts/p0-amazon.json
           else
             echo "SKIP: scripts/p0-sc.csv がありません（SC未設定）"
           fi
@@ -71,6 +74,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           for f in \
             scripts/p0-sc.csv \
+            scripts/p0-sc-queries.csv \
             scripts/p0-amazon.json \
             scripts/p0-metrics.md scripts/p0-metrics.json \
             scripts/p0-views.md scripts/p0-views.json \

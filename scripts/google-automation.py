@@ -12,8 +12,10 @@ GitHub Actions から実行する。認証情報はチャット/リポジトリ�
 やること:
   1. GA4 にカスタムディメンション4つを作成（既存はスキップ）
        article_slug / link_source / asin / ascsubtag
-  2. Search Console API で直近30日の page×query データを取得し、
-     scripts/p0-sc.csv に日本語ヘッダで保存（p0-metrics.py が読める形式）
+  2. Search Console API で直近30日の page 単位データを取得し、
+     scripts/p0-sc.csv に保存（p0-metrics.py が読める形式・母集団の基準）
+  3. page×query データは補助として scripts/p0-sc-queries.csv に保存。
+     query ディメンションはこの property で強く間引かれるため、分母には使わない。
 
 必要ライブラリ:
   pip install -r requirements-automation.txt
@@ -31,6 +33,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_CSV = os.path.join(ROOT, "scripts", "p0-sc.csv")
+OUT_QUERIES_CSV = os.path.join(ROOT, "scripts", "p0-sc-queries.csv")
 SCOPES = [
     "https://www.googleapis.com/auth/analytics.edit",
     "https://www.googleapis.com/auth/webmasters.readonly",
@@ -120,6 +123,42 @@ def setup_ga4(cred) -> None:
         print(f"WARN: GA4カスタム定義の登録に失敗しました ({exc})", flush=True)
 
 
+def _fetch_sc_rows(service, site, start, end, dimensions):
+    """Search Console をページングして全行取得する。"""
+    rows = []
+    start_row = 0
+    while True:
+        res = service.searchanalytics().query(body={
+            "startDate": start.isoformat(),
+            "endDate": end.isoformat(),
+            "dimensions": dimensions,
+            "rowLimit": 25000,
+            "startRow": start_row,
+        }, siteUrl=site).execute()
+        batch = res.get("rows", [])
+        rows.extend(batch)
+        if len(batch) < 25000:
+            break
+        start_row += 25000
+    return rows
+
+
+def _write_sc_csv(path, header, rows, key_count):
+    with io.open(path, "w", encoding="utf-8-sig", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(header)
+        for r in rows:
+            keys = r.get("keys", [])
+            out = [keys[i] if len(keys) > i else "" for i in range(key_count)]
+            out.extend([
+                r.get("impressions", 0),
+                r.get("clicks", 0),
+                f"{r.get('ctr', 0) * 100:.2f}%",
+                f"{r.get('position', 0):.2f}",
+            ])
+            w.writerow(out)
+
+
 def fetch_search_console(cred) -> None:
     site = (os.environ.get("SC_SITE_URL") or "https://kingsworksub-jpg.github.io/").strip()
     try:
@@ -131,38 +170,33 @@ def fetch_search_console(cred) -> None:
     start = end - timedelta(days=29)
     try:
         service = build("searchconsole", "v1", credentials=cred, cache_discovery=False)
-        rows = []
-        start_row = 0
-        while True:
-            res = service.searchanalytics().query(body={
-                "startDate": start.isoformat(),
-                "endDate": end.isoformat(),
-                "dimensions": ["page", "query"],
-                "rowLimit": 25000,
-                "startRow": start_row,
-            }, siteUrl=site).execute()
-            batch = res.get("rows", [])
-            rows.extend(batch)
-            if len(batch) < 25000:
-                break
-            start_row += 25000
-
-        with io.open(OUT_CSV, "w", encoding="utf-8-sig", newline="") as fh:
-            w = csv.writer(fh)
-            w.writerow(["ページ", "クエリ", "インプレッション数", "クリック数", "CTR", "平均順位"])
-            for r in rows:
-                keys = r.get("keys", ["", ""])
-                w.writerow([
-                    keys[0] if len(keys) > 0 else "",
-                    keys[1] if len(keys) > 1 else "",
-                    r.get("impressions", 0),
-                    r.get("clicks", 0),
-                    f"{r.get('ctr', 0) * 100:.2f}%",
-                    f"{r.get('position', 0):.2f}",
-                ])
-        print(f"OK: {OUT_CSV} ({len(rows)}行 / {start} 〜 {end})", flush=True)
     except Exception as exc:
-        print(f"WARN: Search Console データ取得に失敗しました ({exc})", flush=True)
+        print(f"WARN: Search Console クライアントの初期化に失敗しました ({exc})", flush=True)
+        return
+
+    # 主データ: page 単位。こちらを母集団（分母）として使う。
+    try:
+        page_rows = _fetch_sc_rows(service, site, start, end, ["page"])
+        _write_sc_csv(
+            OUT_CSV,
+            ["ページ", "インプレッション数", "クリック数", "CTR", "平均順位"],
+            page_rows, 1,
+        )
+        print(f"OK: {OUT_CSV} ({len(page_rows)}行 / page単位 / {start} 〜 {end})", flush=True)
+    except Exception as exc:
+        print(f"WARN: page単位の取得に失敗しました ({exc})", flush=True)
+
+    # 補助データ: page×query。query は強く間引かれるため分母には使わない。
+    try:
+        query_rows = _fetch_sc_rows(service, site, start, end, ["page", "query"])
+        _write_sc_csv(
+            OUT_QUERIES_CSV,
+            ["ページ", "クエリ", "インプレッション数", "クリック数", "CTR", "平均順位"],
+            query_rows, 2,
+        )
+        print(f"OK: {OUT_QUERIES_CSV} ({len(query_rows)}行 / page×query / 補助)", flush=True)
+    except Exception as exc:
+        print(f"WARN: page×query の取得に失敗しました ({exc})", flush=True)
 
 
 def main() -> int:

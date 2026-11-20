@@ -10,10 +10,13 @@ Search Console の「検索結果」レポートを CSV でエクスポートし
 
 使い方:
     python scripts/p0-metrics.py --sc scripts/p0-sc.csv
-    python scripts/p0-metrics.py --sc scripts/p0-sc.csv --amazon scripts/p0-amazon.json
+    python scripts/p0-metrics.py --sc scripts/p0-sc.csv --queries scripts/p0-sc-queries.csv \
+        --amazon scripts/p0-amazon.json
 
-CSV は日本語ヘッダ (ページ/クエリ/インプレッション数/クリック数/CTR/平均順位)
-と英語ヘッダ (Page/Query/Impressions/Clicks/CTR/Average position) の両方を扱う。
+主入力は page 単位 CSV (ページ/インプレッション数/クリック数/CTR/平均順位)。
+補助の page×query CSV (ページ/クエリ/...) は --queries で渡す。query は間引かれるため
+「上位クエリ」は参考値として扱い、母集団の分母には page 単位を使う。
+日本語ヘッダと英語ヘッダ (Page/Query/Impressions/Clicks/CTR/Average position) の両方を扱う。
 """
 from __future__ import annotations
 
@@ -129,9 +132,18 @@ def collect_articles() -> dict:
     return articles
 
 
-def aggregate(rows) -> tuple:
-    per_page = defaultdict(lambda: {"impressions": 0, "clicks": 0, "pos_sum": 0.0})
-    per_query = defaultdict(lambda: {"impressions": 0, "clicks": 0, "pos_sum": 0.0})
+def aggregate(rows, into=None, pages=True, queries=True) -> tuple:
+    """行を page 別 / query 別に集約する。
+
+    into を渡すと既存の辞書に積み加える（補助CSVを足すとき用）。
+    page×query 行を page にも加えると二重計上になるため、補助CSVは queries=True / pages=False で読む。
+    """
+    if into is None:
+        into = (
+            defaultdict(lambda: {"impressions": 0, "clicks": 0, "pos_sum": 0.0}),
+            defaultdict(lambda: {"impressions": 0, "clicks": 0, "pos_sum": 0.0}),
+        )
+    per_page, per_query = into
     normalized = []
     for row in rows:
         item = {}
@@ -148,12 +160,12 @@ def aggregate(rows) -> tuple:
         page = item.get("page", "") or ""
         query = item.get("query", "") or ""
         m = PAGE_RE.search(page)
-        if m:
+        if m and pages:
             d = per_page[m.group(1)]
             d["impressions"] += imp
             d["clicks"] += clk
             d["pos_sum"] += pos * imp
-        if query and not query.startswith("#"):
+        if queries and query and not query.startswith("#"):
             d = per_query[query]
             d["impressions"] += imp
             d["clicks"] += clk
@@ -186,7 +198,8 @@ def priority_note(row: dict) -> str:
     return " / ".join(notes) if notes else "-"
 
 
-def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon: dict) -> str:
+def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon: dict,
+           query_source: str = "") -> str:
     now = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M JST")
     merged = []
     for slug, d in per_page.items():
@@ -206,9 +219,10 @@ def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon
         "# P0 数値サマリ（Search Console × 記事 × Amazon）",
         "",
         f"- 生成: {now}",
-        f"- 入力CSV: `{sc_path}`",
+        f"- 入力CSV: `{sc_path}`（page 単位＝分母の基準）",
         f"- 検索結果に出た記事: **{covered}本** / 公開記事 {len(articles)}本（CSVに無い記事はインプレッション0扱い）",
         f"- 合計インプレッション: **{total_imp:,}** / 合計クリック: **{total_clk:,}**",
+        "- 集計単位: Search Console の `page` ディメンション。`query` は間引かれるため補助扱い。",
         "",
         "## 記事別（インプレッション順）",
         "",
@@ -224,7 +238,10 @@ def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon
 
     lines += [
         "",
-        "## 上位クエリ Top 30",
+        "## 上位クエリ Top 30（補助データ）",
+        "",
+        (f"- 出典: `{query_source}`。query ディメンションは間引かれるため、割合の分母は上段の page 単位を使う。"
+         if query_source else "- 補助CSVが未設定のため、page 単位の数値を優先する。"),
         "",
         "| クエリ | IMP | クリック | 平均順位 |",
         "|---|---:|---:|---:|",
@@ -271,9 +288,9 @@ def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon
         "",
         "## 次のアクション",
         "",
-        "1. `P1候補` の記事（上位20〜30本）にプランAのCTA/テキストリンク/価格注記/不安解消をバックフィル",
-        "2. `P2候補`（順位11〜30）のタイトル・description・h2を修正",
-        "3. P4で `affiliate_click` イベントを追加し、記事別CVRを計測可能にする",
+        "1. `P2候補`（順位11〜30）のタイトル・description・h2を修正（IMPのあるpageを優先）",
+        "2. インプレッション0の記事は内部リンク追加とURL検査送信の候補として別途分類する",
+        "3. GA4 Data API 有効化後、pageviews / activeUsers を週次レポートへ追加する",
         "",
     ]
     return "\n".join(lines)
@@ -281,7 +298,9 @@ def render(sc_path: str, per_page: dict, per_query: dict, articles: dict, amazon
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="P0 数値サマリを生成する")
-    ap.add_argument("--sc", default="scripts/p0-sc.csv", help="Search Console のCSV")
+    ap.add_argument("--sc", default="scripts/p0-sc.csv", help="Search Console の page 単位CSV")
+    ap.add_argument("--queries", default="scripts/p0-sc-queries.csv",
+                    help="Search Console の page×query 補助CSV（任意・無ければスキップ）")
     ap.add_argument("--amazon", default=None, help="アソシエイト数値のJSON（任意）")
     ap.add_argument("--out", default=OUT_MD, help="出力 Markdown")
     args = ap.parse_args()
@@ -292,7 +311,24 @@ def main() -> int:
         return 1
 
     rows, enc = read_csv(sc_path)
-    per_page, per_query = aggregate(rows)
+    # 旧フォーマット（page×query が1ファイルに入っている）にも対応:
+    # クエリ列があればそこからも query を読む。新フォーマットは page のみ。
+    has_query_col = any(
+        key is not None and HEADER_ALIASES.get(key.strip().lower()) == "query"
+        for key in (rows[0].keys() if rows else [])
+    )
+    per_page, per_query = aggregate(rows, queries=has_query_col)
+
+    query_source = ""
+    if args.queries:
+        q_path = args.queries if os.path.isabs(args.queries) else os.path.join(ROOT, args.queries)
+        if os.path.exists(q_path):
+            q_rows, _ = read_csv(q_path)
+            aggregate(q_rows, (per_page, per_query), pages=False, queries=True)
+            query_source = args.queries
+        else:
+            print(f"SKIP: 補助クエリCSVがありません: {q_path}", file=sys.stderr)
+
     articles = collect_articles()
     amazon = {}
     if args.amazon:
@@ -300,13 +336,15 @@ def main() -> int:
         with io.open(a_path, "r", encoding="utf-8-sig") as fh:
             amazon = json.load(fh)
 
-    md = render(args.sc, per_page, per_query, articles, amazon)
+    md = render(args.sc, per_page, per_query, articles, amazon, query_source)
     with io.open(args.out, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(md)
 
     payload = {
         "generated_at": datetime.now(timezone(timedelta(hours=9))).isoformat(timespec="seconds"),
         "source_csv": args.sc,
+        "source_query_csv": query_source,
+        "aggregate_unit": "page",
         "encoding": enc,
         "per_page": {k: _finalize(v) for k, v in per_page.items()},
         "per_query": {k: _finalize(v) for k, v in per_query.items()},
@@ -316,7 +354,7 @@ def main() -> int:
     with io.open(OUT_JSON, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
 
-    print(f"OK: {args.out} (CSV {len(rows)} 行 / 記事 {len(per_page)} / エンコーディング {enc})")
+    print(f"OK: {args.out} (page {len(rows)} 行 / 記事 {len(per_page)} / query {len(per_query)} 行 / エンコーディング {enc})")
     print(f"OK: {OUT_JSON}")
     return 0
 
