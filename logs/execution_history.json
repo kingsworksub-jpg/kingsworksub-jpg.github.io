@@ -8898,5 +8898,21 @@
       "異常なし:次回は外部リンク切れ確認(--check-links)を優先"
     ],
     "status": "完了(修正なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T16:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "古い順40記事の外部リンク43件を確認試行したが、クラウド環境のプロキシで全件が接続不可(000)となり判定不能。リンク切れの有無は未確認のため記事は修正せず"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "外部リンク切れはローカルPCで seo-audit.py --check-links を実行して確認",
+      "異常なし"
+    ],
+    "status": "完了(修正なし・検証不能)"
   }
 ]
