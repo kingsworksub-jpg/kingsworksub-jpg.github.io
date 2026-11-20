@@ -8962,5 +8962,26 @@
       "seo-audit・hugoビルドはローカルPCで確認"
     ],
     "status": "完了(修正なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T20:53:46Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "canned-coffee-5choice-2026"
+    ],
+    "actions": [
+      "CTAバナー・テキストリンクの商品名が図キャプションの途中切れ(…)になっていたのを正式商品名『サンガリア ブレンドコーヒー ブラック』に修正",
+      "未対応: anime-and-jazz のCTAも同様に途中切れ。リンク先ASIN(B00FW67HVC)の商品名を確認できず、Louis Armstrong写真にAmazonリンクが付く構成自体も要見直し(ローカルで確認要)",
+      "未対応: 旧バナー(daw-5choice等)のimgにwidth/height無し"
+    ],
+    "files_changed": [
+      "content/posts/canned-coffee-5choice-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "cvr_optimize.pyが図キャプションを切り詰めて商品名にする不具合の修正(ローカル)",
+      "hugoビルド・seo-auditはローカルで確認"
+    ],
+    "status": "一部完了(ビルド未検証)"
   }
 ]

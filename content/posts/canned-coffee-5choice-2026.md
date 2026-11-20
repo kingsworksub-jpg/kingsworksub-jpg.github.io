@@ -20,9 +20,9 @@ scheduled_time: "17:30"
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/canned-coffee-5/sangaria-black.jpg" alt="サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…" loading="lazy">
+<img src="/images/canned-coffee-5/sangaria-black.jpg" alt="サンガリア ブレンドコーヒー ブラック" loading="lazy">
 <span class="product-banner-info">
-<span class="product-banner-name">サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…</span>
+<span class="product-banner-name">サンガリア ブレンドコーヒー ブラック</span>
 <span class="product-banner-cta">Amazonで見る →</span>
 </span>
 </a>
@@ -70,7 +70,7 @@ scheduled_time: "17:30"
 <figcaption>サンガリアの185g缶の無糖ブラック。写真は以前の「コクと香りのクオリティコーヒー」名義のパッケージ<span class="credit">Photo: Dmz2000 / <a href="https://commons.wikimedia.org/wiki/File:Can_of_Sangaria_Quality_Coffee_Black.png" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0DWMNQY2Y"><a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">サンガリアの無糖ブラック缶コーヒー。黒い缶に無糖の丸い表示とコーヒー…の実売価格・レビューをAmazonで確認する →</a></p>
+<p class="cvr-text-link" data-cvr="text-B0DWMNQY2Y"><a href="https://www.amazon.co.jp/dp/B0DWMNQY2Y?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">サンガリア ブレンドコーヒー ブラックの実売価格・レビューをAmazonで確認する →</a></p>
 
 甘さの段階のいちばん下に置くのは、大阪のサンガリアが出している185g缶の無糖ブラックだ。いまの棚では「ブレンドコーヒー ブラック」という名前で並んでいる。原材料の欄に書かれているのは「コーヒー」の一語だけで、砂糖もミルクも香料も入っていない。
 
