@@ -8914,5 +8914,21 @@
       "異常なし"
     ],
     "status": "完了(修正なし・検証不能)"
+  },
+  {
+    "timestamp": "2026-11-20T16:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全278記事を再点検(禁止表現・所持言及・画像参照切れ・figure直後の見出し・内部リンク0本・OG寸法欠落・長大タイトル)。修正が必要な記事なし。本文中の'# 'はコードブロック内コメントで誤検知、'持っている''買い揃え'は所持主張ではなく一般用法"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "異常なし",
+      "外部リンク切れ・seo-audit・hugoビルドはローカルPCで確認"
+    ],
+    "status": "完了(修正なし・ビルド未検証)"
   }
 ]
