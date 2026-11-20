@@ -8676,5 +8676,28 @@
       "hammond-b3/jazz-festivalsのfigure連続の解消"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T05:53:23Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "hammond-b3-jazz-organ-2026",
+      "jazz-festivals-2026"
+    ],
+    "actions": [
+      "向かい合う左右figureが連続して本文幅が潰れる配置を解消(2枚目をセクション内の後続段落の前へ移動)",
+      "hugo未導入のためビルド未検証、seo-audit未実行",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "content/posts/jazz-festivals-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "jazz-festivals-2026の写真に無関係なAmazonリンクが付いている点の見直し",
+      "他記事の連続figureの有無を全記事で走査"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
