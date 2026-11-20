@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:03:29+09:00",
+ "updated": "2026-11-20T23:31:16+09:00",
  "items": [
   {
    "category": "gear",
@@ -12713,14 +12713,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-034",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-20T23:03:29+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "2026w45-034",
+   "published_at": "2026-11-20T23:31:16+09:00"
   },
   {
    "category": "film",

@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-20T23:03:29+09:00",
+ "updated": "2026-11-20T23:31:16+09:00",
  "queue": {
-  "published": 176,
+  "published": 177,
   "rejected": 11,
-  "approved": 37,
-  "in_progress": 1
+  "approved": 37
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published eggnog-recipe-safety-history",
+ "last_result": "published 2026w45-034",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
