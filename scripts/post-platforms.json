@@ -3148,5 +3148,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-20T21:00:12+09:00"
+ },
+ "2026w45-034": {
+  "title": "箱と説明書を残すか迷う年末に、モノの来歴を見つめ直す",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n99cbabfac976",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-21T00:05:30+09:00"
  }
 }
