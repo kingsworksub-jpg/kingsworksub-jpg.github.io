@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:32:59+09:00",
+ "updated": "2026-11-20T17:36:40+09:00",
  "items": [
   {
    "category": "gear",
@@ -6219,14 +6219,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-003",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-10-18",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-20T17:32:59+09:00",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "gear",
@@ -11989,14 +11990,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-020",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-11-08",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-20T12:01:10+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "drink-lab",
