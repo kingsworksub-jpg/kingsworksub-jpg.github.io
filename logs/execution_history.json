@@ -8722,5 +8722,28 @@
       "他記事でfigureが見出し直後にない記事(約80本)の優先順位付け"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T07:53:06Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "google-microsoft-authenticator-migration-guide",
+      "mic-preamp-gain-compare-2026(点検のみ・問題なし)"
+    ],
+    "actions": [
+      "未巡回だった残り2記事を点検(全276記事を巡回済み)",
+      "authenticator記事の3つのfigureを、セクション本文の途中からh2直後へ移動しCLAUDE.mdの配置規則に適合",
+      "mic-preamp記事はfigure配置・画像実体・description長とも問題なし",
+      "hugo未導入のためビルド未検証、Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/google-microsoft-authenticator-migration-guide.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "全記事を一巡したため、次回以降は更新日の古い記事から2周目(内部リンク追加・タイトル構文の重複解消)に入る",
+      "authenticator記事のphone-security.jpgの出典(SVG)と画像実体の整合を要確認"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

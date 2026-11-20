@@ -19,14 +19,14 @@ scheduled_time: "12:00"
 
 ## 機種変更で二段階認証アプリを移行する重要性と基本原則
 
-二段階認証アプリが生成するワンタイムパスワードは、端末内に保存された固有の秘密鍵と現在時刻をもとに計算されています。そのため、新しいスマートフォンにアプリをインストールしただけでは、以前登録していたサービスの認証コードは表示されません。
-
-仮に認証データの移行を完了しないまま旧端末を初期化したり、下取りに出して手放したりすると、認証コードを確認する手段が失われます。その結果、メールやSNS、業務ツールや金融関連サービスなど、日常的に利用しているアカウントへのアクセスが遮断される事態に陥ります。
-
 <figure class="photo photo--left">
 <a href="https://commons.wikimedia.org/wiki/File:Authentication_devices.jpg" target="_blank" rel="noopener"><img src="/images/authenticator-migration/authentication-devices.jpg" alt="二段階認証に使用される認証端末のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>二段階認証はアカウント保護の要であり、端末変更時の計画的な引き継ぎが欠かせません。<span class="credit">Photo: Dicti0nary0 / CC BY-SA 3.0</span></figcaption>
 </figure>
+
+二段階認証アプリが生成するワンタイムパスワードは、端末内に保存された固有の秘密鍵と現在時刻をもとに計算されています。そのため、新しいスマートフォンにアプリをインストールしただけでは、以前登録していたサービスの認証コードは表示されません。
+
+仮に認証データの移行を完了しないまま旧端末を初期化したり、下取りに出して手放したりすると、認証コードを確認する手段が失われます。その結果、メールやSNS、業務ツールや金融関連サービスなど、日常的に利用しているアカウントへのアクセスが遮断される事態に陥ります。
 
 こうしたトラブルを防ぐための基本原則は、必ず旧端末が正常に動作する状態で移行作業を始めることです。故障や紛失によって旧端末を操作できなくなってからでは、アプリの機能を使った直接的な移行が困難になります。
 
@@ -46,14 +46,14 @@ scheduled_time: "12:00"
 
 ## Google Authenticatorのクラウド同期を使った引き継ぎ手順
 
-Google Authenticatorは、Googleアカウントを利用したクラウド同期機能に対応しています。アプリ内でGoogleアカウントにサインインしておくと、登録されている二段階認証コードが自動的にアカウントへバックアップされる仕組みです。
-
-この機能を活用すれば、新しいスマートフォンに乗り換えた際の手間を大幅に減らせます。まずは旧端末でGoogle Authenticatorを開き、自分のGoogleアカウントでサインインしている状態になっているかを確認してください。
-
 <figure class="photo photo--right">
 <a href="https://commons.wikimedia.org/wiki/File:Google_Titan_Security_Key_-_Two_Factor_Authentication_(47400104011).jpg" target="_blank" rel="noopener"><img src="/images/authenticator-migration/titan-security-key.jpg" alt="Googleの二段階認証に関連するセキュリティイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>Google AuthenticatorはGoogleアカウントとのクラウド同期により、端末変更時の引き継ぎを簡素化できます。<span class="credit">Photo: Tony Webster / CC BY 2.0</span></figcaption>
 </figure>
+
+Google Authenticatorは、Googleアカウントを利用したクラウド同期機能に対応しています。アプリ内でGoogleアカウントにサインインしておくと、登録されている二段階認証コードが自動的にアカウントへバックアップされる仕組みです。
+
+この機能を活用すれば、新しいスマートフォンに乗り換えた際の手間を大幅に減らせます。まずは旧端末でGoogle Authenticatorを開き、自分のGoogleアカウントでサインインしている状態になっているかを確認してください。
 
 クラウド同期が有効になっている状態であれば、特別なエクスポート操作を毎回繰り返さなくても、認証コードの情報がクラウド上に保持されます。ただし、複数個のGoogleアカウントを使い分けている場合は、どのアカウントに同期されているかを正確に把握しておくことが肝心です。
 
@@ -79,14 +79,14 @@ Googleアカウントに認証コードを保存したくない場合や、オ�
 
 ## Microsoft Authenticatorのクラウドバックアップと復元手順
 
-Microsoft Authenticatorを利用している場合は、個人のMicrosoftアカウントを活用したクラウドバックアップと復元機能が中心的な役割を果たします。Google Authenticatorのクラウド同期と同様に、あらかじめバックアップを有効にしておくことで新端末への引き継ぎが円滑に進みます。
-
-作業の始まりとして、旧端末でMicrosoft Authenticatorを開き、設定画面からクラウドバックアップの項目を確認します。ここでバックアップ機能がオンになっているか、そして個人のMicrosoftアカウントが正しく紐付けられているかを確かめてください。
-
 <figure class="photo photo--left">
 <a href="https://commons.wikimedia.org/wiki/File:Authenticator_App_by_2Stable.svg" target="_blank" rel="noopener"><img src="/images/authenticator-migration/phone-security.jpg" alt="認証アプリのアイコンイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>Microsoft Authenticatorでは個人のMicrosoftアカウントを使って認証情報のバックアップと復元を行います。<span class="credit">Image: Authenticator App by 2Stable / BY-SA 4.0</span></figcaption>
 </figure>
+
+Microsoft Authenticatorを利用している場合は、個人のMicrosoftアカウントを活用したクラウドバックアップと復元機能が中心的な役割を果たします。Google Authenticatorのクラウド同期と同様に、あらかじめバックアップを有効にしておくことで新端末への引き継ぎが円滑に進みます。
+
+作業の始まりとして、旧端末でMicrosoft Authenticatorを開き、設定画面からクラウドバックアップの項目を確認します。ここでバックアップ機能がオンになっているか、そして個人のMicrosoftアカウントが正しく紐付けられているかを確かめてください。
 
 ここで注意すべきポイントは、バックアップに使用するのは職場や学校のアカウントではなく、個人のMicrosoftアカウントであるという点です。組織向けのアカウントでは個人のバックアップ領域として機能しない場合があるため、登録されているアカウントの種類を事前に見直しておく必要があります。
 
