@@ -8,10 +8,14 @@ Google Indexing API へ URL を自動申請するスクリプト。
 
 モード2(手動・OpenCode用): --publish / --delete で任意 URL を即時通知する。
 
+モード3(ゼロIMP対策): --from-plan で scripts/zero-imp-plan.json の
+  P1/P2 記事 URL をまとめて通知する(--limit で上位N件に絞れる)。
+
 設定
 ----
 ・認証情報(service account JSON)は --creds <path> で渡す。
-  未指定時は環境変数 GOOGLE_INDEXING_CREDENTIALS_JSON(JSON文字列)を使う。
+  未指定時は環境変数 GOOGLE_INDEXING_CREDENTIALS_JSON(JSON文字列)、
+  次に GOOGLE_SERVICE_ACCOUNT_JSON(JSON文字列)を使う。
   どちらも無ければ「スキップ」して終了コード0で返る(CI未設定時に安全)。
 
 ・Google Cloud で Indexing API を有効化し、サービスアカウントを作成して
@@ -180,8 +184,32 @@ def send(creds_json: str, publish, delete, dry_run=False):
 def load_creds(args) -> str:
     if args.creds and Path(args.creds).exists():
         return Path(args.creds).read_text(encoding="utf-8")
-    env = os.environ.get("GOOGLE_INDEXING_CREDENTIALS_JSON", "")
-    return env.strip()
+    for name in ("GOOGLE_INDEXING_CREDENTIALS_JSON", "GOOGLE_SERVICE_ACCOUNT_JSON"):
+        env = os.environ.get(name, "").strip()
+        if env:
+            return env
+    return ""
+
+
+def from_plan(plan_path: Path, base: str, priorities, limit: int):
+    """zero-imp-plan.json の P1/P2 記事から通知 URL を生成する。"""
+    try:
+        data = json.loads(plan_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"[error] 計画ファイルを読めません: {e}")
+        return []
+    base = base.rstrip("/")
+    urls = []
+    for row in data.get("rows", []):
+        if row.get("priority") not in priorities:
+            continue
+        slug = str(row.get("slug", "")).strip()
+        if not slug:
+            continue
+        urls.append(f"{base}/posts/{slug}/")
+        if limit > 0 and len(urls) >= limit:
+            break
+    return urls
 
 
 def main():
@@ -198,11 +226,29 @@ def main():
     ap.add_argument("--delete", action="append", default=[],
                     help="削除通知するURL(手動モード)")
     ap.add_argument("--creds", help="サービスアカウント JSON へのパス")
+    ap.add_argument("--from-plan", action="store_true",
+                    help="scripts/zero-imp-plan.json の P1/P2 URL を通知する")
+    ap.add_argument("--plan", default="scripts/zero-imp-plan.json",
+                    help="--from-plan で使う計画 JSON のパス")
+    ap.add_argument("--priorities", default="P1,P2",
+                    help="--from-plan で対象にする優先度(カンマ区切り, 既定 P1,P2)")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="--from-plan で上位N件だけ通知(0=全件)")
     ap.add_argument("--dry-run", action="store_true",
                     help="送信せず内容だけ表示")
     args = ap.parse_args()
 
     creds_json = load_creds(args)
+
+    if args.from_plan:
+        priorities = {p.strip() for p in args.priorities.split(",") if p.strip()}
+        urls = from_plan(Path(args.plan), args.base, priorities, args.limit)
+        print(f"[plan] {args.plan} -> {len(urls)} URL (priorities={','.join(sorted(priorities))})")
+        for u in urls:
+            print("  +", u)
+        if not urls:
+            return 0
+        return send(creds_json, urls, [], args.dry_run)
 
     if args.publish or args.delete:
         print("[manual] publish:", args.publish)

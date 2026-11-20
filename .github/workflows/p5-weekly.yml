@@ -22,6 +22,7 @@ env:
   GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
   SC_SITE_URL: ${{ secrets.SC_SITE_URL || 'https://kingsworksub-jpg.github.io/' }}
   AMAZON_STORAGE_STATE_B64: ${{ secrets.AMAZON_STORAGE_STATE_B64 }}
+  GOOGLE_INDEXING_CREDENTIALS_JSON: ${{ secrets.GOOGLE_INDEXING_CREDENTIALS_JSON }}
 
 jobs:
   report:
@@ -67,6 +68,14 @@ jobs:
       # 4. 週次レポート生成
       - name: Generate weekly report
         run: python scripts/p5-weekly.py
+
+      # 5. ゼロIMP(P1/P2)記事を Indexing API へ自動通知
+      #    API が未再有効化/未設定でもスクリプト側で安全にスキップする
+      - name: Indexing notify (zero-IMP P1/P2)
+        if: env.GOOGLE_INDEXING_CREDENTIALS_JSON != ''
+        run: |
+          python scripts/indexing/notify_changed.py \
+            --from-plan --limit 30
 
       - name: Commit report
         run: |
