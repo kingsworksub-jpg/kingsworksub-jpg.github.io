@@ -18,7 +18,7 @@ DTMの学び方を調べ始めると、無料の解説動画、数千円の動�
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/4845641461?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" loading="lazy">
+<img src="/images/dtm-school/cubase-render.jpg" alt="Cubaseの画面と楽譜、鍵盤に向かう制作者" width="1000" height="659" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Cubaseの画面と楽譜、鍵盤に向かう制作者</span>
 <span class="product-banner-cta">Amazonで見る →</span>

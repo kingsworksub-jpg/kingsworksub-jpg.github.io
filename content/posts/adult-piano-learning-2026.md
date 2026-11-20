@@ -17,7 +17,7 @@ ogImageHeight: 630
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/piano/practice.jpg" alt="ピアノの練習風景" loading="lazy">
+<img src="/images/piano/practice.jpg" alt="ピアノの練習風景" width="1000" height="664" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ピアノの練習風景</span>
 <span class="product-banner-cta">Amazonで見る →</span>

@@ -29,7 +29,7 @@ aliases:
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B001TZ1RCK?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" loading="lazy">
+<img src="/images/products/suntory-kakubin.jpg" alt="サントリー角瓶" width="1000" height="1000" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">サントリー角瓶</span>
 <span class="product-banner-cta">Amazonで見る →</span>

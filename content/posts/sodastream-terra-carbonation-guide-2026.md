@@ -20,7 +20,7 @@ scheduled_time: "20:00"
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0DLKBRS4Z?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/sodastream/machine-bottle.jpg" alt="ソーダストリームの本体と専用ボトル" loading="lazy">
+<img src="/images/sodastream/machine-bottle.jpg" alt="ソーダストリームの本体と専用ボトル" width="750" height="1000" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">ソーダストリームの本体と専用ボトル</span>
 <span class="product-banner-cta">Amazonで見る →</span>

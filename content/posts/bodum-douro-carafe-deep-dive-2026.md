@@ -19,7 +19,7 @@ aliases:
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B09LH94YWS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" loading="lazy">
+<img src="/images/products/bodum-douro-carafe.jpg" alt="BODUM DOURO 徳利/カラフェ 360ml" width="1200" height="1200" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">BODUM DOURO 徳利/カラフェ 360ml</span>
 <span class="product-banner-cta">Amazonで見る →</span>

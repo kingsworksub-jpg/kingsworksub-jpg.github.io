@@ -27,7 +27,7 @@ aliases:
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0CH3XCMB7?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3" loading="lazy">
+<img src="/images/products/komplete-kontrol-s61-mk3.png" alt="Komplete Kontrol S61 MK3" width="1200" height="675" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Komplete Kontrol S61 MK3</span>
 <span class="product-banner-cta">Amazonで見る →</span>

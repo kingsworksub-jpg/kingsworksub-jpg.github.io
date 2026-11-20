@@ -31,7 +31,7 @@ aliases:
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07S2JY9DH?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" loading="lazy">
+<img src="/images/products/sl-1200mk7.jpg" alt="Technics SL-1200MK7" width="1600" height="1600" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Technics SL-1200MK7</span>
 <span class="product-banner-cta">Amazonで見る →</span>

@@ -8999,5 +8999,43 @@
       "seo-audit・hugoビルドはローカルPCで確認"
     ],
     "status": "完了(修正なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T22:53:57Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "adult-piano-learning-2026",
+      "turntable-5choice-2026",
+      "daw-5choice-2026",
+      "condenser-mic-5choice-2026",
+      "jazz-style-fashion-revival-2026",
+      "midi-keyboard-5choice-2026",
+      "record-stylus-lifespan-guide-2026",
+      "dtm-school-or-self-study-2026",
+      "bodum-douro-carafe-deep-dive-2026",
+      "budget-whisky-10choice-2026",
+      "statement-hat-trends-autumn-2026",
+      "odate-akita-sugi-sake-set-deep-dive-2026",
+      "sodastream-terra-carbonation-guide-2026",
+      "sony-pslx3bt-deep-dive-2026",
+      "canned-coffee-5choice-2026",
+      "sampler-5choice-2026",
+      "piano-practice-apps-3choice-2026",
+      "anime-and-jazz"
+    ],
+    "actions": [
+      "width/heightが無かった旧バナー・figureのimg 18箇所に実画像寸法を付与(CLS防止、CLAUDE.mdの『width/height省略しない』ルール準拠)",
+      "description長(90-140字)は全記事適合を確認"
+    ],
+    "files_changed": [
+      "content/posts/*.md(上記18記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hugoビルド・seo-auditはローカルで確認",
+      "未対応: ella-wishes-you-a-swinging-christmas-1960 に内部リンクなし",
+      "未対応: nea-jazz-masters-2026 はH2が1つ(有料記事の無料部分のため意図的)"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

@@ -16,7 +16,7 @@ ogImageHeight: 630
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/jazz-fashion/jazz-saxophone.jpg" alt="Jazz saxophonist performing" loading="lazy">
+<img src="/images/jazz-fashion/jazz-saxophone.jpg" alt="Jazz saxophonist performing" width="600" height="400" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Jazz saxophonist performing</span>
 <span class="product-banner-cta">Amazonで見る →</span>

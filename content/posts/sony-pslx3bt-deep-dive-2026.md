@@ -19,7 +19,7 @@ Sonyは、このシリーズを「初めてレコードに触れる人から、�
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0GGLJ6PQ1?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" loading="lazy">
+<img src="/images/products/ps-lx3bt.jpg" alt="Sony PS-LX3BT" width="400" height="301" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Sony PS-LX3BT</span>
 <span class="product-banner-cta">Amazonで見る →</span>

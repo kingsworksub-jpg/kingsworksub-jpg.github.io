@@ -18,7 +18,7 @@ DAWで打ち込みをしていると、いずれ「自分の手で鍵盤を弾�
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B07MH391ZF?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/piano-apps/digital-piano-sheet.jpg" alt="譜面を立てた電子ピアノの鍵盤" loading="lazy">
+<img src="/images/piano-apps/digital-piano-sheet.jpg" alt="譜面を立てた電子ピアノの鍵盤" width="1000" height="769" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">譜面を立てた電子ピアノの鍵盤</span>
 <span class="product-banner-cta">Amazonで見る →</span>

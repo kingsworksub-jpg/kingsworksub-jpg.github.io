@@ -21,7 +21,7 @@ tags: ["菅野よう子", "カウボーイビバップ", "坂道のアポロン"
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B00FW67HVC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/anime-jazz/satchmo-carnegie-hall-1947.jpg" alt="1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…" loading="lazy">
+<img src="/images/anime-jazz/satchmo-carnegie-hall-1947.jpg" alt="1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…" width="1024" height="1031" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">1947年2月、ニューヨークのカーネギーホールでマイクに口をつけるL…</span>
 <span class="product-banner-cta">Amazonで見る →</span>

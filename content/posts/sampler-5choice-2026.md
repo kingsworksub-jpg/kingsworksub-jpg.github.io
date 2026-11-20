@@ -31,7 +31,7 @@ aliases:
 <div class="cvr-cta-block" data-cvr="cta-intro">
 <p class="cvr-cta-title">まずはこの一本から</p>
 <a class="product-banner" href="https://www.amazon.co.jp/dp/B0DPDL5DSY?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/products/kontakt-8.png" alt="Kontakt 8" loading="lazy">
+<img src="/images/products/kontakt-8.png" alt="Kontakt 8" width="1200" height="444" loading="lazy">
 <span class="product-banner-info">
 <span class="product-banner-name">Kontakt 8</span>
 <span class="product-banner-cta">Amazonで見る →</span>
