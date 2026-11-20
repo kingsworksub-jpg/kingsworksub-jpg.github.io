@@ -15,6 +15,8 @@ GitHub Actions から実行する。認証情報はチャット/リポジトリ�
   2. Search Console API で直近30日の page 単位データを取得し、
      scripts/p0-sc.csv に保存（p0-metrics.py が読める形式・母集団の基準）
   3. page×query データは補助として scripts/p0-sc-queries.csv に保存。
+     GA4 Data API は直近30日の pageviews / activeUsers / affiliate_click を
+     scripts/p0-ga4.json に保存（APIが無効な場合は警告のみで継続）。
      query ディメンションはこの property で強く間引かれるため、分母には使わない。
 
 必要ライブラリ:
@@ -34,8 +36,10 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_CSV = os.path.join(ROOT, "scripts", "p0-sc.csv")
 OUT_QUERIES_CSV = os.path.join(ROOT, "scripts", "p0-sc-queries.csv")
+OUT_GA4_JSON = os.path.join(ROOT, "scripts", "p0-ga4.json")
 SCOPES = [
     "https://www.googleapis.com/auth/analytics.edit",
+    "https://www.googleapis.com/auth/analytics.readonly",
     "https://www.googleapis.com/auth/webmasters.readonly",
 ]
 
@@ -199,6 +203,126 @@ def fetch_search_console(cred) -> None:
         print(f"WARN: page×query の取得に失敗しました ({exc})", flush=True)
 
 
+def _ga4_report(svc, prop, body):
+    """google-api-python-client のバージョン差を吸収して runReport を呼ぶ。"""
+    kwargs = {"body": body}
+    try:
+        return svc.properties().runReport(property=f"properties/{prop}", **kwargs).execute()
+    except TypeError:
+        return svc.properties().runReport(parent=f"properties/{prop}", **kwargs).execute()
+
+
+def _ga4_values(resp) -> dict:
+    headers = [h.get("name", "") for h in resp.get("metricHeaders", [])]
+    if resp.get("totals"):
+        values = [v.get("value", "0") for v in resp["totals"][0].get("metricValues", [])]
+        return dict(zip(headers, values))
+    return {}
+
+
+def fetch_ga4_metrics(cred) -> None:
+    """GA4 Data API で直近30日の数値を取得し p0-ga4.json に保存する。"""
+    prop = os.environ.get("GA4_PROPERTY_ID", "").strip()
+    if not prop:
+        print("SKIP: GA4_PROPERTY_ID が未設定です", flush=True)
+        return
+    try:
+        from googleapiclient.discovery import build
+        svc = build("analyticsdata", "v1beta", credentials=cred, cache_discovery=False)
+    except Exception as exc:
+        print(f"WARN: GA4 Data API の初期化に失敗しました ({exc})", flush=True)
+        return
+
+    date_range = [{"startDate": "30daysAgo", "endDate": "yesterday"}]
+    payload = {"property_id": prop, "date_range": "30daysAgo 〜 yesterday",
+               "totals": {}, "posts_totals": {},
+               "top_pages": [], "affiliate_clicks": [], "errors": []}
+
+    # 1) サイト全体の合計（指標追加に失敗した場合はコア3指標へフォールバック）
+    for names in (
+        ["screenPageViews", "activeUsers", "eventCount", "sessions", "keyEvents"],
+        ["screenPageViews", "activeUsers", "eventCount"],
+    ):
+        try:
+            resp = _ga4_report(svc, prop, {
+                "dateRanges": date_range,
+                "dimensions": [{"name": "date"}],
+                "metrics": [{"name": n} for n in names],
+                "metricAggregations": ["TOTAL"],
+                "orderBys": [{"dimension": {"dimensionName": "date"}}],
+            })
+            payload["totals"] = _ga4_values(resp)
+            break
+        except Exception as exc:
+            payload["errors"].append(f"totals({','.join(names)}): {str(exc)[:160]}")
+    if not payload["totals"]:
+        print("WARN: GA4 合計の取得に失敗しました", flush=True)
+
+    # 1b) ブログ記事（/posts/）だけの数値。このGA4プロパティは他サイトも計測しているため。
+    try:
+        resp = _ga4_report(svc, prop, {
+            "dateRanges": date_range,
+            "dimensions": [{"name": "pagePath"}],
+            "metrics": [{"name": n} for n in ("screenPageViews", "activeUsers", "eventCount")],
+            "metricAggregations": ["TOTAL"],
+            "dimensionFilter": {"filter": {
+                "fieldName": "pagePath",
+                "stringFilter": {"value": "/posts/", "matchType": "BEGINS_WITH"},
+            }},
+        })
+        payload["posts_totals"] = _ga4_values(resp)
+    except Exception as exc:
+        payload["errors"].append(f"posts_totals: {str(exc)[:160]}")
+
+    # 2) ページ別 pageviews / activeUsers
+    try:
+        resp = _ga4_report(svc, prop, {
+            "dateRanges": date_range,
+            "dimensions": [{"name": "pagePath"}],
+            "metrics": [{"name": "screenPageViews"}, {"name": "activeUsers"}],
+            "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+            "limit": 100,
+        })
+        headers = [h.get("name", "") for h in resp.get("metricHeaders", [])]
+        for row in resp.get("rows", []):
+            dims = [d.get("value", "") for d in row.get("dimensionValues", [])]
+            vals = [v.get("value", "0") for v in row.get("metricValues", [])]
+            payload["top_pages"].append({"page": dims[0] if dims else "", **dict(zip(headers, vals))})
+    except Exception as exc:
+        payload["errors"].append(f"top_pages: {str(exc)[:160]}")
+
+    # 3) affiliate_click（P4）の記事別件数
+    try:
+        resp = _ga4_report(svc, prop, {
+            "dateRanges": date_range,
+            "dimensions": [{"name": "eventName"}, {"name": "customEvent:article_slug"}],
+            "metrics": [{"name": "eventCount"}],
+            "dimensionFilter": {"filter": {
+                "fieldName": "eventName",
+                "stringFilter": {"value": "affiliate_click", "matchType": "EXACT"},
+            }},
+            "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
+            "limit": 100,
+        })
+        for row in resp.get("rows", []):
+            dims = [d.get("value", "") for d in row.get("dimensionValues", [])]
+            vals = [v.get("value", "0") for v in row.get("metricValues", [])]
+            payload["affiliate_clicks"].append({
+                "event": dims[0] if dims else "",
+                "article_slug": dims[1] if len(dims) > 1 else "",
+                "count": vals[0] if vals else "0",
+            })
+    except Exception as exc:
+        payload["errors"].append(f"affiliate_clicks: {str(exc)[:160]}")
+
+    with io.open(OUT_GA4_JSON, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(payload, fh, ensure_ascii=False, indent=2)
+    print(f"OK: {OUT_GA4_JSON} (totals={payload['totals']} / pages={len(payload['top_pages'])} / "
+          f"affiliate={len(payload['affiliate_clicks'])})", flush=True)
+    for err in payload["errors"]:
+        print(f"  WARN: {err}", flush=True)
+
+
 def main() -> int:
     cred, email = credentials()
     if cred is None:
@@ -206,6 +330,7 @@ def main() -> int:
     print(f"Google API: {email or '(service account)'}", flush=True)
     setup_ga4(cred)
     fetch_search_console(cred)
+    fetch_ga4_metrics(cred)
     return 0
 
 

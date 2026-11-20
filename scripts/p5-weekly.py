@@ -5,7 +5,7 @@
   1. p0-views.py を実行して記事別ビューを最新化
   2. 前回スナップショットとの差分を計算
   3. 未バックフィルの高ビュー記事を「次のP1候補」として提示
-  4. Amazon数値(p0-amazon.json)とP4計測チェックを1枚にまとめる
+  4. Amazon数値(p0-amazon.json)とGA4数値(p0-ga4.json)、P4計測チェックを1枚にまとめる
 
 使い方:
     python scripts/p5-weekly.py
@@ -30,6 +30,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS = os.path.join(ROOT, "scripts")
 VIEWS_JSON = os.path.join(SCRIPTS, "p0-views.json")
 AMAZON_JSON = os.path.join(SCRIPTS, "p0-amazon.json")
+GA4_JSON = os.path.join(SCRIPTS, "p0-ga4.json")
 SNAPSHOT = os.path.join(SCRIPTS, "p5-snapshot.json")
 OUT_MD = os.path.join(SCRIPTS, "p5-weekly.md")
 OUT_JSON = os.path.join(SCRIPTS, "p5-weekly.json")
@@ -65,7 +66,7 @@ def refresh_views() -> dict:
     return _load(VIEWS_JSON, {})
 
 
-def render(views: dict, prev: dict, amazon: dict, now: str) -> tuple[str, dict]:
+def render(views: dict, prev: dict, amazon: dict, now: str, ga4: dict | None = None) -> tuple[str, dict]:
     articles = views.get("articles", {})
     rows = []
     for slug, a in articles.items():
@@ -108,6 +109,32 @@ def render(views: dict, prev: dict, amazon: dict, now: str) -> tuple[str, dict]:
         lines.append("- 更新: `python scripts/amazon-associates-probe.py --collect-only`（ローカルのみ）")
     else:
         lines.append("- `scripts/p0-amazon.json` がありません")
+
+    lines += ["", "## GA4（Data API 実数値・直近30日）", ""]
+    if ga4 and ga4.get("totals"):
+        t = ga4["totals"]
+        for key in ("screenPageViews", "activeUsers", "eventCount", "sessions", "keyEvents"):
+            if key in t:
+                lines.append(f"- {key}: **{t[key]}**")
+        pt = ga4.get("posts_totals", {})
+        if pt:
+            lines.append(
+                "- ブログ記事のみ (`/posts/`): pageviews **" + pt.get("screenPageViews", "-")
+                + "** / activeUsers **" + pt.get("activeUsers", "-") + "**"
+            )
+        clicks = ga4.get("affiliate_clicks", [])
+        lines.append(f"- affiliate_click イベント: {sum(int(x.get('count', 0)) for x in clicks):,} 件")
+        pages = ga4.get("top_pages", [])[:10]
+        if pages:
+            lines += ["", "| pagePath | pageviews | activeUsers |", "|---|---:|---:|"]
+            for p in pages:
+                lines.append(
+                    f"| `{p.get('page', '')}` | {p.get('screenPageViews', '-')} | {p.get('activeUsers', '-')} |"
+                )
+        if ga4.get("errors"):
+            lines += ["", "- WARN: " + " / ".join(ga4["errors"][:3])]
+    else:
+        lines.append("- `scripts/p0-ga4.json` がありません（GA4 Data API が無効の可能性）")
 
     lines += [
         "",
@@ -168,6 +195,7 @@ def render(views: dict, prev: dict, amazon: dict, now: str) -> tuple[str, dict]:
         "next_candidates": next_candidates,
         "no_link_high_views": no_link,
         "amazon": amazon,
+        "ga4": ga4 or {},
     }
     return "\n".join(lines), payload
 
@@ -178,7 +206,8 @@ def main() -> int:
     prev = _load(SNAPSHOT, {})
     views = refresh_views()
     amazon = _load(AMAZON_JSON, {})
-    md, payload = render(views, prev, amazon, now)
+    ga4 = _load(GA4_JSON, {})
+    md, payload = render(views, prev, amazon, now, ga4)
 
     with io.open(OUT_MD, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(md)

@@ -1,0 +1,520 @@
+{
+  "property_id": "555729014",
+  "date_range": "30daysAgo 〜 yesterday",
+  "totals": {
+    "screenPageViews": "2311",
+    "activeUsers": "1861",
+    "eventCount": "7285",
+    "sessions": "2049",
+    "keyEvents": "0"
+  },
+  "posts_totals": {
+    "screenPageViews": "405",
+    "activeUsers": "332",
+    "eventCount": "1362"
+  },
+  "top_pages": [
+    {
+      "page": "/sfd0501/",
+      "screenPageViews": "448",
+      "activeUsers": "263"
+    },
+    {
+      "page": "/",
+      "screenPageViews": "107",
+      "activeUsers": "47"
+    },
+    {
+      "page": "/sfd0501/entrylist.html",
+      "screenPageViews": "21",
+      "activeUsers": "17"
+    },
+    {
+      "page": "/sfd0501/entry-12983785056.html",
+      "screenPageViews": "18",
+      "activeUsers": "15"
+    },
+    {
+      "page": "/posts/digital-performer-12-chunks-2026/",
+      "screenPageViews": "16",
+      "activeUsers": "14"
+    },
+    {
+      "page": "/sfd0501/page-2.html",
+      "screenPageViews": "13",
+      "activeUsers": "7"
+    },
+    {
+      "page": "/sfd0501/entry-12983859634.html",
+      "screenPageViews": "11",
+      "activeUsers": "10"
+    },
+    {
+      "page": "/entry/2026/10/14/121304",
+      "screenPageViews": "9",
+      "activeUsers": "8"
+    },
+    {
+      "page": "/posts/odate-akita-sugi-sake-set-deep-dive-2026/",
+      "screenPageViews": "9",
+      "activeUsers": "9"
+    },
+    {
+      "page": "/sfd0501/entry-12982392252.html",
+      "screenPageViews": "9",
+      "activeUsers": "7"
+    },
+    {
+      "page": "/sfd0501/entry-12982451423.html",
+      "screenPageViews": "9",
+      "activeUsers": "9"
+    },
+    {
+      "page": "/posts/corduroy-wale-width-styling-2026/",
+      "screenPageViews": "8",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/daw-5choice-2026/",
+      "screenPageViews": "8",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/logic-pro-mac-songwriting-2026/",
+      "screenPageViews": "8",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/sfd0501/entry-12983697400.html",
+      "screenPageViews": "8",
+      "activeUsers": "7"
+    },
+    {
+      "page": "/sfd0501/entry-12984512324.html",
+      "screenPageViews": "8",
+      "activeUsers": "8"
+    },
+    {
+      "page": "/posts/mic-preamp-gain-compare-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "7"
+    },
+    {
+      "page": "/posts/sony-pslx3bt-deep-dive-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/posts/windows-11-26h2-memory-daw-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/categories/software/",
+      "screenPageViews": "6",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/entry/2026/09/17/094413",
+      "screenPageViews": "6",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/canned-coffee-5choice-2026/",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/posts/monitor-placement-room-tuning-6jo-2026/",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/posts/record-stylus-lifespan-guide-2026/",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/sfd0501/entry-12982760061.html",
+      "screenPageViews": "6",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12983734526.html",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/sfd0501/entry-12983768235.html",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/sfd0501/entry-12984583346.html",
+      "screenPageViews": "6",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/sfd0501/entry-12984700035.html",
+      "screenPageViews": "6",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/categories/drink-lab/",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/categories/setup/",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/entry/2026/10/01/092148",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/entry/2026/10/06/092649",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/entry/2026/10/13/121833",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/entry/2026/10/16/121422",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/chrome-mv3-ublock-origin-lite-2026/",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/edo-kiriko-guinomi-cut-patterns-2026/",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/piano-practice-apps-3choice-2026/",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12982217087.html",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/sfd0501/entry-12982217511.html",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12982391957.html",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12982684053.html",
+      "screenPageViews": "5",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982860591.html",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/sfd0501/entry-12983708433.html",
+      "screenPageViews": "5",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/entry/2026/10/05/073036",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/izotope-ozone-12-master-assistant-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/jazz-style-menswear-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/new-scotch-distilleries-young-whisky-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/rental-soundproofing-booth-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/satsuma-kiriko-guinomi-bokashi-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/tweed-jacket-street-style-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "1"
+    },
+    {
+      "page": "/posts/typescript-first-step-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/yubikey-security-key-backup-guide-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982217438.html",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12982479092.html",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/sfd0501/entry-12983634709.html",
+      "screenPageViews": "4",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/page-3.html",
+      "screenPageViews": "4",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/categories/drink-recipe/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/categories/misc/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/entry/2026/11/05/121349",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/anime-and-jazz/",
+      "screenPageViews": "3",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/audio-interface-5choice-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/awk-svg-radar-chart-notes/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/black-nikka-clear-deep-dive-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/budget-whisky-10choice-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/desk-chair-studio-ergonomics-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/free-plugin-mix-eq-comp-reverb-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/gguf-quantization-q4-q5-guide-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/git-worktree-multiple-branches-notes/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/japanese-whisky-distilleries-lineup-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/jazz-fusion-1970s-weather-report/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/kontakt-8-player-and-builder-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/melodyne-5-pitch-correction-basics-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/midi-keyboard-5choice-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/necktie-knots-collar-guide-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/scarf-styling-trend-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "1"
+    },
+    {
+      "page": "/posts/taiwan-india-whisky-climate-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/sfd0501/entry-12981373235.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982217341.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982368887.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982371997.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982392138.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982392326.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982393102.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982393451.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982653114.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/iine_entry-12982044521.html",
+      "screenPageViews": "3",
+      "activeUsers": "1"
+    },
+    {
+      "page": "/sfd0501/page-4.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/tags/レビュー/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/categories/drink/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/essay/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/music/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/music/page/2/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/pc/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/tech/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/categories/whisky/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/03/172301",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/06/073118",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/11/115553",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/11/121110",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    }
+  ],
+  "affiliate_clicks": [],
+  "errors": []
+}

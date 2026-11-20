@@ -76,6 +76,7 @@ jobs:
             scripts/p0-sc.csv \
             scripts/p0-sc-queries.csv \
             scripts/p0-amazon.json \
+            scripts/p0-ga4.json \
             scripts/p0-metrics.md scripts/p0-metrics.json \
             scripts/p0-views.md scripts/p0-views.json \
             scripts/p5-weekly.md scripts/p5-weekly.json scripts/p5-snapshot.json
