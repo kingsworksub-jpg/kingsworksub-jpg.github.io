@@ -8470,5 +8470,34 @@
       "vox-cola-flavor-deep-dive-2026の内部リンク追加"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-20T00:54:05Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "scarf-knots-guide",
+      "rc-20-retro-color-v2",
+      "teenage-engineering-op1-synth-essay-2026",
+      "daw-keyboard-shortcuts-workflow-order",
+      "tsundoku-antilibrary-2026"
+    ],
+    "actions": [
+      "孤立記事5本に被リンクを追加(関連記事セクションへ: scarf-styling-trend-2026/necktie-knots-collar-guide-2026→scarf-knots-guide, cassette-tape-revival-2026→rc-20・op1, windows-shortcuts-launcher-guide-2026→daw-shortcuts, cubase-15-user-guide-book-2026→tsundoku)",
+      "seo-audit: posts=270 orphans=8(修正前) big_images=53 broken=0",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/scarf-styling-trend-2026.md",
+      "content/posts/necktie-knots-collar-guide-2026.md",
+      "content/posts/cassette-tape-revival-2026.md",
+      "content/posts/windows-shortcuts-launcher-guide-2026.md",
+      "content/posts/cubase-15-user-guide-book-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事 8→3(hello, jazz-kissa-culture-2026, wine-preservation-guide)",
+      "big_images53件の個別対応"
+    ],
+    "status": "完了"
   }
 ]

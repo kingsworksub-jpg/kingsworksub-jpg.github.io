@@ -116,6 +116,7 @@ scheduled_time: "21:30"
 
 ## 関連記事
 
+- [コートの襟元とマフラーの厚み・長さで選び分ける、基本の巻き方4種の論理](/posts/scarf-knots-guide/)
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [タートルネックとジャケットの重ね着は、ニットのゲージと下襟の開きで決まる](/posts/turtleneck-jacket-layering-2026/)
 - [グレンチェックと千鳥格子を重ねてよいのはどんなときか、柄の大きさと色数で見分ける](/posts/glen-check-houndstooth-pattern-mixing-2026/)

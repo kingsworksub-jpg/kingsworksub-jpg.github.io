@@ -99,6 +99,8 @@ scheduled_time: "23:00"
 
 ## 関連記事
 
+- [Teenage Engineeringがシンセ製造をやめる。OP-1が映していた、曲にならない時間の値打ち](/posts/teenage-engineering-op1-synth-essay-2026/)
+- [10年ぶりの刷新となったRC-20 Retro Color v2、EchoとVarispeedが広げるローファイ処理](/posts/rc-20-retro-color-v2/)
 - [レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた](/posts/record-stylus-lifespan-guide-2026/)
 - [アナログターンテーブル5台比較、針を落とすという儀式のために](/posts/turntable-5choice-2026/)
 - [Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え](/posts/sony-pslx3bt-deep-dive-2026/)
