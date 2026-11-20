@@ -3160,5 +3160,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-21T00:05:30+09:00"
+ },
+ "ella-wishes-you-a-swinging-christmas-1960": {
+  "title": "エラ・フィッツジェラルドが贈る1960年の至宝。名盤『Ella Wishes You a Swinging Christmas』を読み解く",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-21T08:00:11+09:00"
  }
 }
