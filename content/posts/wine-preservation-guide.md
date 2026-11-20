@@ -17,11 +17,6 @@ scheduled_time: "23:00"
 
 そこで本記事では、赤・白のスティルワイン（炭酸ガスを含まない通常のワイン）とスパークリングワインの冷蔵保存における日数の目安を整理しました。さらに、真空ポンプ栓や専用ストッパーと冷蔵を組み合わせることでどこまで風味を保てるのか、具体的な実践手順と失敗を防ぐポイントまで詳しく解説します。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00004S1DB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wine-preservation-guide/wine1.jpg" alt="白ワインのボトルとグラス" width="220" height="150" loading="lazy"></a>
-<figcaption>開栓後のワインを適切に保存するための道具選びが鍵になる<span class="credit">Photo: DimiTalen / CC0</span></figcaption>
-</figure>
-
 [ワインセーバー 真空ポンプをAmazonで見る →](https://www.amazon.co.jp/dp/B00004S1DB?tag=nakimoto1-22)
 
 ## 結論と目安データ：種類別の冷蔵保存期間と適切な栓の早見表
@@ -67,11 +62,6 @@ scheduled_time: "23:00"
 [ワインセーバー 真空ポンプのAmazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B00004S1DB?tag=nakimoto1-22)
 
 ## 赤・白ワインを3〜5日もたせる実践手順と真空ポンプの使い方
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=ワインセーバー&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/wine-preservation-guide/wine2.jpg" alt="赤ワインのボトル" width="220" height="150" loading="lazy"></a>
-<figcaption>赤ワインも白ワインと同様に開栓後は栓をして冷蔵保管するのが基本<span class="credit">Photo: Agne27 / CC BY-SA 3.0</span></figcaption>
-</figure>
 
 赤ワインと白ワインのスティルワインを冷蔵保存で3〜5日もたせるには、道具の有無にかかわらず開栓後から保管に至るまでの手順を手早く正確にこなすことが大切です。以下のステップに沿って処置を行うことで、無用な酸化を最小限に食い止められます。
 

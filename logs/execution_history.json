@@ -8699,5 +8699,28 @@
       "他記事の連続figureの有無を全記事で走査"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T07:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "wine-preservation-guide"
+    ],
+    "actions": [
+      "全記事の画像参照を走査し、実体の無い画像2枚(wine1.jpg/wine2.jpg)を参照する壊れたfigureを撤去(出典を確認できない画像を捏造せず削除)",
+      "description/images欠落・長さ異常は0件、未解決CTAプレースホルダも0件を確認",
+      "daw/sampler-5choiceのfigure直後が短文なのは製品セクション型の仕様のため据え置き",
+      "seo-audit.pyはPIL不具合で未実行、hugo未導入でビルド未検証",
+      "Hatena/Ameba/noteの改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/wine-preservation-guide.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "wine-preservation-guideに実在する画像を後日fetch_image.pyで追加",
+      "他記事でfigureが見出し直後にない記事(約80本)の優先順位付け"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
