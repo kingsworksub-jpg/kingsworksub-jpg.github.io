@@ -160,6 +160,12 @@ RC-20 Retro Color v2は、約10年ぶりの刷新として、従来のアナロ�
 
 [XLN Audio公式リリースノートを確認する](https://www.xlnaudio.com/release_notes)
 
+## あわせて読みたい
+
+- [無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ](/posts/free-plugin-mix-eq-comp-reverb-2026/)
+- [Ozone 12のマスタリングアシスタントは提案まで。受け入れる前に聴く低域・音量・ステレオ幅の3か所](/posts/izotope-ozone-12-master-assistant-2026/)
+- [Melodyne 5のピッチ補正、ノートの切れ目を直してから音程を揃える3つの手順](/posts/melodyne-5-pitch-correction-basics-2026/)
+
 ## 関連記事・おすすめメディア
 
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

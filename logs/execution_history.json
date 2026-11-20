@@ -8787,5 +8787,28 @@
       "hugo未導入のためビルド未検証"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-20T10:53:55Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "rc-20-retro-color-v2",
+      "usb-microphone-comparison-2026",
+      "wine-preservation-guide"
+    ],
+    "actions": [
+      "内部リンク0本だった記事3本に、関連既存記事3本ずつへの「あわせて読みたい」を追加(3周目: 内部リンク強化)"
+    ],
+    "files_changed": [
+      "content/posts/rc-20-retro-color-v2.md",
+      "content/posts/usb-microphone-comparison-2026.md",
+      "content/posts/wine-preservation-guide.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の残りはgoogle-microsoft-authenticator-migration-guide・jazz-kissa-culture-2026",
+      "hugo未導入のためビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
