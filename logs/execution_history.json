@@ -9409,5 +9409,27 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T19:53:14Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "window-insulation-curtains"
+    ],
+    "actions": [
+      "全282記事を再点検(禁止表現・h2数・マーカー残り・img属性・figure直後見出し)。問題はimg属性不足1件のみ",
+      "CTAブロックのimgにwidth/height/loadingを追加(CLS対策)",
+      "nea-jazz-masters-2026はh2<2だが有料記事の無料部分のため意図的に据え置き"
+    ],
+    "files_changed": [
+      "content/posts/window-insulation-curtains.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ビルド未検証(hugo無し)",
+      "同記事のc1.jpgがCTAとfigureで使い回し(画像追加は要ローカル対応)",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

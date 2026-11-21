@@ -20,7 +20,7 @@ scheduled_time: "23:00"
 
 <div class="cta-block" style="border: 1px solid #ccc; padding: 15px; text-align: center; margin-bottom: 20px;">
 <a href="https://www.amazon.co.jp/s?k=断熱カーテン&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/window-insulation-curtains/c1.jpg" alt="断熱カーテンのイメージ" style="max-width: 100%; height: auto; margin-bottom: 10px;"><br>
+<img src="/images/window-insulation-curtains/c1.jpg" alt="断熱カーテンのイメージ" width="220" height="150" loading="lazy" style="max-width: 100%; height: auto; margin-bottom: 10px;"><br>
 <strong>窓の寒さ対策に最適な断熱カーテンをAmazonで見る →</strong>
 </a>
 </div>
