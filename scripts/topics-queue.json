@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:44:42+09:00",
+ "updated": "2026-11-21T12:02:05+09:00",
  "items": [
   {
    "category": "gear",
@@ -11854,10 +11854,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-017",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-08",
    "retry": 1,
-   "claimed_at": "2026-11-19T12:00:27+09:00",
+   "claimed_at": "2026-11-21T12:02:05+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "12:00",
