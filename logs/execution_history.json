@@ -9254,5 +9254,28 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T10:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "daw-keyboard-shortcuts-workflow-order",
+      "windows-shortcuts-launcher-guide-2026"
+    ],
+    "actions": [
+      "全記事の自動点検(description長・OG画像・プレースホルダー・禁止タイトル・H2数)を実施。公開記事の不備はタイトルの感嘆符1件のみ",
+      "DAWショートカット記事のタイトルから感嘆符を除去し、被リンク側の記事の関連リンク表記も同期"
+    ],
+    "files_changed": [
+      "content/posts/daw-keyboard-shortcuts-workflow-order.md",
+      "content/posts/windows-shortcuts-launcher-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "下書き(draft:true)の2026-09-22系2本はH2不足だが非公開のため対象外",
+      "Hatena/Ameba/noteは今回改定案なし",
+      "ビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

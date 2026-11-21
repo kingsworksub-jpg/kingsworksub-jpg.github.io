@@ -112,7 +112,7 @@ Win+Zを押すと、スナップレイアウトの一覧が出る。二分割、
 一度に全部を覚えようとすると、どれも中途半端になりやすい。私のおすすめは、一週間に一つの段階だけ進めることだ。最初の一週間は、マウスでアプリを探しそうになったらWindowsキーを押して名前を打つ、とだけ決める。それが手に馴染んだら次の段階へ進む。ひと月半ほどで一通りが身につき、そのころには、ランチャーのおすすめを探していた時間そのものが要らなくなっていると思う。
 
 ## 関連記事
-- [DAWのショートカットは20〜30個から！作業の流れで覚える優先順位ガイド](/posts/daw-keyboard-shortcuts-workflow-order/)
+- [DAWのショートカットは最初の20〜30個で足りる、作業の流れで覚える順番](/posts/daw-keyboard-shortcuts-workflow-order/)
 - [静電容量無接点のHHKBとREALFORCE、同じ東プレのスイッチでも押下圧と配列で打ち心地が分かれる](/posts/topre-hhkb-realforce-capacitive-keyboard-2026/)(キーボードから手を離さない、という点でのつながりで)
 - [Windows 11 26H2で減った起動時メモリ、DAWの制作PCで効く設定と効かない設定](/posts/windows-11-26h2-memory-daw-2026/)(Windowsの設定を見直す話のつながりで)
 - [Windowsのシンボリックリンクをmklinkで作る、ジャンクションとの違いとrmdirで消す理由](/posts/windows-symbolic-link-mklink-notes/)(ファイル管理を一段深く使う入口として)

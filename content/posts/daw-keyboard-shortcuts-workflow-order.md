@@ -1,5 +1,5 @@
 ---
-title: "DAWのショートカットは20〜30個から！作業の流れで覚える優先順位ガイド"
+title: "DAWのショートカットは最初の20〜30個で足りる、作業の流れで覚える順番"
 description: "DAWのキーボードショートカットを一度に全部暗記しようとしていませんか。Ableton LiveやLogic Proの制作フローに沿い、再生・停止やUndo、分割・複製など最初に覚える20〜30個の優先順位と定着法を解説します。"
 images: ["/images/og/daw-keyboard-shortcuts-workflow-order.jpg"]
 ogImageWidth: 1200
