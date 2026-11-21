@@ -9168,5 +9168,23 @@
       "hugo/PIL未導入のためビルド・seo-audit未実行"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T06:53:50Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全280記事を再点検(禁止タイトル型・プレースホルダ・『実際に〜てみた』・第三者帰属表現・内部リンク切れ・画像欠落・重複タイトル・description長)→問題0件",
+      "タイトル60字超は2件のみ(ella-wishes-you-a-swinging-christmas-1960 / chrome-mv3-ublock-origin-lite-2026)。他プラットフォームと同期済みのため変更見送り",
+      "seo-audit.pyはPIL未導入で実行不可"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い9月深掘り記事のリライトはリサーチ可能な環境で実施",
+      "PIL導入時にseo-audit --check-links実行"
+    ],
+    "status": "完了(記事修正なし・ビルド未検証)"
   }
 ]
