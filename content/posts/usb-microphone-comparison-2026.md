@@ -68,12 +68,12 @@ PCを経由して音声をモニターするとわずかな音の遅れ（レイ
 
 ## Shure MV7とRØDE NT-USBの比較と付属ソフトの役割
 
-具体的な製品比較として、配信や宅録の現場で代表的なUSBマイクである「Shure MV7」と「RØDE NT-USB」の2機種を取り上げます。どちらも外部オーディオインターフェースを必要とせずPCやタブレットに直接接続できる点は共通していますが、マイク方式と運用上の強みに明確な違いがあります。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=USB%E3%83%9E%E3%82%A4%E3%82%AF+%E3%82%B3%E3%83%B3%E3%83%87%E3%83%B3%E3%82%B5%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/usb-mic/c2-condenser-microphone.jpg" alt="コンデンサー型マイクロフォンの外観" width="220" height="150" loading="lazy"></a>
 <figcaption>宅録や高音質収録で活用されるコンデンサー型マイクのイメージ<span class="credit">Photo: Lucasbosch / CC BY-SA 3.0</span></figcaption>
 </figure>
+
+具体的な製品比較として、配信や宅録の現場で代表的なUSBマイクである「Shure MV7」と「RØDE NT-USB」の2機種を取り上げます。どちらも外部オーディオインターフェースを必要とせずPCやタブレットに直接接続できる点は共通していますが、マイク方式と運用上の強みに明確な違いがあります。
 
 [RØDE NT-USBのAmazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B00KAEIHVI?tag=nakimoto1-22)
 

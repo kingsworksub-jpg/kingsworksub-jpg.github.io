@@ -9186,5 +9186,30 @@
       "PIL導入時にseo-audit --check-links実行"
     ],
     "status": "完了(記事修正なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T07:54:02Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "scarf-knots-guide",
+      "usb-microphone-comparison-2026",
+      "eggnog-recipe-safety-history"
+    ],
+    "actions": [
+      "figureを見出し(##)直後・本文段落の直前へ移動(CLAUDE.mdの配置ルール準拠。段落の途中に置かれ回り込みが崩れていた)",
+      "左右交互配置は全記事で問題なし",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/scarf-knots-guide.md",
+      "content/posts/usb-microphone-comparison-2026.md",
+      "content/posts/eggnog-recipe-safety-history.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残るfigure位置の不一致はアイキャッチ直後のみで許容範囲",
+      "seo-audit.pyはPIL不可で未実行・ビルド未検証"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
