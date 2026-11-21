@@ -3711,6 +3711,15 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-21T20:20:46+09:00"
+  },
+  {
+   "id": "2026w45-037",
+   "category": "book",
+   "theme": "ディケンズ『クリスマス・キャロル』、1843年に自費出版された中編が祝日の形を変えた",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-21T23:00:31+09:00"
   }
  ]
 }
