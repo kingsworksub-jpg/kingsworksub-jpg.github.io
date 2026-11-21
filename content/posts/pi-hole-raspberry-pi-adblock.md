@@ -15,16 +15,12 @@ scheduled_time: "07:30"
 
 本記事では、Pi-holeの仕組みからRaspberry Piの準備、固定IPの設定、インストール、ルーター側のDNS切り替え、スマート家電での効き方、誤検知の解除までを順に整理します。導入後の運用でつまずきやすい点もあわせて解説するため、自宅ネットワークの見直しにそのまま役立てられる内容です。
 
+## Pi-holeがDNSで広告を止める仕組み
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Raspberry+Pi+5+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pi-hole-raspi/raspberry-pi-2-model-b.jpg" alt="Raspberry Pi基板の外観" width="220" height="150" loading="lazy"></a>
 <figcaption>Pi-holeを動かす小型Linux端末の例<span class="credit">Photo: Multicherry / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[Raspberry Pi 5 スターターキットをAmazonで見る →](https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22)
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22)
-
-## Pi-holeがDNSで広告を止める仕組み
 
 Pi-holeはDNSベースの広告ブロックシステムで、ネットワーク全体のDNSリクエストをフィルタリングする役割を担います。端末がWebサイトやアプリにアクセスするとき、まずドメイン名をIPアドレスに変換する名前解決が発生します。Pi-holeはこの問い合わせを受け取り、広告配信や計測に使われるドメインかどうかを判定します。
 
@@ -40,8 +36,6 @@ Pi-holeはDNSベースの広告ブロックシステムで、ネットワーク�
 
 Raspberry Pi 5 スターターキットは販売店や同梱物によって価格が異なります。購入時は、microSDカードの容量や品質、電源アダプターの出力、冷却部品の有無を確認しておくと安心です。
 ※現在の実売価格やセール状況は下のリンクからご確認ください。
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22)
 
 ストレージには信頼性のあるmicroSDカードを用意しておきたいところです。書き込み頻度が高い常時稼働用途では、安価すぎる製品を避けたほうがトラブルを減らせます。関連アクセサリとして、[Raspberry Pi向けmicroSDカードをAmazonで確認する](https://www.amazon.co.jp/s?k=microSD%E3%82%AB%E3%83%BC%E3%83%89+Raspberry+Pi&tag=nakimoto1-22)のもよいでしょう。
 
@@ -67,14 +61,14 @@ Raspberry PiにOSをインストールしてSSHまたはローカル端末から
 
 初期設定の段階では、管理画面のログインパスワードを設定し、必要に応じてブロックリストの更新を行います。Pi-holeはドメインリストに基づいて動作するため、リストが古いままだと期待した効果が得られない場合があります。導入直後は設定変更を一度に増やしすぎず、まずは既定の状態で通信状況を観察するのが安全です。
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pi-hole-raspi/raspberry-pi-board.jpg" alt="Raspberry Pi基板を上から見た様子" width="220" height="150" loading="lazy"></a>
-<figcaption>常時稼働のDNSフィルタとして設置しやすいRaspberry Pi<span class="credit">Photo: osde8info from UK / CC BY-SA 2.0</span></figcaption>
-</figure>
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22)
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Raspberry+Pi+5+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88&tag=nakimoto1-22)
 
 ## ルーターのDNSをPi-holeに向ける
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Raspberry+Pi+5+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pi-hole-raspi/raspberry-pi-board.jpg" alt="Raspberry Pi基板を上から見た様子" width="220" height="150" loading="lazy"></a>
+<figcaption>常時稼働のDNSフィルタとして設置しやすいRaspberry Pi<span class="credit">Photo: osde8info from UK / CC BY-SA 2.0</span></figcaption>
+</figure>
 
 Pi-hole単体が動いていても、各端末がそれをDNSとして使わなければ効果は現れません。家中の端末へまとめて適用するには、ルーターのDHCP設定またはWAN/LANのDNS設定を変更し、配布するDNSサーバーをPi-holeの固定IPに向けます。この方法なら、端末ごとにDNSを手入力する必要がなく、設定漏れを減らせます。
 
@@ -118,4 +112,4 @@ Pi-holeは、Raspberry Piのような小型Linuxデバイスに導入し、ル�
 
 一方で、DNSブロックには限界があり、配信元が共通化された広告まで完全に分離できるわけではありません。誤検知が起きたときは、管理画面のクエリログから対象ドメインを特定し、ホワイトリストで最小限に許可する運用が基本です。固定IPの設定やルーター側の切り戻し手順を押さえておけば、導入後のトラブルにも落ち着いて対応できます。
 
-まずはRaspberry Piを用意し、固定IPの設定から順に進めると、無理なく構築を始められます。家中の通信を見渡しながら広告や追跡を減らしたい方には、Pi-holeは試す価値のある選択肢です。導入を検討する際は、[Raspberry Pi 5 スターターキットの価格とレビューを確認する](https://www.amazon.co.jp/dp/B0D1234567?tag=nakimoto1-22)ところから始めてみてください。
+まずはRaspberry Piを用意し、固定IPの設定から順に進めると、無理なく構築を始められます。家中の通信を見渡しながら広告や追跡を減らしたい方には、Pi-holeは試す価値のある選択肢です。導入を検討する際は、[Raspberry Pi 5 スターターキットの価格とレビューを確認する](https://www.amazon.co.jp/s?k=Raspberry+Pi+5+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88&tag=nakimoto1-22)ところから始めてみてください。

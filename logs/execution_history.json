@@ -9464,5 +9464,26 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-21T22:53:26Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "pi-hole-raspberry-pi-adblock"
+    ],
+    "actions": [
+      "架空ASIN(B0D1234567)のAmazonリンクを検索リンクに置換",
+      "figureを見出し直後に移動し、figure周辺のリンクのみ段落を整理"
+    ],
+    "files_changed": [
+      "content/posts/pi-hole-raspberry-pi-adblock.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事の架空ASIN検査を継続",
+      "Hatena(14729835035342026442)は同ASINを含む可能性あり、ローカルで要確認",
+      "Ameba/noteは改定案なし"
+    ],
+    "status": "完了"
   }
 ]
