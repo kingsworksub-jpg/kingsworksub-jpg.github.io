@@ -31,16 +31,16 @@ ogImageHeight: 630
 <figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある<span class="credit">Photo: Unsplash / Jens Thekkeveettil</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
-
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
 <figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった<span class="credit">Photo: Pexels / Oscar Steiner</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
-
 2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
+
+<p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
+
+<p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
 
 現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
 
@@ -71,9 +71,9 @@ ogImageHeight: 630
 <figcaption>ダブルブレストは幾何学的な秩序と力強さを同時に表現する<span class="credit">Photo: Pexels / cottonbro studio</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
-
 2026年現在、ジャズスタイルが再び脚光を浴びるのは、単なる懐古趣味ではない。現代のファッションシーンが、ある種の「精度回帰」を求めているからである。
+
+<p class="cvr-text-link" data-cvr="text-B0GC74JLHB"><a href="https://www.amazon.co.jp/dp/B0GC74JLHB?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Stylish double-breasted blazerの実売価格・レビューをAmazonで確認する →</a></p>
 
 ### ラグジュアリーブランドの動向
 
@@ -100,9 +100,9 @@ ogImageHeight: 630
 <figcaption>靴の輝きは、その人の歩き方を変える。精度とは、無言のメッセージ<span class="credit">Photo: Pixabay / tylermike525</span></figcaption>
 </figure>
 
-<p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>
-
 ジャズスタイルは、この両立を可能にする。ピンストライプの細い線は、最小限の情報で最大限の表現力を生み出す。ダブルブレストの重ねられたボタンは、シンプルなシルエットの中に複雑性を隠し持つ。シャープな靴の輝きは、派手ではないが、確実に主張している。
+
+<p class="cvr-text-link" data-cvr="text-B0GB86N9FQ"><a href="https://www.amazon.co.jp/dp/B0GB86N9FQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Polished oxford dress shoesの実売価格・レビューをAmazonで確認する →</a></p>
 
 つまり、ジャズスタイルは「静かな確実性」の言語なのである。騒々しい現代に、余計な装飾ではなく、構造と秩序で自分を表現したいという欲求。その欲求が、80年前のジャズメンたちが編み出した美学に人々を向かわせているのだろう。
 

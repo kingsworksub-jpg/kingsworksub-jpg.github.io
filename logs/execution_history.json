@@ -9388,5 +9388,26 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T18:53:39Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "jazz-style-fashion-revival-2026"
+    ],
+    "actions": [
+      "全282記事を点検(description長・images・figure属性/クレジット/配置)。問題は当該記事のみ",
+      "figure直後のcvr-text-link短文を本文段落の後ろへ移動し、画像横に本文が回り込むよう修正",
+      "seo-audit.pyはPIL破損で実行不可、同等チェックを簡易スクリプトで代替"
+    ],
+    "files_changed": [
+      "content/posts/jazz-style-fashion-revival-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ビルド未検証(hugo無し)",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
