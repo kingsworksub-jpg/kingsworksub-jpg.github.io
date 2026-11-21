@@ -41,6 +41,11 @@ scheduled_time: "23:00"
 
 ## 厚手生地がもたらす空気層の断熱メカニズム
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=断熱カーテン&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/window-insulation-curtains/c1.jpg" alt="窓辺に設置された厚手のカーテン" width="220" height="150" loading="lazy"></a>
+<figcaption>窓からの冷気を遮る厚手のカーテン<span class="credit">Photo: Nieuw~commonswiki / CC BY-SA 3.0</span></figcaption>
+</figure>
+
 断熱カーテンを選ぶ際にまず注目すべきなのは、生地の「厚み」と「密度」です。生地が厚く、繊維が密に織り込まれているものほど、空気の移動を制限する力が強く、高い断熱効果を発揮します。
 
 厚手のカーテン生地は、その内部に微細な空気をたくさん含んでいます。静止した空気は非常に優れた断熱材としての性質を持っているため、外気と内気の熱交換を強力にブロックしてくれるのです。
@@ -51,10 +56,6 @@ scheduled_time: "23:00"
 
 逆に、薄手のレースカーテン一枚だけでは、冷気を遮ることはほとんどできません。冬場は厚手のドレープカーテンと、密度のあるレースカーテンを併用することで、二重、三重の空気層を作り出すのが理想的です。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=断熱カーテン&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/window-insulation-curtains/c1.jpg" alt="窓辺に設置された厚手のカーテン" width="220" height="150" loading="lazy"></a>
-<figcaption>窓からの冷気を遮る厚手のカーテン<span class="credit">Photo: Nieuw~commonswiki / CC BY-SA 3.0</span></figcaption>
-</figure>
 [Amazonで厚手カーテンの価格とレビューを見る](https://www.amazon.co.jp/s?k=厚手+カーテン&tag=nakimoto1-22)
 
 ## 断熱裏地を追加して熱の通り道を徹底ガード
@@ -73,6 +74,11 @@ scheduled_time: "23:00"
 
 ## 丈を床まで下ろして足元の冷えをブロックする
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=断熱カーテン+ロング&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/window-insulation-curtains/c2.jpg" alt="床まで届く丈の長いカーテン" width="220" height="150" loading="lazy"></a>
+<figcaption>冷気の侵入を完全に防ぐ床までのロング丈<span class="credit">Photo: Wilfredor / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 カーテンの断熱性能を最大限に引き出すために、最も見落としがちなのが「丈の長さ」です。どんなに優れた素材のカーテンであっても、床との間に隙間があれば、そこから冷気が漏れ出してしまいます。
 
 窓で冷やされた空気は密度が高くなって重くなり、カーテンの裾から床へと流れ込みます。これを防ぐためには、カーテンの丈を床にぴったりと着く、あるいは数センチ垂らす「ブレイクスタイル」にすることが推奨されます。
@@ -83,10 +89,6 @@ scheduled_time: "23:00"
 
 床に生地がつくことで埃が気になる場合は、冬場だけ長めのカーテンに交換する、あるいは裾に重りを入れるなどの工夫も有効です。足元を流れる冷気さえ止めることができれば、体感温度は数度変わるといっても過言ではありません。
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=断熱カーテン+ロング&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/window-insulation-curtains/c2.jpg" alt="床まで届く丈の長いカーテン" width="220" height="150" loading="lazy"></a>
-<figcaption>冷気の侵入を完全に防ぐ床までのロング丈<span class="credit">Photo: Wilfredor / CC BY-SA 4.0</span></figcaption>
-</figure>
 [Amazonでロング丈の断熱カーテンを見る](https://www.amazon.co.jp/s?k=断熱カーテン+ロング&tag=nakimoto1-22)
 
 ## 上部と左右の隙間を埋めるカーテンボックス

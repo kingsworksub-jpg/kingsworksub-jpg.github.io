@@ -9298,5 +9298,25 @@
       "全記事が一巡済み。次回以降は新着記事のみ対象でよい"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T14:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "window-insulation-curtains"
+    ],
+    "actions": [
+      "新着1本を点検。figure2枚が段落末尾に置かれ回り込まない配置だったため、見出し直後・本文段落の直前へ移動(CLAUDE.md準拠)"
+    ],
+    "files_changed": [
+      "content/posts/window-insulation-curtains.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはPILのimportエラーで実行不可(環境依存)",
+      "Hatena/Ameba/noteは今回改定案なし",
+      "ビルド未検証(hugo無し)"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
