@@ -11,17 +11,16 @@ tags: ["クール・ジャズ", "Birth of the Cool", "Miles Davis", "Chet Baker"
 ---
 
 
-
-<figure class="photo photo--right">
-  <a href="https://www.amazon.co.jp/dp/B00DI4HU8K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cool-jazz/chet-baker-1955-portrait.jpg" alt="1955年のChet Bakerのポートレート" width="1634" height="2043" loading="lazy"></a>
-  <figcaption>Chet Baker。1955年、27歳。若さそのものがスタイルの一部だったと写っている<span class="credit">Photo: Associated Booking Corporation（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
-</figure>
-
 ビバップが最高潮に達したあとに現れたのが、クール・ジャズだ。音が一段引く。テンポは落ち、フレーズの端には空間が残り、サックスとトランペットを同じ帯域で押し合うのではなく、上下に分かれた。これは疲れた音楽ではない。ビバップの複雑さを残したまま、配置を組み替えた音楽――それがクール・ジャズである。
 
 1950年代のジャズ史は、この冷えた音がどこで生まれ、どこへ波及したのかという物語として読むと整理しやすい。その発生地は1949年のニューヨーク。中心になったのは、22歳の Miles Davis だった。そして同じ時代に、もうひとつ別の線が、カリフォルニアで静かに開いている。
 
 ## 一九四七年の地下から
+
+<figure class="photo photo--right">
+  <a href="https://www.amazon.co.jp/dp/B00DI4HU8K?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/cool-jazz/chet-baker-1955-portrait.jpg" alt="1955年のChet Bakerのポートレート" width="1634" height="2043" loading="lazy"></a>
+  <figcaption>Chet Baker。1955年、27歳。若さそのものがスタイルの一部だったと写っている<span class="credit">Photo: Associated Booking Corporation（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
+</figure>
 
 物語の起点は1947年にある。アレンジャー Gil Evans は、マディソン・アベニューから少し西へいった55番街、中国ランドリーの一階にある小さなアパートを賃っていた。Miles と Gil はこの部屋で、秋から冬にかけて曲を書いた。
 

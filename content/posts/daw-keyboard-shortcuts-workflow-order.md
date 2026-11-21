@@ -17,11 +17,6 @@ scheduled_time: "17:30"
 
 大切なのは、最初からすべてのキーを暗記しようとせず、実際の作業の流れに沿って優先順位をつけることです。本記事では、認知科学や人間工学の知見を踏まえつつ、最初に覚えるべき基本ショートカットの目安と定着の手順を整理して解説します。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=MIDI%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/daw-shortcuts/backlit-keyboard.jpg" alt="暗い制作環境で光るバックライト付きキーボード" width="220" height="150" loading="lazy"></a>
-<figcaption>制作環境で手元を確認しやすいバックライト付きキーボード<span class="credit">Photo: Colin / CC BY-SA 4.0</span></figcaption>
-</figure>
-
 制作中のキーボード操作とあわせて演奏入力やコントロール環境を整えたい場合は、省スペースで使えるMIDIキーボードの導入も選択肢になります。
 
 [Amazonで見る →](https://www.amazon.co.jp/dp/B08XN3Z66F?tag=nakimoto1-22)
@@ -29,6 +24,11 @@ scheduled_time: "17:30"
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B08XN3Z66F?tag=nakimoto1-22)
 
 ## なぜ全部覚えようとしないほうがいいのか
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=MIDI%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/daw-shortcuts/backlit-keyboard.jpg" alt="暗い制作環境で光るバックライト付きキーボード" width="220" height="150" loading="lazy"></a>
+<figcaption>制作環境で手元を確認しやすいバックライト付きキーボード<span class="credit">Photo: Colin / CC BY-SA 4.0</span></figcaption>
+</figure>
 
 結論から言うと、主要なDAWの基本ショートカットは、最初におよそ20〜30個程度に絞って覚えるのが効果的です。何百もの機能を一度に頭へ詰め込もうとするよりも、毎日の制作で必ず通る操作だけに焦点を当てたほうが、手が自然と動く状態に早く近づけます。
 

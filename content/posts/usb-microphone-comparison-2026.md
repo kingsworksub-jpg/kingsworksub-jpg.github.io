@@ -17,14 +17,14 @@ scheduled_time: "17:30"
 
 本記事では、配信と宅録それぞれの目的に合わせて選べるよう、USBマイクを5つのタイプに分類して比較します。あわせて代表的なモデルであるShure MV7とRØDE NT-USBの特徴を取り上げ、指向性の選び方や付属ソフトを活用した音質調整の基準を数値と仕様の根拠をもとに解説します。
 
+[Shure MV7をAmazonで見る →](https://www.amazon.co.jp/dp/B08K3HN688?tag=nakimoto1-22)
+
+## USBマイク5タイプの比較一覧と結論
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B08K3HN688?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/usb-mic/c1-studio-microphone.jpg" alt="ポップガード付きのスタジオ用マイク" width="220" height="150" loading="lazy"></a>
 <figcaption>配信やナレーション収録に使われるマイクとポップガードの構成<span class="credit">Image: Studio microphone with pop-shield crop.jpg / CC BY-SA 3.0</span></figcaption>
 </figure>
-
-[Shure MV7をAmazonで見る →](https://www.amazon.co.jp/dp/B08K3HN688?tag=nakimoto1-22)
-
-## USBマイク5タイプの比較一覧と結論
 
 配信や宅録でUSBマイクを選ぶ際の結論は明確であり、部屋の反響音を抑えて話し声をクリアに届けたい配信用途では「ダイナミック型・単一指向性」のモデルが有利です。一方で、静かな環境で声のニュアンスや細かな音の表現を重視する宅録用途では「コンデンサー型・単一指向性」や「24bit/48kHz〜96kHz対応モデル」が適しています。
 

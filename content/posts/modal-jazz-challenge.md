@@ -15,11 +15,6 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 
 この記事では、モーダル・ジャズが生まれた理論的背景から、『Kind of Blue』のセッション、コルトレーンが到達した『A Love Supreme』、そしてビル・エヴァンスの抒情までを時間順にたどる。名盤を「難しいから後回し」にするのではなく、何を手がかりに聴けばいいのかを一緒に整理していこう。
 
-<figure class="photo photo--left">
-  <a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy"></a>
-  <figcaption>1964年、ヘルシンキのステージでトランペットを手にしたマイルス・デイヴィス。モーダル・ジャズは、この男の「次の一手」から始まった<span class="credit">Photo: Reijo Koskinen / Lehtikuva（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
-</figure>
-
 ジャズの即興は、長いあいだ「コード進行の上を走るもの」だった。4小節ごとに巡ってくるコードの流れに乗っかって、その上を自由に滑る。ジャズの神髄は、この制約の中でいかに自由度を出すかにある、と誰もが思っていた。ところが1959年、この当たり前を、まるごとひっくり返すアルバムが現れる。マイルス・デイヴィス『Kind of Blue』。コード進行を捨てて、旋法——モードの上でじっくりと語るという、それまで誰もやらなかった賭けに出たのが、モーダル・ジャズの挑戦だった。
 
 <div class="cvr-cta-block" data-cvr="cta-intro">
@@ -36,6 +31,11 @@ tags: ["モーダルジャズ", "Miles Davis", "John Coltrane", "Kind of Blue", 
 <p class="cvr-text-link" data-cvr="text-B00D1B8R9G"><a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">1964年、ヘルシンキで演奏するマイルス・デイヴィスの実売価格・レビューをAmazonで確認する →</a></p>
 
 ## モーダル・ジャズとは — コード進行を捨てる、という発想
+
+<figure class="photo photo--left">
+  <a href="https://www.amazon.co.jp/dp/B00D1B8R9G?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/modal-jazz/miles-davis-1964-helsinki.jpg" alt="1964年、ヘルシンキで演奏するマイルス・デイヴィス" width="540" height="539" loading="lazy"></a>
+  <figcaption>1964年、ヘルシンキのステージでトランペットを手にしたマイルス・デイヴィス。モーダル・ジャズは、この男の「次の一手」から始まった<span class="credit">Photo: Reijo Koskinen / Lehtikuva（パブリックドメイン）/ Wikimedia Commons</span></figcaption>
+</figure>
 
 モーダル・ジャズとは何か。もっとも簡単に言えば、曲の骨格を「コードの移り変わり」ではなく、「スケール(音階)の風船」で作る方法だ。たとえばソリストにドリア旋法という、ある特定のふくらみを持つ音階をひとつ渡し、その上を延々と歩かせる。「ドリア旋法」といっても、ピアノの白鍵だけを使い、レの音から並べた音階——暗く翳りながら、わずかな透明感も混ざる、その風船の上で、ソリストはコードの縛りから解放されて、音を息のように吐き出していく。
 

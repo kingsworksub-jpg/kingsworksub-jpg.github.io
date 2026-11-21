@@ -9356,5 +9356,37 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T17:53:07Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "alan-boguslavsky-stage",
+      "chord-progression-learning-order-2026",
+      "cool-jazz-birth-of-the-cool",
+      "daw-keyboard-shortcuts-workflow-order",
+      "hard-bop-blue-note-golden-age",
+      "modal-jazz-challenge",
+      "usb-microphone-comparison-2026"
+    ],
+    "actions": [
+      "導入部(最初の##の前)に置かれていたfigureを、最初の##見出し直後・本文段落直前へ移動(CLAUDE.md準拠、テキスト回り込みを確保)",
+      "yubikey-security-key-backup-guide-2026は直後が別figureのため意図的に据え置き"
+    ],
+    "files_changed": [
+      "content/posts/alan-boguslavsky-stage.md",
+      "content/posts/chord-progression-learning-order-2026.md",
+      "content/posts/cool-jazz-birth-of-the-cool.md",
+      "content/posts/daw-keyboard-shortcuts-workflow-order.md",
+      "content/posts/hard-bop-blue-note-golden-age.md",
+      "content/posts/modal-jazz-challenge.md",
+      "content/posts/usb-microphone-comparison-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "hugo未導入のためビルド未検証",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

@@ -11,16 +11,16 @@ tags: ["Héroes del Silencio", "Alan Boguslavsky", "Bunbury", "スペイン", "�
 ---
 
 
-<figure class="photo photo--left">
-  <a href="https://www.amazon.co.jp/dp/B004D95G08?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy"></a>
-  <figcaption>2007年、セビリアのオリンピック・スタジアム。再結成「World Tour 2007」のステージ。黄金期の4人編成の向こうに、5人目のギタリストの姿はない<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
-</figure>
-
 Héroes del Silencio。スペイン語圏ロックの金字塔にして、1990年代に世界中のスタジアムを埋めた4人組。そのラインナップはよく知られている。ボーカルのEnrique Bunbury、ギターのJuan Valdivia、ベースのJoaquín Cardiel、ドラムのPedro Andreu。だが、あなたが彼らのプロモーション写真を見るとき、そこに映っていない人物がひとりいる。彼らと共にステージに立ち、リフを弾き、歴史的なアルバムを一緒に作ったのに、カメラの前からだけ姿を消していた男。Los Ángeles生まれ、メキシコ育ちのギタリスト、Alan Boguslavsky——「5人目の男」だ。
 
 なぜ彼は公式の写真から消されたのか。なぜバンドは5人でいて、記録には4人しか残さなかったのか。そして今、その男は何をしているのか。答えを探す旅は、1992年のメキシコシティから始まる。
 
 ## 1992年、メキシコでの出会い
+
+<figure class="photo photo--left">
+  <a href="https://www.amazon.co.jp/dp/B004D95G08?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/alan-boguslavsky/heroes-2007-tour-sevilla-1.jpg" alt="2007年ワールドツアー、セビリアのオリンピック・スタジアムのステージで演奏するHéroes del Silencio" width="1280" height="960" loading="lazy"></a>
+  <figcaption>2007年、セビリアのオリンピック・スタジアム。再結成「World Tour 2007」のステージ。黄金期の4人編成の向こうに、5人目のギタリストの姿はない<span class="credit">Photo: José Porras (Elemaki) / Wikimedia Commons (CC BY 3.0)</span></figcaption>
+</figure>
 
 すべては、ひとつの「たまたま」から始まった。バンドが初めてメキシコ遠征を行った1992年、ドラムのPedro Andreuが現地のミュージシャンと親しくなり、翌日、その男をコンサートに招いた。男はそのライブに心を打たれ、終演後、楽屋まで挨拶に訪れた。名前を、Alan Boguslavskyといった。これが、すべての始まりだった。
 

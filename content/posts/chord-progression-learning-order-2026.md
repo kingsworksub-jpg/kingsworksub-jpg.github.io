@@ -17,14 +17,14 @@ scheduled_time: "17:30"
 
 コード進行の勉強というと、曲数をこなすことが目的だと思われがちです。しかし本当に必要なのは、初めて聴いた曲でも「今はサブドミナントからドミナントへ向かっている」と見当をつけられる力です。その力を最短で作るには、似た形の進行をわざと隣り合わせて練習するのが効率的です。
 
+まずは理論の地図を1冊で持っておくと、以後の判断がぶれません。コード理論大全（清水響）は、度数と機能の関係を紙の上で確認するための土台になります。→ [Amazonで見る →](https://www.amazon.co.jp/dp/4845632365?tag=nakimoto1-22)
+
+## 結論: 最初に覚える4つと、その順番
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/4845632365?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/chord-order/primary-triads-in-c.jpg" alt="ハ長調の主要三和音C・F・Gを示した譜面" width="220" height="126" loading="lazy"></a>
 <figcaption>ハ長調の主要三和音。I・IV・Vの位置を先に確認する<span class="credit">Photo: Hyacinth (talk) using Sibelius 5. / CC BY-SA 3.0</span></figcaption>
 </figure>
-
-まずは理論の地図を1冊で持っておくと、以後の判断がぶれません。コード理論大全（清水響）は、度数と機能の関係を紙の上で確認するための土台になります。→ [Amazonで見る →](https://www.amazon.co.jp/dp/4845632365?tag=nakimoto1-22)
-
-## 結論: 最初に覚える4つと、その順番
 
 先に結論を並べます。覚える順番はI–V–vi–IV、I–vi–IV–V、12小節ブルース、ii–V–Iです。この順にすると、ポップスの3コード系からジャズの終止形へ、聴き分けの難易度がゆるやかに上がります。
 
