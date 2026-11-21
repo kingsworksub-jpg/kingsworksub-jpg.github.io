@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:22:21+09:00",
+ "updated": "2026-11-22T03:20:19+09:00",
  "items": [
   {
    "category": "gear",
@@ -13448,6 +13448,1645 @@
    "id": "2026w46-007",
    "status": "approved",
    "created": "2026-11-15",
+   "retry": 0
+  },
+  {
+   "category": "drink-lab",
+   "new_category": null,
+   "theme": "スポーツドリンクの浸透圧、等張性という表示を数字で読む",
+   "angle": "等張・低張という表示は浸透圧の話。成分表の糖質と電解質から、飲み分けの目安を組み立てる。",
+   "article_type": "theme",
+   "keywords": [
+    "スポーツドリンク 浸透圧",
+    "等張性 表示 意味"
+   ],
+   "subjects": [
+    {
+     "name": "スポーツドリンク",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Isotonic_drink",
+    "https://en.wikipedia.org/wiki/Osmotic_pressure",
+    "https://www.pocarisweat.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Acquissima_Passion_natural_sparkling_mineral_water.jpg/960px-Acquissima_Passion_natural_sparkling_mineral_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Acquissima_Passion_natural_sparkling_mineral_water.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oleg Yunakov"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg/960px-Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Asurnipal"
+    }
+   ],
+   "season": "夏",
+   "score": {
+    "novelty": 18,
+    "verifiable": 17,
+    "images": 18,
+    "season": 7,
+    "demand": 7,
+    "amazon": 4,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-001",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink-lab",
+   "new_category": null,
+   "theme": "コーラの酸味はどこから来るか、リン酸とクエン酸を成分表から読み解く",
+   "angle": "コカ・コーラはリン酸、クラフトコーラはクエン酸が中心。酸味の質の違いを成分表示とpHから読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "コーラ リン酸 酸味",
+    "炭酸飲料 成分表 読み方"
+   ],
+   "subjects": [
+    {
+     "name": "コカ・コーラ",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "リン酸",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Coca-Cola",
+    "https://en.wikipedia.org/wiki/Phosphoric_acid",
+    "https://www.coca-colacompany.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Acquissima_Passion_natural_sparkling_mineral_water.jpg/960px-Acquissima_Passion_natural_sparkling_mineral_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Acquissima_Passion_natural_sparkling_mineral_water.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oleg Yunakov"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg/960px-Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Asurnipal"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 18,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 4,
+    "total": 70
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-002",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Ableton Live 13のARA 2対応、VOCALOIDとSynthesizer Vをどう扱うか",
+   "angle": "2026年11月に発表されたLive 13はARA 2とStep Sequencerを搭載。歌声合成ソフトとの連携がどう変わるかを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Ableton Live 13 ARA 2",
+    "Live 13 VOCALOID 連携"
+   ],
+   "subjects": [
+    {
+     "name": "Ableton Live 13",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.ableton.com/en/blog/live-13-is-coming/",
+    "https://www.thefader.com/2026/11/10/ableton-announces-live-13-with-ara-2-support-and-a-new-step-sequencer",
+    "https://blog.dubspot.com/ableton-live-13-2026",
+    "https://www.dtmstation.com/archives/81700.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ardour-screenshot-big.png/960px-Ardour-screenshot-big.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ardour-screenshot-big.png",
+     "license": "GPL",
+     "author": "www.ardour.org"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Audio_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_Tracks.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mors nihilismo"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 6,
+    "demand": 9,
+    "amazon": 4,
+    "total": 80
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-003",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "AutoTune AdvancedのDVA、ビブラートを残すピッチ補正は何が違うか",
+   "angle": "Antaresの新フラッグシップはDVAというビブラート保持エンジンと0.84msのLiveモードを搭載。補正の考え方が変わった。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "AutoTune Advanced DVA",
+    "ピッチ補正 ビブラート 残す"
+   ],
+   "subjects": [
+    {
+     "name": "Antares AutoTune Advanced",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.antarestech.com/blog/introducing-autotune-advanced",
+    "https://www.antarestech.com/products/pitch-correction/advanced",
+    "https://www.dtmstation.com/archives/81293.html",
+    "https://gearspace.com/threads/antares-audio-introduces-autotune-advanced-the-new-flagship-of-automatic-pitch-correction.1469020/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ardour-screenshot-big.png/960px-Ardour-screenshot-big.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ardour-screenshot-big.png",
+     "license": "GPL",
+     "author": "www.ardour.org"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Audio_Tracks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Audio_Tracks.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mors nihilismo"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 6,
+    "demand": 8,
+    "amazon": 4,
+    "total": 79
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-004",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "ヘッドホンとスピーカーを一日の中で交代する、耳の疲れを分散する環境づくり",
+   "angle": "同じ音を長時間聴き続けると耳が疲れる。制作の時間帯ごとにヘッドホンとスピーカーを使い分ける設計をまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "ヘッドホン スピーカー 使い分け",
+    "耳の疲れ 制作環境"
+   ],
+   "subjects": [
+    {
+     "name": "モニターヘッドホン",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "モニタースピーカー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.lifehacker.jp/",
+    "https://en.wikipedia.org/wiki/Headphones",
+    "https://en.wikipedia.org/wiki/Studio_monitor"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Beats_headphones_diy_repair_2.jpg/960px-Beats_headphones_diy_repair_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beats_headphones_diy_repair_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Bait30"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg/960px-Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg",
+     "license": "CC BY 2.0",
+     "author": "Jason Meredith"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 15,
+    "images": 18,
+    "season": 5,
+    "demand": 6,
+    "amazon": 5,
+    "total": 67
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-005",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "アモンティリャード・シェリーをカクテルに使う、乾いた酒が持つ役割",
+   "angle": "シェリーの中でも酸化熟成したアモンティリャードは、甘さではなく塩気とナッツをカクテルに足す。使いどころを整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "アモンティリャード シェリー カクテル",
+    "シェリー カクテル 使い方"
+   ],
+   "subjects": [
+    {
+     "name": "Amontillado Sherry",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://imbibemagazine.com/amontillado-sherry-cocktail-recipes/",
+    "https://en.wikipedia.org/wiki/Amontillado",
+    "https://en.wikipedia.org/wiki/Sherry"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg/960px-A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg",
+     "license": "CC BY 4.0",
+     "author": "Artist"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Angel_Face_cocktail_-_martini_glass_%28italy%2C_2023%29.png/960px-Angel_Face_cocktail_-_martini_glass_%28italy%2C_2023%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Angel_Face_cocktail_-_martini_glass_(italy,_2023).png",
+     "license": "CC BY-SA 4.0",
+     "author": "Bruce The Deus"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 17,
+    "images": 18,
+    "season": 5,
+    "demand": 6,
+    "amazon": 4,
+    "total": 71
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-006",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "自家製ジンジャーエール、生姜の辛さを引き出す時間と砂糖の量",
+   "angle": "すりおろした生姜をシロップにして炭酸で割る。辛さの抽出時間と甘さの比率を、市販品と比べながら調整する。",
+   "article_type": "guide",
+   "keywords": [
+    "自家製ジンジャーエール 作り方",
+    "生姜 シロップ 辛さ 抽出"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ginger_beer",
+    "https://imbibemagazine.com/",
+    "https://en.wikipedia.org/wiki/Ginger_ale"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg/960px-A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_glamorous_woman_looking_ruefully_into_her_empty_wine_glass_Wellcome_L0027289.jpg",
+     "license": "CC BY 4.0",
+     "author": "Artist"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Angel_Face_cocktail_-_martini_glass_%28italy%2C_2023%29.png/960px-Angel_Face_cocktail_-_martini_glass_%28italy%2C_2023%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Angel_Face_cocktail_-_martini_glass_(italy,_2023).png",
+     "license": "CC BY-SA 4.0",
+     "author": "Bruce The Deus"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 16,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 3,
+    "total": 68
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-007",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Claudeが数学の難問を解いたという報道、AIの研究成果をどう検証するか",
+   "angle": "AIがリーマン予想に言及したという報道が出た。研究論文と報道の違いを、確かめ方から整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "Claude リーマン予想",
+    "AI 数学 成果 検証"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.japantimes.co.jp/news/2026/11/21/world/science-health/ai-anthropic-claude-riemann-hypothesis/",
+    "https://www.anthropic.com/research",
+    "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Backlit_keyboard.jpg/960px-Backlit_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Colin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Backlit_keyboard_2.jpg/960px-Backlit_keyboard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oboy2009"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 22,
+    "verifiable": 14,
+    "images": 18,
+    "season": 5,
+    "demand": 8,
+    "amazon": 3,
+    "total": 70
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-008",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "Ardbeg Trudernish 15年、アイラの蒸留所が初めて常設の15年物を出した理由",
+   "angle": "2026年9月にコアレンジ入りした15年物。バーボン・新樽・オロロソの3種の樽と48.8%の設計を読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Ardbeg Trudernish 15",
+    "アードベッグ 15年 常設"
+   ],
+   "subjects": [
+    {
+     "name": "Ardbeg Trudernish 15 Year Old",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.ardbeg.com/en-int/products/ardbeg-trudernish-15-years-old",
+    "https://www.thewhiskyexchange.com/p/88299/ardbeg-trudernish-15-year-old",
+    "https://www.thespiritsbusiness.com/2026/09/ardbeg-adds-15yo-trudernish-to-core-range/",
+    "https://www.dramface.com/all-reviews/2026/ardbeg-15-trudernish"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Black_%26_White_%28whisky%29_bottle_01.jpg/960px-Black_%26_White_%28whisky%29_bottle_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_%26_White_(whisky)_bottle_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Pinakpani"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Black_%26_White_%28whisky%29_bottle_02.jpg/960px-Black_%26_White_%28whisky%29_bottle_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_%26_White_(whisky)_bottle_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Pinakpani"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 4,
+    "total": 83
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-009",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "Buffalo Trace Antique Collection 2026、Handyが12年物になった変更点",
+   "angle": "毎年秋に出る5本セット。2026年はThomas H. Handyが最低12年熟成に変わり、130プルーフでボトリング。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Buffalo Trace Antique Collection 2026",
+    "Thomas H. Handy 12年"
+   ],
+   "subjects": [
+    {
+     "name": "Buffalo Trace Antique Collection",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.buffalotracedistillery.com/our-brands/buffalo-trace-antique-collection/",
+    "https://www.forbes.com/sites/chrisperugini/2026/11/18/the-2026-buffalo-trace-antique-collection-debuts-12-year-old-thomas-h-handy/",
+    "https://breakingbourbon.com/article/2026-buffalo-trace-antique-collection-everything-you-need-to-know",
+    "https://www.foodandwine.com/buffalo-trace-antique-collection-2026-12260717"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/A_Glass_of_Whiskey_on_the_Rocks.jpg/960px-A_Glass_of_Whiskey_on_the_Rocks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_Glass_of_Whiskey_on_the_Rocks.jpg",
+     "license": "CC BY 3.0",
+     "author": "Benjamin Thompson"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg/960px-Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "JIP"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 18,
+    "season": 12,
+    "demand": 8,
+    "amazon": 3,
+    "total": 83
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-010",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "Copenhagen Sparkling Tea BLÅ、0%のスパークリングティーが食事に合う理由",
+   "angle": "ジャスミン・ダージリン・緑茶にブドウとレモン果汁を合わせたデンマーク発の0%。5バールのガス圧と甘さを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Copenhagen Sparkling Tea BLÅ",
+    "ノンアルコール スパークリングティー"
+   ],
+   "subjects": [
+    {
+     "name": "Copenhagen Sparkling Tea BLÅ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://sparklingtea.co/products/sparkling-tea-bla/",
+    "https://imbibemagazine.com/drink-of-the-week-copenhagen-bla-sparkling-tea/",
+    "https://drygoodsdrinks.com/products/copenhagen-sparkling-tea-bla",
+    "https://worldofnix.com/en/pages/top-10-sparkling-teas"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Camellia_sinensis-%C4%8Daj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Camellia_sinensis-%C4%8Daj.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "MilicaS9"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg/960px-Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg",
+     "license": "Public domain",
+     "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 18,
+    "season": 8,
+    "demand": 7,
+    "amazon": 4,
+    "total": 79
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-011",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ボジョレー・ヌーヴォーの解禁日、11月の第3木曜に決まった背景",
+   "angle": "新酒が世界中で同じ日に解禁される仕組み。醸造法ではなく、流通とルールの側から理由をたどる。",
+   "article_type": "theme",
+   "keywords": [
+    "ボジョレー 解禁日 第3木曜",
+    "ヌーヴォー ルール 歴史"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Beaujolais_nouveau",
+    "https://en.wikipedia.org/wiki/Beaujolais",
+    "https://www.decanter.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/A_Glass_of_Whiskey_on_the_Rocks.jpg/960px-A_Glass_of_Whiskey_on_the_Rocks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_Glass_of_Whiskey_on_the_Rocks.jpg",
+     "license": "CC BY 3.0",
+     "author": "Benjamin Thompson"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg/960px-Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Blossa_23_gl%C3%B6gg_in_a_whisky_glass.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "JIP"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 18,
+    "verifiable": 17,
+    "images": 18,
+    "season": 13,
+    "demand": 8,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "calendar",
+   "id": "2026w47-012",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "有田焼のぐい呑み、磁器が冷酒の味をシャープにする理由",
+   "angle": "有田焼は磁器。吸水率が低く釉が緻密なので、酒の味を変えずに温度と香りを保つ。陶器との違いを比較する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "有田焼 ぐい呑み",
+    "磁器 陶器 冷酒 違い"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://guide.michelin.com/mo/en/article/travel/know-the-japan-pottery",
+    "https://jp-art.shop/collections/arita-ware-sake-ware-sake-cup",
+    "https://en.wikipedia.org/wiki/Arita_ware"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Arabesque_black_sake_cup_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Arabesque_black_sake_cup_01.jpg",
+     "license": "CC BY 2.0",
+     "author": "Ken from Lisle, IL, USA"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Arabesque_black_sake_cup_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Arabesque_black_sake_cup_02.jpg",
+     "license": "CC BY 2.0",
+     "author": "Ken from Lisle, IL, USA"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 17,
+    "images": 18,
+    "season": 6,
+    "demand": 7,
+    "amazon": 4,
+    "total": 71
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-013",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "チタンの酒器、金属なのに軽くて冷酒に向く理由",
+   "angle": "チタンは比重が小さく、熱伝導も鉄より緩やか。金属のぐい呑みが酒の温度に与える影響を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "チタン 酒器 ぐい呑み",
+    "チタン 熱伝導 軽さ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Titanium",
+    "https://en.wikipedia.org/wiki/Thermal_conductivity",
+    "https://jp-art.shop/collections/arita-ware-sake-ware-sake-cup"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Arabesque_black_sake_cup_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Arabesque_black_sake_cup_01.jpg",
+     "license": "CC BY 2.0",
+     "author": "Ken from Lisle, IL, USA"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Arabesque_black_sake_cup_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Arabesque_black_sake_cup_02.jpg",
+     "license": "CC BY 2.0",
+     "author": "Ken from Lisle, IL, USA"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 15,
+    "images": 18,
+    "season": 5,
+    "demand": 6,
+    "amazon": 4,
+    "total": 67
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-014",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "モンベルのネイジダウンパーカ、800フィルパワーと軽さの両立",
+   "angle": "800フィルパワーのEXダウンをコンパクトに収める冬用ダウン。テカテカしないマットな生地の狙いを読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "モンベル ネイジダウンパーカ",
+    "800フィルパワー ダウン  lightweight"
+   ],
+   "subjects": [
+    {
+     "name": "Montbell Neige Down Parka",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.montbell.com/us/en/products/detail/2301423",
+    "https://www.gizmodo.jp/article/mont-bel_neigedownparka/",
+    "https://www.montbell.com/us/en/contents/557"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg/960px-6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Adenosine Triphosphate"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Adidas_Helionic_Down_Jacket.jpg/960px-Adidas_Helionic_Down_Jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Adidas_Helionic_Down_Jacket.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Adenosine Triphosphate"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 21,
+    "verifiable": 18,
+    "images": 18,
+    "season": 13,
+    "demand": 8,
+    "amazon": 5,
+    "total": 83
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-015",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "Nat King Cole『After Midnight』がTone Poetで2LP再発、1956年のセッションが今も聴かれる理由",
+   "angle": "Blue NoteのTone Poetシリーズから2026年11月に拡張2LPが登場。歌手とトリオが作った静けさを振り返る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Nat King Cole After Midnight Tone Poet",
+    "Tone Poet 2LP 再発 2026"
+   ],
+   "subjects": [
+    {
+     "name": "Nat King Cole",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "After Midnight: The Complete Sessions",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.bluenote.com/nat-king-coles-jazz-vocal-masterpiece-after-midnight-to-be-reissued-in-tone-poet-vinyl-series/",
+    "https://store.bluenote.com/products/nat-king-cole-after-midnight-the-complete-sessions-tone-poet-vinyl-series",
+    "https://shop.udiscovermusic.com/products/nat-king-cole-after-midnight-the-complete-blue-note-tone-poet-series-2lp",
+    "https://en.wikipedia.org/wiki/After_Midnight_(Nat_King_Cole_album)"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bennycarterpatienceandfortitude.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bennycarterpatienceandfortitude.jpg",
+     "license": "Public domain",
+     "author": "Freimut Bahlo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Concord_Jazz_record.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Concord_Jazz_record.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Samarkandus"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 19,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 5,
+    "total": 83
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-016",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "ソーダストリームのシリンダー交換、CO2ボンベを継続して使う手順",
+   "angle": "炭酸水メーカーを長く使うにはシリンダーの交換とリフィルが必要。コストと手順を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "ソーダストリーム シリンダー 交換",
+    "CO2 ボンベ リフィル 手順"
+   ],
+   "subjects": [
+    {
+     "name": "SodaStream",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.sodastream.com/",
+    "https://en.wikipedia.org/wiki/SodaStream",
+    "https://www.sodastream.co.uk/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Acquissima_Passion_natural_sparkling_mineral_water.jpg/960px-Acquissima_Passion_natural_sparkling_mineral_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Acquissima_Passion_natural_sparkling_mineral_water.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oleg Yunakov"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg/960px-Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bludenz-Fohrenburg-old_sparkling_water_bottles-01ASD.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Asurnipal"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 16,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 4,
+    "total": 68
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-017",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "平沢進が『パプリカ』でVOCALOIDを使った2006年、映画音楽に合成声を入れた意味",
+   "angle": "今敏が音を先に作らせ、平沢進がVOCALOIDのLolaで「Meditational Field」の声を作った。当時の新技術をどう使ったか。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "平沢進 パプリカ VOCALOID",
+    "パプリカ サウンドトラック 2006"
+   ],
+   "subjects": [
+    {
+     "name": "平沢進",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Paprika (soundtrack)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.japantimes.co.jp/culture/2026/11/21/music/susumu-hirasawa-paprika-soundtrack/",
+    "https://en.wikipedia.org/wiki/Paprika_(soundtrack)",
+    "https://www.milanrecords.com/release/paprika/",
+    "https://open.spotify.com/album/7rqgfNzxlm0VsWpJYT0XW7"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/B%C3%9CMK_Elektronik_M%C3%BCzik_Odas%C4%B1.jpg/960px-B%C3%9CMK_Elektronik_M%C3%BCzik_Odas%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:B%C3%9CMK_Elektronik_M%C3%BCzik_Odas%C4%B1.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Berkingurcan"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/E-mu_E-Synth_KB_%2815711650354%29.jpg/960px-E-mu_E-Synth_KB_%2815711650354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:E-mu_E-Synth_KB_(15711650354).jpg",
+     "license": "CC BY 2.0",
+     "author": "deepsonic from Switzerland"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 3,
+    "total": 82
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-018",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "Spotify Wrappedを思いどおりにする、リスニング履歴とアルゴリズムの関係",
+   "angle": "年末のWrappedは過去の再生履歴から作られる。お気に入りのアーティストをどう登録し、どう聴くかで結果が変わる。",
+   "article_type": "guide",
+   "keywords": [
+    "Spotify Wrapped 仕組み",
+    "リスニング履歴 アルゴリズム"
+   ],
+   "subjects": [
+    {
+     "name": "Spotify",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-industry/streaming-sharing/worried-what-your-spotify-wrapped-is-going-to-say-about-your-taste-in-music-its-not-too-late-to-game-the-algorithm",
+    "https://newsroom.spotify.com/",
+    "https://en.wikipedia.org/wiki/Spotify"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Beats_headphones_diy_repair_2.jpg/960px-Beats_headphones_diy_repair_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beats_headphones_diy_repair_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Bait30"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg/960px-Cables_%26_Monitor_headphones%2C_Downtown_Recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cables_%26_Monitor_headphones,_Downtown_Recording.jpg",
+     "license": "CC BY 2.0",
+     "author": "Jason Meredith"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 20,
+    "verifiable": 16,
+    "images": 18,
+    "season": 10,
+    "demand": 8,
+    "amazon": 3,
+    "total": 75
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-019",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "『テルマエ・ロマエ』は風呂に入れないストレスから生まれた、制約が生む発想",
+   "angle": "ヤマザキマリが語った着想。できないことから逆に広がるアイデアの作り方を、創作論として考える。",
+   "article_type": "theme",
+   "keywords": [
+    "テルマエ・ロマエ 発想",
+    "制約 アイデア 創作論"
+   ],
+   "subjects": [
+    {
+     "name": "ヤマザキマリ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.lifehacker.jp/article/2611-book_to_read-weekend_180/",
+    "https://en.wikipedia.org/wiki/Thermae_Romae",
+    "https://en.wikipedia.org/wiki/Mari_Yamazaki"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Android_Emoji_1f4da.svg/960px-Android_Emoji_1f4da.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Android_Emoji_1f4da.svg",
+     "license": "Apache License 2.0",
+     "author": "Google"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Books_stack_icon.svg/960px-Books_stack_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Books_stack_icon.svg",
+     "license": "CC BY-SA 4.0",
+     "author": "Ranjithsiji"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 20,
+    "verifiable": 16,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 4,
+    "total": 70
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-020",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "カバンが運ぶ移動の歴史、香港からアフリカへ渡ったバッグの話",
+   "angle": "ジャパンタイムズが報じた、難民の移動とともに形を変えてきたバッグ。身の回りのモノが記録する移動を考える。",
+   "article_type": "theme",
+   "keywords": [
+    "バッグ 移動 歴史",
+    "難民 持ち物 エッセイ"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.japantimes.co.jp/news/2026/11/21/world/humble-bag-migration-history/",
+    "https://en.wikipedia.org/wiki/Suitcase",
+    "https://en.wikipedia.org/wiki/Travel_bag"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg/960px-6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:6x_The_North_Face_Mountain_Light_Gore-tex_Triclimate_Down_Jacket.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Adenosine Triphosphate"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Adidas_Helionic_Down_Jacket.jpg/960px-Adidas_Helionic_Down_Jacket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Adidas_Helionic_Down_Jacket.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Adenosine Triphosphate"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 15,
+    "images": 18,
+    "season": 5,
+    "demand": 6,
+    "amazon": 3,
+    "total": 68
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-021",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "エメラルド・フェネル版『ワジントン・ハイツ』、2026年版が賛否を呼んだ理由",
+   "angle": "マーゴット・ロビーとジェイコブ・エロルディ主演。原作を「10代の頃の読書感」として再解釈した意図を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Wuthering Heights 2026 フェネル",
+    "ワジントン・ハイツ 2026 評価"
+   ],
+   "subjects": [
+    {
+     "name": "Wuthering Heights (2026 film)",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wuthering_Heights_(2026_film)",
+    "https://www.goldderby.com/film/2026/wuthering-heights-margot-robbie-jacob-elordi-2027-oscar-odds/",
+    "https://www.youtube.com/watch?v=ID0rqEWrN44",
+    "https://therollingtape.com/the-awards-tape-wuthering-heights-2026-awards-assessment-2/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/16_mm_Film_camera.JPG/960px-16_mm_Film_camera.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:16_mm_Film_camera.JPG",
+     "license": "CC BY 3.0",
+     "author": "Nefirious (talk)"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/A_possum_and_a_movie_camera_1943.jpg/960px-A_possum_and_a_movie_camera_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_possum_and_a_movie_camera_1943.jpg",
+     "license": "No restrictions",
+     "author": "Australian War Memorial collection from Canberra, Australia"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 17,
+    "images": 18,
+    "season": 9,
+    "demand": 8,
+    "amazon": 3,
+    "total": 78
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-022",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "『ソクラテスの弁明』はなぜ今も読まれるのか、プラトンが残した裁判演説",
+   "angle": "紀元前399年の裁判でソクラテスが語った弁明。有名な一節だけではない、弁論としての構成を読み直す。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ソクラテスの弁明 プラトン",
+    "ソクラテス 裁判 弁論"
+   ],
+   "subjects": [
+    {
+     "name": "プラトン",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ソクラテスの弁明",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Apology_(Plato)",
+    "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Apol.+1",
+    "https://en.wikipedia.org/wiki/Socrates"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Android_Emoji_1f4da.svg/960px-Android_Emoji_1f4da.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Android_Emoji_1f4da.svg",
+     "license": "Apache License 2.0",
+     "author": "Google"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Books_stack_icon.svg/960px-Books_stack_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Books_stack_icon.svg",
+     "license": "CC BY-SA 4.0",
+     "author": "Ranjithsiji"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 17,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 3,
+    "total": 68
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-023",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "声で操作できるファン付き照明、暖房効率と明るさを1台にまとめる",
+   "angle": "照明とサーキュレーターを兼用する機器が登場。冬の部屋で空気を循環させながら明るさを保つ工夫を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ファン付き照明 暖房効率",
+    "サーキュレーター 照明 一体"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://www.lifehacker.jp/article/2611-costorypo-lumoair-end-1964238331/",
+    "https://en.wikipedia.org/wiki/Ceiling_fan",
+    "https://www.gizmodo.jp/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%28Barcelona%29_Dining_Room_by_Pere_Torn%C3%A9_Esquius_-_Museu_Nacional_d%27Art_de_Catalunya.jpg/960px-%28Barcelona%29_Dining_Room_by_Pere_Torn%C3%A9_Esquius_-_Museu_Nacional_d%27Art_de_Catalunya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Dining_Room_by_Pere_Torn%C3%A9_Esquius_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+     "license": "Public domain",
+     "author": "Didier Descouens"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Aleksander_Gryglewski_-_Living-room_interior_-_MP_3094_MNW_-_National_Museum_in_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Aleksander_Gryglewski_-_Living-room_interior_-_MP_3094_MNW_-_National_Museum_in_Warsaw.jpg",
+     "license": "Public domain",
+     "author": "Aleksander Gryglewski"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 18,
+    "season": 12,
+    "demand": 7,
+    "amazon": 4,
+    "total": 78
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-024",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "AnkerのUSB-C HDMIケーブル、古いHDMIモニターにUSB-C充電を追加する",
+   "angle": "HDMIなのにUSB-C充電もできるケーブル。古いモニターを買い替えずにノートPCの給電をまかなう方法。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Anker USB-C HDMI ケーブル",
+    "古いモニター USB-C 充電"
+   ],
+   "subjects": [
+    {
+     "name": "Anker USB-C to HDMI Cable",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.gizmodo.jp/article/2611-anker-usb-c-hdmi-cable/",
+    "https://www.anker.com/",
+    "https://en.wikipedia.org/wiki/USB-C"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Backlit_keyboard.jpg/960px-Backlit_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Colin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Backlit_keyboard_2.jpg/960px-Backlit_keyboard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oboy2009"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 16,
+    "images": 18,
+    "season": 5,
+    "demand": 8,
+    "amazon": 5,
+    "total": 73
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-025",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "RuffがBlackとFlake8を置き換える、Pythonの整形とlintを1本にまとめる",
+   "angle": "Rust製のRuffはBlack・Flake8・isortの代替を謳う。pre-commitフックまで含めた移行手順を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "Ruff Black Flake8 置き換え",
+    "Python lint formatter 2026"
+   ],
+   "subjects": [
+    {
+     "name": "Ruff",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://github.com/astral-sh/ruff",
+    "https://docs.astral.sh/ruff/",
+    "https://pypi.org/project/ruff/",
+    "https://github.com/astral-sh/ruff-pre-commit"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Backlit_keyboard.jpg/960px-Backlit_keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Colin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Backlit_keyboard_2.jpg/960px-Backlit_keyboard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Backlit_keyboard_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Oboy2009"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 21,
+    "verifiable": 19,
+    "images": 18,
+    "season": 5,
+    "demand": 8,
+    "amazon": 3,
+    "total": 74
+   },
+   "source_of_idea": "search",
+   "id": "2026w47-026",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "DNS over HTTPSをルーターで有効にする、ISPのDNSを避ける設定",
+   "angle": "DoHはDNSの問い合わせを暗号化する。ルーター単位で切り替える方法と、副作用を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "DNS over HTTPS ルーター",
+    "DoH 設定 手順"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/DNS_over_HTTPS",
+    "https://developers.cloudflare.com/1.1.1.1/",
+    "https://www.iana.org/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Broadcom-fxo-wifi-router-13_23161493174_o.jpg/960px-Broadcom-fxo-wifi-router-13_23161493174_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Broadcom-fxo-wifi-router-13_23161493174_o.jpg",
+     "license": "CC BY 2.0",
+     "author": "Master Of  Bad Composition and Framing"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg/960px-ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ELECOM_WRC-300FEBK_WPS_WiFi_router.jpg",
+     "license": "CC0",
+     "author": "Syced"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 17,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 3,
+    "total": 69
+   },
+   "source_of_idea": "search",
+   "id": "2026w47-027",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "グラスを冷やしてから注ぐ、氷を入れずに冷たい一杯を作る",
+   "angle": "冷えたグラスは飲み物の温度上昇を遅らせる。氷で薄めずに冷たさを保つ工夫をまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "グラス 冷やす 氷なし",
+    "飲み物 温度 保つ 工夫"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Drinking_glass",
+    "https://en.wikipedia.org/wiki/Ice",
+    "https://www.imbibemagazine.com/"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ice-Cubes.jpg/960px-Ice-Cubes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ice-Cubes.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "בר"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IceCube_Neutrino_Observatory_in_2023_02.jpg/960px-IceCube_Neutrino_Observatory_in_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:IceCube_Neutrino_Observatory_in_2023_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Christopher Michel"
+    }
+   ],
+   "season": "夏",
+   "score": {
+    "novelty": 18,
+    "verifiable": 15,
+    "images": 18,
+    "season": 7,
+    "demand": 6,
+    "amazon": 3,
+    "total": 67
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-028",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "iLoud Micro Monitor 2、10年ぶりの刷新でARC Xのルーム補正を内蔵",
+   "angle": "25万台以上売れた超小型モニターが2026年12月に刷新。 measurementマイク同梱のARC Xで補正する仕組みを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "iLoud Micro Monitor 2 ARC X",
+    "小型モニター ルーム補正 2026"
+   ],
+   "subjects": [
+    {
+     "name": "IK Multimedia iLoud Micro Monitor 2",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://ikmultimedia.com/en-us/blogs/news/announcing-iloud-micro-monitor-2",
+    "https://audioxpress.com/news/ik-multimedia-unveils-iloud-micro-monitor-2-completely-reengineered-with-arc-x-room-correction",
+    "https://www.perfectcircuit.com/ik-multimedia-iloud-micro-monitor-2.html",
+    "https://www.dtmstation.com/archives/82013.html"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg/960px-2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "TVN Group"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_%28mid-1950s%29_-_recording_equipment_-_MIM_Phoenix_AZ_%282017-12-04_14.05.19_by_bobistraveling_140519%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ampex_model_300_%C2%BD%22_3-track_tape_recorder_%26_JBL_Signature_monitor_speaker_(mid-1950s)_-_recording_equipment_-_MIM_Phoenix_AZ_(2017-12-04_14.05.19_by_bobistraveling_140519).jpg",
+     "license": "CC BY 2.0",
+     "author": "bobistraveling"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 24,
+    "verifiable": 19,
+    "images": 18,
+    "season": 8,
+    "demand": 8,
+    "amazon": 5,
+    "total": 82
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-029",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "iReal Proでジャズのコード進行を聴く、バッキングトラックで練習する",
+   "angle": "コード進行を入力するとピアノとドラムが自動で鳴る。スタンダードを耳で覚えるための使い方を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "iReal Pro 使い方",
+    "ジャズ バッキングトラック 練習"
+   ],
+   "subjects": [
+    {
+     "name": "iReal Pro",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://irealpro.com/",
+    "https://en.wikipedia.org/wiki/Jazz_standard",
+    "https://www.musicradar.com/"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bennycarterpatienceandfortitude.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bennycarterpatienceandfortitude.jpg",
+     "license": "Public domain",
+     "author": "Freimut Bahlo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Concord_Jazz_record.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Concord_Jazz_record.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Samarkandus"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 19,
+    "verifiable": 16,
+    "images": 18,
+    "season": 5,
+    "demand": 7,
+    "amazon": 4,
+    "total": 69
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-030",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ジャズのスタンダードを1曲ずつ暗譜する、メロディとコードの覚え順",
+   "angle": "耳コピだけに頼らず、メロディ→コード→ベース音の順で体に入れる。1曲を仕上げる手順を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "ジャズ スタンダード 暗譜",
+    "メロディ コード 覚え方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jazz_standard",
+    "https://www.musicradar.com/",
+    "https://en.wikipedia.org/wiki/Real_Book"
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bennycarterpatienceandfortitude.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bennycarterpatienceandfortitude.jpg",
+     "license": "Public domain",
+     "author": "Freimut Bahlo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Concord_Jazz_record.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Concord_Jazz_record.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Samarkandus"
+    }
+   ],
+   "season": "通年",
+   "score": {
+    "novelty": 18,
+    "verifiable": 15,
+    "images": 18,
+    "season": 5,
+    "demand": 6,
+    "amazon": 4,
+    "total": 66
+   },
+   "source_of_idea": "matrix",
+   "id": "2026w47-031",
+   "status": "approved",
+   "created": "2026-11-22",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『装甲騎兵ボトムズ グレイ・ヘクセ』押井守が手がける2026年の新作",
+   "angle": "2026年11月20日公開のPart 1。球体関節人形のようなロボット的表现と、押井守の定点長回しがどう出るかを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "装甲騎兵ボトムズ グレイヘクセ 2026",
+    "押井守 ボトムズ 新作"
+   ],
+   "subjects": [
+    {
+     "name": "Armored Trooper VOTOMS: Die Graue Hexe",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_in_anime",
+    "https://www.crunchyroll.com/news/movies",
+    "https://www.animenewsnetwork.com/encyclopedia/anime/upcoming/movie"
+   ],
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/99.5_WCRB_Classical_Radio_Boston_14th_Annual_Classical_Cartoon_Festival_at_Boston%E2%80%99s_Symphony_Hall_Fall_2012.jpg/960px-99.5_WCRB_Classical_Radio_Boston_14th_Annual_Classical_Cartoon_Festival_at_Boston%E2%80%99s_Symphony_Hall_Fall_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:99.5_WCRB_Classical_Radio_Boston_14th_Annual_Classical_Cartoon_Festival_at_Boston%E2%80%99s_Symphony_Hall_Fall_2012.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "EgorovaSvetlana"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Anime_Girl.svg/960px-Anime_Girl.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Anime_Girl.svg",
+     "license": "CC BY 3.0",
+     "author": "User:Niabot"
+    }
+   ],
+   "season": "11月",
+   "score": {
+    "novelty": 23,
+    "verifiable": 16,
+    "images": 18,
+    "season": 10,
+    "demand": 7,
+    "amazon": 3,
+    "total": 77
+   },
+   "source_of_idea": "news",
+   "id": "2026w47-032",
+   "status": "approved",
+   "created": "2026-11-22",
    "retry": 0
   }
  ]
