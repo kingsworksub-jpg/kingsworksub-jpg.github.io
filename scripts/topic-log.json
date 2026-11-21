@@ -3732,6 +3732,18 @@
    "note_key": "n03e847c1a36d",
    "engine": "gemini",
    "at": "2026-11-21T23:22:21+09:00"
+  },
+  {
+   "id": "2026w45-009",
+   "category": "net",
+   "theme": "Pi-holeで家中の広告とトラッカーをDNSで止める、Raspberry Piで作る手順",
+   "slug": "pi-hole-raspberry-pi-adblock",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/pi-hole-raspberry-pi-adblock/",
+   "hatena_entry": "tag:blog.hatena.ne.jp,2013:blog-kinbro-26006613798493057-14729835035342026442",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-22T07:43:03+09:00"
   }
  ]
 }
