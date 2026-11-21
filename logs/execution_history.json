@@ -9127,5 +9127,25 @@
       "PIL/hugo未導入のためseo-audit未実行"
     ],
     "status": "完了(修正対象なし・ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T04:52:52Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "guitar-recording-amp-simulator-setup"
+    ],
+    "actions": [
+      "figure2枚が見出しの直前にあったため、CLAUDE.mdルール(見出し→figure→段落)に合わせて見出しの直後へ移動",
+      "禁止表現・description長・images・CTAプレースホルダの再点検は問題0件"
+    ],
+    "files_changed": [
+      "content/posts/guitar-recording-amp-simulator-setup.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figure配置違反0件を維持",
+      "hugo/PIL未導入のためビルド・seo-audit未実行"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
