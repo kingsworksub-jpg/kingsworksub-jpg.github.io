@@ -31,11 +31,6 @@ ogImageHeight: 630
 <figcaption>ジャズの本質は、音楽と装い、そして生き方の一体性にある<span class="credit">Photo: Unsplash / Jens Thekkeveettil</span></figcaption>
 </figure>
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
-<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった<span class="credit">Photo: Pexels / Oscar Steiner</span></figcaption>
-</figure>
-
 2026年にジャズスタイルが再び注目されるのは、ファッションサイクルの単なる回転ではなく、社会的な背景がある。
 
 <p class="cvr-text-link" data-cvr="text-B088B6BMWQ"><a href="https://www.amazon.co.jp/dp/B088B6BMWQ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Jazz saxophonist performingの実売価格・レビューをAmazonで確認する →</a></p>
@@ -43,6 +38,11 @@ ogImageHeight: 630
 <p class="cvr-text-link" data-cvr="text-B0GVM7ML75"><a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Fashionable pinstripe suitの実売価格・レビューをAmazonで確認する →</a></p>
 
 現代のファッションは、大きく二つのトレンドに分裂している。一つは、情報の過剰さから逃れるための「ミニマリズム」。もう一つは、その反発としての「マキシマリズム」、あるいは「アイデンティティの可視化」である。
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B0GVM7ML75?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-fashion/pinstripe-suit.jpg" width="240" height="360" alt="Fashionable pinstripe suit" loading="lazy"></a>
+<figcaption>ピンストライプは単なるパターンではなく、反抗の美学だった<span class="credit">Photo: Pexels / Oscar Steiner</span></figcaption>
+</figure>
 
 ジャズの時代性を理解する上で、ファッションの役割は見落とされることが多い。だが1920年から1960年代にかけて、ジャズメンの装いは単なる流行ではなく、彼らの社会的立場と音楽的哲学を映す鏡だった。
 
