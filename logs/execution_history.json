@@ -9057,5 +9057,26 @@
       "他記事に同種の\\n混入・XXXXプレースホルダーは無し(grep確認)"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T00:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "mic-preamp-gain-compare-2026"
+    ],
+    "actions": [
+      "末尾のAmazonリンク4行が改行のみで1段落に結合されていたため箇条書き化",
+      "関連記事にcondenser-mic-5choice-2026への内部リンクを追加"
+    ],
+    "files_changed": [
+      "content/posts/mic-preamp-gain-compare-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "未改善記事は実質ほぼ無し(改善履歴281/279記事)",
+      "figure配置・description・画像のlintは全公開記事で問題なし",
+      "hugo/PILが環境に無くビルド・seo-audit未実行"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

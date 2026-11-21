@@ -13,7 +13,7 @@ scheduled_time: "17:30"
 
 マイクプリアンプは、微弱なマイク信号をラインレベルまで増幅し、ノイズ耐性を持たせて後段の機器での処理を可能にする装置である。多くのユーザーが「同じマイクを使っているのに、インターフェースを変えると音が違う」「ゲインを上げると音のざらつきや印象が変わる」と感じてきた。しかし、この違いがどのような回路設計や仕様に起因するのかを数値や根拠を基に整理した資料は意外と少ない。本記事では、市場で広く選ばれている4つのオーディオインターフェースを取り上げ、マイクプリアンプの設計思想、ゲイン範囲、ノイズ特性、そしてゲイン上昇に伴う音の変化について詳しく紐解いていく。
 
-[Focusrite Scarlett 2i2（第4世代）の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
+- [Focusrite Scarlett 2i2（第4世代）の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
 
 ## 結論と要約データ：4機種のプリアンプ仕様比較
 
@@ -41,7 +41,7 @@ Focusrite Scarlett 2i2（第4世代）は、最大69dBのゲインレンジを�
 
 本機の特徴は、伝統的なISAプリアンプの回路を模した「Air Presence」に加え、中高域の倍音を加える「Air Presence and Harmonic Drive」の2つのモードを備えている点だ。さらに、演奏や歌唱を10秒間入力することで最適なゲインレベルを自動設定する「Auto Gain機能」や、入力信号を1秒間に最大96,000回監視してクリッピングの危険を検知すると自動的にプリアンプのゲインを下げる「Clip Safe機能」を搭載している。ゲインを深く上げた際にも、デジタル制御と監視機構が破綻を防ぐ仕組みになっている。
 
-[Focusrite Scarlett 2i2（第4世代）の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
+- [Focusrite Scarlett 2i2（第4世代）の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
 
 ### Audient iD14 MKIIのディスクリート・クラスA回路
 
@@ -54,7 +54,7 @@ Audient iD14 MKIIに搭載されているマイクプリアンプは、同社の
 
 Audientのプリアンプは、着色感の少ない正確さと高い忠実度を重視した設計だ。色付けを排した純度の高い増幅を行うため、マイクが捉えた音のディテールをそのまま後段に伝える能力に優れている。ゲインを上げた際にも回路起因の過度な歪みが加わりにくく、音源の持つ本来の音色をストレートに捉えたい場合に適した設計となっている。
 
-[Audient iD14 MKIIの価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B08SJD466P?tag=nakimoto1-22)
+- [Audient iD14 MKIIの価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B08SJD466P?tag=nakimoto1-22)
 
 ### Universal Audio Apollo Twin X Gen 2のUnisonテクノロジー
 
@@ -67,7 +67,7 @@ Universal Audio Apollo Twin X Gen 2は、2基のUnisonマイクプリアンプ�
 
 Unisonテクノロジー対応のUADプラグインを適用すると、Apolloのマイクプリアンプハードウェアの物理的な入力インピーダンスやゲインステージング応答、その他のパラメータがエミュレート対象のハードウェア特性に合わせて再構成される。真空管やトランスを搭載したヴィンテージ・レトロ系プリアンプが持つような、倍音や独特の色付け（カラーレーション）をリアルタイムのハードウェア挙動として付加できる点が、他のフラット志向のインターフェースとは決定的に異なるアプローチである。
 
-[Universal Audio Apollo Twin X DUO Gen 2の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0DKNP8CQC?tag=nakimoto1-22)
+- [Universal Audio Apollo Twin X DUO Gen 2の価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0DKNP8CQC?tag=nakimoto1-22)
 
 ### RME Babyface Pro FSのデジタル制御と高精度ゲイン
 
@@ -80,7 +80,7 @@ RME Babyface Pro FSは、デジタル制御によるゲイン設定を1dBステ�
 
 リレー駆動のPADにより、ライン入力時の過負荷保護と広いヘッドルームを確保している。RMEはEIN性能の高さを特長に挙げているが、具体的な数値は公表していない。1dB刻みでゲインを詰められるので、必要な分だけを正確に持ち上げられるのがこの機種の強みだ。
 
-[RME Babyface Pro FSの価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22)
+- [RME Babyface Pro FSの価格と詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22)
 
 ---
 
@@ -125,10 +125,10 @@ RME Babyface Pro FSは、デジタル制御によるゲイン設定を1dBステ�
 
 機材選びの際は、最大ゲインの数値だけでなく、自身の使用するマイクの感度や、クリーンさを重視するかアナログ的なカラーレーションを求めるかという目的に合わせた選定が極めて重要となる。サイズや設置スペース、長期的な安定性、ドライバの堅牢性、そして維持費にかかわる拡張性などの不安についても、今回紹介した各機の仕様やハードウェア設計をあらかじめ確認しておくことで、導入後のミスマッチを十分に払拭することが可能である。
 
-[Focusrite Scarlett 2i2（第4世代）の詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
-[Audient iD14 MKIIの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B08SJD466P?tag=nakimoto1-22)
-[Universal Audio Apollo Twin X DUO Gen 2の詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0DKNP8CQC?tag=nakimoto1-22)
-[RME Babyface Pro FSの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22)
+- [Focusrite Scarlett 2i2（第4世代）の詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0C5JRTS3Y?tag=nakimoto1-22)
+- [Audient iD14 MKIIの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B08SJD466P?tag=nakimoto1-22)
+- [Universal Audio Apollo Twin X DUO Gen 2の詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B0DKNP8CQC?tag=nakimoto1-22)
+- [RME Babyface Pro FSの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B081BVF3DH?tag=nakimoto1-22)
 
 ## 関連記事・おすすめメディア
 
@@ -138,3 +138,4 @@ RME Babyface Pro FSは、デジタル制御によるゲイン設定を1dBステ�
 - [ダイナミックマイク5本比較、話し声も歌も1本で録るなら必要なゲインから選ぶ](/posts/dynamic-mic-5choice-2026/)
 - [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/)
 - [Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する](/posts/scarlett-2i2-deep-dive-2026/)
+- [コンデンサーマイク5本比較 — 指向性と電源から選ぶ、宅録の最初の一本](/posts/condenser-mic-5choice-2026/)
