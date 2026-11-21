@@ -37,6 +37,12 @@ scheduled_time: "07:30"
 
 ## フランク・デ・ヴォルによる洗練されたオーケストラ
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ella-xmas-1960/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg" alt="エラ・フィッツジェラルドのポートレート" width="220" height="150" loading="lazy"></a>
+<figcaption>1960年の録音に挑んだエラ・フィッツジェラルド<span class="credit">Photo: William P. Gottlieb / Public domain</span></figcaption>
+</figure>
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22)
+
 本作の成功を支えた最大の立役者の一人が、編曲と指揮を担当したフランク・デ・ヴォルです。彼はエラの変幻自在な声を最大限に活かすため、重層的なオーケストラ・サウンドを構築しました。その響きは豪華でありながら、決して主役である彼女の歌を邪魔することはありません。
 
 ブラス・セクションの鋭い立ち上がりと、対照的に甘く響くストリングスの対比が見事です。各楽器の配置が計算されており、スピーカーから流れる音像は非常に立体的で豊かです。デ・ヴォルの手法は、当時のジャズ界でも高い評価を得ており、エラとの相性は抜群でした。
@@ -47,11 +53,6 @@ scheduled_time: "07:30"
 
 彼が率いるオーケストラの精緻なアンサンブルは、当時のVerve Recordsの録音技術によって鮮明に捉えられました。各パートの解像度が高く、編曲の細部まで鑑賞できるのは現代のリスナーにとっても大きな喜びです。指揮者とシンガーの深い信頼関係が、すべてのトラックから伝わってきます。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ella-xmas-1960/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg" alt="エラ・フィッツジェラルドのポートレート" width="220" height="150" loading="lazy"></a>
-<figcaption>1960年の録音に挑んだエラ・フィッツジェラルド<span class="credit">Photo: William P. Gottlieb / Public domain</span></figcaption>
-</figure>
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22)
 
 ## スウィングの女王が定義するホリデー・スタンダード
 
@@ -79,6 +80,12 @@ scheduled_time: "07:30"
 
 ## プロデューサーのノーマン・グランツが求めた完璧主義
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ella-xmas-1960/EllaFitzgeraldvv.jpg" alt="ステージで歌うエラ・フィッツジェラルド" width="220" height="150" loading="lazy"></a>
+<figcaption>圧倒的な存在感を放つエラのパフォーマンス<span class="credit">Photo: Carl Van Vechten / Public domain</span></figcaption>
+</figure>
+[Amazonで詳細を確認する](https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22)
+
 本作のプロデュースを手がけたのは、ジャズ界の巨星ノーマン・グランツです。彼はVerve Recordsの創設者であり、エラの才能を世界に知らしめた最大の功労者でもあります。グランツが本作に求めたのは、一切の妥協を許さないクオリティの追求でした。
 
 彼はエラの声を最も美しく録るために、最高のスタジオとエンジニアを確保しました。1960年当時の録音としては驚異的なレンジの広さと、ノイズの少なさがそれを証明しています。グランツの厳しい耳が、本作をオーディオファイル的な価値を持つ一枚へと押し上げました。
@@ -89,11 +96,6 @@ scheduled_time: "07:30"
 
 その完璧主義は、アルバムのジャケットデザインやプロモーションにまで及びました。本作を単なる一過性のヒット作にせず、歴史に残る名盤にするという彼の強い意志を感じます。今日、私たちがこの素晴らしい音を聴けるのは、グランツの情熱があったからこそです。
 
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ella-xmas-1960/EllaFitzgeraldvv.jpg" alt="ステージで歌うエラ・フィッツジェラルド" width="220" height="150" loading="lazy"></a>
-<figcaption>圧倒的な存在感を放つエラのパフォーマンス<span class="credit">Photo: Carl Van Vechten / Public domain</span></figcaption>
-</figure>
-[Amazonで詳細を確認する](https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22)
 
 ## 34分間の凝縮された贅沢なリスニング体験
 
