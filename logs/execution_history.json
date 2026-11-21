@@ -9147,5 +9147,26 @@
       "hugo/PIL未導入のためビルド・seo-audit未実行"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T05:54:06Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ella-wishes-you-a-swinging-christmas-1960"
+    ],
+    "actions": [
+      "CTA画像の width/height が実寸(946x1000の縦長)と合わず歪む指定(300x200)だったため190x200に修正し loading=lazy を追加",
+      "全280記事の description長・images・figure配置・alt/figcaption・プレースホルダ再点検(他は問題なし)",
+      "9月の深掘り記事約35本は本文2000字前後と薄いが、リサーチが必要なため未着手(次回以降の候補)"
+    ],
+    "files_changed": [
+      "content/posts/ella-wishes-you-a-swinging-christmas-1960.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(9月17〜21日分)のリライト候補を順次消化",
+      "hugo/PIL未導入のためビルド・seo-audit未実行"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

@@ -18,7 +18,7 @@ scheduled_time: "07:30"
 
 <div class="cta-block">
 <a href="https://www.amazon.co.jp/s?k=Ella+Wishes+You+a+Swinging+Christmas&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
-<img src="/images/ella-xmas-1960/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg" alt="Ella Wishes You a Swinging Christmas" width="300" height="200">
+<img src="/images/ella-xmas-1960/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg" alt="Ella Wishes You a Swinging Christmas" width="190" height="200" loading="lazy">
 <span>Amazonで見る →</span>
 </a>
 </div>
