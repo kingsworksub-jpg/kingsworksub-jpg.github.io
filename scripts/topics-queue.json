@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:02:05+09:00",
+ "updated": "2026-11-21T12:20:04+09:00",
  "items": [
   {
    "category": "gear",
@@ -11854,7 +11854,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-017",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 1,
    "claimed_at": "2026-11-21T12:02:05+09:00",
@@ -11862,7 +11862,9 @@
    "content_dir": "reviews",
    "slot_time": "12:00",
    "slot_label": "昼: テック/ソフト/制作環境",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "slug": "guitar-recording-amp-simulator-setup",
+   "published_at": "2026-11-21T12:20:04+09:00"
   },
   {
    "category": "setup",

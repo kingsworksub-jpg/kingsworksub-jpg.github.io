@@ -3669,6 +3669,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-21T07:44:42+09:00"
+  },
+  {
+   "id": "2026w45-017",
+   "category": "setup",
+   "theme": "アンプを鳴らせない部屋のギター録音、アンプシミュレーターへの配線",
+   "slug": "guitar-recording-amp-simulator-setup",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/guitar-recording-amp-simulator-setup/",
+   "hatena_entry": "hatena-pending",
+   "note_key": "",
+   "engine": "gemini",
+   "at": "2026-11-21T12:20:04+09:00"
   }
  ]
 }
