@@ -3183,5 +3183,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-21T13:00:09+09:00"
+ },
+ "two-factor-auth-migration-guide": {
+  "title": "機種変更で二段階認証を失わないための引継ぎ術：GoogleとMicrosoft Authenticatorの正しい移行手順",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "hatena-draft",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-21T21:00:10+09:00"
  }
 }
