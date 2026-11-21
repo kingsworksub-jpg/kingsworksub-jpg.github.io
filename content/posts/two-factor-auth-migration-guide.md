@@ -18,14 +18,12 @@ scheduled_time: "20:00"
 最新のアプリではクラウド同期やバックアップ機能が強化されており、以前よりも移行のハードルは下がっています。
 本記事では、主要な2つの認証アプリにおける具体的な移行手順と、万が一に備えたバックアップコードの管理方法について詳しく解説します。
 
+## 機種変更前に必ず確認したい二段階認証の重要性
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=YubiKey&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/two-factor-auth/auth-enabled.png" alt="二段階認証が有効化された画面の例" width="220" height="150" loading="lazy"></a>
 <figcaption>二段階認証を正しく設定することで、アカウントの安全性を飛躍的に高めることが可能です。<span class="credit">Photo: Wikimedia Foundation / CC BY-SA 4.0</span></figcaption>
 </figure>
 
-[Amazonで見る →](https://www.amazon.co.jp/s?k=YubiKey&tag=nakimoto1-22)
-
-## 機種変更前に必ず確認したい二段階認証の重要性
 二段階認証（2FA）は、パスワードに加えてスマートフォンに表示される一度限りのコードを入力することで、アカウントの安全を守る仕組みです。
 この仕組みで使われるOTP（ワンタイムパスワード）は、TOTP（Time-based One-Time Password）アルゴリズムに基づいて生成されています。
 通常、これらのトークンは30秒ごとに更新され、一度しか使用できないため、非常に高いセキュリティ性能を誇ります。
@@ -55,6 +53,11 @@ Googleアカウントのパスワードが漏洩すれば、同期されてい�
 利便性とセキュリティのバランスを考え、同期機能を使うかどうかを選択することが大切です。
 
 ## QRコードを使ったGoogle Authenticatorの手動エクスポート
+<figure class="photo photo--right">
+<a href="https://www.google.com/landing/2step/" target="_blank" rel="noopener nofollow"><img src="/images/two-factor-auth/auth-app.png" alt="認証アプリを有効化する際のQRコード読み取り画面" width="220" height="150" loading="lazy"></a>
+<figcaption>移行時もこのようにQRコードをスキャンすることで、安全に情報を引き継ぐことができます。<span class="credit">Photo: Wikimedia Foundation / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 クラウド同期を使いたくない場合や、特定の端末間だけで直接データを移したい場合には、QRコードを使った手動エクスポート機能が便利です。
 この方法では、旧端末で表示したエクスポート用のQRコードを、新端末のカメラで読み取ることでアカウント情報を転送します。
 ネットワークを介さず直接データを移せるため、セキュリティ意識の高いユーザーに推奨される方法です。
@@ -66,11 +69,6 @@ Googleアカウントのパスワードが漏洩すれば、同期されてい�
 この作業の利点は、移行後も旧端末にデータが残るため、新端末で正しく動作することを確認できるまで安心感がある点です。
 もし読み取りがうまくいかない場合は、画面の明るさを調整したり、カメラのピントを合わせたりして再度試みてください。
 手動エクスポートは確実な方法ですが、作業中は周囲に人がいないことを確認し、QRコードを盗み見られないようにしましょう。
-
-<figure class="photo photo--right">
-<a href="https://www.google.com/landing/2step/" target="_blank" rel="noopener nofollow"><img src="/images/two-factor-auth/auth-app.png" alt="認証アプリを有効化する際のQRコード読み取り画面" width="220" height="150" loading="lazy"></a>
-<figcaption>移行時もこのようにQRコードをスキャンすることで、安全に情報を引き継ぐことができます。<span class="credit">Photo: Wikimedia Foundation / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=YubiKey&tag=nakimoto1-22)
 
@@ -155,7 +153,6 @@ Google Authenticatorのクラウド同期やQRコード転送、Microsoft Authen
 引継ぎ作業は一見複雑に見えますが、一つひとつの手順を確認しながら進めれば決して難しくありません。
 もし不明な点があれば、各サービスの公式サイトにあるヘルプページを参照し、最新の仕様を確認することをおすすめします。
 万全の準備を整えて、新しいデバイスでの快適で安全なデジタルライフをスタートさせてください。
-
 
 ## 関連記事・おすすめメディア
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

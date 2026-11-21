@@ -9277,5 +9277,26 @@
       "ビルド未検証"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T11:53:35Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "two-factor-auth-migration-guide"
+    ],
+    "actions": [
+      "既存283記事は巡回済みのため、未対応の新着1本を点検",
+      "figureを見出し直後・本文段落の直前に移動(CLAUDE.mdの配置ルール準拠)、画像直後の短いAmazonリンク行を節末へ移動して回り込みを確保"
+    ],
+    "files_changed": [
+      "content/posts/two-factor-auth-migration-guide.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "Hatena/Ameba/noteは今回改定案なし",
+      "ビルド未検証(hugo無し)",
+      "全記事が一巡済み。次回以降は新着記事のみ対象でよい"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
