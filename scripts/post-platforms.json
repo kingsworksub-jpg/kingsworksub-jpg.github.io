@@ -3207,5 +3207,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-22T00:00:11+09:00"
+ },
+ "pi-hole-raspberry-pi-adblock": {
+  "title": "Raspberry PiでPi-holeを動かし、家庭内の広告と追跡通信をDNSレベルで抑える手順",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "tag:blog.hatena.ne.jp,2013:blog-kinbro-26006613798493057-14729835035342026442",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-22T08:00:10+09:00"
  }
 }
