@@ -3681,6 +3681,15 @@
    "note_key": "",
    "engine": "gemini",
    "at": "2026-11-21T12:20:04+09:00"
+  },
+  {
+   "id": "2026w42-018",
+   "category": "learning",
+   "theme": "ミックスの参考曲を選ぶ、自分の基準を持つ",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-21T17:43:06+09:00"
   }
  ]
 }
