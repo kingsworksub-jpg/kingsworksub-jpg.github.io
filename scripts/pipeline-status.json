@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:00:01+09:00",
+ "updated": "2026-11-22T02:00:13+09:00",
  "queue": {
   "published": 181,
   "rejected": 12,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published window-insulation-curtains",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-22T02:00:01+09:00",
-  "engine": "none"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-22T01:45:17+09:00",
-  "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "at": "2026-11-22T02:00:13+09:00",
+  "engine": "none",
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-22T02:00:13+09:00",
+   "engine": "none",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-21T23:30:06+09:00",
    "engine": "gemini",
    "detail": "[i] 本日の自動返信上限(5件)に達しました。"
-  },
-  {
-   "job": "blog-post",
-   "label": "投稿",
-   "state": "finished",
-   "at": "2026-11-21T23:23:00+09:00",
-   "engine": "gemini",
-   "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **GitHub Pages**: https://kingsworksub-jpg.github.io/posts/window-insulation-curtains/"
   }
  ],
  "engine_post": "gemini",
