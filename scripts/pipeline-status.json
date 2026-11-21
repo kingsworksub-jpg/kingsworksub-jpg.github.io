@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:00:02+09:00",
+ "updated": "2026-11-21T10:00:07+09:00",
  "queue": {
   "published": 178,
   "rejected": 11,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ella-wishes-you-a-swinging-christmas-1960",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "X返信",
-  "since": "2026-11-21T10:00:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "Xフォローお礼DM",
   "state": "finished",
-  "at": "2026-11-21T09:35:37+09:00",
+  "at": "2026-11-21T10:00:07+09:00",
   "engine": "gemini",
-  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  "detail": "[i] 本日の自動返信上限(5件)に達しました。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "X返信",
+   "state": "finished",
+   "at": "2026-11-21T10:00:07+09:00",
+   "engine": "gemini",
+   "detail": "[i] 本日の自動返信上限(5件)に達しました。"
+  },
   {
    "job": "x-follow-dm",
    "label": "Xフォローお礼DM",
@@ -97,14 +100,6 @@
    "at": "2026-11-21T07:45:08+09:00",
    "engine": "gemini",
    "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - 処理ステータス: 正常完了（リサーチ・生成・画像取得・OGP生成・バリデーション・ビルド・デプロイ・キュー完了まで実施）"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-21T07:20:41+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
