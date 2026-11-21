@@ -1,5 +1,5 @@
 ---
-title: "自宅ギター録音の要！アンプシミュレーター接続とゲイン・リアンプ完全ガイド"
+title: "アンプシミュレーターの接続とゲイン設定、リアンプまで自宅ギター録音の手順"
 description: "自宅でアンプを鳴らせない環境でのギター録音。オーディオインターフェースのHi-Z入力活用法、-12〜-6dBFSの正確なゲイン調整、DI同時録音によるリアンプのメリットを徹底解説します。"
 images: ["/images/og/guitar-recording-amp-simulator-setup.jpg"]
 ogImageWidth: 1200
@@ -106,7 +106,9 @@ DAWソフトを中心とした制作環境において、インターフェー�
 自宅でのギター録音において、アンプシミュレーターの性能を引き出す鍵は、適切なHi-Z入力の選択、-12〜-6dBFSを守る正確なゲインステージング、そして将来の変更に備えたDI信号の同時録音にあります。これらの基本を丁寧に押さえることで、自宅にいながらプロフェッショナルクオリティのギターサウンドを生み出すことが可能です。導入にあたっては、スペースや設置場所、必要な接続端子の数をあらかじめ確認し、長期的なメンテナンスや維持費についても見通しを持っておくと安心です。ぜひ本ガイドを参考に、ご自身の環境に最適なセットアップを構築してみてください。
 
 
-## 関連記事・おすすめメディア
-- [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
-- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+## 関連記事
+- [アンプを鳴らせない部屋のギター録音：Hi-Z接続・ゲイン設定・DIリアンプの基本](https://kingsworksub-jpg.github.io/posts/guitar-recording-amp-sim-setup/)
+- [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](https://kingsworksub-jpg.github.io/posts/audio-interface-5choice-2026/)
+- [マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する](https://kingsworksub-jpg.github.io/posts/mic-preamp-gain-compare-2026/)
+- [電源タップを替えてもハムノイズが消えない理由、機材と家電のコンセントの分け方](https://kingsworksub-jpg.github.io/posts/power-strip-hum-noise-guide-2026/)
+- [GitHub Pages トップ](https://kingsworksub-jpg.github.io/)

@@ -9232,5 +9232,27 @@
       "hugoビルドは環境にhugoがあれば検証"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T09:53:26Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "guitar-recording-amp-simulator-setup"
+    ],
+    "actions": [
+      "note版プレースホルダーURL(note.com/n/XXXX)と汎用トップへの関連リンクを削除し、実在する内部リンク4本に差し替え",
+      "タイトルから感嘆符・『完全ガイド』の定型を除去し、キーワードを先頭に配置",
+      "全記事の自動点検(description/OG/figure位置/左右交互/figcaption・credit/死にリンク/プレースホルダー)で他に不備なし"
+    ],
+    "files_changed": [
+      "content/posts/guitar-recording-amp-simulator-setup.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ギター録音2記事(11-19と11-21)の主題が重複。検索流入で食い合う場合はどちらかを統合/差別化",
+      "seo-audit.pyはPIL破損で未実行・ビルド未検証",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]
