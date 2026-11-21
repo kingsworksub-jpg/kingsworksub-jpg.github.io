@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:01:57+09:00",
+ "updated": "2026-11-21T23:22:21+09:00",
  "items": [
   {
    "category": "gear",
@@ -12945,14 +12945,16 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-038",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-21T23:01:57+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: 検証メモ/個人備忘録(隔日)"
+   "slot_label": "就寝前: 検証メモ/個人備忘録(隔日)",
+   "slug": "window-insulation-curtains",
+   "published_at": "2026-11-21T23:22:21+09:00"
   },
   {
    "category": "interior",

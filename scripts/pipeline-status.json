@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-21T23:01:57+09:00",
+ "updated": "2026-11-21T23:22:21+09:00",
  "queue": {
-  "published": 180,
+  "published": 181,
   "rejected": 12,
-  "approved": 32,
-  "in_progress": 1
+  "approved": 32
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published two-factor-auth-migration-guide",
+ "last_result": "published window-insulation-curtains",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

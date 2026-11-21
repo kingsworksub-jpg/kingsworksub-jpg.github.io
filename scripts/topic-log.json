@@ -3720,6 +3720,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-21T23:00:31+09:00"
+  },
+  {
+   "id": "2026w45-038",
+   "category": "interior",
+   "theme": "カーテンで窓の寒さを止める、厚手と裏地と丈で変わる断熱",
+   "slug": "window-insulation-curtains",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/window-insulation-curtains/",
+   "hatena_entry": null,
+   "note_key": "n03e847c1a36d",
+   "engine": "gemini",
+   "at": "2026-11-21T23:22:21+09:00"
   }
  ]
 }
