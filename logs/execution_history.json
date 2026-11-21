@@ -9333,5 +9333,28 @@
       "新着記事が追加された次回実行で点検"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-21T16:53:19Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "eggnog-recipe-safety-history",
+      "scarf-knots-guide"
+    ],
+    "actions": [
+      "figureが導入文末尾(最初の##の前)にありテキストが回り込まなかったため、最初の##見出し直後・本文段落直前へ移動(CLAUDE.md準拠)",
+      "全公開記事のdescription/images/alt/lazy欠落を走査→欠落なし"
+    ],
+    "files_changed": [
+      "content/posts/eggnog-recipe-safety-history.md",
+      "content/posts/scarf-knots-guide.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit.pyはPIL破損で実行不可",
+      "ビルド未検証(hugo無し)",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(ビルド未検証)"
   }
 ]

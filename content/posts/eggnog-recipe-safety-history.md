@@ -18,11 +18,6 @@ scheduled_time: "20:00"
 
 本記事では、71℃まで加熱する安全なカスタード式の具体的な手順と配合比率、そして歴史的経緯を数値と根拠に基づいて解説します。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B00A3OSN8C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/eggnog/eggnog-christmas-2014.jpg" alt="クリスマスのスナックとともにグラスに注がれたエッグノッグ" width="220" height="150" loading="lazy"></a>
-<figcaption>クリスマスの食卓に用意されたエッグノッグと軽食<span class="credit">Photo: transcendancing / CC BY-SA 2.0</span></figcaption>
-</figure>
-
 エッグノッグのベースとなるすっきりとした味わいのラム酒は、以下のリンクから商品ページを確認できます。
 
 [マイヤーズラム プラチナホワイトをAmazonで見る →](https://www.amazon.co.jp/dp/B00A3OSN8C?tag=nakimoto1-22)
@@ -30,6 +25,11 @@ scheduled_time: "20:00"
 [Amazonでマイヤーズラム プラチナホワイトの価格とレビューを見る](https://www.amazon.co.jp/dp/B00A3OSN8C?tag=nakimoto1-22)
 
 ## 結論と基本データ：71℃加熱がエッグノッグの安全を守る
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B00A3OSN8C?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/eggnog/eggnog-christmas-2014.jpg" alt="クリスマスのスナックとともにグラスに注がれたエッグノッグ" width="220" height="150" loading="lazy"></a>
+<figcaption>クリスマスの食卓に用意されたエッグノッグと軽食<span class="credit">Photo: transcendancing / CC BY-SA 2.0</span></figcaption>
+</figure>
 
 自宅で安全にエッグノッグを作るための結論は、卵・牛乳・砂糖を混ぜた卵液を「160°F（約71℃）」まで加熱するカスタード式を用いることです。生卵に含まれる可能性があるサルモネラ菌は、アルコールを加えても完全には死滅しないため、適切な温度管理が不可欠となります。
 

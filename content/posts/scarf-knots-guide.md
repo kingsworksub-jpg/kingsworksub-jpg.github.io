@@ -17,14 +17,14 @@ scheduled_time: "07:30"
 
 本記事では、基本となる「パリジャンノット」「ひと巻き」「垂らし」「リバースドレープ」という4種類の巻き方を取り上げます。それぞれの構造的な特徴と視覚的な効果を整理し、素材やアウターとの最適な組み合わせを論理的に紐解いていきます。
 
+[定番のカシミア100%マフラーをAmazonで見る →](https://www.amazon.co.jp/dp/B07H3G3975?tag=nakimoto1-22)
+
+## 巻き方を決める3つの基準：厚み・長さ・コートの襟元
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B07H3G3975?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/scarf-knots/winter-man.jpg" alt="冬のコートの襟元にマフラーを合わせた男性の装い" width="220" height="150" loading="lazy"></a>
 <figcaption>コートの襟元にマフラーを合わせた冬のスタイリング例<span class="credit">Photo: Peachyeung316 / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[定番のカシミア100%マフラーをAmazonで見る →](https://www.amazon.co.jp/dp/B07H3G3975?tag=nakimoto1-22)
-
-## 巻き方を決める3つの基準：厚み・長さ・コートの襟元
 
 マフラーの巻き方を論理的に選び分けるためには、まず前提となる3つの物理的な条件を整理する必要があります。それが「マフラーの厚みと素材」「マフラーの長さ」「コートの襟の形」という3つの軸であり、これらが噛み合うことで首元に過不足のないバランスが生まれます。
 
