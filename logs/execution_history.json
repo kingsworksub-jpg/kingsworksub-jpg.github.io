@@ -9431,5 +9431,22 @@
       "Hatena/Ameba/noteは今回改定案なし"
     ],
     "status": "完了(ビルド未検証)"
+  },
+  {
+    "timestamp": "2026-11-21T20:53:32Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全282記事を再点検(description長・images・マーカー残り・h2数・img属性・禁止タイトル)。新規の問題なし",
+      "nea-jazz-masters-2026のh2<2は有料記事の無料部分のため意図的に据え置き"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規公開記事が増えた時点で再点検",
+      "Hatena/Ameba/noteは今回改定案なし"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
