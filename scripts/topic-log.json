@@ -3699,6 +3699,18 @@
    "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (finished); cleaned up",
    "engine": "gemini",
    "at": "2026-11-21T17:45:56+09:00"
+  },
+  {
+   "id": "2026w45-020",
+   "category": "tech",
+   "theme": "二段階認証アプリを機種変更で移すとき、Google AuthenticatorとMicrosoft Authenticatorの移行手順",
+   "slug": "two-factor-auth-migration-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/two-factor-auth-migration-guide/",
+   "hatena_entry": "hatena-draft",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-21T20:20:46+09:00"
   }
  ]
 }
