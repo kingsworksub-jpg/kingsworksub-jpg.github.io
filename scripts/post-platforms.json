@@ -3171,5 +3171,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はnoteが想定されますが、entry_idが未記録のため確認できていません。実際にnoteに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-21T08:00:11+09:00"
+ },
+ "guitar-recording-amp-simulator-setup": {
+  "title": "自宅ギター録音の要！アンプシミュレーター接続とゲイン・リアンプ完全ガイド",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "hatena-pending",
+  "note_key": "",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-21T13:00:09+09:00"
  }
 }
