@@ -3756,6 +3756,15 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-22T12:12:57+09:00"
+  },
+  {
+   "id": "2026w47-030",
+   "category": "learning",
+   "theme": "iReal Proでジャズのコード進行を聴く、バッキングトラックで練習する",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-22T17:40:57+09:00"
   }
  ]
 }
