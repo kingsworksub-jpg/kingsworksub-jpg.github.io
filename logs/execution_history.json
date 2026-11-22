@@ -9590,5 +9590,21 @@
       "新規記事への同検査を継続"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T06:53:04Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事を再検査(description長90〜140字・images・H2数・imgのalt/width属性)。該当0件(nea-jazz-masters-2026はH2少が有料記事の仕様で正常)",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事への同検査を継続"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
