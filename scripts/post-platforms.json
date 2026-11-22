@@ -3264,5 +3264,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-22T22:00:11+09:00"
+ },
+ "thermae-romae-creative-constraints": {
+  "title": "自由を縛る不便さが生み出した傑作。ヤマザキマリが語る「できない」から始まる創作術",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n0edda4e5a742",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-23T00:00:10+09:00"
  }
 }
