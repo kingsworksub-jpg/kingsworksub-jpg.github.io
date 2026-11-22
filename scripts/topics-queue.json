@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:30:58+09:00",
+ "updated": "2026-11-22T21:52:14+09:00",
  "items": [
   {
    "category": "gear",
@@ -14453,9 +14453,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-019",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-22T21:38:14+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "slug": "spotify-wrapped-algorithm-guide",
+   "published_at": "2026-11-22T21:52:14+09:00"
   },
   {
    "category": "essay",

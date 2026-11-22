@@ -3789,6 +3789,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-22T20:11:49+09:00"
+  },
+  {
+   "id": "2026w47-019",
+   "category": "music",
+   "theme": "Spotify Wrappedを思いどおりにする、リスニング履歴とアルゴリズムの関係",
+   "slug": "spotify-wrapped-algorithm-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/spotify-wrapped-algorithm-guide/",
+   "hatena_entry": null,
+   "note_key": "n79f2ede7a5a4",
+   "engine": "gemini",
+   "at": "2026-11-22T21:52:14+09:00"
   }
  ]
 }

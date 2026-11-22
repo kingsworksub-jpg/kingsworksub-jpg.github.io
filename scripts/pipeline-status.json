@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-22T21:30:58+09:00",
+ "updated": "2026-11-22T21:52:14+09:00",
  "queue": {
-  "published": 185,
+  "published": 186,
   "rejected": 12,
-  "approved": 59,
+  "approved": 58,
   "in_progress": 1
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published copenhagen-sparkling-tea-bla-review",
+ "last_result": "published spotify-wrapped-algorithm-guide",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
