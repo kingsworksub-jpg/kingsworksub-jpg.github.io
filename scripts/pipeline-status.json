@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T04:00:19+09:00",
+ "updated": "2026-11-23T04:01:51+09:00",
  "queue": {
   "published": 187,
   "rejected": 12,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published thermae-romae-creative-constraints",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-11-23T04:00:19+09:00",
-  "engine": "big-pickle"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-23T04:00:15+09:00",
-  "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "at": "2026-11-23T04:01:51+09:00",
+  "engine": "big-pickle",
+  "detail": "stage1 opencode/big-pickle=finished: 補充不要（Mode: topup, approved=58 >= 16）。`sync-skips`/`ingest-requests` 実行済み、キュー変更なし。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-11-23T04:01:51+09:00",
+   "engine": "big-pickle",
+   "detail": "stage1 opencode/big-pickle=finished: 補充不要（Mode: topup, approved=58 >= 16）。`sync-skips`/`ingest-requests` 実行済み、キュー変更なし。"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-23T01:45:13+09:00",
    "engine": "gemini",
    "detail": "[i] 未処理の新規返信はありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-23T01:20:35+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
