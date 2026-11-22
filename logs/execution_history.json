@@ -9573,5 +9573,22 @@
       "新規記事への同検査を継続"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T05:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事を再検査(禁止タイトル型・images欠落・禁止表現・CTAマーカー残り・figure直後の見出し/区切り)。該当0件",
+      "seo-audit.pyはPIL不備で未実行",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事への同検査を継続"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
