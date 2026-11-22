@@ -9849,5 +9849,21 @@
       "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T23:53:22Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開済み全記事のfrontmatter(categories/date/ogImageWidth)・description・images欠落、未解決CTAプレースホルダを検査、該当なし",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
