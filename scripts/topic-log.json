@@ -3801,6 +3801,15 @@
    "note_key": "n79f2ede7a5a4",
    "engine": "gemini",
    "at": "2026-11-22T21:52:14+09:00"
+  },
+  {
+   "id": "2026w47-018",
+   "category": "music",
+   "theme": "平沢進が『パプリカ』でVOCALOIDを使った2006年、映画音楽に合成声を入れた意味",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-22T23:01:58+09:00"
   }
  ]
 }
