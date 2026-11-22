@@ -9622,5 +9622,21 @@
       "新規記事への同検査を継続"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T08:53:04Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事を再検査(description長・figure直後の見出し・左右交互・CTAマーカー残り・タイトル重複・禁止表現)。該当0件(awk-svg-radar-chart-notesのimg-noaltは本文中の<img>言及で誤検知)",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事への同検査を継続"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
