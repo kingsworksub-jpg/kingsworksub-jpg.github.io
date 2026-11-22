@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:00:07+09:00",
+ "updated": "2026-11-23T01:00:16+09:00",
  "queue": {
   "published": 187,
   "rejected": 12,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published thermae-romae-creative-constraints",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-23T01:00:07+09:00",
-  "engine": "none"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "Xフォローお礼DM",
   "state": "finished",
-  "at": "2026-11-23T00:35:35+09:00",
-  "engine": "gemini",
-  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  "at": "2026-11-23T01:00:16+09:00",
+  "engine": "none",
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-23T01:00:16+09:00",
+   "engine": "none",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-follow-dm",
    "label": "Xフォローお礼DM",
@@ -97,14 +100,6 @@
    "at": "2026-11-22T22:00:25+09:00",
    "engine": "gemini",
    "detail": "[i] 本日の自動返信上限(5件)に達しました。"
-  },
-  {
-   "job": "ppp-reconcile",
-   "label": "プラットフォーム同期",
-   "state": "finished",
-   "at": "2026-11-22T22:00:16+09:00",
-   "engine": "none",
-   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
   }
  ],
  "engine_post": "gemini",
