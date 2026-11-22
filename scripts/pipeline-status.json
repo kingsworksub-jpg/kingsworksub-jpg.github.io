@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-22T20:02:50+09:00",
+ "updated": "2026-11-22T20:11:49+09:00",
  "queue": {
-  "published": 184,
+  "published": 185,
   "rejected": 12,
-  "approved": 60,
-  "in_progress": 1
+  "approved": 60
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published ireal-pro-jazz-practice",
+ "last_result": "published copenhagen-sparkling-tea-bla-review",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
