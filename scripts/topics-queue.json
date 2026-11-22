@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:40:57+09:00",
+ "updated": "2026-11-22T17:42:11+09:00",
  "items": [
   {
    "category": "gear",
@@ -14997,10 +14997,10 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w47-030",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
    "retry": 1,
-   "claimed_at": "2026-11-22T17:34:07+09:00",
+   "claimed_at": "2026-11-22T17:42:11+09:00",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "17:30",
