@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:50:26+09:00",
+ "updated": "2026-11-23T07:50:39+09:00",
  "queue": {
   "published": 188,
   "rejected": 12,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published its-a-wonderful-life-copyright-history",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "X返信",
-  "since": "2026-11-23T07:50:26+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "blog-post",
-  "label": "投稿",
   "state": "finished",
-  "at": "2026-11-23T07:50:22+09:00",
+  "at": "2026-11-23T07:50:39+09:00",
   "engine": "gemini",
-  "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **note**: `https://note.com/shining_finger01/n/n6b34a594be9b`"
+  "detail": "[i] 未処理の新規返信はありません。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "X返信",
+   "state": "finished",
+   "at": "2026-11-23T07:50:39+09:00",
+   "engine": "gemini",
+   "detail": "[i] 未処理の新規返信はありません。"
+  },
   {
    "job": "blog-post",
    "label": "投稿",
@@ -97,14 +100,6 @@
    "at": "2026-11-23T05:51:00+09:00",
    "engine": "gemini",
    "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "failed",
-   "at": "2026-11-23T05:30:34+09:00",
-   "engine": "gemini",
-   "detail": "exit code 1:   - waiting for locator('[data-testid=\\'AppTabBar_Profile_Link\\']') to be visible"
   }
  ],
  "engine_post": "gemini",
