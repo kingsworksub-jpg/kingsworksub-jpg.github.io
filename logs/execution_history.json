@@ -9541,5 +9541,21 @@
       "新規記事への同検査を継続"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T03:53:07Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全284記事のfrontmatter/見出し構造/description長/images/CTAマーカー残りを再検査。検出されたのはコードブロック内コメントの誤検知と下書き(draft: true)2本、有料記事nea-jazz-masters-2026(H2が1つなのは無料部分のみ掲載のため正常)のみ",
+      "公開記事に修正対象なし。Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事への同検査を継続"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
