@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-22T17:42:11+09:00",
+ "updated": "2026-11-22T17:56:46+09:00",
  "queue": {
-  "published": 183,
+  "published": 184,
   "rejected": 12,
-  "approved": 61,
-  "in_progress": 1
+  "approved": 61
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published ableton-live-13-ara2-vocaloid",
+ "last_result": "published ireal-pro-jazz-practice",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
