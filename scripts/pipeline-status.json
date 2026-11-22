@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:00:02+09:00",
+ "updated": "2026-11-22T20:00:12+09:00",
  "queue": {
   "published": 184,
   "rejected": 12,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published ireal-pro-jazz-practice",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-22T20:00:02+09:00",
-  "engine": "none"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-22T19:45:07+09:00",
-  "engine": "gemini",
-  "detail": "[i] 本日の自動返信上限(5件)に達しました。"
+  "at": "2026-11-22T20:00:12+09:00",
+  "engine": "none",
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-22T20:00:12+09:00",
+   "engine": "none",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-22T17:57:39+09:00",
    "engine": "gemini",
    "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **状態**: 正常完了・GitHub Pagesデプロイ確認・X投稿完了・キュー更新済み"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "finished",
-   "at": "2026-11-22T17:30:08+09:00",
-   "engine": "gemini",
-   "detail": "[i] 本日の自動返信上限(5件)に達しました。"
   }
  ],
  "engine_post": "gemini",
