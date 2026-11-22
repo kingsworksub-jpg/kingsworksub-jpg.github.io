@@ -3252,5 +3252,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-22T21:00:10+09:00"
+ },
+ "spotify-wrapped-algorithm-guide": {
+  "title": "Spotify Wrappedの結果を自分好みに育てるための再生履歴とアルゴリズム活用術",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "note_key": "n79f2ede7a5a4",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-22T22:00:11+09:00"
  }
 }
