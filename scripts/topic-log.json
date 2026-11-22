@@ -3744,6 +3744,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-22T07:43:03+09:00"
+  },
+  {
+   "id": "2026w47-003",
+   "category": "software",
+   "theme": "Ableton Live 13のARA 2対応、VOCALOIDとSynthesizer Vをどう扱うか",
+   "slug": "ableton-live-13-ara2-vocaloid",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ableton-live-13-ara2-vocaloid/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-22T12:12:57+09:00"
   }
  ]
 }

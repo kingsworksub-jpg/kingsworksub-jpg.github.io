@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:02:11+09:00",
+ "updated": "2026-11-22T12:12:57+09:00",
  "items": [
   {
    "category": "gear",
@@ -13611,14 +13611,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-003",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-22",
    "retry": 0,
    "claimed_at": "2026-11-22T12:02:11+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "ableton-live-13-ara2-vocaloid",
+   "published_at": "2026-11-22T12:12:57+09:00"
   },
   {
    "category": "software",
