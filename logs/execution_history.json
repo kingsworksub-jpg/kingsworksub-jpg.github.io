@@ -9506,5 +9506,23 @@
       "Hatena/Ameba/noteは改定案なし"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-22T00:53:12Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全283記事を点検: description長(85〜145字)・images/OG寸法・figure配置と直後の短文・クレジット欠落・CTAマーカー残り・架空ASIN(連番/XXXX系)を検査し、いずれも問題なし",
+      "figure直後の短文検出はレーダーチャート/注記/段落の途中改行のみで意図通り(music-theory-3month-planも正常)",
+      "Hatena/Ameba/noteは改定案なし(今回は修正対象なし)"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事に対する同検査を継続",
+      "seo-audit.pyはPIL不備のため未実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
