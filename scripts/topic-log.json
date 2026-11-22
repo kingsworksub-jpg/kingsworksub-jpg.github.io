@@ -3810,6 +3810,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-22T23:01:58+09:00"
+  },
+  {
+   "id": "2026w47-020",
+   "category": "essay",
+   "theme": "『テルマエ・ロマエ』は風呂に入れないストレスから生まれた、制約が生む発想",
+   "slug": "thermae-romae-creative-constraints",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/thermae-romae-creative-constraints/",
+   "hatena_entry": null,
+   "note_key": "n0edda4e5a742",
+   "engine": "gemini",
+   "at": "2026-11-22T23:22:59+09:00"
   }
  ]
 }

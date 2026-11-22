@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:01:58+09:00",
+ "updated": "2026-11-22T23:22:59+09:00",
  "items": [
   {
    "category": "gear",
@@ -14513,9 +14513,16 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-020",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-22T23:03:38+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "thermae-romae-creative-constraints",
+   "published_at": "2026-11-22T23:22:59+09:00"
   },
   {
    "category": "essay",
