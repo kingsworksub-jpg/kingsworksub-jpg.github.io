@@ -9606,5 +9606,21 @@
       "新規記事への同検査を継続"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T07:53:29Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事を再検査(禁止表現・description欠落・H2数)。ヒットはAI題材記事の正当な語のみで該当0件(2026-09-22-*はdraft)",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事への同検査を継続"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
