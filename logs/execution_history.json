@@ -9767,5 +9767,21 @@
       "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T18:53:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事(下書き除く)のfigure配置(直後に見出し/---)・img alt・loading=lazyを全件検査、問題なし(検出1件はコード記述の文字列で誤検知)",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
