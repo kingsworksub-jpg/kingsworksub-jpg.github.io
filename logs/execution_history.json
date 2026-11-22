@@ -9783,5 +9783,21 @@
       "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T19:53:38Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のOG画像ファイル実在・Amazonリンクのtag付与・httpリンク混入を全件検査、問題なし",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
