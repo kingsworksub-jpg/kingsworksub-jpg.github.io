@@ -9815,5 +9815,23 @@
       "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-22T21:53:13Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigure(credit/figcaption/alt/width・height/lazy/左右交互)を全件検査、必須属性の欠落・同方向連続なし",
+      "figureがセクション見出し直後でない記事8件は導入部のリード画像または段落直前配置で、本文は画像横を回り込むため仕様上問題なしと判断し未変更",
+      "seo-audit.pyはクラウド環境のPIL不備で実行不可",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
