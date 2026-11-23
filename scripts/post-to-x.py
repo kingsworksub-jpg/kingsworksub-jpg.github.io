@@ -74,6 +74,15 @@ MAX_REPLY_CANDIDATES = 20  # 1回の --check-replies で返す新規返信の上
 MAX_FOLLOWER_CANDIDATES = 20  # 1回の --check-new-followers で返す新規フォロワーの上限
 MAX_FOLLOWER_SCROLLS = 6  # フォロワーリストを読み込むためスクロールする回数
 def _load_managed_limit(key: str, default: int) -> int:
+    """実効上限を返す。managed-limits.json は上下両方向に調整され得るため、
+    コード既定値以下という制限は外し、hard cap でクランプする（2026-11-23）。"""
+    try:
+        import sys as _sys
+        _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from x_automation_config import get_limit as _get_limit
+        return int(_get_limit(key, default))
+    except Exception:
+        pass
     try:
         import json as _json
         p = os.path.join(BASE, "data", "x-consulting", "managed-limits.json")
@@ -82,7 +91,7 @@ def _load_managed_limit(key: str, default: int) -> int:
         if val is None:
             return default
         ival = int(val)
-        if 0 <= ival <= default:
+        if 0 <= ival:
             return ival
     except Exception:
         pass
@@ -91,7 +100,7 @@ def _load_managed_limit(key: str, default: int) -> int:
 
 # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて自動返信を1日5件に制限。
 # 2026-11-23: 経過観察のため基準値を10に引き上げた（2ジョブ合算で10件）。
-# managed-limits.json（レポート側の提案）は、この基準値以下の引き下げにしか使えない。
+# managed-limits.json はレポートに基づき上下両方向へ自動調整される（hard cap 20）。
 MAX_AUTO_REPLIES_PER_DAY = _load_managed_limit(
     "X_MAX_AUTO_REPLIES_PER_DAY",
     int(os.environ.get("X_MAX_AUTO_REPLIES_PER_DAY", "10")),
@@ -453,7 +462,9 @@ def reply_to_tweet(ctx, tweet_id, text, publish):
         raise RuntimeError("返信ボタンが見つからない、または無効化されたままです")
 
     _submit(page, btn, box, "返信")
-    return {"posted": True, "url": page.url}
+    status_id = _status_id_from_url(page.url) or _status_id_from_toast(page)
+    url = f"https://x.com/i/status/{status_id}" if status_id else page.url
+    return {"posted": True, "url": url, "status_id": status_id}
 
 
 def list_new_followers(ctx):
@@ -641,6 +652,45 @@ def send_dm(ctx, handle, text, publish):
     return {"sent": True}
 
 
+def _status_id_from_url(url: str) -> str:
+    m = re.search(r"/status/(\d+)", url or "")
+    return m.group(1) if m else ""
+
+
+def _status_id_from_toast(page) -> str:
+    """送信直後のトーストやDOM内リンクから status id を拾う。"""
+    try:
+        for a in page.query_selector_all('a[href*="/status/"]'):
+            sid = _status_id_from_url(a.get_attribute("href") or "")
+            if sid:
+                return sid
+    except Exception:
+        pass
+    return ""
+
+
+def _latest_status_id(ctx, timeout_ms: int = 15000) -> str:
+    """フォールバック: 自分のプロフィール先頭の投稿から status id を取る。"""
+    page = ctx.new_page()
+    try:
+        own = get_own_handle(page)
+        page.goto(f"https://x.com/{own}", wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_selector('article[data-testid="tweet"]', timeout=timeout_ms)
+        page.wait_for_timeout(800)
+        for a in page.query_selector_all('article[data-testid="tweet"] a[href*="/status/"]'):
+            sid = _status_id_from_url(a.get_attribute("href") or "")
+            if sid:
+                return sid
+    except Exception:
+        pass
+    finally:
+        try:
+            page.close()
+        except Exception:
+            pass
+    return ""
+
+
 def post_text(ctx, text, publish):
     page = ctx.new_page()
     print(f"投稿ページにアクセス: {COMPOSE_URL}")
@@ -681,7 +731,15 @@ def post_text(ctx, text, publish):
         raise RuntimeError("投稿ボタンが見つからない、または無効化されたままです")
 
     _submit(page, btn, box, "投稿")
-    return {"posted": True, "url": page.url}
+    status_id = _status_id_from_url(page.url) or _status_id_from_toast(page)
+    if not status_id:
+        status_id = _latest_status_id(ctx)
+    url = f"https://x.com/i/status/{status_id}" if status_id else page.url
+    if status_id:
+        print(f"投稿ID: {status_id}")
+    else:
+        print("[!] 投稿は成功しましたが status id を特定できませんでした。")
+    return {"posted": True, "url": url, "status_id": status_id}
 
 
 def _resolve_text(args, flag_desc):

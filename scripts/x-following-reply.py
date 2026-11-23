@@ -40,6 +40,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from pathlib import Path as _Path
 
 from playwright.sync_api import sync_playwright
 
@@ -63,16 +64,24 @@ MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
 MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "120")) * 1000)
 
 def _load_managed_limit(key: str, default: int) -> int:
+    """実効上限を返す。managed-limits.json は上下両方向に調整され得るため、
+    コード既定値以下という制限は外し、hard cap でクランプする（2026-11-23）。"""
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(_Path(__file__).resolve().parent))
+        from x_automation_config import get_limit as _get_limit
+        return int(_get_limit(key, default))
+    except Exception:
+        pass
     try:
         import json as _json
-        from pathlib import Path as _Path
         p = _Path(__file__).resolve().parent.parent / "data" / "x-consulting" / "managed-limits.json"
         obj = _json.loads(p.read_text(encoding="utf-8"))
         val = (obj.get("limits") or {}).get(key)
         if val is None:
             return default
         ival = int(val)
-        if 0 <= ival <= default:
+        if 0 <= ival:
             return ival
     except Exception:
         pass
@@ -80,8 +89,7 @@ def _load_managed_limit(key: str, default: int) -> int:
 
 
 # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 30 → 5 に引き下げた。
-# 2026-11-23: レポートで経過を見ながら調整するため、基準値を 10 に引き上げた。
-# managed-limits.json（レポート側の提案）は、この基準値以下の引き下げにしか使えない。
+# 2026-11-23: レポートに基づき上下両方向へ自動調整される（hard cap 20）。
 MAX_REPLIES_PER_DAY = _load_managed_limit(
     "X_MAX_REPLIES_PER_DAY",
     int(os.environ.get("X_MAX_REPLIES_PER_DAY", "10")),
@@ -97,8 +105,15 @@ POST_PER_CYCLE = int(os.environ.get("X_POST_PER_CYCLE", "1"))
 # サイクル間隔。固定45分だと機械的なので、日中は短め・深夜は長めのランダムにする
 # （1日トータルで約33サイクル、うち深夜は4回程度。他のXジョブがロックを
 #  持つ時間帯は自動でスキップし、数分後に再試行する）。
+# 2026-11-23: レポートのKPIに応じて managed-limits.json から自動調整される。
 DAY_INTERVAL_MIN = (18, 45)      # 07:00-22:59
 NIGHT_INTERVAL_MIN = (80, 150)   # 23:00-06:59
+try:
+    from x_automation_config import get_pair as _get_pair
+    DAY_INTERVAL_MIN = _get_pair("X_DAY_INTERVAL", DAY_INTERVAL_MIN)
+    NIGHT_INTERVAL_MIN = _get_pair("X_NIGHT_INTERVAL", NIGHT_INTERVAL_MIN)
+except Exception:
+    pass
 LONG_REST_PROB = 0.08            # たまに長めに間を空ける（機械的な連続実行に見せない）
 
 # 返信に値すると判断するための最低文字数。これ未満は文脈が取れないため返信しない。
@@ -129,6 +144,23 @@ FOLLOWUP_MAX_LIKES_PER_DAY = _load_managed_limit(
         os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "3")
     ),
 )
+
+
+def refresh_limits() -> None:
+    """常駐ループの各サイクル冒頭で、レポートが更新した実効値を読み直す。
+
+    これがないと managed-limits.json を変更してもプロセス再起動まで反映されない。
+    読めない場合は現在値を維持する（安全側）。
+    """
+    global MAX_REPLIES_PER_DAY, FOLLOWUP_MAX_LIKES_PER_DAY, DAY_INTERVAL_MIN, NIGHT_INTERVAL_MIN
+    try:
+        from x_automation_config import get_limit, get_pair
+        MAX_REPLIES_PER_DAY = get_limit("X_MAX_REPLIES_PER_DAY", MAX_REPLIES_PER_DAY)
+        FOLLOWUP_MAX_LIKES_PER_DAY = get_limit("X_FOLLOWUP_MAX_LIKES_PER_DAY", FOLLOWUP_MAX_LIKES_PER_DAY)
+        DAY_INTERVAL_MIN = get_pair("X_DAY_INTERVAL", DAY_INTERVAL_MIN)
+        NIGHT_INTERVAL_MIN = get_pair("X_NIGHT_INTERVAL", NIGHT_INTERVAL_MIN)
+    except Exception:
+        pass
 
 # 相手の返信が「会話を広げる気力」をまだ持っているかを見るための語彙。
 # 質問・感嘆・絵文字・熱意のある語が増えるほど熱量が高いとみなす。
@@ -1118,6 +1150,7 @@ def collect_candidates(page, state, own_handle, limit):
 
 def run_following_reply_cycle(publish=False, ignore_lock=False):
     """1サイクル実行する。戻り値は "done" / "lock"（他ジョブ実行中）/ "cap"（本日の上限）。"""
+    refresh_limits()
     if ignore_lock:
         if publish:
             print("[!] --ignore-lock と --publish は同時に使えません（本番ジョブとの二重投稿を防ぐため）")

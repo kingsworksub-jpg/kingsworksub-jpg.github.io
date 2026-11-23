@@ -363,11 +363,11 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 制限の解除後もこの水準を基本とし、戻す場合も段階的に上げる。Xの通知画面から「審査を依頼」できる
 （**2026-11-19にユーザーが審査を依頼済み**。結果通知が来るまでこの上限を維持する）。
 2026-11-23にレポートを確認したうえで、ユーザー判断で返信上限のみ5→10に引き上げた。
-以降もレポート内容を見て増減を判断する。**引き下げ**は `data/x-consulting/managed-limits.json`
-への提案反映（tighten-only、`x_deploy.py` の allowlist 上限は10）で可能。
-**引き上げ**は安全のためコード側の基準値変更＋常駐プロセスの再起動が必要（`x-following-reply.py`
-と `post-to-x.py` の両方を同じ値にすること）。他の制限（いいね30件/日、アンフォロー5〜10件/日など）は
-当面維持する（2026-11-23、ユーザー判断）。
+**以降は手動調整は不要**。レポート内容に基づき `x_consultant.py` がルール変更を提案し、
+`x_deploy.py --auto-safe` が `data/x-consulting/managed-limits.json` へ自動適用する
+（allowlist / hard cap / min / step / cooldown / 日次5件まで。上下両方向）。常駐プロセスは
+各サイクルで実効値を読み直すため再起動不要。KPI悪化時は `x_verify.py --apply-rollbacks` が
+自動ロールバックする。詳細は後述の「X自己改善エコシステム」を参照。
 解除の判断は最低24〜72時間、実行ログ（`data/x-likes-state.json` / `data/x-unfollow-log.jsonl` /
 `data/x-replies-state.json` / `data/x-following-reply-state.json`）で実績を確認してから行う。
 
@@ -507,6 +507,47 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   Start-ScheduledTask   -TaskName blog-x-report-server-task   # 再開
   Disable-ScheduledTask -TaskName blog-x-report-server-task   # 恒久停止（ログオン時も起動しない）
   ```
+
+### X自己改善エコシステム（2026-11-23構築・完全自動）
+
+レポートを見て**次アクションを待たずに自動実行**する。ユーザー指示で、
+「すべてのX関連自動化ルールをレポート内容に基づき自動改善（投稿数上限含む）」、
+「リンクは文脈関連＋インプレッション改善とLLMが判断した時だけ」を実装した。
+
+1. **日次フロー（タスク）**
+   - `blog-x-consulting-task`（07:10）: `scripts/scheduled/run-x-consulting.ps1`
+     が `x_consultant.py` でレポート/提案JSONを生成 → 最新 proposal を
+     `x_deploy.py --proposal ... --auto-safe` で自動適用 →
+     `x_verify.py --apply-rollbacks` でKPI悪化deploymentを自動ロールバック。
+   - `blog-x-auto-improve-task`（07:45）: `scripts/scheduled/run-x-auto-improve.ps1`
+     が `x_auto_improve.py --publish` を実行。proposalの次アクションから1件選び、
+     LLMが投稿文を生成して投稿（1日1件・最低8時間間隔を既定とし、上限も自動調整対象）。
+2. **自動調整の範囲と安全策**（`scripts/x_automation_config.py` の `LIMIT_SPECS` /
+   `POLICY_SPECS` が一元管理）
+   - 返信上限（2ジョブ合算10、cap20）・いいね上限（30、cap60）・フォローアップいいね（3、cap8）
+   - **新規投稿数上限**（1、cap3）・投稿最低間隔（8h、2〜24h）・日中/深夜の巡回間隔
+   - リンク確率（35%、0〜70%）・リンク方針 `X_LINK_POLICY`
+   - キーごとに hard cap / min / 1回の最大変化幅(step) を設定。1日5件・24時間cooldownも維持。
+   - `post-to-x.py` / `x-following-reply.py` / `x-auto-like.py` は毎サイクル再読込するため
+     managed-limits.json 変更後に再起動は不要。
+3. **投稿とリンク**
+   - `x_auto_improve.py` は LLM（opencode無料モデルのみ、Claude不使用）で
+     JSON投稿プランを生成し、`x_link_resolver.py` が自分のブログ記事とYouTube検索から
+     関連リンクを1件だけ解決（YouTubeはoEmbedで実在確認、NG語/LIVE/短尺除外）。
+   - 基本方針は「本文はネイティブ完結・リンクは最初の返信」。
+     レポートが `link_vs_non_link_avg_views` から「本文直置きが有利」と判断すると
+     `X_LINK_POLICY=inline` へ自動切替（逆なら `native_then_first_reply` に戻る）。
+   - リンクを貼るかどうかはLLMが判断し、さらに `X_LINK_PROBABILITY_PCT` の確率ゲートを通す。
+     キュー/RSSは使わない。
+4. **手動確認/緊急停止**
+   ```bash
+   python scripts/x_auto_improve.py --ignore-lock     # ドライラン（投稿しない）
+   python scripts/x_deploy.py --proposal data/x-consulting/proposals/<date>.json --dry-run --auto-safe
+   ```
+   ```powershell
+   Disable-ScheduledTask -TaskName blog-x-auto-improve-task   # 自動投稿だけ停止
+   Disable-ScheduledTask -TaskName blog-x-consulting-task     # 自動ルール調整も停止
+   ```
 
 ### はてなブログ連携(構築済み)
 

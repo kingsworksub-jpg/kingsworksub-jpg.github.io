@@ -255,6 +255,52 @@ def parse_replies(text: str, keep_empty: bool = False) -> dict[str, str]:
     return parse_keyed(text, "replies", keep_empty)
 
 
+def parse_json_object(text: str) -> dict | None:
+    """モデル出力から最初のJSONオブジェクトを取り出す（コードフェンス耐性あり）。"""
+    if not text:
+        return None
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.S)
+    candidates = [m.group(1)] if m else []
+    candidates.append(text)
+    for cand in candidates:
+        try:
+            data = json.loads(cand)
+            if isinstance(data, dict):
+                return data
+        except (json.JSONDecodeError, TypeError):
+            continue
+    start = text.find("{")
+    end = text.rfind("}")
+    if start >= 0 and end > start:
+        try:
+            data = json.loads(text[start : end + 1])
+            if isinstance(data, dict):
+                return data
+        except (json.JSONDecodeError, TypeError):
+            pass
+    return None
+
+
+def generate_json(prompt: str, label: str = "json") -> tuple[dict | None, list[str], str]:
+    """MODEL_CHAIN を順に試し、最初に得られたJSONオブジェクトを返す。
+
+    戻り値: (obj, 試行ログ, 採用モデル名)。全滅時は (None, log, "")。
+    投稿文・リンク判断など、構造化出力が必要な自動改善処理で使う。
+    """
+    log: list[str] = []
+    for spec in MODEL_CHAIN:
+        ok, payload = run_opencode(prompt, spec["model"])
+        if not ok:
+            log.append(f"[!] {spec['name']}: {payload}")
+            continue
+        obj = parse_json_object(payload)
+        if obj:
+            log.append(f"[✓] {spec['name']}: {label}生成")
+            return obj, log, spec["name"]
+        log.append(f"[!] {spec['name']}: JSONを解析できず（フォールバック）")
+    return None, log, ""
+
+
 def _generate_keyed(prompt: str, key: str, label: str) -> tuple[dict[str, str], list[str], set[str]]:
     """MODEL_CHAIN を順に試し、(生成物, 試行ログ, スキップと判断した id) を返す。"""
     log: list[str] = []
