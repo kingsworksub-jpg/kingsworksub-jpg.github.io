@@ -10348,5 +10348,24 @@
       "新規記事投稿後に同検査を再実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-23T23:53:56Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全291記事を機械点検: タイトル重複/長すぎ、禁止表現、未解決CTAプレースホルダー、img alt欠落。検出は誤検知のみ(「目を通して」は一般用法、<img>はコード説明文)、draft 6本は意図的",
+      "改善対象なしのため記事は変更せず",
+      "seo-audit.py は PIL 未動作のため実行不可",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PIL のある環境で seo-audit --check-links を実行",
+      "新規記事投稿後に同検査を再実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
