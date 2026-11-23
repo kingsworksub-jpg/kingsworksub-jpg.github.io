@@ -9935,5 +9935,27 @@
       "ローカルPCでseo-audit.py --check-linksを実行し外部リンク切れを確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-23T04:52:57Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ballantines-finest-deep-dive-2026"
+    ],
+    "actions": [
+      "他記事参照(「10本の中でも」)を単独記事として自立する表現に修正",
+      "「どんな人に向くか」セクションを追加し本文量を補強(新規事実は追加せず)",
+      "本文が短い(2500字未満)深掘り記事が23件あり、順次補強の候補",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ballantines-finest-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る短文記事(black-nikka-clear等)の補強",
+      "ローカルでhugoビルドとseo-audit確認"
+    ],
+    "status": "完了"
   }
 ]
