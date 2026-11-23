@@ -3311,5 +3311,18 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-23T18:00:14+09:00"
+ },
+ "midi-keyboard-narrow-desk-dimensions-2026": {
+  "title": "120cm幅のデスクに49鍵と61鍵はどう収まるか、スライダーと二段配置の寸法整理",
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "tag:blog.hatena.ne.jp,2013:blog-kinbro-26006613798493057-14729835035342969784",
+  "note_key": "N/A",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-23T21:00:11+09:00"
  }
 }
