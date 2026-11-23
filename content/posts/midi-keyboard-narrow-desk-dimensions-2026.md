@@ -15,17 +15,14 @@ scheduled_time: "20:00"
 
 鍵盤の置き方を決めるときは、感覚で選ぶのではなく、まず鍵盤本体の横幅とデスクの横幅を数字で照らし合わせることが大切です。本記事では、49鍵（幅約800mm〜850mm前後、コンパクトモデルでは約709mm）と61鍵（約950mm〜1000mm）の寸法を基準に、キーボードスライダー・二段デスク・スタンド横置きの3つの配置方式を比較しながら、狭いデスクでも作業と演奏を両立させる考え方を整理します。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B01IOBUNN0?tag=nakimoto1-22)
+
+## 120cm幅デスクに49鍵と61鍵を置いたときの横幅と余白
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B01IOBUNN0?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/midi-keyboard-desk/desk-setup-1.jpg" alt="MIDIキーボードや録音機材が配置された制作デスク" width="220" height="150" loading="lazy"></a>
 <figcaption>省スペース環境での導入候補となる49鍵MIDIキーボードと制作環境イメージ<span class="credit">Photo: andrew pilling / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-**Korg microKEY2-49（コンパクト49鍵MIDIキーボード）**
-[Amazonで見る →](https://www.amazon.co.jp/dp/B01IOBUNN0?tag=nakimoto1-22)
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B01IOBUNN0?tag=nakimoto1-22)
-
-## 120cm幅デスクに49鍵と61鍵を置いたときの横幅と余白
 
 自室の制作環境でよく選ばれるデスク幅のひとつが120cm（1200mm）ですが、この上にMIDIキーボードを直接置くとどのくらい余白が残るのかを計算しておくと失敗が減ります。横幅の違いは単なる数センチの差に見えて、マウスを動かす範囲やオーディオインターフェースを並べる場所の有無に直結します。
 

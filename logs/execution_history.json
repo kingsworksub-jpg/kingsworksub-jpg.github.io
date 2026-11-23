@@ -10263,5 +10263,30 @@
       "seo-audit実行環境の確認"
     ],
     "status": "一部完了(外部3サイトは今回改定案なし)"
+  },
+  {
+    "timestamp": "2026-11-23T19:54:01Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "yubikey-security-key-backup-guide-2026",
+      "midi-keyboard-narrow-desk-dimensions-2026"
+    ],
+    "actions": [
+      "導入部にあったfigureをH2直後へ移動(yubikeyは第4節へ右配置、midi-keyboardは最初のH2直後)",
+      "midi-keyboardの重複していた太字キャプション行・『Amazonで見る →』行を削除",
+      "導入部figure残存を機械再チェック→残りはcopenhagen-sparkling-tea-bla-review・iloud-micro-monitor-2-arc-xの2本",
+      "seo-audit.pyはPIL不具合で実行不可、hugo未導入のためビルド未確認",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/yubikey-security-key-backup-guide-2026.md",
+      "content/posts/midi-keyboard-narrow-desk-dimensions-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "導入部figure残り2本(copenhagen-sparkling-tea-bla-review, iloud-micro-monitor-2-arc-x)の配置修正",
+      "seo-audit実行環境(PIL)の確認"
+    ],
+    "status": "一部完了"
   }
 ]

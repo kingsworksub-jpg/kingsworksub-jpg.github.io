@@ -13,11 +13,6 @@ scheduled_time: "12:00"
 
 オンラインサービスのセキュリティ対策として、パスワードだけでなく二段階認証を導入している人は多いでしょう。しかし、スマートフォンアプリによるワンタイムパスワードやSMS認証は、巧妙なフィッシングサイトによって突破されるリスクがゼロではありません。そこでおすすめしたいのが、USBポートに挿したりかざしたりして物理的に触れるだけで認証を行う「FIDO2セキュリティキー」です。鍵そのものを手元に持ち歩くことで、フィッシング攻撃を根本から防ぐことができます。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B08DHL1YDL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yubikey/YubiKey_5C_NFC.jpg" alt="YubiKey 5C NFCと黒いYubiKey" width="220" height="124" loading="lazy"></a>
-<figcaption>台紙入りのYubiKey 5C NFCと鍵束に付けた黒いYubiKey<span class="credit">Photo: Daniel Aleksandersen / CC BY 4.0</span></figcaption>
-</figure>
-
 この記事では、物理セキュリティキーの代表格であるYubiKeyを例に挙げながら、その仕組みや型の選び方、保存数を左右するファームウェアのポイント、そして安全性を高めるための予備キー運用について詳しく解説します。現在の実売価格やセール状況は下のリンクからご確認ください。
 <a href="https://www.amazon.co.jp/dp/B08DHL1YDL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">AmazonでYubiKey 5C NFCの価格とレビューを見る</a>
 
@@ -66,6 +61,11 @@ YubiKey 5シリーズのファームウェア5.7以降では、FIDO2のパスキ
 ---
 
 ## 4. アカウントへの登録手順と2本目の予備キーの重要性
+
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B08DHL1YDL?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yubikey/YubiKey_5C_NFC.jpg" alt="YubiKey 5C NFCと黒いYubiKey" width="220" height="124" loading="lazy"></a>
+<figcaption>台紙入りのYubiKey 5C NFCと鍵束に付けた黒いYubiKey<span class="credit">Photo: Daniel Aleksandersen / CC BY 4.0</span></figcaption>
+</figure>
 
 実際にYubiKeyを使い始めるための登録手順は非常にシンプルです。GoogleやMicrosoft、GitHubなどの対応サービスのセキュリティ設定画面を開き、「セキュリティキーの追加」や「パスキーの登録」といった項目を選択します。画面の指示に従ってYubiKeyをUSBポートに挿入するか、NFC対応端末にかざして本体をタッチし、ユーザープレゼンスを確認させるだけで登録が完了します。
 
