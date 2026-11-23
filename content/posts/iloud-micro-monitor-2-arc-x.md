@@ -22,8 +22,6 @@ IK Multimediaから、世界中で25万台以上の販売実績を持つ超小�
 <figcaption>制作スタジオにおけるモニタースピーカーの設置イメージ<span class="credit">Photo: TVN Group / CC BY-SA 4.0</span></figcaption>
 </figure>
 
-[Amazonで見る →](https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22)
-
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22)
 
 ## iLoud Micro Monitor 2の全体像と10年ぶり刷新の要点
@@ -70,14 +68,14 @@ iLoud Micro Monitor 2を語るうえで欠かせないのが、進化したル�
 
 解析されたデータをもとに、内蔵されたARC Xの高度な演算処理がスピーカー側の出力バランスを精密に補正します。この一連のプロセスがハードウェア単体で完結するように設計されているため、音響測定の専門知識が少ないユーザーであっても、容易に自身の部屋に最適化されたモニター環境を構築できる構造になっています。
 
+## なぜ宅録・DTM環境ではルーム補正が不可欠なのか
+
 <figure class="photo photo--right">
 <a href="https://www.ikmultimedia.com/" target="_blank" rel="noopener sponsored nofollow"><img src="/images/iloud-micro-monitor-2/HDBB_recording_studio_in_the_living_room.jpg" alt="リビングルームを活用した宅録・DTM制作環境のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>自宅の生活空間を活用した宅録・DTMモニター環境の例<span class="credit">Photo: pedronchi / CC BY 2.0</span></figcaption>
 </figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22)
-
-## なぜ宅録・DTM環境ではルーム補正が不可欠なのか
 
 商業用の大型レコーディングスタジオとは異なり、多くのDTMユーザーや宅録クリエイターが音楽制作を行っているのは、リビングや書斎といった一般的な居住空間です。こうした部屋は音響設計を前提として作られていないため、壁や窓ガラス、本棚、そしてスピーカーのすぐ下にあるデスクの天板などから音が複雑に反射します。
 

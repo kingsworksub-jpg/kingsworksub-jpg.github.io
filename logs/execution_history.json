@@ -10169,5 +10169,26 @@
       "ローカルでseo-audit確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-23T15:53:33Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "copenhagen-sparkling-tea-bla-review",
+      "iloud-micro-monitor-2-arc-x"
+    ],
+    "actions": [
+      "2枚目のfigure(right)がセクション末尾に置かれ見出し直前で回り込みが効かない配置を、次のh2直後・本文段落直前へ移動",
+      "アイキャッチ直後の重複Amazonリンク行を1本に整理(copenhagen)",
+      "ireal-pro-jazz-practiceは点検済み・figure配置問題なし"
+    ],
+    "files_changed": [
+      "content/posts/copenhagen-sparkling-tea-bla-review.md",
+      "content/posts/iloud-micro-monitor-2-arc-x.md"
+    ],
+    "next_kpis": [
+      "全記事の巡回が一巡(残り未点検は点検済みのireal-proのみ)。次回は古い記事から再巡回し、figure配置・seo-audit(PIL環境不備で今回未実行)を確認"
+    ],
+    "status": "完了(外部3サイトは今回改定案なし)"
   }
 ]

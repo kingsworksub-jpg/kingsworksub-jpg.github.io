@@ -22,8 +22,6 @@ scheduled_time: "20:00"
 <figcaption>複数の茶葉を調和させたスパークリングティーのイメージ<span class="credit">Photo: Gannu03 / CC BY-SA 4.0</span></figcaption>
 </figure>
 
-[Amazonで見る →](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
-
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
 
 ## 結論と基本スペック：0.0% ABVと約5バールの炭酸設計
@@ -72,14 +70,14 @@ Copenhagen Sparkling Tea BLÅの味わいを理解するには、使用されて
 
 そこでバランスを取るために加えられているのが、ブドウ果汁とレモン果汁です。ブドウ果汁は角の取れた自然な甘みとボディ（飲み物の厚み）をもたらし、レモン果汁は全体を引き締めるシャープな酸味を加えることで、甘さが舌に残りすぎない構造を完成させています。
 
+## 約5バールの炭酸圧がもたらす口当たりとキレのメカニズム
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%91%E3%83%B3%E3%83%95%E3%83%AB%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%82%B9&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/copenhagen-sparkling-tea-bla/steeped-green-tea.jpg" alt="抽出された緑茶の淡い水色のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>繊細な茶葉の抽出とクリアな水色のイメージ<span class="credit">Photo: Difference engine / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
-
-## 約5バールの炭酸圧がもたらす口当たりとキレのメカニズム
 
 飲料の印象を大きく左右する物理的な数値が、約5バール（bar：圧力を示す国際単位）という炭酸ガス圧です。一般的な微炭酸飲料よりも明確に高いこの数値は、伝統的な瓶内二次発酵のスパークリングワインやシャンパーニュに並ぶ圧力水準にあたります。
 
