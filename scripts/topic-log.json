@@ -3858,6 +3858,15 @@
    "note_key": "",
    "engine": "gemini",
    "at": "2026-11-23T17:47:03+09:00"
+  },
+  {
+   "id": "2026w45-018",
+   "category": "setup",
+   "theme": "狭いデスクにMIDIキーボードを置く、キーボードスライダーと二段デスクの寸法",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-23T20:15:04+09:00"
   }
  ]
 }
