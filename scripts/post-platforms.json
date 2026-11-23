@@ -3324,5 +3324,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-23T21:00:11+09:00"
+ },
+ "speyside-whisky-valley-history-2026": {
+  "title": "スペイ川流域に蒸溜所が集まる背景から読み解く、スペイサイドモルト入門",
+  "platforms": [
+   "github",
+   "hatena",
+   "note"
+  ],
+  "hatena_entry": "N/A",
+  "note_key": "N/A",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-24T00:00:19+09:00"
  }
 }
