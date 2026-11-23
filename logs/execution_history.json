@@ -9898,5 +9898,26 @@
       "ローカルPCでseo-audit.py --check-linksを実行して結果確認"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-23T02:52:58Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ableton-live-13-ara2-vocaloid"
+    ],
+    "actions": [
+      "リード部のfigureを最初のH2直後へ移動(figure直後が短文・見出しになるルール違反を解消)",
+      "他に導入部figureを持つ記事7件(copenhagen-sparkling-tea-bla-review等)は意図的な導入配置の可能性があり据え置き",
+      "hugo未導入のためビルド確認不可",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ableton-live-13-ara2-vocaloid.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでhugoビルドとseo-audit.py --check-links確認"
+    ],
+    "status": "完了"
   }
 ]

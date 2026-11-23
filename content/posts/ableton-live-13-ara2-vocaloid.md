@@ -17,16 +17,16 @@ scheduled_time: "12:00"
 
 なかでも大きな変化を受けるのが、VOCALOIDやSynthesizer Vといった歌声合成ソフトを活用するクリエイターです。これまで手間のかかっていたDAWとの橋渡しがどのように整理され、日々の制作フローがどう変わるのかを順に見ていきます。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=Ableton+Live&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-13/daw-studio-console.jpg" alt="Ableton Live 13などのDAW作業を行うレコーディングスタジオのコンソール環境" width="220" height="150" loading="lazy"></a>
-<figcaption>DAWを用いた音楽制作スタジオの作業イメージ<span class="credit">Image: Recording studio console for DAW work / CC0</span></figcaption>
-</figure>
-
 [Amazonで見る →](https://www.amazon.co.jp/s?k=Ableton+Live&tag=nakimoto1-22)
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ableton+Live&tag=nakimoto1-22)
 
 ## Live 13の全体像：2026年11月発表で注目された主要アップデート
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Ableton+Live&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ableton-live-13/daw-studio-console.jpg" alt="Ableton Live 13などのDAW作業を行うレコーディングスタジオのコンソール環境" width="220" height="150" loading="lazy"></a>
+<figcaption>DAWを用いた音楽制作スタジオの作業イメージ<span class="credit">Image: Recording studio console for DAW work / CC0</span></figcaption>
+</figure>
 
 2026年11月に発表されたAbleton Live 13は、オーディオ統合とシーケンス機能の両面を底上げするアップデートとして位置づけられています。最大のトピックはARA 2対応ですが、制作環境全体の快適さを引き上げる改良も同時に盛り込まれました。
 
