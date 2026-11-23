@@ -10241,5 +10241,27 @@
       "全記事が一度は巡回済み。次回以降は古い記事の再点検かseo-audit実行"
     ],
     "status": "完了(外部3サイトは今回改定案なし)"
+  },
+  {
+    "timestamp": "2026-11-23T18:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "speyside-whisky-valley-history-2026"
+    ],
+    "actions": [
+      "全290記事のdescription長(90-140字)・images・figure直後の見出し/---を機械チェック→問題0件",
+      "speyside記事のfigureを導入部からH2直後へ移動、重複Amazonリンク行を1本に整理",
+      "seo-audit.pyはPIL不具合で実行不可、hugo未導入のためビルド未確認",
+      "導入部figureが残る記事(yubikey等11本)は未対応"
+    ],
+    "files_changed": [
+      "content/posts/speyside-whisky-valley-history-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "導入部figure残り11本の配置修正",
+      "seo-audit実行環境の確認"
+    ],
+    "status": "一部完了(外部3サイトは今回改定案なし)"
   }
 ]

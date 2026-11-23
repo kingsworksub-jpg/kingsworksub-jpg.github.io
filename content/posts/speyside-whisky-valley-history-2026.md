@@ -17,16 +17,14 @@ scheduled_time: "23:00"
 
 この記事では、スペイサイドのモルトウイスキーを感覚的な印象だけでなく、数値と歴史から整理します。結論の比較表、産地形成の背景、味の構造、代表銘柄の違い、自宅で試せる飲み比べ手順まで順に確認していきます。初めてスペイサイドを選ぶ人にも、違いを整理したい人にも役立つ構成です。
 
+<p><a href="https://www.amazon.co.jp/dp/B001TZCQA4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ザ・グレンリベット 12年をAmazonで見る →</a></p>
+
+## スペイサイドの要点を先に押さえる
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%9A%E3%82%A4%E3%82%B5%E3%82%A4%E3%83%89+%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%A2%E3%83%AB%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/speyside-whisky/c1.jpg" alt="スペイサイドにあるマッカラン蒸溜所へのアプローチ" width="220" height="150" loading="lazy"></a>
 <figcaption>スペイサイドの蒸溜所風景<span class="credit">Photo: Peter Moore / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-<p><a href="https://www.amazon.co.jp/dp/B001TZCQA4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">ザ・グレンリベット 12年をAmazonで見る →</a></p>
-
-<p><a href="https://www.amazon.co.jp/dp/B001TZCQA4?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで価格とレビューを見る</a></p>
-
-## スペイサイドの要点を先に押さえる
 
 スペイサイドを理解するうえで、最初に確認したいのは「蒸溜所の集中度」「合法化の歴史」「原料環境」「熟成の傾向」の4点です。この4点がそろうと、ボトルの説明文にある甘みや華やかさが、単なるイメージではなく産地の条件として読めるようになります。まずは全体像を表で整理します。
 
