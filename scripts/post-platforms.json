@@ -3288,5 +3288,17 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-23T08:00:10+09:00"
+ },
+ "autotune-advanced-dva-pitch-correction": {
+  "title": "ビブラートの生命感を死守する補正技術。AutoTune Advancedが導くボーカル制作のパラダイムシフト",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "14729835035342763093",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-23T13:00:10+09:00"
  }
 }
