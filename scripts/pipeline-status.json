@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-23T17:34:03+09:00",
+ "updated": "2026-11-23T17:47:03+09:00",
  "queue": {
-  "published": 189,
+  "published": 190,
   "rejected": 12,
-  "approved": 55,
-  "in_progress": 1
+  "approved": 55
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published autotune-advanced-dva-pitch-correction",
+ "last_result": "published iloud-micro-monitor-2-arc-x",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
