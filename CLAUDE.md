@@ -352,18 +352,22 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 |---|---|---|---|
 | 自動いいね | 150件/日・60〜120秒間隔 | 30件/日・180〜300秒間隔 | `scripts/x-auto-like.py` `X_MAX_LIKES_PER_DAY` |
 | 非相互アンフォロー | 100〜150件/日・15件ごとに20〜40秒 | 5〜10件/日・5件ごとに60〜120秒 | `scripts/x-unfollow-non-mutual.py` `DEFAULT_LIMIT_RANGE` |
-| 通知ベースの自動返信 | 5件/実行（日次上限なし） | 5件/実行 + 5件/日 | `scripts/post-to-x.py` `X_MAX_AUTO_REPLIES_PER_DAY` |
-| フォロー中TLへの返信 | 30件/日 | 5件/日 | `scripts/x-following-reply.py` `X_MAX_REPLIES_PER_DAY` |
+| 通知ベースの自動返信 | 5件/実行（日次上限なし） | 5件/実行 + 10件/日（11/23に5→10） | `scripts/post-to-x.py` `X_MAX_AUTO_REPLIES_PER_DAY` |
+| フォロー中TLへの返信 | 30件/日 | 10件/日（11/23に5→10） | `scripts/x-following-reply.py` `X_MAX_REPLIES_PER_DAY` |
 | 会話の着地いいね | 12件/日 | 3件/日 | `scripts/x-following-reply.py` `X_FOLLOWUP_MAX_LIKES_PER_DAY` |
 | 新規フォロワーへのお礼DM | フォロバ+DM | フォロバのみ（`--no-dm`） | `scripts/scheduled/run-x-follow-dm.ps1` |
 
 通知ベース（`post-to-x.py --auto-replies`）とフォロー中TL（`x-following-reply.py`）の返信は
-`data/x-replies-state.json` の `daily_counts` を共有し、**2ジョブ合計で5件/日**とする。
+`data/x-replies-state.json` の `daily_counts` を共有し、**2ジョブ合計で10件/日**（2026-11-23に5→10）とする。
 
 制限の解除後もこの水準を基本とし、戻す場合も段階的に上げる。Xの通知画面から「審査を依頼」できる
 （**2026-11-19にユーザーが審査を依頼済み**。結果通知が来るまでこの上限を維持する）。
-追加の制限（ブログ投稿回数の削減、タスクの停止など）は行わず、**現状の上限のまま様子見する**
-（2026-11-19、ユーザー判断）。
+2026-11-23にレポートを確認したうえで、ユーザー判断で返信上限のみ5→10に引き上げた。
+以降もレポート内容を見て増減を判断する。**引き下げ**は `data/x-consulting/managed-limits.json`
+への提案反映（tighten-only、`x_deploy.py` の allowlist 上限は10）で可能。
+**引き上げ**は安全のためコード側の基準値変更＋常駐プロセスの再起動が必要（`x-following-reply.py`
+と `post-to-x.py` の両方を同じ値にすること）。他の制限（いいね30件/日、アンフォロー5〜10件/日など）は
+当面維持する（2026-11-23、ユーザー判断）。
 解除の判断は最低24〜72時間、実行ログ（`data/x-likes-state.json` / `data/x-unfollow-log.jsonl` /
 `data/x-replies-state.json` / `data/x-following-reply-state.json`）で実績を確認してから行う。
 
@@ -413,7 +417,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   - 8%の確率でさらに1.4〜1.9倍に間隔を伸ばす（連続実行に見せない）
   - 合計で **1日約33サイクル（深夜4）**。他のXジョブ（ブログ投稿・返信・いいね）がロックを持つ時間帯は
     サイクルをスキップし、3〜8分後に再試行するため、実効では1日30サイクル前後になる。
-    返信は1サイクル最大1件・1日最大5件（2026-11-19、Xの仮ラベルを受けて30→5）
+    返信は1サイクル最大1件・1日最大10件（11/19に30→5、11/23にレポートを見て5→10）
   実行は `scripts/scheduled/run-following-reply.ps1` → `x-following-reply.py --loop --publish`。
   他Xタスクと違い**登録時から有効**（2026-11-16 に実投稿まで検証済みのため）。
   ```powershell
@@ -458,7 +462,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   スクリプト自身が1サイクルごとに取得（`X_MUTEX_WAIT_SEC`、既定120秒待ち）し、取れなければそのサイクルを
   スキップして数分後に再試行する（x-auto-like の1サイクルは数十秒なので、待てばほぼ通る）。
   異常終了で残った自前プロファイルのChromiumは起動前後に `kill_stale_browser()` で掃除する（プロファイルロック対策）。
-- **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大5件（`X_MAX_REPLIES_PER_DAY`、2026-11-19に30→5）。候補収集は最大12件（`X_SCAN_LIMIT`）。
+- **ペース制御**: 1サイクルで返信するのは最大1件（`X_POST_PER_CYCLE`）、1日最大10件（`X_MAX_REPLIES_PER_DAY`、11/19に30→5、11/23に5→10）。候補収集は最大12件（`X_SCAN_LIMIT`）。
   環境変数で上書き可（`X_MAX_REPLIES_PER_DAY` / `X_BATCH_SIZE` / `X_SCAN_LIMIT` / `X_POST_PER_CYCLE` / `X_MAX_SCROLLS` /
   `X_FOLLOWUP_INTERVAL_MIN` / `X_FOLLOWUP_SCAN_REPLIES` / `X_FOLLOWUP_MAX` / `X_FOLLOWUP_MIN_LEN` /
   `X_FOLLOWUP_SETTLE_MIN_TURNS` / `X_FOLLOWUP_SETTLE_HEAT` / `X_FOLLOWUP_MAX_LIKES_PER_DAY`）。
@@ -475,6 +479,27 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   会話の続き検出・文脈付き生成・引用禁止チェック（実際に1件破棄）も実データで動作確認済み。
   メディア付きツイートはタイムスタンプがリンクにならず `_status_id` が空になるため、パーマリンクからの
   フォールバックを実装済み（これが無いと「対象ツイートの要素が見つからない」で投稿に失敗する）。
+
+### X会計レポートのLAN内公開（2026-11-23構築）
+
+- `scripts/x_consultant.py` が生成する `xaccounting-reports.html` を、**LAN内の端末だけから見られる**
+  ローカルWebサーバーで公開する（GitHub Pages等には出さない）。
+- タスク名 `blog-x-report-server-task`、登録スクリプト `scripts/schedule-x-report-server.ps1`、
+  起動スクリプト `scripts/scheduled/serve-x-report.ps1`、ログ `scripts/scheduled/logs/x-report-server.log`。
+  ログオン時に起動し、`MultipleInstances=IgnoreNew`・実行時間無制限。
+- **バインドは物理LANアダプタのIPv4のみ**（現状 `http://100.64.1.26:8765/`）。`0.0.0.0` / `::` への
+  バインドはスクリプト側で拒否する。Tailscale・Bluetooth・APIPA(169.254.*) は除外するため、
+  Tailscale経由の外部アクセスや公共Wi-Fiからの露出は起きない（Windowsファイアウォールは現在OFFなので、
+  **バインド先の限定が唯一の防御**）。LAN内の端末からは `http://<LAN-IP>:8765/` で閲覧可能。
+- 配信するのは `data/x-report-web/` にコピーした生成物だけ（リポジトリ全体は晒さない）。
+  `xaccounting-reports.html` が更新されると自動で取り直す（再起動不要、最大30秒遅れ）。
+  Chart.js は `data/x-report-web/vendor/chart.umd.min.js` にローカル保存しており、オフラインでもグラフが出る。
+- 停止/再開:
+  ```powershell
+  Stop-ScheduledTask    -TaskName blog-x-report-server-task   # 公開停止
+  Start-ScheduledTask   -TaskName blog-x-report-server-task   # 再開
+  Disable-ScheduledTask -TaskName blog-x-report-server-task   # 恒久停止（ログオン時も起動しない）
+  ```
 
 ### はてなブログ連携(構築済み)
 

@@ -62,8 +62,30 @@ MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
 # すぐ諦めず少し待つ。長く待っても取れない場合はサイクルをスキップして数分後に再試行する。
 MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "120")) * 1000)
 
+def _load_managed_limit(key: str, default: int) -> int:
+    try:
+        import json as _json
+        from pathlib import Path as _Path
+        p = _Path(__file__).resolve().parent.parent / "data" / "x-consulting" / "managed-limits.json"
+        obj = _json.loads(p.read_text(encoding="utf-8"))
+        val = (obj.get("limits") or {}).get(key)
+        if val is None:
+            return default
+        ival = int(val)
+        if 0 <= ival <= default:
+            return ival
+    except Exception:
+        pass
+    return default
+
+
 # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 30 → 5 に引き下げた。
-MAX_REPLIES_PER_DAY = int(os.environ.get("X_MAX_REPLIES_PER_DAY", "5"))
+# 2026-11-23: レポートで経過を見ながら調整するため、基準値を 10 に引き上げた。
+# managed-limits.json（レポート側の提案）は、この基準値以下の引き下げにしか使えない。
+MAX_REPLIES_PER_DAY = _load_managed_limit(
+    "X_MAX_REPLIES_PER_DAY",
+    int(os.environ.get("X_MAX_REPLIES_PER_DAY", "10")),
+)
 CYCLE_SLEEP_RANGE = (120, 240)
 
 # 1サイクルでタイムラインから読みに行く投稿の数 / まとめてLLMに投げる数 / 実際に返信する数。
@@ -100,9 +122,12 @@ FOLLOWUP_MIN_LEN = int(os.environ.get("X_FOLLOWUP_MIN_LEN", "2"))
 # - 相槌・御礼だけの返信は、初回でも返信を重ねずいいねだけにする。
 FOLLOWUP_SETTLE_MIN_TURNS = int(os.environ.get("X_FOLLOWUP_SETTLE_MIN_TURNS", "1"))
 FOLLOWUP_SETTLE_HEAT = int(os.environ.get("X_FOLLOWUP_SETTLE_HEAT", "0"))
-FOLLOWUP_MAX_LIKES_PER_DAY = int(
-    # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 12 → 3 に引き下げた。
-    os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "3")
+FOLLOWUP_MAX_LIKES_PER_DAY = _load_managed_limit(
+    "X_FOLLOWUP_MAX_LIKES_PER_DAY",
+    int(
+        # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて 12 → 3 に引き下げた。
+        os.environ.get("X_FOLLOWUP_MAX_LIKES_PER_DAY", "3")
+    ),
 )
 
 # 相手の返信が「会話を広げる気力」をまだ持っているかを見るための語彙。

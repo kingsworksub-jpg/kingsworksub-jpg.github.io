@@ -73,8 +73,29 @@ LOGIN_TIMEOUT = 600  # 手動ログインを待つ秒数
 MAX_REPLY_CANDIDATES = 20  # 1回の --check-replies で返す新規返信の上限
 MAX_FOLLOWER_CANDIDATES = 20  # 1回の --check-new-followers で返す新規フォロワーの上限
 MAX_FOLLOWER_SCROLLS = 6  # フォロワーリストを読み込むためスクロールする回数
+def _load_managed_limit(key: str, default: int) -> int:
+    try:
+        import json as _json
+        p = os.path.join(BASE, "data", "x-consulting", "managed-limits.json")
+        obj = _json.load(open(p, encoding="utf-8"))
+        val = (obj.get("limits") or {}).get(key)
+        if val is None:
+            return default
+        ival = int(val)
+        if 0 <= ival <= default:
+            return ival
+    except Exception:
+        pass
+    return default
+
+
 # 2026-11-19: Xの仮ラベル(リーチ制限)を受けて自動返信を1日5件に制限。
-MAX_AUTO_REPLIES_PER_DAY = int(os.environ.get("X_MAX_AUTO_REPLIES_PER_DAY", "5"))
+# 2026-11-23: 経過観察のため基準値を10に引き上げた（2ジョブ合算で10件）。
+# managed-limits.json（レポート側の提案）は、この基準値以下の引き下げにしか使えない。
+MAX_AUTO_REPLIES_PER_DAY = _load_managed_limit(
+    "X_MAX_AUTO_REPLIES_PER_DAY",
+    int(os.environ.get("X_MAX_AUTO_REPLIES_PER_DAY", "10")),
+)
 
 INIT_SCRIPT = (
     "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
