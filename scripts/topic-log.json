@@ -3879,6 +3879,185 @@
    "note_key": "N/A",
    "engine": "gemini",
    "at": "2026-11-23T20:27:43+09:00"
+  },
+  {
+   "id": "2026w47-018",
+   "category": "music",
+   "theme": "平沢進が『パプリカ』でVOCALOIDを使った2006年、映画音楽に合成声を入れた意味",
+   "status": "rejected",
+   "reason": "Wikipedia URLs failed or timed out during research",
+   "at": "2026-11-23T21:40:55+09:00"
+  },
+  {
+   "id": "2026w45-031",
+   "category": "fashion",
+   "theme": "マフラーの巻き方4種、厚みと長さでコートの襟元に合わせる",
+   "status": "rejected",
+   "reason": "Channel mismatch: fashion category does not match note slot categories (whisky, music, sakeware)",
+   "at": "2026-11-23T21:41:22+09:00"
+  },
+  {
+   "id": "2026w47-015",
+   "category": "fashion",
+   "theme": "モンベルのネイジダウンパーカ、800フィルパワーと軽さの両立",
+   "status": "rejected",
+   "reason": "Channel mismatch: fashion category",
+   "at": "2026-11-23T21:41:40+09:00"
+  },
+  {
+   "id": "2026w42-035",
+   "category": "fashion",
+   "theme": "革小物の経年変化、財布とベルトの育て方",
+   "status": "rejected",
+   "reason": "Channel mismatch: fashion category",
+   "at": "2026-11-23T21:41:58+09:00"
+  },
+  {
+   "id": "2026w42-036",
+   "category": "fashion",
+   "theme": "ウールの見分け方、梳毛と紡毛の違いを知る",
+   "status": "rejected",
+   "reason": "Channel mismatch: fashion category",
+   "at": "2026-11-23T21:42:17+09:00"
+  },
+  {
+   "id": "2026w40-054",
+   "category": "fashion",
+   "theme": "ニットタイとウールタイ、秋冬のネクタイは素材で変わる",
+   "status": "rejected",
+   "reason": "Channel mismatch: fashion category",
+   "at": "2026-11-23T21:42:35+09:00"
+  },
+  {
+   "id": "2026w43-026",
+   "category": "anime",
+   "theme": "『AKIRA』のネオ東京、セル画の手描き背景とバイクの光の尾",
+   "status": "rejected",
+   "reason": "Channel mismatch: anime category",
+   "at": "2026-11-23T21:42:54+09:00"
+  },
+  {
+   "id": "2026w47-032",
+   "category": "anime",
+   "theme": "『装甲騎兵ボトムズ グレイ・ヘクセ』押井守が手がける2026年の新作",
+   "status": "rejected",
+   "reason": "Channel mismatch: anime category",
+   "at": "2026-11-23T21:43:12+09:00"
+  },
+  {
+   "id": "2026w47-016",
+   "category": "jazz",
+   "theme": "Nat King Cole『After Midnight』がTone Poetで2LP再発、1956年のセッションが今も聴かれる理由",
+   "status": "rejected",
+   "reason": "Channel mismatch: jazz category",
+   "at": "2026-11-23T21:43:31+09:00"
+  },
+  {
+   "id": "2026w46-004",
+   "category": "jazz",
+   "theme": "セロニアス・モンクの「間違って聞こえる音」、短2度のぶつかりと沈黙の置き方",
+   "status": "rejected",
+   "reason": "Channel mismatch: jazz category",
+   "at": "2026-11-23T21:43:50+09:00"
+  },
+  {
+   "id": "2026w45-037",
+   "category": "book",
+   "theme": "ディケンズ『クリスマス・キャロル』、1843年に自費出版された中編が祝日の形を変えた",
+   "status": "rejected",
+   "reason": "Channel mismatch: book category",
+   "at": "2026-11-23T21:44:08+09:00"
+  },
+  {
+   "id": "2026w43-024",
+   "category": "book",
+   "theme": "チャンドラー『ロング・グッドバイ』を村上春樹訳と清水俊二訳で読み比べる",
+   "status": "rejected",
+   "reason": "Channel mismatch: book category",
+   "at": "2026-11-23T21:44:27+09:00"
+  },
+  {
+   "id": "2026w47-023",
+   "category": "book",
+   "theme": "『ソクラテスの弁明』はなぜ今も読まれるのか、プラトンが残した裁判演説",
+   "status": "rejected",
+   "reason": "Channel mismatch: book category",
+   "at": "2026-11-23T21:44:45+09:00"
+  },
+  {
+   "id": "2026w45-039",
+   "category": "interior",
+   "theme": "ラグの素材で冬の床の冷たさが変わる、ウールと綿とポリエステル",
+   "status": "rejected",
+   "reason": "Channel mismatch: interior category",
+   "at": "2026-11-23T21:45:04+09:00"
+  },
+  {
+   "id": "2026w47-024",
+   "category": "interior",
+   "theme": "声で操作できるファン付き照明、暖房効率と明るさを1台にまとめる",
+   "status": "rejected",
+   "reason": "Channel mismatch: interior category",
+   "at": "2026-11-23T21:45:22+09:00"
+  },
+  {
+   "id": "2026w46-007",
+   "category": "film",
+   "theme": "テクニカラーの3本のフィルム、『オズの魔法使』のカンザスが色づく扉の場面",
+   "status": "rejected",
+   "reason": "Channel mismatch: film category",
+   "at": "2026-11-23T21:45:40+09:00"
+  },
+  {
+   "id": "2026w45-036",
+   "category": "film",
+   "theme": "小津安二郎のローアングル、畳に座った目の高さのカメラ",
+   "status": "rejected",
+   "reason": "Channel mismatch: film category",
+   "at": "2026-11-23T21:45:58+09:00"
+  },
+  {
+   "id": "2026w47-022",
+   "category": "film",
+   "theme": "エメラルド・フェネル版『ワジントン・ハイツ』、2026年版が賛否を呼んだ理由",
+   "status": "rejected",
+   "reason": "Channel mismatch: film category",
+   "at": "2026-11-23T21:46:16+09:00"
+  },
+  {
+   "id": "2026w47-021",
+   "category": "essay",
+   "theme": "カバンが運ぶ移動の歴史、香港からアフリカへ渡ったバッグの話",
+   "status": "rejected",
+   "reason": "Channel mismatch: essay category",
+   "at": "2026-11-23T21:46:34+09:00"
+  },
+  {
+   "id": "2026w45-024",
+   "category": "whisky",
+   "theme": "スペイサイドのモルト入門、スペイ川沿いに蒸溜所が集まった理由",
+   "status": "failed",
+   "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-23T21:47:17+09:00"
+  },
+  {
+   "id": "2026w47-009",
+   "category": "whisky",
+   "theme": "Ardbeg Trudernish 15年、アイラの蒸留所が初めて常設の15年物を出した理由",
+   "status": "failed",
+   "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-23T21:47:17+09:00"
+  },
+  {
+   "id": "2026w47-010",
+   "category": "whisky",
+   "theme": "Buffalo Trace Antique Collection 2026、Handyが12年物になった変更点",
+   "status": "failed",
+   "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-23T21:47:17+09:00"
   }
  ]
 }

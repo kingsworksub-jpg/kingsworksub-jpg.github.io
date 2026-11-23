@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:32:15+09:00",
+ "updated": "2026-11-23T21:47:17+09:00",
  "items": [
   {
    "category": "gear",
@@ -3144,9 +3144,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w40-054",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-01",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:42:26+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: fashion category"
   },
   {
    "category": "fashion",
@@ -8166,9 +8172,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-035",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:41:49+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: fashion category"
   },
   {
    "category": "fashion",
@@ -8221,9 +8233,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w42-036",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-18",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:42:08+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: fashion category"
   },
   {
    "category": "music",
@@ -10627,14 +10645,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-024",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-25",
    "retry": 1,
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
-   "slot_label": "夜ピーク: ジャズ/音楽カルチャー/ファッション/映画/読書/住まい",
-   "last_error": "run did not publish (failed); cleaned up"
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: book category",
+   "claimed_at": "2026-11-23T21:44:17+09:00"
   },
   {
    "category": "interior",
@@ -10748,15 +10767,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w43-026",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-10-25",
    "retry": 1,
-   "claimed_at": "2026-11-20T21:42:00+09:00",
+   "claimed_at": "2026-11-23T21:42:45+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "last_error": "Channel mismatch: anime category"
   },
   {
    "category": "drink-recipe",
@@ -12237,7 +12256,13 @@
    "id": "2026w45-024",
    "status": "approved",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 1,
+   "claimed_at": "2026-11-23T21:46:43+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
   },
   {
    "category": "drink",
@@ -12577,15 +12602,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-031",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-08",
    "retry": 1,
-   "claimed_at": "2026-11-19T07:30:21+09:00",
+   "claimed_at": "2026-11-23T21:41:03+09:00",
    "channel": "note",
    "content_dir": "culture",
-   "slot_time": "07:30",
-   "slot_label": "朝: 検証メモ/個人備忘録",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: fashion category does not match note slot categories (whisky, music, sakeware)"
   },
   {
    "category": "jazz",
@@ -12859,9 +12884,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-036",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:45:49+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: film category"
   },
   {
    "category": "book",
@@ -12911,15 +12942,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-037",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-08",
    "retry": 1,
-   "claimed_at": "2026-11-21T21:33:06+09:00",
+   "claimed_at": "2026-11-23T21:43:59+09:00",
    "channel": "note",
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "last_error": "Channel mismatch: book category"
   },
   {
    "category": "interior",
@@ -13016,9 +13047,15 @@
    },
    "source_of_idea": "calendar",
    "id": "2026w45-039",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:44:55+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: interior category"
   },
   {
    "category": "anime",
@@ -13297,9 +13334,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w46-004",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-15",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:43:40+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: jazz category"
   },
   {
    "category": "drink-tools",
@@ -13464,9 +13507,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w46-007",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-15",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:45:31+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: film category"
   },
   {
    "category": "drink-lab",
@@ -13949,7 +13998,13 @@
    "id": "2026w47-009",
    "status": "approved",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 1,
+   "claimed_at": "2026-11-23T21:46:52+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
   },
   {
    "category": "whisky",
@@ -14002,7 +14057,13 @@
    "id": "2026w47-010",
    "status": "approved",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 1,
+   "claimed_at": "2026-11-23T21:47:01+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
   },
   {
    "category": "drink",
@@ -14250,9 +14311,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-015",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:41:31+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: fashion category"
   },
   {
    "category": "jazz",
@@ -14308,9 +14375,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-016",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:43:22+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: jazz category"
   },
   {
    "category": "drink-tools",
@@ -14418,7 +14491,7 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-018",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-11-22",
    "retry": 1,
    "claimed_at": "2026-11-23T21:32:15+09:00",
@@ -14426,7 +14499,7 @@
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
-   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
+   "last_error": "Wikipedia URLs failed or timed out during research"
   },
   {
    "category": "music",
@@ -14588,9 +14661,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-021",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:46:25+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: essay category"
   },
   {
    "category": "film",
@@ -14641,9 +14720,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-022",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:46:07+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: film category"
   },
   {
    "category": "book",
@@ -14698,9 +14783,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w47-023",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:44:36+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: book category"
   },
   {
    "category": "interior",
@@ -14744,9 +14835,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-024",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:45:13+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: interior category"
   },
   {
    "category": "pc",
@@ -15159,9 +15256,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-032",
-   "status": "approved",
+   "status": "rejected",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-23T21:43:03+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "last_error": "Channel mismatch: anime category"
   }
  ]
 }
