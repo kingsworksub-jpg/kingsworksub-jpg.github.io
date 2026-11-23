@@ -546,6 +546,9 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
      「プロジェクト設計／自動化／レポート／ルール調整／SNS運用実験／インプレッション対策」
      に該当したら最大3回生成し直し、それでも駄目なら**送信せず**ブロック理由を
      `data/x-consulting/auto-improve-guard.jsonl` に記録する。自動返信・お礼DMにも適用済み。
+   - 誤投稿の削除は `python scripts/x_delete_post.py --status-id <id> --confirm`
+     （未指定はドライラン）。自動改善の履歴本文と一致した投稿しか消せず、共有ミューテックスを取得してから操作する。
+     2026-11-23の誤投稿 `2124795538336100765` はこの手順で削除済み。
 4. **手動確認/緊急停止**
    ```bash
    python scripts/x_auto_improve.py --ignore-lock     # ドライラン（投稿しない）
