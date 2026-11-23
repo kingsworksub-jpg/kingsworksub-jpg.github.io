@@ -10037,5 +10037,25 @@
       "ローカルでhugoビルドとseo-audit確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-23T09:53:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "fuji-strong-soda-deep-dive-2026"
+    ],
+    "actions": [
+      "「どんな人に向くか」セクションを追加し本文量を補強(新規事実は追加せず)",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/fuji-strong-soda-deep-dive-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る短文深掘り記事(mitsuya-cider-zero, crystal-spark-grape等)の補強",
+      "ローカルでhugoビルドとseo-audit確認"
+    ],
+    "status": "完了"
   }
 ]
