@@ -133,3 +133,5 @@ ARAに対応していないDAWでは、プラグインを挿したトラック�
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
+
+**関連記事**: [AutoTune AdvancedのDVAエンジンは、ビブラートを残したまま0.84msで補正する](/posts/autotune-advanced-dva-pitch-correction/)

@@ -141,3 +141,5 @@ scheduled_time: "23:00"
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+
+**関連記事**: [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](/posts/scotch-whisky-5choice-2026/)

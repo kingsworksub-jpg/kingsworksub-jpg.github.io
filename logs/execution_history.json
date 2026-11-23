@@ -10138,5 +10138,36 @@
       "ほぼ全記事を巡回済みのため、次回以降はタイトル/内部リンクの再点検や外部サイト改定案を優先"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-23T14:53:56Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "midi-keyboard-narrow-desk-dimensions-2026",
+      "launchkey-mk4-key-range",
+      "speyside-whisky-valley-history-2026",
+      "scotch-whisky-5choice-2026",
+      "autotune-advanced-dva-pitch-correction",
+      "melodyne-5-pitch-correction-basics-2026",
+      "pi-hole-raspberry-pi-adblock",
+      "mesh-wifi-vs-extender-wifi7-guide-2026",
+      "two-factor-auth-migration-guide",
+      "hibp-password-breach-check-order-2026"
+    ],
+    "actions": [
+      "内部リンクが1本も向いていなかった孤立記事13本のうち5本を、関連記事ブロックで双方向に接続(新規事実の追加なし)",
+      "内部リンク切れ・画像欠落は0件、description/images/H2の欠落も0件を確認",
+      "残る孤立記事(guitar-recording-amp-simulator-setup, ella-wishes-you-a-swinging-christmas-1960, iloud-micro-monitor-2-arc-x, copenhagen-sparkling-tea-bla-review, ableton-live-13-ara2-vocaloid, ireal-pro-jazz-practice, window-insulation-curtains)は次回以降",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ (上記10記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事7本の解消",
+      "ローカルでseo-audit確認"
+    ],
+    "status": "完了"
   }
 ]

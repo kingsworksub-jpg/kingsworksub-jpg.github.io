@@ -116,3 +116,5 @@ DAW連携はAbleton Liveがいちばん深く、クリップの起動からミ�
 - [MIDIキーボード5台比較、指先が最初に触れる相手を選ぶ](/posts/midi-keyboard-5choice-2026/)
 - [Akai MPK Mini MK4の25鍵でできること、上位機に任せること](/posts/akai-mpk-mini-mk4-deep-dive-2026/)
 - [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
+
+**関連記事**: [120cm幅のデスクに49鍵と61鍵はどう収まるか、スライダーと二段配置の寸法整理](/posts/midi-keyboard-narrow-desk-dimensions-2026/)

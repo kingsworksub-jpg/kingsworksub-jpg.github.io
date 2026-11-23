@@ -104,3 +104,5 @@ Wi-Fi 7のメッシュにするかどうかは、家の端末と回線で決め�
 - [GitHub Pages で技術・理論記事を読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
 - 今夜はウイスキー・カルチャーの記事やジャズ・映画のエッセイも公開予定です → [note はこちら](https://note.com/shining_finger01)
+
+**関連記事**: [Raspberry PiでPi-holeを動かし、家庭内の広告と追跡通信をDNSレベルで抑える手順](/posts/pi-hole-raspberry-pi-adblock/)
