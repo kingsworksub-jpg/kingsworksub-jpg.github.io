@@ -55,3 +55,7 @@ CMソング「キリンレモンのうた」は1961年に作られ、以降長�
 
 
 **関連記事**: [レモン2個分の酸味に振り切った、キレートレモン Wレモン](/posts/kiretolemon-wlemon-deep-dive-2026/) · [禁酒法時代を生き延びた甘口、カナダドライ ジンジャーエール](/posts/canada-dry-ginger-ale-deep-dive-2026/) · [カナダドライ ザ・タンサン ストロングは泡だけで勝負する](/posts/canada-dry-tansan-strong-deep-dive-2026/) · [「史上最強」の泡は本当か？アイシー・スパーク from カナダドライ レモン](/posts/icy-spark-canada-dry-lemon-deep-dive-2026/)
+
+## 関連記事
+
+- [Copenhagen Sparkling Tea BLÅが食事に寄り添う理由：0.0%と5バールが作る紅茶の食中酒](/posts/copenhagen-sparkling-tea-bla-review/)

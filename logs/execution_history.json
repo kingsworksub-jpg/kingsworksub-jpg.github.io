@@ -10190,5 +10190,31 @@
       "全記事の巡回が一巡(残り未点検は点検済みのireal-proのみ)。次回は古い記事から再巡回し、figure配置・seo-audit(PIL環境不備で今回未実行)を確認"
     ],
     "status": "完了(外部3サイトは今回改定案なし)"
+  },
+  {
+    "timestamp": "2026-11-23T16:54:09Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "charlie-brown-christmas-guaraldi-trio-2026",
+      "guitar-recording-amp-sim-setup",
+      "monitor-placement-room-tuning-6jo-2026",
+      "ableton-live-12-session-view-2026",
+      "kirin-lemon-sparkling-deep-dive-2026",
+      "winter-studio-humidity"
+    ],
+    "actions": [
+      "簡易監査(description/images/h2数/figure配置/CTAプレースホルダ)で公開記事285本に問題なし(h2<3は下書き2本と有料記事の無料部分のみ)",
+      "内部リンク孤立記事8本のうち6本(ella-wishes-you-a-swinging-christmas-1960, guitar-recording-amp-simulator-setup, iloud-micro-monitor-2-arc-x, ableton-live-13-ara2-vocaloid, copenhagen-sparkling-tea-bla-review, window-insulation-curtains)へ、関連テーマの既存記事末尾の「関連記事」から内部リンクを追加",
+      "seo-audit.pyはPIL環境不備で実行不可のため代替スクリプトで確認"
+    ],
+    "files_changed": [
+      "content/posts/ (上記6記事)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事 8→2(残り: hello, ireal-pro-jazz-practice)",
+      "ローカルでseo-audit --check-links確認"
+    ],
+    "status": "完了(外部3サイトは今回改定案なし)"
   }
 ]

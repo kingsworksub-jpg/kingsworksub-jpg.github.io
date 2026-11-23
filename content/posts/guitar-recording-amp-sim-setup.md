@@ -131,3 +131,7 @@ Hi-Z入力・適正ゲイン・低バッファー・DIリアンプを組み合�
 - [マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する](/posts/mic-preamp-gain-compare-2026/)
 - [オーディオインターフェース5台比較、声とパソコンのあいだに置く一台を選ぶ](/posts/audio-interface-5choice-2026/)
 - [ノートPC1台でDTMを続けるなら、据え置きから持ち出すのは4つだけ](/posts/laptop-only-dtm-portable-setup-2026/)
+
+## 関連記事
+
+- [アンプシミュレーターの接続とゲイン設定、リアンプまで自宅ギター録音の手順](/posts/guitar-recording-amp-simulator-setup/)

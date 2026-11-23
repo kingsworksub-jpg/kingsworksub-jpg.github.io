@@ -121,3 +121,4 @@ scheduled_time: "20:00"
 - [モニタースピーカー5台、机の上の低音はバスレフポートの向きで変わる](/posts/nearfield-monitors-5choice-2026/)
 - [賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段](/posts/rental-soundproofing-booth-2026/)
 - [ベッドの隣に机を置く4畳半のDTM環境、264cm四方の割り振り方と低音の癖](/posts/yojohan-dtm-bedside-desk-2026/)
+- [iLoud Micro Monitor 2が10年ぶりに刷新へ！内蔵ARC Xと新設計DSPで変わる宅録・DTMのモニター環境](/posts/iloud-micro-monitor-2-arc-x/)

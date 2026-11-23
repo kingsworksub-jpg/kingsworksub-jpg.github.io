@@ -114,3 +114,4 @@ draft: false
 - [賃貸の防音は吸音材では解決しない。遮音との違いと、組み立て式ブースの値段](/posts/rental-soundproofing-booth-2026/)
 - [制作PCのファン音を録音に入れない、静音ケースより先に効く距離とマイクの向き](/posts/quiet-music-pc-fan-noise-2026/)
 - [DTMデスクは奥行きで選ぶ。長時間座るための天板の高さと椅子の調整範囲](/posts/desk-chair-studio-ergonomics-2026/)
+- [窓辺の冷気を遮断して冬を快適に。断熱カーテンの選び方と効果的な設置ガイド](/posts/window-insulation-curtains/)

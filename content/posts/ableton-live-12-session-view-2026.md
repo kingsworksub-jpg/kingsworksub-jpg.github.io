@@ -133,3 +133,4 @@ Live には Intro、Standard、Suite の3種類がある。差は主に数の制
 - [FL Studioに移って最初に戸惑うのは、トラックではなくパターンという単位](/posts/fl-studio-pattern-piano-roll/)
 - [Studio OneがFender Studio Pro 8になって9か月、残った操作と加わったFenderのアンプ](/posts/fender-studio-pro-8-studio-one-2026/)
 - [Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで](/posts/logic-pro-drummer-workflow-2026/)
+- [Ableton Live 13のARA 2対応がもたらすVOCALOID・Synthesizer V制作の転換点](/posts/ableton-live-13-ara2-vocaloid/)

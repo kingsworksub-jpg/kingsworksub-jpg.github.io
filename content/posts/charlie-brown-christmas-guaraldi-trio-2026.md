@@ -109,3 +109,4 @@ scheduled_time: "21:30"
 - [ジャズの名盤リストはなぜ続かないのか、聴く順番と入門書の組み立て方](https://kingsworksub-jpg.github.io/posts/jazz-listening-guide-2026/)
 - [はてなブログ版はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版はこちら](https://ameblo.jp/sfd0501/)
+- [エラ・フィッツジェラルドが贈る1960年の至宝。名盤『Ella Wishes You a Swinging Christmas』を読み解く](/posts/ella-wishes-you-a-swinging-christmas-1960/)
