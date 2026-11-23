@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-24T07:31:11+09:00",
+ "updated": "2026-11-24T07:42:44+09:00",
  "queue": {
-  "published": 192,
+  "published": 193,
   "rejected": 31,
-  "approved": 33,
-  "in_progress": 1
+  "approved": 33
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published speyside-whisky-valley-history-2026",
+ "last_result": "published ardbeg-trudernish-15yo",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
