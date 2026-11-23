@@ -3867,6 +3867,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-23T20:15:04+09:00"
+  },
+  {
+   "id": "2026w45-018",
+   "category": "setup",
+   "theme": "狭いデスクにMIDIキーボードを置く、キーボードスライダーと二段デスクの寸法",
+   "slug": "midi-keyboard-narrow-desk-dimensions-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/midi-keyboard-narrow-desk-dimensions-2026/",
+   "hatena_entry": "tag:blog.hatena.ne.jp,2013:blog-kinbro-26006613798493057-14729835035342969784",
+   "note_key": "N/A",
+   "engine": "gemini",
+   "at": "2026-11-23T20:27:43+09:00"
   }
  ]
 }
