@@ -365,6 +365,32 @@ def avg_for(rows: list[dict[str, Any]], key: str) -> float | None:
     return round(sum(vals) / len(vals), 2) if vals else None
 
 
+# 「最新運用シグナル」はローカルの自動化状態。X公式アナリティクスではないことを
+# 明示するため、生のJSONキーではなく日本語名＋出典を表示する（2026-11-23）。
+STATE_SIGNAL_LABELS: dict[str, tuple[str, str]] = {
+    "liked_ids_count": (
+        "いいね済み投稿数（累計）",
+        "自動いいねが押した投稿IDの数 / x-likes-state.json",
+    ),
+    "replies_handled_count": (
+        "返信対応済み投稿数（累計）",
+        "通知ベース＋フォロー中TLの両ジョブが処理した投稿IDの数 / x-replies-state.json",
+    ),
+    "following_replied_count": (
+        "フォロー中TLで返信した数（累計）",
+        "フォロー中TLジョブが返信した投稿IDの数 / x-following-reply-state.json",
+    ),
+    "unfollow_candidates_count": (
+        "アンフォロー候補数（現在）",
+        "相互フォローでないため解除候補として残っているアカウント数 / x-unfollow-candidates.json",
+    ),
+    "unfollow_log_lines": (
+        "アンフォロー実行回数（累計）",
+        "これまでに解除した回数のログ行数 / x-unfollow-log.jsonl",
+    ),
+}
+
+
 def load_state_signals() -> dict[str, Any]:
     signals: dict[str, Any] = {}
     likes = load_json(DATA_DIR / "x-likes-state.json", {})
@@ -460,12 +486,9 @@ def render_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, Any],
     lines.append(f"- リンク投稿比率: {metrics.get('link_post_ratio', 'N/A')}")
     lines.append(f"- 無反応投稿比率: {metrics.get('zero_engagement_ratio', 'N/A')}")
     lines.append("")
-    lines.append("## ローカル運用シグナル")
-    for k in [
-        "liked_ids_count", "replies_handled_count", "following_replied_count",
-        "unfollow_candidates_count", "unfollow_log_lines",
-    ]:
-        lines.append(f"- {k}: {ss.get(k, 'N/A')}")
+    lines.append("## ローカル運用シグナル（X公式アナリティクスではなく自動化の実績）")
+    for k, (label, detail) in STATE_SIGNAL_LABELS.items():
+        lines.append(f"- {label}: {ss.get(k, 'N/A')} 〔{detail}〕")
     lines.append("")
     lines.append("## 上位投稿（サンプル内）")
     for t in metrics.get("top_posts", [])[:5]:
@@ -985,6 +1008,16 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
         if rule_rows else "<p class='muted'>今回の自動調整提案はありません（サンプル不足、または変化なし）。</p>"
     )
 
+    signal_rows = ""
+    for k, (label, detail) in STATE_SIGNAL_LABELS.items():
+        signal_rows += (
+            "<tr>"
+            + _cell("指標", label)
+            + _cell("値", ls.get(k, "N/A"))
+            + _cell("内容", detail)
+            + "</tr>"
+        )
+
     attempts = ld.get("_attempts") or []
     attempts_html = "".join(
         f"<li>{esc(a.get('model'))}: ok={esc(a.get('ok'))} {('err='+esc(a.get('error'))) if a.get('error') else ''}</li>"
@@ -1076,24 +1109,19 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
       <div class="card kpi"><div class="label">平均表示</div><div class="value">{esc(la.get('views','N/A'))}</div><div class="delta">サンプル {esc(lm.get('sample_size','N/A'))} 件</div></div>
       <div class="card kpi"><div class="label">平均いいね</div><div class="value">{esc(la.get('likes','N/A'))}</div><div class="delta">平均返信 {esc(la.get('replies','N/A'))}</div></div>
       <div class="card kpi"><div class="label">リンク投稿比率</div><div class="value">{esc(lm.get('link_post_ratio','N/A'))}</div><div class="delta">無反応比率 {esc(lm.get('zero_engagement_ratio','N/A'))}</div></div>
-      <div class="card kpi"><div class="label">運用シグナル</div><div class="value">{esc(ls.get('liked_ids_count','N/A'))}</div><div class="delta">累積いいねID数（ローカル状態）</div></div>
+      <div class="card kpi"><div class="label">いいね済み投稿数（累計）</div><div class="value">{esc(ls.get('liked_ids_count','N/A'))}</div><div class="delta">自動いいねの実績（ローカル状態）</div></div>
     </div>
 
     <div class="grid charts">
       <div class="card"><h2>フォロワー/フォロー中 推移</h2><div class="chart-box"><canvas id="c1"></canvas></div></div>
       <div class="card"><h2>平均エンゲージメント推移</h2><div class="chart-box"><canvas id="c2"></canvas></div></div>
       <div class="card"><h2>投稿品質比率推移</h2><div class="chart-box"><canvas id="c3"></canvas></div></div>
-      <div class="card"><h2>最新運用シグナル</h2>
+      <div class="card"><h2>最新運用シグナル（自動化の実績）</h2>
         <div class="table-wrap"><table class="responsive">
-          <thead><tr><th>指標</th><th>値</th></tr></thead>
-          <tbody>
-          <tr><td>liked_ids_count</td>{_cell("値", ls.get('liked_ids_count','N/A'))}</tr>
-          <tr><td>replies_handled_count</td>{_cell("値", ls.get('replies_handled_count','N/A'))}</tr>
-          <tr><td>following_replied_count</td>{_cell("値", ls.get('following_replied_count','N/A'))}</tr>
-          <tr><td>unfollow_candidates_count</td>{_cell("値", ls.get('unfollow_candidates_count','N/A'))}</tr>
-          <tr><td>unfollow_log_lines</td>{_cell("値", ls.get('unfollow_log_lines','N/A'))}</tr>
-          </tbody>
+          <thead><tr><th>指標</th><th>値</th><th>内容 / 出典</th></tr></thead>
+          <tbody>{signal_rows}</tbody>
         </table></div>
+        <p class="muted">※ X公式アナリティクスではなく、このPC上の自動化ログ（ローカル状態）です。</p>
       </div>
     </div>
 
