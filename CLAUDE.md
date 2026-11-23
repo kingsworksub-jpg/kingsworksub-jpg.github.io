@@ -496,6 +496,11 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - 配信するのは `data/x-report-web/` にコピーした生成物だけ（リポジトリ全体は晒さない）。
   `xaccounting-reports.html` が更新されると自動で取り直す（再起動不要、最大30秒遅れ）。
   Chart.js は `data/x-report-web/vendor/chart.umd.min.js` にローカル保存しており、オフラインでもグラフが出る。
+- **レスポンシブ対応（2026-11-23）**: 生成元 `render_html_report()` のCSSを修正済み。
+  グリッドは `minmax(min(100%,Npx),1fr)` でスマホでは1列に崩れ、長い文章は `overflow-wrap:anywhere` で折り返す。
+  上位投稿などの表は640px以下で`thead`を隠して1行1カードの縦積みに切り替わる（`data-label`で項目名を表示）。
+  グラフは `.chart-box` で高さを固定し `maintainAspectRatio:false` で幅に追従させる。
+  Playwrightで320/375/390/768/1280pxの各幅で `scrollWidth == innerWidth`（横スクロール無し）を検証済み。
 - 停止/再開:
   ```powershell
   Stop-ScheduledTask    -TaskName blog-x-report-server-task   # 公開停止
