@@ -3337,5 +3337,16 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-24T00:00:19+09:00"
+ },
+ "ardbeg-trudernish-15yo": {
+  "title": "アードベッグ史上初の常設15年、トゥルーダーニッシュがアイラの定義を塗り替える",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": "",
+  "note_key": "",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-24T08:01:35+09:00"
  }
 }
