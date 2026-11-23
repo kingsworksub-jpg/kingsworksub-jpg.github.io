@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:33:04+09:00",
+ "updated": "2026-11-24T07:31:11+09:00",
  "items": [
   {
    "category": "gear",
@@ -13998,14 +13998,14 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-009",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
    "retry": 1,
-   "claimed_at": "2026-11-23T21:46:52+09:00",
+   "claimed_at": "2026-11-24T07:31:11+09:00",
    "channel": "ameba",
    "content_dir": "culture",
-   "slot_time": "21:30",
-   "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
+   "slot_time": "07:30",
+   "slot_label": "朝: 検証メモ/個人備忘録",
    "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
   },
   {
