@@ -54,6 +54,11 @@ STATE_PATH = OUT_ROOT / "state.json"
 HTML_REPORT_PATH = BASE / "xaccounting-reports.html"
 TARGET_HANDLE = os.environ.get("X_TARGET_HANDLE", "100labjtvn")
 MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
+# 単体実行（手動/デバッグ）時は他Xジョブのサイクルが空くまで長めに待つ。
+# スケジュールランナー経由では X_SKIP_JOB_MUTEX=1 が渡され、PowerShell側が
+# 既に同じミューテックスを保持しているため、Python側の二重取得をスキップする。
+MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "900")) * 1000)
+SKIP_JOB_MUTEX = os.environ.get("X_SKIP_JOB_MUTEX") == "1"
 OPENCODE_FALLBACK_EXE = r"C:\Users\norio\AppData\Roaming\npm\opencode.cmd"
 
 
@@ -83,7 +88,7 @@ def save_json(path: Path, obj: Any) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def acquire_mutex(timeout_ms: int = 15000):
+def acquire_mutex(timeout_ms: int = MUTEX_WAIT_MS):
     if os.name != "nt":
         return None
     import ctypes
@@ -1484,15 +1489,26 @@ def main() -> int:
     ap.add_argument("--headed", action="store_true")
     ap.add_argument("--skip-llm", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="Phase1: no deploy; accepted for compatibility")
+    ap.add_argument("--skip-mutex", action="store_true",
+                    help="runner already holds the shared X job mutex; do not acquire it again")
     args = ap.parse_args()
 
     ensure_dirs()
     headless = False if args.headed else True
 
-    mutex = acquire_mutex(timeout_ms=15000)
+    # スケジュールランナーは PowerShell 側で同じミューテックスを保持しているため、
+    # ここで再取得すると（自分自身と競合して）必ずタイムアウトしていた。
+    # 単体実行時だけ Python 側で取得し、その場合は長めに待つ。
+    skip_mutex = SKIP_JOB_MUTEX or args.skip_mutex
+    mutex = None if skip_mutex else acquire_mutex()
     if mutex is False:
-        print("[!] could not acquire x jobs mutex; aborting to avoid profile conflict")
+        wait_sec = MUTEX_WAIT_MS / 1000
+        print(f"[!] could not acquire x jobs mutex after {wait_sec:g}s; "
+              "another X job still holds the profile lock. "
+              "Re-run later, or use X_MUTEX_WAIT_SEC to wait longer.")
         return 2
+    if skip_mutex:
+        print("[i] X_SKIP_JOB_MUTEX=1: runner holds the job mutex; skipping Python-side lock")
 
     try:
         snapshot = collect_x_snapshot(args.handle, headless=headless)

@@ -22,7 +22,7 @@ Get-ChildItem $logDir -Filter "$name-*.log" | Sort-Object LastWriteTime -Descend
 
 Write-JobLog $log "start dryrun=$($DryRun.IsPresent)"
 
-Invoke-WithJobLock -Repo $repo -Log $log -Name $name -LockWaitMin $LockWaitMin -Body {
+$jobResult = Invoke-WithJobLock -Repo $repo -Log $log -Name $name -LockWaitMin $LockWaitMin -Body {
     Set-Location $repo
     $env:PYTHONIOENCODING = "utf-8"
 
@@ -31,8 +31,19 @@ Invoke-WithJobLock -Repo $repo -Log $log -Name $name -LockWaitMin $LockWaitMin -
 
     $outFile = Join-Path $logDir "$name-$stamp.out.tmp"
     $errFile = Join-Path $logDir "$name-$stamp.err.tmp"
-    & python @pyArgs 1>$outFile 2>$errFile
-    $exitCode = $LASTEXITCODE
+    # The runner already holds the shared X job mutex; do not let Python take it twice.
+    $prevSkipMutex = $env:X_SKIP_JOB_MUTEX
+    $env:X_SKIP_JOB_MUTEX = "1"
+    try {
+        & python @pyArgs 1>$outFile 2>$errFile
+        $exitCode = $LASTEXITCODE
+    } finally {
+        if ($null -eq $prevSkipMutex) {
+            Remove-Item Env:X_SKIP_JOB_MUTEX -ErrorAction SilentlyContinue
+        } else {
+            $env:X_SKIP_JOB_MUTEX = $prevSkipMutex
+        }
+    }
 
     Write-JobLog $log "--- stdout ---"
     if (Test-Path $outFile) { Get-Content $outFile | Out-File -FilePath $log -Append -Encoding utf8 }
@@ -57,3 +68,4 @@ Invoke-WithJobLock -Repo $repo -Log $log -Name $name -LockWaitMin $LockWaitMin -
 }
 
 Write-JobLog $log "done"
+if ($jobResult -and $jobResult.state -eq "failed") { exit 1 }

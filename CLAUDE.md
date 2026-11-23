@@ -564,7 +564,22 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
      c5=相対エンゲージ率、c6=フォロワー増加率、c7=非リンク/リンク倍率。
    - `x_verify.py` のスナップショットにも相対指標を保存するが、
      **ロールバック判定スコアには入れない**（自動判定の挙動を変えないため）。
-5. **手動確認/緊急停止**
+5. **共有ミューテックスの二重取得対策（2026-11-24修正）**
+   - 11/23・11/24の `blog-x-consulting-task` は「成功(LastTaskResult=0)」なのに成果物が無かった。
+     原因は `Invoke-WithJobLock`（PowerShell）が `Local\kingsworksub-blog-x-jobs` を保持したまま、
+     `x_consultant.py` が**同じミューテックスを15秒で再取得しようとして自滅**していたこと。
+     07:45の `blog-x-auto-improve-task` も `skipped: lock` で同じ影響を受けていた。
+   - 対策: ランナーが Python を起動する直前だけ `X_SKIP_JOB_MUTEX=1` を設定し（終了後に復元）、
+     `x_consultant.py` / `x_auto_improve.py` はこのとき自前のミューテックスを取得しない。
+     手動/単体実行時は逆に `X_MUTEX_WAIT_SEC` 既定を900秒に延長し、他ジョブの完了を待つ。
+     `x_consultant.py --skip-mutex` でも同じ動作を指定できる。
+   - 失敗の可視化: `job-common.ps1` の `Invoke-WithJobLock` が結果を返すようになり、
+     両ランナーは `state == "failed"` のとき **exit 1** する。
+     Task Scheduler の `LastTaskResult` を信じず、必ず
+     `scripts/scheduled/logs/x-consulting-*.log` の `status pushed:` を確認すること。
+   - ロックが空いているかの確認は
+     `python -c "import sys;sys.path.insert(0,'scripts');import x_consultant as c;h=c.acquire_mutex(timeout_ms=1);print('lock_free' if h not in (False,None) else 'lock_busy');c.release_mutex(h)"`。
+6. **手動確認/緊急停止**
    ```bash
    python scripts/x_auto_improve.py --ignore-lock     # ドライラン（投稿しない）
    python scripts/x_deploy.py --proposal data/x-consulting/proposals/<date>.json --dry-run --auto-safe

@@ -91,4 +91,7 @@ function Invoke-WithJobLock {
         $mutex.Dispose()
         Write-JobLog $Log "end"
     }
+    # Return the final result so callers can surface failures as a non-zero
+    # Task Scheduler exit code. $null means the run was skipped (lock held).
+    return $final
 }

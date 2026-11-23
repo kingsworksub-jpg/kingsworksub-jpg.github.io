@@ -50,7 +50,10 @@ ANALYSIS_DIR = CONSULT_DIR / "analyses"
 STATE_PATH = CONSULT_DIR / "auto-improve-state.json"
 
 MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
-MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "120")) * 1000)
+# 単体実行時は空くまで長めに待つ。ランナー経由では X_SKIP_JOB_MUTEX=1 が渡され、
+# PowerShell 側が既に保持しているため Python 側の二重取得をスキップする。
+MUTEX_WAIT_MS = int(float(os.environ.get("X_MUTEX_WAIT_SEC", "900")) * 1000)
+SKIP_JOB_MUTEX = os.environ.get("X_SKIP_JOB_MUTEX") == "1"
 
 ACTION_REPEAT_DAYS = int(os.environ.get("X_ACTION_REPEAT_DAYS", "7"))
 
@@ -588,10 +591,15 @@ def main() -> int:
         return 2
 
     mutex = None
-    if not args.ignore_lock:
+    # ランナーが既に同じミューテックスを保持しているときは二重取得しない。
+    if not args.ignore_lock and not SKIP_JOB_MUTEX:
         mutex = acquire_mutex()
         if not mutex:
-            print(json.dumps({"ok": True, "skipped": "lock"}, ensure_ascii=False))
+            wait_sec = MUTEX_WAIT_MS / 1000
+            print(json.dumps({
+                "ok": True, "skipped": "lock",
+                "detail": f"could not acquire x jobs mutex after {wait_sec:g}s",
+            }, ensure_ascii=False))
             return 0
     try:
         res = run(publish=args.publish, ignore_lock=args.ignore_lock, force=args.force)
