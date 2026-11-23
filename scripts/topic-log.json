@@ -3834,6 +3834,18 @@
    "note_key": "n6b34a594be9b",
    "engine": "gemini",
    "at": "2026-11-23T07:49:49+09:00"
+  },
+  {
+   "id": "2026w47-004",
+   "category": "software",
+   "theme": "AutoTune AdvancedのDVA、ビブラートを残すピッチ補正は何が違うか",
+   "slug": "autotune-advanced-dva-pitch-correction",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/autotune-advanced-dva-pitch-correction/",
+   "hatena_entry": "14729835035342763093",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-23T12:11:38+09:00"
   }
  ]
 }

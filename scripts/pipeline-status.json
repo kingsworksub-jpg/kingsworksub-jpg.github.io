@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-23T12:02:21+09:00",
+ "updated": "2026-11-23T12:11:38+09:00",
  "queue": {
-  "published": 188,
+  "published": 189,
   "rejected": 12,
-  "approved": 56,
-  "in_progress": 1
+  "approved": 56
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published its-a-wonderful-life-copyright-history",
+ "last_result": "published autotune-advanced-dva-pitch-correction",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
