@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:00:03+09:00",
+ "updated": "2026-11-24T05:00:13+09:00",
  "queue": {
   "published": 192,
   "rejected": 31,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published speyside-whisky-valley-history-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "ppp-reconcile",
   "label": "プラットフォーム同期",
-  "since": "2026-11-24T05:00:03+09:00",
-  "engine": "none"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-24T04:45:14+09:00",
-  "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "at": "2026-11-24T05:00:13+09:00",
+  "engine": "none",
+  "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
  },
  "recent_runs": [
+  {
+   "job": "ppp-reconcile",
+   "label": "プラットフォーム同期",
+   "state": "finished",
+   "at": "2026-11-24T05:00:13+09:00",
+   "engine": "none",
+   "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -97,14 +100,6 @@
    "at": "2026-11-24T02:50:34+09:00",
    "engine": "gemini",
    "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "finished",
-   "at": "2026-11-24T02:30:19+09:00",
-   "engine": "gemini",
-   "detail": "[i] 未処理の新規返信はありません。"
   }
  ],
  "engine_post": "gemini",
