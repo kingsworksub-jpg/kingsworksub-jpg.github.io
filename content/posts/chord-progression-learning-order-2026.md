@@ -181,6 +181,7 @@ ii–V–Iは、曲の中で何度も出てくる小さな部品として使わ�
 ## 関連記事・おすすめメディア
 
 - [音楽理論を3か月で一周するなら、最初から読む本は1冊だけ](/posts/music-theory-3month-plan/)
+- [iReal Proでジャズスタンダードを耳に刻む練習設計とコード進行活用法](/posts/ireal-pro-jazz-practice/)
 - [コード進行から1曲を仕上げる1か月、手が止まる場所を先に決める](/posts/code-progress-1month-2026/)
 - [Akai MPK Mini MK4の25鍵でできること、上位機に任せること](/posts/akai-mpk-mini-mk4-deep-dive-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)

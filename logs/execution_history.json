@@ -10216,5 +10216,30 @@
       "ローカルでseo-audit --check-links確認"
     ],
     "status": "完了(外部3サイトは今回改定案なし)"
+  },
+  {
+    "timestamp": "2026-11-23T17:53:45Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ireal-pro-jazz-practice",
+      "parker-blues-ear-training-1week",
+      "chord-progression-learning-order-2026"
+    ],
+    "actions": [
+      "未改善だった最後の記事ireal-pro-jazz-practiceのfigureを導入文末(見出し前)からH2直後へ移動しCLAUDE.mdの配置ルールに適合、重複Amazonリンク行を整理",
+      "孤立していたireal-pro-jazz-practiceへ、関連テーマ2記事の関連記事欄から内部リンクを追加",
+      "hugo未導入のためビルド確認は未実施"
+    ],
+    "files_changed": [
+      "content/posts/ireal-pro-jazz-practice.md",
+      "content/posts/parker-blues-ear-training-1week.md",
+      "content/posts/chord-progression-learning-order-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "孤立記事 2→1(残り: hello)",
+      "全記事が一度は巡回済み。次回以降は古い記事の再点検かseo-audit実行"
+    ],
+    "status": "完了(外部3サイトは今回改定案なし)"
   }
 ]

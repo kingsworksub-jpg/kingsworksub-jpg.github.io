@@ -17,16 +17,14 @@ scheduled_time: "17:30"
 
 本記事では、iReal Proの基本的な仕組みから、共有プレイリストを使ったスタンダード曲の準備、テンポやキーの調整を活用した耳と目のトレーニング手順までを体系的に整理します。これからジャズのアドリブ演奏やコード進行の理解を深めたい方に向けた実践ガイドです。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iReal+Pro&tag=nakimoto1-22)
+
+## iReal Proの要点と対応環境まとめ
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=iReal+Pro&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ireal-pro-jazz-practice/c1.jpg" alt="ジャズのコード伴奏を支えるエレクトリックピアノの鍵盤" width="220" height="150" loading="lazy"></a>
 <figcaption>和音の響きを支えるピアノ伴奏のイメージ<span class="credit">Photo: David Adam Kess / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[Amazonで見る →](https://www.amazon.co.jp/s?k=iReal+Pro&tag=nakimoto1-22)
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iReal+Pro&tag=nakimoto1-22)
-
-## iReal Proの要点と対応環境まとめ
 
 iReal Proは、コード譜の作成と自動伴奏の再生に特化した音楽練習アプリとして世界中で利用されています。まずは本アプリで何ができるのか、対応環境や主な役割を一覧表で整理します。
 
