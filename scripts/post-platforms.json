@@ -3300,5 +3300,16 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-23T13:00:10+09:00"
+ },
+ "iloud-micro-monitor-2-arc-x": {
+  "title": "iLoud Micro Monitor 2が10年ぶりに刷新へ！内蔵ARC Xと新設計DSPで変わる宅録・DTMのモニター環境",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": "",
+  "note_key": "",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-23T18:00:14+09:00"
  }
 }
