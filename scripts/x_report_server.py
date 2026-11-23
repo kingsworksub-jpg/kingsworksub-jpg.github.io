@@ -1,8 +1,10 @@
-"""X会計レポートを社内LAN限定で公開する小さなHTTPサーバー。
+"""X会計レポートを「Wi-FiのLAN IP」と「Tailscale IP」だけに公開するHTTPサーバー。
 
-`python -m http.server --bind 0.0.0.0` を使わない理由:
-- バインド先を1つのLAN IPv4に固定し、ワイルドカード(0.0.0.0/::)を禁止する。
-  これでTailscaleや将来接続する公共Wi-Fiなど、他のインターフェースからは見えない。
+公開範囲（2026-11-23、ユーザー指示）:
+- バインドするのは PowerShell が選んだ LAN IPv4 と Tailscale IPv4 のみ。
+- ワイルドカード(0.0.0.0/::)へのバインドは禁止。ルーターのポート開放もしない。
+  → Tailscale は登録済み端末だけが入れる閉じたネットワークなので外部公開ではない。
+    公共Wi-Fi等、意図しないインターフェースからは見えないまま。
 - リポジトリ全体ではなく、公開用にコピーした data/x-report-web/ だけを配信する。
 - 生成レポートが更新されたら自動でコピーを取り直す（再起動不要）。
 
@@ -14,6 +16,7 @@ import argparse
 import http.server
 import shutil
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -85,7 +88,8 @@ def validate_bind(ip: str) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--bind", required=True, help="バインドするLAN IPv4（ワイルドカード禁止）")
+    ap.add_argument("--bind", required=True, nargs="+",
+                    help="バインドするIPv4を1つ以上（LAN用とTailscale用。ワイルドカード禁止）")
     ap.add_argument("--port", type=int, default=8765)
     ap.add_argument("--log-file", default="", help="指定すると標準出力をUTF-8で追記")
     args = ap.parse_args()
@@ -96,19 +100,34 @@ def main() -> None:
         log = log_path.open("a", encoding="utf-8", buffering=1)
         sys.stdout = sys.stderr = log
 
-    bind = validate_bind(args.bind)
+    binds = [validate_bind(b) for b in args.bind]
     sync_publish_dir()
 
-    with http.server.ThreadingHTTPServer((bind, args.port), ReportHandler) as httpd:
+    servers = []
+    for bind in binds:
+        httpd = http.server.ThreadingHTTPServer((bind, args.port), ReportHandler)
+        servers.append(httpd)
+        threading.Thread(
+            target=httpd.serve_forever,
+            kwargs={"poll_interval": 0.5},
+            daemon=True,
+        ).start()
         print(
             f"[*] Xレポート公開開始: http://{bind}:{args.port}/ "
-            f"(公開先 {PUBLISH_DIR}, バインドはこのIPのみ)",
+            f"(公開先 {PUBLISH_DIR})",
             flush=True,
         )
-        try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("[i] 停止しました。", flush=True)
+    print("[i] バインドは上記IPのみ。0.0.0.0への公開・外部ポート開放はしていません。", flush=True)
+
+    try:
+        while True:
+            time.sleep(3600)
+    except KeyboardInterrupt:
+        print("[i] 停止しました。", flush=True)
+    finally:
+        for httpd in servers:
+            httpd.shutdown()
+            httpd.server_close()
 
 
 if __name__ == "__main__":

@@ -1,9 +1,10 @@
 # Registers blog-x-report-server-task: serves xaccounting-reports.html on the
 # local network only, via scripts/scheduled/serve-x-report.ps1.
 #
-# The server binds to the physical LAN adapter IP chosen by the runner (never
-# 0.0.0.0), so the report is visible from other devices on the same LAN but not
-# from Tailscale or other interfaces. Port 8765.
+# The server binds ONLY to the physical LAN IP and the Tailscale IP chosen by
+# the runner (never 0.0.0.0), so the report is visible from the local LAN and
+# from your phone on the private tailnet, but not from public/other interfaces.
+# No router port forward. Port 8765.
 #
 # AtLogOn restarts it after a reboot/crash; MultipleInstances=IgnoreNew prevents
 # a duplicate process. ExecutionTimeLimit PT0S == run indefinitely.

@@ -480,17 +480,19 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   メディア付きツイートはタイムスタンプがリンクにならず `_status_id` が空になるため、パーマリンクからの
   フォールバックを実装済み（これが無いと「対象ツイートの要素が見つからない」で投稿に失敗する）。
 
-### X会計レポートのLAN内公開（2026-11-23構築）
+### X会計レポートのLAN＋Tailscale公開（2026-11-23構築）
 
-- `scripts/x_consultant.py` が生成する `xaccounting-reports.html` を、**LAN内の端末だけから見られる**
-  ローカルWebサーバーで公開する（GitHub Pages等には出さない）。
+- `scripts/x_consultant.py` が生成する `xaccounting-reports.html` を、**LAN内の端末とTailscaleに接続した
+  自分のスマホだけから見られる**ローカルWebサーバーで公開する（GitHub Pages等には出さない）。
 - タスク名 `blog-x-report-server-task`、登録スクリプト `scripts/schedule-x-report-server.ps1`、
   起動スクリプト `scripts/scheduled/serve-x-report.ps1`、ログ `scripts/scheduled/logs/x-report-server.log`。
   ログオン時に起動し、`MultipleInstances=IgnoreNew`・実行時間無制限。
-- **バインドは物理LANアダプタのIPv4のみ**（現状 `http://100.64.1.26:8765/`）。`0.0.0.0` / `::` への
-  バインドはスクリプト側で拒否する。Tailscale・Bluetooth・APIPA(169.254.*) は除外するため、
-  Tailscale経由の外部アクセスや公共Wi-Fiからの露出は起きない（Windowsファイアウォールは現在OFFなので、
-  **バインド先の限定が唯一の防御**）。LAN内の端末からは `http://<LAN-IP>:8765/` で閲覧可能。
+- **バインドは「物理LANのIPv4」と「TailscaleのIPv4」の2つだけ**（現状
+  `http://100.64.1.26:8765/` と `http://100.87.195.37:8765/`）。スマホからはTailscale側のURLを使う。
+  `0.0.0.0` / `::` へのバインドはスクリプト側で拒否し、ルーターのポート開放もしていない。
+  Tailscaleは登録済み端末しか入れない閉じたネットワーク（tailnet）なので**外部公開には当たらない**。
+  Bluetooth・APIPA(169.254.*) は除外（Windowsファイアウォールは現在OFFなので、
+  **バインド先の限定が唯一の防御**）。公共Wi-Fi等、意図しないインターフェースからは見えない。
 - 配信するのは `data/x-report-web/` にコピーした生成物だけ（リポジトリ全体は晒さない）。
   `xaccounting-reports.html` が更新されると自動で取り直す（再起動不要、最大30秒遅れ）。
   Chart.js は `data/x-report-web/vendor/chart.umd.min.js` にローカル保存しており、オフラインでもグラフが出る。
