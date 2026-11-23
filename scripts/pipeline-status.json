@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:50:35+09:00",
+ "updated": "2026-11-23T21:00:02+09:00",
  "queue": {
   "published": 191,
   "rejected": 12,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published midi-keyboard-narrow-desk-dimensions-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "ppp-reconcile",
+  "label": "プラットフォーム同期",
+  "since": "2026-11-23T21:00:02+09:00",
+  "engine": "none"
+ },
  "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
