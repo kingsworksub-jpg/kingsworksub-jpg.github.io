@@ -1,5 +1,5 @@
 ---
-title: "ビブラートの生命感を死守する補正技術。AutoTune Advancedが導くボーカル制作のパラダイムシフト"
+title: "AutoTune AdvancedのDVAエンジンは、ビブラートを残したまま0.84msで補正する"
 description: "Antaresの最新フラッグシップ、AutoTune Advancedを深掘り解説。新開発のDVAエンジンがビブラートの個性を保護しつつ、0.84msの低レイテンシで自然な補正を実現。Pro 11との違いや設定のコツを専門家の視点で詳しく紐解きます。"
 images: ["/images/og/autotune-advanced-dva-pitch-correction.jpg"]
 ogImageWidth: 1200

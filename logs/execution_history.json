@@ -10116,5 +10116,27 @@
       "残る短文深掘り記事(kirin-lemon-sparkling等)の補強"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-23T13:54:26Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "autotune-advanced-dva-pitch-correction"
+    ],
+    "actions": [
+      "タイトルを製品名先頭・要点(DVA/0.84ms)入りに修正(検索キーワードを先頭30字以内へ、抽象的な「パラダイムシフト」表現を削除)",
+      "全289記事中287記事は巡回済み。残りのiloud-micro-monitor-2-arc-xは点検の結果修正不要",
+      "seo-audit.pyはローカルPILが壊れておりクラウド環境では実行不可",
+      "Hatena/Ameba/noteは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/autotune-advanced-dva-pitch-correction.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルでseo-audit確認",
+      "ほぼ全記事を巡回済みのため、次回以降はタイトル/内部リンクの再点検や外部サイト改定案を優先"
+    ],
+    "status": "完了"
   }
 ]
