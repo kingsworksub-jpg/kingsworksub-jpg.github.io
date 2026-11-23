@@ -1,0 +1,16 @@
+{
+ "/images/autotune-advanced/c1.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cubase6_main_audio_tracks.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Cubase6_main_audio_tracks.png",
+  "license": "CC BY-SA 3.0",
+  "author": "Steinberg Media Technologies G",
+  "title": ""
+ },
+ "/images/autotune-advanced/c2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/REAPER_Digital_Audio_Workstation.jpg/960px-REAPER_Digital_Audio_Workstation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:REAPER_Digital_Audio_Workstation.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "REAPER Digital Audio Workstation",
+  "title": ""
+ }
+}
