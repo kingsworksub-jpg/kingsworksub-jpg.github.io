@@ -4058,6 +4058,18 @@
    "reason": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-23T21:47:17+09:00"
+  },
+  {
+   "id": "2026w45-024",
+   "category": "whisky",
+   "theme": "スペイサイドのモルト入門、スペイ川沿いに蒸溜所が集まった理由",
+   "slug": "speyside-whisky-valley-history-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/speyside-whisky-valley-history-2026/",
+   "hatena_entry": "N/A",
+   "note_key": "N/A",
+   "engine": "gemini",
+   "at": "2026-11-23T23:33:04+09:00"
   }
  ]
 }

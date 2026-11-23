@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:06:53+09:00",
+ "updated": "2026-11-23T23:33:04+09:00",
  "items": [
   {
    "category": "gear",
@@ -12254,7 +12254,7 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-024",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-08",
    "retry": 1,
    "claimed_at": "2026-11-23T23:06:53+09:00",
@@ -12262,7 +12262,9 @@
    "content_dir": "culture",
    "slot_time": "23:00",
    "slot_label": "就寝前: 検証メモ/個人備忘録(隔日)",
-   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
+   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "slug": "speyside-whisky-valley-history-2026",
+   "published_at": "2026-11-23T23:33:04+09:00"
   },
   {
    "category": "drink",
