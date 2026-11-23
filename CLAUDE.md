@@ -575,6 +575,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 
 | 記事 | はてなブログURL | Entry ID(更新に必要) |
 |---|---|---|
+| MIDIキーボードのデスク寸法整理 | https://kinbro.hatenablog.com/entry/2026/11/23/202550 | 14729835035342969784 |
 | Pi-hole導入ガイド | https://kinbro.hatenablog.com/entry/2026/11/22/074209 | 14729835035342026442 |
 | DAW | https://kinbro.hatenablog.com/entry/2026/09/16/200310 | 14945776032078440540 |
 | サンプラー | https://kinbro.hatenablog.com/entry/2026/09/16/175527 | 14945776032078470402 |
