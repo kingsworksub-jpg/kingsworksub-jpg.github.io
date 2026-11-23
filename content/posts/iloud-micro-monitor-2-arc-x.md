@@ -17,14 +17,14 @@ IK Multimediaから、世界中で25万台以上の販売実績を持つ超小�
 
 この記事では、発表された仕様や機構をベースに、iLoud Micro Monitor 2がどのように自宅のリスニング環境とミックス作業の精度を変えるのかを体系的に整理していきます。まずは最新のラインナップや製品情報を確認してみてください。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22)
+
+## iLoud Micro Monitor 2の全体像と10年ぶり刷新の要点
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/iloud-micro-monitor-2/2017_03_31_Dolby_Atmos_Studio_TVN_Group.jpg" alt="スタジオにおけるモニタースピーカーと制作環境のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>制作スタジオにおけるモニタースピーカーの設置イメージ<span class="credit">Photo: TVN Group / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=iLoud+Micro+Monitor+2&tag=nakimoto1-22)
-
-## iLoud Micro Monitor 2の全体像と10年ぶり刷新の要点
 
 IK MultimediaのiLoud Micro Monitorシリーズは、限られたデスクスペースでもプロ仕様のモニタリングを実現する超小型リファレンスモニターとして、世界中で25万台以上が販売されてきました。一般的なスタジオモニターが一定の設置面積や壁からの距離を要求するのに対し、省スペースで扱える設計は多くの自宅制作者にとって定番の選択肢となっています。
 

@@ -17,14 +17,14 @@ scheduled_time: "20:00"
 
 なぜお茶をベースにした飲料が、魚介料理やサラダ、チーズと自然に調和するのでしょうか。その背景には、白茶や緑茶、ジャスミンティーなどの多層的な茶葉ブレンドに加え、ブドウやレモン果汁の配合、そして約5バールという高い炭酸圧と5〜7℃の提供温度という明確な根拠があります。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
+
+## 結論と基本スペック：0.0% ABVと約5バールの炭酸設計
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/copenhagen-sparkling-tea-bla/tea-blend-chai.jpg" alt="複数種の茶葉を用いたティーブレンドのイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>複数の茶葉を調和させたスパークリングティーのイメージ<span class="credit">Photo: Gannu03 / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
-
-## 結論と基本スペック：0.0% ABVと約5バールの炭酸設計
 
 Copenhagen Sparkling Tea BLÅが食事に合う最大の理由は、「茶葉由来の穏やかなタンニン（渋み成分）」「果汁による酸味と丸み」「シャンパーニュに匹敵する約5バールのガス圧」の3要素が噛み合っている点にあります。アルコールに頼らずに食中酒としての骨格を成立させるため、原料の構成と物理的な炭酸の強さが計算されています。
 

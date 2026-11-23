@@ -10288,5 +10288,28 @@
       "seo-audit実行環境(PIL)の確認"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-23T20:53:10Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "copenhagen-sparkling-tea-bla-review",
+      "iloud-micro-monitor-2-arc-x"
+    ],
+    "actions": [
+      "導入部にあったfigureを最初のH2直後へ移動(CLAUDE.mdのfigure配置ルール準拠)",
+      "全記事を機械チェックし、導入部figureの残存が0本になったことを確認",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/copenhagen-sparkling-tea-bla-review.md",
+      "content/posts/iloud-micro-monitor-2-arc-x.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "seo-audit実行環境(PIL)の確認",
+      "figure直後の短文・見出し連続の点検"
+    ],
+    "status": "完了(figure配置修正タスクは全件終了)"
   }
 ]
