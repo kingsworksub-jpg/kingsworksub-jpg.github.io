@@ -20,6 +20,7 @@ import json
 import os
 import re
 import shutil
+import statistics
 import subprocess
 import sys
 import tempfile
@@ -354,15 +355,202 @@ def compute_metrics(snapshot: dict[str, Any]) -> dict[str, Any]:
             "link": avg_for(link_posts, "views"),
             "non_link": avg_for(non_link_posts, "views"),
         },
+        # リンク有無の比較を「表示数だけ」ではなく、いいね数・エンゲージ率でも行う。
+        "link_vs_non_link_avg_likes": {
+            "link": avg_for(link_posts, "likes"),
+            "non_link": avg_for(non_link_posts, "likes"),
+        },
+        "link_vs_non_link_engagement_rate_pct": {
+            "link": engagement_rate_pct(link_posts),
+            "non_link": engagement_rate_pct(non_link_posts),
+        },
         "top_posts": sorted(rows, key=lambda r: ((r.get("likes") or 0), (r.get("views") or 0)), reverse=True)[:5],
         "state_signals": state_signals,
     }
+    metrics["relative"] = derive_relative(metrics)
     return metrics
 
 
 def avg_for(rows: list[dict[str, Any]], key: str) -> float | None:
     vals = [r[key] for r in rows if isinstance(r.get(key), int)]
     return round(sum(vals) / len(vals), 2) if vals else None
+
+
+def _is_num(x: Any) -> bool:
+    return isinstance(x, (int, float)) and not isinstance(x, bool)
+
+
+def _safe_div(a: Any, b: Any, scale: float = 1.0, digits: int = 3) -> float | None:
+    """割り算。分母が無効なときは None（グラフでは欠損として扱う）。"""
+    if not _is_num(a) or not _is_num(b) or float(b) == 0:
+        return None
+    return round(float(a) / float(b) * scale, digits)
+
+
+def _fmt_metric(v: Any, unit: str = "") -> str:
+    if not _is_num(v):
+        return "N/A"
+    s = f"{float(v):g}"
+    return f"{s}{unit}" if unit else s
+
+
+def engagement_rate_pct(rows: list[dict[str, Any]]) -> float | None:
+    """投稿集合のエンゲージメント率 = (いいね+返信+RP) / 表示 * 100。"""
+    eng = 0
+    views = 0
+    for r in rows:
+        if _is_num(r.get("likes")):
+            eng += int(r["likes"])
+        if _is_num(r.get("replies")):
+            eng += int(r["replies"])
+        if _is_num(r.get("reposts")):
+            eng += int(r["reposts"])
+        if _is_num(r.get("views")):
+            views += int(r["views"])
+    return _safe_div(eng, views, 100)
+
+
+# 相対指標の定義。direction: +1=高いほど良い / -1=低いほど良い / 0=参考値（判定しない）。
+RELATIVE_METRICS: list[dict[str, Any]] = [
+    {"key": "like_rate_pct", "label": "いいね率", "unit": "%", "direction": 1,
+     "meaning": "平均表示あたりのいいね数。インプレッションの質を示す"},
+    {"key": "reply_rate_pct", "label": "返信率", "unit": "%", "direction": 1,
+     "meaning": "平均表示あたりの返信数。対話の生まれやすさ"},
+    {"key": "repost_rate_pct", "label": "リポスト率", "unit": "%", "direction": 1,
+     "meaning": "平均表示あたりのリポスト数。拡散の生まれやすさ"},
+    {"key": "engagement_rate_pct", "label": "エンゲージメント率", "unit": "%", "direction": 1,
+     "meaning": "平均表示あたりのリアクション合計（いいね+返信+RP）"},
+    {"key": "views_per_follower", "label": "フォロワー1人あたり表示", "unit": "回/人", "direction": 1,
+     "meaning": "フォロワー規模で割った表示数。リーチの効率"},
+    {"key": "likes_per_100_followers", "label": "フォロワー100人あたりいいね", "unit": "件", "direction": 1,
+     "meaning": "フォロワー規模で割ったいいね数。大小アカウント間の比較に使う"},
+    {"key": "followers_growth_pct", "label": "フォロワー増加率", "unit": "%", "direction": 1,
+     "meaning": "前回観測からのフォロワー増加率（日次ではないので観測間隔に注意）"},
+    {"key": "follow_ratio_pct", "label": "フォロワー/フォロー比率", "unit": "%", "direction": 1,
+     "meaning": "フォロワー÷フォロー中。高いほど一方的でないフォロー構造"},
+    {"key": "zero_engagement_ratio", "label": "無反応投稿比率", "unit": "", "direction": -1,
+     "meaning": "リアクションが0の投稿の割合。低いほど良い"},
+    {"key": "link_post_ratio", "label": "リンク投稿比率", "unit": "", "direction": -1,
+     "meaning": "URLを含む投稿の割合。表示数の観測では低い方が良い傾向"},
+    {"key": "non_link_views_multiple", "label": "非リンク/リンク 表示倍率", "unit": "倍", "direction": 0,
+     "meaning": "非リンク投稿の平均表示をリンク投稿の平均表示で割った値（2倍ならリンクが不利）"},
+    {"key": "non_link_likes_multiple", "label": "非リンク/リンク いいね倍率", "unit": "倍", "direction": 0,
+     "meaning": "非リンク投稿の平均いいねをリンク投稿の平均いいねで割った値"},
+]
+
+# 推移グラフ・要約で使う相対指標のキー（履歴から計算できるもの）
+RELATIVE_SERIES_KEYS = [
+    "like_rate_pct", "reply_rate_pct", "repost_rate_pct", "engagement_rate_pct",
+    "views_per_follower", "likes_per_100_followers", "followers_growth_pct",
+    "follow_ratio_pct", "zero_engagement_ratio", "link_post_ratio",
+    "non_link_views_multiple", "non_link_likes_multiple",
+]
+
+
+def derive_relative(metrics: dict[str, Any]) -> dict[str, Any]:
+    """絶対値の平均から、規模に依存しない相対指標を導出する。
+
+    古い解析JSONには relative が無いため、描画時にこの関数で事後計算する。
+    比率の比率になるため「平均の比」である点はラベル/説明に明記する。
+    """
+    avg = metrics.get("averages") or {}
+    prof = metrics.get("profile") or {}
+    likes = avg.get("likes")
+    replies = avg.get("replies")
+    reposts = avg.get("reposts")
+    views = avg.get("views")
+    followers = prof.get("followers")
+    eng = None
+    if all(_is_num(v) for v in (likes, replies, reposts)):
+        eng = float(likes) + float(replies) + float(reposts)
+
+    rel: dict[str, Any] = {
+        "like_rate_pct": _safe_div(likes, views, 100),
+        "reply_rate_pct": _safe_div(replies, views, 100),
+        "repost_rate_pct": _safe_div(reposts, views, 100),
+        "engagement_rate_pct": _safe_div(eng, views, 100),
+        "views_per_follower": _safe_div(views, followers),
+        "likes_per_100_followers": _safe_div(likes, followers, 100),
+        "follow_ratio_pct": _safe_div(prof.get("followers"), prof.get("following"), 100),
+        "zero_engagement_ratio": metrics.get("zero_engagement_ratio"),
+        "link_post_ratio": metrics.get("link_post_ratio"),
+    }
+    lv = metrics.get("link_vs_non_link_avg_views") or {}
+    ll = metrics.get("link_vs_non_link_avg_likes") or {}
+    rel["non_link_views_multiple"] = _safe_div(lv.get("non_link"), lv.get("link"))
+    rel["non_link_likes_multiple"] = _safe_div(ll.get("non_link"), ll.get("link"))
+
+    tops = metrics.get("top_posts") or []
+    like_vals = [p.get("likes") for p in tops if _is_num(p.get("likes"))]
+    if like_vals:
+        best = max(like_vals)
+        rel["best_post_likes"] = best
+        rel["best_vs_avg_likes_multiple"] = _safe_div(best, likes)
+    top_rates = [_safe_div(p.get("likes"), p.get("views"), 100) for p in tops]
+    top_rates = [v for v in top_rates if v is not None]
+    if top_rates:
+        rel["top_post_like_rate_pct"] = round(sum(top_rates) / len(top_rates), 3)
+    return rel
+
+
+def build_relative_series(history: list[dict[str, Any]]) -> dict[str, Any]:
+    """履歴から相対指標の時系列を作る。欠損は None のまま残し、推測で埋めない。"""
+    labels: list[str] = []
+    series: dict[str, list[Any]] = {k: [] for k in RELATIVE_SERIES_KEYS}
+    series["followers"] = []
+    series["followers_delta"] = []
+    series["avg_likes"] = []
+    prev_followers: Any = None
+    for h in history:
+        labels.append(str(h.get("date") or ""))
+        m = h.get("metrics") or {}
+        prof = m.get("profile") or {}
+        avg = m.get("averages") or {}
+        rel = m.get("relative") or derive_relative(m)
+        followers = prof.get("followers")
+        delta = None if (prev_followers is None or not _is_num(followers)) else float(followers) - float(prev_followers)
+        series["followers"].append(followers)
+        series["followers_delta"].append(delta)
+        series["avg_likes"].append(avg.get("likes"))
+        for k in RELATIVE_SERIES_KEYS:
+            series[k].append(rel.get(k))
+        # 増加率は1日分のスナップショットからは出せないため、履歴の前回値から計算する。
+        series["followers_growth_pct"][-1] = _safe_div(delta, prev_followers, 100)
+        if _is_num(followers):
+            prev_followers = followers
+    return {"labels": labels, **series}
+
+
+def summarize_relative(series: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """全パラメータを「前期比」「直近7観測の中央値比」で客観的に比較する。"""
+    out: dict[str, dict[str, Any]] = {}
+    for spec in RELATIVE_METRICS:
+        key = spec["key"]
+        pairs = [(i, v) for i, v in enumerate(series.get(key) or []) if _is_num(v)]
+        if not pairs:
+            continue
+        cur_i, cur = pairs[-1]
+        prev = pairs[-2][1] if len(pairs) >= 2 else None
+        prior = [v for _, v in pairs[:-1][-7:]]
+        baseline = statistics.median(prior) if prior else None
+        change = _safe_div(float(cur) - float(prev), abs(float(prev)), 100) if prev is not None and float(prev) != 0 else None
+        base_change = _safe_div(float(cur) - float(baseline), abs(float(baseline)), 100) if baseline is not None and float(baseline) != 0 else None
+        direction = spec["direction"]
+        verdict = "参考値"
+        if direction and change is not None:
+            moved = change * direction
+            verdict = "改善" if moved >= 5 else ("悪化" if moved <= -5 else "横ばい")
+        out[key] = {
+            **spec,
+            "current": cur,
+            "previous": prev,
+            "baseline": round(float(baseline), 3) if baseline is not None else None,
+            "change_pct": change,
+            "vs_baseline_pct": base_change,
+            "verdict": verdict,
+            "observations": len(pairs),
+        }
+    return out
 
 
 # 「最新運用シグナル」はローカルの自動化状態。X公式アナリティクスではないことを
@@ -432,14 +620,26 @@ def build_llm_prompt(metrics: dict[str, Any], snapshot: dict[str, Any]) -> str:
         "state_signals": metrics.get("state_signals"),
         "recent_posts_head": [p.get("text_head") for p in metrics.get("top_posts", [])],
     }
+    hist = load_analysis_history()
+    compact["relative"] = metrics.get("relative") or derive_relative(metrics)
+    compact["relative_trend"] = summarize_relative(build_relative_series(hist))
+    compact["history_days"] = len(hist)
     return (
         "あなたはX(Twitter)アカウント成長のコンサルタントです。"
         "以下の観測データをもとに、読み取り専用の診断をJSONで返してください。"
         "自動で実行してよい変更は提案に含めてもよいが、この出力自体は適用しません。"
         "必ず次のJSONキーを含めてください: "
         "summary, wins, issues, hypotheses, next_actions, guardrails, confidence。"
-        "next_actions は最大5件、各要素は {title, reason, risk, metric, horizon_days}。"
-        "事実と推測を分け、データ不足は明記する。日本語で簡潔に。\n\n"
+        "next_actions は最大5件、各要素は {title, reason, risk, metric, horizon_days}。\n"
+        "【分析ルール】絶対値の平均（likes/views など）は規模の影響を強く受けるため、"
+        "判断は relative（表示あたり・フォロワーあたりの率と倍率）と "
+        "relative_trend（前期比・直近中央値比・判定）を優先してください。"
+        "例: 平均いいねが減っても like_rate_pct が上がっていれば改善と読む。"
+        "フォロワー増は followers_growth_pct と views_per_follower の両方で確認し、"
+        "片方だけでは結論を出さないでください。"
+        "サンプル数が少ない・履歴が短い（history_days が小さい）場合はデータ不足を明記し、"
+        "断定的な結論や過剰な施策を避けてください。"
+        "事実と推測を分け、日本語で簡潔に。\n\n"
         "```json\n" + json.dumps(compact, ensure_ascii=False, indent=2) + "\n```"
     )
 
@@ -485,6 +685,25 @@ def render_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, Any],
     lines.append(f"- 平均表示: {avg.get('views', 'N/A')}")
     lines.append(f"- リンク投稿比率: {metrics.get('link_post_ratio', 'N/A')}")
     lines.append(f"- 無反応投稿比率: {metrics.get('zero_engagement_ratio', 'N/A')}")
+    lines.append("")
+    lines.append("## 相対指標（規模に依存しない客観比較）")
+    lines.append("- 率は「平均値の比」。推移は前期比と直近7観測の中央値比。判定は変化率±5%以上で改善/悪化。")
+    hist_md = [h for h in load_analysis_history() if h.get("date") != date]
+    hist_md.append({"date": date, "metrics": metrics})
+    hist_md.sort(key=lambda h: h.get("date", ""))
+    rsum_md = summarize_relative(build_relative_series(hist_md))
+    lines.append(f"- 観測履歴: {len(hist_md)} 日分（日次ではないため、観測間隔に注意）")
+    for spec in RELATIVE_METRICS:
+        s = rsum_md.get(spec["key"])
+        if not s:
+            continue
+        cur = _fmt_metric(s["current"], spec["unit"])
+        chg = "N/A" if s["change_pct"] is None else f"{s['change_pct']:+.1f}%"
+        base = "N/A" if s["vs_baseline_pct"] is None else f"{s['vs_baseline_pct']:+.1f}%"
+        lines.append(
+            f"- {s['label']}: {cur} 〔前期比 {chg} / 中央値比 {base} / 判定 {s['verdict']}〕"
+            f" — {s['meaning']}"
+        )
     lines.append("")
     lines.append("## ローカル運用シグナル（X公式アナリティクスではなく自動化の実績）")
     for k, (label, detail) in STATE_SIGNAL_LABELS.items():
@@ -934,6 +1153,33 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
         history.append(cur)
     history.sort(key=lambda x: x.get("date", ""))
 
+    # 全パラメータの相対比較（規模に依存しない率・倍率・前期比・中央値比）
+    def _rcell(label: str, value: Any) -> str:
+        return f"<td data-label='{html.escape(label, quote=True)}:'>{html.escape('' if value is None else str(value), quote=True)}</td>"
+
+    rel_series = build_relative_series(history)
+    rel_sum = summarize_relative(rel_series)
+    rel_rows = ""
+    for key, s in rel_sum.items():
+        chg = "N/A" if s["change_pct"] is None else f"{s['change_pct']:+.1f}%"
+        base = "N/A" if s["vs_baseline_pct"] is None else f"{s['vs_baseline_pct']:+.1f}%"
+        verdict = s["verdict"]
+        rel_rows += (
+            "<tr>"
+            + _rcell("指標", s["label"])
+            + _rcell("現在値", _fmt_metric(s["current"], s["unit"]))
+            + _rcell("前期比", chg)
+            + _rcell("中央値比", base)
+            + _rcell("判定", verdict)
+            + _rcell("内容", s["meaning"])
+            + "</tr>"
+        )
+    history_note = (
+        "<p class='muted'>※ 履歴が1日分のみのため、推移グラフは現在値のみです。 "
+        "数日分たまると前期比・中央値比もグラフに反映されます。</p>"
+        if len(history) < 2 else ""
+    )
+
     labels = [h.get("date") for h in history]
     followers = [((h.get("metrics") or {}).get("profile") or {}).get("followers") for h in history]
     following = [((h.get("metrics") or {}).get("profile") or {}).get("following") for h in history]
@@ -949,6 +1195,7 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
     lp = lm.get("profile") or {}
     la = lm.get("averages") or {}
     ls = lm.get("state_signals") or {}
+    lr = lm.get("relative") or derive_relative(lm)
     ld = latest.get("diagnosis") or {}
 
     def esc(x: Any) -> str:
@@ -1047,7 +1294,19 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
     data_json = json.dumps({
         "labels": labels, "followers": followers, "following": following, "ratios": ratios,
         "avg_likes": avg_likes, "avg_replies": avg_replies, "avg_views": avg_views,
+        "avg_reposts": [((h.get("metrics") or {}).get("averages") or {}).get("reposts") for h in history],
         "link_ratio": link_ratio, "zero_ratio": zero_ratio,
+        "followers_delta": rel_series["followers_delta"],
+        "followers_growth": rel_series["followers_growth_pct"],
+        "like_rate": rel_series["like_rate_pct"],
+        "reply_rate": rel_series["reply_rate_pct"],
+        "repost_rate": rel_series["repost_rate_pct"],
+        "engagement_rate": rel_series["engagement_rate_pct"],
+        "views_per_follower": rel_series["views_per_follower"],
+        "likes_per_100_followers": rel_series["likes_per_100_followers"],
+        "follow_ratio_pct": rel_series["follow_ratio_pct"],
+        "link_views_multiple": rel_series["non_link_views_multiple"],
+        "link_likes_multiple": rel_series["non_link_likes_multiple"],
     }, ensure_ascii=False)
 
     report_html = f"""<!doctype html>
@@ -1108,14 +1367,30 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
       <div class="card kpi"><div class="label">フォロー比率</div><div class="value">{esc(lm.get('follow_ratio','N/A'))}</div><div class="delta">followers / following</div></div>
       <div class="card kpi"><div class="label">平均表示</div><div class="value">{esc(la.get('views','N/A'))}</div><div class="delta">サンプル {esc(lm.get('sample_size','N/A'))} 件</div></div>
       <div class="card kpi"><div class="label">平均いいね</div><div class="value">{esc(la.get('likes','N/A'))}</div><div class="delta">平均返信 {esc(la.get('replies','N/A'))}</div></div>
+      <div class="card kpi"><div class="label">いいね率（表示あたり）</div><div class="value">{esc(_fmt_metric(lr.get('like_rate_pct'), '%'))}</div><div class="delta">エンゲージ率 {esc(_fmt_metric(lr.get('engagement_rate_pct'), '%'))}</div></div>
+      <div class="card kpi"><div class="label">フォロワー100人あたりいいね</div><div class="value">{esc(_fmt_metric(lr.get('likes_per_100_followers')))}</div><div class="delta">表示/フォロワー {esc(_fmt_metric(lr.get('views_per_follower'), ' 回'))}</div></div>
+      <div class="card kpi"><div class="label">フォロワー増加率</div><div class="value">{esc(_fmt_metric((rel_sum.get('followers_growth_pct') or {}).get('current'), '%'))}</div><div class="delta">前期比 {esc(_fmt_metric((rel_sum.get('followers_growth_pct') or {}).get('change_pct'), '%'))}</div></div>
       <div class="card kpi"><div class="label">リンク投稿比率</div><div class="value">{esc(lm.get('link_post_ratio','N/A'))}</div><div class="delta">無反応比率 {esc(lm.get('zero_engagement_ratio','N/A'))}</div></div>
       <div class="card kpi"><div class="label">いいね済み投稿数（累計）</div><div class="value">{esc(ls.get('liked_ids_count','N/A'))}</div><div class="delta">自動いいねの実績（ローカル状態）</div></div>
     </div>
 
+    <div class="card" style="margin-bottom:14px"><h2>全パラメータの相対比較（客観判定）</h2>
+      <p class="muted">絶対値ではなく、表示あたり/フォロワーあたりの率と倍率で比較しています。判定は前期比±5%以上で改善/悪化、±5%未満は横ばい。中央値比は直近7観測の中央値との差。</p>
+      <div class="table-wrap"><table class="responsive">
+        <thead><tr><th>指標</th><th>現在値</th><th>前期比</th><th>中央値比</th><th>判定</th><th>内容</th></tr></thead>
+        <tbody>{rel_rows}</tbody>
+      </table></div>
+      {history_note}
+    </div>
+
     <div class="grid charts">
+      <div class="card"><h2>いいね分析：件数といいね率</h2><div class="chart-box"><canvas id="c4"></canvas></div><p class="muted">棒=平均いいね件数（左軸）／線=いいね率（右軸）。表示数の桁に潰されないよう独立軸にしています。</p></div>
       <div class="card"><h2>フォロワー/フォロー中 推移</h2><div class="chart-box"><canvas id="c1"></canvas></div></div>
-      <div class="card"><h2>平均エンゲージメント推移</h2><div class="chart-box"><canvas id="c2"></canvas></div></div>
+      <div class="card"><h2>相対エンゲージメント率の推移</h2><div class="chart-box"><canvas id="c5"></canvas></div><p class="muted">いいね率・返信率・リポスト率・合計（すべて表示あたり%）。</p></div>
+      <div class="card"><h2>平均リアクション数（いいね/返信/RP）</h2><div class="chart-box"><canvas id="c2"></canvas></div><p class="muted">表示数は桁が違うため、このグラフからは除外しています（別途 c4 の率で確認）。</p></div>
+      <div class="card"><h2>フォロワー増加率とフォロー比率</h2><div class="chart-box"><canvas id="c6"></canvas></div><p class="muted">増加率=前回観測比（%）。観測は日次とは限りません。</p></div>
       <div class="card"><h2>投稿品質比率推移</h2><div class="chart-box"><canvas id="c3"></canvas></div></div>
+      <div class="card"><h2>リンク vs 非リンク（非リンクを1倍とした比較）</h2><div class="chart-box"><canvas id="c7"></canvas></div><p class="muted">2倍なら「非リンク投稿の方が2倍効いている」ことを意味します。サンプルが片方だけなら欠損になります。</p></div>
       <div class="card"><h2>最新運用シグナル（自動化の実績）</h2>
         <div class="table-wrap"><table class="responsive">
           <thead><tr><th>指標</th><th>値</th><th>内容 / 出典</th></tr></thead>
@@ -1168,14 +1443,33 @@ new Chart(document.getElementById('c1'), {{type:'line',data:{{labels:D.labels,da
   {{label:'Ratio',data:D.ratios,borderColor:'#10b981',tension:.2,yAxisID:'y1'}}
 ]}},options:{{...base,scales:{{y:{{beginAtZero:false}},y1:{{position:'right',beginAtZero:true,grid:{{drawOnChartArea:false}}}}}}}}}});
 new Chart(document.getElementById('c2'), {{type:'line',data:{{labels:D.labels,datasets:[
-  {{label:'Avg Views',data:D.avg_views,borderColor:'#6366f1',tension:.2}},
   {{label:'Avg Likes',data:D.avg_likes,borderColor:'#ef4444',tension:.2}},
-  {{label:'Avg Replies',data:D.avg_replies,borderColor:'#14b8a6',tension:.2}}
+  {{label:'Avg Replies',data:D.avg_replies,borderColor:'#14b8a6',tension:.2}},
+  {{label:'Avg Reposts',data:D.avg_reposts,borderColor:'#8b5cf6',tension:.2}}
 ]}},options:{{...base,scales:{{y:{{beginAtZero:true}}}}}}}});
 new Chart(document.getElementById('c3'), {{type:'line',data:{{labels:D.labels,datasets:[
   {{label:'Link Post Ratio',data:D.link_ratio,borderColor:'#8b5cf6',tension:.2}},
   {{label:'Zero Engagement Ratio',data:D.zero_ratio,borderColor:'#f97316',tension:.2}}
 ]}},options:{{...base,scales:{{y:{{beginAtZero:true,max:1}}}}}}}});
+// いいねを主役にしたグラフ。件数と率を別軸にして、表示数の桁に潰さない。
+new Chart(document.getElementById('c4'), {{type:'bar',data:{{labels:D.labels,datasets:[
+  {{type:'bar',label:'平均いいね（件）',data:D.avg_likes,backgroundColor:'rgba(239,68,68,.5)',borderColor:'#ef4444',yAxisID:'y',order:2}},
+  {{type:'line',label:'いいね率（%）',data:D.like_rate,borderColor:'#b91c1c',backgroundColor:'#b91c1c',tension:.2,yAxisID:'y1',order:1}}
+]}},options:{{...base,scales:{{y:{{beginAtZero:true,position:'left',title:{{display:true,text:'件'}}}},y1:{{beginAtZero:true,position:'right',grid:{{drawOnChartArea:false}},title:{{display:true,text:'%'}}}}}}}}}});
+new Chart(document.getElementById('c5'), {{type:'line',data:{{labels:D.labels,datasets:[
+  {{label:'いいね率',data:D.like_rate,borderColor:'#ef4444',tension:.2}},
+  {{label:'返信率',data:D.reply_rate,borderColor:'#14b8a6',tension:.2}},
+  {{label:'リポスト率',data:D.repost_rate,borderColor:'#8b5cf6',tension:.2}},
+  {{label:'エンゲージ率',data:D.engagement_rate,borderColor:'#1d9bf0',tension:.2,borderWidth:3}}
+]}},options:{{...base,scales:{{y:{{beginAtZero:true,title:{{display:true,text:'表示あたり %'}}}}}}}}}});
+new Chart(document.getElementById('c6'), {{type:'line',data:{{labels:D.labels,datasets:[
+  {{label:'フォロワー増加率',data:D.followers_growth,borderColor:'#1d9bf0',tension:.2}},
+  {{label:'フォロワー/フォロー比率',data:D.follow_ratio_pct,borderColor:'#10b981',tension:.2}}
+]}},options:{{...base,scales:{{y:{{beginAtZero:false,title:{{display:true,text:'%'}}}}}}}}}});
+new Chart(document.getElementById('c7'), {{type:'bar',data:{{labels:D.labels,datasets:[
+  {{label:'表示 非リンク/リンク',data:D.link_views_multiple,backgroundColor:'rgba(99,102,241,.55)',borderColor:'#6366f1'}},
+  {{label:'いいね 非リンク/リンク',data:D.link_likes_multiple,backgroundColor:'rgba(245,158,11,.55)',borderColor:'#f59e0b'}}
+]}},options:{{...base,scales:{{y:{{beginAtZero:true,title:{{display:true,text:'非リンク=1.0 とした倍率'}}}}}}}}}});
 </script>
 </body>
 </html>"""

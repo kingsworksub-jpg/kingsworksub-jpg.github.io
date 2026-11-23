@@ -98,6 +98,9 @@ def metric_snapshot(analysis: dict[str, Any] | None) -> dict[str, Any]:
     m = analysis.get("metrics") or {}
     p = m.get("profile") or {}
     a = m.get("averages") or {}
+    # 相対指標は判定スコアには入れず、baseline/followup の客観的な参考値として残す。
+    # （ロールバック判定の挙動を変えずに、規模に依存しない比較材料をそろえる）
+    r = m.get("relative") or {}
     return {
         "followers": p.get("followers"),
         "follow_ratio": m.get("follow_ratio"),
@@ -107,6 +110,10 @@ def metric_snapshot(analysis: dict[str, Any] | None) -> dict[str, Any]:
         "zero_engagement_ratio": m.get("zero_engagement_ratio"),
         "link_post_ratio": m.get("link_post_ratio"),
         "sample_size": m.get("sample_size"),
+        "like_rate_pct": r.get("like_rate_pct"),
+        "engagement_rate_pct": r.get("engagement_rate_pct"),
+        "views_per_follower": r.get("views_per_follower"),
+        "likes_per_100_followers": r.get("likes_per_100_followers"),
     }
 
 
