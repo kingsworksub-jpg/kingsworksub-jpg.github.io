@@ -2,27 +2,27 @@
   "property_id": "555729014",
   "date_range": "30daysAgo 〜 yesterday",
   "totals": {
-    "screenPageViews": "2311",
-    "activeUsers": "1861",
-    "eventCount": "7285",
-    "sessions": "2049",
+    "screenPageViews": "2281",
+    "activeUsers": "1833",
+    "eventCount": "7173",
+    "sessions": "2024",
     "keyEvents": "0"
   },
   "posts_totals": {
-    "screenPageViews": "405",
-    "activeUsers": "332",
-    "eventCount": "1362"
+    "screenPageViews": "348",
+    "activeUsers": "279",
+    "eventCount": "1159"
   },
   "top_pages": [
     {
       "page": "/sfd0501/",
-      "screenPageViews": "448",
-      "activeUsers": "263"
+      "screenPageViews": "485",
+      "activeUsers": "303"
     },
     {
       "page": "/",
-      "screenPageViews": "107",
-      "activeUsers": "47"
+      "screenPageViews": "108",
+      "activeUsers": "42"
     },
     {
       "page": "/sfd0501/entrylist.html",
@@ -31,8 +31,8 @@
     },
     {
       "page": "/sfd0501/entry-12983785056.html",
-      "screenPageViews": "18",
-      "activeUsers": "15"
+      "screenPageViews": "19",
+      "activeUsers": "16"
     },
     {
       "page": "/posts/digital-performer-12-chunks-2026/",
@@ -40,24 +40,14 @@
       "activeUsers": "14"
     },
     {
-      "page": "/sfd0501/page-2.html",
-      "screenPageViews": "13",
+      "page": "/sfd0501/entry-12984700035.html",
+      "screenPageViews": "14",
       "activeUsers": "7"
     },
     {
       "page": "/sfd0501/entry-12983859634.html",
       "screenPageViews": "11",
       "activeUsers": "10"
-    },
-    {
-      "page": "/entry/2026/10/14/121304",
-      "screenPageViews": "9",
-      "activeUsers": "8"
-    },
-    {
-      "page": "/posts/odate-akita-sugi-sake-set-deep-dive-2026/",
-      "screenPageViews": "9",
-      "activeUsers": "9"
     },
     {
       "page": "/sfd0501/entry-12982392252.html",
@@ -70,21 +60,6 @@
       "activeUsers": "9"
     },
     {
-      "page": "/posts/corduroy-wale-width-styling-2026/",
-      "screenPageViews": "8",
-      "activeUsers": "5"
-    },
-    {
-      "page": "/posts/daw-5choice-2026/",
-      "screenPageViews": "8",
-      "activeUsers": "5"
-    },
-    {
-      "page": "/posts/logic-pro-mac-songwriting-2026/",
-      "screenPageViews": "8",
-      "activeUsers": "6"
-    },
-    {
       "page": "/sfd0501/entry-12983697400.html",
       "screenPageViews": "8",
       "activeUsers": "7"
@@ -95,24 +70,44 @@
       "activeUsers": "8"
     },
     {
+      "page": "/sfd0501/page-2.html",
+      "screenPageViews": "8",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/entry/2026/10/14/121304",
+      "screenPageViews": "7",
+      "activeUsers": "6"
+    },
+    {
+      "page": "/posts/corduroy-wale-width-styling-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/daw-5choice-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/posts/logic-pro-mac-songwriting-2026/",
+      "screenPageViews": "7",
+      "activeUsers": "5"
+    },
+    {
       "page": "/posts/mic-preamp-gain-compare-2026/",
       "screenPageViews": "7",
       "activeUsers": "7"
     },
     {
-      "page": "/posts/sony-pslx3bt-deep-dive-2026/",
+      "page": "/posts/odate-akita-sugi-sake-set-deep-dive-2026/",
       "screenPageViews": "7",
-      "activeUsers": "6"
+      "activeUsers": "7"
     },
     {
-      "page": "/posts/windows-11-26h2-memory-daw-2026/",
+      "page": "/sfd0501/entry-12984777895.html",
       "screenPageViews": "7",
-      "activeUsers": "6"
-    },
-    {
-      "page": "/categories/software/",
-      "screenPageViews": "6",
-      "activeUsers": "4"
+      "activeUsers": "7"
     },
     {
       "page": "/entry/2026/09/17/094413",
@@ -120,19 +115,9 @@
       "activeUsers": "4"
     },
     {
-      "page": "/posts/canned-coffee-5choice-2026/",
+      "page": "/sfd0501/entry-12982684053.html",
       "screenPageViews": "6",
-      "activeUsers": "6"
-    },
-    {
-      "page": "/posts/monitor-placement-room-tuning-6jo-2026/",
-      "screenPageViews": "6",
-      "activeUsers": "6"
-    },
-    {
-      "page": "/posts/record-stylus-lifespan-guide-2026/",
-      "screenPageViews": "6",
-      "activeUsers": "6"
+      "activeUsers": "4"
     },
     {
       "page": "/sfd0501/entry-12982760061.html",
@@ -155,16 +140,6 @@
       "activeUsers": "6"
     },
     {
-      "page": "/sfd0501/entry-12984700035.html",
-      "screenPageViews": "6",
-      "activeUsers": "4"
-    },
-    {
-      "page": "/categories/drink-lab/",
-      "screenPageViews": "5",
-      "activeUsers": "5"
-    },
-    {
       "page": "/categories/setup/",
       "screenPageViews": "5",
       "activeUsers": "4"
@@ -178,11 +153,6 @@
       "page": "/entry/2026/10/06/092649",
       "screenPageViews": "5",
       "activeUsers": "5"
-    },
-    {
-      "page": "/entry/2026/10/13/121833",
-      "screenPageViews": "5",
-      "activeUsers": "4"
     },
     {
       "page": "/entry/2026/10/16/121422",
@@ -200,9 +170,24 @@
       "activeUsers": "5"
     },
     {
-      "page": "/posts/piano-practice-apps-3choice-2026/",
+      "page": "/posts/monitor-placement-room-tuning-6jo-2026/",
+      "screenPageViews": "5",
+      "activeUsers": "5"
+    },
+    {
+      "page": "/posts/sony-pslx3bt-deep-dive-2026/",
       "screenPageViews": "5",
       "activeUsers": "4"
+    },
+    {
+      "page": "/posts/taiwan-india-whisky-climate-2026/",
+      "screenPageViews": "5",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/two-factor-auth-migration-guide/",
+      "screenPageViews": "5",
+      "activeUsers": "5"
     },
     {
       "page": "/sfd0501/entry-12982217087.html",
@@ -210,19 +195,9 @@
       "activeUsers": "5"
     },
     {
-      "page": "/sfd0501/entry-12982217511.html",
-      "screenPageViews": "5",
-      "activeUsers": "4"
-    },
-    {
       "page": "/sfd0501/entry-12982391957.html",
       "screenPageViews": "5",
       "activeUsers": "4"
-    },
-    {
-      "page": "/sfd0501/entry-12982684053.html",
-      "screenPageViews": "5",
-      "activeUsers": "3"
     },
     {
       "page": "/sfd0501/entry-12982860591.html",
@@ -235,7 +210,22 @@
       "activeUsers": "4"
     },
     {
-      "page": "/entry/2026/10/05/073036",
+      "page": "/categories/drink-lab/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
+      "page": "/categories/software/",
+      "screenPageViews": "4",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/13/121833",
+      "screenPageViews": "4",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/posts/canned-coffee-5choice-2026/",
       "screenPageViews": "4",
       "activeUsers": "4"
     },
@@ -246,11 +236,6 @@
     },
     {
       "page": "/posts/jazz-style-menswear-2026/",
-      "screenPageViews": "4",
-      "activeUsers": "4"
-    },
-    {
-      "page": "/posts/new-scotch-distilleries-young-whisky-2026/",
       "screenPageViews": "4",
       "activeUsers": "4"
     },
@@ -275,12 +260,17 @@
       "activeUsers": "4"
     },
     {
+      "page": "/posts/windows-11-26h2-memory-daw-2026/",
+      "screenPageViews": "4",
+      "activeUsers": "4"
+    },
+    {
       "page": "/posts/yubikey-security-key-backup-guide-2026/",
       "screenPageViews": "4",
       "activeUsers": "3"
     },
     {
-      "page": "/sfd0501/entry-12982217438.html",
+      "page": "/sfd0501/entry-12982393102.html",
       "screenPageViews": "4",
       "activeUsers": "4"
     },
@@ -305,7 +295,7 @@
       "activeUsers": "3"
     },
     {
-      "page": "/categories/misc/",
+      "page": "/entry/2026/10/05/073036",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -315,27 +305,7 @@
       "activeUsers": "3"
     },
     {
-      "page": "/posts/anime-and-jazz/",
-      "screenPageViews": "3",
-      "activeUsers": "4"
-    },
-    {
       "page": "/posts/audio-interface-5choice-2026/",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/posts/awk-svg-radar-chart-notes/",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/posts/black-nikka-clear-deep-dive-2026/",
-      "screenPageViews": "3",
-      "activeUsers": "2"
-    },
-    {
-      "page": "/posts/budget-whisky-10choice-2026/",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -350,22 +320,7 @@
       "activeUsers": "3"
     },
     {
-      "page": "/posts/gguf-quantization-q4-q5-guide-2026/",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/posts/git-worktree-multiple-branches-notes/",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
       "page": "/posts/japanese-whisky-distilleries-lineup-2026/",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/posts/jazz-fusion-1970s-weather-report/",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -390,17 +345,32 @@
       "activeUsers": "2"
     },
     {
+      "page": "/posts/new-scotch-distilleries-young-whisky-2026/",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
       "page": "/posts/scarf-styling-trend-2026/",
       "screenPageViews": "3",
       "activeUsers": "1"
     },
     {
-      "page": "/posts/taiwan-india-whisky-climate-2026/",
+      "page": "/sfd0501/entry-12981373235.html",
       "screenPageViews": "3",
-      "activeUsers": "2"
+      "activeUsers": "3"
     },
     {
-      "page": "/sfd0501/entry-12981373235.html",
+      "page": "/sfd0501/entry-12981488746.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12981943133.html",
+      "screenPageViews": "3",
+      "activeUsers": "3"
+    },
+    {
+      "page": "/sfd0501/entry-12982044521.html",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -410,12 +380,7 @@
       "activeUsers": "3"
     },
     {
-      "page": "/sfd0501/entry-12982368887.html",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/sfd0501/entry-12982371997.html",
+      "page": "/sfd0501/entry-12982217511.html",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -430,24 +395,9 @@
       "activeUsers": "3"
     },
     {
-      "page": "/sfd0501/entry-12982393102.html",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
-      "page": "/sfd0501/entry-12982393451.html",
-      "screenPageViews": "3",
-      "activeUsers": "3"
-    },
-    {
       "page": "/sfd0501/entry-12982653114.html",
       "screenPageViews": "3",
       "activeUsers": "3"
-    },
-    {
-      "page": "/sfd0501/iine_entry-12982044521.html",
-      "screenPageViews": "3",
-      "activeUsers": "1"
     },
     {
       "page": "/sfd0501/page-4.html",
@@ -455,7 +405,7 @@
       "activeUsers": "3"
     },
     {
-      "page": "/tags/レビュー/",
+      "page": "/sfd0501/theme-10122600819.html",
       "screenPageViews": "3",
       "activeUsers": "3"
     },
@@ -465,32 +415,12 @@
       "activeUsers": "2"
     },
     {
-      "page": "/categories/essay/",
-      "screenPageViews": "2",
-      "activeUsers": "2"
-    },
-    {
-      "page": "/categories/music/",
-      "screenPageViews": "2",
-      "activeUsers": "2"
-    },
-    {
-      "page": "/categories/music/page/2/",
+      "page": "/categories/misc/",
       "screenPageViews": "2",
       "activeUsers": "2"
     },
     {
       "page": "/categories/pc/",
-      "screenPageViews": "2",
-      "activeUsers": "2"
-    },
-    {
-      "page": "/categories/tech/",
-      "screenPageViews": "2",
-      "activeUsers": "2"
-    },
-    {
-      "page": "/categories/whisky/",
       "screenPageViews": "2",
       "activeUsers": "2"
     },
@@ -505,12 +435,82 @@
       "activeUsers": "2"
     },
     {
-      "page": "/entry/2026/10/11/115553",
+      "page": "/entry/2026/10/11/121110",
       "screenPageViews": "2",
       "activeUsers": "2"
     },
     {
-      "page": "/entry/2026/10/11/121110",
+      "page": "/entry/2026/10/22/203106",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/10/26/201116",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/entry/2026/11/05/074835",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/awk-svg-radar-chart-notes/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/bizen-guinomi-yakishime-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/bottled-cider-5choice-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/budget-whisky-10choice-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/can-chill-salt-ice-water-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/canadian-whisky-rye-4choice-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/classic-french-style-revival-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/classic-suspender-styling-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/crystal-spark-grape-deep-dive-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/daw-5choice-2026/)」にまとめているので、他のDAWとの違いが気になる人はあわせて読んでほしい。Cubaseを学ぶための書籍については「[『CUBASE",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/desk-cable-tray-power-signal-2026/",
+      "screenPageViews": "2",
+      "activeUsers": "2"
+    },
+    {
+      "page": "/posts/dolby-atmos-headphone-binaural-start-2026/",
       "screenPageViews": "2",
       "activeUsers": "2"
     }

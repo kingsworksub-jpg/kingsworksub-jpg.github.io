@@ -1,7 +1,7 @@
 # P5 週次SEOレポート
 
-- 生成: 2026-11-20 18:45 JST
-- 記事数: **272本** / 合計ビュー: **3,217**（前回比 **+5**）
+- 生成: 2026-11-23 10:22 JST
+- 記事数: **281本** / 合計ビュー: **3,294**（前回比 **+77**）
 - 比較元: 2026-11-20
 
 ## Amazon アソシエイト（前回回収値のまま）
@@ -16,26 +16,26 @@
 
 ## GA4（Data API 実数値・直近30日）
 
-- screenPageViews: **2311**
-- activeUsers: **1861**
-- eventCount: **7285**
-- sessions: **2049**
+- screenPageViews: **2281**
+- activeUsers: **1833**
+- eventCount: **7173**
+- sessions: **2024**
 - keyEvents: **0**
-- ブログ記事のみ (`/posts/`): pageviews **405** / activeUsers **332**
+- ブログ記事のみ (`/posts/`): pageviews **348** / activeUsers **279**
 - affiliate_click イベント: 0 件
 
 | pagePath | pageviews | activeUsers |
 |---|---:|---:|
-| `/sfd0501/` | 448 | 263 |
-| `/` | 107 | 47 |
+| `/sfd0501/` | 485 | 303 |
+| `/` | 108 | 42 |
 | `/sfd0501/entrylist.html` | 21 | 17 |
-| `/sfd0501/entry-12983785056.html` | 18 | 15 |
+| `/sfd0501/entry-12983785056.html` | 19 | 16 |
 | `/posts/digital-performer-12-chunks-2026/` | 16 | 14 |
-| `/sfd0501/page-2.html` | 13 | 7 |
+| `/sfd0501/entry-12984700035.html` | 14 | 7 |
 | `/sfd0501/entry-12983859634.html` | 11 | 10 |
-| `/entry/2026/10/14/121304` | 9 | 8 |
-| `/posts/odate-akita-sugi-sake-set-deep-dive-2026/` | 9 | 9 |
 | `/sfd0501/entry-12982392252.html` | 9 | 7 |
+| `/sfd0501/entry-12982451423.html` | 9 | 9 |
+| `/sfd0501/entry-12983697400.html` | 8 | 7 |
 
 ## P4 計測の確認チェック
 
@@ -47,24 +47,24 @@
 
 | slug | ビュー | 増分 |
 |---|---:|---:|
-| `chrome-mv3-ublock-origin-lite-2026` | 21 | +1 |
-| `minipc-dtm-ryzen-7730u-guide-2026` | 9 | +1 |
-| `monitor-arm-vesa-desk-depth-2026` | 8 | +1 |
-| `shiboritate-sake-winter-namazake-2026` | 7 | +1 |
-| `evans-lafaro-village-vanguard-1961-2026` | 6 | +1 |
-| `piano-practice-apps-3choice-2026` | 77 | +0 |
-| `sony-pslx3bt-deep-dive-2026` | 66 | +0 |
-| `bodum-douro-carafe-deep-dive-2026` | 65 | +0 |
-| `budget-whisky-10choice-2026` | 56 | +0 |
-| `odate-akita-sugi-sake-set-deep-dive-2026` | 54 | +0 |
+| `two-factor-auth-migration-guide` | 10 | +10 |
+| `sony-pslx3bt-deep-dive-2026` | 68 | +2 |
+| `sodastream-terra-carbonation-guide-2026` | 47 | +2 |
+| `dtm-school-or-self-study-2026` | 37 | +2 |
+| `bottled-cider-5choice-2026` | 18 | +2 |
+| `cubase-pro-15-deep-dive-2026` | 13 | +2 |
+| `synology-ds225plus-photo-backup-nas-2026` | 12 | +2 |
+| `minipc-dtm-ryzen-7730u-guide-2026` | 11 | +2 |
+| `metronome-rhythm-practice-2026` | 8 | +2 |
+| `rc-20-retro-color-v2` | 4 | +2 |
 
 ## 次のP1候補（未バックフィル・ビュー順 Top20）
 
 | slug | ビュー | Amazonリンク |
 |---|---:|---:|
+| `scarlett-2i2-deep-dive-2026` | 29 | 1 |
 | `scotch-whisky-5choice-2026` | 29 | 5 |
 | `nousaku-tin-sake-set-deep-dive-2026` | 28 | 1 |
-| `scarlett-2i2-deep-dive-2026` | 28 | 1 |
 | `windows-11-26h2-memory-daw-2026` | 28 | 4 |
 | `arita-enka-sake-set-deep-dive-2026` | 26 | 1 |
 | `modern-spiritual-jazz-2026` | 26 | 3 |
@@ -87,11 +87,11 @@
 
 | slug | ビュー |
 |---|---:|
+| `chrome-mv3-ublock-origin-lite-2026` | 22 |
 | `digital-performer-12-chunks-2026` | 22 |
-| `chrome-mv3-ublock-origin-lite-2026` | 21 |
 | `hello` | 18 |
 | `logic-pro-mac-songwriting-2026` | 18 |
-| `free-plugin-mix-eq-comp-reverb-2026` | 13 |
+| `free-plugin-mix-eq-comp-reverb-2026` | 14 |
 | `new-scotch-distilleries-young-whisky-2026` | 10 |
 | `vocalign-7-multitrack` | 10 |
 | `hibp-password-breach-check-order-2026` | 9 |
@@ -104,7 +104,7 @@
 2. P1候補の上位10本へCVRパーツを適用する:
 
    ```bash
-   python scripts/cvr_backfill_md.py --apply --slugs scotch-whisky-5choice-2026,nousaku-tin-sake-set-deep-dive-2026,scarlett-2i2-deep-dive-2026,windows-11-26h2-memory-daw-2026,arita-enka-sake-set-deep-dive-2026,modern-spiritual-jazz-2026,statement-hat-trend-2026,technics-sl1200mk7-deep-dive-2026,mitsuya-cider-zero-deep-dive-2026,2026-jazz-new-albums-jon-batiste-chihiro-yamanaka
+   python scripts/cvr_backfill_md.py --apply --slugs scarlett-2i2-deep-dive-2026,scotch-whisky-5choice-2026,nousaku-tin-sake-set-deep-dive-2026,windows-11-26h2-memory-daw-2026,arita-enka-sake-set-deep-dive-2026,modern-spiritual-jazz-2026,statement-hat-trend-2026,technics-sl1200mk7-deep-dive-2026,mitsuya-cider-zero-deep-dive-2026,2026-jazz-new-albums-jon-batiste-chihiro-yamanaka
    ```
 
 3. Search Consoleにデータが溜まってきたら `p0-metrics.py --sc scripts/p0-sc.csv` で順位/クエリを統合

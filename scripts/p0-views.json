@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:46:01+09:00",
+  "generated_at": "2026-11-23T10:22:56+09:00",
   "source": "countapi (cumulative post views)",
   "articles": {
     "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka": {
@@ -29,11 +29,20 @@
       "search_links": 0,
       "amazon_links": 5
     },
+    "ableton-live-13-ara2-vocaloid": {
+      "slug": "ableton-live-13-ara2-vocaloid",
+      "title": "Ableton Live 13のARA 2対応がもたらすVOCALOID・Synthesizer V制作の転換点",
+      "date": "2026-11-22T12:05:00+09:00",
+      "views": 2,
+      "asins": 0,
+      "search_links": 8,
+      "amazon_links": 8
+    },
     "ace-studio-ai-vocal-synthesis-2026": {
       "slug": "ace-studio-ai-vocal-synthesis-2026",
       "title": "ACE Studioの140を超える声に、打ち込んだメロディと歌詞を渡して歌わせる",
       "date": "2026-10-18T20:00:00+09:00",
-      "views": 4,
+      "views": 5,
       "asins": 0,
       "search_links": 1,
       "amazon_links": 1
@@ -42,7 +51,7 @@
       "slug": "adult-piano-learning-2026",
       "title": "大人から鍵盤を始める、指より先に決めることがある",
       "date": "2026-10-09T17:30:00+09:00",
-      "views": 33,
+      "views": 34,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -60,7 +69,7 @@
       "slug": "alan-boguslavsky-stage",
       "title": "Héroes del Silencioの写真から消された5人目、ギタリストAlan Boguslavskyの軌跡",
       "date": "2026-09-24T07:30:00+09:00",
-      "views": 18,
+      "views": 19,
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
@@ -186,7 +195,7 @@
       "slug": "black-nikka-clear-deep-dive-2026",
       "title": "ブラックニッカ クリアの軽さはどこから来るのか",
       "date": "2026-09-17",
-      "views": 12,
+      "views": 13,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -204,7 +213,7 @@
       "slug": "bottled-cider-5choice-2026",
       "title": "びんのサイダーはなぜ懐かしい味がするのか。三ツ矢・有馬・養老など5本の甘さと香りを比べる",
       "date": "2026-11-04T23:00:00+09:00",
-      "views": 16,
+      "views": 18,
       "asins": 2,
       "search_links": 2,
       "amazon_links": 4
@@ -231,7 +240,7 @@
       "slug": "bw-685-deep-dive-2026",
       "title": "B&W 685レビュー、黄色いケブラーコーンが鳴らす英国流の開放感",
       "date": "2026-10-01T08:20:00+09:00",
-      "views": 6,
+      "views": 7,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -285,7 +294,7 @@
       "slug": "canned-coffee-5choice-2026",
       "title": "缶コーヒー5本を甘さ順に並べる。無糖と微糖を分けるのは100mlあたり糖類2.5gの線",
       "date": "2026-10-19T17:30:00+09:00",
-      "views": 52,
+      "views": 53,
       "asins": 5,
       "search_links": 0,
       "amazon_links": 5
@@ -330,7 +339,7 @@
       "slug": "chrome-mv3-ublock-origin-lite-2026",
       "title": "uBlock Origin Liteで広告はどこまで消えるか、Manifest V3のChromeに残った機能と手放した機能",
       "date": "2026-11-05T11:50:00+09:00",
-      "views": 21,
+      "views": 22,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -416,6 +425,15 @@
       "search_links": 0,
       "amazon_links": 2
     },
+    "copenhagen-sparkling-tea-bla-review": {
+      "slug": "copenhagen-sparkling-tea-bla-review",
+      "title": "Copenhagen Sparkling Tea BLÅが食事に寄り添う理由：0.0%と5バールが作る紅茶の食中酒",
+      "date": "2026-11-22T20:03:40+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 10,
+      "amazon_links": 10
+    },
     "corduroy-wale-width-styling-2026": {
       "slug": "corduroy-wale-width-styling-2026",
       "title": "コーデュロイの秋冬コーデ、太畝と細畝で印象をどう変えるか",
@@ -447,7 +465,7 @@
       "slug": "crystal-spark-ramune-deep-dive-2026",
       "title": "CRYSTAL SPARK ラムネで、果汁ゼロの瓶の記憶をたどる",
       "date": "2026-09-19",
-      "views": 10,
+      "views": 11,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -474,7 +492,7 @@
       "slug": "cubase-pro-15-deep-dive-2026",
       "title": "Cubase Pro 15のスコアエディターを読み解く、Doricoの譜面エンジンと15の新機能",
       "date": "2026-10-01T09:10:00+09:00",
-      "views": 11,
+      "views": 13,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -501,16 +519,16 @@
       "slug": "daw-5choice-2026",
       "title": "DAW 5本を比べる、机の上のオーケストラを誰に任せるか",
       "date": "2026-09-14",
-      "views": 35,
+      "views": 36,
       "asins": 3,
       "search_links": 0,
       "amazon_links": 3
     },
     "daw-keyboard-shortcuts-workflow-order": {
       "slug": "daw-keyboard-shortcuts-workflow-order",
-      "title": "DAWのショートカットは20〜30個から！作業の流れで覚える優先順位ガイド",
+      "title": "DAWのショートカットは最初の20〜30個で足りる、作業の流れで覚える順番",
       "date": "2026-11-19T17:35:00+09:00",
-      "views": 2,
+      "views": 3,
       "asins": 1,
       "search_links": 1,
       "amazon_links": 2
@@ -537,7 +555,7 @@
       "slug": "desk-cable-tray-power-signal-2026",
       "title": "デスク裏の配線整理はケーブルトレーから。電源と信号の通り道を分けて、雑音と埃を減らす",
       "date": "2026-11-06T20:05:00+09:00",
-      "views": 6,
+      "views": 7,
       "asins": 0,
       "search_links": 3,
       "amazon_links": 3
@@ -555,7 +573,7 @@
       "slug": "dewars-white-label-deep-dive-2026",
       "title": "デュワーズ ホワイトラベルを二段熟成から読み解く",
       "date": "2026-09-17",
-      "views": 12,
+      "views": 13,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -582,7 +600,7 @@
       "slug": "dodecamin-deep-dive-2026",
       "title": "ドデカミンはなぜ元気が出るのか、現場生まれの栄養炭酸",
       "date": "2026-09-19",
-      "views": 11,
+      "views": 12,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -627,7 +645,7 @@
       "slug": "dtm-school-or-self-study-2026",
       "title": "DTMスクールと独学、お金を払う価値があるのは「添削」の部分だけ",
       "date": "2026-10-10T17:30:00+09:00",
-      "views": 35,
+      "views": 37,
       "asins": 3,
       "search_links": 0,
       "amazon_links": 3
@@ -636,7 +654,7 @@
       "slug": "dynamic-mic-5choice-2026",
       "title": "ダイナミックマイク5本比較、話し声も歌も1本で録るなら必要なゲインから選ぶ",
       "date": "2026-11-07T17:00:00+09:00",
-      "views": 3,
+      "views": 4,
       "asins": 5,
       "search_links": 0,
       "amazon_links": 5
@@ -654,7 +672,7 @@
       "slug": "ecm-records-silence-recording-2026",
       "title": "ECMレーベルが録った「沈黙の次に美しい音」、オスロのスタジオと残響の美学",
       "date": "2026-11-07T14:30:00+09:00",
-      "views": 1,
+      "views": 2,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -667,6 +685,24 @@
       "asins": 4,
       "search_links": 0,
       "amazon_links": 4
+    },
+    "eggnog-recipe-safety-history": {
+      "slug": "eggnog-recipe-safety-history",
+      "title": "71℃カスタード式で作る安全なエッグノッグ：クリスマスの伝統飲料の起源と再現レシピ",
+      "date": "2026-11-20T20:03:48+09:00",
+      "views": 2,
+      "asins": 3,
+      "search_links": 1,
+      "amazon_links": 4
+    },
+    "ella-wishes-you-a-swinging-christmas-1960": {
+      "slug": "ella-wishes-you-a-swinging-christmas-1960",
+      "title": "エラ・フィッツジェラルドが贈る1960年の至宝。名盤『Ella Wishes You a Swinging Christmas』を読み解く",
+      "date": "2026-11-21T07:32:29+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 7,
+      "amazon_links": 7
     },
     "energy-drink-caffeine-5choice-2026": {
       "slug": "energy-drink-caffeine-5choice-2026",
@@ -681,7 +717,7 @@
       "slug": "evans-lafaro-village-vanguard-1961-2026",
       "title": "ビル・エヴァンス・トリオの1961年6月25日、ベースが伴奏をやめて会話に加わった日",
       "date": "2026-11-05T14:30:00+09:00",
-      "views": 6,
+      "views": 7,
       "asins": 1,
       "search_links": 1,
       "amazon_links": 2
@@ -717,7 +753,7 @@
       "slug": "free-jazz-harmony-meter-listening-2026",
       "title": "フリージャズの聴き方、オーネット・コールマンが手放した和音と拍のあとに残るもの",
       "date": "2026-11-14T21:30:00+09:00",
-      "views": 1,
+      "views": 3,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -726,7 +762,7 @@
       "slug": "free-plugin-mix-eq-comp-reverb-2026",
       "title": "無料プラグイン3本でミックスはどこまで作れるか、EQ・コンプ・リバーブを1本ずつ選ぶ",
       "date": "2026-10-20T12:00:00+09:00",
-      "views": 13,
+      "views": 14,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -798,7 +834,7 @@
       "slug": "google-microsoft-authenticator-migration-guide",
       "title": "機種変更で失敗しない二段階認証アプリの移行ガイド｜Google・Microsoft両対応",
       "date": "2026-11-20T12:02:21+09:00",
-      "views": 0,
+      "views": 1,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -816,6 +852,15 @@
       "slug": "guitar-recording-amp-sim-setup",
       "title": "アンプを鳴らせない部屋のギター録音：Hi-Z接続・ゲイン設定・DIリアンプの基本",
       "date": "2026-11-19T12:03:04+09:00",
+      "views": 0,
+      "asins": 2,
+      "search_links": 2,
+      "amazon_links": 4
+    },
+    "guitar-recording-amp-simulator-setup": {
+      "slug": "guitar-recording-amp-simulator-setup",
+      "title": "アンプシミュレーターの接続とゲイン設定、リアンプまで自宅ギター録音の手順",
+      "date": "2026-11-21T12:02:56+09:00",
       "views": 0,
       "asins": 2,
       "search_links": 2,
@@ -933,7 +978,7 @@
       "slug": "hot-pet-bottle-orange-cap-2026",
       "title": "オレンジのキャップだけがホットケースに並ぶ。ホット用ペットボトルが温められる理由",
       "date": "2026-11-14T20:05:00+09:00",
-      "views": 3,
+      "views": 4,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -991,6 +1036,15 @@
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
+    },
+    "ireal-pro-jazz-practice": {
+      "slug": "ireal-pro-jazz-practice",
+      "title": "iReal Proでジャズスタンダードを耳に刻む練習設計とコード進行活用法",
+      "date": "2026-11-22T17:44:00+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 6,
+      "amazon_links": 6
     },
     "irish-whiskey-pot-still-guide-2026": {
       "slug": "irish-whiskey-pot-still-guide-2026",
@@ -1095,7 +1149,7 @@
       "slug": "jazz-kissa-speaker-night-2026",
       "title": "ジャズ喫茶で黙って聴いた大きな音、スピーカーの前の1時間が残していったもの",
       "date": "2026-11-06T14:30:00+09:00",
-      "views": 2,
+      "views": 3,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1212,7 +1266,7 @@
       "slug": "kobe-kyoryuchi-sparkling-water-deep-dive-2026",
       "title": "190ml缶で飲み切る強炭酸、神戸居留地 スパークリングウォーター",
       "date": "2026-09-20",
-      "views": 13,
+      "views": 14,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -1257,7 +1311,7 @@
       "slug": "launchkey-mk4-key-range",
       "title": "Launchkey MK4に88鍵が加わり、選ぶ基準が鍵数だけになった",
       "date": "2026-10-06T07:10:00+09:00",
-      "views": 19,
+      "views": 20,
       "asins": 7,
       "search_links": 1,
       "amazon_links": 8
@@ -1293,7 +1347,7 @@
       "slug": "logic-pro-13-ai-assistant-drum-split-2026",
       "title": "Logic Pro 13登場：AIアシスタントと6分割Stem Splitterで音楽制作はどう変わるか",
       "date": "2026-11-18T12:03:51+09:00",
-      "views": 3,
+      "views": 4,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1302,7 +1356,7 @@
       "slug": "logic-pro-drummer-workflow-2026",
       "title": "Logic ProのDrummerで曲を組み立てる順番 — 最初のビートからMIDIアレンジまで",
       "date": "2026-10-22T13:30:00+09:00",
-      "views": 2,
+      "views": 3,
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
@@ -1365,7 +1419,7 @@
       "slug": "metronome-rhythm-practice-2026",
       "title": "メトロノームに合わせて弾けるのに、録音するとずれて聞こえるのはなぜか",
       "date": "2026-11-15T17:05:00+09:00",
-      "views": 6,
+      "views": 8,
       "asins": 6,
       "search_links": 0,
       "amazon_links": 6
@@ -1374,7 +1428,7 @@
       "slug": "mic-preamp-gain-compare-2026",
       "title": "マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する",
       "date": "2026-11-17T17:36:08+09:00",
-      "views": 10,
+      "views": 11,
       "asins": 4,
       "search_links": 0,
       "amazon_links": 4
@@ -1392,7 +1446,7 @@
       "slug": "minipc-dtm-ryzen-7730u-guide-2026",
       "title": "ミニPCでDTMは足りるのか。Ryzen 7 7730UのGEEKOM A5 2027で、音切れが出る手前の線を引く",
       "date": "2026-10-27T12:00:00+09:00",
-      "views": 9,
+      "views": 11,
       "asins": 0,
       "search_links": 2,
       "amazon_links": 2
@@ -1446,7 +1500,7 @@
       "slug": "monitor-arm-vesa-desk-depth-2026",
       "title": "モニターアームで画面を浮かせると、机の奥行きとスピーカーの響きはどう変わるのか",
       "date": "2026-11-07T12:00:00+09:00",
-      "views": 8,
+      "views": 9,
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
@@ -1482,7 +1536,7 @@
       "slug": "music-theory-3month-plan",
       "title": "音楽理論を3か月で一周するなら、最初から読む本は1冊だけ",
       "date": "2026-10-06T14:02:00+09:00",
-      "views": 12,
+      "views": 13,
       "asins": 2,
       "search_links": 3,
       "amazon_links": 5
@@ -1563,7 +1617,7 @@
       "slug": "obsidian-knowledge-base-plain-text-2026",
       "title": "Obsidianのメモはただのテキストファイル。10年後も開ける知識の置き場を作る",
       "date": "2026-10-19T12:00:00+09:00",
-      "views": 5,
+      "views": 6,
       "asins": 0,
       "search_links": 2,
       "amazon_links": 2
@@ -1649,6 +1703,15 @@
       "search_links": 0,
       "amazon_links": 1
     },
+    "pi-hole-raspberry-pi-adblock": {
+      "slug": "pi-hole-raspberry-pi-adblock",
+      "title": "Raspberry PiでPi-holeを動かし、家庭内の広告と追跡通信をDNSレベルで抑える手順",
+      "date": "2026-11-22T07:32:58+09:00",
+      "views": 2,
+      "asins": 0,
+      "search_links": 5,
+      "amazon_links": 5
+    },
     "piano-practice-apps-3choice-2026": {
       "slug": "piano-practice-apps-3choice-2026",
       "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方",
@@ -1662,7 +1725,7 @@
       "slug": "pillow-batch-image-compress-2026",
       "title": "PythonとPillowで画像を効率的に一括圧縮するスクリプトの実装と例外処理のポイント",
       "date": "2026-11-18T07:34:08+09:00",
-      "views": 1,
+      "views": 2,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1671,7 +1734,7 @@
       "slug": "playwright-persistent-profile-login-notes",
       "title": "Playwrightの永続プロファイルを活用したログイン保持手法と運用時の注意点",
       "date": "2026-11-17T23:08:36+09:00",
-      "views": 2,
+      "views": 3,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1770,7 +1833,7 @@
       "slug": "randy-crawford-raw-silk",
       "title": "Randy Crawford『Raw Silk』はなぜ11曲中10曲をカヴァーで固めたのか",
       "date": "2026-10-05T15:10:00+09:00",
-      "views": 9,
+      "views": 10,
       "asins": 3,
       "search_links": 0,
       "amazon_links": 3
@@ -1779,7 +1842,7 @@
       "slug": "rc-20-retro-color-v2",
       "title": "10年ぶりの刷新となったRC-20 Retro Color v2、EchoとVarispeedが広げるローファイ処理",
       "date": "2026-11-19T20:10:00+09:00",
-      "views": 2,
+      "views": 4,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1797,7 +1860,7 @@
       "slug": "record-stylus-lifespan-guide-2026",
       "title": "レコード針の寿命と交換時期 — 1,000時間の目安、針圧、MM/MCの違い",
       "date": "2026-10-13T17:30:00+09:00",
-      "views": 39,
+      "views": 40,
       "asins": 5,
       "search_links": 0,
       "amazon_links": 5
@@ -1851,7 +1914,7 @@
       "slug": "san-pellegrino-deep-dive-2026",
       "title": "サンペレグリノが世界のテーブルに選ばれる理由",
       "date": "2026-09-19",
-      "views": 13,
+      "views": 14,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -1896,7 +1959,7 @@
       "slug": "scarlett-2i2-deep-dive-2026",
       "title": "Focusrite Scarlett 2i2(4th Gen)を一台だけ、とことん検分する",
       "date": "2026-09-16",
-      "views": 28,
+      "views": 29,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -1923,7 +1986,7 @@
       "slug": "shiboritate-sake-winter-namazake-2026",
       "title": "しぼりたての日本酒は11月から春までしか並ばない。寒造りと火入れ0回の生酒を数字で読む",
       "date": "2026-11-14T16:50:00+09:00",
-      "views": 7,
+      "views": 8,
       "asins": 0,
       "search_links": 0,
       "amazon_links": 0
@@ -1950,7 +2013,7 @@
       "slug": "sodastream-terra-carbonation-guide-2026",
       "title": "炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方",
       "date": "2026-10-13T19:50:00+09:00",
-      "views": 45,
+      "views": 47,
       "asins": 4,
       "search_links": 0,
       "amazon_links": 4
@@ -1959,7 +2022,7 @@
       "slug": "sony-ecm-ax10-spatial-mic-2026",
       "title": "ソニーECM-AX10は、スマホを空間オーディオの録音機にできるか",
       "date": "2026-10-11T17:30:00+09:00",
-      "views": 5,
+      "views": 6,
       "asins": 1,
       "search_links": 3,
       "amazon_links": 4
@@ -1968,7 +2031,7 @@
       "slug": "sony-pslx3bt-deep-dive-2026",
       "title": "Sony PS-LX3BT(旧PS-LX310BT)は気軽にレコードを鳴らしたい人への答え",
       "date": "2026-09-17",
-      "views": 66,
+      "views": 68,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -2058,7 +2121,7 @@
       "slug": "synology-ds225plus-photo-backup-nas-2026",
       "title": "Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める",
       "date": "2026-10-27T07:30:00+09:00",
-      "views": 10,
+      "views": 12,
       "asins": 1,
       "search_links": 3,
       "amazon_links": 4
@@ -2216,6 +2279,15 @@
       "search_links": 0,
       "amazon_links": 1
     },
+    "two-factor-auth-migration-guide": {
+      "slug": "two-factor-auth-migration-guide",
+      "title": "機種変更で二段階認証を失わないための引継ぎ術：GoogleとMicrosoft Authenticatorの正しい移行手順",
+      "date": "2026-11-21T20:07:32+09:00",
+      "views": 10,
+      "asins": 0,
+      "search_links": 5,
+      "amazon_links": 5
+    },
     "typescript-first-step-2026": {
       "slug": "typescript-first-step-2026",
       "title": "TypeScriptはJavaScriptに何を足すのか、型注釈とtsconfigの最小構成から",
@@ -2247,7 +2319,7 @@
       "slug": "usb-microphone-comparison-2026",
       "title": "USBマイク5タイプ比較、配信と宅録で指向性と付属ソフトから選ぶ基準",
       "date": "2026-11-20T17:39:53+09:00",
-      "views": 2,
+      "views": 4,
       "asins": 2,
       "search_links": 2,
       "amazon_links": 4
@@ -2328,7 +2400,7 @@
       "slug": "white-horse-fineold-deep-dive-2026",
       "title": "ホワイトホース ファインオールドに宿るラガヴーリンの個性",
       "date": "2026-09-17",
-      "views": 12,
+      "views": 13,
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
@@ -2350,6 +2422,15 @@
       "asins": 1,
       "search_links": 0,
       "amazon_links": 1
+    },
+    "window-insulation-curtains": {
+      "slug": "window-insulation-curtains",
+      "title": "窓辺の冷気を遮断して冬を快適に。断熱カーテンの選び方と効果的な設置ガイド",
+      "date": "2026-11-21T23:09:04+09:00",
+      "views": 0,
+      "asins": 0,
+      "search_links": 11,
+      "amazon_links": 11
     },
     "windows-11-26h2-memory-daw-2026": {
       "slug": "windows-11-26h2-memory-daw-2026",
@@ -2391,7 +2472,7 @@
       "slug": "wine-preservation-guide",
       "title": "飲み残しワインは何日もつ？赤・白・スパークリング別の冷蔵保存と栓の選び方",
       "date": "2026-11-19T23:02:52+09:00",
-      "views": 0,
+      "views": 1,
       "asins": 2,
       "search_links": 0,
       "amazon_links": 2
@@ -2445,7 +2526,7 @@
       "slug": "yubikey-security-key-backup-guide-2026",
       "title": "物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予備キーの重要性",
       "date": "2026-11-17T12:03:54+09:00",
-      "views": 10,
+      "views": 11,
       "asins": 3,
       "search_links": 0,
       "amazon_links": 3
