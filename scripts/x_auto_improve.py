@@ -25,6 +25,7 @@ from __future__ import annotations
 import argparse
 import ctypes
 import datetime
+import hashlib
 import importlib.util
 import json
 import os
@@ -40,6 +41,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import x_llm  # noqa: E402
 import x_link_resolver  # noqa: E402
+import x_content_guard  # noqa: E402
 from x_automation_config import get_limit, get_policy  # noqa: E402
 
 CONSULT_DIR = BASE / "data" / "x-consulting"
@@ -255,23 +257,45 @@ def _blog_title_examples(limit: int = 20) -> list[str]:
     return [str(x.get("title") or "") for x in items[:limit] if x.get("title")]
 
 
-def build_prompt(action: dict[str, Any], link_policy: str, link_pct: int) -> str:
+def _focus_article(action: dict[str, Any]) -> dict[str, str]:
+    """内部アクションから一般向け話題を選ぶ。アクション文そのものは渡さない。
+
+    2026-11-23の事故では、内部の「次アクション（リンクをリプライ欄へ誘導する実験）」を
+    LLMに渡した結果、アカウント運用方針をそのまま投稿してしまった。以来、
+    投稿の材料は自分のブログ記事のタイトル・説明だけに限定する。
+    """
+    try:
+        items = x_link_resolver.blog_candidates()
+    except Exception:
+        return {}
+    items = [i for i in items if x_content_guard.is_safe(str(i.get("title") or ""), strict=True)]
+    if not items:
+        return {}
+    seed = f"{action.get('id') or action.get('title') or ''}:{now_jst().strftime('%Y-%m-%d')}"
+    idx = int(hashlib.sha256(seed.encode("utf-8")).hexdigest(), 16) % len(items)
+    picked = items[idx]
+    return {
+        "title": str(picked.get("title") or ""),
+        "description": str(picked.get("description") or ""),
+        "tags": str(picked.get("tags") or ""),
+    }
+
+
+def build_prompt(action: dict[str, Any], link_policy: str, link_pct: int, retry_note: str = "") -> str:
     examples = _recent_post_examples()
     blog_titles = _blog_title_examples()
+    # NOTE: 内部の「次アクション」のタイトル・理由・指標は渡さない。
+    # 渡すのは一般読者向けの話題（自分の記事）だけ。
     ctx = {
-        "action": {
-            "title": action.get("title"),
-            "reason": action.get("reason"),
-            "metric": action.get("metric"),
-            "horizon_days": action.get("horizon_days"),
-        },
+        "focus_article": _focus_article(action),
         "recent_posts": examples,
         "own_blog_titles": blog_titles,
         "link_policy": link_policy,
         "link_probability_pct": link_pct,
     }
     return (
-        "あなたはX(Twitter)運用の編集者です。以下の「次アクション」を実行する新規投稿を1本作ってください。\n"
+        "あなたは一般読者向けのSNS投稿を書く編集者です。自分のブログ記事のテーマから、"
+        "読者が興味を持つ話題を1つ選んで新規投稿を1本作ってください。\n"
         "出力はJSONオブジェクトのみ。前後に説明文を付けない。\n\n"
         "スキーマ:\n"
         "{\n"
@@ -279,30 +303,55 @@ def build_prompt(action: dict[str, Any], link_policy: str, link_pct: int) -> str
         '  "post_text": "本文",\n'
         '  "topic": "一言テーマ",\n'
         '  "keywords": ["関連語", "..."],\n'
-        '  "link_decision": {"needed": true, "kind": "youtube|blog|none", "query": "検索語", "reason": "なぜリンクが表示改善に効くか"},\n'
+        '  "link_decision": {"needed": true, "kind": "youtube|blog|none", "query": "検索語", "reason": "なぜこの話題に補足情報が役立つか"},\n'
         '  "placement": "reply|inline|none",\n'
         '  "reply_text": "リンクを置く最初の返信の短い導入文（URLは入れない）"\n'
         "}\n\n"
+        "【絶対に書いてはいけない内容（2026-11-23の事故を受けた最重要規則）】\n"
+        "- このアカウント/Botの運用方針・設計・自動化・実験・検証・改善施策\n"
+        "- SNSの表示数/インプレッション/アルゴリズムをどう伸ばすかという内部戦略\n"
+        "- リンクを本文に置くかリプライに置くか、投稿数や返信数の上限、ルール調整の話\n"
+        "- レポート/KPI/モデル/スクリプト/プロジェクト構成の話\n"
+        "- つまり「自分の運用を振り返ってテストしています」といったメタ投稿は一切禁止。\n"
+        "  対象はあくまで focus_article の話題そのもの（例: 音楽、道具、文化、料理）です。\n\n"
         "制約:\n"
         "- 本文は日本語60〜120字。280 weighted を超えない。\n"
         "- ハッシュタグ禁止。絵文字は0〜1個。\n"
         "- 元ネタの言い回しをそのまま引用しない。\n"
-        "- 本文は読者の興味を引く具体的な内容にする。宣伝臭を抑える。\n"
-        "- リンクは、この投稿内容と関連し、インプレッション改善に寄与すると判断したときだけ needed=true。\n"
-        "  関連が弱い・宣伝臭が出る・リンクなしでも成立するなら needed=false。\n"
-        "- kind=youtube のときは query にYouTube検索語を入れる。kind=blog のときは query に自分の記事タイトルの手がかりを入れる。\n"
+        "- 宣伝臭を抑え、話題そのものを具体的に伝える。\n"
+        "- リンクは、この話題と関連し、読者の理解に役立つと判断したときだけ needed=true。\n"
+        "- kind=youtube のときは query にYouTube検索語を入れる。kind=blog のときは query に記事タイトルの手がかりを入れる。\n"
         "- link_policy が native_then_first_reply のとき、本文にURLを入れない（URLは最初の返信）。\n"
         "- link_policy が inline のときは placement=inline にし、本文にURLを1つだけ入れてよい。\n"
-        "- placement=none のとき reply_text は空文字。\n\n"
-        "入力:\n"
-        "```json\n" + json.dumps(ctx, ensure_ascii=False, indent=2) + "\n```\n"
+        "- placement=none のとき reply_text は空文字。\n"
+        + (f"\n[再生成指示] 前回の出力は禁止トピックに該当しました。連絡/運用/実験の話をやめ、"
+           f"focus_article の話題だけを一般読者向けに書き直してください。\n" if retry_note else "")
+        + "\n入力:\n```json\n" + json.dumps(ctx, ensure_ascii=False, indent=2) + "\n```\n"
     )
 
 
 def generate_plan(action: dict[str, Any], link_policy: str, link_pct: int) -> tuple[dict[str, Any] | None, list[str], str]:
-    prompt = build_prompt(action, link_policy, link_pct)
-    obj, log, model = x_llm.generate_json(prompt, label="投稿プラン")
-    return obj, log, model
+    """生成後にハードガードを通す。ダメなら最大3回作り直し、全滅なら投稿しない。"""
+    log: list[str] = []
+    model = ""
+    retry = ""
+    for attempt in range(3):
+        obj, part_log, model = x_llm.generate_json(
+            build_prompt(action, link_policy, link_pct, retry_note=retry),
+            label="投稿プラン",
+        )
+        log += part_log
+        if not isinstance(obj, dict) or not obj.get("post_text"):
+            return None, log, model
+        text = _sanitize_text(str(obj.get("post_text")), link_policy, str(obj.get("placement") or "none"))
+        reply = _sanitize_text(str(obj.get("reply_text") or ""), link_policy, "none")
+        reasons = x_content_guard.find_unsafe_reasons(text, strict=True)
+        reasons += [f"reply:{r}" for r in x_content_guard.find_unsafe_reasons(reply, strict=True)]
+        if not reasons:
+            return obj, log, model
+        log.append(f"[!] content_guard blocked attempt {attempt+1}: {', '.join(reasons)}")
+        retry = ", ".join(reasons)
+    return None, log, model
 
 
 # ---------------------------------------------------------------------------
@@ -316,6 +365,24 @@ def _load_post_module():
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     return mod
+
+
+def log_blocked(reasons: list[str], post_text: str, action: dict[str, Any] | None, model: str) -> None:
+    """禁止トピックでブロックした内容を監査用に残す（本文は出さない）。"""
+    entry = {
+        "at": now_iso(),
+        "reasons": reasons,
+        "action_id": (action or {}).get("id"),
+        "model": model,
+        "post_text_head": (post_text or "")[:80],
+    }
+    path = CONSULT_DIR / "auto-improve-guard.jsonl"
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
 
 
 def record(state: dict[str, Any], entry: dict[str, Any], published: bool) -> None:
@@ -363,6 +430,13 @@ def run(publish: bool, ignore_lock: bool, force: bool) -> dict[str, Any]:
 
     plan, llm_log, model = generate_plan(action, link_policy, link_pct)
     if not isinstance(plan, dict) or not plan.get("post_text"):
+        if any("content_guard" in line for line in llm_log):
+            log_blocked(["content_guard_exhausted"], "", action, model)
+            return {
+                "ok": True, "skipped": "content_guard",
+                "llm_log": llm_log, "action": action.get("title"),
+                "note": "生成を3回試しましたが禁止トピックを含んでいたため投稿しませんでした",
+            }
         return {"ok": False, "skipped": "llm_failed", "llm_log": llm_log, "action": action.get("title")}
 
     if plan.get("should_post") is False:
@@ -407,6 +481,26 @@ def run(publish: bool, ignore_lock: bool, force: bool) -> dict[str, Any]:
             placement = "reply"
     if link is not None and placement == "reply" and not reply_text:
         reply_text = "参考までに、こちらのリンクも置いておきます。"
+
+    # 最終ハードガード: ここを通らない限りブラウザを開かない。
+    # プロンプトをすり抜けた内部設計・運用実験のつぶやきを必ず止める。
+    final_reasons = x_content_guard.find_unsafe_reasons(body, strict=True)
+    if reply_text:
+        final_reasons += [f"reply:{r}" for r in x_content_guard.find_unsafe_reasons(reply_text, strict=True)]
+    if final_reasons:
+        final_reasons = sorted(set(final_reasons))
+        log_blocked(final_reasons, body, action, model)
+        blocked = {
+            "ok": True,
+            "skipped": "content_guard",
+            "reasons": final_reasons,
+            "action": action.get("title"),
+            "post_text": body,
+            "llm_log": llm_log,
+            "note": "内部設計/運用実験と判定したため送信しませんでした",
+        }
+        print(json.dumps(blocked, ensure_ascii=False, indent=2))
+        return blocked
 
     result: dict[str, Any] = {
         "ok": True,

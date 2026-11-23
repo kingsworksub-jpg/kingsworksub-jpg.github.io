@@ -539,6 +539,13 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
      `X_LINK_POLICY=inline` へ自動切替（逆なら `native_then_first_reply` に戻る）。
    - リンクを貼るかどうかはLLMが判断し、さらに `X_LINK_PROBABILITY_PCT` の確率ゲートを通す。
      キュー/RSSは使わない。
+   - **内部設計の漏洩防止（2026-11-23の事故対応）**: かつて「次アクション（リンクをリプライ欄へ
+     誘導する内部実験）」をLLMへ渡したところ、アカウント運用方針を投稿してしまった。
+     以降は内部アクション文をプロンプトに渡さず、ブログ記事の話題だけを材料にする。
+     さらに `scripts/x_content_guard.py` が投稿本文・返信文を検査し、
+     「プロジェクト設計／自動化／レポート／ルール調整／SNS運用実験／インプレッション対策」
+     に該当したら最大3回生成し直し、それでも駄目なら**送信せず**ブロック理由を
+     `data/x-consulting/auto-improve-guard.jsonl` に記録する。自動返信・お礼DMにも適用済み。
 4. **手動確認/緊急停止**
    ```bash
    python scripts/x_auto_improve.py --ignore-lock     # ドライラン（投稿しない）

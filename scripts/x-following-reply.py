@@ -46,6 +46,7 @@ from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import x_llm  # noqa: E402
+import x_content_guard  # noqa: E402  （内部設計・運用実験の漏洩を止める最終防壁）
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROFILE = os.path.join(BASE, "data", "x_user_data")
@@ -686,7 +687,10 @@ def generate_reply_text(author, tweet_text, context_history=None):
         "id": "single", "author": author, "text": tweet_text,
         "topic": topic_desc(tweet_text), "context": simple_web_search(tweet_text),
     }])
-    return replies.get("single")
+    text = replies.get("single")
+    if text and not x_content_guard.is_safe(text, strict=False):
+        return None
+    return text
 
 
 def kill_stale_browser():
@@ -1248,6 +1252,11 @@ def run_following_reply_cycle(publish=False, ignore_lock=False):
                     continue
                 if quotes_source(reply_text, c["text"]):
                     print("    [-] 投稿本文の言い回しをなぞっているためスキップ（引用禁止）")
+                    mark_seen(state, c["id"])
+                    continue
+                unsafe = x_content_guard.find_unsafe_reasons(reply_text, strict=False)
+                if unsafe:
+                    print(f"    [-] 内部設計/運用の漏洩と判定したためスキップ ({', '.join(unsafe)})")
                     mark_seen(state, c["id"])
                     continue
                 if len(reply_text) > 140:

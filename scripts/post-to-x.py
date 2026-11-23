@@ -38,6 +38,7 @@ import time
 from playwright.sync_api import sync_playwright
 
 import x_llm  # 返信文/お礼DM文の生成（opencode 経由の無料モデル）
+import x_content_guard  # 内部設計・運用実験の漏洩を止める最終防壁
 
 _URL_RE = re.compile(r"https?://\S+")
 
@@ -854,6 +855,11 @@ def run_auto_replies(p, publish, max_items):
                 print(f"[!] {tweet_id}: 生成結果が無いため次回に委譲します。")
                 failed += 1
                 continue
+            unsafe = x_content_guard.find_unsafe_reasons(text, strict=False)
+            if unsafe:
+                print(f"[!] {tweet_id}: 内部設計/運用の漏洩と判定したため投稿しません ({', '.join(unsafe)})")
+                failed += 1
+                continue
             weighted = x_weighted_len(text)
             if weighted > 280:
                 print(f"[!] {tweet_id}: 生成文が加重{weighted}字で上限超えのため投稿しません。")
@@ -942,6 +948,11 @@ def run_auto_welcome(p, publish, max_items, no_dm=False):
             text = _lookup_keyed(texts, handle)
             if not text:
                 print(f"[!] @{handle}: 生成結果が無いため次回に委譲します。")
+                failed += 1
+                continue
+            unsafe = x_content_guard.find_unsafe_reasons(text, strict=False)
+            if unsafe:
+                print(f"[!] @{handle}: 内部設計/運用の漏洩と判定したため送信しません ({', '.join(unsafe)})")
                 failed += 1
                 continue
             weighted = x_weighted_len(text)
