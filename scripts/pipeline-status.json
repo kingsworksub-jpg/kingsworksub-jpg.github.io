@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:00:02+09:00",
+ "updated": "2026-11-24T22:00:09+09:00",
  "queue": {
   "published": 196,
   "rejected": 32,
@@ -11,21 +11,24 @@
  "pending_requests": 0,
  "last_result": "published hagi-ware-guinomi-nanabake",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "X返信",
-  "since": "2026-11-24T22:00:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "Xフォローお礼DM",
   "state": "finished",
-  "at": "2026-11-24T21:46:26+09:00",
+  "at": "2026-11-24T22:00:09+09:00",
   "engine": "gemini",
-  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  "detail": "[i] 本日の自動返信上限(10件)に達しました。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "X返信",
+   "state": "finished",
+   "at": "2026-11-24T22:00:09+09:00",
+   "engine": "gemini",
+   "detail": "[i] 本日の自動返信上限(10件)に達しました。"
+  },
   {
    "job": "x-follow-dm",
    "label": "Xフォローお礼DM",
@@ -97,14 +100,6 @@
    "at": "2026-11-24T19:45:15+09:00",
    "engine": "gemini",
    "detail": "[i] 本日の自動返信上限(10件)に達しました。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-24T19:20:34+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
