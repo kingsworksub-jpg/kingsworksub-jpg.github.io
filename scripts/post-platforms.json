@@ -1659,28 +1659,30 @@
  "piano-practice-apps-3choice-2026": {
   "platforms": [
    "github",
-   "note",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
   "note_key": "n56931a5fec2a",
-  "ameba_entry": 12981373491,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00",
-  "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "title": "flowkeyだけにある「待ってくれるモード」、ピアノ練習アプリ3つの続け方",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "akai-mpk-mini-mk4-deep-dive-2026": {
   "platforms": [
    "github",
-   "note",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
   "note_key": "nc39b11e62ae9",
-  "ameba_entry": 12981382030,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00",
-  "title": "Akai MPK Mini MK4の25鍵でできること、上位機に任せること"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "title": "Akai MPK Mini MK4の25鍵でできること、上位機に任せること",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "yamaha-ag03mk2-deep-dive-2026": {
   "platforms": [
@@ -1741,15 +1743,16 @@
  "record-stylus-lifespan-guide-2026": {
   "platforms": [
    "github",
-   "note",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
   "note_key": "n1f8e32bf1016",
-  "ameba_entry": 12981475998,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00",
-  "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "title": "レコード針は消耗品。寿命1,000時間の目安と、針圧・交換のしかた",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "sodastream-terra-carbonation-guide-2026": {
   "platforms": [
@@ -1873,15 +1876,16 @@
  "parker-blues-ear-training-1week": {
   "platforms": [
    "github",
-   "note",
-   "ameba"
+   "note"
   ],
   "hatena_entry": null,
   "note_key": "na821e9eef7fa",
-  "ameba_entry": 12981659693,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00",
-  "title": "ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "title": "ジャズブルースのコード進行は、パーカーの3曲を順に聴けば1週間で耳に入る",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "loafer-derby-autumn-2026": {
   "platforms": [
@@ -2841,14 +2845,15 @@
  "dynamic-mic-5choice-2026": {
   "title": "ダイナミックマイク5本比較、話し声も歌も1本で録るなら必要なゲインから選ぶ",
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12983859634,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "lm-studio-ollama-gui-api-server-2026": {
   "title": "LM StudioとOllamaは何が違うのか、モデルを画面で選ぶ手軽さと1234番ポートのAPI",
@@ -2982,14 +2987,15 @@
  "metronome-rhythm-practice-2026": {
   "title": "メトロノームに合わせて弾けるのに、録音するとずれて聞こえるのはなぜか",
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12984583346,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "studio-gear-year-end-inventory-2026": {
   "title": "年末のDTM機材とプラグインの棚卸し、1年触らなかったものから売る・譲る・残すを決める",
@@ -3006,14 +3012,15 @@
  "chord-progression-learning-order-2026": {
   "title": "コード進行は4つから覚える、度数と機能で耳を分ける学習の順番",
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12984689653,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "temperature-kettle-tea-coffee-oyuwari-2026": {
   "title": "70℃と90℃を使い分ける。温度調節ケトルでお茶・コーヒー・焼酎お湯割りの湯温を設計する",
@@ -3065,14 +3072,15 @@
  "mic-preamp-gain-compare-2026": {
   "title": "マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する",
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12984777895,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "playwright-persistent-profile-login-notes": {
   "title": "Playwrightの永続プロファイルを活用したログイン保持手法と運用時の注意点",
@@ -3286,14 +3294,15 @@
  "ireal-pro-jazz-practice": {
   "title": "iReal Proでジャズスタンダードを耳に刻む練習設計とコード進行活用法",
   "platforms": [
-   "github",
-   "ameba"
+   "github"
   ],
   "hatena_entry": null,
   "note_key": null,
-  "ameba_entry": 12985314209,
+  "ameba_entry": null,
   "needs_manual_review": null,
-  "updated_at": "2026-11-24T22:13:27+09:00"
+  "updated_at": "2026-11-25T00:04:29+09:00",
+  "ameba_opt_out": true,
+  "ameba_opt_out_reason": "2026-11-25 ユーザー指示: 音楽/機材系記事のAmeba誤投稿を削除。今後Amebaには投稿しない。"
  },
  "copenhagen-sparkling-tea-bla-review": {
   "title": "Copenhagen Sparkling Tea BLÅが食事に寄り添う理由：0.0%と5バールが作る紅茶の食中酒",
