@@ -10671,5 +10671,22 @@
       "PILのある環境でseo-audit --check-links"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T20:53:57Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現を全記事grep(あるレビューでは/実際に〜てみた/隅から隅まで/味わい尽くす/おなじみ等)→該当5件は製品紹介の通常用法で規約違反なし",
+      "descriptionなし記事は draft:true の旧下書き5件のみ(公開対象外)",
+      "修正対象なし。外部3サイトは改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PILのある環境でseo-audit --check-links"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
