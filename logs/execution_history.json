@@ -10578,5 +10578,26 @@
       "PILのある環境でseo-audit --check-linksを実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T12:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ardbeg-trudernish-15yo"
+    ],
+    "actions": [
+      "figure配置ルール検査(見出し直後でないfigure)で13記事を検出。うち本文回り込みが実質効かない1件(ardbeg-trudernish-15yo: セクション末尾でfigure直後に見出し)を『3種の樽構成』見出し直後へ移動",
+      "他12件は導入部のfigureで段落が回り込むため現状維持",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ardbeg-trudernish-15yo.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残る導入部figure記事の見直し要否",
+      "PILのある環境でseo-audit --check-links"
+    ],
+    "status": "完了"
   }
 ]

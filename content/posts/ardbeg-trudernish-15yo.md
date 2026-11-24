@@ -36,16 +36,16 @@ scheduled_time: "07:30"
 
 ## バーボン・新樽・オロロソが織りなす3種の樽構成
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-10.jpg" alt="アードベッグ10年のボトル" width="220" height="150" loading="lazy"></a>
+<figcaption>比較基準となるアードベッグ10年<span class="credit">Photo: DYVER / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 トゥルーダーニッシュ15年の最も特徴的な点は、3種類の異なる樽を組み合わせた熟成プロセスにあります。核となるのは、アードベッグの王道であるエクスバーボン樽由来のバニラとクリーンなシトラスの骨格です。
 
 そこに加えられたのが「バージンオーク（新樽）」と「オロロソシェリー樽」です。新樽は15年という期間を経て、木材本来のタンニンが甘美なクローブやシナモンのようなスパイスへと昇華されています。
 
 さらにオロロソシェリー樽が、ドライフルーツやナッツのような深いコクを層として重ねます。これら3つの要素が複雑に絡み合うことで、単一の樽では到達できない、立体的で多層的な香味のグラデーションが生まれているのです。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-10.jpg" alt="アードベッグ10年のボトル" width="220" height="150" loading="lazy"></a>
-<figcaption>比較基準となるアードベッグ10年<span class="credit">Photo: DYVER / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22)
 
