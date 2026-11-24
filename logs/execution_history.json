@@ -10402,5 +10402,27 @@
       "PILのある環境でseo-audit --check-linksを実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T02:53:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ardbeg-trudernish-15yo"
+    ],
+    "actions": [
+      "本文に混入した英語表現(maritime notes)を日本語化",
+      "第三者権威を匂わせる見出し「専門家が推奨する〜」を筆者視点の見出しに変更",
+      "ウイスキー記事に不適切な「設置場所」を削除",
+      "他の公開記事は未改善リストから漏れなし。外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ardbeg-trudernish-15yo.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "新規記事の英語混入・第三者引用表現の機械検査を継続",
+      "PILのある環境でseo-audit --check-linksを実行"
+    ],
+    "status": "完了"
   }
 ]
