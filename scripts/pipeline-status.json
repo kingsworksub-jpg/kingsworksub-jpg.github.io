@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:00:20+09:00",
+ "updated": "2026-11-25T04:02:00+09:00",
  "queue": {
   "published": 196,
   "rejected": 32,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published hagi-ware-guinomi-nanabake",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-11-25T04:00:20+09:00",
-  "engine": "big-pickle"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-25T04:00:15+09:00",
-  "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "at": "2026-11-25T04:02:00+09:00",
+  "engine": "big-pickle",
+  "detail": "stage1 opencode/big-pickle=finished: 補充不要（approved=28 件 ≥ 16 件、Mode: topup のため割り当て・候補作成・キュー投入は行わず終了）。追加件数 0、カテゴリー別追加なし、不採用 0。"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-11-25T04:02:00+09:00",
+   "engine": "big-pickle",
+   "detail": "stage1 opencode/big-pickle=finished: 補充不要（approved=28 件 ≥ 16 件、Mode: topup のため割り当て・候補作成・キュー投入は行わず終了）。追加件数 0、カテゴリー別追加なし、不採用 0。"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -98,14 +101,6 @@
    "at": "2026-11-25T01:45:14+09:00",
    "engine": "gemini",
    "detail": "[i] 未処理の新規返信はありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-25T01:20:36+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
