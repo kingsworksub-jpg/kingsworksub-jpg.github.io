@@ -64,6 +64,7 @@ BASE = r"C:\Users\norio\my-github-blog"
 POSTS = os.path.join(BASE, "content", "posts")
 PROFILE = os.path.join(BASE, "data", "ameba_user_data")
 EDITOR_URL = "https://blog.ameba.jp/ucs/entry/srventryinsertinput.do"
+ADMIN_LIST_URL = "https://blog.ameba.jp/ucs/entry/srventrylist.do"
 LOGIN_URL = "https://auth.user.ameba.jp/signin"
 SITE = "https://kingsworksub-jpg.github.io"
 LOGIN_TIMEOUT = 480  # seconds
@@ -425,9 +426,93 @@ def convert_amazon_links_to_pick(page):
         print(f"ASIN無しのAmazonリンクを{counts['stripped']}件除去しました(Ameba Pick未対応)。")
 
 
-def click_submit_and_check(page, ctx, publish):
-    """Click 投稿する/下書き保存 and, for publish, follow the confirmation popup it opens
-    (srventryupdateend.do) to detect Ameba's "保存ができませんでした" rejection."""
+JS_ADMIN_ROWS = """() => {
+    const out = [];
+    for (const link of document.querySelectorAll('a[href*="srventryupdateinput.do"]')) {
+        const m = (link.href || '').match(/[?&]id=(\\d+)/);
+        if (!m) continue;
+        const column = link.closest('.entry-column');
+        const title = (column?.querySelector('h2 a')?.innerText || '').trim();
+        if (!title) continue;
+        const status = (column?.innerText || '').includes('下書き') ? 'draft' : 'published';
+        out.push({id: m[1], title, status});
+    }
+    return out;
+}"""
+
+
+def admin_month_urls():
+    """管理画面の月別一覧URL。既定(当月)に加えて当年と前年の全月を走査する。"""
+    import datetime
+    year = datetime.date.today().year
+    return [ADMIN_LIST_URL] + [
+        f"{ADMIN_LIST_URL}?entry_ym={yy}{mm:02d}"
+        for yy in (year, year - 1) for mm in range(1, 13)
+    ]
+
+
+def iter_admin_rows(page, stop_when=None):
+    """管理画面の全月・全ページを読み取り専用で走査し、記事行を yield する。
+
+    `stop_when(rows_on_page)` が真を返したら即座に終了する(投稿後の検証では
+    最初の一致で十分で、全月を巡回する無駄を避けるため)。
+    """
+    for base in admin_month_urls():
+        url = base
+        for _ in range(20):  # 1月あたりのページ上限(安全装置)
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(1200)
+                if "blog.ameba.jp/ucs/entry" not in page.url:
+                    print("[warn] Ameba記事一覧を開けません(ログイン切れの可能性)。")
+                    return
+                rows = page.evaluate(JS_ADMIN_ROWS)
+            except Exception as e:  # noqa: BLE001
+                print(f"[warn] Ameba記事一覧の確認に失敗: {e}")
+                return
+            yield from rows
+            if stop_when and stop_when(rows):
+                return
+            try:
+                href = page.locator('a:has-text("次へ")').first.get_attribute("href", timeout=2000)
+            except Exception:  # noqa: BLE001
+                href = None
+            if not href:
+                break
+            url = href if href.startswith("http") else "https://blog.ameba.jp" + href
+
+
+def find_admin_entries_by_title(page, title):
+    """管理画面の記事一覧から、タイトルが完全一致する記事を読み取り専用で探す。
+
+    2026-11-24 の重複投稿事故の対策。投稿ボタン押下後のポップアップ有無は
+    成功判定に使えない（出ないことがある／「カバーなしで投稿する」が実は
+    投稿処理そのもので、リトライすると同名記事が増える）ため、投稿後は
+    この一覧で記事が実際に作られたかを確認する。
+    """
+    wanted = (title or "").strip()
+    if not wanted:
+        return []
+    wanted_rows = []
+    for r in iter_admin_rows(page, stop_when=lambda rows: any(x["title"] == wanted for x in rows)):
+        if r["title"] == wanted:
+            wanted_rows.append({"entry_id": r["id"], "title": r["title"], "status": r["status"]})
+    return wanted_rows
+
+
+def click_submit_and_check(page, ctx, publish, title=None):
+    """投稿ボタンを **一度だけ** 押し、記事一覧で結果を検証する。
+
+    2026-11-24 修正前は「カバーなしで投稿する」を単なるモーダル.close()とみなし、
+    投稿ボタンを最大4回リトライしていた。実際にはそのボタンが投稿そのもので、
+    同名記事が複数作成されていた。また確認ポップアップ(srventryupdateend.do)が
+    出ない場合を失敗と誤判定していた。以降:
+
+      - 投稿ボタンは1回のみ。モーダルは閉じても **再クリックしない**。
+      - 「カバーなしで投稿する」は投稿処理として扱う。
+      - 成否はポップアップではなく管理画面の記事一覧でタイトル一致を確認する。
+      - 取得した entry_id を呼び出し元へ返し、0番地を報告しないようにする。
+    """
     flg = "0" if publish else "1"
     label = "投稿する" if publish else "下書き保存"
     sel = f'button.js-submitButton[publishflg="{flg}"]'
@@ -435,59 +520,64 @@ def click_submit_and_check(page, ctx, publish):
     btn.scroll_into_view_if_needed()
     page.wait_for_timeout(500)
 
-    if not publish:
-        btn.click(timeout=10000)
-        print(f"{label} を押しました。処理を待ちます…")
-        page.wait_for_timeout(6000)
-        dismiss_dialogs(page)
-        return True
-
-    # A handful of one-off modals ("カバーを設定してみましょう", "編集途中の記事があります。復元しますか？")
-    # can intercept the 投稿する click instead of opening the confirmation popup. Dismiss whichever
-    # one shows up and retry the click, a few times.
-    DISMISS_BUTTONS = ["カバーなしで投稿する", "復元しない", "閉じる"]
+    # 1回だけ押す。ポップアップが開かなくても成功していることがあるので、
+    # expect_page の成否はここでは成否判定に使わない。
     popup = None
-    for attempt in range(4):
+    try:
+        with ctx.expect_page(timeout=8000) as pinfo:
+            btn.click(timeout=10000)
+        popup = pinfo.value
+    except Exception:
+        pass
+
+    # 「カバーなしで投稿する」はモーダルを閉じるためのボタンではなく投稿ボタン本身。
+    # ここで押したら投稿済みなので、絶対に 投稿する を再クリックしない。
+    try:
+        b = page.get_by_role("button", name="カバーなしで投稿する")
+        if b.is_visible(timeout=1500):
+            b.click(timeout=5000)
+            print("「カバーなしで投稿する」を押しました(投稿処理として扱い、再クリックしません)。")
+    except Exception:
+        pass
+
+    # それ以外のモーダルは閉じるだけ。閉じた後に 投稿する を押し直すと重複する。
+    for text in ("復元しない", "閉じる"):
         try:
-            with ctx.expect_page(timeout=7000) as pinfo:
-                btn.click(timeout=10000)
-            popup = pinfo.value
-            break
+            b = page.get_by_role("button", name=text)
+            if b.is_visible(timeout=1000):
+                b.click(timeout=3000)
+                print(f"モーダルを「{text}」で閉じました(投稿ボタンは再クリックしません)。")
         except Exception:
-            popup = None
-        dismissed = False
-        for label_text in DISMISS_BUTTONS:
+            pass
+
+    page.wait_for_timeout(4000)
+
+    if popup is not None:
+        try:
+            popup.wait_for_load_state("domcontentloaded", timeout=30000)
+            popup.wait_for_timeout(1500)
+            popup_text = popup.inner_text("body")
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] 確認ポップアップの読み込みに失敗: {e}")
+            popup_text = ""
+        finally:
             try:
-                b = page.get_by_role("button", name=label_text)
-                if b.is_visible(timeout=1000):
-                    b.click(timeout=3000)
-                    print(f"モーダルを「{label_text}」で閉じました。")
-                    dismissed = True
-                    page.wait_for_timeout(1000)
-                    break
+                popup.close()
             except Exception:
                 pass
-        if not dismissed:
-            break
+        if "できませんでした" in popup_text or "エラー" in popup_text:
+            print("公開エラー:", popup_text[:300])
+            return {"ok": False, "reason": "ameba rejected the post", "entry_id": None}
 
-    if popup is None:
-        print("投稿する クリック後にポップアップを検出できませんでした。")
-        return False
-
-    try:
-        popup.wait_for_load_state("domcontentloaded", timeout=30000)
-        popup.wait_for_timeout(2000)
-        text = popup.inner_text("body")
-        popup.close()
-    except Exception as e:
-        print(f"確認ポップアップの読み込みに失敗: {e}")
-        return False
-
-    if "できませんでした" in text or "エラー" in text:
-        print("公開エラー:", text[:300])
-        return False
-    print(f"{label} を押しました。公開を確認しました。")
-    return True
+    entries = find_admin_entries_by_title(page, title)
+    if not entries:
+        print(f"[error] {label} 押下後、記事一覧にタイトル「{title}」が見つかりません。"
+              "再投稿せず、手動で状態を確認してください。")
+        return {"ok": False, "reason": "not found in admin list", "entry_id": None}
+    # 同名が既存する場合は id 最大(最新)を今回の記事として報告する。
+    entry_id = max(int(e["entry_id"]) for e in entries)
+    print(f"{label} を押しました。記事一覧で確認しました (entry_id={entry_id})。")
+    return {"ok": True, "entry_id": entry_id}
 
 
 def _dump_delete_diagnostics(page, entry_id, stage):
@@ -707,8 +797,8 @@ def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_i
             ctx.close()
             sys.exit(1)
 
-    ok = click_submit_and_check(page, ctx, publish)
-    if not ok:
+    result = click_submit_and_check(page, ctx, publish, title=title)
+    if not result["ok"]:
         page.screenshot(path=os.path.join(BASE, "data", "ameba_fail.png"), full_page=True)
         ctx.close()
         sys.exit(1)
@@ -718,24 +808,44 @@ def _fill_and_submit(page, ctx, slug, publish, expect_title=None, expect_entry_i
         # 更新フロー: 投稿後のページで entry_id 欄を読み直しても、遷移先(一覧ページ)に
         # 残った無関係な値を拾うことがあるため信用しない(2026-10-23実測)。
         # 更新対象は expect_entry_id で確定しているので、そのまま報告する。
-        print(f"entry_id={expect_entry_id}")
-        print(f"公開URL: https://ameblo.jp/sfd0501/entry-{expect_entry_id}.html")
+        eid = expect_entry_id
     else:
-        eid = ""
-        try:
-            eid = page.input_value('input[name="entry_id"]')
-        except Exception:
-            pass
-        print(f"entry_id={eid}")
-        if eid:
-            print(f"公開URL: https://ameblo.jp/sfd0501/entry-{eid}.html")
+        # 一覧で実在を確認できた id を報告する。フォームの隠し entry_id は
+        # 投稿後に 0 や無関係な値を残すことがある(2026-11-24実測)ため使わない。
+        eid = result["entry_id"]
+    print(f"entry_id={eid}")
+    if eid:
+        print(f"公開URL: https://ameblo.jp/sfd0501/entry-{eid}.html")
 
 
-def fill_editor_and_submit(slug, publish, cvr=True):
+def fill_editor_and_submit(slug, publish, cvr=True, allow_duplicate=False):
+    with open(os.path.join(POSTS, f"{slug}.md"), encoding="utf-8-sig") as f:
+        meta, _ = parse_front_matter(f.read())
+    title = meta.get("title", slug)
+
     with sync_playwright() as p:
         ctx = open_browser(p)
         page = ctx.new_page()
         page.on("dialog", lambda d: d.accept())
+
+        # 新規投稿の前に同名記事が無いか確認する(2026-11-24の重複事故対策)。
+        page.goto(ADMIN_LIST_URL, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(2500)
+        if "blog.ameba.jp/ucs/entry" not in page.url:
+            print("ログインされていません。`python scripts/post-to-ameba.py --login` を実行してください。")
+            ctx.close()
+            sys.exit(1)
+        existing = find_admin_entries_by_title(page, title)
+        if existing and publish and not allow_duplicate:
+            ids = ", ".join(e["entry_id"] for e in existing)
+            print(f"[abort] 記事一覧に同名タイトル「{title}」が既にあります (entry_id: {ids})。"
+                  "重複投稿を避けるため中止します。既存記事を更新する場合は --update-entry、"
+                  "明示的に重複を作る場合のみ --allow-duplicate を使ってください。")
+            ctx.close()
+            sys.exit(1)
+        if existing:
+            print(f"[info] 同名タイトル既存: {len(existing)}件"
+                  f" ({', '.join(e['entry_id'] for e in existing)})")
 
         print(f"Amebaエディタを開いています: {EDITOR_URL}")
         page.goto(EDITOR_URL, wait_until="domcontentloaded", timeout=60000)
@@ -782,10 +892,12 @@ def main():
     parser.add_argument("--publish", action="store_true", help="Publish directly")
     parser.add_argument("--save", action="store_true", help="Save as draft")
     parser.add_argument("--delete-entry", help="削除する公開済み記事の entry_id")
-    parser.add_argument("--expect-title", help="--delete-entry/--update-entry 使用時、操作前に照合するタイトル(必須・誤操作防止)")
+    parser.add_argument("--expect-title", help="--delete-entry/--update-entry 使用時、操作前に照合するタイトル(必須・誤操作防止。空タイトルは --expect-title '' で指定)")
     parser.add_argument("--update-entry", help="既存記事(entry_id)を本文で上書きして再公開する")
     parser.add_argument("--no-cvr", action="store_true",
                         help="コンバージョン率改善プランA (CTA/テキストリンクの自動挿入) を適用しない")
+    parser.add_argument("--allow-duplicate", action="store_true",
+                        help="同名タイトルが既に存在しても新規投稿する(通常は重複事故防止のため中止)")
     args = parser.parse_args()
 
     cvr = not args.no_cvr
@@ -793,15 +905,15 @@ def main():
     os.makedirs(PROFILE, exist_ok=True)
 
     if args.delete_entry:
-        if not args.expect_title:
-            print("Error: --delete-entry には --expect-title が必須です(誤削除防止のため)")
+        if args.expect_title is None:
+            print("Error: --delete-entry には --expect-title が必須です(誤削除防止のため。空タイトルの場合は --expect-title '' )")
             sys.exit(1)
         delete_entry(args.delete_entry, args.expect_title)
         print(f"DELETED: {args.delete_entry}")
         return
 
     if args.update_entry:
-        if not args.expect_title:
+        if args.expect_title is None:
             print("Error: --update-entry には --expect-title が必須です(誤更新防止のため)")
             sys.exit(1)
         if not args.slug:
@@ -820,7 +932,7 @@ def main():
         if not os.path.exists(os.path.join(POSTS, f"{args.slug}.md")):
             print(f"Error: Post file not found: {os.path.join(POSTS, args.slug + '.md')}")
             sys.exit(1)
-    fill_editor_and_submit(args.slug, args.publish, cvr=cvr)
+    fill_editor_and_submit(args.slug, args.publish, cvr=cvr, allow_duplicate=args.allow_duplicate)
 
 
 if __name__ == "__main__":

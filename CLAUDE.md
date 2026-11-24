@@ -201,11 +201,20 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
       プラットフォームを戻すこと）も自動実行の対象外（要手動対応としてフラグされる）。
     - **はてな削除**: `scripts/delete-hatena-post.sh`（AtomPub DELETE、`scripts/hatena_api.py` のヘルパー使用）。削除後に
       GETで404確認してから成功とする。
-    - **note/Ameba削除は未検証領域**（2026-10-15時点）: このリポジトリにはどちらも「公開済み記事の削除」を自動化したコードが
-      元々無かった。`post-to-note.py --delete-key`・`post-to-ameba.py --delete-entry` を新規実装したが、
-      対象記事のタイトルが一致することを確認してからでないと削除操作のクリックをしない設計（一致しない／想定要素が
-      見つからない場合は例外を投げて `post-platforms.json` に `needs_manual_review` として記録し、処理を止めずに次へ進む）。
-      **実機で1回、人間が見ている状態で動作確認してから自動実行タスクを有効化すること**。
+     - **note/Ameba削除（2026-11-24 実機検証済み）**: `post-to-note.py --delete-key <key> --expect-title "<タイトル>"`
+       と `post-to-ameba.py --delete-entry <id> --expect-title "<タイトル>"` で削除できる。
+       どちらも「一覧の行タイトルが `--expect-title` と一致」して初めて削除ボタンを押し、
+       削除後は API（note）/ 公開URL 404（Ameba）で検証する。空タイトルの Ameba 下書きは
+       `--expect-title ''` を明示する（`--expect-title` 未指定は誤操作防止でエラー）。
+       note の削除は **エディタの「その他」ではなく `https://note.com/notes` の行メニュー（`…` → 削除 → 削除する）**。
+       エディタの「削除」ボタンは画像ツールバーの削除なので絶対に押さないこと。
+       `post-to-note.py` の削除は published / draft 両方に対応するが、`status: ""` の未保存シェルは
+       一覧にも出ず API 削除も 422 になるため、作らないこと（新規エディタを開かなければ発生しない）。
+    - **重複・記録漏れの監査/修整(2026-11-24)**: `python scripts/audit-platform-duplicates.py --out data/duplicate-audit.json`
+      が note/Ameba の同名重複・下書き・`post-platforms.json` の未記録/古いIDを読み取り専用で検出する。
+      `python scripts/repair-platform-state.py --audit data/duplicate-audit.json`（`--apply` で反映、既定dry-run）が
+      外部の実IDに合わせて記録を直す。**削除は行わない**。PPPの add 処理も、IDが記録済みなら再投稿せず
+      プラットフォーム記録だけを更新する(`has_recorded_id()`)。
     - **スケジュール**: `blog-ppp-reconcile` タスク（1時間おき、`scripts/scheduled/run-platform-sync.ps1` 経由、
       `run-claude-task.ps1` と同じミューテックス `Local\kingsworksub-blog-x-jobs` を共有するが Claude Code は起動しない）。
       **登録時は Disabled**（`register-tasks.ps1` を実行しても有効にはならない）。`Start-ScheduledTask -TaskName
@@ -832,6 +841,14 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   `ctx.expect_page()` で包んで**ポップアップの有無を確認するループに変更した(以前は「投稿する」の最初の
   クリックだけを`expect_page`で包んでいたため、本当の送信クリックがモーダル側だった場合にポップアップを
   取りこぼしていた)。
+ - **重複投稿事故(2026-11-24)と恒久対策**: 上の「最大4回試行」ロジックが原因で、`カバーなしで投稿する` の
+   クリック(実際は送信そのもの)をモーダルを閉じただけと誤判定し、同一記事が複数回投稿された(アードベッグ15年・
+   びんのサイダー・ノンアルビールの3組)。さらに確認ポップアップが出ない場合を失敗扱いにしていたため、
+   実際には投稿済みなのに再投稿していた。**現在の `click_submit_and_check()` は投稿ボタンを1回だけ押し、
+   モーダルは閉じても再クリックしない。成否はポップアップではなく管理画面(`srventrylist.do`)の
+   タイトル一致で検証し、見つからなければ失敗とする**。新規投稿前も同名タイトルを管理画面で確認し、
+   既存する場合は `--update-entry` か明示的な `--allow-duplicate` を要求する。
+   `entry_id` もフォームの隠し値(投稿後に `0` が残ることがある)ではなく一覧で確認したIDを出力する。
 - **Amazon検索フォールバックリンクが`<figure>`内の画像を包んでいると変換漏れする不具合(2026-11-05実測 → 同日修正)**:
   `convert_amazon_links_to_pick()`は、ASINが取れない(検索フォールバック`/s?k=...`等の)Amazonリンクを
   プレーンテキスト化して取り除く設計だが、旧実装は`parent.nodeName !== 'FIGURE'`の条件により**`<figure>`
@@ -905,6 +922,16 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
 
 - 変換: `python scripts/convert-to-note.py <slug>` → `scripts/note-drafts/<slug>.note.txt`
 - 投稿・公開: `python scripts/post-to-note.py --slug <slug> --publish`（`publish_note()` が2段実行し、APIで公開を検証して公開URLを返す）
+- **重複・下書き乱立の防止(2026-11-24)**: `post_one()` は新規エディタを開く前に
+  `note.com/api/v2/note_list/contents` と `api/v3/notes/<key>` で同名タイトルを確認する。
+  公開済みが見つかれば中止し（`--edit-key <key>` で既存記事を更新、明示的に重複を作る場合のみ `--allow-duplicate`）、
+  下書きが見つかればその `key` の編集画面を再利用して **新規下書きを作らない**。
+  画像取得失敗などの再試行で空下書きが増える問題もこれで防ぐ。
+   既存記事チェックは `sync_playwright()` 内で **同じ `page` を渡して** 行うこと。
+   別の `sync_playwright()` をネストすると `Sync API inside asyncio loop` で失敗し、
+   チェックをすり抜けて新規下書きが作られる（2026-11-24 に実際に発生）。
+   画像URLが404でも `paste_image()` が警告を出して続行するので、1枚の失敗で記事全体が止まらない。
+   既存下書きを明示して更新する場合は `--edit-key <key> --slug <slug> --publish` を使う。
 - **有料記事の扱い（2026-11-17〜）**:
   - note 側で有料ラインを設定したら、必ず `python scripts/note_sync.py sync` で `scripts/note-index.json` を更新する。
     この index が「どの記事が有料か」「有料部分がどこからか」の正本になる。

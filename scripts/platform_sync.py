@@ -369,6 +369,20 @@ def add_hatena(slug: str) -> int:
     return int(m.group(1))
 
 
+PLATFORM_ID_FIELDS = {"hatena": "hatena_entry", "note": "note_key", "ameba": "ameba_entry"}
+
+
+def has_recorded_id(state: dict, platform: str) -> bool:
+    """Whether a platform already has an id (including the 'N/A' sentinel used to suppress
+    re-posts). 2026-11-24: the PPP add path previously ignored this and re-posted articles that
+    were live on note.com but whose key had never been recorded, creating duplicates."""
+    field = PLATFORM_ID_FIELDS.get(platform)
+    if not field:
+        return False
+    value = state.get(field)
+    return value not in (None, "", 0, "0")
+
+
 def remove_hatena(entry_id: int) -> None:
     env = _hatena_env()
     r = run(["bash", os.path.join(S, "delete-hatena-post.sh"), str(entry_id)], env=env)
@@ -502,6 +516,16 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
             for plat in to_add:
                 if plat == "github":
                     continue  # github is the source; it's only ever removed, never separately re-added here
+                if has_recorded_id(state, plat):
+                    # Already has an id (possibly 'N/A' meaning "posted but id unavailable").
+                    # Never create a second post just because `platforms` drifted out of sync.
+                    print(f"[{slug}] {plat} はID記録済み({state.get(PLATFORM_ID_FIELDS[plat])!r})ため"
+                          "再投稿せずプラットフォーム記録だけ更新します。")
+                    state["platforms"] = sorted(set(state["platforms"]) | {plat})
+                    state["updated_at"] = tp.now().isoformat(timespec="seconds")
+                    save_platforms(platforms)
+                    summary["added"] += 1
+                    continue
                 if plat == "hatena":
                     state["hatena_entry"] = add_hatena(slug)
                 elif plat == "note":

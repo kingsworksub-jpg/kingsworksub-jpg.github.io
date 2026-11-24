@@ -33,6 +33,9 @@
   --no-images     画像を挿入せずテキストのみ（貼り付けが失敗したとき用）
   --fast          insertText で一括入力（高速。ただし Markdown 変換が効かない場合あり）
   --profile <dir> Chromium プロファイルの場所（既定 data/note_user_data）
+  --delete-key <key> --expect-title "<タイトル>"  自分の記事一覧から削除(published/draft両対応)
+  --edit-key <key> --slug <slug>   既存記事を最新draftで上書き(新規下書きを作らない)
+  --allow-duplicate  同名の公開済み記事があっても明示的に新規作成する
 """
 import argparse
 import base64
@@ -462,55 +465,116 @@ def _dump_delete_diagnostics(page, key, stage):
 
 
 def delete_note(page, key, expected_title):
-    """Delete a PUBLISHED note. UNVERIFIED territory (see module docstring): the draft-deletion
-    UI pattern documented for note.com ('その他' -> '削除' -> confirm dialog) is attempted here
-    against a published note's editor screen, which has never been confirmed to behave the same
-    way. Refuses to click anything destructive unless the editor's title matches `expected_title`
-    first, and raises (rather than returning a falsy value) on any mismatch, missing element, or
-    failed post-delete verification — callers must never treat a non-raising return as success
-    without checking the API status themselves too.
+    """Delete a note (published OR draft) from the '自分の記事' list page.
+
+    2026-11-24 実測: エディタの「その他」メニューには削除が無く（あるのは「変更履歴」だけ）、
+    昔のコードは「削除」ボタンと誤認して画像ツールバーの削除を押していた。公式ヘルプどおり
+    プロフィール → 自分の記事 (https://note.com/notes) の行メニューから削除する。
+
+    Flow: find the row by its note key -> verify the row title against `expected_title` ->
+    open that row's menu (aria-labelledby ties it to the button) -> click 削除 -> confirm ->
+    verify via /api/v3/notes/<key> that status == deleted and the row is gone. Any mismatch
+    raises BEFORE a destructive click. Native confirm() is accepted; a custom [role=dialog]
+    is confirmed with its 削除する button.
     """
     st = note_status(page, key)
     if st is None:
         raise RuntimeError(f"note {key}: 現在の状態をAPIで取得できません(削除操作を中止)")
     if st["status"] == "deleted":
         return  # already gone, nothing to do — idempotent
-    title_box = find_title_input(page)
-    actual_title = (title_box.input_value() or "").strip()
+    page.goto("https://note.com/notes", wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(3000)
+
+    row_anchor = page.locator(f'a[href*="{key}"]').first
+    is_draft_row = row_anchor.count() == 0
+    if not is_draft_row:
+        row = row_anchor.locator("xpath=ancestor::li[1]")
+    else:
+        # 下書き行には記事URLの<a>が無く、代わりに「{title}を編集」ボタンがある。
+        # APIで status=draft かつ name が期待タイトルであることを先に確認し、
+        # 一覧からは「同じタイトル & 下書きバッジ」の行が1件だけの場合に限定する。
+        if st["status"] != "draft" or st.get("name", "").strip() != expected_title.strip():
+            _dump_delete_diagnostics(page, key, "row-not-found")
+            raise RuntimeError(f"note {key}: 「自分の記事」一覧に行が見つかりません(削除操作を中止)")
+        row_index = page.evaluate(
+            """(title) => {
+                const all = Array.from(document.querySelectorAll('li'));
+                const hits = all.filter(li => {
+                    const h = li.querySelector('h3');
+                    return h && (h.innerText || '').trim() === title
+                        && (li.innerText || '').includes('下書き');
+                });
+                return hits.length === 1 ? all.indexOf(hits[0]) : -1;
+            }""", expected_title.strip())
+        if row_index < 0:
+            _dump_delete_diagnostics(page, key, "row-not-found")
+            raise RuntimeError(f"note {key}: 下書き行が一意に特定できません(削除操作を中止)")
+        row = page.locator("li").nth(row_index)
+    actual_title = (row.locator("h3").first.inner_text() or "").strip()
     if actual_title != expected_title.strip():
+        _dump_delete_diagnostics(page, key, "title-mismatch")
         raise RuntimeError(
-            f"note {key}: エディタのタイトル「{actual_title}」が期待値「{expected_title}」と一致しないため中止")
+            f"note {key}: 一覧のタイトル「{actual_title}」が期待値「{expected_title}」と"
+            "一致しないため中止(誤削除防止)")
 
     native_dialog = {"seen": None}
-    page.on("dialog", lambda d: (native_dialog.__setitem__("seen", d.message), d.dismiss()))
+    page.on("dialog", lambda d: (native_dialog.__setitem__("seen", d.message), d.accept()))
 
-    if not click_button_by_text(page, "その他", timeout=20):
-        _dump_delete_diagnostics(page, key, "その他")
-        raise RuntimeError(f"note {key}: 「その他」メニューが見つかりません(削除操作を中止)")
-    page.wait_for_timeout(1000)
-    if not click_button_by_text(page, "削除", timeout=15):
-        _dump_delete_diagnostics(page, key, "削除")
-        raise RuntimeError(f"note {key}: 「削除」メニュー項目が見つかりません(削除操作を中止)")
-    page.wait_for_timeout(1000)
+    # 下書き行には先頭に「〜を編集」ボタンがあり、その次が行メニューなので、
+    # aria-haspopup 付きのボタンを明示的に選ぶ（ published 行でも同じボタン）。
+    menu_button = row.locator('button[aria-haspopup="true"]').first
+    if menu_button.count() == 0:
+        menu_button = row.locator("button").first
+    button_id = menu_button.get_attribute("id")
+    menu_button.click()
+    menu = (page.locator(f'[role="menu"][aria-labelledby="{button_id}"]')
+            if button_id else page.locator('[role="menu"]').last)
+    try:
+        menu.wait_for(state="visible", timeout=10000)
+    except Exception as e:  # noqa: BLE001
+        shot = _dump_delete_diagnostics(page, key, "row-menu")
+        raise RuntimeError(f"note {key}: 行メニューが開きません(削除操作を中止、"
+                           f"スクリーンショット: {shot}): {e}") from e
+
+    delete_item = menu.locator('button[role="menuitem"][data-key="削除"]')
+    if delete_item.count() == 0:
+        _dump_delete_diagnostics(page, key, "no-delete-menuitem")
+        raise RuntimeError(f"note {key}: 行メニューに「削除」がありません(削除操作を中止)")
+    _dump_delete_diagnostics(page, key, "pre-delete-click")
+    delete_item.click()
+    page.wait_for_timeout(1500)
     dialog = page.locator('[role="dialog"]')
     try:
         dialog.wait_for(state="visible", timeout=10000)
     except Exception as e:  # noqa: BLE001
-        shot = _dump_delete_diagnostics(page, key, "confirm-dialog")
         if native_dialog["seen"] is not None:
-            raise RuntimeError(
-                f"note {key}: [role=dialog]ではなくブラウザネイティブのdialogが出ました"
-                f"(自動でdismissしたため削除は実行されていません): {native_dialog['seen']}") from e
-        raise RuntimeError(f"note {key}: 削除確認ダイアログが表示されません(削除操作を中止、"
-                            f"スクリーンショット: {shot}): {e}") from e
-    if not click_button_by_text(page, "削除", timeout=10):
-        _dump_delete_diagnostics(page, key, "confirm-button")
-        raise RuntimeError(f"note {key}: 確認ダイアログの「削除」ボタンを押せませんでした")
-    page.wait_for_timeout(3000)
+            print(f"  [debug] note {key}: native confirm: {native_dialog['seen']}", flush=True)
+        else:
+            shot = _dump_delete_diagnostics(page, key, "confirm-dialog")
+            raise RuntimeError(f"note {key}: confirm dialog did not appear (screenshot: {shot}): {e}") from e
+    else:
+        confirm = dialog.get_by_role("button", name="削除する")
+        if confirm.count() == 0:
+            _dump_delete_diagnostics(page, key, "confirm-button")
+            raise RuntimeError(f"note {key}: 確認ダイアログに「削除する」がありません(削除操作を中止)")
+        confirm.first.click()
+        page.wait_for_timeout(3000)
 
     st2 = note_status(page, key)
     if st2 is None or st2["status"] != "deleted":
         raise RuntimeError(f"note {key}: 削除操作後もAPI上でdeleted状態になっていません: {st2}")
+    page.goto("https://note.com/notes", wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(2000)
+    still_there = page.locator(f'a[href*="{key}"]').count() > 0
+    if is_draft_row:
+        still_there = still_there or page.evaluate(
+            """(title) => Array.from(document.querySelectorAll('li')).some(li => {
+                const h = li.querySelector('h3');
+                return h && (h.innerText || '').trim() === title
+                    && (li.innerText || '').includes('下書き');
+            })""", expected_title.strip())
+    if still_there:
+        raise RuntimeError(f"note {key}: API上はdeletedですが一覧にまだ行が残っています")
 
 
 def publish_note(page, timeout=120):
@@ -673,9 +737,14 @@ def svg_to_png(page, src_path):
 
 
 def paste_image(page, url):
-    """画像をクリップボード経由で貼り込む。失敗時は False。"""
-    path = download(url)
+    """画像をクリップボード経由で貼り込む。失敗時は False。
+
+    2026-11-24: 画像URLが404でも例外を外に投げず、警告を出して記事の入力を続ける。
+    画像1枚の失敗で投稿全体が止まり、再試行で下書きが乱立するのを防ぐ。
+    """
+    path = None
     try:
+        path = download(url)
         orig = path
         conv = svg_to_png(page, orig) if orig.lower().endswith(".svg") else to_png(orig)
         if conv:
@@ -708,10 +777,11 @@ def paste_image(page, url):
         print(f"    [warn] 画像貼付失敗: {e}")
         return False
     finally:
-        try:
-            os.remove(path)
-        except OSError:
-            pass
+        if path:
+            try:
+                os.remove(path)
+            except OSError:
+                pass
 
 
 LINK_LINE_RE = re.compile(r"^(Amazonで見る): (https://www\.amazon\.co\.jp/\S+)$")
@@ -1036,8 +1106,8 @@ def wait_for_login(page, timeout=900):
 # ---------------------------------------------------------------- main
 
 
-def open_editor(p, headless=False, url=None):
-    """ブラウザを起動して編集画面を開く。
+def open_editor(p, headless=False, url=None, navigate=True):
+    """ブラウザを起動して編集画面を開く。navigate=False ならページを開かず ctx/page だけ返す。
 
     url を渡すとその記事を開く（既存の公開済み記事を更新するとき用）。
     省略時は新規下書き（editor.note.com/new）を作る。**新規下書きを作るたびに
@@ -1061,15 +1131,22 @@ def open_editor(p, headless=False, url=None):
         print(f"  [warn] クリップボード権限を付与できませんでした: {e}")
     page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
-    # 初回だけ編集画面が空のことがあるため最大3回リトライする
+    if not navigate:
+        print("  画面: (未遷移)", flush=True)
+        return ctx, page
+
+    # 初回だけ編集画面が空のことがあるため最大3回リトライする。
+    # ただし「自分の記事」一覧など編集画面以外を開くときは ProseMirror が無いので
+    # リトライせず1回だけ読み込む（2026-11-24: 削除対象42回の無駄な待ちを防止）。
     target = url or NEW_NOTE_URL
-    for attempt_no in range(1, 4):
+    is_editor = "editor.note.com" in target
+    for attempt_no in range(1, 4 if is_editor else 2):
         page.goto(target, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(12000)
-        if is_login_page(page) or page.locator(".ProseMirror").count() > 0:
+        page.wait_for_timeout(12000 if is_editor else 3000)
+        if is_login_page(page) or page.locator(".ProseMirror").count() > 0 or not is_editor:
             break
         print(f"  [retry] 編集画面が空でした（{attempt_no} 回目）。再読み込みします…", flush=True)
-    print(f"  編集画面: {page.url}", flush=True)
+    print(f"  画面: {page.url}", flush=True)
     return ctx, page
 
 
@@ -1110,6 +1187,82 @@ def draft_path(slug):
     return os.path.join(DRAFTS, slug + ".note.txt")
 
 
+JS_NOTE_LIST = """async (pg) => {
+  const r = await fetch('https://note.com/api/v2/note_list/contents?limit=20&page=' + pg,
+                       {credentials: 'include'});
+  if (r.status !== 200) return {status: r.status};
+  return await r.json();
+}"""
+
+JS_NOTE_DETAIL = """async (key) => {
+  const r = await fetch('https://note.com/api/v3/notes/' + key, {credentials: 'include'});
+  if (r.status !== 200) return {status: r.status};
+  const j = await r.json();
+  return j.data || {};
+}"""
+
+
+def _collect_existing_notes(page, out):
+    """既に開いたページのブラウザ内 fetch で自分の記事を列挙し out に追加する。"""
+    page.goto("https://note.com/notes", wait_until="domcontentloaded", timeout=60000)
+    for pg in range(1, 11):
+        d = page.evaluate(JS_NOTE_LIST, pg)
+        data = (d or {}).get("data") or {}
+        notes = data.get("notes") or []
+        if not notes:
+            break
+        for n in notes:
+            key = n.get("key")
+            if not key:
+                continue
+            status = n.get("status") or ""
+            title = n.get("name") or ""
+            if status == "draft" or not title:
+                try:
+                    detail = page.evaluate(JS_NOTE_DETAIL, key)
+                    title = (detail or {}).get("name") or title
+                except Exception:  # noqa: BLE001
+                    pass
+            out.append({"key": key, "status": status, "title": title,
+                        "url": f"https://note.com/shining_finger01/n/{key}"
+                        if status == "published" else ""})
+        if data.get("isLastPage"):
+            break
+
+
+def list_existing_notes(page=None):
+    """ログイン済みプロファイルから、公開済み/下書き両方の記事を読み取り専用で列挙する。
+
+    note の自分の記事一覧は API /api/v2/note_list/contents が status と key を返す。
+    下書きは name が null なので /api/v3/notes/{key} でタイトルを取得する。
+    (2026-11-24 調査。投稿前の重複チェックと下書き再利用に使う。)
+
+    `page` を渡すとそのページを使う（sync_playwright コンテキスト内から呼ぶ場合必須）。
+    省略時は監査スクリプト用に一時ブラウザを起動する。
+    """
+    out = []
+    if page is not None:
+        _collect_existing_notes(page, out)
+        return out
+    with sync_playwright() as p:
+        ctx = p.chromium.launch_persistent_context(
+            PROFILE, headless=True,
+            args=["--start-maximized", "--disable-blink-features=AutomationControlled"],
+            user_agent=UA, locale="ja-JP", timezone_id="Asia/Tokyo", ignore_https_errors=True)
+        try:
+            page = ctx.pages[0] if ctx.pages else ctx.new_page()
+            _collect_existing_notes(page, out)
+        finally:
+            ctx.close()
+    return out
+
+
+def find_existing_notes(page, title):
+    """タイトル完全一致のnote記事を status 別に返す。"""
+    wanted = (title or "").strip()
+    return [n for n in list_existing_notes(page) if (n.get("title") or "").strip() == wanted]
+
+
 def post_one(p, path, args):
     slug = os.path.basename(path).replace(".note.txt", "")
     title, tags, body = parse_draft(path)
@@ -1118,14 +1271,49 @@ def post_one(p, path, args):
     print(f"  タグ    : {tags[:60]}")
     print(f"  本文    : {len(body)} 文字 / {len(split_blocks(body))} ブロック")
 
-    ctx, page = open_editor(p)
+    # 2026-11-24 の重複・下書き乱立事故対策。
+    # 旧コードは毎回 open_editor() で新規下書きを作っていたため、画像取得失敗などで
+    # 再試行するたびに空の下書きが残り、公開済み記事と同名の下書きも作られていた。
+    # まずブラウザだけ起動し(新規下書きは作らない)、同じ sync_playwright セッションの
+    # page で既存記事を確認してから、既存下書き or 新規エディタへ遷移する。
+    # 別の sync_playwright() をネストさせると "Sync API inside asyncio loop" で失敗する。
+    ctx, page = open_editor(p, navigate=False)
     try:
+        try:
+            existing = find_existing_notes(page, title)
+        except Exception as e:  # noqa: BLE001
+            print(f"  [warn] 既存note記事の確認に失敗しました: {e}")
+            existing = []
+        published = [n for n in existing if n["status"] == "published"]
+        drafts = [n for n in existing if n["status"] == "draft"]
+
+        if published and not getattr(args, "allow_duplicate", False):
+            keys = ", ".join(n["key"] for n in published)
+            print(f"  [abort] 同名タイトルの公開済みnoteが既にあります (key: {keys})。"
+                  "重複投稿を避けるため中止します。既存記事を更新する場合は --edit-key <key>、"
+                  "明示的に重複を作る場合のみ --allow-duplicate を使ってください。")
+            return None
+        editor_url = None
+        if drafts:
+            key = drafts[0]["key"]
+            print(f"  既存下書き key={key} を再利用します(新規下書きは作りません)。")
+            editor_url = f"https://editor.note.com/notes/{key}/edit/"
+        elif published:
+            print("  [warn] --allow-duplicate が指定されたため、同名記事を新規作成します。")
+
+        target_url = editor_url or NEW_NOTE_URL
+        for attempt_no in range(1, 4):
+            page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(12000)
+            if is_login_page(page) or page.locator(".ProseMirror").count() > 0:
+                break
+            print(f"  [retry] 編集画面が空でした（{attempt_no} 回目）。再読み込みします…", flush=True)
         if not is_logged_in(page):
             print("  ログインが必要です。ブラウザを開いたままログインしてください…", flush=True)
             if not wait_for_login(page, timeout=args.login_timeout):
                 print("  [error] ログインできません。先に --login を実行してください。")
                 return None
-            page.goto(NEW_NOTE_URL, wait_until="domcontentloaded", timeout=90000)
+            page.goto(target_url, wait_until="domcontentloaded", timeout=90000)
             page.wait_for_timeout(12000)
         fill_title(page, title)
         ed = find_body_editor(page)
@@ -1238,6 +1426,8 @@ def main():
     ap.add_argument("--delete-key", help="削除する公開済み記事の note key(n始まり)")
     ap.add_argument("--expect-title", help="--delete-key 使用時、削除前に照合するタイトル(必須・誤削除防止)")
     ap.add_argument("--edit-key", help="既存記事のnote key(n始まり)。--slugのdraftで本文を上書きして再公開する")
+    ap.add_argument("--allow-duplicate", action="store_true",
+                    help="同名の公開済みnoteがあっても新規作成する(通常は重複事故防止のため中止)")
     args = ap.parse_args()
 
     global PROFILE  # noqa: PLW0603
@@ -1253,9 +1443,9 @@ def main():
             if not args.expect_title:
                 print("[error] --delete-key には --expect-title が必須です(誤削除防止のため)")
                 sys.exit(1)
-            ctx, page = open_editor(p, url=f"https://editor.note.com/notes/{args.delete_key}/edit/")
+            ctx, page = open_editor(p, url="https://note.com/notes")
             try:
-                if not is_logged_in(page):
+                if is_login_page(page):
                     print("  ログインが必要です。先に --login を実行してください。")
                     sys.exit(1)
                 delete_note(page, args.delete_key, args.expect_title)
