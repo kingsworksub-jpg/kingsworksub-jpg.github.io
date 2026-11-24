@@ -4094,6 +4094,33 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-24T12:23:45+09:00"
+  },
+  {
+   "id": "2026w42-004",
+   "category": "gear",
+   "theme": "ヘッドホンアンプは据え置きが要るのか、ポータブルで足りるのか",
+   "status": "failed",
+   "reason": "oc_generate image validation timeout or credit mismatch",
+   "engine": "gemini",
+   "at": "2026-11-24T17:44:49+09:00"
+  },
+  {
+   "id": "2026w42-004",
+   "category": "gear",
+   "theme": "ヘッドホンアンプは据え置きが要るのか、ポータブルで足りるのか",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-24T20:00:10+09:00"
+  },
+  {
+   "id": "2026w42-005",
+   "category": "gear",
+   "theme": "モニタースタンドとアイソレーションパッド、机の振動をどこまで切れるか",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-24T20:00:10+09:00"
   }
  ]
 }
