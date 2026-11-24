@@ -10561,5 +10561,22 @@
       "draft:trueの旧テスト記事2件(内容に誤りあり: ブラーベル等)の削除要否をユーザー判断"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T11:53:36Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事のfigure属性(alt/loading/figcaption/credit/width,height)とOG画像ファイル実在を全記事検査: 不備0件",
+      "禁止表現の再検査も0件",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PILのある環境でseo-audit --check-linksを実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
