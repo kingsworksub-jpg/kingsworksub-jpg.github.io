@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:31:19+09:00",
+ "updated": "2026-11-25T07:54:10+09:00",
  "items": [
   {
    "category": "gear",
@@ -14256,9 +14256,14 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w47-013",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-25T07:54:10+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "07:30",
+   "slot_label": "朝: 検証メモ/個人備忘録"
   },
   {
    "category": "sakeware",
