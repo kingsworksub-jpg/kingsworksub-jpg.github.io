@@ -3370,5 +3370,16 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-24T21:00:12+09:00"
+ },
+ "hagi-ware-guinomi-nanabake": {
+  "title": "萩焼のぐい呑みで愉しむ「萩の七化け」：貫入が育てる色変化の仕組みと手入れの基本",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-24T22:00:24+09:00"
  }
 }
