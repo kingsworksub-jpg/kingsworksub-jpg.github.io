@@ -10615,5 +10615,29 @@
       "PILのある環境でseo-audit --check-links"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T17:53:55Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "beaujolais-nouveau-third-thursday"
+    ],
+    "actions": [
+      "禁止表現/description/images欠落/外部引用表現を全記事検査: 問題なし",
+      "本文画像の実在確認で、beaujolais-nouveau-third-thursdayのimg1.jpg/img2.jpg(リポジトリ未コミットで404)を検出",
+      "クラウド環境からWikimedia取得不可のため、同ジャンルでリポジトリ内に実在する nouveau-bottles.jpg / cuvee-2022.jpg(出典記録済み・クレジット付き)に差し替え、alt/figcaption/credit/寸法とimage-sources JSONを更新",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/beaujolais-nouveau-third-thursday.md",
+      "scripts/image-sources/beaujolais-nouveau-third-thursday.json",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "公開ページで画像表示を確認(check_live_page.py)",
+      "同記事のはてな/Ameba転載に画像破損が無いか確認",
+      "PILのある環境でseo-audit --check-links"
+    ],
+    "status": "完了"
   }
 ]

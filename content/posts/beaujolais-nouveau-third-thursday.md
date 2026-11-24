@@ -16,8 +16,8 @@ scheduled_time: "20:00"
 なぜ特定の日付ではなく木曜日に固定されているのかを知ると、ワインの品質基準と流通の合理性がどのように結びついているかが見えてきます。本記事では、1967年の法制化から1985年の法改正に至る歴史的背景と、週末の市場休業や配送網の混乱を避ける仕組みを数値と時系列で整理します。
 
 <figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/img1.jpg" alt="ワインボトルとグラスの写真" width="220" height="150" loading="lazy"></a>
-<figcaption>ワインボトルとグラスのイメージ<span class="credit">Photo: DimiTalen / CC0</span></figcaption>
+<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/nouveau-bottles.jpg" alt="フランスの食堂のテーブルに置かれたボジョレー・ヌーヴォーのボトルと、赤ワインが注がれた2つのグラス" width="220" height="165" loading="lazy"></a>
+<figcaption>解禁日に開けられるボジョレー・ヌーヴォー。食堂のテーブルで気軽に楽しまれる<span class="credit">Photo: Véronique PAGNIER / CC BY-SA 3.0</span></figcaption>
 </figure>
 
 [Amazonで見る →](https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22)
@@ -89,8 +89,8 @@ scheduled_time: "20:00"
 さらに重要なのは、木曜日が解禁日であることで、解禁当日（木曜日）と翌日の金曜日という2日間の平日が連続して確保される構造です。市場が営業し配送網が通常稼働している平日のうちに商品の引き渡しや店頭への供給を進められるため、週末休業による混乱を構造的に防ぐことができます。
 
 <figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/img2.jpg" alt="グラスに注がれたワインの写真" width="220" height="150" loading="lazy"></a>
-<figcaption>グラスに注いだワインのイメージ<span class="credit">Photo: BORNTHISWAYMEDIA / CC BY-SA 4.0</span></figcaption>
+<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/cuvee-2022.jpg" alt="木のテーブルに並んだボジョレー・ヌーヴォーのボトル6本" width="220" height="155" loading="lazy"></a>
+<figcaption>2022年の解禁に合わせて並べられたヌーヴォー<span class="credit">Photo: René Hourdry / CC BY-SA 4.0</span></figcaption>
 </figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22)
