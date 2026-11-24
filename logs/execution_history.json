@@ -10367,5 +10367,23 @@
       "新規記事投稿後に同検査を再実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T00:53:15Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のdescription長(90-140)・H2数・figure直後の見出し/区切りを機械検査。検出は有料記事nea-jazz-masters-2026(無料部分+CTAのみ、意図的)の1件のみ",
+      "seo-audit.py は PIL 未動作のため実行不可",
+      "改善対象なしのため記事は変更せず",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PIL のある環境で seo-audit --check-links を実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
