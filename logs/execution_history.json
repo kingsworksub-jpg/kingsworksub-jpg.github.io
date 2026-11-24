@@ -10526,5 +10526,22 @@
       "PILのある環境でseo-audit --check-linksを実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T09:53:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure直後に見出し/---が来る配置違反を全記事で検査: 0件",
+      "images frontmatter欠落0件(全記事)",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PILのある環境でseo-audit --check-linksを実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
