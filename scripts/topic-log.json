@@ -4166,6 +4166,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-25T07:30:11+09:00"
+  },
+  {
+   "id": "2026w47-013",
+   "category": "sakeware",
+   "theme": "有田焼のぐい呑み、磁器が冷酒の味をシャープにする理由",
+   "slug": "arita-ware-guinomi-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/arita-ware-guinomi-guide/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-25T08:08:14+09:00"
   }
  ]
 }
