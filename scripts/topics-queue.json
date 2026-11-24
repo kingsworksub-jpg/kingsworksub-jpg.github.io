@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:44:59+09:00",
+ "updated": "2026-11-25T07:30:11+09:00",
  "items": [
   {
    "category": "gear",
@@ -13298,7 +13298,13 @@
    "id": "2026w46-003",
    "status": "approved",
    "created": "2026-11-15",
-   "retry": 0
+   "retry": 1,
+   "claimed_at": "2026-11-24T23:01:38+09:00",
+   "channel": "ameba",
+   "content_dir": "culture",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "jazz",

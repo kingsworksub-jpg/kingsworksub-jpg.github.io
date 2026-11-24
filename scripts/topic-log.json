@@ -4157,6 +4157,15 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-24T21:44:59+09:00"
+  },
+  {
+   "id": "2026w46-003",
+   "category": "sakeware",
+   "theme": "唐津焼のぐい呑み、絵唐津・斑唐津・朝鮮唐津で変わる土と釉の表情",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-25T07:30:11+09:00"
   }
  ]
 }
