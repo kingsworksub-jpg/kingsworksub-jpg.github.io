@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:08:14+09:00",
+ "updated": "2026-11-25T08:08:42+09:00",
  "queue": {
   "published": 197,
   "rejected": 32,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published arita-ware-guinomi-guide",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "blog-post",
   "label": "投稿",
-  "since": "2026-11-25T07:30:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "Xフォローお礼DM",
   "state": "finished",
-  "at": "2026-11-25T07:20:35+09:00",
+  "at": "2026-11-25T08:08:42+09:00",
   "engine": "gemini",
-  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **ステータス**: 正常終了（GitHub Pages公開、X投稿完了、キュー更新済み）"
  },
  "recent_runs": [
+  {
+   "job": "blog-post",
+   "label": "投稿",
+   "state": "finished",
+   "at": "2026-11-25T08:08:42+09:00",
+   "engine": "gemini",
+   "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **ステータス**: 正常終了（GitHub Pages公開、X投稿完了、キュー更新済み）"
+  },
   {
    "job": "x-follow-dm",
    "label": "Xフォローお礼DM",
@@ -98,14 +101,6 @@
    "at": "2026-11-25T05:30:25+09:00",
    "engine": "gemini",
    "detail": "[i] 未処理の新規返信はありません。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-25T05:05:54+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
