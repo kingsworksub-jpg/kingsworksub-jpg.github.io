@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-24T20:00:56+09:00",
+ "updated": "2026-11-24T20:23:34+09:00",
  "queue": {
-  "published": 194,
+  "published": 195,
   "rejected": 32,
-  "approved": 30,
-  "in_progress": 1
+  "approved": 30
  },
- "today_posts": 3,
+ "today_posts": 4,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "failed 2026w42-004: oc_generate image validation timeout or credit mismatch",
- "consecutive_failures": 1,
+ "last_result": "published beaujolais-nouveau-third-thursday",
+ "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
   "label": "投稿",
