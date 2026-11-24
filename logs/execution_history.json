@@ -10509,5 +10509,22 @@
       "長いタイトル4件の短縮要否をユーザー判断"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T08:53:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全292記事を検査: 禁止表現(隅から隅まで/実際に〜してみた/あるレビューでは等)・未解決CTAマーカー0件",
+      "内部リンク(/posts/)・/images/参照の切れ0件、alt欠落imgは誤検知のみ、H1重複はコードコメントの誤検知のみ。修正対象なし",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PILのある環境でseo-audit --check-linksを実行"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
