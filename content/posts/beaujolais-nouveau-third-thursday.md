@@ -70,6 +70,11 @@ scheduled_time: "20:00"
 
 ## 5. 1985年の法改正：11月第3木曜日とカレンダーの仕組み
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/cuvee-2022.jpg" alt="木のテーブルに並んだボジョレー・ヌーヴォーのボトル6本" width="220" height="155" loading="lazy"></a>
+<figcaption>2022年の解禁に合わせて並べられたヌーヴォー<span class="credit">Photo: René Hourdry / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 週末の市場休業や配送網の混乱という課題を根本から解決するため、1985年に法改正が行われ、解禁日は「11月の第3木曜日」へと変更されました。日付ではなく曜日を基準に据えたこの改正によって、解禁日は毎年必ず平日の木曜日に訪れる仕組みへと生まれ変わりました。
 
 ここでカレンダーの構造を数値で確認すると、1985年の法改正がいかに合理的な設計になっているかが分かります。11月1日の曜日ごとに「11月第3木曜日」が何日に当たるかを整理すると、次の対応表のとおりになります。
@@ -87,11 +92,6 @@ scheduled_time: "20:00"
 この表から読み取れる最大の数値的特徴は、11月第3木曜日が必ず「11月15日から11月21日」の7日間の範囲に収まるという点です。つまり1967年に定められた従来の解禁日である11月15日より早まる年は一度もなく、1985年以降のルールは品質確保のための最低日数を常に維持しています。
 
 さらに重要なのは、木曜日が解禁日であることで、解禁当日（木曜日）と翌日の金曜日という2日間の平日が連続して確保される構造です。市場が営業し配送網が通常稼働している平日のうちに商品の引き渡しや店頭への供給を進められるため、週末休業による混乱を構造的に防ぐことができます。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/cuvee-2022.jpg" alt="木のテーブルに並んだボジョレー・ヌーヴォーのボトル6本" width="220" height="155" loading="lazy"></a>
-<figcaption>2022年の解禁に合わせて並べられたヌーヴォー<span class="credit">Photo: René Hourdry / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22)
 

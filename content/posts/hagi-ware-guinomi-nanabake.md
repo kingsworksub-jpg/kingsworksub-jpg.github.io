@@ -69,16 +69,16 @@ scheduled_time: "21:30"
 
 ## 「一楽二萩三唐津」と並び称された背景と美意識
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=萩焼+ぐい呑み&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hagi-guinomi/hagi-2.jpg" alt="素朴で温かみのある萩焼の器" width="220" height="150" loading="lazy"></a>
+<figcaption>茶の湯の系譜を受け継ぐ素朴な佇まい<span class="credit">Photo: uemura / CC BY 2.0</span></figcaption>
+</figure>
+
 萩焼が長きにわたり高い評価を受け続けてきた理由は、単に色が変わる珍しさだけではありません。茶の湯の世界において、茶碗の好みや格付けを示す言葉として「一楽二萩三唐津（いちらくにはぎさんからつ）」と並び称され、多くの茶人に愛されてきた歴史的背景があります。
 
 ここでいう「一楽」は楽焼、「二萩」は萩焼、「三唐津」は唐津焼を指しています。茶道という静かな空間の中で、派手な装飾で目を引くのではなく、手触りや口当たり、そして使い込むほどに増していく落ち着いた風合いが重んじられた結果、萩焼は最高峰の茶碗の一つとして数えられるようになりました。
 
 茶碗で培われた美意識は、そのまま酒器であるぐい呑みの世界にも深く息づいています。少量の日本酒や焼酎をゆっくりと傾けるとき、視界に入る貫入の繊細な網目や、指先から伝わる土の柔らかさは、一献の時間をより静かで豊かなものへと導いてくれます。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=萩焼+ぐい呑み&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hagi-guinomi/hagi-2.jpg" alt="素朴で温かみのある萩焼の器" width="220" height="150" loading="lazy"></a>
-<figcaption>茶の湯の系譜を受け継ぐ素朴な佇まい<span class="credit">Photo: uemura / CC BY 2.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22)
 

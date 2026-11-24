@@ -38,6 +38,11 @@ DTM Stationをはじめとする音楽テクノロジー系メディアでも、
 
 ## ARA 2対応とは何か：従来の迂回ルートとの決定的な違い
 
+<figure class="photo photo--right">
+<a href="https://www.ableton.com/" target="_blank" rel="noopener nofollow"><img src="/images/ableton-live-13/mixing-desk-session.jpg" alt="スタジオのミキシングデスクで行うセッションとオーディオ編集の様子" width="220" height="150" loading="lazy"></a>
+<figcaption>ミキシングとオーディオ編集を統合する制作環境<span class="credit">Photo: Mark Sebastian / CC BY-SA 2.0</span></figcaption>
+</figure>
+
 ARA 2（Audio Random Access）は、DAWと対応オーディオプラグインがタイムライン情報やオーディオデータを密接にやり取りするための拡張規格です。通常のプラグインが再生中の音声信号をリアルタイムに受け取って処理するのに対し、ARA 2では曲の前後関係やテンポ情報を踏まえた連携が可能になります。
 
 Ableton Live 13がARA 2に対応したことで、ユーザーはアレンジメントビューやクリップビューの内部から、オーディオ波形やピッチ、タイミングを直接編集できるようになりました。都度オーディオを書き出して差し替えるような破壊的レンダリングを行う必要がなくなった点は大きな前進です。
@@ -45,11 +50,6 @@ Ableton Live 13がARA 2に対応したことで、ユーザーはアレンジメ
 従来は、ピッチ補正や歌声編集を外部プラグインで行う際に、一度音声を取り込ませる手間や迂回的なルーティングが避けられませんでした。編集のたびに再生位置を合わせ直したり、トラックを複製して管理したりする作業は、制作のテンポを削ぐ要因になっていました。
 
 ARA 2によるリアルタイムの波形・ピッチ操作が可能になったことで、アレンジメント全体の文脈を見ながら微調整を繰り返す作業が格段に軽快になります。曲の構成変更に合わせてボーカルやオーディオ素材を動かしても、編集内容が自然に追従する点が大きな強みです。
-
-<figure class="photo photo--right">
-<a href="https://www.ableton.com/" target="_blank" rel="noopener nofollow"><img src="/images/ableton-live-13/mixing-desk-session.jpg" alt="スタジオのミキシングデスクで行うセッションとオーディオ編集の様子" width="220" height="150" loading="lazy"></a>
-<figcaption>ミキシングとオーディオ編集を統合する制作環境<span class="credit">Photo: Mark Sebastian / CC BY-SA 2.0</span></figcaption>
-</figure>
 
 [AmazonでAbleton Live関連製品の価格とレビューを見る](https://www.amazon.co.jp/s?k=Ableton+Live&tag=nakimoto1-22)
 

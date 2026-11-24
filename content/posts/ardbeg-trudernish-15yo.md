@@ -59,16 +59,16 @@ scheduled_time: "07:30"
 
 ## 既存のコアレンジと比較して見えてくる立ち位置
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Ardbeg+An+Oa&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-anoa.jpg" alt="アードベッグ アン・オーのボトル" width="220" height="150" loading="lazy"></a>
+<figcaption>樽の調和を重視したアン・オー<span class="credit">Photo: JIP / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 アードベッグの他の定番商品と比較することで、トゥルーダーニッシュ15年の特異性がより明確になります。例えば「10年」は、ピートの原初的なパワーと爽快な柑橘感が魅力ですが、15年はそのエネルギーがより深い場所へと潜り込んだ印象です。
 
 また、複数の樽を融合させる「アン・オー」と比較すると、アン・オーが丸みを帯びた調和を重視しているのに対し、15年はそれぞれの樽の個性がより鋭く、かつ深く主張しています。
 
 15年は「10年の強化版」ではなく、全く新しい次元のバランスを持ったプロダクトです。若々しい爆発力と、長期熟成のエレガンスを同時に求めるユーザーにとって、これ以上ない最適解と言える構成になっています。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=Ardbeg+An+Oa&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-anoa.jpg" alt="アードベッグ アン・オーのボトル" width="220" height="150" loading="lazy"></a>
-<figcaption>樽の調和を重視したアン・オー<span class="credit">Photo: JIP / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ardbeg+An+Oa&tag=nakimoto1-22)
 

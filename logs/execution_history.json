@@ -10688,5 +10688,34 @@
       "PILのある環境でseo-audit --check-links"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T21:53:42Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ableton-live-13-ara2-vocaloid",
+      "ardbeg-trudernish-15yo",
+      "autotune-advanced-dva-pitch-correction",
+      "beaujolais-nouveau-third-thursday",
+      "hagi-ware-guinomi-nanabake"
+    ],
+    "actions": [
+      "figureがセクション見出し直後でなく段落の途中にある記事を機械検出(公開済み38箇所)",
+      "うち5記事6箇所をCLAUDE.mdのfigure配置規則(見出し→figure→段落)に合わせて移動",
+      "外部3サイトは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ableton-live-13-ara2-vocaloid.md",
+      "content/posts/ardbeg-trudernish-15yo.md",
+      "content/posts/autotune-advanced-dva-pitch-correction.md",
+      "content/posts/beaujolais-nouveau-third-thursday.md",
+      "content/posts/hagi-ware-guinomi-nanabake.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り約33箇所のfigure配置を次サイクルで修正",
+      "hugo未導入のためビルド確認は未実施(Markdown移動のみ)"
+    ],
+    "status": "一部完了"
   }
 ]

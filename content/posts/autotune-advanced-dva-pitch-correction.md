@@ -42,6 +42,11 @@ Advancedは、そうした高度な要求に応えるべく、計算精度を飛
 
 ## 新開発DVAエンジンの核心：ビブラートの個性を保護する独自のアルゴリズム
 
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/autotune-advanced/c1.png" alt="DAW上でのボーカルトラック編集イメージ" width="220" height="150" loading="lazy"></a>
+<figcaption>ボーカル編集におけるトラックの構成例<span class="credit">Image: Cubase6 main audio tracks.png / CC BY-SA 3.0</span></figcaption>
+</figure>
+
 AutoTune Advancedの最大の武器は、何と言っても新開発の「DVA（Dynamic Vibrato Algorithm）」エンジンです。
 従来のピッチ補正では、補正スピードを速める（Retune Speedを上げる）と、本来必要なビブラートの揺らぎまで平坦化されてしまう問題がありました。
 DVAは、このビブラートを「声の個性」として動的に認識し、補正の網目から保護するという画期的な挙動を見せます。
@@ -53,11 +58,6 @@ DVAが有効な状態であれば、どんなにハードな補正設定にし�
 これまで、自然なビブラートを残すためには、手動で細かなオートメーションを書いたり、補正をあえて弱めたりする妥協が必要でした。
 DVAはこの手間を自動化し、クリエイターがクリエイティブな判断に集中できる時間を生み出します。
 声のキャラクターを死守しながら、完璧なチューニングを実現するという、エンジニアにとっての悲願がこのエンジンで達成されました。
-
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/autotune-advanced/c1.png" alt="DAW上でのボーカルトラック編集イメージ" width="220" height="150" loading="lazy"></a>
-<figcaption>ボーカル編集におけるトラックの構成例<span class="credit">Image: Cubase6 main audio tracks.png / CC BY-SA 3.0</span></figcaption>
-</figure>
 
 [AmazonでAutoTune Advancedの価格とレビューを見る](https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22)
 
@@ -77,6 +77,11 @@ AutoTune Advancedに搭載されたModern補正エンジンは、こうした音
 
 ## リアルタイム・ビジュアライザーが可能にするビブラートの視覚的コントロール
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/autotune-advanced/c2.jpg" alt="DAWでの波形編集とプラグイン適用の様子" width="220" height="150" loading="lazy"></a>
+<figcaption>DAWにおけるリアルタイム補正のセットアップ<span class="credit">Photo: REAPER Digital Audio Workstation / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 AutoTune Advancedには、DVAがどのようにビブラートを認識しているかを表示する「リアルタイム・ビブラートビジュアライザー」が備わっています。
 これまでは「耳」だけが頼りだった調整作業が、視覚的なフィードバックを得ることで飛躍的に確実性を増しました。
 エンジンが捉えているビブラートの周期や振幅をリアルタイムで確認しながら、直感的にパラメーターを追い込めます。
@@ -88,11 +93,6 @@ AutoTune Advancedには、DVAがどのようにビブラートを認識してい
 波形の動きを目で追うことで、どのフレーズでDVAが強く働いているのかを一瞬で判断できるのは、大きなアドバンテージです。
 特に複雑なメロディラインや、激しいビブラートが含まれるトラックにおいて、この視覚的ガイドは迷いのないエディットを支えてくれます。
 「見ながら整える」という新しい操作感覚は、ボーカルエディットの精度を一段上のレベルへと引き上げてくれるでしょう。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/autotune-advanced/c2.jpg" alt="DAWでの波形編集とプラグイン適用の様子" width="220" height="150" loading="lazy"></a>
-<figcaption>DAWにおけるリアルタイム補正のセットアップ<span class="credit">Photo: REAPER Digital Audio Workstation / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [Amazonで最新のピッチ補正プラグインをチェックする](https://www.amazon.co.jp/s?k=AutoTune+Advanced&tag=nakimoto1-22)
 
