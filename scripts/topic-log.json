@@ -4082,6 +4082,18 @@
    "note_key": "",
    "engine": "gemini",
    "at": "2026-11-24T07:42:44+09:00"
+  },
+  {
+   "id": "2026w47-005",
+   "category": "setup",
+   "theme": "ヘッドホンとスピーカーを一日の中で交代する、耳の疲れを分散する環境づくり",
+   "slug": "headphone-speaker-switching-fatigue",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/headphone-speaker-switching-fatigue/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-24T12:23:45+09:00"
   }
  ]
 }

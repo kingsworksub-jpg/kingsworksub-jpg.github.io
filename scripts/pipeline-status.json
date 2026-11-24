@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-24T12:01:36+09:00",
+ "updated": "2026-11-24T12:23:45+09:00",
  "queue": {
-  "published": 193,
+  "published": 194,
   "rejected": 31,
-  "approved": 32,
-  "in_progress": 1
+  "approved": 32
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published ardbeg-trudernish-15yo",
+ "last_result": "published headphone-speaker-switching-fatigue",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
