@@ -10492,5 +10492,22 @@
       "PILのある環境でseo-audit --check-linksを実行"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-24T07:53:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全292記事のfrontmatter(description長80〜160字・images・H2数・タイトル長)を検査。欠落0件。タイトル60字超4件(chrome-mv3-ublock-origin-lite-2026ほか)は先頭にキーワードがあり、他プラットフォーム/OG画像との整合コストが大きいため据え置き",
+      "外部3サイトは今回改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "PILのある環境でseo-audit --check-linksを実行",
+      "長いタイトル4件の短縮要否をユーザー判断"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
