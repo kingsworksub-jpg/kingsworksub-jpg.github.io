@@ -56,6 +56,11 @@ scheduled_time: "20:00"
 
 ## 置き方1：キーボードスライダーをデスク下に取り付ける方法
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=Korg+microKEY2-49&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/midi-keyboard-desk/desk-setup-2.jpg" alt="省スペースな机上にMIDIキーボードとPC環境を並べた制作スペース" width="220" height="150" loading="lazy"></a>
+<figcaption>制作デスクにおける鍵盤とPC操作環境の配置イメージ<span class="credit">Photo: George P. Macklin / CC BY-SA 2.0</span></figcaption>
+</figure>
+
 狭いデスクでPC用キーボードとMIDIキーボードを共存させる定番の方法が、天板の下に後付けのキーボードスライダーを設置するレイアウトです。使わないときは天板の下へスライドしてしまえるため、普段のPC作業では机の上を広く使えます。
 
 この配置では、天板の上にPC用キーボードとマウスをそのまま残し、下段のスライダーにMIDIキーボードを載せる運用が多く採用されます。あるいは逆に、スライダー側へPC用キーボードを逃がし、天板の上をMIDIキーボードやコントローラーの定位置にする考え方もあります。
@@ -65,11 +70,6 @@ scheduled_time: "20:00"
 MIDIキーボードはPC用のタイピングキーボードに比べて本体に厚みと重量があるため、スライダーの耐荷重が本体の重さを十分に支えられるかを確認する必要があります。また、鍵盤を載せた状態でスライダーを奥に押し込んだとき、天板の裏側や補強フレームに鍵盤のノブや本体がぶつからないかも見落とせないポイントです。
 
 さらに見落としがちなのが、椅子に座ったときの太もも・膝からスライダー底面までの隙間です。高さ方向のクリアランスが足りないと、足を組めなくなったり、演奏のたびに膝がスライダーの底板に当たって窮屈な姿勢になったりします。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=Korg+microKEY2-49&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/midi-keyboard-desk/desk-setup-2.jpg" alt="省スペースな机上にMIDIキーボードとPC環境を並べた制作スペース" width="220" height="150" loading="lazy"></a>
-<figcaption>制作デスクにおける鍵盤とPC操作環境の配置イメージ<span class="credit">Photo: George P. Macklin / CC BY-SA 2.0</span></figcaption>
-</figure>
 
 [Korg microKEY2-49 の価格とレビューをAmazonで見る](https://www.amazon.co.jp/dp/B01IOBUNN0?tag=nakimoto1-22)
 

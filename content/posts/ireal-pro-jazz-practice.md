@@ -53,14 +53,14 @@ iReal Proでは、入力されたコード進行をもとにピアノやギタ�
 
 ## Forumからスタンダード曲を取得して準備を整える
 
-アプリを使い始める際、すべてのスタンダード曲を最初から一音ずつ入力し直す必要はありません。iReal Proには、世界中のユーザーが利用するForum（フォーラム：楽曲共有の場）を通じて、ジャズスタンダード曲のプレイリストが共有されている仕組みがあります。
-
-プレイリストをダウンロードすれば、膨大な数のスタンダード曲のコード進行を手元に取り込み、すぐに伴奏を鳴らして練習を始められます。セッション（即興演奏会）で定番とされる楽曲のコード進行をまとめて確保しておけるため、練習前の下準備にかかる時間を大幅に短縮できるのが利点です。
-
 <figure class="photo photo--right">
 <a href="https://commons.wikimedia.org/wiki/File:Petrof_upright_piano_at_Konka_Club,_Tbilisi.jpg" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ireal-pro-jazz-practice/c2.jpg" alt="ジャズクラブに置かれたアップライトピアノ" width="220" height="150" loading="lazy"></a>
 <figcaption>スタンダード曲の演奏風景をイメージさせるピアノ<span class="credit">Photo: FingerWiki / CC BY-SA 4.0</span></figcaption>
 </figure>
+
+アプリを使い始める際、すべてのスタンダード曲を最初から一音ずつ入力し直す必要はありません。iReal Proには、世界中のユーザーが利用するForum（フォーラム：楽曲共有の場）を通じて、ジャズスタンダード曲のプレイリストが共有されている仕組みがあります。
+
+プレイリストをダウンロードすれば、膨大な数のスタンダード曲のコード進行を手元に取り込み、すぐに伴奏を鳴らして練習を始められます。セッション（即興演奏会）で定番とされる楽曲のコード進行をまとめて確保しておけるため、練習前の下準備にかかる時間を大幅に短縮できるのが利点です。
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=ジャズ+スタンダード+コード進行+本&tag=nakimoto1-22)
 

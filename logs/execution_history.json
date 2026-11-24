@@ -10717,5 +10717,30 @@
       "hugo未導入のためビルド確認は未実施(Markdown移動のみ)"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-24T22:54:09Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "headphone-speaker-switching-fatigue",
+      "ireal-pro-jazz-practice",
+      "midi-keyboard-narrow-desk-dimensions-2026"
+    ],
+    "actions": [
+      "figureを見出し直後・本文段落の直前へ移動(CLAUDE.md配置規則)",
+      "導入部(最初の##より前)や他HTMLが前にある8箇所は構造上自動移動せず未修正",
+      "外部3サイトは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/headphone-speaker-switching-fatigue.md",
+      "content/posts/ireal-pro-jazz-practice.md",
+      "content/posts/midi-keyboard-narrow-desk-dimensions-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り8箇所(beaujolais/hagi/hammond/jazz-festivals/jazz-shoes/jazz-style/speyside/headphone導入部)は手動判断が必要",
+      "hugo未導入のためビルド確認は未実施"
+    ],
+    "status": "一部完了"
   }
 ]

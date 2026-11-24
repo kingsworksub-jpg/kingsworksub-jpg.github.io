@@ -58,6 +58,11 @@ scheduled_time: "12:00"
 
 ## ニアフィールドモニターで空間を確認する時間の組み立て方
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B077N2LVKC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/headphone-speaker/Cables-Monitor-headphones-Downtown-Recording.jpg" alt="JBL 305P MkII パワードスタジオモニタースピーカー" width="220" height="150" loading="lazy"></a>
+<figcaption>ヘッドホンとスピーカーを行き来する現場では配線と切り替え導線の整理が重要になる<span class="credit">Photo: Jason Meredith / CC BY 2.0</span></figcaption>
+</figure>
+
 スピーカーの時間帯は、部屋の音響を含めた全体像を確認する役割に向いています。スタジオモニターはプロフェッショナルな音声制作用途向けに設計されたスピーカーであり、制作環境での確認作業を前提とした再生が期待できます。ヘッドホンでは把握しにくい音の広がりや、複数の音が重なったときの距離感を確認する場面で役立ちます。
 
 ニアフィールドモニターの [JBL 305P MkII パワードスタジオモニタースピーカー](https://www.amazon.co.jp/dp/B077N2LVKC?tag=nakimoto1-22) は、デスク近傍での聴取を想定した構成を検討する際の選択肢の一つです。スピーカーを導入する際は、机の奥行き、左右の設置間隔、リスニング位置との距離を確認しておく必要があります。設置条件が整っていないと、機材の特性を十分に活かせない場合があります。
@@ -67,11 +72,6 @@ scheduled_time: "12:00"
 ただし、スピーカーは部屋の反射や設置高さの影響を受けるため、環境条件の整備もセットで考える必要があります。机の壁付け位置、反射しやすい面、周囲の物の配置などが聴感に影響するため、まずは左右対称で素直な位置から試すのが現実的です。切り替え運用は機材を並べるだけで完成するものではなく、設置と運用の両方を調整していく前提で考えると失敗が減ります。
 
 [JBL 305P MkII パワードスタジオモニタースピーカーの価格とレビューを見る](https://www.amazon.co.jp/dp/B077N2LVKC?tag=nakimoto1-22)
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B077N2LVKC?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/headphone-speaker/Cables-Monitor-headphones-Downtown-Recording.jpg" alt="JBL 305P MkII パワードスタジオモニタースピーカー" width="220" height="150" loading="lazy"></a>
-<figcaption>ヘッドホンとスピーカーを行き来する現場では配線と切り替え導線の整理が重要になる<span class="credit">Photo: Jason Meredith / CC BY 2.0</span></figcaption>
-</figure>
 
 [スタジオモニター関連商品の価格とレビューを見る](https://www.amazon.co.jp/s?k=%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC&tag=nakimoto1-22)
 
