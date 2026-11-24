@@ -3359,5 +3359,16 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-24T13:00:25+09:00"
+ },
+ "beaujolais-nouveau-third-thursday": {
+  "title": "ボジョレー・ヌーヴォーの解禁日が11月第3木曜日に決まった歴史と流通の仕組み",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": "",
+  "note_key": "",
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-24T21:00:12+09:00"
  }
 }
