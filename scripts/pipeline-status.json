@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-24T21:31:24+09:00",
+ "updated": "2026-11-24T21:44:59+09:00",
  "queue": {
-  "published": 195,
+  "published": 196,
   "rejected": 32,
-  "approved": 29,
-  "in_progress": 1
+  "approved": 29
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published beaujolais-nouveau-third-thursday",
+ "last_result": "published hagi-ware-guinomi-nanabake",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
