@@ -10742,5 +10742,30 @@
       "hugo未導入のためビルド確認は未実施"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-24T23:53:18Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "arita-ware-guinomi-guide",
+      "speyside-whisky-valley-history-2026"
+    ],
+    "actions": [
+      "末尾に置かれていた図版を見出し/本文直前へ移動(CLAUDE.md配置規則)",
+      "残りの該当(hammond/jazz-festivals/jazz-shoes/jazz-style)は同一セクション内の2枚目で左右交互の配置のため意図的と判断し未変更",
+      "導入部(beaujolais/hagi/arita冒頭/headphone)は構造上未修正",
+      "seo-auditはPIL破損で実行不可、hugo未導入でビルド未確認",
+      "外部3サイトは改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/arita-ware-guinomi-guide.md",
+      "content/posts/speyside-whisky-valley-history-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "導入部の図版4箇所は手動判断が必要",
+      "seo-audit実行環境(PIL)の修復"
+    ],
+    "status": "一部完了"
   }
 ]

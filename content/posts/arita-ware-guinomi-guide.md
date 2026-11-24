@@ -58,6 +58,11 @@ scheduled_time: "07:30"
 
 ## 冷酒の温度と香りを保つ仕組み
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/arita-guinomi/c2-arita-landscape-dish.jpg" alt="有田焼の染付磁器の器" width="220" height="150" loading="lazy"></a>
+<figcaption>高温焼成で生まれる磁器の緻密さ<span class="credit">Photo: Daderot / CC0</span></figcaption>
+</figure>
+
 冷酒を楽しむときに気になるのは、注いだ直後の温度と香りがどれだけ保たれるかです。有田焼のぐい呑みは磁器製で吸水性がほとんどないため、酒の水分や成分を吸収しにくく、酒本来の状態を維持しやすい性質があります。この性質は、冷やした日本酒の印象を安定させるうえで重要です。
 
 磁器の緻密な構造は、器の内部に液体が入り込む余地を小さくします。酒が器に移る量が少なければ、香りの成分や味わいの輪郭が器側に逃げにくくなります。結果として、注いだときのクリアな印象を確かめやすく、冷酒の飲み比べにも向いた条件がそろいます。
@@ -65,11 +70,6 @@ scheduled_time: "07:30"
 また、有田焼のぐい呑みは冷酒の温度を保ちやすく、シャープな飲み口やキレのある辛口の日本酒を味わうのに適しています。温度が上がりすぎる前に味わえることは、香りの立ち方や後味の切れを確認するうえで役立ちます。特にキレを重視する酒では、器の性質が判断の助けになります。
 
 実践の場面では、冷蔵庫から出した酒を注ぐ量を少なめにし、数回に分けて注ぎ直す方法が取り入れやすいです。器が緻密で酒を吸いにくい性質を活かしながら、温度変化を抑えて味の違いを確認できます。数値で管理できない部分はあっても、注ぐ量とペースを一定にすると比較しやすくなります。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/arita-guinomi/c2-arita-landscape-dish.jpg" alt="有田焼の染付磁器の器" width="220" height="150" loading="lazy"></a>
-<figcaption>高温焼成で生まれる磁器の緻密さ<span class="credit">Photo: Daderot / CC0</span></figcaption>
-</figure>
 
 <p><a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで価格とレビューを見る</a></p>
 
