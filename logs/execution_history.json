@@ -11036,5 +11036,23 @@
       "薄い深掘り記事(ballantines等)のリライトは要リサーチのため未着手"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-25T12:54:03Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事のfigure配置(直後に見出し/---/短文)を走査: 違反なし(検出3件は意図的なAmazon注記または段落内改行の誤検知)",
+      "本文量の下位を再確認: ballantines/dewars/white-horse等の深掘り記事が薄い(1400〜1700字)が、事実の追加に要リサーチのため捏造回避で未着手",
+      "seo-auditはPIL不具合(環境)で実行不可",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事のリライトはローカル環境でのリサーチ後に実施"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
