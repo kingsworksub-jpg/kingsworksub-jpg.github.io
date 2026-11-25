@@ -11088,5 +11088,22 @@
       "薄い深掘り記事のリライトはローカル環境でのリサーチ後に実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T15:53:31Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "最短記事(日付名の旧記事5本)を確認: すべて draft:true の非公開下書きで公開対象外のため修正不要",
+      "公開記事で最短はballantines-finest-deep-dive-2026(約4.9千字)だが追加は要リサーチのため見送り",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事のリライトはローカル環境でのリサーチ後に実施"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
