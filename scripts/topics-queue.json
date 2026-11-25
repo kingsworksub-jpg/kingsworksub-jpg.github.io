@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:42:33+09:00",
+ "updated": "2026-11-25T23:03:32+09:00",
  "items": [
   {
    "category": "gear",
@@ -15019,9 +15019,14 @@
    },
    "source_of_idea": "search",
    "id": "2026w47-026",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-25T23:03:32+09:00",
+   "channel": "github",
+   "content_dir": "tech",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: 検証メモ/個人備忘録(隔日)"
   },
   {
    "category": "net",
