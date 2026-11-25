@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:31:23+09:00",
+ "updated": "2026-11-25T21:42:33+09:00",
  "items": [
   {
    "category": "gear",
@@ -14112,7 +14112,7 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-010",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-22",
    "retry": 1,
    "claimed_at": "2026-11-25T21:31:23+09:00",
@@ -14120,7 +14120,9 @@
    "content_dir": "culture",
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
-   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up"
+   "last_error": "stage 2 (google/gemini-3.5-flash-lite) did not publish (failed); cleaned up",
+   "slug": "buffalo-trace-antique-collection-2026-handy-12yo",
+   "published_at": "2026-11-25T21:42:33+09:00"
   },
   {
    "category": "drink",
