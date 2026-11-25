@@ -3,182 +3,260 @@
   "id": "drink-lab",
   "name": "飲料の分析・成分・比率",
   "weight": 1.0,
-  "channel": "ameba",
-  "content_dir": "culture"
+  "channel": "hatena",
+  "content_dir": "culture",
+  "angle": "成分・比率を数値で比べ、味わいの差に翻訳する",
+  "amazon_genre": "食品・飲料・酒",
+  "series": "比較してわかったこれ"
  },
  {
   "id": "software",
   "name": "DTMソフト・Tips",
   "weight": 1.0,
   "channel": "hatena",
-  "content_dir": "tech"
+  "content_dir": "tech",
+  "angle": "操作の一手順と詰まりどころを、画面を見せながら示す",
+  "amazon_genre": "ソフトウェア／DTM",
+  "series": "選ぶときの目安"
  },
  {
   "id": "setup",
   "name": "制作環境公開",
   "weight": 1.0,
   "channel": "hatena",
-  "content_dir": "reviews"
+  "content_dir": "reviews",
+  "angle": "机の上の配置と配線を、寸法付きで公開する",
+  "amazon_genre": "PC・周辺機器／オーディオ機材",
+  "series": "選定の記録"
  },
  {
   "id": "drink-recipe",
   "name": "レシピ・カクテル",
   "weight": 1.0,
   "channel": "ameba",
-  "content_dir": "culture"
+  "content_dir": "culture",
+  "angle": "作った一杯を工程写真付きで短く紹介する",
+  "amazon_genre": "食品・飲料／キッチン用品",
+  "series": "試した結果これ"
  },
  {
   "id": "tech",
   "name": "テック・AI",
   "weight": 1.0,
-  "channel": "hatena",
-  "content_dir": "tech"
+  "channel": "github",
+  "content_dir": "tech",
+  "angle": "再現できる手順と測定結果をログとして残す",
+  "amazon_genre": "PC・周辺機器／ソフトウェア",
+  "series": "決める前のメモ"
  },
-  {
-   "id": "whisky",
-   "name": "ウイスキー",
-   "weight": 1.0,
-   "channel": "ameba",
-   "content_dir": "culture"
-  },
+ {
+  "id": "whisky",
+  "name": "ウイスキー",
+  "weight": 1.0,
+  "channel": "ameba",
+  "content_dir": "culture",
+  "angle": "一杯の感想を写真と短い文で残す",
+  "amazon_genre": "酒・飲料",
+  "series": "参考に残したこれ"
+ },
  {
   "id": "drink",
   "name": "飲料・缶コーヒー・炭酸水等",
   "weight": 1.0,
   "channel": "ameba",
-  "content_dir": "culture"
+  "content_dir": "culture",
+  "angle": "飲んだときの気づきを、一枚の写真と短文で残す",
+  "amazon_genre": "飲料・酒",
+  "series": "試した結果これ"
  },
-  {
-   "id": "sakeware",
-   "name": "酒器",
-   "weight": 1.0,
-   "channel": "ameba",
-   "content_dir": "culture"
-  },
-  {
-   "id": "fashion",
-   "name": "ファッション",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
-  {
-   "id": "jazz",
-   "name": "ジャズ・名盤・歴史",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
+ {
+  "id": "sakeware",
+  "name": "酒器",
+  "weight": 1.0,
+  "channel": "ameba",
+  "content_dir": "culture",
+  "angle": "手に取った酒器の手触りを写真で紹介する",
+  "amazon_genre": "食器・キッチン用品",
+  "series": "後で効くこれ"
+ },
+ {
+  "id": "fashion",
+  "name": "ファッション",
+  "weight": 1.0,
+  "channel": "ameba",
+  "content_dir": "culture",
+  "angle": "一枚のコーデを写真で見せ、選んだ理由を短く書く",
+  "amazon_genre": "服・ファッション小物",
+  "series": "迷ったときのこれ"
+ },
+ {
+  "id": "jazz",
+  "name": "ジャズ・名盤・歴史",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "録音年代と演奏者の背景から、名盤の位置を整理する",
+  "amazon_genre": "CD・レコード／書籍",
+  "series": "参考に残したこれ"
+ },
  {
   "id": "drink-tools",
   "name": "ドリンクツール・ギア",
   "weight": 1.0,
-  "channel": "ameba",
-  "content_dir": "culture"
+  "channel": "hatena",
+  "content_dir": "culture",
+  "angle": "道具の構造と使い分けを、比較軸で整理する",
+  "amazon_genre": "キッチン用品・食器",
+  "series": "買う前に読むこれ"
  },
  {
   "id": "music",
   "name": "音楽・レビュー・ディスクガイド",
   "weight": 1.0,
   "channel": "note",
-  "content_dir": "culture"
+  "content_dir": "culture",
+  "angle": "作品の成立と構造を読み解き、聴く順番を示す",
+  "amazon_genre": "CD・レコード／楽器",
+  "series": "参考に残したこれ"
  },
-  {
-   "id": "essay",
-   "name": "カルチャーエッセイ",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
-  {
-   "id": "film",
-   "name": "映画・映像",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
-  {
-   "id": "book",
-   "name": "読書・文学",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
-  {
-   "id": "interior",
-   "name": "住まい・インテリア",
-   "weight": 1.0,
-   "channel": "note",
-   "content_dir": "culture"
-  },
-  {
-   "id": "lab",
-   "name": "検証メモ",
-   "weight": 0,
-   "channel": "github",
-   "content_dir": "tech"
-  },
-   {
-   "id": "notes",
-   "name": "個人備忘録",
-   "weight": 0,
-   "channel": "github",
-   "content_dir": "tech"
-   },
-  {
-   "id": "pc",
-   "name": "PC・周辺機器",
-   "weight": 1.0,
-   "channel": "hatena",
-   "content_dir": "tech"
-  },
-  {
-   "id": "dev",
-   "name": "開発・プログラミング",
-   "weight": 1.0,
-   "channel": "hatena",
-   "content_dir": "tech"
-  },
-  {
-   "id": "net",
-   "name": "ネット・自宅サーバー",
-   "weight": 1.0,
-   "channel": "hatena",
-   "content_dir": "tech"
-  },
+ {
+  "id": "essay",
+  "name": "カルチャーエッセイ",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "一つの場面から、文化的な文脈へ広げる",
+  "amazon_genre": "書籍",
+  "series": "参考に残したこれ"
+ },
+ {
+  "id": "film",
+  "name": "映画・映像",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "公開当時の状況と撮影の工夫から、作品を読み解く",
+  "amazon_genre": "DVD・Blu-ray／書籍",
+  "series": "参考に残したこれ"
+ },
+ {
+  "id": "book",
+  "name": "読書・文学",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "執筆背景と構成から、いま読む意味を考える",
+  "amazon_genre": "書籍",
+  "series": "参考に残したこれ"
+ },
+ {
+  "id": "interior",
+  "name": "住まい・インテリア",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "寸法と光の関係を、部屋の写真から整理する",
+  "amazon_genre": "インテリア・家具",
+  "series": "後で効くこれ"
+ },
+ {
+  "id": "lab",
+  "name": "検証メモ",
+  "weight": 0,
+  "channel": "github",
+  "content_dir": "tech",
+  "angle": "前提・手順・結果を、そのままの形で残す",
+  "amazon_genre": "なし",
+  "series": "試した結果これ"
+ },
+ {
+  "id": "notes",
+  "name": "個人備忘録",
+  "weight": 0,
+  "channel": "github",
+  "content_dir": "tech",
+  "angle": "自分用の覚え書きを、最小限の形で残す",
+  "amazon_genre": "なし",
+  "series": "選定の記録"
+ },
+ {
+  "id": "pc",
+  "name": "PC・周辺機器",
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "tech",
+  "angle": "構成と実測を添えて、選び方の目安を示す",
+  "amazon_genre": "PC・周辺機器",
+  "series": "買う前に読むこれ"
+ },
+ {
+  "id": "dev",
+  "name": "開発・プログラミング",
+  "weight": 1.0,
+  "channel": "github",
+  "content_dir": "tech",
+  "angle": "動かしたコードとコマンドを、再現できる形で残す",
+  "amazon_genre": "ソフトウェア／書籍",
+  "series": "試した結果これ"
+ },
+ {
+  "id": "net",
+  "name": "ネット・自宅サーバー",
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "tech",
+  "angle": "構成図と設定を、そのまま再現できる形で残す",
+  "amazon_genre": "ネットワーク機器／PC周辺機器",
+  "series": "決める前のメモ"
+ },
  {
   "id": "misc",
   "name": "その他",
   "weight": 0,
-  "channel": "ameba",
-  "content_dir": "culture"
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "断片的な気づきを、あとで読める形に整理する",
+  "amazon_genre": "なし",
+  "series": "参考に残したこれ"
  },
-  {
-   "id": "drink-hack",
-   "name": "ハック・裏技",
-   "weight": 1.0,
-   "channel": "ameba",
-   "content_dir": "culture"
-  },
-  {
-   "id": "gear",
-   "name": "機材レビュー",
-   "weight": 1.0,
-   "channel": "ameba",
-   "content_dir": "reviews"
-  },
-   {
-    "id": "learning",
-    "name": "スクール・学習",
-    "weight": 1.0,
-    "channel": "ameba",
-    "content_dir": "reviews"
-   },
-   {
-    "id": "anime",
-    "name": "アニメ・映像",
-    "weight": 1.0,
-    "channel": "note",
-    "content_dir": "culture"
-   }
+ {
+  "id": "drink-hack",
+  "name": "ハック・裏技",
+  "weight": 1.0,
+  "channel": "ameba",
+  "content_dir": "culture",
+  "angle": "小さな工夫を、写真1枚と短文で紹介する",
+  "amazon_genre": "キッチン用品・食器",
+  "series": "失敗が残したこれ"
+ },
+ {
+  "id": "gear",
+  "name": "機材レビュー",
+  "weight": 1.0,
+  "channel": "hatena",
+  "content_dir": "reviews",
+  "angle": "比較軸を先に示し、機種ごとの差を数値で示す",
+  "amazon_genre": "オーディオ機材／楽器",
+  "series": "選ぶときの目安"
+ },
+ {
+  "id": "learning",
+  "name": "スクール・学習",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "reviews",
+  "angle": "学ぶ順番とつまずきどころを、構造から説明する",
+  "amazon_genre": "書籍／教育",
+  "series": "後で効くこれ"
+ },
+ {
+  "id": "anime",
+  "name": "アニメ・映像",
+  "weight": 1.0,
+  "channel": "note",
+  "content_dir": "culture",
+  "angle": "作品の成立背景と表現の工夫を読み解く",
+  "amazon_genre": "DVD・Blu-ray／書籍",
+  "series": "参考に残したこれ"
+ }
 ]

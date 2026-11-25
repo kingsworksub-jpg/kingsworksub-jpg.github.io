@@ -123,6 +123,18 @@ HIT_CAP = 3
 INTENT_SERIES = frozenset({"迷ったときのこれ", "決める前のメモ", "買う前に読むこれ", "選定の記録"})
 INTENT_GATE_FACTOR = 0.3
 
+# category-plan.json's `series` column is a SOFT prior only (+2). Content scoring
+# still decides: a jazz article that is really a buying guide won't be forced into
+# the jazz category's usual series.
+CATEGORY_HINT_BONUS = 2
+
+
+def category_series_hint(category: str) -> str | None:
+    for c in tp.categories():
+        if c.get("id") == category:
+            return c.get("series")
+    return None
+
 
 def post_fields(slug: str) -> dict:
     """Read one post's frontmatter + body lead without Hugo. Mirrors topic_plan.posts()'s
@@ -172,6 +184,9 @@ def score_post(fields: dict) -> dict[str, int]:
         if name in INTENT_SERIES and not front_hit:
             total = int(total * INTENT_GATE_FACTOR)
         scores[name] = total
+    hint = category_series_hint(fields.get("category", ""))
+    if hint in scores:
+        scores[hint] += CATEGORY_HINT_BONUS
     return scores
 
 

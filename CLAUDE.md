@@ -77,11 +77,16 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 
 プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
 カテゴリー構成は当初(software/learning等)から変わっているので、最新の対応は `category-plan.json` を正とする(下記は目安)。
+  2026-11-25のカテゴリ親和性見直しで、`category-plan.json` に `angle`（カテゴリ既定の切り口）/
+  `amazon_genre`（Amazon商品ジャンルのヒント）/`series`（はてなシリーズの**ソフト**ヒント、+2点）の3列を追加した。
+  `series` は `scripts/hatena_series.py` の内容スコアリングを上書きせず、同点に近いときだけ効く参考値。
 - `channel: github` → **GitHub Pages は全記事のベース（別枠）**。どのチャンネルの記事も公開と同時に必ずデプロイされる。
-  `lab` / `notes` は weight 0（投稿スロット外・手動用）で、自動投稿では選ばれない
-- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`tech` / `software` / `setup` / `pc` / `dev` / `net`。
-  `pc`=PC・周辺機器、`dev`=開発・プログラミング、`net`=ネット・自宅サーバーは2026-10-22追加）
-- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-lab` / `drink-recipe` / `drink-tools` / `drink-hack` / `whisky` / `sakeware` / `gear` / `learning`。
+  `lab` / `notes` は weight 0（投稿スロット外・手動用）で、自動投稿では選ばれない。
+  2026-11-25に `tech` / `dev` も検証・構築ログとしてgithubへ集約（外部転載なし）。
+- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`software` / `setup` / `gear` / `drink-lab` / `drink-tools` / `pc` / `net`）。
+  商品比較・分析を担当。`gear` / `drink-lab` / `drink-tools` は2026-11-25にamebaから移動。`net` は据え置き。
+- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`fashion` / `drink` / `drink-recipe` / `drink-hack` / `whisky` / `sakeware`）。
+  写真＋短文の日記を担当。`fashion` は2026-11-25にnoteから移動。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
 - `channel: note` → **GitHub Pages をベースに、note にも投稿**（2026-11-17、方針変更）。
   - **無料記事**: GitHub Pages に全文、note にも全文を掲載する。
