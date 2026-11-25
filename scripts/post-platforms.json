@@ -3455,5 +3455,17 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-25T08:09:35+09:00"
+ },
+ "pc-ups-power-protection-guide-2026": {
+  "title": "音楽制作PCを守る電源対策：停電や瞬停から作品を守るUPSの選び方と容量計算",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "260066133860086829",
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-25T13:00:26+09:00"
  }
 }
