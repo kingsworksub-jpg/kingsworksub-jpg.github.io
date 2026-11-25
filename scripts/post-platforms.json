@@ -3505,5 +3505,18 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-25T22:00:20+09:00"
+ },
+ "ruff-black-flake8-migration-guide-2026": {
+  "title": "PythonのLintと整形をRuffへ統合する移行ガイド：Black・Flake8・isortからの脱却",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-26T00:05:55+09:00"
  }
 }
