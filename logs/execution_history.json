@@ -10767,5 +10767,28 @@
       "seo-audit実行環境(PIL)の修復"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-25T00:54:11Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "iloud-micro-monitor-2-arc-x",
+      "ableton-live-13-ara2-vocaloid"
+    ],
+    "actions": [
+      "内部リンクが0本だった2記事に関連既存記事への内部リンクを追加(回遊性改善)",
+      "メタデータ(description/images)の全記事点検は問題なし",
+      "外部3サイトは改定案なし",
+      "hugo/seo-audit未実行"
+    ],
+    "files_changed": [
+      "content/posts/iloud-micro-monitor-2-arc-x.md",
+      "content/posts/ableton-live-13-ara2-vocaloid.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の残り8記事(ardbeg-trudernish-15yo, arita-ware-guinomi-guide, beaujolais-nouveau-third-thursday, copenhagen-sparkling-tea-bla-review, hagi-ware-guinomi-nanabake, headphone-speaker-switching-fatigue, ireal-pro-jazz-practice, window-insulation-curtains)"
+    ],
+    "status": "一部完了"
   }
 ]
