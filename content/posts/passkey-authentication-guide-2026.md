@@ -135,4 +135,5 @@ Google、Apple、Microsoftの主要アカウントではすでに設定手順が
 ## 関連記事・おすすめメディア
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+
+**関連記事**: [物理セキュリティキーで二段階認証を強固にする：YubiKeyの仕組みと型選び・保存数・予備キーの重要性](/posts/yubikey-security-key-backup-guide-2026/) / [機種変更で二段階認証を失わないための引継ぎ術：GoogleとMicrosoft Authenticatorの正しい移行手順](/posts/two-factor-auth-migration-guide/)

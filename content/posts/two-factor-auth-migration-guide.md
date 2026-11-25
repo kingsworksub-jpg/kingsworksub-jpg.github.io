@@ -157,6 +157,5 @@ Google Authenticatorのクラウド同期やQRコード転送、Microsoft Authen
 ## 関連記事・おすすめメディア
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
 
 **関連記事**: [パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから](/posts/hibp-password-breach-check-order-2026/)

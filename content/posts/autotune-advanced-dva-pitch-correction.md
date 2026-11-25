@@ -176,6 +176,5 @@ AutoTune Advancedを導入することで、あなたは技術的な制約から
 ## 関連記事・おすすめメディア
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
 
 **関連記事**: [Melodyne 5のピッチ補正、ノートの切れ目を直してから音程を揃える3つの手順](/posts/melodyne-5-pitch-correction-basics-2026/)

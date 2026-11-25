@@ -132,4 +132,5 @@ AIがリーマン予想などの数学の難問を解いた、あるいは言及
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+
+**関連記事**: [Chromeが自動ダウンロードする4GBのGemini Nanoとは何か、オンデバイスAIの仕組みと停止方法](/posts/chrome-gemini-nano-4gb-2026/)

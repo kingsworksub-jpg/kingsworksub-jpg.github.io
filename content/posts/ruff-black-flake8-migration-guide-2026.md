@@ -233,4 +233,5 @@ Black・Flake8・isortという3つのツールに分かれていたPythonのコ
 ## 関連記事・おすすめメディア
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+
+**関連記事**: [Pythonの仮想環境、venvとuvの違いは「箱」と「記録」の分担にある](/posts/python-venv-uv-first-environment-2026/) / [GitHub Actionsの最初の1本は、pushで動かすか時刻で動かすかを決めるところから](/posts/github-actions-schedule-push-guide-2026/)

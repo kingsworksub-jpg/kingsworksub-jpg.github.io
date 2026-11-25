@@ -11205,5 +11205,33 @@
       "ローカルで seo-audit.py --check-links を実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T22:53:52Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "passkey-authentication-guide-2026",
+      "ruff-black-flake8-migration-guide-2026",
+      "jazz-standard-memorization-guide-2026",
+      "buffalo-trace-antique-collection-2026-handy-12yo",
+      "ai-riemann-hypothesis-verification-2026",
+      "autotune-advanced-dva-pitch-correction",
+      "speyside-whisky-valley-history-2026",
+      "two-factor-auth-migration-guide"
+    ],
+    "actions": [
+      "ダミーのnote版リンク(note.com/.../n/XXXX)が残る6記事から削除",
+      "内部リンクが0だった5記事に関連記事リンクを追加(実在スラグ確認済み)",
+      "hugoが環境に無くビルド確認は未実施(frontmatter非変更・リンク追記のみ)",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/*.md(8件)",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルで seo-audit.py --check-links を実施し内部リンク網・孤立記事を確認"
+    ],
+    "status": "完了"
   }
 ]
