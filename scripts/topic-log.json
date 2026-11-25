@@ -4265,6 +4265,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-25T23:12:40+09:00"
+  },
+  {
+   "id": "2026w47-008",
+   "category": "tech",
+   "theme": "Claudeが数学の難問を解いたという報道、AIの研究成果をどう検証するか",
+   "slug": "ai-riemann-hypothesis-verification-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ai-riemann-hypothesis-verification-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-26T07:42:41+09:00"
   }
  ]
 }
