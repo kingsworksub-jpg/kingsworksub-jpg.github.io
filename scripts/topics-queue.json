@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:08:14+09:00",
+ "updated": "2026-11-25T12:00:41+09:00",
  "items": [
   {
    "category": "gear",
@@ -13296,9 +13296,9 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w46-003",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-11-15",
-   "retry": 1,
+   "retry": 2,
    "claimed_at": "2026-11-25T07:31:19+09:00",
    "channel": "ameba",
    "content_dir": "culture",
