@@ -1,0 +1,16 @@
+{
+ "/images/ruff-migration/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Example_HTML_code_using_Notepad%2B%2B.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Example_HTML_code_using_Notepad%2B%2B.png",
+  "license": "CC BY 4.0",
+  "author": "Skyhigh278",
+  "title": ""
+ },
+ "/images/ruff-migration/img2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/7/72/Visual_Studio_Code_1.18.1_on_Windows10.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.18.1_on_Windows10.jpg",
+  "license": "MIT",
+  "author": "Visual Studio Code: Microsoft",
+  "title": ""
+ }
+}
