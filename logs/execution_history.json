@@ -11105,5 +11105,22 @@
       "薄い深掘り記事のリライトはローカル環境でのリサーチ後に実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T16:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "禁止表現(隅から隅まで/全機能解剖/あるレビューでは/実際に〜してみた等)・CTAプレースホルダ残存・images欠落・H2不足を全公開記事でgrep点検: 違反なし(nea-jazz-masters-2026はnote有料記事のため仕様)",
+      "「買い揃え」ヒット3件は所持主張でなく一般論で問題なし",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事のリライトはローカル環境でのリサーチ後に実施"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
