@@ -4229,6 +4229,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-25T17:42:34+09:00"
+  },
+  {
+   "id": "2026w45-019",
+   "category": "tech",
+   "theme": "パスキーでパスワードを手放す、スマホの指紋と顔でログインする仕組み",
+   "slug": "passkey-authentication-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/passkey-authentication-guide-2026/",
+   "hatena_entry": "entry-generated",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-25T20:18:42+09:00"
   }
  ]
 }
