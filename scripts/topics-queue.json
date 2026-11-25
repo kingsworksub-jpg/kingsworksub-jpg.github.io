@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:31:23+09:00",
+ "updated": "2026-11-25T17:42:33+09:00",
  "items": [
   {
    "category": "gear",
@@ -15273,14 +15273,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w47-031",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-22",
    "retry": 0,
    "claimed_at": "2026-11-25T17:31:23+09:00",
    "channel": "ameba",
    "content_dir": "reviews",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "slug": "jazz-standard-memorization-guide-2026",
+   "published_at": "2026-11-25T17:42:33+09:00"
   },
   {
    "category": "anime",

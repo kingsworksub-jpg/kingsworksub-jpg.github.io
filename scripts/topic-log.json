@@ -4217,6 +4217,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-25T17:30:20+09:00"
+  },
+  {
+   "id": "2026w47-031",
+   "category": "learning",
+   "theme": "ジャズのスタンダードを1曲ずつ暗譜する、メロディとコードの覚え順",
+   "slug": "jazz-standard-memorization-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/jazz-standard-memorization-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-25T17:42:34+09:00"
   }
  ]
 }
