@@ -3478,5 +3478,19 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-25T18:00:11+09:00"
+ },
+ "passkey-authentication-guide-2026": {
+  "title": "パスキーの仕組みと設定手順：FIDO2がフィッシングを防ぐ理由と機種変更時の注意点",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "entry-generated",
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-25T21:00:11+09:00"
  }
 }
