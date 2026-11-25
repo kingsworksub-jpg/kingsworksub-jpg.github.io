@@ -3518,5 +3518,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-26T00:05:55+09:00"
+ },
+ "ai-riemann-hypothesis-verification-2026": {
+  "title": "Claudeによる数学の難問言及報道をどう読み解くか：一次情報の検証手順と技術的視点",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-26T08:00:07+09:00"
  }
 }
