@@ -128,3 +128,9 @@ scheduled_time: "07:30"
 日常使いでは、少量ずつ注ぐ、やさしく洗う、衝撃を避けて保管するという基本を守るだけで、磁器の利点を活かしやすくなります。冷酒のシャープな印象を大切にしたい方は、有田焼のぐい呑みを候補に入れてみてください。素材の根拠を理解したうえで選ぶと、毎回の一杯がより分かりやすくなります。
 
 <p><a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">有田焼 ぐい呑みをAmazonで見る</a></p>
+
+**関連記事**
+
+- [萩焼のぐい呑みで愉しむ「萩の七化け」：貫入が育てる色変化の仕組みと手入れの基本](/posts/hagi-ware-guinomi-nanabake/)
+- [備前焼のぐい呑みに釉薬がない理由と、酒がまろやかになると言われる仕組み](/posts/bizen-guinomi-yakishime-2026/)
+- [有田焼 炎華の酒器セット、黒い炎をまとう徳利とぐい呑み](/posts/arita-enka-sake-set-deep-dive-2026/)

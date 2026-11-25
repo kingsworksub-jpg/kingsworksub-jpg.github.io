@@ -152,3 +152,9 @@ scheduled_time: "21:30"
 [萩焼の徳利・片口など関連酒器をAmazonで探す](https://www.amazon.co.jp/s?k=萩焼+徳利+片口&tag=nakimoto1-22)
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22)
+
+**関連記事**
+
+- [備前焼のぐい呑みに釉薬がない理由と、酒がまろやかになると言われる仕組み](/posts/bizen-guinomi-yakishime-2026/)
+- [信楽焼のぐい呑みは、なぜ土のざらつきを残したまま焼かれるのか](/posts/shigaraki-guinomi-hiiro/)
+- [冷酒が冴える理由をデータで読む有田焼ぐい呑みの選び方](/posts/arita-ware-guinomi-guide/)

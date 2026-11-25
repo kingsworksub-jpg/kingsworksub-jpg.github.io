@@ -10790,5 +10790,29 @@
       "内部リンク0本の残り8記事(ardbeg-trudernish-15yo, arita-ware-guinomi-guide, beaujolais-nouveau-third-thursday, copenhagen-sparkling-tea-bla-review, hagi-ware-guinomi-nanabake, headphone-speaker-switching-fatigue, ireal-pro-jazz-practice, window-insulation-curtains)"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-25T01:55:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ardbeg-trudernish-15yo",
+      "arita-ware-guinomi-guide",
+      "hagi-ware-guinomi-nanabake"
+    ],
+    "actions": [
+      "内部リンク0本だった3記事の末尾に関連既存記事への内部リンクを追加(ウイスキー1本・酒器2本)",
+      "外部3サイトは改定案なし",
+      "hugo/seo-audit未実行"
+    ],
+    "files_changed": [
+      "content/posts/ardbeg-trudernish-15yo.md",
+      "content/posts/arita-ware-guinomi-guide.md",
+      "content/posts/hagi-ware-guinomi-nanabake.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本の残り5記事(beaujolais-nouveau-third-thursday, copenhagen-sparkling-tea-bla-review, headphone-speaker-switching-fatigue, ireal-pro-jazz-practice, window-insulation-curtains)"
+    ],
+    "status": "一部完了"
   }
 ]
