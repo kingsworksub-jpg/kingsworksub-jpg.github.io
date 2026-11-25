@@ -10908,5 +10908,23 @@
       "この環境にhugo/PILが無くビルド・seo-auditは未実行"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-25T05:53:41Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全296記事を走査: frontmatter(description/images)・figure配置・figure属性・内部リンク・画像実在・禁止表現・未解決CTAプレースホルダーに問題なし",
+      "draft記事(2026-09-22-*)は非公開のため対象外",
+      "Hatena/Ameba/note: 改定案なし",
+      "seo-audit.pyはPIL import不可で実行できず"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(約2,200字: wilkinson-tansan, yosa-soda等)のリライトは要リサーチのため未着手"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
