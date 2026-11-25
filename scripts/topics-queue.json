@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:24:53+09:00",
+ "updated": "2026-11-25T17:30:20+09:00",
  "items": [
   {
    "category": "gear",
@@ -12009,14 +12009,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-019",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-11-08",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-25T12:01:44+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "tech",
@@ -13989,14 +13990,15 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-008",
-   "status": "in_progress",
+   "status": "approved",
    "created": "2026-11-22",
-   "retry": 0,
+   "retry": 1,
    "claimed_at": "2026-11-25T12:13:40+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "last_error": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up"
   },
   {
    "category": "whisky",

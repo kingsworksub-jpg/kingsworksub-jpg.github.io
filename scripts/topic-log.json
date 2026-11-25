@@ -4199,6 +4199,24 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-25T12:24:53+09:00"
+  },
+  {
+   "id": "2026w45-019",
+   "category": "tech",
+   "theme": "パスキーでパスワードを手放す、スマホの指紋と顔でログインする仕組み",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-25T17:30:20+09:00"
+  },
+  {
+   "id": "2026w47-008",
+   "category": "tech",
+   "theme": "Claudeが数学の難問を解いたという報道、AIの研究成果をどう検証するか",
+   "status": "failed",
+   "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
+   "engine": "gemini",
+   "at": "2026-11-25T17:30:20+09:00"
   }
  ]
 }
