@@ -141,7 +141,7 @@ class GitHubRepo(private val token: String?) {
                 currentJob = run(s.optJSONObject("current_job"), "running"),
                 lastRun = run(s.optJSONObject("last_run")),
                 engineToday = s.optString("engine_today"),
-                enginePost = s.optString("engine_post", s.optString("engine_today", "claude")),
+                enginePost = s.optString("engine_post", s.optString("engine_today", "gemini")),
                 engineTopic = s.optString("engine_topic", "big-pickle"),
                 todayPosts = s.optInt("today_posts"),
                 dailyLimit = s.optInt("daily_limit", 9),

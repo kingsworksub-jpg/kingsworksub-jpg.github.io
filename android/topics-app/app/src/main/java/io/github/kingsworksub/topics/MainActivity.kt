@@ -411,7 +411,8 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                     Text("2. 投稿（1日9固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
                     Text("• 07:30 / 12:00 / 20:00 がhatena、09:30 / 17:00 / 23:00 がameba、14:30 / 18:30 / 21:30 がnote。\n" +
                         "• hatena・ameba・note に毎日3本ずつ。GitHub Pagesは別枠で全記事を自動デプロイ。\n" +
-                        "• 実行エンジンはClaude Code（opus固定）。Web検索はHaikuのサブエージェントに限定。")
+                        "• 実行エンジンはopencode経由のGeminiを先頭にした4段チェーン（Claude Codeは使わない）。\n" +
+                        "• Web検索はリサーチ用スクリプト(oc_research.py)がopencode上で実行。")
                     Spacer(Modifier.height(12.dp))
                     Text("3. 品質の安全装置", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
                     Text("• validate_post.pyで文字種・画像・OGP・チャンネル設定などを検査したものだけ公開。\n" +
@@ -552,4 +553,13 @@ private fun TopicCardBody(topic: Topic, categoryName: String, status: String, pl
     }
 }
 
-private fun engineName(e: String) = if (e == "big-pickle") "big-pickle" else "Claude Code"
+/** Labels for the engine ids written by topic_plan.py; unknown ids are shown as-is. */
+private fun engineName(e: String) = when (e) {
+    "big-pickle" -> "big-pickle"
+    "gemini" -> "Gemini"
+    "opencode" -> "opencode"
+    "claude" -> "Claude Code"  // legacy runs only
+    "none" -> "なし"
+    "" -> "不明"
+    else -> e
+}
