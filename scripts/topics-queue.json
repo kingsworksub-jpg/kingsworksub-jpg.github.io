@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:01:44+09:00",
+ "updated": "2026-11-25T12:24:53+09:00",
  "items": [
   {
    "category": "gear",
@@ -11134,9 +11134,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-002",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-25T12:14:09+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "pc-ups-power-protection-guide-2026",
+   "published_at": "2026-11-25T12:24:53+09:00"
   },
   {
    "category": "pc",
@@ -13982,9 +13989,14 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-008",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-25T12:13:40+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境"
   },
   {
    "category": "whisky",

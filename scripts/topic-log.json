@@ -4187,6 +4187,18 @@
    "reason": "stage 1 (google/gemini-3.5-flash#high) did not publish (failed); cleaned up",
    "engine": "gemini",
    "at": "2026-11-25T12:00:41+09:00"
+  },
+  {
+   "id": "2026w45-002",
+   "category": "pc",
+   "theme": "制作PCにUPSを付ける、停電と瞬停で録音データを失わないための容量の見積もり",
+   "slug": "pc-ups-power-protection-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/pc-ups-power-protection-guide-2026/",
+   "hatena_entry": "260066133860086829",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-25T12:24:53+09:00"
   }
  ]
 }

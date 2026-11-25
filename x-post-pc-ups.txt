@@ -1,0 +1,3 @@
+冬の雷や不意の瞬停から、大切な録音データを守るためのUPS（無停電電源装置）導入ガイドを公開しました。方式の違いや容量の見積もり方法など、制作環境に欠かせない知識をまとめています。
+
+https://kingsworksub-jpg.github.io/posts/pc-ups-power-protection-guide-2026/ #PC #DTM
