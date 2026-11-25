@@ -14,12 +14,12 @@ scheduled_time: "12:00"
 
 今回は、自宅スタジオや制作環境に最適なUPSを選ぶために必要な知識を整理しました。電源の供給方式による性能の違いから、自分の機材構成に合わせた適切な容量の計算方法まで、エンジニアが知っておくべき技術的なポイントを一つずつ具体的に解説していきましょう。
 
+## 不意のトラブルから大切なデータを守る電源管理の基本
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00243CYC2?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pc-ups-guide/UPS_-_uninterruptible_power_supply.JPG" alt="音楽制作現場で活用されるUPS本体のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>安定した作業環境を構築するために欠かせないラインインタラクティブ方式のUPS。<span class="credit">Photo: Work With Sounds / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-## 不意のトラブルから大切なデータを守る電源管理の基本
 
 電源トラブルには、完全に電気が止まる「停電」だけでなく、一瞬だけ電圧が下がる「瞬停」や、一時的に電圧が跳ね上がる「サージ」など、目に見えない多くのリスクが含まれています。特に精密な電子部品で構成される制作PCやオーディオインターフェースは、こうした電圧の変動に対して非常に敏感であり、放置すれば寿命を縮める原因にもなり得ます。
 

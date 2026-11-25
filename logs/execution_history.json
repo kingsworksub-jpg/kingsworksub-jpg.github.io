@@ -10960,5 +10960,26 @@
       "薄い深掘り記事(ballantines-finest等 約2,000字)のリライトは要リサーチのため未着手"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T08:53:27Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "pc-ups-power-protection-guide-2026"
+    ],
+    "actions": [
+      "公開記事の figure 配置を全走査(見出し直後ルール・alt・loading・左右交互): 違反は pc-ups-power-protection-guide-2026 の1件のみ(他4件はアイキャッチ+レーダーチャートの意図的連続)",
+      "pc-ups: 冒頭の figure を最初のH2の直後・本文段落の直前へ移動し、段落が画像の横に回り込むよう修正",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/pc-ups-power-protection-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "figure配置違反0件を維持",
+      "薄い深掘り記事のリライトは要リサーチのため未着手"
+    ],
+    "status": "完了"
   }
 ]
