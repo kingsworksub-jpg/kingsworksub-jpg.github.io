@@ -40,6 +40,7 @@ sys.stderr.reconfigure(encoding="utf-8")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import topic_plan as tp  # noqa: E402
 import hatena_api  # noqa: E402
+import hatena_series  # noqa: E402
 
 ROOT = tp.ROOT
 S = tp.S
@@ -132,6 +133,8 @@ def backfill() -> int:
             "title": title_by_slug.get(slug, e.get("theme", slug)),
             "platforms": ["github"],
             "hatena_entry": e.get("hatena_entry"),
+            "hatena_series": None,
+            "hatena_series_no": None,
             "note_key": e.get("note_key"),
             "ameba_entry": None,  # never tracked historically; backfill by hand from CLAUDE.md if needed
             "needs_manual_review": None,
@@ -185,6 +188,8 @@ def verify() -> dict:
 
     category-plan.json's channel is used ONLY to word the manual-review note (e.g. "this
     category normally goes to ameba but no ameba_entry is recorded"), never to assert a platform.
+    A slug with `ameba_opt_out: true` was explicitly opted out of Ameba by the user after a
+    wrong-platform post was deleted (2026-11-25), so no such note is generated for it.
     """
     platforms = load_platforms()
     category_by_slug = {p["slug"]: p["category"] for p in tp.posts()}
@@ -208,7 +213,10 @@ def verify() -> dict:
         state["platforms"] = confirmed
 
         expected_channel = tp.channel_for(category_by_slug.get(slug, ""))
-        if expected_channel != "github" and expected_channel not in confirmed:
+        # 2026-11-25: 音楽/機材系のAmeba誤投稿を削除したslugはユーザー明示でAmebaを除外済み。
+        # ID未記録を「確認待ち」と警告し続けると、再度投稿するよう誤導するため除外する。
+        opted_out = expected_channel == "ameba" and bool(state.get("ameba_opt_out"))
+        if expected_channel != "github" and expected_channel not in confirmed and not opted_out:
             label = {"hatena": "はてな", "note": "note", "ameba": "アメブロ"}.get(expected_channel, expected_channel)
             state["needs_manual_review"] = (
                 f"カテゴリー上は{label}が想定されますが、entry_idが未記録のため確認できていません。"
@@ -353,12 +361,19 @@ def _hatena_env() -> dict:
     return env
 
 
-def add_hatena(slug: str) -> int:
+def add_hatena(slug: str) -> dict:
+    """Create one Hatena entry. The entry TITLE stays exactly the frontmatter title
+    (verify() discovers entries by exact title match), so the chosen series is added
+    as a banner at the very top of the body instead. Returns the entry id together
+    with the series name/number chosen for this post, for post-platforms.json."""
     out_html = os.path.join(TMP, f"{slug}.html")
     os.makedirs(TMP, exist_ok=True)
     r = run(["bash", os.path.join(S, "extract-post-html.sh"), slug, out_html])
     if r.returncode != 0:
         raise RuntimeError(f"extract-post-html.sh failed: {r.stderr[-500:] or r.stdout[-500:]}")
+    series = hatena_series.choose_series(slug)
+    number = hatena_series.next_series_no(series)
+    hatena_series.prepend_banner(out_html, series, number)
     r = run(["bash", os.path.join(S, "post-to-hatena.sh"), post_title(slug), out_html, "publish"],
             env=_hatena_env())
     if r.returncode != 0:
@@ -366,7 +381,7 @@ def add_hatena(slug: str) -> int:
     m = re.search(r"atom/entry/(\d+)", r.stdout)
     if not m:
         raise RuntimeError(f"post-to-hatena.sh output に entry id が見つかりません: {r.stdout[-500:]}")
-    return int(m.group(1))
+    return {"entry_id": int(m.group(1)), "series": series, "series_no": number}
 
 
 PLATFORM_ID_FIELDS = {"hatena": "hatena_entry", "note": "note_key", "ameba": "ameba_entry"}
@@ -470,7 +485,8 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
     for slug, req in requests.items():
         summary["slugs"] += 1
         state = platforms.setdefault(slug, {
-            "platforms": [], "hatena_entry": None, "note_key": None, "ameba_entry": None,
+            "platforms": [], "hatena_entry": None, "hatena_series": None, "hatena_series_no": None,
+            "note_key": None, "ameba_entry": None,
             "needs_manual_review": None, "updated_at": tp.now().isoformat(timespec="seconds"),
         })
         current = state.get("platforms", [])
@@ -527,7 +543,10 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
                     summary["added"] += 1
                     continue
                 if plat == "hatena":
-                    state["hatena_entry"] = add_hatena(slug)
+                    posted = add_hatena(slug)
+                    state["hatena_entry"] = posted["entry_id"]
+                    state["hatena_series"] = posted["series"]
+                    state["hatena_series_no"] = posted["series_no"]
                 elif plat == "note":
                     state["note_key"] = add_note(slug)
                 elif plat == "ameba":

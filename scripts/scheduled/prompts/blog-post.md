@@ -201,7 +201,14 @@ drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `A
 2. `gh run list --workflow=hugo.yml --limit 1` で成功を確認し、`curl` で記事ページと各画像が 200 を返すことを確認する。
 3. **チャンネル別外部プラットフォーム投稿**:
    - `channel: github` → 外部転送スキップ
-   - `channel: hatena` → `source .secrets/hatena.env && bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
+   - `channel: hatena` → まず `bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html` で本文HTMLを作り、
+     `python scripts/hatena_series.py --prepend <slug> /tmp/<slug>.html > /tmp/hatena-series-<slug>.json`
+     で10案の中から最適なシリーズ名を選定し、本文先頭に「シリーズ名 第N回」のバナーを挿入する。
+     **タイトルは絶対に変更しない**（`platform_sync.py verify()` が frontmatter のタイトル完全一致で記事を照合するため）。
+     出力JSONの `series` / `series_no` を控えてから
+     `source .secrets/hatena.env && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
+     で投稿し、`scripts/post-platforms.json` の該当slugに `hatena_entry`（レスポンスのentry ID）と
+     `hatena_series` / `hatena_series_no` を記録して commit & push する。
    - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
      - 有料記事は note エディタで有料ラインと価格を設定したあと、`python scripts/note_sync.py sync` →
        `python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check` を実行する。
