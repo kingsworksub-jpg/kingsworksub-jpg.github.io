@@ -164,3 +164,8 @@ Copenhagen Sparkling Tea BLÅは、感覚的な美味しさだけでなく、明
 [Copenhagen Sparkling Tea BLÅをAmazonで探す](https://www.amazon.co.jp/s?k=Copenhagen+Sparkling+Tea+BLA&tag=nakimoto1-22)
 
 [シャンパンフルートグラスをAmazonで探す](https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%91%E3%83%B3%E3%83%95%E3%83%AB%E3%83%BC%E3%83%88%E3%82%B0%E3%83%A9%E3%82%B9&tag=nakimoto1-22)
+
+**関連記事**
+
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [炭酸水メーカーは元が取れるのか、ソーダストリームTERRAとE-TERRAのガス代と強さの決め方](/posts/sodastream-terra-carbonation-guide-2026/)

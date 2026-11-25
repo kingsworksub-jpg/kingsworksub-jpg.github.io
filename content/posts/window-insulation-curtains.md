@@ -165,3 +165,6 @@ scheduled_time: "23:00"
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
 - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/n03e847c1a36d)
+
+- [冬の制作部屋で最初に買うのは暖房ではなく湿度計](/posts/winter-studio-humidity/)
+- [ワンルームの狭さを活かす、生活と共存する配信デスクの配置術](/posts/one-room-streaming-setup-2026/)

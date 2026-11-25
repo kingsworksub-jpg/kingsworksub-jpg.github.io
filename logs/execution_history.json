@@ -10814,5 +10814,33 @@
       "内部リンク0本の残り5記事(beaujolais-nouveau-third-thursday, copenhagen-sparkling-tea-bla-review, headphone-speaker-switching-fatigue, ireal-pro-jazz-practice, window-insulation-curtains)"
     ],
     "status": "一部完了"
+  },
+  {
+    "timestamp": "2026-11-25T03:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "beaujolais-nouveau-third-thursday",
+      "copenhagen-sparkling-tea-bla-review",
+      "headphone-speaker-switching-fatigue",
+      "ireal-pro-jazz-practice",
+      "window-insulation-curtains"
+    ],
+    "actions": [
+      "内部リンク0本だった残り5記事の末尾に関連既存記事への内部リンクを追加(各2本)",
+      "外部3サイトは改定案なし",
+      "seo-audit未実行(hugoの有無に依存)"
+    ],
+    "files_changed": [
+      "content/posts/beaujolais-nouveau-third-thursday.md",
+      "content/posts/copenhagen-sparkling-tea-bla-review.md",
+      "content/posts/headphone-speaker-switching-fatigue.md",
+      "content/posts/ireal-pro-jazz-practice.md",
+      "content/posts/window-insulation-curtains.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "内部リンク0本記事は解消見込み。次回 seo-audit で孤立記事・薄い記事を確認"
+    ],
+    "status": "完了"
   }
 ]
