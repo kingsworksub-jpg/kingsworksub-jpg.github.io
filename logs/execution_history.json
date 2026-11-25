@@ -11189,5 +11189,21 @@
       "ローカルで seo-audit.py --check-links を実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T21:53:43Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "figure配置(見出し直後ルール)を公開記事全件で点検: 見出し直後でない先頭figureは13件、いずれも本文段落が直後に続き回り込みは機能するため修正せず",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルで seo-audit.py --check-links を実施"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
