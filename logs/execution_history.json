@@ -10943,5 +10943,22 @@
       "薄い深掘り記事のリライトは要リサーチのため未着手"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-25T07:53:17Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "公開記事291本を走査: description/タイトル重複なし、内部リンク0本は hello のみ",
+      "タイトル60字超は4本(ella-wishes-you-a-swinging-christmas-1960等)だが、URL/OG画像再生成を伴うため変更せず",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(ballantines-finest等 約2,000字)のリライトは要リサーチのため未着手"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
