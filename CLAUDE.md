@@ -85,10 +85,11 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   2026-11-25に `tech` / `dev` も検証・構築ログとしてgithubへ集約（外部転載なし）。
 - `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`software` / `setup` / `gear` / `drink-lab` / `drink-tools` / `pc` / `net`）。
   商品比較・分析を担当。`gear` / `drink-lab` / `drink-tools` は2026-11-25にamebaから移動。`net` は据え置き。
-- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`fashion` / `drink` / `drink-recipe` / `drink-hack` / `whisky` / `sakeware`）。
-  写真＋短文の日記を担当。`fashion` は2026-11-25にnoteから移動。
+- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-recipe` / `drink-hack` / `whisky` / `sakeware`）。
+  写真＋短文の日記を担当。`fashion` は2026-11-26にカルチャー寄りとしてnoteへ戻した。
   `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
 - `channel: note` → **GitHub Pages をベースに、note にも投稿**（2026-11-17、方針変更）。
+  背景と構造の読み解きを担当（`jazz` / `music` / `essay` / `film` / `book` / `interior` / `learning` / `misc` / `anime` / `fashion`）。
   - **無料記事**: GitHub Pages に全文、note にも全文を掲載する。
   - **有料記事**: GitHub Pages には**無料部分だけ**を掲載し、有料部分の先頭に「続きは note で読む」CTA を置く。
     全文は note にのみ置き、再投稿・再変換用に `scripts/note-full/<slug>.md` へ退避する。

@@ -2290,8 +2290,8 @@
   "hatena_entry": null,
   "note_key": "nb8e1c036a264",
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-11-25T21:14:06+09:00"
+  "needs_manual_review": null,
+  "updated_at": "2026-11-26T08:36:52+09:00"
  },
  "gguf-quantization-q4-q5-guide-2026": {
   "title": "ローカルLLMの量子化、GGUFの数字を読む — Q4とQ5が削るもの、残すもの",
@@ -2455,8 +2455,8 @@
   "hatena_entry": null,
   "note_key": "nf4bf43604f12",
   "ameba_entry": null,
-  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
-  "updated_at": "2026-11-25T21:14:06+09:00"
+  "needs_manual_review": null,
+  "updated_at": "2026-11-26T08:36:52+09:00"
  },
  "japanese-whisky-distilleries-lineup-2026": {
   "title": "ジャパニーズウイスキーの蒸溜所を7つ巡る、山崎の霧から余市の石炭の火まで",

@@ -83,11 +83,11 @@
   "id": "fashion",
   "name": "ファッション",
   "weight": 1.0,
-  "channel": "ameba",
+  "channel": "note",
   "content_dir": "culture",
-  "angle": "一枚のコーデを写真で見せ、選んだ理由を短く書く",
+  "angle": "素材・形・背景を読み解き、いまの着こなしに翻訳する",
   "amazon_genre": "服・ファッション小物",
-  "series": "迷ったときのこれ"
+  "series": "参考に残したこれ"
  },
  {
   "id": "jazz",
