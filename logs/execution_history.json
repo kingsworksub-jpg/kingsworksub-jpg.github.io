@@ -10886,5 +10886,27 @@
       "薄い深掘り記事(約2,200字)のリライト候補: wilkinson-tansan, yosa-soda 等(要リサーチのため未着手)"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-25T04:54:04Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "pc-ups-power-protection-guide-2026"
+    ],
+    "actions": [
+      "2つ目のfigureをセクション見出し直後へ移動(CLAUDE.mdの配置ルール準拠)",
+      "figure直後の短いAmazonリンク行を削除(画像自体がリンク済み)",
+      "全記事のfrontmatter/見出し数を走査: 他に必須項目欠落なし",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/pc-ups-power-protection-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(約2,200字)のリライトは要リサーチのため未着手",
+      "この環境にhugo/PILが無くビルド・seo-auditは未実行"
+    ],
+    "status": "完了"
   }
 ]

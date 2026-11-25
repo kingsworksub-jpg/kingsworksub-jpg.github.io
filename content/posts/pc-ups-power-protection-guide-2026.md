@@ -19,8 +19,6 @@ scheduled_time: "12:00"
 <figcaption>安定した作業環境を構築するために欠かせないラインインタラクティブ方式のUPS。<span class="credit">Photo: Work With Sounds / CC BY-SA 4.0</span></figcaption>
 </figure>
 
-[Amazonで見る →](https://www.amazon.co.jp/dp/B00243CYC2?tag=nakimoto1-22)
-
 ## 不意のトラブルから大切なデータを守る電源管理の基本
 
 電源トラブルには、完全に電気が止まる「停電」だけでなく、一瞬だけ電圧が下がる「瞬停」や、一時的に電圧が跳ね上がる「サージ」など、目に見えない多くのリスクが含まれています。特に精密な電子部品で構成される制作PCやオーディオインターフェースは、こうした電圧の変動に対して非常に敏感であり、放置すれば寿命を縮める原因にもなり得ます。
@@ -41,16 +39,16 @@ UPSを導入する最大のメリットは、電力供給が不安定になっ�
 
 ## ラインインタラクティブ方式：安定した電圧供給と速度の両立
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=APC+Smart-UPS&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pc-ups-guide/APC_Back-UPS_550_Uninterruptible_Power_Supply_Output_Waveform.jpg" alt="UPSの出力波形を示す測定画面" width="220" height="150" loading="lazy"></a>
+<figcaption>バッテリー駆動時の波形の安定性は、接続機器の動作継続に直結する重要な要素です。<span class="credit">Photo: Timothy Quill / CC BY-SA 4.0</span></figcaption>
+</figure>
+
 ミドルレンジのUPSに多く採用されている「ラインインタラクティブ方式」は、常時商用方式のメリットを活かしつつ、電圧の補正機能を強化したタイプです。内部に昇圧・降圧を行うトランス（AVR）を備えており、入力電圧が多少変動してもバッテリーを消費することなく、適切な電圧に整えて出力することができます。
 
 この方式の強みは、常時商用方式に比べてバッテリーへの切り替え時間が短く、より安定した電源を供給できる点にあります。制作環境において、オーディオインターフェースやミキサーなどのアナログ回路を含む機材を接続する場合、電圧のゆらぎがノイズの原因になることも多いため、このAVR機能による安定化は非常に大きな恩恵をもたらします。
 
 価格と性能のバランスが非常に優れており、多くのクリエイターにとって最も推奨される方式です。設置サイズもデスクトップの下に収まる程度のものが多く、ファンの動作音もバッテリー駆動時以外は静かなモデルが多いため、マイクを使った録音を行う部屋でも運用しやすいという実用的なメリットがあります。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=APC+Smart-UPS&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/pc-ups-guide/APC_Back-UPS_550_Uninterruptible_Power_Supply_Output_Waveform.jpg" alt="UPSの出力波形を示す測定画面" width="220" height="150" loading="lazy"></a>
-<figcaption>バッテリー駆動時の波形の安定性は、接続機器の動作継続に直結する重要な要素です。<span class="credit">Photo: Timothy Quill / CC BY-SA 4.0</span></figcaption>
-</figure>
 
 [AmazonでUPSのラインナップを探す](https://www.amazon.co.jp/s?k=APC+Smart-UPS&tag=nakimoto1-22)
 
