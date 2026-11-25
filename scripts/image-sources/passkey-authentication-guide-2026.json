@@ -1,0 +1,16 @@
+{
+ "/images/passkey-authentication/img1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg/960px-Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_Note_3_fingerprint_scanner.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Ilya Plekhanov",
+  "title": ""
+ },
+ "/images/passkey-authentication/img2.jpg": {
+  "download": "https://live.staticflickr.com/714/23075504614_b128104e57_b.jpg",
+  "page": "https://www.flickr.com/photos/125858571@N04/23075504614",
+  "license": "BY 2.0",
+  "author": "Andri Koolme",
+  "title": ""
+ }
+}
