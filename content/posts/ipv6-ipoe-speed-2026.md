@@ -3,6 +3,7 @@ title: "IPv6(IPoE)にすると夜の回線は速くなるのか、PPPoEの混雑
 date: 2026-10-28T20:00:00+09:00
 draft: false
 categories: ["net"]
+tags: ["IPv6", "IPoE", "PPPoE", "v6プラス", "回線速度"]
 description: "夜間になると光回線が極端に遅くなる原因であるPPPoE方式の網終端装置の仕組みと、IPv6(IPoE)接続やv6プラスなどのカプセル化技術がなぜ高速なのかを技術的背景から徹底解説。夜の回線速度に悩むすべての人へ送るネットワーク解説。"
 images: ["/images/og/ipv6-ipoe-speed-2026.jpg"]
 ogImageWidth: 1200

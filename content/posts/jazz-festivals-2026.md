@@ -3,6 +3,7 @@ title: "2026年のジャズフェスティバル — Newport、Montreux、New Or
 date: 2026-09-30
 lastmod: 2026-11-20
 categories: ["music"]
+tags: ["ジャズフェスティバル", "Newport", "Montreux", "New Orleans", "2026"]
 description: "2026年のジャズフェスティバルを一覧で比較。72年目のNewport、60年目のMontreux、New Orleans、Detroitの開催時期と規模、無料プログラムや配信での見どころ、チケットの考え方まで整理した。"
 images: ["/images/og/jazz-festivals-2026.jpg"]
 ogImageWidth: 1200

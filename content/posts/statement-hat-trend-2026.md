@@ -4,6 +4,7 @@ description: "2026年秋冬ファッションで注目を集めるステート�
 date: 2026-09-30T15:00:00+09:00
 lastmod: 2026-09-30
 categories: [misc]
+tags: ["帽子", "ステートメントハット", "秋冬ファッション", "小物", "2026"]
 images: ["/images/og/statement-hat-trend-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

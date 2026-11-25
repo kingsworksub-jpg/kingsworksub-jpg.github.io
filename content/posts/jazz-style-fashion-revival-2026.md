@@ -4,6 +4,7 @@ description: "1920年代から続くジャズ文化のファッションが、20
 slug: jazz-style-fashion-revival-2026
 date: 2026-09-30
 categories: [misc]
+tags: ["ジャズスタイル", "ピンストライプ", "ダブルブレスト", "メンズファッション", "2026"]
 images: ["/images/og/jazz-style-fashion-revival-2026.jpg"]
 ogImageWidth: 1200
 ogImageHeight: 630

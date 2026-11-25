@@ -2,6 +2,7 @@
 title: "2026年のカフェジャズとラウンジピアノ、Moonlight Jazz Blueが紡ぐ静けさ"
 date: 2026-09-30
 categories: ["music"]
+tags: ["カフェジャズ", "ラウンジピアノ", "ジャズ", "BGM", "Moonlight Jazz Blue"]
 description: "2026年のカフェジャズ・ラウンジピアノシーンを、Moonlight Jazz BlueとJAZZ PARADISEの最新作を通じて掘り下げる。ジェン・Z、ミレニアル世代の音楽トレンド、ストリーミング時代の背景音楽の文化を追う。"
 images: ["/images/og/cafe-jazz-lounge-piano-2026.jpg"]
 ogImageWidth: 1200

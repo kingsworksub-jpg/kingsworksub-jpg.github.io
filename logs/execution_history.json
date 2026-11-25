@@ -10842,5 +10842,49 @@
       "内部リンク0本記事は解消見込み。次回 seo-audit で孤立記事・薄い記事を確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-25T04:00:00Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "2026-jazz-new-albums-jon-batiste-chihiro-yamanaka",
+      "adult-piano-learning-2026",
+      "cafe-jazz-lounge-piano-2026",
+      "classic-french-style-revival-2026",
+      "code-progress-1month-2026",
+      "indirect-lighting-room-2026",
+      "ipv6-ipoe-speed-2026",
+      "jazz-festivals-2026",
+      "jazz-style-fashion-revival-2026",
+      "jazz-style-menswear-2026",
+      "scarf-styling-trend-2026",
+      "statement-hat-trend-2026",
+      "tsundoku-antilibrary-2026"
+    ],
+    "actions": [
+      "tags未設定だった13記事にtagsを追加(タクソノミー・関連記事の改善)",
+      "description/images/OG画像実在/内部リンク切れ/画像パス切れ/alt・credit欠落を全記事走査: 問題なし",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/2026-jazz-new-albums-jon-batiste-chihiro-yamanaka.md",
+      "content/posts/adult-piano-learning-2026.md",
+      "content/posts/cafe-jazz-lounge-piano-2026.md",
+      "content/posts/classic-french-style-revival-2026.md",
+      "content/posts/code-progress-1month-2026.md",
+      "content/posts/indirect-lighting-room-2026.md",
+      "content/posts/ipv6-ipoe-speed-2026.md",
+      "content/posts/jazz-festivals-2026.md",
+      "content/posts/jazz-style-fashion-revival-2026.md",
+      "content/posts/jazz-style-menswear-2026.md",
+      "content/posts/scarf-styling-trend-2026.md",
+      "content/posts/statement-hat-trend-2026.md",
+      "content/posts/tsundoku-antilibrary-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "薄い深掘り記事(約2,200字)のリライト候補: wilkinson-tansan, yosa-soda 等(要リサーチのため未着手)"
+    ],
+    "status": "完了"
   }
 ]
