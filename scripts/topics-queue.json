@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:18:42+09:00",
+ "updated": "2026-11-25T21:31:23+09:00",
  "items": [
   {
    "category": "gear",
@@ -14112,10 +14112,10 @@
    },
    "source_of_idea": "news",
    "id": "2026w47-010",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-22",
    "retry": 1,
-   "claimed_at": "2026-11-23T21:47:01+09:00",
+   "claimed_at": "2026-11-25T21:31:23+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "21:30",
