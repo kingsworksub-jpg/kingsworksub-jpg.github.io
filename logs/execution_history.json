@@ -11650,5 +11650,28 @@
       "内部リンク1本の残り記事(ai-riemann-hypothesis, ardbeg-trudernish-15yo, ddr5-ram, midi-keyboard-narrow-desk, pi-hole, speyside, two-factor-auth)の補強"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T20:53:51Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "pi-hole-raspberry-pi-adblock",
+      "speyside-whisky-valley-history-2026",
+      "two-factor-auth-migration-guide"
+    ],
+    "actions": [
+      "内部リンク1本だった3記事に関連記事リンクを2本ずつ追加"
+    ],
+    "files_changed": [
+      "content/posts/pi-hole-raspberry-pi-adblock.md",
+      "content/posts/speyside-whisky-valley-history-2026.md",
+      "content/posts/two-factor-auth-migration-guide.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "seo-audit.pyはPIL不具合で実行不可。リンク先スラッグの実在は確認済み。ddr5-ram-daw-memory-guide-2026はリーマン予想記事の重複(noindex化済み)のため対象外。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "内部リンク1本の残り記事(ai-riemann-hypothesis, ardbeg-trudernish-15yo, midi-keyboard-narrow-desk)の補強"
+    ],
+    "status": "完了"
   }
 ]

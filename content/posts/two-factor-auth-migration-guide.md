@@ -159,3 +159,6 @@ Google Authenticatorのクラウド同期やQRコード転送、Microsoft Authen
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
 
 **関連記事**: [パスワード流出はHave I Been Pwnedで確かめる。変える順番はメールから](/posts/hibp-password-breach-check-order-2026/)
+
+- [物理セキュリティキーで二段階認証を強固にする：YubiKeyの型選びと予備キー](/posts/yubikey-security-key-backup-guide-2026/)
+- [パスワードマネージャーを乗り換えると、CSVに乗らずに置いていかれるもの](/posts/password-manager-migration-guide-2026/)

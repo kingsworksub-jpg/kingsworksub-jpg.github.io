@@ -115,3 +115,6 @@ Pi-holeは、Raspberry Piのような小型Linuxデバイスに導入し、ル�
 まずはRaspberry Piを用意し、固定IPの設定から順に進めると、無理なく構築を始められます。家中の通信を見渡しながら広告や追跡を減らしたい方には、Pi-holeは試す価値のある選択肢です。導入を検討する際は、[Raspberry Pi 5 スターターキットの価格とレビューを確認する](https://www.amazon.co.jp/s?k=Raspberry+Pi+5+%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88&tag=nakimoto1-22)ところから始めてみてください。
 
 **関連記事**: [中継機を足すと速度が半分になる理由、メッシュWi-FiとWi-Fi 7のMLOは何を変えたか](/posts/mesh-wifi-vs-extender-wifi7-guide-2026/)
+
+- [家庭用ルーターのセキュリティを見直す3つの必須設定と古い機器の判断基準](/posts/home-router-security-guide-2026/)
+- [Synologyの2ベイNASを自宅サーバーに、DS225+でスマホの写真とPCのバックアップを1台に集める](/posts/synology-ds225plus-photo-backup-nas-2026/)

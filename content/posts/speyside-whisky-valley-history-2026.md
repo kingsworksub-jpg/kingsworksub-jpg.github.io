@@ -140,3 +140,6 @@ scheduled_time: "23:00"
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 
 **関連記事**: [スコッチウイスキー5本を飲み比べ、グラスの中のもうひとつの制作環境](/posts/scotch-whisky-5choice-2026/)
+
+- [スペイサイドに新設された蒸溜所は何を売るのか、12年を待たない新しいスコッチ](/posts/new-scotch-distilleries-young-whisky-2026/)
+- [ジャパニーズウイスキーの蒸溜所を巡る](/posts/japanese-whisky-distilleries-lineup-2026/)
