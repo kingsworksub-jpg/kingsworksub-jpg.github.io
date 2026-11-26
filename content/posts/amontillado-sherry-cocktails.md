@@ -160,6 +160,9 @@ scheduled_time: "20:00"
 [バルデスピノ アモンティリャード ティオ・ディエゴの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22)
 
 ## 関連記事・おすすめメディア
+- [ホットワインの鍋は何℃で火から下ろすか。70℃の理由とシナモン・クローブ・オレンジの配合](/posts/hot-wine-spice-temperature-guide-2026/)
+- [家で作るモクテルは、ライム果汁とシロップを同じ量にするところから始まる](/posts/home-mocktail-soda-syrup-2026/)
+- [71℃カスタード式で作る安全なエッグノッグ](/posts/eggnog-recipe-safety-history/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+- [note版（カルチャー・読み物）はこちら](https://note.com/shining_finger01)

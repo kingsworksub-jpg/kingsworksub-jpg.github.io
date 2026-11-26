@@ -158,6 +158,9 @@ scheduled_time: "17:30"
 
 
 ## 関連記事・おすすめメディア
+- [燗酒の温度は5℃刻みで名前が変わる](/posts/kanzake-temperature-shukanki-2026/)
+- [枡で日本酒を冷やで飲む理由](/posts/masu-sake-cup-hinoki-2026/)
+- [備前焼のぐい呑みに釉薬がない理由](/posts/bizen-guinomi-yakishime-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
+- [note版（カルチャー・読み物）はこちら](https://note.com/shining_finger01)

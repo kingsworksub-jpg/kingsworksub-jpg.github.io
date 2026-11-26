@@ -11606,5 +11606,28 @@
       "残り内部リンク不足記事の補強"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T18:53:55Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "amontillado-sherry-cocktails",
+      "yawaragi-mizu-sake-guide-2026"
+    ],
+    "actions": [
+      "内部リンク不足だった2記事に関連記事3本ずつを追加",
+      "note版リンクのプレースホルダ(n/XXXX、リンク切れ)をnoteプロフィールURLに修正"
+    ],
+    "files_changed": [
+      "content/posts/amontillado-sherry-cocktails.md",
+      "content/posts/yawaragi-mizu-sake-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "内部リンク0本の記事は解消。他のcontent/posts内にn/XXXXは無し。hugo未導入のためビルド未実行。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "内部リンク1本以下の記事(ableton-live-13-ara2-vocaloid等)の補強",
+      "新規記事の関連記事ブロックにプレースホルダが残らないよう、パイプライン側のテンプレ確認をユーザーに依頼"
+    ],
+    "status": "完了"
   }
 ]
