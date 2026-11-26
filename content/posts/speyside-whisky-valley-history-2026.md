@@ -71,17 +71,17 @@ scheduled_time: "23:00"
 
 ## 代表的な蒸溜所とボトルの違いを比較する
 
+<figure class="photo photo--right">
+<a href="https://commons.wikimedia.org/wiki/File:Buildings_at_the_Macallan_Distillery_-_geograph-3237451-by-Andrew-Abbott.jpg" target="_blank" rel="noopener nofollow"><img src="/images/speyside-whisky/c2.jpg" alt="スペイサイドにあるマッカラン蒸溜所の建物" width="220" height="150" loading="lazy"></a>
+<figcaption>蒸溜所の建物が示す産地のスケール感<span class="credit">Photo: Andrew Abbott / CC BY-SA 2.0</span></figcaption>
+</figure>
+
 スペイサイドの代表的な蒸溜所として、グレンリベット（The Glenlivet）、グレンフィディック（Glenfiddich）、マッカラン（The Macallan）が挙げられます。名前は知っていても、どこが違うのか曖昧なまま選んでしまう人は少なくありません。ここでは、ブリーフで確認できる特徴をもとに、入門用の2本を比較します。
 
 | 製品 | 確認できる特徴 | 向いている人 | 参考リンク |
 |---|---|---|---|
 | ザ・グレンリベット 12年 | スペイサイドの基準となる華やかでフルーティーな代表銘柄 | 軽やかで飲みやすいスペイサイドの入口を探したい人 | [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B001TZCQA4?tag=nakimoto1-22) |
 | ザ・マッカラン 12年 シェリーオーク | シェリー樽熟成によるリッチな甘みと重厚感 | 熟成樽由来のコクや甘い香りを楽しみたい人 | [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B001TZDQ88?tag=nakimoto1-22) |
-
-<figure class="photo photo--right">
-<a href="https://commons.wikimedia.org/wiki/File:Buildings_at_the_Macallan_Distillery_-_geograph-3237451-by-Andrew-Abbott.jpg" target="_blank" rel="noopener nofollow"><img src="/images/speyside-whisky/c2.jpg" alt="スペイサイドにあるマッカラン蒸溜所の建物" width="220" height="150" loading="lazy"></a>
-<figcaption>蒸溜所の建物が示す産地のスケール感<span class="credit">Photo: Andrew Abbott / CC BY-SA 2.0</span></figcaption>
-</figure>
 
 ザ・グレンリベット 12年は、スペイサイドの華やかでフルーティーな側面を知るための基準になりやすい一本です。最初の一杯として選ぶ場合、強い個性よりも産地の輪郭をつかめるかどうかが重要になります。香りの方向性がわかりやすいボトルは、次に何を試すかを決める基準にもなります。
 

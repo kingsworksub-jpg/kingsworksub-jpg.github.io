@@ -19,6 +19,11 @@ Pythonプロジェクトの規模が大きくなるほど、コード品質を�
 
 ## Ruffが選ばれる理由と従来ツールとの違い
 
+<figure class="photo photo--left">
+<a href="https://commons.wikimedia.org/wiki/File:Example_HTML_code_using_Notepad%2B%2B.png" target="_blank" rel="noopener"><img src="/images/ruff-migration/img1.jpg" alt="コードエディタ上のソースコード表示イメージ" width="220" height="150" loading="lazy"></a>
+<figcaption>単一のツールへ設定を集約することで可読性と保守性が向上します<span class="credit">Photo: Skyhigh278 / CC BY 4.0</span></figcaption>
+</figure>
+
 Ruffが急速に普及している最大の理由は、実行速度とツール統合の両立にあります。Rustで実装された単一バイナリとして提供されており、Pythonインタプリタ上で動く従来ツールとは処理アーキテクチャそのものが異なります。大規模なリポジトリであっても、ローカル開発やCIの待ち時間を大幅に短縮できるのが強みです。
 
 機能面では、これまで別々に管理していた複数の役割を1本に集約できます。リンターとしてのチェックと自動修正に加え、`ruff format` コマンドを使えばBlackと完全な互換性を持つコード整形を実行可能です。さらにインポート文の並び替えもRuffのルール群に含まれているため、isortを別途インストールする必要がありません。
@@ -33,11 +38,6 @@ Ruffが急速に普及している最大の理由は、実行速度とツール�
 | 静的解析（Lint） | Flake8本体と多数の外部プラグインが必要 | 組み込みルールで主要プラグイン相当を網羅 |
 | インポート整理 | isortを別途設定・実行 | Lintの `I` ルール（isort互換）で統合 |
 | 設定ファイル | `.flake8` / `setup.cfg` / `pyproject.toml` に分散 | `pyproject.toml`（または `ruff.toml`）に集約 |
-
-<figure class="photo photo--left">
-<a href="https://commons.wikimedia.org/wiki/File:Example_HTML_code_using_Notepad%2B%2B.png" target="_blank" rel="noopener"><img src="/images/ruff-migration/img1.jpg" alt="コードエディタ上のソースコード表示イメージ" width="220" height="150" loading="lazy"></a>
-<figcaption>単一のツールへ設定を集約することで可読性と保守性が向上します<span class="credit">Photo: Skyhigh278 / CC BY 4.0</span></figcaption>
-</figure>
 
 従来環境から乗り換える際、既存のフォーマット結果が大きく崩れないか不安に感じる開発者も少なくありません。RuffのフォーマッタはBlackとの互換性を重視して設計されているため、既存のBlack適用済みコードに対して大きな差分を出しにくい特性があります。まずは現状の構成を棚卸ししたうえで、段階的に置き換える計画を立てるのが安全です。
 

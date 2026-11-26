@@ -11390,5 +11390,27 @@
       "hugo未導入でビルド未確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T09:00:00Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "ruff-black-flake8-migration-guide-2026",
+      "speyside-whisky-valley-history-2026"
+    ],
+    "actions": [
+      "表の直後にあったfigureを該当H2直後へ移動し本文の回り込みを成立"
+    ],
+    "files_changed": [
+      "content/posts/ruff-black-flake8-migration-guide-2026.md",
+      "content/posts/speyside-whisky-valley-history-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残りfigure配置確認候補: jazz-standard-memorization-guide,jazz-style-fashion-revival(48行目),passkey-authentication(見出し外配置)",
+      "jazz-festivals/jazz-shoesは点検の結果ルール適合",
+      "hugo未導入でビルド未確認"
+    ],
+    "status": "完了"
   }
 ]
