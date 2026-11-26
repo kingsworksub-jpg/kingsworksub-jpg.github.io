@@ -1,0 +1,16 @@
+{
+ "/images/ddr5-ram-daw/img1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg/960px-Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "ITEagle Europe - Sebastiaan Broekhoven",
+  "title": ""
+ },
+ "/images/ddr5-ram-daw/img2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SK_Hynix_DDR5_form_factors.jpg/960px-SK_Hynix_DDR5_form_factors.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SK_Hynix_DDR5_form_factors.jpg",
+  "license": "CC BY 4.0",
+  "author": "4300streetcar",
+  "title": ""
+ }
+}
