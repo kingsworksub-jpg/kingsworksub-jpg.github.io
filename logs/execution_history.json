@@ -11249,5 +11249,25 @@
       "ローカルで seo-audit.py --check-links を実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-26T01:53:40Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ai-riemann-hypothesis-verification-2026"
+    ],
+    "actions": [
+      "全公開記事のfigure配置(見出し直後ルール)・左右交互・H2数・description長を機械点検。違反はこの1記事のみ",
+      "figureが見出しの直前に置かれていた2箇所を見出し直後に移動(本文の回り込み化)",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "content/posts/ai-riemann-hypothesis-verification-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルで seo-audit.py --check-links を実施"
+    ],
+    "status": "完了"
   }
 ]

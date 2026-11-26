@@ -17,12 +17,12 @@ AnthropicのClaudeをはじめとする大規模なAIモデルが、数学の未
 
 本記事では、AIが数学の難問を解いた、あるいは言及したとする報道に接した際、技術検証や個人備忘録の観点から一次情報をどのように確かめるべきかを整理します。研究論文と報道の違いを踏まえ、前提条件と出力内容を分解して評価するための具体的な確認手順をまとめました。
 
+## 1. リーマン予想とは何か：AIが「解いた」とされる報道の重み
+
 <figure class="photo photo--left">
 <a href="https://commons.wikimedia.org/wiki/File:Backlit_MacBook_Pro_keyboard.jpg" target="_blank" rel="noopener"><img src="/images/ai-riemann/backlit-macbook-pro-keyboard.jpg" alt="一次情報の確認と論理検証を行う作業環境のイメージ" width="220" height="150" loading="lazy"></a>
 <figcaption>一次情報の確認作業に使うキーボード<span class="credit">Photo: Eugene Alvin Villar (seav) / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-## 1. リーマン予想とは何か：AIが「解いた」とされる報道の重み
 
 リーマン予想は数論における極めて重要な未解決問題であり、長年にわたり多くの数学者が挑み続けているテーマです。その重要性から、この問題に対して何らかの進展があったという話題は、学術界にとどまらず科学ニュースの領域でも強い関心を集めます。
 
@@ -66,12 +66,12 @@ AIに関する研究成果や話題が世に出るとき、情報の性質は公
 
 これらの確認を通じて、「特定の仮定の下で出力を生成した記録」なのか、「未解決問題の証明として学術的に成立する記録」なのかを切り分けることができます。特に「言及した」と「証明した」の境界線は、技術的な議論において決して曖昧にしてはならないポイントです。
 
+## 4. AI出力に潜むハルシネーションと論理の厳密性
+
 <figure class="photo photo--right">
 <a href="https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg" target="_blank" rel="noopener"><img src="/images/ai-riemann/backlit-keyboard.jpg" alt="技術検証やメモの記録を行うバックライト付きキーボード" width="220" height="150" loading="lazy"></a>
 <figcaption>検証プロセスを記録するための入力環境<span class="credit">Photo: Colin / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-## 4. AI出力に潜むハルシネーションと論理の厳密性
 
 現代のAIモデルは、数式や専門用語を交えた高度な論理展開を流暢に出力する能力を備えています。一見すると専門家が書いた論文の草稿と見分けがつかないほど整った文章や証明風のステップを提示することもあるため、見た目だけで正しさを判断するのは危険です。
 
