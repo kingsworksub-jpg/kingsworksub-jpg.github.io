@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:26:04+09:00",
+ "updated": "2026-11-27T04:30:41+09:00",
  "items": [
   {
    "category": "gear",
@@ -15395,6 +15395,2609 @@
    "slot_time": "21:30",
    "slot_label": "夜ピーク: ウイスキー/音楽/酒器",
    "last_error": "Channel mismatch: anime category"
+  },
+  {
+   "category": "drink-lab",
+   "new_category": null,
+   "theme": "エナジードリンクのカフェイン量を比べる、1日400mgの目安と表示の読み方",
+   "angle": "製品のカフェイン含有量を一覧し、成人の摂取目安と缶の表示との対応を整理する。飲み比べではなく数字で選ぶ視点。",
+   "article_type": "comparison",
+   "keywords": [
+    "エナジードリンク カフェイン",
+    "カフェイン 400mg",
+    "飲料 成分表示"
+   ],
+   "subjects": [
+    {
+     "name": "エナジードリンク",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://efsa.europa.eu/en/topics/topic/caffeine",
+    "https://en.wikipedia.org/wiki/Energy_drink",
+    "https://en.wikipedia.org/wiki/Caffeine"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Battery_Energy_Drink-can-bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Battery_Energy_Drink-can-bottle.jpg",
+     "license": "Public domain",
+     "author": "Juice79"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Can_of_Monster_Energy_drink_sold_in_China_%280.33_l%29%2C_on_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Can_of_Monster_Energy_drink_sold_in_China_(0.33_l),_on_white_background.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "File:Monster Energy sold in China.jpg: Bxxiaolin\nderivative "
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 8,
+    "total": 83
+   },
+   "id": "2026w48-001",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "Splice CreateはどこまでDAWなのか、サンプル起点の作曲フローを検証",
+   "angle": "膨大なサンプル库とAIエージェントを備えたSplice Createの作曲手順を、従来のDAWとの違いから整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "Splice Create DAW",
+    "サンプル 作曲 AI",
+    "AIエージェント 音楽制作"
+   ],
+   "subjects": [
+    {
+     "name": "Splice Create",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://sleepfreaks-dtm.com/dtm-materials/splice-create/",
+    "https://splice.com/",
+    "https://www.synthtopia.com/"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ardour-screenshot-big.png/960px-Ardour-screenshot-big.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ardour-screenshot-big.png",
+     "license": "GPL",
+     "author": "www.ardour.org"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Audiovisualstudio.jpg/960px-Audiovisualstudio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Audiovisualstudio.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Oscar"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 7,
+    "amazon": 0,
+    "total": 77
+   },
+   "id": "2026w48-002",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "software",
+   "new_category": null,
+   "theme": "u-he Zebra 3の設計を読み解く、モジュラー式ソフトシンセの現在地",
+   "angle": "多年ぶりの大中型アップデートとなったZebra 3のモジュール構成を、初めて触る人にも分かる形で整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "u-he Zebra 3",
+    "モジュラーシンセ ソフト",
+    "Zebra 3 新機能"
+   ],
+   "subjects": [
+    {
+     "name": "u-he Zebra 3",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-tech/soft-synths/u-he-zebra-3-review",
+    "https://u-he.com/products/zebra3",
+    "https://en.wikipedia.org/wiki/Modular_synthesizer"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1973_Moog_modular_synthesizer.jpg/960px-1973_Moog_modular_synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1973_Moog_modular_synthesizer.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Attila Szász"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Doepfer_A-100_Analog_Modular_System_Synthesizer.svg/960px-Doepfer_A-100_Analog_Modular_System_Synthesizer.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Doepfer_A-100_Analog_Modular_System_Synthesizer.svg",
+     "license": "CC0",
+     "author": "Mani Vieregg"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 8,
+    "amazon": 0,
+    "total": 78
+   },
+   "id": "2026w48-003",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "GEEKOM A9 Maxでソフトシンセ200基は本当に鳴るのか、小型PCのDAW負荷を測る",
+   "angle": "手のひらサイズのRyzen AI 9搭載PCで、実際に同時発音数とレイテンシを測り、宅録向きかどうかを判断する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "GEEKOM A9 Max",
+    "ミニPC ソフトシンセ",
+    "DAW レイテンシ"
+   ],
+   "subjects": [
+    {
+     "name": "GEEKOM A9 Max",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.dtmstation.com/archives/82199.html",
+    "https://geekompc.com/geekom-a9-max-mini-pc",
+    "https://en.wikipedia.org/wiki/Mini_PC"
+   ],
+   "source_of_idea": "news",
+   "season": 10,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/20200330_104316_Fujitsu_ESPRIMO_mini_PC.jpg/960px-20200330_104316_Fujitsu_ESPRIMO_mini_PC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:20200330_104316_Fujitsu_ESPRIMO_mini_PC.jpg",
+     "license": "CC0",
+     "author": "Rakoon"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Antec_ISK110_mini-PC.JPG/960px-Antec_ISK110_mini-PC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Antec_ISK110_mini-PC.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Nemo bis"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 10,
+    "demand": 7,
+    "amazon": 8,
+    "total": 90
+   },
+   "id": "2026w48-004",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "setup",
+   "new_category": null,
+   "theme": "冬のデスク環境、暖房の熱と機材の結露をどう分けるか",
+   "angle": "室温と湿度の変化が機材に与える影響を整理し、冬の制作環境で結露・静電気を防ぐ配置を考える。",
+   "article_type": "guide",
+   "keywords": [
+    "冬 DTM 環境 結露",
+    "室内湿度 機材",
+    "暖房 デスク 配置"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Condensation",
+    "https://en.wikipedia.org/wiki/Relative_humidity",
+    "https://en.wikipedia.org/wiki/Static_electricity"
+   ],
+   "source_of_idea": "calendar",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2022-10-01_09_14_58_A_heart_drawn_in_the_condensation_on_a_window_at_the_Hampton_Inn_%26_Suites_Albany_in_Albany%2C_Albany_County%2C_New_York.jpg/960px-2022-10-01_09_14_58_A_heart_drawn_in_the_condensation_on_a_window_at_the_Hampton_Inn_%26_Suites_Albany_in_Albany%2C_Albany_County%2C_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2022-10-01_09_14_58_A_heart_drawn_in_the_condensation_on_a_window_at_the_Hampton_Inn_%26_Suites_Albany_in_Albany,_Albany_County,_New_York.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Famartin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Angry-face-window-condensation-2021-Apr.jpg/960px-Angry-face-window-condensation-2021-Apr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Angry-face-window-condensation-2021-Apr.jpg",
+     "license": "CC BY 2.5",
+     "author": "Doggo19292"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 7,
+    "amazon": 5,
+    "total": 92
+   },
+   "id": "2026w48-005",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "冬のブラッドオレンジ・カクテル、酸味を活かす3つの割り方",
+   "angle": "冬に出回るブラッドオレンジの酸味と甘みを活かす、短いレシピ3本を工程写真つきで紹介する。",
+   "article_type": "theme",
+   "keywords": [
+    "ブラッドオレンジ カクテル",
+    "冬のカクテル レシピ",
+    "柑橘 割り方"
+   ],
+   "subjects": [
+    {
+     "name": "ブラッドオレンジ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://imbibemagazine.com/blood-orange-cocktails-to-brighten-winter-nights/",
+    "https://en.wikipedia.org/wiki/Blood_orange",
+    "https://en.wikipedia.org/wiki/Cocktail"
+   ],
+   "source_of_idea": "news",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Through_a_Glass_Lightly_%281897%2C_Greg%29.djvu/page1-960px-Through_a_Glass_Lightly_%281897%2C_Greg%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Through_a_Glass_Lightly_(1897,_Greg).djvu",
+     "license": "Public domain",
+     "author": "Thomas Tylston Greg"
+    },
+    {
+     "url": "https://live.staticflickr.com/3644/3646913262_d8d006ef02_b.jpg",
+     "page": "https://www.flickr.com/photos/75921150@N00/3646913262",
+     "license": "BY 2.0",
+     "author": "AVID Vines"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 8,
+    "amazon": 5,
+    "total": 93
+   },
+   "id": "2026w48-006",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink-recipe",
+   "new_category": null,
+   "theme": "ホット・ワインを家で作る、赤ワインとスパイスの配合を設計する",
+   "angle": "市販のホットワインを参考に、スパイスと甘味の配合を自分で組み立てる手順を短くまとめる。",
+   "article_type": "guide",
+   "keywords": [
+    "ホットワイン 作り方",
+    "スパイス ワイン 比率",
+    "冬 家飲み"
+   ],
+   "subjects": [
+    {
+     "name": "赤ワイン",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mulled_wine",
+    "https://en.wikipedia.org/wiki/Gl%C3%BChwein",
+    "https://en.wikipedia.org/wiki/Spice"
+   ],
+   "source_of_idea": "calendar",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Gingerbread_house_and_mulled_wine_-_Flickr_-_35mmMan.jpg/960px-Gingerbread_house_and_mulled_wine_-_Flickr_-_35mmMan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gingerbread_house_and_mulled_wine_-_Flickr_-_35mmMan.jpg",
+     "license": "CC BY 2.0",
+     "author": "35mmMan"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Gl%C3%BChwein-Zubereitung.JPG/960px-Gl%C3%BChwein-Zubereitung.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein-Zubereitung.JPG",
+     "license": "CC0",
+     "author": "Angela Huster"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 5,
+    "total": 94
+   },
+   "id": "2026w48-007",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Ankerの窓貼り防犯カメラは実用的か、窓越しの赤外線と反射を検証",
+   "angle": "窓に貼るだけで使うというAnkerの新カメラについて、設置条件・夜間撮影・反射の問題を実機で確かめる。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Anker 防犯カメラ 窓",
+    "窓貼り カメラ",
+    "防犯カメラ 赤外線"
+   ],
+   "subjects": [
+    {
+     "name": "Anker 窓用防犯カメラ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.lifehacker.jp/article/2611-anker-window-security-camera/",
+    "https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision",
+    "https://en.wikipedia.org/wiki/Security_camera"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2026_Twin_Falls_shooting_payment_window_CCTV_still.webp/960px-2026_Twin_Falls_shooting_payment_window_CCTV_still.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2026_Twin_Falls_shooting_payment_window_CCTV_still.webp",
+     "license": "Public domain",
+     "author": "UnknownUnknown"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Broken_window%2C_Strabane%2C_January_2010.JPG/960px-Broken_window%2C_Strabane%2C_January_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Broken_window,_Strabane,_January_2010.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "Ardfern"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 8,
+    "amazon": 10,
+    "total": 88
+   },
+   "id": "2026w48-008",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "tech",
+   "new_category": null,
+   "theme": "Google Pixelのアダプティブ充電を設定する、充電速度とバッテリー寿命の関係",
+   "angle": "Pixelのアダプティブ充電がいつ働くかを整理し、便利さと劣化のバランスをどう取るかを説明する。",
+   "article_type": "guide",
+   "keywords": [
+    "Pixel アダプティブ充電",
+    "バッテリー寿命 充電",
+    "Google Pixel 設定"
+   ],
+   "subjects": [
+    {
+     "name": "Google Pixel",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.lifehacker.jp/article/2611-pixel-battery-lasts-longer-adaptive-battery-charging/",
+    "https://support.google.com/pixelphone/answer/14853368?hl=en",
+    "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+   ],
+   "source_of_idea": "news",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Back_Smartphone_The_realme_16_Pro_2026-08-11_Titan_battery_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Back_Smartphone_The_realme_16_Pro_2026-08-11_Titan_battery_03.jpg",
+     "license": "CC BY 4.0",
+     "author": "P1898"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Back_side_OPPO_Reno15_2026-08-10_smartphone_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Back_side_OPPO_Reno15_2026-08-10_smartphone_03.jpg",
+     "license": "CC BY 4.0",
+     "author": "P1898"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 10,
+    "total": 84
+   },
+   "id": "2026w48-009",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "Booker's Batch #3 The Southern Thunderを読む、バッチ表記と度数の意味",
+   "angle": "新しいバッチの発表を手がかりに、Booker'sのバッチ番号・熟成年数・カスクストレングス表示の読み方を整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Booker's Batch 2026",
+    "バーボン バッチ",
+    "カスクストレングス"
+   ],
+   "subjects": [
+    {
+     "name": "Booker's Bourbon",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.whiskyintelligence.com/2026/11/new-bookers-batch-3-the-southern-thunder-batch-american-whiskey-news/",
+    "https://whiskyadvocate.com/new-whiskeys-from-bookers-jack-daniels-and-more",
+    "https://en.wikipedia.org/wiki/Bourbon_whiskey"
+   ],
+   "source_of_idea": "news",
+   "season": 10,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/1940s_bourbon_whiskey_bottles.jpg/960px-1940s_bourbon_whiskey_bottles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1940s_bourbon_whiskey_bottles.jpg",
+     "license": "CC BY 3.0",
+     "author": "Yourmanstan at English Wikipedia"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/A_bottle_of_Trey_Herring%27s_Carolina_Bourbon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:A_bottle_of_Trey_Herring%27s_Carolina_Bourbon.png",
+     "license": "CC BY-SA 4.0",
+     "author": "Catalin Siclitaru"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 10,
+    "demand": 7,
+    "amazon": 8,
+    "total": 90
+   },
+   "id": "2026w48-010",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "whisky",
+   "new_category": null,
+   "theme": "Cotswolds Signatureが£36に、イングリッシュ・ウイスキーの価格帯を考える",
+   "angle": "手頃な価格になったシングルモルトを例に、イングリッシュ・ウイスキーの原料・熟成と価格の関係を考える。",
+   "article_type": "theme",
+   "keywords": [
+    "Cotswolds シングルモルト",
+    "イングリッシュウイスキー",
+    "ウイスキー 価格帯"
+   ],
+   "subjects": [
+    {
+     "name": "Cotswolds Distillery",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.whiskyintelligence.com/2026/11/cotswolds-distillery-signature-single-malt-now-36-english-whisky-news/",
+    "https://cotswoldsdistillery.com/",
+    "https://en.wikipedia.org/wiki/English_whisky"
+   ],
+   "source_of_idea": "news",
+   "season": 10,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/English_whisky_distilleries_%28pie_chart%29.jpg/960px-English_whisky_distilleries_%28pie_chart%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:English_whisky_distilleries_(pie_chart).jpg",
+     "license": "CC BY 4.0",
+     "author": "ChefBear01"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/English_whisky_distilleries_growth_%281st-7th_Ed%29.jpg/960px-English_whisky_distilleries_growth_%281st-7th_Ed%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:English_whisky_distilleries_growth_(1st-7th_Ed).jpg",
+     "license": "CC BY 4.0",
+     "author": "ChefBear01"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 10,
+    "demand": 6,
+    "amazon": 8,
+    "total": 89
+   },
+   "id": "2026w48-011",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ジンジャーエールとジンジャービールはどう違う、原料と発酵から読む",
+   "angle": "似て非なる2つのジンジャー飲料を、生姜の使い方・甘味・炭酸・発酵の有無から比較する。",
+   "article_type": "comparison",
+   "keywords": [
+    "ジンジャーエール 違い",
+    "ジンジャービール 発酵",
+    "生姜 飲料"
+   ],
+   "subjects": [
+    {
+     "name": "ジンジャーエール",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "ジンジャービール",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ginger_beer",
+    "https://en.wikipedia.org/wiki/Ginger_ale",
+    "https://en.wikipedia.org/wiki/Ginger"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bottle%2C_aerated_water_%28AM_2014.24.16-1%29.jpg/960px-Bottle%2C_aerated_water_%28AM_2014.24.16-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle,_aerated_water_(AM_2014.24.16-1).jpg",
+     "license": "CC BY 4.0",
+     "author": "Grey &amp; Menzies Ltd; Kilner Bros. Ltd."
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bottle%2C_aerated_water_%28AM_2014.24.16-2%29.jpg/960px-Bottle%2C_aerated_water_%28AM_2014.24.16-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle,_aerated_water_(AM_2014.24.16-2).jpg",
+     "license": "CC BY 4.0",
+     "author": "Grey &amp; Menzies Ltd; Kilner Bros. Ltd."
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 8,
+    "total": 82
+   },
+   "id": "2026w48-012",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink",
+   "new_category": null,
+   "theme": "ミネラルウォーターの硬度表示、軟水と硬水を味わいから選ぶ",
+   "angle": "ラベルに並ぶ硬度・カルシウム・マグネシウムの数値を読み、料理や淹れものに合う水の選び方を示す。",
+   "article_type": "guide",
+   "keywords": [
+    "ミネラルウォーター 硬度",
+    "軟水 硬水 味",
+    "水 選び方"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mineral_water",
+    "https://en.wikipedia.org/wiki/Hard_water",
+    "https://en.wikipedia.org/wiki/Drinking_water"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bottle%2C_mineral_water_%28AM_629708%29.jpg/960px-Bottle%2C_mineral_water_%28AM_629708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottle,_mineral_water_(AM_629708).jpg",
+     "license": "CC BY 4.0",
+     "author": ""
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Bottles_of_Llanllyr_mineral_water.jpg/960px-Bottles_of_Llanllyr_mineral_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bottles_of_Llanllyr_mineral_water.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Vouliagmeni"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 8,
+    "total": 82
+   },
+   "id": "2026w48-013",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "津軽びいどろのぐい呑み、色使いが冷酒の見え方を変える",
+   "angle": "青森のガラス工芸・津軽びいどろの色彩と文様を、冷酒を注いだときの見え方と一緒に紹介する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "津軽びいどろ ぐい呑み",
+    "津軽琉璃",
+    "ガラス 酒器"
+   ],
+   "subjects": [
+    {
+     "name": "津軽びいどろ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://tsugaruvidro.jp/item/pickup/pickup017.html",
+    "https://en.wikipedia.org/wiki/Aomori_Prefecture",
+    "https://en.wikipedia.org/wiki/Glassblowing"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2026-04-14_Cat_seen_through_a_glass_cup_%28%E3%82%AC%E3%83%A9%E3%82%B9%E3%82%B3%E3%83%83%E3%83%97%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AB%E6%98%A0%E3%82%8B%E7%8C%AB%29DSCF5967.jpg/960px-2026-04-14_Cat_seen_through_a_glass_cup_%28%E3%82%AC%E3%83%A9%E3%82%B9%E3%82%B3%E3%83%83%E3%83%97%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AB%E6%98%A0%E3%82%8B%E7%8C%AB%29DSCF5967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2026-04-14_Cat_seen_through_a_glass_cup_(%E3%82%AC%E3%83%A9%E3%82%B9%E3%82%B3%E3%83%83%E3%83%97%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AB%E6%98%A0%E3%82%8B%E7%8C%AB)DSCF5967.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "明芳 松岡"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Cup_and_saucer_from_Japan%2C_c._1910-20%2C_Honolulu_Museum_of_Art_7592.1-12.JPG/960px-Cup_and_saucer_from_Japan%2C_c._1910-20%2C_Honolulu_Museum_of_Art_7592.1-12.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cup_and_saucer_from_Japan,_c._1910-20,_Honolulu_Museum_of_Art_7592.1-12.JPG",
+     "license": "CC0",
+     "author": "Hiart"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 6,
+    "amazon": 8,
+    "total": 84
+   },
+   "id": "2026w48-014",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "sakeware",
+   "new_category": null,
+   "theme": "江戸切子のカットが光を変える、冷酒を注ぐ前の下準備",
+   "angle": "江戸切子の代表的な文様とカットの工程を整理し、冷酒を注いだときの光の屈折をどう楽しむかを考える。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "江戸切子 ぐい呑み",
+    "切子 加工",
+    "ガラス 工芸"
+   ],
+   "subjects": [
+    {
+     "name": "江戸切子",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%B1%9F%E6%88%B8%E5%88%87%E5%AD%90",
+    "https://en.wikipedia.org/wiki/Cut_glass",
+    "https://en.wikipedia.org/wiki/Edo_period"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Edo-Kiriko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edo-Kiriko.JPG",
+     "license": "Public domain",
+     "author": "User: (WT-shared) Shoestring at  wts wikivoyage"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Edokiriko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Edokiriko.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "user: TCK-hp"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 7,
+    "amazon": 8,
+    "total": 85
+   },
+   "id": "2026w48-015",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ダッフルコートのトグルとフード、軍用から普段着へ変わった道筋",
+   "angle": "英国海軍の防寒着に由来するダッフルコートの構造を、トグル・フード・生地から読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "ダッフルコート 歴史",
+    "トグル ボタン",
+    "ミリタリー コート"
+   ],
+   "subjects": [
+    {
+     "name": "ダッフルコート",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Duffle_coat",
+    "https://en.wikipedia.org/wiki/Royal_Navy",
+    "https://en.wikipedia.org/wiki/Wool"
+   ],
+   "source_of_idea": "matrix",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/1910.304_-_Beggar_with_a_Duffle_Coat_%28Philosopher%29.jpg/960px-1910.304_-_Beggar_with_a_Duffle_Coat_%28Philosopher%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1910.304_-_Beggar_with_a_Duffle_Coat_(Philosopher).jpg",
+     "license": "Public domain",
+     "author": "Édouard Manet"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Attaches_de_duffle-coat.jpg/960px-Attaches_de_duffle-coat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "DocteurCosmos"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 10,
+    "total": 99
+   },
+   "id": "2026w48-016",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "ニット帽の形と素材、ウールとアクリルで何が違うのか",
+   "angle": "冬の定番・ニット帽について、編み方・素材・フィットの違いを比較して選び方の軸を示す。",
+   "article_type": "comparison",
+   "keywords": [
+    "ニット帽 素材",
+    "ウール アクリル 違い",
+    "ビーニー 選び方"
+   ],
+   "subjects": [
+    {
+     "name": "ニット帽",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Beanie",
+    "https://en.wikipedia.org/wiki/Knitting",
+    "https://en.wikipedia.org/wiki/Wool"
+   ],
+   "source_of_idea": "matrix",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Akita_inu_in_hat.jpg/960px-Akita_inu_in_hat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Akita_inu_in_hat.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Keiko don95"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Beanie_hat_by_Polo_Ralph_Lauren.jpg/960px-Beanie_hat_by_Polo_Ralph_Lauren.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beanie_hat_by_Polo_Ralph_Lauren.jpg",
+     "license": "CC BY 2.0",
+     "author": "Menswear Market"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 8,
+    "amazon": 10,
+    "total": 98
+   },
+   "id": "2026w48-017",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "fashion",
+   "new_category": null,
+   "theme": "手袋は革とニットで何が違う、冬の道具としての選び分け",
+   "angle": "革手袋とニット手袋を、防風性・保温性・指の動かしやすさで比較し、用途ごとの選び方を示す。",
+   "article_type": "comparison",
+   "keywords": [
+    "手袋 革 ニット",
+    "冬 手袋 選び方",
+    "防寒 グローブ"
+   ],
+   "subjects": [
+    {
+     "name": "手袋",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Glove",
+    "https://en.wikipedia.org/wiki/Leather",
+    "https://en.wikipedia.org/wiki/Winter_clothing"
+   ],
+   "source_of_idea": "matrix",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/A_woman_drinking_coffee_outdoors_%2838133778104%29.jpg/960px-A_woman_drinking_coffee_outdoors_%2838133778104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_woman_drinking_coffee_outdoors_(38133778104).jpg",
+     "license": "CC0",
+     "author": "freestocks.org from Olsztyn, Poland"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Finnish_singer_Katri_Helena_in_winter_1978_%28JOKAOM13HeD_KHE06-1%29.tif/lossy-page1-960px-Finnish_singer_Katri_Helena_in_winter_1978_%28JOKAOM13HeD_KHE06-1%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Finnish_singer_Katri_Helena_in_winter_1978_(JOKAOM13HeD_KHE06-1).tif",
+     "license": "CC BY 4.0",
+     "author": "Kari Santala"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 8,
+    "amazon": 10,
+    "total": 98
+   },
+   "id": "2026w48-018",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "Michael Gilesのリズム感、King Crimson初期の拍を組み立てたドラマー",
+   "angle": "初代ドラマーの独特な拍の感覚が『In the Court of the Crimson King』の緊張感をどう生んだかを考える。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Michael Giles ドラム",
+    "King Crimson 初代",
+    "プログレ リズム"
+   ],
+   "subjects": [
+    {
+     "name": "Michael Giles",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "King Crimson",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/artists/drummers/michael-giles-original-king-crimson-drummer-has-died-his-extraordinary-rhythmic-imagination-musical-sensitivity-and-highly-inventive-approach-to-drumming-were-fundamental-to-the-bands-pioneering-sound",
+    "https://en.wikipedia.org/wiki/Michael_Giles",
+    "https://en.wikipedia.org/wiki/In_the_Court_of_the_Crimson_King"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Antonio_Sanchez.jpg/960px-Antonio_Sanchez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Antonio_Sanchez.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Geneviève Ruocco The Hague, NL"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Antonio_S%C3%A1nchez_%26_Migration%2C_LantarenVenster_Rotterdam_11_januari_2019_-_Antonio_S%C3%A1nchez_%2851435708902%29.jpg/960px-Antonio_S%C3%A1nchez_%26_Migration%2C_LantarenVenster_Rotterdam_11_januari_2019_-_Antonio_S%C3%A1nchez_%2851435708902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Antonio_S%C3%A1nchez_%26_Migration,_LantarenVenster_Rotterdam_11_januari_2019_-_Antonio_S%C3%A1nchez_(51435708902).jpg",
+     "license": "CC BY 2.0",
+     "author": "Dirk Neven"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 7,
+    "amazon": 8,
+    "total": 85
+   },
+   "id": "2026w48-019",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "Blue NoteのTone Poetシリーズとは、音質と選曲の基準を読み解く",
+   "angle": "オーディオファイル向け再発シリーズの狙いを、マスタリング・選曲・ジャケット設計から整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "Tone Poet シリーズ",
+    "Blue Note 再発",
+    "ジャズ リマスター"
+   ],
+   "subjects": [
+    {
+     "name": "Blue Note Records",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.bluenote.com/",
+    "https://en.wikipedia.org/wiki/Blue_Note_Records",
+    "https://en.wikipedia.org/wiki/Audiophile"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bennycarterpatienceandfortitude.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Bennycarterpatienceandfortitude.jpg",
+     "license": "Public domain",
+     "author": "Freimut Bahlo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Concord_Jazz_record.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Concord_Jazz_record.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Samarkandus"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 8,
+    "amazon": 8,
+    "total": 86
+   },
+   "id": "2026w48-020",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "jazz",
+   "new_category": null,
+   "theme": "クールジャズの輪郭、Gerry MulliganとChet Bakerのサウンド",
+   "angle": "1950年代の西海岸で生まれたクールジャズを、2人の演奏と編成から分かりやすく整理する。",
+   "article_type": "theme",
+   "keywords": [
+    "クールジャズ 入門",
+    "Gerry Mulligan",
+    "Chet Baker"
+   ],
+   "subjects": [
+    {
+     "name": "Gerry Mulligan",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Chet Baker",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cool_jazz",
+    "https://en.wikipedia.org/wiki/Gerry_Mulligan",
+    "https://en.wikipedia.org/wiki/Chet_Baker"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/AdamovichCool.jpg/960px-AdamovichCool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AdamovichCool.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "PeterAdamovich"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/AdamovichCoolJazz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:AdamovichCoolJazz.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "PeterAdamovich"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 8,
+    "total": 82
+   },
+   "id": "2026w48-021",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink-tools",
+   "new_category": null,
+   "theme": "氷の形で融解速度はどれだけ変わるか、製氷型を比べる",
+   "angle": "角氷・球氷・クラッシュアイスの表面積の差を、実際の融け方と飲み疲れしにくさに翻訳する。",
+   "article_type": "comparison",
+   "keywords": [
+    "氷 形 融解",
+    "球氷 角氷 比較",
+    "製氷型"
+   ],
+   "subjects": [
+    {
+     "name": "製氷型",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ice",
+    "https://en.wikipedia.org/wiki/Freezing",
+    "https://en.wikipedia.org/wiki/Heat_transfer"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chilling_Dauvissat_wine_an_ice_bath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Chilling_Dauvissat_wine_an_ice_bath.jpg",
+     "license": "CC BY 2.0",
+     "author": "e_calamar"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Glass_of_Cola.jpg/960px-Glass_of_Cola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Glass_of_Cola.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Cocktailmarler"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 9,
+    "amazon": 10,
+    "total": 89
+   },
+   "id": "2026w48-022",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "Andy Taylorが残したギター、Duran Duranの80年代の音作り",
+   "angle": "ギタリストのプレイを手がかりに、80年代のギターサウンドがどう作られたかを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Andy Taylor ギター",
+    "Duran Duran 音作り",
+    "80年代 ギター"
+   ],
+   "subjects": [
+    {
+     "name": "Andy Taylor",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Duran Duran",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/artists/guitarists/his-playing-drove-the-songs-that-took-us-around-the-world-and-with-a-dry-wit-that-was-matched-only-by-his-wonderfully-unsentimental-no-nonsense-outlook-on-life-duran-duran-guitarist-andy-taylor-has-died-aged-65",
+    "https://www.bbc.com/news/articles/cmp3vk6vr44po",
+    "https://en.wikipedia.org/wiki/Andy_Taylor"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/0_Rockinger_electric_guitar_1980s_vintage.jpg/960px-0_Rockinger_electric_guitar_1980s_vintage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:0_Rockinger_electric_guitar_1980s_vintage.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elmschrat"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/0_Rockinger_electric_guitar_body_1980s_vintage.jpg/960px-0_Rockinger_electric_guitar_body_1980s_vintage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:0_Rockinger_electric_guitar_body_1980s_vintage.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Elmschrat"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 8,
+    "amazon": 8,
+    "total": 86
+   },
+   "id": "2026w48-023",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "KawaiとCasioの大型値引き、デジタルピアノ選びの基準を見直す",
+   "angle": "ブラックフライデーの大型値引きを機に、デジタルピアノで見るべき鍵盤・音源・スピーカーの軸を整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "デジタルピアノ 選び方",
+    "Kawai Casio 比較",
+    "電子ピアノ 価格"
+   ],
+   "subjects": [
+    {
+     "name": "デジタルピアノ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-tech/keyboards-pianos/this-black-friday-is-easily-the-best-ive-seen-for-piano-deals-2026",
+    "https://en.wikipedia.org/wiki/Digital_piano",
+    "https://en.wikipedia.org/wiki/Kawai"
+   ],
+   "source_of_idea": "news",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Central_part_of_keyboard_of_Boesendorfer_grand_piano_%28edited%29.jpg/960px-Central_part_of_keyboard_of_Boesendorfer_grand_piano_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Central_part_of_keyboard_of_Boesendorfer_grand_piano_(edited).jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Gryffindor"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Digital_piano_Yamaha_Clavinova.jpg/960px-Digital_piano_Yamaha_Clavinova.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Digital_piano_Yamaha_Clavinova.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Nancy from Los Angeles, USA"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 10,
+    "total": 99
+   },
+   "id": "2026w48-024",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "music",
+   "new_category": null,
+   "theme": "Tubbutec TR-8oh8がTR-808に何を足したか、名機の更新を読む",
+   "angle": "古典的なドラムマシーンにMIDIと新しいシーケンサーを加えた改造の内容を、オリジナルと比較する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "TR-8oh8 upgrade",
+    "Roland TR-808",
+    "ドラムマシン 改造"
+   ],
+   "subjects": [
+    {
+     "name": "TR-8oh8",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "Roland TR-808",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.synthtopia.com/content/2026/11/24/tubbutec-tr-8oh8-roland-tr-808-upgrade/",
+    "https://en.wikipedia.org/wiki/Roland_TR-808",
+    "https://en.wikipedia.org/wiki/Drum_machine"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Analogue_Solutions_808_mod.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Analogue_Solutions_808_mod.jpg",
+     "license": "CC BY 2.0",
+     "author": "Soma_Synthesizers.jpg: get directly down\nderivative work: Cl"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Roland_TR-808_%26_909.jpg/960px-Roland_TR-808_%26_909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Roland_TR-808_%26_909.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Brandon Daniel"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 6,
+    "amazon": 8,
+    "total": 84
+   },
+   "id": "2026w48-025",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "新雪の朝は音が消える、積雪が街の音を変える仕組み",
+   "angle": "雪が音を吸収する物理を手がかりに、冬の静けさがどんな条件で生まれるかを書く。",
+   "article_type": "theme",
+   "keywords": [
+    "雪 音 吸収",
+    "静けさ 冬",
+    "積雪 音響"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Snow",
+    "https://en.wikipedia.org/wiki/Sound_absorption",
+    "https://en.wikipedia.org/wiki/Acoustic_damping"
+   ],
+   "source_of_idea": "calendar",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Aspiration_in_the_snow_-_geograph.org.uk_-_4453859.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Aspiration_in_the_snow_-_geograph.org.uk_-_4453859.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "DS Pugh"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Snow-Bound_%281866%29.djvu/page1-960px-Snow-Bound_%281866%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Snow-Bound_(1866).djvu",
+     "license": "Public domain",
+     "author": "John Greenleaf Whittier"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 8,
+    "amazon": 0,
+    "total": 88
+   },
+   "id": "2026w48-026",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "essay",
+   "new_category": null,
+   "theme": "折りたたみ傘が紳士の持ち物になった道筋、雨の日の身支度",
+   "angle": "傘の歴史と折りたたみ機構の発達を、スーツ姿との相性という日本の文脈とともに書く。",
+   "article_type": "theme",
+   "keywords": [
+    "折りたたみ傘 歴史",
+    "傘 文化",
+    "雨の日 装い"
+   ],
+   "subjects": [
+    {
+     "name": "折りたたみ傘",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Umbrella",
+    "https://www.lifehacker.jp/article/machi-ya-umbrella16-start-993450/",
+    "https://en.wikipedia.org/wiki/Umbrella"
+   ],
+   "source_of_idea": "news",
+   "season": 10,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/An_inside_view_of_an_Umbrella%2C_%E0%B4%95%E0%B5%81%E0%B4%9F%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%89%E0%B5%BE%E0%B4%B5%E0%B4%B6%E0%B4%82.JPG/960px-An_inside_view_of_an_Umbrella%2C_%E0%B4%95%E0%B5%81%E0%B4%9F%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%89%E0%B5%BE%E0%B4%B5%E0%B4%B6%E0%B4%82.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:An_inside_view_of_an_Umbrella,_%E0%B4%95%E0%B5%81%E0%B4%9F%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%89%E0%B5%BE%E0%B4%B5%E0%B4%B6%E0%B4%82.JPG",
+     "license": "CC BY-SA 3.0",
+     "author": "കാക്കര"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Beige_and_brown_oil-paper_umbrella_on_the_edge_of_a_wooden_house_in_Luang_Prabang_Laos.jpg/960px-Beige_and_brown_oil-paper_umbrella_on_the_edge_of_a_wooden_house_in_Luang_Prabang_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beige_and_brown_oil-paper_umbrella_on_the_edge_of_a_wooden_house_in_Luang_Prabang_Laos.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Basile Morin"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 10,
+    "demand": 8,
+    "amazon": 10,
+    "total": 93
+   },
+   "id": "2026w48-027",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "『カサブランカ』を作った検閲と難民、ハリウッドが戦時中に描いた理想",
+   "angle": "制作時の検閲コードと上映事情を背景に、この古典がどう生まれたかを読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "カサブランカ 制作背景",
+    "ハリウッド 検閲",
+    "戦時中 映画"
+   ],
+   "subjects": [
+    {
+     "name": "Casablanca",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Casablanca_(film)",
+    "https://en.wikipedia.org/wiki/Hays_Code",
+    "https://en.wikipedia.org/wiki/World_War_II"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:CasablancaPoster-Gold.jpg",
+     "license": "Public domain",
+     "author": "Bill Gold"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/M%C3%A9moires_du_Baron_de_Marbot_-_tome_3.djvu/page1-960px-M%C3%A9moires_du_Baron_de_Marbot_-_tome_3.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9moires_du_Baron_de_Marbot_-_tome_3.djvu",
+     "license": "CC0",
+     "author": "Jean-Baptiste Antoine Marcelin Marbot"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 8,
+    "total": 83
+   },
+   "id": "2026w48-028",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "film",
+   "new_category": null,
+   "theme": "『2001年宇宙の旅』の特撮を支えた工夫、1968年の映像技術",
+   "angle": "モデル撮影・フロントプロジェクションなどの技術を、実際の映像と対応づけて整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "2001年宇宙の旅 特撮",
+    "スタンリー・キューブリック",
+    "映画 VFX 歴史"
+   ],
+   "subjects": [
+    {
+     "name": "2001: A Space Odyssey",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
+    "https://en.wikipedia.org/wiki/Special_effects",
+    "https://en.wikipedia.org/wiki/Stanley_Kubrick"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2001_A_Space_Odyssey_%281968%29_-_Trailer_-_Spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:2001_A_Space_Odyssey_(1968)_-_Trailer_-_Spacecraft.jpg",
+     "license": "Public domain",
+     "author": "Metro-Goldwyn-Mayer"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2001_A_Space_Odyssey_%28logo%29.png/960px-2001_A_Space_Odyssey_%28logo%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2001_A_Space_Odyssey_(logo).png",
+     "license": "Public domain",
+     "author": "Warner Bros."
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 8,
+    "total": 83
+   },
+   "id": "2026w48-029",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "『1984』が出版された1949年、監視社会の比喩が生まれた背景",
+   "angle": "出版当時の政治状況とオーウェルの経験を重ね、作品が何を批判したかったのかを整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "1984 ジョージ・オーウェル",
+    "監視社会 文学",
+    "ディストピア 小説"
+   ],
+   "subjects": [
+    {
+     "name": "Nineteen Eighty-Four",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "https://www.orwellfoundation.com/",
+    "https://en.wikipedia.org/wiki/Dystopia"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/1984_Clases_sociales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:1984_Clases_sociales.jpg",
+     "license": "Public domain",
+     "author": "MaratRevolution"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/1984_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:1984_Logo.png",
+     "license": "CC0",
+     "author": "TVT Creations"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 10,
+    "total": 85
+   },
+   "id": "2026w48-030",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "『グレート・ギャツビー』の1925年、 ジャズ・エイジ の華やかさと虚無",
+   "angle": "出版された年と時代背景を手がかりに、作品の語りと象徴を読み直す。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "グレート・ギャツビー",
+    "1920年代 文学",
+    "ジャズエイジ"
+   ],
+   "subjects": [
+    {
+     "name": "The Great Gatsby",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+    "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald",
+    "https://en.wikipedia.org/wiki/Jazz_Age"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/En_man_utan_skrupler_%28Den_store_Gatsby%29_svenskt_originalomslag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:En_man_utan_skrupler_(Den_store_Gatsby)_svenskt_originalomslag.jpg",
+     "license": "CC0",
+     "author": "Unknown author"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Francis_Scott_Fitzgerald_-_Gatsby_il_magnifico_%28Il_grande_Gatsby_-_The_Great_Gatsby%29_-_I_Romanzi_della_Palma_Mondadori_1936.jpg/960px-Francis_Scott_Fitzgerald_-_Gatsby_il_magnifico_%28Il_grande_Gatsby_-_The_Great_Gatsby%29_-_I_Romanzi_della_Palma_Mondadori_1936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Francis_Scott_Fitzgerald_-_Gatsby_il_magnifico_(Il_grande_Gatsby_-_The_Great_Gatsby)_-_I_Romanzi_della_Palma_Mondadori_1936.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Francis Scott Fitzgerald"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 10,
+    "total": 85
+   },
+   "id": "2026w48-031",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "book",
+   "new_category": null,
+   "theme": "『星の王子さま』1943年、戦時下の亡命先で生まれた寓話",
+   "angle": "サン=テグジュペリの渡米と出版の経緯を、作品の象徴と一緒に読む。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "星の王子さま 1943",
+    "サンテグジュペリ",
+    "寓話 文学"
+   ],
+   "subjects": [
+    {
+     "name": "The Little Prince",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+    "https://en.wikipedia.org/wiki/World_War_II"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Illustration_from_The_Little_Lame_Prince_and_His_Travelling_Cloak_by_Dinah_Maria_Mulock_illustrated_by_Hope_Dunlap_1909_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Little_Lame_Prince_and_His_Travelling_Cloak_by_Dinah_Maria_Mulock_illustrated_by_Hope_Dunlap_1909_12.jpg",
+     "license": "Public domain",
+     "author": "Illustrations from The Little Lame Prince and His Travelling"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Illustration_from_The_Little_Lame_Prince_and_His_Travelling_Cloak_by_Dinah_Maria_Mulock_illustrated_by_Hope_Dunlap_1909_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Little_Lame_Prince_and_His_Travelling_Cloak_by_Dinah_Maria_Mulock_illustrated_by_Hope_Dunlap_1909_16.jpg",
+     "license": "Public domain",
+     "author": "Illustrations from The Little Lame Prince and His Travelling"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 10,
+    "total": 85
+   },
+   "id": "2026w48-032",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "冬の室内湿度は40〜60%、結露と快適さの数値を設計する",
+   "angle": "温度・湿度・露点の関係を数値で示し、結露を防ぐ換気と加湿のバランスを考える。",
+   "article_type": "guide",
+   "keywords": [
+    "室内湿度 40 60",
+    "結露 対策",
+    "湿度計 冬"
+   ],
+   "subjects": [
+    {
+     "name": "湿度計",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Humidity",
+    "https://en.wikipedia.org/wiki/Dew_point",
+    "https://en.wikipedia.org/wiki/Indoor_air_quality"
+   ],
+   "source_of_idea": "calendar",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Acoustic_guitar_room_at_Guitar_Center_humidified_to_50%25_relative_humidity_in_winter.jpg/960px-Acoustic_guitar_room_at_Guitar_Center_humidified_to_50%25_relative_humidity_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Acoustic_guitar_room_at_Guitar_Center_humidified_to_50%25_relative_humidity_in_winter.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "B137"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Living_room_weather_station.jpg/960px-Living_room_weather_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Living_room_weather_station.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Maasaak"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 10,
+    "total": 99
+   },
+   "id": "2026w48-033",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "デスクと椅子の高さは身長から決まる、姿勢を崩さない寸法の出し方",
+   "angle": "身長に対する椅子座面・デスク天板の高さの目安を、実際の作業姿勢と対応づける。",
+   "article_type": "guide",
+   "keywords": [
+    "デスク 高さ 身長",
+    "椅子 座面 高さ",
+    " Ergonomics"
+   ],
+   "subjects": [
+    {
+     "name": "デスク",
+     "status": "current",
+     "amazon_asin": null
+    },
+    {
+     "name": "椅子",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ergonomics",
+    "https://en.wikipedia.org/wiki/Workstation",
+    "https://en.wikipedia.org/wiki/Chair"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Annual_report_of_the_State_Board_of_Health_of_Massachusetts_%281872%29_%2814582535039%29.jpg/960px-Annual_report_of_the_State_Board_of_Health_of_Massachusetts_%281872%29_%2814582535039%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Annual_report_of_the_State_Board_of_Health_of_Massachusetts_(1872)_(14582535039).jpg",
+     "license": "No restrictions",
+     "author": "Internet Archive Book Images"
+    },
+    {
+     "url": "https://live.staticflickr.com/6023/6009475649_48f448cc51_b.jpg",
+     "page": "https://www.flickr.com/photos/55391269@N08/6009475649",
+     "license": "BY 2.0",
+     "author": "Joy Mystic"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 10,
+    "amazon": 10,
+    "total": 85
+   },
+   "id": "2026w48-034",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "interior",
+   "new_category": null,
+   "theme": "電球色と昼光色、部屋の色温度を時間帯で切り替える",
+   "angle": "2700Kと4000Kの違いを、リラックスと集中という用途に対応づけて整理する。",
+   "article_type": "guide",
+   "keywords": [
+    "色温度 2700K 4000K",
+    "電球色 昼光色",
+    "照明 選び方"
+   ],
+   "subjects": [
+    {
+     "name": "LED電球",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Color_temperature",
+    "https://en.wikipedia.org/wiki/Light-emitting_diode",
+    "https://en.wikipedia.org/wiki/Luminous_efficacy"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2024-01-04_22_46_20_%22Cool_white%22_%28left%29_and_%22warm_white%22_%28right%29_bulbs_on_a_Christmas_light_set_at_a_house_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2024-01-04_22_46_20_%22Cool_white%22_(left)_and_%22warm_white%22_(right)_bulbs_on_a_Christmas_light_set_at_a_house_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Famartin"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/2024-01-04_22_46_23_%22Cool_white%22_%28left%29_and_%22warm_white%22_%28right%29_bulbs_on_a_Christmas_light_set_at_a_house_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2024-01-04_22_46_23_%22Cool_white%22_(left)_and_%22warm_white%22_(right)_bulbs_on_a_Christmas_light_set_at_a_house_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Famartin"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 9,
+    "amazon": 10,
+    "total": 89
+   },
+   "id": "2026w48-035",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "M5搭載MacBook AirとUSB-Cハブ、Thunderbolt 4/5の互換性を整理",
+   "angle": "現行MacBook Airのブラックフライデー価格を機に、古いハブやモニターをそのまま使えるかを確認する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "M5 MacBook Air",
+    "Thunderbolt 5 互換",
+    "USB-C ハブ"
+   ],
+   "subjects": [
+    {
+     "name": "MacBook Air",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.gizmodo.jp/article/2611-amazon-blackfriday-m5-macbook-air-13-inch/",
+    "https://en.wikipedia.org/wiki/MacBook_Air",
+    "https://en.wikipedia.org/wiki/Thunderbolt_(interface)"
+   ],
+   "source_of_idea": "news",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/A_laptop_on_the_wooden_table_%282%2C_Pixabay%29.jpg/960px-A_laptop_on_the_wooden_table_%282%2C_Pixabay%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:A_laptop_on_the_wooden_table_(2,_Pixabay).jpg",
+     "license": "CC0",
+     "author": "By Free-Photos from Pixabay"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Candle%2C_antler_and_laptop_%28Unsplash%29.jpg/960px-Candle%2C_antler_and_laptop_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Candle,_antler_and_laptop_(Unsplash).jpg",
+     "license": "CC0",
+     "author": "Priscilla Du Preez artographybyp"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 10,
+    "amazon": 10,
+    "total": 100
+   },
+   "id": "2026w48-036",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "pc",
+   "new_category": null,
+   "theme": "USB-C充電器は100Wと140Wで何が違う、ノートPCの充電速度を測る",
+   "angle": "USB PDのワット数と実際の充電時間の関係を、ノートPC側の受け入れ仕様から整理する。",
+   "article_type": "comparison",
+   "keywords": [
+    "USB-C 100W 140W",
+    "USB PD 充電速度",
+    "ノートPC 充電器"
+   ],
+   "subjects": [
+    {
+     "name": "USB-C充電器",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/USB-C",
+    "https://en.wikipedia.org/wiki/USB_Power_Delivery",
+    "https://www.anker.com/"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/2009-365-151_Powered_by_the_iSun_%283583355309%29.jpg/960px-2009-365-151_Powered_by_the_iSun_%283583355309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2009-365-151_Powered_by_the_iSun_(3583355309).jpg",
+     "license": "CC BY 2.0",
+     "author": "cogdogblog"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Apple_96W_USB_Type-C_Power_Adapter_for_new_16_inch_MacBook_Pro_%2849165128252%29.jpg/960px-Apple_96W_USB_Type-C_Power_Adapter_for_new_16_inch_MacBook_Pro_%2849165128252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Apple_96W_USB_Type-C_Power_Adapter_for_new_16_inch_MacBook_Pro_(49165128252).jpg",
+     "license": "CC BY 2.0",
+     "author": "Tony Webster from Minneapolis, Minnesota, United States"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 10,
+    "amazon": 10,
+    "total": 90
+   },
+   "id": "2026w48-037",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "Pythonの依存管理をuvに移す、venvとpipの何が変わるか",
+   "angle": "uvのinstall・sync・lockの流れを、既存のvenv + pip運用と比べながら再現できる形で残す。",
+   "article_type": "guide",
+   "keywords": [
+    "uv Python 依存管理",
+    "venv uv 移行",
+    "uv lock"
+   ],
+   "subjects": [
+    {
+     "name": "uv",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://docs.astral.sh/uv/",
+    "https://packaging.python.org/",
+    "https://en.wikipedia.org/wiki/Python_(programming_language)"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Beta_distribution_cdf.svg/960px-Beta_distribution_cdf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beta_distribution_cdf.svg",
+     "license": "Public domain",
+     "author": "Horas"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Beta_distribution_pdf.svg/960px-Beta_distribution_pdf.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beta_distribution_pdf.svg",
+     "license": "Public domain",
+     "author": "Horas based on the work of Krishnavedala"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 0,
+    "total": 74
+   },
+   "id": "2026w48-038",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "dev",
+   "new_category": null,
+   "theme": "Docker Composeのvolumesで個人サービスを再現する、再起動と設定の整理",
+   "angle": "ローカルで動かすサービスを例に、volumes・restart・env_fileの関係を設定ファイルで示す。",
+   "article_type": "guide",
+   "keywords": [
+    "Docker Compose volumes",
+    "docker-compose 再起動",
+    "個人サービス 再現"
+   ],
+   "subjects": [
+    {
+     "name": "Docker Compose",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://docs.docker.com/compose/",
+    "https://en.wikipedia.org/wiki/Docker_(software)",
+    "https://en.wikipedia.org/wiki/YAML"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/960px-Docker-linux-interfaces.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Docker-linux-interfaces.svg",
+     "license": "Public domain",
+     "author": "User:Maklaan"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Docker-on-physical.svg/960px-Docker-on-physical.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Docker-on-physical.svg",
+     "license": "CC BY-SA 4.0",
+     "author": "РоманСузи"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 0,
+    "total": 74
+   },
+   "id": "2026w48-039",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "net",
+   "new_category": null,
+   "theme": "Wi-Fi 6/7と有線LAN、ゲーム用途で遅延はどちらが有利か",
+   "angle": "同じ回線で有線とWi-Fiの遅延を比較し、実測から選び方の目安を示す。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Wi-Fi 6 7 遅延",
+    "有線LAN 比較",
+    "ゲーム ネットワーク"
+   ],
+   "subjects": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wi-Fi_6",
+    "https://en.wikipedia.org/wiki/Wi-Fi_7",
+    "https://en.wikipedia.org/wiki/Network_delay"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Home_wifi.jpg/960px-Home_wifi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Home_wifi.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Mrbeastmodeallday"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/TP-Link_TL-WR740N_router_HS1.jpg/960px-TP-Link_TL-WR740N_router_HS1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:TP-Link_TL-WR740N_router_HS1.jpg",
+     "license": "CC BY 4.0",
+     "author": "Hayden Schiff"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 10,
+    "amazon": 10,
+    "total": 90
+   },
+   "id": "2026w48-040",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "透明な氷は家庭で作れるか、一方向凍結の手順と失敗",
+   "angle": "冷蔵庫で透明な氷を作る方法を、不純物と気泡の移動という仕組みから検証する。",
+   "article_type": "guide",
+   "keywords": [
+    "透明氷 作り方",
+    "一方向凍結",
+    "氷 気泡"
+   ],
+   "subjects": [
+    {
+     "name": "製氷型",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ice",
+    "https://en.wikipedia.org/wiki/Freezing",
+    "https://en.wikipedia.org/wiki/Crystallization"
+   ],
+   "source_of_idea": "matrix",
+   "season": 15,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/8_Gl%C3%A4ser_Ginger_Ale.jpg/960px-8_Gl%C3%A4ser_Ginger_Ale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:8_Gl%C3%A4ser_Ginger_Ale.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Geoprofi Lars"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Colorful_berries_float_in_crystal-clear_ice_cubes_within_elegant_glasses.jpg/960px-Colorful_berries_float_in_crystal-clear_ice_cubes_within_elegant_glasses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Colorful_berries_float_in_crystal-clear_ice_cubes_within_elegant_glasses.jpg",
+     "license": "CC BY 2.0",
+     "author": "Shixart1985"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 15,
+    "demand": 9,
+    "amazon": 10,
+    "total": 99
+   },
+   "id": "2026w48-041",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "drink-hack",
+   "new_category": null,
+   "theme": "開けたウイスキーの酸化、ボトル内の空気をどう減らすか",
+   "angle": "開封後の風味変化を、空気との接触面積という観点から整理し、保存方法の選択肢を比べる。",
+   "article_type": "theme",
+   "keywords": [
+    "ウイスキー 開封後 保存",
+    "酸化 空気",
+    "ボトル 保存"
+   ],
+   "subjects": [
+    {
+     "name": "ウイスキー",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Oxidation",
+    "https://en.wikipedia.org/wiki/Whisky",
+    "https://en.wikipedia.org/wiki/Alcohol"
+   ],
+   "source_of_idea": "matrix",
+   "season": 10,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Barrels_of_whisky_-_geograph.org.uk_-_667439.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:Barrels_of_whisky_-_geograph.org.uk_-_667439.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "Stephen Sweeney"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Black_Dog_Gold_Reserve_Scotch_Whisky%2C_aged_12_years.jpg/960px-Black_Dog_Gold_Reserve_Scotch_Whisky%2C_aged_12_years.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Black_Dog_Gold_Reserve_Scotch_Whisky,_aged_12_years.jpg",
+     "license": "CC0",
+     "author": "Amitbalani"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 10,
+    "demand": 9,
+    "amazon": 8,
+    "total": 92
+   },
+   "id": "2026w48-042",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "sE Electronics KLS 150、元AKGエンジニアが手がけた初のヘッドホン",
+   "angle": "用途で音を調整できる機構に注目し、リスニングとモニタリングの両面から実力を測る。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "sE Electronics KLS 150",
+    "ヘッドホン 音調整",
+    "モニターヘッドホン"
+   ],
+   "subjects": [
+    {
+     "name": "sE Electronics KLS 150",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.dtmstation.com/archives/81726.html",
+    "https://seelectronics.com/products/kls-150",
+    "https://en.wikipedia.org/wiki/Headphones"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Arturia_Analog_Experience_The_Laboratory_keyboards_holded_by_Hallux_Makenzo_%282013-01-22_by_Hallux_Makenzo_%40pexels_233050%29.jpg/960px-Arturia_Analog_Experience_The_Laboratory_keyboards_holded_by_Hallux_Makenzo_%282013-01-22_by_Hallux_Makenzo_%40pexels_233050%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Arturia_Analog_Experience_The_Laboratory_keyboards_holded_by_Hallux_Makenzo_(2013-01-22_by_Hallux_Makenzo_@pexels_233050).jpg",
+     "license": "CC0",
+     "author": "Hallux Makenzo"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/DFC_5422_An_artist_at_work_in_a_lively_studio_in_Pattaya_surrounded_by_colorful_paintings_as_he_adds_finishing_touches_to_a_vibrant_floral_canvas.jpg/960px-DFC_5422_An_artist_at_work_in_a_lively_studio_in_Pattaya_surrounded_by_colorful_paintings_as_he_adds_finishing_touches_to_a_vibrant_floral_canvas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DFC_5422_An_artist_at_work_in_a_lively_studio_in_Pattaya_surrounded_by_colorful_paintings_as_he_adds_finishing_touches_to_a_vibrant_floral_canvas.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "PattayaPatrol"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 7,
+    "amazon": 10,
+    "total": 87
+   },
+   "id": "2026w48-043",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "gear",
+   "new_category": null,
+   "theme": "Sontronics Zetaを試す、\"workhorse\"と呼ばれるマイクの実力",
+   "angle": "レビュー記事を手がかりに、Zetaの指向性・音質・価格を同価格帯と比較して評価する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "Sontronics Zeta レビュー",
+    "コンデンサーマイク 比較",
+    "宅録 マイク"
+   ],
+   "subjects": [
+    {
+     "name": "Sontronics Zeta",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://www.musicradar.com/music-tech/microphones/sontronics-zeta-review",
+    "https://www.sontronics.com/",
+    "https://en.wikipedia.org/wiki/Microphone"
+   ],
+   "source_of_idea": "news",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg/960px-2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2018-11-02_Konzert_-The_Hellfreaks-_in_-Ilvers_Musikbar-_in_Erfurt_IMG_3414_LR10_by_Stepro.jpg",
+     "license": "CC BY-SA 4.0",
+     "author": "Steffen Prößdorf"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AKG_C214_Condenser_microphone.jpg/960px-AKG_C214_Condenser_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_Condenser_microphone.jpg",
+     "license": "CC BY-SA 3.0",
+     "author": "Lucasbosch"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 7,
+    "amazon": 10,
+    "total": 87
+   },
+   "id": "2026w48-044",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ギターのクロマチック練習、指の移動を設計する",
+   "angle": "12音を順に弾く基本練習を、ポジション移動と指使いの観点から組み立て直す。",
+   "article_type": "guide",
+   "keywords": [
+    "ギター クロマチック練習",
+    "フィンガリング",
+    "ギター 基礎練習"
+   ],
+   "subjects": [
+    {
+     "name": "ギター",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chromatic_scale",
+    "https://en.wikipedia.org/wiki/Fingering_(music)",
+    "https://en.wikipedia.org/wiki/Guitar"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/00.01.D.1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:00.01.D.1.png",
+     "license": "CC BY-SA 2.5",
+     "author": "user:Mjchael"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/00.01.D.2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "page": "https://commons.wikimedia.org/wiki/File:00.01.D.2.png",
+     "license": "CC BY-SA 2.5",
+     "author": "user:Mjchael"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 10,
+    "total": 84
+   },
+   "id": "2026w48-045",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "learning",
+   "new_category": null,
+   "theme": "ピアノのスケール、指の跨ぎ方を先に決めると速く上手くなる",
+   "angle": "majorスケールを例に、指番号の設計と両手の揃え方を学ぶ順番として提示する。",
+   "article_type": "guide",
+   "keywords": [
+    "ピアノ スケール 指",
+    "指使い ピアノ",
+    "ピアノ 基礎"
+   ],
+   "subjects": [
+    {
+     "name": "ピアノ",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Scale_(music)",
+    "https://en.wikipedia.org/wiki/Piano",
+    "https://en.wikipedia.org/wiki/Fingering_(music)"
+   ],
+   "source_of_idea": "matrix",
+   "season": 0,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cartoon_Piano_Keyboard.jpg/960px-Cartoon_Piano_Keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cartoon_Piano_Keyboard.jpg",
+     "license": "CC0",
+     "author": "Karen Arnold"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Child%27s_keyboard_for_Twinkle.svg/960px-Child%27s_keyboard_for_Twinkle.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Child%27s_keyboard_for_Twinkle.svg",
+     "license": "CC BY-SA 4.0",
+     "author": "Guy vandegrift"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 0,
+    "demand": 9,
+    "amazon": 10,
+    "total": 84
+   },
+   "id": "2026w48-046",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『千と千尋の神隠し』の湯屋はどう設計されたか、湯婆婆の世界のルール",
+   "angle": "湯屋の空間構成と登場する神々の描写を、作品の成立背景と一緒に読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "千と千尋 湯屋",
+    "宮崎駿 デザイン",
+    "ジブリ 世界観"
+   ],
+   "subjects": [
+    {
+     "name": "Spirited Away",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Spirited_Away",
+    "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
+    "https://en.wikipedia.org/wiki/Studio_Ghibli"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://live.staticflickr.com/3913/14729112807_f8fc2d781c_b.jpg",
+     "page": "https://www.flickr.com/photos/10485077@N06/14729112807",
+     "license": "BY 2.0",
+     "author": "edenpictures"
+    },
+    {
+     "url": "https://live.staticflickr.com/110/272101458_76d4d479aa_b.jpg",
+     "page": "https://www.flickr.com/photos/18504418@N00/272101458",
+     "license": "BY 2.0",
+     "author": "kurisuuu"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 10,
+    "amazon": 10,
+    "total": 90
+   },
+   "id": "2026w48-047",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『君の名は。』の彗星と時間、新海誠が描いた距離の表現",
+   "angle": "彗星・糸守・入れ替わりという要素を、作品の構造と公開当時の背景から整理する。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "君の名は。 彗星",
+    "新海誠 作品",
+    "アニメ 時間 表現"
+   ],
+   "subjects": [
+    {
+     "name": "Your Name",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Your_Name",
+    "https://en.wikipedia.org/wiki/Makoto_Shinkai",
+    "https://en.wikipedia.org/wiki/Comet"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago%2C_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences%2C_tome_13.djvu/page1-960px-Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago%2C_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences%2C_tome_13.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago,_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences,_tome_13.djvu",
+     "license": "Public domain",
+     "author": "François Arago"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago%2C_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences_-_Astronomie_populaire%2C_tome_3.djvu/page1-960px-Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago%2C_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences_-_Astronomie_populaire%2C_tome_3.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Arago_-_%C5%92uvres_compl%C3%A8tes_de_Fran%C3%A7ois_Arago,_secr%C3%A9taire_perp%C3%A9tuel_de_l%E2%80%99acad%C3%A9mie_des_sciences_-_Astronomie_populaire,_tome_3.djvu",
+     "license": "Public domain",
+     "author": "François Arago"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 10,
+    "amazon": 10,
+    "total": 90
+   },
+   "id": "2026w48-048",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
+  },
+  {
+   "category": "anime",
+   "new_category": null,
+   "theme": "『もののけ姫』の森と神々、日本の自然観がどう描かれたか",
+   "angle": "神道や環境の文脈を手がかりに、森の描写と登場する存在を読み解く。",
+   "article_type": "deep-dive",
+   "keywords": [
+    "もののけ姫 森",
+    "宮崎駿 自然",
+    "神道 アニメ"
+   ],
+   "subjects": [
+    {
+     "name": "Princess Mononoke",
+     "status": "current",
+     "amazon_asin": null
+    }
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Princess_Mononoke",
+    "https://en.wikipedia.org/wiki/Shinto",
+    "https://en.wikipedia.org/wiki/Forest"
+   ],
+   "source_of_idea": "matrix",
+   "season": 5,
+   "images": [
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cosplay_of_the_Forest_Spirit_and_San_%28Princess_Mononoke%29_at_Katsucon_2015.jpg/960px-Cosplay_of_the_Forest_Spirit_and_San_%28Princess_Mononoke%29_at_Katsucon_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cosplay_of_the_Forest_Spirit_and_San_(Princess_Mononoke)_at_Katsucon_2015.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "peyj_turner"
+    },
+    {
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Deer_stone_with_equids.jpg/960px-Deer_stone_with_equids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Deer_stone_with_equids.jpg",
+     "license": "CC BY-SA 2.0",
+     "author": "James Glazier"
+    }
+   ],
+   "score": {
+    "novelty": 25,
+    "verifiable": 20,
+    "images": 20,
+    "season": 5,
+    "demand": 10,
+    "amazon": 10,
+    "total": 90
+   },
+   "id": "2026w48-049",
+   "status": "approved",
+   "created": "2026-11-27",
+   "retry": 0
   }
  ]
 }
