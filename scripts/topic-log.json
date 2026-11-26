@@ -4361,6 +4361,18 @@
    "status": "deleted",
    "reason": "Androidアプリで削除",
    "at": "2026-11-27T07:33:39+09:00"
+  },
+  {
+   "id": "2026w48-038",
+   "category": "dev",
+   "theme": "Pythonの依存管理をuvに移す、venvとpipの何が変わるか",
+   "slug": "uv-python-dependency-management-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/uv-python-dependency-management-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-27T07:46:07+09:00"
   }
  ]
 }
