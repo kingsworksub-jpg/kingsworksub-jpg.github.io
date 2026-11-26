@@ -70,16 +70,16 @@ scheduled_time: "12:00"
 
 ## WPS機能を無効化してPIN方式の脆弱性リスクを遮断する
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-router-security/img2.jpg" alt="Wi-Fiルーター本体のWPSボタン" width="220" height="150" loading="lazy"></a>
+<figcaption>ルーターに搭載されたWPSボタンの例。利用しない場合は機能自体の無効化が推奨されます。<span class="credit">Photo: ArnoldReinhold / CC BY-SA 3.0</span></figcaption>
+</figure>
+
 WPS（Wi-Fi Protected Setup）は、ルーター本体のボタンを押したり8桁の暗証番号（PINコード）を入力したりするだけで、複雑な暗号化キーを打ち込まずに端末をWi-Fiへ接続できる便利な機能です。しかし、WPSのPIN方式などの脆弱性を突かれるリスクがあるため、使用しない場合はWPS機能を無効化することが推奨されます。
 
 利便性を優先して設計されたWPSのPIN認証は、総当たり攻撃に対して構造的な弱点が指摘されており、悪意のある第三者が近距離から接続突破を試みる際の標的になりやすい仕組みです。普段から手動でWi-Fiのパスワードを入力してスマートフォンやパソコンを接続している環境であれば、WPSをオンにしたままにしておくメリットはほとんどありません。
 
 特に集合住宅や人通りの多い通りに面した戸建て住宅では、無線LANの電波が自宅の外まで届いているケースが多いため、不要な接続窓口は閉じておくのが賢明です。管理画面を開いて無線LANやWi-Fiの詳細設定メニューへ進み、WPS機能（またはメーカー独自の簡易接続機能）の項目を「無効」や「オフ」へ切り替えておきましょう。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-router-security/img2.jpg" alt="Wi-Fiルーター本体のWPSボタン" width="220" height="150" loading="lazy"></a>
-<figcaption>ルーターに搭載されたWPSボタンの例。利用しない場合は機能自体の無効化が推奨されます。<span class="credit">Photo: ArnoldReinhold / CC BY-SA 3.0</span></figcaption>
-</figure>
 
 機種によっては、PIN方式による認証だけを個別にオフにできる設定と、ボタン接続を含めたWPS機能全体をオフにする設定が分かれています。最も確実なのはWPS機能そのものを無効化することであり、あわせて家族や来客が誤って本体側面のWPSボタンを押しても反応しない状態にしておけば安心感が高まります。
 

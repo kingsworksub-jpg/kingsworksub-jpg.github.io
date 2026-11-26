@@ -11368,5 +11368,27 @@
       "hugo未導入でビルド未確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T07:54:24Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "home-router-security-guide-2026",
+      "hammond-b3-jazz-organ-2026"
+    ],
+    "actions": [
+      "ルーター記事のWPS図をH2直後へ移動し回り込みを成立",
+      "hammond記事のドローバー図を該当段落直前へ移動し段落間の孤立配置を解消"
+    ],
+    "files_changed": [
+      "content/posts/home-router-security-guide-2026.md",
+      "content/posts/hammond-b3-jazz-organ-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り7記事にfigure配置ルール違反候補(jazz-festivals-2026,jazz-shoes-trend,jazz-standard-memorization,jazz-style-fashion-revival,passkey-authentication,ruff-black-flake8,speyside-whisky)",
+      "hugo未導入でビルド未確認"
+    ],
+    "status": "完了"
   }
 ]
