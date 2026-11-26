@@ -11233,5 +11233,21 @@
       "ローカルで seo-audit.py --check-links を実施し内部リンク網・孤立記事を確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T00:53:44Z",
+    "site": "Kingsworksub (GitHub Pages)",
+    "articles_improved": [],
+    "actions": [
+      "全公開記事の内部リンク先スラグ実在、/images/参照ファイル実在、description/images必須、H2数、タイトル重複、CTA/TEXT_LINK等のプレースホルダ残り、禁止定型句(隅から隅まで等)を点検: 違反0件(awk-svg-radar-chart-notesのalt検出はインラインコードの誤検知、nea-jazz-masters-2026のH2少数は有料分割の仕様)",
+      "Hatena/Ameba/note: 改定案なし"
+    ],
+    "files_changed": [
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "ローカルで seo-audit.py --check-links を実施"
+    ],
+    "status": "完了(修正対象なし)"
   }
 ]
