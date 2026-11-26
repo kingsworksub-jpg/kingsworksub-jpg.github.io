@@ -14,20 +14,12 @@ scheduled_time: "21:30"
 
 チタンは航空宇宙産業や医療分野で使用される高性能な金属ですが、その物理特性は日本酒、とりわけ冷酒のポテンシャルを引き出すために驚くほど合致しています。本記事では、チタンがなぜ酒器として優れているのかを、数値データと科学的根拠に基づいて詳しく解説します。
 
+## 数値で見るチタンの物理特性と酒器としての適性
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B00332GXX8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/titanium-sakeware/img1.jpg" alt="高級感のあるチタン製酒器のセット" width="220" height="150" loading="lazy"></a>
 <figcaption>新潟県燕市の職人技が光るチタン製酒器の造形美<span class="credit">Photo: Matt K from NYMFC / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-[Amazonで見る → ホリエ 新潟県燕産 チタン二重タンブラー 華チタン](https://www.amazon.co.jp/dp/B00332GXX8?tag=nakimoto1-22)
-
-## 関連記事・おすすめメディア
-- [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
-- [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-- [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/nb920f0cef632)
-
-## 数値で見るチタンの物理特性と酒器としての適性
 
 まずは、チタンという素材が他の金属と比べてどのような立ち位置にあるのかを確認しましょう。酒器の性能に直結する「比重」と「熱伝導率」を比較表に整理しました。
 
@@ -77,12 +69,12 @@ scheduled_time: "21:30"
 
 この「無味無臭」という特性は、ブラインドテストでもガラス製品と遜色ない結果を出すほど優秀です。素材の個性を主張せず、酒本来のスペックを忠実に再現できる点が、プロの鑑定家や愛好家から支持される理由です。
 
+## 生体適合性と耐食性が約束する長期的な安全性と品質
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/dp/B004W8H098?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/titanium-sakeware/img2.jpg" alt="黒い背景に映えるモダンな酒器セット" width="220" height="150" loading="lazy"></a>
 <figcaption>金属特有の臭いがなく、日本酒の繊細な香りをそのまま楽しめる<span class="credit">Photo: Claire H. from New York City, USA / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-## 生体適合性と耐食性が約束する長期的な安全性と品質
 
 チタンのもう一つの特筆すべき点は、「生体適合性」の高さです。人工関節やデンタルインプラント、ペースメーカーの部品として使われるほど人体に馴染みやすく、金属アレルギーを起こしにくい素材として知られています。
 

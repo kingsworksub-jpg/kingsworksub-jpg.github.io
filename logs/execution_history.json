@@ -11499,5 +11499,26 @@
       "Hatena/Ameba/note向け改善案は今回なし"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T13:30:00Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "titanium-sakeware-guide-2026"
+    ],
+    "actions": [
+      "導入直後にあった関連記事ブロックとAmazonリンク(末尾に重複して既存)を削除し本文導入から最初のH2へ直結",
+      "figure2枚をそれぞれH2直後・本文段落の直前へ移動(回り込み成立)"
+    ],
+    "files_changed": [
+      "content/posts/titanium-sakeware-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "未改善記事のdescription/H2数/figure位置スクリプト走査: 本記事が最後の該当",
+      "hugo未導入でビルド未確認",
+      "Hatena/Ameba/note向け改善案は今回なし"
+    ],
+    "status": "完了"
   }
 ]
