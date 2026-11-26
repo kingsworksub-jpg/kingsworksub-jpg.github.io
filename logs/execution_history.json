@@ -11581,5 +11581,30 @@
       "残り内部リンク不足記事の補強"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T17:53:40Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ddr5-ram-daw-memory-guide-2026",
+      "home-router-security-guide-2026",
+      "pc-ups-power-protection-guide-2026"
+    ],
+    "actions": [
+      "ddr5-ram-daw-memory-guide-2026 は slug/トピックとは無関係にリーマン予想記事(ai-riemann-hypothesis-verification-2026とほぼ同内容)が入っていたため、canonicalURLを元記事へ向け robotsNoIndex を付与(重複コンテンツ対策)",
+      "ルーター・UPS記事に内部リンク(関連記事3本ずつ)を追加"
+    ],
+    "files_changed": [
+      "content/posts/ddr5-ram-daw-memory-guide-2026.md",
+      "content/posts/home-router-security-guide-2026.md",
+      "content/posts/pc-ups-power-protection-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "パイプライン側の不具合の疑い: topic-log/post-platforms上は『DDR5メモリ』ネタが published だが実体はリーマン予想記事。本来のDDR5記事は未作成。状態ファイルは触っていない。内部リンク無し記事は残り amontillado/yawaragi。hugo未導入のためビルド未実行。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "DDR5記事の再生成要否をユーザー確認",
+      "残り内部リンク不足記事の補強"
+    ],
+    "status": "完了"
   }
 ]

@@ -8,6 +8,8 @@ date: "2026-11-26T07:32:24+09:00"
 categories: ["tech"]
 tags: ["AI", "数学", "検証手法", "技術リテラシー"]
 draft: false
+robotsNoIndex: true
+canonicalURL: "https://kingsworksub-jpg.github.io/posts/ai-riemann-hypothesis-verification-2026/"
 scheduled_time: "07:30"
 ---
 人工知能技術の急速な進化により、かつては人間のみが到達可能と考えられていた抽象数学の領域にもAIの影が及び始めています。最近では、AnthropicのClaudeをはじめとする大規模言語モデルが、数学史上最大の難問の一つである「リーマン予想」に対して重要な進展をもたらしたという報道が飛び交いました。
