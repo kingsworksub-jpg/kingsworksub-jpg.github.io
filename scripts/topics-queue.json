@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:30:41+09:00",
+ "updated": "2026-11-27T07:33:40+09:00",
  "items": [
   {
    "category": "gear",
@@ -16127,9 +16127,10 @@
     "total": 84
    },
    "id": "2026w48-014",
-   "status": "approved",
+   "status": "deleted",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "deleted_at": "2026-11-27T06:45:23+09:00"
   },
   {
    "category": "sakeware",
@@ -16180,9 +16181,10 @@
     "total": 85
    },
    "id": "2026w48-015",
-   "status": "approved",
+   "status": "deleted",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "deleted_at": "2026-11-27T06:45:47+09:00"
   },
   {
    "category": "fashion",
@@ -17418,9 +17420,14 @@
     "total": 74
    },
    "id": "2026w48-038",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-27T07:33:40+09:00",
+   "channel": "github",
+   "content_dir": "tech",
+   "slot_time": "07:30",
+   "slot_label": "朝: 検証メモ/個人備忘録"
   },
   {
    "category": "dev",
