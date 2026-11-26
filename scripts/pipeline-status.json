@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-26T21:31:36+09:00",
+ "updated": "2026-11-26T22:04:48+09:00",
  "queue": {
-  "published": 206,
+  "published": 207,
   "rejected": 33,
-  "approved": 17,
-  "in_progress": 1
+  "approved": 17
  },
- "today_posts": 4,
+ "today_posts": 5,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published amontillado-sherry-cocktails",
+ "last_result": "published titanium-sakeware-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
