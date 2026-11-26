@@ -16,16 +16,16 @@ scheduled_time: "21:30"
 
 本記事では、萩焼のぐい呑みで「七化け」が起きる物理的な仕組みから、茶人の間で「一楽二萩三唐津」と並び称された背景、さらに使い始めに水分を含ませる手入れの基本までを順を追って解説します。これから萩焼のぐい呑みを迎えたい方はもちろん、すでに手元にある器を長く大切に育てたい方も、ぜひ判断の基準として役立ててください。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hagi-guinomi/hagi-1.jpg" alt="萩焼のぐい呑み・茶器の質感と貫入の様子" width="220" height="150" loading="lazy"></a>
-<figcaption>柔らかな土味と貫入が味わい深い萩焼の器<span class="credit">Photo: Kyle McDonald / CC BY 2.0</span></figcaption>
-</figure>
-
 [Amazonで見る →](https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22)
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22)
 
 ## 要点まとめ：萩焼ぐい呑みの基本特性と一般的な酒器との比較
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B007XJ4M68?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/hagi-guinomi/hagi-1.jpg" alt="萩焼のぐい呑み・茶器の質感と貫入の様子" width="220" height="150" loading="lazy"></a>
+<figcaption>柔らかな土味と貫入が味わい深い萩焼の器<span class="credit">Photo: Kyle McDonald / CC BY 2.0</span></figcaption>
+</figure>
 
 萩焼のぐい呑みが他の酒器と決定的に異なるのは、器の素材自体が液体をわずかに受け止める構造を持っている点にあります。表面にガラス質の釉薬（ゆうやく）が掛かっていても、細かな隙間や素地の性質によって、使用を重ねるごとに見た目の印象が少しずつ移ろっていきます。
 

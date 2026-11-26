@@ -17,16 +17,14 @@ scheduled_time: "07:30"
 
 この記事では、感覚的な印象に頼らず、素材の特性と使い方の根拠をもとに有田焼のぐい呑みを整理します。陶器との違い、冷酒との相性、選び方、手入れのポイントまで順を追って確認していきましょう。
 
+<p><a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">有田焼 ぐい呑みをAmazonで見る →</a></p>
+
+## 有田焼が磁器として持つ基本性質
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=%E6%9C%89%E7%94%B0%E7%84%BC+%E3%81%90%E3%81%84%E5%91%91%E3%81%BF&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/arita-guinomi/c1-arita-kakiemon-bowl.jpg" alt="有田焼の磁器製の器" width="220" height="150" loading="lazy"></a>
 <figcaption>有田焼の磁器が持つ緻密な質感<span class="credit">Photo: Unknown / CC0</span></figcaption>
 </figure>
-
-<p><a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">有田焼 ぐい呑みをAmazonで見る →</a></p>
-
-<p><a href="https://www.amazon.co.jp/dp/B07Z8Y4Q97?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで価格とレビューを見る</a></p>
-
-## 有田焼が磁器として持つ基本性質
 
 有田焼は佐賀県有田町を中心とする地域で作られる磁器で、日本の焼き物のなかでも代表的な存在です。磁器は陶器とは異なる原料と焼成条件を持ち、その違いが器の使い心地や酒の見え方に直接影響します。まずは素材としての基本を押さえることが、ぐい呑み選びの出発点になります。
 

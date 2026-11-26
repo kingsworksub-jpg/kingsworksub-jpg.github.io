@@ -11323,5 +11323,29 @@
       "2周目の優先対象は閲覧数の低い記事"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-26T05:54:09Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "arita-ware-guinomi-guide",
+      "beaujolais-nouveau-third-thursday",
+      "hagi-ware-guinomi-nanabake"
+    ],
+    "actions": [
+      "導入部の直後に置かれていた左figureを最初のH2直後へ移動し、本文の回り込みを成立させた(CLAUDE.md figure配置ルール)",
+      "有田焼記事の重複Amazonリンク行を1本に整理"
+    ],
+    "files_changed": [
+      "content/posts/arita-ware-guinomi-guide.md",
+      "content/posts/beaujolais-nouveau-third-thursday.md",
+      "content/posts/hagi-ware-guinomi-nanabake.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り11記事に同種のfigure配置ルール違反候補(buffalo-trace…,hammond-b3…,jazz-festivals-2026等)。次回以降で順次確認",
+      "hugo/PILが環境に無くビルド未確認"
+    ],
+    "status": "完了"
   }
 ]

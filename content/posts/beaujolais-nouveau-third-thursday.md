@@ -15,14 +15,14 @@ scheduled_time: "20:00"
 
 なぜ特定の日付ではなく木曜日に固定されているのかを知ると、ワインの品質基準と流通の合理性がどのように結びついているかが見えてきます。本記事では、1967年の法制化から1985年の法改正に至る歴史的背景と、週末の市場休業や配送網の混乱を避ける仕組みを数値と時系列で整理します。
 
+[Amazonで見る →](https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22)
+
+## 1. 結論・解禁日ルールの変遷と要約データ
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/beaujolais-nouveau/nouveau-bottles.jpg" alt="フランスの食堂のテーブルに置かれたボジョレー・ヌーヴォーのボトルと、赤ワインが注がれた2つのグラス" width="220" height="165" loading="lazy"></a>
 <figcaption>解禁日に開けられるボジョレー・ヌーヴォー。食堂のテーブルで気軽に楽しまれる<span class="credit">Photo: Véronique PAGNIER / CC BY-SA 3.0</span></figcaption>
 </figure>
-
-[Amazonで見る →](https://www.amazon.co.jp/dp/B0BPX9R9C6?tag=nakimoto1-22)
-
-## 1. 結論・解禁日ルールの変遷と要約データ
 
 ボジョレー・ヌーヴォーの解禁日が「11月第3木曜日」に決まっている結論は、品質のばらつきを抑えるための基準日設定と、週末の流通停止を避ける実務上の要請を両立させた結果にあります。かつての自由出荷による早出し競争を止めるために1967年に日付が定められ、その後に顕在化した曜日由来の物流課題を解消するため、1985年に現在の曜日固定ルールへと改められました。
 
