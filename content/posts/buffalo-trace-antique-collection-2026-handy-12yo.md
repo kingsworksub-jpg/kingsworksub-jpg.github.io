@@ -15,16 +15,16 @@ scheduled_time: "21:30"
 
 本記事では、2026年版のThomas H. Handy Sazerac Ryeに採用された「12年熟成」および「130プルーフ（65% ABV）」という数値が持つ意味を、ウイスキーの化学的・物理的な視点から分析します。さらに、高アルコール度数のボトルを自宅で再現性高く味わうための加水比率、温度管理、クラシックカクテルの具体的な手順まで順を追って解説します。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/s?k=Thomas+H.+Handy+Sazerac+Rye&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/buffalo-trace-2026/bottle-up-at-chattanooga-whiskey.jpg" alt="木棚に並んだアメリカンウイスキーのボトル" width="220" height="150" loading="lazy"></a>
-<figcaption>アメリカンウイスキーのボトルイメージ<span class="credit">Photo: Sheila Scarborough / CC BY 2.0</span></figcaption>
-</figure>
-
 [Amazonで見る →](https://www.amazon.co.jp/s?k=Thomas+H.+Handy+Sazerac+Rye&tag=nakimoto1-22)
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Thomas+H.+Handy+Sazerac+Rye&tag=nakimoto1-22)
 
 ## 2026年版BTACの主要データとThomas H. Handyの仕様変更
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/s?k=Thomas+H.+Handy+Sazerac+Rye&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/buffalo-trace-2026/bottle-up-at-chattanooga-whiskey.jpg" alt="木棚に並んだアメリカンウイスキーのボトル" width="220" height="150" loading="lazy"></a>
+<figcaption>アメリカンウイスキーのボトルイメージ<span class="credit">Photo: Sheila Scarborough / CC BY 2.0</span></figcaption>
+</figure>
 
 2026年に発表されたBTACは、従来どおり毎年秋に展開される全5本のプレミアムコレクションで構成されています。ラインナップには、George T. Stagg、William Larue Weller、Thomas H. Handy Sazerac Rye、Eagle Rare 17 Year Old、Sazerac Rye 18 Year Oldの5銘柄が並びます。このうち、これまで比較的若い原酒の力強さを特徴としていたThomas H. Handy Sazerac Ryeが、最低12年熟成へと変更された点が最大のトピックです。
 
@@ -60,14 +60,14 @@ scheduled_time: "21:30"
 
 一方で、アルコール濃度が60%を超えると刺激性が高まり、舌の痛覚や冷覚を司る受容体が反応して繊細な香味を捉えにくくなる場合があります。そのため、130プルーフという数値は単なる強さの指標ではなく、飲み手が少量の加水や温度調整を行うことで香りの開き方をコントロールできる「調整幅の広さ」として捉えるのが理にかなっています。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Sazerac+Rye+Whiskey&tag=nakimoto1-22)
+
+## BTAC全5本の構成とライウイスキー枠の比較視点
+
 <figure class="photo photo--right">
 <a href="https://commons.wikimedia.org/wiki/File:Whiskey_Bottle_With_Cork.jpg" target="_blank" rel="noopener sponsored nofollow"><img src="/images/buffalo-trace-2026/whiskey-bottle-with-cork.jpg" alt="コルク栓が添えられたウイスキーボトル" width="220" height="150" loading="lazy"></a>
 <figcaption>ウイスキーボトルとコルク栓のイメージ<span class="credit">Photo: Iainmccurdy / CC0</span></figcaption>
 </figure>
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Sazerac+Rye+Whiskey&tag=nakimoto1-22)
-
-## BTAC全5本の構成とライウイスキー枠の比較視点
 
 BTACを構成する全5本のラインナップを振り返ると、今回の仕様変更がコレクション全体の構成に与える位置づけが明確になります。5本のうち、George T. StaggとWilliam Larue Wellerの2銘柄、さらにEagle Rare 17 Year Oldはバーボンウイスキーのカテゴリーに属し、残るThomas H. Handy Sazerac RyeとSazerac Rye 18 Year Oldの2銘柄がライウイスキーを担っています。
 

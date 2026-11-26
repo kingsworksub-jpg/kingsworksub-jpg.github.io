@@ -11347,5 +11347,26 @@
       "hugo/PILが環境に無くビルド未確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T06:53:21Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "buffalo-trace-antique-collection-2026-handy-12yo",
+      "headphone-speaker-switching-fatigue"
+    ],
+    "actions": [
+      "導入部直後・段落間に置かれていたfigureをH2直後へ移動し回り込みを成立させた(buffaloは左右交互を維持)"
+    ],
+    "files_changed": [
+      "content/posts/buffalo-trace-antique-collection-2026-handy-12yo.md",
+      "content/posts/headphone-speaker-switching-fatigue.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "残り9記事にfigure配置ルール違反候補(hammond-b3,home-router-security,jazz-festivals-2026,jazz-shoes-trend,jazz-standard-memorization,jazz-style-fashion-revival,passkey-authentication,ruff-black-flake8,speyside-whisky)",
+      "hugo未導入でビルド未確認"
+    ],
+    "status": "完了"
   }
 ]

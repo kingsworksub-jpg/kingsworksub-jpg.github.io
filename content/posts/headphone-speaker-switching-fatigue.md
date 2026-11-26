@@ -17,14 +17,14 @@ scheduled_time: "12:00"
 
 本記事では、45〜60分ごとの切り替えを軸に、ヘッドホンとスピーカーを併用するデスク音響の組み立て方を整理します。機材の選び方、切り替え時の接続設計、運用時の注意点まで、実務で取り入れやすい形で解説します。導入のイメージを掴むために、まずは定番のモニターヘッドホンを起点に環境を考えてみると整理しやすくなります。
 
+[MDR-CD900ST 密閉型スタジオモニターヘッドホンの価格とレビューを見る](https://www.amazon.co.jp/dp/B0002E5QX8?tag=nakimoto1-22)
+
+## なぜ長時間の同じ再生環境は耳に負担をかけるのか
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0002E5QX8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/headphone-speaker/MDR-CD900ST.jpg" alt="SONY MDR-CD900ST スタジオモニターヘッドホン" width="220" height="150" loading="lazy"></a>
 <figcaption>モニターヘッドホンを軸に再生環境のローテーションを組み立てる <a href="https://www.amazon.co.jp/dp/B0002E5QX8?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a><span class="credit">Photo: Masahiko OHKUBO / CC BY 2.0</span></figcaption>
 </figure>
-
-[MDR-CD900ST 密閉型スタジオモニターヘッドホンの価格とレビューを見る](https://www.amazon.co.jp/dp/B0002E5QX8?tag=nakimoto1-22)
-
-## なぜ長時間の同じ再生環境は耳に負担をかけるのか
 
 ヘッドホンは耳に近い位置で音を届けるため、細かな音の変化を把握しやすい反面、同じ聴き方が続くと負担が蓄積しやすい特性があります。長時間ヘッドホンで聴き続けると、耳道への継続的な直接圧迫と、部屋の自然な音響が得られない状態が重なり、耳の疲れを招く原因になります。これは音量の問題だけではなく、再生環境そのものの構造に由来する点を理解しておくことが重要です。
 
