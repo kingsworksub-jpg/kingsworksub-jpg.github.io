@@ -3599,5 +3599,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-27T00:04:39+09:00"
+ },
+ "uv-python-dependency-management-guide-2026": {
+  "title": "venvとpipからuvへ：Python依存管理の移行手順と設計の違い",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-27T08:00:07+09:00"
  }
 }
