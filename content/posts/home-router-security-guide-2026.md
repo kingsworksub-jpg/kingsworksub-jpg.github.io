@@ -17,16 +17,12 @@ scheduled_time: "12:00"
 
 さらに、メーカーのサポートが終了した古いルーターを使い続けるリスクや、買い替えを検討すべき判断基準も整理しました。現在の自宅環境を安全に保つための実用的なチェックポイントとしてご活用ください。
 
+## 家庭用ルーターで見直すべき3つの重要設定とリスク全体像
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-router-security/img1.jpg" alt="ルーター本体に記載された初期ログイン情報とセキュリティ設定ラベル" width="220" height="150" loading="lazy"></a>
 <figcaption>ルーター本体に記載された初期情報。管理画面の初期パスワードは早めの変更が不可欠です。<span class="credit">Photo: ArnoldReinhold / CC BY-SA 3.0</span></figcaption>
 </figure>
-
-**[バッファロー Wi-Fiルーター WXR-6000AX12S をAmazonで見る →](https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22)**
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22)
-
-## 家庭用ルーターで見直すべき3つの重要設定とリスク全体像
 
 家庭用ルーターのセキュリティを強化するうえで、最低限見直すべき設定項目は「初期パスワードの変更」「自動ファームウェア更新の有効化」「WPSの無効化」の3点です。これらはいずれもルーター内部の管理機能や認証の仕組みに関わる項目であり、出荷時の状態のままで放置すると攻撃者に侵入の糸口を与えてしまいます。
 
@@ -84,8 +80,6 @@ WPS（Wi-Fi Protected Setup）は、ルーター本体のボタンを押した�
 <a href="https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/home-router-security/img2.jpg" alt="Wi-Fiルーター本体のWPSボタン" width="220" height="150" loading="lazy"></a>
 <figcaption>ルーターに搭載されたWPSボタンの例。利用しない場合は機能自体の無効化が推奨されます。<span class="credit">Photo: ArnoldReinhold / CC BY-SA 3.0</span></figcaption>
 </figure>
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B0988L8YXT?tag=nakimoto1-22)
 
 機種によっては、PIN方式による認証だけを個別にオフにできる設定と、ボタン接続を含めたWPS機能全体をオフにする設定が分かれています。最も確実なのはWPS機能そのものを無効化することであり、あわせて家族や来客が誤って本体側面のWPSボタンを押しても反応しない状態にしておけば安心感が高まります。
 

@@ -11286,5 +11286,25 @@
       "ローカルで seo-audit.py --check-links を実施"
     ],
     "status": "完了(修正対象なし)"
+  },
+  {
+    "timestamp": "2026-11-26T03:53:48Z",
+    "site": "github-pages+hatena(draft)",
+    "articles_improved": [
+      "home-router-security-guide-2026"
+    ],
+    "actions": [
+      "figureを最初のH2直後へ移動し本文回り込みを成立させた",
+      "重複Amazonリンク行を整理",
+      "はてな向け改定案を drafts/hatena に保存"
+    ],
+    "files_changed": [
+      "content/posts/home-router-security-guide-2026.md",
+      "drafts/hatena/2026-11-26-0300-6802418398322645607-update.md"
+    ],
+    "next_kpis": [
+      "未改善記事は残り0件(全記事ローテーション一巡)。次回以降は2周目の対象選定が必要",
+      "hugo/PILが環境に無くビルド・seo-audit未実行"
+    ]
   }
 ]
