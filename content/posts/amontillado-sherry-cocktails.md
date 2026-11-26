@@ -92,14 +92,12 @@ scheduled_time: "20:00"
 
 ## どんなカクテルに合うか：実践的な使いどころの分類
 
-アモンティリャードの多用途性は、クラシックなレシピから現代的なアレンジまで幅広い領域で発揮されます。インバイブ誌やマティーニ・ブルの解説をもとに、とくに相性がよいカクテルのカテゴリーを整理します。
-
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%AA%E3%83%A3%E3%83%BC%E3%83%89+%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/amontillado-sherry/c2.jpg" alt="シェリーをベースにしたクラシカルなカクテル、シェリー・コブラー" width="220" height="150" loading="lazy"></a>
 <figcaption>シェリーを主役に据えたクラシカルな一杯のスタイル<span class="credit">Photo: BanjoZebra / CC BY 4.0</span></figcaption>
 </figure>
 
-[アモンティリャード・シェリーをAmazonで検索する](https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%AA%E3%83%A3%E3%83%BC%E3%83%89+%E3%82%B7%E3%82%A7%E3%83%AA%E3%83%BC&tag=nakimoto1-22)
+アモンティリャードの多用途性は、クラシックなレシピから現代的なアレンジまで幅広い領域で発揮されます。インバイブ誌やマティーニ・ブルの解説をもとに、とくに相性がよいカクテルのカテゴリーを整理します。
 
 まず第一の使いどころは、アペリティフやローABVカクテルの領域です。強い蒸留酒を主役にするのではなく、アモンティリャード自体をベースとして使い、少量のドライベルモットやビターズ、あるいはトニックウォーターやソーダと合わせることで、食事前の味覚を心地よく刺激する乾いた一杯に仕上がります。
 

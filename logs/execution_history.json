@@ -11456,5 +11456,27 @@
       "Hatena/Ameba/note向け改善案は今回なし"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T11:30:00Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "amontillado-sherry-cocktails"
+    ],
+    "actions": [
+      "第5セクション(どんなカクテルに合うか)のfigureをH2直後へ移動し本文の回り込みを成立",
+      "figure直後の重複Amazon検索リンク行を1つ削除"
+    ],
+    "files_changed": [
+      "content/posts/amontillado-sherry-cocktails.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "スクリプトでfigure位置を全記事走査: 残りはH3直後・短文1行ずつの段落でルール適合",
+      "daw/sampler-5choiceのfigure直後の注記行は意図的なため据え置き",
+      "hugo未導入でビルド未確認",
+      "Hatena/Ameba/note向け改善案は今回なし"
+    ],
+    "status": "完了"
   }
 ]
