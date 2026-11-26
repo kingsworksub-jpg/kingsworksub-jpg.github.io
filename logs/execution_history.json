@@ -11435,5 +11435,26 @@
       "Hatena/Ameba/note向け改善案は今回なし"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T10:53:39Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "yawaragi-mizu-sake-guide-2026"
+    ],
+    "actions": [
+      "アイキャッチ直後に浮いていたfigureを最初のH2直後へ移動し回り込みを成立",
+      "figure直後の重複Amazonリンク行(計4行)を削除"
+    ],
+    "files_changed": [
+      "content/posts/yawaragi-mizu-sake-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "content/posts全記事を一巡済み(未巡回は本記事のみだった)。次回は古い順に再点検または新規公開分を優先",
+      "hugo/PIL未導入でビルド・seo-audit未実行",
+      "Hatena/Ameba/note向け改善案は今回なし"
+    ],
+    "status": "完了"
   }
 ]

@@ -17,16 +17,12 @@ scheduled_time: "17:30"
 
 本記事では、和らぎ水を日本酒と同じかそれ以上の量で挟むべき理由を、血中アルコール濃度と味覚の仕組みから整理します。自宅でも飲食店でもすぐに試せる具体的な手順と定番の水の選び方まで、順を追って確認していきましょう。
 
+## 結論：和らぎ水は「日本酒1に対して水1以上」が基本ルール
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/B000YV88FA?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/yawaragi-mizu/cold-glass-of-water.jpg" alt="グラスに注がれた冷たい和らぎ水" width="220" height="150" loading="lazy"></a>
 <figcaption>日本酒の合間に用意したい清涼な和らぎ水<span class="credit">Photo: Dave Matos / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-[Amazonで見る →](https://www.amazon.co.jp/dp/B000YV88FA?tag=nakimoto1-22)
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B000YV88FA?tag=nakimoto1-22)
-
-## 結論：和らぎ水は「日本酒1に対して水1以上」が基本ルール
 
 和らぎ水を効果的に機能させるための結論は明快です。日本酒を飲むときは、酒と同量、またはそれ以上の水を合間に挟むことが推奨されます。
 
@@ -140,11 +136,7 @@ scheduled_time: "17:30"
 <figcaption>自宅の晩酌でも計量しやすいチェイサー用の水<span class="credit">Image: Glass-of-water.jpg / Public domain</span></figcaption>
 </figure>
 
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B000YV88FA?tag=nakimoto1-22)
-
 定番の清涼水として扱いやすいのが、「キリン 補助水・天然水系やチェイサー用ミネラルウォーター」です。クセのないすっきりとした飲み口は、日本酒の繊細な香りや料理の味付けを邪魔せず、口の中を素直にリフレッシュさせてくれます。
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/B000YV88FA?tag=nakimoto1-22)
 
 日常的に飲み続けやすい手頃な価格帯の定番品であり、自宅用としてケースで常備しておくのにも向いています。
 
