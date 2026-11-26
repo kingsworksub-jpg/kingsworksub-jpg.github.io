@@ -11520,5 +11520,26 @@
       "Hatena/Ameba/note向け改善案は今回なし"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T14:54:10Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ddr5-ram-daw-memory-guide-2026"
+    ],
+    "actions": [
+      "figure2枚をセクション見出し直後へ移動(CLAUDE.md画像レイアウト規則)",
+      "figure直後の無関係なAmazon検索テキストリンク2行を削除",
+      "未巡回の最後の1記事を処理。全記事の巡回が一巡"
+    ],
+    "files_changed": [
+      "content/posts/ddr5-ram-daw-memory-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "スラッグ(ddr5-ram...)と本文(リーマン予想×AI)が不一致。スラッグはパイプライン所有のため未変更。要手動確認。hugo/PIL未導入のためビルド・seo-audit未実行。",
+    "next_kpis": [
+      "全記事一巡済み。次回は古い順に再点検",
+      "スラッグ不一致の解消"
+    ]
   }
 ]

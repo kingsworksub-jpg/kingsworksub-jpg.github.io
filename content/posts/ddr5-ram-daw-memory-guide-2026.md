@@ -14,15 +14,12 @@ scheduled_time: "07:30"
 
 しかし、こうした劇的なニュースに接する際、私たちは感情的な期待と技術的な事実を冷静に切り分ける必要があります。AIが数学を「解く」とは具体的にどのような状態を指すのか、そして情報の真偽をどこで判断すべきかを整理することが、現代の技術者に求められる素養です。
 
+## 数学の至宝「リーマン予想」とAIが注目される理由
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/s?k=数学+AI&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ddr5-ram-daw/img1.jpg" alt="AI研究に使用されるノートパソコンのキーボード" width="220" height="150" loading="lazy"></a>
 <figcaption>数学的な検証には高度な計算リソースと正確なコード入力が不可欠です。<span class="credit">Photo: Eugene Alvin Villar (seav) / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[Amazonで数学とAIの最新書籍をチェックする](https://www.amazon.co.jp/s?k=数学+AI&tag=nakimoto1-22)
-
-## 数学の至宝「リーマン予想」とAIが注目される理由
-
 リーマン予想は、1859年にドイツの数学者ベルンハルト・リーマンによって提唱された、素数の分布に関する極めて重要な仮説です。この予想が解決されれば、数論の根幹に関わる多くの定理が確定するため、数学界における「聖杯」とも呼ばれています。これまでに多くの天才が挑みながらも、完全な証明には至っていない難攻不落の要塞です。
 
 近年、AIがこの難問に挑む存在として脚光を浴びている背景には、言語モデルの論理推論能力の向上があります。AIは膨大な既存の論文を学習し、人間が思いつかないような意外な角度から数式のつながりを提示することがあります。この「創造的な推論」が、停滞していた数学研究に新たな風を吹き込むのではないかと期待されているのです。
@@ -41,15 +38,12 @@ AIによる数学的貢献は、現時点では「補助的なツールの提供
 
 また、企業の広報ブログと学術論文の違いを認識することも重要です。企業の発表は自社の技術的な優位性を強調する目的が含まれるため、客観的な第三者による検証を待つ必要があります。見出しの刺激に惑わされず、情報の源泉にまで遡る姿勢こそが、誤報から身を守る唯一の手段となります。
 
+## Anthropic社やプレプリントサーバーで事実を裏取る手順
+
 <figure class="photo photo--right">
 <a href="https://www.amazon.co.jp/s?k=Claude+AI&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ddr5-ram-daw/img2.jpg" alt="暗所で光るキーボードが技術的な探求を象徴する" width="220" height="150" loading="lazy"></a>
 <figcaption>一次情報の精査には、静かな環境での深い集中と分析が求められます。<span class="credit">Photo: Colin / CC BY-SA 4.0</span></figcaption>
 </figure>
-
-[AmazonでAI開発に関連する周辺機器を見る](https://www.amazon.co.jp/s?k=Claude+AI&tag=nakimoto1-22)
-
-## Anthropic社やプレプリントサーバーで事実を裏取る手順
-
 AIモデルの開発元であるAnthropic社などは、重要な研究成果を自社の公式リサーチページで公開しています。報道で特定のモデル名が挙げられている場合は、まず公式サイトのニュースルームやテクニカルレポートを確認しましょう。そこには、どのようなプロンプトを用い、どのようなベンチマークで測定されたのかという技術的な詳細が記されています。
 
 次に、学術的な一次情報が集まる「arXiv」などのプレプリントサーバーを検索します。リーマン予想に関連するAIの研究であれば、「Riemann Hypothesis」「Large Language Models」といったキーワードで最新の投稿を追うことができます。プレプリントは査読前ではありますが、研究の全体像を把握し、論理の構成を確認するためには最も速い手段です。
