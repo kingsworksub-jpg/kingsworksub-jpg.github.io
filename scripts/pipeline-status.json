@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:45:14+09:00",
+ "updated": "2026-11-27T05:00:02+09:00",
  "queue": {
   "published": 208,
   "rejected": 34,
@@ -11,7 +11,12 @@
  "pending_requests": 0,
  "last_result": "published ddr5-ram-daw-memory-guide-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "ppp-reconcile",
+  "label": "プラットフォーム同期",
+  "since": "2026-11-27T05:00:02+09:00",
+  "engine": "none"
+ },
  "last_run": {
   "job": "x-reply",
   "label": "X返信",
