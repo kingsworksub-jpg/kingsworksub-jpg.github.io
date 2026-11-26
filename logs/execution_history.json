@@ -11412,5 +11412,28 @@
       "hugo未導入でビルド未確認"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T09:53:33Z",
+    "site": "github-pages",
+    "articles_improved": [
+      "jazz-standard-memorization-guide-2026",
+      "passkey-authentication-guide-2026"
+    ],
+    "actions": [
+      "figureを該当H2直後へ移動し本文の回り込みを成立(jazz-standard 2枚、passkey 2枚)",
+      "jazz-standardの重複Amazonリンク行を1つ削除"
+    ],
+    "files_changed": [
+      "content/posts/jazz-standard-memorization-guide-2026.md",
+      "content/posts/passkey-authentication-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "next_kpis": [
+      "jazz-style-fashion-revivalは点検の結果ルール適合",
+      "hugo未導入でビルド未確認",
+      "Hatena/Ameba/note向け改善案は今回なし"
+    ],
+    "status": "完了"
   }
 ]

@@ -15,16 +15,14 @@ scheduled_time: "17:30"
 
 そこで本記事では、感覚任せの暗記から離れ、理論と構造に基づいて1曲を仕上げるための順番を整理します。結論から述べると、楽曲全体の形式を把握したうえで「メロディ→コード→ベース音」の順で段階的に体に入れる流れが、記憶の定着において合理的な手順となります。グラスを傾けながら譜面と向き合う時間にそのまま実践できるよう、各ステップの根拠と具体的な進め方を数値や構造データとともに確認していきましょう。
 
+[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/0634060384?tag=nakimoto1-22)
+
+## 結論と基本データ：32小節の分解と3段階の定着順
+
 <figure class="photo photo--left">
 <a href="https://www.amazon.co.jp/dp/0634060384?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-standard-memorization/img1.jpg" alt="クラシックなジャズトリオの演奏風景" width="220" height="150" loading="lazy"></a>
 <figcaption>アンサンブルの土台となるスタンダード曲の構造を整理する<span class="credit">Photo: Robbie Mendelson / CC BY-SA 2.0</span></figcaption>
 </figure>
-
-[Amazonで見る →](https://www.amazon.co.jp/dp/0634060384?tag=nakimoto1-22)
-
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/0634060384?tag=nakimoto1-22)
-
-## 結論と基本データ：32小節の分解と3段階の定着順
 
 多くのジャズ・スタンダード曲は、全体が32小節で構成されており、AABAやABACといった定型フォーム（楽曲の段落構造）を採用しています。32小節を1つの長い列として記憶するのではなく、8小節ごとの4つのセクションに分割して捉えることで、覚えるべき情報量を構造的に圧縮できるという結果になります。この形式の理解を土台にしながら、メロディ、コード進行、ベース音の3要素を順番に重ねていくことが暗譜の要です。
 
@@ -82,6 +80,11 @@ scheduled_time: "17:30"
 
 ## The Real Bookと理論書を使った実践ワークフロー
 
+<figure class="photo photo--right">
+<a href="https://www.amazon.co.jp/s?k=The+Real+Book+Volume+I&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-standard-memorization/img2.jpg" alt="ジャズフェスティバルのステージ上で行われる演奏" width="220" height="150" loading="lazy"></a>
+<figcaption>理論書と譜面を組み合わせることで、ステージでも揺らがない記憶を作る<span class="credit">Photo: Jimmy Baikovicius from Montevideo, Uruguay / CC BY-SA 2.0</span></figcaption>
+</figure>
+
 メロディ・コード・ベース音の3段階を着実に進めるためには、構造を視覚的に確認できる信頼性の高い譜面と、和声の仕組みを言語化して理解できる解説書を手元に置くことが役立ちます。ジャズの現場で事実上の標準的なフェイクブック（コードとメロディを簡潔にまとめた実用譜面集）として広く使われてきたのが『The Real Book - Volume I: C Edition』です。手書き風の記譜から生まれた歴史を持つこの定番譜面集は、楽曲のメロディとコード進行の全体像を1〜2ページに収めて一覧できるため、32小節の形式（AABAやABAC）やセクションごとの切り替わりをひと目で把握する用途に適しています。
 
 『The Real Book - Volume I: C Edition』を開く際は、最初から楽器を弾くのではなく、まず譜面の区切り（リハーサルマーク）を眺めて8小節単位の構造を確認するところから始めます。手書き由来のシンプルなレイアウトによって余計な装飾が省かれているため、メロディック・モチーフの反復やコード進行のパターンを視覚的に抜き出しやすい点が実用上の強みです。
@@ -89,11 +92,6 @@ scheduled_time: "17:30"
 [Amazonで「The Real Book - Volume I: C Edition」を確認する](https://www.amazon.co.jp/dp/0634060384?tag=nakimoto1-22)
 
 一方で、譜面集だけでは「なぜこの箇所でキーセンターが移動しているのか」「このコード進行はどのような機能を持っているのか」といった理論的な背景までを読み解くのは難しい場合があります。そこで、理論と実践を結びつける解説書として『ジャズ・スタンダード・セオリー 名曲から学ぶコード進行とアドリブ技法』を併用するワークフローが有効です。
-
-<figure class="photo photo--right">
-<a href="https://www.amazon.co.jp/s?k=The+Real+Book+Volume+I&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/jazz-standard-memorization/img2.jpg" alt="ジャズフェスティバルのステージ上で行われる演奏" width="220" height="150" loading="lazy"></a>
-<figcaption>理論書と譜面を組み合わせることで、ステージでも揺らがない記憶を作る<span class="credit">Photo: Jimmy Baikovicius from Montevideo, Uruguay / CC BY-SA 2.0</span></figcaption>
-</figure>
 
 [Amazonで価格とレビューを見る](https://www.amazon.co.jp/dp/4845631234?tag=nakimoto1-22)
 
