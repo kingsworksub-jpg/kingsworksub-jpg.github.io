@@ -11562,5 +11562,24 @@
       "seo-audit(PIL修復後)"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T16:53:40Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "titanium-sakeware-guide-2026"
+    ],
+    "actions": [
+      "全記事走査(description/禁止表現/内部リンク)。禁止表現は誤検出のみ。内部リンク皆無の記事にチタン・錫・生酒の関連記事3本を追加"
+    ],
+    "files_changed": [
+      "content/posts/titanium-sakeware-guide-2026.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "内部リンク無し記事は他に13本(多くは関連記事欄が絶対URL形式)。hugo未導入のためビルド未実行。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "残り内部リンク不足記事の補強"
+    ],
+    "status": "完了"
   }
 ]

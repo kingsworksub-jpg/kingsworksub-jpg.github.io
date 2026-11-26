@@ -129,6 +129,9 @@ scheduled_time: "21:30"
 [Amazonで見る → ホリエ 新潟県燕産 チタン二重タンブラー 華チタン](https://www.amazon.co.jp/dp/B00332GXX8?tag=nakimoto1-22)
 
 ## 関連記事・おすすめメディア
+- [KEITH 純チタン おちょこは、白酒のために生まれた旅する盃](https://kingsworksub-jpg.github.io/posts/keith-ti9304-titanium-sake-cup-deep-dive-2026/)
+- [曲がる錫が酒をやわらげる、能作 本錫100%酒器セット](https://kingsworksub-jpg.github.io/posts/nousaku-tin-sake-set-deep-dive-2026/)
+- [しぼりたての日本酒は11月から春までしか並ばない。寒造りと火入れ0回の生酒を数字で読む](https://kingsworksub-jpg.github.io/posts/shiboritate-sake-winter-namazake-2026/)
 - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
 - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
