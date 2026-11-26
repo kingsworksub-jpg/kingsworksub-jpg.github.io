@@ -4277,6 +4277,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-26T07:42:41+09:00"
+  },
+  {
+   "id": "2026w45-010",
+   "category": "net",
+   "theme": "家庭用ルーターのセキュリティ設定、初期パスワードとファームウェア更新とWPSを見直す",
+   "slug": "home-router-security-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/home-router-security-guide-2026/",
+   "hatena_entry": "6802418398322645607",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-26T12:15:20+09:00"
   }
  ]
 }

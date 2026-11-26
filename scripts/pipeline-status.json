@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-26T12:01:50+09:00",
+ "updated": "2026-11-26T12:15:20+09:00",
  "queue": {
-  "published": 203,
+  "published": 204,
   "rejected": 33,
-  "approved": 20,
-  "in_progress": 1
+  "approved": 20
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published ai-riemann-hypothesis-verification-2026",
+ "last_result": "published home-router-security-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

@@ -502,8 +502,10 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 
 ### X会計レポートのLAN＋Tailscale公開（2026-11-23構築）
 
-- `scripts/x_consultant.py` が生成する `xaccounting-reports.html` を、**LAN内の端末とTailscaleに接続した
-  自分のスマホだけから見られる**ローカルWebサーバーで公開する（GitHub Pages等には出さない）。
+- `xaccounting-reports.html` は **X + 4ブログ（GitHub Pages / はてな / Ameba / note）の5タブ式ダッシュボード**。
+  X単体のレポートは `tabs/x.html`、他ブログは `tabs/{github,hatena,ameba,note}.html` に生成される。
+  これを**LAN内の端末とTailscaleに接続した自分のスマホだけから見られる**ローカルWebサーバーで公開する
+  （GitHub Pages等には出さない）。
 - タスク名 `blog-x-report-server-task`、登録スクリプト `scripts/schedule-x-report-server.ps1`、
   起動スクリプト `scripts/scheduled/serve-x-report.ps1`、ログ `scripts/scheduled/logs/x-report-server.log`。
   ログオン時に起動し、`MultipleInstances=IgnoreNew`・実行時間無制限。
@@ -514,7 +516,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   Bluetooth・APIPA(169.254.*) は除外（Windowsファイアウォールは現在OFFなので、
   **バインド先の限定が唯一の防御**）。公共Wi-Fi等、意図しないインターフェースからは見えない。
 - 配信するのは `data/x-report-web/` にコピーした生成物だけ（リポジトリ全体は晒さない）。
-  `xaccounting-reports.html` が更新されると自動で取り直す（再起動不要、最大30秒遅れ）。
+  ダッシュボードと `tabs/*.html` が更新されると自動で取り直す（再起動不要、最大30秒遅れ）。
+  `tabs/*.html` の Chart.js 参照は公開時に `../vendor/chart.umd.min.js` へ書き換わる。
   Chart.js は `data/x-report-web/vendor/chart.umd.min.js` にローカル保存しており、オフラインでもグラフが出る。
 - **レスポンシブ対応（2026-11-23）**: 生成元 `render_html_report()` のCSSを修正済み。
   グリッドは `minmax(min(100%,Npx),1fr)` でスマホでは1列に崩れ、長い文章は `overflow-wrap:anywhere` で折り返す。
@@ -527,6 +530,28 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   Start-ScheduledTask   -TaskName blog-x-report-server-task   # 再開
   Disable-ScheduledTask -TaskName blog-x-report-server-task   # 恒久停止（ログオン時も起動しない）
   ```
+
+### 4ブログ日次解析タブ（2026-11-25構築・Xと同じ仕組み）
+
+- `scripts/blog_consultant.py` が、X以外の運営ブログ4つについて **日付付きスナップショット → 指標 → 前期/中央値比 → LLM診断 → 提案 → Markdown/HTML** を生成する。
+  Xの `x_consultant.py` と同じ `run_opencode()` / 相対判定（±5%） / `state.json` の流れを使い、成果物は
+  `data/blog-consulting/{github,hatena,ameba,note}/` と `data/blog-consulting/history/`（日次時系列）に蓄積する。
+- タブHTMLは `tabs/*.html`、全体のタブ式ダッシュボードは `xaccounting-reports.html`。Xタブは
+  `x_consultant.py` が `tabs/x.html` に単体レポートを書き出す（ルートHTMLは上書きしない）。
+- ブログごとの指標（ユーザー指示で「適切に設定」）:
+  - **GitHub Pages**: GA4 PV/ユーザー/セッション（**プロパティ全体。Ameba等を含む**）、`/posts/` 抽出のGitHub記事PV、Search Console 表示/クリック/CTR/順位（**p0-sc.csv のサンプルページのみ**）、countapi累計ビュー、週次増分、アフィリエイト付与率。公開記事数は `draft:true` を除いた frontmatter 基準（`countapi追跡記事数` とは別）。
+  - **はてな**: 公開エントリ数、7/30日投稿数、最終投稿からの日数、ハブ/深掘り率、アフィリエイト付与率、平均文字数、GitHub記事との転載カバレッジ（公式PV APIが無いため公開・コンテンツ指標。公開エントリ数は `post-platforms.json` の転載記録）。
+  - **Ameba**: 公開エントリ数、投稿cadence、新鮮度に加え、`ameba-engage-state.json` から他ブログへのいいね/フォロー（7/30日・実施日率）を指標化（公式PV APIなし。公開エントリ数は転載記録）。
+  - **note**: ログイン済みプロファイルの `api/v1/stats/pv` から **実read/スキ/コメント** を取得するが、`filter=all` には `status=deleted` が混ざるため **published のみを集計**（削除済みは除外件数として表示）。1 noteあたり読者、スキ率、コメント率、有料率、ロングフォーム率、新鮮度を追う（失敗時は `note-index.json` にフォールバック＝参考値）。
+- 全タブ共通で **投稿日時（JST）の時間帯ヒストグラム** と「最多投稿時」を KPI/グラフに出している（公開時刻の偏りを "日時解析" として追う）。直近N日はローリング168時間ではなく「今日とその前N-1日」のカレンダー日で判定する。
+- 数値の出所・母集団は各タブの「データ出典と注意」に明記する（GA4全体 vs `/posts/`、GSCサンプル、note削除除外、はてな/Amebaは公式PV未接続）。
+- 提案は `proposal-only`（自動投稿・自動削除はしない）。`data/blog-consulting/{platform}/proposals/*.json` に残す。
+- 更新はタスク `blog-content-consulting-task`（毎日07:25、Xコンサル07:10の後）。登録は
+  `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/schedule-blog-consulting.ps1`、
+  実行本体は `scripts/scheduled/run-blog-consulting.ps1`（`Invoke-WithJobLock` で直列化）。
+  手動は `python scripts/blog_consultant.py`（`--skip-llm` / `--no-live` / `--only note` あり）。
+- 公開サーバーは既存の `blog-x-report-server-task` をそのまま使い、`x_report_server.py` が
+  ダッシュボードと `tabs/*.html` を `data/x-report-web/` へコピーする。バインド先・公開範囲は変更なし。
 
 ### X自己改善エコシステム（2026-11-23構築・完全自動）
 
@@ -626,6 +651,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 
 | 記事 | はてなブログURL | Entry ID(更新に必要) |
 |---|---|---|
+| 家庭用ルーターのセキュリティを見直す3つの必須設定と古い機器の判断基準 | https://kinbro.hatenablog.com/entry/2026/11/26/120000 | 6802418398322645607 |
 | MIDIキーボードのデスク寸法整理 | https://kinbro.hatenablog.com/entry/2026/11/23/202550 | 14729835035342969784 |
 | Pi-hole導入ガイド | https://kinbro.hatenablog.com/entry/2026/11/22/074209 | 14729835035342026442 |
 | DAW | https://kinbro.hatenablog.com/entry/2026/09/16/200310 | 14945776032078440540 |
