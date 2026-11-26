@@ -1,0 +1,30 @@
+{
+ "/images/akira-neotokyo/otomo-genga-exhibition.jpg": {
+  "download": "https://live.staticflickr.com/7038/7111074715_ebd980d5d1_b.jpg",
+  "page": "https://www.flickr.com/photos/20119192@N00/7111074715",
+  "license": "CC BY 2.0",
+  "author": "Masaru Kamikura",
+  "title": ""
+ },
+ "/images/akira-neotokyo/akira-art-wall.jpg": {
+  "download": "https://live.staticflickr.com/65535/49325999047_8a0ec81a63_b.jpg",
+  "page": "https://www.flickr.com/photos/31029865@N06/49325999047",
+  "license": "CC BY 2.0",
+  "author": "Dick Thomas Johnson",
+  "title": ""
+ },
+ "/images/akira-neotokyo/akira-logo.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/c/c4/AKIRA%E3%83%AD%E3%82%B4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "page": "https://commons.wikimedia.org/wiki/File:AKIRA%E3%83%AD%E3%82%B4.jpg",
+  "license": "Public domain",
+  "author": "大友克洋／講談社",
+  "title": "File:AKIRAロゴ.jpg"
+ },
+ "/images/akira-neotokyo/kaneda-motorcycle.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Kaneda%27s_motorcycle.jpg/1280px-Kaneda%27s_motorcycle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaneda%27s_motorcycle.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Ishikawa Ken",
+  "title": "File:Kaneda's motorcycle.jpg"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "/images/two-factor-auth/auth-enabled.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Two-factor_authentication_on_Wikimedia_-_enabled.png/960px-Two-factor_authentication_on_Wikimedia_-_enabled.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Two-factor_authentication_on_Wikimedia_-_enabled.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Wikimedia Foundation",
+  "title": ""
+ },
+ "/images/two-factor-auth/auth-app.png": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png/960px-Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Two-factor_authentication_on_Wikimedia_-_enabling_an_authenticator_app.png",
+  "license": "CC BY-SA 4.0",
+  "author": "Wikimedia Foundation",
+  "title": ""
+ }
+}

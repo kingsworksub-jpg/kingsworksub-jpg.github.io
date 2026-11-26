@@ -1,0 +1,16 @@
+{
+ "/images/tech/server1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/5/5a/139_Server_Room_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:139_Server_Room_01.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Wikimedia Commons user",
+  "title": ""
+ },
+ "/images/tech/server2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/a/ad/312_Adelaide_Street_-_6th_floor_server_room_%285278379952%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:312_Adelaide_Street_-_6th_floor_server_room_(5278379952).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Wikimedia Commons user",
+  "title": ""
+ }
+}

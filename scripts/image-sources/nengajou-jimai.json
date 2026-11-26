@@ -1,0 +1,30 @@
+{
+ "/images/nengajou-jimai/c1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Balaji_Vishwanath%27s_handwritten_letter_01.jpg/960px-Balaji_Vishwanath%27s_handwritten_letter_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Balaji_Vishwanath%27s_handwritten_letter_01.jpg",
+  "license": "Public domain",
+  "author": "Balaji Vishwanath",
+  "title": ""
+ },
+ "/images/nengajou-jimai/c2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Handwritten_Letter_of_Resignation.jpg/960px-Handwritten_Letter_of_Resignation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Handwritten_Letter_of_Resignation.jpg",
+  "license": "CC BY 2.0",
+  "author": "CIPHR Connect",
+  "title": ""
+ },
+ "/images/nengajou-jimai/handwritten-letter-01.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Balaji_Vishwanath%27s_handwritten_letter_01.jpg/960px-Balaji_Vishwanath%27s_handwritten_letter_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Balaji_Vishwanath%27s_handwritten_letter_01.jpg",
+  "license": "Public domain",
+  "author": "Balaji Vishwanath",
+  "title": ""
+ },
+ "/images/nengajou-jimai/handwritten-letter-02.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Handwritten_Letter_of_Resignation.jpg/960px-Handwritten_Letter_of_Resignation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Handwritten_Letter_of_Resignation.jpg",
+  "license": "CC BY 2.0",
+  "author": "CIPHR Connect",
+  "title": ""
+ }
+}

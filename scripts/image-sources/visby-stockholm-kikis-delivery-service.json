@@ -1,0 +1,16 @@
+{
+ "/images/visby-stockholm-kiki/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/03/Adelsgatan_in_Visby_in_1999.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adelsgatan_in_Visby_in_1999.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Roger W",
+  "title": ""
+ },
+ "/images/visby-stockholm-kiki/img2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lybska_gr%C3%A4nd%2C_Visby%2C_2013.jpg/960px-Lybska_gr%C3%A4nd%2C_Visby%2C_2013.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lybska_gr%C3%A4nd,_Visby,_2013.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "VisbyStar",
+  "title": ""
+ }
+}

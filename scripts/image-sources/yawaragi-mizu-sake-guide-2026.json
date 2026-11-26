@@ -1,0 +1,30 @@
+{
+ "/images/yawaragi-mizu/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/A_cold_glass_of_water_-_GE_Refrigerator_-_August_7%2C_2007.jpg/960px-A_cold_glass_of_water_-_GE_Refrigerator_-_August_7%2C_2007.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_cold_glass_of_water_-_GE_Refrigerator_-_August_7,_2007.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Dave Matos",
+  "title": ""
+ },
+ "/images/yawaragi-mizu/img2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Glass-of-water.jpg/960px-Glass-of-water.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass-of-water.jpg",
+  "license": "Public domain",
+  "author": "Derek Jensen (Tysto)",
+  "title": ""
+ },
+ "/images/yawaragi-mizu/cold-glass-of-water.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/A_cold_glass_of_water_-_GE_Refrigerator_-_August_7%2C_2007.jpg/960px-A_cold_glass_of_water_-_GE_Refrigerator_-_August_7%2C_2007.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_cold_glass_of_water_-_GE_Refrigerator_-_August_7,_2007.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Dave Matos",
+  "title": ""
+ },
+ "/images/yawaragi-mizu/glass-of-water.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Glass-of-water.jpg/960px-Glass-of-water.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass-of-water.jpg",
+  "license": "Public domain",
+  "author": "Derek Jensen (Tysto)",
+  "title": ""
+ }
+}

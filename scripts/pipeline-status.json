@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-26T17:33:53+09:00",
+ "updated": "2026-11-26T17:51:41+09:00",
  "queue": {
-  "published": 204,
+  "published": 205,
   "rejected": 33,
-  "approved": 19,
-  "in_progress": 1
+  "approved": 19
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published home-router-security-guide-2026",
+ "last_result": "published yawaragi-mizu-sake-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

@@ -1,0 +1,16 @@
+{
+ "/images/setup/light1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/9/9c/-44_Light_fixture.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:-44_Light_fixture.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wikimedia Commons user",
+  "title": ""
+ },
+ "/images/setup/light2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/6/66/2026-06-30_Light_Fixture_by_Robert_Mitchell_%26_Co._%28George_Stephen_House%29_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2026-06-30_Light_Fixture_by_Robert_Mitchell_%26_Co._(George_Stephen_House)_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Wikimedia Commons user",
+  "title": ""
+ }
+}

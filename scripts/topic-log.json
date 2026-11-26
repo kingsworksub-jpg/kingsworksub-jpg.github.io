@@ -4289,6 +4289,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-26T12:15:20+09:00"
+  },
+  {
+   "id": "2026w45-030",
+   "category": "drink-hack",
+   "theme": "和らぎ水の飲み方、日本酒の合間に水を挟む理由",
+   "slug": "yawaragi-mizu-sake-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/yawaragi-mizu-sake-guide-2026/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-26T17:51:41+09:00"
   }
  ]
 }

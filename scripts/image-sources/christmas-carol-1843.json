@@ -1,0 +1,16 @@
+{
+ "/images/christmas-carol/c1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/A_Christmas_Carol%2C_Mr_Fezziwig%27s_Ball%2C_by_John_Leech.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Christmas_Carol,_Mr_Fezziwig's_Ball,_by_John_Leech.jpg",
+  "license": "Public domain",
+  "author": "John Leech",
+  "title": ""
+ },
+ "/images/christmas-carol/c2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/1/1a/A_Christmas_Carol_Marley%27s_Ghost_by_John_Leech.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Christmas_Carol_Marley's_Ghost_by_John_Leech.jpg",
+  "license": "Public domain",
+  "author": "John Leech",
+  "title": ""
+ }
+}

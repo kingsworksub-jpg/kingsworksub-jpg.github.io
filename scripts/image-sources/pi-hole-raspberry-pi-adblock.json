@@ -1,0 +1,30 @@
+{
+ "/images/pi-hole-raspi/pi-hole-1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Raspberry_Pi_2_Model_B_v1.1_top_new_%28bg_cut_out%29.jpg/960px-Raspberry_Pi_2_Model_B_v1.1_top_new_%28bg_cut_out%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_2_Model_B_v1.1_top_new_(bg_cut_out).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Multicherry",
+  "title": ""
+ },
+ "/images/pi-hole-raspi/pi-hole-2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Raspberry_pi_%288628128848%29.jpg/960px-Raspberry_pi_%288628128848%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Raspberry_pi_(8628128848).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "osde8info from UK",
+  "title": ""
+ },
+ "/images/pi-hole-raspi/raspberry-pi-2-model-b.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Raspberry_Pi_2_Model_B_v1.1_top_new_%28bg_cut_out%29.jpg/960px-Raspberry_Pi_2_Model_B_v1.1_top_new_%28bg_cut_out%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_2_Model_B_v1.1_top_new_(bg_cut_out).jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Multicherry",
+  "title": ""
+ },
+ "/images/pi-hole-raspi/raspberry-pi-board.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Raspberry_pi_%288628128848%29.jpg/960px-Raspberry_pi_%288628128848%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Raspberry_pi_(8628128848).jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "osde8info from UK",
+  "title": ""
+ }
+}

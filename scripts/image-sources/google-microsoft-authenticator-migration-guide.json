@@ -1,0 +1,23 @@
+{
+ "/images/authenticator-migration/authentication-devices.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/2/26/Authentication_devices.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Authentication_devices.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Dicti0nary0",
+  "title": ""
+ },
+ "/images/authenticator-migration/titan-security-key.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Google_Titan_Security_Key_-_Two_Factor_Authentication_%2847400104011%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Google_Titan_Security_Key_-_Two_Factor_Authentication_(47400104011).jpg",
+  "license": "CC BY 2.0",
+  "author": "Tony Webster",
+  "title": ""
+ },
+ "/images/authenticator-migration/phone-security.jpg": {
+  "download": "https://live.staticflickr.com/3870/14365358930_5c57b16a25_b.jpg",
+  "page": "https://www.flickr.com/photos/76523360@N03/14365358930",
+  "license": "BY 2.0",
+  "author": "Ervins Strauhmanis",
+  "title": ""
+ }
+}
