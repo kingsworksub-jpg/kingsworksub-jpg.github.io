@@ -160,3 +160,8 @@ scheduled_time: "20:00"
 自宅で試す際は、まず冷蔵庫でしっかり温度を下げ、1対1や4分の1といった明確な比率と、5秒または20〜30秒というステアの時間を基準にしてみてください。乾いた一滴がもたらす立体的な変化は、いつものスピリッツやリキュールの組み合わせに、新しい奥行きをもたらしてくれるはずです。
 
 [バルデスピノ アモンティリャード ティオ・ディエゴの詳細をAmazonで確認する](https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22)
+
+## 関連記事・おすすめメディア
+- [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
+- [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
+- [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)

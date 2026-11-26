@@ -4301,6 +4301,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-26T17:51:41+09:00"
+  },
+  {
+   "id": "2026w47-006",
+   "category": "drink-recipe",
+   "theme": "アモンティリャード・シェリーをカクテルに使う、乾いた酒が持つ役割",
+   "slug": "amontillado-sherry-cocktails",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/amontillado-sherry-cocktails/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-26T20:19:55+09:00"
   }
  ]
 }
