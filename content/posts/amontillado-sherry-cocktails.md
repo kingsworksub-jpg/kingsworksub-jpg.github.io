@@ -17,16 +17,16 @@ scheduled_time: "20:00"
 
 本記事では、アモンティリャードの製法と法的定義という根拠を出発点に、他のシェリーとの比較データやカクテルにおける具体的な機能、さらに再現しやすい配合比と温度の基準までを体系的に整理します。
 
-<figure class="photo photo--left">
-<a href="https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/amontillado-sherry/c1.jpg" alt="アモンティリャード・シェリーを用いたカクテルのイメージ" width="220" height="150" loading="lazy"></a>
-<figcaption>乾いた骨格を持つシェリー・カクテルの一例<span class="credit">Photo: SamHolt6 / CC BY-SA 4.0</span></figcaption>
-</figure>
-
 [Amazonで見る →](https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22)
 
 [バルデスピノ アモンティリャード ティオ・ディエゴの価格とレビューをAmazonで見る](https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22)
 
 ## 結論と要約データ：アモンティリャードがカクテルに果たす役割
+
+<figure class="photo photo--left">
+<a href="https://www.amazon.co.jp/dp/B07V4K6Q1R?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/amontillado-sherry/c1.jpg" alt="アモンティリャード・シェリーを用いたカクテルのイメージ" width="220" height="150" loading="lazy"></a>
+<figcaption>乾いた骨格を持つシェリー・カクテルの一例<span class="credit">Photo: SamHolt6 / CC BY-SA 4.0</span></figcaption>
+</figure>
 
 最初に結論を整理すると、アモンティリャード・シェリーがカクテルにもたらす最大の価値は「糖分による甘み」ではなく、「塩気（サライン）」「ナッツ香」「旨味（ウマミ）」の三要素を同時に付与できる点にあります。一般的な甘味料やリキュールとは異なり、全体のキレを損なわずに味わいの層だけを厚くすることが可能です。
 

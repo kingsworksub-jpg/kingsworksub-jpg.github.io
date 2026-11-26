@@ -11541,5 +11541,26 @@
       "全記事一巡済み。次回は古い順に再点検",
       "スラッグ不一致の解消"
     ]
+  },
+  {
+    "timestamp": "2026-11-26T15:54:26Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "amontillado-sherry-cocktails"
+    ],
+    "actions": [
+      "全記事の2巡目走査(description/images/禁止表現/H2数/figure位置)。違反は figure 位置のみ",
+      "導入直後にあった figure を最初のH2直後・本文段落の直前へ移動(回り込み成立)"
+    ],
+    "files_changed": [
+      "content/posts/amontillado-sherry-cocktails.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "nea-jazz-masters-2026 は有料記事(無料部分+CTA)のためH2<3は仕様。hammond-b3/jazz-festivals/ruff-black-flake8/yawaragi は節内2枚目figureで本文が後続するため未変更。PIL不調でseo-audit未実行、hugo未導入。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "節内2枚目figureの扱い方針確認",
+      "seo-audit(PIL修復後)"
+    ],
+    "status": "完了"
   }
 ]
