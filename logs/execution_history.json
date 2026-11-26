@@ -11629,5 +11629,26 @@
       "新規記事の関連記事ブロックにプレースホルダが残らないよう、パイプライン側のテンプレ確認をユーザーに依頼"
     ],
     "status": "完了"
+  },
+  {
+    "timestamp": "2026-11-26T19:53:57Z",
+    "site": "kingsworksub (GitHub Pages)",
+    "articles_improved": [
+      "ableton-live-13-ara2-vocaloid",
+      "autotune-advanced-dva-pitch-correction"
+    ],
+    "actions": [
+      "内部リンク1本だった2記事に関連記事リンクを追加(ableton: ACE Studio/Max for Live、autotune: VocAlign 7/ミックス独学)"
+    ],
+    "files_changed": [
+      "content/posts/ableton-live-13-ara2-vocaloid.md",
+      "content/posts/autotune-advanced-dva-pitch-correction.md",
+      "logs/execution_history.json"
+    ],
+    "notes": "簡易点検(description/images/H2/figure配置/内部リンク切れ)では他に問題なし。seo-audit.pyはPIL不具合で実行不可。内部リンク1本の記事は残り7件。Hatena/Ameba/note向け改善案は今回なし。",
+    "next_kpis": [
+      "内部リンク1本の残り記事(ai-riemann-hypothesis, ardbeg-trudernish-15yo, ddr5-ram, midi-keyboard-narrow-desk, pi-hole, speyside, two-factor-auth)の補強"
+    ],
+    "status": "完了"
   }
 ]

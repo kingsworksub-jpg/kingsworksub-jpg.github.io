@@ -178,3 +178,7 @@ AutoTune Advancedを導入することで、あなたは技術的な制約から
 - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
 
 **関連記事**: [Melodyne 5のピッチ補正、ノートの切れ目を直してから音程を揃える3つの手順](/posts/melodyne-5-pitch-correction-basics-2026/)
+
+**関連記事**: [VocAlign 7のマルチトラック編集でハモリとダブルをまとめて揃える](/posts/vocalign-7-multitrack/)
+
+**関連記事**: [ミックス独学の1か月、同じ曲でEQ・コンプ・リバーブを1週ずつ](/posts/mix-practice-1month/)

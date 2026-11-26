@@ -135,6 +135,8 @@ Ableton Live 13は、これまで「Liveのクリエイティブな音作りは�
 
 Ableton Liveの作曲の流れそのものに関心がある方は、[Ableton Live 12のセッションビューが変える作曲の順番](/posts/ableton-live-12-session-view-2026/)も参考になります。
 
+歌声合成の側から見たい方は[ACE Studioの140を超える声に、打ち込んだメロディと歌詞を渡して歌わせる](/posts/ace-studio-ai-vocal-synthesis-2026/)、Live標準の拡張を触りたい方は[Max for Liveの使い方は、自作より先にLFOのMapボタンから覚える](/posts/max-for-live-device-guide-2026/)も合わせてどうぞ。
+
 ## まとめ
 
 2026年11月に発表されたAbleton Live 13は、長らく待たれていたARA 2への対応と新しいステップシーケンサーの搭載により、DAWとしての実用域を大きく広げました。アレンジメントビューやクリップビューの中で波形やピッチ、タイミングを直接編集できる仕組みは、制作のテンポを根本から変える力を持っています。
