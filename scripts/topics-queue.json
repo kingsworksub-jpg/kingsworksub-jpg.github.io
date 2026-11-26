@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:01:54+09:00",
+ "updated": "2026-11-26T23:26:04+09:00",
  "items": [
   {
    "category": "gear",
@@ -11187,14 +11187,15 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-003",
-   "status": "in_progress",
+   "status": "rejected",
    "created": "2026-11-08",
    "retry": 0,
    "claimed_at": "2026-11-26T23:01:54+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "last_error": "oc_research timeout or failure"
   },
   {
    "category": "pc",
@@ -11238,9 +11239,16 @@
    },
    "source_of_idea": "matrix",
    "id": "2026w45-004",
-   "status": "approved",
+   "status": "published",
    "created": "2026-11-08",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-26T23:09:28+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "23:00",
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "ddr5-ram-daw-memory-guide-2026",
+   "published_at": "2026-11-26T23:26:04+09:00"
   },
   {
    "category": "dev",

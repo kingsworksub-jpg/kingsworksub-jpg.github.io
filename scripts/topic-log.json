@@ -4325,6 +4325,26 @@
    "note_key": "nb920f0cef632",
    "engine": "gemini",
    "at": "2026-11-26T22:04:48+09:00"
+  },
+  {
+   "id": "2026w45-003",
+   "category": "pc",
+   "theme": "USB-Cドッキングステーション、ノートPCにケーブル1本で給電と映像と有線LANをつなぐ",
+   "status": "rejected",
+   "reason": "oc_research timeout or failure",
+   "at": "2026-11-26T23:08:59+09:00"
+  },
+  {
+   "id": "2026w45-004",
+   "category": "pc",
+   "theme": "DDR5メモリ32GBと64GB、DAWのサンプル音源で増設が効く場面と効かない場面",
+   "slug": "ddr5-ram-daw-memory-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ddr5-ram-daw-memory-guide-2026/",
+   "hatena_entry": null,
+   "note_key": "none",
+   "engine": "gemini",
+   "at": "2026-11-26T23:26:04+09:00"
   }
  ]
 }

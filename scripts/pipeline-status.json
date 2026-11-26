@@ -1,16 +1,15 @@
 {
- "updated": "2026-11-26T23:01:54+09:00",
+ "updated": "2026-11-26T23:26:04+09:00",
  "queue": {
-  "published": 207,
-  "rejected": 33,
-  "approved": 16,
-  "in_progress": 1
+  "published": 208,
+  "rejected": 34,
+  "approved": 15
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published titanium-sakeware-guide-2026",
+ "last_result": "published ddr5-ram-daw-memory-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
