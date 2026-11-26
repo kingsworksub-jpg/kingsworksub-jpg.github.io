@@ -1,0 +1,16 @@
+{
+ "/images/home-router-security/img1.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cisco_router_WPS_button.jpg/960px-Cisco_router_WPS_button.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cisco_router_WPS_button.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "ArnoldReinhold",
+  "title": ""
+ },
+ "/images/home-router-security/img2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Wirelessrouter_securityinfoprinted.jpg/960px-Wirelessrouter_securityinfoprinted.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wirelessrouter_securityinfoprinted.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "RoundupResistance",
+  "title": ""
+ }
+}
