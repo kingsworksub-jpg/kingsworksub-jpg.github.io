@@ -3585,5 +3585,19 @@
   "ameba_entry": null,
   "needs_manual_review": "カテゴリー上ははてなが想定されますが、entry_idが未記録のため確認できていません。実際にはてなに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
   "updated_at": "2026-11-26T22:06:39+09:00"
+ },
+ "ddr5-ram-daw-memory-guide-2026": {
+  "title": "AIがリーマン予想を解明した？最新報道の真偽を技術的側面から見極める",
+  "platforms": [
+   "github",
+   "note"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": "none",
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-27T00:04:39+09:00"
  }
 }
