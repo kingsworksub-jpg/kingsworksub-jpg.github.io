@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:47:16+09:00",
+ "updated": "2026-11-27T20:01:19+09:00",
  "items": [
   {
    "category": "gear",
@@ -15658,9 +15658,14 @@
     "total": 92
    },
    "id": "2026w48-005",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-27T20:01:19+09:00",
+   "channel": "hatena",
+   "content_dir": "reviews",
+   "slot_time": "20:00",
+   "slot_label": "夜: テック/ソフト/制作環境(隔日)"
   },
   {
    "category": "drink-recipe",
