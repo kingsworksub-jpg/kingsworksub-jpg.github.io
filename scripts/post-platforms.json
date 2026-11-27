@@ -3680,5 +3680,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-28T00:06:03+09:00"
+ },
+ "docker-compose-volumes-restart-guide": {
+  "title": "Docker Composeのvolumesとrestart、env_fileでローカル個人サービスの再現性を高める設定整理",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-28T08:00:06+09:00"
  }
 }
