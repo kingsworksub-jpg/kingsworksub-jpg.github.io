@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:45:07+09:00",
+ "updated": "2026-11-27T20:00:02+09:00",
  "queue": {
   "published": 211,
   "rejected": 34,
@@ -12,7 +12,12 @@
  "pending_requests": 0,
  "last_result": "published bookers-batch-southern-thunder-2026",
  "consecutive_failures": 0,
- "current_job": null,
+ "current_job": {
+  "job": "blog-post",
+  "label": "投稿",
+  "since": "2026-11-27T20:00:02+09:00",
+  "engine": "gemini"
+ },
  "last_run": {
   "job": "x-reply",
   "label": "X返信",
