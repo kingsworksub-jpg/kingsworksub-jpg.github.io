@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:23:50+09:00",
+ "updated": "2026-11-27T21:31:17+09:00",
  "items": [
   {
    "category": "gear",
@@ -16695,9 +16695,14 @@
     "total": 99
    },
    "id": "2026w48-024",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-27T21:31:17+09:00",
+   "channel": "note",
+   "content_dir": "culture",
+   "slot_time": "21:30",
+   "slot_label": "夜ピーク: ウイスキー/音楽/酒器"
   },
   {
    "category": "music",
