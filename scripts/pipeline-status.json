@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T04:00:37+09:00",
+ "updated": "2026-11-28T04:02:16+09:00",
  "queue": {
   "published": 214,
   "rejected": 34,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published anker-window-security-camera-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "topic-topup",
   "label": "ネタ補充",
-  "since": "2026-11-28T04:00:37+09:00",
-  "engine": "big-pickle"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-28T04:00:32+09:00",
-  "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "at": "2026-11-28T04:02:16+09:00",
+  "engine": "big-pickle",
+  "detail": "stage1 opencode/big-pickle=finished: `Mode: topup` の判定により、`approved` が 56 件（≥16）のためキュー補充は行いません。`sync-skips` / `ingest-requests` も変化なし（deleted:0 / ingested:0）で、キュー関連ファイルの変更・コミット・プッシュはありません。（なお `git pull --rebase` は未コミット作業があるため実行不可でしたが、`HEAD` と `origin/main` は同一で取り込む更新はありませんでした。）"
  },
  "recent_runs": [
+  {
+   "job": "topic-topup",
+   "label": "ネタ補充",
+   "state": "finished",
+   "at": "2026-11-28T04:02:16+09:00",
+   "engine": "big-pickle",
+   "detail": "stage1 opencode/big-pickle=finished: `Mode: topup` の判定により、`approved` が 56 件（≥16）のためキュー補充は行いません。`sync-skips` / `ingest-requests` も変化なし（deleted:0 / ingested:0）で、キュー関連ファイルの変更・コミット・プッシュはありません。（なお `git pull --rebase` は未コミット作業があるため実行不可でしたが、`HEAD` と `origin/main` は同一で取り込む更新はありませんでした。）"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -98,14 +101,6 @@
    "at": "2026-11-28T02:00:13+09:00",
    "engine": "none",
    "detail": "{'slugs': 0, 'added': 0, 'removed': 0, 'errors': 0, 'flagged': 0}"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "finished",
-   "at": "2026-11-28T01:45:13+09:00",
-   "engine": "gemini",
-   "detail": "[i] 未処理の新規返信はありません。"
   }
  ],
  "engine_post": "gemini",
