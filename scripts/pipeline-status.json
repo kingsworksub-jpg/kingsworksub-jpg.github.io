@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:45:02+09:00",
+ "updated": "2026-11-27T13:45:08+09:00",
  "queue": {
   "published": 210,
   "rejected": 34,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published u-he-zebra-3-modular-synth-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-reply",
   "label": "X返信",
-  "since": "2026-11-27T13:45:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-follow-dm",
-  "label": "Xフォローお礼DM",
   "state": "finished",
-  "at": "2026-11-27T13:20:36+09:00",
+  "at": "2026-11-27T13:45:08+09:00",
   "engine": "gemini",
-  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  "detail": "[i] 本日の自動返信上限(6件)に達しました。"
  },
  "recent_runs": [
+  {
+   "job": "x-reply",
+   "label": "X返信",
+   "state": "finished",
+   "at": "2026-11-27T13:45:08+09:00",
+   "engine": "gemini",
+   "detail": "[i] 本日の自動返信上限(6件)に達しました。"
+  },
   {
    "job": "x-follow-dm",
    "label": "Xフォローお礼DM",
@@ -98,14 +101,6 @@
    "at": "2026-11-27T11:30:08+09:00",
    "engine": "gemini",
    "detail": "[i] 本日の自動返信上限(6件)に達しました。"
-  },
-  {
-   "job": "x-follow-dm",
-   "label": "Xフォローお礼DM",
-   "state": "finished",
-   "at": "2026-11-27T11:05:38+09:00",
-   "engine": "gemini",
-   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
   }
  ],
  "engine_post": "gemini",
