@@ -1,0 +1,30 @@
+{
+ "/images/anker-window-camera/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/01/CCTV_Cameras.png",
+  "page": "https://commons.wikimedia.org/wiki/File:CCTV_Cameras.png",
+  "license": "CC BY-SA 3.0",
+  "author": "Tamasflex",
+  "title": ""
+ },
+ "/images/anker-window-camera/img2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Security_Camera-05-PTZ.jpg/960px-Security_Camera-05-PTZ.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Security_Camera-05-PTZ.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Myotus",
+  "title": ""
+ },
+ "/images/anker-window-camera/cctv-cameras.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/0/01/CCTV_Cameras.png",
+  "page": "https://commons.wikimedia.org/wiki/File:CCTV_Cameras.png",
+  "license": "CC BY-SA 3.0",
+  "author": "Tamasflex",
+  "title": ""
+ },
+ "/images/anker-window-camera/security-camera-ptz.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Security_Camera-05-PTZ.jpg/960px-Security_Camera-05-PTZ.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Security_Camera-05-PTZ.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Myotus",
+  "title": ""
+ }
+}
