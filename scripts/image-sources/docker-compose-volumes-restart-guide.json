@@ -1,0 +1,30 @@
+{
+ "/images/docker-compose-volumes-restart-guide/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/42/Docker_Bridge_-_geograph.org.uk_-_7307105.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Docker_Bridge_-_geograph.org.uk_-_7307105.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Mary and Angus Hogg",
+  "title": ""
+ },
+ "/images/docker-compose-volumes-restart-guide/img2.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Void_Linux_20210930_Xfce_terminal_running_-_English.png/960px-Void_Linux_20210930_Xfce_terminal_running_-_English.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Void_Linux_20210930_Xfce_terminal_running_-_English.png",
+  "license": "GPL",
+  "author": "The Void Linux Community",
+  "title": ""
+ },
+ "/images/docker-compose-volumes-restart-guide/docker-bridge.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/4/42/Docker_Bridge_-_geograph.org.uk_-_7307105.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Docker_Bridge_-_geograph.org.uk_-_7307105.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Mary and Angus Hogg",
+  "title": ""
+ },
+ "/images/docker-compose-volumes-restart-guide/terminal-env.jpg": {
+  "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Void_Linux_20210930_Xfce_terminal_running_-_English.png/960px-Void_Linux_20210930_Xfce_terminal_running_-_English.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Void_Linux_20210930_Xfce_terminal_running_-_English.png",
+  "license": "GPL",
+  "author": "The Void Linux Community",
+  "title": ""
+ }
+}
