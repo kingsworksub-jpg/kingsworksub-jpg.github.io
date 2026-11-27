@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:31:29+09:00",
+ "updated": "2026-11-27T17:47:16+09:00",
  "items": [
   {
    "category": "gear",
@@ -15923,14 +15923,16 @@
     "total": 90
    },
    "id": "2026w48-010",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-27",
    "retry": 0,
    "claimed_at": "2026-11-27T17:31:29+09:00",
    "channel": "ameba",
    "content_dir": "culture",
    "slot_time": "17:30",
-   "slot_label": "夕: 機材レビュー/学習体験談"
+   "slot_label": "夕: 機材レビュー/学習体験談",
+   "slug": "bookers-batch-southern-thunder-2026",
+   "published_at": "2026-11-27T17:47:16+09:00"
   },
   {
    "category": "whisky",
