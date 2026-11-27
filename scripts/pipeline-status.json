@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-27T12:01:35+09:00",
+ "updated": "2026-11-27T12:16:18+09:00",
  "queue": {
-  "published": 209,
+  "published": 210,
   "rejected": 34,
   "approved": 60,
-  "in_progress": 1,
   "deleted": 2
  },
- "today_posts": 1,
+ "today_posts": 2,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published uv-python-dependency-management-guide-2026",
+ "last_result": "published u-he-zebra-3-modular-synth-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

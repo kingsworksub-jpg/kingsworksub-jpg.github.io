@@ -1,0 +1,103 @@
+{
+ "slug": "u-he-zebra-3-modular-synth-guide-2026",
+ "slot_time": "12:00",
+ "channel": "hatena",
+ "category": "software",
+ "article_type": "deep-dive",
+ "theme": "u-he Zebra 3の設計を読み解く、モジュラー式ソフトシンセの現在地",
+ "angle": "多年ぶりの大中型アップデートとなったZebra 3のモジュール構成を、初めて触る人にも分かる形で整理する。",
+ "target_chars": 5000,
+ "image_dir": "images/u-he-zebra-3-modular",
+ "date": "2026-11-27T12:04:11+09:00",
+ "research": {
+  "facts": [
+   {
+    "claim": "Zebra 3は2026年4月20日にバージョン3.0.0（rev. 21799）として正式リリースされ、その後2026年7月15日に3.0.2へ更新されている。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra3"
+   },
+   {
+    "claim": "Zebra 3のインターフェースはアダプティブ方式で、パッチに追加したモジュールだけが表示され、ドラッグ＆ドロップで構成を組み替えられる。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra3"
+   },
+   {
+    "claim": "オシレーターは2系統で、ウェーブテーブル方式は最大16ボイスのユニゾン、アディティブ方式は最大1024個のサイン波パーシャル（非整数倍音も可）を扱える。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra3"
+   },
+   {
+    "claim": "フィルターは13モデルを搭載し、各モデルにつき最大12種類のレスポンス（LP/HP/BPと6/12/18/24 dB/Octの組み合わせなど）を選べる。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra3"
+   },
+   {
+    "claim": "モジュレーション系はADSRエンベロープ4基、LFO 4基、MSEG 4基、Mappers 4基、Mod Math 4基で構成され、ピッチ・ゲート・トリガーも第一級のモジュレーション信号として扱われる。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra3"
+   },
+   {
+    "claim": "MusicRadarのレビューは、Zebra 2で作ったパッチをZebra 3へインポートできない点を、製品アーキテクチャが全面的に変わったことによる制約として挙げている。",
+    "source_url": "https://www.musicradar.com/music-tech/soft-synths/u-he-zebra-3-review"
+   },
+   {
+    "claim": "同レビューによれば、Zebra 3の最初のコードはリリースの11年前に書かれ、Zebra製品ライン自体は2003年後半から続いている。",
+    "source_url": "https://www.musicradar.com/music-tech/soft-synths/u-he-zebra-3-review"
+   },
+   {
+    "claim": "CDMはZebra 3を、ノーマライズされた配線を持つセミモジュラーでありながら、u-he自身が「ワイヤレス・モジュラー」と呼ぶ自由なパッチング性を備えた製品と位置づけている。",
+    "source_url": "https://cdm.link/zebra-3-is-here-a-sprawling-semi-modular-plug-in-that-runs-deep/"
+   },
+   {
+    "claim": "Wikipediaはモジュラーシンセサイザーを、機能ごとに分かれたモジュールを利用者が接続してパッチを作る電子楽器と定義し、VCO・VCF・VCA・エンベロープジェネレーターなどを典型的モジュールとして挙げている。",
+    "source_url": "https://en.wikipedia.org/wiki/Modular_synthesizer"
+   },
+   {
+    "claim": "Zebra 2を含むZebra LegacyはZebra 3とは別製品として販売が継続されており、Zebra Legacy所有者向けのクロスグレードは提供されていない。",
+    "source_url": "https://u-he.com/products/plug-ins/zebra-legacy/"
+   }
+  ],
+  "numbers": [
+   {
+    "item": "Zebra 3 販売価格",
+    "value": "249 EUR"
+   },
+   {
+    "item": "Zebra 3 初期リリース日",
+    "value": "2026年4月20日（v3.0.0 rev.21799）"
+   },
+   {
+    "item": "Zebra 3 最新バージョン",
+    "value": "3.0.2（rev.22175、2026年7月15日）"
+   },
+   {
+    "item": "ファクトリープリセット数",
+    "value": "1,200以上"
+   }
+  ],
+  "unverified": []
+ },
+ "recent_titles": [
+  "Ruffへ移行すべき理由とPythonリンターの現在地",
+  "IPv6 IPOE接続で回線速度を最大化する設定ガイド",
+  "DDR5メモリがDAW制作にもたらす恩恵と選び方",
+  "部屋の印象を変える間接照明の配置テクニック"
+ ],
+ "image_candidates": [
+  {
+   "id": "c1",
+   "source": "commons",
+   "title": "1973 Moog modular synthesizer.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1973_Moog_modular_synthesizer.jpg/960px-1973_Moog_modular_synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:1973_Moog_modular_synthesizer.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Attila Szász"
+  },
+  {
+   "id": "c2",
+   "source": "commons",
+   "title": "Eurorack Modular Synthesizer.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Eurorack_Modular_Synthesizer.jpg/960px-Eurorack_Modular_Synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurorack_Modular_Synthesizer.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Paul Anthony"
+  }
+ ],
+ "products": [],
+ "channel_notes": "はてなブログ向け。技術的・設計的な深掘り記事として、モジュラーシンセの思想がソフトシンセにどう落とし込まれているかを詳細に解説する。"
+}

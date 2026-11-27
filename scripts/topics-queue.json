@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:01:35+09:00",
+ "updated": "2026-11-27T12:16:18+09:00",
  "items": [
   {
    "category": "gear",
@@ -15551,14 +15551,16 @@
     "total": 78
    },
    "id": "2026w48-003",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-27",
    "retry": 0,
    "claimed_at": "2026-11-27T12:01:35+09:00",
    "channel": "hatena",
    "content_dir": "tech",
    "slot_time": "12:00",
-   "slot_label": "昼: テック/ソフト/制作環境"
+   "slot_label": "昼: テック/ソフト/制作環境",
+   "slug": "u-he-zebra-3-modular-synth-guide-2026",
+   "published_at": "2026-11-27T12:16:18+09:00"
   },
   {
    "category": "setup",

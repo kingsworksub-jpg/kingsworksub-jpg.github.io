@@ -1,0 +1,28 @@
+{
+ "title": "柔軟なモジュール構造が切り拓く音作りの新次元 u-he Zebra 3の設計思想を深く探る",
+ "description": "2026年に待望のリリースを果たしたu-he Zebra 3。11年の開発期間を経て刷新された内部アーキテクチャと、独自のワイヤレス・モジュラー設計がもたらす自由な音作りの可能性を詳しく解説。進化したオシレーターやフィルターなど、その全貌に迫ります。",
+ "tags": [
+  "u-he",
+  "Zebra3",
+  "ソフトシンセ",
+  "DTM",
+  "モジュラーシンセ"
+ ],
+ "x_post": "u-he Zebra 3の設計思想を深く探る記事を公開しました。11年の歳月をかけて刷新された『ワイヤレス・モジュラー』の真価とは。進化したオシレーターやフィルターの仕様を詳しく解説します。 https://kingsworksub-jpg.github.io/posts/u-he-zebra-3-modular-synth-guide-2026/ #u_he #Zebra3",
+ "figures": [
+  {
+   "candidate_id": "c1",
+   "local_path": "images/u-he-zebra-3-modular/1973 Moog modular synthesizer.jpg",
+   "alt": "1973年製のMoogモジュラーシンセサイザーの全体像。巨大な筐体に多数のパッチケーブルが接続されている。",
+   "caption": "物理的な配線を必要とした伝統的なモジュラーシステム",
+   "credit": "Attila Szász"
+  },
+  {
+   "candidate_id": "c2",
+   "local_path": "images/u-he-zebra-3-modular/Eurorack Modular Synthesizer.jpg",
+   "alt": "現代的なユーロラック・モジュラーシンセサイザーのクローズアップ。色鮮やかなパッチケーブルと精密なモジュールが並ぶ。",
+   "caption": "現代のユーロラックに見る緻密なハードウェア構成",
+   "credit": "Paul Anthony"
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+u-he Zebra 3の設計を技術視点で整理。アダプティブUI、2系統オシレーター、13モデルのフィルター、第一級モジュレーション信号まで、モジュラー思想の実装を読み解きます。
+https://kingsworksub-jpg.github.io/posts/u-he-zebra-3-modular-synth-guide-2026/
+#Zebra3 #シンセサイザー

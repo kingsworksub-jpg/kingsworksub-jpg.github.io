@@ -1,0 +1,39 @@
+{
+ "title": "u-he Zebra 3が描くモジュラー設計の思想と実装",
+ "description": "2026年に登場したu-he Zebra 3を題材に、アダプティブなUI、2系統のオシレーター、13モデルのフィルター、柔軟なモジュレーション設計から、モジュラーシンセの思想がソフトウェアでどう実装されたかを丁寧に読み解きます。",
+ "tags": [
+  "u-he",
+  "Zebra 3",
+  "モジュラーシンセ",
+  "ソフトウェアシンセ"
+ ],
+ "x_post": "u-he Zebra 3の設計を技術視点で整理。アダプティブUI、2系統オシレーター、13モデルのフィルター、第一級モジュレーション信号まで、モジュラー思想の実装を読み解きます。\nhttps://kingsworksub-jpg.github.io/posts/u-he-zebra-3-modular-synth-guide-2026/\n#Zebra3 #シンセサイザー",
+ "figures": [
+  {
+   "candidate_id": "c1",
+   "local_path": "images/u-he-zebra-3-modular/1973-moog-modular-synthesizer.jpg",
+   "alt": "1973年製のMoogモジュラーシンセサイザー",
+   "caption": "モジュラーシンセの代表的な構成例",
+   "credit": "Attila Szász / CC BY-SA 4.0",
+   "source": "commons",
+   "title": "1973 Moog modular synthesizer.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1973_Moog_modular_synthesizer.jpg/960px-1973_Moog_modular_synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:1973_Moog_modular_synthesizer.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Attila Szász"
+  },
+  {
+   "candidate_id": "c2",
+   "local_path": "images/u-he-zebra-3-modular/eurorack-modular-synthesizer.jpg",
+   "alt": "Eurorack形式のモジュラーシンセサイザー",
+   "caption": "Eurorack形式で広がったモジュラー文化の一例",
+   "credit": "Paul Anthony / CC BY-SA 4.0",
+   "source": "commons",
+   "title": "Eurorack Modular Synthesizer.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Eurorack_Modular_Synthesizer.jpg/960px-Eurorack_Modular_Synthesizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Eurorack_Modular_Synthesizer.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "Paul Anthony"
+  }
+ ]
+}
