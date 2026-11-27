@@ -3667,5 +3667,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-27T22:00:12+09:00"
+ },
+ "anker-window-security-camera-guide-2026": {
+  "title": "Ankerの窓貼り防犯カメラEufy Window Camera E10の技術検証：ガラス越しの赤外線反射と夜間撮影の仕組み",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-28T00:06:03+09:00"
  }
 }
