@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-27T23:01:34+09:00",
+ "updated": "2026-11-27T23:12:16+09:00",
  "queue": {
-  "published": 213,
+  "published": 214,
   "rejected": 34,
   "approved": 56,
-  "in_progress": 1,
   "deleted": 2
  },
- "today_posts": 5,
+ "today_posts": 6,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published kawai-casio-digital-piano-black-friday-guide-2026",
+ "last_result": "published anker-window-security-camera-guide-2026",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
