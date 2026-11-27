@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T06:35:02+09:00",
+ "updated": "2026-11-28T06:35:35+09:00",
  "queue": {
   "published": 214,
   "rejected": 34,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published anker-window-security-camera-guide-2026",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
-  "since": "2026-11-28T06:35:02+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-28T06:15:13+09:00",
+  "at": "2026-11-28T06:35:35+09:00",
   "engine": "gemini",
-  "detail": "[i] 未処理の新規返信はありません。"
+  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "Xフォローお礼DM",
+   "state": "finished",
+   "at": "2026-11-28T06:35:35+09:00",
+   "engine": "gemini",
+   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -98,14 +101,6 @@
    "at": "2026-11-28T04:02:16+09:00",
    "engine": "big-pickle",
    "detail": "stage1 opencode/big-pickle=finished: `Mode: topup` の判定により、`approved` が 56 件（≥16）のためキュー補充は行いません。`sync-skips` / `ingest-requests` も変化なし（deleted:0 / ingested:0）で、キュー関連ファイルの変更・コミット・プッシュはありません。（なお `git pull --rebase` は未コミット作業があるため実行不可でしたが、`HEAD` と `origin/main` は同一で取り込む更新はありませんでした。）"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "finished",
-   "at": "2026-11-28T04:00:32+09:00",
-   "engine": "gemini",
-   "detail": "[i] 未処理の新規返信はありません。"
   }
  ],
  "engine_post": "gemini",
