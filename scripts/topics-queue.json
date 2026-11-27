@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:01:19+09:00",
+ "updated": "2026-11-27T20:23:50+09:00",
  "items": [
   {
    "category": "gear",
@@ -15658,14 +15658,16 @@
     "total": 92
    },
    "id": "2026w48-005",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-27",
    "retry": 0,
    "claimed_at": "2026-11-27T20:01:19+09:00",
    "channel": "hatena",
    "content_dir": "reviews",
    "slot_time": "20:00",
-   "slot_label": "夜: テック/ソフト/制作環境(隔日)"
+   "slot_label": "夜: テック/ソフト/制作環境(隔日)",
+   "slug": "winter-desk-condensation-guide-2026",
+   "published_at": "2026-11-27T20:23:50+09:00"
   },
   {
    "category": "drink-recipe",

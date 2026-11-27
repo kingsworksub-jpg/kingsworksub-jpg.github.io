@@ -4397,6 +4397,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-27T17:47:16+09:00"
+  },
+  {
+   "id": "2026w48-005",
+   "category": "setup",
+   "theme": "冬のデスク環境、暖房の熱と機材の結露をどう分けるか",
+   "slug": "winter-desk-condensation-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/winter-desk-condensation-guide-2026/",
+   "hatena_entry": "661168940383344199",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-27T20:23:50+09:00"
   }
  ]
 }
