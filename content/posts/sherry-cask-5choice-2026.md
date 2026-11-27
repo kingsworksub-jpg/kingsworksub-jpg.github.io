@@ -54,7 +54,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=GlenDronach+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sherry-cask/glendronach.jpg" alt="グレンドロナックの4本のボトル、左端が12年" width="539" height="600" loading="lazy">
 </a>
-<figcaption>グレンドロナックの定番4本。左端の赤いラベルが12年<span class="credit">Photo: Thanhtour / <a href="https://commons.wikimedia.org/wiki/File:Ruou_whisky_glendronach.jpg" target="_blank" rel="noopener">CC BY 3.0</a> / <a href="https://www.amazon.co.jp/s?k=GlenDronach+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>グレンドロナックの定番4本。左端の赤いラベルが12年<span class="credit">Photo: Thanhtour / <a href="https://commons.wikimedia.org/wiki/File:Ruou_whisky_glendronach.jpg" target="_blank" rel="noopener">CC BY 3.0</a></span></figcaption>
 </figure>
 
 シェリー樽のスコッチと聞いて、まず名前が挙がるのがこの蒸溜所だと思う。アバディーンシャーのフォーグ村、ハントリーの近くにあるハイランドの蒸溜所で、創業は1826年。いまはブラウン・フォーマンの傘下にあり、定番の顔ぶれはほぼすべてシェリー樽熟成という、はっきりした方針を持っている。
@@ -75,7 +75,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Tamdhu+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sherry-cask/tamdhu-casks.jpg" alt="タムデュー蒸溜所の建物の前に並ぶ古い樽" width="1000" height="667" loading="lazy">
 </a>
-<figcaption>タムデュー蒸溜所の壁際に並ぶ樽<span class="credit">Photo: Richard Webb / <a href="https://commons.wikimedia.org/wiki/File:Casks,_Tamdhu_Distillery_-_geograph.org.uk_-_6633224.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a> / <a href="https://www.amazon.co.jp/s?k=Tamdhu+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>タムデュー蒸溜所の壁際に並ぶ樽<span class="credit">Photo: Richard Webb / <a href="https://commons.wikimedia.org/wiki/File:Casks,_Tamdhu_Distillery_-_geograph.org.uk_-_6633224.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
 スペイサイドのノッカンドー近くにあるタムデューは、一度止まった蒸溜所だ。2010年に操業を休止し、翌年イアン・マクロード社が買い取って2012年に蒸溜を再開した。この復活のときに打ち出したのが、熟成はすべてシェリー樽で行う、という方針である。
@@ -96,7 +96,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Glenfarclas+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sherry-cask/glenfarclas-still.jpg" alt="グレンファークラス蒸溜所の前に置かれた大きな銅製ポットスチル" width="1000" height="747" loading="lazy">
 </a>
-<figcaption>グレンファークラス蒸溜所の入口に置かれた銅のポットスチル<span class="credit">Photo: Andrew Abbott / <a href="https://commons.wikimedia.org/wiki/File:Copper_still_at_Glenfarclas_distillery_-_geograph.org.uk_-_3237457.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a> / <a href="https://www.amazon.co.jp/s?k=Glenfarclas+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>グレンファークラス蒸溜所の入口に置かれた銅のポットスチル<span class="credit">Photo: Andrew Abbott / <a href="https://commons.wikimedia.org/wiki/File:Copper_still_at_Glenfarclas_distillery_-_geograph.org.uk_-_3237457.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
 スペイサイドのバリンダロッホ、ベン・リネス山のふもとにあるグレンファークラスは、1865年にグラント家が買い取って以来、ずっと同じ家族が経営している。大手の傘下に入らない独立系の蒸溜所として知られ、スペイサイドでも指折りの大きな蒸溜器を、いまも直火で焚いている。
@@ -117,7 +117,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Aberlour+12+Double+Cask&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sherry-cask/aberlour-distillery.jpg" alt="アベラワー蒸溜所の建物と煙突" width="1000" height="670" loading="lazy">
 </a>
-<figcaption>スペイサイドのアベラワー村にある蒸溜所<span class="credit">Photo: Peter Moore / <a href="https://commons.wikimedia.org/wiki/File:Aberlour_Distillery_-_geograph.org.uk_-_3457838.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a> / <a href="https://www.amazon.co.jp/s?k=Aberlour+12+Double+Cask&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>スペイサイドのアベラワー村にある蒸溜所<span class="credit">Photo: Peter Moore / <a href="https://commons.wikimedia.org/wiki/File:Aberlour_Distillery_-_geograph.org.uk_-_3457838.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></span></figcaption>
 </figure>
 
 アベラワーは、スペイ川の支流が流れるアベラワー村の蒸溜所で、いまの蒸溜所は1879年に建てられた。ペルノ・リカール傘下のシーバス・ブラザーズが運営している。シェリー樽のファンには、加水しない樽出しの強さで瓶詰めした全量シェリー樽の「アブーナ」で知られている名前だ。
@@ -138,7 +138,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Dalmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/sherry-cask/dalmore-12.jpg" alt="牡鹿のエンブレムが付いたダルモア 12年のボトル" width="750" height="1000" loading="lazy">
 </a>
-<figcaption>牡鹿の紋章が付いたダルモア 12年<span class="credit">Photo: Keeezawa / <a href="https://commons.wikimedia.org/wiki/File:Dalmore_12yo.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://www.amazon.co.jp/s?k=Dalmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>牡鹿の紋章が付いたダルモア 12年<span class="credit">Photo: Keeezawa / <a href="https://commons.wikimedia.org/wiki/File:Dalmore_12yo.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
 ハイランド北部、クロマティ湾に面したアルネスの町にあるダルモアは1839年の創業。ボトルに付いた12本角の牡鹿は、マッケンジー家の紋章に由来するもので、1867年からこの蒸溜所のボトルに使われている。

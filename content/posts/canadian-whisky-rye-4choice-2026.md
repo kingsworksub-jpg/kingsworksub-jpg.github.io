@@ -110,7 +110,7 @@ scheduled_time: "21:30"
 <a href="https://www.amazon.co.jp/s?k=Lot+No.40+%E3%83%A9%E3%82%A4+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/canadian-whisky/lot40.jpg" alt="ロット40 ライウイスキーのボトル2本" width="750" height="1000" loading="lazy">
 </a>
-<figcaption>斜めに貼られたラベルに「100% RYE」と「COPPER POT DISTILLED」の文字<span class="credit">Photo: Belenois / <a href="https://commons.wikimedia.org/wiki/File:Lot40whisky.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a> / <a href="https://www.amazon.co.jp/s?k=Lot+No.40+%E3%83%A9%E3%82%A4+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>斜めに貼られたラベルに「100% RYE」と「COPPER POT DISTILLED」の文字<span class="credit">Photo: Belenois / <a href="https://commons.wikimedia.org/wiki/File:Lot40whisky.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
 ここからは、「ライ」の名にふさわしく本当にライ麦だけで造る2本になる。最初のロット40は、カナディアンクラブと同じウィンザーのハイラム・ウォーカー蒸溜所で造られている。同じ建物の中で、片や軽さを突き詰めた定番、片やライ麦100%の濃い酒が生まれているわけで、カナダの蒸溜所の懐の深さがよく分かる。

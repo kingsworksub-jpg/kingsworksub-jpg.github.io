@@ -37,7 +37,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Laphroaig+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/islay/laphroaig-10.jpg" alt="ラフロイグ 10年のボトル" width="1000" height="750" loading="lazy">
 </a>
-<figcaption>ラフロイグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Laphroaig_10_year_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Laphroaig+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>ラフロイグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Laphroaig_10_year_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
 アイラの南端、ポート・エレン地区に位置するラフロイグは、アイラ最高峰のピーティなウイスキーの地位を保ち続けている。南岸の海寄りに建つこの蒸溜所は、ピートの質がもっとも個性的だ。
@@ -58,7 +58,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/islay/ardbeg-10.jpg" alt="アードベッグ 10年のボトル" width="1000" height="750" loading="lazy">
 </a>
-<figcaption>アードベッグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Ardbeg_10_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>アードベッグ 10年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Ardbeg_10_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
 アイラ島の南西に位置するアードベッグは、南岸の蒸溜所の中でも際立った個性を持つ。ラフロイグほどではないが、やはり強いピート感を前面に出すウイスキーだ。
@@ -79,7 +79,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Bowmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/islay/bowmore-12.jpg" alt="ボウモア 12年のボトル" width="1000" height="750" loading="lazy">
 </a>
-<figcaption>ボウモア 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Bowmore_12_years_old_Scotch_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Bowmore+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>ボウモア 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Bowmore_12_years_old_Scotch_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
 アイラ島の中心地、インダール湾に面したボウモア村に蒸溜所を構える。島で最も古い蒸溜所のひとつで、地理的にも南東岸の個性派と北東のカオル・イーラのちょうど間にある。このウイスキーもアイラの中ではバランス型だ。
@@ -100,7 +100,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/islay/caol-ila-12.jpg" alt="カオル・イーラ 12年のボトル" width="1000" height="750" loading="lazy">
 </a>
-<figcaption>カオル・イーラ 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Caol_Ila_12_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a> / <a href="https://www.amazon.co.jp/s?k=Caol+Ila+12&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>カオル・イーラ 12年<span class="credit">Photo: JIP / <a href="https://commons.wikimedia.org/wiki/File:Caol_Ila_12_years_old_whisky.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
 アイラ島の北東、ポート・アスケイグの近くに建つカオル・イーラは、ジュラ島との間のアイラ海峡を望む蒸溜所だ。生産量は島で最大級で、多くのブレンデッドウイスキーの原酒にもなっている。
@@ -121,7 +121,7 @@ draft: false
 <a href="https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">
 <img src="/images/islay/bruichladdich-classic.jpg" alt="ブルイックラディック ザ・クラシック・ラディのボトル" width="453" height="1000" loading="lazy">
 </a>
-<figcaption>ブルイックラディック ザ・クラシック・ラディ<span class="credit">Photo: nigab / <a href="https://www.flickr.com/photos/44758619@N08/20098517710" target="_blank" rel="noopener">CC BY 2.0</a> / <a href="https://www.amazon.co.jp/s?k=Bruichladdich+Classic+Laddie&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a></span></figcaption>
+<figcaption>ブルイックラディック ザ・クラシック・ラディ<span class="credit">Photo: nigab / <a href="https://www.flickr.com/photos/44758619@N08/20098517710" target="_blank" rel="noopener">CC BY 2.0</a></span></figcaption>
 </figure>
 
 アイラ島の西側、インダール湾を挟んだリンズ地方に蒸溜所を持つブルイックラディックは、独自の選択肢を提示する。同じ蒸溜所でポートシャーロットやオクトモアといった強烈にピーティな銘柄も造っているが、看板のザ・クラシック・ラディはピートを焚かない麦芽で仕込まれている。

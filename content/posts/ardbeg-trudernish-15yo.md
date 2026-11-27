@@ -16,8 +16,6 @@ scheduled_time: "07:30"
 
 本記事では、このトゥルーダーニッシュ15年がなぜ48.8%という度数を選んだのか、そして3種類の樽がどのように香味を形成しているのかを深掘りします。アイラモルトの新基準となる一本の正体を、データと構成論から解き明かしていきましょう。
 
-<a href="https://www.amazon.co.jp/s?k=Ardbeg+Trudernish+15&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a>
-
 <p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B08148ZT4L?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アードベッグ10年をAmazonで確認する →</a></p>
 
 ## アードベッグが15年という熟成年数を選んだ戦略的理由
@@ -49,7 +47,7 @@ scheduled_time: "07:30"
 
 さらにオロロソシェリー樽が、ドライフルーツやナッツのような深いコクを層として重ねます。これら3つの要素が複雑に絡み合うことで、単一の樽では到達できない、立体的で多層的な香味のグラデーションが生まれているのです。
 
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22)
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B08148ZT4L?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アードベッグ10年をAmazonで確認する →</a></p>
 
 ## 強烈なピートと甘美なスパイスの対比構造
 
@@ -72,7 +70,7 @@ scheduled_time: "07:30"
 
 15年は「10年の強化版」ではなく、全く新しい次元のバランスを持ったプロダクトです。若々しい爆発力と、長期熟成のエレガンスを同時に求めるユーザーにとって、これ以上ない最適解と言える構成になっています。
 
-[Amazonで価格とレビューを見る](https://www.amazon.co.jp/s?k=Ardbeg+An+Oa&tag=nakimoto1-22)
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B075MNCHS5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アードベッグ アン・オーをAmazonで確認する →</a></p>
 
 ## テイスティングは18〜20度、加水は一滴ずつ
 
@@ -100,7 +98,7 @@ scheduled_time: "07:30"
 
 ※現在の実売価格やセール状況は下のリンクからご確認ください。
 
-[Amazonでアードベッグ トゥルーダーニッシュ15年の在庫をチェック](https://www.amazon.co.jp/s?k=Ardbeg+Trudernish+15&tag=nakimoto1-22)
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B08148ZT4L?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アードベッグ10年をAmazonで確認する →</a></p>
 
 ## まとめ
 
@@ -110,7 +108,7 @@ scheduled_time: "07:30"
 
 アイラモルトの歴史が更新された今、この一本はあなたのウイスキー体験をより豊かなものに変えてくれるはずです。保管方法に少し気を配るだけで、15年の歳月が紡いだ魔法は、いつでもあなたの手元で輝きを放ち続けます。
 
-[関連アクセサリ：テイスティング用グラスをAmazonで見る](https://www.amazon.co.jp/s?k=ウイスキー+テイスティンググラス&tag=nakimoto1-22)
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B0GV29QWJD?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：テイスティンググラスをAmazonで確認する →</a></p>
 
 **関連記事**
 
