@@ -46,6 +46,9 @@ import urllib.parse
 
 DEFAULT_TAG = "nakimoto1-22"
 
+GENERIC_PRODUCT_NAME = "この写真に関連する商品"
+GENERIC_TEXT_LABEL = f"{GENERIC_PRODUCT_NAME}をAmazonで確認する →"
+
 CTA_MARK = 'data-cvr="cta"'
 TEXT_MARK = 'data-cvr="text"'
 PRICE_MARK = 'data-cvr="price"'
@@ -63,6 +66,12 @@ HEADING_RE = re.compile(r"<h([23])\b[^>]*>(.*?)</h\1>", re.S)
 
 PLACEHOLDER_RE = re.compile(
     r"\[(CTA_BLOCK|TEXT_LINK|SUB_LINK):\s*([^\]\n]+?)\s*\]"
+)
+# Markdown で独立段落として書いたプレースホルダーは Hugo によって
+# <p>[...]</p> に包まれる。内側だけを <p class="..."> に置換すると
+# <p><p ...></p></p> の入れ子になるため、段落ごとマッチさせて外す。
+PLACEHOLDER_PARA_RE = re.compile(
+    r"<p>\s*\[(CTA_BLOCK|TEXT_LINK|SUB_LINK):\s*([^\]\n]+?)\s*\]\s*</p>"
 )
 
 PRICE_PATTERN = re.compile(r"[0-9][0-9,]*\s*円")
@@ -151,6 +160,62 @@ VERB_END = re.compile(
 # ひらがなで終わる「る/う」は動詞とみなす(「使い分ける」「変わる」など)
 VOWEL_VERB_END = re.compile(r"[ぁ-ん](る|う)$")
 
+# 商品そのものではなく「場所・情景・解説図」を写していることを示す手がかり。
+# 例: 「海辺に建つラフロイグ蒸溜所」「モリレスに広がるペドロヒメネス種の畑」
+# 商品Photoの説明文(「缶に並ぶ...」「ラベルに...」)は商品画像として扱う。
+NON_PRODUCT_HINT = re.compile(
+    r"蒸溜所|蒸留所|酒蔵|地図|市街|街並み|店内|店先|博物館|美術館|会館|"
+    r"所蔵|畑|海辺|海沿い|建つ|通り|空港|風景|写真|演奏|ステージ|"
+    r"スタジオ|キッチン|デスク|モノクロ|土台|骨格|正面のラベル|"
+    r"ジョッキ|グラスに注|コップに注"
+)
+NON_PRODUCT_VERB = re.compile(r"望む|着い|被っ|広が")
+EXPLICIT_TEXT_LINK_RE = re.compile(
+    r'(<p\b[^>]*class="cvr-text-link"[^>]*>\s*<a\b[^>]*>)(.*?)(</a>\s*</p>)', re.S
+)
+TEXT_CAPTION_LABEL_RE = re.compile(
+    r"^(?:「(.+?)」|(.+?))の(?:実売)?価格・レビューを\s*Amazonで確認する\s*→\s*$"
+)
+
+
+def _is_product_caption(caption: str) -> bool:
+    """figcaption が「商品名」として読めるかを保守的に判定する。
+
+    写真の説明文を商品名として使うと、「海辺に建つラフロイグ蒸溜所の
+    価格・レビューをAmazonで確認する」のように建物を買う文に見える。
+    少しでも説明文らしい手がかりがあれば商品名として扱わない。
+    """
+    cap = (caption or "").strip()
+    if not cap:
+        return False
+    if NON_PRODUCT_HINT.search(cap) or NON_PRODUCT_VERB.search(cap):
+        return False
+    if re.match(r"\d{4}年", cap):
+        return False
+    return True
+
+
+def _normalize_explicit_text_links(body: str) -> tuple[str, str | None]:
+    """Markdown に既に書かれたテキストリンクの文言も同じ基準で直す。"""
+    count = 0
+
+    def repl(m: re.Match) -> str:
+        nonlocal count
+        label = _strip_tags(m.group(2)).strip()
+        lm = TEXT_CAPTION_LABEL_RE.match(label)
+        if not lm:
+            return m.group(0)
+        caption = (lm.group(1) or lm.group(2) or "").strip()
+        if _is_product_caption(caption):
+            return m.group(0)
+        count += 1
+        return m.group(1) + _esc(GENERIC_TEXT_LABEL) + m.group(3)
+
+    out = EXPLICIT_TEXT_LINK_RE.sub(repl, body)
+    if not count:
+        return out, None
+    return out, f"商品写真ではない画像のテキストリンク文言を{count}件修正"
+
 
 def _name_like(segment: str) -> bool:
     """見出しの一部が「商品名」として使えそうか(文の断片や動詞句を弾く)。"""
@@ -226,13 +291,17 @@ def collect_products(body: str):
                 break
             heading = text
         asin = asin_m.group(1)
+        caption_is_product = _is_product_caption(caption)
+        name = _product_name(caption, heading, img[1] if img else "", asin)
         products.append({
             "asin": asin,
             "img": img[0] if img else "",
             "alt": img[1] if img else "",
             "caption": caption,
             "heading": heading,
-            "name": _product_name(caption, heading, img[1] if img else "", asin),
+            "caption_is_product": caption_is_product,
+            "name": name,
+            "display_name": name if caption_is_product else GENERIC_PRODUCT_NAME,
         })
     return products
 
@@ -263,11 +332,11 @@ def _amazon_url(asin: str, keyword: str, tag: str) -> str:
 
 
 def _cta_block(product: dict, tag: str, lead: str = "価格とレビューをまとめて確認") -> str:
-    name = product.get("name") or product["asin"]
+    name = product.get("display_name") or product.get("name") or product["asin"]
     short = name if len(name) <= 44 else name[:43] + "…"
     img = product.get("img") or ""
-    alt = product.get("alt") or short
-    url = _amazon_url(product["asin"], name, tag)
+    alt = product.get("alt") or product.get("name") or short
+    url = _amazon_url(product["asin"], product.get("name") or name, tag)
     thumb = (
         f'<img src="{_esc(img)}" alt="{_esc(alt)}" width="96" height="96" loading="lazy" '
         f'style="{STYLE["img"]}">'
@@ -358,7 +427,10 @@ def resolve_placeholders(body: str, products, tag: str, platform: str = "ameba")
         changes.append(f"消耗品・関連商品リンクのプレースホルダーを実リンクに変換: {name}")
         return _text_link(asin, hint, f"{name} をAmazonで確認する →", tag)
 
-    out, n = PLACEHOLDER_RE.subn(repl, body)
+    # 独立段落のプレースホルダーは <p> ごと置換して入れ子を避ける
+    body, n_para = PLACEHOLDER_PARA_RE.subn(repl, body)
+    out, n_bare = PLACEHOLDER_RE.subn(repl, body)
+    n = n_para + n_bare
     if n and not changes:
         changes.append(f"プレースホルダーを{n}件解決")
     return out, changes
@@ -404,10 +476,12 @@ def _insert_figure_links(body: str, products, tag: str) -> tuple[str, str | None
             continue
         p = by_asin[asin]
         cap = p["caption"] or p["name"]
-        if len(cap) <= 24 and "。" not in cap:
+        if p.get("caption_is_product") and len(cap) <= 24:
             label = f"「{cap}」の価格・レビューをAmazonで確認する →"
-        else:
+        elif p.get("caption_is_product"):
             label = "この商品の価格・レビューをAmazonで確認する →"
+        else:
+            label = GENERIC_TEXT_LABEL
         pieces.append("\n" + _text_link(asin, cap, label, tag))
         existing.add(asin)
         added += 1
@@ -457,6 +531,10 @@ def optimize(body: str, platform: str = "ameba", tag: str = DEFAULT_TAG):
     Pickに変換できずリンクが外れるため挿入しない)。
     """
     changes: list[str] = []
+
+    body, c = _normalize_explicit_text_links(body)
+    if c:
+        changes.append(c)
 
     body, ph_changes = resolve_placeholders(body, collect_products(body), tag, platform)
     changes += ph_changes

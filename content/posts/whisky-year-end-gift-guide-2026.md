@@ -17,11 +17,13 @@ scheduled_time: "21:30"
 
 この記事では、贈る1本を選ぶときの考え方と、自分用に小さく崩して買う方法を分けて整理する。その間に、お歳暮として贈るときの時期とのし、ミニチュアの詰め合わせという中間の選択肢、グラスを添えるという贈り方も挟んでいく。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B004BE5WGS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：カティサーク12年をAmazonで確認する →</a></p>
+
 ---
 
 ## 贈る1本と崩す1本を分けて考える
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%AB%E3%82%B9+%E6%B4%A5%E8%B2%AB+%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/whisky-gift/mars-tsunuki-box.jpg" alt="窓付きの化粧箱に収まったマルス津貫のシングルモルト" width="750" height="1000" loading="lazy"></a>
 <figcaption>鹿児島・南さつまのマルス津貫蒸溜所のボトル。窓からラベルの絵が見える化粧箱に入っている<span class="credit">Photo: Keeezawa / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -36,7 +38,7 @@ scheduled_time: "21:30"
 
 ## 化粧箱は中身について何を伝えているのか
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC+%E3%82%AE%E3%83%95%E3%83%88+%E7%AE%B1%E5%85%A5%E3%82%8A&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/whisky-gift/cutty-sark-box.jpg" alt="カティサーク12年のボトルと帆船が描かれた緑色の化粧箱" width="600" height="766" loading="lazy"></a>
 <figcaption>カティサーク12年と専用の化粧箱。ボトルの帆船が箱では海の情景に広がっている<span class="credit">Photo: Brian Adler / Public domain</span></figcaption>
 </figure>
@@ -65,7 +67,7 @@ scheduled_time: "21:30"
 
 ## ミニチュアの詰め合わせという中間の選択肢
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC+%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2+%E9%A3%B2%E3%81%BF%E6%AF%94%E3%81%B9%E3%82%BB%E3%83%83%E3%83%88&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/whisky-gift/six-classic-malts.jpg" alt="スコットランド6地域のシングルモルトのミニチュア6本が並んだ詰め合わせの箱" width="1000" height="750" loading="lazy"></a>
 <figcaption>タリスカー、オーバン、グレンキンチー、ダルウィニー、ラガヴーリン、クラガンモアの小瓶6本。ふたの裏にスコットランドの地図が描かれている<span class="credit">Photo: Pettersjan / CC BY-SA 3.0</span></figcaption>
 </figure>
@@ -80,7 +82,7 @@ scheduled_time: "21:30"
 
 ## アドベントカレンダーは自分用に崩す買い方
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC+%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/whisky-gift/advent-day1.jpg" alt="本棚の前に置かれた30mlの小瓶。グレンファークラス40年のラベル" width="1000" height="667" loading="lazy"></a>
 <figcaption>アドベントカレンダーの初日の扉から出てきた30mlの小瓶。封蝋の付いた栓で閉じられている<span class="credit">Photo: ChodHound / CC BY-SA 2.0</span></figcaption>
 </figure>
@@ -99,7 +101,7 @@ scheduled_time: "21:30"
 
 ## グラスを添える、あるいはグラスだけを贈る
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=%E3%82%B0%E3%83%AC%E3%83%B3%E3%82%B1%E3%82%A2%E3%83%B3+%E3%82%B0%E3%83%A9%E3%82%B9&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/whisky-gift/glencairn-jug.jpg" alt="木のコースターに置かれた2つのグレンケアングラスと水差し" width="1000" height="846" loading="lazy"></a>
 <figcaption>色の違うウイスキーを注いだ2つのグレンケアングラスと、加水用の小さな水差し<span class="credit">Photo: Lord van Tasm / CC BY-SA 3.0</span></figcaption>
 </figure>

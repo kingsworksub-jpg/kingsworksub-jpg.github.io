@@ -15,6 +15,8 @@ scheduled_time: "07:30"
 
 では、新しい蒸溜所はそれまでのあいだ何を売り、どうやって暮らしを立てているのか。この記事では、アウター・ヘブリディーズ諸島のハリス島にあるIsle of Harris蒸溜所と、本土の北の端にあるWolfburn(ウルフバーン)を中心に、年数を待たない売り方を見ていく。2026年は、ハリスのシングルモルト『The Hearach』の取り扱いがアメリカで広がり、ウルフバーンの年数表示付きのボトルも出そろってきた年でもある。若い蒸溜所が熟成年数の短さをどう設計に組みこんでいるのかを知ると、ノンエイジのボトルを手に取るときの見方も少し変わってくると思う。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B0CYSXJJZS?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：ラフロイグ10年をAmazonで確認する →</a></p>
+
 ---
 
 ## 法律が決めているのは「3年」だけ
@@ -27,7 +29,7 @@ scheduled_time: "07:30"
 
 ## ハリス島の蒸溜所は、ジンで時間を買った
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.harrisdistillery.com/" target="_blank" rel="noopener">
 <img src="/images/new-distilleries/harris-tarbert.jpg" alt="岩の護岸の上に建つ、白い壁と三角屋根のガラス窓が印象的なIsle of Harris蒸溜所の建物" width="1000" height="933" loading="lazy">
 </a>
@@ -42,7 +44,7 @@ Isle of Harris蒸溜所は、ハリス島の港町ターバートで2015年に�
 
 ## 『The Hearach』は年数ではなくバッチ番号を名乗る
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <a href="https://www.harrisdistillery.com/" target="_blank" rel="noopener">
 <img src="/images/new-distilleries/harris-exterior.jpg" alt="緑の丘を背に建つIsle of Harris蒸溜所と、手前の敷地に何列も並べられた樽" width="1000" height="451" loading="lazy">
 </a>
@@ -59,7 +61,7 @@ Isle of Harris蒸溜所は、ハリス島の港町ターバートで2015年に�
 
 ## ウルフバーンは小さな樽で時計を早めた
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://wolfburn.com/" target="_blank" rel="noopener">
 <img src="/images/new-distilleries/wolfburn-stills.jpg" alt="左右に並ぶ銅色のポットスチルと、その間に延びる金属製の通路" width="1000" height="666" loading="lazy">
 </a>
@@ -76,7 +78,7 @@ Isle of Harris蒸溜所は、ハリス島の港町ターバートで2015年に�
 
 ## 年数表示はゴールではなく、あとから届くもの
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <a href="https://wolfburn.com/" target="_blank" rel="noopener">
 <img src="/images/new-distilleries/wolfburn.jpg" alt="芝生の向こうに建つ紺色の倉庫のような建物と、壁に掛かるWolfburnの看板" width="1000" height="750" loading="lazy">
 </a>
@@ -91,7 +93,7 @@ Isle of Harris蒸溜所は、ハリス島の港町ターバートで2015年に�
 
 ## 待つ時間を客と分け合う、キングスバーンズとアルドナムルッカン
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.kingsbarnsdistillery.com/" target="_blank" rel="noopener">
 <img src="/images/new-distilleries/kingsbarns.jpg" alt="手前に横たえて積まれたたくさんの樽と、その奥に建つKingsbarnsの看板のある石造りの建物" width="1000" height="667" loading="lazy">
 </a>

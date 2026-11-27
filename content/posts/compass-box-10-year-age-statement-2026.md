@@ -13,11 +13,13 @@ scheduled_time: "23:00"
 
 スコッチウイスキーのラベルに書かれた「12年」や「18年」という数字を、瓶の中の原酒の平均年齢だと受け取っている人は少なくないと思う。実際には、その数字は瓶の中でいちばん若い原酒の年数で、ほかの原酒はそれより古いかもしれないし、どれだけ古いかは書いてはいけない決まりになっている。2026年9月にロンドンのブレンダー、Compass Box(コンパスボックス)が発表した『This is a 10-Year-Old Whisky』は、この決まりを正面から逆手に取った1本だ。瓶の中の原酒を、すべてちょうど10年熟成のものだけでそろえた。そうすれば、ラベルの「10年」は最低年数ではなく、中身そのものの年齢になる。この記事では、スコッチの年数表示のルール、コンパスボックスが10年前から求めてきた表示の透明性、そして50.5%という度数の飲み方を、数字を中心に整理する。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B00871CV56?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：グレンフィディック12年をAmazonで確認する →</a></p>
+
 ---
 
 ## 先に結論、この1本と年数表示のルールを表で整理
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/compass-box-10yo/tasting.jpg" alt="白いクロスを掛けた長いテーブルに、コンパスボックスのウイスキーのボトルと化粧箱が8本ほど一列に並んでいる。ラベルの色や形はボトルごとに違う" width="1000" height="602" loading="lazy">
 <figcaption>テイスティング会に並んだコンパスボックスのボトル。複数の蒸溜所の原酒を組み合わせて1本を作る<span class="credit">Photo: Dominic Lockyer / CC BY 2.0</span></figcaption>
 </figure>
@@ -41,7 +43,7 @@ scheduled_time: "23:00"
 
 ## スコッチの年数表示は、いちばん若い原酒の年数
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/compass-box-10yo/orchard-house.jpg" alt="白い背景の前に立つ透明なウイスキーのボトル。ラベルには果樹の枝とりんごの絵、ORCHARD HOUSEの文字と、BLENDED MALT SCOTCH WHISKYの表記がある" width="750" height="1000" loading="lazy">
 <figcaption>コンパスボックスの定番『Orchard House』。ブレンデッドモルトで、ラベルに熟成年数は書かれていない<span class="credit">Photo: Keeezawa / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -64,7 +66,7 @@ scheduled_time: "23:00"
 
 ## 2015年、レシピを公開して止められたブレンダー
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/compass-box-10yo/peat-monster.jpg" alt="白いタイルの壁の前に、黒い化粧箱と、THE PEAT MONSTERと書かれたラベルのウイスキーのボトルが並び、手前に少しだけウイスキーの入ったテイスティンググラスが置かれている" width="1000" height="750" loading="lazy">
 <figcaption>ピートの強い原酒を組み合わせた『The Peat Monster』。コンパスボックスの代表的なブレンデッドモルト<span class="credit">Photo: JIP / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -81,7 +83,7 @@ scheduled_time: "23:00"
 
 ## 東海岸のクライヌリッシュが7割近くを占める
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/compass-box-10yo/clynelish.jpg" alt="芝生の斜面の上に建つ、白い壁とグレーの屋根の大きな工場風の建物。手前の門にはCLYNELISHの文字と蒸溜器の形をした飾りが付いている" width="1000" height="750" loading="lazy">
 <figcaption>ハイランド東海岸、ブローラの町にあるクライヌリッシュ蒸溜所。1967年に建てられた建物で今も稼働している<span class="credit">Photo: Alan Jamieson / CC BY-SA 3.0</span></figcaption>
 </figure>
@@ -94,7 +96,7 @@ scheduled_time: "23:00"
 
 ## 2014年生まれのアードナムルッカンにとっての10年
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/compass-box-10yo/ardnamurchan.jpg" alt="曇り空の下、砂利敷きの駐車場の奥に、パゴダ屋根と呼ばれる尖った屋根を載せた白い壁の建物が建っている。後ろには緑の丘と針葉樹が見える" width="1000" height="707" loading="lazy">
 <figcaption>西ハイランドのアードナムルッカン半島に建つアードナムルッカン蒸溜所。屋根の上の尖塔はモルトを乾かす建物の名残の形<span class="credit">Photo: John Haynes / CC BY-SA 2.0</span></figcaption>
 </figure>

@@ -13,11 +13,13 @@ scheduled_time: "23:00"
 
 ウイスキーをロックで飲むとき、グラスに入れる氷が白く濁っていると、それだけで少し残念な気持ちになる。バーで出てくる氷は向こう側が透けて見えるほど澄んでいて、グラスの中で割れにくく、見た目にも静かだ。あの透明な氷は、特別な水や専用の機械がなくても、家庭の冷凍庫で作ることができる。必要なのは、小さな保冷ボックスと、水が凍っていく「向き」を一方向にそろえるという考え方だけだ。この記事では、製氷皿の氷が濁る理由、上からだけ凍らせる方向性凍結(ほうこうせいとうけつ)の仕組み、そして水の量・冷凍時間・取り出す時刻・切り分け方・保存方法までを、再現できる形で順に説明する。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B0BNXVDLQJ?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：透明氷メーカーをAmazonで確認する →</a></p>
+
 ---
 
 ## 先に結論、透明な氷を作る条件の一覧
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/clear-ice/block.jpg" alt="グラスの形をした透明な氷の塊。上半分は向こう側が透けて見え、下のほうには縦に伸びる白い筋状の気泡が並んでいる" width="1000" height="750" loading="lazy">
 <figcaption>上から凍らせた氷。上部は澄み、最後に凍った下部に気泡の筋が集まっている<span class="credit">Photo: Public class / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -36,7 +38,7 @@ scheduled_time: "23:00"
 
 ## 製氷皿の氷が白く濁るのは、空気の逃げ場がないから
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/clear-ice/cloudy.jpg" alt="家庭の製氷皿で作った角氷がいくつも積み重なり、どの氷も外側は透明だが中心部分が白く濁っている" width="1000" height="665" loading="lazy">
 <figcaption>ふつうに作った角氷。外側は澄んでいても、最後に凍った中心が白く濁る<span class="credit">Photo: liz west / CC BY 2.0</span></figcaption>
 </figure>
@@ -51,7 +53,7 @@ scheduled_time: "23:00"
 
 ## 方向性凍結、上からだけ凍らせると不純物は下に逃げる
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/clear-ice/tray.jpg" alt="発泡スチロールの断熱材を2段に重ね、その上面にくぼみを作って白い紙コップを埋め込み、中に水を張った手作りの透明氷用の容器" width="750" height="1000" loading="lazy">
 <figcaption>断熱材に紙コップを埋めた手作りの容器。側面と底を断熱し、冷気が上からだけ入るようにしてある<span class="credit">Photo: Public class / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -68,7 +70,7 @@ scheduled_time: "23:00"
 
 ## 実践、保冷ボックスで作る透明な氷の手順
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/clear-ice/ginkgo.jpg" alt="ロックグラスほどの大きさの透明な氷の塊。中に黄色く色づいたイチョウの葉が1枚閉じ込められていて、向こう側まで透けて見える" width="750" height="1000" loading="lazy">
 <figcaption>イチョウの葉を閉じ込めた透明な氷。濁りがないので、中に入れた物まではっきり見える<span class="credit">Photo: Public class / CC BY-SA 4.0</span></figcaption>
 </figure>

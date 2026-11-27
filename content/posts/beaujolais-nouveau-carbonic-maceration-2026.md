@@ -13,11 +13,13 @@ scheduled_time: "17:00"
 
 2026年のボジョレー・ヌーヴォーの解禁日は、11月19日(木)だ。毎年「11月の第3木曜日」と決まっていて、日本は時差の関係で、主要な輸入国の中ではいち早く栓を開けられる国のひとつになる。ボジョレー・ヌーヴォーを飲むと、ほかの赤ワインと比べて渋みが少なく、色は明るい紫、香りはいちごやバナナ、キャンディのように甘く感じることが多い。この軽さは、ぶどうの品種だけで決まるものではない。**房ごとタンクに入れ、炭酸ガスの中で粒の内側から発酵を始めさせる「マセラシオン・カルボニック」という醸造法**が大きく関わっている。この記事では、その仕組みを数字で整理し、解禁日に向けた冷やし方と、飲みきる時期の目安までをまとめる。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B0H97DJL6Q?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：ボジョレー・ヌーヴォーをAmazonで確認する →</a></p>
+
 ---
 
 ## 先に結論、ボジョレー・ヌーヴォーを軽くしている5つの数字
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/beaujolais-nouveau/cuvee-2022.jpg" alt="木のテーブルに並んだ6本のボジョレー・ヌーヴォーとボジョレー・ヴィラージュ・ヌーヴォー。赤ワイン5本とロゼ1本で、花柄やオレンジ色のラベルが付いている" width="1000" height="705" loading="lazy">
 <figcaption>2022年の解禁に合わせて並べられたヌーヴォー。赤だけでなくロゼも造られる<span class="credit">Photo: René Hourdry / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -38,7 +40,7 @@ scheduled_time: "17:00"
 
 ## ぶどうの粒の中で何が起きているのか
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/beaujolais-nouveau/gamay-ripening.jpg" alt="ぶどう畑で色づきはじめたガメイの房。緑と紫の粒が混ざり、縁が赤く紅葉した葉に囲まれている" width="665" height="1000" loading="lazy">
 <figcaption>色づきはじめたガメイの房。ボジョレーではこの房を手で摘み、つぶさずに醸造所へ運ぶ<span class="credit">Photo: karaian / CC BY 2.0</span></figcaption>
 </figure>
@@ -75,7 +77,7 @@ scheduled_time: "17:00"
 
 ## ガメイと2か月の時間割、ヌーヴォーが「その年のうち」に出せる理由
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/beaujolais-nouveau/landscape-november.jpg" alt="11月のボジョレー地方の丘陵。手前の斜面のぶどう畑が黄色とオレンジに紅葉し、谷あいに集落が点在している" width="1000" height="750" loading="lazy">
 <figcaption>11月のボジョレー地方。解禁のころ、斜面のガメイの畑は黄色く色づいている<span class="credit">Photo: Sebleouf / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -100,7 +102,7 @@ scheduled_time: "17:00"
 
 ## 解禁日においしく飲むための温度と時期
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/beaujolais-nouveau/nouveau-bottles.jpg" alt="フランスの食堂のテーブルに置かれたオレンジ色のラベルのボジョレー・ヌーヴォーと、赤ワインが注がれた2つのグラス" width="1000" height="750" loading="lazy">
 <figcaption>食堂のテーブルで開けられたボジョレー・ヌーヴォー。少し冷やして、軽いグラスで気軽に飲むのが似合う<span class="credit">Photo: Véronique PAGNIER / CC BY-SA 3.0</span></figcaption>
 </figure>

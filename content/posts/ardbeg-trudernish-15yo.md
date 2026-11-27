@@ -18,6 +18,8 @@ scheduled_time: "07:30"
 
 <a href="https://www.amazon.co.jp/s?k=Ardbeg+Trudernish+15&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">Amazonで見る →</a>
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B08148ZT4L?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アードベッグ10年をAmazonで確認する →</a></p>
+
 ## アードベッグが15年という熟成年数を選んだ戦略的理由
 
 ウイスキーの熟成において、15年という期間は「若さの勢い」と「熟成の深み」が交差する交差点です。アードベッグのピーティーな原酒は、10年では力強いスモークが主役となりますが、15年を過ぎる頃から樽の成分とのエステル化が進みます。
@@ -36,7 +38,7 @@ scheduled_time: "07:30"
 
 ## バーボン・新樽・オロロソが織りなす3種の樽構成
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=Ardbeg+10&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-10.jpg" alt="アードベッグ10年のボトル" width="220" height="150" loading="lazy"></a>
 <figcaption>比較基準となるアードベッグ10年<span class="credit">Photo: DYVER / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -59,7 +61,7 @@ scheduled_time: "07:30"
 
 ## 既存のコアレンジと比較して見えてくる立ち位置
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <a href="https://www.amazon.co.jp/s?k=Ardbeg+An+Oa&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/ardbeg-trudernish/ardbeg-anoa.jpg" alt="アードベッグ アン・オーのボトル" width="220" height="150" loading="lazy"></a>
 <figcaption>樽の調和を重視したアン・オー<span class="credit">Photo: JIP / CC BY-SA 4.0</span></figcaption>
 </figure>

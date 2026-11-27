@@ -13,6 +13,8 @@ scheduled_time: "17:00"
 
 来客の直前になって、冷蔵庫に入れ忘れた缶ビールの箱に気づく。年末年始の集まりでは、わりとよく起きる場面だ。とりあえず冷凍庫に放り込みたくなるが、急ぐならそれは遠回りになる。いちばん速いのは、バケツか鍋に氷と水を張り、そこに塩を溶かして缶を沈める方法だ。この記事では、なぜ塩を入れた氷水が冷凍庫より速いのかを、熱の伝わり方と温度の2つに分けて数字で説明し、塩の量、冷えるまでの時間、そして入れっぱなしにしたときに缶の中身が凍り始める時刻まで整理する。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B002B4SX8O?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：アイスバケツをAmazonで確認する →</a></p>
+
 ---
 
 ## 先に結論、350ml缶が5℃になるまでの目安
@@ -30,7 +32,7 @@ scheduled_time: "17:00"
 
 ## 冷凍庫が遅いのは、空気が熱を運ばないから
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/can-chill/bucket.jpg" alt="ブリキのバケツにたっぷりの角氷が入れられ、その間に緑がかった小瓶のビールが7本差し込まれている" width="1000" height="854" loading="lazy">
 <figcaption>氷を詰めたバケツに瓶を差し込んだ状態。冷やすには、この隙間に水を足すと効率が上がる<span class="credit">Photo: Atsme / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -45,7 +47,7 @@ scheduled_time: "17:00"
 
 ## 塩を入れると、氷水が0℃より冷たくなる
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/can-chill/salt.jpg" alt="黒い背景の上で、四角い面を持つ透明な塩の結晶が縁に沿っていくつも連なって成長している様子の接写" width="1000" height="663" loading="lazy">
 <figcaption>塩化ナトリウムの結晶。氷水に溶けると、水が凍る温度を0℃より下げる<span class="credit">Photo: Photograph by the NASA Expedition 6 crew / Public domain</span></figcaption>
 </figure>
@@ -90,7 +92,7 @@ scheduled_time: "17:00"
 
 ## 実践、塩入り氷水の作り方
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/can-chill/beer-in-ice.jpg" alt="金属の容器に砕いた氷が詰められ、茶色い瓶のビールとピンク色の瓶の飲み物が何本も差し込まれている" width="1000" height="667" loading="lazy">
 <figcaption>砕いた氷に瓶を埋めた状態。氷だけでは瓶との接触面が少ないので、水を足して全体を浸す<span class="credit">Photo: Brandon Morgan littleppl85 / CC0</span></figcaption>
 </figure>

@@ -13,11 +13,13 @@ scheduled_time: "17:00"
 
 11月に入ると、ドイツやオーストリアのクリスマスマーケットでは、湯気の立つ大鍋からホットワインが注がれはじめる。ドイツ語ではグリューワイン(Glühwein)、直訳すると「赤く燃えるワイン」だ。家で作るのは難しくないが、ひとつだけ外せない条件がある。それは**鍋を沸かさないこと**だ。この記事では、なぜ65〜70℃で火を止めるのかを温度の数字から説明し、赤ワイン1本(750ml)に対するシナモン・クローブ・オレンジ・砂糖の配合と、香りを移す時間までを再現できる形でまとめる。
 
+<p class="cvr-text-link"><a href="https://www.amazon.co.jp/dp/B0B8MGZ8T5?tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow">関連商品：ホットワイン向け赤ワインをAmazonで確認する →</a></p>
+
 ---
 
 ## 先に結論、ホットワインの温度と配合の一覧
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/hot-wine/glass.jpg" alt="赤いソーサーにのった白いカップにホットワインが注がれ、表面に乾燥オレンジの輪切りとスターアニスが1個浮かんでいる" width="1000" height="753" loading="lazy">
 <figcaption>乾燥オレンジとスターアニスを浮かべたホットワイン。カップに注いだ時点で60℃前後が飲みごろになる<span class="credit">Photo: Andy Li / CC0</span></figcaption>
 </figure>
@@ -37,7 +39,7 @@ scheduled_time: "17:00"
 
 ## 沸かすと何が抜けるのか、78.3℃と90℃の関係
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/hot-wine/pot.jpg" alt="鍋の中の赤ワインを真上から写した写真。オレンジの輪切り、シナモンスティック、カルダモンの莢、スターアニス、クローブが浮いている" width="1000" height="750" loading="lazy">
 <figcaption>オレンジの輪切りとホールスパイスを沈めた鍋。液面が静かなうちに火を止めるのがこつ<span class="credit">Photo: Angela Huster / CC0</span></figcaption>
 </figure>
@@ -62,7 +64,7 @@ scheduled_time: "17:00"
 
 ## スパイスは何をどれだけ入れるか、ワイン1本の配合
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/hot-wine/spices.jpg" alt="木のテーブルの上に、シナモンスティック3本、乾燥オレンジの輪切りにのせたスターアニス、クローブ、カルダモン、黒こしょうの粒が並んでいる" width="1000" height="750" loading="lazy">
 <figcaption>ホットワインに使うホールスパイス。シナモン、スターアニス、クローブ、カルダモン、乾燥オレンジ<span class="credit">Photo: VSerebrenikov / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -90,7 +92,7 @@ scheduled_time: "17:00"
 
 ## 実践、65〜70℃で作るホットワインの手順
 
-<figure class="photo photo--right">
+<figure class="photo photo--right" data-pick-skip="1">
 <img src="/images/hot-wine/market.jpg" alt="クリスマスマーケットの屋台のカウンターに、オレンジの輪切りを浮かべた赤いホットワインの大きな銅鍋が置かれ、湯気が上がっている" width="1000" height="750" loading="lazy">
 <figcaption>ブダペストのクリスマスマーケットの屋台。大鍋のホットワインは沸かさずに保温している<span class="credit">Photo: Globetrotter19 / CC BY-SA 4.0</span></figcaption>
 </figure>
@@ -112,7 +114,7 @@ scheduled_time: "17:00"
 
 ## 国ごとの派生、白ワイン、火をつける砂糖、アーモンド入り
 
-<figure class="photo photo--left">
+<figure class="photo photo--left" data-pick-skip="1">
 <img src="/images/hot-wine/feuerzangen.jpg" alt="金属製の保温鍋の上に渡したトングの上で、ラム酒をしみこませた円すい形の砂糖の塊が青い炎を上げて燃えている" width="665" height="1000" loading="lazy">
 <figcaption>フォイヤーツァンゲンボウレ。ラム酒をしみこませた砂糖の塊に火をつけ、溶けた砂糖をホットワインに落とす<span class="credit">Photo: Kore Nordmann (Kore) / CC BY-SA 4.0</span></figcaption>
 </figure>
