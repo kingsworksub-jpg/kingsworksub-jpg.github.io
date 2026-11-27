@@ -3626,5 +3626,18 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-27T13:00:10+09:00"
+ },
+ "bookers-batch-southern-thunder-2026": {
+  "title": "Booker's Batch #3「The Southern Thunder」から読み解く、バッチ番号とカスクストレングスの基準",
+  "platforms": [
+   "github"
+  ],
+  "hatena_entry": null,
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": "カテゴリー上はアメブロが想定されますが、entry_idが未記録のため確認できていません。実際にアメブロに投稿済みなら、該当IDをpost-platforms.jsonに手動で追記してください。",
+  "updated_at": "2026-11-27T18:00:10+09:00"
  }
 }
