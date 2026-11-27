@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-28T07:31:58+09:00",
+ "updated": "2026-11-28T07:42:33+09:00",
  "queue": {
-  "published": 214,
+  "published": 215,
   "rejected": 34,
   "approved": 55,
-  "deleted": 2,
-  "in_progress": 1
+  "deleted": 2
  },
- "today_posts": 0,
+ "today_posts": 1,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published anker-window-security-camera-guide-2026",
+ "last_result": "published docker-compose-volumes-restart-guide",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",

@@ -4433,6 +4433,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-27T23:12:16+09:00"
+  },
+  {
+   "id": "2026w48-039",
+   "category": "dev",
+   "theme": "Docker Composeのvolumesで個人サービスを再現する、再起動と設定の整理",
+   "slug": "docker-compose-volumes-restart-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/docker-compose-volumes-restart-guide/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-28T07:42:33+09:00"
   }
  ]
 }
