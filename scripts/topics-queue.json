@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:01:56+09:00",
+ "updated": "2026-11-28T23:24:45+09:00",
  "items": [
   {
    "category": "gear",
@@ -16905,7 +16905,7 @@
     "total": 93
    },
    "id": "2026w48-027",
-   "status": "in_progress",
+   "status": "published",
    "created": "2026-11-27",
    "retry": 0,
    "claimed_at": "2026-11-28T23:01:56+09:00",
@@ -16916,7 +16916,9 @@
    "canonical_platform": "note",
    "content_dir": "culture",
    "slot_time": "23:00",
-   "slot_label": "就寝前: カルチャーエッセイ"
+   "slot_label": "就寝前: カルチャーエッセイ",
+   "slug": "folding-umbrella-gentleman-history",
+   "published_at": "2026-11-28T23:24:45+09:00"
   },
   {
    "category": "film",

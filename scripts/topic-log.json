@@ -4507,6 +4507,24 @@
    "ameba_entry": null,
    "engine": "gemini",
    "at": "2026-11-28T22:08:09+09:00"
+  },
+  {
+   "id": "2026w48-027",
+   "category": "essay",
+   "theme": "折りたたみ傘が紳士の持ち物になった道筋、雨の日の身支度",
+   "slug": "folding-umbrella-gentleman-history",
+   "status": "published",
+   "url": "https://note.com/shining_finger01/n/n53a0fd237d0a",
+   "platforms": [
+    "note"
+   ],
+   "canonical_platform": "note",
+   "canonical_url": "https://note.com/shining_finger01/n/n53a0fd237d0a",
+   "hatena_entry": null,
+   "note_key": "n53a0fd237d0a",
+   "ameba_entry": null,
+   "engine": "gemini",
+   "at": "2026-11-28T23:24:45+09:00"
   }
  ]
 }
