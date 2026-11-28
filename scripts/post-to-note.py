@@ -613,6 +613,12 @@ def publish_note(page, timeout=120):
     print("  公開設定画面(/publish/)に遷移しました", flush=True)
     page.wait_for_timeout(4000)
 
+    # 有料記事は「有料エリア設定」を開かないと「更新する」ボタンが現れない
+    # （2026-11-29 実測）。 opened 後に step2 のボタンを探す。
+    if click_button_by_text(page, "有料エリア設定", timeout=10):
+        print("  「有料エリア設定」を押します…", flush=True)
+        page.wait_for_timeout(4000)
+
     # --- 2段目: 投稿する
     # 公開済み記事を再更新する場合は「投稿する」ではなく「更新する」になる
     # （2026-09-29 実測。タイトル差し替えのとき publish_note() が止まって Manual に落ちた）

@@ -32,9 +32,11 @@ note_synced_at: "2026-11-18T08:24:58+09:00"
 ## 1日目 — 進行を3つの調に分割する
 
 <figure class="photo photo--left">
-<img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy">
+<a href="https://www.amazon.co.jp/s?k=Korg+MA-2&tag=nakimoto1-22" target="_blank" rel="noopener sponsored nofollow"><img src="/images/metronome/korg-ma2.jpg" alt="Korg MA-2 デジタルメトロノーム" width="220" height="150" loading="lazy"></a>
 <figcaption>テンポを段階的に上げる練習に。Korg MA-2 デジタルメトロノーム<span class="credit">Photo: Wikimedia Commons</span></figcaption>
 </figure>
+
+[AmazonでKorg MA-2メトロノームの価格を確認する](https://www.amazon.co.jp/s?k=Korg+MA-2&tag=nakimoto1-22)
 
 タイトル曲のコードは、次の6小節が基本単位だ（冒頭）。まずはこの6小節だけを、メトロノームに合わせてゆっくり弾き、コードの根音が3度ずつ跳ぶ動きを耳に覚えさせる。
 
