@@ -4469,6 +4469,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-28T17:45:31+09:00"
+  },
+  {
+   "id": "2026w48-013",
+   "category": "drink",
+   "theme": "ミネラルウォーターの硬度表示、軟水と硬水を味わいから選ぶ",
+   "slug": "mineral-water-hardness-guide",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/mineral-water-hardness-guide/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-28T20:22:12+09:00"
   }
  ]
 }
