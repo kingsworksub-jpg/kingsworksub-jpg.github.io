@@ -3693,5 +3693,19 @@
   "ameba_entry": null,
   "needs_manual_review": null,
   "updated_at": "2026-11-28T08:00:06+09:00"
+ },
+ "splice-create-daw-workflow-guide-2026": {
+  "title": "Splice Createは従来DAWの代替になるか？サンプル起点の制作フローと連携手順を整理",
+  "platforms": [
+   "github",
+   "hatena"
+  ],
+  "hatena_entry": "6802418398327918342",
+  "hatena_series": null,
+  "hatena_series_no": null,
+  "note_key": null,
+  "ameba_entry": null,
+  "needs_manual_review": null,
+  "updated_at": "2026-11-28T13:00:24+09:00"
  }
 }
