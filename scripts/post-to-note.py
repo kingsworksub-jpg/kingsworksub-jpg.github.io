@@ -41,9 +41,11 @@ import argparse
 import base64
 import os
 import re
+import shutil
 import sys
 import tempfile
 import time
+import urllib.parse
 import urllib.request
 
 from playwright.sync_api import sync_playwright
@@ -643,13 +645,37 @@ def publish_note(page, timeout=120):
 
 
 def download(url):
+    """画像をダウンロードする。GitHub Pages に未デプロイならローカルの static/ を使う。
+
+    2026-11-28: 11/18以降の記事で画像が `[画像: ...]` のままになっていた原因は、
+    記事公開時に画像URLがまだデプロイされておらず 404 になっていたこと。
+    ローカルに同じファイルがあればフォールバックして貼付できるようにする。
+    """
     ext = os.path.splitext(url.split("?")[0])[1] or ".jpg"
     fd, path = tempfile.mkstemp(suffix=ext, prefix="noteimg_")
     os.close(fd)
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=60) as r, open(path, "wb") as f:
-        f.write(r.read())
-    return path
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=60) as r, open(path, "wb") as f:
+            f.write(r.read())
+        return path
+    except Exception:
+        parsed = urllib.parse.urlparse(url)
+        if "kingsworksub-jpg.github.io" in parsed.netloc:
+            # ローカルstatic/のファイル名はURLエンコードのまま保存されていることがある
+            # (例: Roman_Baths%2C_Bath%2C_Somerset_69.jpg)ため、生パスも試す。
+            candidates = [
+                os.path.join(BASE, "static", parsed.path.lstrip("/")),
+                os.path.join(
+                    BASE, "static", urllib.parse.unquote(parsed.path).lstrip("/")),
+            ]
+            for local in candidates:
+                if os.path.isfile(local):
+                    shutil.copyfile(local, path)
+                    print(f"    [info] 未デプロイ画像をローカルから使用: {local}", flush=True)
+                    return path
+        os.remove(path)
+        raise
 
 
 def count_figures(page):
@@ -785,6 +811,10 @@ def paste_image(page, url):
 
 
 LINK_LINE_RE = re.compile(r"^(Amazonで見る): (https://www\.amazon\.co\.jp/\S+)$")
+# note はキー入力した Markdown リンクをリンク化しないので、変換済みドラフトの
+# 「ラベル: URL」行と、手書きドラフトの [ラベル](URL) 行を HTML リンクとして貼る。
+LABEL_URL_RE = re.compile(r"^(.{1,120}?): (https?://\S+)$")
+MD_LINK_RE = re.compile(r"^\[([^\]]+)\]\((https?://\S+)\)$")
 # 冒頭の「オリジナル記事」と末尾の「元記事（ブログ）」。ラベルは文字で、URL はリンクで貼る
 ORIGINAL_LINE_RE = re.compile(
     r"^(オリジナル記事|元記事（ブログ）)[:：]\s*(https://kingsworksub-jpg\.github\.io/\S+)$")
@@ -883,6 +913,13 @@ def type_markdown_line(page, text, fast=False):
     if LIST_RE.match(s):
         m2 = re.match(r"^(\s*)([-*+]|\d+\.)\s+(.*)$", s)
         indent, marker, rest = m2.group(1), m2.group(2), m2.group(3)
+        # 箇条書きの中のリンクも実リンクとして貼る（単に type すると文字列のままになる）
+        lm = MD_LINK_RE.match(rest) or LABEL_URL_RE.match(rest)
+        if lm:
+            page.keyboard.type(marker + " ", delay=90)
+            page.wait_for_timeout(400)
+            paste_link(page, lm.group(1), lm.group(2))
+            return
         if indent:
             for _ in range(len(indent) // 2):
                 page.keyboard.press("Tab")
@@ -892,16 +929,20 @@ def type_markdown_line(page, text, fast=False):
         page.keyboard.type(convert_italics(rest), delay=8)
         return
 
-    m = LINK_LINE_RE.match(s)
-    if m and paste_link(page, m.group(1), m.group(2)):
-        return
-
     m = ORIGINAL_LINE_RE.match(s)
     if m:
         page.keyboard.type(m.group(1) + ": ", delay=8)
         page.wait_for_timeout(600)  # 貼付失敗時の Ctrl+Z でラベルまで戻さないよう履歴を分ける
         if not paste_link(page, m.group(2), m.group(2)):
             page.keyboard.type(m.group(2), delay=8)
+        return
+
+    m = MD_LINK_RE.match(s)
+    if m and paste_link(page, m.group(1), m.group(2)):
+        return
+
+    m = LINK_LINE_RE.match(s) or LABEL_URL_RE.match(s)
+    if m and paste_link(page, m.group(1), m.group(2)):
         return
 
     t = convert_italics(s)
