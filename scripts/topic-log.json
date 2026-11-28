@@ -4457,6 +4457,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-28T12:20:01+09:00"
+  },
+  {
+   "id": "2026w48-012",
+   "category": "drink",
+   "theme": "ジンジャーエールとジンジャービールはどう違う、原料と発酵から読む",
+   "slug": "ginger-ale-vs-beer",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/ginger-ale-vs-beer/",
+   "hatena_entry": null,
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-28T17:45:31+09:00"
   }
  ]
 }

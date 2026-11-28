@@ -1,17 +1,16 @@
 {
- "updated": "2026-11-28T17:31:19+09:00",
+ "updated": "2026-11-28T17:45:32+09:00",
  "queue": {
-  "published": 216,
+  "published": 217,
   "rejected": 34,
   "approved": 53,
-  "in_progress": 1,
   "deleted": 2
  },
- "today_posts": 2,
+ "today_posts": 3,
  "daily_limit": 6,
  "engine_today": "gemini",
  "pending_requests": 0,
- "last_result": "published splice-create-daw-workflow-guide-2026",
+ "last_result": "published ginger-ale-vs-beer",
  "consecutive_failures": 0,
  "current_job": {
   "job": "blog-post",
