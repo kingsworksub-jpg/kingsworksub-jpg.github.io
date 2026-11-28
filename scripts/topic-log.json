@@ -4445,6 +4445,18 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-28T07:42:33+09:00"
+  },
+  {
+   "id": "2026w48-002",
+   "category": "software",
+   "theme": "Splice CreateはどこまでDAWなのか、サンプル起点の作曲フローを検証",
+   "slug": "splice-create-daw-workflow-guide-2026",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/splice-create-daw-workflow-guide-2026/",
+   "hatena_entry": "6802418398327918342",
+   "note_key": null,
+   "engine": "gemini",
+   "at": "2026-11-28T12:20:01+09:00"
   }
  ]
 }
