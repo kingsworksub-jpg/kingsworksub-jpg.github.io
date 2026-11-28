@@ -15,17 +15,16 @@ fail() {
 [ -f "$HOME_HTML" ] || fail "$HOME_HTML がありません"
 
 # 先頭の1件はリダイレクト頁や古いビルドの残骸になり得るため、
-# 拡張計測まで入っている実記事を選ぶ（Hugo の minify 後も残るイベント名で判定）。
+# gtag.js と config を持つ実記事を1件見つける（検証自体はビルド全体に対して行う）。
 POST_HTML=""
 while IFS= read -r candidate; do
   if grep -Fq "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$candidate" \
-     && grep -Fq "affiliate_click" "$candidate" \
-     && grep -Fq "article_progress" "$candidate"; then
+     && grep -Eq "gtag\(['\"]config['\"],[[:space:]]*['\"]$MEASUREMENT_ID['\"]" "$candidate"; then
     POST_HTML="$candidate"
     break
   fi
 done < <(find "$DIR/posts" -type f -name index.html 2>/dev/null | sort)
-[ -n "$POST_HTML" ] && [ -f "$POST_HTML" ] || fail "拡張計測入りの記事HTMLが見つかりません ($DIR/posts)"
+[ -n "$POST_HTML" ] && [ -f "$POST_HTML" ] || fail "gtag config を持つ記事HTMLが見つかりません ($DIR/posts)"
 
 count=$(grep -Fo "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$HOME_HTML" | wc -l | tr -d ' ')
 [ "$count" = "1" ] || fail "gtag.js の読込は1回であるべきです (実際: $count)"
@@ -34,6 +33,7 @@ count=$(grep -Fo "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$HOME_HTML" 
 grep -Eq "gtag\(['\"]config['\"],[[:space:]]*['\"]$MEASUREMENT_ID['\"]" "$POST_HTML" \
   || fail "記事HTMLに gtag config ($MEASUREMENT_ID) がありません: $POST_HTML"
 
+# イベント名は挿入されるページがビルドごとに変わり得るため、ビルド全体で確認する。
 for token in \
   "affiliate_click" \
   "internal_link_click" \
@@ -45,7 +45,7 @@ for token in \
   "ascsubtag" \
   "countapi"
 do
-  grep -Fq "$token" "$POST_HTML" || fail "記事HTMLに '$token' がありません: $POST_HTML"
+  grep -rFq --include='*.html' "$token" "$DIR" || fail "ビルド済みHTMLに '$token' がありません: $DIR"
 done
 
 echo "OK: GA4タグ検証通過 ($MEASUREMENT_ID / $POST_HTML)"
