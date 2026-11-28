@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:50:09+09:00",
+ "updated": "2026-11-28T23:51:01+09:00",
  "queue": {
   "published": 220,
   "rejected": 35,
@@ -12,21 +12,24 @@
  "pending_requests": 0,
  "last_result": "published folding-umbrella-gentleman-history",
  "consecutive_failures": 0,
- "current_job": {
+ "current_job": null,
+ "last_run": {
   "job": "x-follow-dm",
   "label": "Xフォローお礼DM",
-  "since": "2026-11-28T23:50:09+09:00",
-  "engine": "gemini"
- },
- "last_run": {
-  "job": "x-reply",
-  "label": "X返信",
   "state": "finished",
-  "at": "2026-11-28T23:30:08+09:00",
+  "at": "2026-11-28T23:51:01+09:00",
   "engine": "gemini",
-  "detail": "[i] 本日の自動返信上限(4件)に達しました。"
+  "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
  },
  "recent_runs": [
+  {
+   "job": "x-follow-dm",
+   "label": "Xフォローお礼DM",
+   "state": "finished",
+   "at": "2026-11-28T23:51:01+09:00",
+   "engine": "gemini",
+   "detail": "[done] フォロバのみ: 3件 / 見送り: 0件"
+  },
   {
    "job": "x-reply",
    "label": "X返信",
@@ -98,14 +101,6 @@
    "at": "2026-11-28T20:23:19+09:00",
    "engine": "gemini",
    "detail": "stage1 google/gemini-3.5-flash#high=failed: exit code 1 | stage2 google/gemini-3.5-flash-lite=finished: - **公開 URL**: https://kingsworksub-jpg.github.io/posts/mineral-water-hardness-guide/"
-  },
-  {
-   "job": "x-reply",
-   "label": "X返信",
-   "state": "finished",
-   "at": "2026-11-28T19:45:08+09:00",
-   "engine": "gemini",
-   "detail": "[i] 本日の自動返信上限(4件)に達しました。"
   }
  ],
  "engine_post": "gemini",
