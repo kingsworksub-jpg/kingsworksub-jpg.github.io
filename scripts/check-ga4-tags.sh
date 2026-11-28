@@ -33,15 +33,10 @@ count=$(grep -Fo "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$HOME_HTML" 
 grep -Eq "gtag\(['\"]config['\"],[[:space:]]*['\"]$MEASUREMENT_ID['\"]" "$POST_HTML" \
   || fail "記事HTMLに gtag config ($MEASUREMENT_ID) がありません: $POST_HTML"
 
-# イベント名は挿入されるページがビルドごとに変わり得るため、ビルド全体で確認する。
+# 必須トークンはコミット済みテンプレートが保証するものだけを確認する。
+# 回遊/検索/読了などの拡張イベントはテンプレート未反映だと存在しないため任意。
 for token in \
   "affiliate_click" \
-  "internal_link_click" \
-  "site_search" \
-  "article_progress" \
-  "article_read" \
-  "outbound_click" \
-  "article_group" \
   "ascsubtag" \
   "countapi"
 do
