@@ -1,0 +1,16 @@
+{
+ "/images/folding-umbrella/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Folding_umbrella_01.jpg/960px-Folding_umbrella_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Kritzolina",
+  "title": ""
+ },
+ "/images/folding-umbrella/img2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Folding_umbrella_02.jpg/960px-Folding_umbrella_02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Folding_umbrella_02.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Kritzolina",
+  "title": ""
+ }
+}
