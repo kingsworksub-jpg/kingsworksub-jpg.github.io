@@ -24,6 +24,9 @@ ANALYSIS_DIR = OUT_ROOT / "analyses"
 DEPLOY_DIR = OUT_ROOT / "deployments"
 EVAL_DIR = OUT_ROOT / "evaluations"
 STATE_PATH = OUT_ROOT / "state.json"
+BLOG_HISTORY_DIR = BASE / "data" / "blog-consulting" / "history"
+# ブログ指標は source が週次更新のものが多く、X より長い観測窓が必要。
+BLOG_PROMPT_HORIZON_DAYS = 14
 
 # KPI direction: +1 means higher is better, -1 means lower is better.
 KPI_DIRECTIONS = {
@@ -252,6 +255,152 @@ def evaluate_deployment(dep: dict[str, Any], analyses: dict[str, dict[str, Any]]
     return eval_item
 
 
+def _evaluate_prompt_group(dep: dict[str, Any], platform: str,
+                           prompt_changes: list[dict[str, Any]],
+                           today: str, horizon_days: int) -> dict[str, Any]:
+    """1プラットフォーム分の prompt_set を、そのブログの日次ヒストリで事後評価する。"""
+    item: dict[str, Any] = {
+        "deployment_id": dep.get("deployment_id"),
+        "scope": "blog_prompt",
+        "platform": platform,
+        "date": dep.get("date"),
+        "applied": bool(dep.get("applied")),
+        "rolled_back_at": dep.get("rolled_back_at"),
+        "prompt_changes": prompt_changes,
+        "horizon_days": max(int(horizon_days), BLOG_PROMPT_HORIZON_DAYS),
+        "decision": "hold",
+        "reason": [],
+        "kpis": {},
+    }
+    if not item["applied"]:
+        item["reason"].append("not_applied")
+        return item
+    if item["rolled_back_at"]:
+        item["reason"].append("already_rolled_back")
+        return item
+
+    directions = BLOG_PROMPT_KPI_DIRECTIONS.get(str(platform))
+    if not directions:
+        item["reason"].append("unknown_prompt_platform")
+        return item
+    dep_dt = parse_date(str(dep.get("date") or ""))
+    today_dt = parse_date(today)
+    if not dep_dt or not today_dt:
+        item["reason"].append("invalid_date")
+        return item
+    age_days = (today_dt - dep_dt).days
+    item["age_days"] = age_days
+    if age_days < item["horizon_days"]:
+        item["reason"].append(f"insufficient_horizon:{age_days}/{item['horizon_days']}")
+        return item
+
+    raw_history = load_json(BLOG_HISTORY_DIR / f"{platform}.json", [])
+    history = [h for h in raw_history if isinstance(h, dict) and h.get("date") and isinstance(h.get("values"), dict)]
+    by_date = {h["date"]: h["values"] for h in history}
+    baseline_date = max((d for d in by_date if d <= str(dep.get("date"))), default=None)
+    target = (dep_dt + timedelta(days=item["horizon_days"])).strftime("%Y-%m-%d")
+    follow_date = min((d for d in by_date if d >= target), default=None)
+    if follow_date is None and by_date:
+        follow_date = max(by_date)
+    item["baseline_date"] = baseline_date
+    item["followup_date"] = follow_date
+    if not baseline_date or not follow_date or follow_date <= baseline_date:
+        item["reason"].append("no_blog_followup")
+        return item
+
+    base_values, follow_values = by_date[baseline_date], by_date[follow_date]
+    score = evidence = negatives = positives = 0
+    for key, direction in directions.items():
+        d = delta(base_values.get(key), follow_values.get(key))
+        detail = {"before": base_values.get(key), "after": follow_values.get(key),
+                  "delta": d, "direction": direction}
+        if d is None:
+            detail["judgement"] = "na"
+        elif d == 0:
+            detail["judgement"] = "flat"
+            evidence += 1
+        elif d * direction > 0:
+            detail["judgement"] = "improved"
+            evidence += 1
+            score += 1
+            positives += 1
+        else:
+            detail["judgement"] = "worsened"
+            evidence += 1
+            score -= 1
+            negatives += 1
+        item["kpis"][key] = detail
+    item.update({"score": score, "evidence_count": evidence,
+                 "positives": positives, "negatives": negatives})
+    if evidence < 2:
+        item["reason"].append("insufficient_evidence")
+    elif negatives >= 2 and score <= -2:
+        item["decision"] = "rollback"
+        item["reason"].append("blog_kpi_worsened")
+    elif positives >= 2 and score >= 2 and negatives == 0:
+        item["decision"] = "adopt"
+        item["reason"].append("blog_kpi_improved")
+    else:
+        item["reason"].append("mixed_or_weak_signal")
+    return item
+
+
+def evaluate_prompt_deployment(dep: dict[str, Any], today: str, horizon_days: int) -> dict[str, Any]:
+    """prompt_set の deployment をプラットフォーム別に評価し、最も厳しい判定を返す。
+
+    1回の deploy に複数ブログの prompt_changes が入ることがあるため、KPI の比較は
+    プラットフォームごとに行い、1つでも悪化なら deployment 全体を rollback 対象にする。
+    """
+    changes = [c for c in (dep.get("prompt_changes") or []) if isinstance(c, dict)]
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for ch in changes:
+        platform = ch.get("platform")
+        if isinstance(platform, str) and platform in BLOG_PROMPT_KPI_DIRECTIONS:
+            groups.setdefault(platform, []).append(ch)
+    if not groups:
+        platform = dep.get("platform")
+        if isinstance(platform, list):
+            platform = platform[0] if platform else None
+        if isinstance(platform, str) and platform in BLOG_PROMPT_KPI_DIRECTIONS:
+            groups[platform] = changes
+    items = [_evaluate_prompt_group(dep, p, chs, today, horizon_days)
+             for p, chs in groups.items()]
+    if not items:
+        return _evaluate_prompt_group(dep, "", changes, today, horizon_days)
+    decisions = [x.get("decision") for x in items]
+    if "rollback" in decisions:
+        decision = "rollback"
+    elif all(d == "adopt" for d in decisions):
+        decision = "adopt"
+    else:
+        decision = "hold"
+    return {
+        "deployment_id": dep.get("deployment_id"),
+        "scope": "blog_prompt",
+        "platform": list(groups) if len(groups) > 1 else next(iter(groups)),
+        "platforms": list(groups),
+        "date": dep.get("date"),
+        "applied": bool(dep.get("applied")),
+        "rolled_back_at": dep.get("rolled_back_at"),
+        "prompt_changes": changes,
+        "horizon_days": max(int(horizon_days), BLOG_PROMPT_HORIZON_DAYS),
+        "decision": decision,
+        "reason": [f"{x.get('platform')}:{x.get('decision')}:{'/'.join(x.get('reason') or [])}"
+                   for x in items],
+        "per_platform": items,
+    }
+
+
+BLOG_PROMPT_KPI_DIRECTIONS: dict[str, dict[str, int]] = {
+    "github": {"post_pageviews": 1, "post_view_share_pct": 1, "gsc_ctr_pct": 1, "gsc_clicks": 1},
+    "hatena": {"avg_body_chars": 1, "hub_ratio_pct": 1, "affiliate_coverage_pct": 1,
+               "entries_last_30d": 1},
+    "ameba": {"entries_last_30d": 1, "active_days_ratio_30d": 1, "affiliate_coverage_pct": 1},
+    "note": {"like_rate_pct": 1, "comment_rate_pct": 1, "avg_reads_per_note": 1,
+             "longform_ratio_pct": 1},
+}
+
+
 def compute_optimization(analyses: dict[str, dict[str, Any]], eval_results: list[dict[str, Any]]) -> dict[str, Any]:
     """Deterministic optimization hints from recent analyses/evaluations."""
     # Model reliability from recent diagnosis attempts
@@ -337,7 +486,10 @@ def main() -> int:
     results = []
     rollbacks = []
     for dep in deployments:
-        item = evaluate_deployment(dep, analyses, args.date, args.horizon_days)
+        if dep.get("prompt_changes"):
+            item = evaluate_prompt_deployment(dep, args.date, args.horizon_days)
+        else:
+            item = evaluate_deployment(dep, analyses, args.date, args.horizon_days)
         if args.apply_rollbacks and item.get("decision") == "rollback" and dep.get("applied") and not dep.get("rolled_back_at"):
             dep_id = dep.get("deployment_id")
             if args.dry_run:

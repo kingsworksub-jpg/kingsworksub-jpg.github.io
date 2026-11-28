@@ -406,12 +406,25 @@ def _ameba_selected(brief: dict) -> bool:
     return brief.get("channel") == "ameba" or bool(plats and "ameba" in plats)
 
 
+def _prompt_platform(brief: dict) -> str:
+    """記事の正本プラットフォーム。自動調整プロンプトはこの値だけを適用する。"""
+    canonical = brief.get("canonical_platform")
+    if canonical:
+        return str(canonical)
+    plats = brief.get("platforms")
+    if isinstance(plats, str):
+        plats = [p.strip() for p in plats.split(",") if p.strip()]
+    if isinstance(plats, (list, tuple)) and plats:
+        return str(plats[0])
+    return str(brief.get("channel") or "")
+
+
 def build_prompt(brief: dict) -> str:
     notes = str(brief.get("channel_notes") or "なし")
     if _ameba_selected(brief):
         notes += "\n" + AMEBA_NOTES
     return (RULES + "\n## 追加指示（配信先別）\n"
-            + notes + "\n" + prompt_block()
+            + notes + "\n" + prompt_block(_prompt_platform(brief))
             + "\n## ブリーフ（この内容だけを根拠にする）\n"
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n")
 
@@ -422,7 +435,8 @@ def build_oneshot_prompt(brief: dict) -> str:
     if _ameba_selected(brief):
         notes += "\n" + AMEBA_NOTES
     return (RULES_INTRO_ONESHOT + RULES_BODY
-            + "\n## 追加指示（配信先別）\n" + notes + "\n" + prompt_block()
+            + "\n## 追加指示（配信先別）\n" + notes + "\n"
+            + prompt_block(_prompt_platform(brief))
             + "\n## ブリーフ（この内容だけを根拠にする）\n"
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n"
             + ONESHOT_OUTPUT)

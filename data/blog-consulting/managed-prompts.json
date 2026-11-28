@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "updated_at": "2026-11-28T00:00:00+09:00",
+  "prompts": {
+    "github": {
+      "BLOG_MIN_BODY_CHARS": 5000,
+      "BLOG_HEADING_MIN": 7,
+      "BLOG_CTA_LEVEL": "standard",
+      "BLOG_DEPTH_STYLE": "standard"
+    },
+    "hatena": {
+      "BLOG_MIN_BODY_CHARS": 5000,
+      "BLOG_HEADING_MIN": 7,
+      "BLOG_CTA_LEVEL": "standard",
+      "BLOG_DEPTH_STYLE": "standard"
+    },
+    "ameba": {
+      "BLOG_MIN_BODY_CHARS": 5000,
+      "BLOG_HEADING_MIN": 7,
+      "BLOG_CTA_LEVEL": "standard",
+      "BLOG_DEPTH_STYLE": "standard"
+    },
+    "note": {
+      "BLOG_MIN_BODY_CHARS": 5000,
+      "BLOG_HEADING_MIN": 7,
+      "BLOG_CTA_LEVEL": "standard",
+      "BLOG_DEPTH_STYLE": "standard"
+    }
+  }
+}

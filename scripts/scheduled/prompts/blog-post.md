@@ -122,8 +122,10 @@ opencode で4つのモデルを順に試し、最初に検査を通ったもの�
      Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出し、
      **自動的に次のモデルへ切り替えて**再生成する（4段すべて試す）。各段の成否は stderr に残る。
    - `data/blog-consulting/managed-prompts.json` に自動調整値がある場合、`oc_generate.py` が「自動調整された生成指示」を
-     プロンプト末尾へ足す（4ブログ日次レポート→`x_deploy.py --auto-safe`→`x_verify.py` の閉ループ）。この指示はジョブ側では
-     書き換えず、現在値を確認したいときだけ `python -c "import sys;sys.path.insert(0,'scripts');import blog_prompt_config;print(blog_prompt_config.get_all_rules())"` を使う。
+     プロンプト末尾へ足す（ブログ別日次レポート→`x_deploy.py --auto-safe`→`x_verify.py` の閉ループ）。設定は
+     `github` / `hatena` / `ameba` / `note` ごとに分かれており、ブリーフの **`canonical_platform` の値だけ**が適用される。
+     この指示はジョブ側では書き換えず、現在値を確認したいときだけ
+     `python -c "import sys;sys.path.insert(0,'scripts');import blog_prompt_config;print({p: blog_prompt_config.get_all_rules(p) for p in blog_prompt_config.PROMPT_PLATFORMS})"` を使う。
    - 4段すべて失敗した場合のみ、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
      それでも通らなければ `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` で終了する。**自分で本文を書き直さない。**
 3. **生成物を読む**。事実が `research` からはみ出していないか、日本語以外の文字が混ざっていないか、導入→見出し→まとめの流れが

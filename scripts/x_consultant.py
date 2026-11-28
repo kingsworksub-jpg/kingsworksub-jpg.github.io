@@ -29,6 +29,19 @@ from pathlib import Path
 from typing import Any
 
 try:
+    from blog_prompt_config import (
+        PROMPT_PLATFORMS as BLOG_PROMPT_PLATFORMS,
+        PROMPT_SPECS as BLOG_PROMPT_SPECS,
+        get_all_rules as get_blog_prompt_rules,
+    )
+except Exception:  # pragma: no cover - scripts dir is normally on sys.path
+    BLOG_PROMPT_PLATFORMS = ("github", "hatena", "ameba", "note")
+    BLOG_PROMPT_SPECS = {}
+
+    def get_blog_prompt_rules(platform):  # type: ignore
+        return {}
+
+try:
     from model_chains import X_CONSULTING_CHAIN, resolve_chain
 except Exception:
     X_CONSULTING_CHAIN = [
@@ -51,7 +64,9 @@ ANALYSIS_DIR = OUT_ROOT / "analyses"
 REPORT_DIR = OUT_ROOT / "reports"
 PROPOSAL_DIR = OUT_ROOT / "proposals"
 STATE_PATH = OUT_ROOT / "state.json"
-HTML_REPORT_PATH = BASE / "xaccounting-reports.html"
+# ルートの xaccounting-reports.html は X+4ブログのタブ式ダッシュボード。
+# X 単体のレポートはその 1 タブとして tabs/x.html に書き出す。
+HTML_REPORT_PATH = BASE / "tabs" / "x.html"
 TARGET_HANDLE = os.environ.get("X_TARGET_HANDLE", "100labjtvn")
 MUTEX_NAME = "Local\\kingsworksub-blog-x-jobs"
 # 単体実行（手動/デバッグ）時は他Xジョブのサイクルが空くまで長めに待つ。
@@ -768,6 +783,7 @@ def render_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, Any],
     lines.append("- apply:   `python scripts/x_deploy.py --proposal data/x-consulting/proposals/" + date + ".json --auto-safe`")
     lines.append("- rollback:`python scripts/x_deploy.py --rollback <deployment_id>`")
     lines.append("- 注意: auto_safe=true のルール変更を、上下両方向に自動適用する（hard cap / min / step で制限）。")
+    lines.append("- ブログ記事生成プロンプトも同じ deploy/verify 基盤で自動調整する（根拠は4ブログ日次レポート、allowlist ノブのみ）。")
     lines.append("")
     return "\n".join(lines)
 
@@ -1259,6 +1275,21 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
         f"</tr></thead><tbody>{rule_rows}</tbody></table></div>"
         if rule_rows else "<p class='muted'>今回の自動調整提案はありません（サンプル不足、または変化なし）。</p>"
     )
+    prompt_lines = []
+    for platform in BLOG_PROMPT_PLATFORMS:
+        rules = get_blog_prompt_rules(platform)
+        changed = {k: v for k, v in rules.items()
+                   if k in BLOG_PROMPT_SPECS and v != BLOG_PROMPT_SPECS[k].get("default")}
+        body = " / ".join(f"{k}={v}" for k, v in sorted(changed.items())) or "既定値"
+        prompt_lines.append(f"{platform}: {body}")
+    prompt_state_html = (
+        "<p><b>ブログ記事生成プロンプト（現在の実効値・プラットフォーム別）:</b><br>"
+        + "<br>".join(esc(line) for line in prompt_lines) + "</p>"
+        "<p class='muted'>プロンプトの自動調整は各ブログの日次レポートが提案し、同じ "
+        "<code>x_deploy.py --auto-safe</code> / <code>x_verify.py --apply-rollbacks</code> 基盤で反映・検証されます。"
+        "記事生成では <code>canonical_platform</code> の設定だけを適用します。"
+        "LLMによるプロンプト本文の自由変更は行いません。</p>"
+    )
 
     signal_rows = ""
     for k, (label, detail) in STATE_SIGNAL_LABELS.items():
@@ -1418,7 +1449,8 @@ def render_html_report(date: str, metrics: dict[str, Any], diagnosis: dict[str, 
 
     <div class="card" style="margin-top:16px"><h2>自動ルール調整（レポート→実運用）</h2>
       {rule_html}
-      <p class="muted">allowlist / hard cap / min / step の範囲内で、KPIに応じて上下両方向に自動適用。投稿数上限・巡回間隔・リンク方針も含む。</p>
+      {prompt_state_html}
+      <p class="muted">allowlist / hard cap / min / step の範囲内で、KPIに応じて上下両方向に自動適用。投稿数上限・巡回間隔・リンク方針に加え、ブログ記事生成LLMへのプロンプト指示も同じ基盤で調整する。</p>
     </div>
 
     <div class="card"><h2>上位投稿（最新サンプル）</h2>
@@ -1528,6 +1560,7 @@ def main() -> int:
         report = render_report(args.date, metrics, diagnosis, snapshot, evaluation=evaluation)
         report_path.write_text(report, encoding="utf-8")
         html_report = render_html_report(args.date, metrics, diagnosis, snapshot, evaluation=evaluation, proposal=proposal)
+        HTML_REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
         HTML_REPORT_PATH.write_text(html_report, encoding="utf-8")
 
         proposal_json_path = PROPOSAL_DIR / f"{args.date}.json"
