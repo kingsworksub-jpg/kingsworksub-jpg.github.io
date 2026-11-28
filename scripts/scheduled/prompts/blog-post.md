@@ -3,10 +3,12 @@
 Windows タスクスケジューラから1日6回（07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00、
 `scripts/topic_plan.py` の `slots_for_date` で定義。固定4枠＋20:00/23:00 の隔日入替）無人で起動されている。
 各回のチャンネルは決まっており、20:00 と 23:00 は偶数日・奇数日で入れ替わる（表は `CLAUDE.md` のタイムテーブル）。
-`channel: note` の記事も `content/posts/` に置き、公開と同時に GitHub Pages へデプロイされる（2026-11-17〜）。
-note の無料記事は GitHub Pages にも全文、有料記事は無料部分＋「続きは note で読む」CTA を載せる。それ以外のチャンネルも
-公開と同時に GitHub Pages へデプロイされる。各回はアクセスピークの30〜60分前に当たり、
-時間帯ごとに記事の性格（実用寄り/理論・エッセイ寄り）が決まっている。
+
+**2026-11-28 から配信フローを変更した**: 記事はローカルの `content/posts/<slug>.md` に生成し、
+frontmatter の `platforms`（配信先の集合）と `canonical_platform`（正規URLの投稿先）に従って**個別に振り分ける**。
+GitHub Pages は全記事の本陣ではなく、`platforms` に `github` が入った記事だけを公開する1配信先である。
+GitHub を選ばない記事は、はてな/Ameba/note のいずれか（または複数）にだけ投稿し、GitHub へは公開しない。
+各回はアクセスピークの30〜60分前に当たり、時間帯ごとに記事の性格（実用寄り/理論・エッセイ寄り）が決まっている。
 どのチャンネルかは毎回 `python scripts/topic_plan.py slot` の出力で確認すること（時刻から手計算しない）。
 人間は見ていないので質問せず、最後まで自分で判断すること。**1回の実行で公開するのは最大1記事**。
 
@@ -23,7 +25,7 @@ Write ツールで作ったファイルを Bash で使うときも、同じ `/` 
 2. `python scripts/topic_plan.py health` が **3以上**なら、連続失敗のため何もせず「停止中（連続失敗）」と出力して終了する。
 3. `python scripts/topic_plan.py today-count` が **6以上**なら「本日の上限（6記事）に到達」と出力して終了する（手動投稿も含めて数えている）。
 4. `python scripts/topic_plan.py slot` でこの回の時間帯スロット（`time` / `channel` / `label`、`categories` か `article_types` の優先条件）を確認する。
-   この後の「ネタを取り出す」「チャンネル判定」「クロスリンク挿入」はこのスロット情報に沿って動く。
+   この後の「ネタを取り出す」「配信先判定」「クロスリンク挿入」はこのスロット情報に沿って動く。
 
 ## 2. ネタを取り出す
 
@@ -32,19 +34,22 @@ Write ツールで作ったファイルを Bash で使うときも、同じ `/` 
 Android アプリで削除されたネタはここで自動的に除外され、アプリから追加されたネタ（`scripts/topic-requests/*.json`）はここでキューに取り込まれて最優先で選ばれる。
 - 出力が `{"empty": true}` なら、今回のスロットのチャンネルに合うネタが無いということ。
   `scripts/scheduled/prompts/topic-planning.md` の手順3〜7を**1件分だけ**行い、**必ずこのスロットのチャンネル**
-  （hatena / ameba / note）のカテゴリーでキューに足してから、もう一度 claim する。
-- 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。出力には `channel`（配信先）・`slot_time`・`slot_label`
+  （github / hatena / ameba / note）のカテゴリーでキューに足してから、もう一度 claim する。
+- 取り出したネタ（JSON）の `id` を控える。状態は `in_progress` になる。出力には `channel`（スロットのチャンネル＝性格ヒント）・`platforms` / `canonical_platform`（配信先）・`slot_time`・`slot_label`
   （今回のスロット）も含まれる。ここで一度
   `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json scripts/topic-requests && git commit -m "Claim <id>" && git push origin main`。
 - **アプリから追加されたネタ**（`source_of_idea: "user"`、`needs_research: true`）は、テーマとメモしか無い。`sources`・`images`・`keywords` は
-  このあとの手順で自分で集める。`category` が空なら、手順1で確認した今回のスロットのチャンネル（hatena / ameba / note）に合う既存カテゴリーから、
+  このあとの手順で自分で集める。`category` が空なら、手順1で確認した今回のスロットのチャンネル（github / hatena / ameba / note）に合う既存カテゴリーから、
   内容に合うものを選ぶ（合わなければ新カテゴリーも可）。`article_type` が空なら記事の型を決める。メモ（`angle`）はユーザーの希望なので必ず反映する。
-- **チャンネル判定**: 取り出したネタの出力に含まれる `channel` フィールドに基づき、以下の配信先を決定する。
-  GitHub Pages はどのチャンネルでも必ずデプロイされる（別枠・全記事）ので、ここでは外部転載先だけを見る。
+- **配信先判定**: `claim` の出力に含まれる `platforms`（配信先の集合）と `canonical_platform`（正規URLの元）をそのまま使う。
+  `claim` はスロットの `channel` を既定の1配信先にするが、キュー項目に `platforms` / `canonical_platform` があればそれを優先する。
+  GitHub Pages は自動では追加しない。**GitHub にも出したい場合は `platforms` に明示的に `github` を入れること**
+  （例: `platforms: ["github", "hatena"]`、`canonical_platform: "hatena"`）。有料 note 記事は `["note"]` から始め、
+  GitHub に無料部分を出す場合だけ `["github", "note"]` にする（公開順は手順7の例外を守る）。
   - `hatena` → はてなブログ API で全文投稿
   - `ameba` → Ameba ブログへ全文転載
   - `note` → note 投稿スクリプト経由で送信
-  - `github` → 外部転載はしない（`lab` / `notes` は投稿スロット外。通常は選ばれない）
+  - `github` → Hugo ビルドに含めて GitHub Pages へ公開
 
 ## 3. リサーチ（4段モデルチェーンを自動切替）
 
@@ -91,7 +96,9 @@ opencode で4つのモデルを順に試し、最初に検査を通ったもの�
 「生成結果を読んで確かめる」「選ばれた画像を取得して目視する」「公開する」の4つ。
 
 1. **ブリーフを作る**（`/tmp/<slug>-brief.json`）。次のキーを必ず入れる。
-   - `slug`（英小文字とハイフン）/ `slot_time`（手順1のスロット時刻）/ `channel`（手順2で決めた配信先）/ `category`（ネタの category、1つ）/
+   - `slug`（英小文字とハイフン）/ `slot_time`（手順1のスロット時刻）/ `channel`（スロットのチャンネル＝記事の性格ヒント）/
+     `platforms`（手順2で決めた配信先の配列。例 `["hatena"]` / `["github", "note"]`）/
+     `canonical_platform`（`platforms` のうち正規URLの投稿先。例 `"hatena"`）/ `category`（ネタの category、1つ）/
      `article_type` / `theme` / `angle` / `target_chars`（深掘り・テーマ記事は 5000）/ `image_dir`（`images/<slug-短縮>`）
    - `date`: JST の現在時刻を秒まで。`python -c "import datetime as d;print(d.datetime.now(d.timezone(d.timedelta(hours=9))).isoformat(timespec='seconds'))"`
    - `research`: 手順3で集めた事実の要点（出典URL付き）。`oc_research.py` の `facts` / `numbers` / `unverified` を
@@ -101,7 +108,7 @@ opencode で4つのモデルを順に試し、最初に検査を通ったもの�
      NC/ND と Amazon の商品画像は除く。`credit` は author があれば `Photo: <author> / <license>`、無ければ `Image: <title> / <license>`。
    - `products`: ASIN を確認できた製品だけ `{"name": "...", "asin": "...", "note": "..."}`。
    - `channel_notes`: チャンネル固有の注記（Ameba はカテゴリーと使える ASIN、note は制約など）。Ameba の標準構成・トーンは
-     `oc_generate.py` が `channel: ameba` のとき自動で足すので、ここに書き写さなくてよい。
+     `oc_generate.py` が `platforms` に `ameba` が含まれるとき自動で足すので、ここに書き写さなくてよい。
    - カテゴリーが新規（`new_category`）なら、**生成前に** `category-plan.json`・`hugo.toml` の `[menu]`・`layouts/index.html` の
      `CATEGORY_LABELS` に追加する（`validate_post.py` が未登録カテゴリーを NG にする）。
 2. **生成する**（Bash ツールのタイムアウトは 600000 ms を指定する）。
@@ -110,10 +117,13 @@ opencode で4つのモデルを順に試し、最初に検査を通ったもの�
      --article-out content/posts/<slug>.md --meta-out /tmp/<slug>-meta.json \
      --keep-raw /tmp/<slug>-raw
    ```
-   - 全チャンネル共通で `content/posts/<slug>.md` に出力する（`content/note-only/` は廃止）。
+   - すべての配信先で `content/posts/<slug>.md` に出力する（`content/note-only/` は廃止）。
    - 内部で `validate_post.py` と同じ検査（本文3500字以上、description 90〜140字、`##`3つ以上、figure 2〜6枚、credit、
      Amazon タグ、画像の重複・meta との整合、X投稿文の重み付き280字）を行う。失敗すると理由を stderr に出し、
      **自動的に次のモデルへ切り替えて**再生成する（4段すべて試す）。各段の成否は stderr に残る。
+   - `data/blog-consulting/managed-prompts.json` に自動調整値がある場合、`oc_generate.py` が「自動調整された生成指示」を
+     プロンプト末尾へ足す（4ブログ日次レポート→`x_deploy.py --auto-safe`→`x_verify.py` の閉ループ）。この指示はジョブ側では
+     書き換えず、現在値を確認したいときだけ `python -c "import sys;sys.path.insert(0,'scripts');import blog_prompt_config;print(blog_prompt_config.get_all_rules())"` を使う。
    - 4段すべて失敗した場合のみ、stderr の理由を `channel_notes`（または `research` の補足）に足して**最大2回まで**再実行する。
      それでも通らなければ `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` で終了する。**自分で本文を書き直さない。**
 3. **生成物を読む**。事実が `research` からはみ出していないか、日本語以外の文字が混ざっていないか、導入→見出し→まとめの流れが
@@ -138,14 +148,15 @@ opencode で4つのモデルを順に試し、最初に検査を通ったもの�
   生成時に検索リンクになっているので、実在 ASIN が分かったら該当 figure とテキストリンクだけを置換する。
 - 配置・回り込みの形式（`figure class="photo photo--left|right"`、見出し直後、左右交互、幅220、figcaption と credit）は
   生成側の検査で担保されている。崩れている箇所だけ、figure の位置を直す。
-- 公開後、`curl` の 200 だけで済ませない。`python scripts/check_live_page.py <slug>` で実ブラウザ表示を確認する（画像が全部表示され、figure がリンク付きか）。
+- GitHub を配信先に含む場合は、公開後 `curl` の 200 だけで済ませず `python scripts/check_live_page.py <slug>` で実ブラウザ表示を確認する
+  （画像が全部表示され、figure がリンク付きか）。GitHub を選ばない記事ではこの確認は不要。
 
-## 5b. Amebaチャンネル専用フォーマット（channel: ameba の場合）
+## 5b. Ameba 向けフォーマット（platforms に ameba が含まれる場合）
 
 Amebaブログは「ドリンク・飲料と酒の分析、カクテルの歴史やレシピ、ドリンク関連のツールやハック」に特化した専門ブログとして運用する。
 標準構成（導入 → 結論・要約データ → 詳細検証 → 実践・レシピ → まとめ）とトーン、drink-lab / drink-recipe / drink-tools /
-drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `AMEBA_NOTES` に移した**。`channel: ameba` のときは
-生成プロンプトに自動で入るので、ここに書き写す必要はない。
+drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `AMEBA_NOTES` に移した**。`platforms` に `ameba` が
+含まれるときは生成プロンプトに自動で入るので、ここに書き写す必要はない。
 
 このジョブが渡すもの・確かめること:
 - ブリーフの `category` を drink-* のいずれかにする（ネタの category が別なら、内容に合う drink-* を選ぶ）。
@@ -170,7 +181,7 @@ drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `A
 
 足りない場合は手で段落を足さず、`channel_notes` に「〜が無い」と書いて手順4を再実行する。
 
-**Ameba（`channel: ameba`）の追加ルール**:
+**Ameba（`platforms` に `ameba`）の追加ルール**:
 - 投稿スクリプト `scripts/post-to-ameba.py` が `scripts/cvr_optimize.py` を通し、書き漏らしがあれば自動で補う
   （`--no-cvr` で無効化できる）。自動挿入は補助なので、生成側で上の1〜6を満たしておく。
 - Ameba は Amazon の生リンクを許可しない。画像リンクは Ameba Pick の商品カードに、ASIN 付きのテキストリンクは
@@ -186,22 +197,23 @@ drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `A
 3. **`python scripts/validate_post.py <slug>`** — NG が出たら、その理由を `channel_notes` に足して手順4を再実行する
    （画像の欠け・OGP・カテゴリー登録は手順5・6で直す）。生成のやり直しは2回まで。それでも通らなければ、作った記事・画像を削除し、
    `python scripts/topic_plan.py fail <id> --reason "<NG内容>"` を実行して終了する（公開しない）。
-4. `hugo --minify` でビルドし、`public/posts/<slug>/index.html` ができていることを確認する。
-5. **チャンネル判定**: `python scripts/topic_plan.py claim` の出力JSONに含まれる `channel` フィールドを確認する。その結果に応じて以下の配信先を決定する。
-   - `channel: github` → はてな・ameba・note への転載は行わない（GitHub Pages へのみデプロイ）
-   - `channel: hatena` → はてなブログへ全文投稿
-   - `channel: ameba` → Amebaブログへ全文転載
-   - `channel: note` → GitHub Pages へ公開（無料は全文 / 有料は無料部分＋CTA）し、note にも投稿（`content/posts/` の本文を変換して送る）
-6. クロスリンク挿入: 記事の最後に「関連記事」ブロックを挿入する（手順7.5のスロット別フォーマットを参照）。
+4. `python scripts/hugo_build.py` で配信定型のビルド確認をする（GitHub を選んだ記事だけ `public/posts/<slug>/index.html` が出る）。
+   `hugo --minify` は cross-post 用のローカルHTML生成にも使うので、通常どおり実行してよい。
+5. **配信先の再確認**: `python scripts/distribution.py plan <slug>` の JSON（`platforms` / `canonical_platform` / `canonical_url` /
+   `github_selected`）を確認する。記事の frontmatter と一致していない場合は、手で書き換えずブリーフを直して手順4から再生成する。
+6. クロスリンクの挿入先を決める: 記事の最後に「関連記事」ブロックを入れる位置を確認する（実際の挿入は手順7.6）。
 
-## 7. 公開
+## 7. 公開（配信先ごとに独立して実行する）
+
+GitHub への公開を外部投稿の前提条件にしない。**`platforms` に含まれる配信先だけを、順不同で個別に処理する。**
 
 1. `git add` で自分が作ったファイルだけを追加（記事・画像フォルダ・OGP画像・必要なら category-plan.json / hugo.toml / layouts/index.html）。
    `git add -A` は使わない。`git commit` → `git push origin main`（pre-push フックが validate_post.py を再実行する。失敗したら直す）。
-2. `gh run list --workflow=hugo.yml --limit 1` で成功を確認し、`curl` で記事ページと各画像が 200 を返すことを確認する。
-3. **チャンネル別外部プラットフォーム投稿**:
-   - `channel: github` → 外部転送スキップ
-   - `channel: hatena` → まず `bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html` で本文HTMLを作り、
+2. **`platforms` に `github` が含まれる場合**: `gh run list --workflow=hugo.yml --limit 1` で成功を確認し、`curl` で記事ページと各画像が
+   200 を返すことを確認する。GitHub を選んでいない記事ではこの確認は不要（workflow 側でもビルドから除外される）。
+   有料 note 記事で GitHub も選んでいる場合は、手順3の note 側で有料ライン設定＋`note_sync.py apply` が終わってから GitHub を確認する。
+3. **外部プラットフォーム投稿（`platforms` に含まれるものだけ）**:
+   - `hatena` → まず `bash scripts/extract-post-html.sh <slug> /tmp/<slug>.html` で本文HTMLを作り、
      `python scripts/hatena_series.py --prepend <slug> /tmp/<slug>.html > /tmp/hatena-series-<slug>.json`
      で10案の中から最適なシリーズ名を選定し、本文先頭に「シリーズ名 第N回」のバナーを挿入する。
      **タイトルは絶対に変更しない**（`platform_sync.py verify()` が frontmatter のタイトル完全一致で記事を照合するため）。
@@ -209,17 +221,22 @@ drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `A
      `source .secrets/hatena.env && bash scripts/post-to-hatena.sh "<タイトル>" /tmp/<slug>.html publish`
      で投稿し、`scripts/post-platforms.json` の該当slugに `hatena_entry`（レスポンスのentry ID）と
      `hatena_series` / `hatena_series_no` を記録して commit & push する。
-   - `channel: note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
+   - `note` → `python scripts/convert-to-note.py <slug>` → `python scripts/post-to-note.py --slug <slug> --publish`
+     - `canonical_platform: note` なら note のURLが正規URLになる。`convert-to-note.py` は note 自身が正本のとき
+       「オリジナル記事」行を出さない（GitHub も選んでいても自己リンクはしない）。
+       `canonical_platform: github` のときは GitHub のURLを元記事として残す。
      - 有料記事は note エディタで有料ラインと価格を設定したあと、`python scripts/note_sync.py sync` →
-       `python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check` を実行する。
-       詳細は `CLAUDE.md` の「有料記事の扱い」。有料記事は GitHub Pages を先に公開しない（全文が一瞬公開されるため）。
-   - `channel: ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
-4. **X (Twitter) への投稿(全チャンネル共通、2026-11-04 正式復活)**: 上記の外部転載が終わった後、GitHub Pagesの記事URL
-   (`https://kingsworksub-jpg.github.io/posts/<slug>/`)を入れて投稿する。文面は手で作らず **`meta.json` の `x_post`** を使う。
-   - `x_post` は生成時に「日本語本文100字前後＋改行＋記事URL＋ハッシュタグ1〜2個」で作られ、重み付き280字以内を検査済み
-     （日本語などASCII以外は2字、URLはt.co圧縮で23字換算）。`/tmp/x-post-<slug>.txt` に書き出し、URLとハッシュタグが入っているか確認する。
-   - `channel: note` は記事URLが note 側になるため、`x_post` の GitHub Pages URL を投稿後の note 記事URL
-     （`https://note.com/shining_finger01/n/<key>`）に差し替える。差し替えで280字を超えるなら次の `text` で作り直す。
+       （GitHub が配信先なら）`python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check` を実行する。
+       詳細は `CLAUDE.md` の「有料記事の扱い」。**有料記事は GitHub を先に公開しない**（全文が一瞬公開されるため）。
+   - `ameba` → `python scripts/post-to-ameba.py --slug <slug> --publish`
+   - いずれも投稿後、`scripts/post-platforms.json` に `platforms`（実際に公開できた集合）と ID
+     （`hatena_entry` / `note_key` / `ameba_entry`）を記録して commit & push する。`note_key` は正規URLの算出にも使う。
+4. **X (Twitter) への投稿(全記事共通、2026-11-04 正式復活)**: 配信が終わった後、**`meta.json` の `x_post`** を使って投稿する。
+   - `x_post` は生成時に「日本語本文100字前後＋改行＋`{{CANONICAL_URL}}`＋ハッシュタグ1〜2個」で作られ、
+     重み付き280字以内を検査済み（日本語などASCII以外は2字、URLはt.co圧縮で23字換算）。
+   - `/tmp/x-post-<slug>.txt` に書き出し、`{{CANONICAL_URL}}` を
+     `python scripts/distribution.py url <slug>` の出力（canonical_platform の実URL）で置き換える。
+     GitHub 以外が正本でも、note / hatena / ameba の実URLをそのまま入れる（note 用の特例は不要）。
    - 280字を超える・内容が記事とずれている場合は、`/tmp/x-fix-<slug>.txt` に「次の文を280字相当以内に短くしてください。本文だけ返す」と
      元の文面を書いて `python scripts/oc_generate.py text --instruction /tmp/x-fix-<slug>.txt --out /tmp/x-post-<slug>.txt` で作り直す
      （`text` も4段モデルチェーンを順に試すので、失敗時は手動再実行不要）。
@@ -229,28 +246,26 @@ drink-hack / drink のカテゴリー定義は **`scripts/oc_generate.py` の `A
      次の手順に進む(他チャンネルの転載が終わっていれば記事公開は成功扱い。`topic_plan.py recover` の対象にしない)。
 5. チャンネル判定用の一時ファイル `/tmp/.blog_channel` が存在する場合は削除する。
 
-6. **クロスリンク挿入（CV誘導、手順1.4で確認した `channel` に応じて出し分ける。時刻ではなく `channel` の値で判定する）**:
-   記事の本文末尾（Amazonリンク等より後）に「## 関連記事」ブロックを挿入する。目的は、日中の記事から夜の主力記事への予告、
-   夜の記事からの本家・他チャンネルへの回遊。
-   - `channel: hatena`: 下記の共通リンクに加えて、まだ存在しない記事URLではなくプラットフォームのトップページへの「予告」行を1つ足す。例:
-     `- 今夜はウイスキー・カルチャーの記事やDTM理論の記事も公開予定です → [note はこちら](https://note.com/shining_finger01)`
-   - `channel: ameba`: 下記の共通リンクのみでよい（予告行は不要）。
-   - `channel: note`: 下記の共通リンクのうち GitHub Pages への行を必ず残す（本家への回遊）。
-    共通フォーマット（自分が今回投稿するチャンネル以外へのリンクだけを載せる。すべての媒体から必ず本陣であるGitHub Pagesへの強力な導線と、読者の興味を惹きつける回遊リンクを自動完備させる）:
-    ```
-    ## 関連記事・おすすめメディア
-    - [【本陣】GitHub Pages で全ての専門記事・深掘りデータベースを読む](https://kingsworksub-jpg.github.io/)
-    - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
-    - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
-    - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01/n/XXXX)
-    ```
-   ※ `XXXX` は実際のnote記事キーを執筆後に埋める。このステップの時点ではプレースホルダのまま残す。
-   自分が今回投稿したチャンネルの行は含めない（例: 今回 `channel: ameba` ならAmebaの行は省く）。
-
-1. `python scripts/topic_plan.py complete <id> --slug <slug> --hatena <EntryID> --note <key>`（カテゴリーを自分で決めた場合は `--category <id>` も付ける）
-2. CLAUDE.md の「はてなブログ連携」表と「note.com への投稿」表に1行ずつ追記。
-3. `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json CLAUDE.md scripts/note-drafts/<slug>.note.txt`
-   → `git commit -m "Record <slug>"` → `git push origin main`。
+6. **クロスリンク挿入（CV誘導、`platforms` の実態に合わせて出し分ける）**:
+   記事の本文末尾（Amazonリンク等より後）に「## 関連記事」ブロックを挿入する。
+   - **今回実際に公開した配信先の行は入れない**。GitHub を選ばなかった記事では GitHub の行も入れない
+     （「本陣」は固定概念ではなく、その記事の `canonical_platform` が正本）。
+   - `hatena` だけに出した記事などは、予告行として他プラットフォームのトップページへのリンクを1つ足してよい。
+   - リンク先の例（`platforms` に含まれないものだけ、かつ正本以外）:
+     ```
+     ## 関連記事・おすすめメディア
+     - [GitHub Pages の記事一覧](https://kingsworksub-jpg.github.io/)
+     - [はてなブログ版（最新コラム）はこちら](https://kinbro.hatenablog.com/)
+     - [Amebaブログ版（ドリンク・酒の科学とレシピ）はこちら](https://blog.ameba.jp/)
+     - [note版（厳選ノウハウ・裏側）はこちら](https://note.com/shining_finger01)
+     ```
+7. 記録:
+   - `python scripts/topic_plan.py complete <id> --slug <slug> --platforms "<カンマ区切りの配信先>" \
+       --canonical-platform <platform> --url "$(python scripts/distribution.py url <slug>)" \
+       [--hatena <EntryID>] [--note <key>] [--ameba <ID>]`（カテゴリーを自分で決めた場合は `--category <id>` も付ける）
+   - CLAUDE.md の「はてなブログ連携」表と「note.com への投稿」表に1行ずつ追記。
+   - `git add scripts/topics-queue.json scripts/topic-log.json scripts/pipeline-status.json CLAUDE.md scripts/note-drafts/<slug>.note.txt`
+     → `git commit -m "Record <slug>"` → `git push origin main`。
 
 ## 失敗したとき
 

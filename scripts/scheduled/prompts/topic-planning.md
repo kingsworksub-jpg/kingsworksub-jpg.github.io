@@ -31,11 +31,12 @@ Windows タスクスケジューラから無人で起動されている。人間
 - `python scripts/topic_plan.py calendar` … 今月と来月の季節・行事
 - `python scripts/topic_plan.py gaps` … 既存記事のすき間（単独記事の無い製品など）
 - `python scripts/topic_plan.py matrix <category>` … 定番テーマの軸（ネタ切れ防止）
-- **カテゴリーと配信先の対応**（`category-plan.json` の `channel`）:
-  - `channel: github`（GitHub Pages のみ） … `lab`, `notes`
-  - `channel: hatena`（GitHub Pages + はてなブログ） … `tech`, `software`, `setup`
-  - `channel: note`（GitHub Pages + note） … `whisky`, `music`, `essay`, `sakeware`
-  - `channel: ameba`（GitHub Pages + Amebaブログ） … `gear`, `fashion`, `drink`, `learning`
+- **カテゴリーとスロットの対応（`category-plan.json` の `channel`）**: 2026-11-28 から `channel` はスロット／記事性格のヒントであり、
+  **配信先そのものではない**。配信先は各記事の frontmatter `platforms` で個別指定し、GitHub Pages はその1つにすぎない。
+  （参考: github=`lab`, `notes`, `tech`, `dev` / hatena=`software`, `setup`, `pc`, `net` 等 /
+  ameba=`drink*`, `whisky`, `sakeware` 等 / note=`jazz`, `music`, `essay`, `film`, `book`, `interior` 等）
+  最新の対応は `category-plan.json` を正とする。候補に特定の配信先を指定したい場合は `platforms` と
+  `canonical_platform`（配信先の1つ）を JSON に追加してよい（省略時はスロットの channel が既定になる）。
 - **1日6投稿のスロット（`scripts/topic_plan.py` の `slots_for_date`）**: 投稿は時間帯ごとに固定のチャンネルと記事の性格で組まれる
   （07:30 github・実用寄り / 12:00 hatena・テック/ソフト/制作環境 / 17:30 ameba・機材レビュー/学習体験談 /
   21:30 note・ウイスキー等の製品カルチャー）。配分の採点自体はカテゴリー単位（`allocate`）で行う。

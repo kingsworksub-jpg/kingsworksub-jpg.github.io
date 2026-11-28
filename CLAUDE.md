@@ -4,16 +4,19 @@
 
 ## プラットフォーム別コンテンツ戦略
 
-本ブログは3つのプラットフォームで構成されたエコシステムを運用します。
+本ブログは4つのプラットフォームで構成されたエコシステムを運用します。
 
-- **GitHub Pages** (`kingsworksub-jpg.github.io`): **本家ポータル**・技術・理論記事のストックハブ。すべての記事のベースとなり、サマリーが掲載されます。
+- **GitHub Pages** (`kingsworksub-jpg.github.io`): 技術・理論記事のストックハブ。
 - **はてなブログ** (`kinbro.hatenablog.com`): **レビュー・比較・実用ガイド**の検索（SEO）拡散ハブ。機材レビュー・音楽アルバム評・ファッション実用レビューに最適です。
+- **Ameba** (`ameblo.jp/sfd0501/`): ドリンク・酒の科学とレシピ、写真＋短文の日記。
 - **note** (`note.com/shining_finger01`): **カルチャー・美学・ライフスタイル**によるブランド・ファン化ハブ。ウイスキー・ファッション文化・制作裏話に適しています。
 
-プラットフォームへの配信は、記事の `category` フィールドに基づいて自動判定されます（詳細は「自動投稿パイプライン」節参照）。
-自動投稿は1日9回で、**hatena・ameba・note に3本ずつ**、時間帯ごとに記事の性格を固定したタイムテーブルで動く。
-GitHub Pages はスロットを持たず、全記事が公開と同時に自動デプロイされる（「自動投稿パイプライン」節の
-「1日9投稿タイムテーブル」参照）。
+**配信モデル（2026-11-28 変更、新規記事から適用）**: 各記事はローカルの `content/posts/<slug>.md` に生成し、
+frontmatter の `platforms`（配信先の集合。例 `["github", "hatena"]`）と `canonical_platform`（X投稿・相互リンク・
+他媒体の「元記事」に使う正規の投稿先）で個別に振り分けます。GitHub Pages は全記事の本陣ではなく、
+`platforms` に `github` が入った記事だけを公開する**1配信先**です。既存記事（約308件）は従来どおり
+`platforms` 未指定＝GitHub 公開の legacy 扱いで維持します。自動投稿は1日6枠で、時間帯ごとに記事の性格を
+固定したタイムテーブルで動きます（詳細は「自動投稿パイプライン」節参照）。
 
 Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的サイト。
 
@@ -38,6 +41,7 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 2. **リサーチ**: そのお題について、**最低15サイト以上**の情報源を横断して調べる。**海外(英語)サイトを優先的に含める**こと — 日本語ソースだけで済ませない。「5製品比較」形式(下記)にする場合は、対象ごとに `scripts/oc_research.py` を実行して1対象あたり8〜10サイト(合計50サイト以上)調べるのが実績のあるやり方。単発テーマ記事(比較形式でない)でも、15サイト以上は必ず確保する。
 3. **事実確認**: リサーチ中に「trendingとして名指しされた対象が実在しない/旧バージョンだった」というケースが何度も発生している(Battery 5が未発売、Studio One→Fender Studio Pro改名、UR22C→URX22C改名、PS-LX310BT生産終了など)。挙げられた対象は鵜呑みにせず、現行かどうかを都度確認する。
 4. **執筆（生成）**: `python scripts/oc_generate.py article --brief <brief.json> …` で opencode の4段チェーンに委任する（既定は `google/gemini-4-hydrogen` 開始（1モデル1リクエストの単発モード）。チェーンは `OC_GENERATE_MODEL_CHAIN` / `--models` で上書き、`OC_GENERATE_MODEL` / `--model` で第1候補のみ変更可。検査に通った最初のモデルを採用し、全段失敗時のみ手動再実行）。ブリーフの必須キー、再実行の上限、出力の確認方法は `scripts/scheduled/prompts/blog-post.md` の手順4。文体・禁止事項は下記「文体」セクションと `oc_generate.py` の `RULES` に反映済み。
+   - 2026-11-28 以降、`RULES` の末尾には `data/blog-consulting/managed-prompts.json` の実効値から作った「自動調整された生成指示」が入る（4ブログ日次レポート→`x_deploy.py --auto-safe`→`x_verify.py --apply-rollbacks` の閉ループ）。LLMがプロンプト本文を自由に書き換えることはなく、allowlist ノブ（文字数下限/見出し数/CTA強弱/構成）だけが step 付きで変わる。現在値は `python -c "import sys;sys.path.insert(0,'scripts');import blog_prompt_config;print(blog_prompt_config.get_all_rules())"` で確認可。
 5. **カテゴリ付け**: 既存カテゴリ(`hugo.toml` の `[menu]`)に合うものがあればそれを使う。無理に既存カテゴリに押し込めず、既存カテゴリの延長で自然に追加できるなら新カテゴリを切ってよい(ウイスキーで前例あり)。記事が増えてきたら、カテゴリ構成全体を見直すタイミングを都度検討すること(固定的に考えない)。
 6. **画像レイアウト(2026-09-23、ユーザー指示)**: 記事本文に写真や図を載せる場合は、**センター詰めの独立画像ではなく、文章が画像の周りを回り込む新聞・雑誌風のレイアウト**にする。実装は `<figure class="photo photo--left">`(画像が左、本文が右に回り込む)と `<figure class="photo photo--right">`(その逆)を使い分け、**同じ記事内では左右を交互に配置**して雑誌の見開きのようなリズムを作る。スタイルは `assets/css/extended/figures.css` で定義済み(画像の縦幅は`max-height: 420px`上限(2026-09-27改訂。当初は`100px`で画面上の画像が極端に小さかったため、新規記事にも同じルールを継承させること)・横幅`min(34%, 220px)`以下・キャプションは新聞カットライン風・見出しでフロート解除・スマホでは中央寄せに解除)。**回り込む本文の1行幅は10文字(=約180px)を下回らせない**こと。同セクション内で左右それぞれのフロート画像(左右に向かい合う2枚)が縦に重なると、その間の本文は `コンテンツ幅(720px)−画像幅×2−margin(48px)` に潰れるため、画像幅は220px以下に抑える(現行CSSの制約。将来コンテンツ幅を変えるときは、向かい合う2枚の間に最低180px残るよう画像幅上限を再計算すること)。段落は画像の周りで行が1〜2文字だけになったり、極端に短い行が飛び出したりしないよう、**文章量を見て段落の切れ目を調整する**(画像付きは本文量が多めの段落に置き、画像の直後で段落が終わらないよう前後の段落でバランスを取る)。`width`/`height`/`alt`/`loading="lazy"` と `<figcaption>`(写真の説明)・`<span class="credit">`(撮影・出典クレジット)は省略しない。はてなブログにはサイトCSSが効かないが、`scripts/extract-post-html.sh` が `scripts/hatena_figures.py` を通して figure にインラインの float を付けるので、**はてなでも回り込みが再現される(2026-10-01〜)**。note は float 非対応のため縦積み(既知の挙動でOK)。**figure の配置位置(2026-09-25、ユーザー指示・全面適用済み)**: float はブロック境界(直前の段落の下・`---`や見出しの前)に置くと横にテキストが流れない。**figure は必ずセクション見出し(`##`)の直後、そのセクションの本文段落の直前に置く**(見出し → figure → 段落 の順で、段落のテキストが必ず画像の横を回り込む)。figure の直後に見出し・`---`・画像のみ・30文字未満の短文を置かない(アイキャッチ直後のレーダーチャート等、意図的な画像連続はOK)。
 7. **収益化リンク**: 該当する場合はAmazonアフィリエイトリンクを付与(下記「マネタイズ状況」参照)。Amazonに無ければ公式サイトへの通常リンクにする。
@@ -45,6 +49,8 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 9. **ロードマップ更新**: 下記「ロードマップ」セクションのステータスを更新する(着手/公開済みに変更、次候補があれば追記)。
 
 > **GA4計測(2026-09-24導入済み・同日ID調整)**: GitHub Pages は `layouts/partials/extend_head.html` 冒頭の gtag.js、測定ID `G-ZL0DCF6JXB`(`hugo.IsProduction` のときのみ出力)。はてなブログは 詳細設定→解析ツール→「Google アナリティクス 4 埋め込み」に測定ID `G-EBY0HM3HRM`(初回 `G-24HLBTRFJ7` → `G-ZL0DCF6JXB` → `G-EBY0HM3HRM` と同日中に変更)。いずれも**サイト全体の一度限り設定であり、記事ごとの投稿ルーティンに追加する必要はない**(注意: はてなのGTMは動的読み込みのため静的HTMLにIDは出ないが実ブラウザで読み込み確認済み)。
+
+> **GA4計測の拡張(2026-11-28)**: `layouts/partials/extend_head.html` で `content_group`(予約語／カスタム側は `article_group`) と、`affiliate_click` / `internal_link_click` / `site_search` / `article_progress` / `article_read`(90%到達でキーイベント) / `outbound_click` を送信。カスタム定義は10個、データ保持14ヶ月。`scripts/google-automation.py` が定義・キーイベントを登録し、GSCは `sc-domain:` と URL-prefix を両方試してIMP最大のプロパティを採用、GA4は `hostName` 別内訳も保存する。**記事ごとの設定は不要**。ビルド後は `bash scripts/check-ga4-tags.sh public` でタグを検証する。
 
 > **SEO運用ルール(2026-09-26 導入済み・全記事/未来記事に適用)**: 全ての記事の frontmatter に **`description:`(110〜120字・要旨)** と **`images: ["/images/og/<slug>.jpg"]`(1200x630 OG画像)** を必ず書く。自動生成なら `scripts/gen-descriptions.py` / `scripts/og-image-generator.py` を使用。タイトルはキーワードを先頭 30〜35文字に収める。robots はテーマの site override(`layouts/_partials/head.html`)により自動(記事=`index, follow` / タグ・カテゴリ・search・404=`noindex, follow`)、sitemap はタグ/カテゴリ/search が自動除外されている。**新規記事作成時も必ず description / images を付けること**。`hugo list published` で公開判定を確認可能(ビルド後の `public/posts/<slug>/index.html` が alias リダイレクトの可能性あり)。
 >
@@ -75,34 +81,39 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 **ネタは自動生成**し、カテゴリーをまんべんなく回す。実行は2段構え（ネタ会議 → 投稿）。1日の公開は**6記事まで**（手動投稿も含む）。
 旧方式（`themes.txt` の14テーマを1時間ごとに消化、`theme-covered.json`、`blog-drink.md`）は2026-10-01に廃止。
 
-プラットフォーム分岐: 記事の `category` フィールドが属するチャンネル（`category-plan.json` の `channel`）に基づき配信する。
-カテゴリー構成は当初(software/learning等)から変わっているので、最新の対応は `category-plan.json` を正とする(下記は目安)。
+**配信先は記事ごとに frontmatter で明示する**（2026-11-28 から、新規記事から適用）。
+`python scripts/topic_plan.py claim` がスロットの `channel` を既定の1配信先として出力しますが、
+キュー項目に `platforms` / `canonical_platform` があればそちらを優先します。GitHub は自動では追加しません。
+カテゴリー→channel の対応は**スロットと記事性格のヒント**であり、配信先そのものではありません。
+最新の対応は `category-plan.json` を正とする(下記は目安)。
   2026-11-25のカテゴリ親和性見直しで、`category-plan.json` に `angle`（カテゴリ既定の切り口）/
   `amazon_genre`（Amazon商品ジャンルのヒント）/`series`（はてなシリーズの**ソフト**ヒント、+2点）の3列を追加した。
   `series` は `scripts/hatena_series.py` の内容スコアリングを上書きせず、同点に近いときだけ効く参考値。
-- `channel: github` → **GitHub Pages は全記事のベース（別枠）**。どのチャンネルの記事も公開と同時に必ずデプロイされる。
-  `lab` / `notes` は weight 0（投稿スロット外・手動用）で、自動投稿では選ばれない。
-  2026-11-25に `tech` / `dev` も検証・構築ログとしてgithubへ集約（外部転載なし）。
-- `channel: hatena` → GitHub Pages へサマリーを生成し、はてなブログ API で全文投稿（`software` / `setup` / `gear` / `drink-lab` / `drink-tools` / `pc` / `net`）。
-  商品比較・分析を担当。`gear` / `drink-lab` / `drink-tools` は2026-11-25にamebaから移動。`net` は据え置き。
-- `channel: ameba` → GitHub Pages へ投稿し、Ameba ブログへ全文転載（`drink` / `drink-recipe` / `drink-hack` / `whisky` / `sakeware`）。
-  写真＋短文の日記を担当。`fashion` は2026-11-26にカルチャー寄りとしてnoteへ戻した。
-  `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）
-- `channel: note` → **GitHub Pages をベースに、note にも投稿**（2026-11-17、方針変更）。
-  背景と構造の読み解きを担当（`jazz` / `music` / `essay` / `film` / `book` / `interior` / `learning` / `misc` / `anime` / `fashion`）。
-  - **無料記事**: GitHub Pages に全文、note にも全文を掲載する。
-  - **有料記事**: GitHub Pages には**無料部分だけ**を掲載し、有料部分の先頭に「続きは note で読む」CTA を置く。
-    全文は note にのみ置き、再投稿・再変換用に `scripts/note-full/<slug>.md` へ退避する。
+- `channel: github` のスロット → `platforms: ["github"]` が既定。`lab` / `notes` は weight 0（手動用）で自動投稿では選ばれない。
+  `tech` / `dev` も検証・構築ログとして github 向け。
+- `channel: hatena` のスロット → `platforms: ["hatena"]` が既定。はてなブログ API で全文投稿
+  （`software` / `setup` / `gear` / `drink-lab` / `drink-tools` / `pc` / `net`）。商品比較・分析を担当。
+- `channel: ameba` のスロット → `platforms: ["ameba"]` が既定。Ameba ブログへ全文転載
+  （`drink` / `drink-recipe` / `drink-hack` / `whisky` / `sakeware`）。写真＋短文の日記を担当。
+  `scripts/post-to-ameba.py` で Playwright 自動化。アカウントログインは `data/ameba_user_data/`(gitignore対象)に保存）。
+- `channel: note` のスロット → `platforms: ["note"]` が既定。背景と構造の読み解きを担当
+  （`jazz` / `music` / `essay` / `film` / `book` / `interior` / `learning` / `misc` / `anime` / `fashion`）。
+  - **記事は他のチャンネルと同じく `content/posts/<slug>.md` に置く**（`content/note-only/` は 2026-11-17 廃止）。
+  - **無料記事**: note に全文を掲載する。GitHub も選ぶ場合は GitHub にも全文を掲載する。
+  - **有料記事**: 基本は `platforms: ["note"]` で note 側を正本とし、GitHub 出しは行わない。
+    GitHub にも無料部分を出す場合は `platforms: ["github", "note"]` とし、note 側で有料ラインを確定させてから
+    `note_sync.py apply` で GitHub 版を**無料部分＋「続きは note で読む」CTA**に書き換える。
+    全文は `scripts/note-full/<slug>.md` へ退避する（GitHub が配信先でない場合は退避不要）。
   - 有料/無料の判定と有料部分の境界は **note 側の API（`price` / `separator` / `body`）を正**とする。
     記事側の推測・手書きマーカーを正にしない（有料部分の漏洩防止）。
-  - 記事は他のチャンネルと同じく `content/posts/<slug>.md` に置く（`content/note-only/` は 2026-11-17 廃止）。
   - 投稿後の同期・検査:
-    `python scripts/note_sync.py sync` →（有料のみ）`python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check`
+    `python scripts/note_sync.py sync` →（GitHub も選ぶ有料記事のみ）`python scripts/note_sync.py apply --slug <slug>` → `python scripts/note_sync.py check`
+    （GitHub 非選択記事では `apply` / `check` は自動スキップされる）。
   - **有料ラインの設定だけは note エディタで手動**（note に公開 API が無いため）。`convert-to-note.py` が下書きの
     `# 公開設定` に、有料ラインを置く見出しと価格を出力する。
   - 投稿は `scripts/post-to-note.py` で Playwright 自動化。アカウントログインは `data/note_user_data/`(gitignore対象)に保存。
-  - **X (Twitter) への投稿も行う**（2026-11-06追加） — note の実際の記事URL（`https://note.com/shining_finger01/n/<key>`）を使う。
-  - クロスリンク（「関連記事」ブロック）は他プラットフォームの記事一覧のみ（note の同じ記事へのリンクは避ける）。
+  - **X (Twitter) への投稿も行う**（2026-11-06追加） — canonical_platform の実URLを使う（note 正本なら note のURL）。
+  - クロスリンク（「関連記事」ブロック）は今回実際に公開した配信先以外へのリンクのみ（「本陣」は固定ではない）。
   - カテゴリー: `jazz` / `music` / `fashion` / `essay` / `film` / `book` / `interior` / `anime`。
   `film`=映画・映像、`book`=読書・文学、`interior`=住まい・インテリア、`anime`=アニメ・映像は追加。
 
@@ -114,7 +125,9 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 `SLOTS_SWAP_ODD_DAY`（`topic_plan.py slot` で現在時刻に最も近いスロットを取得できる。**作業前に必ずこのコマンドで確認すること**）。
 `claim()` は**スロットと同じチャンネルの承認済みネタだけ**を選ぶ（他チャンネルへのフォールバックなし）。キューの該当チャンネルが
 尽きた場合は `claim` が `{"empty": true}` を返し、投稿ジョブがその場で同じチャンネルのネタを1件補充する。カテゴリー単位の
-均等配分(`allocate`/`priorities`)はチャンネル内で機能する。
+均等配分(`allocate`/`priorities`)はチャンネル内で機能する。`claim` の出力には `channel` に加えて
+`platforms` / `canonical_platform` が含まれ、投稿ジョブはこれをブリーフへそのまま渡す。
+**スロットの `channel` は記事の性格ヒントであり、配信先の強制ではない**（手動で `platforms` を上書きできる）。
 
 ### 1日6投稿タイムテーブル
 
@@ -127,11 +140,12 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
 | 5本目 | 21:30 | 【最大ピーク】在宅リラックス | note | ウイスキー・音楽・酒器（whisky / music / sakeware） |
 | 6本目 | 23:00 | 就寝前 | note / github（隔日） | カルチャーエッセイ / 検証メモ・備忘録 |
 
-**CV（回遊・収益）誘導**: `channel: hatena` の回は末尾に「今夜の note / 夜の特集」への予告リンクを1行加え、
-`channel: note` の回は末尾に GitHub Pages（本家）への回遊リンクを必ず残す
-（具体的な記事URLは執筆時点でまだ存在しないため、プラットフォームのトップページへリンクする）。`channel: ameba` は共通リンクのみ。
+**CV（回遊・収益）誘導**: 記事の末尾に「関連記事・おすすめメディア」ブロックを入れるが、
+**今回 `platforms` に含まれる配信先の行は入れない**。GitHub を選ばない記事では GitHub の行も入れず、
+「本陣」を固定しない（その記事の `canonical_platform` が正本）。hatena だけに出した記事などは、
+他プラットフォームのトップページへの予告リンクを1行足してよい。
 各記事の frontmatter には、どのスロットで書かれたかを示す `scheduled_time: "<スロットのtime>"`（例 `"20:00"`）を付ける。詳細は
-`scripts/scheduled/prompts/blog-post.md` の手順1.4・2・7.5。
+`scripts/scheduled/prompts/blog-post.md` の手順1・2・7。
 
 - **タスク**（`scripts/scheduled/register-tasks.ps1`、3つとも `run-claude-task.ps1` の同じロックで直列化）
   - `blog-automation-task`: 投稿。毎日 07:30 / 12:00 / 17:30 / 20:00 / 21:30 / 23:00 の6回（固定時刻＋隔日入替、上記タイムテーブル）。指示文 `scripts/scheduled/prompts/blog-post.md`。`-Model` は `google/gemini-3.5-flash#high`、`-FallbackModels` は gemini-lite / deepseek-free / longcat-free。
@@ -193,18 +207,20 @@ Hugo (PaperModテーマ) + GitHub Pages + GitHub Actions で構築した静的�
   - **実行状況の自動同期**（2026-10-02）: `run-claude-task.ps1` がジョブの開始時と終了時に `topic_plan.py run-status` で
     `pipeline-status.json` の `current_job` / `last_run` / `recent_runs` を更新して push する（モデルが起動に失敗しても記録される）。
     アプリは開いた時・前面に戻った時・表示中は1分ごと（トークン未設定なら3分ごと）に読み直し、「実行中」「前回の実行（完了／失敗／時間切れ）」を表示する。
-  - **PPP（投稿先プラットフォーム）編集（2026-10-15）**: メニュー「公開済み記事」で、既存の公開済み記事ごとに投稿先
-    （github/hatena/ameba/note）を個別に編集できる。これはカテゴリー→channelの固定マッピングとは独立した上書きで、
-    保存すると `scripts/ppp-requests/<slug>-<日時>.json` を作成する（topic-requests/topic-skipsと同じファイルドロップ方式）。
+  - **PPP（投稿先プラットフォーム）編集（2026-10-15、2026-11-28 モデル変更）**: メニュー「公開済み記事」で、公開済み記事ごとに
+    投稿先（github/hatena/ameba/note）を個別に編集できる。保存すると `scripts/ppp-requests/<slug>-<日時>.json` を作成する
+    （topic-requests/topic-skipsと同じファイルドロップ方式）。
     - **実処理は `scripts/platform_sync.py reconcile`**（Claude Codeは介さない。決定的な差分適用＋既存スクリプト呼び出し＋
       1操作ごとのコミットという機械的な作業にLLMエージェントを挟む必要がない、という判断）。現在の状態は
       `scripts/post-platforms.json`（slugごとに `platforms`/`hatena_entry`/`note_key`/`ameba_entry` を保持）に記録される。
       初期投入は `platform_sync.py backfill`（2026-10-15に実行済み、`topic-log.json` の published エントリから復元。
       **既存記事の `ameba_entry` は元々どこにも記録されていなかったため null のまま** — このブログ記事のAmeba投稿を
       PPPで外したい場合は、CLAUDE.md下記のAmeba公開URL一覧から entry_id を調べて `post-platforms.json` に手動で埋める必要がある）。
-    - **GitHub Pagesは単独では外せない**（他プラットフォームのレンダリング元・canonicalリンク先であるため）。githubを外す
-      リクエストは自動的に「全プラットフォームからの削除」に正規化される。空スラッグへの復元（一度全削除した記事にPPPで
-      プラットフォームを戻すこと）も自動実行の対象外（要手動対応としてフラグされる）。
+    - **新規記事（frontmatter に `platforms` がある記事）では GitHub Pages も対等な1配信先**。任意のサブセットを選べ、
+      github を外すと Hugo デプロイからだけ除外され、ローカルの Markdown は他媒体のレンダリング元として残る。
+      github を追加すると frontmatter が更新され、次回デプロイで公開される。
+    - **legacy 記事（約308件の既存記事）は旧来の不変条件を維持**: GitHub は単独では外せず、github を外すリクエストは
+      「全プラットフォームからの削除」に正規化される。空スラッグへの復元も自動対象外（要手動対応としてフラグされる）。
     - **はてな削除**: `scripts/delete-hatena-post.sh`（AtomPub DELETE、`scripts/hatena_api.py` のヘルパー使用）。削除後に
       GETで404確認してから成功とする。
      - **note/Ameba削除（2026-11-24 実機検証済み）**: `post-to-note.py --delete-key <key> --expect-title "<タイトル>"`
@@ -267,10 +283,12 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - **ログイン初期化(1回のみ)**: `python scripts/post-to-x.py --login`。ブラウザが開くので手動でログインする。
 - **投稿**: `python scripts/post-to-x.py --text-file <投稿文のファイル> --publish`。`--publish` を付けないとドライラン
   (入力まで行い投稿ボタンは押さない)。
-- **投稿文はこのスクリプト自身は作らない**。ブログ公開パイプライン(`scripts/scheduled/prompts/blog-post.md` 手順7-4)側で、
-  記事タイトル・GitHub Pagesの記事URLから140〜200字程度(ハッシュタグ含め280字以内)のポスト文面をその場で作り、
-  一時ファイルに保存してこのスクリプトに渡す。
-- **運用ルール**: 全チャンネル共通(hatena/ameba/note どの記事でも)、外部転載が終わった後にXへも投稿する。
+- **投稿文はこのスクリプト自身は作らない**。生成時に `meta.json` の `x_post` として作られ、
+  日本語本文100字前後＋改行＋`{{CANONICAL_URL}}`＋ハッシュタグ1〜2個（重み付き280字以内）になっている。
+  公開後に `python scripts/distribution.py url <slug>` の出力へプレースホルダを差し替えて
+  一時ファイルに保存し、このスクリプトに渡す（詳細は `scripts/scheduled/prompts/blog-post.md` 手順7-4）。
+- **運用ルール**: すべての記事で、配信が終わった後にXへも投稿する。リンク先は記事の `canonical_platform` の実URL
+  （GitHub 以外が正本なら note / hatena / ameba のURLをそのまま使う）。
   **X投稿が失敗してもブログ公開自体は失敗扱いにしない**(ログイン切れ・UI変更等はログに残すだけで次に進む。
   `topic_plan.py recover` の対象にはしない)。
 - 公開済み記事ごとのX投稿URLを記録する専用の表は現時点では作っていない(はてな/noteのような全文転載ではなく、
@@ -397,7 +415,8 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - **スクリプト**: `scripts/x-unfollow-non-mutual.py` — Playwright でブラウザ自動操作。X API は有料プランが必要なため使用不可。
 - **実行間隔**: 毎日 00:00（日本時間）
 - **1回の処理数**: 50〜100 件のランダム（`--limit N` で上書き可）。古くフォローした順。500 → 100〜150（2026-11-07）→ 5〜10（2026-11-19、仮ラベル対応）→ 50〜100（2026-11-25、ユーザー判断）
-- **スキップ済みの除外**: `skip_subscription_button` のハンドルはログから読んで候補から除外。除外しないと先頭の同じアカウントを毎回スキップするだけで進まなかった（11/20〜11/24は実績0件）
+- **スキップ済みの除外**: `skip_subscription_button` は永続的に、`skip_not_loaded` は**別日2回以上**続いたハンドルをログから読んで候補から除外。除外しないと先頭の同じアカウントを毎回スキップ／5連続中断するだけで進まなかった（11/20〜11/24は実績0件、11/26・11/28も0件）。11/28時点で `@hrra678` / `@xelz756` / `@gliz756` / `@mio_foc4` が3日連続で該当
+- **レポート**: 除外したアカウントを毎回 `data/x-unfollow-report.json`（構造化）と `data/x-unfollow-report.md`（一覧表）に出力。未読込アカウントはハンドル・表示名・失敗日・回数を記録（2026-11-28追加）
 - **安全策（3重チェック、1つでも該当すればスキップ）**:
   1. フォロワー一覧（`/{me}/followers` + `/verified_followers`）を全件取得し、プロフィールのフォロワー数と照合。3件超の取りこぼしがあれば処理全体を中止
   2. フォロー中一覧のセルに「フォローされています」表示がある
@@ -539,7 +558,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - タブHTMLは `tabs/*.html`、全体のタブ式ダッシュボードは `xaccounting-reports.html`。Xタブは
   `x_consultant.py` が `tabs/x.html` に単体レポートを書き出す（ルートHTMLは上書きしない）。
 - ブログごとの指標（ユーザー指示で「適切に設定」）:
-  - **GitHub Pages**: GA4 PV/ユーザー/セッション（**プロパティ全体。Ameba等を含む**）、`/posts/` 抽出のGitHub記事PV、Search Console 表示/クリック/CTR/順位（**p0-sc.csv のサンプルページのみ**）、countapi累計ビュー、週次増分、アフィリエイト付与率。公開記事数は `draft:true` を除いた frontmatter 基準（`countapi追跡記事数` とは別）。
+  - **GitHub Pages**: GA4 PV/ユーザー/セッション（**プロパティ全体。Ameba等を含む**）＋`hostName` 抽出のGitHub PV、`/posts/` 抽出のGitHub記事PV、Search Console 表示/クリック/CTR/順位（**p0-sc.csv のサンプルページのみ**）、countapi累計ビュー、週次増分、アフィリエイト付与率。公開記事数は `draft:true` を除いた frontmatter 基準（`countapi追跡記事数` とは別）。`generated_at` / `p0-sc.meta.json` による鮮度警告をレポートに表示する。
   - **はてな**: 公開エントリ数、7/30日投稿数、最終投稿からの日数、ハブ/深掘り率、アフィリエイト付与率、平均文字数、GitHub記事との転載カバレッジ（公式PV APIが無いため公開・コンテンツ指標。公開エントリ数は `post-platforms.json` の転載記録）。
   - **Ameba**: 公開エントリ数、投稿cadence、新鮮度に加え、`ameba-engage-state.json` から他ブログへのいいね/フォロー（7/30日・実施日率）を指標化（公式PV APIなし。公開エントリ数は転載記録）。
   - **note**: ログイン済みプロファイルの `api/v1/stats/pv` から **実read/スキ/コメント** を取得するが、`filter=all` には `status=deleted` が混ざるため **published のみを集計**（削除済みは除外件数として表示）。1 noteあたり読者、スキ率、コメント率、有料率、ロングフォーム率、新鮮度を追う（失敗時は `note-index.json` にフォールバック＝参考値）。
@@ -552,6 +571,14 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
   手動は `python scripts/blog_consultant.py`（`--skip-llm` / `--no-live` / `--only note` あり）。
 - 公開サーバーは既存の `blog-x-report-server-task` をそのまま使い、`x_report_server.py` が
   ダッシュボードと `tabs/*.html` を `data/x-report-web/` へコピーする。バインド先・公開範囲は変更なし。
+- **公開が古い时的切り分け(2026-11-28)**: 生成物(`tabs/*.html` / `state.json`)が最新なら生成側は正常で、
+  `data/x-report-web/` のコピーが古いだけ。Pythonサーバーは起動時のコードをメモリに保持するため、
+  `x_report_server.py` を変更した後は `Stop-ScheduledTask -TaskName blog-x-report-server-task` →
+  `Start-ScheduledTask -TaskName blog-x-report-server-task` で再起動する。
+  再起動後も古いプロセスが残る場合は `Get-NetTCPConnection -LocalPort 8765 -State Listen` で
+  PIDを確認し、`Stop-Process -Id <PID> -Force` してから再有効化する(両IPを1プロセスが待受する状態に戻す)。
+  `run-blog-consulting.ps1` は生成後に `x_report_server.sync_publish_dir()` も明示的に呼ぶので、
+  サーバープロセスが古くても公開コピー自体は毎日更新される。
 
 ### X自己改善エコシステム（2026-11-23構築・完全自動）
 
@@ -643,7 +670,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 - 2026-09-17: マニュファクチャラー視点の序文への書き換え・`.product-links`写真ギャラリーの追加・所持アピール表現の削除を全7記事に適用し、はてなブログ側も`update-hatena-post.sh`で再同期済み。**注意**: `.product-links`のCSS(`assets/css/extended/product-links.css`)はメインブログにしか効かない。はてな側では画像・リンクはそのまま表示されるがレイアウト(横並びグリッド)は当たらず、縦積みの通常の画像+リンクとして表示される(機能的には問題ないが見た目は簡素)。
 - `scripts/post-to-hatena.sh "タイトル" 本文HTMLファイル [draft|publish]` — AtomPub APIへWSSE認証でPOST。`draft` を渡すと下書き、省略(または`publish`)で即時公開。**投稿後にHatenaのレスポンスXMLから実際の`app:draft`値を読み直して、意図通りかを検証してから成功と表示する**(初回テストで`true`/`false`ではなく`yes`/`no`でないと無視される仕様に気づかず誤って即時公開してしまった教訓を反映)。
 - 典型的な使い方: `source .secrets/hatena.env && scripts/extract-post-html.sh <slug> /tmp/<slug>.html && scripts/post-to-hatena.sh "記事タイトル" /tmp/<slug>.html publish`
-- **シリーズ名の自動選定(2026-11-25、ユーザー指示で10案すべて採用)**: はてな記事には10種類のシリーズ名(`python scripts/hatena_series.py --list` で一覧)から記事内容に最も合うものを自動で付ける。`scripts/hatena_series.py <slug>` で選定結果と全10案のスコアを確認でき、投稿時は `scripts/extract-post-html.sh` の後に `python scripts/hatena_series.py --prepend <slug> /tmp/<slug>.html` を挟むと本文先頭に「シリーズ名 第N回」のバナーが入り、`series` / `series_no` がJSONで返る(冪等)。`platform_sync.py add_hatena()` と `scripts/scheduled/prompts/blog-post.md` の `channel: hatena` 手順はこの流れに統一済み。**タイトルは変更しない**(`verify()` が exact title で照合するため)。選定した `hatena_series` / `hatena_series_no` は `scripts/post-platforms.json` に記録する。既存記事のタイトル・本文を遡って書き換える必要はない(今後の新規投稿から適用)。
+- **シリーズ名の自動選定(2026-11-25、ユーザー指示で10案すべて採用)**: はてな記事には10種類のシリーズ名(`python scripts/hatena_series.py --list` で一覧)から記事内容に最も合うものを自動で付ける。`scripts/hatena_series.py <slug>` で選定結果と全10案のスコアを確認でき、投稿時は `scripts/extract-post-html.sh` の後に `python scripts/hatena_series.py --prepend <slug> /tmp/<slug>.html` を挟むと本文先頭に「シリーズ名 第N回」のバナーが入り、`series` / `series_no` がJSONで返る(冪等)。`platform_sync.py add_hatena()` と `scripts/scheduled/prompts/blog-post.md` の `platforms` に `hatena` が含まれる場合の手順はこの流れに統一済み。**タイトルは変更しない**(`verify()` が exact title で照合するため)。選定した `hatena_series` / `hatena_series_no` は `scripts/post-platforms.json` に記録する。既存記事のタイトル・本文を遡って書き換える必要はない(今後の新規投稿から適用)。
 - 2026-09-16に疎通テスト済み(DAW記事を下書き投稿→内容確認→**ユーザー承認後に本公開するか判断**、という運用。デフォルトでは`draft`でテストしてから`publish`に切り替えるのが安全)。
 - **GA4導入済み(2026-09-24)**: はてなブログは設定→詳細設定→「解析ツール」→「Google アナリティクス 4 埋め込み」に測定ID `G-EBY0HM3HRM` を保存済み(初回 `G-24HLBTRFJ7` → `G-ZL0DCF6JXB` → `G-EBY0HM3HRM` と同日中に変更)。静的なページHTMLには出ないが(はてなのGTMが動的読み込み)、実ブラウザで `googletagmanager.com/gtag/js?id=G-EBY0HM3HRM` の読み込みを確認済み。**変更はAPI不可なのでダッシュボードから。再設定不要のサイト全体設定・投稿ルーティンへの追加は不要**。
 - **2026-09-16、既存6記事を一括で本公開済み**(ユーザー指示「一気に公開しちゃって」)。以後、新しい記事を公開する際は都度この2スクリプトで はてなブログにも転載すること(ロードマップの「拡散投稿」欄も更新する)。
@@ -804,7 +831,7 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 
 ### Amebaブログ連携(2026-10-10構築 → 2026-10-11 Amazonリンク問題を解決)
 
-`channel: ameba` の記事(`gear`/`learning`/`drink`/`fashion`)を `scripts/post-to-ameba.py` でAmebaブログへ全文転載する。
+`platforms` に `ameba` が含まれる記事（`gear` / `learning` / `drink*` 等）を `scripts/post-to-ameba.py` でAmebaブログへ全文転載する。
 はてな・noteと同じく Playwright で永続プロファイル(`data/ameba_user_data/`、gitignore対象)にログイン状態を保存する方式。
 
 - ログイン初期化: `python scripts/post-to-ameba.py --login`(Edgeが開くので手動ログイン、検知すると自動終了)。
@@ -945,14 +972,13 @@ X公式APIは無料枠では投稿できないため使わない。note/amebaと
 | 70℃と90℃を使い分ける。温度調節ケトルでお茶・コーヒー・焼酎お湯割りの湯温を設計する | https://ameblo.jp/sfd0501/entry-12984700035.html | 12984700035 |
 | マイクプリアンプのゲインを上げると音はどう変わるのか、4機種の設計とスペックから検証する | https://ameblo.jp/sfd0501/entry-12984777895.html | 12984777895 |
 
-### note.com への投稿（2026-09-28 実装・全記事へ必須化）
+### note.com への投稿（2026-09-28 実装、2026-11-28 配信先を個別化）
 
-> **重要(2026-09-28、ユーザー指示)**: **note.com は「はてなブログ」と並び、記事公開ごとの必須の投稿先になった。**
-> これからは **Hugoビルド → commit & push → GitHub Actions デプロイ確認 → はてなブログへ転載 → note.com へドラフト作成 → 公開** の順で必ずセットで行うこと。
-> はてなブログへの転載を飛ばさないようにしているのと同時に、**`post-to-note.py` も飛ばさないこと**。
-> 1時間に1回のテーマ記事パイプライン(`KingsWork-Blog-Drink`)にもnote投稿のステップを追加してあるので、通常の自動投稿ルートでも必ず走る。
-> 手動で記事を書いた場合も同様に note へ投入する。
-> **ユーザーが「note には投稿しない」と明示的に指示した場合はこの限りでない。それ以外の既定値は「必ず投稿する」こと。**
+> **重要(2026-11-28、配信モデル変更)**: note は全記事の必須投稿先ではなくなった。
+> 記事の frontmatter `platforms` に `note` が含まれるときだけ `post-to-note.py` を実行する。
+> GitHub Actions のデプロイ確認は `platforms` に `github` が含まれる記事だけが対象で、note 投稿の前提条件ではない。
+> 有料記事は **note 側を先に確定→（GitHub も選ぶ場合だけ）GitHub に無料部分＋CTA** の順を守る。
+> canonical_platform が note の記事では、note 自身が正本なので `convert-to-note.py` は自己リンクを出さない。
 
 note.com には投稿用の公開 API がなく（はてなブログは AtomPub がある）、コマンド1行では投稿できない。
 そのため **Chromium の永続プロファイルにログイン状態を保存し、エディタへのキー入力だけを自動化する** 方式で運用する。
@@ -979,12 +1005,16 @@ note.com には投稿用の公開 API がなく（はてなブログは AtomPub 
   - `python scripts/note_sync.py check` が 0 件になることを確認する。`validate_post.py` も同じ index を見て、
     有料記事の CTA 欠落・有料見出しの残存・無料記事の本文不足を NG にする。
   - **公開順序（有料記事）**: 記事を `content/posts/` に書く（必要なら `draft: true`）→ note へ全文投稿 → note で有料ラインと価格を設定
-    → `note_sync.py sync` → `note_sync.py apply` → `draft: false` → `hugo --minify` → commit/push。
-    先に GitHub Pages を公開すると、有料部分が一瞬公開されるので注意する。
+    → `note_sync.py sync` →（GitHub も選ぶ場合のみ）`note_sync.py apply` → `draft: false` → GitHub を選ぶなら commit/push して
+    `python scripts/hugo_build.py` で確認。**note 側を先に確定させ、GitHub は最後**（先に公開すると有料部分が一瞬露出する）。
+    `platforms: ["note"]` なら GitHub の公開手順は不要。
   - 既存の有料記事は 2026-11-17 に `nea-jazz-masters-2026`（200円）へ適用済み。以降の有料記事も同じ手順を必ず通す。
 - ログインの初期化（1回のみ）: `python scripts/post-to-note.py --login`
   - ブラウザが開くので手動でログインする。ログイン状態が `data/note_user_data/` に保存される。**cookie が含まれるので `.gitignore` に追記済み**。
-- **本文冒頭に GitHub Pages の元記事を「オリジナル記事」として必ず貼る（2026-10-05、ユーザー指示・全記事に適用）**。`convert-to-note.py` が本文の先頭に `オリジナル記事: https://kingsworksub-jpg.github.io/posts/<slug>/` を自動で出力し、`post-to-note.py` が URL を `<a>` リンクとして貼り付ける（note は入力した URL を自動リンクしないため `ORIGINAL_LINE_RE` → `paste_link()`）。末尾の `元記事（ブログ）:` 行も同様にリンク化される。手動で note 記事を作る・直す場合も冒頭のこの行を省かないこと
+- **本文冒頭の「オリジナル記事」は canonical_platform のURL（2026-10-05 追加、2026-11-28 変更）**。`convert-to-note.py` が
+  `python scripts/distribution.py url <slug>` と同じ正規URLを出力し、`post-to-note.py` が URL を `<a>` リンクとして貼り付ける
+  （note は入力した URL を自動リンクしないため `ORIGINAL_LINE_RE` → `paste_link()`）。末尾の `元記事（ブログ）:` 行も同様。
+  **`canonical_platform: note` の記事では、note 自身が正本なので両行とも出さない**（手動で作る場合も同様）。
 - 主なオプション:
   - `--all` — `note-drafts/` にある全ファイルを順番に処理
   - `--slug <slug>` — 対象スラッグを1つ指定
@@ -1137,8 +1167,11 @@ X API利用やOS入力シミュレーション(`pyautogui`/`pyperclip`)を使う
 
 ## デプロイの仕組み
 
-`main` に push すると `.github/workflows/hugo.yml` が Hugo でビルドして GitHub Pages に自動デプロイする。
-ローカルでの確認は `hugo --minify` でビルド → `public/` を目視確認 → commit & push、の順で行っている。
+`main` に push すると `.github/workflows/hugo.yml` が `python3 scripts/distribution.py build` を実行し、
+**`platforms` に `github` が入っている記事だけ**を Hugo ビルドして GitHub Pages に自動デプロイする。
+除外する記事は生の Markdown を書き換えず、deploy 用の一時 `content/` コピーに Hugo の `build: {list/publishResources/render: never}`
+を付与して対応する（`scripts/distribution.py prepare_content()`）。ローカル確認は `python scripts/hugo_build.py`
+（＝同じフィルタ付きビルド）。cross-post 用のローカル HTML は全記事を対象にする `hugo --minify` をそのまま使う。
 
 **注意**: `hugo.toml` に `timeZone = 'Asia/Tokyo'` を設定済み。これが無いと当日日付の投稿がUTC基準で「未来の記事」判定され、`buildFuture = false` によりビルドから静かに除外されるバグを踏んだことがある(修正済みだが、他サイトで再現する可能性があるので記録)。
 

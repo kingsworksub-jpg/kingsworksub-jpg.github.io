@@ -26,7 +26,8 @@ val PLATFORM_LABELS = linkedMapOf(
     "note" to "note",
 )
 
-/** Edits the target platform set (PPP) of one already-published post. Opened from a tap on its
+/** Edits the target platform set (PPP) of one already-published post. GitHub Pages is now a
+ * peer destination: any subset (including no GitHub at all) is valid. Opened from a tap on its
  * card in the main list (status == "published" only). Saving drops a request file that
  * scripts/platform_sync.py reconciles on its own schedule -- this dialog only talks to the
  * GitHub Contents API, same as the rest of this app. */

@@ -47,6 +47,12 @@ import tempfile
 
 from model_chains import GENERATE_CHAIN, resolve_chain, split_models
 
+try:
+    from blog_prompt_config import prompt_block
+except Exception:  # pragma: no cover - scripts dir is normally on sys.path
+    def prompt_block() -> str:  # type: ignore
+        return ""
+
 MODEL_CHAIN = resolve_chain(GENERATE_CHAIN, "OC_GENERATE_MODEL_CHAIN", "OC_GENERATE_MODEL")
 MODEL = MODEL_CHAIN[0]  # backwards-compatible alias for logs/callers
 AGENT = "build"
@@ -110,7 +116,7 @@ RULES_BODY = """\
 - 出力する前に本文の文字数を概算する。target_chars に届いていなければ、足りない節を書き足してから出力する。
 
 ## article.md の形式
-先頭に次の frontmatter を置く（slug・date・category・slot_time はブリーフの値をそのまま使う）:
+先頭に次の frontmatter を置く（slug・date・category・slot_time・platforms・canonical_platform はブリーフの値をそのまま使う）:
 ---
 title: "<タイトル>"
 description: "<説明>"
@@ -120,7 +126,11 @@ categories: ["<ブリーフの category>"]
 tags: ["<タグ1>", "<タグ2>"]
 draft: false
 scheduled_time: "<ブリーフの slot_time>"
+platforms: ["<配信先1>", "<配信先2>"]
+canonical_platform: "<ブリーフの canonical_platform>"
 ---
+`platforms` はこの記事の配信先（github / hatena / ameba / note）の集合。`canonical_platform` はその中の1つで、
+X投稿・相互リンク・他媒体の「元記事」に使う正規の投稿先。カテゴリから推測せずブリーフの値を写すこと。
 （本文）
 
 画像は次の形式の figure を2〜5個入れる（比較記事は対象ごとに1枚）。左右は交互にする:
@@ -154,8 +164,9 @@ scheduled_time: "<ブリーフの slot_time>"
   ]
 }
 - figures は記事で使った画像すべて（重複なし）。
-- x_post は X 用。日本語本文100字前後＋改行＋記事URL（https://kingsworksub-jpg.github.io/posts/<slug>/）＋ハッシュタグ1〜2個。
-  280字相当（日本語は1字2、URLは23字換算）を超えないこと。
+- x_post は X 用。日本語本文100字前後＋改行＋文字列 `{{CANONICAL_URL}}`＋ハッシュタグ1〜2個。
+  `{{CANONICAL_URL}}` は公開後に実際の canonical_platform のURLへ差し替えるプレースホルダなので、必ずそのまま入れること
+  （GitHub Pages のURLを直接書かない）。280字相当（日本語は1字2、URLは23字換算）を超えないこと。
 """
 
 RULES = RULES_INTRO_AGENTIC + RULES_BODY
@@ -163,7 +174,7 @@ RULES = RULES_INTRO_AGENTIC + RULES_BODY
 
 AMEBA_NOTES = """\
 
-## Ameba チャンネル専用（channel が ameba のとき）
+## Ameba 向け記事の専用ルール（platforms に ameba が含まれるとき）
 この記事は「ドリンク・飲料と酒の分析、カクテルの歴史やレシピ、ドリンク関連のツールやハック」に特化した
 Ameba ブログ向け。次の標準構成とトーンに従う。
 - カテゴリー: drink-lab（分析・成分・比率）/ drink-recipe（歴史・レシピ）/ drink-tools（道具・ギア）/
@@ -305,6 +316,17 @@ def validate(article: str, meta: dict, brief: dict) -> list[str]:
         errs.append("categories がブリーフの category と違う（" + (re.search(r"(?m)^categories:.*$", fm).group(0) if re.search(r"(?m)^categories:", fm) else "categories: 行なし") + "）")
     if not re.search(rf'(?m)^scheduled_time:\s*"?{re.escape(brief["slot_time"])}"?\s*$', fm):
         errs.append(f"scheduled_time がブリーフの slot_time と違う（{field(fm, 'scheduled_time')!r}）")
+    if "platforms" in brief:
+        expected = [str(x).strip() for x in brief["platforms"]]
+        got = re.findall(r"[\w-]+", field(fm, "platforms"))
+        if sorted(got) != sorted(expected):
+            errs.append(f"platforms がブリーフと違う（{got} != {expected}）")
+        canon = field(fm, "canonical_platform")
+        expected_canon = str(brief.get("canonical_platform") or (expected[0] if expected else "github"))
+        if canon != expected_canon:
+            errs.append(f"canonical_platform がブリーフと違う（{canon!r} != {expected_canon!r}）")
+        if canon and canon not in got:
+            errs.append(f"canonical_platform {canon!r} が platforms に含まれていない")
 
     n = len(plain_body(article))
     if n < MIN_BODY:
@@ -360,6 +382,8 @@ def validate(article: str, meta: dict, brief: dict) -> list[str]:
         w = weighted_len(str(meta["x_post"]))
         if w > X_MAX_WEIGHT:
             errs.append(f"x_post が長い（{w}字相当 > {X_MAX_WEIGHT}）")
+        if "{{CANONICAL_URL}}" not in str(meta["x_post"]):
+            errs.append("x_post に {{CANONICAL_URL}} が無い（公開URLは差し替えるので直接書かない）")
     return errs
 
 
@@ -374,12 +398,20 @@ def enrich(meta: dict, brief: dict) -> None:
                 f[k] = c[k]
 
 
+def _ameba_selected(brief: dict) -> bool:
+    """Ameba formatting applies whenever Ameba is a destination, even if the slot hint is another channel."""
+    plats = brief.get("platforms")
+    if isinstance(plats, str):
+        plats = [p.strip() for p in plats.split(",") if p.strip()]
+    return brief.get("channel") == "ameba" or bool(plats and "ameba" in plats)
+
+
 def build_prompt(brief: dict) -> str:
     notes = str(brief.get("channel_notes") or "なし")
-    if brief.get("channel") == "ameba":
+    if _ameba_selected(brief):
         notes += "\n" + AMEBA_NOTES
-    return (RULES + "\n## 追加指示（チャンネル別）\n"
-            + notes + "\n"
+    return (RULES + "\n## 追加指示（配信先別）\n"
+            + notes + "\n" + prompt_block()
             + "\n## ブリーフ（この内容だけを根拠にする）\n"
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n")
 
@@ -387,10 +419,10 @@ def build_prompt(brief: dict) -> str:
 def build_oneshot_prompt(brief: dict) -> str:
     """Same brief, but ask for the two files inline in one response."""
     notes = str(brief.get("channel_notes") or "なし")
-    if brief.get("channel") == "ameba":
+    if _ameba_selected(brief):
         notes += "\n" + AMEBA_NOTES
     return (RULES_INTRO_ONESHOT + RULES_BODY
-            + "\n## 追加指示（チャンネル別）\n" + notes + "\n"
+            + "\n## 追加指示（配信先別）\n" + notes + "\n" + prompt_block()
             + "\n## ブリーフ（この内容だけを根拠にする）\n"
             + json.dumps(brief, ensure_ascii=False, indent=1) + "\n"
             + ONESHOT_OUTPUT)

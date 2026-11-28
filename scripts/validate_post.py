@@ -17,6 +17,9 @@ import re
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import distribution as dist  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JST = dt.timezone(dt.timedelta(hours=9))
 MIN_BODY = 3500
@@ -73,6 +76,24 @@ def check(slug: str) -> list[str]:
         x = re.search(rf'(?m)^{name}:\s*"?(.*?)"?\s*$', fm)
         return x.group(1) if x else ""
 
+    # Per-article distribution (new flow). Posts without these keys are legacy GitHub-first
+    # articles and stay valid as-is: they implicitly mean platforms: ["github"].
+    has_distribution = bool(re.search(r"(?m)^(platforms|canonical_platform|canonical_url):", fm))
+    plats = dist.parse_list(field("platforms")) if has_distribution else ["github"]
+    if has_distribution:
+        if not plats:
+            errs.append("platforms が空（配信先を1つ以上指定する）")
+        bad = [p for p in plats if p not in dist.PLATFORMS]
+        if bad:
+            errs.append(f"未知の platforms: {bad}")
+        canon = field("canonical_platform")
+        if canon not in plats:
+            errs.append(f"canonical_platform {canon!r} が platforms に含まれていない")
+        cu = field("canonical_url")
+        if cu and not cu.startswith("http"):
+            errs.append("canonical_url は http(s) URLでなければならない")
+    github_selected = "github" in plats
+
     title, desc = field("title"), field("description")
     if not title:
         errs.append("title が無い")
@@ -112,7 +133,8 @@ def check(slug: str) -> list[str]:
     text = re.sub(r"<[^>]+>|!\[[^\]]*\]\([^)]*\)|\[([^\]]*)\]\([^)]*\)|[#|*`>-]", r"\1", content_body)
     plain = re.sub(r"\s+", "", text)
 
-    if note_rec is not None:
+    # note-index の検査は GitHub 版の本文に対するもの。GitHub が配信先でない記事には適用しない。
+    if github_selected and note_rec is not None:
         if note_rec.get("price", 0) > 0:
             # note 側は有料。GitHub Pages は無料部分＋CTA でなければならない。
             if not note_paid:
@@ -141,7 +163,7 @@ def check(slug: str) -> list[str]:
             note_chars = int(note_rec.get("body_chars") or 0)
             if note_chars and len(plain) < note_chars * 0.85:
                 errs.append(f"本文が note より短い（記事 {len(plain)}字 / note {note_chars}字）。無料記事は全文を掲載する")
-    elif note_paid or has_cta:
+    elif github_selected and (note_paid or has_cta):
         errs.append("note-index.json に無いのに有料設定（note_paid / CTA）がある。`python scripts/note_sync.py sync` を実行")
 
     minimum = MIN_TEASER if note_paid else MIN_BODY

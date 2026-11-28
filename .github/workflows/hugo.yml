@@ -41,14 +41,16 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Hugo
+      - name: Build with Hugo (GitHub-selected articles only)
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --minify \
+          python3 scripts/distribution.py build \
+            --destination public \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Verify GA4 tags in built HTML
+        run: bash scripts/check-ga4-tags.sh public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

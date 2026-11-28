@@ -39,6 +39,9 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import distribution as dist  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 S = os.path.join(ROOT, "scripts")
 POSTS = os.path.join(ROOT, "content", "posts")
@@ -454,6 +457,8 @@ def post_free_body(body: str) -> str:
 
 def check_post(slug: str, rec: dict | None) -> list[str]:
     """1記事と note index の整合を検査する。ブラウザ不要。"""
+    if "github" not in dist.platforms(slug):
+        return []  # GitHub 版が無い記事は note 側が正本なので比較対象が無い
     errs: list[str] = []
     try:
         _, fm, body = read_post(slug)
@@ -569,6 +574,10 @@ def cta_block(rec: dict) -> str:
 
 
 def cmd_apply(args) -> int:
+    # GitHub が配信先でない記事は、note 側の本文を書き換える相手が無い。全文は content/posts に残す。
+    if "github" not in dist.platforms(args.slug):
+        print(f"{args.slug}: GitHub が配信先ではないため apply はスキップ（note 側が本文の正本）")
+        return 0
     # 有料/無料の取り違えを防ぐため、apply では必ず note を取り直す（index は手がかりに使う）。
     km = known_keys()
     rec0 = index_by_slug(args.slug)

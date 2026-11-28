@@ -22,6 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from affiliate_tag import rewrite_for  # noqa: E402
+import distribution as dist  # noqa: E402
 
 BASE = r"C:\Users\norio\my-github-blog"
 POSTS = os.path.join(BASE, "content", "posts")
@@ -90,6 +91,57 @@ def convert_figures(body):
     return pattern.sub(repl, body)
 
 
+def convert_links(body):
+    """Markdown / HTML のリンクを note が実際にリンク化できる形式に変える。
+
+    note エディタはキー入力された `[ラベル](URL)` をリンクに変換しないため、
+    「ラベル: URL」行にして post-to-note.py の paste_link() で HTML リンクとして貼る。
+    （2026-11-28: 11/18以降の記事で Amazon リンクが文字のままになっていた不具合の修正）
+    """
+    parts = re.split(r"(```.*?```)", body, flags=re.DOTALL)
+    for i, part in enumerate(parts):
+        if i % 2:  # コードブロックはそのまま
+            continue
+        # 画像を包む <a> は画像を残し、リンクは別行に出す（note は画像にリンクを付けられない）
+        def img_anchor(m):
+            url, img = m.group(1), m.group(2)
+            if "amazon." in url:
+                return "%s\n\nAmazonで見る: %s" % (img, url)
+            return "%s\n\nリンク: %s" % (img, url)
+
+        part = re.sub(
+            r'<a\s[^>]*href="([^"]+)"[^>]*>\s*(<img\s[^>]*>)\s*</a>',
+            img_anchor, part, flags=re.DOTALL)
+
+        # 通常の <a> は中身のテキストをラベルにする
+        def anchor(m):
+            label = re.sub(r"<[^>]+>", "", m.group(2))
+            label = re.sub(r"\s+", " ", label).strip() or "リンク"
+            return "%s: %s" % (label, m.group(1))
+
+        part = re.sub(
+            r'<a\s[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+            anchor, part, flags=re.DOTALL)
+
+        # <figure> で包まれていない単独の <img> もnote向けのMarkdown画像にする
+        def bare_img(m):
+            src, alt = m.group(1), m.group(2)
+            if src.startswith("/"):
+                src = SITE + src
+            return "![%s](%s)" % (alt, src)
+
+        part = re.sub(
+            r'<img\s+src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>',
+            bare_img, part)
+
+        # ![alt](url) は画像のまま残し、それ以外の [ラベル](url) をリンク行にする
+        part = re.sub(
+            r'(?<!!)\[([^\]\n]+)\]\((https?://[^)\s]+)\)',
+            r'\1: \2', part)
+        parts[i] = part
+    return "".join(parts)
+
+
 def clean_html(body):
     """note で解釈されない HTML タグを整理する。"""
     # 未変換の figure ブロックを削除
@@ -133,15 +185,24 @@ def clean_body(body):
     body = convert_figures(body)
     body = convert_tables(body)
     body = clean_html(body)
-    body = absolutize_links(body)
+    body = absolutize_links(body)   # 相対URLを絶対URLにしてからリンクを変換する
+    body = convert_links(body)
     # 連続する空行を 1 行に
     body = re.sub(r"\n{3,}", "\n\n", body)
     return body.strip()
 
 
 def absolutize_links(body):
-    """相対リンク (/posts/xxx/ 等) を絶対URLへ変換する。note.comでは必須。"""
-    return re.sub(r"\]\(/", "](" + SITE + "/", body)
+    """相対リンク (/posts/xxx/ 等) を絶対URLへ変換する。note.comでは必須。
+
+    note.com の自動リンク化は ")" の直後に日本語が続くとそこまでをURLとして
+    解釈し、GA4 に不正な pagePath として記録される。区切りを1つ入れて防ぐ。
+    """
+    body = re.sub(r"\]\(/", "](" + SITE + "/", body)
+    body, count = re.subn(r"(\]\([^)\s]+\))(?=[^\x00-\x7F])", r"\1 ", body)
+    if count:
+        print(f"  note: リンク直後の日本語に区切りを追加 ({count}件)")
+    return body
 
 
 def remove_lead_duplicate(body, desc):
@@ -202,19 +263,20 @@ def main():
 
     # 有料記事の GitHub Pages 版は「無料部分＋CTA」なので、note には退避した全文を使う。
     full_src = os.path.join(NOTE_FULL, slug + ".md")
-    if paid:
-        if os.path.exists(full_src):
-            src = full_src
-            with io.open(src, encoding="utf-8") as f:
-                text = f.read()
-            full_meta, body = parse_front_matter(text)
-            for k in ("title", "description", "tags", "categories"):
-                if full_meta.get(k):
-                    meta[k] = full_meta[k]
-        else:
-            print("有料記事ですが全文の退避がありません: %s" % full_src)
-            print("先に scripts/note_sync.py apply を実行するか、note-full に全文を置いてください。")
-            sys.exit(1)
+    if paid and os.path.exists(full_src):
+        src = full_src
+        with io.open(src, encoding="utf-8") as f:
+            text = f.read()
+        full_meta, body = parse_front_matter(text)
+        for k in ("title", "description", "tags", "categories"):
+            if full_meta.get(k):
+                meta[k] = full_meta[k]
+    elif paid and "github" in dist.platforms(slug):
+        # GitHub 版を持つ有料記事は note_sync apply で全文を退避しているはず。
+        print("有料記事ですが全文の退避がありません: %s" % full_src)
+        print("先に scripts/note_sync.py apply を実行するか、note-full に全文を置いてください。")
+        sys.exit(1)
+    # GitHub が配信先でない有料記事は content/posts の本文が正本なので note-full は不要。
 
     # CTA は note には不要。マーカーは公開後に note_sync.py apply で使う。
     body = CTA_RE.sub("", body)
@@ -234,7 +296,10 @@ def main():
 
     title = build_title(meta, slug)
     tags = build_tags(meta)
-    url = "%s/posts/%s/" % (SITE, slug)
+    # 新フローでは「元記事」は canonical_platform 次第。note 自身が正本ならリンクを出さない。
+    canonical = dist.canonical_platform(slug)
+    url = dist.canonical_url(slug)
+    show_original = canonical != "note"
 
     lines = []
     lines.append("# タイトル")
@@ -247,23 +312,30 @@ def main():
         lines.append("# 公開設定")
         lines.append("この記事は note の有料記事です。エディタで「%s」の直前に有料ラインを置き、価格を %s 円に設定してください。"
                      % (paywall_from or "(有料部分の先頭見出し)", price or "(note で設定)"))
-        lines.append("公開後に `python scripts/note_sync.py sync` と "
-                     "`python scripts/note_sync.py apply --slug %s` を実行すると、"
-                     "GitHub Pages が無料部分＋CTA に揃います。" % slug)
+        if "github" in dist.platforms(slug):
+            lines.append("公開後に `python scripts/note_sync.py sync` と "
+                         "`python scripts/note_sync.py apply --slug %s` を実行すると、"
+                         "GitHub Pages が無料部分＋CTA に揃います。" % slug)
         lines.append("")
     lines.append("# 本文（ここから貼り付け）")
     lines.append("")
-    # 冒頭に GitHub Pages の元記事をオリジナル記事として貼る（2026-10-05、ユーザー指示）
-    lines.append("オリジナル記事: %s" % url)
-    lines.append("")
+    # 冒頭の「オリジナル記事」は canonical_platform のURL（旧フローでは GitHub Pages）。
+    if show_original:
+        lines.append("オリジナル記事: %s" % url)
+        lines.append("")
     if desc:
         lines.append(desc)
         lines.append("")
     lines.append(body)
     lines.append("")
-    lines.append("---")
+    # コメント率改善（2026-11-28 の note レポート提案）。貼り付け用本文の末尾に入れる。
+    lines.append("このテーマについて、あなたの経験や「ここが気になった」という点があれば"
+                 "コメントで教えてください。次の記事を書くときの参考にします。")
     lines.append("")
-    lines.append("元記事（ブログ）: %s" % url)
+    if show_original:
+        lines.append("---")
+        lines.append("")
+        lines.append("元記事（ブログ）: %s" % url)
 
     result = "\n".join(lines)
     result = rewrite_for(result, "note")

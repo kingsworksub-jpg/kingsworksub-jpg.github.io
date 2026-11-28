@@ -408,9 +408,9 @@ fun TopicsScreen(initialToken: String, saveToken: (String) -> Unit) {
                         "• 日次補充（4:00）: 承認済みが16件未満のときだけ補充。\n" +
                         "• 重複・事実確認・画像・季節・検索需要・Amazonの各軸で採点し、60点未満は不採用。")
                     Spacer(Modifier.height(12.dp))
-                    Text("2. 投稿（1日9固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
-                    Text("• 07:30 / 12:00 / 20:00 がhatena、09:30 / 17:00 / 23:00 がameba、14:30 / 18:30 / 21:30 がnote。\n" +
-                        "• hatena・ameba・note に毎日3本ずつ。GitHub Pagesは別枠で全記事を自動デプロイ。\n" +
+                    Text("2. 投稿（1日6固定スロット）", fontWeight = FontWeight.Bold, color = Color(0xFF2F6F8F))
+                    Text("• 07:30 github / 12:00 hatena / 17:30 ameba / 21:30 note（20:00・23:00は隔日入替）。\n" +
+                        "• 各記事は platforms で配信先を個別指定。GitHub Pagesもその1つで、選んだ記事だけを公開。\n" +
                         "• 実行エンジンはopencode経由のGeminiを先頭にした4段チェーン（Claude Codeは使わない）。\n" +
                         "• Web検索はリサーチ用スクリプト(oc_research.py)がopencode上で実行。")
                     Spacer(Modifier.height(12.dp))

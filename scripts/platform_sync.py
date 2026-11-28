@@ -17,12 +17,11 @@ records as true, rather than redoing or losing track of partially-applied work.
     python platform_sync.py diff SLUG              # requested vs current platforms for one slug
     python platform_sync.py reconcile [--dry-run]  # process all pending ppp-requests
 
-GitHub invariant: GitHub Pages is the rendering source for every other platform (Hatena/note/
-Ameba content is generated FROM content/posts/<slug>.md) and the canonical backlink baked into
-every cross-posted copy. It is therefore never treated as a peer platform that can be removed
-on its own — removing it is only ever allowed as part of removing everything (full unpublish),
-and re-adding it to a fully-unpublished slug is never automated (that needs a human to decide
-whether/how to resurrect the content).
+Distribution model (2026-11-28): GitHub Pages is ONE peer destination, selected per article by
+`platforms:` in content/posts/<slug>.md. Articles without that key are legacy GitHub-first posts
+and keep the old rules (GitHub implicit, can only be removed as part of a full unpublish). For
+new-model articles any subset is valid — removing GitHub just hides the article from the Hugo
+deploy; the local Markdown stays as the rendering source for the other platforms.
 """
 
 from __future__ import annotations
@@ -39,6 +38,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import topic_plan as tp  # noqa: E402
+import distribution as dist  # noqa: E402
 import hatena_api  # noqa: E402
 import hatena_series  # noqa: E402
 
@@ -111,12 +111,12 @@ def backfill() -> int:
     `title` here is the only place the real one is cheaply available to the Android app without
     an extra fetch per card.
 
-    New slugs are added with `platforms: ["github"]` only — NOT a category->channel guess (that
-    guess is what caused platforms to disagree with reality in the first place: category-plan.json's
-    mapping has changed over time, so applying today's mapping to an old post is unreliable, and it
-    also ignores publish failures). `verify()` fills in the rest from confirmed signals. Otherwise
-    only adds slugs not already tracked — safe to re-run after a manual ameba_entry edit without
-    clobbering it."""
+    New slugs take their platform set from the article's front matter when it has one (new
+    per-article distribution model). Legacy articles without `platforms:` still start as
+    `["github"]`, not a category->channel guess: category-plan.json's mapping has changed over
+    time, so applying today's mapping to an old post is unreliable. `verify()` fills in the rest
+    from confirmed signals. Only adds slugs not already tracked — safe to re-run after a manual
+    ameba_entry edit without clobbering it."""
     platforms = load_platforms()
     log = tp.load(tp.LOG, {"entries": []})
     latest_by_slug: dict[str, dict] = {}
@@ -125,13 +125,19 @@ def backfill() -> int:
             latest_by_slug[e["slug"]] = e  # later entries overwrite earlier ones for the same slug
     title_by_slug = {p["slug"]: p["title"] for p in tp.posts()}
 
+    def initial_platforms(slug: str) -> list[str]:
+        md = os.path.join(ROOT, "content", "posts", slug + ".md")
+        if not os.path.exists(md):
+            return ["github"]
+        return dist.platforms(slug)  # explicit front matter if present, else legacy github
+
     added = 0
     for slug, e in latest_by_slug.items():
         if slug in platforms:
             continue
         platforms[slug] = {
             "title": title_by_slug.get(slug, e.get("theme", slug)),
-            "platforms": ["github"],
+            "platforms": initial_platforms(slug),
             "hatena_entry": e.get("hatena_entry"),
             "hatena_series": None,
             "hatena_series_no": None,
@@ -175,7 +181,8 @@ def verify() -> dict:
     over time (categories/channels have been added, renamed and reassigned — see CLAUDE.md) and
     says nothing about whether a given post's publish to that channel actually succeeded.
 
-    - github: always included (content/posts/<slug>.md existing is the fact itself).
+    - github: for legacy articles always included (the local file was always deployed); for
+      new-model articles included only when `platforms:` in the article selects it.
     - hatena: included iff hatena_entry is already recorded, OR discoverable by an exact title
       match against the live Hatena AtomPub feed (post-to-hatena.sh posts under the article's
       exact frontmatter title, so this match is reliable) — newly discovered ids are recorded.
@@ -203,20 +210,28 @@ def verify() -> dict:
         if not state.get("hatena_entry") and title and title in hatena_by_title:
             state["hatena_entry"] = hatena_by_title[title]["entry_id"]
 
-        confirmed = ["github"]
-        if state.get("hatena_entry"):
-            confirmed.append("hatena")
-        if state.get("note_key"):
-            confirmed.append("note")
-        if state.get("ameba_entry"):
-            confirmed.append("ameba")
+        new_model = os.path.exists(post_md_path(slug)) and dist.is_new_model(slug)
+        if new_model:
+            # New flow: the article's own `platforms:` is the source of truth. External platforms
+            # are confirmed once they have an id (or already appeared in the record); GitHub is
+            # confirmed by selection alone (the Hugo deploy reads the same front matter).
+            intended = dist.platforms(slug)
+            confirmed = [p for p in intended if p == "github" or has_recorded_id(state, p)]
+        else:
+            confirmed = ["github"]  # legacy: GitHub was always published, file existence is the fact
+            if state.get("hatena_entry"):
+                confirmed.append("hatena")
+            if state.get("note_key"):
+                confirmed.append("note")
+            if state.get("ameba_entry"):
+                confirmed.append("ameba")
         state["platforms"] = confirmed
 
         expected_channel = tp.channel_for(category_by_slug.get(slug, ""))
         # 2026-11-25: 音楽/機材系のAmeba誤投稿を削除したslugはユーザー明示でAmebaを除外済み。
         # ID未記録を「確認待ち」と警告し続けると、再度投稿するよう誤導するため除外する。
         opted_out = expected_channel == "ameba" and bool(state.get("ameba_opt_out"))
-        if expected_channel != "github" and expected_channel not in confirmed and not opted_out:
+        if not new_model and expected_channel != "github" and expected_channel not in confirmed and not opted_out:
             label = {"hatena": "はてな", "note": "note", "ameba": "アメブロ"}.get(expected_channel, expected_channel)
             state["needs_manual_review"] = (
                 f"カテゴリー上は{label}が想定されますが、entry_idが未記録のため確認できていません。"
@@ -270,15 +285,17 @@ def pending_requests(commit_cleanup: bool = False) -> dict[str, dict]:
     return result
 
 
-def normalize_target(requested: list, current: list) -> tuple[list, str | None]:
-    """Apply the GitHub invariant. Returns (effective_target_platforms, note). `note` is set
-    when the literal request was adjusted or rejected; the caller should record it."""
+def normalize_target(requested: list, current: list, legacy: bool = False) -> tuple[list, str | None]:
+    """Validate a PPP request. Returns (effective_target_platforms, note). `note` is set when the
+    literal request was adjusted or rejected. New-model articles may target any subset (GitHub
+    included or not); legacy GitHub-first articles keep the old invariant to avoid changing the
+    meaning of historical records and pending app requests."""
     req = set(requested)
     if not req:
         return [], None  # empty PPP = full unpublish, exactly what was asked
-    if "github" not in req:
+    if legacy and "github" not in req:
         return [], "github は単独では外せないため、全プラットフォームからの削除として扱いました"
-    if not current:
+    if legacy and not current:
         return list(current), "この記事は現在どのプラットフォームにも公開されていないため、自動では復元しません(要手動対応)"
     return sorted(req), None
 
@@ -332,12 +349,19 @@ def referenced_elsewhere(image_rel_path: str, exclude_slug: str) -> bool:
 
 
 def remove_github(slug: str) -> list[str]:
-    """git rm the post + any static/images files only this post references. Returns the list
-    of repo-relative paths removed (for the caller's commit)."""
+    """Remove GitHub as a destination. New-model articles only lose `github` from `platforms:`
+    (the Markdown stays as the local source for the other platforms). Legacy articles keep the
+    old behaviour: git rm the post + images only this post references. Returns repo-relative
+    paths changed/removed (for the caller's commit)."""
     removed = []
     md = post_md_path(slug)
     if not os.path.exists(md):
         return removed
+    if dist.is_new_model(slug):
+        if "github" in dist.platforms(slug):
+            dist.set_platforms(slug, [p for p in dist.platforms(slug) if p != "github"])
+            return [rel(md)]
+        return []
     body = open(md, encoding="utf-8-sig", errors="replace").read()
     for image_path in sorted(set(re.findall(r"/images/[A-Za-z0-9_./-]+", body))):
         if referenced_elsewhere(image_path, slug):
@@ -490,7 +514,8 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
             "needs_manual_review": None, "updated_at": tp.now().isoformat(timespec="seconds"),
         })
         current = state.get("platforms", [])
-        target, note = normalize_target(req["request"].get("platforms", []), current)
+        legacy = not (os.path.exists(post_md_path(slug)) and dist.is_new_model(slug))
+        target, note = normalize_target(req["request"].get("platforms", []), current, legacy=legacy)
 
         if note and target == current:
             # Hard reject: nothing to actually do (e.g. can't resurrect a fully-unpublished
@@ -530,8 +555,22 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
 
         try:
             for plat in to_add:
+                if new_model and plat not in dist.platforms(slug):
+                    # Keep the article's own distribution set in sync. Otherwise the next
+                    # verify() would read the stale front matter and undo this PPP change.
+                    dist.set_platforms(slug, sorted(set(dist.platforms(slug)) | {plat}))
+                    git_commit_push(f"PPP: add {plat} to front matter for {slug}", [rel(post_md_path(slug))])
                 if plat == "github":
-                    continue  # github is the source; it's only ever removed, never separately re-added here
+                    if legacy:
+                        continue  # legacy fully-unpublished posts are never auto-resurrected
+                    # GitHub is now a normal destination: re-adding it only flips front matter,
+                    # and the next Hugo deploy publishes the article there again.
+                    state["platforms"] = sorted(set(state["platforms"]) | {"github"})
+                    state["updated_at"] = tp.now().isoformat(timespec="seconds")
+                    save_platforms(platforms)
+                    git_commit_push(f"PPP: add github for {slug}", [rel(PLATFORMS_FILE)])
+                    summary["added"] += 1
+                    continue
                 if has_recorded_id(state, plat):
                     # Already has an id (possibly 'N/A' meaning "posted but id unavailable").
                     # Never create a second post just because `platforms` drifted out of sync.
@@ -563,6 +602,10 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
                 # Each branch must either perform the deletion or raise — falling through
                 # without deleting anything must NEVER reach the "mark as removed" line below,
                 # or we'd silently record a platform as gone while the live post is still up.
+                frontmatter_changed = False
+                if new_model and plat in dist.platforms(slug):
+                    dist.set_platforms(slug, [p for p in dist.platforms(slug) if p != plat])
+                    frontmatter_changed = True
                 if plat == "hatena":
                     if not state.get("hatena_entry"):
                         raise RuntimeError(
@@ -597,7 +640,10 @@ def reconcile(dry_run: bool = False, only: set | None = None) -> dict:
                 tp.log_entry(id=f"ppp-{slug}", category="", theme=title, slug=slug,
                               status="unpublished" if not state["platforms"] else "platform_removed",
                               reason=plat)
-                git_commit_push(f"PPP: remove {plat} for {slug}", [rel(PLATFORMS_FILE), rel(tp.LOG)])
+                commit_paths = [rel(PLATFORMS_FILE), rel(tp.LOG)]
+                if frontmatter_changed:
+                    commit_paths.append(rel(post_md_path(slug)))
+                git_commit_push(f"PPP: remove {plat} for {slug}", commit_paths)
                 summary["removed"] += 1
 
             os.remove(req["file"])

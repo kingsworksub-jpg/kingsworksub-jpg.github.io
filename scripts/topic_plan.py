@@ -50,6 +50,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 S = os.path.join(ROOT, "scripts")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import distribution as dist  # noqa: E402
 QUEUE = os.path.join(S, "topics-queue.json")
 LOG = os.path.join(S, "topic-log.json")
 CATS = os.path.join(S, "category-plan.json")
@@ -485,6 +487,15 @@ def claim():
     it["status"] = "in_progress"
     it["claimed_at"] = now().isoformat(timespec="seconds")
     it["channel"] = channel_for(it["category"])
+    # New distribution model: `channel` is only a slot/category hint. The claimed item carries
+    # an explicit per-article destination set; GitHub is selected only when intended (it is no
+    # longer implicit). Queue items may override both fields by hand.
+    plats = it.get("platforms") or [it["channel"]]
+    if isinstance(plats, str):
+        plats = [p.strip() for p in plats.split(",") if p.strip()]
+    it["platforms"] = [p for p in plats if p in dist.PLATFORMS] or [it["channel"]]
+    it["canonical_platform"] = it.get("canonical_platform") or (
+        "github" if "github" in it["platforms"] else it["platforms"][0])
     it["content_dir"] = content_dir_for(it["category"])
     it["slot_time"] = slot["time"]
     it["slot_label"] = slot["label"]
@@ -499,15 +510,41 @@ def find(q, tid):
     sys.exit(f"no such topic: {tid}")
 
 
-def complete(tid, slug, hatena=None, note=None, category=None):
+def complete(tid, slug, hatena=None, note=None, category=None, platforms=None,
+             canonical_platform=None, url=None, ameba=None):
     q = queue()
     it = find(q, tid)
     if category:
         it["category"] = category
-    it.update({"status": "published", "slug": slug, "published_at": now().isoformat(timespec="seconds"), "channel": it.get("channel", "github")})
+    if platforms:
+        it["platforms"] = [p.strip() for p in str(platforms).split(",") if p.strip()]
+    if canonical_platform:
+        it["canonical_platform"] = canonical_platform
+    plats = it.get("platforms") or ["github"]
+    canon = it.get("canonical_platform") or ("github" if "github" in plats else plats[0])
+    if canon not in plats and plats:
+        canon = plats[0]
+    it.update({"status": "published", "slug": slug, "published_at": now().isoformat(timespec="seconds"),
+               "channel": it.get("channel", "github"), "platforms": plats, "canonical_platform": canon})
     save_queue(q)
+    # Canonical URL comes from the chosen destination, never a hard-coded GitHub permalink.
+    if not url:
+        if canon == "github":
+            url = f"https://kingsworksub-jpg.github.io/posts/{slug}/"
+        elif canon == "note" and note:
+            url = f"https://note.com/shining_finger01/n/{note}"
+        elif canon == "hatena" and hatena:
+            url = f"https://kinbro.hatenablog.com/entry/{hatena}"
+        elif canon == "ameba" and ameba:
+            url = f"https://ameblo.jp/sfd0501/entry-{ameba}.html"
+        else:
+            try:
+                url = dist.canonical_url(slug)
+            except (OSError, ValueError):
+                url = f"https://kingsworksub-jpg.github.io/posts/{slug}/"
     log_entry(id=tid, category=it["category"], theme=it["theme"], slug=slug, status="published",
-              url=f"https://kingsworksub-jpg.github.io/posts/{slug}/", hatena_entry=hatena, note_key=note,
+              url=url, platforms=plats, canonical_platform=canon, canonical_url=url,
+              hatena_entry=hatena, note_key=note, ameba_entry=ameba,
               engine=engine_for(now().date()))
     write_status({"last_result": f"published {slug}", "consecutive_failures": 0})
 
@@ -749,7 +786,11 @@ def main():
     c.add_argument("--slug", required=True)
     c.add_argument("--hatena")
     c.add_argument("--note")
+    c.add_argument("--ameba")
     c.add_argument("--category")
+    c.add_argument("--platforms", help="comma-separated destinations, e.g. github,note")
+    c.add_argument("--canonical-platform", choices=dist.PLATFORMS)
+    c.add_argument("--url", help="explicit canonical URL (otherwise derived from the canonical platform)")
     for name in ("fail", "reject"):
         x = sub.add_parser(name)
         x.add_argument("id")
@@ -810,7 +851,8 @@ def main():
     elif a.cmd == "claim":
         claim()
     elif a.cmd == "complete":
-        complete(a.id, a.slug, a.hatena, a.note, a.category)
+        complete(a.id, a.slug, a.hatena, a.note, a.category, a.platforms,
+                 a.canonical_platform, a.url, a.ameba)
     elif a.cmd == "fail":
         fail(a.id, a.reason)
     elif a.cmd == "reject":
