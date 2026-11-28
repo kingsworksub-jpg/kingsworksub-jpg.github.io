@@ -14,21 +14,27 @@ fail() {
 
 [ -f "$HOME_HTML" ] || fail "$HOME_HTML がありません"
 
-# 先頭の1件はエイリアスのリダイレクト頁になり得るため、gtag を含む実記事を選ぶ。
+# 先頭の1件はリダイレクト頁や古いビルドの残骸になり得るため、
+# 拡張計測まで入っている実記事を選ぶ（Hugo の minify 後も残るイベント名で判定）。
 POST_HTML=""
 while IFS= read -r candidate; do
-  if grep -Fq "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$candidate"; then
+  if grep -Fq "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$candidate" \
+     && grep -Fq "affiliate_click" "$candidate" \
+     && grep -Fq "article_progress" "$candidate"; then
     POST_HTML="$candidate"
     break
   fi
 done < <(find "$DIR/posts" -type f -name index.html 2>/dev/null | sort)
-[ -n "$POST_HTML" ] && [ -f "$POST_HTML" ] || fail "gtag を含む記事HTMLが見つかりません ($DIR/posts)"
+[ -n "$POST_HTML" ] && [ -f "$POST_HTML" ] || fail "拡張計測入りの記事HTMLが見つかりません ($DIR/posts)"
 
 count=$(grep -Fo "googletagmanager.com/gtag/js?id=$MEASUREMENT_ID" "$HOME_HTML" | wc -l | tr -d ' ')
 [ "$count" = "1" ] || fail "gtag.js の読込は1回であるべきです (実際: $count)"
 
+# Hugo の minify でクォートや空白が変わるため、形式に依存せず config を確認する。
+grep -Eq "gtag\(['\"]config['\"],[[:space:]]*['\"]$MEASUREMENT_ID['\"]" "$POST_HTML" \
+  || fail "記事HTMLに gtag config ($MEASUREMENT_ID) がありません: $POST_HTML"
+
 for token in \
-  "gtag('config', '$MEASUREMENT_ID'" \
   "affiliate_click" \
   "internal_link_click" \
   "site_search" \

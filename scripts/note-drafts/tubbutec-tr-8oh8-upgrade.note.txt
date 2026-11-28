@@ -16,7 +16,7 @@ Tubbutecが発表したTR-8oh8は、クラシックなRoland TR-808向けの包�
 
 本記事では、TR-8oh8がTR-808に加える変更点を、1980年当時の原設計と照らし合わせて読み解きます。導入を検討する際にどこを確認すべきか、どんな制作スタイルに向いているかまで順番に見ていきます。
 
-![Roland TR-808のフロントパネル](https://kingsworksub-jpg.github.io/images/tubbutec-tr-8oh8/tr-808-mim-phoenix.jpg)
+![Roland TR-808のフロントパネル](https://kingsworksub-jpg.github.io/images/tubbutec-tr-8oh8/c1.jpg)
 
 *Roland TR-808の操作パネル*
 
@@ -70,7 +70,7 @@ TR-8oh8の注目点は、接続性だけではありません。拡張された�
 
 また、回路を残す設計は、音作りのアイデンティティを守る意味でも重要です。TR-808の価値は、単なるドラム音源ではなく、あの機種ならではの音の立ち上がりや質感にあります。TR-8oh8は、その核を尊重しながら、現代の制作環境で使いやすくする方向に舵を切ったアップグレードとして読むことができます。
 
-![展示されているRoland TR-808](https://kingsworksub-jpg.github.io/images/tubbutec-tr-8oh8/tr-808-mim.jpg)
+![展示されているRoland TR-808](https://kingsworksub-jpg.github.io/images/tubbutec-tr-8oh8/c2.jpg)
 
 *展示されているTR-808の外観*
 

@@ -995,7 +995,8 @@ def fill_body(page, body, tags, use_images, fast, img_scale=0):
                 # 画像は «Enter 1回» でよい。2 回だと図版の前に空 <p> が残る
                 # （2026-09-28 実測: Enter1回=0個 / Enter2回=1個）
                 new_paragraph(page, 1)
-            ok = use_images and paste_image(page, url)
+            # クリップボード競合などで1回目が失敗することがあるため、1回だけ再試行する。
+            ok = use_images and (paste_image(page, url) or paste_image(page, url))
             if ok:
                 if img_scale:
                     shrink_image(page, img_scale)
