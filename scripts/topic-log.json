@@ -4481,6 +4481,32 @@
    "note_key": null,
    "engine": "gemini",
    "at": "2026-11-28T20:22:12+09:00"
+  },
+  {
+   "id": "2026w48-023",
+   "category": "music",
+   "theme": "Andy Taylorが残したギター、Duran Duranの80年代の音作り",
+   "status": "rejected",
+   "reason": "oc_research failed due to source URL issues",
+   "at": "2026-11-28T21:41:52+09:00"
+  },
+  {
+   "id": "2026w48-025",
+   "category": "music",
+   "theme": "Tubbutec TR-8oh8がTR-808に何を足したか、名機の更新を読む",
+   "slug": "tubbutec-tr-8oh8-upgrade",
+   "status": "published",
+   "url": "https://kingsworksub-jpg.github.io/posts/tubbutec-tr-8oh8-upgrade/",
+   "platforms": [
+    "github"
+   ],
+   "canonical_platform": "github",
+   "canonical_url": "https://kingsworksub-jpg.github.io/posts/tubbutec-tr-8oh8-upgrade/",
+   "hatena_entry": null,
+   "note_key": null,
+   "ameba_entry": null,
+   "engine": "gemini",
+   "at": "2026-11-28T22:08:09+09:00"
   }
  ]
 }
