@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:42:33+09:00",
+ "updated": "2026-11-28T12:01:55+09:00",
  "items": [
   {
    "category": "gear",
@@ -15498,9 +15498,14 @@
     "total": 77
    },
    "id": "2026w48-002",
-   "status": "approved",
+   "status": "in_progress",
    "created": "2026-11-27",
-   "retry": 0
+   "retry": 0,
+   "claimed_at": "2026-11-28T12:01:55+09:00",
+   "channel": "hatena",
+   "content_dir": "tech",
+   "slot_time": "12:00",
+   "slot_label": "昼: テック/ソフト/制作環境"
   },
   {
    "category": "software",
