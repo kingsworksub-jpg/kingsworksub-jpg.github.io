@@ -1,0 +1,16 @@
+{
+ "/images/splice-create/img1.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Recording_studio_console_for_DAW_work_%282016-03-23_15.01.29_by_DayronV_%40pixabay_1290087%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Recording_studio_console_for_DAW_work_(2016-03-23_15.01.29_by_DayronV_@pixabay_1290087).jpg",
+  "license": "CC0",
+  "author": "Dayron Villaverde",
+  "title": ""
+ },
+ "/images/splice-create/img2.jpg": {
+  "download": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rendering_audio_on_Cubase%2C_%40Tom_America.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rendering_audio_on_Cubase,_@Tom_America.jpg",
+  "license": "CC BY 2.0",
+  "author": "Marco Raaphorst",
+  "title": ""
+ }
+}
